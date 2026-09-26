@@ -1,0 +1,37 @@
+seed: 0
+max_cases: 500
+sample_seconds: 10
+history_steps: 180
+horizon_steps: 30
+window_stride: 1
+train_fraction: 0.70
+validation_fraction: 0.15
+max_forward_fill_seconds: 60
+minimum_history_bis_coverage: 0.80
+minimum_action_coverage: 0.95
+minimum_target_bis_coverage: 0.90
+download_workers: 16
+model_dim: 64
+transformer_layers: 2
+transformer_heads: 4
+batch_size: 256
+learning_rate: 0.0005
+weight_decay: 0.0001
+epochs: 20
+patience: 5
+training_windows_per_epoch: 80000
+validation_stride: 6
+ridge_alpha: 100.0
+bootstrap_replicates: 1000
+time_shifts_seconds: [-120, -60, -30, 0, 30, 60, 120]
+dose_scales: [0.0, 0.5, 1.0, 1.5]
+future_action_policy_rssm: hold_last_observed
+targets: [BIS, MAP]
+decision_criteria:
+  good_forecasting: 'BIS full-horizon MAE <= 5 and >= 5% improvement over persistence; descriptive diagnostic threshold, not clinical adequacy'
+  useful_action_gain: '>= 5% MAE reduction versus state-only with patient-bootstrap CI excluding 0'
+  strong_ce: 'both CE R2 >= 0.5, and >= 0.1 above instantaneous-state control'
+  weak_ce: 'both CE R2 < 0.2 or no improvement over instantaneous-state control'
+  near_flat_timing: 'all absolute full-horizon relative degradations <= 0.02, assessed overall and at transitions'
+  substantial_wrong_action: 'MWAD / true MAE >= 0.05 with patient-bootstrap CI excluding 0'
+  evidence_floor: 'Underfitting, weak perturbation size, wide uncertainty or insufficient transitions preclude strong conclusions'

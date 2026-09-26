@@ -1,0 +1,70 @@
+{
+  "timestamp_utc": "2026-09-26T10:37:09.579803+00:00",
+  "stage": "before_forecast_training",
+  "configuration": {
+    "seed": 0,
+    "max_cases": 500,
+    "sample_seconds": 10,
+    "history_steps": 180,
+    "horizon_steps": 30,
+    "window_stride": 1,
+    "train_fraction": 0.7,
+    "validation_fraction": 0.15,
+    "max_forward_fill_seconds": 60,
+    "minimum_history_bis_coverage": 0.8,
+    "minimum_action_coverage": 0.95,
+    "minimum_target_bis_coverage": 0.9,
+    "download_workers": 16,
+    "model_dim": 64,
+    "transformer_layers": 2,
+    "transformer_heads": 4,
+    "batch_size": 256,
+    "learning_rate": 0.0005,
+    "weight_decay": 0.0001,
+    "epochs": 20,
+    "patience": 5,
+    "training_windows_per_epoch": 80000,
+    "validation_stride": 6,
+    "ridge_alpha": 100.0,
+    "bootstrap_replicates": 1000,
+    "time_shifts_seconds": [
+      -120,
+      -60,
+      -30,
+      0,
+      30,
+      60,
+      120
+    ],
+    "dose_scales": [
+      0.0,
+      0.5,
+      1.0,
+      1.5
+    ],
+    "future_action_policy_rssm": "hold_last_observed",
+    "targets": [
+      "BIS",
+      "MAP"
+    ],
+    "decision_criteria": {
+      "good_forecasting": "BIS full-horizon MAE <= 5 and >= 5% improvement over persistence; descriptive diagnostic threshold, not clinical adequacy",
+      "useful_action_gain": ">= 5% MAE reduction versus state-only with patient-bootstrap CI excluding 0",
+      "strong_ce": "both CE R2 >= 0.5, and >= 0.1 above instantaneous-state control",
+      "weak_ce": "both CE R2 < 0.2 or no improvement over instantaneous-state control",
+      "near_flat_timing": "all absolute full-horizon relative degradations <= 0.02, assessed overall and at transitions",
+      "substantial_wrong_action": "MWAD / true MAE >= 0.05 with patient-bootstrap CI excluding 0",
+      "evidence_floor": "Underfitting, weak perturbation size, wide uncertainty or insufficient transitions preclude strong conclusions"
+    }
+  },
+  "source_sha256": {
+    "src/prepare.py": "c82aaa1f5d442642922450d567006b1e4e424808c09de235832518699d2c8df5",
+    "src/core.py": "844d840c3e1d89a7a6730969cc18bf92d8737fd74bbef936b23c8b29e2480bcc",
+    "src/rate_validation.py": "337a6d5b62e46ea1eb01560ba3dcabdd496bb8f45b187a862f3efa744423216e",
+    "src/train.py": "abbef86b77dd0dc06d9a1a92a2dffe705a10201c24b220b88a51ef08ee16b039",
+    "src/evaluate.py": "9d6a61fc8d2e3c779b8aea0266e0f7cb5a3696c3f583e6b2b8f8dcac633fde67",
+    "src/checks.py": "0baf14383db16c8fb7e2dfb0945758bbf248480c91f7d800cc3968760a2fe02d",
+    "src/report.py": "ff36415f426bf7ec87f33ab96d72bf69da266601600fa8fd0a0bd2939722e31b",
+    "config.yaml": "b91e331ec0e98b9ffd4d76c0ae4af1edf9a056ce7969b73ee2c7560cf4617001"
+  }
+}

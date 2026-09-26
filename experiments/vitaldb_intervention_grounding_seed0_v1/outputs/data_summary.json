@@ -1,0 +1,89 @@
+{
+  "cohort_stages": {
+    "all_cases": 6388,
+    "adult_general_weight_duration": 4164,
+    "bis_both_ce": 2225,
+    "both_drug_administration_available": 2225,
+    "complete_plausible_demographics": 2225
+  },
+  "selected_before_qc": 500,
+  "included_cases": 495,
+  "included_patients": 493,
+  "excluded_cases": 5,
+  "splits": {
+    "train": {
+      "cases": 345,
+      "patients": 345,
+      "windows": 374521
+    },
+    "val": {
+      "cases": 74,
+      "patients": 73,
+      "windows": 80341
+    },
+    "test": {
+      "cases": 76,
+      "patients": 75,
+      "windows": 83992
+    }
+  },
+  "track_availability": {
+    "BIS/BIS": 2225,
+    "Solar8000/HR": 2225,
+    "Solar8000/ART_MBP": 1502,
+    "Solar8000/FEM_MBP": 72,
+    "Solar8000/NIBP_MBP": 1956,
+    "Orchestra/PPF20_RATE": 2225,
+    "Orchestra/RFTN20_RATE": 2225,
+    "Orchestra/PPF20_VOL": 2225,
+    "Orchestra/RFTN20_VOL": 2225,
+    "Orchestra/PPF20_CE": 2225,
+    "Orchestra/RFTN20_CE": 2225
+  },
+  "rate_allowed": [
+    true,
+    true
+  ],
+  "sampling_seconds": 10,
+  "history_steps": 180,
+  "horizon_steps": 30,
+  "waveform_downloads": 0,
+  "endpoint_bis_filters": "not applied: these select clinical outcomes rather than data quality",
+  "resampling": "latest past numeric observation; max age 60s; leading/long gaps remain NaN; explicit masks",
+  "drug_units": "mL per 10 seconds; direct RATE / 360 preferred, otherwise VOL differences",
+  "ce_role": "device-computed TCI reference only; excluded from model feature construction and training",
+  "api": "official numeric per-track CSV API; no full-case .vital/parquet requests",
+  "map_policy": "prefer arterial MAP with >=50% coverage; cuff MAP may enter history but never the MAP target",
+  "timeline": "common CSV case-relative time; metadata times used only for duration eligibility",
+  "files_sha256": {
+    "cases.csv": "d74684b4794b5095c32ca607ab5d6b1f8d04f888a607f4fd48470c8ffe885a0b",
+    "trks.csv": "82b31333be20ca912ded93f46bf3ae42db281da40515a9945acc57749da9ffd0",
+    "track_names.csv": "31c431642f91153461724375c05309d251ea63f206f3aeaed782ea4b9817400c"
+  },
+  "actual_action_track_pairs": {
+    "Orchestra/PPF20_RATE, Orchestra/RFTN20_RATE": 489,
+    "Orchestra/PPF20_VOL, Orchestra/RFTN20_VOL": 4,
+    "Orchestra/PPF20_VOL, Orchestra/RFTN20_RATE": 2
+  },
+  "actual_map_sources": {
+    "Solar8000/ART_MBP": 335,
+    "Solar8000/NIBP_MBP": 157,
+    "Solar8000/FEM_MBP": 3
+  },
+  "exclusion_reasons": {
+    "fewer_than_30_valid_windows": 2,
+    "recording_shorter_than_35_minutes": 1,
+    "PPF20_no_substantial_infusion": 2
+  },
+  "mean_full_case_state_coverage": [
+    0.9204549908151951,
+    0.9502689840183469,
+    0.9125601735437525
+  ],
+  "mean_full_case_action_coverage": [
+    0.9448064424982905,
+    0.9446473117942846
+  ],
+  "numeric_track_files": 3617,
+  "downloaded_csv_bytes": 1333995678
+}

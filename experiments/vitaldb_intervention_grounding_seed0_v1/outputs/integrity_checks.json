@@ -1,0 +1,25 @@
+{
+  "patient_split_disjoint": true,
+  "ce_mutation_no_input_effect": true,
+  "future_state_and_action_no_input_effect": true,
+  "no_backward_fill_or_long_gap_interpolation": true,
+  "shift_sign_padding_no_wrap": true,
+  "zero_means_physical_zero": true,
+  "models_shapes_and_backward": true,
+  "state_model_action_independent": true,
+  "feature_allowlist": [
+    "past_BIS_HR_MAP",
+    "past_drug_administration",
+    "demographics",
+    "availability_masks"
+  ],
+  "forbidden_features": [
+    "CE",
+    "CP",
+    "CT",
+    "future_states",
+    "future_actions",
+    "caseid",
+    "subjectid"
+  ]
+}

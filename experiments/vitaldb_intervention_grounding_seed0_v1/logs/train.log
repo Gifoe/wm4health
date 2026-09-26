@@ -1,0 +1,39 @@
+/root/experiments/vitaldb_intervention_grounding_seed0_v1/src/core.py:59: RuntimeWarning: All-NaN slice encountered
+  med[5:]=np.nanmedian(sliding_window_view(a,6,axis=0),axis=-1)
+{"model": "State-only", "epoch": 1, "train_loss": 0.3357535042285919, "val_bis_mae": 4.347914639926649, "val_map_mae": 5.806003930616647, "elapsed_seconds": 10.916091680526733}
+{"model": "State-only", "epoch": 2, "train_loss": 0.30702283668518066, "val_bis_mae": 4.282612139266178, "val_map_mae": 5.721971527926364, "elapsed_seconds": 21.382547855377197}
+{"model": "State-only", "epoch": 3, "train_loss": 0.30326215467453005, "val_bis_mae": 4.287471138380369, "val_map_mae": 5.631649661232883, "elapsed_seconds": 32.506407022476196}
+{"model": "State-only", "epoch": 4, "train_loss": 0.3015409133434296, "val_bis_mae": 4.245267044041773, "val_map_mae": 5.762380040874247, "elapsed_seconds": 44.07629203796387}
+{"model": "State-only", "epoch": 5, "train_loss": 0.2976236499786377, "val_bis_mae": 4.275071782534034, "val_map_mae": 5.621382096159148, "elapsed_seconds": 54.978384494781494}
+{"model": "State-only", "epoch": 6, "train_loss": 0.29727559785842894, "val_bis_mae": 4.257847708942003, "val_map_mae": 5.647540002126777, "elapsed_seconds": 65.52707934379578}
+{"model": "State-only", "epoch": 7, "train_loss": 0.2963889011859894, "val_bis_mae": 4.252200753131411, "val_map_mae": 5.591816791037291, "elapsed_seconds": 76.58420610427856}
+{"model": "State-only", "epoch": 8, "train_loss": 0.2923335248470306, "val_bis_mae": 4.275133050949525, "val_map_mae": 5.6189012355497425, "elapsed_seconds": 88.26052331924438}
+{"model": "State-only", "epoch": 9, "train_loss": 0.29272079410552976, "val_bis_mae": 4.266561077073103, "val_map_mae": 5.684343586955627, "elapsed_seconds": 100.52625370025635}
+TRAINED {"model": "State-only", "parameters": 103612, "best_epoch": 4, "epochs_run": 9, "best_validation_bis_mae": 4.245267044041773, "train_windows_available": 374521, "train_windows_per_epoch": 80000, "seconds": 100.53295397758484, "device": "cuda"}
+{"model": "Action Transformer", "epoch": 1, "train_loss": 0.3175005264759064, "val_bis_mae": 4.137953789841953, "val_map_mae": 5.827253111215807, "elapsed_seconds": 11.568275928497314}
+{"model": "Action Transformer", "epoch": 2, "train_loss": 0.2765215124130249, "val_bis_mae": 4.132122239618947, "val_map_mae": 5.643766891101275, "elapsed_seconds": 22.651609897613525}
+{"model": "Action Transformer", "epoch": 3, "train_loss": 0.27093665742874146, "val_bis_mae": 4.004219240496985, "val_map_mae": 5.630191711186695, "elapsed_seconds": 33.360652923583984}
+{"model": "Action Transformer", "epoch": 4, "train_loss": 0.26595740151405334, "val_bis_mae": 4.025357713137938, "val_map_mae": 5.653053385202361, "elapsed_seconds": 44.72024393081665}
+{"model": "Action Transformer", "epoch": 5, "train_loss": 0.2663700361251831, "val_bis_mae": 4.00715637529527, "val_map_mae": 5.574717530124634, "elapsed_seconds": 56.429495096206665}
+{"model": "Action Transformer", "epoch": 6, "train_loss": 0.26412099957466123, "val_bis_mae": 4.006396716875427, "val_map_mae": 5.57975861171317, "elapsed_seconds": 68.18629670143127}
+{"model": "Action Transformer", "epoch": 7, "train_loss": 0.2593425759077072, "val_bis_mae": 4.043788142211102, "val_map_mae": 5.59548888977326, "elapsed_seconds": 79.94472122192383}
+{"model": "Action Transformer", "epoch": 8, "train_loss": 0.25733666963577273, "val_bis_mae": 4.024324765338472, "val_map_mae": 5.554870441122465, "elapsed_seconds": 91.56060576438904}
+TRAINED {"model": "Action Transformer", "parameters": 103868, "best_epoch": 3, "epochs_run": 8, "best_validation_bis_mae": 4.004219240496985, "train_windows_available": 374521, "train_windows_per_epoch": 80000, "seconds": 91.57010555267334, "device": "cuda"}
+{"model": "RSSM", "epoch": 1, "train_loss": 0.3635880679607391, "val_bis_mae": 4.09684745446634, "val_map_mae": 6.419348936527649, "elapsed_seconds": 17.81793189048767}
+{"model": "RSSM", "epoch": 2, "train_loss": 0.314926056098938, "val_bis_mae": 4.0306759679788025, "val_map_mae": 5.958915683074914, "elapsed_seconds": 34.303693771362305}
+{"model": "RSSM", "epoch": 3, "train_loss": 0.2780269673347473, "val_bis_mae": 4.006849431023498, "val_map_mae": 5.698208877843247, "elapsed_seconds": 50.9805965423584}
+{"model": "RSSM", "epoch": 4, "train_loss": 0.2721999086380005, "val_bis_mae": 3.981422266426307, "val_map_mae": 5.680336748992931, "elapsed_seconds": 67.22638750076294}
+{"model": "RSSM", "epoch": 5, "train_loss": 0.2737444664955139, "val_bis_mae": 3.9786617882451667, "val_map_mae": 5.627925580852007, "elapsed_seconds": 82.9790871143341}
+{"model": "RSSM", "epoch": 6, "train_loss": 0.27064229760169983, "val_bis_mae": 4.033696807787344, "val_map_mae": 5.6596294803770695, "elapsed_seconds": 98.2285327911377}
+{"model": "RSSM", "epoch": 7, "train_loss": 0.26813845262527464, "val_bis_mae": 3.9780669076738984, "val_map_mae": 5.770686601970111, "elapsed_seconds": 112.62725591659546}
+{"model": "RSSM", "epoch": 8, "train_loss": 0.2644857157230377, "val_bis_mae": 3.999536055413533, "val_map_mae": 5.6325927244148914, "elapsed_seconds": 126.17646336555481}
+{"model": "RSSM", "epoch": 9, "train_loss": 0.2619262278079987, "val_bis_mae": 3.9873303147533723, "val_map_mae": 5.593896511699077, "elapsed_seconds": 140.41433429718018}
+{"model": "RSSM", "epoch": 10, "train_loss": 0.2626019522190094, "val_bis_mae": 3.977743339925095, "val_map_mae": 5.507837268471848, "elapsed_seconds": 155.9940037727356}
+{"model": "RSSM", "epoch": 11, "train_loss": 0.26042709918022156, "val_bis_mae": 3.9650283978328775, "val_map_mae": 5.523872327319551, "elapsed_seconds": 172.34959936141968}
+{"model": "RSSM", "epoch": 12, "train_loss": 0.26269617247581484, "val_bis_mae": 3.969798053649686, "val_map_mae": 5.5660834755042545, "elapsed_seconds": 186.34654808044434}
+{"model": "RSSM", "epoch": 13, "train_loss": 0.25813296475410463, "val_bis_mae": 3.9822250230193634, "val_map_mae": 5.508463057334014, "elapsed_seconds": 199.7368061542511}
+{"model": "RSSM", "epoch": 14, "train_loss": 0.25808821716308594, "val_bis_mae": 3.976630324563312, "val_map_mae": 5.52725948897676, "elapsed_seconds": 213.8499641418457}
+{"model": "RSSM", "epoch": 15, "train_loss": 0.25576652679443357, "val_bis_mae": 3.984782690409958, "val_map_mae": 5.519257240944608, "elapsed_seconds": 227.53185868263245}
+{"model": "RSSM", "epoch": 16, "train_loss": 0.2550337493419647, "val_bis_mae": 3.99727150125101, "val_map_mae": 5.497172018338891, "elapsed_seconds": 241.49232625961304}
+TRAINED {"model": "RSSM", "parameters": 58946, "best_epoch": 11, "epochs_run": 16, "best_validation_bis_mae": 3.9650283978328775, "train_windows_available": 374521, "train_windows_per_epoch": 80000, "seconds": 241.49899411201477, "device": "cuda"}
+TRAINING_COMPLETE

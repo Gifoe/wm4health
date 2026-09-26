@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+remote_session.py
+*.part
+experiments/*/data/cases/
+experiments/*/data/raw/*.csv
+!experiments/*/data/raw/cases.csv
+!experiments/*/data/raw/trks.csv
+!experiments/*/data/raw/track_names.csv
+experiments/*/outputs/*.npy
+experiments/*/outputs/*.npz
+!experiments/*/outputs/probe_*.npz
+experiments/*/*_results.zip

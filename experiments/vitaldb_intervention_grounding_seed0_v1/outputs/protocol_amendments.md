@@ -1,0 +1,7 @@
+# Protocol clarifications before held-out model evaluation
+
+- During implementation, before training, arterial MAP was prioritized and noninvasive cuff MAP was excluded from MAP targets because repeated numeric publication may preserve an old cuff measurement. Cuff MAP can remain a historical covariate.
+- During forecast training, before any held-out model evaluation, event initiation/stop definitions were tightened to require a genuinely zero one-minute median on the off side (numerical tolerance 1e-6 mL/10s), and a positive median exceeding the training positive-rate 10th percentile on the on side. Ongoing increases/decreases require both medians to be positive and a magnitude exceeding the predeclared training 75th-percentile threshold. This avoids labeling a low but nonzero infusion as stopped. Event labels never affect forecast training or model selection. Magnitude thresholds and model/probe settings were unchanged.
+- Two supplemental linear probe controls add the four demographic variables to the requested physiology-only and drug-history-only controls. These were implemented before forecasting training and control a direct information advantage of model latents. The requested two controls remain intact.
+
+No held-out performance result was used for these clarifications. `protocol_freeze.json` preserves the first pretraining source hashes; the final source manifest records the delivered code.

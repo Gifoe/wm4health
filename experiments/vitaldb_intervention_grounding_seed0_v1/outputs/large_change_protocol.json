@@ -1,0 +1,44 @@
+{
+  "timestamp_utc": "2026-09-26T10:50:50.444153+00:00",
+  "status": "supplementary protocol added after inspecting initial Transformer timing results",
+  "reason": "initial upper-quartile nonzero changes were about 0.35 mL/h and include micro-adjustments",
+  "definition": "max(original change threshold, half IQR of positive TRAIN rates); zero crossings unchanged",
+  "thresholds_ml_per_10s": [
+    {
+      "original_change": 0.0009763911366462708,
+      "positive_rate_quantiles_10_25_50_75_90": [
+        0.035172220319509506,
+        0.044877778738737106,
+        0.0556027777493,
+        0.06933332979679108,
+        0.08734472319483767
+      ],
+      "on": 0.035172220319509506,
+      "large_change": 0.012227775529026985
+    },
+    {
+      "original_change": 0.0009416788816452026,
+      "positive_rate_quantiles_10_25_50_75_90": [
+        0.0353027768433094,
+        0.049549996852874756,
+        0.06622777879238129,
+        0.08659514039754868,
+        0.11007471904158599
+      ],
+      "on": 0.0353027768433094,
+      "large_change": 0.01852257177233696
+    }
+  ],
+  "n_test_windows": 18364,
+  "n_test_patients": 75,
+  "n_test_cases": 76,
+  "kind_window_counts": {
+    "0": 65628,
+    "1": 4119,
+    "2": 3005,
+    "3": 10560,
+    "4": 680
+  },
+  "no_model_or_probe_refitting": true,
+  "original_results_retained": true
+}

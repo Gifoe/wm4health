@@ -1,0 +1,26 @@
+/root/experiments/vitaldb_intervention_grounding_seed0_v1/src/core.py:59: RuntimeWarning: All-NaN slice encountered
+  med[5:]=np.nanmedian(sliding_window_view(a,6,axis=0),axis=-1)
+PROBE_CONTROL Current physiology
+PROBE_CONTROL Raw drug history
+PROBE_CONTROL Physiology + demographics
+PROBE_CONTROL Drug history + demographics
+AUDIT_MODEL State-only
+AUDIT_MODEL Action Transformer
+FROZEN_LATENTS_TRAIN Action Transformer
+TIMING Action Transformer -120
+TIMING Action Transformer -60
+TIMING Action Transformer -30
+TIMING Action Transformer 0
+TIMING Action Transformer 30
+TIMING Action Transformer 60
+TIMING Action Transformer 120
+AUDIT_MODEL RSSM
+FROZEN_LATENTS_TRAIN RSSM
+TIMING RSSM -120
+TIMING RSSM -60
+TIMING RSSM -30
+TIMING RSSM 0
+TIMING RSSM 30
+TIMING RSSM 60
+TIMING RSSM 120
+EVALUATION_COMPLETE
