@@ -1,5 +1,18 @@
 # wm4health
 
+## Round 2 — Prospective administration schedules
+
+The [prospective-action diagnostic](experiments/vitaldb_prospective_action_seed0_v1/outputs/FINAL_REPORT.md) asks whether a compact RSSM trained with the next five minutes of propofol and remifentanil administration can use that future schedule to predict BIS. It reuses the first experiment's cohort and patient splits and trains a matched historical-action RSSM, a prospective-action RSSM, and two direct supervised informativeness controls. Future physiology and TCI CE do not enter forecasting inputs or losses.
+
+**Result: Outcome C — a prospective controllability gap was not supported.** In 83,198 complete-future-action test windows from 74 patients, the prospective model's patient-weighted full-trajectory BIS MAE was 4.311 with actual future administration and 4.368 when the same model held the current action. The paired Future Action Value was 0.057 (95% patient-bootstrap CI 0.037–0.080), increasing to 0.185 in the highest train-defined schedule-divergence quartile. A matched wrong future schedule raised error by 0.098 overall (CI 0.047–0.140). One original test patient had no complete future-action window; the 75-patient test split itself was unchanged. These observational comparisons do not identify causal treatment effects.
+
+The largest gains depend on brief high-rate administration episodes. A post-diagnostic sensitivity analysis excluding windows above train-derived rate-tail cutoffs substantially reduces FAV; the direct supervised informativeness control loses its gain on the same restricted windows. See the report before interpreting the outcome.
+
+- [Final Round-2 report](experiments/vitaldb_prospective_action_seed0_v1/outputs/FINAL_REPORT.md)
+- [Main table](experiments/vitaldb_prospective_action_seed0_v1/outputs/main_table.csv) · [Paired comparisons](experiments/vitaldb_prospective_action_seed0_v1/outputs/paired_comparisons.csv) · [Direct-control information value](experiments/vitaldb_prospective_action_seed0_v1/outputs/future_action_informativeness.csv)
+- [Future-action divergence](experiments/vitaldb_prospective_action_seed0_v1/outputs/future_action_divergence_metrics.csv) · [Prospective-event metrics](experiments/vitaldb_prospective_action_seed0_v1/outputs/large_transition_metrics.csv)
+- [Code](experiments/vitaldb_prospective_action_seed0_v1/src) · [Configuration](experiments/vitaldb_prospective_action_seed0_v1/config.yaml) · [Figures](experiments/vitaldb_prospective_action_seed0_v1/plots)
+
 ## VitalDB intervention-grounding diagnostic — seed 0
 
 第一轮实验的代码与结果。研究问题：准确预测未来生理状态，是否仍可能没有学到药物暴露与给药时序信息？

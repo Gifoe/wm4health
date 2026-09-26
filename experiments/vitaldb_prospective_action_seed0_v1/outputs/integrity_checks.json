@@ -1,0 +1,14 @@
+{
+  "patient_splits_disjoint": true,
+  "same_round1_caseids_and_normalization": true,
+  "future_action_starts_at_t_plus_1": true,
+  "future_action_from_action_channels_only": true,
+  "ce_mutation_no_forecast_feature_or_target_effect": true,
+  "future_physiology_mutation_no_input_effect": true,
+  "target_mutation_no_prediction_effect": true,
+  "hold_ignores_future_action": true,
+  "true_responds_to_future_action": true,
+  "forecast_loss_uses_only_BIS_MAP": true,
+  "normalization_train_only_inherited": true,
+  "parameter_count_each": 58946
+}

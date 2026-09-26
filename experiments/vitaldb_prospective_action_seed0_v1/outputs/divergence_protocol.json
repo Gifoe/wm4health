@@ -1,0 +1,20 @@
+{
+  "train_quantile_boundaries": [
+    0.014645308256149292,
+    0.025655917823314667,
+    0.48343008756637573
+  ],
+  "train_windows_with_defined_current_and_future_action": 370557,
+  "scale_train_raw_action_sd": [
+    0.08849398791790009,
+    0.08466942608356476
+  ],
+  "zero_fraction_test": 0.03179162960648092,
+  "bin_counts": {
+    "Q1": 21772,
+    "Q2": 20468,
+    "Q3": 19963,
+    "Q4": 20995
+  },
+  "definition": "RMS over 30x2 physical actions, divided by train action SD; zero ties assigned lower bin"
+}
