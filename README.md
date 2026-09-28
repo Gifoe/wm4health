@@ -1,5 +1,14 @@
 # wm4health
 
+## Round 6 — Physiological grounding audit
+
+The [sixth diagnostic report](experiments/vitaldb_physiological_grounding_audit_seed0_v1/outputs/FINAL_REPORT.md) freezes the original prospective RSSM and probes its current and predicted latent transitions against BIS, MAP and HR change. All TRAIN/VAL/TEST latent trajectories are extracted without training a new world model; device-computed TCI CE is a secondary reference only.
+
+**Result: qualified Outcome A.** Current latent R² for BIS/MAP/HR is 0.986/0.924/0.983. At 300 seconds, predicted latent displacement yields change R² 0.374/0.083/0.356; a small nonlinear probe reaches 0.382/0.126/0.386. Predicted BIS response-order triplet accuracy is 0.543 versus 0.718 for factual-anchor displacement. This supports a broad transition-geometry gap. The predicted-vs-factual gap narrows with horizon and is not disproportionately worse during intervention changes. Factual-anchor states include observed endpoint physiology, so their strong scores cannot by themselves establish rollout drift or a causal mechanism.
+
+- [Report](experiments/vitaldb_physiological_grounding_audit_seed0_v1/outputs/FINAL_REPORT.md) · [Configuration](experiments/vitaldb_physiological_grounding_audit_seed0_v1/config.yaml) · [Code](experiments/vitaldb_physiological_grounding_audit_seed0_v1/src) · [Figures](experiments/vitaldb_physiological_grounding_audit_seed0_v1/plots)
+- [Scorecard](experiments/vitaldb_physiological_grounding_audit_seed0_v1/outputs/main_grounding_scorecard.csv) · [Metrics and probe checkpoints](experiments/vitaldb_physiological_grounding_audit_seed0_v1/outputs) · [Integrity checks](experiments/vitaldb_physiological_grounding_audit_seed0_v1/outputs/integrity_checks.json)
+
 ## Round 5 — Multi-horizon headroom audit
 
 The [fifth diagnostic report](experiments/vitaldb_multihorizon_headroom_seed0_v1/outputs/FINAL_REPORT.md) asks whether direct horizon-conditioned prediction has a growing advantage over the unchanged recursive prospective RSSM. It reuses the exact VitalDB cohort and split, reproduces the seed-0 AR predictions exactly, and trains two compact direct controls on the original training-window schedules.

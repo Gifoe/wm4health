@@ -1,0 +1,14 @@
+seed: 0
+source_experiment: ../vitaldb_prospective_action_seed0_v1
+history_steps: 180
+forecast_steps: 30
+horizons: [3, 6, 18, 30]
+batch_size: 512
+ridge_alpha_grid: [0.1, 10.0, 1000.0]
+bootstrap_replicates: 1000
+geometry_windows_per_patient: 40
+geometry_pairs_per_group_per_patient: 30
+ordering_triplets_per_patient: 60
+nonlinear_train_windows: 60000
+nonlinear_max_epochs: 18
+nonlinear_patience: 3

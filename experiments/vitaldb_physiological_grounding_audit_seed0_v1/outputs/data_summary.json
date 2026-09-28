@@ -1,0 +1,24 @@
+{
+  "cases": 495,
+  "patients": 493,
+  "case_splits": {
+    "train": 345,
+    "val": 74,
+    "test": 76
+  },
+  "subject_splits": {
+    "train": 345,
+    "val": 73,
+    "test": 75
+  },
+  "eligible_windows": {
+    "train": 370566,
+    "val": 79574,
+    "test": 83198
+  },
+  "test_patients": 74,
+  "sample_seconds": 10,
+  "history_steps": 180,
+  "forecast_steps": 30,
+  "ce_reference_type": "device-computed TCI"
+}
