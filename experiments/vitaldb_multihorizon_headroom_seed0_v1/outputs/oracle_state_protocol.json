@@ -1,0 +1,18 @@
+{
+  "name": "Oracle-State Transition Audit",
+  "steps": [
+    3,
+    6,
+    18,
+    30
+  ],
+  "factual_anchor_for_step_h": "t+h-1",
+  "history_last_index": "t+h-1",
+  "next_action_index": "t+h",
+  "predicted_target_index": "t+h",
+  "future_BIS_or_MAP_beyond_anchor_in_input": false,
+  "non_deployable": true,
+  "important_limit": "RP includes the value of factual state at the later anchor; it is not an isolated latent-recursion effect",
+  "latent_reset_control": "replaces only factual latent while retaining original t BIS/MAP residual baseline",
+  "eligibility": "factual anchor and target must have fresh measurement for each endpoint"
+}

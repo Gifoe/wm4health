@@ -1,5 +1,14 @@
 # wm4health
 
+## Round 5 — Multi-horizon headroom audit
+
+The [fifth diagnostic report](experiments/vitaldb_multihorizon_headroom_seed0_v1/outputs/FINAL_REPORT.md) asks whether direct horizon-conditioned prediction has a growing advantage over the unchanged recursive prospective RSSM. It reuses the exact VitalDB cohort and split, reproduces the seed-0 AR predictions exactly, and trains two compact direct controls on the original training-window schedules.
+
+**Result: qualified Outcome B.** Direct-MH's paired BIS MAE advantage grows from 0.017 at 30 seconds to 0.104 at 300 seconds (95% patient-bootstrap CI 0.034–0.187); Direct-Traj also gains 0.060 at 300 seconds. Both use future actions. The improvement is not clearly stronger in high-divergence or upcoming intervention windows. Oracle-State uses later factual physiology, so its large error gap does not isolate recursive drift. The original RSSM already used a full-trajectory training loss; a one-step-objective mismatch is not demonstrated. This supports modest direct-formulation headroom, not a claim that recursive drift has been solved.
+
+- [Report](experiments/vitaldb_multihorizon_headroom_seed0_v1/outputs/FINAL_REPORT.md) · [Configuration](experiments/vitaldb_multihorizon_headroom_seed0_v1/config.yaml) · [Code](experiments/vitaldb_multihorizon_headroom_seed0_v1/src) · [Figures](experiments/vitaldb_multihorizon_headroom_seed0_v1/plots)
+- [Metrics and checkpoints](experiments/vitaldb_multihorizon_headroom_seed0_v1/outputs) · [Integrity checks](experiments/vitaldb_multihorizon_headroom_seed0_v1/outputs/integrity_checks.json) · [Completion checks](experiments/vitaldb_multihorizon_headroom_seed0_v1/outputs/completion_checks.json)
+
 ## Round 4 — Controlled intervention-support shift
 
 The [fourth diagnostic report](experiments/vitaldb_intervention_support_shift_seed0_v1/outputs/FINAL_REPORT.md) withholds four historical-state × future-drug-action combinations from training a five-seed prospective RSSM ensemble. It compares Full Support (F), Low Support (L), Zero Support (Z), and a matched Random Removal control (R) on the same factual VitalDB test windows. The cohort and patient split are unchanged from earlier rounds.
