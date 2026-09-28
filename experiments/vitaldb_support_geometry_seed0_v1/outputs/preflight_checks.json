@@ -1,0 +1,28 @@
+{
+  "subject_splits_disjoint": true,
+  "case_counts": {
+    "train": 345,
+    "val": 74,
+    "test": 76
+  },
+  "window_counts": {
+    "train": 370566,
+    "val": 79574,
+    "test": 83198
+  },
+  "ce_and_future_physiology_mutation_does_not_change_model_inputs": true,
+  "target_mutation_does_not_change_predictions_or_latents": true,
+  "geometry_feature_allowlist": [
+    "history_state",
+    "history_action",
+    "demographics",
+    "future_action",
+    "predicted_latent"
+  ],
+  "geometry_excludes": [
+    "future_BIS",
+    "future_MAP",
+    "TCI_CE"
+  ],
+  "seed0_parameters": 58946
+}

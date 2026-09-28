@@ -1,0 +1,33 @@
+{
+  "best_geometry_chosen_on_val_ap": "D_state_knn",
+  "validation_ap": {
+    "D_state_knn": 0.35300498290947324,
+    "D_state_mahalanobis": 0.3414625319721699,
+    "D_action": 0.29241215493903006,
+    "D_joint_knn": 0.31776641793629046,
+    "D_joint_mahalanobis": 0.33774580959238615,
+    "D_cond": 0.28297118520325476,
+    "D_perp": 0.3077797243397332
+  },
+  "validation_high_error_threshold": 4.980871677398682,
+  "test_high_error_thresholds": {
+    "top20": 5.426597595214844,
+    "top10": 7.037601947784424
+  },
+  "ensemble_variance": "population variance ddof=0 across 5 physical BIS predictions at each h; full score mean over 30 h",
+  "equal_patient_weight": "each window weight inverse number of eligible windows in its patient; patient bootstrap resamples 74 patients",
+  "risk_coverage": "thresholds by TEST score rank for descriptive curve, no outcome tuning; selective rollout thresholds VAL only",
+  "risk_targets_validation": [
+    3.5,
+    4.0,
+    4.5,
+    5.0
+  ],
+  "logistic_coefficients": [
+    [
+      0.26419377711523023,
+      0.420652491631203
+    ]
+  ],
+  "score_order": "lower is trusted, except combined probability also lower is trusted"
+}

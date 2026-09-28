@@ -1,0 +1,18 @@
+seeds: [0, 1, 2, 3, 4]
+source_experiment: ../vitaldb_prospective_action_seed0_v1
+reference_seed: 0
+sample_seconds: 10
+history_steps: 180
+horizon_steps: 30
+batch_size: 256
+learning_rate: 0.0005
+weight_decay: 0.0001
+epochs: 20
+patience: 5
+training_windows_per_epoch: 80000
+validation_stride: 6
+bootstrap_replicates: 1000
+knn_k: 20
+conditional_k: [20, 50, 100]
+local_pca_variance: 0.90
+coverage: [1.0, 0.95, 0.90, 0.80, 0.70, 0.60, 0.50]

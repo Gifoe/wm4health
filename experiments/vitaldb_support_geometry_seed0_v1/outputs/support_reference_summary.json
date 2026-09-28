@@ -1,0 +1,57 @@
+{
+  "train_bank_windows": 370566,
+  "state_dim": 64,
+  "action_flat_dim": 60,
+  "action_summary_dim": 14,
+  "joint_dim": 78,
+  "knn_k": 20,
+  "faiss_index": "IVFFlat nlist=256 nprobe=24",
+  "distance": "Euclidean after TRAIN fitted clipping/normalization; kNN is 20th neighbor distance",
+  "joint_block_normalization": "state and summary each divided by sqrt(block dimension)",
+  "mahalanobis_shrinkage": 0.05,
+  "conditional_k_validation_ap": {
+    "20": 0.28285306114648234,
+    "50": 0.2820237559690459,
+    "100": 0.28297118520325476
+  },
+  "conditional_k_chosen": 100,
+  "approximate_index_validation_audit": {
+    "state": {
+      "recall_at_20": 0.9964843750000001,
+      "median_relative_20th_distance_error": 0.0
+    },
+    "flat": {
+      "recall_at_20": 0.98515625,
+      "median_relative_20th_distance_error": 0.0
+    },
+    "joint": {
+      "recall_at_20": 0.9976562499999999,
+      "median_relative_20th_distance_error": 0.0
+    }
+  },
+  "local_pca_variance": 0.9,
+  "local_pca_neighbors": 20,
+  "diagnostics": {
+    "val": {
+      "n": 79574,
+      "tangent_dimension_median": 6.0,
+      "tangent_dimension_q10_q90": [
+        4.0,
+        8.0
+      ],
+      "local_radius_median": 0.4493369460105896
+    },
+    "test": {
+      "n": 83198,
+      "tangent_dimension_median": 6.0,
+      "tangent_dimension_q10_q90": [
+        4.0,
+        7.0
+      ],
+      "local_radius_median": 0.45475950837135315
+    }
+  },
+  "random_control": "independent Gaussian replacement of 64-d latent, fixed seed31; rotation omitted because Euclidean is invariant",
+  "no_test_future_outcome_or_ce_used": true,
+  "conditional_selection_equal_patient_weight": true
+}

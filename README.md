@@ -1,5 +1,14 @@
 # wm4health
 
+## Round 3 — Training-support geometry and rollout reliability
+
+The [third diagnostic report](experiments/vitaldb_support_geometry_seed0_v1/outputs/FINAL_REPORT.md) tests whether training-support geometry predicts factual BIS rollout error for held-out patient–intervention queries. It reuses the exact VitalDB cohort and prospective RSSM, trains a five-seed ensemble, and compares state, action, joint, conditional and local tangent support with ensemble uncertainty on 83,198 windows from 74 effective test patients.
+
+**Result: Outcome B — Partial support.** Learned-state kNN distance is associated with error (patient-weighted Spearman 0.292, 95% patient-bootstrap CI 0.215–0.360), but ensemble variance performs better on high-error detection (AUROC/AUPRC 0.705/0.428 versus 0.691/0.367). Conditional action support is weak, and adding the best validation-selected geometry to ensemble variance does not improve test AUROC or risk–coverage. The stronger patient–intervention geometry and support-aware cutoff claims are not established.
+
+- [Final Round-3 report](experiments/vitaldb_support_geometry_seed0_v1/outputs/FINAL_REPORT.md) · [Main trust table](experiments/vitaldb_support_geometry_seed0_v1/outputs/main_trust_table.csv) · [Per-window support scores](experiments/vitaldb_support_geometry_seed0_v1/outputs/support_scores.csv)
+- [Code](experiments/vitaldb_support_geometry_seed0_v1/src) · [Configuration](experiments/vitaldb_support_geometry_seed0_v1/config.yaml) · [Figures](experiments/vitaldb_support_geometry_seed0_v1/plots) · [Checks](experiments/vitaldb_support_geometry_seed0_v1/outputs/completion_checks.json)
+
 ## Round 2 — Prospective administration schedules
 
 The [prospective-action diagnostic](experiments/vitaldb_prospective_action_seed0_v1/outputs/FINAL_REPORT.md) asks whether a compact RSSM trained with the next five minutes of propofol and remifentanil administration can use that future schedule to predict BIS. It reuses the first experiment's cohort and patient splits and trains a matched historical-action RSSM, a prospective-action RSSM, and two direct supervised informativeness controls. Future physiology and TCI CE do not enter forecasting inputs or losses.
