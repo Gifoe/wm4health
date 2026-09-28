@@ -1,0 +1,8 @@
+{
+  "target_windows": 4105,
+  "target_patients": 59,
+  "same_test_windows_all_conditions": true,
+  "calibration_fit_split": "VAL_trainlike only",
+  "risk_calibrator": "isotonic regression, per condition, equal-patient weighted",
+  "error_and_uncertainty": "full BIS trajectory MAE; population variance across five physical predictions, averaged over 30 steps"
+}

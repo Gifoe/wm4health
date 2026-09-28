@@ -1,5 +1,14 @@
 # wm4health
 
+## Round 4 — Controlled intervention-support shift
+
+The [fourth diagnostic report](experiments/vitaldb_intervention_support_shift_seed0_v1/outputs/FINAL_REPORT.md) withholds four historical-state × future-drug-action combinations from training a five-seed prospective RSSM ensemble. It compares Full Support (F), Low Support (L), Zero Support (Z), and a matched Random Removal control (R) on the same factual VitalDB test windows. The cohort and patient split are unchanged from earlier rounds.
+
+**Result: Outcome C — the intervention-support reliability gap is not supported.** On 4,105 target windows from 59 test patients, Z−F BIS trajectory MAE is +0.006 (95% patient-bootstrap CI −0.048 to +0.058); Z−R is −0.003 (CI −0.034 to +0.027). The calibrated support gap is not positive. Low-variance/high-error prevalence rises by 1.978 percentage points versus F, but its difference versus R is inconclusive; it does not establish support-specific overconfidence. The experiment evaluates factual outcomes, not treatment counterfactuals.
+
+- [Report](experiments/vitaldb_intervention_support_shift_seed0_v1/outputs/FINAL_REPORT.md) · [Configuration](experiments/vitaldb_intervention_support_shift_seed0_v1/config.yaml) · [Code](experiments/vitaldb_intervention_support_shift_seed0_v1/src) · [Run scripts](experiments/vitaldb_intervention_support_shift_seed0_v1/scripts)
+- [Results](experiments/vitaldb_intervention_support_shift_seed0_v1/outputs) · [Seven figures](experiments/vitaldb_intervention_support_shift_seed0_v1/plots) · [Completion checks](experiments/vitaldb_intervention_support_shift_seed0_v1/outputs/completion_checks.json) · [Protocol amendments](experiments/vitaldb_intervention_support_shift_seed0_v1/outputs/protocol_amendments.md)
+
 ## Round 3 — Training-support geometry and rollout reliability
 
 The [third diagnostic report](experiments/vitaldb_support_geometry_seed0_v1/outputs/FINAL_REPORT.md) tests whether training-support geometry predicts factual BIS rollout error for held-out patient–intervention queries. It reuses the exact VitalDB cohort and prospective RSSM, trains a five-seed ensemble, and compares state, action, joint, conditional and local tangent support with ensemble uncertainty on 83,198 windows from 74 effective test patients.

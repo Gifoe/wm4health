@@ -1,0 +1,46 @@
+{
+  "thresholds": {
+    "test_blocks": 100,
+    "val_blocks": 50,
+    "train_blocks": 200,
+    "train_patients": 30,
+    "val_patients": 10,
+    "test_patients": 15,
+    "marginal_block_multiplier": 5,
+    "marginal_patients": 50,
+    "max_patient_fraction": 0.1
+  },
+  "relaxation_stage": 0,
+  "selection_order": "exhaustive four-cell combination: maximize distinct state and action clusters, then minimize TRAIN-only high-rate-tail prevalence across action clusters, then maximize TEST patient count; deterministic candidate order tie break",
+  "action_tail_fraction_train_only": {
+    "0": 0.010984638163982973,
+    "1": 0.9915193624195361,
+    "2": 0.21502770083102493,
+    "3": 0.7956196465358343,
+    "4": 0.02087038134755977,
+    "5": 0.650112191473448,
+    "6": 0.8334817453250223,
+    "7": 0.002644268159900451,
+    "8": 0.3967592153889889,
+    "9": 0.010047901578362202
+  },
+  "selected_cells": [
+    [
+      11,
+      5
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      10,
+      4
+    ]
+  ],
+  "test_outcomes_used": false
+}

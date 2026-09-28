@@ -1,0 +1,20 @@
+seeds: [0, 1, 2, 3, 4]
+source_experiment: ../vitaldb_prospective_action_seed0_v1
+round3_experiment: ../vitaldb_support_geometry_seed0_v1
+sample_seconds: 10
+history_steps: 180
+horizon_steps: 30
+batch_size: 256
+learning_rate: 0.0005
+weight_decay: 0.0001
+epochs: 20
+patience: 5
+training_windows_per_epoch: 80000
+validation_stride: 6
+bootstrap_replicates: 1000
+state_k_candidates: [8, 12, 16]
+action_k_candidates: [6, 8, 10]
+block_seconds: 300
+purge_seconds: 300
+low_support_fraction: 0.2
+selection_seed: 0

@@ -1,0 +1,9 @@
+cluster state 8 0.05613907799124718 [42114, 13645, 26233, 56790, 59988, 50620, 47167, 74009]
+cluster state 12 0.06053315848112106 [25092, 47706, 40515, 49918, 13294, 23478, 24301, 37097, 36108, 6000, 35967, 31090]
+cluster state 16 0.05818935111165047 [25208, 32675, 33367, 23391, 31981, 22867, 22906, 3574, 35748, 1880, 33020, 22467, 26918, 17331, 8450, 28783]
+cluster action 6 0.23902907967567444 [118515, 29321, 28846, 52985, 20737, 120162]
+cluster action 8 0.22167493402957916 [95419, 48457, 13573, 108173, 21444, 23344, 37074, 23082]
+cluster action 10 0.24067431688308716 [108060, 19574, 14440, 18446, 40488, 40110, 3369, 19287, 10553, 96239]
+/root/experiments/vitaldb_intervention_support_shift_seed0_v1/src/discover.py:177: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  desired=.2*counts_by_patient.sum(0).to_numpy()
+DISCOVERY_COMPLETE [(11, 5), (3, 8), (5, 9), (10, 4)] [{'condition': 'F', 'windows': 370566, 'removed_windows': 0, 'blocks': 13011, 'patients': 345, 'cases': 345, 'target_windows': 14143, 'target_blocks': 1596, 'target_patients': 226}, {'condition': 'L', 'windows': 316317, 'removed_windows': 54249, 'blocks': 11618, 'patients': 345, 'cases': 345, 'target_windows': 2508, 'target_blocks': 328, 'target_patients': 45}, {'condition': 'Z', 'windows': 301409, 'removed_windows': 69157, 'blocks': 11251, 'patients': 345, 'cases': 345, 'target_windows': 0, 'target_blocks': 0, 'target_patients': 0}, {'condition': 'R', 'windows': 301409, 'removed_windows': 69157, 'blocks': 12496, 'patients': 345, 'cases': 345, 'target_windows': 14143, 'target_blocks': 1596, 'target_patients': 226}]

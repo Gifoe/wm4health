@@ -1,0 +1,8 @@
+{
+  "index": "FAISS IVFFlat nlist256 nprobe24",
+  "train_only_regime_and_scaling": true,
+  "conditional_action": "minimum scaled 14-feature action distance among 100 nearest scaled raw historical-state summaries",
+  "marginal_action_distances": "20th neighbor in 14-feature summary and separate 60-dimensional flattened trajectory, each standardized on TRAIN",
+  "cell_support": "unique 5-minute TRAIN blocks; Laplace +1 conditional action smoothing",
+  "future_outcomes_or_CE_used": false
+}

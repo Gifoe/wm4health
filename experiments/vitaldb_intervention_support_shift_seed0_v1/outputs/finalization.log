@@ -1,0 +1,42 @@
+CHECKPOINT_MANIFEST_STAMPS_COMPLETE
+PREDICTED val R 0
+PREDICTED val R 1
+PREDICTED val R 2
+PREDICTED val R 3
+PREDICTED val R 4
+PREDICTED test R 0
+PREDICTED test R 1
+PREDICTED test R 2
+PREDICTED test R 3
+PREDICTED test R 4
+PREDICTIONS_COMPLETE
+SUPPORT_DIAGNOSTIC F
+SUPPORT_DIAGNOSTIC L
+SUPPORT_DIAGNOSTIC Z
+SUPPORT_DIAGNOSTIC R
+SUPPORT_DIAGNOSTICS_COMPLETE
+EVALUATION_COMPLETE
+/root/experiments/vitaldb_intervention_support_shift_seed0_v1/src/finalize.py:21: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  fig.tight_layout();fig.savefig(ROOT/'plots'/f'{name}.png',dpi=160)
+Traceback (most recent call last):
+  File "/root/experiments/vitaldb_intervention_support_shift_seed0_v1/src/finalize.py", line 324, in <module>
+    checks();figures();report()
+             ^^^^^^^^^
+  File "/root/experiments/vitaldb_intervention_support_shift_seed0_v1/src/finalize.py", line 178, in figures
+    ax.set_title(f'Cell S{sn}/A{an}; F blocks {int(row(support,condition="F",state_cluster=sn,action_cluster=an).cell_train_blocks)}, Z blocks {int(row(support,condition="Z",state_cluster=sn,action_cluster=an).cell_train_blocks)}')
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/experiments/vitaldb_intervention_support_shift_seed0_v1/src/finalize.py", line 18, in row
+    return q.iloc[0]
+           ~~~~~~^^^
+  File "/opt/conda/lib/python3.12/site-packages/pandas/core/indexing.py", line 1207, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.12/site-packages/pandas/core/indexing.py", line 1773, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/opt/conda/lib/python3.12/site-packages/pandas/core/indexing.py", line 1706, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+/root/experiments/vitaldb_intervention_support_shift_seed0_v1/src/finalize.py:21: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  fig.tight_layout();fig.savefig(ROOT/'plots'/f'{name}.png',dpi=160)
+FINAL_REPORT_COMPLETE C
+FINAL_REPORT_COMPLETE C

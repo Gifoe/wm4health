@@ -1,0 +1,72 @@
+{
+  "selected_cells": [
+    [
+      11,
+      5
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      10,
+      4
+    ]
+  ],
+  "cluster_state_k": 12,
+  "cluster_action_k": 10,
+  "pool_sizes": [
+    {
+      "condition": "F",
+      "windows": 370566,
+      "removed_windows": 0,
+      "blocks": 13011,
+      "patients": 345,
+      "cases": 345,
+      "target_windows": 14143,
+      "target_blocks": 1596,
+      "target_patients": 226
+    },
+    {
+      "condition": "L",
+      "windows": 316317,
+      "removed_windows": 54249,
+      "blocks": 11618,
+      "patients": 345,
+      "cases": 345,
+      "target_windows": 2508,
+      "target_blocks": 328,
+      "target_patients": 45
+    },
+    {
+      "condition": "Z",
+      "windows": 301409,
+      "removed_windows": 69157,
+      "blocks": 11251,
+      "patients": 345,
+      "cases": 345,
+      "target_windows": 0,
+      "target_blocks": 0,
+      "target_patients": 0
+    },
+    {
+      "condition": "R",
+      "windows": 301409,
+      "removed_windows": 69157,
+      "blocks": 12496,
+      "patients": 345,
+      "cases": 345,
+      "target_windows": 14143,
+      "target_blocks": 1596,
+      "target_patients": 226
+    }
+  ],
+  "validation_trainlike_windows": 74091,
+  "validation_support_shift_windows": 5483,
+  "test_target_windows": 4105,
+  "test_target_patients": 59
+}
