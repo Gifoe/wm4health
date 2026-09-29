@@ -1,0 +1,17 @@
+seed: 0
+source_experiment: ../vitaldb_prospective_action_seed0_v1
+direct_experiment: ../vitaldb_multihorizon_headroom_seed0_v1
+history_steps: 180
+horizon_steps: 30
+horizons: [3, 6, 18, 30]
+slow_stride_steps: 6
+batch_size: 256
+learning_rate: 0.0005
+weight_decay: 0.0001
+epochs: 20
+patience: 5
+training_windows_per_epoch: 80000
+validation_stride: 6
+bootstrap_replicates: 1000
+ridge_alpha_grid: [0.1, 10.0, 1000.0]
+probe_train_windows: 100000

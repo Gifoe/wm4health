@@ -1,0 +1,30 @@
+{
+  "patient_overlap": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  },
+  "normalization_sha256": "65d57c19643301f8e7be0e5a1dd7cb0f5fa9f3945873cbfdf47bd6d3ff5e4123",
+  "epoch_indices_sha256": "04ddde33571cdb4da95e40c4c6a823da7fd41ced8e893bffa161dbe88fcf44db",
+  "direct_checkpoint_sha256": "c0fefaf3ecb998d7ecad82e58ac49edae463f57c2f3cb01f288fa9e49705d935",
+  "direct_prediction_max_abs_difference": 0.0,
+  "same_test_windows": true,
+  "same_horizons": [
+    3,
+    6,
+    18,
+    30
+  ],
+  "ce_in_training": false,
+  "test_used_for_training_or_selection": false,
+  "model_future_inputs": "prospective action trajectory only; factual future physiology excluded",
+  "fast_updates_per_300s": 30,
+  "slow_updates_per_300s": 5,
+  "capacity_mismatch_fraction": 0.007720622640920882,
+  "donor_matching_uses_future_outcomes": false,
+  "patient_cluster_bootstrap_replicates": 1000,
+  "prespecified_example_cases": [
+    57,
+    166
+  ]
+}

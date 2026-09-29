@@ -1,0 +1,31 @@
+{
+  "cases": 495,
+  "patients": 493,
+  "case_splits": {
+    "train": 345,
+    "val": 74,
+    "test": 76
+  },
+  "subject_splits": {
+    "train": 345,
+    "val": 73,
+    "test": 75
+  },
+  "test_windows": 83198,
+  "test_patients": 74,
+  "subgroup_windows": {
+    "overall": 83198,
+    "stable_action_Q1": 21772,
+    "Q4": 20995,
+    "upcoming_large_intervention": 26939,
+    "high_rate_tail": 17059,
+    "non_tail": 66139,
+    "initiation": 4390,
+    "increase": 3785,
+    "decrease": 18081,
+    "stop": 683
+  },
+  "direct_reproduction_max_abs_diff": 0.0,
+  "source_checkpoint_sha256": "c0fefaf3ecb998d7ecad82e58ac49edae463f57c2f3cb01f288fa9e49705d935",
+  "source_test_reference_sha256": "36e075d7b50263958916e6316414ade1fede35aa089f526d8bbf4fdaf60ddb18"
+}

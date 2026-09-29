@@ -1,0 +1,32 @@
+{
+  "files": {
+    "data_summary.json": true,
+    "model_capacity.csv": true,
+    "training_summary.csv": true,
+    "horizon_metrics.csv": true,
+    "multitimescale_advantage.csv": true,
+    "capacity_controlled_advantage.csv": true,
+    "subgroup_metrics.csv": true,
+    "action_sensitivity_metrics.csv": true,
+    "timescale_probe_metrics.csv": true,
+    "ablation_metrics.csv": true,
+    "paired_comparisons.csv": true,
+    "integrity_checks.json": true,
+    "FINAL_REPORT.md": true
+  },
+  "selected_checkpoints": {
+    "Direct-MH-Capacity": true,
+    "MT-Dynamics": true
+  },
+  "figures": [
+    "figure1_bis_horizon.png",
+    "figure2_capacity_controlled_advantage.png",
+    "figure3_intervention_events.png",
+    "figure4_timescale_probes.png",
+    "figure5_action_corruption.png",
+    "figure6_prespecified_trajectories.png"
+  ],
+  "outcome": "B",
+  "decision": "CONDITIONAL",
+  "all_passed": true
+}
