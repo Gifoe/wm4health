@@ -1,0 +1,13 @@
+seed: 0
+source_experiment: ../vitaldb_prospective_action_seed0_v1
+audit_experiment: ../vitaldb_physiological_grounding_audit_seed0_v1
+lambda_grid: [0.01, 0.1, 1.0]
+horizons: [3, 6, 18, 30]
+batch_size: 256
+epochs: 20
+patience: 5
+learning_rate: 0.0005
+weight_decay: 0.0001
+validation_stride: 6
+bootstrap_replicates: 1000
+ridge_alpha_grid: [0.01, 0.1, 1.0, 10.0, 100.0, 1000.0]

@@ -1,0 +1,36 @@
+{
+  "required_outputs": {
+    "data_summary.json": true,
+    "model_capacity.csv": true,
+    "training_runs.csv": true,
+    "lambda_selection.csv": true,
+    "forecast_metrics.csv": true,
+    "horizon_gain_metrics.csv": true,
+    "current_state_probe_metrics.csv": true,
+    "transition_probe_metrics.csv": true,
+    "nonlinear_probe_metrics.csv": true,
+    "transition_direction_metrics.csv": true,
+    "response_ordering_metrics.csv": true,
+    "subgroup_metrics.csv": true,
+    "action_sensitivity_metrics.csv": true,
+    "ce_reference_metrics.csv": true,
+    "paired_comparisons.csv": true,
+    "integrity_checks.json": true,
+    "FINAL_REPORT.md": true
+  },
+  "figures": [
+    "figure1_transition_probe_r2.png",
+    "figure2_transition_geometry.png",
+    "figure3_forecast_horizon.png",
+    "figure4_geometry_vs_forecast.png",
+    "figure5_intervention_subgroups.png",
+    "figure6_action_corruption.png"
+  ],
+  "selected_checkpoints": {
+    "state": true,
+    "transition": true
+  },
+  "outcome": "C",
+  "decision": "STOP",
+  "all_passed": true
+}
