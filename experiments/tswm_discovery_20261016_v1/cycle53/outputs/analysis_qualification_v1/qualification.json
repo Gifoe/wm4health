@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-17T16:07:30.646403+00:00",
+  "status": "PASS_PAIRED_RATIO_NULL_DIRECTION_AND_CALENDAR_IDENTITIES",
+  "model_predictions_read": false,
+  "test_scores_read": false,
+  "training_updates": 0,
+  "source_files_rechecked": 125,
+  "analysis_script_sha256": "e109412cd33a924f9735b9893c6b8e0b018023b165d483819d5cfb1ba3d0d735",
+  "analysis_supplement_sha256": "f92ce18469160fd9493d0cf7b7159237409cdf3d2837c611a72066b59aed959a",
+  "calendar_metadata": {
+    "source_val": {
+      "n": 163,
+      "compartments": 1,
+      "calendar_bins": {
+        "3": 16,
+        "7": 7
+      },
+      "first_forecast_date": "2022-02-01",
+      "last_forecast_date": "2022-03-20"
+    },
+    "new_crop_all": {
+      "n": 803,
+      "compartments": 6,
+      "calendar_bins": {
+        "3": 14,
+        "7": 6
+      },
+      "first_forecast_date": "2022-05-08",
+      "last_forecast_date": "2022-06-17"
+    }
+  },
+  "tests": [
+    "identical predictions null",
+    "20 percent proportional gain",
+    "10 percent degradation",
+    "deterministic resampling",
+    "native date identities and accepted counts"
+  ]
+}
