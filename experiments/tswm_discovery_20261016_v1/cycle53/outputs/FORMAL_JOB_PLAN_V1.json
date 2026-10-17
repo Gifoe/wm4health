@@ -1,0 +1,534 @@
+{
+  "utc": "2026-10-17T15:31:35.931290+00:00",
+  "protocol_sha256": "611db0aac5a8bc97076094512d9b22e35d040cbaa0a8eae29b0332dd0bb70ad8",
+  "jobs": [
+    {
+      "tag": "shared_codec",
+      "arguments": [
+        "--job",
+        "codec"
+      ]
+    },
+    {
+      "tag": "CrossLinear__obs__seed0",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "CrossLinear",
+        "--arm",
+        "obs",
+        "--seed",
+        "0"
+      ]
+    },
+    {
+      "tag": "CrossLinear__ae_concat__seed0",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "CrossLinear",
+        "--arm",
+        "ae_concat",
+        "--seed",
+        "0"
+      ]
+    },
+    {
+      "tag": "CrossLinear__ae_gate__seed0",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "CrossLinear",
+        "--arm",
+        "ae_gate",
+        "--seed",
+        "0"
+      ]
+    },
+    {
+      "tag": "CrossLinear__ae_gate_soft__seed0",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "CrossLinear",
+        "--arm",
+        "ae_gate_soft",
+        "--seed",
+        "0"
+      ]
+    },
+    {
+      "tag": "PatchTST__obs__seed0",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "PatchTST",
+        "--arm",
+        "obs",
+        "--seed",
+        "0"
+      ]
+    },
+    {
+      "tag": "PatchTST__ae_concat__seed0",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "PatchTST",
+        "--arm",
+        "ae_concat",
+        "--seed",
+        "0"
+      ]
+    },
+    {
+      "tag": "PatchTST__ae_gate__seed0",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "PatchTST",
+        "--arm",
+        "ae_gate",
+        "--seed",
+        "0"
+      ]
+    },
+    {
+      "tag": "PatchTST__ae_gate_soft__seed0",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "PatchTST",
+        "--arm",
+        "ae_gate_soft",
+        "--seed",
+        "0"
+      ]
+    },
+    {
+      "tag": "CrossLinear__obs__seed1",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "CrossLinear",
+        "--arm",
+        "obs",
+        "--seed",
+        "1"
+      ]
+    },
+    {
+      "tag": "CrossLinear__ae_concat__seed1",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "CrossLinear",
+        "--arm",
+        "ae_concat",
+        "--seed",
+        "1"
+      ]
+    },
+    {
+      "tag": "CrossLinear__ae_gate__seed1",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "CrossLinear",
+        "--arm",
+        "ae_gate",
+        "--seed",
+        "1"
+      ]
+    },
+    {
+      "tag": "CrossLinear__ae_gate_soft__seed1",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "CrossLinear",
+        "--arm",
+        "ae_gate_soft",
+        "--seed",
+        "1"
+      ]
+    },
+    {
+      "tag": "PatchTST__obs__seed1",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "PatchTST",
+        "--arm",
+        "obs",
+        "--seed",
+        "1"
+      ]
+    },
+    {
+      "tag": "PatchTST__ae_concat__seed1",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "PatchTST",
+        "--arm",
+        "ae_concat",
+        "--seed",
+        "1"
+      ]
+    },
+    {
+      "tag": "PatchTST__ae_gate__seed1",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "PatchTST",
+        "--arm",
+        "ae_gate",
+        "--seed",
+        "1"
+      ]
+    },
+    {
+      "tag": "PatchTST__ae_gate_soft__seed1",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "PatchTST",
+        "--arm",
+        "ae_gate_soft",
+        "--seed",
+        "1"
+      ]
+    },
+    {
+      "tag": "CrossLinear__obs__seed2",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "CrossLinear",
+        "--arm",
+        "obs",
+        "--seed",
+        "2"
+      ]
+    },
+    {
+      "tag": "CrossLinear__ae_concat__seed2",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "CrossLinear",
+        "--arm",
+        "ae_concat",
+        "--seed",
+        "2"
+      ]
+    },
+    {
+      "tag": "CrossLinear__ae_gate__seed2",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "CrossLinear",
+        "--arm",
+        "ae_gate",
+        "--seed",
+        "2"
+      ]
+    },
+    {
+      "tag": "CrossLinear__ae_gate_soft__seed2",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "CrossLinear",
+        "--arm",
+        "ae_gate_soft",
+        "--seed",
+        "2"
+      ]
+    },
+    {
+      "tag": "PatchTST__obs__seed2",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "PatchTST",
+        "--arm",
+        "obs",
+        "--seed",
+        "2"
+      ]
+    },
+    {
+      "tag": "PatchTST__ae_concat__seed2",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "PatchTST",
+        "--arm",
+        "ae_concat",
+        "--seed",
+        "2"
+      ]
+    },
+    {
+      "tag": "PatchTST__ae_gate__seed2",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "PatchTST",
+        "--arm",
+        "ae_gate",
+        "--seed",
+        "2"
+      ]
+    },
+    {
+      "tag": "PatchTST__ae_gate_soft__seed2",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "PatchTST",
+        "--arm",
+        "ae_gate_soft",
+        "--seed",
+        "2"
+      ]
+    },
+    {
+      "tag": "CrossLinear__obs__seed3",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "CrossLinear",
+        "--arm",
+        "obs",
+        "--seed",
+        "3"
+      ]
+    },
+    {
+      "tag": "CrossLinear__ae_concat__seed3",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "CrossLinear",
+        "--arm",
+        "ae_concat",
+        "--seed",
+        "3"
+      ]
+    },
+    {
+      "tag": "CrossLinear__ae_gate__seed3",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "CrossLinear",
+        "--arm",
+        "ae_gate",
+        "--seed",
+        "3"
+      ]
+    },
+    {
+      "tag": "CrossLinear__ae_gate_soft__seed3",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "CrossLinear",
+        "--arm",
+        "ae_gate_soft",
+        "--seed",
+        "3"
+      ]
+    },
+    {
+      "tag": "PatchTST__obs__seed3",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "PatchTST",
+        "--arm",
+        "obs",
+        "--seed",
+        "3"
+      ]
+    },
+    {
+      "tag": "PatchTST__ae_concat__seed3",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "PatchTST",
+        "--arm",
+        "ae_concat",
+        "--seed",
+        "3"
+      ]
+    },
+    {
+      "tag": "PatchTST__ae_gate__seed3",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "PatchTST",
+        "--arm",
+        "ae_gate",
+        "--seed",
+        "3"
+      ]
+    },
+    {
+      "tag": "PatchTST__ae_gate_soft__seed3",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "PatchTST",
+        "--arm",
+        "ae_gate_soft",
+        "--seed",
+        "3"
+      ]
+    },
+    {
+      "tag": "CrossLinear__obs__seed4",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "CrossLinear",
+        "--arm",
+        "obs",
+        "--seed",
+        "4"
+      ]
+    },
+    {
+      "tag": "CrossLinear__ae_concat__seed4",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "CrossLinear",
+        "--arm",
+        "ae_concat",
+        "--seed",
+        "4"
+      ]
+    },
+    {
+      "tag": "CrossLinear__ae_gate__seed4",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "CrossLinear",
+        "--arm",
+        "ae_gate",
+        "--seed",
+        "4"
+      ]
+    },
+    {
+      "tag": "CrossLinear__ae_gate_soft__seed4",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "CrossLinear",
+        "--arm",
+        "ae_gate_soft",
+        "--seed",
+        "4"
+      ]
+    },
+    {
+      "tag": "PatchTST__obs__seed4",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "PatchTST",
+        "--arm",
+        "obs",
+        "--seed",
+        "4"
+      ]
+    },
+    {
+      "tag": "PatchTST__ae_concat__seed4",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "PatchTST",
+        "--arm",
+        "ae_concat",
+        "--seed",
+        "4"
+      ]
+    },
+    {
+      "tag": "PatchTST__ae_gate__seed4",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "PatchTST",
+        "--arm",
+        "ae_gate",
+        "--seed",
+        "4"
+      ]
+    },
+    {
+      "tag": "PatchTST__ae_gate_soft__seed4",
+      "arguments": [
+        "--job",
+        "fit",
+        "--model",
+        "PatchTST",
+        "--arm",
+        "ae_gate_soft",
+        "--seed",
+        "4"
+      ]
+    }
+  ],
+  "second_batch_evaluation_opened": false
+}

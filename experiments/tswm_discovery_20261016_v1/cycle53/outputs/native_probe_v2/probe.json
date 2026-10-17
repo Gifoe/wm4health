@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-17T15:29:19.216206+00:00",
+  "pid": 19212,
+  "status": "QUALIFIED_NATIVE_SOURCE_DATA_AND_FORWARD",
+  "upstream_commit": "2e5e48540ff0da48e8192163969a6c58df1d5a3e",
+  "formal_training_updates": 0,
+  "packages": {
+    "torch": "2.8.0+cu128",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "sklearn": "1.7.2",
+    "einops": "0.8.1",
+    "pyarrow": "25.0.1",
+    "openpyxl": "3.1.5",
+    "pywt": "1.8.0"
+  },
+  "cuda_available": true,
+  "gpu_name": "NVIDIA GeForce RTX 5090",
+  "gpu_runtime": "NVIDIA GeForce RTX 5090, 1282 MiB, 30905 MiB, 0 %",
+  "train_windows": 815,
+  "val_windows": 163,
+  "output_shape": [
+    128,
+    16,
+    4
+  ],
+  "initial_loss": 0.3749510645866394,
+  "predictive_params": 19702884,
+  "source_files": 125
+}

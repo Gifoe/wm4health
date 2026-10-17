@@ -1,0 +1,51 @@
+{
+  "status": "PASS_NATIVE_EFFECTIVE_BATCH_MICROBATCHING",
+  "utc": "2026-10-17T15:50:24.693844+00:00",
+  "small_batch": 4,
+  "small_batch_update_max_weight_error": 0.0004086389672011137,
+  "post_update_prediction_max_error": 6.020069122314453e-06,
+  "top_parameter_differences": [
+    {
+      "group": "model",
+      "tensor": "head.linear.weight",
+      "max_abs_error": 0.0004086389672011137
+    },
+    {
+      "group": "model",
+      "tensor": "encoder.attn_layers.0.conv2.weight",
+      "max_abs_error": 0.0002694902941584587
+    },
+    {
+      "group": "model",
+      "tensor": "encoder.attn_layers.0.conv1.weight",
+      "max_abs_error": 0.0002559758722782135
+    },
+    {
+      "group": "model",
+      "tensor": "encoder.attn_layers.1.conv2.weight",
+      "max_abs_error": 0.0002347957342863083
+    },
+    {
+      "group": "model",
+      "tensor": "encoder.attn_layers.1.conv1.weight",
+      "max_abs_error": 0.0001389710232615471
+    },
+    {
+      "group": "model",
+      "tensor": "encoder.attn_layers.0.attention.value_projection.weight",
+      "max_abs_error": 9.996071457862854e-05
+    }
+  ],
+  "small_batch_loss_error": 7.450580596923828e-09,
+  "full_native_batch": 128,
+  "full_native_one_update_loss": 0.18866580724716187,
+  "full_native_one_update_seconds": 0.5233068000234198,
+  "peak_cuda_allocated_bytes": 21405701632,
+  "formal_model_weights_used": false,
+  "qualification_updates": 3,
+  "qualification_warmstarts_formal_fits": false,
+  "source_files_rechecked": 125,
+  "runtime_change": "effective batch128, microbatch64, one optimizer/clipping operation per full batch; no AMP",
+  "deterministic_update_check_dropout_disabled": true,
+  "dropout_caveat": "Formal dropout masks remain iid but CUDA RNG draw ordering differs from a single128-sample forward. This is a disclosed runtime adaptation, not bitwise original-run reproduction."
+}

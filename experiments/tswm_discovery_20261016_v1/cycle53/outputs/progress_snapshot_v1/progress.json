@@ -1,0 +1,64 @@
+{
+  "utc": "2026-10-17T15:57:13.770701+00:00",
+  "status": "LIVE_PROGRESS_NOT_FINAL",
+  "completed_predictive_fits": 7,
+  "planned_predictive_fits": 40,
+  "completed_formal_updates": 2790,
+  "codec_complete": true,
+  "supervisor_state": "RUNNING",
+  "observed_supervisor_pid": 41776,
+  "active_tag": "PatchTST__ae_gate_soft__seed0",
+  "transfer_opened": false,
+  "accepted_final_directions": 0,
+  "completed_fit_identities": [
+    {
+      "tag": "CrossLinear__ae_concat__seed0",
+      "checkpoint_sha256": "8bdc6044c01eeec9d0a307db000cce6d9b7e70cc792b59b7fd6873f7e8446f96",
+      "best_epoch": 22,
+      "epochs_run": 42,
+      "runtime_storage_mode": "native_full_batch"
+    },
+    {
+      "tag": "CrossLinear__ae_gate_soft__seed0",
+      "checkpoint_sha256": "94aa71eb40a94b72f20cec2e0605712c5f7a163a38754b8bc484224f36da9fd2",
+      "best_epoch": 36,
+      "epochs_run": 56,
+      "runtime_storage_mode": "native_full_batch"
+    },
+    {
+      "tag": "CrossLinear__ae_gate__seed0",
+      "checkpoint_sha256": "34d505d8e4fc120142b801a0c805142ea2175bacf05c1b55fbcf6db7a6c526a1",
+      "best_epoch": 48,
+      "epochs_run": 68,
+      "runtime_storage_mode": "native_full_batch"
+    },
+    {
+      "tag": "CrossLinear__obs__seed0",
+      "checkpoint_sha256": "4a8e2ee61c0d73c9a011647f16fb93ee0a8548b50f755334de16a5eab2a3f248",
+      "best_epoch": 29,
+      "epochs_run": 49,
+      "runtime_storage_mode": "native_full_batch"
+    },
+    {
+      "tag": "PatchTST__ae_gate__seed0",
+      "checkpoint_sha256": "b03684092f62387d34700f2cedeaf1ed73b13c77f4fdb3a3e0280c9dc34633e3",
+      "best_epoch": 44,
+      "epochs_run": 64,
+      "runtime_storage_mode": "native_full_batch"
+    },
+    {
+      "tag": "PatchTST__obs__seed0",
+      "checkpoint_sha256": "8122f76a5aee34731967c9e743565e8afa24ec2e77a460ffe621b5b8a33e5966",
+      "best_epoch": 70,
+      "epochs_run": 90,
+      "runtime_storage_mode": "native_full_batch"
+    },
+    {
+      "tag": "PatchTST__ae_concat__seed0",
+      "checkpoint_sha256": "5f9c41f05d94cecdfceab9a0e0b81d2efd9da8b367431599b1fa61b0517c8b9a",
+      "best_epoch": 76,
+      "epochs_run": 96,
+      "runtime_storage_mode": "effective_batch128_microbatch64"
+    }
+  ]
+}

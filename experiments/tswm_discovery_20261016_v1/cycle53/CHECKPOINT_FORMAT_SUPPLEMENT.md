@@ -1,0 +1,3 @@
+# Native concat checkpoint compatibility
+
+The unchanged RQ3 `FusionTrainer(arm="concat")` serializes its covariate MLP under `fusion_mlp`, while the unchanged RQ6 probe's RQ2 concat loader looks for `fusion`. The evaluation wrapper restores the saved `fusion_mlp` branch after native construction and compares every loaded tensor to the original selected checkpoint. No original checkpoint/source/numerical forward is rewritten. A TRAIN-only qualification compares native RQ2/RQ3 initial states, one discarded optimizer update, the native probe and training forward. Formal fits remain unchanged, and no transfer score selects this translation.

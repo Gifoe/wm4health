@@ -1,0 +1,16 @@
+{
+  "status": "PASS_LOSSLESS_NATIVE_SAVED_TENSOR_OFFLOAD",
+  "utc": "2026-10-17T15:44:39.175529+00:00",
+  "small_batch": 4,
+  "small_batch_update_max_weight_error": 0.0,
+  "small_batch_loss_error": 0.0,
+  "full_native_batch": 128,
+  "full_native_one_update_loss": 0.18861815333366394,
+  "full_native_one_update_seconds": 27.38436549998005,
+  "peak_cuda_allocated_bytes": 29673386496,
+  "formal_model_weights_used": false,
+  "qualification_updates": 3,
+  "qualification_warmstarts_formal_fits": false,
+  "source_files_rechecked": 125,
+  "storage_change_only": "torch.autograd.graph.save_on_cpu(pin_memory=False); no AMP, recomputation, gradient accumulation or batch change"
+}
