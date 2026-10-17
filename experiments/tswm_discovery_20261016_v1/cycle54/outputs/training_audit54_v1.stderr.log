@@ -1,0 +1,21 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Traceback (most recent call last):
+  File "D:\tswm_discovery_20261016_v1\cycle54\scripts\capture_training_audit54_v1.py", line 6, in <module>
+    state('RUNNING_FROZEN_TRAINING_ONLY_PROBE');runpy.run_path(str(root/'scripts/audit_training_objective54_v1.py'),run_name='__main__');state('COMPLETE_NO_TRAINING_OR_HELDOUT_CHANGES')
+  File "E:\Anaconda\envs\persist_stable_251\lib\runpy.py", line 289, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "E:\Anaconda\envs\persist_stable_251\lib\runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "E:\Anaconda\envs\persist_stable_251\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "D:\tswm_discovery_20261016_v1\cycle54\scripts\audit_training_objective54_v1.py", line 39, in <module>
+    if __name__=='__main__':main()
+  File "D:\tswm_discovery_20261016_v1\cycle54\scripts\audit_training_objective54_v1.py", line 21, in main
+    params=pickle.loads(path.read_bytes());energy,full_fn=objective('linear_small',seed,200)
+  File "D:\tswm_discovery_20261016_v1\cycle54\scripts\audit_training_objective54_v1.py", line 9, in objective
+    energy,cfg=rp_model(task,seed);cfg.batch_size=B
+  File "<string>", line 4, in __setattr__
+dataclasses.FrozenInstanceError: cannot assign to field 'batch_size'

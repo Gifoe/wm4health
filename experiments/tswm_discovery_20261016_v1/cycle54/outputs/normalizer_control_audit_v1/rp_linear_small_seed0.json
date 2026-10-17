@@ -1,0 +1,71 @@
+{
+  "run": "rp_linear_small_seed0",
+  "checkpoint_sha256": "4443506bd7df41eeccda317d596cf2142f504b7985423c907397d368d66b3e3e",
+  "protocol_sha256": "9549e4efeaacb32902e4476d8f32559cedb6e72a81af4ee6b1e5615ae6638cd8",
+  "script_sha256": "012c72923ba5dde483f2f0c8b69f3c1439c14b00ea1e19c24ac1719030aaaf20",
+  "per_target_source_sha256": "0dff53970c908d589dc21510ff585651113f47399fd4d0fee7b2753ef90b5cb7",
+  "full_bank_alpha_derivative": 1.847127104297217,
+  "jvp_vs_prior_native_autodiff_abs_error": 6.039613253960852e-14,
+  "cached_vs_native_25_batch_max_abs_error": 3.310685059432217e-13,
+  "burn_in_batches": 512,
+  "recorded_batches": 1024,
+  "estimates": [
+    {
+      "estimator": "native_coupled",
+      "alpha_derivative_mean": -0.7234204207193755,
+      "conditional_bias_vs_full_bank": -2.5705475250165923,
+      "std_over_batches": 0.3669604092737956,
+      "iid_MC_SE": 0.011467512789806112,
+      "MC_scope": "Conditional on fixed training data and frozen model. Running estimators have temporal dependence; no iid MC interval claimed."
+    },
+    {
+      "estimator": "leave_designated_diagonal_out",
+      "alpha_derivative_mean": 2.323412310180018,
+      "conditional_bias_vs_full_bank": 0.4762852058828009,
+      "std_over_batches": 0.6084941137455478,
+      "iid_MC_SE": 0.01901544105454837,
+      "MC_scope": "Conditional on fixed training data and frozen model. Running estimators have temporal dependence; no iid MC interval claimed."
+    },
+    {
+      "estimator": "independent_reference",
+      "alpha_derivative_mean": 2.3522928818904605,
+      "conditional_bias_vs_full_bank": 0.5051657775932434,
+      "std_over_batches": 0.6292169918416738,
+      "iid_MC_SE": 0.019663030995052306,
+      "MC_scope": "Conditional on fixed training data and frozen model. Running estimators have temporal dependence; no iid MC interval claimed."
+    },
+    {
+      "estimator": "oracle_frozen_normalizer",
+      "alpha_derivative_mean": 0.10125391678971585,
+      "conditional_bias_vs_full_bank": -1.745873187507501,
+      "std_over_batches": 94.1045712646296,
+      "iid_MC_SE": 2.940767852019675,
+      "MC_scope": "Conditional on fixed training data and frozen model. Running estimators have temporal dependence; no iid MC interval claimed."
+    },
+    {
+      "estimator": "running_normalizer_gamma09",
+      "alpha_derivative_mean": -62.19161685615574,
+      "conditional_bias_vs_full_bank": -64.03874396045296,
+      "std_over_batches": 20.87977359291222,
+      "iid_MC_SE": null,
+      "MC_scope": "Conditional on fixed training data and frozen model. Running estimators have temporal dependence; no iid MC interval claimed."
+    },
+    {
+      "estimator": "running_normalizer_gamma01",
+      "alpha_derivative_mean": -28.264649780835633,
+      "conditional_bias_vs_full_bank": -30.11177688513285,
+      "std_over_batches": 74.65949679629003,
+      "iid_MC_SE": null,
+      "MC_scope": "Conditional on fixed training data and frozen model. Running estimators have temporal dependence; no iid MC interval claimed."
+    }
+  ],
+  "score_cache": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle54\\normalizer_control_audit_v1\\rp_linear_small_seed0_scores.npz",
+  "score_cache_sha256": "9de1f9071287bd72f518dfef097112370c535057f778539b42341d497e852a04",
+  "raw_estimates": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle54\\normalizer_control_audit_v1\\rp_linear_small_seed0_estimates.npz",
+  "raw_estimates_sha256": "8aeae14e545a37ee4b9a4a7263150a7cad5a96d22f8a12c69ca26cb7e2bbaf29",
+  "checkpoint_unchanged": true,
+  "heldout_read": false,
+  "latent_truth_read": false,
+  "optimizer_updates": 0,
+  "scope": "Estimator behavior at fixed parameters only, not official SogCLR reproduction, new method validation, parameter tracking convergence, or model forecasting accuracy."
+}

@@ -1,0 +1,132 @@
+{
+  "run": "rp_linear_small_seed1",
+  "checkpoint_sha256": "d4196168f6da9835943a4f3b1c8d6b104e9c8dac788a21205d7df6645e273442",
+  "protocol_sha256": "ac4add822a0a39c239cdd63c86310fa25b9d84072c96cdb98bd478fe1b2185a6",
+  "script_sha256": "4163fdfaaec033576f128a33eef57b6f693dce03d74e8b91201f5578491501cb",
+  "modes": [
+    {
+      "em": false,
+      "full_native_value": 3.4038381305998353,
+      "full_A_gradient": [
+        [
+          0.5955202853255241,
+          -0.22429833832567203,
+          0.44259873886650336
+        ],
+        [
+          0.07313488772636391,
+          0.9529236471500958,
+          0.10229452294187782
+        ],
+        [
+          -0.5354803998679111,
+          0.2461800778762143,
+          0.30837522577518445
+        ]
+      ],
+      "full_alpha_derivative": 2.255521754851848,
+      "balanced_batch_A_gradient_mean": [
+        [
+          -0.5554242632074293,
+          0.0025460375418552665,
+          -0.012371387324729368
+        ],
+        [
+          -0.044697859503822775,
+          0.21050205859945342,
+          0.08485237782787525
+        ],
+        [
+          0.030214175905480548,
+          0.12399697376282262,
+          0.0539282422279182
+        ]
+      ],
+      "balanced_batch_alpha_derivative": -0.22086643532261432,
+      "balanced_batch_vs_full_gradient_max_abs_error": 1.1509445485329535
+    },
+    {
+      "em": true,
+      "full_native_value": 3.4038381305998353,
+      "full_A_gradient": [
+        [
+          1.063021142910671,
+          -0.3036105082281866,
+          0.5369685268765295
+        ],
+        [
+          0.10500829540208259,
+          1.1373617300226107,
+          0.10050127429154537
+        ],
+        [
+          -0.7301071317788196,
+          0.2861923397731209,
+          0.3378782068006433
+        ]
+      ],
+      "full_alpha_derivative": 3.015146204065656,
+      "balanced_batch_A_gradient_mean": [
+        [
+          1.0630211429107381,
+          -0.30361050822819413,
+          0.5369685268765446
+        ],
+        [
+          0.10500829540208712,
+          1.137361730022615,
+          0.10050127429154695
+        ],
+        [
+          -0.7301071317788481,
+          0.28619233977312486,
+          0.3378782068006372
+        ]
+      ],
+      "balanced_batch_alpha_derivative": 3.0151462040657364,
+      "balanced_batch_vs_full_gradient_max_abs_error": 6.705747068735946e-14,
+      "fixed_posterior_Mstep_value": 3.4038381305998353,
+      "fixed_posterior_alpha_derivative": 3.0151462040656556,
+      "native_vs_fixed_posterior_derivative_abs_error": 4.440892098500626e-16,
+      "fixed_posterior_finite_difference_derivative": 3.0481875091581396,
+      "fixed_posterior_FD_abs_error": 0.03304130509248404,
+      "fixed_posterior_FD_step_halving_grid": [
+        {
+          "step": 1e-05,
+          "slope": 3.0481875091581396,
+          "absolute_error": 0.03304130509248404
+        },
+        {
+          "step": 5e-06,
+          "slope": 3.0234057889710892,
+          "absolute_error": 0.008259584905433659
+        },
+        {
+          "step": 2.5e-06,
+          "slope": 3.0172110538906334,
+          "absolute_error": 0.002064849824977788
+        },
+        {
+          "step": 1e-06,
+          "slope": 3.0154765779943915,
+          "absolute_error": 0.0003303739287359164
+        },
+        {
+          "step": 5e-07,
+          "slope": 3.0152287986418003,
+          "absolute_error": 8.259457614467891e-05
+        }
+      ],
+      "fixed_posterior_FD_qualification_note": "The original h=1e-5 exceeded tolerance near the prior covariance boundary. Retain it and qualify convergence under a declared step-halving grid, without changing model/optimizer parameters."
+    }
+  ],
+  "full_forward_value_difference": 0.0,
+  "batch_forward_value_max_difference": 6.661338147750939e-16,
+  "artifact": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle54\\em_switch_audit_v2\\rp_linear_small_seed1.npz",
+  "artifact_sha256": "9b8a299bc577c543b35f48264db5703f24e54316c140e6d6ede7a424d66661d3",
+  "checkpoint_unchanged": true,
+  "latent_truth_read": false,
+  "heldout_read": false,
+  "optimizer_updates": 0,
+  "scope": "Native existing EM option and fixed-posterior partial-derivative control only. No assertion of trained-model quality or of reference invariance of encoder updates."
+}

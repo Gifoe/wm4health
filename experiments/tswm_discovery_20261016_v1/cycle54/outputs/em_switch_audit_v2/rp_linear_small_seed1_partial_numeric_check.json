@@ -1,0 +1,74 @@
+{
+  "em": true,
+  "full_native_value": 3.4038381305998353,
+  "full_A_gradient": [
+    [
+      1.063021142910671,
+      -0.3036105082281866,
+      0.5369685268765295
+    ],
+    [
+      0.10500829540208259,
+      1.1373617300226107,
+      0.10050127429154537
+    ],
+    [
+      -0.7301071317788196,
+      0.2861923397731209,
+      0.3378782068006433
+    ]
+  ],
+  "full_alpha_derivative": 3.015146204065656,
+  "balanced_batch_A_gradient_mean": [
+    [
+      1.0630211429107381,
+      -0.30361050822819413,
+      0.5369685268765446
+    ],
+    [
+      0.10500829540208712,
+      1.137361730022615,
+      0.10050127429154695
+    ],
+    [
+      -0.7301071317788481,
+      0.28619233977312486,
+      0.3378782068006372
+    ]
+  ],
+  "balanced_batch_alpha_derivative": 3.0151462040657364,
+  "balanced_batch_vs_full_gradient_max_abs_error": 6.705747068735946e-14,
+  "fixed_posterior_Mstep_value": 3.4038381305998353,
+  "fixed_posterior_alpha_derivative": 3.0151462040656556,
+  "native_vs_fixed_posterior_derivative_abs_error": 4.440892098500626e-16,
+  "fixed_posterior_finite_difference_derivative": 3.0481875091581396,
+  "fixed_posterior_FD_abs_error": 0.03304130509248404,
+  "fixed_posterior_FD_step_halving_grid": [
+    {
+      "step": 1e-05,
+      "slope": 3.0481875091581396,
+      "absolute_error": 0.03304130509248404
+    },
+    {
+      "step": 5e-06,
+      "slope": 3.0234057889710892,
+      "absolute_error": 0.008259584905433659
+    },
+    {
+      "step": 2.5e-06,
+      "slope": 3.0172110538906334,
+      "absolute_error": 0.002064849824977788
+    },
+    {
+      "step": 1e-06,
+      "slope": 3.0154765779943915,
+      "absolute_error": 0.0003303739287359164
+    },
+    {
+      "step": 5e-07,
+      "slope": 3.0152287986418003,
+      "absolute_error": 8.259457614467891e-05
+    }
+  ],
+  "fixed_posterior_FD_qualification_note": "The original h=1e-5 exceeded tolerance near the prior covariance boundary. Retain it and qualify convergence under a declared step-halving grid, without changing model/optimizer parameters."
+}

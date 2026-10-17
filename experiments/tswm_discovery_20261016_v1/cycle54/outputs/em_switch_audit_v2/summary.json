@@ -1,0 +1,295 @@
+{
+  "utc": "2026-10-17T18:43:40.895510+00:00",
+  "status": "COMPLETE_EXISTING_NATIVE_EM_SWITCH_FALSIFICATION",
+  "records": [
+    {
+      "run": "rp_linear_small_seed0",
+      "checkpoint_sha256": "4443506bd7df41eeccda317d596cf2142f504b7985423c907397d368d66b3e3e",
+      "protocol_sha256": "ac4add822a0a39c239cdd63c86310fa25b9d84072c96cdb98bd478fe1b2185a6",
+      "script_sha256": "4163fdfaaec033576f128a33eef57b6f693dce03d74e8b91201f5578491501cb",
+      "modes": [
+        {
+          "em": false,
+          "full_native_value": 3.4031388474609794,
+          "full_A_gradient": [
+            [
+              0.2638058324172,
+              -0.14050469655603343,
+              0.4835298317576133
+            ],
+            [
+              -0.051636827110807915,
+              0.6022809719278143,
+              0.08472981029834813
+            ],
+            [
+              -0.4806517227974561,
+              -0.14180009556463424,
+              0.587212415162089
+            ]
+          ],
+          "full_alpha_derivative": 1.8471271042971567,
+          "balanced_batch_A_gradient_mean": [
+            [
+              0.020610874645665495,
+              -0.04728376480808601,
+              -0.04483372709154812
+            ],
+            [
+              -0.048340024110048674,
+              -0.054672713610053235,
+              -0.0320109767284251
+            ],
+            [
+              0.024947710839194823,
+              0.03507167253274935,
+              -0.5725034378308702
+            ]
+          ],
+          "balanced_batch_alpha_derivative": -0.5417747862988486,
+          "balanced_batch_vs_full_gradient_max_abs_error": 1.1597158529929592
+        },
+        {
+          "em": true,
+          "full_native_value": 3.40313884746098,
+          "full_A_gradient": [
+            [
+              0.28804248405105226,
+              -0.16464716671534782,
+              0.6622219570899338
+            ],
+            [
+              -0.04435588689088297,
+              0.7319744066802975,
+              0.11585983389982332
+            ],
+            [
+              -0.6022544399471053,
+              -0.21668248349354657,
+              1.0621468493974306
+            ]
+          ],
+          "full_alpha_derivative": 2.5594356439683392,
+          "balanced_batch_A_gradient_mean": [
+            [
+              0.2880424840510537,
+              -0.1646471667153461,
+              0.6622219570899186
+            ],
+            [
+              -0.044355886890882844,
+              0.7319744066803092,
+              0.11585983389982378
+            ],
+            [
+              -0.6022544399470875,
+              -0.2166824834935407,
+              1.0621468493973845
+            ]
+          ],
+          "balanced_batch_alpha_derivative": 2.5594356439682953,
+          "balanced_batch_vs_full_gradient_max_abs_error": 4.618527782440651e-14,
+          "fixed_posterior_Mstep_value": 3.40313884746098,
+          "fixed_posterior_alpha_derivative": 2.5594356439683392,
+          "native_vs_fixed_posterior_derivative_abs_error": 0.0,
+          "fixed_posterior_finite_difference_derivative": 2.5924739730287527,
+          "fixed_posterior_FD_abs_error": 0.033038329060413485,
+          "fixed_posterior_FD_step_halving_grid": [
+            {
+              "step": 1e-05,
+              "slope": 2.5924739730287527,
+              "absolute_error": 0.033038329060413485
+            },
+            {
+              "step": 5e-06,
+              "slope": 2.5676944849006844,
+              "absolute_error": 0.00825884093234519
+            },
+            {
+              "step": 2.5e-06,
+              "slope": 2.561500307773912,
+              "absolute_error": 0.0020646638055725752
+            },
+            {
+              "step": 1e-06,
+              "slope": 2.559765988285889,
+              "absolute_error": 0.00033034431754996874
+            },
+            {
+              "step": 5e-07,
+              "slope": 2.5595182306936692,
+              "absolute_error": 8.258672533001388e-05
+            }
+          ],
+          "fixed_posterior_FD_qualification_note": "The original h=1e-5 exceeded tolerance near the prior covariance boundary. Retain it and qualify convergence under a declared step-halving grid, without changing model/optimizer parameters."
+        }
+      ],
+      "full_forward_value_difference": 4.440892098500626e-16,
+      "batch_forward_value_max_difference": 4.440892098500626e-16,
+      "artifact": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle54\\em_switch_audit_v2\\rp_linear_small_seed0.npz",
+      "artifact_sha256": "e9848848d506ada39ae46e2cf9ac0599c2d220782ba520081f181d54ae2a2da1",
+      "checkpoint_unchanged": true,
+      "latent_truth_read": false,
+      "heldout_read": false,
+      "optimizer_updates": 0,
+      "scope": "Native existing EM option and fixed-posterior partial-derivative control only. No assertion of trained-model quality or of reference invariance of encoder updates."
+    },
+    {
+      "run": "rp_linear_small_seed1",
+      "checkpoint_sha256": "d4196168f6da9835943a4f3b1c8d6b104e9c8dac788a21205d7df6645e273442",
+      "protocol_sha256": "ac4add822a0a39c239cdd63c86310fa25b9d84072c96cdb98bd478fe1b2185a6",
+      "script_sha256": "4163fdfaaec033576f128a33eef57b6f693dce03d74e8b91201f5578491501cb",
+      "modes": [
+        {
+          "em": false,
+          "full_native_value": 3.4038381305998353,
+          "full_A_gradient": [
+            [
+              0.5955202853255241,
+              -0.22429833832567203,
+              0.44259873886650336
+            ],
+            [
+              0.07313488772636391,
+              0.9529236471500958,
+              0.10229452294187782
+            ],
+            [
+              -0.5354803998679111,
+              0.2461800778762143,
+              0.30837522577518445
+            ]
+          ],
+          "full_alpha_derivative": 2.255521754851848,
+          "balanced_batch_A_gradient_mean": [
+            [
+              -0.5554242632074293,
+              0.0025460375418552665,
+              -0.012371387324729368
+            ],
+            [
+              -0.044697859503822775,
+              0.21050205859945342,
+              0.08485237782787525
+            ],
+            [
+              0.030214175905480548,
+              0.12399697376282262,
+              0.0539282422279182
+            ]
+          ],
+          "balanced_batch_alpha_derivative": -0.22086643532261432,
+          "balanced_batch_vs_full_gradient_max_abs_error": 1.1509445485329535
+        },
+        {
+          "em": true,
+          "full_native_value": 3.4038381305998353,
+          "full_A_gradient": [
+            [
+              1.063021142910671,
+              -0.3036105082281866,
+              0.5369685268765295
+            ],
+            [
+              0.10500829540208259,
+              1.1373617300226107,
+              0.10050127429154537
+            ],
+            [
+              -0.7301071317788196,
+              0.2861923397731209,
+              0.3378782068006433
+            ]
+          ],
+          "full_alpha_derivative": 3.015146204065656,
+          "balanced_batch_A_gradient_mean": [
+            [
+              1.0630211429107381,
+              -0.30361050822819413,
+              0.5369685268765446
+            ],
+            [
+              0.10500829540208712,
+              1.137361730022615,
+              0.10050127429154695
+            ],
+            [
+              -0.7301071317788481,
+              0.28619233977312486,
+              0.3378782068006372
+            ]
+          ],
+          "balanced_batch_alpha_derivative": 3.0151462040657364,
+          "balanced_batch_vs_full_gradient_max_abs_error": 6.705747068735946e-14,
+          "fixed_posterior_Mstep_value": 3.4038381305998353,
+          "fixed_posterior_alpha_derivative": 3.0151462040656556,
+          "native_vs_fixed_posterior_derivative_abs_error": 4.440892098500626e-16,
+          "fixed_posterior_finite_difference_derivative": 3.0481875091581396,
+          "fixed_posterior_FD_abs_error": 0.03304130509248404,
+          "fixed_posterior_FD_step_halving_grid": [
+            {
+              "step": 1e-05,
+              "slope": 3.0481875091581396,
+              "absolute_error": 0.03304130509248404
+            },
+            {
+              "step": 5e-06,
+              "slope": 3.0234057889710892,
+              "absolute_error": 0.008259584905433659
+            },
+            {
+              "step": 2.5e-06,
+              "slope": 3.0172110538906334,
+              "absolute_error": 0.002064849824977788
+            },
+            {
+              "step": 1e-06,
+              "slope": 3.0154765779943915,
+              "absolute_error": 0.0003303739287359164
+            },
+            {
+              "step": 5e-07,
+              "slope": 3.0152287986418003,
+              "absolute_error": 8.259457614467891e-05
+            }
+          ],
+          "fixed_posterior_FD_qualification_note": "The original h=1e-5 exceeded tolerance near the prior covariance boundary. Retain it and qualify convergence under a declared step-halving grid, without changing model/optimizer parameters."
+        }
+      ],
+      "full_forward_value_difference": 0.0,
+      "batch_forward_value_max_difference": 6.661338147750939e-16,
+      "artifact": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle54\\em_switch_audit_v2\\rp_linear_small_seed1.npz",
+      "artifact_sha256": "9b8a299bc577c543b35f48264db5703f24e54316c140e6d6ede7a424d66661d3",
+      "checkpoint_unchanged": true,
+      "latent_truth_read": false,
+      "heldout_read": false,
+      "optimizer_updates": 0,
+      "scope": "Native existing EM option and fixed-posterior partial-derivative control only. No assertion of trained-model quality or of reference invariance of encoder updates."
+    }
+  ],
+  "runtime_seconds": 94.5800568999839,
+  "source_files_unchanged": {
+    "demos/cifar_pendulum.ipynb": "cfae15a37cbe3f571275070d96746c1999d3d334d7bce494c26917c44900c77b",
+    "demos/walker_dynamic_distractors.ipynb": "52cbc01f2e676c708fe944d24090e4047de27c9396ec6f3157c30b8f646d1665",
+    "LICENSE": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19",
+    "pdm.lock": "cc109e4356e8d31da90017a0940e5f67263b0037ce79438ccc7ae0e3d32d247c",
+    "pyproject.toml": "0737e83f199c9b59ecc1742a322f55c8701e29c53a0d80338368cb186ba92f70",
+    "README.md": "08fe3d7871c62fadd05964575501cd24abd97b942a0d145804afe355209a9e70",
+    "rp_ssm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rp_ssm/actions.py": "681e785b8ee79a8fbe1bac491fbbc0b2bc410c4f3ff0a55f05fa8c727a8df587",
+    "rp_ssm/config.py": "f6e55004b68078aeb084c1831e6bb9f1d743e3f2f88596d71e10abc9a2d53ddc",
+    "rp_ssm/datasets.py": "9a1aa383b5829264c59233ad5028a63a9bfe15aad09396e831faa8b8cc297abe",
+    "rp_ssm/datasets_utils.py": "47d930381df5c543aac53e36fb0823d08b650fc83a5a0b3cfbdcaf94d72007df",
+    "rp_ssm/distmaps.py": "54ee8ebe408f724be195b4a8405e0a50e3ed68e0fd7e100b30b54ea06ba162a7",
+    "rp_ssm/dists.py": "6050ccdb5c0fa21267db12811db3bb5b8b8ef3bf3bca6ed4d6ec9464348a93bf",
+    "rp_ssm/dists_utils.py": "874d7ed54403f3c987707bd4a5b17dac0fc6c9d84efb1c6107d61bb9b4d4d500",
+    "rp_ssm/generation.py": "b1a44e2d24f2d0eb508dd30ad5053ed85213dc12675a376a843a22cbdce3afc0",
+    "rp_ssm/gym_wrappers.py": "57bfc16924d1b3ba4d7a0d0e4237ab4801c936b3aa85e01fac60406324ee994e",
+    "rp_ssm/recognition.py": "04a255bbce078215b5106a19a7c42ab5a37a2d50735f91aaa54aef033913ba4a",
+    "rp_ssm/rpm.py": "da3792582ffc1997c4e775197791fc05dd00d09ff2d1fbca1c9742f93b89b2dd",
+    "rp_ssm/training.py": "d84c26650a375a2cafa5f670209fe394c9170cf20c01b0fc08398498bc07dc70",
+    "rp_ssm/types.py": "fc069345983c4f21b6670029e805718bd5bfb3cbaedce8ce64e039f16a61060d",
+    "rp_ssm/utils.py": "e711f4438301c1802aef7dfb3d17403aebe5a904df35eb87d4ae9f2ccbe05e53"
+  },
+  "formal_training_unchanged": true
+}

@@ -1,0 +1,33 @@
+{
+  "run": "rp_linear_small_seed1",
+  "checkpoint_sha256": "d4196168f6da9835943a4f3b1c8d6b104e9c8dac788a21205d7df6645e273442",
+  "source_sha256": "aabcd53f32f77e4ff27ce338cd5fcd03c1a4f0a883f8002a014dfe59ae607f7a",
+  "protocol_sha256": "0f22ac59d0659c458b381a089a918bd4caf1f9e7ea8fcc695c6e1ae9458b17be",
+  "artifact": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle54\\training_objective_audit_v2\\rp_linear_small_seed1.npz",
+  "artifact_sha256": "4d596117389efde11b1bf0930bb6bebc681e5a071fdfbbf82afd6c6f8841080b",
+  "full_bank_size": 200,
+  "native_batch_size": 32,
+  "batch_repetitions": 32,
+  "full_loss_minus_logB": -1.894479235948201,
+  "mean_batch_loss_minus_logB": -1.4768293788992746,
+  "gradient_cosine_mean_batch_vs_full": -0.11167766074245787,
+  "full_A_gradient_norm": 1.4025559975410242,
+  "mean_batch_A_gradient_norm": 0.679430334783279,
+  "gradient_mean_standard_error_frobenius_norm": 0.07696377777079322,
+  "full_alpha_derivative": 2.255521754851848,
+  "finite_difference_alpha_derivative": 2.2555228863962995,
+  "finite_difference_error": 1.1315444514714557e-06,
+  "batch_alpha_derivative_mean": -0.23587063802985203,
+  "batch_alpha_derivative_MC_SE": 0.06397087389269228,
+  "moment_matched_recognition_KL_mean_by_time": 0.023001495042665288,
+  "moment_matched_recognition_KL_max_by_time": 0.043623272201351204,
+  "mean_mixture_covariance_eigenvalues": [
+    0.88217542916259,
+    0.889931113709293,
+    0.9257705020454181
+  ],
+  "latent_truth_read": false,
+  "heldout_read": false,
+  "optimizer_updates": 0,
+  "checkpoint_unchanged": true
+}

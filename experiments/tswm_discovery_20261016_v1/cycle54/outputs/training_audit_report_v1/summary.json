@@ -1,0 +1,136 @@
+{
+  "utc": "2026-10-17T18:52:56.994336+00:00",
+  "status": "COMPLETE_TRAIN_ONLY_REFERENCE_AND_EXISTING_EM_OPTION_ATTRIBUTION",
+  "source_summaries": {
+    "objective": "39b827689f9a7cac203f65e8eb48937ac1fdbea3da042d916029e6d88928086c",
+    "balanced": "4bb30029f6881835b0cf6620f85ba5a49b1090b9c02163809f00b1ccb7132459",
+    "normalizer": "2ca1935aefa9e453edfb63aeb2c299ac1a6e967551a502a2b7c7362ab9a8d036",
+    "em": "a4e6706694cff5329c33f6f9520b69752f297c0212ae6574822bb6512c6f91b0"
+  },
+  "finding_sha256": "c68c26e64232bb73ce2f28e4ef82798c3e670e1b9859dda2ee321b26c71a1e20",
+  "normalizer_estimates": [
+    {
+      "seed": 0,
+      "full_bank_alpha_derivative": 1.847127104297217,
+      "estimator": "native_coupled",
+      "alpha_derivative_mean": -0.7234204207193755,
+      "conditional_bias_vs_full_bank": -2.5705475250165923,
+      "std_over_batches": 0.3669604092737956,
+      "iid_MC_SE": 0.011467512789806112,
+      "MC_scope": "Conditional on fixed training data and frozen model. Running estimators have temporal dependence; no iid MC interval claimed."
+    },
+    {
+      "seed": 0,
+      "full_bank_alpha_derivative": 1.847127104297217,
+      "estimator": "leave_designated_diagonal_out",
+      "alpha_derivative_mean": 2.323412310180018,
+      "conditional_bias_vs_full_bank": 0.4762852058828009,
+      "std_over_batches": 0.6084941137455478,
+      "iid_MC_SE": 0.01901544105454837,
+      "MC_scope": "Conditional on fixed training data and frozen model. Running estimators have temporal dependence; no iid MC interval claimed."
+    },
+    {
+      "seed": 0,
+      "full_bank_alpha_derivative": 1.847127104297217,
+      "estimator": "independent_reference",
+      "alpha_derivative_mean": 2.3522928818904605,
+      "conditional_bias_vs_full_bank": 0.5051657775932434,
+      "std_over_batches": 0.6292169918416738,
+      "iid_MC_SE": 0.019663030995052306,
+      "MC_scope": "Conditional on fixed training data and frozen model. Running estimators have temporal dependence; no iid MC interval claimed."
+    },
+    {
+      "seed": 0,
+      "full_bank_alpha_derivative": 1.847127104297217,
+      "estimator": "oracle_frozen_normalizer",
+      "alpha_derivative_mean": 0.10125391678971585,
+      "conditional_bias_vs_full_bank": -1.745873187507501,
+      "std_over_batches": 94.1045712646296,
+      "iid_MC_SE": 2.940767852019675,
+      "MC_scope": "Conditional on fixed training data and frozen model. Running estimators have temporal dependence; no iid MC interval claimed."
+    },
+    {
+      "seed": 0,
+      "full_bank_alpha_derivative": 1.847127104297217,
+      "estimator": "running_normalizer_gamma09",
+      "alpha_derivative_mean": -62.19161685615574,
+      "conditional_bias_vs_full_bank": -64.03874396045296,
+      "std_over_batches": 20.87977359291222,
+      "iid_MC_SE": null,
+      "MC_scope": "Conditional on fixed training data and frozen model. Running estimators have temporal dependence; no iid MC interval claimed."
+    },
+    {
+      "seed": 0,
+      "full_bank_alpha_derivative": 1.847127104297217,
+      "estimator": "running_normalizer_gamma01",
+      "alpha_derivative_mean": -28.264649780835633,
+      "conditional_bias_vs_full_bank": -30.11177688513285,
+      "std_over_batches": 74.65949679629003,
+      "iid_MC_SE": null,
+      "MC_scope": "Conditional on fixed training data and frozen model. Running estimators have temporal dependence; no iid MC interval claimed."
+    },
+    {
+      "seed": 1,
+      "full_bank_alpha_derivative": 2.2555217548519413,
+      "estimator": "native_coupled",
+      "alpha_derivative_mean": -0.4107224503064549,
+      "conditional_bias_vs_full_bank": -2.6662442051583963,
+      "std_over_batches": 0.38692099672399327,
+      "iid_MC_SE": 0.01209128114762479,
+      "MC_scope": "Conditional on fixed training data and frozen model. Running estimators have temporal dependence; no iid MC interval claimed."
+    },
+    {
+      "seed": 1,
+      "full_bank_alpha_derivative": 2.2555217548519413,
+      "estimator": "leave_designated_diagonal_out",
+      "alpha_derivative_mean": 2.811849754893088,
+      "conditional_bias_vs_full_bank": 0.5563280000411468,
+      "std_over_batches": 0.6401844807576647,
+      "iid_MC_SE": 0.02000576502367702,
+      "MC_scope": "Conditional on fixed training data and frozen model. Running estimators have temporal dependence; no iid MC interval claimed."
+    },
+    {
+      "seed": 1,
+      "full_bank_alpha_derivative": 2.2555217548519413,
+      "estimator": "independent_reference",
+      "alpha_derivative_mean": 2.8412785374609846,
+      "conditional_bias_vs_full_bank": 0.5857567826090433,
+      "std_over_batches": 0.6647348634489407,
+      "iid_MC_SE": 0.020772964482779398,
+      "MC_scope": "Conditional on fixed training data and frozen model. Running estimators have temporal dependence; no iid MC interval claimed."
+    },
+    {
+      "seed": 1,
+      "full_bank_alpha_derivative": 2.2555217548519413,
+      "estimator": "oracle_frozen_normalizer",
+      "alpha_derivative_mean": 0.3126247174671086,
+      "conditional_bias_vs_full_bank": -1.9428970373848327,
+      "std_over_batches": 97.58676373340577,
+      "iid_MC_SE": 3.0495863666689305,
+      "MC_scope": "Conditional on fixed training data and frozen model. Running estimators have temporal dependence; no iid MC interval claimed."
+    },
+    {
+      "seed": 1,
+      "full_bank_alpha_derivative": 2.2555217548519413,
+      "estimator": "running_normalizer_gamma09",
+      "alpha_derivative_mean": -64.20793572588062,
+      "conditional_bias_vs_full_bank": -66.46345748073256,
+      "std_over_batches": 21.714985979375907,
+      "iid_MC_SE": null,
+      "MC_scope": "Conditional on fixed training data and frozen model. Running estimators have temporal dependence; no iid MC interval claimed."
+    },
+    {
+      "seed": 1,
+      "full_bank_alpha_derivative": 2.2555217548519413,
+      "estimator": "running_normalizer_gamma01",
+      "alpha_derivative_mean": -28.96881660760785,
+      "conditional_bias_vs_full_bank": -31.22433836245979,
+      "std_over_batches": 77.47377099592516,
+      "iid_MC_SE": null,
+      "MC_scope": "Conditional on fixed training data and frozen model. Running estimators have temporal dependence; no iid MC interval claimed."
+    }
+  ],
+  "accepted_directions": 0,
+  "formal_heldout_results_used": false,
+  "scientific_decision": "Default total-derivative A-reference sensitivity has an existing native fixed-posterior counter-control. No new world-model primitive established. Matched learning control pending."
+}

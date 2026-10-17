@@ -1,0 +1,36 @@
+{
+  "utc": "2026-10-17T18:13:25.843652+00:00",
+  "status": "COMPLETE_FIXED_BUDGET",
+  "method": "rp",
+  "task": "linear_small",
+  "seed": 1,
+  "iterations": 10000,
+  "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle54\\rp_linear_small_seed1.pkl",
+  "checkpoint_sha256": "d4196168f6da9835943a4f3b1c8d6b104e9c8dac788a21205d7df6645e273442",
+  "initial_checkpoint_sha256": "2c3b143483129607f0686033881a5f276a6939a197492871cbc25aba0c697b40",
+  "dataset_sha256": "1809327ed4500f9d21a15e588d0da394d1a68561cfe84af7fceeee3a2ce5761c",
+  "plan_sha256": "2b52c5bbb7d8b0f1a0d911b8492aa5c84521da849b02c6f3123ac602f8fd8947",
+  "source_revision": "a75225d5edceb972bb872dc9a335608733567dd4",
+  "script_sha256": "8799f5187d2cdbd64c31ffb39887034c9548e2e70d1b3c31c11d9eb200f4ff92",
+  "common_sha256": "7197d297a78b08a04738adf73d5d6a65a597678871e780a2f286b2b03741b206",
+  "runtime_seconds": 711.6201809000049,
+  "configuration": {
+    "batch_size": 32,
+    "num_iter": 10000,
+    "seed": 1,
+    "jit": true,
+    "beta_schedule": "<function Config.<lambda> at 0x00000278D7E66F80>",
+    "prior_opt": "<function adam at 0x00000278CD8993F0>",
+    "prior_lr": 0.001,
+    "act_lr": 0.001,
+    "rec_lr": [
+      0.001
+    ],
+    "stabilize_A": "clip",
+    "em": false
+  },
+  "latent_states_read_in_training": false,
+  "heldout_read_in_training": false,
+  "checkpoint_selection": "terminal fixed-budget model",
+  "parameter_count": 30
+}

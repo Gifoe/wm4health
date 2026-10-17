@@ -1,0 +1,74 @@
+{
+  "em": true,
+  "full_native_value": 3.40313884746098,
+  "full_A_gradient": [
+    [
+      0.28804248405105226,
+      -0.16464716671534782,
+      0.6622219570899338
+    ],
+    [
+      -0.04435588689088297,
+      0.7319744066802975,
+      0.11585983389982332
+    ],
+    [
+      -0.6022544399471053,
+      -0.21668248349354657,
+      1.0621468493974306
+    ]
+  ],
+  "full_alpha_derivative": 2.5594356439683392,
+  "balanced_batch_A_gradient_mean": [
+    [
+      0.2880424840510537,
+      -0.1646471667153461,
+      0.6622219570899186
+    ],
+    [
+      -0.044355886890882844,
+      0.7319744066803092,
+      0.11585983389982378
+    ],
+    [
+      -0.6022544399470875,
+      -0.2166824834935407,
+      1.0621468493973845
+    ]
+  ],
+  "balanced_batch_alpha_derivative": 2.5594356439682953,
+  "balanced_batch_vs_full_gradient_max_abs_error": 4.618527782440651e-14,
+  "fixed_posterior_Mstep_value": 3.40313884746098,
+  "fixed_posterior_alpha_derivative": 2.5594356439683392,
+  "native_vs_fixed_posterior_derivative_abs_error": 0.0,
+  "fixed_posterior_finite_difference_derivative": 2.5924739730287527,
+  "fixed_posterior_FD_abs_error": 0.033038329060413485,
+  "fixed_posterior_FD_step_halving_grid": [
+    {
+      "step": 1e-05,
+      "slope": 2.5924739730287527,
+      "absolute_error": 0.033038329060413485
+    },
+    {
+      "step": 5e-06,
+      "slope": 2.5676944849006844,
+      "absolute_error": 0.00825884093234519
+    },
+    {
+      "step": 2.5e-06,
+      "slope": 2.561500307773912,
+      "absolute_error": 0.0020646638055725752
+    },
+    {
+      "step": 1e-06,
+      "slope": 2.559765988285889,
+      "absolute_error": 0.00033034431754996874
+    },
+    {
+      "step": 5e-07,
+      "slope": 2.5595182306936692,
+      "absolute_error": 8.258672533001388e-05
+    }
+  ],
+  "fixed_posterior_FD_qualification_note": "The original h=1e-5 exceeded tolerance near the prior covariance boundary. Retain it and qualify convergence under a declared step-halving grid, without changing model/optimizer parameters."
+}

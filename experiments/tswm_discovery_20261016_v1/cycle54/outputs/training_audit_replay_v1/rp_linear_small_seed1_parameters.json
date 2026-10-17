@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "run": "rp_linear_small_seed1",
+  "task": "linear_small",
+  "seed": 1,
+  "native_checkpoint_sha256": "d4196168f6da9835943a4f3b1c8d6b104e9c8dac788a21205d7df6645e273442",
+  "source_revision": "a75225d5edceb972bb872dc9a335608733567dd4",
+  "dataset_sha256": "1809327ed4500f9d21a15e588d0da394d1a68561cfe84af7fceeee3a2ce5761c",
+  "model_parameters": {
+    "kind": "tuple",
+    "items": [
+      {
+        "kind": "dict",
+        "items": [
+          [
+            "A",
+            {
+              "kind": "array",
+              "dtype": "<f8",
+              "shape": [
+                3,
+                3
+              ],
+              "values": [
+                [
+                  0.8033640216887972,
+                  -0.1423560100770871,
+                  0.5656484227437442
+                ],
+                [
+                  0.16606133061105446,
+                  0.9646497221697954,
+                  0.013301094276749794
+                ],
+                [
+                  -0.5641100574013678,
+                  0.09277805665263812,
+                  0.7690749544663992
+                ]
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "kind": "dict",
+        "items": [
+          [
+            "params",
+            {
+              "kind": "dict",
+              "items": [
+                [
+                  "Dense_0",
+                  {
+                    "kind": "dict",
+                    "items": [
+                      [
+                        "bias",
+                        {
+                          "kind": "array",
+                          "dtype": "<f4",
+                          "shape": [
+                            3
+                          ],
+                          "values": [
+                            1.005843162536621,
+                            1.0922328233718872,
+                            -3.0149548053741455
+                          ]
+                        }
+                      ],
+                      [
+                        "kernel",
+                        {
+                          "kind": "array",
+                          "dtype": "<f4",
+                          "shape": [
+                            5,
+                            3
+                          ],
+                          "values": [
+                            [
+                              1.0884225368499756,
+                              1.2610238790512085,
+                              -0.3776014745235443
+                            ],
+                            [
+                              1.1568001508712769,
+                              -0.43092334270477295,
+                              1.1765183210372925
+                            ],
+                            [
+                              0.7125290036201477,
+                              -1.3819931745529175,
+                              0.11170835047960281
+                            ],
+                            [
+                              0.7350875735282898,
+                              -0.9799718260765076,
+                              -1.6093155145645142
+                            ],
+                            [
+                              0.816901445388794,
+                              -0.7922924160957336,
+                              0.11991965025663376
+                            ]
+                          ]
+                        }
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "cov",
+                  {
+                    "kind": "array",
+                    "dtype": "<f8",
+                    "shape": [
+                      3
+                    ],
+                    "values": [
+                      6.167883336869762,
+                      5.160473246462454,
+                      2.0747091011967247
+                    ]
+                  }
+                ]
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "all_parameter_arrays_and_dtypes_exact_after_json_roundtrip": true,
+  "expected_gradients": {
+    "False": {
+      "full_alpha_derivative": 2.255521754851848,
+      "balanced_batch_alpha_derivative": -0.22086643532261432
+    },
+    "True": {
+      "full_alpha_derivative": 3.015146204065656,
+      "balanced_batch_alpha_derivative": 3.0151462040657364
+    }
+  },
+  "scope": "Two small public synthetic audit points only. Native runtime checkpoint files and all signal/score arrays remain on server storage. No model optimization or heldout access in this export."
+}

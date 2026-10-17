@@ -1,0 +1,18 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Traceback (most recent call last):
+  File "D:\tswm_discovery_20261016_v1\cycle54\scripts\capture_em_switch54_v1.py", line 6, in <module>
+    state('RUNNING_FROZEN_NATIVE_EM_SWITCH_CONTROL');runpy.run_path(str(root/'scripts/audit_em_switch54_v1.py'),run_name='__main__');state('COMPLETE_NO_TRAINING_OR_HELDOUT_CHANGES')
+  File "E:\Anaconda\envs\persist_stable_251\lib\runpy.py", line 289, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "E:\Anaconda\envs\persist_stable_251\lib\runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "E:\Anaconda\envs\persist_stable_251\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "D:\tswm_discovery_20261016_v1\cycle54\scripts\audit_em_switch54_v1.py", line 42, in <module>
+    if __name__=='__main__':main()
+  File "D:\tswm_discovery_20261016_v1\cycle54\scripts\audit_em_switch54_v1.py", line 34, in main
+    assert mode['fixed_posterior_FD_abs_error']<1e-4*max(1.,abs(float(fg)))
+AssertionError

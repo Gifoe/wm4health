@@ -1,0 +1,176 @@
+{
+  "utc": "2026-10-17T18:59:54.853233+00:00",
+  "status": "FROZEN_TRAINING_AUDITS_COMPLETE_PRIMARY_AND_EXISTING_OPTION_LEARNING_CONTINUE",
+  "primary_planned_fits": 12,
+  "primary_completed_fits": 9,
+  "supplemental_planned_fits": 4,
+  "supplemental_completed_fits": 1,
+  "primary_complete": [
+    {
+      "method": "em",
+      "task": "linear_medium",
+      "seed": 0,
+      "iterations": 200,
+      "checkpoint_sha256": "5142167ed7dc73171a24a29bb1614a519723b5c0721bb8ba35f1565ab26a96f2",
+      "runtime_seconds": 4.308825699990848
+    },
+    {
+      "method": "em",
+      "task": "linear_medium",
+      "seed": 1,
+      "iterations": 200,
+      "checkpoint_sha256": "9ec69dbd9fb0c4af07753309c8938153c9d35cec23503f428e51fff1df124b18",
+      "runtime_seconds": 4.070139699993888
+    },
+    {
+      "method": "em",
+      "task": "linear_medium",
+      "seed": 2,
+      "iterations": 200,
+      "checkpoint_sha256": "85d34e0905ba047c7bb71048ed436f0b0fcc60d7170f05c8dd21079a7a88405a",
+      "runtime_seconds": 4.140516499988735
+    },
+    {
+      "method": "em",
+      "task": "linear_small",
+      "seed": 0,
+      "iterations": 200,
+      "checkpoint_sha256": "0f5e1d99a5a530f510f86c2dbee95060dbb2d3b6bdb0476de0ee685daa0b531a",
+      "runtime_seconds": 2.604956499999389
+    },
+    {
+      "method": "em",
+      "task": "linear_small",
+      "seed": 1,
+      "iterations": 200,
+      "checkpoint_sha256": "63b7f373d5944d71e34880f0e8e0e30bc7d6bbe14a1ce901b83b732d483fa9b4",
+      "runtime_seconds": 2.6042546999815386
+    },
+    {
+      "method": "em",
+      "task": "linear_small",
+      "seed": 2,
+      "iterations": 200,
+      "checkpoint_sha256": "64fbe6aebecd4ff6358d47e6a0cdb75bc0e3b6b6a0c3444893f88dd06e9429f5",
+      "runtime_seconds": 2.6111254999996163
+    },
+    {
+      "method": "rp",
+      "task": "linear_small",
+      "seed": 0,
+      "iterations": 10000,
+      "checkpoint_sha256": "4443506bd7df41eeccda317d596cf2142f504b7985423c907397d368d66b3e3e",
+      "runtime_seconds": 708.9000696000003
+    },
+    {
+      "method": "rp",
+      "task": "linear_small",
+      "seed": 1,
+      "iterations": 10000,
+      "checkpoint_sha256": "d4196168f6da9835943a4f3b1c8d6b104e9c8dac788a21205d7df6645e273442",
+      "runtime_seconds": 711.6201809000049
+    },
+    {
+      "method": "rp",
+      "task": "linear_small",
+      "seed": 2,
+      "iterations": 10000,
+      "checkpoint_sha256": "5c2f7c6bdb2d368c0306ea030817e753e5a5236d215921f143c4d9636cf6e840",
+      "runtime_seconds": 721.0838375000167
+    }
+  ],
+  "supplemental_complete": [
+    {
+      "method": "rp_emtrue",
+      "task": "linear_small",
+      "seed": 0,
+      "iterations": 10000,
+      "checkpoint_sha256": "d8d8c74c2fc28ad924e5c61e910bd4dfa196f82adfe13762a58b7e6a50a79237",
+      "runtime_seconds": 519.4626205000095
+    }
+  ],
+  "primary_state_observed": {
+    "status": "RUNNING",
+    "run": "rp_linear_medium_seed0",
+    "completed": [
+      {
+        "run": "rp_linear_small_seed0",
+        "result_sha256": "5011eb99a14743f4a9dcc364658b960765f32de30def6983a6948c5530da8b1f",
+        "method": "rp",
+        "iterations": 10000,
+        "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle54\\rp_linear_small_seed0.pkl",
+        "checkpoint_sha256": "4443506bd7df41eeccda317d596cf2142f504b7985423c907397d368d66b3e3e",
+        "runtime_seconds": 708.9000696000003,
+        "parameter_count": 30
+      },
+      {
+        "run": "rp_linear_small_seed1",
+        "result_sha256": "94705f5f91ea53a413e2cc619d4af86b99042cf3b58c17df43cc65536857dfe9",
+        "method": "rp",
+        "iterations": 10000,
+        "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle54\\rp_linear_small_seed1.pkl",
+        "checkpoint_sha256": "d4196168f6da9835943a4f3b1c8d6b104e9c8dac788a21205d7df6645e273442",
+        "runtime_seconds": 711.6201809000049,
+        "parameter_count": 30
+      },
+      {
+        "run": "rp_linear_small_seed2",
+        "result_sha256": "9b5240e9b36cc7b7caa2ee78f7192dbb3979bd21df616fc4d0a83ec55da48431",
+        "method": "rp",
+        "iterations": 10000,
+        "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle54\\rp_linear_small_seed2.pkl",
+        "checkpoint_sha256": "5c2f7c6bdb2d368c0306ea030817e753e5a5236d215921f143c4d9636cf6e840",
+        "runtime_seconds": 721.0838375000167,
+        "parameter_count": 30
+      }
+    ],
+    "pid": 35596,
+    "utc": "2026-10-17T18:25:30.268192+00:00"
+  },
+  "supplemental_state_observed": {
+    "utc": "2026-10-17T18:53:59.694381+00:00",
+    "status": "RUNNING",
+    "pid": 20176,
+    "completed": [
+      {
+        "utc": "2026-10-17T18:53:59.110701+00:00",
+        "status": "COMPLETE_FIXED_BUDGET_NATIVE_EM_TRUE",
+        "run": "rp_emtrue_linear_small_seed0",
+        "task": "linear_small",
+        "seed": 0,
+        "method": "rp_emtrue",
+        "em": true,
+        "iterations": 10000,
+        "batch_size": 32,
+        "learning_rate": 0.001,
+        "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle54\\em_option_learning_v1\\rp_emtrue_linear_small_seed0.pkl",
+        "checkpoint_sha256": "d8d8c74c2fc28ad924e5c61e910bd4dfa196f82adfe13762a58b7e6a50a79237",
+        "initial_checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle54\\em_option_learning_v1\\rp_emtrue_linear_small_seed0_initial.pkl",
+        "initial_checkpoint_sha256": "cd55433ebb706ea3582e02ff4d453880a4bb377e59a53e2e8431cac653e95b11",
+        "original_false_init_arrays_exact_match": true,
+        "matched_false_run": "rp_linear_small_seed0",
+        "dataset_sha256": "1809327ed4500f9d21a15e588d0da394d1a68561cfe84af7fceeee3a2ce5761c",
+        "original_plan_sha256": "2b52c5bbb7d8b0f1a0d911b8492aa5c84521da849b02c6f3123ac602f8fd8947",
+        "supplemental_protocol_sha256": "e5206601b05ad0b3c96a7680b0831d75fcb0efb20b2d1a058a22bca73480c789",
+        "native_source_revision": "a75225d5edceb972bb872dc9a335608733567dd4",
+        "training_script_sha256": "71dda68c076605e3777cacb15aef3c2689ac210953403bcdc80f4848c6a42657",
+        "runtime_seconds": 519.4626205000095,
+        "parameter_count": 30,
+        "checkpoint_selection": "terminal fixed-budget model",
+        "latent_truth_read": false,
+        "heldout_read": false,
+        "configuration_difference": "Only the existing native Config.em option changes gradient treatment; data/model/initialization/batch RNG/Adam/budget unchanged."
+      }
+    ],
+    "run": "rp_emtrue_linear_small_seed1"
+  },
+  "postprocessing_state_observed": {
+    "utc": "2026-10-17T18:48:41.172752+00:00",
+    "status": "WAITING_FOR_PRIMARY12_AND_SUPPLEMENTAL4_MODEL_SEALS",
+    "pid": 5384
+  },
+  "heldout_evaluation_opened": false,
+  "accepted_directions": 0,
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "local_result_file_sync": false
+}
