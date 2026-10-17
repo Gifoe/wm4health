@@ -1,0 +1,98 @@
+{
+  "utc": "2026-10-17T20:35:26.434207+00:00",
+  "status": "PASS_DUMMY_NATIVE_INITIAL_INFERENCE_ROLLOUT_AFFINE_AND_BATCHED_GAUSSIAN_SCORE",
+  "records": [
+    {
+      "task": "linear_small",
+      "method": "rp",
+      "score_shape": [
+        2,
+        6
+      ],
+      "physical_covariance_shape": [
+        2,
+        6,
+        3,
+        3
+      ],
+      "scipy_nll_max_error": 1.7763568394002505e-15,
+      "native_inference_checks": {
+        "smoother_mean_max_abs": 8.12039324671332e-11,
+        "smoother_cov_max_abs": 3.054385633305401e-10,
+        "endpoint_mean_max_abs": 7.14431569459606e-11,
+        "endpoint_cov_max_abs": 1.604062438431697e-10
+      }
+    },
+    {
+      "task": "linear_small",
+      "method": "em",
+      "score_shape": [
+        2,
+        6
+      ],
+      "physical_covariance_shape": [
+        2,
+        6,
+        3,
+        3
+      ],
+      "scipy_nll_max_error": 4.618527782440651e-14,
+      "native_inference_checks": {
+        "smoother_mean_max_abs": 6.563705134965403e-10,
+        "smoother_cov_max_abs": 1.1464865445898198e-09,
+        "endpoint_mean_max_abs": 4.2186248938591575e-10,
+        "endpoint_cov_max_abs": 4.881427206893107e-10
+      }
+    },
+    {
+      "task": "linear_medium",
+      "method": "rp",
+      "score_shape": [
+        2,
+        6
+      ],
+      "physical_covariance_shape": [
+        2,
+        6,
+        5,
+        5
+      ],
+      "scipy_nll_max_error": 1.7763568394002505e-15,
+      "native_inference_checks": {
+        "smoother_mean_max_abs": 7.582073857648197e-11,
+        "smoother_cov_max_abs": 3.054385633305401e-10,
+        "endpoint_mean_max_abs": 7.582073857648197e-11,
+        "endpoint_cov_max_abs": 1.604062438431697e-10
+      }
+    },
+    {
+      "task": "linear_medium",
+      "method": "em",
+      "score_shape": [
+        2,
+        6
+      ],
+      "physical_covariance_shape": [
+        2,
+        6,
+        5,
+        5
+      ],
+      "scipy_nll_max_error": 4.263256414560601e-14,
+      "native_inference_checks": {
+        "smoother_mean_max_abs": 3.710407536772209e-10,
+        "smoother_cov_max_abs": 4.905525291531987e-10,
+        "endpoint_mean_max_abs": 3.41502159884044e-10,
+        "endpoint_cov_max_abs": 3.2685740225524285e-10
+      }
+    }
+  ],
+  "formal_signal_state_or_checkpoint_reads": 0,
+  "optimizer_updates": 0,
+  "EM_iterations": 0,
+  "native_source_unchanged": true,
+  "script_sha256": "13f44f368058b4eebdb7e9181151b5fedd115db0285a77fc4a3c57729ba4abf2",
+  "math_script_sha256": "50a566879d60ebb207ea6a9fe32ea1b15a4230978ca8fbbfcf03ed0e63ad8d12",
+  "existing_component_script_sha256": "f7128a9fee3823090c6d1bd00985fd0b97a03e03876e2e327a9820a235cfca80",
+  "scope": "New independently initialized dummy models only; no formal fit, selected model or performance evidence."
+}
