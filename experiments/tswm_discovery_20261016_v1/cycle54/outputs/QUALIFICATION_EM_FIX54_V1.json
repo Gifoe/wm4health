@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-17T18:04:48.548909+00:00",
+  "status": "PASS_ORDINARY_EM_INITIAL_COVARIANCE_NORMALIZATION_FIX",
+  "training_data_only": true,
+  "heldout_or_true_state_read": false,
+  "original_first_mstep_initial_covariance_min_eigenvalue": -6.5439394031290545,
+  "corrected_min_eigenvalue": 0.7181136912953948,
+  "independent_numpy_expected_moment_max_abs_error": 2.1839130504019977e-10,
+  "all_other_mstep_parameters_identical": true,
+  "corrected_three_iteration_training_loglik": [
+    -143883.90512033977,
+    -119223.16368401948,
+    -116900.51637428357
+  ],
+  "native_mstep_source_sha256": "dd9e151a7d7fa11788d67d4ac9a7c41ba82799f021ccdea29985fe344270df72",
+  "native_mstep_source_file": "D:\\tswm_discovery_20261016_v1\\cycle2\\.venv_rpm\\lib\\site-packages\\dynamax\\linear_gaussian_ssm\\models.py",
+  "correction_source_sha256": "ec8e430bdebf2a06e62f02c387cb2e4eade97deb180a94661c3121fb362a454b",
+  "qualification_script_sha256": "5fbcb298d247c6a27de6a1d13d499a788c830317e3ec6ed9b7b3fe7c5fd39323",
+  "scope": "Routine implementation repair of the standard covariance moment, not a new method. No upstream source or global package modified. Four discarded training-only M-step executions (one direct, three in fit_em); the direct native and corrected calls compare the same E-step statistics.",
+  "publication_note": "Full native source function omitted; source file and SHA256 retained. Original complete receipt remains on server.",
+  "qualification_execution_count_note": "One native and four corrected M-step calls in qualification (one direct corrected update plus three fit_em iterations). These are excluded from formal fits."
+}

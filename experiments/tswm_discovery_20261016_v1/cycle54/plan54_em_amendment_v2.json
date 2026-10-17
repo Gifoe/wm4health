@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "supersedes": "Only the native Dynamax initial covariance M-step in the baseline declared by plan54_v1.json",
+  "reason": "Native first M-step produces an indefinite initial covariance and NaN likelihood. Diagnosis and repair use training observations only, before heldout evaluation or state readout fitting.",
+  "original_formula": "S=(sum_Ezz-outer(sum_Ez,sum_Ez))/N",
+  "correct_formula": "m=sum_Ez/N; S=sum_Ezz/N-outer(m,m)",
+  "implementation": "scripts/corrected_em54_v1.py: CorrectedLinearGaussianSSM",
+  "native_parts_unchanged": ["E-step", "transition regression", "emission regression", "all other M-step parameters", "native fit_em loop", "all source/package files"],
+  "fit_configuration_unchanged": ["training data", "PCA initialization and perturbation", "seeds 0,1,2", "latent dimensions", "200 iterations", "terminal checkpoint selection", "training-only state diagnostic maps", "heldout information restrictions"],
+  "qualified_by": "outputs/QUALIFICATION_EM_FIX54_V1.json",
+  "qualification": "Independent NumPy expected initial moments, positive corrected initial covariance, bitwise identical other M-step parameters, three increasing finite native EM objectives. Qualification uses training observations without latent labels.",
+  "prior_attempts": "Two 200-iteration native seed0 attempts are preserved as failed; the second retained NaN history/candidate arrays before report serialization stopped. They are not selected or counted as successful fits.",
+  "active_training_script": "scripts/train54_v3.py",
+  "active_parallel_queue": "scripts/run_em54_v2.py",
+  "runtime": "Same existing CPU environment; EM workers use eight logical processors 24-31 and RP workers use 16-23. No global environment changes.",
+  "rp_training_change": false,
+  "scientific_interpretation": "Ordinary corrected LGSSM EM is the strong baseline. This is a routine implementation correction and is not a novel model, likelihood, or inference method.",
+  "heldout_metrics_inspected_before_amendment": false
+}

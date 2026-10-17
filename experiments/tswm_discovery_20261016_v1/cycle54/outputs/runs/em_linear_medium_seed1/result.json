@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-17T18:06:21.493912+00:00",
+  "status": "COMPLETE_FIXED_BUDGET",
+  "method": "em",
+  "task": "linear_medium",
+  "seed": 1,
+  "iterations": 200,
+  "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle54\\em_linear_medium_seed1.pkl",
+  "checkpoint_sha256": "9ec69dbd9fb0c4af07753309c8938153c9d35cec23503f428e51fff1df124b18",
+  "initial_checkpoint_sha256": "fe5077a43f24cad977773ec7a975cddfb568cf3cf6a62916ba06d255d43b59c0",
+  "dataset_sha256": "bdc2efd24ee52216323c56609af7106725a4ca0dbe3c351f4f129fc35e1d1bc4",
+  "plan_sha256": "2b52c5bbb7d8b0f1a0d911b8492aa5c84521da849b02c6f3123ac602f8fd8947",
+  "source_revision": "a75225d5edceb972bb872dc9a335608733567dd4",
+  "baseline_amendment_sha256": "af2f7f455b2b295411f5aaa5bc9e3b3fead8e99bfd5c791732e0013f1db3a0e9",
+  "script_sha256": "02f295218acfee296c4072b81e7f28ead2ca4d36c169300e34cfddb6e9da6887",
+  "common_sha256": "7197d297a78b08a04738adf73d5d6a65a597678871e780a2f286b2b03741b206",
+  "runtime_seconds": 4.070139699993888,
+  "configuration": {
+    "num_iters": 200,
+    "initialization": "Training-observation PCA with 5% random loading perturbation, .8I plus .02 Gaussian A; all LGSSM parameters learned by native Dynamax EM",
+    "noise_initialization": 0.30124684015512415,
+    "native_model": "Dynamax 0.1.5 LinearGaussianSSM with standard initial-covariance normalization fix",
+    "correction_source_sha256": "ec8e430bdebf2a06e62f02c387cb2e4eade97deb180a94661c3121fb362a454b",
+    "all_parameters_learned": true
+  },
+  "latent_states_read_in_training": false,
+  "heldout_read_in_training": false,
+  "checkpoint_selection": "terminal fixed-budget model",
+  "parameter_count": 245
+}
