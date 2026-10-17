@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-17T19:50:59.213824+00:00",
+  "status": "REGISTERED_BEFORE_ANY_HELDOUT_SCORE",
+  "heldout_opened_at_registration": false,
+  "files_sha256": {
+    "CAUSAL_RISK_INTERPRETATION54_V1.md": "5ac96a0c152b055854934326c53a182851dd5ba8008a2a81ce0bc3a10c1ce529",
+    "scripts/risk_math54_v1.py": "aac7d3bf1fe085cda399164d655707fd712a7f959e12ad063789cba4d07e5f29",
+    "scripts/qualify_risk_math54_v1.py": "e14061de68da5b50903046d961d039fb292bebb0b24a982409fcf40273921801",
+    "scripts/analyze_causal_risk54_v1.py": "9ae37eaf15073e842db646d7b0885e67469b5565fc824b788bd8281e6c9d9740",
+    "scripts/watch_causal_risk54_v1.py": "3a09f869a62b7d73b0a53f99a5afa517bf960fb30e6182f004373f4bff08dc5b"
+  },
+  "qualification_sha256": "a29d0b61bd76d15722bef9d56fb7479260b72f3314a442b6a4237496ff44a656",
+  "horizons": [
+    0,
+    1,
+    5,
+    10,
+    25,
+    50
+  ],
+  "sequence_bootstrap_replicates": 2048,
+  "sequence_bootstrap_seed": 5491,
+  "interval_interpretation": "Pointwise95 descriptive sequence intervals; conditional on fixed models, no multiplicity correction or method selection.",
+  "changes_to_existing_models_or_scoring_pipeline": false,
+  "additional_optimizer_updates": 0,
+  "model_or_data_reads": 0,
+  "scope": "Read-only interpretation after existing all16-fit/all16-map seals and completed scoring, not a new method, metric or accepted direction."
+}
