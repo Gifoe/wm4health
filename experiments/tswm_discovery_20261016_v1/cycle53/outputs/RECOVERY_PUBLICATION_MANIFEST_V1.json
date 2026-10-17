@@ -1,0 +1,105 @@
+{
+  "utc": "2026-10-17T16:24:47.298136+00:00",
+  "scope": "dated C53 native-crash recovery and running progress",
+  "local_result_synchronization": false,
+  "historical_first_snapshot_commit": "7d3475c66eb10ccfc9ef961708213cc173a3ee5b",
+  "predeclared_analysis_commit": "e040bd878a6e7681a4c06fac8abc2ff9c03065db",
+  "files": [
+    {
+      "path": "experiments/tswm_discovery_20261016_v1/cycle53/CURRENT_STATE_V7.md",
+      "bytes": 1567,
+      "sha256": "3d5f58c06d2c0f894fa9c37b4d0e5b65af9a096286c58bd1ac752b13e39f1c61",
+      "git_blob_sha": "f40bf35f2003bb9112e23e66617df9e5457369df"
+    },
+    {
+      "path": "experiments/tswm_discovery_20261016_v1/cycle53/RUNTIME_SUPPLEMENT_V7.md",
+      "bytes": 2123,
+      "sha256": "aef6464fdcbc8d9517b484d991d9fd9850b35c6ebd2bd3613fa8e655e35d1426",
+      "git_blob_sha": "ab093110fb1e3f65735e65ff258f528cbb99e12b"
+    },
+    {
+      "path": "experiments/tswm_discovery_20261016_v1/cycle53/PRIOR_ART_BOUNDARY_V1.md",
+      "bytes": 1807,
+      "sha256": "f5c6483d8b88489787f81632c9f58d7152e713fc27d16e5220469c6cd438935c",
+      "git_blob_sha": "21ee19867822a33ec8b8f9be4ee6fd4c14a0b0ae"
+    },
+    {
+      "path": "experiments/tswm_discovery_20261016_v1/cycle53/scripts/train_native53_v7.py",
+      "bytes": 8540,
+      "sha256": "70476df692e06d8961ac2ad826df87e2609b306390af9daefb888e2661588b7c",
+      "git_blob_sha": "282d0cb6e5e1e0cd9f812aeca00352c897376966"
+    },
+    {
+      "path": "experiments/tswm_discovery_20261016_v1/cycle53/scripts/capture_native53_v7.py",
+      "bytes": 4154,
+      "sha256": "47bccf04571c410dc211e7df982d09fc7899e47bed82b18903838207063ebda0",
+      "git_blob_sha": "17c84b8edb4d30170a8b515ea6d4264499e4f41f"
+    },
+    {
+      "path": "experiments/tswm_discovery_20261016_v1/cycle53/scripts/score_native53_v8.py",
+      "bytes": 11097,
+      "sha256": "fcd5aa449757d7a5f108cfbd9cb7514469b6bdd1000eda402f0deadceb48e188",
+      "git_blob_sha": "26cef33023286603707e91acce61e0c319e601b7"
+    },
+    {
+      "path": "experiments/tswm_discovery_20261016_v1/cycle53/scripts/capture_eval53_v3.py",
+      "bytes": 2709,
+      "sha256": "f58c89348b8475b3cfd9f3637b8a13f71c030ce8a721225c1f707b9d04ef2498",
+      "git_blob_sha": "cac0f4a25ebf1369761b23057b35c1ea2e36039b"
+    },
+    {
+      "path": "experiments/tswm_discovery_20261016_v1/cycle53/scripts/capture_analysis53_v2.py",
+      "bytes": 3064,
+      "sha256": "64f544212d4cc15fe150331e71c2fbe9cd4f22cd3a567b54eead88f4eaf13e0b",
+      "git_blob_sha": "7af227c1b94843ca6fb10d2710b67b79955b9416"
+    },
+    {
+      "path": "experiments/tswm_discovery_20261016_v1/cycle53/scripts/record_native_crash53.py",
+      "bytes": 3705,
+      "sha256": "2add5bc3f624ba202a4a517bd2103934593a500a6b07f5ddb7dfefa6604b9cb3",
+      "git_blob_sha": "163663d5caf2d01217f866bc6ed8f67690d98bfd"
+    },
+    {
+      "path": "experiments/tswm_discovery_20261016_v1/cycle53/scripts/check_crash_replay53.py",
+      "bytes": 1919,
+      "sha256": "fbfc0df8e2d8366c7ac7785c1399cc4d719d9ba1b39319ae2dfbd4925a08cbaa",
+      "git_blob_sha": "45b1841aba427de6ba5d9211e37276d2d8bf1b9a"
+    },
+    {
+      "path": "experiments/tswm_discovery_20261016_v1/cycle53/scripts/summarize_mechanisms53.py",
+      "bytes": 5422,
+      "sha256": "b50a5432f82654207f2c17d8f4987339fd30e394d1da9275cdd6b7e599fc95e3",
+      "git_blob_sha": "9dc9000b05214cd91d8da9a3255aaa3c318a132e"
+    },
+    {
+      "path": "experiments/tswm_discovery_20261016_v1/cycle53/scripts/audit_scaling_timing53.py",
+      "bytes": 5808,
+      "sha256": "2ba522cc2bf75e394e57a178a6714d2b1311ed111b9bab0d0e8adeadb5a4a010",
+      "git_blob_sha": "be6a04e3adce5aedcbf578b47fb4ab0013485449"
+    },
+    {
+      "path": "experiments/tswm_discovery_20261016_v1/cycle53/outputs/NATIVE_CRASH_RECEIPT_V1.json",
+      "bytes": 8829,
+      "sha256": "457183d4ae75a08d828cace6341cc7ec667c638416907875564b83c5bd5a6eeb",
+      "git_blob_sha": "f811c12d079fff82ead7e55e1ee129224d588ab0"
+    },
+    {
+      "path": "experiments/tswm_discovery_20261016_v1/cycle53/outputs/native_crash_event_v1.json",
+      "bytes": 384,
+      "sha256": "e093e5bb0671f0a40115e415f02ff30758cad49219d7a88bcd0f4c1a12ffd9d9",
+      "git_blob_sha": "07868a22c29f783880930e7bd5a3cfd95a5d36fa"
+    },
+    {
+      "path": "experiments/tswm_discovery_20261016_v1/cycle53/outputs/driver_crash_replay_prefix_v1.json",
+      "bytes": 647,
+      "sha256": "9ac4d2ce004ed18f510fcd219d90814f079b7768132567b105c7a336b0173ed2",
+      "git_blob_sha": "e512fd7403351829198239ef7818dd435a00b7de"
+    },
+    {
+      "path": "experiments/tswm_discovery_20261016_v1/cycle53/outputs/recovery_snapshot_v1/snapshot.json",
+      "bytes": 5691,
+      "sha256": "2ee5a0703d2197c2db87ff188db5c501dfe2879b993f73e94a86267726b84563",
+      "git_blob_sha": "c5b5649cad7486a3b17653eff88fe9e344b29559"
+    }
+  ]
+}

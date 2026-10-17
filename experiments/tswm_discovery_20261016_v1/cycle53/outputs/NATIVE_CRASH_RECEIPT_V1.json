@@ -1,0 +1,182 @@
+{
+  "utc": "2026-10-17T16:22:04.760928+00:00",
+  "status": "CONFIRMED_NATIVE_DRIVER_MODULE_ACCESS_VIOLATION",
+  "failed_tag": "PatchTST__obs__seed3",
+  "process_exit_code": 3221225477,
+  "windows_exception": "0xc0000005",
+  "event": {
+    "utc": "2026-10-17T16:17:13.9157050Z",
+    "event_id": 1000,
+    "record_id": 50534,
+    "application": "python.exe",
+    "module": "nvcuda64.dll",
+    "module_version": "32.0.16.1656",
+    "exception_code": "c0000005",
+    "fault_offset": "00000000000f868f",
+    "process_id": "fe4",
+    "scope": "Observed fault module and exception; root cause is not established"
+  },
+  "root_cause": "not established; event identifies fault module, not why it faulted",
+  "completed_predictive_fits_validated": 28,
+  "shared_codec_validated": true,
+  "completed": [
+    {
+      "tag": "shared_codec",
+      "checkpoint_sha256": "0c3083e1e970da4c25108ceb0a7060e8a9c078d3011f362ff22eacd818d7084c",
+      "summary_sha256": "e3fa83f34d4e3ad6d800fc3bd80df53bddb7f588de2fcc0aa4fc93f9eafa97ee"
+    },
+    {
+      "tag": "CrossLinear__obs__seed0",
+      "checkpoint_sha256": "4a8e2ee61c0d73c9a011647f16fb93ee0a8548b50f755334de16a5eab2a3f248",
+      "summary_sha256": "3b3d712064dfeaca2a17860c67eb234c31bbbd39f4419edea292478460a6a555"
+    },
+    {
+      "tag": "CrossLinear__ae_concat__seed0",
+      "checkpoint_sha256": "8bdc6044c01eeec9d0a307db000cce6d9b7e70cc792b59b7fd6873f7e8446f96",
+      "summary_sha256": "4f6ffa58f0af6150b525173ea7fedfc1213d236dd2e4f24d8b20b61d74b2e224"
+    },
+    {
+      "tag": "CrossLinear__ae_gate__seed0",
+      "checkpoint_sha256": "34d505d8e4fc120142b801a0c805142ea2175bacf05c1b55fbcf6db7a6c526a1",
+      "summary_sha256": "d07c4c83f9b41402975c9f10b14a4290e7da24f73d6e8b94ee559106b24c1494"
+    },
+    {
+      "tag": "CrossLinear__ae_gate_soft__seed0",
+      "checkpoint_sha256": "94aa71eb40a94b72f20cec2e0605712c5f7a163a38754b8bc484224f36da9fd2",
+      "summary_sha256": "a0630e555115b546e932bc37cb46282662c7e1adc93f6717e0eb453229ae4930"
+    },
+    {
+      "tag": "PatchTST__obs__seed0",
+      "checkpoint_sha256": "8122f76a5aee34731967c9e743565e8afa24ec2e77a460ffe621b5b8a33e5966",
+      "summary_sha256": "ee50e7fa3b0be56e9795d624e638b1e863b55edfdce4fcefcd57731945d04f6d"
+    },
+    {
+      "tag": "PatchTST__ae_concat__seed0",
+      "checkpoint_sha256": "5f9c41f05d94cecdfceab9a0e0b81d2efd9da8b367431599b1fa61b0517c8b9a",
+      "summary_sha256": "46f0d506a7c0830a3b82781b4a3d187eeb97943e593ab048de3b596f78e4e93a"
+    },
+    {
+      "tag": "PatchTST__ae_gate__seed0",
+      "checkpoint_sha256": "b03684092f62387d34700f2cedeaf1ed73b13c77f4fdb3a3e0280c9dc34633e3",
+      "summary_sha256": "830154da9b06eaa0ee28139d3b58a8261f95f914df927eab4dcb738b22e61e4c"
+    },
+    {
+      "tag": "PatchTST__ae_gate_soft__seed0",
+      "checkpoint_sha256": "663ce1078da32ebba06b53947ebca335799971145dd258c7b0e05d44123ab275",
+      "summary_sha256": "d6147f6fe4012c390a05f6d6f514d1762a79ca90a6807f8bb0489bbf04110373"
+    },
+    {
+      "tag": "CrossLinear__obs__seed1",
+      "checkpoint_sha256": "4941cb9067a3099250def16924abcc126ae8ad1cc065bfbf0bb645849e292bf5",
+      "summary_sha256": "75271a5ed6868cc665784543a9b3e17cb7eae8c1568b7137471879b060191765"
+    },
+    {
+      "tag": "CrossLinear__ae_concat__seed1",
+      "checkpoint_sha256": "e885849ab7a0178af279ccd22fa3eca5e1b736d9d4ed8594f2499883db71259d",
+      "summary_sha256": "7fea0c5ac4a702d54d606ac82107ec6fa87a7f3b94ddca0eb7881721aa62b533"
+    },
+    {
+      "tag": "CrossLinear__ae_gate__seed1",
+      "checkpoint_sha256": "70ecff912f89b0f2d46dfb4b6723bcc856eccdc6a5e2f1a10198fdca31a5c940",
+      "summary_sha256": "250a9d73c638c3ef38628d4cb877cac751df674f641f7ca75fbcef3fdd3e33a2"
+    },
+    {
+      "tag": "CrossLinear__ae_gate_soft__seed1",
+      "checkpoint_sha256": "095dd15cf410f60331c329aee5763926c149ade6bf4ee87c555ba3fbb765252b",
+      "summary_sha256": "dc76c4ba404116e06b3b961c0067301868894dffd99f8e734acb670521e35ca9"
+    },
+    {
+      "tag": "PatchTST__obs__seed1",
+      "checkpoint_sha256": "22fb14c6a0069bae0a2b30a0447378d18467febf3d69eaf291cb01958326be6b",
+      "summary_sha256": "0f55f196200282e06303fef3722350fe4be081659a6f3a6d1e5aa1323d7592b5"
+    },
+    {
+      "tag": "PatchTST__ae_concat__seed1",
+      "checkpoint_sha256": "0bee8eba10876141a45f95a4247fbb729d4ebc8fe985878b99fa9918522c48bd",
+      "summary_sha256": "9407ada03c58f76f96fd5a4afab7f0a46f4635eb2468fc20a5648ed730d90551"
+    },
+    {
+      "tag": "PatchTST__ae_gate__seed1",
+      "checkpoint_sha256": "a645b4705af964b69c7df46fce0e034684d3ebca7d49d8972330c2fdb70b4613",
+      "summary_sha256": "0d2ec91ae93287fb7fa394bca7dd503a7eb02a5f35b0b014e75f753e03cb1bec"
+    },
+    {
+      "tag": "PatchTST__ae_gate_soft__seed1",
+      "checkpoint_sha256": "2929457ce74f5516869ef439ee65d4d845733f171c744723df8fd45bc205289a",
+      "summary_sha256": "f73744c56ad9d75bdff1e5d51de6a963db198ca3980b6ebfc0e02ddc6a0b28e5"
+    },
+    {
+      "tag": "CrossLinear__obs__seed2",
+      "checkpoint_sha256": "9585136703ef38bad5460adcd19a9cddcb49bcb2b1f3d752487835563364f462",
+      "summary_sha256": "975e8509e98a7a8fb4a72da52d34a466e13b86a850a8c89fa2d343ea5a2ee909"
+    },
+    {
+      "tag": "CrossLinear__ae_concat__seed2",
+      "checkpoint_sha256": "c95271d4be8fc23720dcfa96b122d7f30440f5fa9ca236b9a946613e5308c11d",
+      "summary_sha256": "70659740de72f42537af5f1f944cca6a480b0facdb623883aa11463e2de32778"
+    },
+    {
+      "tag": "CrossLinear__ae_gate__seed2",
+      "checkpoint_sha256": "bc34143633c3839abe1106f68f1e76c79a1fd7fd4cf883fd5b7668f3bcdd1f46",
+      "summary_sha256": "91a74e84053400447e93bc287cf8bbee7dc4665bd4ba29dc11b46053c0ce8632"
+    },
+    {
+      "tag": "CrossLinear__ae_gate_soft__seed2",
+      "checkpoint_sha256": "0a236046ef0f92dd0e30b12aa6a75f83a213cb6fc7ffd28077e4032a7656e5d7",
+      "summary_sha256": "6f67010a90642a211e9f17c09496d41cc85071a2945d0a7e67ab6c937f385dfc"
+    },
+    {
+      "tag": "PatchTST__obs__seed2",
+      "checkpoint_sha256": "007e8bb7a1481168d00eccb5d8a7e252f25192c3cad348a0aed29eeb3499d6b4",
+      "summary_sha256": "d6f823abd78b3a00d72fd19d1720a8c93de551c6260a22dda34ddb97fe73f5dd"
+    },
+    {
+      "tag": "PatchTST__ae_concat__seed2",
+      "checkpoint_sha256": "2846d88eb36bd9e83d27b80cd690d54a6e8b0645c09a07d67e7a1d87a5e6d480",
+      "summary_sha256": "e749fd74d9f5557768d8d27984117f2c837575dfd8faaa2e7bd500c6251533ad"
+    },
+    {
+      "tag": "PatchTST__ae_gate__seed2",
+      "checkpoint_sha256": "6575e7dd84a579194196d37625300098f2ba775e667749e722f3f1a4c9f23f21",
+      "summary_sha256": "0427b166f213b4e1981e85f7075707e2c5a8b89f42e140b0b43cce0d01a2bc0c"
+    },
+    {
+      "tag": "PatchTST__ae_gate_soft__seed2",
+      "checkpoint_sha256": "d9e4d952d2a08c33c158f43be0d178096ea134ee8c7df435cd9422d86c335f3b",
+      "summary_sha256": "30ab38fb7bbf10c03b793b7e9f01c9aec5bb3d073e2e6e907f6a528e517dff8f"
+    },
+    {
+      "tag": "CrossLinear__obs__seed3",
+      "checkpoint_sha256": "780873aef14bbf6f3b435e236f44fc91511c715cbae952d99ed960db9b689de2",
+      "summary_sha256": "b189e3deb22b13cada72d069a56293689a0726e35ce8b3e8fdf24d79822af605"
+    },
+    {
+      "tag": "CrossLinear__ae_concat__seed3",
+      "checkpoint_sha256": "b153b4f14f351df5d0cd8fa7a408c5eb2584ed377448abaeaa4fdabf97978f1f",
+      "summary_sha256": "5ab7601211adbb042ed0e487c26c9d51c70d448dcf72a7cb568c62ac4fe525e3"
+    },
+    {
+      "tag": "CrossLinear__ae_gate__seed3",
+      "checkpoint_sha256": "e3512d609c97e598d5a0a2ce905fc1e431cfd180496a54f81900a0c6bcc3b143",
+      "summary_sha256": "e17971e95f2d42ce3f9d6428e7ae69ecd99b408ed3d2c28779729059528239cc"
+    },
+    {
+      "tag": "CrossLinear__ae_gate_soft__seed3",
+      "checkpoint_sha256": "f51c2477771449c8b1feed3a08209e48837f0f6737381e0f2523cf75948a7a12",
+      "summary_sha256": "4562d7e7af5f1022c26613a069c72f5f25f2e5e419bc07ca5d2b0e6d53b362e6"
+    }
+  ],
+  "failed_attempt_completed_recorded_epochs": 27,
+  "failed_attempt_at_least_completed_optimizer_updates": 162,
+  "unobserved_partial_updates_possible": true,
+  "failed_attempt_checkpoint_exists": false,
+  "failed_initial_sha256": "99119f16a919931f39218580ce626e145d489313fec9410a45afa1c2db10a24b",
+  "failed_config_sha256": "6230fd1524284c540f6f5d9b8f9520e87e13ecb873bde9e3413141315708a0a4",
+  "failed_curve_sha256": "13952ed4b39e7aef27839fae6fc74c784ddaaaa784e730fb39215b0aef3e098c",
+  "failed_log_sha256": "9ed83584ab6414769fcf261494300dd21056aa5de1f11fcb208f61e2a49e7f50",
+  "native_event_sha256": "fc9a6a436491804889b737afdd83afc6a7bbcc74b4e3bd67aa82216dcc102f3e",
+  "failed_supervisor_sha256": "3d797fc8dfbb8ddeefd6d1f2e977a8502451d7710b0bbd5edf5ba214ed034abc",
+  "retry": "one fresh same-seed/config fit in a new V7 folder, exact initial-tensor/config check before updates; original artifacts retained; no optimizer/checkpoint resume",
+  "source_files_rechecked": 125,
+  "transfer_evaluation_opened": false
+}

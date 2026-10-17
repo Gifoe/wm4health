@@ -1,0 +1,9 @@
+# C53 source-grounded interpretation boundaries
+
+The native directional-supervision split supplies three Greenhouse signs to the loss: heating-pipe temperature to air temperature, and the two vent apertures to air temperature. Lighting to indoor PAR and CO2 dosing to indoor CO2 are held-out sign relations. This split is already explicit in the pinned authors' `RQ7_causal_fusion/prior_split.py`. Satisfying a penalized sign is supervised constraint satisfaction; success on the other two relations tests transfer of those declared signs, not intervention-effect accuracy. Final summaries must separate these roles and selected-window coverage for every seed.
+
+The original paper already tests prediction spaces, several input/output plan-fusion adapters, plan encoders with temporal memory, directional supervision and an auxiliary pre-fusion prediction objective. Its Appendix G reports improved pre-fusion prediction without a consistent rollout-specific benefit from that auxiliary objective. Merely rerunning one of those configurations, calling sign agreement causal accuracy, or renaming an auxiliary objective cannot supply the research contribution. A useful new learning interaction is still eligible if fair controls and independent evidence support it.
+
+Primary sources: [paper](https://arxiv.org/html/2610.01842v1), [pinned implementation](https://github.com/HaochenZhang717/TSWM-Official-Repo/tree/2e5e48540ff0da48e8192163969a6c58df1d5a3e), [native prior split](https://github.com/HaochenZhang717/TSWM-Official-Repo/blob/2e5e48540ff0da48e8192163969a6c58df1d5a3e/RQ7_causal_fusion/prior_split.py).
+
+These are existing-method and attribution boundaries. They do not establish a new failure or accept a research direction. The pre-scoring analysis protocol and comparison grid remain unchanged.
