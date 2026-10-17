@@ -1,0 +1,5 @@
+# C59 baseline registry
+
+Original tutorial sources and MPL2 license are unchanged. The existing JAX runtime lacks Equinox, Diffrax and Optimistix; no packages were installed. Exact decorator-free equation AST bodies and the original smooth functions were compared to independent NumPy math in 32 random cases (max scaled discrepancy 6.86238e-15); the linear equation was integrated by SciPy DOP853 against an analytic solution (max absolute discrepancy 1.33393e-08). This qualifies those mathematical cores, not the full native model/Trainer.
+
+Actual fitted controls are static nonlinear ridge, a 16-play bank, eight exponential states, their ordinary combination, and scalar stable ARX. Each has two independently fitted prefix conditions. Regularization and AR coefficient are chosen exclusively by validation; all 80 candidate scores are in MODEL_SEAL59_V1.json. The selected ten coefficient files and complete heldout predictions are retained with hashes on G:. These are adapted ordinary baselines, not new methods or an official benchmark reproduction.

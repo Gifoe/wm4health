@@ -1,0 +1,685 @@
+{
+  "utc": "2026-10-17T23:14:49.329294+00:00",
+  "status": "ALL_10_DETERMINISTIC_CONTROLS_SELECTED_AND_SEALED_BEFORE_TEST_SCORING",
+  "models": [
+    {
+      "tag": "static_prefix100",
+      "method": "static",
+      "prefix": 100,
+      "ridge": 0.01,
+      "a": null,
+      "validation_mse": 0.11613581159476602,
+      "coefficient_count": 5,
+      "model_file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle59\\baseline_screen_v1\\static_prefix100.npz",
+      "model_sha256": "d284668179133c993c73f13c602931dafc00c6c03c98c7beb81964120344ea54"
+    },
+    {
+      "tag": "play_prefix100",
+      "method": "play",
+      "prefix": 100,
+      "ridge": 0.01,
+      "a": null,
+      "validation_mse": 0.044391883267247724,
+      "coefficient_count": 21,
+      "model_file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle59\\baseline_screen_v1\\play_prefix100.npz",
+      "model_sha256": "23ea8ec55bd4df786229ff727dd9a411fdf5c7e51b3a4405472de69d49d2d659"
+    },
+    {
+      "tag": "ema_prefix100",
+      "method": "ema",
+      "prefix": 100,
+      "ridge": 0.01,
+      "a": null,
+      "validation_mse": 0.051790590454618854,
+      "coefficient_count": 13,
+      "model_file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle59\\baseline_screen_v1\\ema_prefix100.npz",
+      "model_sha256": "cd6e33a67871bc9a674dffd5af0466ec83517c53c9fbac3638e3400d0646236e"
+    },
+    {
+      "tag": "hybrid_prefix100",
+      "method": "hybrid",
+      "prefix": 100,
+      "ridge": 0.01,
+      "a": null,
+      "validation_mse": 0.04343059465814975,
+      "coefficient_count": 29,
+      "model_file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle59\\baseline_screen_v1\\hybrid_prefix100.npz",
+      "model_sha256": "23001026c3bba0f320e307d9d442836a4aba6794077a73444be4cfe826aa3eec"
+    },
+    {
+      "tag": "arx_prefix100",
+      "method": "arx",
+      "prefix": 100,
+      "ridge": 0.0001,
+      "a": 0.9,
+      "validation_mse": 0.07007165736940425,
+      "coefficient_count": 6,
+      "model_file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle59\\baseline_screen_v1\\arx_prefix100.npz",
+      "model_sha256": "8c1bad666db0985dd0d580d5d09519b8d89eefdd67133e9bb3e3f8bc8aa6b9f6"
+    },
+    {
+      "tag": "static_prefix1252",
+      "method": "static",
+      "prefix": 1252,
+      "ridge": 0.01,
+      "a": null,
+      "validation_mse": 0.11948357469020264,
+      "coefficient_count": 5,
+      "model_file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle59\\baseline_screen_v1\\static_prefix1252.npz",
+      "model_sha256": "5897caaf999316aeb68b64107a0270fb194d581f437fe3290d69c368d154cc83"
+    },
+    {
+      "tag": "play_prefix1252",
+      "method": "play",
+      "prefix": 1252,
+      "ridge": 0.01,
+      "a": null,
+      "validation_mse": 0.025779022871671043,
+      "coefficient_count": 21,
+      "model_file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle59\\baseline_screen_v1\\play_prefix1252.npz",
+      "model_sha256": "8436daf0a9c4917a11385834ba7ceea6154cb933bfe7799db9714fbce1b66fd0"
+    },
+    {
+      "tag": "ema_prefix1252",
+      "method": "ema",
+      "prefix": 1252,
+      "ridge": 0.01,
+      "a": null,
+      "validation_mse": 0.03342948807468519,
+      "coefficient_count": 13,
+      "model_file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle59\\baseline_screen_v1\\ema_prefix1252.npz",
+      "model_sha256": "8b42a718cf1345c30d8137e6cda3073bb46674b2abd31ddc0c9d36b63e67fa3c"
+    },
+    {
+      "tag": "hybrid_prefix1252",
+      "method": "hybrid",
+      "prefix": 1252,
+      "ridge": 0.01,
+      "a": null,
+      "validation_mse": 0.01904475944808024,
+      "coefficient_count": 29,
+      "model_file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle59\\baseline_screen_v1\\hybrid_prefix1252.npz",
+      "model_sha256": "b5df36770f8c45f9e16d352be48209f6f477ea96eaf368c53224da245c7373e8"
+    },
+    {
+      "tag": "arx_prefix1252",
+      "method": "arx",
+      "prefix": 1252,
+      "ridge": 0.0001,
+      "a": 0.9,
+      "validation_mse": 0.0627721339963367,
+      "coefficient_count": 6,
+      "model_file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle59\\baseline_screen_v1\\arx_prefix1252.npz",
+      "model_sha256": "7ea1c9cf3251154ceebda0aa446de11d168e91278cc1443a3e131749b598b90b"
+    }
+  ],
+  "validation_candidates": [
+    {
+      "prefix": 100,
+      "method": "static",
+      "ridge": 0.0001,
+      "a": null,
+      "validation_mse": 0.11793438470854521
+    },
+    {
+      "prefix": 100,
+      "method": "static",
+      "ridge": 0.01,
+      "a": null,
+      "validation_mse": 0.11613581159476602
+    },
+    {
+      "prefix": 100,
+      "method": "static",
+      "ridge": 1.0,
+      "a": null,
+      "validation_mse": 0.25108178706727474
+    },
+    {
+      "prefix": 100,
+      "method": "static",
+      "ridge": 100.0,
+      "a": null,
+      "validation_mse": 1.929411940844129
+    },
+    {
+      "prefix": 100,
+      "method": "play",
+      "ridge": 0.0001,
+      "a": null,
+      "validation_mse": 0.04630652527774681
+    },
+    {
+      "prefix": 100,
+      "method": "play",
+      "ridge": 0.01,
+      "a": null,
+      "validation_mse": 0.044391883267247724
+    },
+    {
+      "prefix": 100,
+      "method": "play",
+      "ridge": 1.0,
+      "a": null,
+      "validation_mse": 0.12564740246040368
+    },
+    {
+      "prefix": 100,
+      "method": "play",
+      "ridge": 100.0,
+      "a": null,
+      "validation_mse": 1.8547747195348296
+    },
+    {
+      "prefix": 100,
+      "method": "ema",
+      "ridge": 0.0001,
+      "a": null,
+      "validation_mse": 0.059049459719102665
+    },
+    {
+      "prefix": 100,
+      "method": "ema",
+      "ridge": 0.01,
+      "a": null,
+      "validation_mse": 0.051790590454618854
+    },
+    {
+      "prefix": 100,
+      "method": "ema",
+      "ridge": 1.0,
+      "a": null,
+      "validation_mse": 0.08450512952380428
+    },
+    {
+      "prefix": 100,
+      "method": "ema",
+      "ridge": 100.0,
+      "a": null,
+      "validation_mse": 1.7950093337292252
+    },
+    {
+      "prefix": 100,
+      "method": "hybrid",
+      "ridge": 0.0001,
+      "a": null,
+      "validation_mse": 0.0450592206280882
+    },
+    {
+      "prefix": 100,
+      "method": "hybrid",
+      "ridge": 0.01,
+      "a": null,
+      "validation_mse": 0.04343059465814975
+    },
+    {
+      "prefix": 100,
+      "method": "hybrid",
+      "ridge": 1.0,
+      "a": null,
+      "validation_mse": 0.07382659667526116
+    },
+    {
+      "prefix": 100,
+      "method": "hybrid",
+      "ridge": 100.0,
+      "a": null,
+      "validation_mse": 1.730196565596659
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 0.0001,
+      "a": 0.0,
+      "validation_mse": 0.08895078795013094
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 0.01,
+      "a": 0.0,
+      "validation_mse": 0.0883134032897601
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 1.0,
+      "a": 0.0,
+      "validation_mse": 0.17599819631342375
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 100.0,
+      "a": 0.0,
+      "validation_mse": 1.12744034060006
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 0.0001,
+      "a": 0.5,
+      "validation_mse": 0.0863113286490377
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 0.01,
+      "a": 0.5,
+      "validation_mse": 0.08591748524284862
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 1.0,
+      "a": 0.5,
+      "validation_mse": 0.17565334596358617
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 100.0,
+      "a": 0.5,
+      "validation_mse": 1.1274487152589348
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 0.0001,
+      "a": 0.9,
+      "validation_mse": 0.07007165736940425
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 0.01,
+      "a": 0.9,
+      "validation_mse": 0.07115631333574525
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 1.0,
+      "a": 0.9,
+      "validation_mse": 0.17919249015188732
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 100.0,
+      "a": 0.9,
+      "validation_mse": 1.1286645697455207
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 0.0001,
+      "a": 0.99,
+      "validation_mse": 0.10404164956728876
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 0.01,
+      "a": 0.99,
+      "validation_mse": 0.09057212866309886
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 1.0,
+      "a": 0.99,
+      "validation_mse": 0.20038657027749146
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 100.0,
+      "a": 0.99,
+      "validation_mse": 1.1272272279512177
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 0.0001,
+      "a": 0.999,
+      "validation_mse": 4.399457425432958
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 0.01,
+      "a": 0.999,
+      "validation_mse": 3.249873752678574
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 1.0,
+      "a": 0.999,
+      "validation_mse": 1.2265278185389612
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 100.0,
+      "a": 0.999,
+      "validation_mse": 1.1965527966774891
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 0.0001,
+      "a": 0.9999,
+      "validation_mse": 12.090095324438648
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 0.01,
+      "a": 0.9999,
+      "validation_mse": 8.96001272911791
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 1.0,
+      "a": 0.9999,
+      "validation_mse": 3.1662407618876074
+    },
+    {
+      "prefix": 100,
+      "method": "arx",
+      "ridge": 100.0,
+      "a": 0.9999,
+      "validation_mse": 1.7427642521302449
+    },
+    {
+      "prefix": 1252,
+      "method": "static",
+      "ridge": 0.0001,
+      "a": null,
+      "validation_mse": 0.1384087825370264
+    },
+    {
+      "prefix": 1252,
+      "method": "static",
+      "ridge": 0.01,
+      "a": null,
+      "validation_mse": 0.11948357469020264
+    },
+    {
+      "prefix": 1252,
+      "method": "static",
+      "ridge": 1.0,
+      "a": null,
+      "validation_mse": 0.32530412914219753
+    },
+    {
+      "prefix": 1252,
+      "method": "static",
+      "ridge": 100.0,
+      "a": null,
+      "validation_mse": 2.0638173181011026
+    },
+    {
+      "prefix": 1252,
+      "method": "play",
+      "ridge": 0.0001,
+      "a": null,
+      "validation_mse": 0.029218003239399878
+    },
+    {
+      "prefix": 1252,
+      "method": "play",
+      "ridge": 0.01,
+      "a": null,
+      "validation_mse": 0.025779022871671043
+    },
+    {
+      "prefix": 1252,
+      "method": "play",
+      "ridge": 1.0,
+      "a": null,
+      "validation_mse": 0.1329830897302828
+    },
+    {
+      "prefix": 1252,
+      "method": "play",
+      "ridge": 100.0,
+      "a": null,
+      "validation_mse": 1.9810362950438838
+    },
+    {
+      "prefix": 1252,
+      "method": "ema",
+      "ridge": 0.0001,
+      "a": null,
+      "validation_mse": 0.038364531996614576
+    },
+    {
+      "prefix": 1252,
+      "method": "ema",
+      "ridge": 0.01,
+      "a": null,
+      "validation_mse": 0.03342948807468519
+    },
+    {
+      "prefix": 1252,
+      "method": "ema",
+      "ridge": 1.0,
+      "a": null,
+      "validation_mse": 0.08740914222881357
+    },
+    {
+      "prefix": 1252,
+      "method": "ema",
+      "ridge": 100.0,
+      "a": null,
+      "validation_mse": 1.9217868052382294
+    },
+    {
+      "prefix": 1252,
+      "method": "hybrid",
+      "ridge": 0.0001,
+      "a": null,
+      "validation_mse": 0.02517563257160776
+    },
+    {
+      "prefix": 1252,
+      "method": "hybrid",
+      "ridge": 0.01,
+      "a": null,
+      "validation_mse": 0.01904475944808024
+    },
+    {
+      "prefix": 1252,
+      "method": "hybrid",
+      "ridge": 1.0,
+      "a": null,
+      "validation_mse": 0.06803577754721565
+    },
+    {
+      "prefix": 1252,
+      "method": "hybrid",
+      "ridge": 100.0,
+      "a": null,
+      "validation_mse": 1.8501545473926406
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 0.0001,
+      "a": 0.0,
+      "validation_mse": 0.08035186082838
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 0.01,
+      "a": 0.0,
+      "validation_mse": 0.08121166520024732
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 1.0,
+      "a": 0.0,
+      "validation_mse": 0.15889739594737495
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 100.0,
+      "a": 0.0,
+      "validation_mse": 1.1013203614245342
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 0.0001,
+      "a": 0.5,
+      "validation_mse": 0.07790381052857392
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 0.01,
+      "a": 0.5,
+      "validation_mse": 0.0789041602020375
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 1.0,
+      "a": 0.5,
+      "validation_mse": 0.1585246054323985
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 100.0,
+      "a": 0.5,
+      "validation_mse": 1.1011238976186621
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 0.0001,
+      "a": 0.9,
+      "validation_mse": 0.0627721339963367
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 0.01,
+      "a": 0.9,
+      "validation_mse": 0.06456763773230793
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 1.0,
+      "a": 0.9,
+      "validation_mse": 0.16186613573172132
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 100.0,
+      "a": 0.9,
+      "validation_mse": 1.1004889909579212
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 0.0001,
+      "a": 0.99,
+      "validation_mse": 0.09334365441898115
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 0.01,
+      "a": 0.99,
+      "validation_mse": 0.07744241466872762
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 1.0,
+      "a": 0.99,
+      "validation_mse": 0.18993496198762286
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 100.0,
+      "a": 0.99,
+      "validation_mse": 1.087590246404023
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 0.0001,
+      "a": 0.999,
+      "validation_mse": 3.892476241574014
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 0.01,
+      "a": 0.999,
+      "validation_mse": 2.8402280530287976
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 1.0,
+      "a": 0.999,
+      "validation_mse": 1.1447353930834634
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 100.0,
+      "a": 0.999,
+      "validation_mse": 1.1156228798955659
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 0.0001,
+      "a": 0.9999,
+      "validation_mse": 14.481993004788135
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 0.01,
+      "a": 0.9999,
+      "validation_mse": 10.69661840126576
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 1.0,
+      "a": 0.9999,
+      "validation_mse": 4.021945441369462
+    },
+    {
+      "prefix": 1252,
+      "method": "arx",
+      "ridge": 100.0,
+      "a": 0.9999,
+      "validation_mse": 1.9327643654782318
+    }
+  ],
+  "source_split_sha256": "6bf303d4428cc17c1041d4df18622704a5d963d58d6ce7a76fdefcdd93392246",
+  "script_sha256": "51fb26e653842ad05846c9d6f70005ddb5eceaac4d3fb82a8aea84dd0c50ca57",
+  "bscale_train_only": 0.08662272484383783,
+  "hscale_train_only": 15.286605739655306,
+  "no_future_H_feature_or_normalization": true,
+  "no_test_score_selection": true,
+  "causal_feature_prefix_check_passed": true
+}

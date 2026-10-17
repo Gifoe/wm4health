@@ -1,0 +1,1001 @@
+{
+  "utc": "2026-10-17T23:13:11.915239+00:00",
+  "status": "RAW_MEASUREMENT_AND_SOURCE_PREPROCESSING_AUDITED_NO_MODEL_FIT",
+  "source_commit": "ab4913ca63ebda1f8eab429c64d3e93f96204713",
+  "download_receipt_sha256": "56f49714ba455a9484bc183ef9d9bd19da1412343c019ddebdf8ad2073f3416d",
+  "shape_B_H": [
+    128,
+    5008
+  ],
+  "shape_T": [
+    128
+  ],
+  "sampling_interval_seconds": 6.25e-08,
+  "sampling_rate_hz": 16000000.0,
+  "clock_evidence": "pinned run_1_dataset.py: dt assignment",
+  "time_extent_seconds": 0.0003129375,
+  "temperature_counts": {
+    "25.0": 128
+  },
+  "stats": {
+    "B": {
+      "min": -0.374535977840424,
+      "max": 0.374968826770782,
+      "mean": 2.5241182012301524e-07,
+      "std": 0.08933374350791849,
+      "percentiles": [
+        -0.374535977840424,
+        -0.2107934942841528,
+        -0.0608570873737335,
+        9.04344778973609e-06,
+        0.06084847822785375,
+        0.21081823125481583,
+        0.374968826770782
+      ]
+    },
+    "H": {
+      "min": -118.389198303223,
+      "max": 117.882347106934,
+      "mean": -0.6065762334143874,
+      "std": 15.659309864418294,
+      "percentiles": [
+        -118.389198303223,
+        -38.110636405944845,
+        -11.05809664726255,
+        -0.5455135405063625,
+        9.965363264083862,
+        36.455300483703624,
+        117.882347106934
+      ]
+    },
+    "T": {
+      "min": 25.0,
+      "max": 25.0,
+      "mean": 25.0,
+      "std": 0.0,
+      "percentiles": [
+        25.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0
+      ]
+    }
+  },
+  "duplicate_B_H_T_rows": 0,
+  "raw_row_identities": [
+    {
+      "row": 0,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:0",
+      "sha256_B_H_T": "c4fba45761eb2bb7e825eb66183d1626ac495e588fa61b94922f60c27d470d55",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 1,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:1",
+      "sha256_B_H_T": "007f7926676b836293bd61ad3f7d65ecca9da905e9099b8b6cf61249a776e312",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 2,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:2",
+      "sha256_B_H_T": "5e16fbf16578b63a361bf8fe14699cdc5f814c67a20357a0c36f09dea0be626d",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 3,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:3",
+      "sha256_B_H_T": "674aa4f62197bdd929d0754c03ac1589ea00b979eab89a1714ff780f980fd935",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 4,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:4",
+      "sha256_B_H_T": "2bd757a583aa1181ca4071e3f9cd70c44a71c8b6ce30b189bc1a123fc377397b",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 5,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:5",
+      "sha256_B_H_T": "c517c8a18bc778ce0a5abf1ad694afebe675b072b519a5320db4a651f8916222",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 6,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:6",
+      "sha256_B_H_T": "7512ba25329366bf01391b4a880caa86d5134486d119915517aec6dc56c4187d",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 7,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:7",
+      "sha256_B_H_T": "255fe0cf881eca044200365210c6f224c74aa3b39a04dab973b58ec3ac07b8d5",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 8,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:8",
+      "sha256_B_H_T": "72e7b1958944080d60c6d966ac5c8e9236f21e9f9f0b5f1b48798cbe820ecfa4",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 9,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:9",
+      "sha256_B_H_T": "72f8b35e22ec8996faa28efc2729957db71313e4d6a9e3a3858dc336b0630fee",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 10,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:10",
+      "sha256_B_H_T": "b4d2bca455fd32dc27cd51c1474d8fb1b6f412fb42f53f1d493aceae8e35f4df",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 11,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:11",
+      "sha256_B_H_T": "c1904fd23fcf1f68f8d6a72a1118437527cf58c48ad9fa630b3c80f9f8ed8111",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 12,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:12",
+      "sha256_B_H_T": "dc3bc8d195410ad71f5d8af6fcba869aae21a9782426695e661ff18754962df7",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 13,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:13",
+      "sha256_B_H_T": "d94e7c9f9de40d03e61ee1999862acc9dc868c3acef02cce9f60248a919f8e8d",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 14,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:14",
+      "sha256_B_H_T": "f7d8a277f0d9e679d43ed70e1d14bcc6328db1d16299bbe6f1cd7a4d5d2efe52",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 15,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:15",
+      "sha256_B_H_T": "0ec9889213ee6e8ee6aebe9aadb9ab0f4853b99fa8d6c5e3aa415aa14cb2cf89",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 16,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:16",
+      "sha256_B_H_T": "bbdca73289d9579915d98956b2c6dbf1987fc35684c88a36b35064cb9f843d68",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 17,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:17",
+      "sha256_B_H_T": "8528f17a1e67c8b5ac2e3c0e418292936fad624152f1b5697b6e204a51227b67",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 18,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:18",
+      "sha256_B_H_T": "5aba8a2371f6be361e0840ef8ec6f70f9e55e5f63b3524b4ce401100203b6027",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 19,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:19",
+      "sha256_B_H_T": "a3e13c933acad631185ee978f14e6b731ef7d114cdb239902cbe0e4e59faccaa",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 20,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:20",
+      "sha256_B_H_T": "316a6e7f36c1c5585b98ab3e0bba672ad48dce3dca69837d9f5576e8c0836f3f",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 21,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:21",
+      "sha256_B_H_T": "4bfe3c9025f13f595d3b1256b44f3d2d5e4a2d3d1a13d4f95acdea6176457d1b",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 22,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:22",
+      "sha256_B_H_T": "4bef945397b9c5269b0b728745381b75de6b259bbeb29e6a6a29c8d4db90a02c",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 23,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:23",
+      "sha256_B_H_T": "b1e119577675dbc7e49a77d9d33dea919a7511d6e79c8617bafc6d4a7c212c3b",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 24,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:24",
+      "sha256_B_H_T": "cda3e3aa611b16359dfd24fba5e6abbe4ff241ba93dc215d69ecdbc82108e749",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 25,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:25",
+      "sha256_B_H_T": "000de1f06387891d2d38d3bb779d9857e8fb679fae3cf763ee904cde73d2f007",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 26,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:26",
+      "sha256_B_H_T": "d211335c9c6626d81875fa343d7dc6be3037b2fdd99d7a38dbfe78e539e53a3a",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 27,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:27",
+      "sha256_B_H_T": "6036264bb51d3351a7556ef990536ac09018e8db6a56fcbe372cd5f9937dd39a",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 28,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:28",
+      "sha256_B_H_T": "c710079943a19f4061c8332b6a61fac81002c46ce217ce1f6aea0cf755c07559",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 29,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:29",
+      "sha256_B_H_T": "b293ed877c4e44e7df49d801cc82452aedfc4a6dc0dff668a02eb4ac3dcd007a",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 30,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:30",
+      "sha256_B_H_T": "fad45f0d0fdf5979983f305ba0a3d9dfe79ad750dd0056b417dc702045034ce2",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 31,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:31",
+      "sha256_B_H_T": "de6181d9a92ab609bc8681710d540fbd1faa1b99d7c79f7b3c93353068c97d9b",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 32,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:32",
+      "sha256_B_H_T": "dbf048c0ae94d8022c5eec120e1e0e4247ae9fc5a55a9a7ccba90825cf8180c9",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 33,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:33",
+      "sha256_B_H_T": "b30dbd11a2d035bd627f7789d408481ea491a291fadb8c24161cea06c907d0fc",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 34,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:34",
+      "sha256_B_H_T": "aa38fbb38a74841eb47b0815c04c0638926d5e4464370b134e3630c413e92b57",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 35,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:35",
+      "sha256_B_H_T": "091065bb7c65cd7b3042b6be098e0a91ce299a7847866e2c1aee0ba1da5c5c46",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 36,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:36",
+      "sha256_B_H_T": "b937586e6ce183433600eb0cd5d03e9c66874adc7b8b18fd11515f8d08c9c18f",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 37,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:37",
+      "sha256_B_H_T": "cd6ac98ee8ebab739c9db806840fb63dc3a2ad385c92ba97051cd68cb57b9170",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 38,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:38",
+      "sha256_B_H_T": "55592f8428bd037e1c31b6c72385bf170a2b978fca5cefd8ec1d65ff1312f1d2",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 39,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:39",
+      "sha256_B_H_T": "2babcc96de8d473f71bdeaca108369d66bf326ba6e83b5d7331d0b6f0b7020e4",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 40,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:40",
+      "sha256_B_H_T": "d99ed520544fb9619c2f822861e2127d108bca891b1cdabfcdd61fc6d048af99",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 41,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:41",
+      "sha256_B_H_T": "4fd053dfa40f9155ba00a4c4f931c18dad746f43427eb0f1975f45f2caf29db7",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 42,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:42",
+      "sha256_B_H_T": "045d212b93f01d7f4dd709b6893436dacdc31c02a09bf599acd272e842cbc14a",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 43,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:43",
+      "sha256_B_H_T": "396c6af3c2b2e3d5c16ad74ced036b003e6467e54d2a171137c13f549e743f78",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 44,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:44",
+      "sha256_B_H_T": "a33c8387479e4e382f62ad4d59a97d6e142611284c3cf218e095e6ffc97a3735",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 45,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:45",
+      "sha256_B_H_T": "8750b1925cfecb7aadd6a40c9c3cd0b5db4725f33236e4a3642ff63d3ec0629e",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 46,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:46",
+      "sha256_B_H_T": "7a218ad32fb2b32c12ac9707653b66a5343ddf5039e04baca458ac9d33c3a543",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 47,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:47",
+      "sha256_B_H_T": "98e8cec05a3b5656c6357d3ca4c502f75af1a3bf7357b1be5dfd52c770a6028d",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 48,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:48",
+      "sha256_B_H_T": "712b59b64ff543030b1937ee005cdaa536736a50af47e78765161ccf461dd6f2",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 49,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:49",
+      "sha256_B_H_T": "436c6475d12997ca54a0e3d102c5de45d7d5bd8c501643cbbd1a73924fffa2bd",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 50,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:50",
+      "sha256_B_H_T": "5784e47dd39403e7a96472bc78a339009398e6ca24c8dca9a8105a37d8db78ce",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 51,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:51",
+      "sha256_B_H_T": "2d03fd22e177aee24c4dd44baa75104c8a27a3ecd62e526ea7a0562750b15cbf",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 52,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:52",
+      "sha256_B_H_T": "29da768b3e1c028e475bb844effe1534035959e510436182450b8a3204ee9695",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 53,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:53",
+      "sha256_B_H_T": "cd14af50fe5d90f680199c776f29a452399f310abfb147d6551669d68333e83e",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 54,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:54",
+      "sha256_B_H_T": "cd46979f75dfb89db8660e435aa6a1be3971090090dc741867cd3d008d0bda5c",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 55,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:55",
+      "sha256_B_H_T": "0136a4e7d4ae81e6b91dbdfb8256049340e9c2df05a67d9ce95a349a3e2f25e5",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 56,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:56",
+      "sha256_B_H_T": "7a2ba04d42330c09688c42390039efac81a4dbe398a780d7743c77c0a5f9dac4",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 57,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:57",
+      "sha256_B_H_T": "a54abe26ba347453ff21f1b51990358bc38c3d34e63685a9472f218c41bb827c",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 58,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:58",
+      "sha256_B_H_T": "b9a1b0756ca8e59da7b135980129c7180d6b4a157f3ef613147e84f21251488c",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 59,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:59",
+      "sha256_B_H_T": "38fd69b948a4f2927bb34af27b9475d4522e3348f914081fc967fb0b7da53ed8",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 60,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:60",
+      "sha256_B_H_T": "610b7fe23050ac437099e8168ab6c17050a4dd56663781e6cfd240f01bb00d10",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 61,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:61",
+      "sha256_B_H_T": "6811dba57e160c50dd19cab2b7be605efa013c7687bd3db53d5a4664d4f6e472",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 62,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:62",
+      "sha256_B_H_T": "ef4e16ea00a1e9aa4dbbee70039b42034cf5209c5c13c2e565966da940038e79",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 63,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:63",
+      "sha256_B_H_T": "3cd5db8c6d0fae78d7d5516a9f1a287b480cd5b376e6caeb532c8151fcc22cfa",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 64,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:64",
+      "sha256_B_H_T": "dee711dca540a9bb16e469c7e9245504cd9c139859a1a4783a16b0b86938ae27",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 65,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:65",
+      "sha256_B_H_T": "db73025cf7a2ee58e3807b2395bda3e50a51ae3f981c3e94a783001ff4af7676",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 66,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:66",
+      "sha256_B_H_T": "42d58ef60b748843fa1994ec4b425a6948deb9eed7ff83a855d2567141b8e15c",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 67,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:67",
+      "sha256_B_H_T": "feb9e3193c84718545ec3cfb76d9496da8beca862d605772ad8f6a776559daa6",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 68,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:68",
+      "sha256_B_H_T": "f7f7821e776af91e8c8e3e0cb43d2bd08dedbb7a37e9861002e52e277df089e7",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 69,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:69",
+      "sha256_B_H_T": "8894f6f0583c6c7b535b9b55f7ca3d9841c904eeb24ab87ca77207c4cab68373",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 70,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:70",
+      "sha256_B_H_T": "a2506904ba2a05bc88c22cb12a7feaf6e6e14139b4d48fff58163d05792d3624",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 71,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:71",
+      "sha256_B_H_T": "0045edaf84433a4658f72feed9f8a46c6a1867e37e1fde7c4a6cd619d5c43518",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 72,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:72",
+      "sha256_B_H_T": "c22480ed77d1659da113cbf9611129cef2734a26f0c1981f97f27c85c55efcbb",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 73,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:73",
+      "sha256_B_H_T": "1f1484e2d08b1cfa04ea430c833e310c9ce79bdccd3bd4055f09b18237eb68a5",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 74,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:74",
+      "sha256_B_H_T": "716f2416d5c3e713786619cf753eef29b6fed673550465b0662237903c0013c9",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 75,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:75",
+      "sha256_B_H_T": "0edad686d3e2cad5b33edfdb25a5f4943da39f2e0510a9e6a6babfb92561aa30",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 76,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:76",
+      "sha256_B_H_T": "85e558ccc7d005abd70f5f47fd743c244b63bbadf1d7e9166bd12d838ac1d1e2",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 77,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:77",
+      "sha256_B_H_T": "84bc7f8a0b6417e9472071dcd0862015295577a76bfe52e25bffe984ac37de40",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 78,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:78",
+      "sha256_B_H_T": "2430058cbb124d94b49d2f249f2544671caa6371b9e06f7902bb0149e4584f33",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 79,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:79",
+      "sha256_B_H_T": "d688087b218fdf2bf90ecbc5d90cdbd15ea5de575c498a37d224ccd2f84a09ca",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 80,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:80",
+      "sha256_B_H_T": "4dc71b2e97d2dd5f365514ac7d0c0a6b37f19e2cd60a2f73c8e01da4827a77bb",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 81,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:81",
+      "sha256_B_H_T": "9ed3e38a322834f39b1adc5e2b34a401bd1ded7d6289ed95db35dad967f049cc",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 82,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:82",
+      "sha256_B_H_T": "26d3755aa8b07b0ae30b59c1997a7e62afb89636fab093cd1ebc3dc346b025c6",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 83,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:83",
+      "sha256_B_H_T": "1d50175492fc1fa9cf40796b8005072cf1f1df065dd8b645d16db18d43a6ced6",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 84,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:84",
+      "sha256_B_H_T": "2e88cac9e142912f4cadf65a473690c871ac46378a78824669b4808b2841ef68",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 85,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:85",
+      "sha256_B_H_T": "0b09b7c58fbb378dda64c102952ef5612c4f9c2eebf756295c54565f5557086f",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 86,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:86",
+      "sha256_B_H_T": "108b8b50653a4d8385f37cd0e18a1ec4a561119772e53d9f06f836f100cb2801",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 87,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:87",
+      "sha256_B_H_T": "550f0fe02f95a2c5f816c16e5effcf09b4dc18a496861efd70d438680eeb61fa",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 88,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:88",
+      "sha256_B_H_T": "2da245ab58241a78d5f5b90ebf57567750f0b46edf36382ed312a3f1fe94b268",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 89,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:89",
+      "sha256_B_H_T": "87454e9872528081fbe996a37bd2ba1d15cbcb51a3e7d11f3a21ab45493a86ca",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 90,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:90",
+      "sha256_B_H_T": "0cda632faec8e8ccabedcbac345eafd16d98a4abeb36ffde9b6c6c9d8e7fa21c",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 91,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:91",
+      "sha256_B_H_T": "b7e7b5a2e2092f2f145b8c58bf3be7621f387c9a004d84933d57d00861a5b191",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 92,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:92",
+      "sha256_B_H_T": "15b3ee36c61c9ca2c9c49256e946f7be99711d81f87992df6e888418604734c9",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 93,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:93",
+      "sha256_B_H_T": "e822b87faa3a2865ec020fe80fa2d07a4ef71c76284e87c1718a3c0b79e6c5b7",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 94,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:94",
+      "sha256_B_H_T": "1678502795928380f232be5a9080d339ef750a9e22a8f1d5d675885a173f1a3d",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 95,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:95",
+      "sha256_B_H_T": "ee973f43534d635333347f8132f1a3704f74ac48a3515e2eaac7859af4a9ebc9",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 96,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:96",
+      "sha256_B_H_T": "f7a8a80787a8c51005bc00d6d1a3455b116015c71f1411a19e50ddd51183f145",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 97,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:97",
+      "sha256_B_H_T": "6dbcd7b5ce1c960eb2520073784a89442a7745a7143ac000a5eb6b2783ae5870",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 98,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:98",
+      "sha256_B_H_T": "641821fdd085d9f751cd0ca37eadfd7c5019c83adf5a1622537ebc32c01c23bf",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 99,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:99",
+      "sha256_B_H_T": "737cb8c9ae70d2dbd68b11c830da08fdefa7ef7c415418f3b8c2452755886562",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 100,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:100",
+      "sha256_B_H_T": "38ebe02eb1d82b49a9fec41ad02c0555eb6e962973d7cd0677d1d2dd75de91ab",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 101,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:101",
+      "sha256_B_H_T": "656d7b6e590b960c4e74927dec2f6050e3d3a7a0d2b420e9331256de13a99bd9",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 102,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:102",
+      "sha256_B_H_T": "7b863a68296939671943beda016d485f372ef4ef31bafef34845186591b51525",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 103,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:103",
+      "sha256_B_H_T": "b547a53a6555ff964721333e8fccec7f03475022ef2a73a55ecf4b9e743ff349",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 104,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:104",
+      "sha256_B_H_T": "55fcdbcfbf71f92aaa00a8c001839b8995a9aab07798089d811515e42afb6bbd",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 105,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:105",
+      "sha256_B_H_T": "ef46a9375e4489dcd63e21baeb489bb650aeb08d56e01f2386840df9aa71b1d8",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 106,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:106",
+      "sha256_B_H_T": "c95117e33d159af21ae14806de11ebe46d89da5e783c81d4f6563b1af50d073a",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 107,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:107",
+      "sha256_B_H_T": "71081e2638f96d1cd2ea3367e4672e71b5000c8ef121ce50d9a1278ddfe79aa0",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 108,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:108",
+      "sha256_B_H_T": "c2207317058f8dcae3276df260b147fc7c4eba6141031cee4ad896ba121fbfa0",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 109,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:109",
+      "sha256_B_H_T": "9450011a8945f05a8036adb0b42d625bdcac84538d2e3c516b39879cb877680b",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 110,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:110",
+      "sha256_B_H_T": "382763a6cf85f953fd02c4ddda62e42359d6be25371635878a4e35d42d48dfec",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 111,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:111",
+      "sha256_B_H_T": "d79be8b8eaefb4bb407f34082eb2be8ad1d72cd9302a0f0aa691c8673efcf2ef",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 112,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:112",
+      "sha256_B_H_T": "56e8c1f00608e586dedc4baaadfc20a5d6b9a511d339876f31cc99bac0652de8",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 113,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:113",
+      "sha256_B_H_T": "1abcc7f9c6ce2db4019bbaefe8cca981ce3b5af23ac3a3c1a78692f599c5cb6c",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 114,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:114",
+      "sha256_B_H_T": "16484230b63b596a20172056b1b3b9a261062cd1ee65cd2a1d656b2588323364",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 115,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:115",
+      "sha256_B_H_T": "f9da978ec25dd3257c9b49474a420cab5abf7a975f3b967d3aa1474da18b082c",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 116,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:116",
+      "sha256_B_H_T": "e5272840d8fbabd0d982165b4030a7e77ed7f8b4f134ad1e3a2a4e2dc444d4da",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 117,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:117",
+      "sha256_B_H_T": "1a1bb72b2f2639e9008b68bfbc081c92378907b2bab5d75c6afa65fe8c0f5419",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 118,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:118",
+      "sha256_B_H_T": "cce83f1161b817f27d2ca0be4172fbc13855806f91dcb3a0abcd7196d2a748f6",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 119,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:119",
+      "sha256_B_H_T": "e412174753a1dd7697cda50bdcccffc7c67fce6ffa2ca9fd0cd92c1e0f71830f",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 120,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:120",
+      "sha256_B_H_T": "4f5c7d631aa0f029dc1d13e6f6a46ba4a1e43a9e47d52b9423a83a91e20c5e64",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 121,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:121",
+      "sha256_B_H_T": "1d7d18f31cdb06e47928b44a392ab6fa37e0ed855e495c98783d59ed8915ec4f",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 122,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:122",
+      "sha256_B_H_T": "e6549f5b462eafc1f9ef4a1184f12ef8229e6c6984fcd5378b76065e54fbfb81",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 123,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:123",
+      "sha256_B_H_T": "3178f1ffece78254c6c1b7da11eca2581d607af819c9c5a362ae58b60fd9e8b1",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 124,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:124",
+      "sha256_B_H_T": "b98a255e7ecb127c066ed53b4fd5a0878c15a9bd7510c5da12aff5f483a09562",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 125,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:125",
+      "sha256_B_H_T": "77d831fd497dcb9f0c03de7ff8ef073dab9f8893b70725ba3b929db730b0bb8d",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 126,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:126",
+      "sha256_B_H_T": "a8c66f239dcb6c09a3fbc80de06b3a855d9c8d90bab6458f99e4b465cc18354a",
+      "temperature": 25.0,
+      "points": 5008
+    },
+    {
+      "row": 127,
+      "identity": "ab4913ca63ebda1f8eab429c64d3e93f96204713:N87_5:127",
+      "sha256_B_H_T": "88797e63acf146eac74bdf817afd1d2acd821ffe15bc65b4b546a111b6ae301a",
+      "temperature": 25.0,
+      "points": 5008
+    }
+  ],
+  "source_preprocessing": {
+    "whole_row_B_centering": true,
+    "whole_row_H_centering": true,
+    "H_dependent_phase_alignment": true,
+    "circular_roll": true,
+    "periodic_interpolation": true
+  },
+  "source_preprocessing_verdict": "Tutorial periodic pipeline is not reused for boundary-conditioned causal deployment: full-row H centering and H-based circular phase alignment use response values outside a prediction prefix. This is a task-protocol difference, not proof of an author error.",
+  "unverified_metadata": [
+    "exact raw release equivalence to PI-HNO 14-material data",
+    "device/core ID per row",
+    "reset/prehistory",
+    "measurement repeatability",
+    "exact frequency identity from filename alone"
+  ],
+  "single_material_only": true,
+  "new_model_fits": 0,
+  "new_method_accepted": false,
+  "local_result_files_written": 0,
+  "script_sha256": "b06fd58e7c7b6f4e3cb74f2aaccc168d4c982c88bd4707dc3b85f75cee3be8fa",
+  "runtime_probe": {
+    "numpy": "2.2.6",
+    "packages": {
+      "scipy": true,
+      "h5py": true,
+      "torch": true,
+      "jax": false,
+      "equinox": false,
+      "diffrax": false,
+      "optimistix": false,
+      "pandas": true
+    }
+  },
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "accepted_final_directions": 0
+}

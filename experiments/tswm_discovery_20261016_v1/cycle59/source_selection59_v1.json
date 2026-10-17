@@ -1,0 +1,234 @@
+{
+  "repository": "minjiechen/magnetchallenge-2",
+  "commit": "ab4913ca63ebda1f8eab429c64d3e93f96204713",
+  "files": [
+    {
+      "path": "tutorials/tutorial-2/LICENSE.txt",
+      "bytes": 16726,
+      "git_blob_sha1": "d0a1fa1482eea82e19510e7920cbe3a03e41f691",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/README.md",
+      "bytes": 3100,
+      "git_blob_sha1": "e9b058c4d4d638cbb6f3d6bd61387bc2585d7334",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/data/N87_5_B.csv.gz",
+      "bytes": 5337598,
+      "git_blob_sha1": "417debca787aa215e0a9d953b02d89c27ee327cf",
+      "kind": "data"
+    },
+    {
+      "path": "tutorials/tutorial-2/data/N87_5_H.csv.gz",
+      "bytes": 5120134,
+      "git_blob_sha1": "cacfa4091b260dda021dd79b208aeb9ec90e386c",
+      "kind": "data"
+    },
+    {
+      "path": "tutorials/tutorial-2/data/N87_5_T.csv.gz",
+      "bytes": 41,
+      "git_blob_sha1": "59a88c70d3732a9d17ed28d9291cc665f569e0b2",
+      "kind": "data"
+    },
+    {
+      "path": "tutorials/tutorial-2/model_ann.py",
+      "bytes": 2979,
+      "git_blob_sha1": "f1474c0de5133d48ff198bb47ae602beb2b11696",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/model_eqn.py",
+      "bytes": 4886,
+      "git_blob_sha1": "5834b5c178c492a5de6823f31bbb472b6225880b",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odemodel/__init__.py",
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odemodel/ann_dual.py",
+      "bytes": 2609,
+      "git_blob_sha1": "6fac1033a7144b9154f48d6e618e5156082ebd03",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odemodel/ann_single.py",
+      "bytes": 2029,
+      "git_blob_sha1": "74238db74dea6020fcc4d507b099b99263fe6d30",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odemodel/eqn_linear.py",
+      "bytes": 2049,
+      "git_blob_sha1": "c2698f067ee50cf68736a7fde9c518d963d15036",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odemodel/eqn_nonlinear.py",
+      "bytes": 3015,
+      "git_blob_sha1": "cea58291f8c75cef94950134a0dafc6436559163",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odesolver/__init__.py",
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odesolver/compute/__init__.py",
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odesolver/compute/dataset.py",
+      "bytes": 7226,
+      "git_blob_sha1": "7e40cb6c13c950aa35b9538c689bedc885e28cf8",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odesolver/compute/odesolve.py",
+      "bytes": 4461,
+      "git_blob_sha1": "eb845c802712bb7d2349d3b4933fc2e013f317e2",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odesolver/inference.py",
+      "bytes": 1500,
+      "git_blob_sha1": "b1bcb037f0cec0524295bce0d8d8ae55e383817d",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odesolver/model.py",
+      "bytes": 1242,
+      "git_blob_sha1": "dcbe348fdd1c2aceaab4faa279148b048078f58f",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odesolver/optim/__init__.py",
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odesolver/optim/optax_grad.py",
+      "bytes": 4741,
+      "git_blob_sha1": "d3d85514d151eb300d21c5b083c69b263d9fdf34",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odesolver/optim/optx_lsq.py",
+      "bytes": 1456,
+      "git_blob_sha1": "1b36d4b127c782777ede8244afe617a57d67f935",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odesolver/optim/optx_min.py",
+      "bytes": 1444,
+      "git_blob_sha1": "6bfd5f584121fff81904d2eafbfd3e3c603dddf2",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odesolver/optim/scipy_evo.py",
+      "bytes": 3062,
+      "git_blob_sha1": "5ce54a672f76aac4688c1a141b137ad9facc81e3",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odesolver/optim/scipy_lat.py",
+      "bytes": 2064,
+      "git_blob_sha1": "23ab142e07967f6797628e7928991b387d5c9ff9",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odesolver/parsing.py",
+      "bytes": 4724,
+      "git_blob_sha1": "4248a051700af4b94746bd4f873bb1b442b1b801",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odesolver/plotting.py",
+      "bytes": 7132,
+      "git_blob_sha1": "f4443751988a317ce46885d9fa401d79f262eb9d",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odesolver/serialize.py",
+      "bytes": 846,
+      "git_blob_sha1": "b78f5f17aed2fc50c05e547851e7b99ca63c1edc",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odesolver/training.py",
+      "bytes": 10142,
+      "git_blob_sha1": "ab87571b54974fcdd29cfafe2188399812af9500",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odesolver/utils/__init__.py",
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odesolver/utils/conv_tracker.py",
+      "bytes": 3875,
+      "git_blob_sha1": "5983dcbe89f3426ae43f825fb8f40d43fc2faaab",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odesolver/utils/dataframe_index.py",
+      "bytes": 1926,
+      "git_blob_sha1": "ae68adb74b0113b8ee5afb953f6f30f2a99dda59",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/odesolver/utils/softjax_fct.py",
+      "bytes": 1205,
+      "git_blob_sha1": "36935f19d8ce66a0b575fa53e7606d2752fbc272",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/requirements.txt",
+      "bytes": 345,
+      "git_blob_sha1": "de199fbf29fcdf8d77832cf91ce9bbaf4ab62cf4",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/run_1_dataset.py",
+      "bytes": 904,
+      "git_blob_sha1": "934b4beb0f978dea96a6c9e63c1289e51136648e",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/run_2_eqn_train.py",
+      "bytes": 6562,
+      "git_blob_sha1": "0b4cc3e87efa62f63f295b01e58fd97fa991dd96",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/run_3_eqn_infer.py",
+      "bytes": 2152,
+      "git_blob_sha1": "cc2d89911cb6996b3a10080103ebd78567a283c4",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/run_4_ann_train.py",
+      "bytes": 4157,
+      "git_blob_sha1": "4a69339afa3a9b6759e4b269cd738afc54a19e09",
+      "kind": "source"
+    },
+    {
+      "path": "tutorials/tutorial-2/run_5_ann_infer.py",
+      "bytes": 2071,
+      "git_blob_sha1": "e38e617e186322f4d57e9f17d38f7eafd39dd2f6",
+      "kind": "source"
+    }
+  ]
+}

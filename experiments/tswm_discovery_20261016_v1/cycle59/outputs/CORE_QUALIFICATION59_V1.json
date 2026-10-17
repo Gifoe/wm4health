@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-17T23:13:13.812762+00:00",
+  "status": "PASS_EXTRACTED_OFFICIAL_EQUATION_CORES_AND_LINEAR_ANALYTIC_SOLVER",
+  "source_commit": "ab4913ca63ebda1f8eab429c64d3e93f96204713",
+  "derivative_cases": 32,
+  "max_scaled_derivative_discrepancy": 6.862375185592711e-15,
+  "linear_analytic_max_absolute_error": 1.3339302995518665e-08,
+  "jax_version": "0.4.35",
+  "jax_x64": true,
+  "source_files_unchanged": true,
+  "qualifier_sha256": "fafe1a109810c1b90fd78d95a26cc9cfefd2ad4545338b54de76200aa253baed",
+  "scope": "Exact get_ode AST bodies with decorators removed and original softjax functions; independent NumPy math and SciPy DOP853 analytic check. Equinox/Diffrax/Optimistix unavailable, no import or training of the original complete model/Trainer. No real-data fit, no new method claim.",
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "accepted_final_directions": 0
+}

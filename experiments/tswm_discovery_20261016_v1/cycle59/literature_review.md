@@ -1,0 +1,5 @@
+# C59 literature and task boundary
+
+Official MagNet Challenge 2 already asks for future H given past B/H, future B and temperature, including time-step and initialization handling: https://github.com/minjiechen/magnetchallenge-2 . The COMPEL 2025 foundation-model paper explicitly discusses frequency/time-step independence and finite-history assumptions: https://collaborate.princeton.edu/en/publications/unified-time-domain-foundation-models-for-hysteretic-passive-comp/ . These are direct prior capabilities, not newly discovered method ideas.
+
+PI-HNO already combines recurrent dynamic response and global hysteresis context, with material-specific models on a 14-material dataset: https://arxiv.org/html/2608.02965v1 . Its global attention is Preisach-inspired, not an implementation of classical physical hysterons. The current tutorial sample has only N87 at 25 C and cannot be silently identified with that 14-material release. C58/research/adjacent58.md records mature Preisach/PNLSS/GLE controls and their assumptions. This screen does not reproduce any paper's reported table.
