@@ -1,0 +1,255 @@
+{
+  "utc": "2026-10-17T21:47:07.684512+00:00",
+  "status": "FINITE_REFERENCE_DEVIATION_PRESENT_IN_PRIMARY_FAMILY",
+  "primary_tests": 8,
+  "primary_nonzero_a_deviations": 4,
+  "primary_nonzero_cases": [
+    {
+      "case": 0,
+      "r": 0.3,
+      "T": 6,
+      "fixed_q": false,
+      "B": 32
+    },
+    {
+      "case": 1,
+      "r": 0.3,
+      "T": 24,
+      "fixed_q": false,
+      "B": 32
+    },
+    {
+      "case": 2,
+      "r": 3.0,
+      "T": 6,
+      "fixed_q": false,
+      "B": 32
+    },
+    {
+      "case": 3,
+      "r": 3.0,
+      "T": 24,
+      "fixed_q": false,
+      "B": 32
+    }
+  ],
+  "fixed_q_max_absolute_paired_a_deviation": 0.0,
+  "all_diagnostic_rows": 144,
+  "independent_banks_per_cell": 256,
+  "native_gradient_max_error": 4.4097328455450224e-08,
+  "sigma_point_max_error": 2.4868995751603507e-14,
+  "central_difference_max_error": 7.535663958129013e-09,
+  "native_training_updates": 0,
+  "accepted_final_directions": 0,
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "gradient_results_sha256": "3105f80c7995ea6be76055560892b13658867fa33730328d3db530938d2ba9f2",
+  "qualification_sha256": "91d437bed2438f3c5779be8bc7ace6fc311068b40fe6332d88e6c7c308c5b279",
+  "raw_gradient_receipts": [
+    {
+      "case": 0,
+      "B": 128,
+      "jitter": 1e-05,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case0_B128_j1e-05.npz",
+      "sha256": "6288d8a94920c6469b2d0d6d963fe032926363ddf491d066c573f092d24f3b20"
+    },
+    {
+      "case": 0,
+      "B": 16,
+      "jitter": 1e-05,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case0_B16_j1e-05.npz",
+      "sha256": "6e179c3a8768992b155ba605043b19ef4cb510b9b4e7f8d6a6f8ab663aba0564"
+    },
+    {
+      "case": 0,
+      "B": 32,
+      "jitter": 0.0,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case0_B32_j0e+00.npz",
+      "sha256": "4bb7115110459e45aabf3c88367ff19652236dc34d94cdf9ee2fb876bdae2d7c"
+    },
+    {
+      "case": 0,
+      "B": 32,
+      "jitter": 1e-05,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case0_B32_j1e-05.npz",
+      "sha256": "23c3652900b92e4d35a9ea6e9aedf4fc12fc7177fa8b244789234b4327506735"
+    },
+    {
+      "case": 0,
+      "B": 4,
+      "jitter": 1e-05,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case0_B4_j1e-05.npz",
+      "sha256": "5bdc62d25e30138134a08be7dc701e8e6cc1ebc41de0ee43567db97688bbe099"
+    },
+    {
+      "case": 0,
+      "B": 512,
+      "jitter": 1e-05,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case0_B512_j1e-05.npz",
+      "sha256": "8f3294194386d1904255b9405c15fa7eaca4d5a864c07f3d0a2278c26237cb3a"
+    },
+    {
+      "case": 1,
+      "B": 128,
+      "jitter": 1e-05,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case1_B128_j1e-05.npz",
+      "sha256": "01af5376cb96ccbb34113dcb4f44f4310d81726d5b39f7eaf859c31c81a004ad"
+    },
+    {
+      "case": 1,
+      "B": 16,
+      "jitter": 1e-05,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case1_B16_j1e-05.npz",
+      "sha256": "59663fa865edc00823cfc3a0c73599f8d58198c4db87e40f4504ac7777f9a407"
+    },
+    {
+      "case": 1,
+      "B": 32,
+      "jitter": 0.0,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case1_B32_j0e+00.npz",
+      "sha256": "d52b93c0ca31fe95a764052d13652d920ed67d9bf38e8844c796b1b0d329ddd7"
+    },
+    {
+      "case": 1,
+      "B": 32,
+      "jitter": 1e-05,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case1_B32_j1e-05.npz",
+      "sha256": "28f6e3b083c577430cc9582b65ff7a70b6f05e063fdd2661c2a7008462e491e4"
+    },
+    {
+      "case": 1,
+      "B": 4,
+      "jitter": 1e-05,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case1_B4_j1e-05.npz",
+      "sha256": "8d7836fec5446a074d5dce5c812d5c676b70419a02bfcdb33e58ea71ab87f739"
+    },
+    {
+      "case": 1,
+      "B": 512,
+      "jitter": 1e-05,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case1_B512_j1e-05.npz",
+      "sha256": "fc3ce7536bd14590308d3b19e8508c0a543d831672eb59eeed7542d788f06659"
+    },
+    {
+      "case": 2,
+      "B": 128,
+      "jitter": 1e-05,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case2_B128_j1e-05.npz",
+      "sha256": "adaacfb736d9c0a513ed348923695a11a6dc727b57415bfb67b2d1a35ae2e450"
+    },
+    {
+      "case": 2,
+      "B": 16,
+      "jitter": 1e-05,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case2_B16_j1e-05.npz",
+      "sha256": "cece02c1cf5d414e2a93222fee33901a50f1daba3de836fb24b19caa61ec93c7"
+    },
+    {
+      "case": 2,
+      "B": 32,
+      "jitter": 0.0,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case2_B32_j0e+00.npz",
+      "sha256": "0f4c65857208a63863690fdab9871ba62d9342ff699ec42b7f3a0426594c8a61"
+    },
+    {
+      "case": 2,
+      "B": 32,
+      "jitter": 1e-05,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case2_B32_j1e-05.npz",
+      "sha256": "5a3d9df83e91fa640a78b8bc800847f7c0e8cedde835f97608a56ad9ecb3569f"
+    },
+    {
+      "case": 2,
+      "B": 4,
+      "jitter": 1e-05,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case2_B4_j1e-05.npz",
+      "sha256": "78187104e5775225c0e9919e02f07a28c964cb5573a1483421dab56e04e153b2"
+    },
+    {
+      "case": 2,
+      "B": 512,
+      "jitter": 1e-05,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case2_B512_j1e-05.npz",
+      "sha256": "d849f065c6948e0ce628191fe3fd93751a111e791f02e87ae0190132568d3616"
+    },
+    {
+      "case": 3,
+      "B": 128,
+      "jitter": 1e-05,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case3_B128_j1e-05.npz",
+      "sha256": "62faa7a61b66804f25265a26ac1f03769ba2d721ead523095f01a96984b40efe"
+    },
+    {
+      "case": 3,
+      "B": 16,
+      "jitter": 1e-05,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case3_B16_j1e-05.npz",
+      "sha256": "cbfd310dc86b9d7eadc13843b08135d4230a39c751dd6126d6e0ed4ce1757a6c"
+    },
+    {
+      "case": 3,
+      "B": 32,
+      "jitter": 0.0,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case3_B32_j0e+00.npz",
+      "sha256": "c448797602790bb72b937ef294682646ab6f8d09ffb74d9c565cd9c733d753c4"
+    },
+    {
+      "case": 3,
+      "B": 32,
+      "jitter": 1e-05,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case3_B32_j1e-05.npz",
+      "sha256": "b7c99c00cabbe893246651196a81e1d7f2d2211cddb50b8bd1003dbe561ddc56"
+    },
+    {
+      "case": 3,
+      "B": 4,
+      "jitter": 1e-05,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case3_B4_j1e-05.npz",
+      "sha256": "9863e16153a3f06267c123102906c92f707a34cde5b4ce448e1fd8643846bd01"
+    },
+    {
+      "case": 3,
+      "B": 512,
+      "jitter": 1e-05,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\gradients_case3_B512_j1e-05.npz",
+      "sha256": "5f6a61ea50e898e17c4e6c75bca96c239a41727c4e08d179272795c080613983"
+    }
+  ],
+  "raw_bank_receipts": [
+    {
+      "case": 0,
+      "a_star": 0.95,
+      "r": 0.3,
+      "T": 6,
+      "seed": 5601,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\banks_case0.npz",
+      "sha256": "ce29604f262037e95678108ebc686f67a4e3bff189275eadd40be22fbd4a682b"
+    },
+    {
+      "case": 1,
+      "a_star": 0.95,
+      "r": 0.3,
+      "T": 24,
+      "seed": 5602,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\banks_case1.npz",
+      "sha256": "b98cb3ee2b4d6bb4c000995900c6c36b67ad1a9d2eac43fbbd5f43e4f8d786be"
+    },
+    {
+      "case": 2,
+      "a_star": 0.95,
+      "r": 3.0,
+      "T": 6,
+      "seed": 5603,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\banks_case2.npz",
+      "sha256": "84aea8c68f7fe621d44615427a416e2c80e3656f00231d67243dce59d16bee74"
+    },
+    {
+      "case": 3,
+      "a_star": 0.95,
+      "r": 3.0,
+      "T": 24,
+      "seed": 5604,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle56\\gradient_v1\\banks_case3.npz",
+      "sha256": "aaeaec98c2c66f7feed3091cee3daf6af0fc93b39c6ec89256271f7739dcf203"
+    }
+  ]
+}

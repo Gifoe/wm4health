@@ -1,0 +1,5 @@
+# C56 novelty boundary
+
+[RP-GSSM](https://proceedings.mlr.press/v306/hromadka26a.html) supplies the audited objective and already discusses approximation error. A finite-reference diagnostic is not by itself a new world-model method. [SogCLR](https://proceedings.mlr.press/v162/yuan22b.html) and [contrastive gradient-bias work](https://proceedings.neurips.cc/paper_files/paper/2022/hash/db174d373133dcc6bf83bc98e4b681f8-Abstract-Conference.html) preclude claiming generic global-normalizer correction as novel.
+
+A fresh [biosignal world-model perspective](https://arxiv.org/html/2610.17510v1) explicitly discusses delayed effects, unobserved drivers, endogenous state and intervention validation. Those broad motivations are existing prior art, not new directions. It does not establish a correction to the scalar RP objective. [DoTime](https://github.com/thummd/dotime) and [EpiCF-Bench](https://github.com/complex-ai-lab/epi-cf-benchmark) are potential controlled-effect benchmarks, not executed C56 evidence. This is a boundary check, not a comprehensive new survey or evidence of either benchmark's current protocol validity.
