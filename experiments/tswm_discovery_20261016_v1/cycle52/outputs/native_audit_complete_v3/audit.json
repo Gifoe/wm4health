@@ -1,0 +1,583 @@
+{
+  "utc": "2026-10-17T15:13:09.719265+00:00",
+  "status": "COMPLETE_REAL_DATA_INPUT_CONTRACT_AUDIT",
+  "protocol": {
+    "context": 256,
+    "horizon": 16,
+    "stride": 80,
+    "max_nan_ratio": 0.1,
+    "max_nan_gap": 6,
+    "split_seed": 0,
+    "val_team_ratio": 0.2,
+    "normalized_difference_tolerance": 2e-07
+  },
+  "upstream_commit": "2e5e48540ff0da48e8192163969a6c58df1d5a3e",
+  "source_sha256": {
+    "dataset": "f3f737d925df34e13da85eb81732e47ce9a2759f1dcd6a00d3d35295ceb9efc6",
+    "windowing": "280f175e4bd4056ec0604a9f757f8bf67fc74b034fa2e694875a48bcc3eb8184"
+  },
+  "acquisition_receipt_sha256": "7c45d351c578e40a7250e2ef7aa08f11d01b06784bededc96cef2e209fe858fb",
+  "overall": {
+    "accepted_windows": 1781,
+    "target_history_changed_windows": 0,
+    "target_history_changed_fraction": 0.0,
+    "exog_history_changed_windows": 0,
+    "future_target_perturbation_changed_history_windows": 0,
+    "max_target_history_change_normalized": 0.0,
+    "max_exog_history_change_normalized": 0.0,
+    "max_future_target_perturbation_history_change": 0.0,
+    "target_history_rms_diff_across_windows": 0.0,
+    "null_boundary_windows": 1781,
+    "null_boundary_perturbation_failures": 0
+  },
+  "by_experiment_and_split": [
+    {
+      "experiment": 1,
+      "split": "train",
+      "accepted_windows": 815,
+      "target_history_changed_windows": 0,
+      "target_history_changed_fraction": 0.0,
+      "exog_history_changed_windows": 0,
+      "future_target_perturbation_changed_history_windows": 0,
+      "max_target_history_change_normalized": 0.0,
+      "max_exog_history_change_normalized": 0.0,
+      "max_future_target_perturbation_history_change": 0.0,
+      "target_history_rms_diff_across_windows": 0.0,
+      "null_boundary_windows": 815,
+      "null_boundary_perturbation_failures": 0
+    },
+    {
+      "experiment": 1,
+      "split": "val",
+      "accepted_windows": 163,
+      "target_history_changed_windows": 0,
+      "target_history_changed_fraction": 0.0,
+      "exog_history_changed_windows": 0,
+      "future_target_perturbation_changed_history_windows": 0,
+      "max_target_history_change_normalized": 0.0,
+      "max_exog_history_change_normalized": 0.0,
+      "max_future_target_perturbation_history_change": 0.0,
+      "target_history_rms_diff_across_windows": 0.0,
+      "null_boundary_windows": 163,
+      "null_boundary_perturbation_failures": 0
+    },
+    {
+      "experiment": 2,
+      "split": "train",
+      "accepted_windows": 685,
+      "target_history_changed_windows": 0,
+      "target_history_changed_fraction": 0.0,
+      "exog_history_changed_windows": 0,
+      "future_target_perturbation_changed_history_windows": 0,
+      "max_target_history_change_normalized": 0.0,
+      "max_exog_history_change_normalized": 0.0,
+      "max_future_target_perturbation_history_change": 0.0,
+      "target_history_rms_diff_across_windows": 0.0,
+      "null_boundary_windows": 685,
+      "null_boundary_perturbation_failures": 0
+    },
+    {
+      "experiment": 2,
+      "split": "val",
+      "accepted_windows": 118,
+      "target_history_changed_windows": 0,
+      "target_history_changed_fraction": 0.0,
+      "exog_history_changed_windows": 0,
+      "future_target_perturbation_changed_history_windows": 0,
+      "max_target_history_change_normalized": 0.0,
+      "max_exog_history_change_normalized": 0.0,
+      "max_future_target_perturbation_history_change": 0.0,
+      "target_history_rms_diff_across_windows": 0.0,
+      "null_boundary_windows": 118,
+      "null_boundary_perturbation_failures": 0
+    }
+  ],
+  "teams": [
+    {
+      "experiment": 1,
+      "team": "cva",
+      "split": "train",
+      "raw_rows": 13825,
+      "sessions": 1,
+      "interval_minutes_counts": {
+        "4.9996833333333335": 9216,
+        "5.001116666666666": 3072,
+        "4.999666666666667": 1536
+      },
+      "target_nan_fraction": {
+        "Tair": 0.0023146473779385173,
+        "Rhair": 0.0023146473779385173,
+        "CO2air": 0.0026763110307414105,
+        "PARin": 0.0023146473779385173
+      },
+      "exog_nan_fraction": {
+        "Tout": 0.0022423146473779386,
+        "Rhout": 0.0022423146473779386,
+        "Iglob": 0.0022423146473779386,
+        "Windsp": 0.0022423146473779386,
+        "Winddir": 0.0022423146473779386,
+        "Rain": 0.0022423146473779386,
+        "PARout": 0.0022423146473779386,
+        "AbsHumOut": 0.0022423146473779386
+      },
+      "accepted_windows": 163,
+      "target_history_changed_windows": 0,
+      "target_history_changed_fraction": 0.0,
+      "exog_history_changed_windows": 0,
+      "future_target_perturbation_changed_history_windows": 0,
+      "max_target_history_change_normalized": 0.0,
+      "max_exog_history_change_normalized": 0.0,
+      "max_future_target_perturbation_history_change": 0.0,
+      "target_history_rms_diff_across_windows": 0.0,
+      "null_boundary_windows": 163,
+      "null_boundary_perturbation_failures": 0
+    },
+    {
+      "experiment": 1,
+      "team": "digital-cucumbers",
+      "split": "train",
+      "raw_rows": 13825,
+      "sessions": 1,
+      "interval_minutes_counts": {
+        "4.9996833333333335": 9216,
+        "5.001116666666666": 3072,
+        "4.999666666666667": 1536
+      },
+      "target_nan_fraction": {
+        "Tair": 0.0023146473779385173,
+        "Rhair": 0.0023146473779385173,
+        "CO2air": 0.0026763110307414105,
+        "PARin": 0.0023146473779385173
+      },
+      "exog_nan_fraction": {
+        "Tout": 0.0022423146473779386,
+        "Rhout": 0.0022423146473779386,
+        "Iglob": 0.0022423146473779386,
+        "Windsp": 0.0022423146473779386,
+        "Winddir": 0.0022423146473779386,
+        "Rain": 0.0022423146473779386,
+        "PARout": 0.0022423146473779386,
+        "AbsHumOut": 0.0022423146473779386
+      },
+      "accepted_windows": 163,
+      "target_history_changed_windows": 0,
+      "target_history_changed_fraction": 0.0,
+      "exog_history_changed_windows": 0,
+      "future_target_perturbation_changed_history_windows": 0,
+      "max_target_history_change_normalized": 0.0,
+      "max_exog_history_change_normalized": 0.0,
+      "max_future_target_perturbation_history_change": 0.0,
+      "target_history_rms_diff_across_windows": 0.0,
+      "null_boundary_windows": 163,
+      "null_boundary_perturbation_failures": 0
+    },
+    {
+      "experiment": 1,
+      "team": "koala",
+      "split": "train",
+      "raw_rows": 13825,
+      "sessions": 1,
+      "interval_minutes_counts": {
+        "4.9996833333333335": 9216,
+        "5.001116666666666": 3072,
+        "4.999666666666667": 1536
+      },
+      "target_nan_fraction": {
+        "Tair": 0.0023146473779385173,
+        "Rhair": 0.0023146473779385173,
+        "CO2air": 0.0026763110307414105,
+        "PARin": 0.0023146473779385173
+      },
+      "exog_nan_fraction": {
+        "Tout": 0.0022423146473779386,
+        "Rhout": 0.0022423146473779386,
+        "Iglob": 0.0022423146473779386,
+        "Windsp": 0.0022423146473779386,
+        "Winddir": 0.0022423146473779386,
+        "Rain": 0.0022423146473779386,
+        "PARout": 0.0022423146473779386,
+        "AbsHumOut": 0.0022423146473779386
+      },
+      "accepted_windows": 163,
+      "target_history_changed_windows": 0,
+      "target_history_changed_fraction": 0.0,
+      "exog_history_changed_windows": 0,
+      "future_target_perturbation_changed_history_windows": 0,
+      "max_target_history_change_normalized": 0.0,
+      "max_exog_history_change_normalized": 0.0,
+      "max_future_target_perturbation_history_change": 0.0,
+      "target_history_rms_diff_across_windows": 0.0,
+      "null_boundary_windows": 163,
+      "null_boundary_perturbation_failures": 0
+    },
+    {
+      "experiment": 1,
+      "team": "monday-lettuce",
+      "split": "train",
+      "raw_rows": 13825,
+      "sessions": 1,
+      "interval_minutes_counts": {
+        "4.9996833333333335": 9216,
+        "5.001116666666666": 3072,
+        "4.999666666666667": 1536
+      },
+      "target_nan_fraction": {
+        "Tair": 0.0023146473779385173,
+        "Rhair": 0.0023146473779385173,
+        "CO2air": 0.0026763110307414105,
+        "PARin": 0.0023146473779385173
+      },
+      "exog_nan_fraction": {
+        "Tout": 0.0022423146473779386,
+        "Rhout": 0.0022423146473779386,
+        "Iglob": 0.0022423146473779386,
+        "Windsp": 0.0022423146473779386,
+        "Winddir": 0.0022423146473779386,
+        "Rain": 0.0022423146473779386,
+        "PARout": 0.0022423146473779386,
+        "AbsHumOut": 0.0022423146473779386
+      },
+      "accepted_windows": 163,
+      "target_history_changed_windows": 0,
+      "target_history_changed_fraction": 0.0,
+      "exog_history_changed_windows": 0,
+      "future_target_perturbation_changed_history_windows": 0,
+      "max_target_history_change_normalized": 0.0,
+      "max_exog_history_change_normalized": 0.0,
+      "max_future_target_perturbation_history_change": 0.0,
+      "target_history_rms_diff_across_windows": 0.0,
+      "null_boundary_windows": 163,
+      "null_boundary_perturbation_failures": 0
+    },
+    {
+      "experiment": 1,
+      "team": "reference",
+      "split": "val",
+      "raw_rows": 13825,
+      "sessions": 1,
+      "interval_minutes_counts": {
+        "4.9996833333333335": 9216,
+        "5.001116666666666": 3072,
+        "4.999666666666667": 1536
+      },
+      "target_nan_fraction": {
+        "Tair": 0.0023146473779385173,
+        "Rhair": 0.0023146473779385173,
+        "CO2air": 0.0026763110307414105,
+        "PARin": 0.0023146473779385173
+      },
+      "exog_nan_fraction": {
+        "Tout": 0.0022423146473779386,
+        "Rhout": 0.0022423146473779386,
+        "Iglob": 0.0022423146473779386,
+        "Windsp": 0.0022423146473779386,
+        "Winddir": 0.0022423146473779386,
+        "Rain": 0.0022423146473779386,
+        "PARout": 0.0022423146473779386,
+        "AbsHumOut": 0.0022423146473779386
+      },
+      "accepted_windows": 163,
+      "target_history_changed_windows": 0,
+      "target_history_changed_fraction": 0.0,
+      "exog_history_changed_windows": 0,
+      "future_target_perturbation_changed_history_windows": 0,
+      "max_target_history_change_normalized": 0.0,
+      "max_exog_history_change_normalized": 0.0,
+      "max_future_target_perturbation_history_change": 0.0,
+      "target_history_rms_diff_across_windows": 0.0,
+      "null_boundary_windows": 163,
+      "null_boundary_perturbation_failures": 0
+    },
+    {
+      "experiment": 1,
+      "team": "veggie-might",
+      "split": "train",
+      "raw_rows": 13825,
+      "sessions": 1,
+      "interval_minutes_counts": {
+        "4.9996833333333335": 9216,
+        "5.001116666666666": 3072,
+        "4.999666666666667": 1536
+      },
+      "target_nan_fraction": {
+        "Tair": 0.0023146473779385173,
+        "Rhair": 0.0023146473779385173,
+        "CO2air": 0.0026763110307414105,
+        "PARin": 0.0023146473779385173
+      },
+      "exog_nan_fraction": {
+        "Tout": 0.0022423146473779386,
+        "Rhout": 0.0022423146473779386,
+        "Iglob": 0.0022423146473779386,
+        "Windsp": 0.0022423146473779386,
+        "Winddir": 0.0022423146473779386,
+        "Rain": 0.0022423146473779386,
+        "PARout": 0.0022423146473779386,
+        "AbsHumOut": 0.0022423146473779386
+      },
+      "accepted_windows": 163,
+      "target_history_changed_windows": 0,
+      "target_history_changed_fraction": 0.0,
+      "exog_history_changed_windows": 0,
+      "future_target_perturbation_changed_history_windows": 0,
+      "max_target_history_change_normalized": 0.0,
+      "max_exog_history_change_normalized": 0.0,
+      "max_future_target_perturbation_history_change": 0.0,
+      "target_history_rms_diff_across_windows": 0.0,
+      "null_boundary_windows": 163,
+      "null_boundary_perturbation_failures": 0
+    },
+    {
+      "experiment": 2,
+      "team": "cva",
+      "split": "train",
+      "raw_rows": 12385,
+      "sessions": 1,
+      "interval_minutes_counts": {
+        "4.9996833333333335": 7225,
+        "5.001116666666666": 2408,
+        "5.0": 1546,
+        "4.999666666666667": 1204,
+        "5.0003166666666665": 1
+      },
+      "target_nan_fraction": {
+        "Tair": 0.0,
+        "Rhair": 0.0,
+        "CO2air": 0.0,
+        "PARin": 0.0
+      },
+      "exog_nan_fraction": {
+        "Tout": 0.11102139685102948,
+        "Rhout": 0.11102139685102948,
+        "Iglob": 0.11102139685102948,
+        "Windsp": 0.11102139685102948,
+        "Winddir": 0.11102139685102948,
+        "Rain": 0.11102139685102948,
+        "PARout": 0.11102139685102948,
+        "AbsHumOut": 0.11102139685102948
+      },
+      "accepted_windows": 132,
+      "target_history_changed_windows": 0,
+      "target_history_changed_fraction": 0.0,
+      "exog_history_changed_windows": 0,
+      "future_target_perturbation_changed_history_windows": 0,
+      "max_target_history_change_normalized": 0.0,
+      "max_exog_history_change_normalized": 0.0,
+      "max_future_target_perturbation_history_change": 0.0,
+      "target_history_rms_diff_across_windows": 0.0,
+      "null_boundary_windows": 132,
+      "null_boundary_perturbation_failures": 0
+    },
+    {
+      "experiment": 2,
+      "team": "digital-cucumbers",
+      "split": "train",
+      "raw_rows": 12961,
+      "sessions": 1,
+      "interval_minutes_counts": {
+        "4.9996833333333335": 7609,
+        "5.001116666666666": 2536,
+        "5.0": 1546,
+        "4.999666666666667": 1268,
+        "5.0003166666666665": 1
+      },
+      "target_nan_fraction": {
+        "Tair": 0.0,
+        "Rhair": 0.0,
+        "CO2air": 0.0,
+        "PARin": 0.0
+      },
+      "exog_nan_fraction": {
+        "Tout": 0.1060874932489777,
+        "Rhout": 0.1060874932489777,
+        "Iglob": 0.1060874932489777,
+        "Windsp": 0.1060874932489777,
+        "Winddir": 0.1060874932489777,
+        "Rain": 0.1060874932489777,
+        "PARout": 0.1060874932489777,
+        "AbsHumOut": 0.1060874932489777
+      },
+      "accepted_windows": 139,
+      "target_history_changed_windows": 0,
+      "target_history_changed_fraction": 0.0,
+      "exog_history_changed_windows": 0,
+      "future_target_perturbation_changed_history_windows": 0,
+      "max_target_history_change_normalized": 0.0,
+      "max_exog_history_change_normalized": 0.0,
+      "max_future_target_perturbation_history_change": 0.0,
+      "target_history_rms_diff_across_windows": 0.0,
+      "null_boundary_windows": 139,
+      "null_boundary_perturbation_failures": 0
+    },
+    {
+      "experiment": 2,
+      "team": "koala",
+      "split": "train",
+      "raw_rows": 13537,
+      "sessions": 1,
+      "interval_minutes_counts": {
+        "4.9996833333333335": 7993,
+        "5.001116666666666": 2664,
+        "5.0": 1546,
+        "4.999666666666667": 1332,
+        "5.0003166666666665": 1
+      },
+      "target_nan_fraction": {
+        "Tair": 0.0,
+        "Rhair": 0.0,
+        "CO2air": 0.0,
+        "PARin": 0.0
+      },
+      "exog_nan_fraction": {
+        "Tout": 0.1016473369284184,
+        "Rhout": 0.1016473369284184,
+        "Iglob": 0.1016473369284184,
+        "Windsp": 0.1016473369284184,
+        "Winddir": 0.1016473369284184,
+        "Rain": 0.1016473369284184,
+        "PARout": 0.1016473369284184,
+        "AbsHumOut": 0.1016473369284184
+      },
+      "accepted_windows": 146,
+      "target_history_changed_windows": 0,
+      "target_history_changed_fraction": 0.0,
+      "exog_history_changed_windows": 0,
+      "future_target_perturbation_changed_history_windows": 0,
+      "max_target_history_change_normalized": 0.0,
+      "max_exog_history_change_normalized": 0.0,
+      "max_future_target_perturbation_history_change": 0.0,
+      "target_history_rms_diff_across_windows": 0.0,
+      "null_boundary_windows": 146,
+      "null_boundary_perturbation_failures": 0
+    },
+    {
+      "experiment": 2,
+      "team": "monday-lettuce",
+      "split": "train",
+      "raw_rows": 12673,
+      "sessions": 1,
+      "interval_minutes_counts": {
+        "4.9996833333333335": 7417,
+        "5.001116666666666": 2472,
+        "5.0": 1546,
+        "4.999666666666667": 1236,
+        "5.0003166666666665": 1
+      },
+      "target_nan_fraction": {
+        "Tair": 0.0,
+        "Rhair": 0.0,
+        "CO2air": 0.0,
+        "PARin": 0.0
+      },
+      "exog_nan_fraction": {
+        "Tout": 0.10849838238775349,
+        "Rhout": 0.10849838238775349,
+        "Iglob": 0.10849838238775349,
+        "Windsp": 0.10849838238775349,
+        "Winddir": 0.10849838238775349,
+        "Rain": 0.10849838238775349,
+        "PARout": 0.10849838238775349,
+        "AbsHumOut": 0.10849838238775349
+      },
+      "accepted_windows": 136,
+      "target_history_changed_windows": 0,
+      "target_history_changed_fraction": 0.0,
+      "exog_history_changed_windows": 0,
+      "future_target_perturbation_changed_history_windows": 0,
+      "max_target_history_change_normalized": 0.0,
+      "max_exog_history_change_normalized": 0.0,
+      "max_future_target_perturbation_history_change": 0.0,
+      "target_history_rms_diff_across_windows": 0.0,
+      "null_boundary_windows": 136,
+      "null_boundary_perturbation_failures": 0
+    },
+    {
+      "experiment": 2,
+      "team": "reference",
+      "split": "val",
+      "raw_rows": 11233,
+      "sessions": 1,
+      "interval_minutes_counts": {
+        "4.9996833333333335": 6457,
+        "5.001116666666666": 2152,
+        "5.0": 1546,
+        "4.999666666666667": 1076,
+        "5.0003166666666665": 1
+      },
+      "target_nan_fraction": {
+        "Tair": 0.0,
+        "Rhair": 0.0,
+        "CO2air": 0.0,
+        "PARin": 0.0
+      },
+      "exog_nan_fraction": {
+        "Tout": 0.12240719309178313,
+        "Rhout": 0.12240719309178313,
+        "Iglob": 0.12240719309178313,
+        "Windsp": 0.12240719309178313,
+        "Winddir": 0.12240719309178313,
+        "Rain": 0.12240719309178313,
+        "PARout": 0.12240719309178313,
+        "AbsHumOut": 0.12240719309178313
+      },
+      "accepted_windows": 118,
+      "target_history_changed_windows": 0,
+      "target_history_changed_fraction": 0.0,
+      "exog_history_changed_windows": 0,
+      "future_target_perturbation_changed_history_windows": 0,
+      "max_target_history_change_normalized": 0.0,
+      "max_exog_history_change_normalized": 0.0,
+      "max_future_target_perturbation_history_change": 0.0,
+      "target_history_rms_diff_across_windows": 0.0,
+      "null_boundary_windows": 118,
+      "null_boundary_perturbation_failures": 0
+    },
+    {
+      "experiment": 2,
+      "team": "veggie-might",
+      "split": "train",
+      "raw_rows": 12385,
+      "sessions": 1,
+      "interval_minutes_counts": {
+        "4.9996833333333335": 7225,
+        "5.001116666666666": 2408,
+        "5.0": 1546,
+        "4.999666666666667": 1204,
+        "5.0003166666666665": 1
+      },
+      "target_nan_fraction": {
+        "Tair": 0.0,
+        "Rhair": 0.0,
+        "CO2air": 0.0,
+        "PARin": 0.0
+      },
+      "exog_nan_fraction": {
+        "Tout": 0.11102139685102948,
+        "Rhout": 0.11102139685102948,
+        "Iglob": 0.11102139685102948,
+        "Windsp": 0.11102139685102948,
+        "Winddir": 0.11102139685102948,
+        "Rain": 0.11102139685102948,
+        "PARout": 0.11102139685102948,
+        "AbsHumOut": 0.11102139685102948
+      },
+      "accepted_windows": 132,
+      "target_history_changed_windows": 0,
+      "target_history_changed_fraction": 0.0,
+      "exog_history_changed_windows": 0,
+      "future_target_perturbation_changed_history_windows": 0,
+      "max_target_history_change_normalized": 0.0,
+      "max_exog_history_change_normalized": 0.0,
+      "max_future_target_perturbation_history_change": 0.0,
+      "target_history_rms_diff_across_windows": 0.0,
+      "null_boundary_windows": 132,
+      "null_boundary_perturbation_failures": 0
+    }
+  ],
+  "limitations": [
+    "Overlapping accepted windows are not independent samples.",
+    "Original repository does not uniquely identify which of the two public experiment archives generated the paper Greenhouse table. No headline reproduction is claimed.",
+    "Target future dependence violates the forecast input contract. Exogenous-history dependence is separately descriptive, because known future exogenous covariates may be declared inputs.",
+    "This does not measure downstream predictive/ranking impact, validate counterfactual effects or establish research novelty."
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "status": "FROZEN_FRESH_CONTROLLED_DATA",
+  "utc": "2026-10-17T13:50:23.835738+00:00",
+  "protocol_sha256": "fb73c5218703b2b77e5905ade3d2f0bd62f8131237029485ed26d1c8c8511b46",
+  "source_sha256": "856a2546e7e687e95d9e6996e157c896ac56065f6ed8b1549018ee2db3363bd4",
+  "files": [
+    {
+      "path": "rotating/train_observed.npz",
+      "bytes": 268391,
+      "sha256": "025d404af03d669626c36ae6001462fd85b261a1843879352f2e5b0b64788910"
+    },
+    {
+      "path": "rotating/train_physical_truth.npz",
+      "bytes": 365539,
+      "sha256": "5169f1604d059479176d4b2a2f88e5de8225b0e867aaa0b71a14a893f786ce0c"
+    },
+    {
+      "path": "rotating/validation_probes.npz",
+      "bytes": 28862,
+      "sha256": "e05544398a83ed045923312e5de4d3e470144b0f1831714da5bf6128ed13b129"
+    },
+    {
+      "path": "rotating/val_observed.npz",
+      "bytes": 35457,
+      "sha256": "c61966cc93a154934fe5252109521811606002b1c77d6aa9b702faaed4c63d27"
+    },
+    {
+      "path": "rotating/val_physical_truth.npz",
+      "bytes": 45918,
+      "sha256": "7cd5f9dd75f941a1f95bc2afcc0f2f62fd88b78f2caa830b1eb8c116814c4f0d"
+    },
+    {
+      "path": "rotating/eval_observed.npz",
+      "bytes": 196770,
+      "sha256": "6d39d59621c601b92f8f4454573fcc56a091f52f862f2bfdf168b87335b21d42"
+    },
+    {
+      "path": "rotating/eval_physical_truth.npz",
+      "bytes": 91500,
+      "sha256": "c6c0221bc10b18e9599125d04fbba8205bde7dd3d1801d78cbe8f07dae22c4e8"
+    },
+    {
+      "path": "bistable/train_observed.npz",
+      "bytes": 265563,
+      "sha256": "b254795c17d9269a426ebf5127beb09463a57fa6e02b9a6be7e5c462478a17e3"
+    },
+    {
+      "path": "bistable/train_physical_truth.npz",
+      "bytes": 360366,
+      "sha256": "f1506e3ee57e447d5b7935a667e96a19c9b1c5f4b548ba84786ba496deab014a"
+    },
+    {
+      "path": "bistable/validation_probes.npz",
+      "bytes": 28864,
+      "sha256": "21c62726ac3090c22e90424a17a5c373d48cc8cfb893e5ac4b023469845c86a4"
+    },
+    {
+      "path": "bistable/val_observed.npz",
+      "bytes": 34214,
+      "sha256": "134cdf7fbe6acdaaa5bcea0e799bba78454d73021e4c522726df04bb2f0d9406"
+    },
+    {
+      "path": "bistable/val_physical_truth.npz",
+      "bytes": 45372,
+      "sha256": "3cf47b280d1aba305f5821bd29023525ff4016a1057cb7be5f04b911527e7d84"
+    },
+    {
+      "path": "bistable/eval_observed.npz",
+      "bytes": 194884,
+      "sha256": "8ce0f9ec74a0b61a437db96ec28d93ffb86e3acc09073f482dca2c741d4f782b"
+    },
+    {
+      "path": "bistable/eval_physical_truth.npz",
+      "bytes": 90266,
+      "sha256": "4010b6f5f0ba94ee03714db26af9674e2437596d1456842f72f263523f7f09ac"
+    }
+  ],
+  "description": {
+    "rotating": {
+      "encoder_probe_scale_train_only": [
+        1.5698071718215942,
+        0.9173084955470726,
+        0.9052636963702126
+      ],
+      "train_physical_paths": 1024,
+      "val_physical_paths": 128,
+      "eval_physical_paths": 256,
+      "eval_paired_density_contexts": 768
+    },
+    "bistable": {
+      "encoder_probe_scale_train_only": [
+        1.576938509941101,
+        1.621137773460913,
+        0.9774687662444248
+      ],
+      "train_physical_paths": 1024,
+      "val_physical_paths": 128,
+      "eval_physical_paths": 256,
+      "eval_paired_density_contexts": 768
+    }
+  }
+}

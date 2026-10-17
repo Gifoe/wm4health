@@ -1,0 +1,256 @@
+{
+  "utc": "2026-10-17T15:10:53.550724+00:00",
+  "status": "LARGE_DISK_STORAGE_CONFIGURED_AND_DATA_COPY_VERIFIED",
+  "project_code_root": "D:\\tswm_discovery_20261016_v1",
+  "storage_root": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1",
+  "data_root": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data",
+  "checkpoint_root": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints",
+  "cache_root": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\caches",
+  "artifact_root": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts",
+  "selection_note": "User requested 15TB disk under existing omnieeg folder; observed matching G: root is named ICLR Omni-eeg cache. G: 14.553 TiB, 7.060 TiB free at discovery.",
+  "policy": "New downloaded datasets, large caches and future checkpoints use this storage root. Existing completed-run paths remain intact. Original D: copy is retained for source audit provenance; no deletion or bulk relocation performed.",
+  "verified_files": 40,
+  "verified_bytes": 32517760,
+  "files": [
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\cva\\GreenhouseClimate.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\cva\\GreenhouseClimate.xlsx",
+      "bytes": 2017416,
+      "sha256": "ecdf726a656766174ffc3d53bee185eb6de4519693e9389f65d76c6d42d92953"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\cva\\GreenhouseControls.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\cva\\GreenhouseControls.xlsx",
+      "bytes": 700060,
+      "sha256": "9bbc26173f403f65fc9abe0434043ee8b507b24270e52b43d89337f91c4f1c68"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\cva\\GreenhouseCrop.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\cva\\GreenhouseCrop.xlsx",
+      "bytes": 15560,
+      "sha256": "0c6ecc51db76454ebe3bc3dad5819604132c118d5ea3cb97fed0dcc8657762ff"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\digital-cucumbers\\GreenhouseClimate.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\digital-cucumbers\\GreenhouseClimate.xlsx",
+      "bytes": 1969207,
+      "sha256": "1db6fc1ec570deec00648a47c5f26f152f67dfba919932b5ca3928554b994425"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\digital-cucumbers\\GreenhouseControls.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\digital-cucumbers\\GreenhouseControls.xlsx",
+      "bytes": 651889,
+      "sha256": "1665c573f1b8e6c4f9261af90ef32d49422043da60b418aaafbf3b8516e7aaff"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\digital-cucumbers\\GreenhouseCrop.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\digital-cucumbers\\GreenhouseCrop.xlsx",
+      "bytes": 14962,
+      "sha256": "cd94a1162f474c7d49bfc16c203226b8663b70fecf9724b1a2a64c88cbf72321"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\koala\\GreenhouseClimate.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\koala\\GreenhouseClimate.xlsx",
+      "bytes": 2054224,
+      "sha256": "4bc9360edd3192904a1c57ee23bcad79d4fc4891ef7bd2368eb564c4c8003bc1"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\koala\\GreenhouseControls.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\koala\\GreenhouseControls.xlsx",
+      "bytes": 709972,
+      "sha256": "222e97e50ee0102796f7c10ecb36bc23fe4fcf09ee32b49debae6c6b18e0d3cd"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\koala\\GreenhouseCrop.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\koala\\GreenhouseCrop.xlsx",
+      "bytes": 15133,
+      "sha256": "331ff8232f2d5ab33c54bd86885fae5f91f6b1452cef3365752c396ca254152c"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\monday-lettuce\\GreenhouseClimate.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\monday-lettuce\\GreenhouseClimate.xlsx",
+      "bytes": 2028268,
+      "sha256": "33ca68dbf95afdac0800ab2422ef6b0d682398f833dd40a7c28d3b6d691ab938"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\monday-lettuce\\GreenhouseControls.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\monday-lettuce\\GreenhouseControls.xlsx",
+      "bytes": 639397,
+      "sha256": "df49885204c2a25343dbac6bacab77961894c3f85652f1ff0bb1fe6aca84c811"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\monday-lettuce\\GreenhouseCrop.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\monday-lettuce\\GreenhouseCrop.xlsx",
+      "bytes": 15625,
+      "sha256": "77705515d1b77ac9eb949788cdd575ab03cac1f67bdbd28ed2461b2051d9f854"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\ReadMe.docx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\ReadMe.docx",
+      "bytes": 316512,
+      "sha256": "e031389ccadc477161ee7f59e2118c0573ecad20a245b0500fcab0e6d3edb2d0"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\reference\\GreenhouseClimate.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\reference\\GreenhouseClimate.xlsx",
+      "bytes": 2022207,
+      "sha256": "bfd91e951a3f3584672c0f3429d591677978f7c4c822aac0ba705347a341126a"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\reference\\GreenhouseControls.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\reference\\GreenhouseControls.xlsx",
+      "bytes": 696171,
+      "sha256": "b3d0ca6e80e2d03bf132adbb8667778b9d394d70ee2c486cb5ce25d375c3df03"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\reference\\GreenhouseCrop.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\reference\\GreenhouseCrop.xlsx",
+      "bytes": 15540,
+      "sha256": "3ed4ed3bbb1747d18e94d9b9db2ed1c76ecac472ce3e51ef736291c8a91b4c41"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\veggie-might\\GreenhouseClimate.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\veggie-might\\GreenhouseClimate.xlsx",
+      "bytes": 2029516,
+      "sha256": "ebf013290b3d24c3b6c068b064ec52cee201c520c11dd718f93d79832bbe2bd7"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\veggie-might\\GreenhouseControls.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\veggie-might\\GreenhouseControls.xlsx",
+      "bytes": 619561,
+      "sha256": "74e90a265219ff7768aa3010afd91f6f26d689daf85c31324abad741317063cc"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\veggie-might\\GreenhouseCrop.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\veggie-might\\GreenhouseCrop.xlsx",
+      "bytes": 15114,
+      "sha256": "301e5eaa3539859b415537d743e708a98646ad9278120906a3182545c3f1b0a0"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\Weather.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_1\\TimeSeries\\Weather.xlsx",
+      "bytes": 891043,
+      "sha256": "e1af3c0572c90a57edd8021e53afb377193b6ba3bfa0a5fbed08a74ca15a48f8"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\ReadMe.docx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\ReadMe.docx",
+      "bytes": 317578,
+      "sha256": "abdca0976ad18eae85fa094ed4cfeba3d3df1b7f96c09c7732b4065b2a7efadb"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\cva\\GreenhouseClimate.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\cva\\GreenhouseClimate.xlsx",
+      "bytes": 1598589,
+      "sha256": "003c9b4acdb021a22448d48911427d513e22a65c452b8a78b22e7433568cbee4"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\cva\\GreenhouseControls.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\cva\\GreenhouseControls.xlsx",
+      "bytes": 620565,
+      "sha256": "825f489e7ad409c90c4ef632a82ace4ba770029044ec2032cb3a1511875b98c7"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\cva\\GreenhouseCrop.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\cva\\GreenhouseCrop.xlsx",
+      "bytes": 14645,
+      "sha256": "c5708db2e557057b1a32426dc53985a98c1eecdb0252d91768309e762db328e9"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\digital-cucumbers\\GreenhouseClimate.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\digital-cucumbers\\GreenhouseClimate.xlsx",
+      "bytes": 1708608,
+      "sha256": "36db16325ceff6ff90b97b3b1909dae619ef14ccc62291c13785530fc536a591"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\digital-cucumbers\\GreenhouseControls.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\digital-cucumbers\\GreenhouseControls.xlsx",
+      "bytes": 704191,
+      "sha256": "763dfd07a652da7c45e3a3a07a9866441ae944a85fea2a7810b9de784af2966e"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\digital-cucumbers\\GreenhouseCrop.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\digital-cucumbers\\GreenhouseCrop.xlsx",
+      "bytes": 14458,
+      "sha256": "09fd357b2bdf420e6674cdb2d8eb0a5b7d294071e3be5414d283069029be3530"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\koala\\GreenhouseClimate.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\koala\\GreenhouseClimate.xlsx",
+      "bytes": 1755300,
+      "sha256": "252ac181db80c106596d7a5c7cc9ddf24d7ed03d4950b3d3d6dfb0274f47d1ff"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\koala\\GreenhouseControls.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\koala\\GreenhouseControls.xlsx",
+      "bytes": 739148,
+      "sha256": "dd8d46b6f69c77353056ac7ee3ddcd4f29746d48af144ba0278e841eb7360c05"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\koala\\GreenhouseCrop.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\koala\\GreenhouseCrop.xlsx",
+      "bytes": 14607,
+      "sha256": "2a6ec0e7fdae18345da7b526f33eb8643630b9215780dd22cf995fbe2104c31c"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\monday-lettuce\\GreenhouseClimate.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\monday-lettuce\\GreenhouseClimate.xlsx",
+      "bytes": 1643717,
+      "sha256": "56437fb9bfa2cb792f5fd7d7e8050541d40d367292799baa99baa1a9f7c0e4b5"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\monday-lettuce\\GreenhouseControls.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\monday-lettuce\\GreenhouseControls.xlsx",
+      "bytes": 679657,
+      "sha256": "4c7a9d33cd70de45351eb79370067a3f35067e6aac2bb537209522b37d8085af"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\monday-lettuce\\GreenhouseCrop.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\monday-lettuce\\GreenhouseCrop.xlsx",
+      "bytes": 14690,
+      "sha256": "4d1335e490f725dd3071a92aad664a13cd44d627d20fa1fcc2b1fff46cd0d346"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\reference\\GreenhouseClimate.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\reference\\GreenhouseClimate.xlsx",
+      "bytes": 1482445,
+      "sha256": "08f445c5e94f3e829a88390ea59857c872af967963f47282d796d75428fefdca"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\reference\\GreenhouseControls.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\reference\\GreenhouseControls.xlsx",
+      "bytes": 577503,
+      "sha256": "26ba9614e56bd14739db1eab37d685ef1c565bb3ed9e871fd3c5b6d95e2eaf03"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\reference\\GreenhouseCrop.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\reference\\GreenhouseCrop.xlsx",
+      "bytes": 14651,
+      "sha256": "2b0a7c604439e622e85a3767cbe462e5a345321e076bc346b0bc8504c724419d"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\veggie-might\\GreenhouseClimate.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\veggie-might\\GreenhouseClimate.xlsx",
+      "bytes": 1611596,
+      "sha256": "de0e212c2e73c6ceae52dcc53b605bae75a930d7f5689bbf47a352fc3cf88001"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\veggie-might\\GreenhouseControls.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\veggie-might\\GreenhouseControls.xlsx",
+      "bytes": 578054,
+      "sha256": "8948ba9627d198baf675d3b8e22d2f5bf9319ead0fd30d7c1eaf94c34fa453b5"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\veggie-might\\GreenhouseCrop.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\veggie-might\\GreenhouseCrop.xlsx",
+      "bytes": 14660,
+      "sha256": "93ae4ddf1c799766026fbd3aa4ba2317be561afa9cbd02f3ae63a80ad99e186c"
+    },
+    {
+      "source": "D:\\tswm_discovery_20261016_v1\\cycle52\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\Weather.xlsx",
+      "destination": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\greenhouse3_original_v1\\experiment_2\\TimeSeries\\Weather.xlsx",
+      "bytes": 975721,
+      "sha256": "7ee41e0f492ad7c5bc1d478e6015db44864a40dd25c37c4c4f0c8dca188b7451"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "utc": "2026-10-17T15:17:06.274106+00:00",
+  "status": "PASS_REAL_BOUNDARY_MASKS_AND_POSITIVE_CONTROL",
+  "independent_snapshot_checks": [
+    {
+      "snapshot": "raw_exp1_cva.npz",
+      "accepted_windows": 163,
+      "target_missing_boundary_windows": 0,
+      "exog_missing_boundary_windows": 0,
+      "sha256": "12062d277a85116e6602fe085215d9590c4f98a4893afe82f796849e1e407c28"
+    },
+    {
+      "snapshot": "raw_exp1_digital-cucumbers.npz",
+      "accepted_windows": 163,
+      "target_missing_boundary_windows": 0,
+      "exog_missing_boundary_windows": 0,
+      "sha256": "903e1497b09c041d6e716af6b9cba61516687422d97fdd80d4495b96a6aa7919"
+    },
+    {
+      "snapshot": "raw_exp1_koala.npz",
+      "accepted_windows": 163,
+      "target_missing_boundary_windows": 0,
+      "exog_missing_boundary_windows": 0,
+      "sha256": "36fb596e6c6739027d8e9e182ec202197d5edc7c7af3e535a697101033da3362"
+    },
+    {
+      "snapshot": "raw_exp1_monday-lettuce.npz",
+      "accepted_windows": 163,
+      "target_missing_boundary_windows": 0,
+      "exog_missing_boundary_windows": 0,
+      "sha256": "e5adb9bb6815c6fcb34e853d7e5f8aa97d15053c4066b64fca2704821c683518"
+    },
+    {
+      "snapshot": "raw_exp1_reference.npz",
+      "accepted_windows": 163,
+      "target_missing_boundary_windows": 0,
+      "exog_missing_boundary_windows": 0,
+      "sha256": "283f42bf75c4c060ae09578ab895997e55f3fbdadda099b70b2d30f81c26f3c1"
+    },
+    {
+      "snapshot": "raw_exp1_veggie-might.npz",
+      "accepted_windows": 163,
+      "target_missing_boundary_windows": 0,
+      "exog_missing_boundary_windows": 0,
+      "sha256": "5d8927109e429fbe683c0e24807ca9d1b9b176ea369f4ffbaeeb8e930ade125c"
+    },
+    {
+      "snapshot": "raw_exp2_cva.npz",
+      "accepted_windows": 132,
+      "target_missing_boundary_windows": 0,
+      "exog_missing_boundary_windows": 0,
+      "sha256": "1c98acd1ab4927bf94c5e34cd47abdd76ea742e9016463d4e5b20e6871ca20dc"
+    },
+    {
+      "snapshot": "raw_exp2_digital-cucumbers.npz",
+      "accepted_windows": 139,
+      "target_missing_boundary_windows": 0,
+      "exog_missing_boundary_windows": 0,
+      "sha256": "de2572f040f3466b5a34eeed80ca60a8f9ae49869e16805ba0d801e305640c3c"
+    },
+    {
+      "snapshot": "raw_exp2_koala.npz",
+      "accepted_windows": 146,
+      "target_missing_boundary_windows": 0,
+      "exog_missing_boundary_windows": 0,
+      "sha256": "5930c8864d1c1dc8bd9a14d7372b794e5c3f855adbce72fd0694894bce5d94ae"
+    },
+    {
+      "snapshot": "raw_exp2_monday-lettuce.npz",
+      "accepted_windows": 136,
+      "target_missing_boundary_windows": 0,
+      "exog_missing_boundary_windows": 0,
+      "sha256": "08b22d2a2b2f0b14743b02ad3f2ae799665dda2fe4f04982aea7fc432c1b52be"
+    },
+    {
+      "snapshot": "raw_exp2_reference.npz",
+      "accepted_windows": 118,
+      "target_missing_boundary_windows": 0,
+      "exog_missing_boundary_windows": 0,
+      "sha256": "e3481c5690a81ccd992fdb96ffdd20a7e81d81e72d8e86584d98417a545f6a9f"
+    },
+    {
+      "snapshot": "raw_exp2_veggie-might.npz",
+      "accepted_windows": 132,
+      "target_missing_boundary_windows": 0,
+      "exog_missing_boundary_windows": 0,
+      "sha256": "b84d8f24baf30fd276bd3ee9a9667643605ffbee1e7a634c5e0e7555e2bee6af"
+    }
+  ],
+  "native_accepted_windows": 1781,
+  "boundary_missing_windows": 0,
+  "future_only_perturbation_changed_real_histories": 0,
+  "positive_control_normalized_history_change": 0.6666666269302368,
+  "positive_control_accepted_by_native_filter": true,
+  "no_missing_boundary_control_change": 0,
+  "source_and_large_disk_files_reverified": 40,
+  "audit_sha256": "33e97ac2e7a0ce2835c30275cda8d9902e32a9fbf5447306a16a4d098f63c882"
+}

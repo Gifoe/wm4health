@@ -1,0 +1,577 @@
+{
+  "utc": "2026-10-17T15:02:56.328651+00:00",
+  "source_doi": "10.4121/21960932",
+  "scope": "ZIP directory metadata only; no signal/image member extraction",
+  "archives": [
+    {
+      "name": "1st Experiment.zip",
+      "declared_size": 24448982832,
+      "declared_md5": "310e9e5d578a5636f73f5e3a525b8488",
+      "url": "https://data.4tu.nl/file/95b19407-d3ef-404c-a613-083dd13a383f/46dbe7ad-6278-4658-89eb-7bc93899010f",
+      "http_ranges": [
+        {
+          "range": "bytes 24448982810-24448982831/24448982832",
+          "resolved_url": "https://data.4tu.nl/file/95b19407-d3ef-404c-a613-083dd13a383f/46dbe7ad-6278-4658-89eb-7bc93899010f",
+          "bytes": 22,
+          "sha256": "c7848c6fda04f8dd55d97aaa60636ff7836f1e45d77bd944d148ac93ec7fa9da",
+          "etag": "\"06a49b57ff6dce98f6289aefc26f1edf-23\"",
+          "last_modified": "Fri, 10 Mar 2023 20:06:12 GMT"
+        },
+        {
+          "range": "bytes 24448982790-24448982809/24448982832",
+          "resolved_url": "https://data.4tu.nl/file/95b19407-d3ef-404c-a613-083dd13a383f/46dbe7ad-6278-4658-89eb-7bc93899010f",
+          "bytes": 20,
+          "sha256": "3e33e31a01fff8df935c960a362ea52abe76316d072003d244ade219f8114789",
+          "etag": "\"06a49b57ff6dce98f6289aefc26f1edf-23\"",
+          "last_modified": "Fri, 10 Mar 2023 20:06:12 GMT"
+        },
+        {
+          "range": "bytes 24448982734-24448982789/24448982832",
+          "resolved_url": "https://data.4tu.nl/file/95b19407-d3ef-404c-a613-083dd13a383f/46dbe7ad-6278-4658-89eb-7bc93899010f",
+          "bytes": 56,
+          "sha256": "b29fdfd76b2d481b6b8d3c3edf0503529323b5e73ff0900d3ab035e93fdb476c",
+          "etag": "\"06a49b57ff6dce98f6289aefc26f1edf-23\"",
+          "last_modified": "Fri, 10 Mar 2023 20:06:12 GMT"
+        },
+        {
+          "range": "bytes 24446215056-24448982733/24448982832",
+          "resolved_url": "https://data.4tu.nl/file/95b19407-d3ef-404c-a613-083dd13a383f/46dbe7ad-6278-4658-89eb-7bc93899010f",
+          "bytes": 2767678,
+          "sha256": "a87323954e191961b3b0dbcf2e535dac6002d32401d8f722a09513eb8ce6dda4",
+          "etag": "\"06a49b57ff6dce98f6289aefc26f1edf-23\"",
+          "last_modified": "Fri, 10 Mar 2023 20:06:12 GMT"
+        }
+      ],
+      "status": "DIRECTORY_READ",
+      "member_count": 15873,
+      "metadata_bytes": 2767776,
+      "timeseries_candidates": [
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/",
+          "size": 0,
+          "compressed_size": 0,
+          "crc32": "00000000",
+          "compression": 0,
+          "header_offset": 24429369732
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/.DS_Store",
+          "size": 6148,
+          "compressed_size": 371,
+          "crc32": "c3453ec0",
+          "compression": 8,
+          "header_offset": 24429369802
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/cva/",
+          "size": 0,
+          "compressed_size": 0,
+          "crc32": "00000000",
+          "compression": 0,
+          "header_offset": 24429370252
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/cva/~$GreenhouseClimate.xlsx",
+          "size": 165,
+          "compressed_size": 36,
+          "crc32": "87c52438",
+          "compression": 8,
+          "header_offset": 24429370326
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/cva/GreenhouseClimate.xlsx",
+          "size": 2017416,
+          "compressed_size": 2014110,
+          "crc32": "49eb57f0",
+          "compression": 8,
+          "header_offset": 24429370460
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/cva/GreenhouseControls.xlsx",
+          "size": 700060,
+          "compressed_size": 617639,
+          "crc32": "7d237836",
+          "compression": 8,
+          "header_offset": 24431384666
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/cva/GreenhouseCrop.xlsx",
+          "size": 15560,
+          "compressed_size": 12437,
+          "crc32": "4918797a",
+          "compression": 8,
+          "header_offset": 24432002402
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/digital-cucumbers/",
+          "size": 0,
+          "compressed_size": 0,
+          "crc32": "00000000",
+          "compression": 0,
+          "header_offset": 24432014932
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/digital-cucumbers/GreenhouseClimate.xlsx",
+          "size": 1969207,
+          "compressed_size": 1965801,
+          "crc32": "154eb19e",
+          "compression": 8,
+          "header_offset": 24432015020
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/digital-cucumbers/GreenhouseControls.xlsx",
+          "size": 651889,
+          "compressed_size": 575678,
+          "crc32": "d823a7d8",
+          "compression": 8,
+          "header_offset": 24433980931
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/digital-cucumbers/GreenhouseCrop.xlsx",
+          "size": 14962,
+          "compressed_size": 11808,
+          "crc32": "6aa35949",
+          "compression": 8,
+          "header_offset": 24434556720
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/koala/",
+          "size": 0,
+          "compressed_size": 0,
+          "crc32": "00000000",
+          "compression": 0,
+          "header_offset": 24434568635
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/koala/~$GreenhouseClimate.xlsx",
+          "size": 165,
+          "compressed_size": 36,
+          "crc32": "87c52438",
+          "compression": 8,
+          "header_offset": 24434568711
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/koala/GreenhouseClimate.xlsx",
+          "size": 2054224,
+          "compressed_size": 2051395,
+          "crc32": "46de0584",
+          "compression": 8,
+          "header_offset": 24434568847
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/koala/GreenhouseControls.xlsx",
+          "size": 709972,
+          "compressed_size": 665221,
+          "crc32": "ab5bd07c",
+          "compression": 8,
+          "header_offset": 24436620340
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/koala/GreenhouseCrop.xlsx",
+          "size": 15133,
+          "compressed_size": 12080,
+          "crc32": "1e8a8f2d",
+          "compression": 8,
+          "header_offset": 24437285660
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/monday-lettuce/",
+          "size": 0,
+          "compressed_size": 0,
+          "crc32": "00000000",
+          "compression": 0,
+          "header_offset": 24437297835
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/monday-lettuce/~$GreenhouseClimate.xlsx",
+          "size": 165,
+          "compressed_size": 36,
+          "crc32": "87c52438",
+          "compression": 8,
+          "header_offset": 24437297920
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/monday-lettuce/GreenhouseClimate.xlsx",
+          "size": 2028268,
+          "compressed_size": 2024992,
+          "crc32": "ffad95da",
+          "compression": 8,
+          "header_offset": 24437298065
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/monday-lettuce/GreenhouseControls.xlsx",
+          "size": 639397,
+          "compressed_size": 488897,
+          "crc32": "5e19fd3f",
+          "compression": 8,
+          "header_offset": 24439323164
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/monday-lettuce/GreenhouseCrop.xlsx",
+          "size": 15625,
+          "compressed_size": 12637,
+          "crc32": "15de5a00",
+          "compression": 8,
+          "header_offset": 24439812169
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/ReadMe.docx",
+          "size": 316512,
+          "compressed_size": 306806,
+          "crc32": "fe30d6d4",
+          "compression": 8,
+          "header_offset": 24439824910
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/reference/",
+          "size": 0,
+          "compressed_size": 0,
+          "crc32": "00000000",
+          "compression": 0,
+          "header_offset": 24440131797
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/reference/~$CropMeasurements.xlsx",
+          "size": 165,
+          "compressed_size": 36,
+          "crc32": "87c52438",
+          "compression": 8,
+          "header_offset": 24440131877
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/reference/~$GreenhouseClimate.xlsx",
+          "size": 165,
+          "compressed_size": 36,
+          "crc32": "87c52438",
+          "compression": 8,
+          "header_offset": 24440132016
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/reference/GreenhouseClimate.xlsx",
+          "size": 2022207,
+          "compressed_size": 2019001,
+          "crc32": "9d582a18",
+          "compression": 8,
+          "header_offset": 24440132156
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/reference/GreenhouseControls.xlsx",
+          "size": 696171,
+          "compressed_size": 656843,
+          "crc32": "b56bd2b7",
+          "compression": 8,
+          "header_offset": 24442151259
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/reference/GreenhouseCrop.xlsx",
+          "size": 15540,
+          "compressed_size": 12515,
+          "crc32": "287c71ca",
+          "compression": 8,
+          "header_offset": 24442808205
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/veggie-might/",
+          "size": 0,
+          "compressed_size": 0,
+          "crc32": "00000000",
+          "compression": 0,
+          "header_offset": 24442820819
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/veggie-might/~$GreenhouseClimate.xlsx",
+          "size": 165,
+          "compressed_size": 36,
+          "crc32": "87c52438",
+          "compression": 8,
+          "header_offset": 24442820902
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/veggie-might/GreenhouseClimate.xlsx",
+          "size": 2029516,
+          "compressed_size": 2025819,
+          "crc32": "b1976265",
+          "compression": 8,
+          "header_offset": 24442821045
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/veggie-might/GreenhouseControls.xlsx",
+          "size": 619561,
+          "compressed_size": 471191,
+          "crc32": "7897d66a",
+          "compression": 8,
+          "header_offset": 24444846969
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/veggie-might/GreenhouseCrop.xlsx",
+          "size": 15114,
+          "compressed_size": 12079,
+          "crc32": "dc3e3fa3",
+          "compression": 8,
+          "header_offset": 24445318266
+        },
+        {
+          "path": "1st Experiment/TimeSeries_1stExperiment/Weather.xlsx",
+          "size": 891043,
+          "compressed_size": 884527,
+          "crc32": "8178ae2a",
+          "compression": 8,
+          "header_offset": 24445330447
+        }
+      ]
+    },
+    {
+      "name": "2nd Experiment.zip",
+      "declared_size": 20932413219,
+      "declared_md5": "d2e1a5340fca8be5066dbb0e7948027b",
+      "url": "https://data.4tu.nl/file/95b19407-d3ef-404c-a613-083dd13a383f/de758082-e825-4c13-b20e-5f84b4e2d1de",
+      "http_ranges": [
+        {
+          "range": "bytes 20932413197-20932413218/20932413219",
+          "resolved_url": "https://data.4tu.nl/file/95b19407-d3ef-404c-a613-083dd13a383f/de758082-e825-4c13-b20e-5f84b4e2d1de",
+          "bytes": 22,
+          "sha256": "6bef10c10bbe9b19627e03e7c5770d7398afe4aaa8e0e435672db8d8153b60fe",
+          "etag": "\"771086cfeaae55bfc13518515894c18d-20\"",
+          "last_modified": "Fri, 10 Mar 2023 21:02:08 GMT"
+        },
+        {
+          "range": "bytes 20932413177-20932413196/20932413219",
+          "resolved_url": "https://data.4tu.nl/file/95b19407-d3ef-404c-a613-083dd13a383f/de758082-e825-4c13-b20e-5f84b4e2d1de",
+          "bytes": 20,
+          "sha256": "9f62e6ce28eb22cbebc9ca71bbeb188133f7a732f8f402ef0668ea70b7d3901f",
+          "etag": "\"771086cfeaae55bfc13518515894c18d-20\"",
+          "last_modified": "Fri, 10 Mar 2023 21:02:08 GMT"
+        },
+        {
+          "range": "bytes 20932413121-20932413176/20932413219",
+          "resolved_url": "https://data.4tu.nl/file/95b19407-d3ef-404c-a613-083dd13a383f/de758082-e825-4c13-b20e-5f84b4e2d1de",
+          "bytes": 56,
+          "sha256": "bbedfc04ea88264bff76d70370fcff8e8eb90fd299b8fa1b7c45376f84362195",
+          "etag": "\"771086cfeaae55bfc13518515894c18d-20\"",
+          "last_modified": "Fri, 10 Mar 2023 21:02:08 GMT"
+        },
+        {
+          "range": "bytes 20930197839-20932413120/20932413219",
+          "resolved_url": "https://data.4tu.nl/file/95b19407-d3ef-404c-a613-083dd13a383f/de758082-e825-4c13-b20e-5f84b4e2d1de",
+          "bytes": 2215282,
+          "sha256": "e5db019c6631b0f49e763af8563aad3a51df6f60451d2067674dbb43539ca370",
+          "etag": "\"771086cfeaae55bfc13518515894c18d-20\"",
+          "last_modified": "Fri, 10 Mar 2023 21:02:08 GMT"
+        }
+      ],
+      "status": "DIRECTORY_READ",
+      "member_count": 15172,
+      "metadata_bytes": 2215380,
+      "timeseries_candidates": [
+        {
+          "path": "2nd Experiment/TimeSeries/",
+          "size": 0,
+          "compressed_size": 0,
+          "crc32": "00000000",
+          "compression": 0,
+          "header_offset": 20915782423
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/cva/",
+          "size": 0,
+          "compressed_size": 0,
+          "crc32": "00000000",
+          "compression": 0,
+          "header_offset": 20915782479
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/cva/GreenhouseClimate.xlsx",
+          "size": 1598589,
+          "compressed_size": 1595366,
+          "crc32": "0dc8c56a",
+          "compression": 8,
+          "header_offset": 20915782539
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/cva/GreenhouseControls.xlsx",
+          "size": 620565,
+          "compressed_size": 554590,
+          "crc32": "f5edd62e",
+          "compression": 8,
+          "header_offset": 20917377987
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/cva/GreenhouseCrop.xlsx",
+          "size": 14645,
+          "compressed_size": 11756,
+          "crc32": "24f5cdaa",
+          "compression": 8,
+          "header_offset": 20917932660
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/digital-cucumbers/",
+          "size": 0,
+          "compressed_size": 0,
+          "crc32": "00000000",
+          "compression": 0,
+          "header_offset": 20917944495
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/digital-cucumbers/GreenhouseClimate.xlsx",
+          "size": 1708608,
+          "compressed_size": 1706111,
+          "crc32": "ba35699a",
+          "compression": 8,
+          "header_offset": 20917944569
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/digital-cucumbers/GreenhouseControls.xlsx",
+          "size": 704191,
+          "compressed_size": 680058,
+          "crc32": "86edcf59",
+          "compression": 8,
+          "header_offset": 20919650776
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/digital-cucumbers/GreenhouseCrop.xlsx",
+          "size": 14458,
+          "compressed_size": 11393,
+          "crc32": "9ae7a6e4",
+          "compression": 8,
+          "header_offset": 20920330931
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/koala/",
+          "size": 0,
+          "compressed_size": 0,
+          "crc32": "00000000",
+          "compression": 0,
+          "header_offset": 20920342417
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/koala/GreenhouseClimate.xlsx",
+          "size": 1755300,
+          "compressed_size": 1752270,
+          "crc32": "d3c6456d",
+          "compression": 8,
+          "header_offset": 20920342479
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/koala/GreenhouseControls.xlsx",
+          "size": 739148,
+          "compressed_size": 711603,
+          "crc32": "1bdd3c8d",
+          "compression": 8,
+          "header_offset": 20922094833
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/koala/GreenhouseCrop.xlsx",
+          "size": 14607,
+          "compressed_size": 11708,
+          "crc32": "6ebe7407",
+          "compression": 8,
+          "header_offset": 20922806521
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/monday-lettuce/",
+          "size": 0,
+          "compressed_size": 0,
+          "crc32": "00000000",
+          "compression": 0,
+          "header_offset": 20922818310
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/monday-lettuce/GreenhouseClimate.xlsx",
+          "size": 1643717,
+          "compressed_size": 1640546,
+          "crc32": "95cc8a9c",
+          "compression": 8,
+          "header_offset": 20922818381
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/monday-lettuce/GreenhouseControls.xlsx",
+          "size": 679657,
+          "compressed_size": 650366,
+          "crc32": "d28298a6",
+          "compression": 8,
+          "header_offset": 20924459020
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/monday-lettuce/GreenhouseCrop.xlsx",
+          "size": 14690,
+          "compressed_size": 11900,
+          "crc32": "436f93db",
+          "compression": 8,
+          "header_offset": 20925109480
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/reference/",
+          "size": 0,
+          "compressed_size": 0,
+          "crc32": "00000000",
+          "compression": 0,
+          "header_offset": 20925121470
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/reference/GreenhouseClimate.xlsx",
+          "size": 1482445,
+          "compressed_size": 1479497,
+          "crc32": "16451b2b",
+          "compression": 8,
+          "header_offset": 20925121536
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/reference/GreenhouseControls.xlsx",
+          "size": 577503,
+          "compressed_size": 544446,
+          "crc32": "2c668567",
+          "compression": 8,
+          "header_offset": 20926601121
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/reference/GreenhouseCrop.xlsx",
+          "size": 14651,
+          "compressed_size": 11817,
+          "crc32": "f6a83840",
+          "compression": 8,
+          "header_offset": 20927145656
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/veggie-might/",
+          "size": 0,
+          "compressed_size": 0,
+          "crc32": "00000000",
+          "compression": 0,
+          "header_offset": 20927157558
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/veggie-might/GreenhouseClimate.xlsx",
+          "size": 1611596,
+          "compressed_size": 1609020,
+          "crc32": "2683e5d0",
+          "compression": 8,
+          "header_offset": 20927157627
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/veggie-might/GreenhouseControls.xlsx",
+          "size": 578054,
+          "compressed_size": 448274,
+          "crc32": "5ea26ceb",
+          "compression": 8,
+          "header_offset": 20928766738
+        },
+        {
+          "path": "2nd Experiment/TimeSeries/veggie-might/GreenhouseCrop.xlsx",
+          "size": 14660,
+          "compressed_size": 11823,
+          "crc32": "5468b4ec",
+          "compression": 8,
+          "header_offset": 20929215104
+        },
+        {
+          "path": "2nd Experiment/Weather.xlsx",
+          "size": 975721,
+          "compressed_size": 970767,
+          "crc32": "ec93c554",
+          "compression": 8,
+          "header_offset": 20929227015
+        }
+      ]
+    }
+  ]
+}

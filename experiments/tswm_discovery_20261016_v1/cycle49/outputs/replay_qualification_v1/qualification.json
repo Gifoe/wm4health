@@ -1,0 +1,32 @@
+{
+  "status": "PASS_TRAIN_ONLY_INDEPENDENT_REPLAY",
+  "utc": "2026-10-17T13:54:04.587448+00:00",
+  "device": "cuda",
+  "records": [
+    {
+      "horizon": 12,
+      "native_instrumented_difference": 0.0,
+      "numpy_model_max_error": 3.887065100871556e-05,
+      "numpy_observation_score_error": 1.4484270116632558e-08,
+      "numpy_energy_error": 1.1102230246251565e-16
+    },
+    {
+      "horizon": 24,
+      "native_instrumented_difference": 0.0,
+      "numpy_model_max_error": 3.485504140154916e-05,
+      "numpy_observation_score_error": 2.718820213409856e-08,
+      "numpy_energy_error": 1.6653345369377348e-16
+    }
+  ],
+  "formal_weights_used": false,
+  "eval_used": false,
+  "numpy_model_tolerances": {
+    "atol": 0.0003,
+    "rtol": 0.0003
+  },
+  "observation_score_absolute_tolerance": 2e-05,
+  "energy_absolute_tolerance": 2e-08,
+  "source_sha256": "93a3227bcb1fbf90eabfb8cbb1f2aa734166b739173adb04dc25e5d1e9e8b592",
+  "independent_source_sha256": "92c867652b356922d1f6897a1e9ea847dfd6466232ffb1454f357b33db35bde3",
+  "helper_sha256": "648b9be63a1762b37e2e956af048231dff4854a1e63097f04fba74a0321e78f9"
+}

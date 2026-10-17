@@ -1,0 +1,9 @@
+# Completed verifier execution record
+
+The authoritative completed chain is outputs/evaluation_supervisor_v3.json, with verify49_v3.py ->cost49.py ->analyze49.py ->plot49.py, followed by analyze_cost49.py. Earlier supervisor failures record intentional verifier replacements; the primary fits and scoring were not restarted.
+
+Version2 caches raw/probe arrays per file. Version3 additionally schedules the16 independent raw groups across4 workers and uses independent49_v2.py. That helper factors the same characteristic-function exponent into real attenuation, cosine and sine terms, avoiding repeated noise-attenuation exponentials over the latent-sample axis. Neural replay and energy formulas are unchanged. All original checks and pre-frozen tolerances remain.
+
+Before replacement, the optimized kernel was compared against the original using fresh random arrays, no formal weights and no EVAL inputs: max absolute score differences1.39e-17 (12 bins) and5.55e-17 (24 bins) in the float64 qualification. Per-batch verification-kernel timings were0.639/0.293s and1.194/0.500s; these measure verifier implementation only, not a learned method's efficiency. Formal-source input dtypes were then covered by the complete independent replay, with observed-score difference1.82e-7 under the unchanged2e-5 bound.
+
+All12288 primary scored entries passed; model max difference1.59899e-4, energy difference4.44e-16, mean-MSE difference1.08e-7. The fixed-time extension independently replayed all new predictions and reused only identical verified primary checkpoints. Targeted process identity/parent/source/hash receipts are retained in outputs/VERIFIER_IO_REPAIR_RECEIPT.json and outputs/VERIFIER_PARALLEL_REPAIR_RECEIPT.json. No tolerance, data split, objective, selected model or test-selection rule changed.
