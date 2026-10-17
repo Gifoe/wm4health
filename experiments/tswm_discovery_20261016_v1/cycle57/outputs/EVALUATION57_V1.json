@@ -1,0 +1,3177 @@
+{
+  "utc": "2026-10-17T22:56:01.334941+00:00",
+  "status": "ALL_32_MODELS_SCORED_FIXED_HELDOUT",
+  "records": [
+    {
+      "tag": "proper_linear_seed2021",
+      "sensor": "linear",
+      "method": "proper",
+      "seed": 2021,
+      "stochastic_fit": false,
+      "rho": 0.9497768594655065,
+      "absolute_rho_error": 0.00022314053449346005,
+      "filtered_state_r2": 0.8682382344358831,
+      "filtered_conditional_mean_mse": 5.407305205365019e-05,
+      "train_map_r2": 0.9116009587718266,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.0010913385022260072,
+        "sequence_mc_se": 7.457445168153372e-05,
+        "sequence_interval_95": [
+          0.0009444782462888549,
+          0.0012381987581631595
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          8.860439355231469e-05,
+          0.00014827745924378413,
+          0.00016284212488046788,
+          0.0001283342529800379
+        ],
+        "zero": [
+          2.144690090740679e-05,
+          0.0001060598338445218,
+          0.00035543889289650697,
+          0.0005984451806377128
+        ],
+        "one": [
+          0.00013054922792406952,
+          0.0006474323560933191,
+          0.0013043343891736942,
+          0.0016795743582183362
+        ],
+        "alternating": [
+          2.144690090740679e-05,
+          3.001766775924405e-05,
+          8.0371948975038e-05,
+          7.011009341089899e-05
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          5.220181495814629e-05,
+          0.00020756007422074546,
+          0.00019727486759037275,
+          0.001042948049569164
+        ],
+        "one": [
+          3.718565337634582e-05,
+          0.0004731601348668062,
+          0.0016310551642970935,
+          0.002111507148432157
+        ],
+        "alternating": [
+          5.220181495814629e-05,
+          0.0001101163684209459,
+          0.00011453773917012744,
+          0.00011956030867670061
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.20994557806205272,
+        0.47848238834999746,
+        0.6476911909829163,
+        0.9155986320763846
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\proper_linear_seed2021.npz",
+      "arrays_sha256": "ecce487c7b010cee59ca43f0e21bdbc488f79c7f187cc4977d8752763d440911",
+      "checkpoint_sha256": "13de8755a902f06562df5a153ebd852005b304d3d26589714704e520cb388b57",
+      "map_sha256": "ba20f9d1adefb1cae4774b2368592b1e56024246e912e910d3a42feafe188968",
+      "training_seconds": 1.0257509999792092,
+      "peak_training_cuda_bytes": 136877568,
+      "parameters": 7,
+      "dtype": "torch.float64",
+      "normalizer_tracking": null
+    },
+    {
+      "tag": "native_linear_seed2021",
+      "sensor": "linear",
+      "method": "native",
+      "seed": 2021,
+      "stochastic_fit": true,
+      "rho": 0.967154324054718,
+      "absolute_rho_error": 0.017154324054718062,
+      "filtered_state_r2": 0.8631796041956687,
+      "filtered_conditional_mean_mse": 0.007547203050516661,
+      "train_map_r2": 0.906159225470917,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.033321443828873754,
+        "sequence_mc_se": 0.0022621749380535433,
+        "sequence_interval_95": [
+          0.028866518812516968,
+          0.03777636884523054
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.007679992544368271,
+          0.010944272443952362,
+          0.017154382805117326,
+          0.025109825230759747
+        ],
+        "zero": [
+          0.007424888273264853,
+          0.012150723543726568,
+          0.02134264596367646,
+          0.026523479473583727
+        ],
+        "one": [
+          0.007907552863257629,
+          0.015754655101550975,
+          0.02676948408330335,
+          0.027855010608742237
+        ],
+        "alternating": [
+          0.007424888273264853,
+          0.010443989959234838,
+          0.0170288248156768,
+          0.024535932793783178
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.001329760358627985,
+          0.020328847997274337,
+          0.05651219499729729,
+          0.03597326859314211
+        ],
+        "one": [
+          0.0013808634185647798,
+          0.020877995066729108,
+          0.06188116615682581,
+          0.03839064432903456
+        ],
+        "alternating": [
+          0.001329760358627985,
+          0.004944178351658537,
+          0.010920032602359443,
+          0.02560041856444458
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.21894961680786523,
+        0.48438515394313686,
+        0.6610839092905453,
+        0.9316856816230282
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\native_linear_seed2021.npz",
+      "arrays_sha256": "77816a5a5c9c62fa3a12c32235b26acf4d18ab4cf4b87826008bded9146c6eca",
+      "checkpoint_sha256": "c1e30fca38bd3267ab0e103da4285ae6984d3a704c30b1fdcad0fc075d6df4ac",
+      "map_sha256": "a6e3c3c90315821aaf0c8dc805d82cb86531a07d891af2f68fc3273cb1b08e80",
+      "training_seconds": 92.11492160000489,
+      "peak_training_cuda_bytes": 22353408,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": null
+    },
+    {
+      "tag": "independent_linear_seed2021",
+      "sensor": "linear",
+      "method": "independent",
+      "seed": 2021,
+      "stochastic_fit": true,
+      "rho": 0.4610256254673004,
+      "absolute_rho_error": 0.48897437453269954,
+      "filtered_state_r2": 0.699945932229852,
+      "filtered_conditional_mean_mse": 0.1560867124842124,
+      "train_map_r2": 0.7188649407655534,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.15961311553493365,
+        "sequence_mc_se": 0.01069492345360518,
+        "sequence_interval_95": [
+          0.13855148973402093,
+          0.18067474133584638
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.34261207905754604,
+          0.5821502002202138,
+          0.4126162827576958,
+          0.24295796681981813
+        ],
+        "zero": [
+          0.36953773496227194,
+          0.6611917541558211,
+          0.48751493921207745,
+          0.25271793553102745
+        ],
+        "one": [
+          0.34166410873190217,
+          0.5951221551903435,
+          0.4615745793729494,
+          0.2627086346464013
+        ],
+        "alternating": [
+          0.36953773496227194,
+          0.6222716907188912,
+          0.4350942566589652,
+          0.24503662627713396
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.06331327403113605,
+          0.7548942481518033,
+          0.9743780866397906,
+          0.18337042954947613
+        ],
+        "one": [
+          0.048422444234663214,
+          0.6818850395735347,
+          0.9417841441089162,
+          0.18877229648182764
+        ],
+        "alternating": [
+          0.06331327403113605,
+          0.1867202564113887,
+          0.16697550903511427,
+          0.10669662057349735
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.5565485356918886,
+        1.1180795664951044,
+        1.0784353880805768,
+        1.2385081773211668
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\independent_linear_seed2021.npz",
+      "arrays_sha256": "297c7397893d24435bdfa36b6da8f633ce01d1f45432322cb3c5746e3e9fa1b3",
+      "checkpoint_sha256": "d443e510523eeaf802840d0956bcfcf4e5c8d187c4f878dafc1e794205956815",
+      "map_sha256": "22b3bae14c5779c06f8fb72c828c329f100917ac3da4896142ba80b97581d884",
+      "training_seconds": 95.97276189998956,
+      "peak_training_cuda_bytes": 22902272,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": null
+    },
+    {
+      "tag": "running09c_linear_seed2021",
+      "sensor": "linear",
+      "method": "running09c",
+      "seed": 2021,
+      "stochastic_fit": true,
+      "rho": 0.9312974214553833,
+      "absolute_rho_error": 0.018702578544616655,
+      "filtered_state_r2": 0.8623217271083106,
+      "filtered_conditional_mean_mse": 0.003987897452846662,
+      "train_map_r2": 0.9077680153315665,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.021798634006181705,
+        "sequence_mc_se": 0.0012078749851011426,
+        "sequence_interval_95": [
+          0.019419953030965588,
+          0.024177314981397822
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.0042248691834433205,
+          0.008026476016672009,
+          0.012476832294009237,
+          0.013010555808691362
+        ],
+        "zero": [
+          0.004231151966220848,
+          0.008291985289921587,
+          0.013168994354139924,
+          0.013795544120437327
+        ],
+        "one": [
+          0.004366180601734584,
+          0.00941280004341622,
+          0.015368962312761674,
+          0.015256369442649891
+        ],
+        "alternating": [
+          0.004231151966220848,
+          0.007911271978526419,
+          0.012411011496732346,
+          0.012971790995026095
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.00045623847099335004,
+          0.009693824172843516,
+          0.03923374871436574,
+          0.025029347875313916
+        ],
+        "one": [
+          0.00046176289233235276,
+          0.009305802695127586,
+          0.039461926726876186,
+          0.028526950392189363
+        ],
+        "alternating": [
+          0.00045623847099335004,
+          0.002222323494561093,
+          0.005525513999840289,
+          0.011839603751041849
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.21549896357037132,
+        0.49422806843173084,
+        0.662846134096629,
+        0.9345132901263619
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\running09c_linear_seed2021.npz",
+      "arrays_sha256": "3a4f13964deb34a926a47819383d384c235c19a0ef7ea05d2a5503a769f66186",
+      "checkpoint_sha256": "f01758186d38f9ef7ce6a1773b3f4792ffede0c776cfa265f9969f9335938095",
+      "map_sha256": "005943386ce8fd8e7a6a534f29511a7237846eb5dbc8f7926091ee284669bdd9",
+      "training_seconds": 91.55793700000504,
+      "peak_training_cuda_bytes": 23107072,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": {
+        "log_normalizer_bias": -0.11967981606721878,
+        "log_normalizer_rmse": 0.7756783962249756,
+        "absolute_error_percentiles": [
+          0.1999942660331726,
+          0.7193044185638428,
+          2.829388265609741
+        ],
+        "mean_updates_since_visit": 14.689453125,
+        "interpretation": "Terminal finite-train-reference tracking error; entries are correlated, no iid interval."
+      }
+    },
+    {
+      "tag": "running01c_linear_seed2021",
+      "sensor": "linear",
+      "method": "running01c",
+      "seed": 2021,
+      "stochastic_fit": true,
+      "rho": 0.9510889649391174,
+      "absolute_rho_error": 0.001088964939117476,
+      "filtered_state_r2": 0.8677292245334455,
+      "filtered_conditional_mean_mse": 0.0005904899472182079,
+      "train_map_r2": 0.9111526196446091,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.0016134371757693493,
+        "sequence_mc_se": 0.00012790661578320476,
+        "sequence_interval_95": [
+          0.0013615493253538447,
+          0.001865325026184854
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.00060575525198071,
+          0.0007468727952086711,
+          0.0008757626233978727,
+          0.0010253358612146322
+        ],
+        "zero": [
+          0.0005439873358803471,
+          0.0009121018426326531,
+          0.0015465884952753405,
+          0.0013416289523296644
+        ],
+        "one": [
+          0.0007084751619591444,
+          0.0022687898722719853,
+          0.003862557030859792,
+          0.0028280078203168466
+        ],
+        "alternating": [
+          0.0005439873358803471,
+          0.00046372536846975396,
+          0.0006701425769293821,
+          0.0008425408520192609
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.0001940213364682214,
+          0.0015491919108817458,
+          0.00189369457844338,
+          0.000972216282210642
+        ],
+        "one": [
+          0.00019716596693855683,
+          0.002009265853203958,
+          0.004407414770240845,
+          0.0032412011678391163
+        ],
+        "alternating": [
+          0.0001940213364682214,
+          0.00047825238078988625,
+          0.0005506839976744897,
+          0.0006268940772582896
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.21116019398340982,
+        0.4791256736355114,
+        0.6478203760751637,
+        0.9154254096379777
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\running01c_linear_seed2021.npz",
+      "arrays_sha256": "66989325d2f862f710e870654d5ab240728252ec608b99564e005e1a7c4d31ea",
+      "checkpoint_sha256": "71d4a8a8b0f600b7982f4a763fd3331d961b31bfd041db2146b86e7d5d73ade7",
+      "map_sha256": "99e74d9cf6bc33a372645d6037bfd49a26fbffd5d7c728e335d33165c7854447",
+      "training_seconds": 91.18535720001091,
+      "peak_training_cuda_bytes": 23107072,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": {
+        "log_normalizer_bias": -0.011358282528817654,
+        "log_normalizer_rmse": 0.11450149118900299,
+        "absolute_error_percentiles": [
+          0.04681587219238281,
+          0.14362939596176152,
+          0.3781417727470398
+        ],
+        "mean_updates_since_visit": 14.689453125,
+        "interpretation": "Terminal finite-train-reference tracking error; entries are correlated, no iid interval."
+      }
+    },
+    {
+      "tag": "full_linear_seed2021",
+      "sensor": "linear",
+      "method": "full",
+      "seed": 2021,
+      "stochastic_fit": true,
+      "rho": 0.9515804648399353,
+      "absolute_rho_error": 0.0015804648399353471,
+      "filtered_state_r2": 0.8669226389147306,
+      "filtered_conditional_mean_mse": 0.0007830777366002122,
+      "train_map_r2": 0.9111478131927984,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.0024349366931683608,
+        "sequence_mc_se": 0.00018590330132999035,
+        "sequence_interval_95": [
+          0.002068835356889351,
+          0.0028010380294473704
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.0007927444993505429,
+          0.0008836304630033465,
+          0.0010064607428611752,
+          0.0011323919128664827
+        ],
+        "zero": [
+          0.0007120652965013501,
+          0.0012056487179062136,
+          0.001994672012256995,
+          0.0018752305263104135
+        ],
+        "one": [
+          0.0009307464405055183,
+          0.002754996449254393,
+          0.0048536011081666075,
+          0.0042568983520224766
+        ],
+        "alternating": [
+          0.0007120652965013501,
+          0.0005782247445541637,
+          0.0007945141584572993,
+          0.0009257398281734577
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.0002566143730052682,
+          0.001963565259648525,
+          0.0024607515412545296,
+          0.0017073691136173562
+        ],
+        "one": [
+          0.0002442605766633724,
+          0.0025948872412604324,
+          0.005809384501617674,
+          0.004780319205002067
+        ],
+        "alternating": [
+          0.0002566143730052682,
+          0.0005701403253995659,
+          0.0007190259298470321,
+          0.0008171217608856629
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.21166236540547081,
+        0.47851380509864677,
+        0.6470587393962401,
+        0.916631157040127
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\full_linear_seed2021.npz",
+      "arrays_sha256": "dd598599cc38e14922aa5d9f97f93affb3545c847c9e688186ad67e49fad5838",
+      "checkpoint_sha256": "d3a44c66229571872e9c5b96e9d708883ff9a7c20e4c881a25d4f0846fcc806f",
+      "map_sha256": "d5f0f20791f3025fcb8d9093f64f587729f1d997a61dbaef731a6abead09343d",
+      "training_seconds": 95.70516680000583,
+      "peak_training_cuda_bytes": 38025216,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": null
+    },
+    {
+      "tag": "native_linear_seed2022",
+      "sensor": "linear",
+      "method": "native",
+      "seed": 2022,
+      "stochastic_fit": true,
+      "rho": 0.9666549563407898,
+      "absolute_rho_error": 0.01665495634078984,
+      "filtered_state_r2": 0.8620708875029888,
+      "filtered_conditional_mean_mse": 0.007745980162300768,
+      "train_map_r2": 0.9062699303944415,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.029881054057722605,
+        "sequence_mc_se": 0.0020178095608177193,
+        "sequence_interval_95": [
+          0.025907360361661514,
+          0.0338547477537837
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.0076551698528483925,
+          0.010705342589170665,
+          0.016846796277088388,
+          0.023338226148682206
+        ],
+        "zero": [
+          0.0075657832824391905,
+          0.011023276709960401,
+          0.01684733123141411,
+          0.023497023237968057
+        ],
+        "one": [
+          0.007858445771285244,
+          0.013626380543442097,
+          0.01952170790765289,
+          0.024320814668708737
+        ],
+        "alternating": [
+          0.0075657832824391905,
+          0.00998087424279251,
+          0.01591539080479099,
+          0.02268107958156084
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.0013145808630367368,
+          0.01878216085032528,
+          0.05141579766581007,
+          0.031673458578141064
+        ],
+        "one": [
+          0.0013106639413514023,
+          0.018042117127173306,
+          0.05171028880934903,
+          0.035312613774376715
+        ],
+        "alternating": [
+          0.0013145808630367368,
+          0.0045568827143404,
+          0.00948982995295861,
+          0.022657089820650036
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.21958557668321466,
+        0.48229632921756055,
+        0.6605917151381118,
+        0.9465455241104987
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\native_linear_seed2022.npz",
+      "arrays_sha256": "41329918afd7b942d616b4745c2e49c24a2e3e420d5fd24299ab6cc19719c898",
+      "checkpoint_sha256": "29ebe27ec88c98fdd920ea38753b42bb497575793a6d29b7cd854d20a79d10e9",
+      "map_sha256": "7a8ea516bd15f335031425995e21845d47515324f5ca62a6e1c211b5f5dd0619",
+      "training_seconds": 92.70767459998024,
+      "peak_training_cuda_bytes": 22353408,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": null
+    },
+    {
+      "tag": "independent_linear_seed2022",
+      "sensor": "linear",
+      "method": "independent",
+      "seed": 2022,
+      "stochastic_fit": true,
+      "rho": 0.4300537109375,
+      "absolute_rho_error": 0.5199462890625,
+      "filtered_state_r2": 0.6837466904008181,
+      "filtered_conditional_mean_mse": 0.16954611583765397,
+      "train_map_r2": 0.7099893394455186,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.15961315186130726,
+        "sequence_mc_se": 0.010694924339245898,
+        "sequence_interval_95": [
+          0.13855152431629292,
+          0.1806747794063216
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.3718783196678646,
+          0.5865394342667957,
+          0.4029572118003883,
+          0.2051832650278761
+        ],
+        "zero": [
+          0.35878943234471405,
+          0.5543429468878387,
+          0.3885136255624748,
+          0.21790138617206803
+        ],
+        "one": [
+          0.36851976186184,
+          0.6051907440889667,
+          0.4165965948665227,
+          0.1910745298851643
+        ],
+        "alternating": [
+          0.35878943234471405,
+          0.563013224092899,
+          0.39204701330623626,
+          0.20712935073672598
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.059727812381554404,
+          0.760360613374292,
+          0.9748821161183296,
+          0.1833705181729386
+        ],
+        "one": [
+          0.038229831514218486,
+          0.6850615446112124,
+          0.9419805845268445,
+          0.18877228096580687
+        ],
+        "alternating": [
+          0.059727812381554404,
+          0.18724667242131277,
+          0.16701345448214464,
+          0.10669665644517631
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.565693809502052,
+        1.1332643878657502,
+        1.083612210588082,
+        1.1905972565450715
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\independent_linear_seed2022.npz",
+      "arrays_sha256": "126f78f440518915d82c3919301e1f0c78efdfa13db7b5a6f73034e9c86b1540",
+      "checkpoint_sha256": "c30b30e8053747b66e7664e691d064362c9fc4d97a3513e0093f4504ffc76bac",
+      "map_sha256": "7756a98e30ced7ce94759d175acfcef61d0ed7bee4df5c2a805929a00324c07d",
+      "training_seconds": 97.85540870000841,
+      "peak_training_cuda_bytes": 22902272,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": null
+    },
+    {
+      "tag": "running09c_linear_seed2022",
+      "sensor": "linear",
+      "method": "running09c",
+      "seed": 2022,
+      "stochastic_fit": true,
+      "rho": 0.9330344796180725,
+      "absolute_rho_error": 0.016965520381927446,
+      "filtered_state_r2": 0.8629371155745017,
+      "filtered_conditional_mean_mse": 0.003310306674897697,
+      "train_map_r2": 0.9084784379266901,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.01933652602855972,
+        "sequence_mc_se": 0.0010541172172473926,
+        "sequence_interval_95": [
+          0.017260641850774413,
+          0.021412410206345028
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.0036867418230177467,
+          0.006991371180407307,
+          0.010732430751669906,
+          0.011217912560682027
+        ],
+        "zero": [
+          0.003504787367492609,
+          0.00728421108794796,
+          0.011958387416550677,
+          0.012100373940109153
+        ],
+        "one": [
+          0.0037701157635002622,
+          0.00866261338647361,
+          0.013533041175675393,
+          0.014044947741381993
+        ],
+        "alternating": [
+          0.003504787367492609,
+          0.006612081570473962,
+          0.01058259158445355,
+          0.011147178789242604
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.0005380562929111459,
+          0.008461224343307497,
+          0.03337620481059336,
+          0.022479949448898185
+        ],
+        "one": [
+          0.0003711059434180041,
+          0.007478346438753671,
+          0.03377902394850011,
+          0.025595029917959363
+        ],
+        "alternating": [
+          0.0005380562929111459,
+          0.0018298227579736654,
+          0.00450415989697491,
+          0.009934598718821594
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.21584784929115097,
+        0.4918765952791858,
+        0.6602973215745379,
+        0.9320533862943077
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\running09c_linear_seed2022.npz",
+      "arrays_sha256": "838c144d2a28940459f265d4460eec6279d8ab1ef79b2062f4e55f2d36c9df1e",
+      "checkpoint_sha256": "cd11cb1d601288cacb90c542e5da4857605afe27ed5620e762a14f9be14823c5",
+      "map_sha256": "9b0018a2ec2b23f6290d0b99a5849b6e34b5c83ef064dfc0dfda8208bea7de17",
+      "training_seconds": 93.4805456000031,
+      "peak_training_cuda_bytes": 23107072,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": {
+        "log_normalizer_bias": -0.13464468717575073,
+        "log_normalizer_rmse": 0.7179621458053589,
+        "absolute_error_percentiles": [
+          0.18388152122497559,
+          0.7116122245788576,
+          2.874510135650636
+        ],
+        "mean_updates_since_visit": 14.830078125,
+        "interpretation": "Terminal finite-train-reference tracking error; entries are correlated, no iid interval."
+      }
+    },
+    {
+      "tag": "running01c_linear_seed2022",
+      "sensor": "linear",
+      "method": "running01c",
+      "seed": 2022,
+      "stochastic_fit": true,
+      "rho": 0.9517369270324707,
+      "absolute_rho_error": 0.0017369270324707475,
+      "filtered_state_r2": 0.8677208891774133,
+      "filtered_conditional_mean_mse": 0.0007530286506728374,
+      "train_map_r2": 0.9111041170336824,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.002318813601531761,
+        "sequence_mc_se": 0.00018302446821215386,
+        "sequence_interval_95": [
+          0.001958381581740539,
+          0.002679245621322983
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.0008195407030514319,
+          0.0010791068918977907,
+          0.001082523579199053,
+          0.0009226650203034171
+        ],
+        "zero": [
+          0.0007036379050788474,
+          0.0013528039983341101,
+          0.0016274110155490888,
+          0.0013349297249600814
+        ],
+        "one": [
+          0.0009625265468262901,
+          0.0029937765033926007,
+          0.0034566646693312496,
+          0.0036624537094264433
+        ],
+        "alternating": [
+          0.0007036379050788474,
+          0.0005164679093425978,
+          0.0007417167170151519,
+          0.0007785347434876505
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.0003556384834677882,
+          0.0027643053648350956,
+          0.0028068988935435924,
+          0.0017099389004335836
+        ],
+        "one": [
+          0.000315792452216625,
+          0.0026811598945238576,
+          0.0051914550851256385,
+          0.0043767570424335005
+        ],
+        "alternating": [
+          0.0003556384834677882,
+          0.0007489156512239382,
+          0.0007610486495848863,
+          0.0008697448617281982
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.21219642844416542,
+        0.47824772522842934,
+        0.6442416000182097,
+        0.9093439674053397
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\running01c_linear_seed2022.npz",
+      "arrays_sha256": "93d74ebbb1c26bcce3cf74294894e285d9887023f8411863c4bb6eba48832d26",
+      "checkpoint_sha256": "b8fec171298629902c87f5a10cf0a035da2bd2aec2b1ec0a1994f2d3204130d6",
+      "map_sha256": "96a1be700b01e40bc6880698bd51e59d48b854df2e1433c9a1b0818eb38daac7",
+      "training_seconds": 92.96731360000558,
+      "peak_training_cuda_bytes": 23107072,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": {
+        "log_normalizer_bias": -0.010852469131350517,
+        "log_normalizer_rmse": 0.10026928782463074,
+        "absolute_error_percentiles": [
+          0.046515971422195435,
+          0.14099889695644383,
+          0.36120428562164336
+        ],
+        "mean_updates_since_visit": 14.830078125,
+        "interpretation": "Terminal finite-train-reference tracking error; entries are correlated, no iid interval."
+      }
+    },
+    {
+      "tag": "full_linear_seed2022",
+      "sensor": "linear",
+      "method": "full",
+      "seed": 2022,
+      "stochastic_fit": true,
+      "rho": 0.9520372748374939,
+      "absolute_rho_error": 0.002037274837493941,
+      "filtered_state_r2": 0.8674017817716282,
+      "filtered_conditional_mean_mse": 0.0007560450220364513,
+      "train_map_r2": 0.9109982702723511,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.0024196980419912604,
+        "sequence_mc_se": 0.00018501086603493435,
+        "sequence_interval_95": [
+          0.0020553541879717112,
+          0.0027840418960108095
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.000812491571555878,
+          0.0010036073901860598,
+          0.0009651623890668642,
+          0.0008014714026877084
+        ],
+        "zero": [
+          0.0007308752671213997,
+          0.0013171069455017563,
+          0.0014128051863123985,
+          0.0012856773826510702
+        ],
+        "one": [
+          0.0009135135919164819,
+          0.002788526387778361,
+          0.003363005065045806,
+          0.003873680828019885
+        ],
+        "alternating": [
+          0.0007308752671213997,
+          0.0005364238509383513,
+          0.0007105983893956235,
+          0.0006976149594917029
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.00031490358579291564,
+          0.0025422734388729266,
+          0.002676030935739219,
+          0.0017878130912678384
+        ],
+        "one": [
+          0.0003375844378120463,
+          0.002871722935077049,
+          0.005270087089602983,
+          0.004526447145764555
+        ],
+        "alternating": [
+          0.00031490358579291564,
+          0.0007273982232981623,
+          0.0008322107105576406,
+          0.0009448338889413914
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.2124345051398877,
+        0.4778447087467917,
+        0.6449895148383065,
+        0.9127962598241279
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\full_linear_seed2022.npz",
+      "arrays_sha256": "b03830d335c49f26beebb18ca659c16e456c616e1b22d1fd1ffd464471b9fa76",
+      "checkpoint_sha256": "afc65294cd2834cbee3f9e415ba5c218215b58e69bec58598911cf5159c10a8e",
+      "map_sha256": "9e7a1d8c258101468a4fc87a8cea35bd54f85b13596bec2e2439c2c5f8697c89",
+      "training_seconds": 98.59473319997778,
+      "peak_training_cuda_bytes": 38025216,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": null
+    },
+    {
+      "tag": "native_linear_seed2023",
+      "sensor": "linear",
+      "method": "native",
+      "seed": 2023,
+      "stochastic_fit": true,
+      "rho": 0.9667111039161682,
+      "absolute_rho_error": 0.016711103916168257,
+      "filtered_state_r2": 0.8616677832054542,
+      "filtered_conditional_mean_mse": 0.007706253620445997,
+      "train_map_r2": 0.9061406917947289,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.03036264545352764,
+        "sequence_mc_se": 0.001991258028152066,
+        "sequence_interval_95": [
+          0.026441239971390716,
+          0.03428405093566456
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.00766384127319049,
+          0.011024625649269546,
+          0.017730666080629166,
+          0.024923797173403973
+        ],
+        "zero": [
+          0.007557098311897123,
+          0.012161035754832785,
+          0.020652326556346662,
+          0.028076428708634863
+        ],
+        "one": [
+          0.00785926796789988,
+          0.014328832335611214,
+          0.02133088140386771,
+          0.022376822416494625
+        ],
+        "alternating": [
+          0.007557098311897123,
+          0.010170220802879935,
+          0.016342663169486158,
+          0.023685557985260543
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.0013592874915515911,
+          0.019374438616293906,
+          0.055311602188407125,
+          0.03483603281317598
+        ],
+        "one": [
+          0.0013388123944676035,
+          0.01838332880372421,
+          0.05148481182294105,
+          0.033324758269475695
+        ],
+        "alternating": [
+          0.0013592874915515911,
+          0.004514044457590817,
+          0.009347209260302343,
+          0.022927145277931233
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.22056984359749435,
+        0.4838150994475921,
+        0.6680291034283921,
+        0.9601159437040716
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\native_linear_seed2023.npz",
+      "arrays_sha256": "450ec2820afe109d85022fd0182461a2a6cac66e6301dfef4e315ceac1aa8c98",
+      "checkpoint_sha256": "a209eb90ee0edfc0e53f45f83f002490a5a586b84d88305da4f5fed5a6a02035",
+      "map_sha256": "21b9387afb9f8c4f1109db0b8dc22508b29e16a82eb37e6922ef590998cda64a",
+      "training_seconds": 94.25143709999975,
+      "peak_training_cuda_bytes": 22353408,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": null
+    },
+    {
+      "tag": "independent_linear_seed2023",
+      "sensor": "linear",
+      "method": "independent",
+      "seed": 2023,
+      "stochastic_fit": true,
+      "rho": 0.5143762826919556,
+      "absolute_rho_error": 0.4356237173080444,
+      "filtered_state_r2": 0.6686978200992887,
+      "filtered_conditional_mean_mse": 0.1867741252712411,
+      "train_map_r2": 0.6940439680274073,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.15961292960922704,
+        "sequence_mc_se": 0.01069491186452869,
+        "sequence_interval_95": [
+          0.13855132663080516,
+          0.18067453258764893
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.42460561723762813,
+          0.9627677762666487,
+          0.8180793419364027,
+          0.5918146550640778
+        ],
+        "zero": [
+          0.3958635908335752,
+          0.8455865790491148,
+          0.7124003976728898,
+          0.5909034219541796
+        ],
+        "one": [
+          0.4275457652831886,
+          0.9797188272396044,
+          0.7709516178520317,
+          0.554491639945725
+        ],
+        "alternating": [
+          0.3958635908335752,
+          0.8907381113880559,
+          0.7800632586623785,
+          0.5909405888906658
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.075448848074644,
+          0.7517762530200789,
+          0.9734594456838931,
+          0.18336983721162792
+        ],
+        "one": [
+          0.05152490552858583,
+          0.6777453920421073,
+          0.9408551526464257,
+          0.18877265365417772
+        ],
+        "alternating": [
+          0.075448848074644,
+          0.18529993449635673,
+          0.16678262324149273,
+          0.10669629796187545
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.6112356625927098,
+        1.5221663575220932,
+        1.4931651700455084,
+        1.4859389643193353
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\independent_linear_seed2023.npz",
+      "arrays_sha256": "bc93840885257ad1192132de993fadb4a5add19fbf71757c50de76f8b0b42e54",
+      "checkpoint_sha256": "2b9878afa49413de074ea962a2051a7dd51cc527cd0b331c86e7075b7869b859",
+      "map_sha256": "5fa130396574e92aaaa942413ad6cf9c14dacf53272467df4eaf450a877371cb",
+      "training_seconds": 98.29758600000059,
+      "peak_training_cuda_bytes": 22902272,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": null
+    },
+    {
+      "tag": "running09c_linear_seed2023",
+      "sensor": "linear",
+      "method": "running09c",
+      "seed": 2023,
+      "stochastic_fit": true,
+      "rho": 0.9322722554206848,
+      "absolute_rho_error": 0.01772774457931514,
+      "filtered_state_r2": 0.863021166975455,
+      "filtered_conditional_mean_mse": 0.003442426988399471,
+      "train_map_r2": 0.9083494180245009,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.018936532528989664,
+        "sequence_mc_se": 0.0010719630967574063,
+        "sequence_interval_95": [
+          0.01682550427205703,
+          0.021047560785922296
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.0037769960600664097,
+          0.007629819132563245,
+          0.011931024289884564,
+          0.013022271581063633
+        ],
+        "zero": [
+          0.00379683580546969,
+          0.009017475530504169,
+          0.01567455990535381,
+          0.015651005442139126
+        ],
+        "one": [
+          0.003912273925168932,
+          0.009954206306621222,
+          0.015996449987756223,
+          0.01259806015898494
+        ],
+        "alternating": [
+          0.00379683580546969,
+          0.0073359055730258345,
+          0.011763059888362121,
+          0.012978472456838691
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.0005905599685578838,
+          0.011685768341493244,
+          0.039429521651403884,
+          0.022501563138133212
+        ],
+        "one": [
+          0.0005650790905144981,
+          0.009813060176502372,
+          0.03566543591916715,
+          0.02288454108131573
+        ],
+        "alternating": [
+          0.0005905599685578838,
+          0.0025704748039104405,
+          0.005712291209395777,
+          0.011423493367520035
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.21539726163710302,
+        0.4926055223565833,
+        0.6656246020100068,
+        0.9473546108001268
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\running09c_linear_seed2023.npz",
+      "arrays_sha256": "9be004ea09853cd2822329d106d4056c9066040b9713baebe7df42455ae88bbb",
+      "checkpoint_sha256": "ed59a153160ca2c76247580d2175f9029cfc00a81b4f9c051bcd9ef0ec5be387",
+      "map_sha256": "993e39df733c890dcdc51e2a5bfc63aaaef7cdce4314f15bb6320a63a3ad4c3a",
+      "training_seconds": 92.68766760002472,
+      "peak_training_cuda_bytes": 23107072,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": {
+        "log_normalizer_bias": -0.13124710321426392,
+        "log_normalizer_rmse": 0.725746214389801,
+        "absolute_error_percentiles": [
+          0.19630375504493713,
+          0.7228799581527711,
+          2.758719136714936
+        ],
+        "mean_updates_since_visit": 15.1640625,
+        "interpretation": "Terminal finite-train-reference tracking error; entries are correlated, no iid interval."
+      }
+    },
+    {
+      "tag": "running01c_linear_seed2023",
+      "sensor": "linear",
+      "method": "running01c",
+      "seed": 2023,
+      "stochastic_fit": true,
+      "rho": 0.9514968395233154,
+      "absolute_rho_error": 0.001496839523315474,
+      "filtered_state_r2": 0.8676382630275474,
+      "filtered_conditional_mean_mse": 0.0008010835340701183,
+      "train_map_r2": 0.911048557782036,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.0015739235627882096,
+        "sequence_mc_se": 0.00011449910942146684,
+        "sequence_interval_95": [
+          0.0013484392563661955,
+          0.0017994078692102236
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.0008224755990502963,
+          0.0013123793654593698,
+          0.001872157235613718,
+          0.002440122943799274
+        ],
+        "zero": [
+          0.0008081077319439001,
+          0.0023781673231791475,
+          0.0051130749797155565,
+          0.005445219103112138
+        ],
+        "one": [
+          0.0009421990844969873,
+          0.0035465692068479588,
+          0.005387034463339608,
+          0.0014325966860661541
+        ],
+        "alternating": [
+          0.0008081077319439001,
+          0.0007596296989136158,
+          0.0012105280608852343,
+          0.0019898878598123212
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.0003008275618833679,
+          0.0028001350368749996,
+          0.005239736489109213,
+          0.0028069639148722886
+        ],
+        "one": [
+          0.00032587768494331596,
+          0.002581985837685096,
+          0.003225134868901303,
+          0.001198783113041385
+        ],
+        "alternating": [
+          0.0003008275618833679,
+          0.0006556861295279665,
+          0.0007140794363542292,
+          0.0007160236604509532
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.21152029458054694,
+        0.47694893804903715,
+        0.6509225602107908,
+        0.9335621855465345
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\running01c_linear_seed2023.npz",
+      "arrays_sha256": "09c6068cb4e4326af91bc2821ad3ec2b5e2663bcec4b6041430d6f34bad04ccd",
+      "checkpoint_sha256": "515c078e4c9f5ee9c3cb68fbb81382cce6601f253739233e46e57ba20c1934c3",
+      "map_sha256": "fdd71a12c5e163d72a0ef5c0dc0b3545c8ca7c3f5d6935a265bf76ce668e14e6",
+      "training_seconds": 93.22912199998973,
+      "peak_training_cuda_bytes": 23107072,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": {
+        "log_normalizer_bias": -0.002301556058228016,
+        "log_normalizer_rmse": 0.10791745781898499,
+        "absolute_error_percentiles": [
+          0.045745015144348145,
+          0.14031827449798587,
+          0.3689423513412476
+        ],
+        "mean_updates_since_visit": 15.1640625,
+        "interpretation": "Terminal finite-train-reference tracking error; entries are correlated, no iid interval."
+      }
+    },
+    {
+      "tag": "full_linear_seed2023",
+      "sensor": "linear",
+      "method": "full",
+      "seed": 2023,
+      "stochastic_fit": true,
+      "rho": 0.9514802098274231,
+      "absolute_rho_error": 0.0014802098274231401,
+      "filtered_state_r2": 0.867307349994064,
+      "filtered_conditional_mean_mse": 0.0008143397985357405,
+      "train_map_r2": 0.9110655528908972,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.0016124878089667201,
+        "sequence_mc_se": 0.00011410894357055059,
+        "sequence_interval_95": [
+          0.0013877718602789098,
+          0.0018372037576545304
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.0008425632452910922,
+          0.0013216480978074105,
+          0.0018798421771480409,
+          0.0023610865212268205
+        ],
+        "zero": [
+          0.0008231867213033924,
+          0.002434325915618127,
+          0.004927094361070834,
+          0.005275164844323111
+        ],
+        "one": [
+          0.000970314402923312,
+          0.0036325346308121683,
+          0.005113247112269865,
+          0.001287726900078292
+        ],
+        "alternating": [
+          0.0008231867213033924,
+          0.0007552047281665949,
+          0.0011826305828461332,
+          0.001907079061233467
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.00034749859410314755,
+          0.0029557551707507608,
+          0.0052879062823738675,
+          0.0028806561102088925
+        ],
+        "one": [
+          0.00035334455391661674,
+          0.0026661412104935986,
+          0.0032346974488351547,
+          0.0012128485713716168
+        ],
+        "alternating": [
+          0.00034749859410314755,
+          0.0006841246235404997,
+          0.0007122946390033085,
+          0.0007439587453196496
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.21188573161657698,
+        0.4779599172469704,
+        0.6521102438362832,
+        0.9306808973883863
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\full_linear_seed2023.npz",
+      "arrays_sha256": "87d42d3f535bb6d5bd23fae0f740ad73679fe3a6cdaa9b2201d4f71b41abd51e",
+      "checkpoint_sha256": "bbdd063e961b0886bee47a8b563a3f8ca275a02c5b44a9dff6d1a8c0314ea7f1",
+      "map_sha256": "30f9a8836ee156fd12f2aa488cfc09a4ff66532ddf536fe1a953871a672add9e",
+      "training_seconds": 97.65795279998565,
+      "peak_training_cuda_bytes": 38025216,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": null
+    },
+    {
+      "tag": "proper_asinh_seed2021",
+      "sensor": "asinh",
+      "method": "proper",
+      "seed": 2021,
+      "stochastic_fit": false,
+      "rho": 0.9499298370630972,
+      "absolute_rho_error": 7.016293690276232e-05,
+      "filtered_state_r2": 0.8682396883913908,
+      "filtered_conditional_mean_mse": 5.459784464625488e-05,
+      "train_map_r2": 0.911598490768704,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.0010806672924865185,
+        "sequence_mc_se": 7.48376760427096e-05,
+        "sequence_interval_95": [
+          0.0009332886660326608,
+          0.0012280459189403761
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          8.942617651292414e-05,
+          0.00014928070618109077,
+          0.00016330328421545654,
+          0.00012741212733709354
+        ],
+        "zero": [
+          2.1936771092436083e-05,
+          0.00010733836635384566,
+          0.0003590970359700559,
+          0.0006047876835797139
+        ],
+        "one": [
+          0.00013177758406387872,
+          0.000650917708372443,
+          0.0013103348957651886,
+          0.001689220372063847
+        ],
+        "alternating": [
+          2.1936771092436083e-05,
+          3.04816536078806e-05,
+          8.022541606950425e-05,
+          6.87260736937463e-05
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          5.3992559746481195e-05,
+          0.00023219192997309042,
+          0.00021238440922432354,
+          0.001021448419113564
+        ],
+        "one": [
+          3.8825964574324156e-05,
+          0.000498205083525933,
+          0.001653986740597384,
+          0.0020911058533765294
+        ],
+        "alternating": [
+          5.3992559746481195e-05,
+          0.00011693395747833438,
+          0.00012457489576161307,
+          0.00012944760496946383
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.20995702604644523,
+        0.47838979860733416,
+        0.6476564114015053,
+        0.915557260602399
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\proper_asinh_seed2021.npz",
+      "arrays_sha256": "c93d7cdce576bd5c563420c90965b6cd5f6a334c4522c681c7263bad9312cf40",
+      "checkpoint_sha256": "d921584e81576c45ac855d217db5e334614b323011be97bbff43392b5905ac7d",
+      "map_sha256": "5c24d017eece92177841b57bd3fbd8c533384d752fcf49416b2bd44f8c9a59a0",
+      "training_seconds": 0.6503668999939691,
+      "peak_training_cuda_bytes": 136861184,
+      "parameters": 7,
+      "dtype": "torch.float64",
+      "normalizer_tracking": null
+    },
+    {
+      "tag": "native_asinh_seed2021",
+      "sensor": "asinh",
+      "method": "native",
+      "seed": 2021,
+      "stochastic_fit": true,
+      "rho": 0.9671484231948853,
+      "absolute_rho_error": 0.0171484231948853,
+      "filtered_state_r2": 0.8634392543659664,
+      "filtered_conditional_mean_mse": 0.007547141080225232,
+      "train_map_r2": 0.9062015991463415,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.032861651345140366,
+        "sequence_mc_se": 0.0022060809273052313,
+        "sequence_interval_95": [
+          0.028517192857055465,
+          0.03720610983322527
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.007648874983459753,
+          0.010697120881300863,
+          0.016692282675903513,
+          0.02407782486578039
+        ],
+        "zero": [
+          0.007411415841459974,
+          0.011230716364912763,
+          0.01852439198728581,
+          0.024155997025258866
+        ],
+        "one": [
+          0.007761426140028966,
+          0.01369126741141484,
+          0.022710971830572146,
+          0.027487870413879657
+        ],
+        "alternating": [
+          0.007411415841459974,
+          0.010413239987027237,
+          0.01673727841702127,
+          0.023739590760672395
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.0011984706306085733,
+          0.019064584408918592,
+          0.05460586718692913,
+          0.03514932082483821
+        ],
+        "one": [
+          0.0012679104438869948,
+          0.019512719799237965,
+          0.05932297014186395,
+          0.038213230339372836
+        ],
+        "alternating": [
+          0.0011984706306085733,
+          0.0046269354940621414,
+          0.01042986762554404,
+          0.02522240287121008
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.21838738196246096,
+        0.48162673453385585,
+        0.6583457370552181,
+        0.9338954583050689
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\native_asinh_seed2021.npz",
+      "arrays_sha256": "3bfaf652edeac12383d581bdcf6496d4faa535905b8a151e8cd029cb156dc884",
+      "checkpoint_sha256": "08b1f439a1232ddedab521ad2bdfcb7bf62379ec192a21cd541245b6dd872447",
+      "map_sha256": "accd89fde9351a71b0d025c7f0b93d823cfa8d6a1e541f24e86de9fe6e0baede",
+      "training_seconds": 93.74606739997398,
+      "peak_training_cuda_bytes": 22353408,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": null
+    },
+    {
+      "tag": "independent_asinh_seed2021",
+      "sensor": "asinh",
+      "method": "independent",
+      "seed": 2021,
+      "stochastic_fit": true,
+      "rho": 0.4090794324874878,
+      "absolute_rho_error": 0.5409205675125122,
+      "filtered_state_r2": 0.7029353517207142,
+      "filtered_conditional_mean_mse": 0.1538357763203897,
+      "train_map_r2": 0.7195021597785878,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.1596131713571488,
+        "sequence_mc_se": 0.010694925259269173,
+        "sequence_interval_95": [
+          0.1385515420003229,
+          0.1806748007139747
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.34258804050289565,
+          0.49498010313021784,
+          0.30524488825363283,
+          0.11248172433437353
+        ],
+        "zero": [
+          0.3401993878086533,
+          0.49397213868645734,
+          0.3093745878436933,
+          0.11710078362606953
+        ],
+        "one": [
+          0.3422719970838608,
+          0.5013644649058785,
+          0.3143610664054932,
+          0.11070291667927562
+        ],
+        "alternating": [
+          0.3401993878086533,
+          0.4928567688733193,
+          0.3046622196879389,
+          0.11325255085691212
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.04781741341650841,
+          0.7618414511145397,
+          0.975044200016881,
+          0.18337054454629928
+        ],
+        "one": [
+          0.0330641400939756,
+          0.6871240524124566,
+          0.9421228342768341,
+          0.1887723027058533
+        ],
+        "alternating": [
+          0.04781741341650841,
+          0.18782528197452075,
+          0.16704139176860286,
+          0.10669666681929398
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.5445025805069772,
+        1.041512213242166,
+        0.9734469025292866,
+        1.0637721079376108
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\independent_asinh_seed2021.npz",
+      "arrays_sha256": "5618d0c0c6f218f2538d77408ea7e713bea3f211352287e43a0b2db3e3e6388d",
+      "checkpoint_sha256": "8b9b9cf6bf8b02fd005401f66ededa1c59bd756e56dc65882d9c1a95f0733447",
+      "map_sha256": "12292127fae2adc37e0616515b6e96e191e5d6c7bc76a3abdf3705fefa6ec6dc",
+      "training_seconds": 97.89891910000006,
+      "peak_training_cuda_bytes": 22902272,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": null
+    },
+    {
+      "tag": "running09c_asinh_seed2021",
+      "sensor": "asinh",
+      "method": "running09c",
+      "seed": 2021,
+      "stochastic_fit": true,
+      "rho": 0.9312448501586914,
+      "absolute_rho_error": 0.01875514984130855,
+      "filtered_state_r2": 0.8627564165863618,
+      "filtered_conditional_mean_mse": 0.0039776857981215765,
+      "train_map_r2": 0.9080062229195807,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.021618281166478702,
+        "sequence_mc_se": 0.0011923564292180386,
+        "sequence_interval_95": [
+          0.019270161047391977,
+          0.023966401285565427
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.004127074608081976,
+          0.007987284099584019,
+          0.012646704964158513,
+          0.013252493033751561
+        ],
+        "zero": [
+          0.00412138415419829,
+          0.008002414958226501,
+          0.012733517447564329,
+          0.0137140894248376
+        ],
+        "one": [
+          0.00431016875586418,
+          0.009482524854174924,
+          0.01521437952805471,
+          0.015153797177421638
+        ],
+        "alternating": [
+          0.00412138415419829,
+          0.007690314320054387,
+          0.012349281842197564,
+          0.013137591316968983
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.0005160810979479209,
+          0.00945572501909919,
+          0.03845181795539018,
+          0.024822913441064957
+        ],
+        "one": [
+          0.0004413025206057763,
+          0.009134132314683263,
+          0.038966289819050884,
+          0.028325048738713585
+        ],
+        "alternating": [
+          0.0005160810979479209,
+          0.002081889345041441,
+          0.005441947994540253,
+          0.011706881319657579
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.21425797976316327,
+        0.49383901498139954,
+        0.6622695378032383,
+        0.9310346765082884
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\running09c_asinh_seed2021.npz",
+      "arrays_sha256": "99b7ccc72ea5e207b5b114324cb363d4a3b5266c8a5aab819a34e7283b7ce795",
+      "checkpoint_sha256": "d7a5dc1f4c340fefb684aeb5519a7ff3c502cd2f5a05047ad1e4844afd349670",
+      "map_sha256": "da360659c32abe267854088ac245c4ad440496c4735fb57c795f342e2e1e0b4a",
+      "training_seconds": 92.0542707000277,
+      "peak_training_cuda_bytes": 23107072,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": {
+        "log_normalizer_bias": -0.11907017230987549,
+        "log_normalizer_rmse": 0.7415856719017029,
+        "absolute_error_percentiles": [
+          0.20115774869918823,
+          0.7239705681800844,
+          2.9357715153694155
+        ],
+        "mean_updates_since_visit": 14.689453125,
+        "interpretation": "Terminal finite-train-reference tracking error; entries are correlated, no iid interval."
+      }
+    },
+    {
+      "tag": "running01c_asinh_seed2021",
+      "sensor": "asinh",
+      "method": "running01c",
+      "seed": 2021,
+      "stochastic_fit": true,
+      "rho": 0.9511083960533142,
+      "absolute_rho_error": 0.0011083960533142534,
+      "filtered_state_r2": 0.867749274387147,
+      "filtered_conditional_mean_mse": 0.0006944556827732317,
+      "train_map_r2": 0.9111344146282734,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.001819679787699741,
+        "sequence_mc_se": 0.00013775465950390946,
+        "sequence_interval_95": [
+          0.0015483980806927154,
+          0.0020909614947067666
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.0007303745993542048,
+          0.0009190150177761603,
+          0.001083448919699087,
+          0.001261980229965836
+        ],
+        "zero": [
+          0.0006481673592212278,
+          0.0011666438470076463,
+          0.0020239803484567646,
+          0.0018202612519944692
+        ],
+        "one": [
+          0.0008355163933792302,
+          0.002864287292348964,
+          0.004669137442347295,
+          0.003138371173143109
+        ],
+        "alternating": [
+          0.0006481673592212278,
+          0.0005358471710532279,
+          0.0007817267393114808,
+          0.0010360540392710877
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.00022762925267696559,
+          0.0018189291831634108,
+          0.0022041305592476715,
+          0.001211376056491239
+        ],
+        "one": [
+          0.0002566671517506003,
+          0.002427844423318294,
+          0.00495339606892906,
+          0.0035528991420860348
+        ],
+        "alternating": [
+          0.00022762925267696559,
+          0.0005553785271996509,
+          0.0006339722306013377,
+          0.0006947641645219514
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.21031183636312273,
+        0.47772392098135397,
+        0.6480470965773106,
+        0.9170732993377619
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\running01c_asinh_seed2021.npz",
+      "arrays_sha256": "e8154353e75baa489eb77c0b66ce2fb19748b4ced3a08ed710ca6aa1ae4540db",
+      "checkpoint_sha256": "f9c75e05ed3f4528d2819705b8c64401fea24c83016aae04c5e00b4b7fe95eaa",
+      "map_sha256": "3bec9431e2747f17797799bfa3e88da3cb677d58645135bbfbc3235a0ab66b31",
+      "training_seconds": 92.22387010001694,
+      "peak_training_cuda_bytes": 23107072,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": {
+        "log_normalizer_bias": -0.009914894588291645,
+        "log_normalizer_rmse": 0.1102936789393425,
+        "absolute_error_percentiles": [
+          0.045916974544525146,
+          0.1420535266399384,
+          0.376851568222046
+        ],
+        "mean_updates_since_visit": 14.689453125,
+        "interpretation": "Terminal finite-train-reference tracking error; entries are correlated, no iid interval."
+      }
+    },
+    {
+      "tag": "full_asinh_seed2021",
+      "sensor": "asinh",
+      "method": "full",
+      "seed": 2021,
+      "stochastic_fit": true,
+      "rho": 0.951585590839386,
+      "absolute_rho_error": 0.0015855908393860307,
+      "filtered_state_r2": 0.8672683800956544,
+      "filtered_conditional_mean_mse": 0.000715155425306765,
+      "train_map_r2": 0.9110225577293374,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.002338598992609693,
+        "sequence_mc_se": 0.00017783180368718517,
+        "sequence_interval_95": [
+          0.001988392941953173,
+          0.0026888050432662134
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.0007701027392712932,
+          0.0009889391441714286,
+          0.0012550427065258784,
+          0.0015519978988182066
+        ],
+        "zero": [
+          0.0006575902527622285,
+          0.0013724012659341457,
+          0.0025606340515842044,
+          0.0023381487961830726
+        ],
+        "one": [
+          0.0009248049144927866,
+          0.003331722842829417,
+          0.005844803329634774,
+          0.00422549380074032
+        ],
+        "alternating": [
+          0.0006575902527622285,
+          0.0005972971389891573,
+          0.0009590976202040851,
+          0.0012853702091411715
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.00028257927386380406,
+          0.0021795063478843965,
+          0.0027454867931909926,
+          0.0015784739861136486
+        ],
+        "one": [
+          0.00026648705717427355,
+          0.0028598958355496697,
+          0.0062693534971304055,
+          0.004540988344227394
+        ],
+        "alternating": [
+          0.00028257927386380406,
+          0.0006121603892034431,
+          0.0007619325159795047,
+          0.0008963346474880392
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.21114308640153306,
+        0.47800681422379765,
+        0.6480891180648594,
+        0.9182164320395104
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\full_asinh_seed2021.npz",
+      "arrays_sha256": "bf9c33a58ab9bca2b11edeb78ff18e2f17f0055dffb292f0c3c23304613b1095",
+      "checkpoint_sha256": "924b38c36ba82270e1d3a53762bcf170bfa5a72470f95c2c097d9479920afa30",
+      "map_sha256": "a3fa231acfd8ae75b372a47d1421c7d0751132b00bb6ee0a19f4515a9c63d77f",
+      "training_seconds": 96.82315669997479,
+      "peak_training_cuda_bytes": 38025216,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": null
+    },
+    {
+      "tag": "native_asinh_seed2022",
+      "sensor": "asinh",
+      "method": "native",
+      "seed": 2022,
+      "stochastic_fit": true,
+      "rho": 0.9666216373443604,
+      "absolute_rho_error": 0.016621637344360396,
+      "filtered_state_r2": 0.8622500688908339,
+      "filtered_conditional_mean_mse": 0.007822555128026897,
+      "train_map_r2": 0.9061650328001799,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.029797181665854995,
+        "sequence_mc_se": 0.001985053542285938,
+        "sequence_interval_95": [
+          0.025887994743314716,
+          0.03370636858839528
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.007730178009998645,
+          0.010645209642305437,
+          0.016572732055101205,
+          0.022910456424359384
+        ],
+        "zero": [
+          0.007605968211964629,
+          0.010873936833973807,
+          0.01636395846275555,
+          0.022820642885833117
+        ],
+        "one": [
+          0.007941778110859696,
+          0.01331599788619256,
+          0.0188700138832718,
+          0.024198016921017362
+        ],
+        "alternating": [
+          0.007605968211964629,
+          0.010004963795020366,
+          0.015815048958770356,
+          0.022343192078928764
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.0013204124755667802,
+          0.01848770270522318,
+          0.05083267607407631,
+          0.03178669087630032
+        ],
+        "one": [
+          0.0012794352284726605,
+          0.018050396427252775,
+          0.05164635970466235,
+          0.03497874464048967
+        ],
+        "alternating": [
+          0.0013204124755667802,
+          0.004441179258310442,
+          0.009498859721965151,
+          0.022626109480774988
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.21938563659776444,
+        0.48168804664230136,
+        0.660087366049755,
+        0.945098163780667
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\native_asinh_seed2022.npz",
+      "arrays_sha256": "7b18156a0c7577dc5ec78d2baaf66a29bcfc43e26f2b8f044f7b7e389bf9bdc0",
+      "checkpoint_sha256": "1fe9ddca95cefda01801ea2e233efb0ff23ef1a41cd09961d77f417a77e61a1b",
+      "map_sha256": "0eaa0a49eadd5891a297ef2afde72dffad4767f5940a820412792f86a0cc67c4",
+      "training_seconds": 94.4555163999903,
+      "peak_training_cuda_bytes": 22353408,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": null
+    },
+    {
+      "tag": "independent_asinh_seed2022",
+      "sensor": "asinh",
+      "method": "independent",
+      "seed": 2022,
+      "stochastic_fit": true,
+      "rho": 0.44143304228782654,
+      "absolute_rho_error": 0.5085669577121734,
+      "filtered_state_r2": 0.6927965935833591,
+      "filtered_conditional_mean_mse": 0.16346062904977499,
+      "train_map_r2": 0.7113825464620198,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.15961313312127776,
+        "sequence_mc_se": 0.010694923690478442,
+        "sequence_interval_95": [
+          0.13855150685388803,
+          0.18067475938866748
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.37349709122511787,
+          0.635084472250387,
+          0.45093541790928815,
+          0.24147535638373718
+        ],
+        "zero": [
+          0.354063739325079,
+          0.5751757784953747,
+          0.40221317663993944,
+          0.24412704433020332
+        ],
+        "one": [
+          0.36937527460185704,
+          0.6410435570134441,
+          0.43350503047609634,
+          0.2222273573075589
+        ],
+        "alternating": [
+          0.354063739325079,
+          0.5992884844455628,
+          0.4321933918764885,
+          0.24156898216487238
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.05994275511273549,
+          0.7582115898880267,
+          0.9747292655911564,
+          0.18337048872502637
+        ],
+        "one": [
+          0.04116113283769144,
+          0.6840834462346198,
+          0.9418652504709715,
+          0.188772265442616
+        ],
+        "alternating": [
+          0.05994275511273549,
+          0.18700961403104222,
+          0.16699615881489266,
+          0.10669664519619099
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.566140840392099,
+        1.1883521280098626,
+        1.123298127542896,
+        1.1687210828540073
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\independent_asinh_seed2022.npz",
+      "arrays_sha256": "297952369a76f4517af85285007d3a608a84aa8ec1cecefccc99e5aaa6f6ff94",
+      "checkpoint_sha256": "378fd62b3722cf4cd497bd1bf70144e763869d0f8ad8b9e0c2b4b8737b83de87",
+      "map_sha256": "d05cad104583f13bd59187f1c689069de519f3506ecad2c2999d91f1770ced8d",
+      "training_seconds": 97.50573740000254,
+      "peak_training_cuda_bytes": 22902272,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": null
+    },
+    {
+      "tag": "running09c_asinh_seed2022",
+      "sensor": "asinh",
+      "method": "running09c",
+      "seed": 2022,
+      "stochastic_fit": true,
+      "rho": 0.9331203103065491,
+      "absolute_rho_error": 0.016879689693450883,
+      "filtered_state_r2": 0.863348961282955,
+      "filtered_conditional_mean_mse": 0.003437016181757348,
+      "train_map_r2": 0.9086820841524992,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.019092742541908396,
+        "sequence_mc_se": 0.0010192736587786503,
+        "sequence_interval_95": [
+          0.01708547615210674,
+          0.021100008931710053
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.0037411398197908876,
+          0.0068255521344161105,
+          0.01046840956329181,
+          0.011046215866412485
+        ],
+        "zero": [
+          0.0035530465097373992,
+          0.00709282789043152,
+          0.011736101311795552,
+          0.01196215844152515
+        ],
+        "one": [
+          0.0038168274582576693,
+          0.008425108282945732,
+          0.013445790050024683,
+          0.013999113402686189
+        ],
+        "alternating": [
+          0.0035530465097373992,
+          0.006491202149247465,
+          0.010359354135908968,
+          0.010965465360801216
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.0004689553002610694,
+          0.00788435270317769,
+          0.03245452730470411,
+          0.02229087131827156
+        ],
+        "one": [
+          0.0004290631168808335,
+          0.007408531395063399,
+          0.033352370149182374,
+          0.025346848372379015
+        ],
+        "alternating": [
+          0.0004689553002610694,
+          0.0017005585363004004,
+          0.004298628786668094,
+          0.009640507935074606
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.2151300438665457,
+        0.49098047047756466,
+        0.659679383694671,
+        0.9316230945873514
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\running09c_asinh_seed2022.npz",
+      "arrays_sha256": "437dc67deb8167bcb277ecf56b93f461918f5169df20d19586a08e96766ba823",
+      "checkpoint_sha256": "a8337626ea425d663596d9c6ed497aafe4da08de6bb15c7c655098b37f7c2c00",
+      "map_sha256": "87fc4afecd0f02849c95f99c10131f17029c6c5bc1a2cd73903e43dee864cd5e",
+      "training_seconds": 92.42195690001245,
+      "peak_training_cuda_bytes": 23107072,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": {
+        "log_normalizer_bias": -0.13114862143993378,
+        "log_normalizer_rmse": 0.6954731345176697,
+        "absolute_error_percentiles": [
+          0.18460571765899658,
+          0.7096394419670109,
+          2.8268498229980468
+        ],
+        "mean_updates_since_visit": 14.830078125,
+        "interpretation": "Terminal finite-train-reference tracking error; entries are correlated, no iid interval."
+      }
+    },
+    {
+      "tag": "running01c_asinh_seed2022",
+      "sensor": "asinh",
+      "method": "running01c",
+      "seed": 2022,
+      "stochastic_fit": true,
+      "rho": 0.9517627358436584,
+      "absolute_rho_error": 0.0017627358436584917,
+      "filtered_state_r2": 0.867236113761661,
+      "filtered_conditional_mean_mse": 0.000810289815645583,
+      "train_map_r2": 0.9110061677107896,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.002429497352956436,
+        "sequence_mc_se": 0.00018657563017032287,
+        "sequence_interval_95": [
+          0.002062071992385745,
+          0.0027969227135271266
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.0008682428250487458,
+          0.0010655680047546245,
+          0.0010427060909133576,
+          0.0008339677061088373
+        ],
+        "zero": [
+          0.000747027415941741,
+          0.0012445468036292667,
+          0.001439136138244318,
+          0.0013370742704783636
+        ],
+        "one": [
+          0.001003905082381115,
+          0.002828293763999844,
+          0.0033073505180179538,
+          0.003941257559504107
+        ],
+        "alternating": [
+          0.000747027415941741,
+          0.0005630138745869744,
+          0.0007461903298997906,
+          0.0007150582359224249
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.00034781274843248956,
+          0.002622967280991523,
+          0.00265865016111854,
+          0.0018520792411599106
+        ],
+        "one": [
+          0.00029607014838389773,
+          0.0026574941975582318,
+          0.005329518079558209,
+          0.00455475775595637
+        ],
+        "alternating": [
+          0.00034781274843248956,
+          0.0007188975647214582,
+          0.0007545004991071838,
+          0.0008816550617530264
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.2122903365681986,
+        0.47786052619983266,
+        0.6446876356176652,
+        0.9117983862731284
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\running01c_asinh_seed2022.npz",
+      "arrays_sha256": "c9b239e091a2296e90c6bad7648b5bb54237434459275404d18ad4ea9bbde82a",
+      "checkpoint_sha256": "9ac73c5c6bd0e89246f2e2f9b7f61df4c9f124f33cbf03cee86fdd58d11e53db",
+      "map_sha256": "95dd5053f6c76c3887e3287274e5d419e093bd5fa5fc16470aafc1630de7961f",
+      "training_seconds": 92.32707679999294,
+      "peak_training_cuda_bytes": 23107072,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": {
+        "log_normalizer_bias": -0.01117761805653572,
+        "log_normalizer_rmse": 0.09854202717542648,
+        "absolute_error_percentiles": [
+          0.04577524960041046,
+          0.14098045825958255,
+          0.36007854282855994
+        ],
+        "mean_updates_since_visit": 14.830078125,
+        "interpretation": "Terminal finite-train-reference tracking error; entries are correlated, no iid interval."
+      }
+    },
+    {
+      "tag": "full_asinh_seed2022",
+      "sensor": "asinh",
+      "method": "full",
+      "seed": 2022,
+      "stochastic_fit": true,
+      "rho": 0.9518640637397766,
+      "absolute_rho_error": 0.0018640637397766557,
+      "filtered_state_r2": 0.8679736559445296,
+      "filtered_conditional_mean_mse": 0.0006804798598898813,
+      "train_map_r2": 0.9110074725850311,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.0024375375842026334,
+        "sequence_mc_se": 0.00018414600093224793,
+        "sequence_interval_95": [
+          0.0020748969181712982,
+          0.0028001782502339685
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.0007545177225487386,
+          0.0009473186275392726,
+          0.0009344594728609888,
+          0.0007596701081212789
+        ],
+        "zero": [
+          0.0006326748597901712,
+          0.0011196818773509332,
+          0.001236389878536369,
+          0.0011750174717866783
+        ],
+        "one": [
+          0.0008732303904801541,
+          0.002729808706701074,
+          0.003378923379932658,
+          0.003925516874986452
+        ],
+        "alternating": [
+          0.0006326748597901712,
+          0.0004903721440048417,
+          0.0006885720336071698,
+          0.0006682930376578961
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.0002928626939573755,
+          0.002298731970469786,
+          0.0023621569056952916,
+          0.0017655142626949634
+        ],
+        "one": [
+          0.00030702490633788867,
+          0.002667691940655825,
+          0.005212014414572482,
+          0.004645537966307799
+        ],
+        "alternating": [
+          0.0002928626939573755,
+          0.0006894813337926935,
+          0.0008058825686290022,
+          0.0009015605236051354
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.21104102481838477,
+        0.476259647859421,
+        0.6445751856141361,
+        0.9120340537101002
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\full_asinh_seed2022.npz",
+      "arrays_sha256": "3dd822f2be7d3923ef473f21335a8cf8f4e9b4703026c7cb1b2654776ad52081",
+      "checkpoint_sha256": "e8880c4c9029cc5ce81d64e4f66f8ab558afcc2b1c20c8d10e5b95ad0771e361",
+      "map_sha256": "dfb2dbcafe6ac9af58ba3cb2c21293b5ba17a3313f886e2dc94af53301a46ad8",
+      "training_seconds": 96.6072911999945,
+      "peak_training_cuda_bytes": 38025216,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": null
+    },
+    {
+      "tag": "native_asinh_seed2023",
+      "sensor": "asinh",
+      "method": "native",
+      "seed": 2023,
+      "stochastic_fit": true,
+      "rho": 0.9666485786437988,
+      "absolute_rho_error": 0.016648578643798873,
+      "filtered_state_r2": 0.8619920949150048,
+      "filtered_conditional_mean_mse": 0.007645535745428025,
+      "train_map_r2": 0.9061562061358069,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.029785827743670078,
+        "sequence_mc_se": 0.0019520288441628585,
+        "sequence_interval_95": [
+          0.025941676708209658,
+          0.0336299787791305
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.007535889791854458,
+          0.010580274321501463,
+          0.01681992992311771,
+          0.023644078255128854
+        ],
+        "zero": [
+          0.007447186226534585,
+          0.011310500059168633,
+          0.018727735822301257,
+          0.026109033879274754
+        ],
+        "one": [
+          0.007675066185412669,
+          0.012670049470146612,
+          0.018805084813206616,
+          0.021809109168141882
+        ],
+        "alternating": [
+          0.007447186226534585,
+          0.009980513189234727,
+          0.01583325768777875,
+          0.022708398922724953
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.0012516482365387534,
+          0.01830243183122527,
+          0.05338057971289627,
+          0.03423913164600465
+        ],
+        "one": [
+          0.0011939488767336525,
+          0.01709173026449011,
+          0.04973338483080435,
+          0.03265596820597023
+        ],
+        "alternating": [
+          0.0012516482365387534,
+          0.0042443622683140175,
+          0.009003233859248574,
+          0.022462383379035347
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.21981074013816337,
+        0.4833207241967328,
+        0.6665790800785879,
+        0.9565876741410119
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\native_asinh_seed2023.npz",
+      "arrays_sha256": "d3e6185af6a4c301cabdf7c643e6901fb12fdc50bf8077d73061e1772b3ada7c",
+      "checkpoint_sha256": "18c003ed7353aa28044c67848a0e8134701a4492d7e39f918f854c72874e0c97",
+      "map_sha256": "122c479e72d12251ba384679d2bd93e8b5d246a380d505387335a1faa1ba8458",
+      "training_seconds": 94.49581389999366,
+      "peak_training_cuda_bytes": 22353408,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": null
+    },
+    {
+      "tag": "independent_asinh_seed2023",
+      "sensor": "asinh",
+      "method": "independent",
+      "seed": 2023,
+      "stochastic_fit": true,
+      "rho": 0.46933358907699585,
+      "absolute_rho_error": 0.4806664109230041,
+      "filtered_state_r2": 0.6758908780109173,
+      "filtered_conditional_mean_mse": 0.1778797886604183,
+      "train_map_r2": 0.6979591030775907,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.15961306242747955,
+        "sequence_mc_se": 0.010694920651617,
+        "sequence_interval_95": [
+          0.13855144214455178,
+          0.18067468271040732
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.409485655668283,
+          0.7985809390535953,
+          0.6249382097044552,
+          0.404239556601626
+        ],
+        "zero": [
+          0.38708255902945676,
+          0.7051869534167619,
+          0.5408962060869316,
+          0.40257161367285993
+        ],
+        "one": [
+          0.4068283305870093,
+          0.8043716385425455,
+          0.5852460251048818,
+          0.37537174628535425
+        ],
+        "alternating": [
+          0.38708255902945676,
+          0.7432875726323901,
+          0.5953303713517598,
+          0.40339626200886475
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.06586700711991803,
+          0.7557351066865453,
+          0.9743442494754931,
+          0.1833703578408784
+        ],
+        "one": [
+          0.045627911256432584,
+          0.6818460177101413,
+          0.9415302880887929,
+          0.18877223870979828
+        ],
+        "alternating": [
+          0.06586700711991803,
+          0.18651452064258847,
+          0.16693734877267075,
+          0.10669659073176216
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.599422760655096,
+        1.356769791506178,
+        1.2963343020832716,
+        1.300814492981293
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\independent_asinh_seed2023.npz",
+      "arrays_sha256": "1456e285d31f2681749bcb9d0e37ac3d7ccad3f5b3c74a56594c58e28296ffe3",
+      "checkpoint_sha256": "40bc28d4b7c26a4d27c27e7edfce1469884b9934b30884fa1259cf4a7f758526",
+      "map_sha256": "f425d0b11af5e3b5a1f5a35af37b33762b6e314f036c734f124889c51cc2b14f",
+      "training_seconds": 97.59695889998693,
+      "peak_training_cuda_bytes": 22902272,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": null
+    },
+    {
+      "tag": "running09c_asinh_seed2023",
+      "sensor": "asinh",
+      "method": "running09c",
+      "seed": 2023,
+      "stochastic_fit": true,
+      "rho": 0.9319151639938354,
+      "absolute_rho_error": 0.018084836006164506,
+      "filtered_state_r2": 0.862046074000598,
+      "filtered_conditional_mean_mse": 0.003968346615572325,
+      "train_map_r2": 0.9079097366500283,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.02013471336191407,
+        "sequence_mc_se": 0.0011227139336230758,
+        "sequence_interval_95": [
+          0.017923740945513182,
+          0.022345685778314958
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.004387216744865796,
+          0.008762798890912974,
+          0.013547415292590653,
+          0.015232518146483574
+        ],
+        "zero": [
+          0.004343177400964022,
+          0.011170246788635697,
+          0.020343721250445902,
+          0.019548009009180536
+        ],
+        "one": [
+          0.004675049598573112,
+          0.013504719765232433,
+          0.021579555524364937,
+          0.014418772157799237
+        ],
+        "alternating": [
+          0.004343177400964022,
+          0.008044331427056631,
+          0.013065154378967643,
+          0.015003614325496739
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.000790014397541832,
+          0.013559349405586483,
+          0.043051202315991396,
+          0.024300912547648053
+        ],
+        "one": [
+          0.0008327373031580941,
+          0.011309433854356104,
+          0.03872741295437799,
+          0.02435034623002092
+        ],
+        "alternating": [
+          0.000790014397541832,
+          0.002942925677461763,
+          0.005986650884904461,
+          0.011752881308073204
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.21597548360823107,
+        0.4933249339734125,
+        0.6676800948555709,
+        0.9563790193209627
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\running09c_asinh_seed2023.npz",
+      "arrays_sha256": "6fdab911367f6d99e48580f197c7ab020d6a8c34e8e00d1f44683471f4706fe9",
+      "checkpoint_sha256": "9cb7af9b09d8fb34ecd9860cf9a05e6d5f2d6fc2fd4525ec408f4af80a34d9eb",
+      "map_sha256": "3416dbe1134dc622e583470f596fa2a2cb7e9110aa22e779e2128741a37c1b79",
+      "training_seconds": 92.65235519999987,
+      "peak_training_cuda_bytes": 23107072,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": {
+        "log_normalizer_bias": -0.13311442732810974,
+        "log_normalizer_rmse": 0.7127191424369812,
+        "absolute_error_percentiles": [
+          0.19699257612228394,
+          0.7255798339843752,
+          2.786239171028139
+        ],
+        "mean_updates_since_visit": 15.1640625,
+        "interpretation": "Terminal finite-train-reference tracking error; entries are correlated, no iid interval."
+      }
+    },
+    {
+      "tag": "running01c_asinh_seed2023",
+      "sensor": "asinh",
+      "method": "running01c",
+      "seed": 2023,
+      "stochastic_fit": true,
+      "rho": 0.9514638185501099,
+      "absolute_rho_error": 0.0014638185501099077,
+      "filtered_state_r2": 0.8670227109987296,
+      "filtered_conditional_mean_mse": 0.0007505209637729514,
+      "train_map_r2": 0.9108560658997008,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.0016998575345691935,
+        "sequence_mc_se": 0.00012359371821735573,
+        "sequence_interval_95": [
+          0.001456463118916792,
+          0.001943251950221595
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.0008131872973168263,
+          0.00143177021575436,
+          0.0020419957970395195,
+          0.0025810223498017116
+        ],
+        "zero": [
+          0.0007732332859310398,
+          0.0025307995079641835,
+          0.005406019881828933,
+          0.005793212636492483
+        ],
+        "one": [
+          0.00093105348033118,
+          0.003945530564701479,
+          0.005680987319018217,
+          0.0014766994021108162
+        ],
+        "alternating": [
+          0.0007732332859310398,
+          0.0007260963129746695,
+          0.0012486792972648804,
+          0.002103574813460866
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.00032648042213347843,
+          0.0029384364445173717,
+          0.005470101535544616,
+          0.0030094988282572477
+        ],
+        "one": [
+          0.00038223695209986725,
+          0.0029268777491681204,
+          0.003260048773033458,
+          0.0013091008169447854
+        ],
+        "alternating": [
+          0.00032648042213347843,
+          0.0007091001547259654,
+          0.0008132554034995388,
+          0.0007809729585055462
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.21228000396020458,
+        0.47692103717682943,
+        0.6512282747999333,
+        0.9345093864874044
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\running01c_asinh_seed2023.npz",
+      "arrays_sha256": "151d0d7f6537ec78bb95fac8c4e1af71e34d14387ff779c9d40135bf375673ec",
+      "checkpoint_sha256": "e863998e83a01dac089268045cf7faed76cae6d3c282e02e7a8601ce657898b2",
+      "map_sha256": "cf7313364a1173b24744bf64e0d5e9d102a3e9e155549dd4a6bbdc53e5625a96",
+      "training_seconds": 92.23666600001161,
+      "peak_training_cuda_bytes": 23107072,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": {
+        "log_normalizer_bias": -0.002305595902726054,
+        "log_normalizer_rmse": 0.10444707423448563,
+        "absolute_error_percentiles": [
+          0.04611790180206299,
+          0.14018691778182985,
+          0.36387609004974364
+        ],
+        "mean_updates_since_visit": 15.1640625,
+        "interpretation": "Terminal finite-train-reference tracking error; entries are correlated, no iid interval."
+      }
+    },
+    {
+      "tag": "full_asinh_seed2023",
+      "sensor": "asinh",
+      "method": "full",
+      "seed": 2023,
+      "stochastic_fit": true,
+      "rho": 0.9513835310935974,
+      "absolute_rho_error": 0.0013835310935974565,
+      "filtered_state_r2": 0.8676124373338131,
+      "filtered_conditional_mean_mse": 0.0006105800487353332,
+      "train_map_r2": 0.9110919455990764,
+      "primary_h20_plan_effect_mse": {
+        "mean": 0.0016174569416268787,
+        "sequence_mc_se": 0.00012136494720042573,
+        "sequence_interval_95": [
+          0.001378451668295891,
+          0.0018564622149578663
+        ],
+        "sequences": 256,
+        "interval_scope": "conditional on this fitted model and fixed simulator data law; not seed uncertainty"
+      },
+      "horizons": [
+        1,
+        5,
+        10,
+        20
+      ],
+      "plan_order": [
+        "factual",
+        "zero",
+        "one",
+        "alternating"
+      ],
+      "conditional_mean_mse": {
+        "factual": [
+          0.0006643954727120451,
+          0.001123234928122948,
+          0.001677096685622678,
+          0.002173553252394179
+        ],
+        "zero": [
+          0.0005975859101941732,
+          0.0020297157893895902,
+          0.00451692853859308,
+          0.005108333080092589
+        ],
+        "one": [
+          0.0007729046365036561,
+          0.003119230039948862,
+          0.004616160410692928,
+          0.0012263346612994585
+        ],
+        "alternating": [
+          0.0005975859101941732,
+          0.0006023770879093379,
+          0.0010338165960899254,
+          0.001735919121453915
+        ]
+      },
+      "changed_plan_effect_mse": {
+        "zero": [
+          0.0002806486754756641,
+          0.002446826253917667,
+          0.004730296463516367,
+          0.0029583926188535264
+        ],
+        "one": [
+          0.00027920460607716016,
+          0.0022174545098657757,
+          0.00273773510600292,
+          0.0011909860382300075
+        ],
+        "alternating": [
+          0.0002806486754756641,
+          0.0005675117224584031,
+          0.0006386249680773871,
+          0.0007029921677970999
+        ]
+      },
+      "factual_realized_state_mse": [
+        0.21171866861520328,
+        0.4779398156146794,
+        0.6523932825398564,
+        0.9316534385258022
+      ],
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle57\\heldout_v1\\full_asinh_seed2023.npz",
+      "arrays_sha256": "155856c7da0dfe5410ea015156155c646692d4af355a4fbd5f1060eb25872212",
+      "checkpoint_sha256": "df23517807dbf93517cc728ad29798e323810309ebab6a25e2725ec7dbe7a744",
+      "map_sha256": "b9757f5413ea6e9318c7a0e91596cad6b01a7e28fe8b881339cac8cdd4fa9b26",
+      "training_seconds": 97.1806202000007,
+      "peak_training_cuda_bytes": 38025216,
+      "parameters": 4487,
+      "dtype": "torch.float32",
+      "normalizer_tracking": null
+    }
+  ],
+  "primary_endpoint": "h20 conditional-mean changed-plan effect MSE, average of zero/one/alternating plans",
+  "data_seed": 5700,
+  "heldout_sequences": 256,
+  "heldout_inputs_sha256": "da87e2c0114bae6d8ec5af6c146a8aab6c6f1142edc96033cf7d0f5af56b0326",
+  "heldout_truth_sha256": "fe23db298e8c037e7789c6e51b1083a903cca6c1aab36c43d4170087811ede8c",
+  "open_receipt_sha256": "3879ffdf73534e2d7301109eecdb4083614e49835635d648f8257fc89f82d3ee",
+  "script_sha256": "e9cb0d8c3f1f3e17952513c57e11bde016f5a25b738e8ac178bc659f8b5a351f",
+  "eval_utils_sha256": "046b4093102dc17f2d8185b412411c3e44174cf852cd6da817c341b32babd203",
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "accepted_final_directions": 0,
+  "scope": "Synthetic controlled linear latent dynamics with paired linear/nonlinear sensing. Privileged train-state mean readout, no covariance calibration or real-data evidence."
+}

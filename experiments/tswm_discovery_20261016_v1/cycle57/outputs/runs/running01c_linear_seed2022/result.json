@@ -1,0 +1,64 @@
+{
+  "utc": "2026-10-17T22:21:54.972417+00:00",
+  "status": "COMPLETE_FIXED_TERMINAL_FIT",
+  "tag": "running01c_linear_seed2022",
+  "method": "running01c",
+  "sensor": "linear",
+  "seed": 2022,
+  "stochastic_fit": true,
+  "updates": 10000,
+  "objective_evaluations": 10000,
+  "training_seconds": 92.96731360000558,
+  "total_seconds": 92.9997951000114,
+  "peak_training_cuda_bytes": 23107072,
+  "dtype": "torch.float32",
+  "description": {
+    "rho": 0.9517369270324707,
+    "angles": [
+      0.20437030494213104,
+      -0.3083144724369049
+    ],
+    "site_precision": [
+      3.1852850914001465,
+      3.1236205101013184
+    ],
+    "parameters": 4487
+  },
+  "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle57\\running01c_linear_seed2022.pt",
+  "checkpoint_sha256": "b8fec171298629902c87f5a10cf0a035da2bd2aec2b1ec0a1994f2d3204130d6",
+  "initial_checkpoint_sha256": "15ad809d453a63be92ed1bd46e8b2ac509482d6c5ef8bab395504c7a0992c0d8",
+  "initial_tensor_sha256": "4d71023e4ac07fa0dae075a22f5ea6a0efc671dbb88e5890292174640d9200d1",
+  "terminal_tensor_sha256": "4d986d3222557a3338218625dc78f2cc36a9b4ddce8669f7081fc805ec5239d3",
+  "train_inputs_sha256": "d809fcdeae88cea358b7930a57afde1b2c61e4ef65b530c7030d37c2b18562c2",
+  "protocol_sha256": "a7e5ff6cb36287c6e91cc495ae56a2e48716c7b73d1ccc215ea4f4903557f67f",
+  "clarification_sha256": "9423f30f7079ff864f802d1dd924f0d2bc219bd61a2ec123f70ee17088fd83e2",
+  "plan_sha256": "1abf06002e3d07efdabe889768d8b420178f4b2a28f33dda4d3aa99fd09e3407",
+  "qualification_sha256": "27656fc7de8fd6a823254fca85e18d608a5e6ff817a1ebed24761d1e3c0891f7",
+  "train_script_sha256": "01e034ae451d3970e887579a671783205583b86d679049dea423b35f9741d8a8",
+  "math_sha256": "84af72d12d5ed26cbbac6daabd92786b842ca3adb48e0f8348871a65287e9f1f",
+  "model_sha256": "1dd0d57170ec15d04da3c4213cdc50f8f14b03c600c9943f2be78fcbfbd63551",
+  "common_train_objective": -0.8700285032391548,
+  "common_objective_type": "full_512_reference_centered_auxiliary_per_time",
+  "normalizer_tracking": {
+    "log_normalizer_bias": -0.010852469131350517,
+    "log_normalizer_rmse": 0.10026928782463074,
+    "absolute_error_percentiles": [
+      0.046515971422195435,
+      0.14099889695644383,
+      0.36120428562164336
+    ],
+    "mean_updates_since_visit": 14.830078125,
+    "interpretation": "Terminal finite-train-reference tracking error; entries are correlated, no iid interval."
+  },
+  "normalizer_equations": "analytic positive-relative",
+  "normalizer_clarification_sha256": "a558e01a78ed99d62c0e6dab6cee9c26c8c02ad5d79449437f572ebbc271713e",
+  "training_reads": [
+    "train_inputs_v1.npz"
+  ],
+  "hidden_state_training_reads": 0,
+  "validation_training_reads": 0,
+  "heldout_training_reads": 0,
+  "checkpoint_selection": "fixed terminal, no score-based selection",
+  "target_sequences_per_neural_update": 32,
+  "encoded_sequences_per_neural_update": 64
+}

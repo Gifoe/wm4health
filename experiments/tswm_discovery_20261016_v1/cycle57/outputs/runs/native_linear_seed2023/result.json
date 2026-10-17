@@ -1,0 +1,54 @@
+{
+  "utc": "2026-10-17T22:25:11.766853+00:00",
+  "status": "COMPLETE_FIXED_TERMINAL_FIT",
+  "tag": "native_linear_seed2023",
+  "method": "native",
+  "sensor": "linear",
+  "seed": 2023,
+  "stochastic_fit": true,
+  "updates": 10000,
+  "objective_evaluations": 10000,
+  "training_seconds": 94.25143709999975,
+  "total_seconds": 94.28277890000027,
+  "peak_training_cuda_bytes": 22353408,
+  "dtype": "torch.float32",
+  "description": {
+    "rho": 0.9667111039161682,
+    "angles": [
+      0.20662084221839905,
+      -0.30113592743873596
+    ],
+    "site_precision": [
+      2.6222856044769287,
+      2.67112398147583
+    ],
+    "parameters": 4487
+  },
+  "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle57\\native_linear_seed2023.pt",
+  "checkpoint_sha256": "a209eb90ee0edfc0e53f45f83f002490a5a586b84d88305da4f5fed5a6a02035",
+  "initial_checkpoint_sha256": "770943521e12b6e90939dc17fc52bd03fd8c0bb5eca639b428d13038974940a6",
+  "initial_tensor_sha256": "23426e7688a28cc7da6f04e9de2c64017c569b72b845fa951288af435ecb6071",
+  "terminal_tensor_sha256": "234b1766a74326caef8b24bf37756d3cbdb28dc16d4952b81bb8b246d15c31fe",
+  "train_inputs_sha256": "d809fcdeae88cea358b7930a57afde1b2c61e4ef65b530c7030d37c2b18562c2",
+  "protocol_sha256": "a7e5ff6cb36287c6e91cc495ae56a2e48716c7b73d1ccc215ea4f4903557f67f",
+  "clarification_sha256": "9423f30f7079ff864f802d1dd924f0d2bc219bd61a2ec123f70ee17088fd83e2",
+  "plan_sha256": "1abf06002e3d07efdabe889768d8b420178f4b2a28f33dda4d3aa99fd09e3407",
+  "qualification_sha256": "27656fc7de8fd6a823254fca85e18d608a5e6ff817a1ebed24761d1e3c0891f7",
+  "train_script_sha256": "01e034ae451d3970e887579a671783205583b86d679049dea423b35f9741d8a8",
+  "math_sha256": "84af72d12d5ed26cbbac6daabd92786b842ca3adb48e0f8348871a65287e9f1f",
+  "model_sha256": "1dd0d57170ec15d04da3c4213cdc50f8f14b03c600c9943f2be78fcbfbd63551",
+  "common_train_objective": -0.8569842427968979,
+  "common_objective_type": "full_512_reference_centered_auxiliary_per_time",
+  "normalizer_tracking": null,
+  "normalizer_equations": "unchanged",
+  "normalizer_clarification_sha256": "a558e01a78ed99d62c0e6dab6cee9c26c8c02ad5d79449437f572ebbc271713e",
+  "training_reads": [
+    "train_inputs_v1.npz"
+  ],
+  "hidden_state_training_reads": 0,
+  "validation_training_reads": 0,
+  "heldout_training_reads": 0,
+  "checkpoint_selection": "fixed terminal, no score-based selection",
+  "target_sequences_per_neural_update": 32,
+  "encoded_sequences_per_neural_update": 32
+}

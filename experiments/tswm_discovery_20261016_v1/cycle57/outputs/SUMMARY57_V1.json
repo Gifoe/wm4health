@@ -1,0 +1,742 @@
+{
+  "utc": "2026-10-17T22:56:17.648691+00:00",
+  "status": "C57_ALL_FIXED_MODELS_INTERPRETED",
+  "scientific_decision": "EXISTING_SMALL_REFERENCE_CONTROL_REPAIRS_THIS_SYNTHETIC_DEFICIT",
+  "passing_small_reference_controls": [
+    "running01c"
+  ],
+  "groups": {
+    "linear": {
+      "native": {
+        "n": 3,
+        "stochastic_fits": true,
+        "mean_primary": 0.03118838111337467,
+        "seed_sd": 0.0018629143778815,
+        "seeds": [
+          2021,
+          2022,
+          2023
+        ],
+        "per_fit_primary": [
+          0.033321443828873754,
+          0.029881054057722605,
+          0.03036264545352764
+        ],
+        "mean_absolute_rho_error": 0.016840128103892054,
+        "mean_filtered_r2": 0.862306091634704,
+        "mean_train_map_r2": 0.9061899492200292,
+        "mean_training_seconds": 93.02467776666163,
+        "max_peak_cuda_bytes": 22353408
+      },
+      "independent": {
+        "n": 3,
+        "stochastic_fits": true,
+        "mean_primary": 0.15961306566848932,
+        "seed_sd": 1.19222453810486e-07,
+        "seeds": [
+          2021,
+          2022,
+          2023
+        ],
+        "per_fit_primary": [
+          0.15961311553493365,
+          0.15961315186130726,
+          0.15961292960922704
+        ],
+        "mean_absolute_rho_error": 0.48151479363441463,
+        "mean_filtered_r2": 0.6841301475766529,
+        "mean_train_map_r2": 0.7076327494128264,
+        "mean_training_seconds": 97.37525219999952,
+        "max_peak_cuda_bytes": 22902272
+      },
+      "running09c": {
+        "n": 3,
+        "stochastic_fits": true,
+        "mean_primary": 0.020023897521243696,
+        "seed_sd": 0.0015499244798222154,
+        "seeds": [
+          2021,
+          2022,
+          2023
+        ],
+        "per_fit_primary": [
+          0.021798634006181705,
+          0.01933652602855972,
+          0.018936532528989664
+        ],
+        "mean_absolute_rho_error": 0.01779861450195308,
+        "mean_filtered_r2": 0.8627600032194224,
+        "mean_train_map_r2": 0.9081986237609193,
+        "mean_training_seconds": 92.57538340001095,
+        "max_peak_cuda_bytes": 23107072
+      },
+      "running01c": {
+        "n": 3,
+        "stochastic_fits": true,
+        "mean_primary": 0.00183539144669644,
+        "seed_sd": 0.00041912177972747324,
+        "seeds": [
+          2021,
+          2022,
+          2023
+        ],
+        "per_fit_primary": [
+          0.0016134371757693493,
+          0.002318813601531761,
+          0.0015739235627882096
+        ],
+        "mean_absolute_rho_error": 0.0014409104983012326,
+        "mean_filtered_r2": 0.8676961255794687,
+        "mean_train_map_r2": 0.9111017648201093,
+        "mean_training_seconds": 92.46059760000207,
+        "max_peak_cuda_bytes": 23107072
+      },
+      "full": {
+        "n": 3,
+        "stochastic_fits": true,
+        "mean_primary": 0.00215570751470878,
+        "seed_sd": 0.00047050376263351205,
+        "seeds": [
+          2021,
+          2022,
+          2023
+        ],
+        "per_fit_primary": [
+          0.0024349366931683608,
+          0.0024196980419912604,
+          0.0016124878089667201
+        ],
+        "mean_absolute_rho_error": 0.001699316501617476,
+        "mean_filtered_r2": 0.8672105902268076,
+        "mean_train_map_r2": 0.9110705454520156,
+        "mean_training_seconds": 97.31928426665642,
+        "max_peak_cuda_bytes": 38025216
+      },
+      "proper": {
+        "n": 1,
+        "stochastic_fits": false,
+        "mean_primary": 0.0010913385022260072,
+        "seed_sd": null,
+        "seeds": [
+          2021
+        ],
+        "per_fit_primary": [
+          0.0010913385022260072
+        ],
+        "mean_absolute_rho_error": 0.00022314053449346005,
+        "mean_filtered_r2": 0.8682382344358831,
+        "mean_train_map_r2": 0.9116009587718266,
+        "mean_training_seconds": 1.0257509999792092,
+        "max_peak_cuda_bytes": 136877568
+      }
+    },
+    "asinh": {
+      "native": {
+        "n": 3,
+        "stochastic_fits": true,
+        "mean_primary": 0.030814886918221818,
+        "seed_sd": 0.0017725590800765063,
+        "seeds": [
+          2021,
+          2022,
+          2023
+        ],
+        "per_fit_primary": [
+          0.032861651345140366,
+          0.029797181665854995,
+          0.029785827743670078
+        ],
+        "mean_absolute_rho_error": 0.016806213061014857,
+        "mean_filtered_r2": 0.862560472723935,
+        "mean_train_map_r2": 0.906174279360776,
+        "mean_training_seconds": 94.23246589998598,
+        "max_peak_cuda_bytes": 22353408
+      },
+      "independent": {
+        "n": 3,
+        "stochastic_fits": true,
+        "mean_primary": 0.1596131223019687,
+        "seed_sd": 5.526491922868278e-08,
+        "seeds": [
+          2021,
+          2022,
+          2023
+        ],
+        "per_fit_primary": [
+          0.1596131713571488,
+          0.15961313312127776,
+          0.15961306242747955
+        ],
+        "mean_absolute_rho_error": 0.5100513120492299,
+        "mean_filtered_r2": 0.6905409411049969,
+        "mean_train_map_r2": 0.709614603106066,
+        "mean_training_seconds": 97.66720513332984,
+        "max_peak_cuda_bytes": 22902272
+      },
+      "running09c": {
+        "n": 3,
+        "stochastic_fits": true,
+        "mean_primary": 0.020281912356767056,
+        "seed_sd": 0.0012691875330751619,
+        "seeds": [
+          2021,
+          2022,
+          2023
+        ],
+        "per_fit_primary": [
+          0.021618281166478702,
+          0.019092742541908396,
+          0.02013471336191407
+        ],
+        "mean_absolute_rho_error": 0.017906558513641313,
+        "mean_filtered_r2": 0.8627171506233049,
+        "mean_train_map_r2": 0.9081993479073693,
+        "mean_training_seconds": 92.37619426668,
+        "max_peak_cuda_bytes": 23107072
+      },
+      "running01c": {
+        "n": 3,
+        "stochastic_fits": true,
+        "mean_primary": 0.001983011558408457,
+        "seed_sd": 0.00039128188897031175,
+        "seeds": [
+          2021,
+          2022,
+          2023
+        ],
+        "per_fit_primary": [
+          0.001819679787699741,
+          0.002429497352956436,
+          0.0016998575345691935
+        ],
+        "mean_absolute_rho_error": 0.0014449834823608843,
+        "mean_filtered_r2": 0.8673360330491793,
+        "mean_train_map_r2": 0.9109988827462545,
+        "mean_training_seconds": 92.2625376333405,
+        "max_peak_cuda_bytes": 23107072
+      },
+      "full": {
+        "n": 3,
+        "stochastic_fits": true,
+        "mean_primary": 0.002131197839479735,
+        "seed_sd": 0.00044765443572201193,
+        "seeds": [
+          2021,
+          2022,
+          2023
+        ],
+        "per_fit_primary": [
+          0.002338598992609693,
+          0.0024375375842026334,
+          0.0016174569416268787
+        ],
+        "mean_absolute_rho_error": 0.0016110618909200476,
+        "mean_filtered_r2": 0.8676181577913323,
+        "mean_train_map_r2": 0.9110406586378149,
+        "mean_training_seconds": 96.87035603332333,
+        "max_peak_cuda_bytes": 38025216
+      },
+      "proper": {
+        "n": 1,
+        "stochastic_fits": false,
+        "mean_primary": 0.0010806672924865185,
+        "seed_sd": null,
+        "seeds": [
+          2021
+        ],
+        "per_fit_primary": [
+          0.0010806672924865185
+        ],
+        "mean_absolute_rho_error": 7.016293690276232e-05,
+        "mean_filtered_r2": 0.8682396883913908,
+        "mean_train_map_r2": 0.911598490768704,
+        "mean_training_seconds": 0.6503668999939691,
+        "max_peak_cuda_bytes": 136861184
+      }
+    }
+  },
+  "comparisons": [
+    {
+      "sensor": "linear",
+      "method": "independent",
+      "native_primary": 0.03118838111337467,
+      "proper_primary": 0.0010913385022260072,
+      "control_primary": 0.15961306566848932,
+      "native_minus_proper_gap": 0.03009704261114866,
+      "actionable_native_gap": true,
+      "closure_fraction": -4.267020059557051,
+      "paired_seed_improvements": [
+        -0.12629167170605987,
+        -0.12973209780358466,
+        -0.12925028415569942
+      ],
+      "improves_all_three_seeds": false,
+      "reference_cost_role": "small-reference adaptation/control"
+    },
+    {
+      "sensor": "linear",
+      "method": "running09c",
+      "native_primary": 0.03118838111337467,
+      "proper_primary": 0.0010913385022260072,
+      "control_primary": 0.020023897521243696,
+      "native_minus_proper_gap": 0.03009704261114866,
+      "actionable_native_gap": true,
+      "closure_fraction": 0.3709495227280365,
+      "paired_seed_improvements": [
+        0.011522809822692052,
+        0.010544528029162883,
+        0.011426112924537971
+      ],
+      "improves_all_three_seeds": true,
+      "reference_cost_role": "small-reference adaptation/control"
+    },
+    {
+      "sensor": "linear",
+      "method": "running01c",
+      "native_primary": 0.03118838111337467,
+      "proper_primary": 0.0010913385022260072,
+      "control_primary": 0.00183539144669644,
+      "native_minus_proper_gap": 0.03009704261114866,
+      "actionable_native_gap": true,
+      "closure_fraction": 0.9752782041051828,
+      "paired_seed_improvements": [
+        0.03170800665310441,
+        0.02756224045619084,
+        0.028788721890739426
+      ],
+      "improves_all_three_seeds": true,
+      "reference_cost_role": "small-reference adaptation/control"
+    },
+    {
+      "sensor": "linear",
+      "method": "full",
+      "native_primary": 0.03118838111337467,
+      "proper_primary": 0.0010913385022260072,
+      "control_primary": 0.00215570751470878,
+      "native_minus_proper_gap": 0.03009704261114866,
+      "actionable_native_gap": true,
+      "closure_fraction": 0.9646354285956155,
+      "paired_seed_improvements": [
+        0.0308865071357054,
+        0.027461356015731343,
+        0.028750157644560917
+      ],
+      "improves_all_three_seeds": true,
+      "reference_cost_role": "attribution upper control"
+    },
+    {
+      "sensor": "asinh",
+      "method": "independent",
+      "native_primary": 0.030814886918221818,
+      "proper_primary": 0.0010806672924865185,
+      "control_primary": 0.1596131223019687,
+      "native_minus_proper_gap": 0.0297342196257353,
+      "actionable_native_gap": true,
+      "closure_fraction": -4.331650098940904,
+      "paired_seed_improvements": [
+        -0.12675152001200843,
+        -0.12981595145542277,
+        -0.1298272346838095
+      ],
+      "improves_all_three_seeds": false,
+      "reference_cost_role": "small-reference adaptation/control"
+    },
+    {
+      "sensor": "asinh",
+      "method": "running09c",
+      "native_primary": 0.030814886918221818,
+      "proper_primary": 0.0010806672924865185,
+      "control_primary": 0.020281912356767056,
+      "native_minus_proper_gap": 0.0297342196257353,
+      "actionable_native_gap": true,
+      "closure_fraction": 0.35423746424265845,
+      "paired_seed_improvements": [
+        0.011243370178661671,
+        0.010704439123946596,
+        0.009651114381756008
+      ],
+      "improves_all_three_seeds": true,
+      "reference_cost_role": "small-reference adaptation/control"
+    },
+    {
+      "sensor": "asinh",
+      "method": "running01c",
+      "native_primary": 0.030814886918221818,
+      "proper_primary": 0.0010806672924865185,
+      "control_primary": 0.001983011558408457,
+      "native_minus_proper_gap": 0.0297342196257353,
+      "actionable_native_gap": true,
+      "closure_fraction": 0.9696530032642608,
+      "paired_seed_improvements": [
+        0.031041971557440633,
+        0.027367684312898558,
+        0.028085970209100884
+      ],
+      "improves_all_three_seeds": true,
+      "reference_cost_role": "small-reference adaptation/control"
+    },
+    {
+      "sensor": "asinh",
+      "method": "full",
+      "native_primary": 0.030814886918221818,
+      "proper_primary": 0.0010806672924865185,
+      "control_primary": 0.002131197839479735,
+      "native_minus_proper_gap": 0.0297342196257353,
+      "actionable_native_gap": true,
+      "closure_fraction": 0.964669308284655,
+      "paired_seed_improvements": [
+        0.03052305235253068,
+        0.02735964408165236,
+        0.0281683708020432
+      ],
+      "improves_all_three_seeds": true,
+      "reference_cost_role": "attribution upper control"
+    }
+  ],
+  "feasibility_gate": [
+    {
+      "method": "independent",
+      "passes_fixed_feasibility_rule": false,
+      "nonlinear_gap_actionable": true,
+      "nonlinear_closure_fraction": -4.331650098940904,
+      "all_nonlinear_seeds_improve": false,
+      "linear_degradation": 0.12842468455511466,
+      "is_small_reference_control": true
+    },
+    {
+      "method": "running09c",
+      "passes_fixed_feasibility_rule": false,
+      "nonlinear_gap_actionable": true,
+      "nonlinear_closure_fraction": 0.35423746424265845,
+      "all_nonlinear_seeds_improve": true,
+      "linear_degradation": -0.011164483592130972,
+      "is_small_reference_control": true
+    },
+    {
+      "method": "running01c",
+      "passes_fixed_feasibility_rule": true,
+      "nonlinear_gap_actionable": true,
+      "nonlinear_closure_fraction": 0.9696530032642608,
+      "all_nonlinear_seeds_improve": true,
+      "linear_degradation": -0.02935298966667823,
+      "is_small_reference_control": true
+    },
+    {
+      "method": "full",
+      "passes_fixed_feasibility_rule": true,
+      "nonlinear_gap_actionable": true,
+      "nonlinear_closure_fraction": 0.964669308284655,
+      "all_nonlinear_seeds_improve": true,
+      "linear_degradation": -0.02903267359866589,
+      "is_small_reference_control": false
+    }
+  ],
+  "paired_sequence_comparisons": [
+    {
+      "sensor": "linear",
+      "method": "independent",
+      "seed": 2021,
+      "native_minus_control": -0.12629167170605987,
+      "sequence_se": 0.008924694114513172,
+      "sequence_interval95": [
+        -0.14386716615844153,
+        -0.1087161772536782
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    },
+    {
+      "sensor": "linear",
+      "method": "independent",
+      "seed": 2022,
+      "native_minus_control": -0.12973209780358466,
+      "sequence_se": 0.009082344872067839,
+      "sequence_interval95": [
+        -0.14761805555916346,
+        -0.11184614004800586
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    },
+    {
+      "sensor": "linear",
+      "method": "independent",
+      "seed": 2023,
+      "native_minus_control": -0.12925028415569942,
+      "sequence_se": 0.009102245786796885,
+      "sequence_interval95": [
+        -0.1471754329930038,
+        -0.11132513531839502
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    },
+    {
+      "sensor": "linear",
+      "method": "running09c",
+      "seed": 2021,
+      "native_minus_control": 0.011522809822692052,
+      "sequence_se": 0.0014555590230845242,
+      "sequence_interval95": [
+        0.008656362053492333,
+        0.01438925759189177
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    },
+    {
+      "sensor": "linear",
+      "method": "running09c",
+      "seed": 2022,
+      "native_minus_control": 0.010544528029162883,
+      "sequence_se": 0.0013079695481590596,
+      "sequence_interval95": [
+        0.007968729772932375,
+        0.013120326285393391
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    },
+    {
+      "sensor": "linear",
+      "method": "running09c",
+      "seed": 2023,
+      "native_minus_control": 0.011426112924537971,
+      "sequence_se": 0.0012719535001896995,
+      "sequence_interval95": [
+        0.008921241452257719,
+        0.013930984396818223
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    },
+    {
+      "sensor": "linear",
+      "method": "running01c",
+      "seed": 2021,
+      "native_minus_control": 0.03170800665310441,
+      "sequence_se": 0.002163985005440921,
+      "sequence_interval95": [
+        0.02744644810889444,
+        0.035969565197314375
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    },
+    {
+      "sensor": "linear",
+      "method": "running01c",
+      "seed": 2022,
+      "native_minus_control": 0.02756224045619084,
+      "sequence_se": 0.0018635233425958583,
+      "sequence_interval95": [
+        0.02389238424045612,
+        0.03123209667192556
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    },
+    {
+      "sensor": "linear",
+      "method": "running01c",
+      "seed": 2023,
+      "native_minus_control": 0.028788721890739426,
+      "sequence_se": 0.001912856656241166,
+      "sequence_interval95": [
+        0.025021713058997315,
+        0.03255573072248154
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    },
+    {
+      "sensor": "linear",
+      "method": "full",
+      "seed": 2021,
+      "native_minus_control": 0.0308865071357054,
+      "sequence_se": 0.002116034518986512,
+      "sequence_interval95": [
+        0.02671937799129951,
+        0.03505363628011129
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    },
+    {
+      "sensor": "linear",
+      "method": "full",
+      "seed": 2022,
+      "native_minus_control": 0.027461356015731343,
+      "sequence_se": 0.001861011145976766,
+      "sequence_interval95": [
+        0.023796447095352138,
+        0.031126264936110547
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    },
+    {
+      "sensor": "linear",
+      "method": "full",
+      "seed": 2023,
+      "native_minus_control": 0.028750157644560917,
+      "sequence_se": 0.001909709394050806,
+      "sequence_interval95": [
+        0.024989346749516368,
+        0.032510968539605466
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    },
+    {
+      "sensor": "asinh",
+      "method": "independent",
+      "seed": 2021,
+      "native_minus_control": -0.12675152001200843,
+      "sequence_se": 0.008947716113610624,
+      "sequence_interval95": [
+        -0.14437235193055176,
+        -0.10913068809346509
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    },
+    {
+      "sensor": "asinh",
+      "method": "independent",
+      "seed": 2022,
+      "native_minus_control": -0.12981595145542277,
+      "sequence_se": 0.009097735804702597,
+      "sequence_interval95": [
+        -0.14773221873731904,
+        -0.1118996841735265
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    },
+    {
+      "sensor": "asinh",
+      "method": "independent",
+      "seed": 2023,
+      "native_minus_control": -0.1298272346838095,
+      "sequence_se": 0.00913705112888965,
+      "sequence_interval95": [
+        -0.14782092604918437,
+        -0.1118335433184346
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    },
+    {
+      "sensor": "asinh",
+      "method": "running09c",
+      "seed": 2021,
+      "native_minus_control": 0.011243370178661671,
+      "sequence_se": 0.0014077540361263985,
+      "sequence_interval95": [
+        0.008471065275570093,
+        0.01401567508175325
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    },
+    {
+      "sensor": "asinh",
+      "method": "running09c",
+      "seed": 2022,
+      "native_minus_control": 0.010704439123946596,
+      "sequence_se": 0.0013164449261944338,
+      "sequence_interval95": [
+        0.008111950216167556,
+        0.013296928031725636
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    },
+    {
+      "sensor": "asinh",
+      "method": "running09c",
+      "seed": 2023,
+      "native_minus_control": 0.009651114381756008,
+      "sequence_se": 0.001262559284532614,
+      "sequence_interval95": [
+        0.007164743037664696,
+        0.01213748572584732
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    },
+    {
+      "sensor": "asinh",
+      "method": "running01c",
+      "seed": 2021,
+      "native_minus_control": 0.031041971557440633,
+      "sequence_se": 0.0020968626495297127,
+      "sequence_interval95": [
+        0.026912597778199786,
+        0.03517134533668148
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    },
+    {
+      "sensor": "asinh",
+      "method": "running01c",
+      "seed": 2022,
+      "native_minus_control": 0.027367684312898558,
+      "sequence_se": 0.0018264142802386152,
+      "sequence_interval95": [
+        0.023770907365901147,
+        0.030964461259895968
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    },
+    {
+      "sensor": "asinh",
+      "method": "running01c",
+      "seed": 2023,
+      "native_minus_control": 0.028085970209100884,
+      "sequence_se": 0.0018706300948512003,
+      "sequence_interval95": [
+        0.024402118591032418,
+        0.03176982182716935
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    },
+    {
+      "sensor": "asinh",
+      "method": "full",
+      "seed": 2021,
+      "native_minus_control": 0.03052305235253068,
+      "sequence_se": 0.0020631526774179507,
+      "sequence_interval95": [
+        0.026460063977678847,
+        0.034586040727382514
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    },
+    {
+      "sensor": "asinh",
+      "method": "full",
+      "seed": 2022,
+      "native_minus_control": 0.02735964408165236,
+      "sequence_se": 0.0018327348549475645,
+      "sequence_interval95": [
+        0.023750419960073096,
+        0.030968868203231626
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    },
+    {
+      "sensor": "asinh",
+      "method": "full",
+      "seed": 2023,
+      "native_minus_control": 0.0281683708020432,
+      "sequence_se": 0.0018656418588768767,
+      "sequence_interval95": [
+        0.024494342569803873,
+        0.03184239903428253
+      ],
+      "scope": "Within this pair of fitted models; not an across-seed confidence interval."
+    }
+  ],
+  "max_primary_array_recomputation_error": 2.220446049250313e-16,
+  "valid_terminal_models": 32,
+  "neural_updates_valid": 300000,
+  "retained_failed_updates": 10000,
+  "total_neural_update_attempts": 310000,
+  "deterministic_proper_fits": 2,
+  "proper_iterations": [
+    37,
+    24
+  ],
+  "evaluation_sha256": "d18cd4e96c394aa6f65972321b7951c8dd3976ab04e745af656e1e0205642a46",
+  "model_seal_sha256": "3f2e77cfac1bb05db209ea41e7b514f6b81e5fad38cdb9725916816feee4ecdc",
+  "map_seal_sha256": "56083568a09e5d90b7b5dff0572c63a6593c7403ca8f70fbc3df895f6eaa872b",
+  "open_receipt_sha256": "3879ffdf73534e2d7301109eecdb4083614e49835635d648f8257fc89f82d3ee",
+  "decision_rule_sha256": "39bc235475ab91896bfe01f1ec8707c60ff08f89fe9d103404e808372f147590",
+  "script_sha256": "caaac4f59d3860cc03fc557afb1f27eb9662e521f5e6415556fd3adea9f19a8a",
+  "accepted_final_directions": 0,
+  "overall_goal": "ACTIVE_UNACHIEVED"
+}

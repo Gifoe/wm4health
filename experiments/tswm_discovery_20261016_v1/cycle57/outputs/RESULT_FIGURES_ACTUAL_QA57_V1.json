@@ -1,0 +1,25 @@
+{
+  "status": "PASS_ACTUAL_RENDER_AND_NUMERICS",
+  "numeric_qa_sha256": "6874fab6494ef698651f308db17d2e32e185e73d6044c870fc51c48acb0ab49e",
+  "inspected_figures": [
+    {
+      "name": "primary_effect57_v1",
+      "png_sha256": "b649657830f38357301a6edebd6c335474926a7b1c98769674d83ddb466c7805",
+      "actual_png_viewed": true,
+      "labels_and_legend_legible": true,
+      "no_point_or_label_clipping": true,
+      "seed_markers_and_method_order_match_source": true
+    },
+    {
+      "name": "persistence57_v1",
+      "png_sha256": "d185414c77a854a7a98329c0edd37f7870a7f433725e8a50871873dc7a51388c",
+      "actual_png_viewed": true,
+      "labels_and_legend_legible": true,
+      "no_point_or_label_clipping": true,
+      "seed_markers_and_method_order_match_source": true
+    }
+  ],
+  "inspection": "Assistant inspected both rendered server PNGs through a RAM-only loopback relay. Both panels, all seed markers, log-scale primary axis and true-rho reference line were visually checked. Numeric geometry receipt verifies all 64 plotted values and mean bars against the sealed evaluation; black horizontal bars are arithmetic three-seed means.",
+  "local_result_files_written": 0,
+  "utc": "2026-10-17T22:56:57.170818+00:00"
+}

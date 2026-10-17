@@ -1,0 +1,52 @@
+{
+  "utc": "2026-10-17T22:01:53.067045+00:00",
+  "status": "COMPLETE_FIXED_TERMINAL_FIT",
+  "tag": "proper_linear_seed2021",
+  "method": "proper",
+  "sensor": "linear",
+  "seed": 2021,
+  "stochastic_fit": false,
+  "updates": 37,
+  "objective_evaluations": 41,
+  "training_seconds": 1.0257509999792092,
+  "total_seconds": 1.0500962999940384,
+  "peak_training_cuda_bytes": 136877568,
+  "dtype": "torch.float64",
+  "description": {
+    "rho": 0.9497768594655065,
+    "angles": [
+      -0.20401249454111917,
+      0.3058933712602053
+    ],
+    "site_precision": [
+      3.307786656371283,
+      3.3365036071660876
+    ],
+    "parameters": 7
+  },
+  "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle57\\proper_linear_seed2021.pt",
+  "checkpoint_sha256": "13de8755a902f06562df5a153ebd852005b304d3d26589714704e520cb388b57",
+  "initial_checkpoint_sha256": "af1c13a008ac0c2e6d6399f7feb2841dc5b8c32d3cf1dbfbeb83897bf4756a96",
+  "initial_tensor_sha256": "9f24f542be2532395b493cfc413bf0a9da71d63a4bb2a758a2a749be50377b56",
+  "terminal_tensor_sha256": "ce21ff304caf660e6025ac8c42d7d306b26a48d63b85c627ea5c75055f2a7518",
+  "train_inputs_sha256": "d809fcdeae88cea358b7930a57afde1b2c61e4ef65b530c7030d37c2b18562c2",
+  "protocol_sha256": "a7e5ff6cb36287c6e91cc495ae56a2e48716c7b73d1ccc215ea4f4903557f67f",
+  "clarification_sha256": "9423f30f7079ff864f802d1dd924f0d2bc219bd61a2ec123f70ee17088fd83e2",
+  "plan_sha256": "cdc4e99bb5c7a95d9a2e54b5052f5f5ed453a4edf01506384f1dddc6fc5bc493",
+  "qualification_sha256": "27656fc7de8fd6a823254fca85e18d608a5e6ff817a1ebed24761d1e3c0891f7",
+  "train_script_sha256": "81332f852c8024449f368126bd43f42853d106f34dc9a89acd198b9a709a0dea",
+  "math_sha256": "84af72d12d5ed26cbbac6daabd92786b842ca3adb48e0f8348871a65287e9f1f",
+  "model_sha256": "1dd0d57170ec15d04da3c4213cdc50f8f14b03c600c9943f2be78fcbfbd63551",
+  "common_train_objective": 2.1999281048076726,
+  "common_objective_type": "proper_negative_log_likelihood_per_time",
+  "normalizer_tracking": null,
+  "training_reads": [
+    "train_inputs_v1.npz"
+  ],
+  "hidden_state_training_reads": 0,
+  "validation_training_reads": 0,
+  "heldout_training_reads": 0,
+  "checkpoint_selection": "fixed terminal, no score-based selection",
+  "target_sequences_per_neural_update": null,
+  "encoded_sequences_per_neural_update": null
+}
