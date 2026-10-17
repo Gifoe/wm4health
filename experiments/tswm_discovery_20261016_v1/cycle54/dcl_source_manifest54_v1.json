@@ -1,0 +1,274 @@
+{
+  "source_repo": "https://github.com/dynamical-inference/dcl",
+  "source_revision": "2cd46d13ae9e27feeefafe5745f26003929f9c6e",
+  "selected_files": [
+    {
+      "path": "LICENSE",
+      "bytes": 11357,
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "NOTICE.yml",
+      "bytes": 11200,
+      "git_blob_sha1": "fa98fdb6390639ed20fbab878f1e8e115758c0af"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4723,
+      "git_blob_sha1": "6d2a4e6d624bb33eede40e050ac23bbb05d27eec"
+    },
+    {
+      "path": "dcl/__init__.py",
+      "bytes": 353,
+      "git_blob_sha1": "1ceca4e6724be4d93dc200b0c6eab15448825739"
+    },
+    {
+      "path": "dcl/criterions/__init__.py",
+      "bytes": 302,
+      "git_blob_sha1": "9d58e65f22c41e6d9a60f45461b3aa0f95d317e4"
+    },
+    {
+      "path": "dcl/criterions/contrastive.py",
+      "bytes": 7129,
+      "git_blob_sha1": "c8048953299caab29fa26d3b95480482950465d6"
+    },
+    {
+      "path": "dcl/datajoint/__init__.py",
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "dcl/datasets/__init__.py",
+      "bytes": 302,
+      "git_blob_sha1": "9d58e65f22c41e6d9a60f45461b3aa0f95d317e4"
+    },
+    {
+      "path": "dcl/datasets/base.py",
+      "bytes": 1991,
+      "git_blob_sha1": "e475a9a76f6ffce06833b10adb62d34160c7a84e"
+    },
+    {
+      "path": "dcl/datasets/splits.py",
+      "bytes": 6713,
+      "git_blob_sha1": "3eaee48c9dc06429a6933513cc5fdfdd79aefe75"
+    },
+    {
+      "path": "dcl/datasets/synthetic.py",
+      "bytes": 13689,
+      "git_blob_sha1": "b2deda42c10724b8dc64a94377beda202721792f"
+    },
+    {
+      "path": "dcl/datasets/timeseries.py",
+      "bytes": 7556,
+      "git_blob_sha1": "ce526fd3234573b7f56b76c82c2719e3ee5ce2eb"
+    },
+    {
+      "path": "dcl/distributions/__init__.py",
+      "bytes": 302,
+      "git_blob_sha1": "9d58e65f22c41e6d9a60f45461b3aa0f95d317e4"
+    },
+    {
+      "path": "dcl/distributions/restrictions.py",
+      "bytes": 7744,
+      "git_blob_sha1": "076c596d0ad539ef2d213c3abebde4a2c4098226"
+    },
+    {
+      "path": "dcl/distributions/time_distributions.py",
+      "bytes": 7227,
+      "git_blob_sha1": "363ebfaafc2c2ccea19e62154eaa63ee49788e13"
+    },
+    {
+      "path": "dcl/experiments/__init__.py",
+      "bytes": 302,
+      "git_blob_sha1": "9d58e65f22c41e6d9a60f45461b3aa0f95d317e4"
+    },
+    {
+      "path": "dcl/experiments/experiments.py",
+      "bytes": 4260,
+      "git_blob_sha1": "c28c3b03ea6442f6273c1d0cf87fcd6d619502ec"
+    },
+    {
+      "path": "dcl/loader/__init__.py",
+      "bytes": 3937,
+      "git_blob_sha1": "318cbb9f88e8ecf176753763d33d42698be01cb4"
+    },
+    {
+      "path": "dcl/loader/contrastive.py",
+      "bytes": 12143,
+      "git_blob_sha1": "87cd9f80979c04d73b80fa07afe8bc6d7b8551af"
+    },
+    {
+      "path": "dcl/loader/sequence.py",
+      "bytes": 3170,
+      "git_blob_sha1": "07c95096576eda1e9aab1ac54a0725a25bd4c33e"
+    },
+    {
+      "path": "dcl/metrics/__init__.py",
+      "bytes": 1581,
+      "git_blob_sha1": "2604ace736a4db2666afd048306aec8d07cef2f0"
+    },
+    {
+      "path": "dcl/metrics/dynamics.py",
+      "bytes": 8652,
+      "git_blob_sha1": "49efd0f768b437da9e865d0be83631e0fb7d4f77"
+    },
+    {
+      "path": "dcl/metrics/identifiability.py",
+      "bytes": 15294,
+      "git_blob_sha1": "d92880c51b9b911e06516cb9f2b4bb3bc4b5c485"
+    },
+    {
+      "path": "dcl/metrics/utils.py",
+      "bytes": 4854,
+      "git_blob_sha1": "40f529189d376ed0f95ab5b1bd680c24ceac7a90"
+    },
+    {
+      "path": "dcl/models/__init__.py",
+      "bytes": 1849,
+      "git_blob_sha1": "0d4763e9e53f383328c19c84eccabad41d2a639f"
+    },
+    {
+      "path": "dcl/models/dynamics/__init__.py",
+      "bytes": 1336,
+      "git_blob_sha1": "864cef13dc9d3dbe90c57e9ee969ec78c6fe0489"
+    },
+    {
+      "path": "dcl/models/dynamics/linear_dynamics.py",
+      "bytes": 5361,
+      "git_blob_sha1": "97dc9edea1eab2ba35e7381bcc21c5a98ba6281c"
+    },
+    {
+      "path": "dcl/models/dynamics/mse_logits.py",
+      "bytes": 2425,
+      "git_blob_sha1": "da449dc7bf478662054328bf94062ded26e2dfca"
+    },
+    {
+      "path": "dcl/models/dynamics/nonlinear_dynamics.py",
+      "bytes": 2839,
+      "git_blob_sha1": "8686fdfd2ca08a8eaf60adb3d3491f4dee05522c"
+    },
+    {
+      "path": "dcl/models/dynamics/slds.py",
+      "bytes": 6141,
+      "git_blob_sha1": "025c5de80ae5911c96ea9cd383d3dbfac179e608"
+    },
+    {
+      "path": "dcl/models/dynamics/switching_dynamics.py",
+      "bytes": 8875,
+      "git_blob_sha1": "28f7df82f663d877bc767120f9670dda1e28e65a"
+    },
+    {
+      "path": "dcl/models/dynamics/utils.py",
+      "bytes": 4272,
+      "git_blob_sha1": "7ea2ab0347d575f59559648c62dd09cc11dbfa8e"
+    },
+    {
+      "path": "dcl/models/encoder.py",
+      "bytes": 5896,
+      "git_blob_sha1": "1278c68524f9a32e49962b95e5d2fa4eb7c9e70f"
+    },
+    {
+      "path": "dcl/models/mixing.py",
+      "bytes": 6897,
+      "git_blob_sha1": "6f349b3dc6baf072727f099797f638c86c5cfb06"
+    },
+    {
+      "path": "dcl/models/mixing_mlp.py",
+      "bytes": 5435,
+      "git_blob_sha1": "edba84122c984cbc819019f3d8b92478443efd7c"
+    },
+    {
+      "path": "dcl/models/utils.py",
+      "bytes": 1289,
+      "git_blob_sha1": "d0d078f27d50763c374dded70633d6db5dbb00a7"
+    },
+    {
+      "path": "dcl/solver/__init__.py",
+      "bytes": 13591,
+      "git_blob_sha1": "102781da8890c42c75e0be2751508b68074a830b"
+    },
+    {
+      "path": "dcl/solver/contrastive_solver.py",
+      "bytes": 13752,
+      "git_blob_sha1": "943acf0b118bc70b551d18c721689cb68dc62a7e"
+    },
+    {
+      "path": "dcl/solver/dynamics_solver.py",
+      "bytes": 4346,
+      "git_blob_sha1": "ced1d28cfdfb3565b795f537ee09b08857e35102"
+    },
+    {
+      "path": "dcl/solver/optimizer.py",
+      "bytes": 4589,
+      "git_blob_sha1": "61ff468954e058853bf0dc010fa7551bbf91a7e8"
+    },
+    {
+      "path": "dcl/utils/__init__.py",
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "dcl/utils/analysis.py",
+      "bytes": 3086,
+      "git_blob_sha1": "3c61f1a8203690b4141870bb91c32a427c52c742"
+    },
+    {
+      "path": "dcl/utils/checkpoints.py",
+      "bytes": 2548,
+      "git_blob_sha1": "09b5782ace8c5484fe81f2d1621625dd89e683c5"
+    },
+    {
+      "path": "dcl/utils/configurable.py",
+      "bytes": 10480,
+      "git_blob_sha1": "2d1204d6f44a4c3bdfb2518d0e4f6b34b90b2495"
+    },
+    {
+      "path": "dcl/utils/datatypes.py",
+      "bytes": 23382,
+      "git_blob_sha1": "bee2c200ca7919df0ed01a0e14a4614eeb6ccc87"
+    },
+    {
+      "path": "dcl/utils/git_check.py",
+      "bytes": 1231,
+      "git_blob_sha1": "436c89b794659fc3bc70168342fe4f462c444785"
+    },
+    {
+      "path": "dcl/utils/jaxtyping.py",
+      "bytes": 443,
+      "git_blob_sha1": "e8781d230ba9565e5d7071120715028718cd295c"
+    },
+    {
+      "path": "dcl/utils/rotation_matrix.py",
+      "bytes": 6094,
+      "git_blob_sha1": "1939392d80e76a41d6016fdd5b091149e833bf33"
+    },
+    {
+      "path": "dcl/utils/temperature_scheduler.py",
+      "bytes": 4293,
+      "git_blob_sha1": "76b0ce5c5489be213dfaf41899a42286a4ceee0d"
+    },
+    {
+      "path": "dcl/utils/torch.py",
+      "bytes": 300,
+      "git_blob_sha1": "76a7f981a1d60385223ac5150120bf1195dd945f"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 1613,
+      "git_blob_sha1": "33f1673b9d22fbee28d063c95cf72f221440c446"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 204,
+      "git_blob_sha1": "85b120e364d95ff0d0bb7b2e1a1b7c5d27bdf92b"
+    },
+    {
+      "path": "setup.cfg",
+      "bytes": 381,
+      "git_blob_sha1": "dfcf831a38c403d248608f6b437fb68d5cbc82a8"
+    }
+  ],
+  "scope": "Unmodified native core plus licenses/configuration. DataJoint service implementation and .env files, notebooks, and sweeps are excluded; no database service or formal paper dataset/sweep is executed.",
+  "formal_fits": 0,
+  "qualification_updates": 32
+}
