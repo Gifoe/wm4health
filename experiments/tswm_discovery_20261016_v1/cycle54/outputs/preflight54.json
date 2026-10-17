@@ -1,0 +1,185 @@
+{
+  "utc": "2026-10-17T17:49:15.301865+00:00",
+  "status": "PASS_PINNED_NATIVE_SOURCE_AND_PAPER_LINEAR_GENERATOR",
+  "plan_sha256": "2b52c5bbb7d8b0f1a0d911b8492aa5c84521da849b02c6f3123ac602f8fd8947",
+  "source_files_sha256": {
+    "demos/cifar_pendulum.ipynb": "cfae15a37cbe3f571275070d96746c1999d3d334d7bce494c26917c44900c77b",
+    "demos/walker_dynamic_distractors.ipynb": "52cbc01f2e676c708fe944d24090e4047de27c9396ec6f3157c30b8f646d1665",
+    "LICENSE": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19",
+    "pdm.lock": "cc109e4356e8d31da90017a0940e5f67263b0037ce79438ccc7ae0e3d32d247c",
+    "pyproject.toml": "0737e83f199c9b59ecc1742a322f55c8701e29c53a0d80338368cb186ba92f70",
+    "README.md": "08fe3d7871c62fadd05964575501cd24abd97b942a0d145804afe355209a9e70",
+    "rp_ssm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rp_ssm/actions.py": "681e785b8ee79a8fbe1bac491fbbc0b2bc410c4f3ff0a55f05fa8c727a8df587",
+    "rp_ssm/config.py": "f6e55004b68078aeb084c1831e6bb9f1d743e3f2f88596d71e10abc9a2d53ddc",
+    "rp_ssm/datasets.py": "9a1aa383b5829264c59233ad5028a63a9bfe15aad09396e831faa8b8cc297abe",
+    "rp_ssm/datasets_utils.py": "47d930381df5c543aac53e36fb0823d08b650fc83a5a0b3cfbdcaf94d72007df",
+    "rp_ssm/distmaps.py": "54ee8ebe408f724be195b4a8405e0a50e3ed68e0fd7e100b30b54ea06ba162a7",
+    "rp_ssm/dists.py": "6050ccdb5c0fa21267db12811db3bb5b8b8ef3bf3bca6ed4d6ec9464348a93bf",
+    "rp_ssm/dists_utils.py": "874d7ed54403f3c987707bd4a5b17dac0fc6c9d84efb1c6107d61bb9b4d4d500",
+    "rp_ssm/generation.py": "b1a44e2d24f2d0eb508dd30ad5053ed85213dc12675a376a843a22cbdce3afc0",
+    "rp_ssm/gym_wrappers.py": "57bfc16924d1b3ba4d7a0d0e4237ab4801c936b3aa85e01fac60406324ee994e",
+    "rp_ssm/recognition.py": "04a255bbce078215b5106a19a7c42ab5a37a2d50735f91aaa54aef033913ba4a",
+    "rp_ssm/rpm.py": "da3792582ffc1997c4e775197791fc05dd00d09ff2d1fbca1c9742f93b89b2dd",
+    "rp_ssm/training.py": "d84c26650a375a2cafa5f670209fe394c9170cf20c01b0fc08398498bc07dc70",
+    "rp_ssm/types.py": "fc069345983c4f21b6670029e805718bd5bfb3cbaedce8ce64e039f16a61060d",
+    "rp_ssm/utils.py": "e711f4438301c1802aef7dfb3d17403aebe5a904df35eb87d4ae9f2ccbe05e53"
+  },
+  "datasets": [
+    {
+      "task": "linear_small",
+      "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle54\\linear_small.npz",
+      "sha256": "1809327ed4500f9d21a15e588d0da394d1a68561cfe84af7fceeee3a2ce5761c",
+      "shapes": {
+        "train_x": [
+          200,
+          100,
+          5
+        ],
+        "train_z": [
+          200,
+          100,
+          3
+        ],
+        "heldout_x": [
+          50,
+          100,
+          5
+        ],
+        "heldout_z": [
+          50,
+          100,
+          3
+        ],
+        "true_m1": [
+          3
+        ],
+        "true_Q1": [
+          3,
+          3
+        ],
+        "true_A": [
+          3,
+          3
+        ],
+        "true_b": [
+          3
+        ],
+        "true_Q": [
+          3,
+          3
+        ],
+        "true_R": [
+          5,
+          5
+        ],
+        "true_C": [
+          1,
+          5,
+          3
+        ],
+        "true_d": [
+          1,
+          5
+        ]
+      },
+      "actual_R_diagonal": [
+        0.3,
+        0.3,
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "task": "linear_medium",
+      "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle54\\linear_medium.npz",
+      "sha256": "bdc2efd24ee52216323c56609af7106725a4ca0dbe3c351f4f129fc35e1d1bc4",
+      "shapes": {
+        "train_x": [
+          200,
+          100,
+          10
+        ],
+        "train_z": [
+          200,
+          100,
+          5
+        ],
+        "heldout_x": [
+          50,
+          100,
+          10
+        ],
+        "heldout_z": [
+          50,
+          100,
+          5
+        ],
+        "true_m1": [
+          5
+        ],
+        "true_Q1": [
+          5,
+          5
+        ],
+        "true_A": [
+          5,
+          5
+        ],
+        "true_b": [
+          5
+        ],
+        "true_Q": [
+          5,
+          5
+        ],
+        "true_R": [
+          10,
+          10
+        ],
+        "true_C": [
+          1,
+          10,
+          5
+        ],
+        "true_d": [
+          1,
+          10
+        ]
+      },
+      "actual_R_diagonal": [
+        0.3,
+        0.3,
+        0.3,
+        0.3,
+        0.3,
+        0.3,
+        0.3,
+        0.3,
+        0.3,
+        0.3
+      ]
+    }
+  ],
+  "python": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:36:49) [MSC v.1944 64 bit (AMD64)]",
+  "device": [
+    "TFRT_CPU_0"
+  ],
+  "packages": {
+    "jax": "0.4.35",
+    "jaxlib": "0.4.35",
+    "numpy": "1.26.4",
+    "flax": "0.10.2",
+    "optax": "0.2.4",
+    "dynamax": "0.1.5"
+  },
+  "source_paper_reference": {
+    "name": "rp_gssm_icml2026",
+    "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/hromadka26a/hromadka26a.pdf",
+    "final_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/hromadka26a/hromadka26a.pdf",
+    "sha256": "0794a735b466f2239e315a538881200b275583226a3db4ce6e1816763bbc928c",
+    "pages": 29,
+    "fetched_utc": "2026-10-15T20:11:45.576036+00:00"
+  }
+}

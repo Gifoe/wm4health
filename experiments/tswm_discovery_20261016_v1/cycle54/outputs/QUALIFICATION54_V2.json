@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-17T17:53:15.105061+00:00",
+  "status": "PASS_DUMMY_NATIVE_API_AND_INDEPENDENT_KALMAN_INTEGRATION",
+  "data": "Deterministic 2x12x5 sine array with fixed-seed full-rank Gaussian perturbation, no formal dataset read",
+  "prior_qualification_failure": "V1 compared native jittered RP covariance to unjittered equations: mean discrepancy 1.20e-10, covariance discrepancy 1.00003054385e-5. Source explicitly adds 1e-5 I; V2 checks that exact documented difference. No formal model or training objective changed.",
+  "formal_training_updates": 0,
+  "dummy_EM_iterations": 2,
+  "rp_discrepancy": {
+    "smoother_mean_max_abs": 1.270015204113406e-10,
+    "smoother_cov_max_abs": 3.054385633305401e-10,
+    "endpoint_mean_max_abs": 7.686459801981016e-11,
+    "endpoint_cov_max_abs": 1.604062438431697e-10
+  },
+  "em_discrepancy": {
+    "smoother_mean_max_abs": 1.4205201681605217e-08,
+    "smoother_cov_max_abs": 1.4691479352513248e-09,
+    "endpoint_mean_max_abs": 1.0067487843379297e-08,
+    "endpoint_cov_max_abs": 1.336202717916457e-09
+  },
+  "script_sha256": "bf099195f7dcd7172a13100126cf1b26d3b33a64d04ca093da02b48757a94455",
+  "evaluation_script_sha256": "f7128a9fee3823090c6d1bd00985fd0b97a03e03876e2e327a9820a235cfca80",
+  "scope": "Critical changed executable paths only. Not an experiment result or evidence of model quality."
+}

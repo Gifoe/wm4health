@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "purpose": "Native jointly learned RP-GSSM linear-recipe audit, not a new method or visual-paper reproduction",
+  "source_repo": "https://github.com/gatsby-sahani/rp-gssm",
+  "source_revision": "a75225d5edceb972bb872dc9a335608733567dd4",
+  "source_files_sha256": {
+    "demos/cifar_pendulum.ipynb": "cfae15a37cbe3f571275070d96746c1999d3d334d7bce494c26917c44900c77b",
+    "demos/walker_dynamic_distractors.ipynb": "52cbc01f2e676c708fe944d24090e4047de27c9396ec6f3157c30b8f646d1665",
+    "LICENSE": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19",
+    "pdm.lock": "cc109e4356e8d31da90017a0940e5f67263b0037ce79438ccc7ae0e3d32d247c",
+    "pyproject.toml": "0737e83f199c9b59ecc1742a322f55c8701e29c53a0d80338368cb186ba92f70",
+    "README.md": "08fe3d7871c62fadd05964575501cd24abd97b942a0d145804afe355209a9e70",
+    "rp_ssm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rp_ssm/actions.py": "681e785b8ee79a8fbe1bac491fbbc0b2bc410c4f3ff0a55f05fa8c727a8df587",
+    "rp_ssm/config.py": "f6e55004b68078aeb084c1831e6bb9f1d743e3f2f88596d71e10abc9a2d53ddc",
+    "rp_ssm/datasets.py": "9a1aa383b5829264c59233ad5028a63a9bfe15aad09396e831faa8b8cc297abe",
+    "rp_ssm/datasets_utils.py": "47d930381df5c543aac53e36fb0823d08b650fc83a5a0b3cfbdcaf94d72007df",
+    "rp_ssm/distmaps.py": "54ee8ebe408f724be195b4a8405e0a50e3ed68e0fd7e100b30b54ea06ba162a7",
+    "rp_ssm/dists.py": "6050ccdb5c0fa21267db12811db3bb5b8b8ef3bf3bca6ed4d6ec9464348a93bf",
+    "rp_ssm/dists_utils.py": "874d7ed54403f3c987707bd4a5b17dac0fc6c9d84efb1c6107d61bb9b4d4d500",
+    "rp_ssm/generation.py": "b1a44e2d24f2d0eb508dd30ad5053ed85213dc12675a376a843a22cbdce3afc0",
+    "rp_ssm/gym_wrappers.py": "57bfc16924d1b3ba4d7a0d0e4237ab4801c936b3aa85e01fac60406324ee994e",
+    "rp_ssm/recognition.py": "04a255bbce078215b5106a19a7c42ab5a37a2d50735f91aaa54aef033913ba4a",
+    "rp_ssm/rpm.py": "da3792582ffc1997c4e775197791fc05dd00d09ff2d1fbca1c9742f93b89b2dd",
+    "rp_ssm/training.py": "d84c26650a375a2cafa5f670209fe394c9170cf20c01b0fc08398498bc07dc70",
+    "rp_ssm/types.py": "fc069345983c4f21b6670029e805718bd5bfb3cbaedce8ce64e039f16a61060d",
+    "rp_ssm/utils.py": "e711f4438301c1802aef7dfb3d17403aebe5a904df35eb87d4ae9f2ccbe05e53"
+  },
+  "paper_url": "https://proceedings.mlr.press/v306/hromadka26a.html",
+  "paper_sha256": "0794a735b466f2239e315a538881200b275583226a3db4ce6e1816763bbc928c",
+  "tasks": [
+    {
+      "name": "linear_small",
+      "latent_dim": 3,
+      "emission_dim": 5
+    },
+    {
+      "name": "linear_medium",
+      "latent_dim": 5,
+      "emission_dim": 10
+    }
+  ],
+  "data_seed": 0,
+  "generator_key": 1,
+  "num_factors": 1,
+  "train_sequences": 200,
+  "heldout_sequences": 50,
+  "timesteps": 100,
+  "generator_emission_cov_argument": 0.09,
+  "actual_emission_covariance": 0.3,
+  "generator_note": "Native generate_linear_data sets R=sqrt(emission_cov)*I. Argument .09 reconstructs final-paper R=.3I. Published load_dataset uses .1 and would yield sqrt(.1)I; not used here.",
+  "training_seeds": [
+    0,
+    1,
+    2
+  ],
+  "rp_iterations": 10000,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "initial_A_diagonal": 0.5,
+  "recognition_hidden_layers": [],
+  "constant_recognition_covariance": true,
+  "diagonal_recognition_precision": true,
+  "learned_prior_parameters": [
+    "A"
+  ],
+  "stabilize_A": "clip",
+  "em": false,
+  "em_iterations": 200,
+  "em_initialization": "Training-observation PCA with 5% random loading perturbation, .8I plus .02 Gaussian A; all LGSSM parameters learned by native Dynamax EM",
+  "selection": "Terminal fixed-budget parameters for all fits. No validation or ground-truth state selects training, architecture, hyperparameters, or checkpoints.",
+  "readout": "Only after all 12 fits are sealed, unregularized affine OLS fitted from training full-sequence posterior means to training states. Heldout states never fit readout.",
+  "prefix_length": 50,
+  "horizons": [
+    0,
+    1,
+    5,
+    10,
+    25,
+    50
+  ],
+  "metrics": [
+    "heldout full-sequence representation R2",
+    "causal-prefix state and observation forecast MSE",
+    "conditional-mean discrepancy from true-parameter Kalman oracle",
+    "transition eigenvalue error and physical-coordinate map conditioning"
+  ],
+  "runtime": "Existing task-isolated CPU JAX0.4.35 / Flax0.10.2 / Dynamax0.1.5, x64 enabled, CPU affinity limited to 8 logical processors. No environment change.",
+  "stop_rules": [
+    "Nonfinite objective/parameters stop that fit and preserve failure.",
+    "No extra test-driven training or hyperparameter tuning.",
+    "If ordinary LGSSM solves a failure, reject generic unsolved-world-model claim."
+  ],
+  "scope_limits": [
+    "Two synthetic linear-Gaussian tasks, one data draw each, three model initializations; not evidence of real-domain generality.",
+    "Paper recipe reconstruction with native components; no released exact linear launcher or full hyperparameter sweep.",
+    "The official visual datasets are absent from the public source archive; not reconstructed by guessing."
+  ]
+}

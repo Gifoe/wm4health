@@ -1,0 +1,6 @@
+{
+  "status": "FAILED_PRESERVED",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\tswm_discovery_20261016_v1\\cycle54\\scripts\\supervise54.py\", line 9, in <module>\n    if not (OUT/'preflight54.json').exists():subprocess.run([sys.executable,'-B','-u',str(ROOT/'scripts/prepare54.py')],check=True)\n  File \"E:\\Anaconda\\envs\\persist_stable_251\\lib\\subprocess.py\", line 526, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['D:\\\\tswm_discovery_20261016_v1\\\\cycle2\\\\.venv_rpm\\\\Scripts\\\\python.exe', '-B', '-u', 'D:\\\\tswm_discovery_20261016_v1\\\\cycle54\\\\scripts\\\\prepare54.py']' returned non-zero exit status 1.\n",
+  "pid": 39112,
+  "utc": "2026-10-17T17:47:46.752715+00:00"
+}

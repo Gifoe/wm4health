@@ -1,0 +1,23 @@
+# Jointly learned RP-GSSM linear recipe audit
+
+This experiment tests a representative existing state-learning model before claiming a missing world-model capability. It introduces no new architecture.
+
+The ICML 2026 final paper, Appendix D.3/Table S1/E, specifies 200 training sequences of length 100, a scaled rotation with norm .95 and angle pi/5, Gaussian emissions with covariance .3I, linear recognition, constant diagonal recognition covariance, true latent dimensionality, Adam at .001, batch 32, 10,000 updates, and singular-value clipping to .999. The public source has no exact linear experiment launcher. This is a reconstruction of that recipe using the unchanged native generator, recognition, objective, trainer and smoother. It is not the authors' complete hyperparameter search or a reproduction of their published aggregate best scores.
+
+Two tasks use latent/observation dimensions 3/5 and 5/10, one native data seed each, and three model initialization seeds. The native generator's `emission_cov` argument is square-rooted to construct the covariance; .09 therefore gives the paper's .3I. The published convenience loader uses .1, which instead gives sqrt(.1)I. This discrepancy is explicit in the immutable plan.
+
+The prior A starts at .5I, as in the official visual demonstration, and is learned jointly with recognition. This differs from C2's fixed correct prior. Native `Config.em=False` is retained: gradients pass through the analytic posterior rather than using a stop-gradient E-step. The existing CPU JAX runtime uses float64, eight logical processors and no global package changes. These device/precision choices are not claimed to reproduce the original GPU numerics.
+
+The strong existing control is `dynamax.linear_gaussian_ssm.LinearGaussianSSM.fit_em`, 200 iterations. Its initialization uses training-observation PCA and small random perturbations; all its latent, transition and emission parameters can adapt. Both methods have the true latent dimension and use only training observations. Optimizer update counts are not equivalent units of compute; wall time and model parameter counts are retained.
+
+All 12 terminal model parameters are sealed before state readouts or heldout evaluation. Each diagnostic state readout is an unregularized affine OLS mapping fitted only to training full-sequence posterior means and training true states. It is frozen before heldout observations and states are evaluated. These diagnostic maps are not learned by the unsupervised models and are not deployable readouts. A second OLS observation map, fitted without state labels, is applied to both learned models for comparable observation forecasts.
+
+For heldout sequences, the causal forecasting state sees only the first 50 observations. Horizons are 0,1,5,10,25,50, where zero refers to the last observed state. Report factual state MSE, auxiliary observation MSE, and squared discrepancy from the true-parameter Kalman conditional mean. Also report full-sequence smoothing R2 using the training-only state map, transition eigenvalue error, and conditioning/rank of the map used to express dynamics in physical coordinates. A within-heldout refit R2 is explicitly a descriptive representation diagnostic; it cannot select anything or be used for forecasting.
+
+Independent NumPy Kalman/RTS equations check native posterior means/covariances. Matrix-power propagation checks recursive forecast arithmetic. For RP-GSSM, the native transition-chain component is also checked. This verifies the Gaussian surrogate computation, not equality to the intractable normalized RPM posterior. The unconditional `Trainer.rollout` helper assumes action-conditioned attributes; this audit uses the model's actual transition equations and native `transitions_to_marginals` rather than silently patching upstream.
+
+The true-parameter Kalman oracle measures what the supplied observations identify. It is an oracle, not a learned competitor. Low forecast R2 at long horizons alone is not a model failure: irreducible process noise can dominate. Conditional-mean discrepancy separates this noise from a learned dynamics error.
+
+No test-driven extension, checkpoint selection or hyperparameter change is allowed. Ordinary LGSSM success defeats a generic claim that new world-model machinery is required. A problem confined to the RP auxiliary surrogate is not automatically a broad research gap. Neither outcome on these two synthetic tasks establishes real-world generality or a publication-ready direction.
+
+Source: [paper](https://proceedings.mlr.press/v306/hromadka26a.html), [pinned implementation](https://github.com/gatsby-sahani/rp-gssm/tree/a75225d5edceb972bb872dc9a335608733567dd4).
