@@ -1,0 +1,72 @@
+{
+  "utc": "2026-10-17T20:03:58.518953+00:00",
+  "status": "PASS_ANALYTIC_FIXED_FEATURE_SPECTRAL_CRITIC_SEMANTICS",
+  "true_A": [
+    [
+      0.9,
+      0.0
+    ],
+    [
+      0.0,
+      0.6
+    ]
+  ],
+  "stationary_covariance": [
+    [
+      4.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.25
+    ]
+  ],
+  "positive_process_covariance": [
+    [
+      0.7599999999999998,
+      0.0
+    ],
+    [
+      0.0,
+      0.16
+    ]
+  ],
+  "fixed_feature_optimal_critic": [
+    [
+      0.225,
+      0.0
+    ],
+    [
+      0.0,
+      2.4
+    ]
+  ],
+  "covariance_converted_critic": [
+    [
+      0.9,
+      0.0
+    ],
+    [
+      0.0,
+      0.6
+    ]
+  ],
+  "true_transition_spectral_radius": 0.9,
+  "raw_critic_spectral_radius": 2.4,
+  "conversion_max_abs_error": 0.0,
+  "analytic_gradient_max_abs": 0.0,
+  "finite_difference_gradient_max_abs_error": 2.2204460492503128e-11,
+  "hessian_min_eigenvalue": 0.125,
+  "objective_at_optimal_critic": -1.17,
+  "objective_at_naive_true_A_as_critic": 6.322500000000002,
+  "native_mlcolvar_source_pin": "3a2549ffa63e47b30c390eebc84bed588c7d3868",
+  "paper_version": "2606.15495v3",
+  "interpretation": "This is the unregularized population bilinear L2 objective with fixed centered features. The scorer coefficient is not automatically the physical conditional-mean transition. Ordinary covariance conversion is known algebra, not a new method.",
+  "formal_data_reads": 0,
+  "C54_heldout_reads": 0,
+  "optimizer_updates": 0,
+  "SelfTICA_executed_fits": 0,
+  "accepted_directions": 0,
+  "script_sha256": "ea7cd49dfc5927f2b0844ae9f098f108bc546067b31fa16eb5ff51643523468f",
+  "review_note_sha256": "580f7f75fe095af60cf106b0389037048f0292ad2d92181c01e2ce6b4d3c979d"
+}

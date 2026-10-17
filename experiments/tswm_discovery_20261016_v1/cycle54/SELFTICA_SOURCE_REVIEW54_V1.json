@@ -1,0 +1,37 @@
+{
+  "scope": "Primary-paper/source review only; no SelfTICA neural fit, molecular simulation or released data download.",
+  "paper": {
+    "id": "2606.15495",
+    "version": "v3",
+    "last_revised": "2026-09-09",
+    "url": "https://arxiv.org/html/2606.15495v3"
+  },
+  "companion": {
+    "repo": "Kai-Zhu-2001/SelfTICA",
+    "revision": "855c337830b16b8cc83e050ef5ad55947baedc95",
+    "committed_at": "2026-10-04T15:52:29Z"
+  },
+  "implementation": {
+    "repo": "luigibonati/mlcolvar",
+    "branch_observed": "release/2.0",
+    "revision": "3a2549ffa63e47b30c390eebc84bed588c7d3868",
+    "committed_at": "2026-10-13T20:02:34Z",
+    "files": [
+      {
+        "path": "mlcolvar/cvs/timelagged/selftica.py",
+        "bytes": 11562,
+        "git_blob_sha1": "5951542309af1017e69179b5c4d83c39bf61b756"
+      },
+      {
+        "path": "mlcolvar/core/loss/contrastive_loss.py",
+        "git_blob_sha1": "ff45ab89157b9f495a6beb1eadefd6c50d5eb13f",
+        "bytes": 5764
+      }
+    ]
+  },
+  "selection": "Selected L2 spectral mode, not InfoNCE exp-normalization. Fixed-feature scorer and physical-transition semantics are distinct.",
+  "frozen_paper_training_code_used": false,
+  "upstream_source_executed": false,
+  "formal_fits": 0,
+  "local_result_file_sync": false
+}

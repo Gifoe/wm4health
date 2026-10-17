@@ -1,0 +1,145 @@
+{
+  "utc": "2026-10-17T20:07:22.067806+00:00",
+  "status": "PRIMARY_SOURCE_BOUNDARIES_AND_ANALYTIC_SPECTRAL_SEMANTICS_RECORDED",
+  "primary_completed": 10,
+  "supplemental_completed": 4,
+  "planned_C54_fits": 16,
+  "DCL_formal_fits": 0,
+  "DCL_discarded_updates": 64,
+  "C54_heldout_opened": false,
+  "accepted_directions": 0,
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "local_result_files_written": 0,
+  "completed_C54_fits": [
+    [
+      {
+        "run": "em_linear_medium_seed0",
+        "method": "em",
+        "task": "linear_medium",
+        "seed": 0,
+        "iterations": 200,
+        "checkpoint_sha256": "5142167ed7dc73171a24a29bb1614a519723b5c0721bb8ba35f1565ab26a96f2",
+        "runtime_seconds": 4.308825699990848
+      },
+      {
+        "run": "em_linear_medium_seed1",
+        "method": "em",
+        "task": "linear_medium",
+        "seed": 1,
+        "iterations": 200,
+        "checkpoint_sha256": "9ec69dbd9fb0c4af07753309c8938153c9d35cec23503f428e51fff1df124b18",
+        "runtime_seconds": 4.070139699993888
+      },
+      {
+        "run": "em_linear_medium_seed2",
+        "method": "em",
+        "task": "linear_medium",
+        "seed": 2,
+        "iterations": 200,
+        "checkpoint_sha256": "85d34e0905ba047c7bb71048ed436f0b0fcc60d7170f05c8dd21079a7a88405a",
+        "runtime_seconds": 4.140516499988735
+      },
+      {
+        "run": "em_linear_small_seed0",
+        "method": "em",
+        "task": "linear_small",
+        "seed": 0,
+        "iterations": 200,
+        "checkpoint_sha256": "0f5e1d99a5a530f510f86c2dbee95060dbb2d3b6bdb0476de0ee685daa0b531a",
+        "runtime_seconds": 2.604956499999389
+      },
+      {
+        "run": "em_linear_small_seed1",
+        "method": "em",
+        "task": "linear_small",
+        "seed": 1,
+        "iterations": 200,
+        "checkpoint_sha256": "63b7f373d5944d71e34880f0e8e0e30bc7d6bbe14a1ce901b83b732d483fa9b4",
+        "runtime_seconds": 2.6042546999815386
+      },
+      {
+        "run": "em_linear_small_seed2",
+        "method": "em",
+        "task": "linear_small",
+        "seed": 2,
+        "iterations": 200,
+        "checkpoint_sha256": "64fbe6aebecd4ff6358d47e6a0cdb75bc0e3b6b6a0c3444893f88dd06e9429f5",
+        "runtime_seconds": 2.6111254999996163
+      },
+      {
+        "run": "rp_linear_medium_seed0",
+        "method": "rp",
+        "task": "linear_medium",
+        "seed": 0,
+        "iterations": 10000,
+        "checkpoint_sha256": "346efcba98ec44a437be1464908111734d975a9bb83a63b4d2a2cb0f018c2a05",
+        "runtime_seconds": 3029.8304696000123
+      },
+      {
+        "run": "rp_linear_small_seed0",
+        "method": "rp",
+        "task": "linear_small",
+        "seed": 0,
+        "iterations": 10000,
+        "checkpoint_sha256": "4443506bd7df41eeccda317d596cf2142f504b7985423c907397d368d66b3e3e",
+        "runtime_seconds": 708.9000696000003
+      },
+      {
+        "run": "rp_linear_small_seed1",
+        "method": "rp",
+        "task": "linear_small",
+        "seed": 1,
+        "iterations": 10000,
+        "checkpoint_sha256": "d4196168f6da9835943a4f3b1c8d6b104e9c8dac788a21205d7df6645e273442",
+        "runtime_seconds": 711.6201809000049
+      },
+      {
+        "run": "rp_linear_small_seed2",
+        "method": "rp",
+        "task": "linear_small",
+        "seed": 2,
+        "iterations": 10000,
+        "checkpoint_sha256": "5c2f7c6bdb2d368c0306ea030817e753e5a5236d215921f143c4d9636cf6e840",
+        "runtime_seconds": 721.0838375000167
+      }
+    ],
+    [
+      {
+        "run": "rp_emtrue_linear_medium_seed0",
+        "method": "rp_emtrue",
+        "task": "linear_medium",
+        "seed": 0,
+        "iterations": 10000,
+        "checkpoint_sha256": "aa5972ad1ee9c01fc64f8f6ba45ff0dbf811233c5c41acdcaca23e329e2f4c05",
+        "runtime_seconds": 1873.512374300015
+      },
+      {
+        "run": "rp_emtrue_linear_medium_seed1",
+        "method": "rp_emtrue",
+        "task": "linear_medium",
+        "seed": 1,
+        "iterations": 10000,
+        "checkpoint_sha256": "a1a1f93fcdc135bec485e4c41cb22799b2c21a5d0c8cb0a4a55f43ed082690e2",
+        "runtime_seconds": 1864.3144924999797
+      },
+      {
+        "run": "rp_emtrue_linear_small_seed0",
+        "method": "rp_emtrue",
+        "task": "linear_small",
+        "seed": 0,
+        "iterations": 10000,
+        "checkpoint_sha256": "d8d8c74c2fc28ad924e5c61e910bd4dfa196f82adfe13762a58b7e6a50a79237",
+        "runtime_seconds": 519.4626205000095
+      },
+      {
+        "run": "rp_emtrue_linear_small_seed1",
+        "method": "rp_emtrue",
+        "task": "linear_small",
+        "seed": 1,
+        "iterations": 10000,
+        "checkpoint_sha256": "a57d820d4e2fdbf7e3e5becc4d7fc5c41b666587efdcf9ee45bc683b3fa9879e",
+        "runtime_seconds": 520.6055294999969
+      }
+    ]
+  ]
+}
