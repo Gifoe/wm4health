@@ -1,0 +1,36 @@
+{
+  "utc": "2026-10-17T23:36:41.371393+00:00",
+  "status": "COMPLETE_FIXED_BUDGET_NSSM_VALIDATION_SELECTED",
+  "system": "N87",
+  "seed": 2022,
+  "tag": "N87_seed2022",
+  "updates": 5000,
+  "parameters": 6312,
+  "device": "cpu",
+  "training_seconds": 112.16008169998531,
+  "initial_checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle60\\N87_seed2022\\initial.pt",
+  "initial_checkpoint_sha256": "92ede63e4d5747718766af4e5fab199df8a6b3cde5b2b07d0275aeae988fc4ba",
+  "selected": {
+    "step": 4250,
+    "validation_mse": 0.020535524934530258,
+    "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle60\\N87_seed2022\\selected_at_step04250.pt",
+    "checkpoint_sha256": "86dbecdaf27d22db6e4d3d68cc2bca49bc602c4002061049c73837fa4f4f3de2"
+  },
+  "terminal_checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle60\\N87_seed2022\\terminal_step05000.pt",
+  "terminal_checkpoint_sha256": "53b92700bafee2484534c62eebf0c1067662ab88f83847fd6275d1aaefb6ad67",
+  "final_training_loss": 0.003053321037441492,
+  "curve_sha256": "7d15530959c00309171b41507a754a170cae80a2f8cc0044c85f02863167f3ca",
+  "data_manifest_sha256": "95df5bb17c9a379dffac913ef25886e57de91641422335af27f918e790249720",
+  "qualification_sha256": "3ba8db78c5b86bd85280bb3653ab86ff76d8e2527690855964201da54f8e8d06",
+  "protocol_sha256": "9db9211520007ca96d9f3bf30f12486322a94f41628d511468a5abb5c57ad93f",
+  "script_sha256": "b06688c7b1301b2aab9cd120626f4c5089ed25d4a4371cf6fb2e32f91ece02ab",
+  "model_adapter_sha256": "f92c9ace24fdf3747cf28c0d344b8fb108fa334494c466d5d658df1871312cd9",
+  "training_reads": [
+    "train",
+    "validation"
+  ],
+  "test_score_selection": false,
+  "source_commit": "7473be56be61b53f4e035db6c41cf4efbdc8cff3",
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "accepted_final_directions": 0
+}

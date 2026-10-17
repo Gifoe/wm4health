@@ -1,0 +1,38 @@
+{
+  "utc": "2026-10-17T23:38:09.118546+00:00",
+  "status": "COMPLETE_FIXED_BUDGET_GRU_VALIDATION_SELECTED",
+  "system": "N87",
+  "seed": 2021,
+  "tag": "GRU_N87_seed2021",
+  "updates": 5000,
+  "parameters": 6241,
+  "device": "cuda",
+  "training_seconds": 9.559610199998133,
+  "initial_checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle60\\GRU_N87_seed2021\\initial.pt",
+  "initial_checkpoint_sha256": "aa85e6a880db3d30573f413194b5d06d9473942726dd76a8a412916158592335",
+  "selected": {
+    "step": 4000,
+    "validation_mse": 0.04067762568593025,
+    "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle60\\GRU_N87_seed2021\\selected_at_step04000.pt",
+    "checkpoint_sha256": "838cf7a20a394c0a1cd7d8a7ad562e57ce9de7c684fb39b267a18945822eebad"
+  },
+  "terminal_checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle60\\GRU_N87_seed2021\\terminal_step05000.pt",
+  "terminal_checkpoint_sha256": "414793b8e2a1813898fa7c29ffcf09b1a8c6841ed9e3b7f5f9170fe3e9ff5b5e",
+  "final_training_loss": 0.0021968716755509377,
+  "curve_sha256": "900fc1b55bc0fb7986c7c04f398dec42ab78ef5b039b3e7de9575bc3fec5d805",
+  "data_manifest_sha256": "95df5bb17c9a379dffac913ef25886e57de91641422335af27f918e790249720",
+  "qualification_sha256": "1c40240272c1869541aedd599204f51c2b62b592c0c8ebf7152ee1fa9fa954c0",
+  "protocol_sha256": "9db9211520007ca96d9f3bf30f12486322a94f41628d511468a5abb5c57ad93f",
+  "amendment_sha256": "530eebb51a00303ea39f900141a73d3ab076befb5bf018ba7ae0d30fd71b7749",
+  "model_implementation": "native torch.nn.GRU encoder/decoder",
+  "script_sha256": "69cb717d931a80f0a4044bc6e673508499e27ab85c416bfa5b9ced027579837b",
+  "model_adapter_sha256": "fbd6aa1b0df48b60bfb9f0553800be1a81e2edc46f1ff8a31c9d27dfed9335e8",
+  "training_reads": [
+    "train",
+    "validation"
+  ],
+  "test_score_selection": false,
+  "source_commit": "7473be56be61b53f4e035db6c41cf4efbdc8cff3",
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "accepted_final_directions": 0
+}

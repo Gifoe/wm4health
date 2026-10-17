@@ -1,0 +1,36 @@
+{
+  "utc": "2026-10-17T23:37:57.988302+00:00",
+  "jobs": [
+    [
+      "N87",
+      2021
+    ],
+    [
+      "N87",
+      2022
+    ],
+    [
+      "N87",
+      2023
+    ],
+    [
+      "pick_place",
+      2021
+    ],
+    [
+      "pick_place",
+      2022
+    ],
+    [
+      "pick_place",
+      2023
+    ]
+  ],
+  "updates_per_fit": 5000,
+  "device": "cuda",
+  "device_qualification_sha256": "1c40240272c1869541aedd599204f51c2b62b592c0c8ebf7152ee1fa9fa954c0",
+  "protocol_sha256": "9db9211520007ca96d9f3bf30f12486322a94f41628d511468a5abb5c57ad93f",
+  "data_manifest_sha256": "95df5bb17c9a379dffac913ef25886e57de91641422335af27f918e790249720",
+  "instability_rule": "Stop and retain a nonfinite training-loss fit; continue other predeclared seeds without retry. Any other implementation error stops the controller for inspection.",
+  "new_neural_test_scores_computed": false
+}

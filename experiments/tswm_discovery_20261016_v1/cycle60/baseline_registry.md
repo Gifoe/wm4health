@@ -1,0 +1,5 @@
+# C60 executed model identities
+
+The 12 original source/data/license objects are byte/Git-blob/SHA256 verified. Native residual state update, linear output and LSTM state estimator are unchanged; the adapter emits after each known input update. Float64 output/gradient and scripted qualification passed; synthetic profiling chose CPU for the tiny scripted NSSM. Standard GRU history encoder/future decoder hidden30 has 6241 parameters and independently qualified CPU/CUDA wiring/gradients; it runs on CUDA concurrently. These are ordinary existing methods.
+
+Both systems use separate fitted weights with one fixed modeling recipe. Native data loader full-record normalization is replaced by fit-only normalization. All C59 N87 short-prefix deterministic controls stay immutable; mechanical static/play/EMA/hybrid/ARX counterparts are validation-selected from 40 candidates before test scoring. The initial prepared-cache path collision and both waiting-scorer versions are retained. No source, package, driver or older result is overwritten.

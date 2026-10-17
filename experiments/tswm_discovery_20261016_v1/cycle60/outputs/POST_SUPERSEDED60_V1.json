@@ -1,0 +1,19 @@
+{
+    "training_owners_untouched":  true,
+    "verified_owned_processes":  [
+                                     {
+                                         "ProcessId":  39488,
+                                         "ParentProcessId":  9204,
+                                         "CommandLine":  "\"D:\\tswm_discovery_20261016_v1\\.venv\\Scripts\\python.exe\" -B -u \"D:\\tswm_discovery_20261016_v1\\cycle60\\scripts\\capture_post60_v1.py\""
+                                     },
+                                     {
+                                         "ProcessId":  35348,
+                                         "ParentProcessId":  39488,
+                                         "CommandLine":  "\"E:\\Anaconda\\envs\\persist_stable_251\\python.exe\" -B -u \"D:\\tswm_discovery_20261016_v1\\cycle60\\scripts\\capture_post60_v1.py\""
+                                     }
+                                 ],
+    "prior_state_sha256":  "66b1b09a4a4cc0e05286d97fb56afa479442feaf2117b4ae065ba7c816bf404f",
+    "reason":  "Validation-only long-rollout instability motivates adding a matched-size ordinary GRU control before first neural heldout scoring.",
+    "utc":  "2026-10-17T23:37:00.9182233Z",
+    "status":  "WAITING_SCORER_SUPERSEDED_BEFORE_ANY_C60_TEST_SCORE"
+}

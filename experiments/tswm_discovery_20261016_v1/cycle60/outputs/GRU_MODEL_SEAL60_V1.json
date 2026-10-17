@@ -1,0 +1,71 @@
+{
+  "utc": "2026-10-17T23:39:06.415341+00:00",
+  "status": "ALL_SIX_GRU_ATTEMPTS_TERMINAL_SELECTED_MODELS_SEALED",
+  "models": [
+    {
+      "tag": "GRU_N87_seed2021",
+      "result_sha256": "1c3bc1fb8b04f27bef77251981ff77d6900dbeed400b583c2cc6c525b9a1570b",
+      "selected": {
+        "step": 4000,
+        "validation_mse": 0.04067762568593025,
+        "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle60\\GRU_N87_seed2021\\selected_at_step04000.pt",
+        "checkpoint_sha256": "838cf7a20a394c0a1cd7d8a7ad562e57ce9de7c684fb39b267a18945822eebad"
+      }
+    },
+    {
+      "tag": "GRU_N87_seed2022",
+      "result_sha256": "6acf3967ef2c2f53bf4c4e18973584a0f907d3b848c64b00eabd9c16e80c0a0f",
+      "selected": {
+        "step": 2500,
+        "validation_mse": 0.06872972100973129,
+        "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle60\\GRU_N87_seed2022\\selected_at_step02500.pt",
+        "checkpoint_sha256": "26278780a5204f4c30c596fa5b0c3c98722be1cafa9d0c6cda5da2c2a9e4c162"
+      }
+    },
+    {
+      "tag": "GRU_N87_seed2023",
+      "result_sha256": "2c11f32f4770517338aaf3e040b871b1a174b7ecffa1d88a45c7e7e98173e014",
+      "selected": {
+        "step": 4750,
+        "validation_mse": 0.03441012278199196,
+        "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle60\\GRU_N87_seed2023\\selected_at_step04750.pt",
+        "checkpoint_sha256": "0c76656c5a3b7705d070690f7115eedeef2bd69b86389c06f57c61087624f910"
+      }
+    },
+    {
+      "tag": "GRU_pick_place_seed2021",
+      "result_sha256": "f0968714e1d9c09ec4951ba735de63795a40f22af2032f9329f69085e2565394",
+      "selected": {
+        "step": 5000,
+        "validation_mse": 0.029093366116285324,
+        "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle60\\GRU_pick_place_seed2021\\selected_at_step05000.pt",
+        "checkpoint_sha256": "45942b32f024f5b180d25eff417dbb9ca3d7b56b5140c1f96959b9d1c86fcc3b"
+      }
+    },
+    {
+      "tag": "GRU_pick_place_seed2022",
+      "result_sha256": "689c15f06194db01212e9cf44704324313ea8195674fae67bc7cf37666a67c5c",
+      "selected": {
+        "step": 1750,
+        "validation_mse": 0.040401019155979156,
+        "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle60\\GRU_pick_place_seed2022\\selected_at_step01750.pt",
+        "checkpoint_sha256": "888e31bc858750728c7797f3b8af79871284e6a726baf0b1f692b66e73eeabc3"
+      }
+    },
+    {
+      "tag": "GRU_pick_place_seed2023",
+      "result_sha256": "192629666812a10ca7b349be85607f5b42a2631e2da276bfa5a927a5032ebbc0",
+      "selected": {
+        "step": 3750,
+        "validation_mse": 0.03583313152194023,
+        "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle60\\GRU_pick_place_seed2023\\selected_at_step03750.pt",
+        "checkpoint_sha256": "3b1062c23b116672789552565489e28898c6a564e1780b9f0e8fb1b183b6512c"
+      }
+    }
+  ],
+  "failed": [],
+  "training_plan_sha256": "17705ca66bea3489eccae7255fc8e8015f93e03760a0ea5aa7a6b5110e2cbb43",
+  "test_scored": false,
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "accepted_final_directions": 0
+}

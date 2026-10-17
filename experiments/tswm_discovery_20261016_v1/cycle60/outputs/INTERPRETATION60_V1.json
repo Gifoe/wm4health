@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-17T23:45:12.264044+00:00",
+  "status": "ORDINARY_NSSM_REPAIRS_BOTH_MEASURED_CONTROLS_MEMORY_NECESSITY_NOT_SUPPORTED",
+  "systems": [
+    {
+      "system": "N87",
+      "native_nssm_three_seed_mean": 0.010175820284462045,
+      "best_ordinary_bank_name": "hybrid",
+      "best_bank_mse": 0.04788214139505977,
+      "relative_reduction_vs_best_bank": 0.7874819298388369,
+      "ordinary_gru_three_seed_mean": 0.04198121864529462
+    },
+    {
+      "system": "pick_place",
+      "native_nssm_three_seed_mean": 0.009752428484935328,
+      "best_ordinary_bank_name": "arx",
+      "best_bank_mse": 0.16839372347875003,
+      "relative_reduction_vs_best_bank": 0.9420855582769627,
+      "ordinary_gru_three_seed_mean": 0.03466636318096857
+    }
+  ],
+  "summary_sha256": "3cb7bc469969fdeec649e423daadbd12df0b3d92214e1b353de658d078ec24fe",
+  "report_sha256": "86462ec29fce640dce5776e642b32919eb4354019cd0a6585b2a0e86c4761365",
+  "accepted_final_directions": 0,
+  "overall_goal": "ACTIVE_UNACHIEVED"
+}

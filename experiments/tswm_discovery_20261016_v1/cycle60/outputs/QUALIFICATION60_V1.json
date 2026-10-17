@@ -1,0 +1,31 @@
+{
+  "utc": "2026-10-17T23:31:17.688403+00:00",
+  "status": "PASS_NATIVE_TIMING_ADAPTER_OUTPUT_GRADIENT_AND_SCRIPT_QUALIFICATION",
+  "source_commit": "7473be56be61b53f4e035db6c41cf4efbdc8cff3",
+  "float64_output_error": 0.0,
+  "float64_gradient_error": 8.673617379884035e-19,
+  "script_error": 0.0,
+  "synthetic_step_timings": {
+    "cpu": {
+      "median_seconds": 0.026297999982489273,
+      "measured_steps": 10,
+      "warmup_steps": 5,
+      "parameters": 6312
+    },
+    "cuda": {
+      "median_seconds": 0.049944750004215166,
+      "measured_steps": 10,
+      "warmup_steps": 5,
+      "parameters": 6312
+    }
+  },
+  "chosen_device": "cpu",
+  "synthetic_profiling_optimizer_steps": 30,
+  "real_data_training_updates": 0,
+  "selection_uses_benchmark_outcomes": false,
+  "torch_version": "2.8.0+cu128",
+  "qualifier_sha256": "7b89cb2ab8840f33cc31a43685490f2de7ac13d11771adcfb4f7a23bc75c005a",
+  "model_adapter_sha256": "f92c9ace24fdf3747cf28c0d344b8fb108fa334494c466d5d658df1871312cd9",
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "accepted_final_directions": 0
+}

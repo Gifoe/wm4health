@@ -1,0 +1,915 @@
+{
+  "utc": "2026-10-17T23:44:25.188442+00:00",
+  "status": "ALL_SELECTED_NSSM_GRU_AND_ORDINARY_CONTROLS_SCORED",
+  "records": [
+    {
+      "system": "N87",
+      "method": "native_component_nssm",
+      "seed": 2021,
+      "tag": "N87_seed2021",
+      "selected_step": 4000,
+      "validation_mse": 0.012673692777752876,
+      "parameters": 6312,
+      "train_updates": 5000,
+      "training_seconds": 113.16708600000129,
+      "primary": {
+        "mean": 0.007644641116561848,
+        "record_values": [
+          0.0065977681847602995,
+          0.008397362428746663,
+          0.011690093294172595,
+          0.002047357839505059,
+          0.0033961182406321835,
+          0.0033070825572983024,
+          0.006058892100177967,
+          0.008792069190033,
+          0.026099320648314085,
+          0.005713776609103448,
+          0.024857595240866354,
+          0.0038854420941931227,
+          0.005274721074885663,
+          0.008872250144093152,
+          0.004862171698913203,
+          0.007370671751738298,
+          0.00667788149642634,
+          0.00231585488866626,
+          0.004496142136034522,
+          0.011442497877841105,
+          0.0035857120299829797,
+          0.004845110918408272,
+          0.0029058587337133547,
+          0.0014488131883174183,
+          0.009208480302936747,
+          0.010471187184461573,
+          0.011785078292947929
+        ],
+        "record_interval95": [
+          0.005283684101158932,
+          0.010005598131964763
+        ],
+        "finite": true
+      },
+      "mean_record_nrmse": 0.08279937877184533,
+      "horizon_prefix_mse": {
+        "1": 0.00315962505328263,
+        "16": 0.002293432738295434,
+        "128": 0.0031338987182668336,
+        "512": 0.003949750128779641,
+        "4908": 0.0076446411165618485
+      },
+      "checkpoint_sha256": "54a3968d4c0f0c42500125d6fe33fd80dd99d7c90d165a353a6616f5a91729ac",
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle60\\test_scores_v2\\N87_seed2021.npz",
+      "arrays_sha256": "707e4f4c0abb00df18d9c9c5287bdb0763245c85aa97a8e3593a2aadbfb9101a",
+      "finite_rollout": true
+    },
+    {
+      "system": "N87",
+      "method": "native_component_nssm",
+      "seed": 2022,
+      "tag": "N87_seed2022",
+      "selected_step": 4250,
+      "validation_mse": 0.020535524934530258,
+      "parameters": 6312,
+      "train_updates": 5000,
+      "training_seconds": 112.16008169998531,
+      "primary": {
+        "mean": 0.017010040176876743,
+        "record_values": [
+          0.02042101397151235,
+          0.023496371379824927,
+          0.022158985163266982,
+          0.007035583310712973,
+          0.009582021174249205,
+          0.013405354838686802,
+          0.007752617137255047,
+          0.028523091669526702,
+          0.0451457723646016,
+          0.0210948549010476,
+          0.02967117299645986,
+          0.004079761388455796,
+          0.004150892141835489,
+          0.01104158187732446,
+          0.00490358030857993,
+          0.010099728497211288,
+          0.0120784267678857,
+          0.012183707714949706,
+          0.023410342576701715,
+          0.029519815364710187,
+          0.014271447906257008,
+          0.010177975741748392,
+          0.0030448874081320616,
+          0.014926736634539502,
+          0.021393843371234778,
+          0.02227010831258471,
+          0.03343140985637733
+        ],
+        "record_interval95": [
+          0.012895767995674145,
+          0.021124312358079343
+        ],
+        "finite": true
+      },
+      "mean_record_nrmse": 0.12596007873713788,
+      "horizon_prefix_mse": {
+        "1": 0.004452274708627516,
+        "16": 0.002518485315128138,
+        "128": 0.005774697024826699,
+        "512": 0.007645768610607206,
+        "4908": 0.017010040176876746
+      },
+      "checkpoint_sha256": "86dbecdaf27d22db6e4d3d68cc2bca49bc602c4002061049c73837fa4f4f3de2",
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle60\\test_scores_v2\\N87_seed2022.npz",
+      "arrays_sha256": "9f7241657ea36959609faff996011d91a7bfd8c0a5f16fccdf5a098896ddd685",
+      "finite_rollout": true
+    },
+    {
+      "system": "N87",
+      "method": "native_component_nssm",
+      "seed": 2023,
+      "tag": "N87_seed2023",
+      "selected_step": 4750,
+      "validation_mse": 0.012005248107016087,
+      "parameters": 6312,
+      "train_updates": 5000,
+      "training_seconds": 118.62475650000852,
+      "primary": {
+        "mean": 0.005872779559947543,
+        "record_values": [
+          0.0021076616712201565,
+          0.0024527824897463716,
+          0.00465126599840922,
+          0.006423777647230028,
+          0.003821488872763192,
+          0.005436605024948932,
+          0.0015732250463509874,
+          0.004445679325418562,
+          0.03959000866523703,
+          0.005831316555937454,
+          0.008542661060879505,
+          0.0025070472223223455,
+          0.003016302189622711,
+          0.0055885421798478165,
+          0.002528672434781325,
+          0.003757970864979133,
+          0.007186581423542731,
+          0.007434556083864956,
+          0.0015309137821725278,
+          0.004271489460270399,
+          0.009246664813977977,
+          0.004059146356299929,
+          0.0018949625094091059,
+          0.008801627922901928,
+          0.0037057477514435273,
+          0.004134491863833594,
+          0.0040238589011722175
+        ],
+        "record_interval95": [
+          0.003067409497253444,
+          0.008678149622641643
+        ],
+        "finite": true
+      },
+      "mean_record_nrmse": 0.07350762619485034,
+      "horizon_prefix_mse": {
+        "1": 0.0012654528595515298,
+        "16": 0.0015143046784407833,
+        "128": 0.002361039630996642,
+        "512": 0.00317919901709899,
+        "4908": 0.005872779559947544
+      },
+      "checkpoint_sha256": "086fb40309025ec9c7825125e800a9945f512ca49d6c01b0bcd23ab7fafbe972",
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle60\\test_scores_v2\\N87_seed2023.npz",
+      "arrays_sha256": "d60f0aed36ee75499fc72ba00c41f7ca1d83886917bfe2424790da94d381bff7",
+      "finite_rollout": true
+    },
+    {
+      "system": "pick_place",
+      "method": "native_component_nssm",
+      "seed": 2021,
+      "tag": "pick_place_seed2021",
+      "selected_step": 2750,
+      "validation_mse": 0.017227480188012123,
+      "parameters": 6312,
+      "train_updates": 5000,
+      "training_seconds": 113.14322500000708,
+      "primary": {
+        "mean": 0.009409621695268973,
+        "record_values": [
+          0.009409621695268973
+        ],
+        "record_interval95": null,
+        "finite": true
+      },
+      "mean_record_nrmse": 0.03681514319819492,
+      "horizon_prefix_mse": {
+        "1": 0.0019168857926386146,
+        "16": 0.002499730530138616,
+        "128": 0.024410475213217937,
+        "512": 0.012857668052131354,
+        "901": 0.009409621695268973
+      },
+      "checkpoint_sha256": "d541c00973d347ff5735a4429f316628742ca8d39856a341ef32d0da443f99d9",
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle60\\test_scores_v2\\pick_place_seed2021.npz",
+      "arrays_sha256": "58c1434d57910ce289a018cf10aeaf7453209f2af05b20e634a773556299df6b",
+      "finite_rollout": true
+    },
+    {
+      "system": "pick_place",
+      "method": "native_component_nssm",
+      "seed": 2022,
+      "tag": "pick_place_seed2022",
+      "selected_step": 4000,
+      "validation_mse": 0.0056695169769227505,
+      "parameters": 6312,
+      "train_updates": 5000,
+      "training_seconds": 110.18618380001863,
+      "primary": {
+        "mean": 0.011103821900480397,
+        "record_values": [
+          0.011103821900480397
+        ],
+        "record_interval95": null,
+        "finite": true
+      },
+      "mean_record_nrmse": 0.03999232527193139,
+      "horizon_prefix_mse": {
+        "1": 4.133021385038901e-05,
+        "16": 0.0018015047107503256,
+        "128": 0.029739112009991103,
+        "512": 0.01853036445415768,
+        "901": 0.011103821900480397
+      },
+      "checkpoint_sha256": "29486e695ce677ad07083f97b2adcc10e82575f61ef17e35db818010abf91d49",
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle60\\test_scores_v2\\pick_place_seed2022.npz",
+      "arrays_sha256": "7b4d2cca005820c0354bff1aa5d3cbf73340614c7cefebedf8892bfe15c3a55e",
+      "finite_rollout": true
+    },
+    {
+      "system": "pick_place",
+      "method": "native_component_nssm",
+      "seed": 2023,
+      "tag": "pick_place_seed2023",
+      "selected_step": 2000,
+      "validation_mse": 0.011966841295361519,
+      "parameters": 6312,
+      "train_updates": 5000,
+      "training_seconds": 110.5100289999973,
+      "primary": {
+        "mean": 0.008743841859056618,
+        "record_values": [
+          0.008743841859056618
+        ],
+        "record_interval95": null,
+        "finite": true
+      },
+      "mean_record_nrmse": 0.03548882001853326,
+      "horizon_prefix_mse": {
+        "1": 0.0011205158953646835,
+        "16": 0.000579315321952287,
+        "128": 0.013170171090111366,
+        "512": 0.010131951184595771,
+        "901": 0.008743841859056618
+      },
+      "checkpoint_sha256": "170b3050cc5bccf4dee953bc9b24d15797c23af4001a70326514a9d1fb084e69",
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle60\\test_scores_v2\\pick_place_seed2023.npz",
+      "arrays_sha256": "cd74272dd56a7312cf4e4f96ad87001526158bfdfc77f000311a75e214cc1521",
+      "finite_rollout": true
+    },
+    {
+      "system": "N87",
+      "method": "ordinary_gru",
+      "seed": 2021,
+      "tag": "GRU_N87_seed2021",
+      "selected_step": 4000,
+      "validation_mse": 0.04067762568593025,
+      "parameters": 6241,
+      "train_updates": 5000,
+      "training_seconds": 9.559610199998133,
+      "primary": {
+        "mean": 0.03430690107731602,
+        "record_values": [
+          0.026446561547648392,
+          0.02523081814664964,
+          0.023144669852231747,
+          0.05253748961464085,
+          0.027974640013859516,
+          0.05575674198581446,
+          0.019549180496267842,
+          0.013972878775936197,
+          0.09738367492672763,
+          0.034829420168497105,
+          0.03170351163846031,
+          0.021035999792225098,
+          0.012132682284852925,
+          0.024899883125484964,
+          0.02630209130897378,
+          0.013716976688358012,
+          0.019832156785213426,
+          0.06654023941539013,
+          0.04255736636739416,
+          0.02784291671111875,
+          0.067589208658306,
+          0.04519739047441113,
+          0.01420150003812604,
+          0.043563745341650806,
+          0.030077621097638656,
+          0.02430795631769877,
+          0.03795900751395618
+        ],
+        "record_interval95": [
+          0.026483748153435405,
+          0.04213005400119664
+        ],
+        "finite": true
+      },
+      "mean_record_nrmse": 0.19288125097102998,
+      "horizon_prefix_mse": {
+        "1": 0.005438869201995346,
+        "16": 0.003164296064748864,
+        "128": 0.003519712715958329,
+        "512": 0.008575699533134706,
+        "4908": 0.034306901077316015
+      },
+      "checkpoint_sha256": "838cf7a20a394c0a1cd7d8a7ad562e57ce9de7c684fb39b267a18945822eebad",
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle60\\test_scores_v2\\GRU_N87_seed2021.npz",
+      "arrays_sha256": "0077c42a432318eceb7d13b676d845f4cc1bf71affe0e6b628fc28c84811524b",
+      "finite_rollout": true
+    },
+    {
+      "system": "N87",
+      "method": "ordinary_gru",
+      "seed": 2022,
+      "tag": "GRU_N87_seed2022",
+      "selected_step": 2500,
+      "validation_mse": 0.06872972100973129,
+      "parameters": 6241,
+      "train_updates": 5000,
+      "training_seconds": 9.437513899989426,
+      "primary": {
+        "mean": 0.0628379241403764,
+        "record_values": [
+          0.01308241109376802,
+          0.0065866973099505755,
+          0.045817071384150344,
+          0.061761580929887656,
+          0.022581621036021383,
+          0.06342863558891657,
+          0.022270436498948776,
+          0.07405886830693145,
+          0.578579559889548,
+          0.021901202835305278,
+          0.016691061531460216,
+          0.017209640455601385,
+          0.011375478951443292,
+          0.16391122862265456,
+          0.02947290769985616,
+          0.00842674538193352,
+          0.12999277911963442,
+          0.08204295427581969,
+          0.022018257453434716,
+          0.07748607556271943,
+          0.07392879763330161,
+          0.0437579403305655,
+          0.02043954119607702,
+          0.05022956007763122,
+          0.016640341728586232,
+          0.010585804353154813,
+          0.012346752542860742
+        ],
+        "record_interval95": [
+          0.019312663694062933,
+          0.10636318458668986
+        ],
+        "finite": true
+      },
+      "mean_record_nrmse": 0.21349868984223974,
+      "horizon_prefix_mse": {
+        "1": 0.011472494382437392,
+        "16": 0.004635334420612741,
+        "128": 0.005064848963245538,
+        "512": 0.015880004666022966,
+        "4908": 0.06283792414037641
+      },
+      "checkpoint_sha256": "26278780a5204f4c30c596fa5b0c3c98722be1cafa9d0c6cda5da2c2a9e4c162",
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle60\\test_scores_v2\\GRU_N87_seed2022.npz",
+      "arrays_sha256": "3cdcf614fca45804914d7420d02149ec73aabefb088cf65077f372da5e8b4417",
+      "finite_rollout": true
+    },
+    {
+      "system": "N87",
+      "method": "ordinary_gru",
+      "seed": 2023,
+      "tag": "GRU_N87_seed2023",
+      "selected_step": 4750,
+      "validation_mse": 0.03441012278199196,
+      "parameters": 6241,
+      "train_updates": 5000,
+      "training_seconds": 9.52775219999603,
+      "primary": {
+        "mean": 0.028798830718191448,
+        "record_values": [
+          0.021355719284566088,
+          0.015209869093770076,
+          0.02140575260962249,
+          0.0336808922675949,
+          0.03754233659329893,
+          0.054131189962914536,
+          0.00860909713022936,
+          0.013014984310840765,
+          0.06462751304818985,
+          0.021733234970600833,
+          0.02892570885058167,
+          0.015914751525701393,
+          0.009750709117729395,
+          0.029758210802438505,
+          0.028986985154864017,
+          0.015310184073521733,
+          0.03633056319514457,
+          0.05630461491844877,
+          0.025236086094909425,
+          0.04479146055207531,
+          0.047874755786824284,
+          0.026072664254310048,
+          0.006354759444480838,
+          0.040070003262519645,
+          0.024383233842712387,
+          0.018002796772879824,
+          0.03219035247039945
+        ],
+        "record_interval95": [
+          0.02280435086581694,
+          0.034793310570565956
+        ],
+        "finite": true
+      },
+      "mean_record_nrmse": 0.17454141086234476,
+      "horizon_prefix_mse": {
+        "1": 0.0058853869373927835,
+        "16": 0.004865614724466455,
+        "128": 0.0044146871487173575,
+        "512": 0.010205763435080296,
+        "4908": 0.028798830718191448
+      },
+      "checkpoint_sha256": "0c76656c5a3b7705d070690f7115eedeef2bd69b86389c06f57c61087624f910",
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle60\\test_scores_v2\\GRU_N87_seed2023.npz",
+      "arrays_sha256": "9f94785868f91f4d675c034d2fd7eab2a255c8060b76ea0b2c5c6422d97f5eca",
+      "finite_rollout": true
+    },
+    {
+      "system": "pick_place",
+      "method": "ordinary_gru",
+      "seed": 2021,
+      "tag": "GRU_pick_place_seed2021",
+      "selected_step": 5000,
+      "validation_mse": 0.029093366116285324,
+      "parameters": 6241,
+      "train_updates": 5000,
+      "training_seconds": 9.50211840000702,
+      "primary": {
+        "mean": 0.02864151636675766,
+        "record_values": [
+          0.02864151636675766
+        ],
+        "record_interval95": null,
+        "finite": true
+      },
+      "mean_record_nrmse": 0.06423007304594676,
+      "horizon_prefix_mse": {
+        "1": 0.004617012229496945,
+        "16": 0.0033520030905960264,
+        "128": 0.02941582837082704,
+        "512": 0.03401196139006558,
+        "901": 0.02864151636675766
+      },
+      "checkpoint_sha256": "45942b32f024f5b180d25eff417dbb9ca3d7b56b5140c1f96959b9d1c86fcc3b",
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle60\\test_scores_v2\\GRU_pick_place_seed2021.npz",
+      "arrays_sha256": "ed8892478611c290776aa8c20b58eda412d23cbf52f1c86f83bb1276a23a7138",
+      "finite_rollout": true
+    },
+    {
+      "system": "pick_place",
+      "method": "ordinary_gru",
+      "seed": 2022,
+      "tag": "GRU_pick_place_seed2022",
+      "selected_step": 1750,
+      "validation_mse": 0.040401019155979156,
+      "parameters": 6241,
+      "train_updates": 5000,
+      "training_seconds": 9.435620600008406,
+      "primary": {
+        "mean": 0.04511371057920059,
+        "record_values": [
+          0.04511371057920059
+        ],
+        "record_interval95": null,
+        "finite": true
+      },
+      "mean_record_nrmse": 0.0806110701968924,
+      "horizon_prefix_mse": {
+        "1": 0.0034421624294184335,
+        "16": 0.002149579311591775,
+        "128": 0.06250622544553466,
+        "512": 0.05246573827484263,
+        "901": 0.04511371057920059
+      },
+      "checkpoint_sha256": "888e31bc858750728c7797f3b8af79871284e6a726baf0b1f692b66e73eeabc3",
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle60\\test_scores_v2\\GRU_pick_place_seed2022.npz",
+      "arrays_sha256": "4f39475dadad3ae6c04f17872a694e92a12e368acf45e7af2dd1eeb6ab77fdc9",
+      "finite_rollout": true
+    },
+    {
+      "system": "pick_place",
+      "method": "ordinary_gru",
+      "seed": 2023,
+      "tag": "GRU_pick_place_seed2023",
+      "selected_step": 3750,
+      "validation_mse": 0.03583313152194023,
+      "parameters": 6241,
+      "train_updates": 5000,
+      "training_seconds": 9.42922200000612,
+      "primary": {
+        "mean": 0.030243862596947467,
+        "record_values": [
+          0.030243862596947467
+        ],
+        "record_interval95": null,
+        "finite": true
+      },
+      "mean_record_nrmse": 0.06600229555537641,
+      "horizon_prefix_mse": {
+        "1": 0.00010093460186745712,
+        "16": 0.0005706073589082823,
+        "128": 0.0500116438764341,
+        "512": 0.032917497300889595,
+        "901": 0.030243862596947467
+      },
+      "checkpoint_sha256": "3b1062c23b116672789552565489e28898c6a564e1780b9f0e8fb1b183b6512c",
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle60\\test_scores_v2\\GRU_pick_place_seed2023.npz",
+      "arrays_sha256": "900a28aede884ae565726caf841be62660d2a05fa9a28850260abc88caf43b55",
+      "finite_rollout": true
+    },
+    {
+      "system": "pick_place",
+      "method": "static",
+      "seed": null,
+      "tag": "pick_place_static",
+      "validation_mse": 0.33138856596752336,
+      "parameters": 5,
+      "train_updates": 0,
+      "primary": {
+        "mean": 0.3961645775053478,
+        "record_values": [
+          0.3961645775053478
+        ],
+        "record_interval95": null,
+        "finite": true
+      },
+      "checkpoint_sha256": "7cfbf82256c6982dc74de21849f1612921eca4a6aa2f9f3ca6f8dfbf5a2c6047",
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle60\\test_scores_v2\\pick_place_static.npz",
+      "arrays_sha256": "707a7f4cae595870645a9528d0241c23a51e200d52bf5a07c249343bcad0dc81",
+      "finite_rollout": true
+    },
+    {
+      "system": "pick_place",
+      "method": "play",
+      "seed": null,
+      "tag": "pick_place_play",
+      "validation_mse": 0.3233530540586118,
+      "parameters": 21,
+      "train_updates": 0,
+      "primary": {
+        "mean": 0.646617916376865,
+        "record_values": [
+          0.646617916376865
+        ],
+        "record_interval95": null,
+        "finite": true
+      },
+      "checkpoint_sha256": "1ee2d110ea47d8722d20ded5a33eefae1640817a6134c576a245a3cef0556774",
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle60\\test_scores_v2\\pick_place_play.npz",
+      "arrays_sha256": "3b284b375970b62e2e6f3619f6a65e5212d440dc7fc10089ea46781351f2e824",
+      "finite_rollout": true
+    },
+    {
+      "system": "pick_place",
+      "method": "ema",
+      "seed": null,
+      "tag": "pick_place_ema",
+      "validation_mse": 0.11256638438179525,
+      "parameters": 13,
+      "train_updates": 0,
+      "primary": {
+        "mean": 0.2792216377963806,
+        "record_values": [
+          0.2792216377963806
+        ],
+        "record_interval95": null,
+        "finite": true
+      },
+      "checkpoint_sha256": "705be8126e4ffa8a4b9e5a2813e92ee8715050a81afb35e24d11c234d07fc9eb",
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle60\\test_scores_v2\\pick_place_ema.npz",
+      "arrays_sha256": "396a6d1a65262abd3c4888e82d3b2f55449fa191a3f954293b4ee2d992f099ec",
+      "finite_rollout": true
+    },
+    {
+      "system": "pick_place",
+      "method": "hybrid",
+      "seed": null,
+      "tag": "pick_place_hybrid",
+      "validation_mse": 0.10903588428680423,
+      "parameters": 29,
+      "train_updates": 0,
+      "primary": {
+        "mean": 0.5123659916543407,
+        "record_values": [
+          0.5123659916543407
+        ],
+        "record_interval95": null,
+        "finite": true
+      },
+      "checkpoint_sha256": "e7cc2d4a95c7ade1b8644b05f99f0ff81b1b3f02b72c031676332ce2a758800d",
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle60\\test_scores_v2\\pick_place_hybrid.npz",
+      "arrays_sha256": "2e3c911098ec339fc379003a7bef977dd3d63104b80f7c2ebf8f4362c08434c6",
+      "finite_rollout": true
+    },
+    {
+      "system": "pick_place",
+      "method": "arx",
+      "seed": null,
+      "tag": "pick_place_arx",
+      "validation_mse": 0.21596786705775128,
+      "parameters": 6,
+      "train_updates": 0,
+      "primary": {
+        "mean": 0.16839372347875003,
+        "record_values": [
+          0.16839372347875003
+        ],
+        "record_interval95": null,
+        "finite": true
+      },
+      "checkpoint_sha256": "02189033b53370a2fad2ec87fd2d8de2ae24081e80b1ba9786ddfbc6987a01d8",
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle60\\test_scores_v2\\pick_place_arx.npz",
+      "arrays_sha256": "ff0f7e2e934e7a428318cffb80d01b425b024b3fea0f0ca1ee7f3ad19de24162",
+      "finite_rollout": true
+    },
+    {
+      "system": "N87",
+      "method": "static",
+      "seed": null,
+      "tag": "C59_static_prefix100",
+      "validation_mse": 0.11613581159476602,
+      "parameters": 5,
+      "train_updates": 0,
+      "primary": {
+        "mean": 0.1182160873262301,
+        "record_values": [
+          0.17813417895221895,
+          0.17768692342891404,
+          0.16800635237979133,
+          0.05610145425585798,
+          0.063835321257146,
+          0.03387763264589129,
+          0.04496569246686195,
+          0.14461491648633504,
+          0.5933693398506025,
+          0.06398074389017283,
+          0.14796614583321538,
+          0.06500499964024423,
+          0.07763889824484209,
+          0.17068137715099652,
+          0.08179099495507906,
+          0.08639210205149979,
+          0.24341003675174558,
+          0.05488592726119811,
+          0.06522519838903307,
+          0.19070328449838694,
+          0.07814300387263354,
+          0.04927419175645372,
+          0.0419427570500857,
+          0.026558728610136084,
+          0.09241444058004238,
+          0.06278391418127056,
+          0.13244580136755757
+        ],
+        "record_interval95": [
+          0.07425913862870565,
+          0.16217303602375455
+        ],
+        "finite": true
+      },
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle59\\baseline_screen_v1\\static_prefix100_test_predictions.npz",
+      "arrays_sha256": "73f34114b48da54ed0a718a36b80efed232c0edcfe3fd1154434d81289b1192a",
+      "finite_rollout": true,
+      "historical_C59_control": true
+    },
+    {
+      "system": "N87",
+      "method": "play",
+      "seed": null,
+      "tag": "C59_play_prefix100",
+      "validation_mse": 0.044391883267247724,
+      "parameters": 21,
+      "train_updates": 0,
+      "primary": {
+        "mean": 0.051698234491210596,
+        "record_values": [
+          0.059266087740532034,
+          0.03900315622965204,
+          0.05382619063848302,
+          0.005649594629786059,
+          0.018895974751645544,
+          0.0031161863559976857,
+          0.01942930074849987,
+          0.04778487487861134,
+          0.43888640685499597,
+          0.006129116470250421,
+          0.029297019936972875,
+          0.006870723002900789,
+          0.020324526611120632,
+          0.1631318546083583,
+          0.035849002152939506,
+          0.05808775990460614,
+          0.07695934148795137,
+          0.045859704565676965,
+          0.00914819120422514,
+          0.09172929032681172,
+          0.00849415868340574,
+          0.004046470088420073,
+          0.004019321555825631,
+          0.0021443226535606203,
+          0.008848633876091003,
+          0.012015016036370299,
+          0.12704010526899542
+        ],
+        "record_interval95": [
+          0.01725795257837217,
+          0.08613851640404901
+        ],
+        "finite": true
+      },
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle59\\baseline_screen_v1\\play_prefix100_test_predictions.npz",
+      "arrays_sha256": "3d4741cb4a4429f457fceb0e2798dda5e15aac9f6218d4712b910406d97c7581",
+      "finite_rollout": true,
+      "historical_C59_control": true
+    },
+    {
+      "system": "N87",
+      "method": "ema",
+      "seed": null,
+      "tag": "C59_ema_prefix100",
+      "validation_mse": 0.051790590454618854,
+      "parameters": 13,
+      "train_updates": 0,
+      "primary": {
+        "mean": 0.06332082901880944,
+        "record_values": [
+          0.06437343968461075,
+          0.0652871746134914,
+          0.04583313209578804,
+          0.018809759204657682,
+          0.01797156472623721,
+          0.009743020910303655,
+          0.02181299161704555,
+          0.043899434698173416,
+          0.6297382602841637,
+          0.018530642043783137,
+          0.036749748496341564,
+          0.010124251862794493,
+          0.031946363708790546,
+          0.1483832461712539,
+          0.052830134662394695,
+          0.07942493881237803,
+          0.07979503489747719,
+          0.07275046603547852,
+          0.012589179855432753,
+          0.05776001451091426,
+          0.02840089157907507,
+          0.012774928016963009,
+          0.005221434883681642,
+          0.010042940066189245,
+          0.011591156272462806,
+          0.021299719536410543,
+          0.101978514261562
+        ],
+        "record_interval95": [
+          0.016567833983707467,
+          0.1100738240539114
+        ],
+        "finite": true
+      },
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle59\\baseline_screen_v1\\ema_prefix100_test_predictions.npz",
+      "arrays_sha256": "1621cc637a3cb257060a5a13b9749ca6a6dba9109cf79640b7636a3d128f7d43",
+      "finite_rollout": true,
+      "historical_C59_control": true
+    },
+    {
+      "system": "N87",
+      "method": "hybrid",
+      "seed": null,
+      "tag": "C59_hybrid_prefix100",
+      "validation_mse": 0.04343059465814975,
+      "parameters": 29,
+      "train_updates": 0,
+      "primary": {
+        "mean": 0.04788214139505977,
+        "record_values": [
+          0.030854309212075184,
+          0.04062695774361094,
+          0.0626870671572838,
+          0.017915284266173146,
+          0.012860207975304282,
+          0.0067240028839880735,
+          0.006544985295793066,
+          0.027411727746911693,
+          0.5085140793304139,
+          0.004048427955714414,
+          0.018631555196839993,
+          0.011323848816969628,
+          0.025401285273452128,
+          0.12700727472612103,
+          0.013940566854921458,
+          0.0760429451221365,
+          0.053147354365002016,
+          0.01384388954237321,
+          0.01280444913699944,
+          0.07618338599777012,
+          0.01779740831156525,
+          0.011324293340251704,
+          0.007358663519646536,
+          0.004546907039940069,
+          0.008590500361587667,
+          0.01526559696220295,
+          0.08142084353156565
+        ],
+        "record_interval95": [
+          0.00954218883544123,
+          0.08622209395467831
+        ],
+        "finite": true
+      },
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle59\\baseline_screen_v1\\hybrid_prefix100_test_predictions.npz",
+      "arrays_sha256": "5e3257fcefe26d214fc49cf891ec2c06d443275c9c879aa055e46b340c99d8fd",
+      "finite_rollout": true,
+      "historical_C59_control": true
+    },
+    {
+      "system": "N87",
+      "method": "arx",
+      "seed": null,
+      "tag": "C59_arx_prefix100",
+      "validation_mse": 0.07007165736940425,
+      "parameters": 6,
+      "train_updates": 0,
+      "primary": {
+        "mean": 0.05848942640796863,
+        "record_values": [
+          0.03109814423628393,
+          0.04108350260287597,
+          0.08720620298675383,
+          0.031864075739115864,
+          0.03459835679971836,
+          0.02547510799813855,
+          0.023528243082704403,
+          0.10867976387517397,
+          0.40786503570196886,
+          0.020264555406785758,
+          0.034451084997501644,
+          0.021375790793910603,
+          0.02501860665150193,
+          0.11466490907686173,
+          0.017137019730937005,
+          0.04959528162110873,
+          0.14523258511428586,
+          0.026559963086595313,
+          0.029099955669476426,
+          0.10471157892441343,
+          0.02941321322500693,
+          0.021694542700931588,
+          0.01701295488585349,
+          0.022139197864152967,
+          0.02251167575031674,
+          0.03892640268997194,
+          0.048006761802806996
+        ],
+        "record_interval95": [
+          0.02764128776136885,
+          0.08933756505456841
+        ],
+        "finite": true
+      },
+      "arrays": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle59\\baseline_screen_v1\\arx_prefix100_test_predictions.npz",
+      "arrays_sha256": "c03aa8e5716800c1041888de484e4a204789203f0afb3cdd9922988dc849f71b",
+      "finite_rollout": true,
+      "historical_C59_control": true
+    }
+  ],
+  "failed_training_attempts": [],
+  "model_seal_sha256": "459551290cad272a4711618f1e4a96d99c86f35c5b53f1a8111cfe0c96b1c414",
+  "bank_seal_sha256": "97af0e416d956a50d9d2db4da010bf62df5e69432321ee0a5a1a0c5e25d10c79",
+  "test_open_sha256": "5ca597b8fbab7ef80d2a48a2dd0ebfce8f9bc9a98047a5f944b03cc6e04be42b",
+  "script_sha256": "b4f26c1899824f4e581259e48833f2b849cbc1ecc72694e342975a559f4c30a5",
+  "scope": "Two separately fitted measured systems. N87 reuses a historically viewed exploratory split; pick-place has one complete chronological test record. No shared-checkpoint transfer or causal intervention claim.",
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "accepted_final_directions": 0
+}

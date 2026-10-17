@@ -1,0 +1,68 @@
+{
+  "utc": "2026-10-17T23:44:21.467211+00:00",
+  "pid": 25148,
+  "status": "ALL_SIX_ATTEMPTS_TERMINAL_MODEL_SEAL_READY_FOR_SCORING",
+  "completed": [
+    {
+      "tag": "N87_seed2021",
+      "result_sha256": "df28a62f54f330a15a968e5f5aa7c781aad2599b127d6cedfcb32c77a3f15f10",
+      "selected": {
+        "step": 4000,
+        "validation_mse": 0.012673692777752876,
+        "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle60\\N87_seed2021\\selected_at_step04000.pt",
+        "checkpoint_sha256": "54a3968d4c0f0c42500125d6fe33fd80dd99d7c90d165a353a6616f5a91729ac"
+      }
+    },
+    {
+      "tag": "N87_seed2022",
+      "result_sha256": "3c792bd6d9a767344cda92aeabcd48576135f48ec62b9ff4623f4a2bf9cc8197",
+      "selected": {
+        "step": 4250,
+        "validation_mse": 0.020535524934530258,
+        "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle60\\N87_seed2022\\selected_at_step04250.pt",
+        "checkpoint_sha256": "86dbecdaf27d22db6e4d3d68cc2bca49bc602c4002061049c73837fa4f4f3de2"
+      }
+    },
+    {
+      "tag": "N87_seed2023",
+      "result_sha256": "7b01708da6ea2ec1dc21ef93164b270ce64bc4aacd6f17a361ab59b6ba4a5a71",
+      "selected": {
+        "step": 4750,
+        "validation_mse": 0.012005248107016087,
+        "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle60\\N87_seed2023\\selected_at_step04750.pt",
+        "checkpoint_sha256": "086fb40309025ec9c7825125e800a9945f512ca49d6c01b0bcd23ab7fafbe972"
+      }
+    },
+    {
+      "tag": "pick_place_seed2021",
+      "result_sha256": "e5cf0bb96a764d9792a9fe96479b889a3dbd4c7b2063ee75c9c189cd6dbfb9c1",
+      "selected": {
+        "step": 2750,
+        "validation_mse": 0.017227480188012123,
+        "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle60\\pick_place_seed2021\\selected_at_step02750.pt",
+        "checkpoint_sha256": "d541c00973d347ff5735a4429f316628742ca8d39856a341ef32d0da443f99d9"
+      }
+    },
+    {
+      "tag": "pick_place_seed2022",
+      "result_sha256": "00755c9794bed6303e013893825b23c63ae0923f87a2a93e889a8b6246ea9e39",
+      "selected": {
+        "step": 4000,
+        "validation_mse": 0.0056695169769227505,
+        "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle60\\pick_place_seed2022\\selected_at_step04000.pt",
+        "checkpoint_sha256": "29486e695ce677ad07083f97b2adcc10e82575f61ef17e35db818010abf91d49"
+      }
+    },
+    {
+      "tag": "pick_place_seed2023",
+      "result_sha256": "cc680236035b6ca1cf003f6035f889eff6a7bc24088fc9a089fff38c6a0cb84f",
+      "selected": {
+        "step": 2000,
+        "validation_mse": 0.011966841295361519,
+        "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle60\\pick_place_seed2023\\selected_at_step02000.pt",
+        "checkpoint_sha256": "170b3050cc5bccf4dee953bc9b24d15797c23af4001a70326514a9d1fb084e69"
+      }
+    }
+  ],
+  "failed": []
+}

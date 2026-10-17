@@ -1,0 +1,142 @@
+{
+  "utc": "2026-10-17T23:31:13.268560+00:00",
+  "status": "TWO_SYSTEM_CAUSAL_INPUT_AND_FIT_ONLY_NORMALIZATION_PREPARED",
+  "source_commit": "7473be56be61b53f4e035db6c41cf4efbdc8cff3",
+  "source_receipt_sha256": "be6576b3ac1dc4b5cfe94b93346427d01d6fe6680ed3985e59903c3842071183",
+  "protocol_sha256": "9db9211520007ca96d9f3bf30f12486322a94f41628d511468a5abb5c57ad93f",
+  "script_sha256": "01bdc2cce4a8706a641ddc22db148fd6d3bc9a4129bbda7f76646c1b387406ee",
+  "systems": {
+    "N87": {
+      "normalization": {
+        "u_mean": 8.724937540928635e-07,
+        "u_std": 0.08662272484383783,
+        "y_mean": -0.5869437207660868,
+        "y_std": 15.286605739655306,
+        "fit_only": true
+      },
+      "splits": [
+        {
+          "split": "train",
+          "u_shape": [
+            76,
+            5008,
+            2
+          ],
+          "y_shape": [
+            76,
+            5008,
+            1
+          ],
+          "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle60\\prepared_v2\\N87\\train.npz",
+          "sha256": "bba3c2297fb25761afb885a8ce9b6340589df67fde973cdb63ddc59e3441cf58"
+        },
+        {
+          "split": "validation",
+          "u_shape": [
+            25,
+            5008,
+            2
+          ],
+          "y_shape": [
+            25,
+            5008,
+            1
+          ],
+          "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle60\\prepared_v2\\N87\\validation.npz",
+          "sha256": "fafa42397f27e20ea0fa0af53bf2f7e27f5d16c23af69c9f924409c36758bfc1"
+        },
+        {
+          "split": "test",
+          "u_shape": [
+            27,
+            5008,
+            2
+          ],
+          "y_shape": [
+            27,
+            5008,
+            1
+          ],
+          "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle60\\prepared_v2\\N87\\test.npz",
+          "sha256": "2c2917f2055f1cd2a666225555a529ce72512cb46682869fffc135f493c4c520"
+        }
+      ],
+      "physical_dt_seconds": 6.25e-08,
+      "test_prefix": 100,
+      "split_semantics": "C59 complete-row grouping; historical test scores known",
+      "source_raw_sha256": [
+        "cd82739ce1999ea82c431490404f17fcc4caff4be9ef98714e0e808aa7383834",
+        "5a93bcaa03108b055e78cfe22cb7aa880ad60aad147f975f66c04248563a5364",
+        "599c76ee0ee686146bc0c8aa765ac67195ea38dd810f6832715f6997a991c436"
+      ],
+      "raw_shape": [
+        128,
+        5008
+      ]
+    },
+    "pick_place": {
+      "normalization": {
+        "u_mean": -0.07893264917282278,
+        "u_std": 0.027765767813857034,
+        "y_mean": 12.97087875,
+        "y_std": 4.773215636135501,
+        "fit_only": true
+      },
+      "splits": [
+        {
+          "split": "train",
+          "u_shape": [
+            1,
+            4000,
+            2
+          ],
+          "y_shape": [
+            1,
+            4000,
+            1
+          ],
+          "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle60\\prepared_v2\\pick_place\\train.npz",
+          "sha256": "b42a6f5af93825058dd5eb2ccff343485f4a8248347359b234d99bc222f571af"
+        },
+        {
+          "split": "validation",
+          "u_shape": [
+            1,
+            1000,
+            2
+          ],
+          "y_shape": [
+            1,
+            1000,
+            1
+          ],
+          "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle60\\prepared_v2\\pick_place\\validation.npz",
+          "sha256": "52fbe6e13197117748e5cce7e70f9974047221a4d7c0a784081b72bf512456b2"
+        },
+        {
+          "split": "test",
+          "u_shape": [
+            1,
+            1001,
+            2
+          ],
+          "y_shape": [
+            1,
+            1001,
+            1
+          ],
+          "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle60\\prepared_v2\\pick_place\\test.npz",
+          "sha256": "3ce5ce8455881e8e46ffb83ca0fab3aeaffa10b301c08d798997e986e2047777"
+        }
+      ],
+      "physical_dt_seconds": 0.0024999999999986144,
+      "test_prefix": 100,
+      "split_semantics": "Raw chronological 0:40000 /40000:50000 /50000:end, source decimation every tenth point; custom prefix100 forecast protocol",
+      "source_raw_sha256": "63f43427579125940bfed469433800cac814d0547f843a2b91fb12dc3da2e113",
+      "raw_shape": [
+        60001,
+        1
+      ]
+    }
+  }
+}

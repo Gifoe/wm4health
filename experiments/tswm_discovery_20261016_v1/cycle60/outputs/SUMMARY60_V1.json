@@ -1,0 +1,368 @@
+{
+  "utc": "2026-10-17T23:44:32.211015+00:00",
+  "status": "C60_SEALED_TWO_SYSTEM_CONTROLS_INTERPRETED",
+  "groups": {
+    "N87": {
+      "native_component_nssm": {
+        "expected_fits": 3,
+        "completed_fits": 3,
+        "training_failures": 0,
+        "finite_rollouts": 3,
+        "all_expected_outcomes_finite": true,
+        "mean_primary_all_expected": 0.010175820284462045,
+        "seed_sd": 0.005984546306726977,
+        "per_fit_primary": [
+          {
+            "tag": "N87_seed2021",
+            "seed": 2021,
+            "value": 0.007644641116561848
+          },
+          {
+            "tag": "N87_seed2022",
+            "seed": 2022,
+            "value": 0.017010040176876743
+          },
+          {
+            "tag": "N87_seed2023",
+            "seed": 2023,
+            "value": 0.005872779559947543
+          }
+        ]
+      },
+      "ordinary_gru": {
+        "expected_fits": 3,
+        "completed_fits": 3,
+        "training_failures": 0,
+        "finite_rollouts": 3,
+        "all_expected_outcomes_finite": true,
+        "mean_primary_all_expected": 0.04198121864529462,
+        "seed_sd": 0.018271188599861186,
+        "per_fit_primary": [
+          {
+            "tag": "GRU_N87_seed2021",
+            "seed": 2021,
+            "value": 0.03430690107731602
+          },
+          {
+            "tag": "GRU_N87_seed2022",
+            "seed": 2022,
+            "value": 0.0628379241403764
+          },
+          {
+            "tag": "GRU_N87_seed2023",
+            "seed": 2023,
+            "value": 0.028798830718191448
+          }
+        ]
+      },
+      "static": {
+        "expected_fits": 1,
+        "completed_fits": 1,
+        "training_failures": 0,
+        "finite_rollouts": 1,
+        "all_expected_outcomes_finite": true,
+        "mean_primary_all_expected": 0.1182160873262301,
+        "seed_sd": null,
+        "per_fit_primary": [
+          {
+            "tag": "C59_static_prefix100",
+            "seed": null,
+            "value": 0.1182160873262301
+          }
+        ]
+      },
+      "play": {
+        "expected_fits": 1,
+        "completed_fits": 1,
+        "training_failures": 0,
+        "finite_rollouts": 1,
+        "all_expected_outcomes_finite": true,
+        "mean_primary_all_expected": 0.051698234491210596,
+        "seed_sd": null,
+        "per_fit_primary": [
+          {
+            "tag": "C59_play_prefix100",
+            "seed": null,
+            "value": 0.051698234491210596
+          }
+        ]
+      },
+      "ema": {
+        "expected_fits": 1,
+        "completed_fits": 1,
+        "training_failures": 0,
+        "finite_rollouts": 1,
+        "all_expected_outcomes_finite": true,
+        "mean_primary_all_expected": 0.06332082901880944,
+        "seed_sd": null,
+        "per_fit_primary": [
+          {
+            "tag": "C59_ema_prefix100",
+            "seed": null,
+            "value": 0.06332082901880944
+          }
+        ]
+      },
+      "hybrid": {
+        "expected_fits": 1,
+        "completed_fits": 1,
+        "training_failures": 0,
+        "finite_rollouts": 1,
+        "all_expected_outcomes_finite": true,
+        "mean_primary_all_expected": 0.04788214139505977,
+        "seed_sd": null,
+        "per_fit_primary": [
+          {
+            "tag": "C59_hybrid_prefix100",
+            "seed": null,
+            "value": 0.04788214139505977
+          }
+        ]
+      },
+      "arx": {
+        "expected_fits": 1,
+        "completed_fits": 1,
+        "training_failures": 0,
+        "finite_rollouts": 1,
+        "all_expected_outcomes_finite": true,
+        "mean_primary_all_expected": 0.05848942640796863,
+        "seed_sd": null,
+        "per_fit_primary": [
+          {
+            "tag": "C59_arx_prefix100",
+            "seed": null,
+            "value": 0.05848942640796863
+          }
+        ]
+      }
+    },
+    "pick_place": {
+      "native_component_nssm": {
+        "expected_fits": 3,
+        "completed_fits": 3,
+        "training_failures": 0,
+        "finite_rollouts": 3,
+        "all_expected_outcomes_finite": true,
+        "mean_primary_all_expected": 0.009752428484935328,
+        "seed_sd": 0.0012167636665600516,
+        "per_fit_primary": [
+          {
+            "tag": "pick_place_seed2021",
+            "seed": 2021,
+            "value": 0.009409621695268973
+          },
+          {
+            "tag": "pick_place_seed2022",
+            "seed": 2022,
+            "value": 0.011103821900480397
+          },
+          {
+            "tag": "pick_place_seed2023",
+            "seed": 2023,
+            "value": 0.008743841859056618
+          }
+        ]
+      },
+      "ordinary_gru": {
+        "expected_fits": 3,
+        "completed_fits": 3,
+        "training_failures": 0,
+        "finite_rollouts": 3,
+        "all_expected_outcomes_finite": true,
+        "mean_primary_all_expected": 0.03466636318096857,
+        "seed_sd": 0.009083071017274931,
+        "per_fit_primary": [
+          {
+            "tag": "GRU_pick_place_seed2021",
+            "seed": 2021,
+            "value": 0.02864151636675766
+          },
+          {
+            "tag": "GRU_pick_place_seed2022",
+            "seed": 2022,
+            "value": 0.04511371057920059
+          },
+          {
+            "tag": "GRU_pick_place_seed2023",
+            "seed": 2023,
+            "value": 0.030243862596947467
+          }
+        ]
+      },
+      "static": {
+        "expected_fits": 1,
+        "completed_fits": 1,
+        "training_failures": 0,
+        "finite_rollouts": 1,
+        "all_expected_outcomes_finite": true,
+        "mean_primary_all_expected": 0.3961645775053478,
+        "seed_sd": null,
+        "per_fit_primary": [
+          {
+            "tag": "pick_place_static",
+            "seed": null,
+            "value": 0.3961645775053478
+          }
+        ]
+      },
+      "play": {
+        "expected_fits": 1,
+        "completed_fits": 1,
+        "training_failures": 0,
+        "finite_rollouts": 1,
+        "all_expected_outcomes_finite": true,
+        "mean_primary_all_expected": 0.646617916376865,
+        "seed_sd": null,
+        "per_fit_primary": [
+          {
+            "tag": "pick_place_play",
+            "seed": null,
+            "value": 0.646617916376865
+          }
+        ]
+      },
+      "ema": {
+        "expected_fits": 1,
+        "completed_fits": 1,
+        "training_failures": 0,
+        "finite_rollouts": 1,
+        "all_expected_outcomes_finite": true,
+        "mean_primary_all_expected": 0.2792216377963806,
+        "seed_sd": null,
+        "per_fit_primary": [
+          {
+            "tag": "pick_place_ema",
+            "seed": null,
+            "value": 0.2792216377963806
+          }
+        ]
+      },
+      "hybrid": {
+        "expected_fits": 1,
+        "completed_fits": 1,
+        "training_failures": 0,
+        "finite_rollouts": 1,
+        "all_expected_outcomes_finite": true,
+        "mean_primary_all_expected": 0.5123659916543407,
+        "seed_sd": null,
+        "per_fit_primary": [
+          {
+            "tag": "pick_place_hybrid",
+            "seed": null,
+            "value": 0.5123659916543407
+          }
+        ]
+      },
+      "arx": {
+        "expected_fits": 1,
+        "completed_fits": 1,
+        "training_failures": 0,
+        "finite_rollouts": 1,
+        "all_expected_outcomes_finite": true,
+        "mean_primary_all_expected": 0.16839372347875003,
+        "seed_sd": null,
+        "per_fit_primary": [
+          {
+            "tag": "pick_place_arx",
+            "seed": null,
+            "value": 0.16839372347875003
+          }
+        ]
+      }
+    }
+  },
+  "valid_neural_fits": 12,
+  "failed_training_attempts": [],
+  "neural_updates_completed": 60000,
+  "synthetic_qualification_updates_separate": 45,
+  "max_primary_recomputation_absolute_error": 2.7755575615628914e-17,
+  "evaluation_sha256": "69313f786e689ccdbcb17547dc768e6744fb105e592870e7ef6916af50f3eceb",
+  "training_records": [
+    {
+      "tag": "N87_seed2021",
+      "selected_step": 4000,
+      "selected_validation_mse": 0.012673692777752876,
+      "final_short_training_loss": 0.0025747453328222036,
+      "seconds": 113.16708600000129
+    },
+    {
+      "tag": "N87_seed2022",
+      "selected_step": 4250,
+      "selected_validation_mse": 0.020535524934530258,
+      "final_short_training_loss": 0.003053321037441492,
+      "seconds": 112.16008169998531
+    },
+    {
+      "tag": "N87_seed2023",
+      "selected_step": 4750,
+      "selected_validation_mse": 0.012005248107016087,
+      "final_short_training_loss": 0.0024038641713559628,
+      "seconds": 118.62475650000852
+    },
+    {
+      "tag": "pick_place_seed2021",
+      "selected_step": 2750,
+      "selected_validation_mse": 0.017227480188012123,
+      "final_short_training_loss": 0.0010885237716138363,
+      "seconds": 113.14322500000708
+    },
+    {
+      "tag": "pick_place_seed2022",
+      "selected_step": 4000,
+      "selected_validation_mse": 0.0056695169769227505,
+      "final_short_training_loss": 0.0013033982831984758,
+      "seconds": 110.18618380001863
+    },
+    {
+      "tag": "pick_place_seed2023",
+      "selected_step": 2000,
+      "selected_validation_mse": 0.011966841295361519,
+      "final_short_training_loss": 0.0006464709294959903,
+      "seconds": 110.5100289999973
+    },
+    {
+      "tag": "GRU_N87_seed2021",
+      "selected_step": 4000,
+      "selected_validation_mse": 0.04067762568593025,
+      "final_short_training_loss": 0.0021968716755509377,
+      "seconds": 9.559610199998133
+    },
+    {
+      "tag": "GRU_N87_seed2022",
+      "selected_step": 2500,
+      "selected_validation_mse": 0.06872972100973129,
+      "final_short_training_loss": 0.005643601529300213,
+      "seconds": 9.437513899989426
+    },
+    {
+      "tag": "GRU_N87_seed2023",
+      "selected_step": 4750,
+      "selected_validation_mse": 0.03441012278199196,
+      "final_short_training_loss": 0.004376125987619162,
+      "seconds": 9.52775219999603
+    },
+    {
+      "tag": "GRU_pick_place_seed2021",
+      "selected_step": 5000,
+      "selected_validation_mse": 0.029093366116285324,
+      "final_short_training_loss": 0.006766508333384991,
+      "seconds": 9.50211840000702
+    },
+    {
+      "tag": "GRU_pick_place_seed2022",
+      "selected_step": 1750,
+      "selected_validation_mse": 0.040401019155979156,
+      "final_short_training_loss": 0.005118455737829208,
+      "seconds": 9.435620600008406
+    },
+    {
+      "tag": "GRU_pick_place_seed2023",
+      "selected_step": 3750,
+      "selected_validation_mse": 0.03583313152194023,
+      "final_short_training_loss": 0.0034631267189979553,
+      "seconds": 9.42922200000612
+    }
+  ],
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "accepted_final_directions": 0
+}
