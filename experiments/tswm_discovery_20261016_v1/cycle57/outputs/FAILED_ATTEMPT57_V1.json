@@ -1,0 +1,109 @@
+{
+  "utc": "2026-10-17T22:09:25.329200+00:00",
+  "status": "FAILED_UNSHIFTED_RUNNING_ADAPTATION_SEALED_EXCLUDED",
+  "tag": "running09_linear_seed2021",
+  "attempted_updates": 10000,
+  "terminal_parameter_tensors_finite": true,
+  "terminal_common_reference_diagnostic": "inf; JSON serialization rejected it",
+  "last_curve_point": {
+    "iteration": 10000,
+    "training_value": -8.648608930504638e+19,
+    "value_is_running_gradient_surrogate": true,
+    "elapsed_seconds": 98.27779079999891,
+    "model": {
+      "rho": 0.5863910913467407,
+      "angles": [
+        5.5429423809982836e-05,
+        1.4506768820865545e-05
+      ],
+      "site_precision": [
+        66055148.0,
+        71184240.0
+      ],
+      "parameters": 4487
+    }
+  },
+  "retained_files": [
+    {
+      "path": "D:\\tswm_discovery_20261016_v1\\cycle57\\outputs\\runs\\running09_linear_seed2021\\result.json",
+      "bytes": 2139,
+      "sha256": "ae0f653dcba200e3e3952eea28d8f39823ff60b645360422c229d634dda4d400"
+    },
+    {
+      "path": "D:\\tswm_discovery_20261016_v1\\cycle57\\outputs\\runs\\running09_linear_seed2021\\curve.jsonl",
+      "bytes": 31316,
+      "sha256": "dc84ba97ebb0bdb659a4150145dd8d42d7005b66b3379527d57aece137c3ab63"
+    },
+    {
+      "path": "D:\\tswm_discovery_20261016_v1\\cycle57\\outputs\\running09_linear_seed2021.stdout.log",
+      "bytes": 34952,
+      "sha256": "a2112767f8a61a5936ed2deb16ec676e07c3ac4a4d90ad652a60b6cbe7579b98"
+    },
+    {
+      "path": "D:\\tswm_discovery_20261016_v1\\cycle57\\outputs\\running09_linear_seed2021.stderr.log",
+      "bytes": 1811,
+      "sha256": "781aa5757f761f14428a00046e4c71f66f2860464d47e600415d272fa4d6882c"
+    },
+    {
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle57\\running09_linear_seed2021.pt",
+      "bytes": 140764,
+      "sha256": "1e1dc80b9501e4f5b4c713049ffd8c033a27260d75f6beddcdf76c39dcdf9c1a"
+    },
+    {
+      "path": "D:\\tswm_discovery_20261016_v1\\cycle57\\outputs\\training_state57_v1.json",
+      "bytes": 2204,
+      "sha256": "ce05c28a13b7584dd7ee6708720aa765550ddd7d0d70ad4ad5114afb9200ae37"
+    },
+    {
+      "path": "D:\\tswm_discovery_20261016_v1\\cycle57\\outputs\\post_state57_v1.json",
+      "bytes": 2498,
+      "sha256": "75bdf887c208d353df5a90754dee1c52c7e11a93aed1889f7fc4705073be9ec8"
+    }
+  ],
+  "valid_previous_fits": [
+    {
+      "tag": "proper_linear_seed2021",
+      "result_sha256": "f2417de5a81e1c817dba325ef5efc31db4a71c97fed991abdbbce678ac269723",
+      "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle57\\proper_linear_seed2021.pt",
+      "checkpoint_sha256": "13de8755a902f06562df5a153ebd852005b304d3d26589714704e520cb388b57"
+    },
+    {
+      "tag": "native_linear_seed2021",
+      "result_sha256": "acf3103d92277735c6f74d1b5b75cc36f77e27231a944876170295d28906a48b",
+      "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle57\\native_linear_seed2021.pt",
+      "checkpoint_sha256": "c1e30fca38bd3267ab0e103da4285ae6984d3a704c30b1fdcad0fc075d6df4ac"
+    },
+    {
+      "tag": "independent_linear_seed2021",
+      "result_sha256": "fb0a3848593f8fc7231a478a248fcbf03b2ecf63d84460a2b3e07b196ff43366",
+      "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle57\\independent_linear_seed2021.pt",
+      "checkpoint_sha256": "d443e510523eeaf802840d0956bcfcf4e5c8d187c4f878dafc1e794205956815"
+    }
+  ],
+  "heldout_open_receipt_absent": true,
+  "validation_opened": false,
+  "source_files_sha256": {
+    "demos/cifar_pendulum.ipynb": "cfae15a37cbe3f571275070d96746c1999d3d334d7bce494c26917c44900c77b",
+    "demos/walker_dynamic_distractors.ipynb": "52cbc01f2e676c708fe944d24090e4047de27c9396ec6f3157c30b8f646d1665",
+    "LICENSE": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19",
+    "pdm.lock": "cc109e4356e8d31da90017a0940e5f67263b0037ce79438ccc7ae0e3d32d247c",
+    "pyproject.toml": "0737e83f199c9b59ecc1742a322f55c8701e29c53a0d80338368cb186ba92f70",
+    "README.md": "08fe3d7871c62fadd05964575501cd24abd97b942a0d145804afe355209a9e70",
+    "rp_ssm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rp_ssm/actions.py": "681e785b8ee79a8fbe1bac491fbbc0b2bc410c4f3ff0a55f05fa8c727a8df587",
+    "rp_ssm/config.py": "f6e55004b68078aeb084c1831e6bb9f1d743e3f2f88596d71e10abc9a2d53ddc",
+    "rp_ssm/datasets.py": "9a1aa383b5829264c59233ad5028a63a9bfe15aad09396e831faa8b8cc297abe",
+    "rp_ssm/datasets_utils.py": "47d930381df5c543aac53e36fb0823d08b650fc83a5a0b3cfbdcaf94d72007df",
+    "rp_ssm/distmaps.py": "54ee8ebe408f724be195b4a8405e0a50e3ed68e0fd7e100b30b54ea06ba162a7",
+    "rp_ssm/dists.py": "6050ccdb5c0fa21267db12811db3bb5b8b8ef3bf3bca6ed4d6ec9464348a93bf",
+    "rp_ssm/dists_utils.py": "874d7ed54403f3c987707bd4a5b17dac0fc6c9d84efb1c6107d61bb9b4d4d500",
+    "rp_ssm/generation.py": "b1a44e2d24f2d0eb508dd30ad5053ed85213dc12675a376a843a22cbdce3afc0",
+    "rp_ssm/gym_wrappers.py": "57bfc16924d1b3ba4d7a0d0e4237ab4801c936b3aa85e01fac60406324ee994e",
+    "rp_ssm/recognition.py": "04a255bbce078215b5106a19a7c42ab5a37a2d50735f91aaa54aef033913ba4a",
+    "rp_ssm/rpm.py": "da3792582ffc1997c4e775197791fc05dd00d09ff2d1fbca1c9742f93b89b2dd",
+    "rp_ssm/training.py": "d84c26650a375a2cafa5f670209fe394c9170cf20c01b0fc08398498bc07dc70",
+    "rp_ssm/types.py": "fc069345983c4f21b6670029e805718bd5bfb3cbaedce8ce64e039f16a61060d",
+    "rp_ssm/utils.py": "e711f4438301c1802aef7dfb3d17403aebe5a904df35eb87d4ae9f2ccbe05e53"
+  },
+  "interpretation": "Direct unbounded-Gaussian-score adaptation failed numerically; not evidence that the original bounded-similarity SogCLR pipeline or all existing normalizer repairs fail."
+}

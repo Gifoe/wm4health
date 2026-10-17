@@ -1,0 +1,135 @@
+{
+  "utc": "2026-10-17T21:59:39.562359+00:00",
+  "status": "PASS_NATIVE_LOSS_MOMENT_GRADIENT_CUDA_AND_PROPER_LIKELIHOOD",
+  "native_comparisons": [
+    {
+      "theta": [
+        0.33103251332539463,
+        -0.2,
+        0.4,
+        -0.2231435513142097,
+        0.5306282510621704,
+        0.7,
+        0.1,
+        -0.1,
+        1.2,
+        0.2,
+        -0.1
+      ],
+      "fixed_q": false,
+      "errors": {
+        "loss": 9.451223137446618e-11,
+        "gradient": 8.507632098808671e-11,
+        "mean": 8.051377342610522e-10,
+        "cov": 6.641661109973995e-10,
+        "cross": 2.4360979899995527e-10
+      }
+    },
+    {
+      "theta": [
+        0.33103251332539463,
+        -0.2,
+        0.4,
+        -0.2231435513142097,
+        0.5306282510621704,
+        0.7,
+        0.1,
+        -0.1,
+        1.2,
+        0.2,
+        -0.1
+      ],
+      "fixed_q": true,
+      "errors": {
+        "loss": 9.451223137446618e-11,
+        "gradient": 6.465505214547917e-10,
+        "mean": 8.051377342610522e-10,
+        "cov": 6.641661109973995e-10,
+        "cross": 2.4360979899995527e-10
+      }
+    },
+    {
+      "theta": [
+        2.7838882774937135,
+        -0.3,
+        0.2,
+        1.0986122886681098,
+        0.6931471805599453,
+        0.8,
+        0.05,
+        0.1,
+        0.6,
+        0.0,
+        0.1
+      ],
+      "fixed_q": false,
+      "errors": {
+        "loss": 2.329062498418466e-10,
+        "gradient": 1.4312298568519566e-10,
+        "mean": 1.545756911358609e-09,
+        "cov": 4.3077669209523606e-10,
+        "cross": 2.997897347034595e-10
+      }
+    },
+    {
+      "theta": [
+        2.7838882774937135,
+        -0.3,
+        0.2,
+        1.0986122886681098,
+        0.6931471805599453,
+        0.8,
+        0.05,
+        0.1,
+        0.6,
+        0.0,
+        0.1
+      ],
+      "fixed_q": true,
+      "errors": {
+        "loss": 2.329062498418466e-10,
+        "gradient": 8.931083650409732e-10,
+        "mean": 1.545756911358609e-09,
+        "cov": 4.3077669209523606e-10,
+        "cross": 2.997897347034595e-10
+      }
+    }
+  ],
+  "cuda_float32_errors": {
+    "loss": 4.0947196522367335e-08,
+    "gradient": 6.532450112783916e-08
+  },
+  "gamma1_gradient_error": 1.1102230246251565e-16,
+  "proper_joint_density_error": 0.0,
+  "native_fixture_sha256": "466b687ac08c0d463ebd61cae278397beb4b5b936b56c5c42a910835109026ab",
+  "protocol_sha256": "a7e5ff6cb36287c6e91cc495ae56a2e48716c7b73d1ccc215ea4f4903557f67f",
+  "math_sha256": "84af72d12d5ed26cbbac6daabd92786b842ca3adb48e0f8348871a65287e9f1f",
+  "model_sha256": "1dd0d57170ec15d04da3c4213cdc50f8f14b03c600c9943f2be78fcbfbd63551",
+  "qualification_sha256": "2f8b43751c9ee95a544b050994b30010fd4e107bb436eca78d12d8ad037ecf54",
+  "torch": "2.8.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "native_source_sha256": {
+    "demos/cifar_pendulum.ipynb": "cfae15a37cbe3f571275070d96746c1999d3d334d7bce494c26917c44900c77b",
+    "demos/walker_dynamic_distractors.ipynb": "52cbc01f2e676c708fe944d24090e4047de27c9396ec6f3157c30b8f646d1665",
+    "LICENSE": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19",
+    "pdm.lock": "cc109e4356e8d31da90017a0940e5f67263b0037ce79438ccc7ae0e3d32d247c",
+    "pyproject.toml": "0737e83f199c9b59ecc1742a322f55c8701e29c53a0d80338368cb186ba92f70",
+    "README.md": "08fe3d7871c62fadd05964575501cd24abd97b942a0d145804afe355209a9e70",
+    "rp_ssm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rp_ssm/actions.py": "681e785b8ee79a8fbe1bac491fbbc0b2bc410c4f3ff0a55f05fa8c727a8df587",
+    "rp_ssm/config.py": "f6e55004b68078aeb084c1831e6bb9f1d743e3f2f88596d71e10abc9a2d53ddc",
+    "rp_ssm/datasets.py": "9a1aa383b5829264c59233ad5028a63a9bfe15aad09396e831faa8b8cc297abe",
+    "rp_ssm/datasets_utils.py": "47d930381df5c543aac53e36fb0823d08b650fc83a5a0b3cfbdcaf94d72007df",
+    "rp_ssm/distmaps.py": "54ee8ebe408f724be195b4a8405e0a50e3ed68e0fd7e100b30b54ea06ba162a7",
+    "rp_ssm/dists.py": "6050ccdb5c0fa21267db12811db3bb5b8b8ef3bf3bca6ed4d6ec9464348a93bf",
+    "rp_ssm/dists_utils.py": "874d7ed54403f3c987707bd4a5b17dac0fc6c9d84efb1c6107d61bb9b4d4d500",
+    "rp_ssm/generation.py": "b1a44e2d24f2d0eb508dd30ad5053ed85213dc12675a376a843a22cbdce3afc0",
+    "rp_ssm/gym_wrappers.py": "57bfc16924d1b3ba4d7a0d0e4237ab4801c936b3aa85e01fac60406324ee994e",
+    "rp_ssm/recognition.py": "04a255bbce078215b5106a19a7c42ab5a37a2d50735f91aaa54aef033913ba4a",
+    "rp_ssm/rpm.py": "da3792582ffc1997c4e775197791fc05dd00d09ff2d1fbca1c9742f93b89b2dd",
+    "rp_ssm/training.py": "d84c26650a375a2cafa5f670209fe394c9170cf20c01b0fc08398498bc07dc70",
+    "rp_ssm/types.py": "fc069345983c4f21b6670029e805718bd5bfb3cbaedce8ce64e039f16a61060d",
+    "rp_ssm/utils.py": "e711f4438301c1802aef7dfb3d17403aebe5a904df35eb87d4ae9f2ccbe05e53"
+  },
+  "formal_updates": 0
+}

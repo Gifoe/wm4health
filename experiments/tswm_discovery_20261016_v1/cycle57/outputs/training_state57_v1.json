@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-17T22:06:46.021612+00:00",
+  "pid": 44408,
+  "status": "FAILED_PRESERVED",
+  "completed": [
+    {
+      "tag": "proper_linear_seed2021",
+      "result_sha256": "f2417de5a81e1c817dba325ef5efc31db4a71c97fed991abdbbce678ac269723",
+      "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle57\\proper_linear_seed2021.pt",
+      "checkpoint_sha256": "13de8755a902f06562df5a153ebd852005b304d3d26589714704e520cb388b57"
+    },
+    {
+      "tag": "native_linear_seed2021",
+      "result_sha256": "acf3103d92277735c6f74d1b5b75cc36f77e27231a944876170295d28906a48b",
+      "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle57\\native_linear_seed2021.pt",
+      "checkpoint_sha256": "c1e30fca38bd3267ab0e103da4285ae6984d3a704c30b1fdcad0fc075d6df4ac"
+    },
+    {
+      "tag": "independent_linear_seed2021",
+      "result_sha256": "fb0a3848593f8fc7231a478a248fcbf03b2ecf63d84460a2b3e07b196ff43366",
+      "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle57\\independent_linear_seed2021.pt",
+      "checkpoint_sha256": "d443e510523eeaf802840d0956bcfcf4e5c8d187c4f878dafc1e794205956815"
+    }
+  ],
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\tswm_discovery_20261016_v1\\cycle57\\scripts\\capture_train57_v1.py\", line 24, in <module>\n    result=read(OUT/'runs'/tag/'result.json') if (OUT/'runs'/tag/'result.json').exists() else None\n  File \"D:\\tswm_discovery_20261016_v1\\cycle57\\scripts\\common57.py\", line 16, in read\n    def read(p):return json.loads(pathlib.Path(p).read_text(encoding='utf-8-sig'))\n  File \"E:\\Anaconda\\envs\\persist_stable_251\\lib\\json\\__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n  File \"E:\\Anaconda\\envs\\persist_stable_251\\lib\\json\\decoder.py\", line 337, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n  File \"E:\\Anaconda\\envs\\persist_stable_251\\lib\\json\\decoder.py\", line 355, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 44 column 28 (char 2096)\n"
+}

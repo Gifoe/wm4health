@@ -1,0 +1,22 @@
+D:\tswm_discovery_20261016_v1\cycle57\scripts\train57_v1.py:104: RuntimeWarning: overflow encountered in square
+  tracking={'log_normalizer_bias':float(err.mean()),'log_normalizer_rmse':float(np.sqrt(np.mean(err**2))),'absolute_error_percentiles':np.percentile(abs(err),[50,90,99]).tolist(),'mean_updates_since_visit':float((STEPS-last_visit).mean()),'interpretation':'Terminal finite-train-reference tracking error; entries are correlated, no iid interval.'}
+D:\baseline_reproduction_seed2021_v1\.venv\Lib\site-packages\numpy\core\_methods.py:118: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+Traceback (most recent call last):
+  File "D:\tswm_discovery_20261016_v1\cycle57\scripts\train57_v1.py", line 110, in <module>
+    if __name__=='__main__':main()
+  File "D:\tswm_discovery_20261016_v1\cycle57\scripts\train57_v1.py", line 107, in main
+    dump(run/'result.json',result)
+  File "D:\tswm_discovery_20261016_v1\cycle57\scripts\common57.py", line 19, in dump
+    with p.open('x',encoding='utf-8') as f:json.dump(o,f,indent=2,allow_nan=False)
+  File "E:\Anaconda\envs\persist_stable_251\lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "E:\Anaconda\envs\persist_stable_251\lib\json\encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "E:\Anaconda\envs\persist_stable_251\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "E:\Anaconda\envs\persist_stable_251\lib\json\encoder.py", line 397, in _iterencode_dict
+    yield _floatstr(value)
+  File "E:\Anaconda\envs\persist_stable_251\lib\json\encoder.py", line 239, in floatstr
+    raise ValueError(
+ValueError: Out of range float values are not JSON compliant: inf
