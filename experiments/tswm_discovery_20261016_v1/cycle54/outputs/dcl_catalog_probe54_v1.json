@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-17T19:17:31.728280+00:00",
+  "status": "METADATA_AVAILABILITY_PROBE_COMPLETE",
+  "requests": [
+    {
+      "url": "https://nefeli.helmholtz-munich.de/records/tdfs2-kx054",
+      "error_type": "URLError",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)>",
+      "elapsed_seconds": 0.5604765999887604
+    },
+    {
+      "url": "https://nefeli.helmholtz-munich.de/api/records/tdfs2-kx054",
+      "error_type": "URLError",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)>",
+      "elapsed_seconds": 0.5503229999740142
+    }
+  ],
+  "read_limit_bytes_per_request": 524288,
+  "signals_downloaded": false,
+  "formal_training_changed": false,
+  "script_sha256": "0cc1c932386c326fb0ab7ed853ed1e3b502a751269b2593e50f3c1eaa1f510e1"
+}

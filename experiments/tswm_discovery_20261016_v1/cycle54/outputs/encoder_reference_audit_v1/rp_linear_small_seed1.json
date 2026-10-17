@@ -1,0 +1,176 @@
+{
+  "run": "rp_linear_small_seed1",
+  "checkpoint_sha256": "d4196168f6da9835943a4f3b1c8d6b104e9c8dac788a21205d7df6645e273442",
+  "modes": [
+    {
+      "em": false,
+      "full_value": 3.4038381305998353,
+      "balanced_mean_value": 1.9443854062618846,
+      "A": {
+        "dimension": 9,
+        "full_norm": 1.4025559975410242,
+        "balanced_mean_norm": 0.6175443208958145,
+        "difference_norm": 1.596305256429826,
+        "relative_difference_norm": 1.1381401236232171,
+        "cosine": -0.11526199229032004,
+        "max_abs_difference": 1.1509445485329532
+      },
+      "recognition": {
+        "dimension": 21,
+        "full_norm": 0.13989852622415122,
+        "balanced_mean_norm": 0.011701046935724452,
+        "difference_norm": 0.1310175243619926,
+        "relative_difference_norm": 0.936518260042789,
+        "cosine": 0.776720768483829,
+        "max_abs_difference": 0.07184937177225947
+      },
+      "per_leaf": [
+        {
+          "path": "[0]['A']",
+          "shape": [
+            3,
+            3
+          ],
+          "dimension": 9,
+          "full_norm": 1.4025559975410242,
+          "balanced_mean_norm": 0.6175443208958145,
+          "difference_norm": 1.596305256429826,
+          "relative_difference_norm": 1.1381401236232171,
+          "cosine": -0.11526199229032004,
+          "max_abs_difference": 1.1509445485329532
+        },
+        {
+          "path": "[1]['params']['Dense_0']['bias']",
+          "shape": [
+            3
+          ],
+          "dimension": 3,
+          "full_norm": 0.0025630048476159573,
+          "balanced_mean_norm": 0.0016948049888014793,
+          "difference_norm": 0.0008707975503057241,
+          "relative_difference_norm": 0.3397564975796742,
+          "cosine": 0.9994801449901638,
+          "max_abs_difference": 0.0007888440741226077
+        },
+        {
+          "path": "[1]['params']['Dense_0']['kernel']",
+          "shape": [
+            5,
+            3
+          ],
+          "dimension": 15,
+          "full_norm": 0.13800294697284698,
+          "balanced_mean_norm": 0.01139305904507637,
+          "difference_norm": 0.1288875788450241,
+          "relative_difference_norm": 0.9339480183012585,
+          "cosine": 0.814935680482755,
+          "max_abs_difference": 0.07184936851263046
+        },
+        {
+          "path": "[1]['params']['cov']",
+          "shape": [
+            3
+          ],
+          "dimension": 3,
+          "full_norm": 0.022808202558489376,
+          "balanced_mean_norm": 0.002059203826873457,
+          "difference_norm": 0.02351221673117164,
+          "relative_difference_norm": 1.0308667099424818,
+          "cosine": -0.30202130780722225,
+          "max_abs_difference": 0.01481241970649397
+        }
+      ]
+    },
+    {
+      "em": true,
+      "full_value": 3.4038381305998353,
+      "balanced_mean_value": 1.9443854062618846,
+      "A": {
+        "dimension": 9,
+        "full_norm": 1.885304114684171,
+        "balanced_mean_norm": 1.8853041146842275,
+        "difference_norm": 7.542802242685687e-14,
+        "relative_difference_norm": 4.0008411289916846e-14,
+        "cosine": 1.0000000000000002,
+        "max_abs_difference": 6.705747068735946e-14
+      },
+      "recognition": {
+        "dimension": 21,
+        "full_norm": 0.12200411761757848,
+        "balanced_mean_norm": 0.07137400146196128,
+        "difference_norm": 0.05142928057462114,
+        "relative_difference_norm": 0.42153725283130244,
+        "cosine": 0.9953167794886292,
+        "max_abs_difference": 0.026541095227003098
+      },
+      "per_leaf": [
+        {
+          "path": "[0]['A']",
+          "shape": [
+            3,
+            3
+          ],
+          "dimension": 9,
+          "full_norm": 1.885304114684171,
+          "balanced_mean_norm": 1.8853041146842275,
+          "difference_norm": 7.542802242685687e-14,
+          "relative_difference_norm": 4.0008411289916846e-14,
+          "cosine": 1.0000000000000002,
+          "max_abs_difference": 6.705747068735946e-14
+        },
+        {
+          "path": "[1]['params']['Dense_0']['bias']",
+          "shape": [
+            3
+          ],
+          "dimension": 3,
+          "full_norm": 0.0053816065192222595,
+          "balanced_mean_norm": 0.003465399844571948,
+          "difference_norm": 0.001927938312292099,
+          "relative_difference_norm": 0.35824587052319856,
+          "cosine": 0.9987909255447052,
+          "max_abs_difference": 0.0019155703485012054
+        },
+        {
+          "path": "[1]['params']['Dense_0']['kernel']",
+          "shape": [
+            5,
+            3
+          ],
+          "dimension": 15,
+          "full_norm": 0.12145590037107468,
+          "balanced_mean_norm": 0.07055812329053879,
+          "difference_norm": 0.05138883739709854,
+          "relative_difference_norm": 0.42310696508028234,
+          "cosine": 0.9970693578486852,
+          "max_abs_difference": 0.026541095227003098
+        },
+        {
+          "path": "[1]['params']['cov']",
+          "shape": [
+            3
+          ],
+          "dimension": 3,
+          "full_norm": 0.010222928155952734,
+          "balanced_mean_norm": 0.010187778736722195,
+          "difference_norm": 0.0006643912544389406,
+          "relative_difference_norm": 0.06499030848143744,
+          "cosine": 0.9978867749438024,
+          "max_abs_difference": 0.0005352230859983253
+        }
+      ]
+    }
+  ],
+  "controls": {
+    "False_native_vs_per_target_forward_error": 4.440892098500626e-16,
+    "False_native_vs_per_target_all_gradient_max_error": 0.0,
+    "True_native_vs_fixed_posterior_forward_error": 1.3322676295501878e-15,
+    "True_native_vs_fixed_posterior_rec_gradient_max_error": 8.066464163292153e-17
+  },
+  "checkpoint_unchanged": true,
+  "latent_truth_read": false,
+  "heldout_read": false,
+  "optimizer_updates": 0,
+  "protocol_sha256": "026681b254f3c4c93c410ef69ad6dafa6e25a0334b108f0b8a2ca2db2e4f4cff",
+  "script_sha256": "8d486fb08f244189d09d032adf7ecb4ad69c5db76a83dc9c08d3762aced0258a"
+}

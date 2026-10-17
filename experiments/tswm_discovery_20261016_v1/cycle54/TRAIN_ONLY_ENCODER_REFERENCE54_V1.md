@@ -1,0 +1,9 @@
+# Frozen encoder-reference attribution
+
+This is an additional training-only mechanism diagnostic, declared before any heldout score. It does not add a trained method, change either training queue, or select a checkpoint/configuration.
+
+Use the already frozen public-default small-task checkpoints, seeds0 and1, and the same25 balanced B32 batches from reference_control_audit_v2 (four appearances per training sequence). For each point, compute the full N200 gradient and the mean balanced-batch gradient of every parameter under both existing native Config.em contracts. Report A and recognition blocks separately: norms, cosine, absolute and relative L2 discrepancies, and per-leaf discrepancies. A scalar forward loss may differ by log(batch size); gradient comparisons are unaffected.
+
+Controls: exactly compare the full native False gradient with the attributed per-target native-loss decomposition for all parameter leaves, not only A. For True, compare the full native recognition gradient with an explicit M-step objective that holds the posterior fixed while recomputing recognition sites. Forward objective values and recognition gradients must agree within1e-7. Do not finite-difference True by recomputing the posterior: that would test another derivative contract. Record checkpoint/source hashes before and after;0 optimizer updates, no latent truth and no heldout arrays.
+
+Question: does the already available EM option remove the reference effect for all parameter blocks, or specifically the A block? Residual recognition dependence alone is neither novel (nondecomposable contrastive gradients are established) nor evidence of harmful trained predictions. The four matched source-option fits remain the decisive immediate learning control. No additional method is proposed from this diagnostic.

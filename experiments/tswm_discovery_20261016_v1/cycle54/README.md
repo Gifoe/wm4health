@@ -1,3 +1,13 @@
+# C54 follow-up: parameter-block attribution and next-baseline input contract
+
+Snapshot UTC 2026-10-17T19:20:46.931315+00:00: 10/12 primary and 2/4 existing-EM-option fits complete. No heldout scoring yet.
+
+The completed [encoder-reference audit](ENCODER_REFERENCE_FINDING54_V1.md) narrows the existing EM remedy to the A block at the frozen points; recognition gradients retain a predominantly magnitude difference. This is not a trained-model benefit or a new-method claim.
+
+The [DCL input audit](DCL_INFERENCE_CONTRACT54_V1.md) distinguishes retrospective switching identification from causal simulation and retains the paper's own heldout, delay and multi-step evidence. The [public data catalog is accessible from the server](DCL_DATA_ACCESS54_V1.md); only metadata were fetched. No DCL training is claimed.
+
+## Earlier immutable V4 progress snapshot
+
 # C54: training-contract attribution and matched native learning controls
 
 Snapshot UTC 2026-10-17T18:59:54.853233+00:00: primary comparison 9/12 fits complete; supplemental existing EM-option controls 1/4 complete. Heldout scoring has not opened. The full comparison remains in progress.

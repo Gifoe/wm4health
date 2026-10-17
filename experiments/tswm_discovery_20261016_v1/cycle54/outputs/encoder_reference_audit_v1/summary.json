@@ -1,0 +1,383 @@
+{
+  "utc": "2026-10-17T19:15:42.993826+00:00",
+  "status": "COMPLETE_FROZEN_ENCODER_REFERENCE_ATTRIBUTION",
+  "records": [
+    {
+      "run": "rp_linear_small_seed0",
+      "checkpoint_sha256": "4443506bd7df41eeccda317d596cf2142f504b7985423c907397d368d66b3e3e",
+      "modes": [
+        {
+          "em": false,
+          "full_value": 3.4031388474609794,
+          "balanced_mean_value": 1.944489713703236,
+          "A": {
+            "dimension": 9,
+            "full_norm": 1.1365191697615815,
+            "balanced_mean_norm": 0.5836384057334518,
+            "difference_norm": 1.5569472291813338,
+            "relative_difference_norm": 1.3699260607350332,
+            "cosine": -0.5968307567438065,
+            "max_abs_difference": 1.1597158529929592
+          },
+          "recognition": {
+            "dimension": 21,
+            "full_norm": 0.1461542713878692,
+            "balanced_mean_norm": 0.016953226154418848,
+            "difference_norm": 0.1316630987344463,
+            "relative_difference_norm": 0.9008501597947435,
+            "cosine": 0.8703961175341001,
+            "max_abs_difference": 0.07319481857120991
+          },
+          "per_leaf": [
+            {
+              "path": "[0]['A']",
+              "shape": [
+                3,
+                3
+              ],
+              "dimension": 9,
+              "full_norm": 1.1365191697615815,
+              "balanced_mean_norm": 0.5836384057334518,
+              "difference_norm": 1.5569472291813338,
+              "relative_difference_norm": 1.3699260607350332,
+              "cosine": -0.5968307567438065,
+              "max_abs_difference": 1.1597158529929592
+            },
+            {
+              "path": "[1]['params']['Dense_0']['bias']",
+              "shape": [
+                3
+              ],
+              "dimension": 3,
+              "full_norm": 0.0020877027418464422,
+              "balanced_mean_norm": 0.0016513362061232328,
+              "difference_norm": 0.0006249902653507888,
+              "relative_difference_norm": 0.2993674591805269,
+              "cosine": 0.9709649843609928,
+              "max_abs_difference": 0.0005832124734297395
+            },
+            {
+              "path": "[1]['params']['Dense_0']['kernel']",
+              "shape": [
+                5,
+                3
+              ],
+              "dimension": 15,
+              "full_norm": 0.14410100877285004,
+              "balanced_mean_norm": 0.01684720441699028,
+              "difference_norm": 0.12952177226543427,
+              "relative_difference_norm": 0.8988262703254397,
+              "cosine": 0.8800599560496277,
+              "max_abs_difference": 0.07319481670856476
+            },
+            {
+              "path": "[1]['params']['cov']",
+              "shape": [
+                3
+              ],
+              "dimension": 3,
+              "full_norm": 0.024323044126662908,
+              "balanced_mean_norm": 0.0009255495795237963,
+              "difference_norm": 0.02364090207418313,
+              "relative_difference_norm": 0.9719549062638909,
+              "cosine": 0.7457043667565125,
+              "max_abs_difference": 0.014938414041914587
+            }
+          ]
+        },
+        {
+          "em": true,
+          "full_value": 3.40313884746098,
+          "balanced_mean_value": 1.944489713703236,
+          "A": {
+            "dimension": 9,
+            "full_norm": 1.6240721040642498,
+            "balanced_mean_norm": 1.6240721040642117,
+            "difference_norm": 5.3205538098167426e-14,
+            "relative_difference_norm": 3.276057631001743e-14,
+            "cosine": 1.0000000000000002,
+            "max_abs_difference": 4.596323321948148e-14
+          },
+          "recognition": {
+            "dimension": 21,
+            "full_norm": 0.12669028954736863,
+            "balanced_mean_norm": 0.07523786501955519,
+            "difference_norm": 0.05253060470381988,
+            "relative_difference_norm": 0.414637971793245,
+            "cosine": 0.9941190969506521,
+            "max_abs_difference": 0.027598373591899872
+          },
+          "per_leaf": [
+            {
+              "path": "[0]['A']",
+              "shape": [
+                3,
+                3
+              ],
+              "dimension": 9,
+              "full_norm": 1.6240721040642498,
+              "balanced_mean_norm": 1.6240721040642117,
+              "difference_norm": 5.3205538098167426e-14,
+              "relative_difference_norm": 3.276057631001743e-14,
+              "cosine": 1.0000000000000002,
+              "max_abs_difference": 4.596323321948148e-14
+            },
+            {
+              "path": "[1]['params']['Dense_0']['bias']",
+              "shape": [
+                3
+              ],
+              "dimension": 3,
+              "full_norm": 0.007268108427524567,
+              "balanced_mean_norm": 0.004945183172821999,
+              "difference_norm": 0.0024048786144703627,
+              "relative_difference_norm": 0.3308809490737656,
+              "cosine": 0.9946099786380191,
+              "max_abs_difference": 0.002362408209592104
+            },
+            {
+              "path": "[1]['params']['Dense_0']['kernel']",
+              "shape": [
+                5,
+                3
+              ],
+              "dimension": 15,
+              "full_norm": 0.12600776553153992,
+              "balanced_mean_norm": 0.07430817931890488,
+              "difference_norm": 0.052468735724687576,
+              "relative_difference_norm": 0.41639287470385766,
+              "cosine": 0.9957217129673038,
+              "max_abs_difference": 0.027598373591899872
+            },
+            {
+              "path": "[1]['params']['cov']",
+              "shape": [
+                3
+              ],
+              "dimension": 3,
+              "full_norm": 0.010938305372187825,
+              "balanced_mean_norm": 0.010704016037941508,
+              "difference_norm": 0.0008442707080567048,
+              "relative_difference_norm": 0.07718478131021844,
+              "cosine": 0.9971904671778817,
+              "max_abs_difference": 0.0006999942548599532
+            }
+          ]
+        }
+      ],
+      "controls": {
+        "False_native_vs_per_target_forward_error": 4.440892098500626e-16,
+        "False_native_vs_per_target_all_gradient_max_error": 0.0,
+        "True_native_vs_fixed_posterior_forward_error": 0.0,
+        "True_native_vs_fixed_posterior_rec_gradient_max_error": 1.0581813203458523e-16
+      },
+      "checkpoint_unchanged": true,
+      "latent_truth_read": false,
+      "heldout_read": false,
+      "optimizer_updates": 0,
+      "protocol_sha256": "026681b254f3c4c93c410ef69ad6dafa6e25a0334b108f0b8a2ca2db2e4f4cff",
+      "script_sha256": "8d486fb08f244189d09d032adf7ecb4ad69c5db76a83dc9c08d3762aced0258a"
+    },
+    {
+      "run": "rp_linear_small_seed1",
+      "checkpoint_sha256": "d4196168f6da9835943a4f3b1c8d6b104e9c8dac788a21205d7df6645e273442",
+      "modes": [
+        {
+          "em": false,
+          "full_value": 3.4038381305998353,
+          "balanced_mean_value": 1.9443854062618846,
+          "A": {
+            "dimension": 9,
+            "full_norm": 1.4025559975410242,
+            "balanced_mean_norm": 0.6175443208958145,
+            "difference_norm": 1.596305256429826,
+            "relative_difference_norm": 1.1381401236232171,
+            "cosine": -0.11526199229032004,
+            "max_abs_difference": 1.1509445485329532
+          },
+          "recognition": {
+            "dimension": 21,
+            "full_norm": 0.13989852622415122,
+            "balanced_mean_norm": 0.011701046935724452,
+            "difference_norm": 0.1310175243619926,
+            "relative_difference_norm": 0.936518260042789,
+            "cosine": 0.776720768483829,
+            "max_abs_difference": 0.07184937177225947
+          },
+          "per_leaf": [
+            {
+              "path": "[0]['A']",
+              "shape": [
+                3,
+                3
+              ],
+              "dimension": 9,
+              "full_norm": 1.4025559975410242,
+              "balanced_mean_norm": 0.6175443208958145,
+              "difference_norm": 1.596305256429826,
+              "relative_difference_norm": 1.1381401236232171,
+              "cosine": -0.11526199229032004,
+              "max_abs_difference": 1.1509445485329532
+            },
+            {
+              "path": "[1]['params']['Dense_0']['bias']",
+              "shape": [
+                3
+              ],
+              "dimension": 3,
+              "full_norm": 0.0025630048476159573,
+              "balanced_mean_norm": 0.0016948049888014793,
+              "difference_norm": 0.0008707975503057241,
+              "relative_difference_norm": 0.3397564975796742,
+              "cosine": 0.9994801449901638,
+              "max_abs_difference": 0.0007888440741226077
+            },
+            {
+              "path": "[1]['params']['Dense_0']['kernel']",
+              "shape": [
+                5,
+                3
+              ],
+              "dimension": 15,
+              "full_norm": 0.13800294697284698,
+              "balanced_mean_norm": 0.01139305904507637,
+              "difference_norm": 0.1288875788450241,
+              "relative_difference_norm": 0.9339480183012585,
+              "cosine": 0.814935680482755,
+              "max_abs_difference": 0.07184936851263046
+            },
+            {
+              "path": "[1]['params']['cov']",
+              "shape": [
+                3
+              ],
+              "dimension": 3,
+              "full_norm": 0.022808202558489376,
+              "balanced_mean_norm": 0.002059203826873457,
+              "difference_norm": 0.02351221673117164,
+              "relative_difference_norm": 1.0308667099424818,
+              "cosine": -0.30202130780722225,
+              "max_abs_difference": 0.01481241970649397
+            }
+          ]
+        },
+        {
+          "em": true,
+          "full_value": 3.4038381305998353,
+          "balanced_mean_value": 1.9443854062618846,
+          "A": {
+            "dimension": 9,
+            "full_norm": 1.885304114684171,
+            "balanced_mean_norm": 1.8853041146842275,
+            "difference_norm": 7.542802242685687e-14,
+            "relative_difference_norm": 4.0008411289916846e-14,
+            "cosine": 1.0000000000000002,
+            "max_abs_difference": 6.705747068735946e-14
+          },
+          "recognition": {
+            "dimension": 21,
+            "full_norm": 0.12200411761757848,
+            "balanced_mean_norm": 0.07137400146196128,
+            "difference_norm": 0.05142928057462114,
+            "relative_difference_norm": 0.42153725283130244,
+            "cosine": 0.9953167794886292,
+            "max_abs_difference": 0.026541095227003098
+          },
+          "per_leaf": [
+            {
+              "path": "[0]['A']",
+              "shape": [
+                3,
+                3
+              ],
+              "dimension": 9,
+              "full_norm": 1.885304114684171,
+              "balanced_mean_norm": 1.8853041146842275,
+              "difference_norm": 7.542802242685687e-14,
+              "relative_difference_norm": 4.0008411289916846e-14,
+              "cosine": 1.0000000000000002,
+              "max_abs_difference": 6.705747068735946e-14
+            },
+            {
+              "path": "[1]['params']['Dense_0']['bias']",
+              "shape": [
+                3
+              ],
+              "dimension": 3,
+              "full_norm": 0.0053816065192222595,
+              "balanced_mean_norm": 0.003465399844571948,
+              "difference_norm": 0.001927938312292099,
+              "relative_difference_norm": 0.35824587052319856,
+              "cosine": 0.9987909255447052,
+              "max_abs_difference": 0.0019155703485012054
+            },
+            {
+              "path": "[1]['params']['Dense_0']['kernel']",
+              "shape": [
+                5,
+                3
+              ],
+              "dimension": 15,
+              "full_norm": 0.12145590037107468,
+              "balanced_mean_norm": 0.07055812329053879,
+              "difference_norm": 0.05138883739709854,
+              "relative_difference_norm": 0.42310696508028234,
+              "cosine": 0.9970693578486852,
+              "max_abs_difference": 0.026541095227003098
+            },
+            {
+              "path": "[1]['params']['cov']",
+              "shape": [
+                3
+              ],
+              "dimension": 3,
+              "full_norm": 0.010222928155952734,
+              "balanced_mean_norm": 0.010187778736722195,
+              "difference_norm": 0.0006643912544389406,
+              "relative_difference_norm": 0.06499030848143744,
+              "cosine": 0.9978867749438024,
+              "max_abs_difference": 0.0005352230859983253
+            }
+          ]
+        }
+      ],
+      "controls": {
+        "False_native_vs_per_target_forward_error": 4.440892098500626e-16,
+        "False_native_vs_per_target_all_gradient_max_error": 0.0,
+        "True_native_vs_fixed_posterior_forward_error": 1.3322676295501878e-15,
+        "True_native_vs_fixed_posterior_rec_gradient_max_error": 8.066464163292153e-17
+      },
+      "checkpoint_unchanged": true,
+      "latent_truth_read": false,
+      "heldout_read": false,
+      "optimizer_updates": 0,
+      "protocol_sha256": "026681b254f3c4c93c410ef69ad6dafa6e25a0334b108f0b8a2ca2db2e4f4cff",
+      "script_sha256": "8d486fb08f244189d09d032adf7ecb4ad69c5db76a83dc9c08d3762aced0258a"
+    }
+  ],
+  "runtime_seconds": 89.03438510000706,
+  "native_source_files_unchanged": {
+    "demos/cifar_pendulum.ipynb": "cfae15a37cbe3f571275070d96746c1999d3d334d7bce494c26917c44900c77b",
+    "demos/walker_dynamic_distractors.ipynb": "52cbc01f2e676c708fe944d24090e4047de27c9396ec6f3157c30b8f646d1665",
+    "LICENSE": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19",
+    "pdm.lock": "cc109e4356e8d31da90017a0940e5f67263b0037ce79438ccc7ae0e3d32d247c",
+    "pyproject.toml": "0737e83f199c9b59ecc1742a322f55c8701e29c53a0d80338368cb186ba92f70",
+    "README.md": "08fe3d7871c62fadd05964575501cd24abd97b942a0d145804afe355209a9e70",
+    "rp_ssm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rp_ssm/actions.py": "681e785b8ee79a8fbe1bac491fbbc0b2bc410c4f3ff0a55f05fa8c727a8df587",
+    "rp_ssm/config.py": "f6e55004b68078aeb084c1831e6bb9f1d743e3f2f88596d71e10abc9a2d53ddc",
+    "rp_ssm/datasets.py": "9a1aa383b5829264c59233ad5028a63a9bfe15aad09396e831faa8b8cc297abe",
+    "rp_ssm/datasets_utils.py": "47d930381df5c543aac53e36fb0823d08b650fc83a5a0b3cfbdcaf94d72007df",
+    "rp_ssm/distmaps.py": "54ee8ebe408f724be195b4a8405e0a50e3ed68e0fd7e100b30b54ea06ba162a7",
+    "rp_ssm/dists.py": "6050ccdb5c0fa21267db12811db3bb5b8b8ef3bf3bca6ed4d6ec9464348a93bf",
+    "rp_ssm/dists_utils.py": "874d7ed54403f3c987707bd4a5b17dac0fc6c9d84efb1c6107d61bb9b4d4d500",
+    "rp_ssm/generation.py": "b1a44e2d24f2d0eb508dd30ad5053ed85213dc12675a376a843a22cbdce3afc0",
+    "rp_ssm/gym_wrappers.py": "57bfc16924d1b3ba4d7a0d0e4237ab4801c936b3aa85e01fac60406324ee994e",
+    "rp_ssm/recognition.py": "04a255bbce078215b5106a19a7c42ab5a37a2d50735f91aaa54aef033913ba4a",
+    "rp_ssm/rpm.py": "da3792582ffc1997c4e775197791fc05dd00d09ff2d1fbca1c9742f93b89b2dd",
+    "rp_ssm/training.py": "d84c26650a375a2cafa5f670209fe394c9170cf20c01b0fc08398498bc07dc70",
+    "rp_ssm/types.py": "fc069345983c4f21b6670029e805718bd5bfb3cbaedce8ce64e039f16a61060d",
+    "rp_ssm/utils.py": "e711f4438301c1802aef7dfb3d17403aebe5a904df35eb87d4ae9f2ccbe05e53"
+  },
+  "scope": "Training-only gradient attribution; no trained quality or novelty claim."
+}

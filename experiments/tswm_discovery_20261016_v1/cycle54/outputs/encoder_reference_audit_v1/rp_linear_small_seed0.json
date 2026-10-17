@@ -1,0 +1,176 @@
+{
+  "run": "rp_linear_small_seed0",
+  "checkpoint_sha256": "4443506bd7df41eeccda317d596cf2142f504b7985423c907397d368d66b3e3e",
+  "modes": [
+    {
+      "em": false,
+      "full_value": 3.4031388474609794,
+      "balanced_mean_value": 1.944489713703236,
+      "A": {
+        "dimension": 9,
+        "full_norm": 1.1365191697615815,
+        "balanced_mean_norm": 0.5836384057334518,
+        "difference_norm": 1.5569472291813338,
+        "relative_difference_norm": 1.3699260607350332,
+        "cosine": -0.5968307567438065,
+        "max_abs_difference": 1.1597158529929592
+      },
+      "recognition": {
+        "dimension": 21,
+        "full_norm": 0.1461542713878692,
+        "balanced_mean_norm": 0.016953226154418848,
+        "difference_norm": 0.1316630987344463,
+        "relative_difference_norm": 0.9008501597947435,
+        "cosine": 0.8703961175341001,
+        "max_abs_difference": 0.07319481857120991
+      },
+      "per_leaf": [
+        {
+          "path": "[0]['A']",
+          "shape": [
+            3,
+            3
+          ],
+          "dimension": 9,
+          "full_norm": 1.1365191697615815,
+          "balanced_mean_norm": 0.5836384057334518,
+          "difference_norm": 1.5569472291813338,
+          "relative_difference_norm": 1.3699260607350332,
+          "cosine": -0.5968307567438065,
+          "max_abs_difference": 1.1597158529929592
+        },
+        {
+          "path": "[1]['params']['Dense_0']['bias']",
+          "shape": [
+            3
+          ],
+          "dimension": 3,
+          "full_norm": 0.0020877027418464422,
+          "balanced_mean_norm": 0.0016513362061232328,
+          "difference_norm": 0.0006249902653507888,
+          "relative_difference_norm": 0.2993674591805269,
+          "cosine": 0.9709649843609928,
+          "max_abs_difference": 0.0005832124734297395
+        },
+        {
+          "path": "[1]['params']['Dense_0']['kernel']",
+          "shape": [
+            5,
+            3
+          ],
+          "dimension": 15,
+          "full_norm": 0.14410100877285004,
+          "balanced_mean_norm": 0.01684720441699028,
+          "difference_norm": 0.12952177226543427,
+          "relative_difference_norm": 0.8988262703254397,
+          "cosine": 0.8800599560496277,
+          "max_abs_difference": 0.07319481670856476
+        },
+        {
+          "path": "[1]['params']['cov']",
+          "shape": [
+            3
+          ],
+          "dimension": 3,
+          "full_norm": 0.024323044126662908,
+          "balanced_mean_norm": 0.0009255495795237963,
+          "difference_norm": 0.02364090207418313,
+          "relative_difference_norm": 0.9719549062638909,
+          "cosine": 0.7457043667565125,
+          "max_abs_difference": 0.014938414041914587
+        }
+      ]
+    },
+    {
+      "em": true,
+      "full_value": 3.40313884746098,
+      "balanced_mean_value": 1.944489713703236,
+      "A": {
+        "dimension": 9,
+        "full_norm": 1.6240721040642498,
+        "balanced_mean_norm": 1.6240721040642117,
+        "difference_norm": 5.3205538098167426e-14,
+        "relative_difference_norm": 3.276057631001743e-14,
+        "cosine": 1.0000000000000002,
+        "max_abs_difference": 4.596323321948148e-14
+      },
+      "recognition": {
+        "dimension": 21,
+        "full_norm": 0.12669028954736863,
+        "balanced_mean_norm": 0.07523786501955519,
+        "difference_norm": 0.05253060470381988,
+        "relative_difference_norm": 0.414637971793245,
+        "cosine": 0.9941190969506521,
+        "max_abs_difference": 0.027598373591899872
+      },
+      "per_leaf": [
+        {
+          "path": "[0]['A']",
+          "shape": [
+            3,
+            3
+          ],
+          "dimension": 9,
+          "full_norm": 1.6240721040642498,
+          "balanced_mean_norm": 1.6240721040642117,
+          "difference_norm": 5.3205538098167426e-14,
+          "relative_difference_norm": 3.276057631001743e-14,
+          "cosine": 1.0000000000000002,
+          "max_abs_difference": 4.596323321948148e-14
+        },
+        {
+          "path": "[1]['params']['Dense_0']['bias']",
+          "shape": [
+            3
+          ],
+          "dimension": 3,
+          "full_norm": 0.007268108427524567,
+          "balanced_mean_norm": 0.004945183172821999,
+          "difference_norm": 0.0024048786144703627,
+          "relative_difference_norm": 0.3308809490737656,
+          "cosine": 0.9946099786380191,
+          "max_abs_difference": 0.002362408209592104
+        },
+        {
+          "path": "[1]['params']['Dense_0']['kernel']",
+          "shape": [
+            5,
+            3
+          ],
+          "dimension": 15,
+          "full_norm": 0.12600776553153992,
+          "balanced_mean_norm": 0.07430817931890488,
+          "difference_norm": 0.052468735724687576,
+          "relative_difference_norm": 0.41639287470385766,
+          "cosine": 0.9957217129673038,
+          "max_abs_difference": 0.027598373591899872
+        },
+        {
+          "path": "[1]['params']['cov']",
+          "shape": [
+            3
+          ],
+          "dimension": 3,
+          "full_norm": 0.010938305372187825,
+          "balanced_mean_norm": 0.010704016037941508,
+          "difference_norm": 0.0008442707080567048,
+          "relative_difference_norm": 0.07718478131021844,
+          "cosine": 0.9971904671778817,
+          "max_abs_difference": 0.0006999942548599532
+        }
+      ]
+    }
+  ],
+  "controls": {
+    "False_native_vs_per_target_forward_error": 4.440892098500626e-16,
+    "False_native_vs_per_target_all_gradient_max_error": 0.0,
+    "True_native_vs_fixed_posterior_forward_error": 0.0,
+    "True_native_vs_fixed_posterior_rec_gradient_max_error": 1.0581813203458523e-16
+  },
+  "checkpoint_unchanged": true,
+  "latent_truth_read": false,
+  "heldout_read": false,
+  "optimizer_updates": 0,
+  "protocol_sha256": "026681b254f3c4c93c410ef69ad6dafa6e25a0334b108f0b8a2ca2db2e4f4cff",
+  "script_sha256": "8d486fb08f244189d09d032adf7ecb4ad69c5db76a83dc9c08d3762aced0258a"
+}
