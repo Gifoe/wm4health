@@ -1,11 +1,15 @@
-# C53 hypotheses awaiting full evidence
+# C53 hypothesis update
 
-C53 snapshot UTC 2026-10-17T15:57:13.770701+00:00: **7/40 predictive fits complete**, 2790 completed formal optimizer updates; shared native AE complete. This is a dated running snapshot, not a finished result table. Second-batch model evaluation opened: False. Accepted final research directions: 0.
+C53 completed UTC 2026-10-17T17:07:30.920782+00:00. This is a native-source subset reproduction and a separately identified new-crop transfer audit: two backbones, four configurations, five seeds, 40 predictive fits and one shared AE. Selected predictive fits contain 15600 optimizer updates and 2591.94 native fit seconds; 0/40 predictive fits hit the 100-epoch cap. Codec training, qualification, failed attempts and plotting are additional cost. The native-driver failed attempt alone wasted at least 162 updates; unrecorded partial work cannot be counted exactly.
 
-Two backbones (CrossLinear/PatchTST), four native design configurations and five seeds use the first original Greenhouse batch. Its815/163 train/VAL windows agree with the published163-window held-out specification. The second crop batch is a separate transfer audit after all checkpoints are sealed; it is not another independent real domain. The exact original paper's raw-byte run identity is not supplied, so headline numerical equality is not claimed.
+Source TRAIN/VAL has 815/163 accepted windows; the new crop has 803 windows from repeated compartment/team identities. All 40 checkpoints were fixed before transfer scoring. Five training seeds measure optimization variation, not five independent plants. Factual future action/exogenous schedules are supplied. The original paper's raw run-byte identity is unavailable, and PatchTST AE concat uses the disclosed effective-batch128/microbatch64 adaptation, so bitwise headline reproduction is not claimed.
 
-H1: native AE/Gate advantages survive this source-protocol subset and the new crop batch. Requires all prescribed fits and the sealed second-batch comparison.
+Independent verification covered 84 retained forecast groups, 40,572 model-window predictions, 2,596,608 scalar predictions, all 40 loaded-forward/future-target-corruption checks and 80 native mechanism cells. Retained-array score arithmetic error was zero. Native mechanism functions are retained source; there is no independent intervention ground truth. Overall research goal remains ACTIVE_UNACHIEVED; accepted final directions: 0.
 
-H2: an apparent learned-dynamics failure is explained by ordinary forecasting/conditioning choices or regularization. Persistence and a same-information direct ridge are required controls.
+H1 (native configuration advantages persist): output Gate is supported descriptively on both crops and both backbones; AE concat alone is seed dependent. This is concordance with an existing recipe.
 
-H3: a residual shared world-model limitation remains after data, training, selection and baseline confounds. No evidence for this hypothesis is yet established by C53. A follow-up must use a fresh protocol and independent confirmation rather than tune this transfer batch.
+H2 (ordinary forecasting/objective choices explain an apparent failure): supported as a necessary attribution control. Persistence wins MAE, while PatchTST Gate wins MSE. This does not settle every mechanism question. Native clipping and seasonal difficulty also remain possible contributors to raw cross-crop changes.
+
+H3 (a residual novel world-model limitation is established): not supported by this experiment. A single repeated-compartment crop pair and sign-prior diagnostics do not establish an independently identified general failure or a new method.
+
+Competing explanations for the held-out CO2 response are policy feedback/insufficient identification, omitted state and predictive-model approximation/optimization. The current observational sign check cannot distinguish them. A follow-up must specify information/identifiability assumptions and include ordinary system-identification and competent latent-dynamics controls before designing a remedy.

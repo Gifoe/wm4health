@@ -1,0 +1,614 @@
+[
+  {
+    "epoch": 1,
+    "train": 0.16951567927996317,
+    "val": 0.1330874189734459,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "d4d84e659d2131bb36bc3392dfaa0234ab32162a98bfaa3909477d01e6cde964",
+    "cpu_rng_after_val": "f217dfbd8c6fbf6f5fb7222310b0d156a080b147373c73dfdb50eb9167d2a1c6",
+    "elapsed_seconds": 2.035488499997882
+  },
+  {
+    "epoch": 2,
+    "train": 0.10586543132861455,
+    "val": 0.08004694059491158,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "f217dfbd8c6fbf6f5fb7222310b0d156a080b147373c73dfdb50eb9167d2a1c6",
+    "cpu_rng_after_val": "0924bdf852dd9da9a2cefb81f369dfa30317e7a830ea4cc2d0c620cb66109ae5",
+    "elapsed_seconds": 2.237436199997319
+  },
+  {
+    "epoch": 3,
+    "train": 0.07572866603732109,
+    "val": 0.047329749912023544,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "0924bdf852dd9da9a2cefb81f369dfa30317e7a830ea4cc2d0c620cb66109ae5",
+    "cpu_rng_after_val": "e1d0e1820d0b0be919b57286fded519e8d0671dfc930bf29ab9e9947d5792071",
+    "elapsed_seconds": 2.439815899997484
+  },
+  {
+    "epoch": 4,
+    "train": 0.05875341904660066,
+    "val": 0.052365370094776154,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "e1d0e1820d0b0be919b57286fded519e8d0671dfc930bf29ab9e9947d5792071",
+    "cpu_rng_after_val": "bdbd25b65e21a75dd6ba6513ba91995862a5cf5f8a74574c44abd4a0a179726f",
+    "elapsed_seconds": 2.6426853999728337
+  },
+  {
+    "epoch": 5,
+    "train": 0.04925860154132048,
+    "val": 0.045395953580737114,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "bdbd25b65e21a75dd6ba6513ba91995862a5cf5f8a74574c44abd4a0a179726f",
+    "cpu_rng_after_val": "96b834e8fc4af5277cb364b15715ff7005d87686b9c1633171b7d5708a4c9073",
+    "elapsed_seconds": 2.8233885999943595
+  },
+  {
+    "epoch": 6,
+    "train": 0.04364486535390218,
+    "val": 0.03747092746198177,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "96b834e8fc4af5277cb364b15715ff7005d87686b9c1633171b7d5708a4c9073",
+    "cpu_rng_after_val": "7986f6480441651a4069a4de44d9c68885406c20939c49f391ba6c618b0071a7",
+    "elapsed_seconds": 3.032367499981774
+  },
+  {
+    "epoch": 7,
+    "train": 0.038890487203995384,
+    "val": 0.03311803471297026,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "7986f6480441651a4069a4de44d9c68885406c20939c49f391ba6c618b0071a7",
+    "cpu_rng_after_val": "12c42e957273ecbcdc09fa25c72722303414b7a66f7be8945904bbdc14de3548",
+    "elapsed_seconds": 3.2322501999733504
+  },
+  {
+    "epoch": 8,
+    "train": 0.034827472642064095,
+    "val": 0.027286583557724953,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "12c42e957273ecbcdc09fa25c72722303414b7a66f7be8945904bbdc14de3548",
+    "cpu_rng_after_val": "52cfd8877fad3f7653cfbd31c2daa06082d0a557dfd0b5c12b2df8cb09fc0850",
+    "elapsed_seconds": 3.4326291999896057
+  },
+  {
+    "epoch": 9,
+    "train": 0.03137015923857689,
+    "val": 0.027929022908210754,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "52cfd8877fad3f7653cfbd31c2daa06082d0a557dfd0b5c12b2df8cb09fc0850",
+    "cpu_rng_after_val": "236924d1e02eed2a3e7e207cc733dbfa48e9e6f9362ac431c5220332a7279b39",
+    "elapsed_seconds": 3.6283316999906674
+  },
+  {
+    "epoch": 10,
+    "train": 0.028645653277635574,
+    "val": 0.02224321849644184,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "236924d1e02eed2a3e7e207cc733dbfa48e9e6f9362ac431c5220332a7279b39",
+    "cpu_rng_after_val": "61c3405fb89aac9157e851d9df4bcc97000e1ead231af45f7972ec6aa98d1115",
+    "elapsed_seconds": 3.8092437999730464
+  },
+  {
+    "epoch": 11,
+    "train": 0.026342432325085003,
+    "val": 0.022754703648388386,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "61c3405fb89aac9157e851d9df4bcc97000e1ead231af45f7972ec6aa98d1115",
+    "cpu_rng_after_val": "56c6276c33ea5ea8d9fb842146371145960d4604d13cf25bad6c38e88bfbfb31",
+    "elapsed_seconds": 4.006055399979232
+  },
+  {
+    "epoch": 12,
+    "train": 0.024687906727194786,
+    "val": 0.020742041990160942,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "56c6276c33ea5ea8d9fb842146371145960d4604d13cf25bad6c38e88bfbfb31",
+    "cpu_rng_after_val": "74d6ffe1be660f07a9d179fee56fcc62646412e5566628d04a72f2e7ff15b59d",
+    "elapsed_seconds": 4.186690699978499
+  },
+  {
+    "epoch": 13,
+    "train": 0.02315939621378978,
+    "val": 0.021834074519574642,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "74d6ffe1be660f07a9d179fee56fcc62646412e5566628d04a72f2e7ff15b59d",
+    "cpu_rng_after_val": "67a28e034ecebd67f0ac1f18f111ad16495e17d007f75bccd845aa95c115f069",
+    "elapsed_seconds": 4.384281499980716
+  },
+  {
+    "epoch": 14,
+    "train": 0.021505046325425308,
+    "val": 0.020072042010724545,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "67a28e034ecebd67f0ac1f18f111ad16495e17d007f75bccd845aa95c115f069",
+    "cpu_rng_after_val": "49ecbbb51ec725675859105d0e851923584a7a9abf56cb90df0995bab78e4f61",
+    "elapsed_seconds": 4.568481900001643
+  },
+  {
+    "epoch": 15,
+    "train": 0.020451950530211132,
+    "val": 0.02029898762702942,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "49ecbbb51ec725675859105d0e851923584a7a9abf56cb90df0995bab78e4f61",
+    "cpu_rng_after_val": "3d1dafed0a9ea2208427183d1528924dab5cef4268e3215a89bde6aa29c43acc",
+    "elapsed_seconds": 4.766027399979066
+  },
+  {
+    "epoch": 16,
+    "train": 0.019089631425837677,
+    "val": 0.01808659778907895,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "3d1dafed0a9ea2208427183d1528924dab5cef4268e3215a89bde6aa29c43acc",
+    "cpu_rng_after_val": "3c85a03441cb8d44fb4c0601f02b331e56ae52a88474b556e163e9adac22daf8",
+    "elapsed_seconds": 4.9498383999743965
+  },
+  {
+    "epoch": 17,
+    "train": 0.018138375133275986,
+    "val": 0.018962659873068333,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "3c85a03441cb8d44fb4c0601f02b331e56ae52a88474b556e163e9adac22daf8",
+    "cpu_rng_after_val": "65dc7583d67cefd97a44533b98782e00ff118c7a52dbf938a467c57445d66df1",
+    "elapsed_seconds": 5.149044899997534
+  },
+  {
+    "epoch": 18,
+    "train": 0.01718819917490085,
+    "val": 0.019387187901884317,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "65dc7583d67cefd97a44533b98782e00ff118c7a52dbf938a467c57445d66df1",
+    "cpu_rng_after_val": "dfc21354c3b247527242ce68322dee4fb56e2abc6663ad0c2a26fc2838fb67fa",
+    "elapsed_seconds": 5.330198699986795
+  },
+  {
+    "epoch": 19,
+    "train": 0.017163999533901613,
+    "val": 0.018792116083204746,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "dfc21354c3b247527242ce68322dee4fb56e2abc6663ad0c2a26fc2838fb67fa",
+    "cpu_rng_after_val": "592aa43e13c0b18c1365bd12006372112a87df96d77d7a854bb48b10adfd35f8",
+    "elapsed_seconds": 5.513277399993967
+  },
+  {
+    "epoch": 20,
+    "train": 0.016304700480153162,
+    "val": 0.01615931512787938,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "592aa43e13c0b18c1365bd12006372112a87df96d77d7a854bb48b10adfd35f8",
+    "cpu_rng_after_val": "4641ce54baa8abf13dac23236ff53a960a5c231587e592c66d1e995afe2ae0ca",
+    "elapsed_seconds": 5.695668000000296
+  },
+  {
+    "epoch": 21,
+    "train": 0.015479892957955599,
+    "val": 0.0190576808527112,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "4641ce54baa8abf13dac23236ff53a960a5c231587e592c66d1e995afe2ae0ca",
+    "cpu_rng_after_val": "de364435cc80b485595ed95fa77b18b92b844773995dee2cbed3f3ac01a6d753",
+    "elapsed_seconds": 5.897948199999519
+  },
+  {
+    "epoch": 22,
+    "train": 0.015223345874498287,
+    "val": 0.017891605384647846,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "de364435cc80b485595ed95fa77b18b92b844773995dee2cbed3f3ac01a6d753",
+    "cpu_rng_after_val": "4471455375ba3d00007ed1d14a18f2d186bbda672b90790594948aa619da70a3",
+    "elapsed_seconds": 6.082008599973051
+  },
+  {
+    "epoch": 23,
+    "train": 0.01485524062688152,
+    "val": 0.015428937505930662,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "4471455375ba3d00007ed1d14a18f2d186bbda672b90790594948aa619da70a3",
+    "cpu_rng_after_val": "b47e4771e08ee64450c68928de8dc03b289e45282ab7fe6fff9a5a069b72fe41",
+    "elapsed_seconds": 6.265531799988821
+  },
+  {
+    "epoch": 24,
+    "train": 0.014284691618134579,
+    "val": 0.01661524921655655,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "b47e4771e08ee64450c68928de8dc03b289e45282ab7fe6fff9a5a069b72fe41",
+    "cpu_rng_after_val": "202f16a306cab41794dbfa443ee3c960615db16beff08d0ed3c1cb315c3caa6d",
+    "elapsed_seconds": 6.469334199995501
+  },
+  {
+    "epoch": 25,
+    "train": 0.013807269278913736,
+    "val": 0.01631021359935403,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "202f16a306cab41794dbfa443ee3c960615db16beff08d0ed3c1cb315c3caa6d",
+    "cpu_rng_after_val": "33473aac5d3463fafdfda9d5f2aaeab7a9dbc2269877ffc8cf2612ac4cf580ae",
+    "elapsed_seconds": 6.652129199996125
+  },
+  {
+    "epoch": 26,
+    "train": 0.01341501111164689,
+    "val": 0.016632135026156902,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "33473aac5d3463fafdfda9d5f2aaeab7a9dbc2269877ffc8cf2612ac4cf580ae",
+    "cpu_rng_after_val": "9d7f5bc3589dbd5eac5480cf53ad5bcc86c4f4914b3959f7d01747358c992e59",
+    "elapsed_seconds": 6.833357600000454
+  },
+  {
+    "epoch": 27,
+    "train": 0.012606248104323944,
+    "val": 0.014180817641317844,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "9d7f5bc3589dbd5eac5480cf53ad5bcc86c4f4914b3959f7d01747358c992e59",
+    "cpu_rng_after_val": "12c65e987d9342de5dbff89c3613b6857daf2bb29c255d2ec816aa7468c0036f",
+    "elapsed_seconds": 7.016918199980864
+  },
+  {
+    "epoch": 28,
+    "train": 0.012521295032153526,
+    "val": 0.014804486185312271,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "12c65e987d9342de5dbff89c3613b6857daf2bb29c255d2ec816aa7468c0036f",
+    "cpu_rng_after_val": "d5301b706cf5db5438683ab2dc2a80e04b34f355cb6d2cbba06f550abc24b653",
+    "elapsed_seconds": 7.215820599987637
+  },
+  {
+    "epoch": 29,
+    "train": 0.011993108627696833,
+    "val": 0.014224660117179155,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "d5301b706cf5db5438683ab2dc2a80e04b34f355cb6d2cbba06f550abc24b653",
+    "cpu_rng_after_val": "2714385308223df5a0689ec8c86065cf73dd8222e5ee40e421a9c91fe1ed75a5",
+    "elapsed_seconds": 7.397865599981742
+  },
+  {
+    "epoch": 30,
+    "train": 0.011659079231321812,
+    "val": 0.014101183973252773,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "2714385308223df5a0689ec8c86065cf73dd8222e5ee40e421a9c91fe1ed75a5",
+    "cpu_rng_after_val": "8d6116186cfe6ea8fea26960b9154f114b77104e635b9e6a8cff8c87c1067cdc",
+    "elapsed_seconds": 7.580990099988412
+  },
+  {
+    "epoch": 31,
+    "train": 0.011453671070436636,
+    "val": 0.014272220432758331,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "8d6116186cfe6ea8fea26960b9154f114b77104e635b9e6a8cff8c87c1067cdc",
+    "cpu_rng_after_val": "ef4de191e2449ac3d5ee5e409eadd1af4b75983fbb4a6bfb2a3f8bdb113952ea",
+    "elapsed_seconds": 7.7790947999747
+  },
+  {
+    "epoch": 32,
+    "train": 0.011192639203121265,
+    "val": 0.013670746237039566,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "ef4de191e2449ac3d5ee5e409eadd1af4b75983fbb4a6bfb2a3f8bdb113952ea",
+    "cpu_rng_after_val": "36209bacbbd82c76fb63f2d93fe05d7aa85238ebf7c5376a9dff5b93036b3e2f",
+    "elapsed_seconds": 7.964244899980258
+  },
+  {
+    "epoch": 33,
+    "train": 0.010796227337171635,
+    "val": 0.013620646670460701,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "36209bacbbd82c76fb63f2d93fe05d7aa85238ebf7c5376a9dff5b93036b3e2f",
+    "cpu_rng_after_val": "558477de0a1298814a4f8f22c3dd6e671c1503fbfc1c49d96cfed2c2414d6fa8",
+    "elapsed_seconds": 8.163738599978387
+  },
+  {
+    "epoch": 34,
+    "train": 0.01029103777060906,
+    "val": 0.013319896068423986,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "558477de0a1298814a4f8f22c3dd6e671c1503fbfc1c49d96cfed2c2414d6fa8",
+    "cpu_rng_after_val": "345d0f9fa9349ec912d90fb655ef710e3df02b540011d9018f5dbd4e0706eb70",
+    "elapsed_seconds": 8.360899999999674
+  },
+  {
+    "epoch": 35,
+    "train": 0.010340940052022537,
+    "val": 0.012697971891611814,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "345d0f9fa9349ec912d90fb655ef710e3df02b540011d9018f5dbd4e0706eb70",
+    "cpu_rng_after_val": "f9125413cff16ed202d47bfc301d9b767c2b652bf2471640796eb61d077527f6",
+    "elapsed_seconds": 8.561219099996379
+  },
+  {
+    "epoch": 36,
+    "train": 0.00992140251522263,
+    "val": 0.012885763309895992,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "f9125413cff16ed202d47bfc301d9b767c2b652bf2471640796eb61d077527f6",
+    "cpu_rng_after_val": "8a5466cd929eb38b5011564895fc5ab01f6bad1f6143e1586d01e906e60cb2bb",
+    "elapsed_seconds": 8.75994429999264
+  },
+  {
+    "epoch": 37,
+    "train": 0.009652528290947279,
+    "val": 0.012587892357259989,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "8a5466cd929eb38b5011564895fc5ab01f6bad1f6143e1586d01e906e60cb2bb",
+    "cpu_rng_after_val": "704e3cc03b6f68d0ce338547e9de45d3f1038192da1cf0a1a8492452f61bc01b",
+    "elapsed_seconds": 8.942401299980702
+  },
+  {
+    "epoch": 38,
+    "train": 0.009093729468683401,
+    "val": 0.012349851429462433,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "704e3cc03b6f68d0ce338547e9de45d3f1038192da1cf0a1a8492452f61bc01b",
+    "cpu_rng_after_val": "d454047c0b9d9f1cb0cf2297737f3b610a32520cb939a8c5e8024c7b5f14f1a9",
+    "elapsed_seconds": 9.146888499992201
+  },
+  {
+    "epoch": 39,
+    "train": 0.00922601018100977,
+    "val": 0.01499316981062293,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "d454047c0b9d9f1cb0cf2297737f3b610a32520cb939a8c5e8024c7b5f14f1a9",
+    "cpu_rng_after_val": "0819492afd25811baea521d1c28e5dd8e690d2833a364e2744f25e1a80a0dd6a",
+    "elapsed_seconds": 9.349661599990213
+  },
+  {
+    "epoch": 40,
+    "train": 0.009108847938477993,
+    "val": 0.012705259025096893,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "0819492afd25811baea521d1c28e5dd8e690d2833a364e2744f25e1a80a0dd6a",
+    "cpu_rng_after_val": "0ee19106d143e1bee0452794eac7f23289c425a394891ac5107872388afb4e7e",
+    "elapsed_seconds": 9.536044899985427
+  },
+  {
+    "epoch": 41,
+    "train": 0.008380881200234095,
+    "val": 0.011707366909831762,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "0ee19106d143e1bee0452794eac7f23289c425a394891ac5107872388afb4e7e",
+    "cpu_rng_after_val": "ec63a717483ea33097a57c3cf9ccda4c235af84ccbe39586951d4990a86245e1",
+    "elapsed_seconds": 9.719558999990113
+  },
+  {
+    "epoch": 42,
+    "train": 0.00822352028141419,
+    "val": 0.012010198552161455,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "ec63a717483ea33097a57c3cf9ccda4c235af84ccbe39586951d4990a86245e1",
+    "cpu_rng_after_val": "5508d65d73cc93049067a75c2ee2787340cf8fa5c1c6ca720279ab076c72872a",
+    "elapsed_seconds": 9.91589569998905
+  },
+  {
+    "epoch": 43,
+    "train": 0.007423431224500139,
+    "val": 0.012757258024066687,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "5508d65d73cc93049067a75c2ee2787340cf8fa5c1c6ca720279ab076c72872a",
+    "cpu_rng_after_val": "6a6725e1fd93a927762ef1ae8e8cd7b4755a5ffef97bcc027fb0cc81754a9ec4",
+    "elapsed_seconds": 10.09895289997803
+  },
+  {
+    "epoch": 44,
+    "train": 0.007528286660090089,
+    "val": 0.013053590897470713,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "6a6725e1fd93a927762ef1ae8e8cd7b4755a5ffef97bcc027fb0cc81754a9ec4",
+    "cpu_rng_after_val": "1421e84a76c0b276578dccf53bffb8caee12bf7e2de04c9926cd7083859001e4",
+    "elapsed_seconds": 10.279878399975132
+  },
+  {
+    "epoch": 45,
+    "train": 0.007130070822313428,
+    "val": 0.01339940819889307,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "1421e84a76c0b276578dccf53bffb8caee12bf7e2de04c9926cd7083859001e4",
+    "cpu_rng_after_val": "9129932a9efeea70bd959cba424cc0fc3c6b762501e3aff54221dbbf07550f4c",
+    "elapsed_seconds": 10.460793599981116
+  },
+  {
+    "epoch": 46,
+    "train": 0.007212034659460187,
+    "val": 0.013782430440187454,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "9129932a9efeea70bd959cba424cc0fc3c6b762501e3aff54221dbbf07550f4c",
+    "cpu_rng_after_val": "55734fa8ba933c89e8889ead173039f225ddf4891cd2754abeef1c02bc856d8d",
+    "elapsed_seconds": 10.643074899999192
+  },
+  {
+    "epoch": 47,
+    "train": 0.007055144989863038,
+    "val": 0.013058935757726431,
+    "lr_before_scheduler": 0.001,
+    "cpu_rng_before_train": "55734fa8ba933c89e8889ead173039f225ddf4891cd2754abeef1c02bc856d8d",
+    "cpu_rng_after_val": "13be7c999c25b76cb7bde6a4bb3b5099c786ebd7b1c73104d4e2ffa67d4e4d28",
+    "elapsed_seconds": 10.826784899982158
+  },
+  {
+    "epoch": 48,
+    "train": 0.006520862070222695,
+    "val": 0.011043200735002756,
+    "lr_before_scheduler": 0.0005,
+    "cpu_rng_before_train": "13be7c999c25b76cb7bde6a4bb3b5099c786ebd7b1c73104d4e2ffa67d4e4d28",
+    "cpu_rng_after_val": "f70be8f17374c758964ff4d8b0eacd48057e3e0e660c15862a7ae47f463bcd27",
+    "elapsed_seconds": 11.008674899989273
+  },
+  {
+    "epoch": 49,
+    "train": 0.006387569631139438,
+    "val": 0.012826764490455389,
+    "lr_before_scheduler": 0.0005,
+    "cpu_rng_before_train": "f70be8f17374c758964ff4d8b0eacd48057e3e0e660c15862a7ae47f463bcd27",
+    "cpu_rng_after_val": "f96c8328db86c43ccb1db65637d0aeb754b7c149426d424f569c420e6aa67184",
+    "elapsed_seconds": 11.205949399998644
+  },
+  {
+    "epoch": 50,
+    "train": 0.005974845650295417,
+    "val": 0.012711505871266127,
+    "lr_before_scheduler": 0.0005,
+    "cpu_rng_before_train": "f96c8328db86c43ccb1db65637d0aeb754b7c149426d424f569c420e6aa67184",
+    "cpu_rng_after_val": "5a5fb8fedb9821b82d25fb618eaa4d80ceee021fcb222382547e412812b158d3",
+    "elapsed_seconds": 11.391455299977679
+  },
+  {
+    "epoch": 51,
+    "train": 0.005798090482130647,
+    "val": 0.011976380832493305,
+    "lr_before_scheduler": 0.0005,
+    "cpu_rng_before_train": "5a5fb8fedb9821b82d25fb618eaa4d80ceee021fcb222382547e412812b158d3",
+    "cpu_rng_after_val": "1f5b45bd7bc647766776b2dc6e4c993c65410fd48cc3fa5a3677df8696c84b16",
+    "elapsed_seconds": 11.57588739998755
+  },
+  {
+    "epoch": 52,
+    "train": 0.0055751244847973185,
+    "val": 0.011433048639446497,
+    "lr_before_scheduler": 0.0005,
+    "cpu_rng_before_train": "1f5b45bd7bc647766776b2dc6e4c993c65410fd48cc3fa5a3677df8696c84b16",
+    "cpu_rng_after_val": "9ba6c83d17489718ad39cb3f497772c3f34ee029094a551fbb63a908fa5a6ce0",
+    "elapsed_seconds": 11.758007199998247
+  },
+  {
+    "epoch": 53,
+    "train": 0.005413654958829284,
+    "val": 0.011980071198195219,
+    "lr_before_scheduler": 0.0005,
+    "cpu_rng_before_train": "9ba6c83d17489718ad39cb3f497772c3f34ee029094a551fbb63a908fa5a6ce0",
+    "cpu_rng_after_val": "8554a500a1efcd7852e6436e33a7aff8e52890360cc7ce457cd0b2290637c916",
+    "elapsed_seconds": 11.941090999986045
+  },
+  {
+    "epoch": 54,
+    "train": 0.005293991571913163,
+    "val": 0.012179540004581213,
+    "lr_before_scheduler": 0.0005,
+    "cpu_rng_before_train": "8554a500a1efcd7852e6436e33a7aff8e52890360cc7ce457cd0b2290637c916",
+    "cpu_rng_after_val": "afb3edbb0cc7cbe27df69d86b6849ae9f01a057e36ebe6fb821959d9bd7c2d2f",
+    "elapsed_seconds": 12.125443600001745
+  },
+  {
+    "epoch": 55,
+    "train": 0.005046285844097535,
+    "val": 0.011762168258428574,
+    "lr_before_scheduler": 0.00025,
+    "cpu_rng_before_train": "afb3edbb0cc7cbe27df69d86b6849ae9f01a057e36ebe6fb821959d9bd7c2d2f",
+    "cpu_rng_after_val": "0c70eebcfeb196a5b3b3b9f1c0c961f3861aad2af696520b59b5c4f5e806c128",
+    "elapsed_seconds": 12.309062299988
+  },
+  {
+    "epoch": 56,
+    "train": 0.004977359514062603,
+    "val": 0.01168720331043005,
+    "lr_before_scheduler": 0.00025,
+    "cpu_rng_before_train": "0c70eebcfeb196a5b3b3b9f1c0c961f3861aad2af696520b59b5c4f5e806c128",
+    "cpu_rng_after_val": "fd33d5d8da093964d5c35d97aacab060b480360ffb9ebe8acd475aad52080eec",
+    "elapsed_seconds": 12.495756199990865
+  },
+  {
+    "epoch": 57,
+    "train": 0.004871755372732878,
+    "val": 0.011595656629651785,
+    "lr_before_scheduler": 0.00025,
+    "cpu_rng_before_train": "fd33d5d8da093964d5c35d97aacab060b480360ffb9ebe8acd475aad52080eec",
+    "cpu_rng_after_val": "4ce54cfd7ced6ad136c274dd0e49672c65850d4dee24a84ebdc4d946669d23be",
+    "elapsed_seconds": 12.679294399975333
+  },
+  {
+    "epoch": 58,
+    "train": 0.004872399692734082,
+    "val": 0.011994017753750086,
+    "lr_before_scheduler": 0.00025,
+    "cpu_rng_before_train": "4ce54cfd7ced6ad136c274dd0e49672c65850d4dee24a84ebdc4d946669d23be",
+    "cpu_rng_after_val": "09935c534100612c3b470271b288e114cf02f95b028a1fbd00557ae2a6707923",
+    "elapsed_seconds": 12.863827900000615
+  },
+  {
+    "epoch": 59,
+    "train": 0.004750735010020435,
+    "val": 0.011889548972249031,
+    "lr_before_scheduler": 0.00025,
+    "cpu_rng_before_train": "09935c534100612c3b470271b288e114cf02f95b028a1fbd00557ae2a6707923",
+    "cpu_rng_after_val": "bc2e11483e3386217b4dbe6e546c0a74787cbea90ea59b65c9f6e320adff6e98",
+    "elapsed_seconds": 13.048273299995344
+  },
+  {
+    "epoch": 60,
+    "train": 0.004770540244256456,
+    "val": 0.012061559595167637,
+    "lr_before_scheduler": 0.00025,
+    "cpu_rng_before_train": "bc2e11483e3386217b4dbe6e546c0a74787cbea90ea59b65c9f6e320adff6e98",
+    "cpu_rng_after_val": "7bf8210eaa85936054485e0689986b34e591eb1873479f86985fed712ee2a60d",
+    "elapsed_seconds": 13.22930279999855
+  },
+  {
+    "epoch": 61,
+    "train": 0.004564193853487571,
+    "val": 0.011823372449725866,
+    "lr_before_scheduler": 0.000125,
+    "cpu_rng_before_train": "7bf8210eaa85936054485e0689986b34e591eb1873479f86985fed712ee2a60d",
+    "cpu_rng_after_val": "5bc51ba46d8d5f23492c9c169eb27257020c7657562d6a89b0f794dd4aebf1a5",
+    "elapsed_seconds": 13.411229199991794
+  },
+  {
+    "epoch": 62,
+    "train": 0.0045195952989161015,
+    "val": 0.011930274777114391,
+    "lr_before_scheduler": 0.000125,
+    "cpu_rng_before_train": "5bc51ba46d8d5f23492c9c169eb27257020c7657562d6a89b0f794dd4aebf1a5",
+    "cpu_rng_after_val": "1cc79c56f92151decd58f5a81bd5958e08894e08f326b679865be841e9f259ea",
+    "elapsed_seconds": 13.595013499987544
+  },
+  {
+    "epoch": 63,
+    "train": 0.004406756876657407,
+    "val": 0.011704941745847464,
+    "lr_before_scheduler": 0.000125,
+    "cpu_rng_before_train": "1cc79c56f92151decd58f5a81bd5958e08894e08f326b679865be841e9f259ea",
+    "cpu_rng_after_val": "87dfd365e9be57777b1fee0f283660a462c63a897e751e41d828e0d9c12d4fa1",
+    "elapsed_seconds": 13.776568499975838
+  },
+  {
+    "epoch": 64,
+    "train": 0.004576772917062044,
+    "val": 0.011935621500015259,
+    "lr_before_scheduler": 0.000125,
+    "cpu_rng_before_train": "87dfd365e9be57777b1fee0f283660a462c63a897e751e41d828e0d9c12d4fa1",
+    "cpu_rng_after_val": "286b413e0fc58f77ed1665d454ddd7d668a0ded34f2a7db164538694eb6fcdd0",
+    "elapsed_seconds": 13.959386799979256
+  },
+  {
+    "epoch": 65,
+    "train": 0.0044592812191694975,
+    "val": 0.01176632335409522,
+    "lr_before_scheduler": 0.000125,
+    "cpu_rng_before_train": "286b413e0fc58f77ed1665d454ddd7d668a0ded34f2a7db164538694eb6fcdd0",
+    "cpu_rng_after_val": "fb6152e5a66afefdcafa50820dba3ff2486a4146798d740831cb54f61f8a2832",
+    "elapsed_seconds": 14.141012399981264
+  },
+  {
+    "epoch": 66,
+    "train": 0.004438667170082529,
+    "val": 0.011829768773168325,
+    "lr_before_scheduler": 0.000125,
+    "cpu_rng_before_train": "fb6152e5a66afefdcafa50820dba3ff2486a4146798d740831cb54f61f8a2832",
+    "cpu_rng_after_val": "ef1dd6d265ce162e5f2efb5c0fb15c9381b32e24a3144e22082f50c7e3bcf2b0",
+    "elapsed_seconds": 14.324707099993248
+  },
+  {
+    "epoch": 67,
+    "train": 0.0044307341643919545,
+    "val": 0.011903440114110708,
+    "lr_before_scheduler": 6.25e-05,
+    "cpu_rng_before_train": "ef1dd6d265ce162e5f2efb5c0fb15c9381b32e24a3144e22082f50c7e3bcf2b0",
+    "cpu_rng_after_val": "ef6a924532277f712e532d0e94d52a38a6a4f59ff4b8145dab8ed69f1a4e1b6b",
+    "elapsed_seconds": 14.510328999982448
+  },
+  {
+    "epoch": 68,
+    "train": 0.004362827244525154,
+    "val": 0.011946986895054579,
+    "lr_before_scheduler": 6.25e-05,
+    "cpu_rng_before_train": "ef6a924532277f712e532d0e94d52a38a6a4f59ff4b8145dab8ed69f1a4e1b6b",
+    "cpu_rng_after_val": "5f41e72d47ea3efd319d1657dd18501d49605f0bc57956c5ee9a03cc839c7a42",
+    "elapsed_seconds": 14.692233399982797
+  }
+]

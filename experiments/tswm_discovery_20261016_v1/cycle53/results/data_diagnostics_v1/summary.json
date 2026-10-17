@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-17T16:46:07.597974+00:00",
+  "status": "COMPLETE_DESCRIPTIVE_SCALING_AND_TIMING_AUDIT",
+  "selected_models_fixed": 40,
+  "model_predictions_read": false,
+  "fits_or_hyperparameter_selection": false,
+  "windows": 1781,
+  "scaling_rows": 114,
+  "horizon_rows": 48,
+  "windows_with_nonfive_minute_steps": 1781,
+  "windows_with_nonpositive_steps": 0,
+  "scope": "Window-weighted raw-column values before native interpolation/clipping, and recorded date-field elapsed times. Descriptive input/target-definition diagnostics after the 40-model seal; no method selection.",
+  "physical_metric_limit": "Multiplying normalized forecast errors by native affine scales yields errors against native clipped target values in original column units. It does not recover accuracy against unclipped raw observations.",
+  "selection_seal_sha256": "83c631adb1165fb24633b503786d1cf9b4a17092c12cda4fe5c33a714a8e17b6",
+  "script_sha256": "2ba522cc2bf75e394e57a178a6714d2b1311ed111b9bab0d0e8adeadb5a4a010",
+  "source_files_rechecked": 125
+}

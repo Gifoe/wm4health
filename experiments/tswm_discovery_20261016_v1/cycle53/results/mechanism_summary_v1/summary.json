@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-17T16:46:02.488401+00:00",
+  "status": "COMPLETE_NATIVE_PRIOR_ROLE_AND_COVERAGE_SUMMARY",
+  "native_soft_fits_checked": 10,
+  "details": 4000,
+  "groups": 800,
+  "training_prior_keys": [
+    "greenhouse:Tpipe->Tair",
+    "greenhouse:VentLee->Tair",
+    "greenhouse:VentWind->Tair"
+  ],
+  "heldout_prior_keys": [
+    "greenhouse:AssimLight->PARin",
+    "greenhouse:CO2dosing->CO2air"
+  ],
+  "qualification_scope": "Training-prior roles are checked against all ten original soft-fit summaries; native totals/counts are retained. No fit or checkpoint selection.",
+  "interpretation": "Training-prior agreement is supervised constraint satisfaction. Held-out-prior agreement is generalization of declared sign constraints, not counterfactual accuracy or causal identification. Native empirical action shifts and MAD tolerances depend on bank. MAE under a changed input against factual targets is not intervention-truth error.",
+  "verification_sha256": "4ca4c5539022a93ff5ed528bff2767483a0e106151f85c51a9239bdd3b16b20a",
+  "script_sha256": "b50a5432f82654207f2c17d8f4987339fd30e394d1da9275cdd6b7e599fc95e3",
+  "source_files_rechecked": 125
+}

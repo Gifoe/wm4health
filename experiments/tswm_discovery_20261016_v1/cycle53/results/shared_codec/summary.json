@@ -1,0 +1,20 @@
+{
+  "job": "codec",
+  "native_meta": {
+    "dataset": "greenhouse",
+    "signal": "target",
+    "enc_in": 4,
+    "d_model": 32,
+    "d_ff": 64,
+    "use_revin": false,
+    "context_length": 256,
+    "horizon": 16,
+    "best_epoch": 100,
+    "best_val": 0.003057,
+    "n_params": 4772
+  },
+  "checkpoint": "storage/checkpoints\\cycle53\\native_v1\\shared_codec\\greenhouse__target.pt",
+  "checkpoint_sha256": "0c3083e1e970da4c25108ceb0a7060e8a9c078d3011f362ff22eacd818d7084c",
+  "elapsed_seconds": 32.58996060001664,
+  "source_files_rechecked": 125
+}

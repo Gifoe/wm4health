@@ -1,0 +1,1 @@
+All four channels and all 16 horizons are shown. Bands represent training-seed sample standard deviation only. Five minutes is the nominal native sampling interval; accepted sessions can contain smaller-than-cutoff gaps. No channel or horizon selected a checkpoint or method.

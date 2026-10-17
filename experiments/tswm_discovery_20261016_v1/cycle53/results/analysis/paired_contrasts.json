@@ -1,0 +1,2554 @@
+[
+  {
+    "bank": "source_val",
+    "model": "CrossLinear",
+    "baseline": "obs",
+    "candidate": "ae_concat",
+    "calendar_block_days": 7,
+    "MAE_reduction": 0.007657848408251451,
+    "MAE_reduction_seed_values": [
+      0.04021286711980949,
+      -0.00913480231358971,
+      0.05244480633986414,
+      -0.02836477776239069,
+      -0.016868851342435962
+    ],
+    "MAE_reduction_seed_std": 0.03621768407571739,
+    "percent_MAE_reduction": 6.5500238329679155,
+    "calendar_bins": 7,
+    "descriptive_MAE_reduction_interval": [
+      -0.0001767802751227429,
+      0.014573099943058047
+    ],
+    "descriptive_percent_reduction_interval": [
+      -0.14094367603766333,
+      13.303566287988303
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "CrossLinear",
+    "baseline": "obs",
+    "candidate": "ae_concat",
+    "calendar_block_days": 3,
+    "MAE_reduction": 0.007657848408251451,
+    "MAE_reduction_seed_values": [
+      0.04021286711980949,
+      -0.00913480231358971,
+      0.05244480633986414,
+      -0.02836477776239069,
+      -0.016868851342435962
+    ],
+    "MAE_reduction_seed_std": 0.03621768407571739,
+    "percent_MAE_reduction": 6.5500238329679155,
+    "calendar_bins": 16,
+    "descriptive_MAE_reduction_interval": [
+      0.0012805348560804325,
+      0.013473367442331506
+    ],
+    "descriptive_percent_reduction_interval": [
+      1.0358160212615772,
+      11.794410437119105
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "CrossLinear",
+    "baseline": "ae_concat",
+    "candidate": "ae_gate",
+    "calendar_block_days": 7,
+    "MAE_reduction": 0.03654545894052627,
+    "MAE_reduction_seed_values": [
+      0.03667556989543066,
+      0.030260593859365272,
+      0.03603701900033369,
+      0.038237859987428104,
+      0.041516251960073663
+    ],
+    "MAE_reduction_seed_std": 0.004103290559675903,
+    "percent_MAE_reduction": 33.44955469137418,
+    "calendar_bins": 7,
+    "descriptive_MAE_reduction_interval": [
+      0.025026953097025816,
+      0.05142217473185442
+    ],
+    "descriptive_percent_reduction_interval": [
+      26.435521940094826,
+      41.268227955344436
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "CrossLinear",
+    "baseline": "ae_concat",
+    "candidate": "ae_gate",
+    "calendar_block_days": 3,
+    "MAE_reduction": 0.03654545894052627,
+    "MAE_reduction_seed_values": [
+      0.03667556989543066,
+      0.030260593859365272,
+      0.03603701900033369,
+      0.038237859987428104,
+      0.041516251960073663
+    ],
+    "MAE_reduction_seed_std": 0.004103290559675903,
+    "percent_MAE_reduction": 33.44955469137418,
+    "calendar_bins": 16,
+    "descriptive_MAE_reduction_interval": [
+      0.028371650468312318,
+      0.04626635031416994
+    ],
+    "descriptive_percent_reduction_interval": [
+      28.250657059207597,
+      38.95779315344255
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "CrossLinear",
+    "baseline": "ae_gate",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.010648797451521332,
+    "MAE_reduction_seed_values": [
+      -0.012143173762647138,
+      -0.010222785041468972,
+      -0.014588715879609408,
+      -0.002055518988889865,
+      -0.014233793584991281
+    ],
+    "MAE_reduction_seed_std": 0.005114543879127466,
+    "percent_MAE_reduction": -14.645578162588066,
+    "calendar_bins": 7,
+    "descriptive_MAE_reduction_interval": [
+      -0.01571797731069532,
+      -0.006197486764428679
+    ],
+    "descriptive_percent_reduction_interval": [
+      -20.68601390456278,
+      -9.104551408327021
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "CrossLinear",
+    "baseline": "ae_gate",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.010648797451521332,
+    "MAE_reduction_seed_values": [
+      -0.012143173762647138,
+      -0.010222785041468972,
+      -0.014588715879609408,
+      -0.002055518988889865,
+      -0.014233793584991281
+    ],
+    "MAE_reduction_seed_std": 0.005114543879127466,
+    "percent_MAE_reduction": -14.645578162588066,
+    "calendar_bins": 16,
+    "descriptive_MAE_reduction_interval": [
+      -0.014384330075906488,
+      -0.007367038354789981
+    ],
+    "descriptive_percent_reduction_interval": [
+      -19.384485115988152,
+      -10.463742037011338
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "CrossLinear",
+    "baseline": "persistence",
+    "candidate": "obs",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.06197277299011344,
+    "MAE_reduction_seed_values": [
+      -0.09474757945852817,
+      -0.039834664335041924,
+      -0.10490104141389806,
+      -0.03022886042640633,
+      -0.04015171931669269
+    ],
+    "MAE_reduction_seed_std": 0.034967679333925236,
+    "percent_MAE_reduction": -112.79976147509726,
+    "calendar_bins": 7,
+    "descriptive_MAE_reduction_interval": [
+      -0.07790978846242239,
+      -0.049073098560622155
+    ],
+    "descriptive_percent_reduction_interval": [
+      -156.6829479005379,
+      -83.56467640426702
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "CrossLinear",
+    "baseline": "persistence",
+    "candidate": "obs",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.06197277299011344,
+    "MAE_reduction_seed_values": [
+      -0.09474757945852817,
+      -0.039834664335041924,
+      -0.10490104141389806,
+      -0.03022886042640633,
+      -0.04015171931669269
+    ],
+    "MAE_reduction_seed_std": 0.034967679333925236,
+    "percent_MAE_reduction": -112.79976147509726,
+    "calendar_bins": 16,
+    "descriptive_MAE_reduction_interval": [
+      -0.07351816304252247,
+      -0.051780621199499485
+    ],
+    "descriptive_percent_reduction_interval": [
+      -144.36601177153642,
+      -86.61352524550117
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "CrossLinear",
+    "baseline": "persistence",
+    "candidate": "ae_concat",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.05431492458186198,
+    "MAE_reduction_seed_values": [
+      -0.054534712338718684,
+      -0.04896946664863163,
+      -0.052456235074033915,
+      -0.05859363818879702,
+      -0.057020570659128654
+    ],
+    "MAE_reduction_seed_std": 0.003798185905340507,
+    "percent_MAE_reduction": -98.8613263819795,
+    "calendar_bins": 7,
+    "descriptive_MAE_reduction_interval": [
+      -0.07569633152996794,
+      -0.03684266246972384
+    ],
+    "descriptive_percent_reduction_interval": [
+      -149.45003257711988,
+      -62.91210442903826
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "CrossLinear",
+    "baseline": "persistence",
+    "candidate": "ae_concat",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.05431492458186198,
+    "MAE_reduction_seed_values": [
+      -0.054534712338718684,
+      -0.04896946664863163,
+      -0.052456235074033915,
+      -0.05859363818879702,
+      -0.057020570659128654
+    ],
+    "MAE_reduction_seed_std": 0.003798185905340507,
+    "percent_MAE_reduction": -98.8613263819795,
+    "calendar_bins": 16,
+    "descriptive_MAE_reduction_interval": [
+      -0.06915639940998934,
+      -0.04155715070515418
+    ],
+    "descriptive_percent_reduction_interval": [
+      -134.44782727090293,
+      -70.62632920283862
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "CrossLinear",
+    "baseline": "persistence",
+    "candidate": "ae_gate",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.017769465641335705,
+    "MAE_reduction_seed_values": [
+      -0.017859142443288026,
+      -0.01870887278926636,
+      -0.016419216073700227,
+      -0.020355778201368916,
+      -0.01550431869905499
+    ],
+    "MAE_reduction_seed_std": 0.0019061482721446808,
+    "percent_MAE_reduction": -32.34309825384715,
+    "calendar_bins": 7,
+    "descriptive_MAE_reduction_interval": [
+      -0.026172114984158043,
+      -0.010663750802112711
+    ],
+    "descriptive_percent_reduction_interval": [
+      -52.32813353157155,
+      -18.66929971382618
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "CrossLinear",
+    "baseline": "persistence",
+    "candidate": "ae_gate",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.017769465641335705,
+    "MAE_reduction_seed_values": [
+      -0.017859142443288026,
+      -0.01870887278926636,
+      -0.016419216073700227,
+      -0.020355778201368916,
+      -0.01550431869905499
+    ],
+    "MAE_reduction_seed_std": 0.0019061482721446808,
+    "percent_MAE_reduction": -32.34309825384715,
+    "calendar_bins": 16,
+    "descriptive_MAE_reduction_interval": [
+      -0.024561083469823775,
+      -0.011678695141397022
+    ],
+    "descriptive_percent_reduction_interval": [
+      -47.624504459730694,
+      -19.594251107198996
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "CrossLinear",
+    "baseline": "persistence",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.02841826309285704,
+    "MAE_reduction_seed_values": [
+      -0.030002316205935166,
+      -0.02893165783073533,
+      -0.031007931953309635,
+      -0.02241129719025878,
+      -0.029738112284046273
+    ],
+    "MAE_reduction_seed_std": 0.0034389251398944574,
+    "percent_MAE_reduction": -51.725510151405054,
+    "calendar_bins": 7,
+    "descriptive_MAE_reduction_interval": [
+      -0.04201465477445702,
+      -0.017360226341597375
+    ],
+    "descriptive_percent_reduction_interval": [
+      -82.09368665623673,
+      -29.804054916626676
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "CrossLinear",
+    "baseline": "persistence",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.02841826309285704,
+    "MAE_reduction_seed_values": [
+      -0.030002316205935166,
+      -0.02893165783073533,
+      -0.031007931953309635,
+      -0.02241129719025878,
+      -0.029738112284046273
+    ],
+    "MAE_reduction_seed_std": 0.0034389251398944574,
+    "percent_MAE_reduction": -51.725510151405054,
+    "calendar_bins": 16,
+    "descriptive_MAE_reduction_interval": [
+      -0.03834366484542995,
+      -0.020164816463367787
+    ],
+    "descriptive_percent_reduction_interval": [
+      -74.20751301848175,
+      -34.47644729949305
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "CrossLinear",
+    "baseline": "ridge",
+    "candidate": "obs",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.03612718249862582,
+    "MAE_reduction_seed_values": [
+      -0.06890198896704057,
+      -0.013989073843554306,
+      -0.07905545092241044,
+      -0.004383269934918716,
+      -0.014306128825205072
+    ],
+    "MAE_reduction_seed_std": 0.034967679333925236,
+    "percent_MAE_reduction": -44.719548049913044,
+    "calendar_bins": 7,
+    "descriptive_MAE_reduction_interval": [
+      -0.047002486940393974,
+      -0.02695499769847778
+    ],
+    "descriptive_percent_reduction_interval": [
+      -58.6534750989875,
+      -32.47996988563764
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "CrossLinear",
+    "baseline": "ridge",
+    "candidate": "obs",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.03612718249862582,
+    "MAE_reduction_seed_values": [
+      -0.06890198896704057,
+      -0.013989073843554306,
+      -0.07905545092241044,
+      -0.004383269934918716,
+      -0.014306128825205072
+    ],
+    "MAE_reduction_seed_std": 0.034967679333925236,
+    "percent_MAE_reduction": -44.719548049913044,
+    "calendar_bins": 16,
+    "descriptive_MAE_reduction_interval": [
+      -0.04494131316707076,
+      -0.028809537898079957
+    ],
+    "descriptive_percent_reduction_interval": [
+      -56.22119747108116,
+      -34.83373048543199
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "CrossLinear",
+    "baseline": "ridge",
+    "candidate": "ae_concat",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.028469334090374363,
+    "MAE_reduction_seed_values": [
+      -0.028689121847231068,
+      -0.023123876157144015,
+      -0.0266106445825463,
+      -0.03274804769730941,
+      -0.031174980167641034
+    ],
+    "MAE_reduction_seed_std": 0.0037981859053405065,
+    "percent_MAE_reduction": -35.24038316168028,
+    "calendar_bins": 7,
+    "descriptive_MAE_reduction_interval": [
+      -0.04591473843331489,
+      -0.01261142974483189
+    ],
+    "descriptive_percent_reduction_interval": [
+      -57.590608159711046,
+      -15.299386939314884
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "CrossLinear",
+    "baseline": "ridge",
+    "candidate": "ae_concat",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.028469334090374363,
+    "MAE_reduction_seed_values": [
+      -0.028689121847231068,
+      -0.023123876157144015,
+      -0.0266106445825463,
+      -0.03274804769730941,
+      -0.031174980167641034
+    ],
+    "MAE_reduction_seed_std": 0.0037981859053405065,
+    "percent_MAE_reduction": -35.24038316168028,
+    "calendar_bins": 16,
+    "descriptive_MAE_reduction_interval": [
+      -0.04155286906319629,
+      -0.01683931952294075
+    ],
+    "descriptive_percent_reduction_interval": [
+      -52.15237566462086,
+      -20.78742698959438
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "CrossLinear",
+    "baseline": "ridge",
+    "candidate": "ae_gate",
+    "calendar_block_days": 7,
+    "MAE_reduction": 0.008076124850151911,
+    "MAE_reduction_seed_values": [
+      0.00798644804819959,
+      0.007136717702221257,
+      0.009426374417787388,
+      0.0054898122901186975,
+      0.010341271792432624
+    ],
+    "MAE_reduction_seed_std": 0.001906148272144681,
+    "percent_MAE_reduction": 9.996922768809961,
+    "calendar_bins": 7,
+    "descriptive_MAE_reduction_interval": [
+      0.0009647670111998593,
+      0.01354948720478483
+    ],
+    "descriptive_percent_reduction_interval": [
+      1.2197150206414504,
+      16.4614476578598
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "CrossLinear",
+    "baseline": "ridge",
+    "candidate": "ae_gate",
+    "calendar_block_days": 3,
+    "MAE_reduction": 0.008076124850151911,
+    "MAE_reduction_seed_values": [
+      0.00798644804819959,
+      0.007136717702221257,
+      0.009426374417787388,
+      0.0054898122901186975,
+      0.010341271792432624
+    ],
+    "MAE_reduction_seed_std": 0.001906148272144681,
+    "percent_MAE_reduction": 9.996922768809961,
+    "calendar_bins": 16,
+    "descriptive_MAE_reduction_interval": [
+      0.0025412967483931896,
+      0.013367996067219792
+    ],
+    "descriptive_percent_reduction_interval": [
+      3.1013751107654937,
+      16.251245539689236
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "CrossLinear",
+    "baseline": "ridge",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.0025726726013694232,
+    "MAE_reduction_seed_values": [
+      -0.00415672571444755,
+      -0.003086067339247717,
+      -0.005162341461822021,
+      0.003434293301228833,
+      -0.0038925217925586575
+    ],
+    "MAE_reduction_seed_std": 0.0034389251398944565,
+    "percent_MAE_reduction": -3.1845482558184783,
+    "calendar_bins": 7,
+    "descriptive_MAE_reduction_interval": [
+      -0.012051105895929917,
+      0.006280236572971402
+    ],
+    "descriptive_percent_reduction_interval": [
+      -15.199897486196893,
+      7.790435466500757
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "CrossLinear",
+    "baseline": "ridge",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.0025726726013694232,
+    "MAE_reduction_seed_values": [
+      -0.00415672571444755,
+      -0.003086067339247717,
+      -0.005162341461822021,
+      0.003434293301228833,
+      -0.0038925217925586575
+    ],
+    "MAE_reduction_seed_std": 0.0034389251398944565,
+    "percent_MAE_reduction": -3.1845482558184783,
+    "calendar_bins": 16,
+    "descriptive_MAE_reduction_interval": [
+      -0.010409613985723331,
+      0.004631669344630306
+    ],
+    "descriptive_percent_reduction_interval": [
+      -12.923518692663736,
+      5.7703556759761
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "PatchTST",
+    "baseline": "obs",
+    "candidate": "ae_concat",
+    "calendar_block_days": 7,
+    "MAE_reduction": 0.014149933738921101,
+    "MAE_reduction_seed_values": [
+      0.011466402105702819,
+      -0.04253666979036482,
+      0.08002919502289568,
+      0.01938498102091367,
+      0.002405760335458151
+    ],
+    "MAE_reduction_seed_std": 0.043948779158272507,
+    "percent_MAE_reduction": 14.543449441528663,
+    "calendar_bins": 7,
+    "descriptive_MAE_reduction_interval": [
+      0.009051303242839894,
+      0.020994045134881397
+    ],
+    "descriptive_percent_reduction_interval": [
+      9.511349248227361,
+      19.535906966147888
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "PatchTST",
+    "baseline": "obs",
+    "candidate": "ae_concat",
+    "calendar_block_days": 3,
+    "MAE_reduction": 0.014149933738921101,
+    "MAE_reduction_seed_values": [
+      0.011466402105702819,
+      -0.04253666979036482,
+      0.08002919502289568,
+      0.01938498102091367,
+      0.002405760335458151
+    ],
+    "MAE_reduction_seed_std": 0.043948779158272507,
+    "percent_MAE_reduction": 14.543449441528663,
+    "calendar_bins": 16,
+    "descriptive_MAE_reduction_interval": [
+      0.009876759535712461,
+      0.018814091812098484
+    ],
+    "descriptive_percent_reduction_interval": [
+      10.53921670881633,
+      18.278789096323425
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "PatchTST",
+    "baseline": "ae_concat",
+    "candidate": "ae_gate",
+    "calendar_block_days": 7,
+    "MAE_reduction": 0.0161876668753081,
+    "MAE_reduction_seed_values": [
+      0.006686430410435566,
+      0.05442783298550111,
+      0.005628965460703183,
+      0.0029353406882889144,
+      0.011259764831611726
+    ],
+    "MAE_reduction_seed_std": 0.021586907733501217,
+    "percent_MAE_reduction": 19.469370923932612,
+    "calendar_bins": 7,
+    "descriptive_MAE_reduction_interval": [
+      0.011037409373143693,
+      0.021648784987461332
+    ],
+    "descriptive_percent_reduction_interval": [
+      14.49709108876644,
+      23.83579092114815
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "PatchTST",
+    "baseline": "ae_concat",
+    "candidate": "ae_gate",
+    "calendar_block_days": 3,
+    "MAE_reduction": 0.0161876668753081,
+    "MAE_reduction_seed_values": [
+      0.006686430410435566,
+      0.05442783298550111,
+      0.005628965460703183,
+      0.0029353406882889144,
+      0.011259764831611726
+    ],
+    "MAE_reduction_seed_std": 0.021586907733501217,
+    "percent_MAE_reduction": 19.469370923932612,
+    "calendar_bins": 16,
+    "descriptive_MAE_reduction_interval": [
+      0.012723718360990935,
+      0.020059056162872076
+    ],
+    "descriptive_percent_reduction_interval": [
+      16.247652822179084,
+      22.645288100437817
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "PatchTST",
+    "baseline": "ae_gate",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 7,
+    "MAE_reduction": 0.00019127402214999065,
+    "MAE_reduction_seed_values": [
+      0.0006358934719218341,
+      0.0021035367729387994,
+      0.000678110561523575,
+      -0.0016361842136558694,
+      -0.0008249864819783866
+    ],
+    "MAE_reduction_seed_std": 0.001454633468876694,
+    "percent_MAE_reduction": 0.28566863490316236,
+    "calendar_bins": 7,
+    "descriptive_MAE_reduction_interval": [
+      -0.001355428425627822,
+      0.002010805881831785
+    ],
+    "descriptive_percent_reduction_interval": [
+      -2.057000634419659,
+      3.0244830598865775
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "PatchTST",
+    "baseline": "ae_gate",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 3,
+    "MAE_reduction": 0.00019127402214999065,
+    "MAE_reduction_seed_values": [
+      0.0006358934719218341,
+      0.0021035367729387994,
+      0.000678110561523575,
+      -0.0016361842136558694,
+      -0.0008249864819783866
+    ],
+    "MAE_reduction_seed_std": 0.001454633468876694,
+    "percent_MAE_reduction": 0.28566863490316236,
+    "calendar_bins": 16,
+    "descriptive_MAE_reduction_interval": [
+      -0.001284968712912703,
+      0.0016257068413899798
+    ],
+    "descriptive_percent_reduction_interval": [
+      -1.893196462071269,
+      2.4646690359218284
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "PatchTST",
+    "baseline": "persistence",
+    "candidate": "obs",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.0423536887852885,
+    "MAE_reduction_seed_values": [
+      -0.0296969696724226,
+      -0.02535837704827866,
+      -0.09713688033862908,
+      -0.03478651051775572,
+      -0.024789706349356438
+    ],
+    "MAE_reduction_seed_std": 0.0308868374168208,
+    "percent_MAE_reduction": -77.09007943428965,
+    "calendar_bins": 7,
+    "descriptive_MAE_reduction_interval": [
+      -0.058542870715325976,
+      -0.031060739159095227
+    ],
+    "descriptive_percent_reduction_interval": [
+      -116.64138002446921,
+      -52.86318827880779
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "PatchTST",
+    "baseline": "persistence",
+    "candidate": "obs",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.0423536887852885,
+    "MAE_reduction_seed_values": [
+      -0.0296969696724226,
+      -0.02535837704827866,
+      -0.09713688033862908,
+      -0.03478651051775572,
+      -0.024789706349356438
+    ],
+    "MAE_reduction_seed_std": 0.0308868374168208,
+    "percent_MAE_reduction": -77.09007943428965,
+    "calendar_bins": 16,
+    "descriptive_MAE_reduction_interval": [
+      -0.0543672487255158,
+      -0.03318431375535228
+    ],
+    "descriptive_percent_reduction_interval": [
+      -106.12209227007223,
+      -56.10210966573503
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "PatchTST",
+    "baseline": "persistence",
+    "candidate": "ae_concat",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.028203755046367397,
+    "MAE_reduction_seed_values": [
+      -0.018230567566719782,
+      -0.06789504683864349,
+      -0.017107685315733392,
+      -0.015401529496842052,
+      -0.022383946013898287
+    ],
+    "MAE_reduction_seed_std": 0.02233692588689312,
+    "percent_MAE_reduction": -51.33507326580077,
+    "calendar_bins": 7,
+    "descriptive_MAE_reduction_interval": [
+      -0.03977025601518107,
+      -0.018356895879184196
+    ],
+    "descriptive_percent_reduction_interval": [
+      -78.44447155989094,
+      -31.80900520875796
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "PatchTST",
+    "baseline": "persistence",
+    "candidate": "ae_concat",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.028203755046367397,
+    "MAE_reduction_seed_values": [
+      -0.018230567566719782,
+      -0.06789504683864349,
+      -0.017107685315733392,
+      -0.015401529496842052,
+      -0.022383946013898287
+    ],
+    "MAE_reduction_seed_std": 0.02233692588689312,
+    "percent_MAE_reduction": -51.33507326580077,
+    "calendar_bins": 16,
+    "descriptive_MAE_reduction_interval": [
+      -0.036496838096006415,
+      -0.0206171364227907
+    ],
+    "descriptive_percent_reduction_interval": [
+      -71.5610996895076,
+      -35.192638256747124
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "PatchTST",
+    "baseline": "persistence",
+    "candidate": "ae_gate",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.012016088171059298,
+    "MAE_reduction_seed_values": [
+      -0.011544137156284214,
+      -0.013467213853142378,
+      -0.01147871985503021,
+      -0.012466188808553137,
+      -0.01112418118228656
+    ],
+    "MAE_reduction_seed_std": 0.0009507045904373069,
+    "percent_MAE_reduction": -21.87108651367684,
+    "calendar_bins": 7,
+    "descriptive_MAE_reduction_interval": [
+      -0.01887937068973755,
+      -0.006314082711190473
+    ],
+    "descriptive_percent_reduction_interval": [
+      -37.50021218382397,
+      -10.840586350972405
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "PatchTST",
+    "baseline": "persistence",
+    "candidate": "ae_gate",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.012016088171059298,
+    "MAE_reduction_seed_values": [
+      -0.011544137156284214,
+      -0.013467213853142378,
+      -0.01147871985503021,
+      -0.012466188808553137,
+      -0.01112418118228656
+    ],
+    "MAE_reduction_seed_std": 0.0009507045904373069,
+    "percent_MAE_reduction": -21.87108651367684,
+    "calendar_bins": 16,
+    "descriptive_MAE_reduction_interval": [
+      -0.01745695608524473,
+      -0.007267593892022907
+    ],
+    "descriptive_percent_reduction_interval": [
+      -34.08826909484669,
+      -12.196945789445136
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "PatchTST",
+    "baseline": "persistence",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.011824814148909308,
+    "MAE_reduction_seed_values": [
+      -0.01090824368436238,
+      -0.011363677080203579,
+      -0.010800609293506635,
+      -0.014102373022209007,
+      -0.011949167664264945
+    ],
+    "MAE_reduction_seed_std": 0.0013513403176635588,
+    "percent_MAE_reduction": -21.52293904449157,
+    "calendar_bins": 7,
+    "descriptive_MAE_reduction_interval": [
+      -0.018671304062768585,
+      -0.006318520777329634
+    ],
+    "descriptive_percent_reduction_interval": [
+      -36.91397598764559,
+      -10.882241204985606
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "PatchTST",
+    "baseline": "persistence",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.011824814148909308,
+    "MAE_reduction_seed_values": [
+      -0.01090824368436238,
+      -0.011363677080203579,
+      -0.010800609293506635,
+      -0.014102373022209007,
+      -0.011949167664264945
+    ],
+    "MAE_reduction_seed_std": 0.0013513403176635588,
+    "percent_MAE_reduction": -21.52293904449157,
+    "calendar_bins": 16,
+    "descriptive_MAE_reduction_interval": [
+      -0.01773961501515757,
+      -0.0070846795013276625
+    ],
+    "descriptive_percent_reduction_interval": [
+      -34.5439189094959,
+      -11.993200555030223
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "PatchTST",
+    "baseline": "ridge",
+    "candidate": "obs",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.016508098293800882,
+    "MAE_reduction_seed_values": [
+      -0.0038513791809349843,
+      0.00048721344320895306,
+      -0.07129128984714146,
+      -0.008940920026268107,
+      0.0010558841421311781
+    ],
+    "MAE_reduction_seed_std": 0.0308868374168208,
+    "percent_MAE_reduction": -20.434327943796795,
+    "calendar_bins": 7,
+    "descriptive_MAE_reduction_interval": [
+      -0.026841656011229568,
+      -0.00866012826351402
+    ],
+    "descriptive_percent_reduction_interval": [
+      -32.69771587361618,
+      -10.755743049696038
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "PatchTST",
+    "baseline": "ridge",
+    "candidate": "obs",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.016508098293800882,
+    "MAE_reduction_seed_values": [
+      -0.0038513791809349843,
+      0.00048721344320895306,
+      -0.07129128984714146,
+      -0.008940920026268107,
+      0.0010558841421311781
+    ],
+    "MAE_reduction_seed_std": 0.0308868374168208,
+    "percent_MAE_reduction": -20.434327943796795,
+    "calendar_bins": 16,
+    "descriptive_MAE_reduction_interval": [
+      -0.02456508796266941,
+      -0.009855743522146607
+    ],
+    "descriptive_percent_reduction_interval": [
+      -30.100224995182852,
+      -12.072291713784457
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "PatchTST",
+    "baseline": "ridge",
+    "candidate": "ae_concat",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.0023581645548797856,
+    "MAE_reduction_seed_values": [
+      0.007615022924767835,
+      -0.04204945634715588,
+      0.008737905175754223,
+      0.010444060994645564,
+      0.0034616444775893286
+    ],
+    "MAE_reduction_seed_std": 0.022336925886893125,
+    "percent_MAE_reduction": -2.9190223490458918,
+    "calendar_bins": 7,
+    "descriptive_MAE_reduction_interval": [
+      -0.011159062915819985,
+      0.004993846558603147
+    ],
+    "descriptive_percent_reduction_interval": [
+      -14.204670983904474,
+      6.030453667361836
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "PatchTST",
+    "baseline": "ridge",
+    "candidate": "ae_concat",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.0023581645548797856,
+    "MAE_reduction_seed_values": [
+      0.007615022924767835,
+      -0.04204945634715588,
+      0.008737905175754223,
+      0.010444060994645564,
+      0.0034616444775893286
+    ],
+    "MAE_reduction_seed_std": 0.022336925886893125,
+    "percent_MAE_reduction": -2.9190223490458918,
+    "calendar_bins": 16,
+    "descriptive_MAE_reduction_interval": [
+      -0.009441897893937679,
+      0.003962466835812577
+    ],
+    "descriptive_percent_reduction_interval": [
+      -11.901522426730862,
+      4.829862397277146
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "PatchTST",
+    "baseline": "ridge",
+    "candidate": "ae_gate",
+    "calendar_block_days": 7,
+    "MAE_reduction": 0.013829502320428315,
+    "MAE_reduction_seed_values": [
+      0.014301453335203402,
+      0.012378376638345238,
+      0.014366870636457406,
+      0.013379401682934477,
+      0.014721409309201057
+    ],
+    "MAE_reduction_seed_std": 0.000950704590437307,
+    "percent_MAE_reduction": 17.118663863374955,
+    "calendar_bins": 7,
+    "descriptive_MAE_reduction_interval": [
+      0.00902518967836286,
+      0.01847026141284287
+    ],
+    "descriptive_percent_reduction_interval": [
+      11.38153580173394,
+      21.999363846302913
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "PatchTST",
+    "baseline": "ridge",
+    "candidate": "ae_gate",
+    "calendar_block_days": 3,
+    "MAE_reduction": 0.013829502320428315,
+    "MAE_reduction_seed_values": [
+      0.014301453335203402,
+      0.012378376638345238,
+      0.014366870636457406,
+      0.013379401682934477,
+      0.014721409309201057
+    ],
+    "MAE_reduction_seed_std": 0.000950704590437307,
+    "percent_MAE_reduction": 17.118663863374955,
+    "calendar_bins": 16,
+    "descriptive_MAE_reduction_interval": [
+      0.009114817997640887,
+      0.018636693399307187
+    ],
+    "descriptive_percent_reduction_interval": [
+      11.582012271820854,
+      22.521273556604385
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "PatchTST",
+    "baseline": "ridge",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 7,
+    "MAE_reduction": 0.014020776342578303,
+    "MAE_reduction_seed_values": [
+      0.014937346807125234,
+      0.014481913411284037,
+      0.015044981197980981,
+      0.011743217469278608,
+      0.013896422827222667
+    ],
+    "MAE_reduction_seed_std": 0.0013513403176635592,
+    "percent_MAE_reduction": 17.355429844905952,
+    "calendar_bins": 7,
+    "descriptive_MAE_reduction_interval": [
+      0.009085493294570363,
+      0.018267121674945333
+    ],
+    "descriptive_percent_reduction_interval": [
+      11.715171159097848,
+      21.948772855107443
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "source_val",
+    "model": "PatchTST",
+    "baseline": "ridge",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 3,
+    "MAE_reduction": 0.014020776342578303,
+    "MAE_reduction_seed_values": [
+      0.014937346807125234,
+      0.014481913411284037,
+      0.015044981197980981,
+      0.011743217469278608,
+      0.013896422827222667
+    ],
+    "MAE_reduction_seed_std": 0.0013513403176635592,
+    "percent_MAE_reduction": 17.355429844905952,
+    "calendar_bins": 16,
+    "descriptive_MAE_reduction_interval": [
+      0.008833415979518078,
+      0.01873941614656552
+    ],
+    "descriptive_percent_reduction_interval": [
+      11.09735785699767,
+      22.836739699773347
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "CrossLinear",
+    "baseline": "obs",
+    "candidate": "ae_concat",
+    "calendar_block_days": 7,
+    "MAE_reduction": 0.015419991738827828,
+    "MAE_reduction_seed_values": [
+      0.04734571370836069,
+      -0.0032305280175054236,
+      0.047286804021213054,
+      -0.018981724537420173,
+      0.004679693519490997
+    ],
+    "MAE_reduction_seed_std": 0.0303373508405473,
+    "percent_MAE_reduction": 8.419263193837741,
+    "calendar_bins": 6,
+    "descriptive_MAE_reduction_interval": [
+      0.013411298531492057,
+      0.016815182316533197
+    ],
+    "descriptive_percent_reduction_interval": [
+      7.276273518553682,
+      9.127045562751913
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "CrossLinear",
+    "baseline": "obs",
+    "candidate": "ae_concat",
+    "calendar_block_days": 3,
+    "MAE_reduction": 0.015419991738827828,
+    "MAE_reduction_seed_values": [
+      0.04734571370836069,
+      -0.0032305280175054236,
+      0.047286804021213054,
+      -0.018981724537420173,
+      0.004679693519490997
+    ],
+    "MAE_reduction_seed_std": 0.0303373508405473,
+    "percent_MAE_reduction": 8.419263193837741,
+    "calendar_bins": 14,
+    "descriptive_MAE_reduction_interval": [
+      0.00973972306807189,
+      0.021369980691273424
+    ],
+    "descriptive_percent_reduction_interval": [
+      5.363265084130679,
+      11.555129738448123
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "CrossLinear",
+    "baseline": "ae_concat",
+    "candidate": "ae_gate",
+    "calendar_block_days": 7,
+    "MAE_reduction": 0.01630130455953193,
+    "MAE_reduction_seed_values": [
+      0.01085968050282603,
+      0.007110725945140267,
+      0.0229842143870773,
+      0.01855167512620488,
+      0.022000226836411195
+    ],
+    "MAE_reduction_seed_std": 0.007005019168606802,
+    "percent_MAE_reduction": 9.718699931280122,
+    "calendar_bins": 6,
+    "descriptive_MAE_reduction_interval": [
+      0.013758912839155783,
+      0.01860984759099764
+    ],
+    "descriptive_percent_reduction_interval": [
+      7.988929452911112,
+      11.199182796520443
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "CrossLinear",
+    "baseline": "ae_concat",
+    "candidate": "ae_gate",
+    "calendar_block_days": 3,
+    "MAE_reduction": 0.01630130455953193,
+    "MAE_reduction_seed_values": [
+      0.01085968050282603,
+      0.007110725945140267,
+      0.0229842143870773,
+      0.01855167512620488,
+      0.022000226836411195
+    ],
+    "MAE_reduction_seed_std": 0.007005019168606802,
+    "percent_MAE_reduction": 9.718699931280122,
+    "calendar_bins": 14,
+    "descriptive_MAE_reduction_interval": [
+      0.012561419106139105,
+      0.020105297496168056
+    ],
+    "descriptive_percent_reduction_interval": [
+      7.413604125774924,
+      12.063045771125639
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "CrossLinear",
+    "baseline": "ae_gate",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.016517379192827437,
+    "MAE_reduction_seed_values": [
+      -0.014978301456740088,
+      -0.013569160802919762,
+      -0.029263977382627763,
+      -0.006762271374242948,
+      -0.018013184947606623
+    ],
+    "MAE_reduction_seed_std": 0.008230068055198105,
+    "percent_MAE_reduction": -10.90759857576776,
+    "calendar_bins": 6,
+    "descriptive_MAE_reduction_interval": [
+      -0.019919855747919227,
+      -0.013365340259221392
+    ],
+    "descriptive_percent_reduction_interval": [
+      -12.853022989827736,
+      -8.991314028422211
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "CrossLinear",
+    "baseline": "ae_gate",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.016517379192827437,
+    "MAE_reduction_seed_values": [
+      -0.014978301456740088,
+      -0.013569160802919762,
+      -0.029263977382627763,
+      -0.006762271374242948,
+      -0.018013184947606623
+    ],
+    "MAE_reduction_seed_std": 0.008230068055198105,
+    "percent_MAE_reduction": -10.90759857576776,
+    "calendar_bins": 14,
+    "descriptive_MAE_reduction_interval": [
+      -0.019132042864132844,
+      -0.01397562679519627
+    ],
+    "descriptive_percent_reduction_interval": [
+      -12.457110851685394,
+      -9.182104827225777
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "CrossLinear",
+    "baseline": "persistence",
+    "candidate": "obs",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.08213223277804807,
+    "MAE_reduction_seed_values": [
+      -0.10856472980934177,
+      -0.05360222981394887,
+      -0.12258894876501936,
+      -0.05140053814125988,
+      -0.07450471736067053
+    ],
+    "MAE_reduction_seed_std": 0.03221800693549512,
+    "percent_MAE_reduction": -81.30367676903681,
+    "calendar_bins": 6,
+    "descriptive_MAE_reduction_interval": [
+      -0.08888462581074083,
+      -0.07614147689809493
+    ],
+    "descriptive_percent_reduction_interval": [
+      -95.45478966212025,
+      -70.60508024467089
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "CrossLinear",
+    "baseline": "persistence",
+    "candidate": "obs",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.08213223277804807,
+    "MAE_reduction_seed_values": [
+      -0.10856472980934177,
+      -0.05360222981394887,
+      -0.12258894876501936,
+      -0.05140053814125988,
+      -0.07450471736067053
+    ],
+    "MAE_reduction_seed_std": 0.03221800693549512,
+    "percent_MAE_reduction": -81.30367676903681,
+    "calendar_bins": 14,
+    "descriptive_MAE_reduction_interval": [
+      -0.09002182075170842,
+      -0.0744902671602781
+    ],
+    "descriptive_percent_reduction_interval": [
+      -94.40667525200494,
+      -69.22012527075587
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "CrossLinear",
+    "baseline": "persistence",
+    "candidate": "ae_concat",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.06671224103922024,
+    "MAE_reduction_seed_values": [
+      -0.061219016100981086,
+      -0.05683275783145429,
+      -0.0753021447438063,
+      -0.07038226267868006,
+      -0.06982502384117954
+    ],
+    "MAE_reduction_seed_std": 0.007495409093821365,
+    "percent_MAE_reduction": -66.03924304174676,
+    "calendar_bins": 6,
+    "descriptive_MAE_reduction_interval": [
+      -0.07369219539323177,
+      -0.06098234354118014
+    ],
+    "descriptive_percent_reduction_interval": [
+      -78.61408300872353,
+      -56.66726481591782
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "CrossLinear",
+    "baseline": "persistence",
+    "candidate": "ae_concat",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.06671224103922024,
+    "MAE_reduction_seed_values": [
+      -0.061219016100981086,
+      -0.05683275783145429,
+      -0.0753021447438063,
+      -0.07038226267868006,
+      -0.06982502384117954
+    ],
+    "MAE_reduction_seed_std": 0.007495409093821365,
+    "percent_MAE_reduction": -66.03924304174676,
+    "calendar_bins": 14,
+    "descriptive_MAE_reduction_interval": [
+      -0.07208161008654798,
+      -0.061175543866019214
+    ],
+    "descriptive_percent_reduction_interval": [
+      -75.17130866099255,
+      -56.87035548742358
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "CrossLinear",
+    "baseline": "persistence",
+    "candidate": "ae_gate",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.05041093647968833,
+    "MAE_reduction_seed_values": [
+      -0.05035933559815506,
+      -0.04972203188631402,
+      -0.052317930356729,
+      -0.05183058755247518,
+      -0.04782479700476835
+    ],
+    "MAE_reduction_seed_std": 0.0017900701375240925,
+    "percent_MAE_reduction": -49.90238724235048,
+    "calendar_bins": 6,
+    "descriptive_MAE_reduction_interval": [
+      -0.056934795046134176,
+      -0.04496586429756938
+    ],
+    "descriptive_percent_reduction_interval": [
+      -59.51197460062008,
+      -42.07689097589819
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "CrossLinear",
+    "baseline": "persistence",
+    "candidate": "ae_gate",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.05041093647968833,
+    "MAE_reduction_seed_values": [
+      -0.05035933559815506,
+      -0.04972203188631402,
+      -0.052317930356729,
+      -0.05183058755247518,
+      -0.04782479700476835
+    ],
+    "MAE_reduction_seed_std": 0.0017900701375240925,
+    "percent_MAE_reduction": -49.90238724235048,
+    "calendar_bins": 14,
+    "descriptive_MAE_reduction_interval": [
+      -0.05613774445448375,
+      -0.04484954147832542
+    ],
+    "descriptive_percent_reduction_interval": [
+      -57.65961432916585,
+      -42.05147906984555
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "CrossLinear",
+    "baseline": "persistence",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.06692831567251577,
+    "MAE_reduction_seed_values": [
+      -0.06533763705489515,
+      -0.06329119268923379,
+      -0.08158190773935677,
+      -0.058592858926718124,
+      -0.06583798195237497
+    ],
+    "MAE_reduction_seed_std": 0.008676914043941521,
+    "percent_MAE_reduction": -66.25313789823898,
+    "calendar_bins": 6,
+    "descriptive_MAE_reduction_interval": [
+      -0.07422471118829431,
+      -0.05980923848841106
+    ],
+    "descriptive_percent_reduction_interval": [
+      -77.03353623267456,
+      -56.30646940186228
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "CrossLinear",
+    "baseline": "persistence",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.06692831567251577,
+    "MAE_reduction_seed_values": [
+      -0.06533763705489515,
+      -0.06329119268923379,
+      -0.08158190773935677,
+      -0.058592858926718124,
+      -0.06583798195237497
+    ],
+    "MAE_reduction_seed_std": 0.008676914043941521,
+    "percent_MAE_reduction": -66.25313789823898,
+    "calendar_bins": 14,
+    "descriptive_MAE_reduction_interval": [
+      -0.07380103205339311,
+      -0.06040871586067799
+    ],
+    "descriptive_percent_reduction_interval": [
+      -75.72333040622235,
+      -57.03543366486473
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "CrossLinear",
+    "baseline": "ridge",
+    "candidate": "obs",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.03057464717737353,
+    "MAE_reduction_seed_values": [
+      -0.05700714420866723,
+      -0.0020446442132743144,
+      -0.0710313631643448,
+      0.00015704745941466875,
+      -0.02294713175999599
+    ],
+    "MAE_reduction_seed_std": 0.03221800693549512,
+    "percent_MAE_reduction": -20.038873870394603,
+    "calendar_bins": 6,
+    "descriptive_MAE_reduction_interval": [
+      -0.03688945363533575,
+      -0.02406955888689385
+    ],
+    "descriptive_percent_reduction_interval": [
+      -25.203037869945682,
+      -15.128138677795288
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "CrossLinear",
+    "baseline": "ridge",
+    "candidate": "obs",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.03057464717737353,
+    "MAE_reduction_seed_values": [
+      -0.05700714420866723,
+      -0.0020446442132743144,
+      -0.0710313631643448,
+      0.00015704745941466875,
+      -0.02294713175999599
+    ],
+    "MAE_reduction_seed_std": 0.03221800693549512,
+    "percent_MAE_reduction": -20.038873870394603,
+    "calendar_bins": 14,
+    "descriptive_MAE_reduction_interval": [
+      -0.036750107740875886,
+      -0.024672309924593714
+    ],
+    "descriptive_percent_reduction_interval": [
+      -25.076470094181904,
+      -15.578358816439156
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "CrossLinear",
+    "baseline": "ridge",
+    "candidate": "ae_concat",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.015154655438545701,
+    "MAE_reduction_seed_values": [
+      -0.009661430500306534,
+      -0.005275172230779739,
+      -0.023744559143131744,
+      -0.018824677078005503,
+      -0.018267438240504988
+    ],
+    "MAE_reduction_seed_std": 0.007495409093821365,
+    "percent_MAE_reduction": -9.93248514432716,
+    "calendar_bins": 6,
+    "descriptive_MAE_reduction_interval": [
+      -0.021211228731456377,
+      -0.009493759208976403
+    ],
+    "descriptive_percent_reduction_interval": [
+      -14.16711182318913,
+      -5.971346929320646
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "CrossLinear",
+    "baseline": "ridge",
+    "candidate": "ae_concat",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.015154655438545701,
+    "MAE_reduction_seed_values": [
+      -0.009661430500306534,
+      -0.005275172230779739,
+      -0.023744559143131744,
+      -0.018824677078005503,
+      -0.018267438240504988
+    ],
+    "MAE_reduction_seed_std": 0.007495409093821365,
+    "percent_MAE_reduction": -9.93248514432716,
+    "calendar_bins": 14,
+    "descriptive_MAE_reduction_interval": [
+      -0.02426398377398826,
+      -0.005612375666239105
+    ],
+    "descriptive_percent_reduction_interval": [
+      -16.494489085038637,
+      -3.60300735180841
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "CrossLinear",
+    "baseline": "ridge",
+    "candidate": "ae_gate",
+    "calendar_block_days": 7,
+    "MAE_reduction": 0.001146649120986232,
+    "MAE_reduction_seed_values": [
+      0.0011982500025194951,
+      0.00183555371436053,
+      -0.0007603447560544452,
+      -0.00027300195180062555,
+      0.0037327885959062067
+    ],
+    "MAE_reduction_seed_std": 0.0017900701375240919,
+    "percent_MAE_reduction": 0.7515232138490959,
+    "calendar_bins": 6,
+    "descriptive_MAE_reduction_interval": [
+      -0.005606175145361677,
+      0.007326539248285482
+    ],
+    "descriptive_percent_reduction_interval": [
+      -3.753971977830425,
+      4.6218396529885455
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "CrossLinear",
+    "baseline": "ridge",
+    "candidate": "ae_gate",
+    "calendar_block_days": 3,
+    "MAE_reduction": 0.001146649120986232,
+    "MAE_reduction_seed_values": [
+      0.0011982500025194951,
+      0.00183555371436053,
+      -0.0007603447560544452,
+      -0.00027300195180062555,
+      0.0037327885959062067
+    ],
+    "MAE_reduction_seed_std": 0.0017900701375240919,
+    "percent_MAE_reduction": 0.7515232138490959,
+    "calendar_bins": 14,
+    "descriptive_MAE_reduction_interval": [
+      -0.00847782495614621,
+      0.010074613479019548
+    ],
+    "descriptive_percent_reduction_interval": [
+      -5.651494363390163,
+      6.47228702687214
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "CrossLinear",
+    "baseline": "ridge",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.015370730071841204,
+    "MAE_reduction_seed_values": [
+      -0.013780051454220591,
+      -0.011733607088559233,
+      -0.03002432213868221,
+      -0.007035273326043573,
+      -0.014280396351700418
+    ],
+    "MAE_reduction_seed_std": 0.00867691404394152,
+    "percent_MAE_reduction": -10.074102226548296,
+    "calendar_bins": 6,
+    "descriptive_MAE_reduction_interval": [
+      -0.024765695915564108,
+      -0.006806319741761091
+    ],
+    "descriptive_percent_reduction_interval": [
+      -16.660236855231716,
+      -4.326814350971687
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "CrossLinear",
+    "baseline": "ridge",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.015370730071841204,
+    "MAE_reduction_seed_values": [
+      -0.013780051454220591,
+      -0.011733607088559233,
+      -0.03002432213868221,
+      -0.007035273326043573,
+      -0.014280396351700418
+    ],
+    "MAE_reduction_seed_std": 0.00867691404394152,
+    "percent_MAE_reduction": -10.074102226548296,
+    "calendar_bins": 14,
+    "descriptive_MAE_reduction_interval": [
+      -0.026055614014676137,
+      -0.005610231939562331
+    ],
+    "descriptive_percent_reduction_interval": [
+      -17.66223645906429,
+      -3.5687057499918597
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "PatchTST",
+    "baseline": "obs",
+    "candidate": "ae_concat",
+    "calendar_block_days": 7,
+    "MAE_reduction": 0.0035535149093537605,
+    "MAE_reduction_seed_values": [
+      0.006355406078320068,
+      -0.055474059822096244,
+      0.05523408918172802,
+      0.005726103477044742,
+      0.005926035631772214
+    ],
+    "MAE_reduction_seed_std": 0.03928528963105912,
+    "percent_MAE_reduction": 2.4088149098705807,
+    "calendar_bins": 6,
+    "descriptive_MAE_reduction_interval": [
+      0.0018012748512932384,
+      0.006006314727824831
+    ],
+    "descriptive_percent_reduction_interval": [
+      1.2340623393289532,
+      4.04208323001218
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "PatchTST",
+    "baseline": "obs",
+    "candidate": "ae_concat",
+    "calendar_block_days": 3,
+    "MAE_reduction": 0.0035535149093537605,
+    "MAE_reduction_seed_values": [
+      0.006355406078320068,
+      -0.055474059822096244,
+      0.05523408918172802,
+      0.005726103477044742,
+      0.005926035631772214
+    ],
+    "MAE_reduction_seed_std": 0.03928528963105912,
+    "percent_MAE_reduction": 2.4088149098705807,
+    "calendar_bins": 14,
+    "descriptive_MAE_reduction_interval": [
+      0.0007438915455111055,
+      0.006607523732068595
+    ],
+    "descriptive_percent_reduction_interval": [
+      0.5066582860690959,
+      4.399199877172389
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "PatchTST",
+    "baseline": "ae_concat",
+    "candidate": "ae_gate",
+    "calendar_block_days": 7,
+    "MAE_reduction": 0.02735110416252788,
+    "MAE_reduction_seed_values": [
+      0.018898709849318185,
+      0.07381384141987395,
+      0.012622978874164864,
+      0.015922917605242618,
+      0.015497073064039775
+    ],
+    "MAE_reduction_seed_std": 0.026068506376722613,
+    "percent_MAE_reduction": 18.998073360250444,
+    "calendar_bins": 6,
+    "descriptive_MAE_reduction_interval": [
+      0.024732345268640522,
+      0.029225906731461266
+    ],
+    "descriptive_percent_reduction_interval": [
+      17.017626138638587,
+      20.54848547851189
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "PatchTST",
+    "baseline": "ae_concat",
+    "candidate": "ae_gate",
+    "calendar_block_days": 3,
+    "MAE_reduction": 0.02735110416252788,
+    "MAE_reduction_seed_values": [
+      0.018898709849318185,
+      0.07381384141987395,
+      0.012622978874164864,
+      0.015922917605242618,
+      0.015497073064039775
+    ],
+    "MAE_reduction_seed_std": 0.026068506376722613,
+    "percent_MAE_reduction": 18.998073360250444,
+    "calendar_bins": 14,
+    "descriptive_MAE_reduction_interval": [
+      0.024692054184927648,
+      0.029957993292153533
+    ],
+    "descriptive_percent_reduction_interval": [
+      17.131031613120424,
+      20.81677430143493
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "PatchTST",
+    "baseline": "ae_gate",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.0003082125326708435,
+    "MAE_reduction_seed_values": [
+      0.0015406255954024087,
+      -0.001437036604864075,
+      0.00011989508035991707,
+      -0.007002673271039077,
+      0.005238126536786607
+    ],
+    "MAE_reduction_seed_std": 0.00448479107621133,
+    "percent_MAE_reduction": -0.26429542309379195,
+    "calendar_bins": 6,
+    "descriptive_MAE_reduction_interval": [
+      -0.0014118693910126355,
+      0.0008481056488229006
+    ],
+    "descriptive_percent_reduction_interval": [
+      -1.211743554260036,
+      0.7048009576744202
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "PatchTST",
+    "baseline": "ae_gate",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.0003082125326708435,
+    "MAE_reduction_seed_values": [
+      0.0015406255954024087,
+      -0.001437036604864075,
+      0.00011989508035991707,
+      -0.007002673271039077,
+      0.005238126536786607
+    ],
+    "MAE_reduction_seed_std": 0.00448479107621133,
+    "percent_MAE_reduction": -0.26429542309379195,
+    "calendar_bins": 14,
+    "descriptive_MAE_reduction_interval": [
+      -0.0016247382363333198,
+      0.0008213503048981278
+    ],
+    "descriptive_percent_reduction_interval": [
+      -1.3894247475906867,
+      0.6977427454869376
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "PatchTST",
+    "baseline": "persistence",
+    "candidate": "obs",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.0465022053515937,
+    "MAE_reduction_seed_values": [
+      -0.04005775315929024,
+      -0.032407589072970776,
+      -0.0829245197127469,
+      -0.03489980686813402,
+      -0.04222135794482655
+    ],
+    "MAE_reduction_seed_std": 0.02073472606891749,
+    "percent_MAE_reduction": -46.03308768154983,
+    "calendar_bins": 6,
+    "descriptive_MAE_reduction_interval": [
+      -0.05477929740275263,
+      -0.039928305226455275
+    ],
+    "descriptive_percent_reduction_interval": [
+      -59.04660302611143,
+      -36.86213505476467
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "PatchTST",
+    "baseline": "persistence",
+    "candidate": "obs",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.0465022053515937,
+    "MAE_reduction_seed_values": [
+      -0.04005775315929024,
+      -0.032407589072970776,
+      -0.0829245197127469,
+      -0.03489980686813402,
+      -0.04222135794482655
+    ],
+    "MAE_reduction_seed_std": 0.02073472606891749,
+    "percent_MAE_reduction": -46.03308768154983,
+    "calendar_bins": 14,
+    "descriptive_MAE_reduction_interval": [
+      -0.053132652209317635,
+      -0.039249693813758244
+    ],
+    "descriptive_percent_reduction_interval": [
+      -56.25123769375549,
+      -36.163701842471376
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "PatchTST",
+    "baseline": "persistence",
+    "candidate": "ae_concat",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.04294869044223994,
+    "MAE_reduction_seed_values": [
+      -0.033702347080970176,
+      -0.08788164889506701,
+      -0.02769043053101889,
+      -0.029173703391089278,
+      -0.03629532231305434
+    ],
+    "MAE_reduction_seed_std": 0.025353982389943144,
+    "percent_MAE_reduction": -42.515420892132276,
+    "calendar_bins": 6,
+    "descriptive_MAE_reduction_interval": [
+      -0.0488737908568494,
+      -0.03705467680512771
+    ],
+    "descriptive_percent_reduction_interval": [
+      -53.22033779762778,
+      -34.20702601763106
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "PatchTST",
+    "baseline": "persistence",
+    "candidate": "ae_concat",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.04294869044223994,
+    "MAE_reduction_seed_values": [
+      -0.033702347080970176,
+      -0.08788164889506701,
+      -0.02769043053101889,
+      -0.029173703391089278,
+      -0.03629532231305434
+    ],
+    "MAE_reduction_seed_std": 0.025353982389943144,
+    "percent_MAE_reduction": -42.515420892132276,
+    "calendar_bins": 14,
+    "descriptive_MAE_reduction_interval": [
+      -0.048242076660364716,
+      -0.037332606024168255
+    ],
+    "descriptive_percent_reduction_interval": [
+      -51.1654177046946,
+      -34.31724807658357
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "PatchTST",
+    "baseline": "persistence",
+    "candidate": "ae_gate",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.015597586279712064,
+    "MAE_reduction_seed_values": [
+      -0.01480363723165199,
+      -0.014067807475193072,
+      -0.015067451656854029,
+      -0.013250785785846663,
+      -0.02079824924901456
+    ],
+    "MAE_reduction_seed_std": 0.002991905282520865,
+    "percent_MAE_reduction": -15.440236681375307,
+    "calendar_bins": 6,
+    "descriptive_MAE_reduction_interval": [
+      -0.020875793408047044,
+      -0.010259893090589875
+    ],
+    "descriptive_percent_reduction_interval": [
+      -22.434677762698744,
+      -9.656774469058782
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "PatchTST",
+    "baseline": "persistence",
+    "candidate": "ae_gate",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.015597586279712064,
+    "MAE_reduction_seed_values": [
+      -0.01480363723165199,
+      -0.014067807475193072,
+      -0.015067451656854029,
+      -0.013250785785846663,
+      -0.02079824924901456
+    ],
+    "MAE_reduction_seed_std": 0.002991905282520865,
+    "percent_MAE_reduction": -15.440236681375307,
+    "calendar_bins": 14,
+    "descriptive_MAE_reduction_interval": [
+      -0.020423558063630533,
+      -0.00992842040116311
+    ],
+    "descriptive_percent_reduction_interval": [
+      -21.603424144820192,
+      -9.225035126131791
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "PatchTST",
+    "baseline": "persistence",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 7,
+    "MAE_reduction": -0.015905798812382906,
+    "MAE_reduction_seed_values": [
+      -0.013263011636249582,
+      -0.015504844080057149,
+      -0.014947556576494112,
+      -0.02025345905688574,
+      -0.015560122712227953
+    ],
+    "MAE_reduction_seed_std": 0.002602160568940698,
+    "percent_MAE_reduction": -15.745339943332821,
+    "calendar_bins": 6,
+    "descriptive_MAE_reduction_interval": [
+      -0.021126492074333397,
+      -0.010723118110123062
+    ],
+    "descriptive_percent_reduction_interval": [
+      -22.774970687652402,
+      -9.909795351244545
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "PatchTST",
+    "baseline": "persistence",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 3,
+    "MAE_reduction": -0.015905798812382906,
+    "MAE_reduction_seed_values": [
+      -0.013263011636249582,
+      -0.015504844080057149,
+      -0.014947556576494112,
+      -0.02025345905688574,
+      -0.015560122712227953
+    ],
+    "MAE_reduction_seed_std": 0.002602160568940698,
+    "percent_MAE_reduction": -15.745339943332821,
+    "calendar_bins": 14,
+    "descriptive_MAE_reduction_interval": [
+      -0.020943042716146058,
+      -0.01051258862847146
+    ],
+    "descriptive_percent_reduction_interval": [
+      -21.995073873269252,
+      -9.751137795500556
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "PatchTST",
+    "baseline": "ridge",
+    "candidate": "obs",
+    "calendar_block_days": 7,
+    "MAE_reduction": 0.005055380249080852,
+    "MAE_reduction_seed_values": [
+      0.011499832441384309,
+      0.01914999652770378,
+      -0.03136693411207235,
+      0.016657778732540533,
+      0.009336227655848003
+    ],
+    "MAE_reduction_seed_std": 0.02073472606891749,
+    "percent_MAE_reduction": 3.3133375698668535,
+    "calendar_bins": 6,
+    "descriptive_MAE_reduction_interval": [
+      -0.0011137381671535618,
+      0.010557746536314982
+    ],
+    "descriptive_percent_reduction_interval": [
+      -0.7716281736314041,
+      6.6169871432371865
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "PatchTST",
+    "baseline": "ridge",
+    "candidate": "obs",
+    "calendar_block_days": 3,
+    "MAE_reduction": 0.005055380249080852,
+    "MAE_reduction_seed_values": [
+      0.011499832441384309,
+      0.01914999652770378,
+      -0.03136693411207235,
+      0.016657778732540533,
+      0.009336227655848003
+    ],
+    "MAE_reduction_seed_std": 0.02073472606891749,
+    "percent_MAE_reduction": 3.3133375698668535,
+    "calendar_bins": 14,
+    "descriptive_MAE_reduction_interval": [
+      -0.0013507322896640652,
+      0.0110023130681681
+    ],
+    "descriptive_percent_reduction_interval": [
+      -0.9270537421282525,
+      6.910884652424069
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "PatchTST",
+    "baseline": "ridge",
+    "candidate": "ae_concat",
+    "calendar_block_days": 7,
+    "MAE_reduction": 0.008608895158434614,
+    "MAE_reduction_seed_values": [
+      0.017855238519704376,
+      -0.036324063294392465,
+      0.02386715506965566,
+      0.022383882209585274,
+      0.015262263287620217
+    ],
+    "MAE_reduction_seed_std": 0.025353982389943144,
+    "percent_MAE_reduction": 5.642340310340138,
+    "calendar_bins": 6,
+    "descriptive_MAE_reduction_interval": [
+      0.003280836914945107,
+      0.01419579473240426
+    ],
+    "descriptive_percent_reduction_interval": [
+      2.2785559855869253,
+      8.879428556758391
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "PatchTST",
+    "baseline": "ridge",
+    "candidate": "ae_concat",
+    "calendar_block_days": 3,
+    "MAE_reduction": 0.008608895158434614,
+    "MAE_reduction_seed_values": [
+      0.017855238519704376,
+      -0.036324063294392465,
+      0.02386715506965566,
+      0.022383882209585274,
+      0.015262263287620217
+    ],
+    "MAE_reduction_seed_std": 0.025353982389943144,
+    "percent_MAE_reduction": 5.642340310340138,
+    "calendar_bins": 14,
+    "descriptive_MAE_reduction_interval": [
+      0.0026924465695958412,
+      0.014301206612839264
+    ],
+    "descriptive_percent_reduction_interval": [
+      1.8614876050595472,
+      8.98312242145112
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "PatchTST",
+    "baseline": "ridge",
+    "candidate": "ae_gate",
+    "calendar_block_days": 7,
+    "MAE_reduction": 0.035959999320962485,
+    "MAE_reduction_seed_values": [
+      0.036753948369022564,
+      0.037489778125481474,
+      0.03649013394382052,
+      0.03830679981482789,
+      0.030759336351659988
+    ],
+    "MAE_reduction_seed_std": 0.002991905282520866,
+    "percent_MAE_reduction": 23.568477719197176,
+    "calendar_bins": 6,
+    "descriptive_MAE_reduction_interval": [
+      0.03077648522201876,
+      0.04146414616346555
+    ],
+    "descriptive_percent_reduction_interval": [
+      21.086329455360893,
+      26.174402862720857
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "PatchTST",
+    "baseline": "ridge",
+    "candidate": "ae_gate",
+    "calendar_block_days": 3,
+    "MAE_reduction": 0.035959999320962485,
+    "MAE_reduction_seed_values": [
+      0.036753948369022564,
+      0.037489778125481474,
+      0.03649013394382052,
+      0.03830679981482789,
+      0.030759336351659988
+    ],
+    "MAE_reduction_seed_std": 0.002991905282520866,
+    "percent_MAE_reduction": 23.568477719197176,
+    "calendar_bins": 14,
+    "descriptive_MAE_reduction_interval": [
+      0.028673684577166063,
+      0.04324208886206793
+    ],
+    "descriptive_percent_reduction_interval": [
+      19.577695501366204,
+      27.23172043351069
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "PatchTST",
+    "baseline": "ridge",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 7,
+    "MAE_reduction": 0.035651786788291645,
+    "MAE_reduction_seed_values": [
+      0.03829457396442497,
+      0.0360527415206174,
+      0.03661002902418044,
+      0.031304126543788814,
+      0.0359974628884466
+    ],
+    "MAE_reduction_seed_std": 0.0026021605689406967,
+    "percent_MAE_reduction": 23.366472704008103,
+    "calendar_bins": 6,
+    "descriptive_MAE_reduction_interval": [
+      0.031010879311686158,
+      0.04051763620891628
+    ],
+    "descriptive_percent_reduction_interval": [
+      21.251862064812943,
+      25.37234349635402
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  },
+  {
+    "bank": "new_crop_all",
+    "model": "PatchTST",
+    "baseline": "ridge",
+    "candidate": "ae_gate_soft",
+    "calendar_block_days": 3,
+    "MAE_reduction": 0.035651786788291645,
+    "MAE_reduction_seed_values": [
+      0.03829457396442497,
+      0.0360527415206174,
+      0.03661002902418044,
+      0.031304126543788814,
+      0.0359974628884466
+    ],
+    "MAE_reduction_seed_std": 0.0026021605689406967,
+    "percent_MAE_reduction": 23.366472704008103,
+    "calendar_bins": 14,
+    "descriptive_MAE_reduction_interval": [
+      0.029212624343454542,
+      0.041927339895791026
+    ],
+    "descriptive_percent_reduction_interval": [
+      19.909673673570477,
+      26.458291646634326
+    ],
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 5307,
+    "positive_means": "candidate has smaller MAE; fixed crop/compartments, not domain-population uncertainty"
+  }
+]

@@ -1,0 +1,69 @@
+The model parameter horizon is deprecated. Please use pred_len.
+  [gate_soft] greenhouse: 3 constraints ['greenhouse:Tpipe->Tair', 'greenhouse:VentLee->Tair', 'greenhouse:VentWind->Tair']  rho=1.0
+  [CrossLinear/greenhouse/gate/ae] epoch 1/100 train=0.21578 val=0.19023 lr=1.00e-03 *
+  [CrossLinear/greenhouse/gate/ae] epoch 2/100 train=0.12681 val=0.12143 lr=1.00e-03 *
+  [CrossLinear/greenhouse/gate/ae] epoch 3/100 train=0.09474 val=0.07449 lr=1.00e-03 *
+  [CrossLinear/greenhouse/gate/ae] epoch 4/100 train=0.07637 val=0.05491 lr=1.00e-03 *
+  [CrossLinear/greenhouse/gate/ae] epoch 5/100 train=0.06221 val=0.05078 lr=1.00e-03 *
+  [CrossLinear/greenhouse/gate/ae] epoch 6/100 train=0.05091 val=0.03836 lr=1.00e-03 *
+  [CrossLinear/greenhouse/gate/ae] epoch 7/100 train=0.04467 val=0.03297 lr=1.00e-03 *
+  [CrossLinear/greenhouse/gate/ae] epoch 8/100 train=0.04114 val=0.03247 lr=1.00e-03 *
+  [CrossLinear/greenhouse/gate/ae] epoch 9/100 train=0.03820 val=0.02826 lr=1.00e-03 *
+  [CrossLinear/greenhouse/gate/ae] epoch 10/100 train=0.03428 val=0.02655 lr=1.00e-03 *
+  [CrossLinear/greenhouse/gate/ae] epoch 11/100 train=0.03189 val=0.02323 lr=1.00e-03 *
+  [CrossLinear/greenhouse/gate/ae] epoch 12/100 train=0.02925 val=0.02273 lr=1.00e-03 *
+  [CrossLinear/greenhouse/gate/ae] epoch 13/100 train=0.02647 val=0.02145 lr=1.00e-03 *
+  [CrossLinear/greenhouse/gate/ae] epoch 14/100 train=0.02415 val=0.01989 lr=1.00e-03 *
+  [CrossLinear/greenhouse/gate/ae] epoch 15/100 train=0.02276 val=0.01918 lr=1.00e-03 *
+  [CrossLinear/greenhouse/gate/ae] epoch 16/100 train=0.02141 val=0.02106 lr=1.00e-03
+  [CrossLinear/greenhouse/gate/ae] epoch 17/100 train=0.02031 val=0.01933 lr=1.00e-03
+  [CrossLinear/greenhouse/gate/ae] epoch 18/100 train=0.01905 val=0.01812 lr=1.00e-03 *
+  [CrossLinear/greenhouse/gate/ae] epoch 19/100 train=0.01811 val=0.01855 lr=1.00e-03
+  [CrossLinear/greenhouse/gate/ae] epoch 20/100 train=0.01715 val=0.02047 lr=1.00e-03
+  [CrossLinear/greenhouse/gate/ae] epoch 21/100 train=0.01656 val=0.02031 lr=1.00e-03
+  [CrossLinear/greenhouse/gate/ae] epoch 22/100 train=0.01590 val=0.01758 lr=1.00e-03 *
+  [CrossLinear/greenhouse/gate/ae] epoch 23/100 train=0.01512 val=0.02031 lr=1.00e-03
+  [CrossLinear/greenhouse/gate/ae] epoch 24/100 train=0.01462 val=0.01580 lr=1.00e-03 *
+  [CrossLinear/greenhouse/gate/ae] epoch 25/100 train=0.01401 val=0.01674 lr=1.00e-03
+  [CrossLinear/greenhouse/gate/ae] epoch 26/100 train=0.01351 val=0.01862 lr=1.00e-03
+  [CrossLinear/greenhouse/gate/ae] epoch 27/100 train=0.01296 val=0.01639 lr=1.00e-03
+  [CrossLinear/greenhouse/gate/ae] epoch 28/100 train=0.01266 val=0.01417 lr=1.00e-03 *
+  [CrossLinear/greenhouse/gate/ae] epoch 29/100 train=0.01220 val=0.01525 lr=1.00e-03
+  [CrossLinear/greenhouse/gate/ae] epoch 30/100 train=0.01177 val=0.01513 lr=1.00e-03
+  [CrossLinear/greenhouse/gate/ae] epoch 31/100 train=0.01121 val=0.01882 lr=1.00e-03
+  [CrossLinear/greenhouse/gate/ae] epoch 32/100 train=0.01108 val=0.01615 lr=1.00e-03
+  [CrossLinear/greenhouse/gate/ae] epoch 33/100 train=0.01083 val=0.01553 lr=1.00e-03
+  [CrossLinear/greenhouse/gate/ae] epoch 34/100 train=0.01059 val=0.01479 lr=5.00e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 35/100 train=0.00969 val=0.01375 lr=5.00e-04 *
+  [CrossLinear/greenhouse/gate/ae] epoch 36/100 train=0.00941 val=0.01421 lr=5.00e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 37/100 train=0.00914 val=0.01457 lr=5.00e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 38/100 train=0.00884 val=0.01439 lr=5.00e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 39/100 train=0.00872 val=0.01352 lr=5.00e-04 *
+  [CrossLinear/greenhouse/gate/ae] epoch 40/100 train=0.00857 val=0.01506 lr=5.00e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 41/100 train=0.00851 val=0.01414 lr=5.00e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 42/100 train=0.00802 val=0.01328 lr=5.00e-04 *
+  [CrossLinear/greenhouse/gate/ae] epoch 43/100 train=0.00769 val=0.01420 lr=5.00e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 44/100 train=0.00756 val=0.01478 lr=5.00e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 45/100 train=0.00738 val=0.01314 lr=5.00e-04 *
+  [CrossLinear/greenhouse/gate/ae] epoch 46/100 train=0.00719 val=0.01433 lr=5.00e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 47/100 train=0.00684 val=0.01405 lr=5.00e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 48/100 train=0.00672 val=0.01392 lr=5.00e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 49/100 train=0.00660 val=0.01355 lr=5.00e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 50/100 train=0.00629 val=0.01411 lr=5.00e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 51/100 train=0.00606 val=0.01378 lr=2.50e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 52/100 train=0.00583 val=0.01477 lr=2.50e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 53/100 train=0.00577 val=0.01458 lr=2.50e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 54/100 train=0.00554 val=0.01379 lr=2.50e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 55/100 train=0.00538 val=0.01329 lr=2.50e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 56/100 train=0.00530 val=0.01335 lr=2.50e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 57/100 train=0.00518 val=0.01373 lr=1.25e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 58/100 train=0.00506 val=0.01356 lr=1.25e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 59/100 train=0.00508 val=0.01349 lr=1.25e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 60/100 train=0.00497 val=0.01365 lr=1.25e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 61/100 train=0.00484 val=0.01401 lr=1.25e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 62/100 train=0.00469 val=0.01379 lr=1.25e-04
+  [CrossLinear/greenhouse/gate/ae] epoch 63/100 train=0.00479 val=0.01393 lr=6.25e-05
+  [CrossLinear/greenhouse/gate/ae] epoch 64/100 train=0.00464 val=0.01346 lr=6.25e-05
+  [CrossLinear/greenhouse/gate/ae] epoch 65/100 train=0.00468 val=0.01372 lr=6.25e-05
+  early stop at epoch 65 (best 45, val=0.01314)
+{"status": "COMPLETE", "tag": "CrossLinear__ae_gate_soft__seed3", "elapsed_seconds": 16.296254399989266}

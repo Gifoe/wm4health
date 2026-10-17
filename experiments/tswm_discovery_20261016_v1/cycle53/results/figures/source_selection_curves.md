@@ -1,0 +1,1 @@
+Every training seed and observed epoch is retained; dots show selected epochs. Objectives use the native arm-specific validation reduction, including directional-supervision totals when present, so values across arms need not have identical loss semantics. Curves diagnose cap selection or instability; they do not change the completed training budget.

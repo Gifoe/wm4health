@@ -1,11 +1,9 @@
-# C53 native TSWM subset reproduction - running snapshot
+# C53 native TSWM subset and new-crop audit
 
-This is an unfinished experiment snapshot. Read CURRENT_STATE.md and the dated outputs/progress_snapshot_v1/progress.json before interpreting status. No new-crop result or final novel research direction is claimed.
+Read CURRENT_STATE.md and experimental_results.md for the completed 40-fit comparison. This is source-protocol subset reproduction plus a separately labeled crop transfer audit; no final novel research direction is accepted.
 
-The frozen grid has two original backbones, four native configurations and all five original seeds. Completed fits and the shared AE are on the server; incomplete resource/instrumentation attempts are retained there and excluded. RUNTIME_SUPPLEMENT_V5.md and V6.md document the adopted effective-batch memory adaptation and its numerical/dropout limits.
+PROTOCOL.md, EVALUATION_SUPPLEMENT.md and ANALYSIS_SUPPLEMENT.md fix model fitting, selection and descriptive uncertainty. Checkpoints were sealed before the new crop was scored. Independent raw-array arithmetic and forward/target-corruption checks passed. Full metrics, sign-prior roles/coverage, clipping/timing diagnostics and all fit curves are preserved.
 
-Active scripts are explicitly listed by the publication manifest. The server supervisor is capture_native53_v6.py; score_native53_v7.py waits for all 40 selected checkpoints; capture_eval53_v2.py monitors the actual Windows process and runs scoring/verification once. The latter is Windows-specific. Source and evidence scripts are supplied for review; this running snapshot is not yet a one-command fresh-run release. Historical repair guards must not be faked to rerun it. A fresh-run entry point will accompany the completed reproduction.
+Runtime supplements disclose the concat microbatch adaptation and native-process recovery. Final plots use render_native53_v5.py, fixed layout and PNG/SVG after retained native layout/PDF failures; no models or score arrays were changed during plotting. FRESH_RUN.md describes the clean-directory entry point and its staging-level validation limit.
 
-Paths are supplied through TSWM_STORAGE_CONFIG and TSWM_UPSTREAM_ROOT. storage.example.json illustrates a non-identifying layout; its data_root must contain greenhouse3_original_v1/experiment_1/TimeSeries and experiment_2/TimeSeries with the original public bytes. TSWM source pin is 2e5e48540ff0da48e8192163969a6c58df1d5a3e, and C52 records the acquisition route. No server machine paths, raw signals, weights or environments are published here.
-
-Prior framework evidence remains in ../cycle49 and the real-data input audit in ../cycle52. This grid is source-protocol subset reproduction plus a separately identified new-crop transfer audit. Neither is a new model. New hypotheses and methods require additional falsifiable evidence.
+Public sources and compact evidence are on Gifoe/wm4health. Raw inputs, tensors, checkpoints and environment files remain on the authorized server disk. Public path aliases and their original/export hashes are recorded explicitly; path-redacted files are not claimed to have the original server byte hash. Original dated snapshots remain available in Git history and the archived report bytes.

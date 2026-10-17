@@ -1,0 +1,75 @@
+{
+  "utc": "2026-10-17T16:54:02.624639+00:00",
+  "status": "COMPLETE_TIMING_PRECISION_QUALIFICATION",
+  "one_second_tolerance": 1.0,
+  "banks": [
+    {
+      "bank": "source_train",
+      "windows": 815,
+      "window_weighted_steps": 220865,
+      "exactly_300_second_step_fraction": 0.0,
+      "within_one_second_step_fraction": 1.0,
+      "windows_with_step_deviation_over_one_second": 0,
+      "nonpositive_steps": 0,
+      "step_seconds_min": 299.98,
+      "step_seconds_max": 300.067,
+      "absolute_step_error_seconds_percentiles": {
+        "0": 0.019000000000005457,
+        "50": 0.019000000000005457,
+        "95": 0.06700000000000728,
+        "99": 0.06700000000000728,
+        "100": 0.06700000000000728
+      },
+      "max_absolute_forecast_elapsed_time_error_seconds": 0.07600000000002183,
+      "horizon16_min_seconds": 4799.952,
+      "horizon16_max_seconds": 4800.039
+    },
+    {
+      "bank": "source_val",
+      "windows": 163,
+      "window_weighted_steps": 44173,
+      "exactly_300_second_step_fraction": 0.0,
+      "within_one_second_step_fraction": 1.0,
+      "windows_with_step_deviation_over_one_second": 0,
+      "nonpositive_steps": 0,
+      "step_seconds_min": 299.98,
+      "step_seconds_max": 300.067,
+      "absolute_step_error_seconds_percentiles": {
+        "0": 0.019000000000005457,
+        "50": 0.019000000000005457,
+        "95": 0.06700000000000728,
+        "99": 0.06700000000000728,
+        "100": 0.06700000000000728
+      },
+      "max_absolute_forecast_elapsed_time_error_seconds": 0.07600000000002183,
+      "horizon16_min_seconds": 4799.952,
+      "horizon16_max_seconds": 4800.039
+    },
+    {
+      "bank": "new_crop_all",
+      "windows": 803,
+      "window_weighted_steps": 217613,
+      "exactly_300_second_step_fraction": 0.0,
+      "within_one_second_step_fraction": 1.0,
+      "windows_with_step_deviation_over_one_second": 0,
+      "nonpositive_steps": 0,
+      "step_seconds_min": 299.98,
+      "step_seconds_max": 300.067,
+      "absolute_step_error_seconds_percentiles": {
+        "0": 0.019000000000005457,
+        "50": 0.019000000000005457,
+        "95": 0.06700000000000728,
+        "99": 0.06700000000000728,
+        "100": 0.06700000000000728
+      },
+      "max_absolute_forecast_elapsed_time_error_seconds": 0.07600000000002183,
+      "horizon16_min_seconds": 4799.952,
+      "horizon16_max_seconds": 4800.039
+    }
+  ],
+  "all_accepted_windows_within_one_second_per_step": true,
+  "scope": "Strict timestamp equality flags subsecond variation. Report actual extrema and a disclosed one-second numerical tolerance; this is not resampling, not a change to native input windows and not evidence of a dynamics-model gap.",
+  "predecessor_summary_sha256": "3f922c998e7c7b9b3dff434435a5955d66df61d1b63a5ed521f73984f1cceb21",
+  "source_files_rechecked": 125,
+  "model_predictions_read": false
+}

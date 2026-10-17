@@ -1,0 +1,75 @@
+The model parameter horizon is deprecated. Please use pred_len.
+  [gate_soft] greenhouse: 3 constraints ['greenhouse:Tpipe->Tair', 'greenhouse:VentLee->Tair', 'greenhouse:VentWind->Tair']  rho=1.0
+  [PatchTST/greenhouse/gate/ae] epoch 1/100 train=0.44272 val=0.62149 lr=1.00e-03 *
+  [PatchTST/greenhouse/gate/ae] epoch 2/100 train=0.27881 val=0.16184 lr=1.00e-03 *
+  [PatchTST/greenhouse/gate/ae] epoch 3/100 train=0.10484 val=0.08071 lr=1.00e-03 *
+  [PatchTST/greenhouse/gate/ae] epoch 4/100 train=0.07218 val=0.05563 lr=1.00e-03 *
+  [PatchTST/greenhouse/gate/ae] epoch 5/100 train=0.04999 val=0.02424 lr=1.00e-03 *
+  [PatchTST/greenhouse/gate/ae] epoch 6/100 train=0.03485 val=0.02049 lr=1.00e-03 *
+  [PatchTST/greenhouse/gate/ae] epoch 7/100 train=0.02787 val=0.02119 lr=1.00e-03
+  [PatchTST/greenhouse/gate/ae] epoch 8/100 train=0.02453 val=0.01429 lr=1.00e-03 *
+  [PatchTST/greenhouse/gate/ae] epoch 9/100 train=0.02191 val=0.01278 lr=1.00e-03 *
+  [PatchTST/greenhouse/gate/ae] epoch 10/100 train=0.02041 val=0.01251 lr=1.00e-03 *
+  [PatchTST/greenhouse/gate/ae] epoch 11/100 train=0.01954 val=0.01187 lr=1.00e-03 *
+  [PatchTST/greenhouse/gate/ae] epoch 12/100 train=0.01807 val=0.01147 lr=1.00e-03 *
+  [PatchTST/greenhouse/gate/ae] epoch 13/100 train=0.01779 val=0.01106 lr=1.00e-03 *
+  [PatchTST/greenhouse/gate/ae] epoch 14/100 train=0.01780 val=0.01162 lr=1.00e-03
+  [PatchTST/greenhouse/gate/ae] epoch 15/100 train=0.01762 val=0.01149 lr=1.00e-03
+  [PatchTST/greenhouse/gate/ae] epoch 16/100 train=0.01782 val=0.01089 lr=1.00e-03 *
+  [PatchTST/greenhouse/gate/ae] epoch 17/100 train=0.01711 val=0.01139 lr=1.00e-03
+  [PatchTST/greenhouse/gate/ae] epoch 18/100 train=0.01670 val=0.01139 lr=1.00e-03
+  [PatchTST/greenhouse/gate/ae] epoch 19/100 train=0.01659 val=0.01113 lr=1.00e-03
+  [PatchTST/greenhouse/gate/ae] epoch 20/100 train=0.01651 val=0.01135 lr=1.00e-03
+  [PatchTST/greenhouse/gate/ae] epoch 21/100 train=0.01634 val=0.01240 lr=1.00e-03
+  [PatchTST/greenhouse/gate/ae] epoch 22/100 train=0.01632 val=0.01155 lr=5.00e-04
+  [PatchTST/greenhouse/gate/ae] epoch 23/100 train=0.01541 val=0.01096 lr=5.00e-04
+  [PatchTST/greenhouse/gate/ae] epoch 24/100 train=0.01523 val=0.01071 lr=5.00e-04 *
+  [PatchTST/greenhouse/gate/ae] epoch 25/100 train=0.01502 val=0.01055 lr=5.00e-04 *
+  [PatchTST/greenhouse/gate/ae] epoch 26/100 train=0.01520 val=0.01138 lr=5.00e-04
+  [PatchTST/greenhouse/gate/ae] epoch 27/100 train=0.01517 val=0.01063 lr=5.00e-04
+  [PatchTST/greenhouse/gate/ae] epoch 28/100 train=0.01528 val=0.01062 lr=5.00e-04
+  [PatchTST/greenhouse/gate/ae] epoch 29/100 train=0.01495 val=0.01109 lr=5.00e-04
+  [PatchTST/greenhouse/gate/ae] epoch 30/100 train=0.01441 val=0.01089 lr=5.00e-04
+  [PatchTST/greenhouse/gate/ae] epoch 31/100 train=0.01404 val=0.01052 lr=5.00e-04 *
+  [PatchTST/greenhouse/gate/ae] epoch 32/100 train=0.01484 val=0.01066 lr=5.00e-04
+  [PatchTST/greenhouse/gate/ae] epoch 33/100 train=0.01492 val=0.01053 lr=5.00e-04
+  [PatchTST/greenhouse/gate/ae] epoch 34/100 train=0.01474 val=0.01041 lr=5.00e-04 *
+  [PatchTST/greenhouse/gate/ae] epoch 35/100 train=0.01478 val=0.01122 lr=5.00e-04
+  [PatchTST/greenhouse/gate/ae] epoch 36/100 train=0.01427 val=0.01055 lr=5.00e-04
+  [PatchTST/greenhouse/gate/ae] epoch 37/100 train=0.01419 val=0.01064 lr=5.00e-04
+  [PatchTST/greenhouse/gate/ae] epoch 38/100 train=0.01402 val=0.01032 lr=5.00e-04 *
+  [PatchTST/greenhouse/gate/ae] epoch 39/100 train=0.01363 val=0.01024 lr=5.00e-04 *
+  [PatchTST/greenhouse/gate/ae] epoch 40/100 train=0.01352 val=0.01016 lr=5.00e-04 *
+  [PatchTST/greenhouse/gate/ae] epoch 41/100 train=0.01327 val=0.00981 lr=5.00e-04 *
+  [PatchTST/greenhouse/gate/ae] epoch 42/100 train=0.01313 val=0.01016 lr=5.00e-04
+  [PatchTST/greenhouse/gate/ae] epoch 43/100 train=0.01311 val=0.00970 lr=5.00e-04 *
+  [PatchTST/greenhouse/gate/ae] epoch 44/100 train=0.01302 val=0.01033 lr=5.00e-04
+  [PatchTST/greenhouse/gate/ae] epoch 45/100 train=0.01285 val=0.01046 lr=5.00e-04
+  [PatchTST/greenhouse/gate/ae] epoch 46/100 train=0.01267 val=0.01002 lr=5.00e-04
+  [PatchTST/greenhouse/gate/ae] epoch 47/100 train=0.01274 val=0.00998 lr=5.00e-04
+  [PatchTST/greenhouse/gate/ae] epoch 48/100 train=0.01268 val=0.00981 lr=5.00e-04
+  [PatchTST/greenhouse/gate/ae] epoch 49/100 train=0.01235 val=0.00975 lr=2.50e-04
+  [PatchTST/greenhouse/gate/ae] epoch 50/100 train=0.01212 val=0.00994 lr=2.50e-04
+  [PatchTST/greenhouse/gate/ae] epoch 51/100 train=0.01197 val=0.00957 lr=2.50e-04 *
+  [PatchTST/greenhouse/gate/ae] epoch 52/100 train=0.01203 val=0.01013 lr=2.50e-04
+  [PatchTST/greenhouse/gate/ae] epoch 53/100 train=0.01192 val=0.01048 lr=2.50e-04
+  [PatchTST/greenhouse/gate/ae] epoch 54/100 train=0.01195 val=0.00968 lr=2.50e-04
+  [PatchTST/greenhouse/gate/ae] epoch 55/100 train=0.01141 val=0.00974 lr=2.50e-04
+  [PatchTST/greenhouse/gate/ae] epoch 56/100 train=0.01159 val=0.00969 lr=2.50e-04
+  [PatchTST/greenhouse/gate/ae] epoch 57/100 train=0.01164 val=0.00969 lr=1.25e-04
+  [PatchTST/greenhouse/gate/ae] epoch 58/100 train=0.01143 val=0.00964 lr=1.25e-04
+  [PatchTST/greenhouse/gate/ae] epoch 59/100 train=0.01101 val=0.00995 lr=1.25e-04
+  [PatchTST/greenhouse/gate/ae] epoch 60/100 train=0.01122 val=0.00969 lr=1.25e-04
+  [PatchTST/greenhouse/gate/ae] epoch 61/100 train=0.01112 val=0.00989 lr=1.25e-04
+  [PatchTST/greenhouse/gate/ae] epoch 62/100 train=0.01130 val=0.00963 lr=1.25e-04
+  [PatchTST/greenhouse/gate/ae] epoch 63/100 train=0.01133 val=0.00977 lr=6.25e-05
+  [PatchTST/greenhouse/gate/ae] epoch 64/100 train=0.01125 val=0.00985 lr=6.25e-05
+  [PatchTST/greenhouse/gate/ae] epoch 65/100 train=0.01113 val=0.00965 lr=6.25e-05
+  [PatchTST/greenhouse/gate/ae] epoch 66/100 train=0.01109 val=0.00982 lr=6.25e-05
+  [PatchTST/greenhouse/gate/ae] epoch 67/100 train=0.01111 val=0.00980 lr=6.25e-05
+  [PatchTST/greenhouse/gate/ae] epoch 68/100 train=0.01099 val=0.00967 lr=6.25e-05
+  [PatchTST/greenhouse/gate/ae] epoch 69/100 train=0.01093 val=0.00981 lr=3.13e-05
+  [PatchTST/greenhouse/gate/ae] epoch 70/100 train=0.01096 val=0.00980 lr=3.13e-05
+  [PatchTST/greenhouse/gate/ae] epoch 71/100 train=0.01066 val=0.00976 lr=3.13e-05
+  early stop at epoch 71 (best 51, val=0.00957)
+{"status": "COMPLETE", "tag": "PatchTST__ae_gate_soft__seed0", "elapsed_seconds": 119.23363440000685}
