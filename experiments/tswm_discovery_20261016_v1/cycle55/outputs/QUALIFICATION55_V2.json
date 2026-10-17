@@ -1,0 +1,183 @@
+{
+  "utc": "2026-10-17T21:29:15.746580+00:00",
+  "status": "PASS_NATIVE_FINITE_BANK_AND_INDEPENDENT_POPULATION_QUADRATURE",
+  "native_finite_checks": [
+    {
+      "parameters": [
+        0.2,
+        0.8,
+        0.7
+      ],
+      "errors": {
+        "loss": 3.559241790185297e-11,
+        "mean": 3.5106395568362814e-10,
+        "cov": 3.895954669985713e-10,
+        "adjacent_cov": 6.510292999140077e-11
+      },
+      "source_loss": 2.0242813351288795,
+      "independent_loss": 2.024281335164472
+    },
+    {
+      "parameters": [
+        0.7,
+        2.0,
+        1.1
+      ],
+      "errors": {
+        "loss": 6.645484162959292e-11,
+        "mean": 1.1780734165967033e-09,
+        "cov": 6.701553756371936e-10,
+        "adjacent_cov": 2.8852789601963025e-10
+      },
+      "source_loss": 2.089935876498725,
+      "independent_loss": 2.0899358765651797
+    },
+    {
+      "parameters": [
+        -0.4,
+        3.0,
+        0.4
+      ],
+      "errors": {
+        "loss": 3.053375330352992e-10,
+        "mean": 6.578512179444829e-10,
+        "cov": 1.0576084175095701e-09,
+        "adjacent_cov": 1.7230658219680173e-10
+      },
+      "source_loss": 2.2371558849501696,
+      "independent_loss": 2.237155885255507
+    },
+    {
+      "parameters": [
+        0.95,
+        5.0,
+        1.0
+      ],
+      "errors": {
+        "loss": 1.1778089614722376e-10,
+        "mean": 3.238840862174186e-09,
+        "cov": 5.349548165556328e-10,
+        "adjacent_cov": 3.4562830375506337e-10
+      },
+      "source_loss": 2.5723717734211005,
+      "independent_loss": 2.5723717735388814
+    }
+  ],
+  "reference_quadrature_max_error": 3.3306690738754696e-16,
+  "target_sigma_point_max_error": 1.1449174941446927e-16,
+  "true_point_equalities": [
+    {
+      "a_star": 0.5,
+      "r": 0.03,
+      "T": 6,
+      "error": 1.8041124150158794e-16,
+      "loss": -0.11199858251051757
+    },
+    {
+      "a_star": 0.5,
+      "r": 0.03,
+      "T": 24,
+      "error": 2.7755575615628914e-17,
+      "loss": -0.12880479059883498
+    },
+    {
+      "a_star": 0.5,
+      "r": 0.3,
+      "T": 6,
+      "error": 1.1102230246251565e-16,
+      "loss": -0.06762036880138374
+    },
+    {
+      "a_star": 0.5,
+      "r": 0.3,
+      "T": 24,
+      "error": 1.1102230246251565e-16,
+      "loss": -0.07797486627077117
+    },
+    {
+      "a_star": 0.5,
+      "r": 3.0,
+      "T": 6,
+      "error": 3.642919299551295e-17,
+      "loss": -0.007409813942081993
+    },
+    {
+      "a_star": 0.5,
+      "r": 3.0,
+      "T": 24,
+      "error": 3.3306690738754696e-16,
+      "loss": -0.008754550293066857
+    },
+    {
+      "a_star": 0.95,
+      "r": 0.03,
+      "T": 6,
+      "error": 4.440892098500626e-16,
+      "loss": -0.8025524026439154
+    },
+    {
+      "a_star": 0.95,
+      "r": 0.03,
+      "T": 24,
+      "error": 1.1102230246251565e-15,
+      "loss": -0.9253281281427218
+    },
+    {
+      "a_star": 0.95,
+      "r": 0.3,
+      "T": 6,
+      "error": 4.440892098500626e-16,
+      "loss": -0.37064904482519295
+    },
+    {
+      "a_star": 0.95,
+      "r": 0.3,
+      "T": 24,
+      "error": 1.1102230246251565e-16,
+      "loss": -0.44462709175647036
+    },
+    {
+      "a_star": 0.95,
+      "r": 3.0,
+      "T": 6,
+      "error": 5.551115123125783e-17,
+      "loss": -0.042782718940735466
+    },
+    {
+      "a_star": 0.95,
+      "r": 3.0,
+      "T": 24,
+      "error": 1.0130785099704553e-15,
+      "loss": -0.06523667737004292
+    }
+  ],
+  "formal_C54_model_or_data_reads": 0,
+  "optimizer_updates": 0,
+  "native_source_sha256": {
+    "demos/cifar_pendulum.ipynb": "cfae15a37cbe3f571275070d96746c1999d3d334d7bce494c26917c44900c77b",
+    "demos/walker_dynamic_distractors.ipynb": "52cbc01f2e676c708fe944d24090e4047de27c9396ec6f3157c30b8f646d1665",
+    "LICENSE": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19",
+    "pdm.lock": "cc109e4356e8d31da90017a0940e5f67263b0037ce79438ccc7ae0e3d32d247c",
+    "pyproject.toml": "0737e83f199c9b59ecc1742a322f55c8701e29c53a0d80338368cb186ba92f70",
+    "README.md": "08fe3d7871c62fadd05964575501cd24abd97b942a0d145804afe355209a9e70",
+    "rp_ssm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rp_ssm/actions.py": "681e785b8ee79a8fbe1bac491fbbc0b2bc410c4f3ff0a55f05fa8c727a8df587",
+    "rp_ssm/config.py": "f6e55004b68078aeb084c1831e6bb9f1d743e3f2f88596d71e10abc9a2d53ddc",
+    "rp_ssm/datasets.py": "9a1aa383b5829264c59233ad5028a63a9bfe15aad09396e831faa8b8cc297abe",
+    "rp_ssm/datasets_utils.py": "47d930381df5c543aac53e36fb0823d08b650fc83a5a0b3cfbdcaf94d72007df",
+    "rp_ssm/distmaps.py": "54ee8ebe408f724be195b4a8405e0a50e3ed68e0fd7e100b30b54ea06ba162a7",
+    "rp_ssm/dists.py": "6050ccdb5c0fa21267db12811db3bb5b8b8ef3bf3bca6ed4d6ec9464348a93bf",
+    "rp_ssm/dists_utils.py": "874d7ed54403f3c987707bd4a5b17dac0fc6c9d84efb1c6107d61bb9b4d4d500",
+    "rp_ssm/generation.py": "b1a44e2d24f2d0eb508dd30ad5053ed85213dc12675a376a843a22cbdce3afc0",
+    "rp_ssm/gym_wrappers.py": "57bfc16924d1b3ba4d7a0d0e4237ab4801c936b3aa85e01fac60406324ee994e",
+    "rp_ssm/recognition.py": "04a255bbce078215b5106a19a7c42ab5a37a2d50735f91aaa54aef033913ba4a",
+    "rp_ssm/rpm.py": "da3792582ffc1997c4e775197791fc05dd00d09ff2d1fbca1c9742f93b89b2dd",
+    "rp_ssm/training.py": "d84c26650a375a2cafa5f670209fe394c9170cf20c01b0fc08398498bc07dc70",
+    "rp_ssm/types.py": "fc069345983c4f21b6670029e805718bd5bfb3cbaedce8ce64e039f16a61060d",
+    "rp_ssm/utils.py": "e711f4438301c1802aef7dfb3d17403aebe5a904df35eb87d4ae9f2ccbe05e53"
+  },
+  "protocol_sha256": "6f1cb12b4e4e9865967aec304be1d636822a61ca80516e3e738c4efec037c61a",
+  "math_script_sha256": "ab14ff0f886acb9d76e54a0a0522e93bb58d33a7c97e19d5f8a38ca86997700c",
+  "qualification_script_sha256": "3ee0ce7ec88964805e1f6611d7f14cc8fbc58cef13e80d8fc8a74c3e64d2c70d",
+  "scope": "Scalar Gaussian source-objective audit; no native training, nonlinear benchmark, theorem refutation or new-method evidence."
+}

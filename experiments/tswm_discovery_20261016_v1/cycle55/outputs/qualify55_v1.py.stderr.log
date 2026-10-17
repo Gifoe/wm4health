@@ -1,0 +1,10 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Traceback (most recent call last):
+  File "D:\tswm_discovery_20261016_v1\cycle55\scripts\qualify55_v1.py", line 60, in <module>
+    if __name__=='__main__':main()
+  File "D:\tswm_discovery_20261016_v1\cycle55\scripts\qualify55_v1.py", line 30, in main
+    assert max(errors.values())<1e-7,errors
+AssertionError: {'loss': 4.099476313967898e-11, 'mean': 3.5106395568362814e-10, 'cov': 3.895954669985713e-10, 'adjacent_cov': 1.1312868223867234e-06}

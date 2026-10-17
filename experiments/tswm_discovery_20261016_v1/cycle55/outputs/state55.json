@@ -1,0 +1,6 @@
+{
+  "utc": "2026-10-17T21:27:28.829977+00:00",
+  "pid": 25900,
+  "status": "FAILED_PRESERVED",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\tswm_discovery_20261016_v1\\cycle55\\scripts\\capture55_v1.py\", line 10, in <module>\n    subprocess.run([sys.executable,'-B','-u',str(ROOT/'scripts'/name)],stdout=stdout,stderr=stderr,check=True)\n  File \"E:\\Anaconda\\envs\\persist_stable_251\\lib\\subprocess.py\", line 526, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['D:\\\\tswm_discovery_20261016_v1\\\\cycle2\\\\.venv_rpm\\\\Scripts\\\\python.exe', '-B', '-u', 'D:\\\\tswm_discovery_20261016_v1\\\\cycle55\\\\scripts\\\\qualify55_v1.py']' returned non-zero exit status 1.\n"
+}
