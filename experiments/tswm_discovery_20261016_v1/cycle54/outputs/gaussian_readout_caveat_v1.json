@@ -1,0 +1,127 @@
+{
+  "utc": "2026-10-17T21:02:48.546681+00:00",
+  "status": "EXACT_ORACLE_POINT_READOUT_COUNTEREXAMPLE_CONFIRMED",
+  "fixture": "Correct Gaussian posterior, one physically unobserved state component, no learned model or formal signal reads",
+  "population_OLS_map": [
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "identity_gauge_KL": 0.0,
+  "point_map_all_covariances_singular": true,
+  "nearly_singular_examples": [
+    {
+      "second_axis_scale": 0.1,
+      "mapped_oracle_kl": 47.19741490700594,
+      "closed_form_kl": 47.19741490700595
+    },
+    {
+      "second_axis_scale": 0.01,
+      "mapped_oracle_kl": 4994.894829814011,
+      "closed_form_kl": 4994.894829814012
+    },
+    {
+      "second_axis_scale": 0.001,
+      "mapped_oracle_kl": 499992.592244721,
+      "closed_form_kl": 499992.592244721
+    }
+  ],
+  "existing_C54_map_conditions": [
+    {
+      "run": "rp_linear_small_seed0",
+      "state_map_rank": 3,
+      "state_map_condition": 1.0317507988971537
+    },
+    {
+      "run": "rp_linear_small_seed1",
+      "state_map_rank": 3,
+      "state_map_condition": 1.0267020592176863
+    },
+    {
+      "run": "rp_linear_small_seed2",
+      "state_map_rank": 3,
+      "state_map_condition": 1.0224094801366626
+    },
+    {
+      "run": "em_linear_small_seed0",
+      "state_map_rank": 3,
+      "state_map_condition": 1.1251230642229424
+    },
+    {
+      "run": "em_linear_small_seed1",
+      "state_map_rank": 3,
+      "state_map_condition": 1.1505547582957227
+    },
+    {
+      "run": "em_linear_small_seed2",
+      "state_map_rank": 3,
+      "state_map_condition": 1.104690713428533
+    },
+    {
+      "run": "rp_emtrue_linear_small_seed0",
+      "state_map_rank": 3,
+      "state_map_condition": 37.78322455733239
+    },
+    {
+      "run": "rp_emtrue_linear_small_seed1",
+      "state_map_rank": 3,
+      "state_map_condition": 13.49162773802684
+    },
+    {
+      "run": "rp_linear_medium_seed0",
+      "state_map_rank": 5,
+      "state_map_condition": 5.6304391856285445
+    },
+    {
+      "run": "rp_linear_medium_seed1",
+      "state_map_rank": 5,
+      "state_map_condition": 22.534991067716486
+    },
+    {
+      "run": "rp_linear_medium_seed2",
+      "state_map_rank": 5,
+      "state_map_condition": 47.36138800533541
+    },
+    {
+      "run": "em_linear_medium_seed0",
+      "state_map_rank": 5,
+      "state_map_condition": 1.2142851234742627
+    },
+    {
+      "run": "em_linear_medium_seed1",
+      "state_map_rank": 5,
+      "state_map_condition": 1.1968298466578855
+    },
+    {
+      "run": "em_linear_medium_seed2",
+      "state_map_rank": 5,
+      "state_map_condition": 1.2427088125688617
+    },
+    {
+      "run": "rp_emtrue_linear_medium_seed0",
+      "state_map_rank": 5,
+      "state_map_condition": 398.849831507175
+    },
+    {
+      "run": "rp_emtrue_linear_medium_seed1",
+      "state_map_rank": 5,
+      "state_map_condition": 124.86133338052363
+    }
+  ],
+  "interpretation": "The registered mapped-surrogate scores remain numerically valid under their stated map. Their large magnitude alone cannot identify native uncertainty error: information loss or a shrinking point readout can manufacture overconfidence even from an exact oracle. Condition alone does not attribute the actual C54 errors.",
+  "optimizer_updates": 0,
+  "formal_model_or_signal_reads": 0,
+  "reads_existing_scoring_reports_only": true,
+  "previous_scoring_hashes_unchanged": {
+    "outputs/gaussian_belief_audit_v1/summary.json": "edb71a0eaf5524b935953d142980b0554712282201529b4e5ed231bc694a177d",
+    "outputs/evaluation54.json": "2dff3a10445de3792cbc4e4f79417e81b687e1e9f37bb259925ab522d45def1e",
+    "outputs/em_option_learning_v1/evaluation/summary.json": "6d950ea451dfa9eb3ed38abd589ef15cac5b89ba97989e0d89bbeb7a1ec14c89"
+  },
+  "script_sha256": "0730560859b735e42550fecdff9e131d6e53db00980faa076bd5833a6655dbe2",
+  "accepted_final_directions": 0
+}

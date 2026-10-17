@@ -1,0 +1,128 @@
+{
+  "status": "ALL_12_TERMINAL_FITS_SEALED_BEFORE_STATE_READOUT_OR_HELDOUT_EVALUATION",
+  "plan_sha256": "2b52c5bbb7d8b0f1a0d911b8492aa5c84521da849b02c6f3123ac602f8fd8947",
+  "fits": [
+    {
+      "run": "rp_linear_small_seed0",
+      "result_sha256": "5011eb99a14743f4a9dcc364658b960765f32de30def6983a6948c5530da8b1f",
+      "method": "rp",
+      "iterations": 10000,
+      "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle54\\rp_linear_small_seed0.pkl",
+      "checkpoint_sha256": "4443506bd7df41eeccda317d596cf2142f504b7985423c907397d368d66b3e3e",
+      "runtime_seconds": 708.9000696000003,
+      "parameter_count": 30
+    },
+    {
+      "run": "rp_linear_small_seed1",
+      "result_sha256": "94705f5f91ea53a413e2cc619d4af86b99042cf3b58c17df43cc65536857dfe9",
+      "method": "rp",
+      "iterations": 10000,
+      "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle54\\rp_linear_small_seed1.pkl",
+      "checkpoint_sha256": "d4196168f6da9835943a4f3b1c8d6b104e9c8dac788a21205d7df6645e273442",
+      "runtime_seconds": 711.6201809000049,
+      "parameter_count": 30
+    },
+    {
+      "run": "rp_linear_small_seed2",
+      "result_sha256": "9b5240e9b36cc7b7caa2ee78f7192dbb3979bd21df616fc4d0a83ec55da48431",
+      "method": "rp",
+      "iterations": 10000,
+      "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle54\\rp_linear_small_seed2.pkl",
+      "checkpoint_sha256": "5c2f7c6bdb2d368c0306ea030817e753e5a5236d215921f143c4d9636cf6e840",
+      "runtime_seconds": 721.0838375000167,
+      "parameter_count": 30
+    },
+    {
+      "run": "rp_linear_medium_seed0",
+      "result_sha256": "a283c8b15b895f5e72babd79099e0712dc9740cfea914065d05685d1711b81be",
+      "method": "rp",
+      "iterations": 10000,
+      "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle54\\rp_linear_medium_seed0.pkl",
+      "checkpoint_sha256": "346efcba98ec44a437be1464908111734d975a9bb83a63b4d2a2cb0f018c2a05",
+      "runtime_seconds": 3029.8304696000123,
+      "parameter_count": 85
+    },
+    {
+      "run": "rp_linear_medium_seed1",
+      "result_sha256": "c89e11493bc4e98221dc1d9199ba1a730146bd8b67a178d4641ccfd8bce1337f",
+      "method": "rp",
+      "iterations": 10000,
+      "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle54\\rp_linear_medium_seed1.pkl",
+      "checkpoint_sha256": "2dfe92e06b83f5f85a6c2282e8df31607033fb855541af57e2c0435622b49b61",
+      "runtime_seconds": 3112.4316617999866,
+      "parameter_count": 85
+    },
+    {
+      "run": "rp_linear_medium_seed2",
+      "result_sha256": "19946ffe156f41f9b637d142e1a549da8909c5f90998aa191ff8be490ce12b82",
+      "method": "rp",
+      "iterations": 10000,
+      "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle54\\rp_linear_medium_seed2.pkl",
+      "checkpoint_sha256": "c73c243e400db76c1dad5fbb37b0a860bd8cd1e3694d63f8fd0fe9a1b1e00896",
+      "runtime_seconds": 2917.9437405999925,
+      "parameter_count": 85
+    },
+    {
+      "run": "em_linear_small_seed0",
+      "result_sha256": "634a0020e7e55acc8eb20d9d29aed2b1ddf9dfef0bb9ae278e60b7bf13974357",
+      "method": "em",
+      "iterations": 200,
+      "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle54\\em_linear_small_seed0.pkl",
+      "checkpoint_sha256": "0f5e1d99a5a530f510f86c2dbee95060dbb2d3b6bdb0476de0ee685daa0b531a",
+      "runtime_seconds": 2.604956499999389,
+      "parameter_count": 78
+    },
+    {
+      "run": "em_linear_small_seed1",
+      "result_sha256": "bdfaa062c58840aeff190d1ec3f297ae3edeb2956d34aaec639fc9268615c446",
+      "method": "em",
+      "iterations": 200,
+      "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle54\\em_linear_small_seed1.pkl",
+      "checkpoint_sha256": "63b7f373d5944d71e34880f0e8e0e30bc7d6bbe14a1ce901b83b732d483fa9b4",
+      "runtime_seconds": 2.6042546999815386,
+      "parameter_count": 78
+    },
+    {
+      "run": "em_linear_small_seed2",
+      "result_sha256": "7d9e461b8cd0d25c2579afb20129a75f8c3ca749e2f220d98088da511f4caea0",
+      "method": "em",
+      "iterations": 200,
+      "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle54\\em_linear_small_seed2.pkl",
+      "checkpoint_sha256": "64fbe6aebecd4ff6358d47e6a0cdb75bc0e3b6b6a0c3444893f88dd06e9429f5",
+      "runtime_seconds": 2.6111254999996163,
+      "parameter_count": 78
+    },
+    {
+      "run": "em_linear_medium_seed0",
+      "result_sha256": "da95fddc016da2db9160e7424174368fbb1625405eec6e8b3bb8f81ba93b084a",
+      "method": "em",
+      "iterations": 200,
+      "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle54\\em_linear_medium_seed0.pkl",
+      "checkpoint_sha256": "5142167ed7dc73171a24a29bb1614a519723b5c0721bb8ba35f1565ab26a96f2",
+      "runtime_seconds": 4.308825699990848,
+      "parameter_count": 245
+    },
+    {
+      "run": "em_linear_medium_seed1",
+      "result_sha256": "9291b2ea99aa14365ea21fc0293f325afcf2f250aedf366c191c24348b704058",
+      "method": "em",
+      "iterations": 200,
+      "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle54\\em_linear_medium_seed1.pkl",
+      "checkpoint_sha256": "9ec69dbd9fb0c4af07753309c8938153c9d35cec23503f428e51fff1df124b18",
+      "runtime_seconds": 4.070139699993888,
+      "parameter_count": 245
+    },
+    {
+      "run": "em_linear_medium_seed2",
+      "result_sha256": "cd2bcc8ad96fa4de65ba701c1d24b465d68b890fc253453bb9bded89de1c97d9",
+      "method": "em",
+      "iterations": 200,
+      "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle54\\em_linear_medium_seed2.pkl",
+      "checkpoint_sha256": "85d34e0905ba047c7bb71048ed436f0b0fcc60d7170f05c8dd21079a7a88405a",
+      "runtime_seconds": 4.140516499988735,
+      "parameter_count": 245
+    }
+  ],
+  "states_used_in_training_or_selection": false,
+  "utc": "2026-10-17T20:56:39.388148+00:00"
+}

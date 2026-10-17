@@ -1,0 +1,97 @@
+{
+  "utc": "2026-10-17T20:57:03.749171+00:00",
+  "status": "ALL_FOUR_EXTRA_TRAIN_ONLY_READOUTS_FROZEN_BEFORE_HELDOUT",
+  "readouts": [
+    {
+      "run": "rp_emtrue_linear_small_seed0",
+      "task": "linear_small",
+      "seed": 0,
+      "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle54\\em_option_learning_v1\\rp_emtrue_linear_small_seed0_diagnostic_readout.npz",
+      "sha256": "659ee43f6cfc531d5e10b574c5a3a1419383e19db21e4a87b294c10504b6bd50",
+      "training_numeric_check": {
+        "smoother_mean_max_abs": 1.6882877318380451e-09,
+        "smoother_cov_max_abs": 3.1794072929969275e-10,
+        "endpoint_mean_max_abs": 1.3238374840796041e-09,
+        "endpoint_cov_max_abs": 1.8674023438691734e-10
+      },
+      "state_readout": {
+        "design_rank": 4,
+        "design_condition": 232.90564267820068
+      },
+      "observation_readout": {
+        "design_rank": 4,
+        "design_condition": 232.90564267820068
+      },
+      "original_false_initial_parameters_rechecked_exact_match": true
+    },
+    {
+      "run": "rp_emtrue_linear_small_seed1",
+      "task": "linear_small",
+      "seed": 1,
+      "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle54\\em_option_learning_v1\\rp_emtrue_linear_small_seed1_diagnostic_readout.npz",
+      "sha256": "ef8c3574a8b00642131435f1e7e762d7eb27dc84310a43160599a9edaa8b4f05",
+      "training_numeric_check": {
+        "smoother_mean_max_abs": 1.5816556953041072e-09,
+        "smoother_cov_max_abs": 2.8310692679056615e-10,
+        "endpoint_mean_max_abs": 1.3706662471690834e-09,
+        "endpoint_cov_max_abs": 1.6508283628979825e-10
+      },
+      "state_readout": {
+        "design_rank": 4,
+        "design_condition": 189.82745618260975
+      },
+      "observation_readout": {
+        "design_rank": 4,
+        "design_condition": 189.82745618260975
+      },
+      "original_false_initial_parameters_rechecked_exact_match": true
+    },
+    {
+      "run": "rp_emtrue_linear_medium_seed0",
+      "task": "linear_medium",
+      "seed": 0,
+      "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle54\\em_option_learning_v1\\rp_emtrue_linear_medium_seed0_diagnostic_readout.npz",
+      "sha256": "cec099b159e83a73a772111ac811a84db73f6ca13f56e3f39260d85c8a9f0b21",
+      "training_numeric_check": {
+        "smoother_mean_max_abs": 1.3440057955449447e-09,
+        "smoother_cov_max_abs": 8.548223240367747e-11,
+        "endpoint_mean_max_abs": 8.15075118509867e-10,
+        "endpoint_cov_max_abs": 6.118722195580517e-11
+      },
+      "state_readout": {
+        "design_rank": 6,
+        "design_condition": 21.597737250382213
+      },
+      "observation_readout": {
+        "design_rank": 6,
+        "design_condition": 21.597737250382213
+      },
+      "original_false_initial_parameters_rechecked_exact_match": true
+    },
+    {
+      "run": "rp_emtrue_linear_medium_seed1",
+      "task": "linear_medium",
+      "seed": 1,
+      "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle54\\em_option_learning_v1\\rp_emtrue_linear_medium_seed1_diagnostic_readout.npz",
+      "sha256": "c0e2b7ab379e4071e9fab955ec21dd2172b6db5fe4f1132d6320f4269648538a",
+      "training_numeric_check": {
+        "smoother_mean_max_abs": 1.3033636392378867e-09,
+        "smoother_cov_max_abs": 6.574446542728651e-11,
+        "endpoint_mean_max_abs": 1.0488570012512355e-09,
+        "endpoint_cov_max_abs": 4.947747767047872e-11
+      },
+      "state_readout": {
+        "design_rank": 6,
+        "design_condition": 61.50025594332613
+      },
+      "observation_readout": {
+        "design_rank": 6,
+        "design_condition": 61.50025594332613
+      },
+      "original_false_initial_parameters_rechecked_exact_match": true
+    }
+  ],
+  "primary_fit_seal_sha256": "10baa798d84f202287c099327ad8bd5a6f80f91b99efa45266c442e77f3fdd59",
+  "extra_fit_seal_sha256": "1291cc18b7e7d4bc3b53a62f65afae2e24523c7c22e6e35df0969001dfcfcdcf",
+  "heldout_evaluation_existed_at_preparation": false
+}

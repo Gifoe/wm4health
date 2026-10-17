@@ -1,0 +1,7 @@
+# C54: Jointly learned RP-GSSM linear audit
+
+Status: all 12 fixed-budget fits (RP native; ordinary LGSSM EM with the explicitly qualified initial-covariance normalization correction), training-only state maps, causal heldout scoring and independent numerical checks completed. This is a paper-recipe reconstruction using pinned native components; it is not the original full hyperparameter sweep or visual benchmark reproduction.
+
+[RP-GSSM, ICML 2026](https://proceedings.mlr.press/v306/hromadka26a.html) already jointly learns recognition and linear-Gaussian latent dynamics without a parametric decoder. Appendix D.3/Table S1/E define the linear recipe used here. The paper discusses its auxiliary approximation and asymptotic identifiability; neither approximate inference nor latent dynamics learning is a new research gap. C2 had already executed native components with a fixed correct prior and found existing generative/numerical controls repaired its rare-event diagnostic. C54 addresses the distinct complete prior-learning recipe.
+
+[Native source pin](https://github.com/gatsby-sahani/rp-gssm/tree/a75225d5edceb972bb872dc9a335608733567dd4) contains two visual demos but no attached image datasets or exact linear launcher. The available source, cached paper hash and new protocol are retained separately. LGSSM EM is established prior art, executed here through Dynamax 0.1.5. This audit does not present Kalman inference, eigenvalue diagnostics, state readouts, or reconstruction-free learning as inventions.
