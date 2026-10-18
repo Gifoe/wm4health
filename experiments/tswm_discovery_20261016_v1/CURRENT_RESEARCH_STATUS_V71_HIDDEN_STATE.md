@@ -1,0 +1,5 @@
+# Latest research update: existing hidden-state baseline qualified
+
+See cycle71/HIDDEN_STATE_FINDING71_V1.md and cycle71/outputs/HIDDEN_STATE_CLOSURE71_V1.json. The native hidden-node comparison shows a hidden-target dependency in a constructed contract fixture. A separate ordinary initial-state observer using frozen native dynamics is qualified with identical optimization under hidden-value interventions. These are protocol/existing-capability findings, not a new contribution or held-out performance result. Both adapter failures and negative novelty evidence are preserved.
+
+The formal C71 three-seed campaign retains its original2000 epochs per seed and frozen common-history future-simulation assessment. The current closed-segment snapshot is in the closure; training is still incomplete. Reserved EVAL stays closed. Its graph cohort has no unseen graph isomorphism classes. C72 is closed and remains an information-contract audit. No final direction accepted; overall goal ACTIVE/UNACHIEVED. Raw data, arrays and weights stay on server G storage; only selected authored code, reports and compact evidence go to GitHub. No local result synchronization.

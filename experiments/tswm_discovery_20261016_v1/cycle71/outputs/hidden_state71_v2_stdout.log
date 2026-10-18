@@ -1,0 +1,10 @@
+E:\Anaconda\envs\salt_env\Lib\site-packages\torch\__init__.py:1323: UserWarning: torch.set_default_tensor_type() is deprecated as of PyTorch 2.1, please use torch.set_default_dtype() and torch.set_default_device() as alternatives. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\tensor\python_tensor.cpp:436.)
+  _C._set_default_tensor_type(t)
+Traceback (most recent call last):
+  File "D:\tswm_discovery_20261016_v1\cycle71\scripts\qualify_hidden_state71_v2.py", line 146, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "D:\tswm_discovery_20261016_v1\cycle71\scripts\qualify_hidden_state71_v2.py", line 136, in main
+    ref=numpy_roll(bg,ss[i],x[i,0],48);err=float(abs(ref-p[i]).max());scaled=err/max(1.,float(abs(ref).max()));assert scaled<2e-4;refs.append(dict(row=i,max_abs=err,scaled=scaled))
+                                                                                                                      ^^^^^^^^^^^
+AssertionError

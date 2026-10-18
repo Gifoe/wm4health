@@ -32,3 +32,8 @@ Exact TRAIN/VAL structure audit closed: TRAIN covers all34 five-node binary undi
 ## Second runtime incident and bounded continuation, C71
 
 The earlier recovered campaign/queue stopped after epoch800 with access violation; Windows names NumPy mtrand for this second incident. Both the two-epoch CPU-affinity comparison and the separate bounded-process continuation comparison match174 tensors and all compared states exactly. A new bounded-process controller and fail-closed assessment queue now carry the original three-fit budget. See the bounded snapshot for actual live identities; the baseline remains incomplete.
+
+
+## Existing hidden-state capability qualification, C71
+
+Epoch1000 fixed before scores. CPU-adapted native composer independently agrees with NumPy to<=1.90e-7. Unmodified native batched_evaluate branch executed on49 TRAIN-shaped fixture tasks. A separate ordinary initial-state observer executed2 complete100-update runs on TRAIN0..3 with frozen library/graphs; hidden-sentinel interventions give identical objectives/gradients/Adam states.

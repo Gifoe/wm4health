@@ -40,3 +40,8 @@ No final direction accepted. The new exact orbit audit rules out interpreting th
 ## Second runtime incident and bounded continuation, C71
 
 No accepted final direction. The original recovered campaign failed again after epoch800; the exact failure and finite checkpoint are preserved. Two independent numerical continuation checks pass with174 tensor/max difference0 and no non-tensor differences. A qualified process-local, bounded-lifetime controller and new terminal-gated assessment queue now continue the unchanged original scientific budget. Live state is in BOUNDED_RUNTIME_SNAPSHOT71_V1.json; neither training nor the full research objective is complete.
+
+
+## Existing hidden-state capability qualification, C71
+
+No final direction accepted. Ordinary frozen-simulator initial-state estimation is now qualified as an existing baseline; current source comparison needs an explicit information-safe objective. Await the unchanged full-budget three-seed free-simulation assessment before committing to a new research direction.

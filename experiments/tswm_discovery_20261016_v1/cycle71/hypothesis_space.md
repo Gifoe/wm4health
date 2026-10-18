@@ -34,3 +34,8 @@ The hypothesis that labeled-graph exclusion in this already-trained five-node co
 ## Second runtime incident and bounded continuation, C71
 
 Runtime explanations remain competing: intermittent native software/runtime faults versus machine stability; neither a different fault module nor i9-14900KF/0x12b context proves causation. Successful bounded replay rejects only a deterministically failing replay at that checkpoint in the tested executions. Process-local CPU class plus bounded lifetime is a qualified execution control, not a research mechanism or a demonstrated root fix.
+
+
+## Existing hidden-state capability qualification, C71
+
+Qualified: frozen native dynamics can receive initial-state gradients solely from visible history. Falsified for the constructed pinned-source contract: hidden targets are purely diagnostic (49/49 comparison decisions change). Still untested: independently held-out observation/mechanism generalization beyond complete ordinary observer controls. No claim of a generic new gap from this source issue.

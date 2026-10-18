@@ -1,0 +1,55 @@
+E:\Anaconda\envs\salt_env\Lib\site-packages\torch\__init__.py:1323: UserWarning: torch.set_default_tensor_type() is deprecated as of PyTorch 2.1, please use torch.set_default_dtype() and torch.set_default_device() as alternatives. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\tensor\python_tensor.cpp:436.)
+  _C._set_default_tensor_type(t)
+Traceback (most recent call last):
+  File "D:\tswm_discovery_20261016_v1\cycle71\scripts\qualify_hidden_state71_v1.py", line 146, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "D:\tswm_discovery_20261016_v1\cycle71\scripts\qualify_hidden_state71_v1.py", line 134, in main
+    inp=torch.from_numpy(x[:2].transpose(1,0,2,3).reshape(49,10,4).copy());p=predict(bg,ss[:2],inp,48).numpy()
+                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\tswm_discovery_20261016_v1\cycle71\scripts\qualify_hidden_state71_v1.py", line 72, in predict
+    return bg.run_model(mega,x).reshape(H,len(structures),5,4).permute(1,0,2,3)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\tswm_discovery_20261016_v1\upstream\modular-metalearning_f830c6aa\neurips2019\modular_metalearning.py", line 270, in run_model
+    return self.S.composer_class(composer=self.composer,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\salt_env\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\salt_env\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\tswm_discovery_20261016_v1\upstream\modular-metalearning_f830c6aa\neurips2019\composition.py", line 68, in forward
+    return self.forward_no_weights(x)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\tswm_discovery_20261016_v1\upstream\modular-metalearning_f830c6aa\neurips2019\hgnn_composer.py", line 95, in forward_no_weights
+    out = module(inp.view(-1, inp.shape[2])).view(self.bs, -1, self.msg_sz)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\salt_env\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\salt_env\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\tswm_discovery_20261016_v1\upstream\modular-metalearning_f830c6aa\neurips2019\custom_module.py", line 69, in forward
+    x = self.features(x)
+        ^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\salt_env\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\salt_env\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\salt_env\Lib\site-packages\torch\nn\modules\container.py", line 253, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\salt_env\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\salt_env\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\salt_env\Lib\site-packages\torch\nn\modules\linear.py", line 134, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: mat1 and mat2 must have the same dtype, but got Double and Float

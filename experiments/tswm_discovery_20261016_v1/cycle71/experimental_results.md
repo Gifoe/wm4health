@@ -36,3 +36,8 @@ GRAPH_ISOMORPHISM71_V1.json: 881 labeled TRAIN graphs cover34/34 possible node-p
 ## Second runtime incident and bounded continuation, C71
 
 RUNTIME_INCIDENT71_V2.json closes the second terminal native failure at checkpoint800/12816 effective updates,174 finite checkpoint tensors. RUNTIME_REPLAY_QUALIFICATION71_V2.json and BOUNDED_CONTINUATION_QUALIFICATION71_V1.json each report174 tensors/max difference0/non-tensor mismatches0. These are numerical/execution checks, not forecast performance. The formal loop body,2000-epoch budget and checkpoint grid are retained under bounded worker lifetimes.
+
+
+## Existing hidden-state capability qualification, C71
+
+HIDDEN_STATE_QUALIFICATION71_V3.json: native constructed fixture changes49/49 candidate choices under hidden-target-only intervention. Separate information-safe observer TRAIN-context MSE0.0006915383273735642 ->0.000008196262569981627; all four row values retained. This is in-sample fitting, not held-out forecasting or a method improvement. No VAL/EVAL rows accessed.

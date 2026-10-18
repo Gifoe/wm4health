@@ -36,3 +36,8 @@ CandidateC cannot be rescued by graph-hash exclusion alone: all34 structural orb
 ## Second runtime incident and bounded continuation, C71
 
 No scientific candidate is promoted by the runtime work. The next scientific discriminator still requires the complete frozen native free-simulation assessment. The new bounded controller preserves effective training and selection; source-body and numerical equivalence guard against converting an execution workaround into a different baseline. The structural-orbit finding continues to forbid unseen-topology claims from this split.
+
+
+## Existing hidden-state capability qualification, C71
+
+CandidateA remains provisional. Adding hidden initial-state optimization or alternating graph/state inference repeats known methods. Require a distinct learning interaction and a prospectively specified independent test; current pretrained graphs cover all34 classes. Stop treating execution qualification as novelty evidence.

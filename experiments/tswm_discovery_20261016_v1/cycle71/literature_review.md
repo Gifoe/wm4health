@@ -36,3 +36,8 @@ An exhaustive metadata audit supplies a local protocol boundary, not a literatur
 ## Second runtime incident and bounded continuation, C71
 
 Runtime diagnosis uses primary Intel/Microsoft documentation only as bounded engineering context. Two different native fault modules and old firmware context do not establish a hardware or software cause. No new scientific prior-art gap follows. See BOUNDED_RUNTIME_FINDING71_V1.md for the exact claim boundaries.
+
+
+## Existing hidden-state capability qualification, C71
+
+ModularNRI section5.2 already optimizes hidden initial state through a learned simulator; its demonstration trained with true edges. Generic observer+frozen-dynamics inference is not novel. The pinned native branch has a demonstrated hidden-target dependency in a deliberately constructed reordered-parameter fixture; this does not invalidate reported paper numbers.

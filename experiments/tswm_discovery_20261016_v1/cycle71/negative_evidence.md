@@ -33,3 +33,8 @@ Rejected protocol shortcut: selecting the42 label-hash-unseen VAL rows does not 
 ## Second runtime incident and bounded continuation, C71
 
 CUDA_LAUNCH_BLOCKING=1 did not prevent a second access violation. The second Windows event names NumPy mtrand, whereas the first names nvcuda64; a driver-only diagnosis is unsupported. Epoch801 failure did not recur in the bounded replay, and affinity numerical equivalence does not prove long-run stability. The first replay diagnostic also failed a Python checkpoint-expectation assertion, corrected in a separately versioned script; retain it as an implementation failure, not a model deficit.
+
+
+## Existing hidden-state capability qualification, C71
+
+Do not interpret adapter V1 float64/float32 failure or V2 omitted-ReLU NumPy reference failure as model failures. Both retained. Source hidden-state capability predates this work, and the ordinary observer is executable without hidden-target gradients. A generic hidden-inference contribution is not supported; no new final direction accepted.
