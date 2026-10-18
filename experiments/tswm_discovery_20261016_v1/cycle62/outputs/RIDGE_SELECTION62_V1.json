@@ -1,0 +1,26 @@
+{
+  "candidates": [
+    {
+      "alpha": 0.0001,
+      "validation96_mse": 0.436230783273017
+    },
+    {
+      "alpha": 0.01,
+      "validation96_mse": 0.4362286293835997
+    },
+    {
+      "alpha": 1.0,
+      "validation96_mse": 0.4360244984995789
+    },
+    {
+      "alpha": 100.0,
+      "validation96_mse": 0.4296596996359349
+    }
+  ],
+  "selected_alpha": 100.0,
+  "train_rows": 10452,
+  "validation_origins": 3389,
+  "checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle62\\ridge62_v1.npz",
+  "sha256": "5ad24d3dd782e2fae484cf691d875bf741d0a49edb65aa96dfe371fc767fcf53",
+  "selection": "validation96_only"
+}

@@ -1,0 +1,6 @@
+{
+  "utc": "2026-10-18T00:47:11.837959+00:00",
+  "status": "FAILED_INSPECT_EVIDENCE",
+  "pid": 3892,
+  "error": "Traceback (most recent call last):\n  File \"D:\\tswm_discovery_20261016_v1\\cycle62\\scripts\\capture_post62_v3.py\", line 9, in <module>\n    assert c['status']=='RUNNING',c\nAssertionError: {'utc': '2026-10-18T00:47:08.794497+00:00', 'status': 'FAILED_INSPECT_EVIDENCE', 'pid': 20312, 'completed': ['Informer_2021', 'Informer_PRO_2021', 'Informer_DYN_2021', 'Informer_2022', 'Informer_PRO_2022', 'Informer_DYN_2022', 'Informer_2023', 'Informer_PRO_2023'], 'error': 'Traceback (most recent call last):\\n  File \"D:\\\\tswm_discovery_20261016_v1\\\\cycle62\\\\scripts\\\\capture_campaign62_v3.py\", line 17, in <module>\\n    assert r.returncode==0,(key,r.returncode)\\nAssertionError: (\\'Informer_DYN_2023\\', 3221225477)\\n'}\n"
+}

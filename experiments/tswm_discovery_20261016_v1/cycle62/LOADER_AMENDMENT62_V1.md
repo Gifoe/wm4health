@@ -1,0 +1,7 @@
+# Data-copy compatibility after repeated native faults
+
+The same missing Informer_PRO2022 fit again exited0xc0000005. Python faulthandler locates the current thread at the native DatasetForTransformer line270, torch.tensor(seq_x.values,dtype=float32). It does not establish whether this call caused the fault or exposed prior corruption. No test result has been opened; the four sealed fits are preserved.
+
+Qualify a runtime DatasetForTransformer.__getitem__ wrapper that keeps the exact window/slice, timestamp features, float32 dtype and tensor values, but makes an independent contiguous numpy copy and then torch.from_numpy. Upstream bytes, model/optimizer/validation/schedule and batch-index generator remain unchanged. Require128 bitwise native-versus-wrapper windows, forward/gradient equality and180000 safe-path data-window lookups with zero optimizer updates before resuming.
+
+Only the five unfinished fits use the qualified wrapper. The four sealed native-loader fits remain; report this execution difference and avoid runtime-efficiency comparisons between their paths. Preserve two aborted attempts, both original logs, final completed-epoch progress and the wrapper qualification. Neither crash is a scientific model failure, and the wrapper is not a new modeling method. The second attempt has at least2240 completed optimizer updates; exact crash-time additional updates are unknown. Do not keep automatically retrying if this compatibility path also fails.

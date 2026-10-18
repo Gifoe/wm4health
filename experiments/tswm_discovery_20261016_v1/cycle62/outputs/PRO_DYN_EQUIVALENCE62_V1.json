@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-18T00:47:06.398047+00:00",
+  "status": "EXACT_EQUIVALENCE_AT_L_EQUALS_H",
+  "seq_len": 96,
+  "pred_len": 96,
+  "mapped_parameter_names": "linear_PRO -> linear_DYN",
+  "state_dictionary_shapes_match": true,
+  "cpu_checks": [
+    {
+      "training_mode": false,
+      "forward_max_difference": 0.0,
+      "gradient_max_difference": 0.0
+    },
+    {
+      "training_mode": true,
+      "forward_max_difference": 0.0,
+      "gradient_max_difference": 0.0
+    }
+  ],
+  "scope": "At L=H the PRO short_forecast else branch is the DYN computation. No claim of equivalence when L differs from H.",
+  "interpretation": "Not a mechanism-isolating three-architecture comparison. Two named variants are repeated executions of one architecture here.",
+  "optimizer_updates": 0
+}

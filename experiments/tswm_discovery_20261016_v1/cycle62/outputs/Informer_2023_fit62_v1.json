@@ -1,0 +1,146 @@
+{
+  "utc": "2026-10-18T00:45:51.638538+00:00",
+  "key": "Informer_2023",
+  "arm": "Informer",
+  "seed": 2023,
+  "status": "SEALED_FOR_TEST",
+  "source_revision": "733d986d349e9e71ded5d9cdeeeed8d3323d83b4",
+  "protocol_sha256": "fed98c3d4d5e91cb82d52ec2d8c1ba31d45a6fa9947285d9da684d5068cf53de",
+  "data_sha256": "f18de3ad269cef59bb07b5438d79bb3042d3be49bdeecf01c1cd6d29695ee066",
+  "parameters": 47527,
+  "config": {
+    "top_k": 5,
+    "enc_in": 7,
+    "dec_in": 7,
+    "c_out": 7,
+    "e_layers": 2,
+    "d_layers": 1,
+    "d_model": 32,
+    "d_ff": 128,
+    "embed": "timeF",
+    "freq": "h",
+    "lradj": "type1",
+    "moving_avg": 25,
+    "num_kernels": 6,
+    "factor": 1,
+    "n_heads": 8,
+    "seg_len": 6,
+    "win_size": 2,
+    "activation": "gelu",
+    "output_attention": 0,
+    "patch_len": 16,
+    "stride": 8,
+    "dropout": 0.1,
+    "batch_size": 32,
+    "lr": 0.0001,
+    "num_epochs": 10,
+    "num_workers": 0,
+    "loss": "MSE",
+    "itr": 1,
+    "distil": true,
+    "patience": 3,
+    "p_hidden_dims": [
+      128,
+      128
+    ],
+    "p_hidden_layers": 2,
+    "mem_dim": 32,
+    "conv_kernel": [
+      12,
+      16
+    ],
+    "anomaly_ratio": 1.0,
+    "down_sampling_windows": 2,
+    "channel_independence": true,
+    "down_sampling_layers": 3,
+    "down_sampling_method": "avg",
+    "decomp_method": "moving_avg",
+    "use_norm": true,
+    "parallel_strategy": null,
+    "n_patch_decoder": 16,
+    "seq_len": 96,
+    "horizon": 96,
+    "norm": true,
+    "label_len": 48,
+    "task_name": "short_term_forecast"
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "validation_mse_native_unweighted_batch_mean": 0.6418449878692627,
+      "selected": true,
+      "training_forward_batches": 320,
+      "training_examples": 10240
+    },
+    {
+      "epoch": 2,
+      "validation_mse_native_unweighted_batch_mean": 0.6388770341873169,
+      "selected": true,
+      "training_forward_batches": 640,
+      "training_examples": 20480
+    },
+    {
+      "epoch": 3,
+      "validation_mse_native_unweighted_batch_mean": 0.6378648281097412,
+      "selected": true,
+      "training_forward_batches": 960,
+      "training_examples": 30720
+    },
+    {
+      "epoch": 4,
+      "validation_mse_native_unweighted_batch_mean": 0.6399279236793518,
+      "selected": false,
+      "training_forward_batches": 1280,
+      "training_examples": 40960
+    },
+    {
+      "epoch": 5,
+      "validation_mse_native_unweighted_batch_mean": 0.6403672695159912,
+      "selected": false,
+      "training_forward_batches": 1600,
+      "training_examples": 51200
+    },
+    {
+      "epoch": 6,
+      "validation_mse_native_unweighted_batch_mean": 0.6404346227645874,
+      "selected": false,
+      "training_forward_batches": 1920,
+      "training_examples": 61440
+    }
+  ],
+  "selected_epoch": 3,
+  "training_seconds": 29.62028529998497,
+  "formal_optimizer_updates": 1920,
+  "scaler_mean": [
+    7.807025544026027,
+    1.9638457706364187,
+    4.854088594068457,
+    0.7027733450419731,
+    2.9906340412969477,
+    0.7704704349555455,
+    17.292530528345626
+  ],
+  "scaler_scale": [
+    6.134403361410595,
+    2.1455700413380594,
+    5.908511495039344,
+    1.9702885996497426,
+    1.2502961279520424,
+    0.6677933692498211,
+    8.513664476018814
+  ],
+  "scaler_training_rows": 10452,
+  "selected_checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle62\\Informer_2023\\selected.pt",
+  "selected_sha256": "4dd79eed6f791c79878f7d1b5257ea595bccd1d5bba2ab56b427b855ef2893e8",
+  "terminal_checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle62\\Informer_2023\\terminal.pt",
+  "terminal_sha256": "ef27e78b20b09e595fc7f7d100bb93fade57d57edb68e381da236dbfa2a88766",
+  "compatibility": [
+    "Qualified cached float32 tensor dataset; identical windows/forward/gradients; native source bytes unchanged"
+  ],
+  "runtime": {
+    "python": "3.10.20",
+    "torch": "2.8.0+cu128",
+    "numpy": "1.26.4",
+    "gpu": "NVIDIA GeForce RTX 5090"
+  }
+}

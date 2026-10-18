@@ -1,0 +1,513 @@
+{
+  "repo": "ARBrachet/PRO-DYN",
+  "revision": "733d986d349e9e71ded5d9cdeeeed8d3323d83b4",
+  "files": [
+    {
+      "path": "README.md",
+      "git_blob": "928d9ec327b5481fc2aa80df5600d41ce307ff98",
+      "size": 3482
+    },
+    {
+      "path": "config/rolling_forecast_config.json",
+      "git_blob": "7abc2d333fe33784b027530f7766f10d1dfa1b3e",
+      "size": 1356
+    },
+    {
+      "path": "requirements.txt",
+      "git_blob": "2b6b9abf9d8e69fa5dbbcb79a236b769b912e5a6",
+      "size": 235
+    },
+    {
+      "path": "scripts/__init__.py",
+      "git_blob": "40a96afc6ff09d58a702b76e3f7dd412fe975e26",
+      "size": 24
+    },
+    {
+      "path": "scripts/multivariate_forecast/ETTh1_script/Informer.sh",
+      "git_blob": "cc3dac8703a9b1803e876974c42f5ae67cef619e",
+      "size": 1546
+    },
+    {
+      "path": "scripts/multivariate_forecast/ETTh1_script/Informer_DYN.sh",
+      "git_blob": "f338ed79e178fcb05353fdbdb5c0f956ab1c8dd7",
+      "size": 1578
+    },
+    {
+      "path": "scripts/multivariate_forecast/ETTh1_script/Informer_PRO.sh",
+      "git_blob": "bda0cf35125916dc6cd24067dd7914f0bc55764a",
+      "size": 1578
+    },
+    {
+      "path": "scripts/run_benchmark.py",
+      "git_blob": "f4a2d2c338be5cacf7fc218e7de25887d0112854",
+      "size": 10612
+    },
+    {
+      "path": "ts_benchmark/__init__.py",
+      "git_blob": "40a96afc6ff09d58a702b76e3f7dd412fe975e26",
+      "size": 24
+    },
+    {
+      "path": "ts_benchmark/baselines/__init__.py",
+      "git_blob": "48cafcad82558debf11ae53e02c275c6e4052992",
+      "size": 450
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/__init__.py",
+      "git_blob": "2bdf21a76bb96d0d989484565023cb0f1e11ad5f",
+      "size": 1825
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/adapters_for_transformers.py",
+      "git_blob": "69e77209913dd30284a6461afd3d9dd5766e0cd0",
+      "size": 30404
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/AutoCorrelation.py",
+      "git_blob": "5faec7c733c6bcb1bd36e332764f7f49fcab598e",
+      "size": 6440
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/Autoformer_EncDec.py",
+      "git_blob": "6fce4bcd6b3d3eb00e9bcf5931ed2ee301554f4a",
+      "size": 6831
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/Conv_Blocks.py",
+      "git_blob": "96ce3fc05ac897f678542f72ec74f2007e5f8cd6",
+      "size": 2367
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/Crossformer_EncDec.py",
+      "git_blob": "29d58faa453ceeca25dd95d2e6d88ab7c1c37b10",
+      "size": 4327
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/ETSformer_EncDec.py",
+      "git_blob": "8cf41742315413111f667ceed4a87bc7bb128197",
+      "size": 11395
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/Embed.py",
+      "git_blob": "977e25568d37b9dd0efd442dcc5b33eab9843d71",
+      "size": 7012
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/FourierCorrelation.py",
+      "git_blob": "471b3950dc7bd1cb8036c6e1d48938ad70cb0095",
+      "size": 7346
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/MultiWaveletCorrelation.py",
+      "git_blob": "b6feb59fd3417243dade96f861a58e2245038f7c",
+      "size": 23039
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/Pyraformer_EncDec.py",
+      "git_blob": "5b390ae45f4033d547d9281b0bc474f3a2452baa",
+      "size": 7519
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/SelfAttention_Family.py",
+      "git_blob": "2f4c9b2f66b46b5af28b963f7d40419c5f32096b",
+      "size": 12154
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/StandardNorm.py",
+      "git_blob": "990d0fdc17751b724354e70b89fd6d3ff0f4dd29",
+      "size": 2184
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/Transformer_EncDec.py",
+      "git_blob": "dabf4c2a5e1e11a04eb4ed67785033dd259ee738",
+      "size": 4929
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/Crossformer.py",
+      "git_blob": "f45dabf3927ffe3dcae48dc266ab3b9f9ad9a6d7",
+      "size": 6455
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/Crossformer_post_DYN.py",
+      "git_blob": "a750d2decb268a6dbe708aa230f122f120db0287",
+      "size": 6688
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/FEDformer.py",
+      "git_blob": "ad3f8b72f0d1a75ddfa1bca415c77620759e59d7",
+      "size": 8495
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/FEDformer_DYN.py",
+      "git_blob": "5e573cac6cb9b243b607f4f29d7625dd2749e801",
+      "size": 8798
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/FEDformer_PRO.py",
+      "git_blob": "1ed64aff7bfc9610f34b4bdc25b19e39226419fd",
+      "size": 8706
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/FiLM.py",
+      "git_blob": "ecf3e5a2792f12a2ff0181c3fdb81fd1bc261e8e",
+      "size": 11657
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/FiLM_DYN.py",
+      "git_blob": "7fe73c07bbc3d5db16821155706537160653ee95",
+      "size": 11725
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/FiLM_PRO.py",
+      "git_blob": "5814dc577b0755c8b922222e1c493bfbd4e46c28",
+      "size": 11875
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/Informer.py",
+      "git_blob": "f8bd244dc805af641e46781b2d9152dd32aac6ff",
+      "size": 6451
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/Informer_DYN.py",
+      "git_blob": "247c71a725e0fb70d88dfd4d333ad0624c8dc250",
+      "size": 7341
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/Informer_PRO.py",
+      "git_blob": "cca5eac6afd62bdd1011e3c56d084fb19148726c",
+      "size": 7252
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/MICN.py",
+      "git_blob": "f703df591dbe624f0f8ede89ce8c679e054bd5ae",
+      "size": 10008
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/MICN_DYN.py",
+      "git_blob": "9bdb66a30742683af2de403c72fd48c1fac2c2b6",
+      "size": 10116
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/PatchTST.py",
+      "git_blob": "12a7cf2d65fe3bdeb1b18e933ff0413506fed890",
+      "size": 8998
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/PatchTST_post_DYN.py",
+      "git_blob": "77f4e0330a8f3fbdd60c36d73a07e7dcd994ec75",
+      "size": 9272
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/iTransformer.py",
+      "git_blob": "63a4899fece8b24b6a69a99e94b8bff6ab22990c",
+      "size": 5839
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/iTransformer_post_DYN.py",
+      "git_blob": "98667f9f661656ac612dc196db78eaeb7cb5bc05",
+      "size": 6268
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/patchs/Linear.py",
+      "git_blob": "f79ecf88a3b441339b5a9c01ac6b777064bcd5a7",
+      "size": 2741
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/patchs/NLinear.py",
+      "git_blob": "429647a2b7eb2b3844ed000735c8bb3d2efe79af",
+      "size": 2832
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/patchs/Triformer.py",
+      "git_blob": "f0f0fbf2ae4ea7a6d452b52b529331e68cd1ebf7",
+      "size": 11747
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/utils/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/utils/losses.py",
+      "git_blob": "21438e741887af4d2efc14af849aad52daf26189",
+      "size": 3459
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/utils/masking.py",
+      "git_blob": "a19cbf63b8d1d1927eceabcbe4a1b5313238b75b",
+      "size": 832
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/utils/timefeatures.py",
+      "git_blob": "7c1297293891c1c86ec938edf95e5fa3f7e52261",
+      "size": 4369
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/utils/tools.py",
+      "git_blob": "04a5bec7ad2a960f4b0e6ad7ba623a0fd9f8f789",
+      "size": 3391
+    },
+    {
+      "path": "ts_benchmark/baselines/utils.py",
+      "git_blob": "1f9f4f11eb8efb109ae35c36d0b756d51cc47863",
+      "size": 10900
+    },
+    {
+      "path": "ts_benchmark/common/__init__.py",
+      "git_blob": "40a96afc6ff09d58a702b76e3f7dd412fe975e26",
+      "size": 24
+    },
+    {
+      "path": "ts_benchmark/common/constant.py",
+      "git_blob": "5f08b97f4ca97d2877ff3f77ab6505eb1b399eac",
+      "size": 452
+    },
+    {
+      "path": "ts_benchmark/data/__init__.py",
+      "git_blob": "1fc40b2f3003b3419357dad1f3581598fecab558",
+      "size": 80
+    },
+    {
+      "path": "ts_benchmark/data/data_pool.py",
+      "git_blob": "098500d2fd0d4eaf6f0633bff63540b846cdf7c4",
+      "size": 637
+    },
+    {
+      "path": "ts_benchmark/data/data_pool_impl_base.py",
+      "git_blob": "ce3a7daad80f48eea67807b74bd05d5ceeaf2522",
+      "size": 1237
+    },
+    {
+      "path": "ts_benchmark/data/data_server_base.py",
+      "git_blob": "6e895ff10014ce76b6379b049f17dc698b7e8c5e",
+      "size": 461
+    },
+    {
+      "path": "ts_benchmark/data/data_source.py",
+      "git_blob": "dbea09b5fea1b3b8024178a156920fda78fdeb56",
+      "size": 5597
+    },
+    {
+      "path": "ts_benchmark/data/dataset.py",
+      "git_blob": "679767700f9c6b28f9f2817aac35b4766692601e",
+      "size": 5502
+    },
+    {
+      "path": "ts_benchmark/data/suites/__init__.py",
+      "git_blob": "70414bde4625f1487e2f01b8cea6ec8adb6b1086",
+      "size": 80
+    },
+    {
+      "path": "ts_benchmark/data/suites/global_storage.py",
+      "git_blob": "f53b2447ed042e3e3130275e877b6ee35ec979e8",
+      "size": 4339
+    },
+    {
+      "path": "ts_benchmark/data/utils.py",
+      "git_blob": "9a449961d03d697dac66c8be5364cca52e0ecd8b",
+      "size": 5676
+    },
+    {
+      "path": "ts_benchmark/evaluation/__init__.py",
+      "git_blob": "633f866158ac742cf754a2c43edcb07e3a094f3c",
+      "size": 25
+    },
+    {
+      "path": "ts_benchmark/evaluation/evaluate_model.py",
+      "git_blob": "67877435a930e0b250830ea593c3aeadba7e69ac",
+      "size": 6413
+    },
+    {
+      "path": "ts_benchmark/evaluation/evaluator.py",
+      "git_blob": "653240ab7c7a15e213de7e53e0402a709695afee",
+      "size": 3389
+    },
+    {
+      "path": "ts_benchmark/evaluation/metrics/__init__.py",
+      "git_blob": "75317fa1f75b0f8c2b1d134c2361646e36ff651d",
+      "size": 226
+    },
+    {
+      "path": "ts_benchmark/evaluation/metrics/regression_metrics.py",
+      "git_blob": "30b55af242dece1a1a7da34c53bba8e0cdd55741",
+      "size": 6956
+    },
+    {
+      "path": "ts_benchmark/evaluation/metrics/utils.py",
+      "git_blob": "795d68eefcffa62222ced36f6db753e62e793530",
+      "size": 1693
+    },
+    {
+      "path": "ts_benchmark/evaluation/strategy/__init__.py",
+      "git_blob": "d69d9b6f5ef18cff1e3703ea6f7f4d2e0a3c510d",
+      "size": 269
+    },
+    {
+      "path": "ts_benchmark/evaluation/strategy/constants.py",
+      "git_blob": "ce4b6d6f202f314dce8188f505aacc356487e28c",
+      "size": 742
+    },
+    {
+      "path": "ts_benchmark/evaluation/strategy/fixed_forecast.py",
+      "git_blob": "db7c1ee12176350a31b9f0c350d02671d88cefee",
+      "size": 3869
+    },
+    {
+      "path": "ts_benchmark/evaluation/strategy/forecasting.py",
+      "git_blob": "d81d706c45028ed61a9da05f9d11cde1f9e80d67",
+      "size": 3597
+    },
+    {
+      "path": "ts_benchmark/evaluation/strategy/rolling_forecast.py",
+      "git_blob": "f5a48139e366f998e80a5588fd347275690462df",
+      "size": 14313
+    },
+    {
+      "path": "ts_benchmark/evaluation/strategy/strategy.py",
+      "git_blob": "be5333b7753280106412abad45baf9764883cc61",
+      "size": 9020
+    },
+    {
+      "path": "ts_benchmark/models/__init__.py",
+      "git_blob": "40fc17654cc72215326518027b5188c34f95384d",
+      "size": 218
+    },
+    {
+      "path": "ts_benchmark/models/model_base.py",
+      "git_blob": "9f193356215bf690b717ea2b26620eb5cf3b5acb",
+      "size": 2614
+    },
+    {
+      "path": "ts_benchmark/models/model_loader.py",
+      "git_blob": "c580034671b316d73f2ecdf8edf3873f0814aa27",
+      "size": 9828
+    },
+    {
+      "path": "ts_benchmark/pipeline.py",
+      "git_blob": "17058fd6b063fb2adb8091170909869ee52c3161",
+      "size": 5712
+    },
+    {
+      "path": "ts_benchmark/recording.py",
+      "git_blob": "802cbcae80a7e12ce4f1c06f9562ca3288b0b101",
+      "size": 5572
+    },
+    {
+      "path": "ts_benchmark/report/__init__.py",
+      "git_blob": "9bd7a3611df2c0fc958694d1ea195f7e7321d20e",
+      "size": 417
+    },
+    {
+      "path": "ts_benchmark/report/report_csv.py",
+      "git_blob": "b8bb97619b0fec8db21e3aeed510eacf775768bf",
+      "size": 2855
+    },
+    {
+      "path": "ts_benchmark/report/report_dash/__init__.py",
+      "git_blob": "27a99127daf35a8b8bdc6832891855b9670cba4b",
+      "size": 142
+    },
+    {
+      "path": "ts_benchmark/report/report_dash/app.py",
+      "git_blob": "a09f636d260f6d607e59de4e4499b781b7cf3c14",
+      "size": 2114
+    },
+    {
+      "path": "ts_benchmark/report/report_dash/layout.py",
+      "git_blob": "a38677930e5ff4c54f7197ed389b026e0455642e",
+      "size": 1871
+    },
+    {
+      "path": "ts_benchmark/report/report_dash/memory.py",
+      "git_blob": "cf3c3e197f4688cd9797b88984a7cec3930e33b7",
+      "size": 176
+    },
+    {
+      "path": "ts_benchmark/report/report_dash/pages/leaderboard.py",
+      "git_blob": "63a756f0c206bcc93b4b2f5b2637804ee9dc58d7",
+      "size": 950
+    },
+    {
+      "path": "ts_benchmark/report/report_dash/pages/query.py",
+      "git_blob": "f482869b1ca89cdf21340bc4e4b19d4f708c4cc4",
+      "size": 2443
+    },
+    {
+      "path": "ts_benchmark/report/utils/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "ts_benchmark/report/utils/leaderboard.py",
+      "git_blob": "ef2b13df863aa1fa07f6d3e569c5dcb9bf83c8e0",
+      "size": 6579
+    },
+    {
+      "path": "ts_benchmark/utils/__init__.py",
+      "git_blob": "40a96afc6ff09d58a702b76e3f7dd412fe975e26",
+      "size": 24
+    },
+    {
+      "path": "ts_benchmark/utils/compress.py",
+      "git_blob": "881b957a987c94ff8524fa12004fd938267081c8",
+      "size": 2726
+    },
+    {
+      "path": "ts_benchmark/utils/data_processing.py",
+      "git_blob": "5eeb3a49a39848e09195b81d07790fb0a370c5cf",
+      "size": 446
+    },
+    {
+      "path": "ts_benchmark/utils/design_pattern.py",
+      "git_blob": "09356c5d6e44b2628ef8df06f551f1ddc09c7821",
+      "size": 371
+    },
+    {
+      "path": "ts_benchmark/utils/get_file_name.py",
+      "git_blob": "9effd6ca6ec7006c23be2badff75182e6c08cf4b",
+      "size": 948
+    },
+    {
+      "path": "ts_benchmark/utils/parallel/__init__.py",
+      "git_blob": "a2b39c7e2e2e098a4aa4c41f3caf41dc1ff78d05",
+      "size": 2474
+    },
+    {
+      "path": "ts_benchmark/utils/parallel/base.py",
+      "git_blob": "5e36536c76bf3e5d1531654ea45334e3dd3b6749",
+      "size": 726
+    },
+    {
+      "path": "ts_benchmark/utils/parallel/ray_backend.py",
+      "git_blob": "a984d59893abaf31eecf5078a684417027d08c29",
+      "size": 17639
+    },
+    {
+      "path": "ts_benchmark/utils/parallel/sequential_backend.py",
+      "git_blob": "0dc22a72197006ac9aa545128f4ff1b73f89c6d5",
+      "size": 1868
+    },
+    {
+      "path": "ts_benchmark/utils/random_utils.py",
+      "git_blob": "4d9cdb5094b1ac8bf20b5adeb886bc3b145d8b37",
+      "size": 692
+    },
+    {
+      "path": "website/README.md",
+      "git_blob": "a36934d874c7fbc51aecd1c66dffc106f60693a9",
+      "size": 1027
+    }
+  ],
+  "ett": {
+    "repo": "zhouhaoyi/ETDataset",
+    "revision": "1d16c8f4f943005d613b5bc962e9eeb06058cf07",
+    "path": "ETT-small/ETTh1.csv",
+    "git_blob": "a52c4925778c07c1ef1a2cf6fd01594919717d9e",
+    "size": 2589657
+  }
+}

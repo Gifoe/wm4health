@@ -1,0 +1,30 @@
+device ids :  [0]
+---------------------------------------------------------- Informer_PRO
+Total trainable parameters: 52558
+Validation loss decreased (inf --> 0.515830).  Saving model ...
+Updating learning rate to 0.0001
+Validation loss decreased (0.515830 --> 0.449608).  Saving model ...
+Updating learning rate to 5e-05
+Validation loss decreased (0.449608 --> 0.432421).  Saving model ...
+Updating learning rate to 2.5e-05
+Validation loss decreased (0.432421 --> 0.427466).  Saving model ...
+Updating learning rate to 1.25e-05
+Validation loss decreased (0.427466 --> 0.424766).  Saving model ...
+Updating learning rate to 6.25e-06
+Validation loss decreased (0.424766 --> 0.423626).  Saving model ...
+Updating learning rate to 3.125e-06
+Validation loss decreased (0.423626 --> 0.422830).  Saving model ...
+Updating learning rate to 1.5625e-06
+Windows fatal exception: access violation
+
+Thread 0x0000a3d8 (most recent call first):
+  <no Python frame>
+
+Current thread 0x00009acc (most recent call first):
+  File "D:\tswm_discovery_20261016_v1\upstream\PRO-DYN\ts_benchmark\baselines\utils.py", line 270 in __getitem__
+  File "E:\Anaconda\envs\persist_stable_251\lib\site-packages\torch\utils\data\_utils\fetch.py", line 52 in <listcomp>
+  File "E:\Anaconda\envs\persist_stable_251\lib\site-packages\torch\utils\data\_utils\fetch.py", line 52 in fetch
+  File "E:\Anaconda\envs\persist_stable_251\lib\site-packages\torch\utils\data\dataloader.py", line 790 in _next_data
+  File "E:\Anaconda\envs\persist_stable_251\lib\site-packages\torch\utils\data\dataloader.py", line 734 in __next__
+  File "D:\tswm_discovery_20261016_v1\upstream\PRO-DYN\ts_benchmark\baselines\time_series_library\adapters_for_transformers.py", line 329 in forecast_fit
+  File "D:\tswm_discovery_20261016_v1\cycle62\scripts\train62_v1.py", line 23 in <module>

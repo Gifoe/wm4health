@@ -1,0 +1,174 @@
+{
+  "utc": "2026-10-18T00:46:44.002579+00:00",
+  "key": "Informer_PRO_2023",
+  "arm": "Informer_PRO",
+  "seed": 2023,
+  "status": "SEALED_FOR_TEST",
+  "source_revision": "733d986d349e9e71ded5d9cdeeeed8d3323d83b4",
+  "protocol_sha256": "fed98c3d4d5e91cb82d52ec2d8c1ba31d45a6fa9947285d9da684d5068cf53de",
+  "data_sha256": "f18de3ad269cef59bb07b5438d79bb3042d3be49bdeecf01c1cd6d29695ee066",
+  "parameters": 52558,
+  "config": {
+    "top_k": 5,
+    "enc_in": 7,
+    "dec_in": 7,
+    "c_out": 7,
+    "e_layers": 2,
+    "d_layers": 1,
+    "d_model": 32,
+    "d_ff": 128,
+    "embed": "timeF",
+    "freq": "h",
+    "lradj": "type1",
+    "moving_avg": 25,
+    "num_kernels": 6,
+    "factor": 1,
+    "n_heads": 8,
+    "seg_len": 6,
+    "win_size": 2,
+    "activation": "gelu",
+    "output_attention": 0,
+    "patch_len": 16,
+    "stride": 8,
+    "dropout": 0.1,
+    "batch_size": 32,
+    "lr": 0.0001,
+    "num_epochs": 10,
+    "num_workers": 0,
+    "loss": "MSE",
+    "itr": 1,
+    "distil": true,
+    "patience": 3,
+    "p_hidden_dims": [
+      128,
+      128
+    ],
+    "p_hidden_layers": 2,
+    "mem_dim": 32,
+    "conv_kernel": [
+      12,
+      16
+    ],
+    "anomaly_ratio": 1.0,
+    "down_sampling_windows": 2,
+    "channel_independence": true,
+    "down_sampling_layers": 3,
+    "down_sampling_method": "avg",
+    "decomp_method": "moving_avg",
+    "use_norm": true,
+    "parallel_strategy": null,
+    "n_patch_decoder": 16,
+    "seq_len": 96,
+    "horizon": 96,
+    "norm": true,
+    "label_len": 48,
+    "task_name": "short_term_forecast"
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "validation_mse_native_unweighted_batch_mean": 0.5322221517562866,
+      "selected": true,
+      "training_forward_batches": 320,
+      "training_examples": 10240
+    },
+    {
+      "epoch": 2,
+      "validation_mse_native_unweighted_batch_mean": 0.4556416869163513,
+      "selected": true,
+      "training_forward_batches": 640,
+      "training_examples": 20480
+    },
+    {
+      "epoch": 3,
+      "validation_mse_native_unweighted_batch_mean": 0.43871691823005676,
+      "selected": true,
+      "training_forward_batches": 960,
+      "training_examples": 30720
+    },
+    {
+      "epoch": 4,
+      "validation_mse_native_unweighted_batch_mean": 0.4343206286430359,
+      "selected": true,
+      "training_forward_batches": 1280,
+      "training_examples": 40960
+    },
+    {
+      "epoch": 5,
+      "validation_mse_native_unweighted_batch_mean": 0.43080660700798035,
+      "selected": true,
+      "training_forward_batches": 1600,
+      "training_examples": 51200
+    },
+    {
+      "epoch": 6,
+      "validation_mse_native_unweighted_batch_mean": 0.4299796223640442,
+      "selected": true,
+      "training_forward_batches": 1920,
+      "training_examples": 61440
+    },
+    {
+      "epoch": 7,
+      "validation_mse_native_unweighted_batch_mean": 0.4294354319572449,
+      "selected": true,
+      "training_forward_batches": 2240,
+      "training_examples": 71680
+    },
+    {
+      "epoch": 8,
+      "validation_mse_native_unweighted_batch_mean": 0.4289585053920746,
+      "selected": true,
+      "training_forward_batches": 2560,
+      "training_examples": 81920
+    },
+    {
+      "epoch": 9,
+      "validation_mse_native_unweighted_batch_mean": 0.42917492985725403,
+      "selected": false,
+      "training_forward_batches": 2880,
+      "training_examples": 92160
+    },
+    {
+      "epoch": 10,
+      "validation_mse_native_unweighted_batch_mean": 0.42885592579841614,
+      "selected": true,
+      "training_forward_batches": 3200,
+      "training_examples": 102400
+    }
+  ],
+  "selected_epoch": 10,
+  "training_seconds": 50.223040699987905,
+  "formal_optimizer_updates": 3200,
+  "scaler_mean": [
+    7.807025544026027,
+    1.9638457706364187,
+    4.854088594068457,
+    0.7027733450419731,
+    2.9906340412969477,
+    0.7704704349555455,
+    17.292530528345626
+  ],
+  "scaler_scale": [
+    6.134403361410595,
+    2.1455700413380594,
+    5.908511495039344,
+    1.9702885996497426,
+    1.2502961279520424,
+    0.6677933692498211,
+    8.513664476018814
+  ],
+  "scaler_training_rows": 10452,
+  "selected_checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle62\\Informer_PRO_2023\\selected.pt",
+  "selected_sha256": "5deba2e5998ced1fa341a24d4498e90521667656b8896580c49cfa999808dea4",
+  "terminal_checkpoint": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle62\\Informer_PRO_2023\\terminal.pt",
+  "terminal_sha256": "56e9549b58d9a7b65793420c67e56d3b546694918c859ad553b4ff3e81436be0",
+  "compatibility": [
+    "Qualified cached float32 tensor dataset; identical windows/forward/gradients; native source bytes unchanged"
+  ],
+  "runtime": {
+    "python": "3.10.20",
+    "torch": "2.8.0+cu128",
+    "numpy": "1.26.4",
+    "gpu": "NVIDIA GeForce RTX 5090"
+  }
+}

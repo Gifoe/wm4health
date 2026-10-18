@@ -1,0 +1,726 @@
+{
+  "utc": "2026-10-18T00:32:36.436419+00:00",
+  "status": "PASS",
+  "source_revision": "733d986d349e9e71ded5d9cdeeeed8d3323d83b4",
+  "source_files": [
+    {
+      "path": "README.md",
+      "git_blob": "928d9ec327b5481fc2aa80df5600d41ce307ff98",
+      "size": 3482,
+      "sha256": "3d11c6d35b2251219f9689338660690c9bc69b85b22caa993d3cf8108ff14917"
+    },
+    {
+      "path": "config/rolling_forecast_config.json",
+      "git_blob": "7abc2d333fe33784b027530f7766f10d1dfa1b3e",
+      "size": 1356,
+      "sha256": "ee008756a10d2abb436b7e2f117dbbda028cafc9fb3290c91143b7be77cf4baf"
+    },
+    {
+      "path": "requirements.txt",
+      "git_blob": "2b6b9abf9d8e69fa5dbbcb79a236b769b912e5a6",
+      "size": 235,
+      "sha256": "fdd402b4585c43dd941cf5aa2893e867a1e3d5053ff498186b5382cb9d2bcd19"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "git_blob": "40a96afc6ff09d58a702b76e3f7dd412fe975e26",
+      "size": 24,
+      "sha256": "8b084a9f378124b2b1a51563bf3c22444eb7ff33692017da28b2136ae56987ed"
+    },
+    {
+      "path": "scripts/multivariate_forecast/ETTh1_script/Informer.sh",
+      "git_blob": "cc3dac8703a9b1803e876974c42f5ae67cef619e",
+      "size": 1546,
+      "sha256": "374ae0d61104d495415ccdb9767812cefec68f7ebeca47dddb6e640df2796a8d"
+    },
+    {
+      "path": "scripts/multivariate_forecast/ETTh1_script/Informer_DYN.sh",
+      "git_blob": "f338ed79e178fcb05353fdbdb5c0f956ab1c8dd7",
+      "size": 1578,
+      "sha256": "370a56bc046e2f7597fd26a0b4fb54cd77c23d8dc5f955d515582f5033e51de6"
+    },
+    {
+      "path": "scripts/multivariate_forecast/ETTh1_script/Informer_PRO.sh",
+      "git_blob": "bda0cf35125916dc6cd24067dd7914f0bc55764a",
+      "size": 1578,
+      "sha256": "443eb0577e0f8605192348cde127e9f9c7619c44b5aeaa794a241ffd63a985d3"
+    },
+    {
+      "path": "scripts/run_benchmark.py",
+      "git_blob": "f4a2d2c338be5cacf7fc218e7de25887d0112854",
+      "size": 10612,
+      "sha256": "ad1e48b68f9b30a34d5f349686d5562feed62181328d95f3852abcaf850ba917"
+    },
+    {
+      "path": "ts_benchmark/__init__.py",
+      "git_blob": "40a96afc6ff09d58a702b76e3f7dd412fe975e26",
+      "size": 24,
+      "sha256": "8b084a9f378124b2b1a51563bf3c22444eb7ff33692017da28b2136ae56987ed"
+    },
+    {
+      "path": "ts_benchmark/baselines/__init__.py",
+      "git_blob": "48cafcad82558debf11ae53e02c275c6e4052992",
+      "size": 450,
+      "sha256": "90281d85719c9c99925c5958474aa70933cfde24e6ba7e5f2ef65d5679a5eeef"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/__init__.py",
+      "git_blob": "2bdf21a76bb96d0d989484565023cb0f1e11ad5f",
+      "size": 1825,
+      "sha256": "d0b999504e0e823d13f2761de96c39f4d1d64b0292bb2b1ed0e931ad924a7536"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/adapters_for_transformers.py",
+      "git_blob": "69e77209913dd30284a6461afd3d9dd5766e0cd0",
+      "size": 30404,
+      "sha256": "4b61b1e64187dab871a0c077d481253bbaf2a16833b74c28d8ecda4ccd048ad5"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/AutoCorrelation.py",
+      "git_blob": "5faec7c733c6bcb1bd36e332764f7f49fcab598e",
+      "size": 6440,
+      "sha256": "35fc23e552419a53ebf12de5eb39a276aeb379f3f49ad5cf85ad0527a8c18feb"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/Autoformer_EncDec.py",
+      "git_blob": "6fce4bcd6b3d3eb00e9bcf5931ed2ee301554f4a",
+      "size": 6831,
+      "sha256": "48745b4bb647355e9845792a855df9c59fd7df7fcc664c765351fec390c4073e"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/Conv_Blocks.py",
+      "git_blob": "96ce3fc05ac897f678542f72ec74f2007e5f8cd6",
+      "size": 2367,
+      "sha256": "8ea9433d885d00f0d3c9beed0289f2c2fdb8715c63393f676ba5c304ecd5948f"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/Crossformer_EncDec.py",
+      "git_blob": "29d58faa453ceeca25dd95d2e6d88ab7c1c37b10",
+      "size": 4327,
+      "sha256": "42f7a2bf88f04ac989f0b370cf4a3e4cfe22499e3841ec562e17a107be60dc4c"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/ETSformer_EncDec.py",
+      "git_blob": "8cf41742315413111f667ceed4a87bc7bb128197",
+      "size": 11395,
+      "sha256": "d3e01aaaa1431aa8cb0188efa78c38f49489ca10941b4d27a03702fdd69b9df3"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/Embed.py",
+      "git_blob": "977e25568d37b9dd0efd442dcc5b33eab9843d71",
+      "size": 7012,
+      "sha256": "17e7c3577324c41a0da427a199c955b782fde905aabb1f7cbc3c4e15ebd4ae35"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/FourierCorrelation.py",
+      "git_blob": "471b3950dc7bd1cb8036c6e1d48938ad70cb0095",
+      "size": 7346,
+      "sha256": "ef3c6b6783644ec0d573be2836e70cb6077b47f349c8f3a30aea01f231df64d4"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/MultiWaveletCorrelation.py",
+      "git_blob": "b6feb59fd3417243dade96f861a58e2245038f7c",
+      "size": 23039,
+      "sha256": "cf0b8faf45a1b7fab4a3c1c521623c0762e2f9d7375b20ba9a9acd2142747342"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/Pyraformer_EncDec.py",
+      "git_blob": "5b390ae45f4033d547d9281b0bc474f3a2452baa",
+      "size": 7519,
+      "sha256": "628959b219226c57b18d30ed98f15e01b3581be42ce53b0fdd7c18505653e7b9"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/SelfAttention_Family.py",
+      "git_blob": "2f4c9b2f66b46b5af28b963f7d40419c5f32096b",
+      "size": 12154,
+      "sha256": "ee8c9828da1daa81eda8d02c6e37629e55fa2cd6e714fcef4d1d7ace53c781eb"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/StandardNorm.py",
+      "git_blob": "990d0fdc17751b724354e70b89fd6d3ff0f4dd29",
+      "size": 2184,
+      "sha256": "3f690dc5fc0e395d4f1ffe6396717548d18bd04f4518258308bbe5f392703f5f"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/Transformer_EncDec.py",
+      "git_blob": "dabf4c2a5e1e11a04eb4ed67785033dd259ee738",
+      "size": 4929,
+      "sha256": "7b26f4459735c341f161011f6bc24b9deb8ecc3bcf61e4f15431998272a44fb4"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/layers/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/Crossformer.py",
+      "git_blob": "f45dabf3927ffe3dcae48dc266ab3b9f9ad9a6d7",
+      "size": 6455,
+      "sha256": "533be35502b85fd26851683833224003b6040131da9087f92dafecfe61a96aff"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/Crossformer_post_DYN.py",
+      "git_blob": "a750d2decb268a6dbe708aa230f122f120db0287",
+      "size": 6688,
+      "sha256": "4fc6d29f118c97b50ce3a0cfcc750eed19cf4de3b8aca7c246b0577bd5bdb0e5"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/FEDformer.py",
+      "git_blob": "ad3f8b72f0d1a75ddfa1bca415c77620759e59d7",
+      "size": 8495,
+      "sha256": "51f20f88cd6808746368c3f7850f846296951b585c4ced95d3b4209033bb76eb"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/FEDformer_DYN.py",
+      "git_blob": "5e573cac6cb9b243b607f4f29d7625dd2749e801",
+      "size": 8798,
+      "sha256": "38e889172c8df71bda4d914a32f6a466a4516e53dd9b289e7f9391f738e07e41"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/FEDformer_PRO.py",
+      "git_blob": "1ed64aff7bfc9610f34b4bdc25b19e39226419fd",
+      "size": 8706,
+      "sha256": "ceb0a888fe2f3593ecfc42b8f306047981f0922d675f3ca41706f80f58edb7e0"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/FiLM.py",
+      "git_blob": "ecf3e5a2792f12a2ff0181c3fdb81fd1bc261e8e",
+      "size": 11657,
+      "sha256": "6ebbd36390808a65707d087911f9bcf3c20c899f8b3a3bbb5c3ad68aa82f1af1"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/FiLM_DYN.py",
+      "git_blob": "7fe73c07bbc3d5db16821155706537160653ee95",
+      "size": 11725,
+      "sha256": "0c5e8041020665223d76c746c43edeb64e6af40dbaee4bb1c57121d5bd96b233"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/FiLM_PRO.py",
+      "git_blob": "5814dc577b0755c8b922222e1c493bfbd4e46c28",
+      "size": 11875,
+      "sha256": "2b34e63b5b5323b15cff97ccf4ff72d6c216a50062806d9e3b48d35b4f242793"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/Informer.py",
+      "git_blob": "f8bd244dc805af641e46781b2d9152dd32aac6ff",
+      "size": 6451,
+      "sha256": "9c991bf1211db9e25adaf94b3672868a8dbb5fab8eaa11befb6832e82738c496"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/Informer_DYN.py",
+      "git_blob": "247c71a725e0fb70d88dfd4d333ad0624c8dc250",
+      "size": 7341,
+      "sha256": "0038b06724f445fd4379f02c6e94d8d3d011a274cb350556c1fb379ccbc133bc"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/Informer_PRO.py",
+      "git_blob": "cca5eac6afd62bdd1011e3c56d084fb19148726c",
+      "size": 7252,
+      "sha256": "9cb6cf77100a8f332b69f296e3702e6ab0b02d410d2102f1d93c7103dd1d29ab"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/MICN.py",
+      "git_blob": "f703df591dbe624f0f8ede89ce8c679e054bd5ae",
+      "size": 10008,
+      "sha256": "d9e0382a371cd663fdc5bdda5ad5664914f7003e3607783483e0e06ab656530e"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/MICN_DYN.py",
+      "git_blob": "9bdb66a30742683af2de403c72fd48c1fac2c2b6",
+      "size": 10116,
+      "sha256": "d9466f2e0ab658225286dc6929551a37cef1a0cc5429f22ba77d9997d8aca676"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/PatchTST.py",
+      "git_blob": "12a7cf2d65fe3bdeb1b18e933ff0413506fed890",
+      "size": 8998,
+      "sha256": "6990e9970c232aa3ab41b56bed0a2db8d9d6aa883e3c1f7b965b041c0aa78830"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/PatchTST_post_DYN.py",
+      "git_blob": "77f4e0330a8f3fbdd60c36d73a07e7dcd994ec75",
+      "size": 9272,
+      "sha256": "d3a057a8ba11088bd6ca0eab7148ccf1c64dfa227ee383970b7148dc1cb9beba"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/iTransformer.py",
+      "git_blob": "63a4899fece8b24b6a69a99e94b8bff6ab22990c",
+      "size": 5839,
+      "sha256": "5319cbbb819b896ca79983d3cfae3c07eb974f9dda940ec1a59208e34feb2973"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/models/iTransformer_post_DYN.py",
+      "git_blob": "98667f9f661656ac612dc196db78eaeb7cb5bc05",
+      "size": 6268,
+      "sha256": "6d0cd798fc8a3c341bdd9bd570472de62275a75334e016acef9f800cd3ee5047"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/patchs/Linear.py",
+      "git_blob": "f79ecf88a3b441339b5a9c01ac6b777064bcd5a7",
+      "size": 2741,
+      "sha256": "a7c6ce07a4425daeb315978d6be79449f9a2ff46be2d3440e71d2e9978a997fb"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/patchs/NLinear.py",
+      "git_blob": "429647a2b7eb2b3844ed000735c8bb3d2efe79af",
+      "size": 2832,
+      "sha256": "7832c16bc8e7e4a60790c68d5e6b7fd3a6362a97c874e7f5be9354f72878995b"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/patchs/Triformer.py",
+      "git_blob": "f0f0fbf2ae4ea7a6d452b52b529331e68cd1ebf7",
+      "size": 11747,
+      "sha256": "06d4ad29940a4d885dd4d5fdfee4738afc6b321e6b927827452aa21ee01e5678"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/utils/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/utils/losses.py",
+      "git_blob": "21438e741887af4d2efc14af849aad52daf26189",
+      "size": 3459,
+      "sha256": "d7f924f9abdf9dbbf097b60329a25ad727b163111014954ebf5856370a1aa116"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/utils/masking.py",
+      "git_blob": "a19cbf63b8d1d1927eceabcbe4a1b5313238b75b",
+      "size": 832,
+      "sha256": "02f453e52cfaec65e34132923add80e7132f188706680fa86d7bd884976e09ef"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/utils/timefeatures.py",
+      "git_blob": "7c1297293891c1c86ec938edf95e5fa3f7e52261",
+      "size": 4369,
+      "sha256": "319b3da2ef15ccae95162b1b4f4a9a0b0da63fa0062a7f6006a06dd567258d85"
+    },
+    {
+      "path": "ts_benchmark/baselines/time_series_library/utils/tools.py",
+      "git_blob": "04a5bec7ad2a960f4b0e6ad7ba623a0fd9f8f789",
+      "size": 3391,
+      "sha256": "fd77d7b66b6c4414a8ab1a1ebaae29e5c4c3743286ebdd8cde9cfa0ef0298e00"
+    },
+    {
+      "path": "ts_benchmark/baselines/utils.py",
+      "git_blob": "1f9f4f11eb8efb109ae35c36d0b756d51cc47863",
+      "size": 10900,
+      "sha256": "5047f72f527af5e33e5b18d51c32bced4b0dae8bf2f48698a1000cff1b1520ef"
+    },
+    {
+      "path": "ts_benchmark/common/__init__.py",
+      "git_blob": "40a96afc6ff09d58a702b76e3f7dd412fe975e26",
+      "size": 24,
+      "sha256": "8b084a9f378124b2b1a51563bf3c22444eb7ff33692017da28b2136ae56987ed"
+    },
+    {
+      "path": "ts_benchmark/common/constant.py",
+      "git_blob": "5f08b97f4ca97d2877ff3f77ab6505eb1b399eac",
+      "size": 452,
+      "sha256": "27d7ed6ebc5ee7cfc5b6bdc59ec5f9e6443e5418f07e9439bcc39252cb88be37"
+    },
+    {
+      "path": "ts_benchmark/data/__init__.py",
+      "git_blob": "1fc40b2f3003b3419357dad1f3581598fecab558",
+      "size": 80,
+      "sha256": "7c967a92174d08b27d6cf690a5be061385cafe21599cfd4b04558bbe5910400a"
+    },
+    {
+      "path": "ts_benchmark/data/data_pool.py",
+      "git_blob": "098500d2fd0d4eaf6f0633bff63540b846cdf7c4",
+      "size": 637,
+      "sha256": "dc642478ae90489374502aaf20cb9c670e341432f5ca647c3e2549933f47dc08"
+    },
+    {
+      "path": "ts_benchmark/data/data_pool_impl_base.py",
+      "git_blob": "ce3a7daad80f48eea67807b74bd05d5ceeaf2522",
+      "size": 1237,
+      "sha256": "207e2687ca7253302229fae30a9cd756743b83de55f5d3da0f95fcbe12b9893f"
+    },
+    {
+      "path": "ts_benchmark/data/data_server_base.py",
+      "git_blob": "6e895ff10014ce76b6379b049f17dc698b7e8c5e",
+      "size": 461,
+      "sha256": "12aab29d3a941bdacc9e91f542e4362ac791a15025d97a1965c6a81f74f8cae4"
+    },
+    {
+      "path": "ts_benchmark/data/data_source.py",
+      "git_blob": "dbea09b5fea1b3b8024178a156920fda78fdeb56",
+      "size": 5597,
+      "sha256": "b16184d28edfbf6a1095ab3bf1ab4b50bf8ab15572ddfa01b589dcb81ed9abd7"
+    },
+    {
+      "path": "ts_benchmark/data/dataset.py",
+      "git_blob": "679767700f9c6b28f9f2817aac35b4766692601e",
+      "size": 5502,
+      "sha256": "dafa5eb70ac29d0ad5a50c7bf9dd29de911f2ce5a403e4bccfa7dba2378ca12d"
+    },
+    {
+      "path": "ts_benchmark/data/suites/__init__.py",
+      "git_blob": "70414bde4625f1487e2f01b8cea6ec8adb6b1086",
+      "size": 80,
+      "sha256": "b44fb5a2e3c102802f2fcc20630a603aa7e908bf075c6127183ca940fd50d69f"
+    },
+    {
+      "path": "ts_benchmark/data/suites/global_storage.py",
+      "git_blob": "f53b2447ed042e3e3130275e877b6ee35ec979e8",
+      "size": 4339,
+      "sha256": "08ffc027bef3d00c928a6d1b7fbbf44c3d5e3332b232420fe028f3746c8ef9e7"
+    },
+    {
+      "path": "ts_benchmark/data/utils.py",
+      "git_blob": "9a449961d03d697dac66c8be5364cca52e0ecd8b",
+      "size": 5676,
+      "sha256": "96e48bac1f8ce29c3acd73f78f7e701d6b7972fe28bdaaa94e9f2920ea2b388e"
+    },
+    {
+      "path": "ts_benchmark/evaluation/__init__.py",
+      "git_blob": "633f866158ac742cf754a2c43edcb07e3a094f3c",
+      "size": 25,
+      "sha256": "3bd093d41d85f9c541f1e953d04a0225b82471f7e3be59aab5ea9abece208838"
+    },
+    {
+      "path": "ts_benchmark/evaluation/evaluate_model.py",
+      "git_blob": "67877435a930e0b250830ea593c3aeadba7e69ac",
+      "size": 6413,
+      "sha256": "113def002af7939e379ede525a0992caaad33de3e4831bd0c95c649fcd10344c"
+    },
+    {
+      "path": "ts_benchmark/evaluation/evaluator.py",
+      "git_blob": "653240ab7c7a15e213de7e53e0402a709695afee",
+      "size": 3389,
+      "sha256": "b2e09acf5197b24b584b54b8ca544af997969680a894e20877a73d1df6e98523"
+    },
+    {
+      "path": "ts_benchmark/evaluation/metrics/__init__.py",
+      "git_blob": "75317fa1f75b0f8c2b1d134c2361646e36ff651d",
+      "size": 226,
+      "sha256": "2b2d1108a33909c13536d2d2fb5457eabe0d16e004ac90ca5277d806961e2088"
+    },
+    {
+      "path": "ts_benchmark/evaluation/metrics/regression_metrics.py",
+      "git_blob": "30b55af242dece1a1a7da34c53bba8e0cdd55741",
+      "size": 6956,
+      "sha256": "92282a52b0878fdc4dd9460d17c7253838bf3e4dca4cefda746f0a52742fca95"
+    },
+    {
+      "path": "ts_benchmark/evaluation/metrics/utils.py",
+      "git_blob": "795d68eefcffa62222ced36f6db753e62e793530",
+      "size": 1693,
+      "sha256": "2888ea4fa96ffab283d56da272493ff21b385bd98593fb01590995600e6aa217"
+    },
+    {
+      "path": "ts_benchmark/evaluation/strategy/__init__.py",
+      "git_blob": "d69d9b6f5ef18cff1e3703ea6f7f4d2e0a3c510d",
+      "size": 269,
+      "sha256": "c6386b35f35004a5443a63be8839f40b23ac2e79da7d769f61baf18ce1348893"
+    },
+    {
+      "path": "ts_benchmark/evaluation/strategy/constants.py",
+      "git_blob": "ce4b6d6f202f314dce8188f505aacc356487e28c",
+      "size": 742,
+      "sha256": "794906824977b57d9a3bcc874b9f7ff0aff230747a1488230e715f5b31500211"
+    },
+    {
+      "path": "ts_benchmark/evaluation/strategy/fixed_forecast.py",
+      "git_blob": "db7c1ee12176350a31b9f0c350d02671d88cefee",
+      "size": 3869,
+      "sha256": "693a6f285ec1752d39da3a5699017e0943b9b891cd88745867cab32e607f8c91"
+    },
+    {
+      "path": "ts_benchmark/evaluation/strategy/forecasting.py",
+      "git_blob": "d81d706c45028ed61a9da05f9d11cde1f9e80d67",
+      "size": 3597,
+      "sha256": "9280a2ff9322553fcb5288dff2cf446d45082f630a5029a717ed090457f2062b"
+    },
+    {
+      "path": "ts_benchmark/evaluation/strategy/rolling_forecast.py",
+      "git_blob": "f5a48139e366f998e80a5588fd347275690462df",
+      "size": 14313,
+      "sha256": "f7b43eb1684fb858b7d7335ee9bc6368ce24f0240e6396462b41fc74bb940832"
+    },
+    {
+      "path": "ts_benchmark/evaluation/strategy/strategy.py",
+      "git_blob": "be5333b7753280106412abad45baf9764883cc61",
+      "size": 9020,
+      "sha256": "3b4f9c43907b91edebda49db6b8329e3134716325846346decf6bd4a266e0ff0"
+    },
+    {
+      "path": "ts_benchmark/models/__init__.py",
+      "git_blob": "40fc17654cc72215326518027b5188c34f95384d",
+      "size": 218,
+      "sha256": "939ff75bf1dd11bfdfa73a0028d9e5a2ce1497b3e71f5a6ee48f181628efe124"
+    },
+    {
+      "path": "ts_benchmark/models/model_base.py",
+      "git_blob": "9f193356215bf690b717ea2b26620eb5cf3b5acb",
+      "size": 2614,
+      "sha256": "666d19fa6a09006ce817e9b029c717b9c049b7017c6936d3cab823a6fb7a1b68"
+    },
+    {
+      "path": "ts_benchmark/models/model_loader.py",
+      "git_blob": "c580034671b316d73f2ecdf8edf3873f0814aa27",
+      "size": 9828,
+      "sha256": "bd771032e78c417f6ca7f7e96d718ad2137c7ebcbfb3f4a19d76e0a4f525a05f"
+    },
+    {
+      "path": "ts_benchmark/pipeline.py",
+      "git_blob": "17058fd6b063fb2adb8091170909869ee52c3161",
+      "size": 5712,
+      "sha256": "7faa76b852005fee431940749626c8c24b961ace899f999b7dd0f7c24adf3d88"
+    },
+    {
+      "path": "ts_benchmark/recording.py",
+      "git_blob": "802cbcae80a7e12ce4f1c06f9562ca3288b0b101",
+      "size": 5572,
+      "sha256": "b2a6bd86b66ff9d1912bf894be386af0d2c1fd0b5756088efa35ccfb9e683aa6"
+    },
+    {
+      "path": "ts_benchmark/report/__init__.py",
+      "git_blob": "9bd7a3611df2c0fc958694d1ea195f7e7321d20e",
+      "size": 417,
+      "sha256": "95b8b2b4b9acb4069b3e320f551881ea3f02c8b14c18b645182420bfc74a91c7"
+    },
+    {
+      "path": "ts_benchmark/report/report_csv.py",
+      "git_blob": "b8bb97619b0fec8db21e3aeed510eacf775768bf",
+      "size": 2855,
+      "sha256": "9fc1d8ce8ba98845ab09fc0051c43453486cc03b489c1e7082260e415d909261"
+    },
+    {
+      "path": "ts_benchmark/report/report_dash/__init__.py",
+      "git_blob": "27a99127daf35a8b8bdc6832891855b9670cba4b",
+      "size": 142,
+      "sha256": "43e1f225106466b744df7c08027e5b94be8bd64f93756082464a0ce364f35b5c"
+    },
+    {
+      "path": "ts_benchmark/report/report_dash/app.py",
+      "git_blob": "a09f636d260f6d607e59de4e4499b781b7cf3c14",
+      "size": 2114,
+      "sha256": "4bcf53da07388c6e0d81f9827bc7a2ba57a1a6c3184853ae7f2158734f3dfea4"
+    },
+    {
+      "path": "ts_benchmark/report/report_dash/layout.py",
+      "git_blob": "a38677930e5ff4c54f7197ed389b026e0455642e",
+      "size": 1871,
+      "sha256": "08ef1ed22283c3993c21ffe8267542dab18eaa949fb33bcc37e15722d0ff427f"
+    },
+    {
+      "path": "ts_benchmark/report/report_dash/memory.py",
+      "git_blob": "cf3c3e197f4688cd9797b88984a7cec3930e33b7",
+      "size": 176,
+      "sha256": "3ef2af551cc0d05ed9effb01968f4217635eb50be3798a644360e844ad197855"
+    },
+    {
+      "path": "ts_benchmark/report/report_dash/pages/leaderboard.py",
+      "git_blob": "63a756f0c206bcc93b4b2f5b2637804ee9dc58d7",
+      "size": 950,
+      "sha256": "2c7e6f2a727bf2b1a5f4e6b1cfad64849e3611bb4b14200171c51a40e750e40f"
+    },
+    {
+      "path": "ts_benchmark/report/report_dash/pages/query.py",
+      "git_blob": "f482869b1ca89cdf21340bc4e4b19d4f708c4cc4",
+      "size": 2443,
+      "sha256": "ccc8c3427061991810e4ab0ccc3e56ae79b5a2734298af5a4609261e86bb6391"
+    },
+    {
+      "path": "ts_benchmark/report/utils/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ts_benchmark/report/utils/leaderboard.py",
+      "git_blob": "ef2b13df863aa1fa07f6d3e569c5dcb9bf83c8e0",
+      "size": 6579,
+      "sha256": "ab4a16da773a1b5e9b2e5ec38c60a1b72e97d40d3a4f13bcb51c182563d3e757"
+    },
+    {
+      "path": "ts_benchmark/utils/__init__.py",
+      "git_blob": "40a96afc6ff09d58a702b76e3f7dd412fe975e26",
+      "size": 24,
+      "sha256": "8b084a9f378124b2b1a51563bf3c22444eb7ff33692017da28b2136ae56987ed"
+    },
+    {
+      "path": "ts_benchmark/utils/compress.py",
+      "git_blob": "881b957a987c94ff8524fa12004fd938267081c8",
+      "size": 2726,
+      "sha256": "33001617efd43f40f0cddf927951965ee7115ce7be7224d141b450d39fadbfb9"
+    },
+    {
+      "path": "ts_benchmark/utils/data_processing.py",
+      "git_blob": "5eeb3a49a39848e09195b81d07790fb0a370c5cf",
+      "size": 446,
+      "sha256": "08cfd31f080bf40632753e79ff26edcf84232a9c4b157321832c05d3901ade4a"
+    },
+    {
+      "path": "ts_benchmark/utils/design_pattern.py",
+      "git_blob": "09356c5d6e44b2628ef8df06f551f1ddc09c7821",
+      "size": 371,
+      "sha256": "a0be9df05c79680e480685a8b6f5629a88be9db94f0b284421b5b3cbae3449ff"
+    },
+    {
+      "path": "ts_benchmark/utils/get_file_name.py",
+      "git_blob": "9effd6ca6ec7006c23be2badff75182e6c08cf4b",
+      "size": 948,
+      "sha256": "f91b6e7bdf83f0bd3640aed99ab9c41cd64725e98956aec8cfb956eba6823248"
+    },
+    {
+      "path": "ts_benchmark/utils/parallel/__init__.py",
+      "git_blob": "a2b39c7e2e2e098a4aa4c41f3caf41dc1ff78d05",
+      "size": 2474,
+      "sha256": "52d53cd4f3ece729bdfef434dd08f5700bbbf2d35117764092625b0daf4b955e"
+    },
+    {
+      "path": "ts_benchmark/utils/parallel/base.py",
+      "git_blob": "5e36536c76bf3e5d1531654ea45334e3dd3b6749",
+      "size": 726,
+      "sha256": "e8dd80a62de8ff695f8cb9d398292a6dc407b1f2fdcfc8de5405fd2c1e7e8c1f"
+    },
+    {
+      "path": "ts_benchmark/utils/parallel/ray_backend.py",
+      "git_blob": "a984d59893abaf31eecf5078a684417027d08c29",
+      "size": 17639,
+      "sha256": "b3206a3015e1086cf333e94ba29519774f140ec67c7549ff4333aaf070b85655"
+    },
+    {
+      "path": "ts_benchmark/utils/parallel/sequential_backend.py",
+      "git_blob": "0dc22a72197006ac9aa545128f4ff1b73f89c6d5",
+      "size": 1868,
+      "sha256": "3890b1b171851d88b7aae630c1f6548c65a5db96ee57ffca6b10839f3ef8fe97"
+    },
+    {
+      "path": "ts_benchmark/utils/random_utils.py",
+      "git_blob": "4d9cdb5094b1ac8bf20b5adeb886bc3b145d8b37",
+      "size": 692,
+      "sha256": "27b130209d992d5cd08008f3ce2fd168600abef8a645a961708955b1bf45e476"
+    },
+    {
+      "path": "website/README.md",
+      "git_blob": "a36934d874c7fbc51aecd1c66dffc106f60693a9",
+      "size": 1027,
+      "sha256": "a460b4dc7e6392e76aa54d844c9261b8db0adb7f967ba8300526456f1dcf5fb4"
+    }
+  ],
+  "imported_sources": [
+    {
+      "module": "ts_benchmark.baselines.time_series_library.adapters_for_transformers",
+      "path": "ts_benchmark/baselines/time_series_library/adapters_for_transformers.py",
+      "sha256": "4b61b1e64187dab871a0c077d481253bbaf2a16833b74c28d8ecda4ccd048ad5"
+    },
+    {
+      "module": "ts_benchmark.baselines.time_series_library.layers.Embed",
+      "path": "ts_benchmark/baselines/time_series_library/layers/Embed.py",
+      "sha256": "17e7c3577324c41a0da427a199c955b782fde905aabb1f7cbc3c4e15ebd4ae35"
+    },
+    {
+      "module": "ts_benchmark.baselines.time_series_library.layers.SelfAttention_Family",
+      "path": "ts_benchmark/baselines/time_series_library/layers/SelfAttention_Family.py",
+      "sha256": "ee8c9828da1daa81eda8d02c6e37629e55fa2cd6e714fcef4d1d7ace53c781eb"
+    },
+    {
+      "module": "ts_benchmark.baselines.time_series_library.layers.Transformer_EncDec",
+      "path": "ts_benchmark/baselines/time_series_library/layers/Transformer_EncDec.py",
+      "sha256": "7b26f4459735c341f161011f6bc24b9deb8ecc3bcf61e4f15431998272a44fb4"
+    },
+    {
+      "module": "ts_benchmark.baselines.time_series_library.models.Informer",
+      "path": "ts_benchmark/baselines/time_series_library/models/Informer.py",
+      "sha256": "9c991bf1211db9e25adaf94b3672868a8dbb5fab8eaa11befb6832e82738c496"
+    },
+    {
+      "module": "ts_benchmark.baselines.time_series_library.models.Informer_DYN",
+      "path": "ts_benchmark/baselines/time_series_library/models/Informer_DYN.py",
+      "sha256": "0038b06724f445fd4379f02c6e94d8d3d011a274cb350556c1fb379ccbc133bc"
+    },
+    {
+      "module": "ts_benchmark.baselines.time_series_library.models.Informer_PRO",
+      "path": "ts_benchmark/baselines/time_series_library/models/Informer_PRO.py",
+      "sha256": "9cb6cf77100a8f332b69f296e3702e6ab0b02d410d2102f1d93c7103dd1d29ab"
+    },
+    {
+      "module": "ts_benchmark.baselines.time_series_library.utils.masking",
+      "path": "ts_benchmark/baselines/time_series_library/utils/masking.py",
+      "sha256": "02f453e52cfaec65e34132923add80e7132f188706680fa86d7bd884976e09ef"
+    },
+    {
+      "module": "ts_benchmark.baselines.time_series_library.utils.timefeatures",
+      "path": "ts_benchmark/baselines/time_series_library/utils/timefeatures.py",
+      "sha256": "319b3da2ef15ccae95162b1b4f4a9a0b0da63fa0062a7f6006a06dd567258d85"
+    },
+    {
+      "module": "ts_benchmark.baselines.time_series_library.utils.tools",
+      "path": "ts_benchmark/baselines/time_series_library/utils/tools.py",
+      "sha256": "fd77d7b66b6c4414a8ab1a1ebaae29e5c4c3743286ebdd8cde9cfa0ef0298e00"
+    },
+    {
+      "module": "ts_benchmark.baselines.utils",
+      "path": "ts_benchmark/baselines/utils.py",
+      "sha256": "5047f72f527af5e33e5b18d51c32bced4b0dae8bf2f48698a1000cff1b1520ef"
+    },
+    {
+      "module": "ts_benchmark.models.model_base",
+      "path": "ts_benchmark/models/model_base.py",
+      "sha256": "666d19fa6a09006ce817e9b029c717b9c049b7017c6936d3cab823a6fb7a1b68"
+    },
+    {
+      "module": "ts_benchmark.utils.data_processing",
+      "path": "ts_benchmark/utils/data_processing.py",
+      "sha256": "08cfd31f080bf40632753e79ff26edcf84232a9c4b157321832c05d3901ade4a"
+    }
+  ],
+  "data_sha256": "f18de3ad269cef59bb07b5438d79bb3042d3be49bdeecf01c1cd6d29695ee066",
+  "data_git_blob": "a52c4925778c07c1ef1a2cf6fd01594919717d9e",
+  "shape": [
+    17420,
+    7
+  ],
+  "tv_boundary": 13936,
+  "train_boundary": 10452,
+  "protocol_sha256": "fed98c3d4d5e91cb82d52ec2d8c1ba31d45a6fa9947285d9da684d5068cf53de",
+  "compatibility": [],
+  "python": "3.10.20",
+  "numpy": "1.26.4",
+  "torch": "2.8.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "arms": [
+    {
+      "arm": "Informer",
+      "shape": [
+        4,
+        96,
+        7
+      ],
+      "parameters": 47527,
+      "finite_backward": true,
+      "decoder_future_target_sentinel_difference": 0.0,
+      "loss_training_only_probe": 0.345694363117218
+    },
+    {
+      "arm": "Informer_PRO",
+      "shape": [
+        4,
+        96,
+        7
+      ],
+      "parameters": 52558,
+      "finite_backward": true,
+      "decoder_future_target_sentinel_difference": 0.0,
+      "loss_training_only_probe": 0.33176618814468384
+    },
+    {
+      "arm": "Informer_DYN",
+      "shape": [
+        4,
+        96,
+        7
+      ],
+      "parameters": 52558,
+      "finite_backward": true,
+      "decoder_future_target_sentinel_difference": 0.0,
+      "loss_training_only_probe": 0.3513549566268921
+    }
+  ]
+}
