@@ -1,0 +1,7 @@
+Closed C88 decision: **retire the new-method candidate based on fixing action anticipation**. The original registered ordinary-control criterion is satisfied. The stronger supplementary post-edit response check fails and remains unresolved; no all-metrics simulation-fidelity success is claimed. Do not restart this route or tune its edit cases to salvage novelty. See DECISION_RECONCILIATION88_V1.md. Overall research goal ACTIVE/UNACHIEVED; accepted directions0.
+
+# Current time-series world-model research status — C88
+
+Goal ACTIVE/UNACHIEVED; accepted novel directions0. C87 remains a limited negative study with incomplete numerical rollout qualification. C88 now adds four actual1000-update learned-core fits, an ordinary ARX4, and paired primitive-action suffix tests on two nonlinear partially observed families. This is a controlled transfer experiment, not original-paper score reproduction.
+
+Current C88 decision: UNRESOLVED_DEVELOPMENTAL_COMPARISON_NO_NOVELTY_ESTABLISHED. Original ordinary-fix gate=True; additional competence=True; paired response comparability=False. A simple causal reindexing is not a novel method. Full results/negative evidence are in cycle88/. No positive generalization claim is supported by one developmental pool/one seed. Raw data, weights and predictions remain remote; GitHub receives source, compact results and logs only. The independent C71 full-budget campaign is preserved.

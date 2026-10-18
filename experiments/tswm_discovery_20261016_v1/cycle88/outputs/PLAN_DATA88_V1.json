@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-18T17:52:42.412195+00:00",
+  "files": [
+    {
+      "split": "train",
+      "path": "${DATA_ROOT}\\cycle88\\train_plan88_v1.npz",
+      "sha256": "db5a105eac43918e31d9d6001a6f54e8ae6fd341e02890661d6649159f0b0a0a",
+      "trajectories": 512,
+      "observations_shape": [
+        512,
+        193,
+        16
+      ],
+      "systems_per_family": 32,
+      "seed": 2026881,
+      "state_abs_max": 1.7332800972229718
+    },
+    {
+      "split": "val",
+      "path": "${DATA_ROOT}\\cycle88\\val_plan88_v1.npz",
+      "sha256": "09d0ca3996b4460814f41fd1aee479a0ff5eb76b7322599594bd849502af7c72",
+      "trajectories": 64,
+      "observations_shape": [
+        64,
+        193,
+        16
+      ],
+      "systems_per_family": 8,
+      "seed": 2026882,
+      "state_abs_max": 1.9160310722444944
+    }
+  ],
+  "source_rejected_trajectories": 0,
+  "future_controls_exogenous": true,
+  "normalization": "TRAIN-only16channelmean/std floor.05",
+  "protocol_sha256": "0429d793f865a649225831f9d2ca1f7917b154acdbfbe148ee137400493df7b7",
+  "hidden_state_and_parameter_features_used_by_models": false,
+  "held_out_eval_generated": false
+}

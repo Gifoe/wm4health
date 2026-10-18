@@ -1,0 +1,5 @@
+# Additional ordinary causal capacity control, before GRU fit/results
+
+Observed after native acRKN step750: its factual VAL MSE remains relatively high and its66272 parameters are about half the126932-parameter MTS3. This cannot establish a need for temporal hierarchy. Add one conventional causal GRU with a single192-unit recurrent layer, input16 observations+2 current controls+1 validity flag, and separate linear16-dimensional mean/variance heads. Total parameters128864 (about1.5% more than MTS3). This is an independently authored ordinary baseline, not a native paper reproduction or proposed new method.
+
+Fix seed2026884, Adam .001, clip1, batch16,1000 updates, the same data/minibatch/crop stream and forecast-only Gaussian NLL. Use the existing factual VAL checkpoints0/250/500/750/1000 to select, with no edited-plan metric involved. No architecture/width/lr search. Inspect edited-plan and response metrics only after selection. The original three registered fits continue unmodified. This extra control does not relax or replace the registered rejection thresholds.

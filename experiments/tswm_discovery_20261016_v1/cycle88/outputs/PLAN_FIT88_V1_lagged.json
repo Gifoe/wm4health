@@ -1,0 +1,144 @@
+{
+  "utc": "2026-10-18T18:11:37.239501+00:00",
+  "status": "DEVELOPMENTAL_FIT_COMPLETE",
+  "arm": "lagged",
+  "seed": 2026884,
+  "updates": 1000,
+  "parameters": 126932,
+  "initial_sha256": "ff13f90a0f617d35081e806a5803d2c266b445f15fc5079e22632e21e5432745",
+  "validation_trace": [
+    {
+      "step": 0,
+      "mse": 1.487010050099343,
+      "nll": 1.8051897827535868,
+      "families": [
+        {
+          "family": 0,
+          "mse": 2.209190004505217,
+          "persistence_mse": 3.9452796918340027,
+          "persistence_ratio": 0.5599577665121768
+        },
+        {
+          "family": 1,
+          "mse": 0.764830095693469,
+          "persistence_mse": 0.9321649596095085,
+          "persistence_ratio": 0.8204879273877261
+        }
+      ],
+      "elapsed_seconds": 0.9981039999984205
+    },
+    {
+      "step": 250,
+      "mse": 0.27598042628960684,
+      "nll": 0.7500062985345721,
+      "families": [
+        {
+          "family": 0,
+          "mse": 0.43335780227789655,
+          "persistence_mse": 3.9452796918340027,
+          "persistence_ratio": 0.10984209894544786
+        },
+        {
+          "family": 1,
+          "mse": 0.11860305030131713,
+          "persistence_mse": 0.9321649596095085,
+          "persistence_ratio": 0.1272339719259571
+        }
+      ],
+      "elapsed_seconds": 136.56088249996537
+    },
+    {
+      "step": 500,
+      "mse": 0.23340910986007657,
+      "nll": 0.764979064653744,
+      "families": [
+        {
+          "family": 0,
+          "mse": 0.37596406231750734,
+          "persistence_mse": 3.9452796918340027,
+          "persistence_ratio": 0.09529465378479585
+        },
+        {
+          "family": 1,
+          "mse": 0.0908541574026458,
+          "persistence_mse": 0.9321649596095085,
+          "persistence_ratio": 0.09746575052628598
+        }
+      ],
+      "elapsed_seconds": 274.48088669998106
+    },
+    {
+      "step": 750,
+      "mse": 0.19401198453851976,
+      "nll": 0.7681607325212099,
+      "families": [
+        {
+          "family": 0,
+          "mse": 0.3236371142556891,
+          "persistence_mse": 3.9452796918340027,
+          "persistence_ratio": 0.08203147546815448
+        },
+        {
+          "family": 1,
+          "mse": 0.06438685482135043,
+          "persistence_mse": 0.9321649596095085,
+          "persistence_ratio": 0.0690723826910664
+        }
+      ],
+      "elapsed_seconds": 408.2183038999792
+    },
+    {
+      "step": 1000,
+      "mse": 0.15105837024748325,
+      "nll": 0.48101706946181366,
+      "families": [
+        {
+          "family": 0,
+          "mse": 0.2196221963968128,
+          "persistence_mse": 3.9452796918340027,
+          "persistence_ratio": 0.055667079028995085
+        },
+        {
+          "family": 1,
+          "mse": 0.08249454409815371,
+          "persistence_mse": 0.9321649596095085,
+          "persistence_ratio": 0.08849779563985256
+        }
+      ],
+      "elapsed_seconds": 541.8719604999642
+    }
+  ],
+  "selected": {
+    "step": 1000,
+    "mse": 0.15105837024748325,
+    "nll": 0.48101706946181366,
+    "families": [
+      {
+        "family": 0,
+        "mse": 0.2196221963968128,
+        "persistence_mse": 3.9452796918340027,
+        "persistence_ratio": 0.055667079028995085
+      },
+      {
+        "family": 1,
+        "mse": 0.08249454409815371,
+        "persistence_mse": 0.9321649596095085,
+        "persistence_ratio": 0.08849779563985256
+      }
+    ],
+    "elapsed_seconds": 541.8719604999642
+  },
+  "source_competent": true,
+  "selected_path": "${CHECKPOINT_ROOT}\\cycle88\\lagged\\selected88_v1.pt",
+  "selected_sha256": "187cdb7acf546332b1c5dd6f1780b9f052dc8a02ed2706ec5df194bcc67e7bfe",
+  "final_path": "${CHECKPOINT_ROOT}\\cycle88\\lagged\\final88_v1.pt",
+  "final_sha256": "4720b4d1793802b0d0522220884d3003a27ebd89d9493366c71eb45e9a4b52eb",
+  "elapsed_seconds": 541.9200456999824,
+  "peak_gpu_bytes": 45790720,
+  "data_manifest_sha256": "bf4baf93d602fba12fc2492e82c7bdcb064ee6e8f6947e34e305090059322272",
+  "protocol_sha256": "0429d793f865a649225831f9d2ca1f7917b154acdbfbe148ee137400493df7b7",
+  "matmul_precision": "highest",
+  "allow_tf32": false,
+  "edited_plan_metrics_accessed_during_selection": false,
+  "held_out_eval_accessed": false
+}

@@ -1,0 +1,131 @@
+{
+  "utc": "2026-10-18T18:18:42.135228+00:00",
+  "arm": "gru",
+  "status": "ORDINARY_GRU_FIT_COMPLETE",
+  "parameters": 128864,
+  "seed": 2026884,
+  "updates": 1000,
+  "initial_sha256": "6d984f1cdc5eecff9b7df4e8abf58f7145d0edab9da3254b3ddb31ca1c517128",
+  "selected": {
+    "step": 1000,
+    "mse": 0.2421777216877672,
+    "nll": -0.20173458708450198,
+    "families": [
+      {
+        "family": 0,
+        "mse": 0.4550326546304859,
+        "persistence_mse": 3.9452796918340027,
+        "persistence_ratio": 0.1153359685936384
+      },
+      {
+        "family": 1,
+        "mse": 0.029322788745048456,
+        "persistence_mse": 0.9321649596095085,
+        "persistence_ratio": 0.03145665200431049
+      }
+    ]
+  },
+  "validation_trace": [
+    {
+      "step": 0,
+      "mse": 1.4452946418896317,
+      "nll": 1.7819925723597407,
+      "families": [
+        {
+          "family": 0,
+          "mse": 2.174894836731255,
+          "persistence_mse": 3.9452796918340027,
+          "persistence_ratio": 0.5512650576416379
+        },
+        {
+          "family": 1,
+          "mse": 0.7156944470480084,
+          "persistence_mse": 0.9321649596095085,
+          "persistence_ratio": 0.7677766039905841
+        }
+      ]
+    },
+    {
+      "step": 250,
+      "mse": 0.4876523969869595,
+      "nll": 0.5195603820611723,
+      "families": [
+        {
+          "family": 0,
+          "mse": 0.8211676187929697,
+          "persistence_mse": 3.9452796918340027,
+          "persistence_ratio": 0.20813926589099233
+        },
+        {
+          "family": 1,
+          "mse": 0.15413717518094927,
+          "persistence_mse": 0.9321649596095085,
+          "persistence_ratio": 0.16535396829925744
+        }
+      ]
+    },
+    {
+      "step": 500,
+      "mse": 0.38103677895560395,
+      "nll": 0.21929985645692796,
+      "families": [
+        {
+          "family": 0,
+          "mse": 0.6835953166009858,
+          "persistence_mse": 3.9452796918340027,
+          "persistence_ratio": 0.17326916467187392
+        },
+        {
+          "family": 1,
+          "mse": 0.07847824131022207,
+          "persistence_mse": 0.9321649596095085,
+          "persistence_ratio": 0.08418922048206709
+        }
+      ]
+    },
+    {
+      "step": 750,
+      "mse": 0.3172496555271209,
+      "nll": -0.009638814372010529,
+      "families": [
+        {
+          "family": 0,
+          "mse": 0.5905144257412758,
+          "persistence_mse": 3.9452796918340027,
+          "persistence_ratio": 0.14967618822146656
+        },
+        {
+          "family": 1,
+          "mse": 0.04398488531296607,
+          "persistence_mse": 0.9321649596095085,
+          "persistence_ratio": 0.04718573130166971
+        }
+      ]
+    },
+    {
+      "step": 1000,
+      "mse": 0.2421777216877672,
+      "nll": -0.20173458708450198,
+      "families": [
+        {
+          "family": 0,
+          "mse": 0.4550326546304859,
+          "persistence_mse": 3.9452796918340027,
+          "persistence_ratio": 0.1153359685936384
+        },
+        {
+          "family": 1,
+          "mse": 0.029322788745048456,
+          "persistence_mse": 0.9321649596095085,
+          "persistence_ratio": 0.03145665200431049
+        }
+      ]
+    }
+  ],
+  "selected_path": "${CHECKPOINT_ROOT}\\cycle88\\gru\\selected88_v1.pt",
+  "selected_sha256": "5e935e5c74cd4327f244ca49cf38b941def9e28d2b79b5fb7f3d8929ae95f532",
+  "final_path": "${CHECKPOINT_ROOT}\\cycle88\\gru\\final88_v1.pt",
+  "final_sha256": "635f142e136820e5c04e283ec7eb0f40edaa1f91e90f79ef88e0a547f5fa20e1",
+  "elapsed_seconds": 5.312914299953263,
+  "edited_plan_metrics_accessed": false
+}

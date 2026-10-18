@@ -1,0 +1,144 @@
+{
+  "utc": "2026-10-18T18:02:32.698321+00:00",
+  "status": "DEVELOPMENTAL_FIT_COMPLETE",
+  "arm": "stock",
+  "seed": 2026884,
+  "updates": 1000,
+  "parameters": 126932,
+  "initial_sha256": "ff13f90a0f617d35081e806a5803d2c266b445f15fc5079e22632e21e5432745",
+  "validation_trace": [
+    {
+      "step": 0,
+      "mse": 1.4869816927239299,
+      "nll": 1.8051674794405699,
+      "families": [
+        {
+          "family": 0,
+          "mse": 2.209151554852724,
+          "persistence_mse": 3.9452796918340027,
+          "persistence_ratio": 0.5599480207766405
+        },
+        {
+          "family": 1,
+          "mse": 0.7648118305951357,
+          "persistence_mse": 0.9321649596095085,
+          "persistence_ratio": 0.8204683331108279
+        }
+      ],
+      "elapsed_seconds": 0.9306161999702454
+    },
+    {
+      "step": 250,
+      "mse": 0.27645801068865694,
+      "nll": 0.7478750857990235,
+      "families": [
+        {
+          "family": 0,
+          "mse": 0.4609409835538827,
+          "persistence_mse": 3.9452796918340027,
+          "persistence_ratio": 0.11683353768503284
+        },
+        {
+          "family": 1,
+          "mse": 0.0919750378234312,
+          "persistence_mse": 0.9321649596095085,
+          "persistence_ratio": 0.09866819909424646
+        }
+      ],
+      "elapsed_seconds": 142.39822829997865
+    },
+    {
+      "step": 500,
+      "mse": 0.2213352310936898,
+      "nll": 0.72212133348512,
+      "families": [
+        {
+          "family": 0,
+          "mse": 0.3599160272278823,
+          "persistence_mse": 3.9452796918340027,
+          "persistence_ratio": 0.0912269991840735
+        },
+        {
+          "family": 1,
+          "mse": 0.0827544349594973,
+          "persistence_mse": 0.9321649596095085,
+          "persistence_ratio": 0.08877659914846382
+        }
+      ],
+      "elapsed_seconds": 285.26935879996745
+    },
+    {
+      "step": 750,
+      "mse": 0.20074322463187855,
+      "nll": 0.8133975482633105,
+      "families": [
+        {
+          "family": 0,
+          "mse": 0.34374987869523466,
+          "persistence_mse": 3.9452796918340027,
+          "persistence_ratio": 0.08712940666962932
+        },
+        {
+          "family": 1,
+          "mse": 0.05773657056852244,
+          "persistence_mse": 0.9321649596095085,
+          "persistence_ratio": 0.061938147291772
+        }
+      ],
+      "elapsed_seconds": 427.14767259999644
+    },
+    {
+      "step": 1000,
+      "mse": 0.16099313527229242,
+      "nll": 0.5100488782918546,
+      "families": [
+        {
+          "family": 0,
+          "mse": 0.2412989285076037,
+          "persistence_mse": 3.9452796918340027,
+          "persistence_ratio": 0.06116142513471168
+        },
+        {
+          "family": 1,
+          "mse": 0.08068734203698114,
+          "persistence_mse": 0.9321649596095085,
+          "persistence_ratio": 0.08655908077770025
+        }
+      ],
+      "elapsed_seconds": 568.0293730999692
+    }
+  ],
+  "selected": {
+    "step": 1000,
+    "mse": 0.16099313527229242,
+    "nll": 0.5100488782918546,
+    "families": [
+      {
+        "family": 0,
+        "mse": 0.2412989285076037,
+        "persistence_mse": 3.9452796918340027,
+        "persistence_ratio": 0.06116142513471168
+      },
+      {
+        "family": 1,
+        "mse": 0.08068734203698114,
+        "persistence_mse": 0.9321649596095085,
+        "persistence_ratio": 0.08655908077770025
+      }
+    ],
+    "elapsed_seconds": 568.0293730999692
+  },
+  "source_competent": true,
+  "selected_path": "${CHECKPOINT_ROOT}\\cycle88\\stock\\selected88_v1.pt",
+  "selected_sha256": "98483d62b92a69bbd8bd6a8159ead4246809ad6d21f6654cd49819451aa9985f",
+  "final_path": "${CHECKPOINT_ROOT}\\cycle88\\stock\\final88_v1.pt",
+  "final_sha256": "05d2349040efe7f6444a4a646ca24a9688b0c7b60a089633bd7d9e76c2989539",
+  "elapsed_seconds": 568.0665316999657,
+  "peak_gpu_bytes": 45790720,
+  "data_manifest_sha256": "bf4baf93d602fba12fc2492e82c7bdcb064ee6e8f6947e34e305090059322272",
+  "protocol_sha256": "0429d793f865a649225831f9d2ca1f7917b154acdbfbe148ee137400493df7b7",
+  "matmul_precision": "highest",
+  "allow_tf32": false,
+  "edited_plan_metrics_accessed_during_selection": false,
+  "held_out_eval_accessed": false
+}

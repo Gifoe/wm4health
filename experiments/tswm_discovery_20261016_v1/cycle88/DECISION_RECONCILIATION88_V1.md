@@ -1,0 +1,11 @@
+# C88 decision after the registered comparison
+
+The original prospective rejection rule is satisfied in both families: a same-capacity, same-initialization ordinary manager-index control eliminates the early response exactly, while factual MSE changes by about-8.98% and+2.24%, within the registered5% allowed increase. Therefore retire a **new-method claim whose proposed contribution is fixing this anticipation**. No new model design is justified by that defect.
+
+A stricter supplementary check in the pre-analysis finalizer also asked whether the ordinary fix's **post-edit action-response error** stays within5% of stock in every one of eight family/cut/sign cells. This stronger check fails: reservoir/cut80/negative edit has response RMS error .38638 versus .33993 (about13.7% worse). The failure is retained. Thus the ordinary control does **not** establish that all aspects of intervention fidelity are solved. The finalizer's combined route label remains UNRESOLVED_DEVELOPMENTAL_COMPARISON_NO_NOVELTY_ESTABLISHED; that label includes the stronger supplementary check and must not be reported as a clean all-metrics PASS.
+
+These decisions concern different claims: the timing-remedy candidate is retired under its original registered criterion; action-response accuracy remains heterogeneous. One developmental pool/seed and one worse paired cell do not establish a new, general research gap or justify tuning the edit cases or adding architecture complexity. Existing causal models and action-response consistency methods are already close prior art.
+
+The added128864-parameter conventionalGRU has factual MSE .45503/.02932 versus stock .24130/.08069 and ordinary-index .21962/.08249. It provides an additional causal baseline and a mixed family result, not a universal winner or proof that hierarchy is necessary. The GRU always receives zero-filled missing observations in the declared inference pipeline. Its separate test feeding invalid dummy values into the raw network changes outputs; this is reported, not called future-observation use in the actual zero-filled task.
+
+Accepted final research directions remain0. No thresholds were relaxed to pass the supplementary response check. The full research objective remains ACTIVE/UNACHIEVED.

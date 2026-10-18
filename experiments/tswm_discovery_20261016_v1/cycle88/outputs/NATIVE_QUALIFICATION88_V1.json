@@ -1,0 +1,87 @@
+{
+  "utc": "2026-10-18T17:33:53.075632+00:00",
+  "status": "NATIVE_RUNTIME_GRADIENT_AND_MASK_QUALIFIED_NOT_SCIENTIFIC_FAILURE",
+  "source_commit": "ab971c0ec43df7664c4b727ca69d5b8dd0cab5da",
+  "source_files_verified": 52,
+  "source_code_modified": false,
+  "configuration": "unchanged official mobileRobot model dimensions/H; input dimension1/action dimension1; logging disabled; plain attribute dictionary replaces Hydra config loading only",
+  "parameters": 113942,
+  "H": 75,
+  "T": 150,
+  "batch": 2,
+  "device": "cuda",
+  "torch_version": "2.8.0+cu128",
+  "matmul_precision": "highest",
+  "allow_tf32": false,
+  "trace": [
+    {
+      "step": 0,
+      "nll": 0.7167993187904358,
+      "grad_norm": 0.7396056652069092,
+      "parameters_with_gradient": 50
+    },
+    {
+      "step": 1,
+      "nll": 1.0946614742279053,
+      "grad_norm": 6.741791248321533,
+      "parameters_with_gradient": 50
+    },
+    {
+      "step": 2,
+      "nll": 0.5959929823875427,
+      "grad_norm": 1.4134490489959717,
+      "parameters_with_gradient": 50
+    }
+  ],
+  "masked_future_observation_mean_max_abs": 0.0,
+  "masked_future_observation_variance_max_abs": 0.0,
+  "late_action_start": 140,
+  "earlier_forecast_mean_tail_sensitivity": 0.00013297796249389648,
+  "first_forecast_step_tail_sensitivity": 0.0,
+  "earlier_forecast_variance_tail_sensitivity": 0.0,
+  "tail_sensitivity_scope": "three-step smoke weights only; architectural potential, NOT evidence about trained paper model or new research gap",
+  "output_shapes": [
+    [
+      2,
+      150,
+      1
+    ],
+    [
+      2,
+      150,
+      1
+    ],
+    [
+      2,
+      1,
+      60
+    ],
+    [
+      2,
+      1,
+      90
+    ],
+    [
+      2,
+      2,
+      60
+    ],
+    [
+      2,
+      2,
+      90
+    ],
+    [
+      2,
+      1,
+      60
+    ]
+  ],
+  "fixture_path": "${ARTIFACT_ROOT}\\cycle88\\native_smoke_fixture88_v1.npz",
+  "fixture_sha256": "293907a346f9ad5a7dc36934076575ad5b9fa25f49c15e78b70d303c4589c5da",
+  "weights_path": "${CHECKPOINT_ROOT}\\cycle88\\native_mts_smoke88_v1.pt",
+  "weights_sha256": "14e6e10a0e319ad878c1e6219a815fc9143a3f57a61f287b76c644c463e8a2de",
+  "source_manifest_sha256": "40986b1ac3d370f6743d7ef43ecfd9c02274b6bedd1bee5f539a39451bafd5ae",
+  "new_scientific_training_fits": 0,
+  "elapsed_seconds": 3.569900200003758
+}
