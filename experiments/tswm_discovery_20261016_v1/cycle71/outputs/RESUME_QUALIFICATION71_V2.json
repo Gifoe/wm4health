@@ -1,0 +1,60 @@
+{
+  "utc": "2026-10-18T06:37:49.187648+00:00",
+  "status": "PASS_CHECKPOINT_CONTINUATION_EQUIVALENCE",
+  "comparison": {
+    "tensors": 174,
+    "max_abs": 0.0,
+    "non_tensor_mismatches": 0
+  },
+  "keys_compared": [
+    "module_state",
+    "proposal_state",
+    "module_optimizer",
+    "proposal_optimizer",
+    "scheduler",
+    "torch_rng",
+    "cuda_rng",
+    "numpy_rng",
+    "python_rng",
+    "train_shuffle",
+    "val_shuffle",
+    "train_structures",
+    "val_structures",
+    "SA_running_acc_rate",
+    "SA_running_factor",
+    "metrics",
+    "module_updates",
+    "proposal_updates"
+  ],
+  "full_checkpoint": {
+    "epoch": 2,
+    "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle71\\resume_full_control71_v1\\epoch00002.pt",
+    "sha256": "01ef501d3effd4b5e76331b0b22de7e2838c53511fdc5961d170c815abb6a700",
+    "val_loss": 6.068826381550554e+20,
+    "module_updates": 3,
+    "proposal_updates": 3
+  },
+  "resumed_checkpoint": {
+    "epoch": 2,
+    "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle71\\resume_split_control71_v2\\epoch00002.pt",
+    "sha256": "9cb5b95b1c006d8611db016b74ba10366535e4aa58f9a864b52b2dbf9d3f647f",
+    "val_loss": 6.068826381550554e+20,
+    "module_updates": 3,
+    "proposal_updates": 3
+  },
+  "entry_adapter": {
+    "original_source_sha256": "023666561cb4008848965dcebb9a3218eb13ead3cca4c027905d0286ef997ed6",
+    "unchanged_epoch_loop_body_sha256": "a983b27e66dcc1c9844a0333875f10473c02db44d7e67bd4397d3a0610e7f996",
+    "entry_only_changes": [
+      "restore temperature",
+      "initialize structures then restore checkpoint/RNG",
+      "start at saved epoch+1"
+    ],
+    "transformed_function_ast_sha256": "bde875d52ad6a3a755b3472b969fb909e63b241c5e8ec3ecf24b83e9b555f02b"
+  },
+  "qualification_only": true,
+  "performance_evidence": false,
+  "reserved_eval_rows_accessed": 0,
+  "new_method": false,
+  "accepted_final_directions": 0
+}

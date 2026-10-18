@@ -7,3 +7,18 @@ Actual native sizes:467204 module-library parameters plus2735106 proposal parame
 Three fresh formal seeds2026711/2026712/2026713 are queued for2000outer epochs each,2048TRAIN/256developmentVAL tasks,batch128:32000module updates per fit if completed. Every50epochs plus final is the fixed checkpoint-selection grid. Progress/launch/terminal receipts are authoritative; a queued fit is not a completed one. Reserved256EVAL rows are excluded from training and selection. Row separation does not guarantee graph separation. NativeVAL is a reset block-rollout score, not common-history free simulation.
 
 This is a separately designed author-data subset experiment, not the full50k-task/20k-epoch reproduction. Native full source training, module adaptation and extra datasets are not silently counted as completed. No new method is compared or recommended in this development phase.
+
+
+## Primary-source refinement, C71 v3
+
+LeJEPA-identifiability author code is pinned at de7503f1b2291ba1e9fc03d9c433180794803440: eleven selected MIT source/config files, exact Git-blob/SHA256 checks, no training or performance reproduction. SOURCE_AUDIT71_LEJEPA_V2.json records acquisition and its repaired transport. Newly reviewed papers remain literature-only baselines.
+
+
+## Runtime correction: C71 driver incident
+
+The earlier running snapshot is historical. The first fit terminated with Windows access violation 0xc0000005 at 06:14 UTC after epoch651; WER names nvcuda64.dll. The remaining seeds and free-VAL assessment did not launch. TRAINING_INCIDENT71_V1.json records terminal receipts and checkpoint verification. This is an execution failure; no model-performance or novelty conclusion follows. Resume verification is required before restarting the campaign.
+
+
+## Verified checkpoint continuation, C71
+
+RESUME_QUALIFICATION71_V2.json reports zero differences across174 tensors and all compared optimizer/RNG/shuffle/structure/metric values for uninterrupted versus resumed qualification runs. The first formal fit resumed from epoch650 under RECOVERY_PROTOCOL71_V1.md, preserving the original loop body and checkpoint grid. The recovered campaign and its new assessment queue have new process/receipt identities. See RECOVERY_SNAPSHOT71_V1.json for the bounded live state. Root cause of the NVIDIA-driver exception remains unestablished; no final model accuracy or research-direction claim is made.

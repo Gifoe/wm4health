@@ -15,3 +15,18 @@
 **Next Experiment:** Finish and diagnose the queued baseline learning curves. Before any new method, specify one residual mechanism with a fresh structural split and complete same-information controls. Source code acquisition and a passing qualification do not satisfy the original final research objective.
 
 Accepted final directions0. Overall research goal ACTIVE / UNACHIEVED. This is an ongoing-stage report and must not be presented as a final top-conference recommendation.
+
+
+## Primary-source refinement, C71 v3
+
+No final research direction is accepted. The new primary-source audit narrows possible contributions without proving that arbitrary observation/dynamics composition is solved. The full research goal remains ACTIVE/UNACHIEVED. Do not replace missing native accuracy/transfer evidence with these literature conclusions.
+
+
+## Runtime correction: C71 driver incident
+
+The earlier running snapshot is historical. The first fit terminated with Windows access violation 0xc0000005 at 06:14 UTC after epoch651; WER names nvcuda64.dll. The remaining seeds and free-VAL assessment did not launch. TRAINING_INCIDENT71_V1.json records terminal receipts and checkpoint verification. This is an execution failure; no model-performance or novelty conclusion follows. Resume verification is required before restarting the campaign.
+
+
+## Verified checkpoint continuation, C71
+
+RESUME_QUALIFICATION71_V2.json reports zero differences across174 tensors and all compared optimizer/RNG/shuffle/structure/metric values for uninterrupted versus resumed qualification runs. The first formal fit resumed from epoch650 under RECOVERY_PROTOCOL71_V1.md, preserving the original loop body and checkpoint grid. The recovered campaign and its new assessment queue have new process/receipt identities. See RECOVERY_SNAPSHOT71_V1.json for the bounded live state. Root cause of the NVIDIA-driver exception remains unestablished; no final model accuracy or research-direction claim is made.

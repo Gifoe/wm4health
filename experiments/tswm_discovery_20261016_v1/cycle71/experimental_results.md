@@ -11,3 +11,18 @@ Source/data staging, one native execution qualification and a label/gradient iso
 |67-cycle coverage index | Hashed prior decision/registry excerpts | Prevents repeat acquisitions/experiments; not new scientific validation. |
 
 The source's auxiliary float32 standard-deviation diagnostic overflowed on an initial qualification, while primary means remained finite. Raw nonfinite diagnostics are retained explicitly. Formal mean-loss failures will stop execution and remain failures; no such event is silently converted to a passing score. Source learning curves and native blockVAL must be interpreted before any unknown-system or composition claim. Inference quality and selected-checkpoint open-loop evaluation remain future work under a separately frozen protocol.
+
+
+## Primary-source refinement, C71 v3
+
+This literature update adds no model-performance result. It verifies pinned author-source bytes and narrows claims. The three native subset fits and frozen common-history assessment remain in progress/queued as recorded in the current status snapshot; EVAL remains closed.
+
+
+## Runtime correction: C71 driver incident
+
+The earlier running snapshot is historical. The first fit terminated with Windows access violation 0xc0000005 at 06:14 UTC after epoch651; WER names nvcuda64.dll. The remaining seeds and free-VAL assessment did not launch. TRAINING_INCIDENT71_V1.json records terminal receipts and checkpoint verification. This is an execution failure; no model-performance or novelty conclusion follows. Resume verification is required before restarting the campaign.
+
+
+## Verified checkpoint continuation, C71
+
+RESUME_QUALIFICATION71_V2.json reports zero differences across174 tensors and all compared optimizer/RNG/shuffle/structure/metric values for uninterrupted versus resumed qualification runs. The first formal fit resumed from epoch650 under RECOVERY_PROTOCOL71_V1.md, preserving the original loop body and checkpoint grid. The recovered campaign and its new assessment queue have new process/receipt identities. See RECOVERY_SNAPSHOT71_V1.json for the bounded live state. Root cause of the NVIDIA-driver exception remains unestablished; no final model accuracy or research-direction claim is made.

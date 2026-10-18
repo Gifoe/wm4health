@@ -8,3 +8,18 @@
 - One execution qualification is not training sufficiency. Its very large initialVAL error cannot support a new framework or a stable deficiency. Formal curves and independent mechanism evidence are still needed.
 
 Engineering incidents are preserved: first SSH banner timeout, failed relay payload with32differing bytes/6numeric entries, first direct loader's removed private NumPy API, native cpu_threads text/int mismatch, and diagnostic standard-deviation overflow rejected by the first recorder. Direct server acquisition plus an independent public-source RAM hash confirms the selected TRAIN payload. No cause is assigned to the relay disagreement. These incidents are not model research findings.
+
+
+## Primary-source refinement, C71 v3
+
+Do not present the anisotropic slow-feature/higher-harmonic failure as a new discovery: LeJEPA appendix F explicitly treats it. A nonlinear latent chart followed by structured dynamics is already present in CIPHER v2. These are prior-art exclusions, not new failed fits or evidence against every representation-learning approach.
+
+
+## Runtime correction: C71 driver incident
+
+The earlier running snapshot is historical. The first fit terminated with Windows access violation 0xc0000005 at 06:14 UTC after epoch651; WER names nvcuda64.dll. The remaining seeds and free-VAL assessment did not launch. TRAINING_INCIDENT71_V1.json records terminal receipts and checkpoint verification. This is an execution failure; no model-performance or novelty conclusion follows. Resume verification is required before restarting the campaign.
+
+
+## Verified checkpoint continuation, C71
+
+RESUME_QUALIFICATION71_V2.json reports zero differences across174 tensors and all compared optimizer/RNG/shuffle/structure/metric values for uninterrupted versus resumed qualification runs. The first formal fit resumed from epoch650 under RECOVERY_PROTOCOL71_V1.md, preserving the original loop body and checkpoint grid. The recovered campaign and its new assessment queue have new process/receipt identities. See RECOVERY_SNAPSHOT71_V1.json for the bounded live state. Root cause of the NVIDIA-driver exception remains unestablished; no final model accuracy or research-direction claim is made.

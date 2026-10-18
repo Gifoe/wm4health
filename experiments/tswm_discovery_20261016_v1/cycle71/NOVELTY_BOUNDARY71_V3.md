@@ -1,0 +1,32 @@
+# Candidate refinement: primary-source checks while baseline training runs
+
+18 October 2026. Literature-based decisions below are distinct from this project's experiments. None establishes a newly observed model failure or a final research direction. The running three-seed campaign and its frozen assessment remain unchanged.
+
+## What existing work actually covers
+
+[Modular NRI, section 5.2](https://lis.csail.mit.edu/pubs/alet-neurips19.pdf): its unseen-node demonstration first trains a predictive model with true edges, then estimates the missing particle's initial state and rolls it forward. Thus, the earlier note that it already discusses hidden entities is correct, but should not be read as demonstrating joint discovery of arbitrary hidden states and interaction mechanisms without complete-data supervision. C71's present fits instead use fully observed states without true-edge supervision. Neither protocol is a general unknown-sensor experiment.
+
+[WM3C, ICLR 2025](https://arxiv.org/html/2505.08361v1), sections 2.1-2.2 and appendix A.5.2: components may depend on the entire preceding state, so reciprocal temporal dependence is already allowed. Identification requires an invertible smooth observation/reward mixing, conditional independence and sufficiently varying component-specific signals. The scope explicitly extends beyond language. Adaptation changes factorized representation/transition modules and other specified components; it is not a claim that every latent-state parameter stays frozen. Generic coupled modular dynamics or replacing words with numerical conditions is insufficient novelty.
+
+[World modeling through Lie Action](https://arxiv.org/html/2503.09911v1), sections 2-4: a shared latent group action already provides continuous, compositional transitions across environments, with separately learned control mappings. The stated setting is deterministic. A numerical time-series implementation of the same idea would be a transfer study unless a distinct remaining limitation and mechanism were demonstrated.
+
+[SIHA, September 2026](https://arxiv.org/html/2609.18045v1), sections 3-4 and appendix D.2: hidden trajectories and graph estimates are refined together. Fully observed trajectories provide hidden-state reconstruction supervision during training; deployment uses visible agents. Unknown cardinality is examined through a separate model-selection boundary analysis, not established as generally solved. Joint state/structure refinement is existing work; removing training supervision would also require observability and appropriate ordinary latent-state controls. No SIHA execution is claimed here.
+
+[When Does LeJEPA Learn a World Model?](https://arxiv.org/html/2605.26379v1), appendix F: the anisotropic slow-feature problem is explicitly analyzed and empirically acknowledged, including higher harmonics of a slow factor replacing a faster factor. Sequential extraction and an existing modified contrastive objective are discussed. Therefore a new toy showing slow-factor preference would repeat known evidence. Its released source is pinned separately; no new fits, performance reproduction or Lean proof compilation are claimed. Earlier C4/C20-C21 also rule out treating generic information loss as automatically requiring a new architecture.
+
+[CIPHER, version 2, 1 October 2026](https://arxiv.org/html/2605.16682v2), sections 2.2-2.4 and appendix A.2.8: predictive history encoding followed by a learned invertible nonlinear chart and structured dynamics is existing work. Its chart-absorption result equates unrestricted smooth state-dependent field classes; it does not make finite neural parameterizations or optimization equivalent. A proposed chart adapter must show a distinct practical learning/transfer advantage. Do not describe version 2 using version 1's affine-only formulation or earlier title.
+
+[Neural port-Hamiltonian DAEs](https://arxiv.org/html/2412.11215v2) already compose learned subsystem models with algebraic interconnection constraints. This prevents presenting bidirectional coupling or solver-aware physical module assembly alone as new. Its known structural setting differs from identifying arbitrary latent interfaces. No native execution is claimed here.
+
+## What these checks change
+
+| Candidate lineage | Current status | Next discriminating evidence |
+|---|---|---|
+| A: observation/dynamics reuse, refined from C41-C46 | Keep as a development question; no distinct new learning interaction yet. Generic observer-plus-graph inference, nonlinear chart learning and bidirectional coupling are covered. | Finish the competent baseline and frozen common-history controls. Any later sensor/mechanism-composition experiment needs a genuinely independent structural split and complete calibration/state-estimation controls. |
+| B: continual representation compatibility | Still provisional. Frozen modules, alignment and replay are established approaches; previously identified future-task encoder exposure is already acknowledged by the benchmark authors. | A concrete remaining compatibility deficit surviving ordinary alignment/replay and equal-information controls. |
+| C: capability measurement of reuse | Still provisional. C71's measured graph overlap is useful protocol evidence, not a novel evaluation framework. | Show an existing metric misclassifies a practically relevant capability across competent actual models; simple trajectory overlap is insufficient. |
+| Slow-feature or chart-only variants | Do not pursue as standalone new claims. | No extra reproduction solely to rediscover the explicitly published failure or coordinate identity. Reopen only with a different useful residual. |
+
+State identifiability, physical-coordinate recovery and predictive simulation are different targets. A representation's nonlinear geometry alone does not establish a simulation defect; a theory assumption's violation does not show a trained model fails. Conversely, the presence of a related paper does not prove arbitrary observation/dynamics composition is solved. The missing evidence must stay explicit.
+
+The decisive next work remains experimental: selected complete fits, history-only structure inference at two compute budgets, ordinary history-based prediction and a separately marked privileged graph diagnostic. C71's current split has mostly familiar graphs and cannot establish a new-composition claim. No test-set hyperparameters or training configuration are changed by this literature screen. Accepted final directions: zero.

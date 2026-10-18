@@ -11,3 +11,18 @@ Generic CCF-A ML venue family is assumed; no conference acceptance or readiness 
 A is the current development path because the actual relational baseline can be executed on the available5090 and checked against old composition evidence. B is a structurally different fallback. The overlap challenge prevents promoting simple ModularNRI+observer composition as new. The evidence challenge prevents treating row-disjoint spring trajectories as a held-out mechanism-combination benchmark. The training phase therefore prepares a baseline; it does not test or validate a new framework.
 
 Do not repeat DynaMix demos or the old linear sensor/system toy. Before a new-method comparison, fix the remaining mechanism, independent structural split and same-information ordinary controls. If those controls suffice, stop the new mechanism claim. No final research direction accepted.
+
+
+## Primary-source refinement, C71 v3
+
+Candidates A/B/C remain development routes with no accepted new mechanism. Retain optionality while excluding generic chart learning, bidirectional coupling and known slow-feature effects as standalone contributions. Next discriminating evidence is the already frozen complete-model free-simulation assessment, followed only if warranted by an independently specified structural-composition experiment.
+
+
+## Runtime correction: C71 driver incident
+
+The earlier running snapshot is historical. The first fit terminated with Windows access violation 0xc0000005 at 06:14 UTC after epoch651; WER names nvcuda64.dll. The remaining seeds and free-VAL assessment did not launch. TRAINING_INCIDENT71_V1.json records terminal receipts and checkpoint verification. This is an execution failure; no model-performance or novelty conclusion follows. Resume verification is required before restarting the campaign.
+
+
+## Verified checkpoint continuation, C71
+
+RESUME_QUALIFICATION71_V2.json reports zero differences across174 tensors and all compared optimizer/RNG/shuffle/structure/metric values for uninterrupted versus resumed qualification runs. The first formal fit resumed from epoch650 under RECOVERY_PROTOCOL71_V1.md, preserving the original loop body and checkpoint grid. The recovered campaign and its new assessment queue have new process/receipt identities. See RECOVERY_SNAPSHOT71_V1.json for the bounded live state. Root cause of the NVIDIA-driver exception remains unestablished; no final model accuracy or research-direction claim is made.

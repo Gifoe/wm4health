@@ -1,0 +1,63 @@
+{
+  "utc": "2026-10-18T06:41:37.531513+00:00",
+  "status": "RECOVERED_FORMAL_FIT_AND_ASSESSMENT_QUEUE_RUNNING_NOT_COMPLETE",
+  "live_processes": [
+    {
+      "ProcessId": 12756,
+      "CommandLine": "\"E:\\Anaconda\\envs\\salt_env\\python.exe\" -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\capture_campaign71_v4.py"
+    },
+    {
+      "ProcessId": 32528,
+      "CommandLine": "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\campaign71_v4.py"
+    },
+    {
+      "ProcessId": 25848,
+      "CommandLine": "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\capture_recovery71_v2.py formal"
+    },
+    {
+      "ProcessId": 43972,
+      "CommandLine": "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\resume_native71_v2.py formal"
+    },
+    {
+      "ProcessId": 40640,
+      "CommandLine": "\"E:\\Anaconda\\envs\\salt_env\\python.exe\" -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\capture_assessment71_v2.py queue"
+    },
+    {
+      "ProcessId": 43320,
+      "CommandLine": "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\queue_free_simulation71_v2.py"
+    }
+  ],
+  "progress": {
+    "utc": "2026-10-18T06:41:36.659916+00:00",
+    "tag": "formal_seed2026711_resumed_v2",
+    "epoch": 670,
+    "module_updates": 10736,
+    "proposal_updates": 10736,
+    "elapsed_seconds": 137.26659310000832,
+    "train_loss": 3.7661502574337646e-06,
+    "val_loss": 2.6914764021057636e-05,
+    "native_encoder_accuracy": 0.7955078125,
+    "native_structure_accuracy": 0.9837890625000001,
+    "gpu_peak_bytes": 2088598528,
+    "reserved_eval_rows_accessed": 0
+  },
+  "incident_sha256": "79d96cb74cd7abe93fb4bb2bfb3c4c824c53aa53219a768efb629b474252a48e",
+  "resume_qualification_sha256": "b60da9ecc86a2bb990424bfbf04d07e1161e1449f5a9a82e29660fee62039c5b",
+  "recovery_protocol_sha256": "0b58d1776608cab3263598a008466ee37c30802b96ce5cf47aa8a8276261b32d",
+  "source_audit_sha256": "d9d1e89b6b53cd9ffc65b5aea6fcf963bee72fd2f457f48f17d5783fae200e24",
+  "ledger_hashes": {
+    "literature_review.md": "b05b55d02dacdb61c7eef6baca8264c81d729956d3362543a43143e6ddcb5d19",
+    "baseline_registry.md": "b4fc36ad2887d82c799aae7d0a9e6e101f0af21797cfde48226e6c016582bb11",
+    "experimental_results.md": "43b334dac74a68c9b23ba70c446ddda9ba46ebba6554afb03a78eebb912e611e",
+    "negative_evidence.md": "36676284c18642165b1aa2fed2f80f65dd85db357186c2448d287020325a8586",
+    "hypothesis_space.md": "723364769a3f49995e85e4ced43cb343be247ed338f83af35f52b0ba87976967",
+    "research_ideas.md": "40d9a6c2d587c4dd58a1639e98a2d42dceb51590ba6166b7ce3c6a4c5c58db72",
+    "final_research_direction.md": "ae993f1568696e290e0757412b30031b83f59eb7fb87885dce424378ce6940f3"
+  },
+  "neural_free_val_assessment_started": false,
+  "driver_root_cause_verified": false,
+  "reserved_eval_scored": false,
+  "accepted_final_directions": 0,
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "local_result_data_or_model_files_written": 0
+}

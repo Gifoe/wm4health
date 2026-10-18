@@ -1,0 +1,85 @@
+{
+  "utc": "2026-10-18T06:33:10.461476+00:00",
+  "status": "DRIVER_ACCESS_VIOLATION_TERMINAL_CHECKPOINT_FINITE",
+  "fit_exit": {
+    "pid": 25904,
+    "exit_code": 3221225477,
+    "utc": "2026-10-18T06:14:46.970593+00:00",
+    "log_sha256": "51df32cff84a142d4723bca580b4b15baf313b2bd5e7f41f5d6988753a2ce85b"
+  },
+  "campaign_exit": {
+    "pid": 15404,
+    "exit_code": 1,
+    "utc": "2026-10-18T06:14:46.983593+00:00",
+    "log_sha256": "d800c8387fdedf0504bd0879e72ee1e8ec6259aefabad1767afc5bd3f18b833a"
+  },
+  "queue_exit": {
+    "pid": 34792,
+    "exit_code": 1,
+    "utc": "2026-10-18T06:14:46.988592+00:00",
+    "log_sha256": "05dd0c14ad51372abe45d0a46cf0e8449dc1b938f94017054f680748d3de43d6"
+  },
+  "windows_error_reporting_fault_module": "nvcuda64.dll",
+  "windows_error_reporting_module_version": "32.0.16.1656",
+  "exception_hex": "0xc0000005",
+  "root_cause": "Unestablished; WER identifies faulting NVIDIA driver module, not a model-loss failure",
+  "last_checkpoint": {
+    "epoch": 650,
+    "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle71\\formal_seed2026711_v3\\epoch00650.pt",
+    "sha256": "36a42f38f9bdcea8fc9556fa9d894cf0112ba346ed43aed15b639b65a5a1cf1f",
+    "val_loss": 2.85706264548935e-05,
+    "module_updates": 10416,
+    "proposal_updates": 10416
+  },
+  "checkpoint_keys": [
+    "epoch",
+    "seed",
+    "module_state",
+    "proposal_state",
+    "module_optimizer",
+    "proposal_optimizer",
+    "scheduler",
+    "torch_rng",
+    "cuda_rng",
+    "numpy_rng",
+    "python_rng",
+    "train_shuffle",
+    "val_shuffle",
+    "train_structures",
+    "val_structures",
+    "SA_running_acc_rate",
+    "SA_running_factor",
+    "metrics",
+    "module_updates",
+    "proposal_updates"
+  ],
+  "checkpoint_tensor_audit": {
+    "tensors": 174,
+    "nonfinite": 0
+  },
+  "annealing_temperature_exact_replay": {
+    "steps": 651,
+    "value": 4.702626333824232e-13,
+    "float64_hex": "0x1.08bbfce40ff5bp-41",
+    "trace_sha256": "a32589adc2d541c4be34f9c58a0c3e559f981acc934eff32a46647f8498c3356",
+    "log_sha256": "069f53653b099db07e2fa68d26d621556acc717995e58e58276d56dedde77288"
+  },
+  "last_completed_progress": {
+    "utc": "2026-10-18T06:14:37.571188+00:00",
+    "tag": "formal_seed2026711_v3",
+    "epoch": 651,
+    "module_updates": 10432,
+    "proposal_updates": 10432,
+    "elapsed_seconds": 2314.3666067000013,
+    "train_loss": 3.5412317629379686e-06,
+    "val_loss": 2.8641605240409262e-05,
+    "native_encoder_accuracy": 0.7939453125,
+    "native_structure_accuracy": 0.9826171875,
+    "gpu_peak_bytes": 2100618240,
+    "reserved_eval_rows_accessed": 0
+  },
+  "later_fit_seeds_started": false,
+  "neural_free_val_assessment_started": false,
+  "reserved_eval_rows_accessed": 0,
+  "accepted_final_directions": 0
+}
