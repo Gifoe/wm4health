@@ -1,0 +1,63 @@
+{
+  "utc": "2026-10-18T06:09:07.867127+00:00",
+  "status": "TRAIN_CALIBRATION_CLOSED_VAL_ASSESSMENT_QUEUED_NOT_EXECUTED",
+  "live_processes": [
+    {
+      "ProcessId": 38408,
+      "CommandLine": "\"E:\\Anaconda\\envs\\salt_env\\python.exe\" -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\capture71_v3.py campaign"
+    },
+    {
+      "ProcessId": 15404,
+      "CommandLine": "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\campaign71_v3.py"
+    },
+    {
+      "ProcessId": 25904,
+      "CommandLine": "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\train71_v3.py --seed 2026711"
+    },
+    {
+      "ProcessId": 42952,
+      "CommandLine": "\"E:\\Anaconda\\envs\\salt_env\\python.exe\" -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\capture_assessment71_v1.py queue"
+    },
+    {
+      "ProcessId": 34792,
+      "CommandLine": "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\queue_free_simulation71_v1.py"
+    }
+  ],
+  "progress": [
+    {
+      "utc": "2026-10-18T06:09:04.630584+00:00",
+      "tag": "formal_seed2026711_v3",
+      "epoch": 557,
+      "module_updates": 8928,
+      "proposal_updates": 8928,
+      "elapsed_seconds": 1981.426336000004,
+      "train_loss": 6.431783731386531e-06,
+      "val_loss": 4.128832370042801e-05,
+      "native_encoder_accuracy": 0.7943359375,
+      "native_structure_accuracy": 0.9759765625,
+      "gpu_peak_bytes": 2100618240,
+      "reserved_eval_rows_accessed": 0
+    }
+  ],
+  "queue": {
+    "utc": "2026-10-18T06:06:59.910032+00:00",
+    "status": "WAITING_ON_LIVE_CAMPAIGN_PROCESS_HANDLE",
+    "campaign_process": {
+      "ProcessId": 15404,
+      "CommandLine": "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\campaign71_v3.py"
+    },
+    "campaign_creation_filetime": 134367753610259603,
+    "protocol_sha256": "261b702e630543728475a187c13f110b1a97a6bd2ae9af66089db35a1a0299c3",
+    "evaluator_sha256": "a7c0ffab12752976c72c45d06977edef0c4982d96686e703d2f6ba8f15153769",
+    "calibration_sha256": "01196c84f8982b4e70002c60e793079ed79a8cf2a958a5c03fe4b61cb5729dc0",
+    "reserved_eval_rows_accessed": 0
+  },
+  "calibration_sha256": "01196c84f8982b4e70002c60e793079ed79a8cf2a958a5c03fe4b61cb5729dc0",
+  "numerical_audit_sha256": "8b2b87bf22d5a0568d50fa8498ca3640a32b63dc78b9bb7b12ab215cf9156ab8",
+  "graph_audit_sha256": "61dcaf2f95baab1c899ddd97ed3b6fde714298c21e5aca85fe496133dd70c389",
+  "neural_free_val_assessment_started": false,
+  "reserved_eval_scored": false,
+  "accepted_final_directions": 0,
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "local_result_data_or_model_files_written": 0
+}

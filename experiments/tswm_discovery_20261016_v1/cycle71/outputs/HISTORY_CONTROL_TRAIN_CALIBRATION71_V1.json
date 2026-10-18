@@ -1,0 +1,201 @@
+{
+  "utc": "2026-10-18T06:03:28.200189+00:00",
+  "status": "TRAIN_ONLY_HISTORY_CONTROLS_FIXED",
+  "source_data_sha256": "87ffbd8fc604c9087fc1ade73bbd659d403a569872235fa4588994f754634c53",
+  "protocol_sha256": "261b702e630543728475a187c13f110b1a97a6bd2ae9af66089db35a1a0299c3",
+  "implementation_sha256": "1b4b39212c2c7821e224e41e60331a882cda74b056c11f04829d311e0356ed45",
+  "qualification": {
+    "status": "PASS_INDEPENDENT_AFFINE_REGRESSION_AND_RECURSION",
+    "checks": [
+      {
+        "lag": 1,
+        "coefficient_max_abs": 2.1316282072803006e-14,
+        "rollout_max_abs": 1.7763568394002505e-15
+      },
+      {
+        "lag": 2,
+        "coefficient_max_abs": 1.2323475573339238e-14,
+        "rollout_max_abs": 1.5543122344752192e-15
+      }
+    ],
+    "performance_evidence": false
+  },
+  "train_rows": 2048,
+  "context_steps": 24,
+  "forecast_steps": 25,
+  "val_rows_accessed": 0,
+  "eval_rows_accessed": 0,
+  "alphas": [
+    1e-08,
+    1e-06,
+    0.0001,
+    0.01,
+    1.0,
+    100.0
+  ],
+  "grid_results": [
+    {
+      "lag": 1,
+      "alpha": 1e-08,
+      "mse": 4.2759938122709056e-07,
+      "divergent_rows": [],
+      "all_rows_counted": true,
+      "max_condition_number": 37652701846.879486
+    },
+    {
+      "lag": 1,
+      "alpha": 1e-06,
+      "mse": 7.858872971905899e-06,
+      "divergent_rows": [],
+      "all_rows_counted": true,
+      "max_condition_number": 392851576.9536235
+    },
+    {
+      "lag": 1,
+      "alpha": 0.0001,
+      "mse": 5.570538673650087e-05,
+      "divergent_rows": [],
+      "all_rows_counted": true,
+      "max_condition_number": 4272378.303459893
+    },
+    {
+      "lag": 1,
+      "alpha": 0.01,
+      "mse": 0.0005500763618180484,
+      "divergent_rows": [],
+      "all_rows_counted": true,
+      "max_condition_number": 53221.17426873174
+    },
+    {
+      "lag": 1,
+      "alpha": 1.0,
+      "mse": 0.006663190522226005,
+      "divergent_rows": [],
+      "all_rows_counted": true,
+      "max_condition_number": 899.9793107987871
+    },
+    {
+      "lag": 1,
+      "alpha": 100.0,
+      "mse": 0.01685186917454288,
+      "divergent_rows": [],
+      "all_rows_counted": true,
+      "max_condition_number": 166.27700610762594
+    },
+    {
+      "lag": 2,
+      "alpha": 1e-08,
+      "mse": 3.5057560032115755e-07,
+      "divergent_rows": [],
+      "all_rows_counted": true,
+      "max_condition_number": 142585500239.19507
+    },
+    {
+      "lag": 2,
+      "alpha": 1e-06,
+      "mse": 5.982459941518073e-06,
+      "divergent_rows": [],
+      "all_rows_counted": true,
+      "max_condition_number": 1492197353.144883
+    },
+    {
+      "lag": 2,
+      "alpha": 0.0001,
+      "mse": 3.456209077098453e-05,
+      "divergent_rows": [],
+      "all_rows_counted": true,
+      "max_condition_number": 16053400.63964429
+    },
+    {
+      "lag": 2,
+      "alpha": 0.01,
+      "mse": 0.00033359842525750613,
+      "divergent_rows": [],
+      "all_rows_counted": true,
+      "max_condition_number": 196257.7380131839
+    },
+    {
+      "lag": 2,
+      "alpha": 1.0,
+      "mse": 0.005695850940844851,
+      "divergent_rows": [],
+      "all_rows_counted": true,
+      "max_condition_number": 3338.2098710984105
+    },
+    {
+      "lag": 2,
+      "alpha": 100.0,
+      "mse": 0.015918329793359758,
+      "divergent_rows": [],
+      "all_rows_counted": true,
+      "max_condition_number": 249.90285558214057
+    }
+  ],
+  "selected": [
+    {
+      "lag": 1,
+      "alpha": 1e-08,
+      "mse": 4.2759938122709056e-07,
+      "divergent_rows": [],
+      "all_rows_counted": true,
+      "max_condition_number": 37652701846.879486
+    },
+    {
+      "lag": 2,
+      "alpha": 1e-08,
+      "mse": 3.5057560032115755e-07,
+      "divergent_rows": [],
+      "all_rows_counted": true,
+      "max_condition_number": 142585500239.19507
+    }
+  ],
+  "coordinate_mean": [
+    -0.03893461732361894,
+    -0.038742488441819864,
+    -0.0033175134527197617,
+    -0.004011661699206848,
+    -0.03683657982214112,
+    -0.043292045400293036,
+    -0.00010763561934156817,
+    -0.006181911737640127,
+    -0.03917687647933837,
+    -0.03546962805822514,
+    -0.004051353858315653,
+    -0.002123489698729866,
+    -0.035971186982120984,
+    -0.03941743372215009,
+    -0.003701235126478197,
+    0.001825639895177362,
+    -0.041247010495624445,
+    -0.03663910821871462,
+    4.503309896518577e-08,
+    -7.817041023006296e-05
+  ],
+  "coordinate_scale": [
+    0.19814053657152397,
+    0.19470037847085855,
+    0.22826132366469581,
+    0.22607610842598222,
+    0.19450750886422918,
+    0.19789237471978458,
+    0.2236395907939591,
+    0.2272551840774867,
+    0.1928182946828576,
+    0.19584573214989462,
+    0.2243947641316418,
+    0.22802477900845855,
+    0.19492734154018515,
+    0.19731825550031887,
+    0.22410042043615608,
+    0.2310246797879501,
+    0.19463923109498482,
+    0.19636015749608887,
+    0.2277586036414238,
+    0.22689228861678734
+  ],
+  "raw_artifact_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle71\\HISTORY_CONTROL_TRAIN_CALIBRATION71_V1.npz",
+  "raw_artifact_sha256": "2db8f2a46462733d142963b2cbe1799fa6137cbf9cbc1f6d386d05c423171f05",
+  "wall_seconds": 7.756240199989406,
+  "new_method": false,
+  "accepted_final_directions": 0
+}

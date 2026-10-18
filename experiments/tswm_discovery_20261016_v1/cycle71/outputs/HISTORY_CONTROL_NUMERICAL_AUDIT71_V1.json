@@ -1,0 +1,35 @@
+{
+  "utc": "2026-10-18T06:04:33.873676+00:00",
+  "status": "NUMERICAL_COMPARISON_RECORDED_NOT_A_NEW_METHOD",
+  "calibration_sha256": "01196c84f8982b4e70002c60e793079ed79a8cf2a958a5c03fe4b61cb5729dc0",
+  "checks": [
+    {
+      "lag": 1,
+      "alpha": 1e-08,
+      "worst_train_row": 1573,
+      "condition_number": 37652701846.879486,
+      "coefficient_max_abs": 2.5478950824164848e-08,
+      "forecast_max_abs": 8.50828851817198e-11,
+      "forecast_scaled_error": 8.50828851817198e-11,
+      "normal_equation_mse": 1.2729046564179302e-07,
+      "augmented_lstsq_mse": 1.2729047051086453e-07,
+      "relative_mse_difference": 3.825165776692297e-08
+    },
+    {
+      "lag": 2,
+      "alpha": 1e-08,
+      "worst_train_row": 1573,
+      "condition_number": 142585500239.19507,
+      "coefficient_max_abs": 6.664594791316869e-08,
+      "forecast_max_abs": 2.887887151636903e-10,
+      "forecast_scaled_error": 2.887887151636903e-10,
+      "normal_equation_mse": 8.944882447726656e-08,
+      "augmented_lstsq_mse": 8.944881703755619e-08,
+      "relative_mse_difference": 8.317282008267516e-08
+    }
+  ],
+  "train_rows": 2048,
+  "val_rows_accessed": 0,
+  "eval_rows_accessed": 0,
+  "accepted_final_directions": 0
+}
