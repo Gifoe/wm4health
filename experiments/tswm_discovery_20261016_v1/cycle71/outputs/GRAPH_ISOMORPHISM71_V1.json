@@ -1,0 +1,582 @@
+{
+  "utc": "2026-10-18T06:50:48.131264+00:00",
+  "status": "EXACT_TRAIN_VAL_STRUCTURE_ORBIT_AUDIT_CLOSED",
+  "script_sha256": "2c24045f30b8ff1890c5d010c904316daabf7f5e1ee0c9d109813b0a4067838a",
+  "source_config_sha256": "023988f1c95f37693d704c903f0db023325125768c944adb306729889b8416ea",
+  "source_train_edges_sha256": "a99f886f4b057fb95372218d78e0902c51eab8f6a6c11d643311f53ab0805f12",
+  "source_val_container_edges_sha256": "9b7d18a19fa6ad8c37a9d1b30b83712c77cb440466901409bd7d619c154fcfc3",
+  "train_rows": 2048,
+  "val_rows": 256,
+  "reserved_eval_rows_semantically_accessed": 0,
+  "forecasts_computed": 0,
+  "checkpoint_files_accessed": 0,
+  "equivalence": "All 120 node bijections preserving physical binary edge labels; no edge-color swap",
+  "n_nodes": 5,
+  "possible_labeled_undirected_graphs": 1024,
+  "possible_unlabeled_orbits": 34,
+  "train_distinct_labeled_graphs": 881,
+  "train_orbits": 34,
+  "val_distinct_labeled_graphs": 230,
+  "val_orbits": 33,
+  "val_rows_labeled_seen": 214,
+  "val_rows_isomorphic_seen": 256,
+  "val_rows_labeled_unseen_but_isomorphic_seen": 42,
+  "val_rows_genuinely_unseen_orbit": 0,
+  "val_isomorphic_seen_fraction": 1.0,
+  "independent_adjacency_enumeration_matches": true,
+  "complete_universe_partition_verified": true,
+  "orbit_counts": [
+    {
+      "canonical_code": 0,
+      "orbit_size": 1,
+      "edges": 0,
+      "sorted_degrees": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "train_rows": 1,
+      "val_rows": 0,
+      "train_distinct_labeled_graphs": 1,
+      "val_distinct_labeled_graphs": 0
+    },
+    {
+      "canonical_code": 1,
+      "orbit_size": 10,
+      "edges": 1,
+      "sorted_degrees": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "train_rows": 24,
+      "val_rows": 4,
+      "train_distinct_labeled_graphs": 8,
+      "val_distinct_labeled_graphs": 4
+    },
+    {
+      "canonical_code": 3,
+      "orbit_size": 30,
+      "edges": 2,
+      "sorted_degrees": [
+        0,
+        0,
+        1,
+        1,
+        2
+      ],
+      "train_rows": 60,
+      "val_rows": 11,
+      "train_distinct_labeled_graphs": 26,
+      "val_distinct_labeled_graphs": 9
+    },
+    {
+      "canonical_code": 7,
+      "orbit_size": 20,
+      "edges": 3,
+      "sorted_degrees": [
+        0,
+        1,
+        1,
+        1,
+        3
+      ],
+      "train_rows": 45,
+      "val_rows": 4,
+      "train_distinct_labeled_graphs": 17,
+      "val_distinct_labeled_graphs": 4
+    },
+    {
+      "canonical_code": 15,
+      "orbit_size": 5,
+      "edges": 4,
+      "sorted_degrees": [
+        1,
+        1,
+        1,
+        1,
+        4
+      ],
+      "train_rows": 7,
+      "val_rows": 1,
+      "train_distinct_labeled_graphs": 4,
+      "val_distinct_labeled_graphs": 1
+    },
+    {
+      "canonical_code": 19,
+      "orbit_size": 10,
+      "edges": 3,
+      "sorted_degrees": [
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "train_rows": 16,
+      "val_rows": 2,
+      "train_distinct_labeled_graphs": 8,
+      "val_distinct_labeled_graphs": 2
+    },
+    {
+      "canonical_code": 20,
+      "orbit_size": 15,
+      "edges": 2,
+      "sorted_degrees": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "train_rows": 20,
+      "val_rows": 3,
+      "train_distinct_labeled_graphs": 11,
+      "val_distinct_labeled_graphs": 3
+    },
+    {
+      "canonical_code": 21,
+      "orbit_size": 60,
+      "edges": 3,
+      "sorted_degrees": [
+        0,
+        1,
+        1,
+        2,
+        2
+      ],
+      "train_rows": 113,
+      "val_rows": 12,
+      "train_distinct_labeled_graphs": 49,
+      "val_distinct_labeled_graphs": 11
+    },
+    {
+      "canonical_code": 23,
+      "orbit_size": 60,
+      "edges": 4,
+      "sorted_degrees": [
+        0,
+        1,
+        2,
+        2,
+        3
+      ],
+      "train_rows": 117,
+      "val_rows": 14,
+      "train_distinct_labeled_graphs": 50,
+      "val_distinct_labeled_graphs": 13
+    },
+    {
+      "canonical_code": 28,
+      "orbit_size": 30,
+      "edges": 3,
+      "sorted_degrees": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "train_rows": 77,
+      "val_rows": 12,
+      "train_distinct_labeled_graphs": 27,
+      "val_distinct_labeled_graphs": 9
+    },
+    {
+      "canonical_code": 29,
+      "orbit_size": 60,
+      "edges": 4,
+      "sorted_degrees": [
+        1,
+        1,
+        1,
+        2,
+        3
+      ],
+      "train_rows": 111,
+      "val_rows": 18,
+      "train_distinct_labeled_graphs": 49,
+      "val_distinct_labeled_graphs": 15
+    },
+    {
+      "canonical_code": 31,
+      "orbit_size": 30,
+      "edges": 5,
+      "sorted_degrees": [
+        1,
+        1,
+        2,
+        2,
+        4
+      ],
+      "train_rows": 51,
+      "val_rows": 10,
+      "train_distinct_labeled_graphs": 25,
+      "val_distinct_labeled_graphs": 10
+    },
+    {
+      "canonical_code": 54,
+      "orbit_size": 15,
+      "edges": 4,
+      "sorted_degrees": [
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      "train_rows": 34,
+      "val_rows": 2,
+      "train_distinct_labeled_graphs": 13,
+      "val_distinct_labeled_graphs": 2
+    },
+    {
+      "canonical_code": 55,
+      "orbit_size": 30,
+      "edges": 5,
+      "sorted_degrees": [
+        0,
+        2,
+        2,
+        3,
+        3
+      ],
+      "train_rows": 63,
+      "val_rows": 5,
+      "train_distinct_labeled_graphs": 27,
+      "val_distinct_labeled_graphs": 5
+    },
+    {
+      "canonical_code": 58,
+      "orbit_size": 60,
+      "edges": 4,
+      "sorted_degrees": [
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "train_rows": 114,
+      "val_rows": 16,
+      "train_distinct_labeled_graphs": 51,
+      "val_distinct_labeled_graphs": 14
+    },
+    {
+      "canonical_code": 59,
+      "orbit_size": 60,
+      "edges": 5,
+      "sorted_degrees": [
+        1,
+        1,
+        2,
+        3,
+        3
+      ],
+      "train_rows": 130,
+      "val_rows": 14,
+      "train_distinct_labeled_graphs": 52,
+      "val_distinct_labeled_graphs": 13
+    },
+    {
+      "canonical_code": 62,
+      "orbit_size": 60,
+      "edges": 5,
+      "sorted_degrees": [
+        1,
+        2,
+        2,
+        2,
+        3
+      ],
+      "train_rows": 120,
+      "val_rows": 12,
+      "train_distinct_labeled_graphs": 54,
+      "val_distinct_labeled_graphs": 12
+    },
+    {
+      "canonical_code": 63,
+      "orbit_size": 60,
+      "edges": 6,
+      "sorted_degrees": [
+        1,
+        2,
+        2,
+        3,
+        4
+      ],
+      "train_rows": 131,
+      "val_rows": 20,
+      "train_distinct_labeled_graphs": 56,
+      "val_distinct_labeled_graphs": 17
+    },
+    {
+      "canonical_code": 126,
+      "orbit_size": 10,
+      "edges": 6,
+      "sorted_degrees": [
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "train_rows": 15,
+      "val_rows": 3,
+      "train_distinct_labeled_graphs": 8,
+      "val_distinct_labeled_graphs": 3
+    },
+    {
+      "canonical_code": 127,
+      "orbit_size": 10,
+      "edges": 7,
+      "sorted_degrees": [
+        2,
+        2,
+        2,
+        4,
+        4
+      ],
+      "train_rows": 16,
+      "val_rows": 1,
+      "train_distinct_labeled_graphs": 7,
+      "val_distinct_labeled_graphs": 1
+    },
+    {
+      "canonical_code": 183,
+      "orbit_size": 5,
+      "edges": 6,
+      "sorted_degrees": [
+        0,
+        3,
+        3,
+        3,
+        3
+      ],
+      "train_rows": 7,
+      "val_rows": 3,
+      "train_distinct_labeled_graphs": 4,
+      "val_distinct_labeled_graphs": 2
+    },
+    {
+      "canonical_code": 184,
+      "orbit_size": 10,
+      "edges": 4,
+      "sorted_degrees": [
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "train_rows": 24,
+      "val_rows": 5,
+      "train_distinct_labeled_graphs": 9,
+      "val_distinct_labeled_graphs": 4
+    },
+    {
+      "canonical_code": 185,
+      "orbit_size": 60,
+      "edges": 5,
+      "sorted_degrees": [
+        1,
+        2,
+        2,
+        2,
+        3
+      ],
+      "train_rows": 116,
+      "val_rows": 15,
+      "train_distinct_labeled_graphs": 48,
+      "val_distinct_labeled_graphs": 15
+    },
+    {
+      "canonical_code": 187,
+      "orbit_size": 60,
+      "edges": 6,
+      "sorted_degrees": [
+        1,
+        2,
+        3,
+        3,
+        3
+      ],
+      "train_rows": 120,
+      "val_rows": 10,
+      "train_distinct_labeled_graphs": 55,
+      "val_distinct_labeled_graphs": 8
+    },
+    {
+      "canonical_code": 191,
+      "orbit_size": 20,
+      "edges": 7,
+      "sorted_degrees": [
+        1,
+        3,
+        3,
+        3,
+        4
+      ],
+      "train_rows": 40,
+      "val_rows": 1,
+      "train_distinct_labeled_graphs": 19,
+      "val_distinct_labeled_graphs": 1
+    },
+    {
+      "canonical_code": 207,
+      "orbit_size": 15,
+      "edges": 6,
+      "sorted_degrees": [
+        2,
+        2,
+        2,
+        2,
+        4
+      ],
+      "train_rows": 30,
+      "val_rows": 4,
+      "train_distinct_labeled_graphs": 14,
+      "val_distinct_labeled_graphs": 3
+    },
+    {
+      "canonical_code": 220,
+      "orbit_size": 12,
+      "edges": 5,
+      "sorted_degrees": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "train_rows": 17,
+      "val_rows": 5,
+      "train_distinct_labeled_graphs": 11,
+      "val_distinct_labeled_graphs": 5
+    },
+    {
+      "canonical_code": 221,
+      "orbit_size": 60,
+      "edges": 6,
+      "sorted_degrees": [
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "train_rows": 132,
+      "val_rows": 15,
+      "train_distinct_labeled_graphs": 53,
+      "val_distinct_labeled_graphs": 13
+    },
+    {
+      "canonical_code": 223,
+      "orbit_size": 60,
+      "edges": 7,
+      "sorted_degrees": [
+        2,
+        2,
+        3,
+        3,
+        4
+      ],
+      "train_rows": 122,
+      "val_rows": 14,
+      "train_distinct_labeled_graphs": 50,
+      "val_distinct_labeled_graphs": 13
+    },
+    {
+      "canonical_code": 254,
+      "orbit_size": 30,
+      "edges": 7,
+      "sorted_degrees": [
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "train_rows": 65,
+      "val_rows": 6,
+      "train_distinct_labeled_graphs": 28,
+      "val_distinct_labeled_graphs": 5
+    },
+    {
+      "canonical_code": 255,
+      "orbit_size": 30,
+      "edges": 8,
+      "sorted_degrees": [
+        2,
+        3,
+        3,
+        4,
+        4
+      ],
+      "train_rows": 61,
+      "val_rows": 3,
+      "train_distinct_labeled_graphs": 25,
+      "val_distinct_labeled_graphs": 3
+    },
+    {
+      "canonical_code": 495,
+      "orbit_size": 15,
+      "edges": 8,
+      "sorted_degrees": [
+        3,
+        3,
+        3,
+        3,
+        4
+      ],
+      "train_rows": 29,
+      "val_rows": 4,
+      "train_distinct_labeled_graphs": 13,
+      "val_distinct_labeled_graphs": 4
+    },
+    {
+      "canonical_code": 511,
+      "orbit_size": 10,
+      "edges": 9,
+      "sorted_degrees": [
+        3,
+        3,
+        4,
+        4,
+        4
+      ],
+      "train_rows": 18,
+      "val_rows": 6,
+      "train_distinct_labeled_graphs": 8,
+      "val_distinct_labeled_graphs": 5
+    },
+    {
+      "canonical_code": 1023,
+      "orbit_size": 1,
+      "edges": 10,
+      "sorted_degrees": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "train_rows": 2,
+      "val_rows": 1,
+      "train_distinct_labeled_graphs": 1,
+      "val_distinct_labeled_graphs": 1
+    }
+  ],
+  "raw_artifact": {
+    "storage": "server artifact_root/cycle71/GRAPH_ISOMORPHISM71_V1.npz",
+    "sha256": "36d251ef3b28b7b0a00b618d7cad3a22d0bf60fe9335c371c02c6912d7df33da"
+  },
+  "interpretation": "Structure coverage only: node permutation does not equate continuous initial conditions, inference difficulty or forecast accuracy.",
+  "frozen_c71_forecast_protocol_changed": false,
+  "accepted_final_directions": 0,
+  "elapsed_seconds": 0.07727340000565164
+}

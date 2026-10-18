@@ -26,3 +26,8 @@ The earlier running snapshot is historical. The first fit terminated with Window
 ## Verified checkpoint continuation, C71
 
 RESUME_QUALIFICATION71_V2.json reports zero differences across174 tensors and all compared optimizer/RNG/shuffle/structure/metric values for uninterrupted versus resumed qualification runs. The first formal fit resumed from epoch650 under RECOVERY_PROTOCOL71_V1.md, preserving the original loop body and checkpoint grid. The recovered campaign and its new assessment queue have new process/receipt identities. See RECOVERY_SNAPSHOT71_V1.json for the bounded live state. Root cause of the NVIDIA-driver exception remains unestablished; no final model accuracy or research-direction claim is made.
+
+
+## Exact structure-orbit audit, C71
+
+GRAPH_ISOMORPHISM71_V1.json: 881 labeled TRAIN graphs cover34/34 possible node-permutation orbits. VAL has230 labeled graphs/33 orbits; 214/256 exact labeled overlaps, all42 remaining rows isomorphic to TRAIN. Unseen VAL orbits0. Exhaustive120-permutation and independent adjacency enumeration agree. No forecasts or EVAL rows were semantically accessed.

@@ -1,0 +1,5 @@
+# C71: topology coverage corrected; baseline training and research remain open
+
+The exact metadata audit finds TRAIN already covers all34 non-isomorphic five-node binary undirected graph structures. All42 VAL rows without an exact labeled-graph match are node permutations of TRAIN graphs; unseen VAL topology count0. See cycle71/STRUCTURE_ORBIT_FINDING71_V1.md and its closed machine-readable evidence. This does not measure prediction accuracy or prove memorization. The frozen three-fit competence/forecast protocol is unchanged; unseen-topology evidence would require a new pre-training orbit-disjoint split and new fits.
+
+The previous driver recovery and its exact continuation qualification remain documented in CURRENT_RESEARCH_STATUS_V71_RECOVERY.md. Live training state must be checked from actual process identities and current terminal receipts; neither status file is a completion claim. No final research direction accepted; full goal ACTIVE/UNACHIEVED. Reserved EVAL remains closed. Raw data, arrays and weights stay on the server; GitHub receives source, reports and compact closed evidence.

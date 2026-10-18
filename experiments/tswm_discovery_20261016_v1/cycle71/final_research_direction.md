@@ -30,3 +30,8 @@ The earlier running snapshot is historical. The first fit terminated with Window
 ## Verified checkpoint continuation, C71
 
 RESUME_QUALIFICATION71_V2.json reports zero differences across174 tensors and all compared optimizer/RNG/shuffle/structure/metric values for uninterrupted versus resumed qualification runs. The first formal fit resumed from epoch650 under RECOVERY_PROTOCOL71_V1.md, preserving the original loop body and checkpoint grid. The recovered campaign and its new assessment queue have new process/receipt identities. See RECOVERY_SNAPSHOT71_V1.json for the bounded live state. Root cause of the NVIDIA-driver exception remains unestablished; no final model accuracy or research-direction claim is made.
+
+
+## Exact structure-orbit audit, C71
+
+No final direction accepted. The new exact orbit audit rules out interpreting the current split or its42 label-hash-unseen leftovers as unseen-topology transfer: every VAL topology is already represented in TRAIN up to node permutation. The next live discriminator remains the unchanged complete-model free-simulation assessment. Any later topology claim needs an independently defined orbit-disjoint fit, not retrospective relabeling of this baseline.

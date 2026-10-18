@@ -26,3 +26,8 @@ The earlier running snapshot is historical. The first fit terminated with Window
 ## Verified checkpoint continuation, C71
 
 RESUME_QUALIFICATION71_V2.json reports zero differences across174 tensors and all compared optimizer/RNG/shuffle/structure/metric values for uninterrupted versus resumed qualification runs. The first formal fit resumed from epoch650 under RECOVERY_PROTOCOL71_V1.md, preserving the original loop body and checkpoint grid. The recovered campaign and its new assessment queue have new process/receipt identities. See RECOVERY_SNAPSHOT71_V1.json for the bounded live state. Root cause of the NVIDIA-driver exception remains unestablished; no final model accuracy or research-direction claim is made.
+
+
+## Exact structure-orbit audit, C71
+
+CandidateC cannot be rescued by graph-hash exclusion alone: all34 structural orbit types are already in TRAIN. For candidateA, a later claim about unseen topology requires a new fit with complete orbit exclusion before any shared representation/library/proposal training. This metadata rule is ordinary evaluation hygiene and supplies no distinct new learning mechanism. Continue the frozen competence assessment before committing to another composition experiment.
