@@ -1,0 +1,2125 @@
+{
+  "utc": "2026-10-18T13:01:37.228450+00:00",
+  "status": "POST_SCREEN_ORACLE_ATTRIBUTION_NOT_A_METHOD",
+  "protocol_sha256": "011a4ebd1415d07ec14fa59418d1e757eb3d4fc2751871b74709b747914a0edb",
+  "source_results_sha256": "90df2b1ab0d1923f3593ae8c1129a64f5149ae8e3aaf4fe5734650867ce62673",
+  "rows": [
+    {
+      "tag": "fhn0_s2026831_noise00",
+      "family": "fhn",
+      "noise_sigma": 0.0,
+      "initial_index": 0,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.5128633387463428,
+      "prediction_field_defect": 0.7182972178922866,
+      "reference_support_p95": 0.7935594828795578,
+      "prediction_support_p95": 0.9585325848023742,
+      "linearized_relative_error": 0.9769723267473022,
+      "linearized_actual_cosine": 0.2608092147039024,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 652,
+          "normalized_defect_rmse": 0.11886976787783987
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1767,
+          "normalized_defect_rmse": 0.7185039000504504
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 665,
+          "normalized_defect_rmse": 1.0231844338444385
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn0_s2026831_noise00_ic0_clamp0.npz",
+      "sha256": "ee5ab34c3a5fb615c3529f09b26d8209982bf6faff89868eb20110e69ef819d8"
+    },
+    {
+      "tag": "fhn0_s2026831_noise00",
+      "family": "fhn",
+      "noise_sigma": 0.0,
+      "initial_index": 0,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.5274318455792654,
+      "prediction_field_defect": 0.6686382931940107,
+      "reference_support_p95": 0.8855336711575752,
+      "prediction_support_p95": 0.9558284509632222,
+      "linearized_relative_error": 0.9083284591361489,
+      "linearized_actual_cosine": 0.43313750200758144,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 415,
+          "normalized_defect_rmse": 0.04433900018864758
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1462,
+          "normalized_defect_rmse": 0.7709417777087361
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 950,
+          "normalized_defect_rmse": 0.857670531539556
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn0_s2026831_noise00_ic0_clamp1.npz",
+      "sha256": "22f0cd5f75253b4ace5329281160335532ddb93009b38d7e3d22890da0174c8e"
+    },
+    {
+      "tag": "fhn0_s2026831_noise00",
+      "family": "fhn",
+      "noise_sigma": 0.0,
+      "initial_index": 1,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.41749067748283797,
+      "prediction_field_defect": 0.4082721707618953,
+      "reference_support_p95": 0.9765806900143305,
+      "prediction_support_p95": 1.0041762769958729,
+      "linearized_relative_error": 2.2770802296327224,
+      "linearized_actual_cosine": 0.47791276254333587,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 664,
+          "normalized_defect_rmse": 0.08938882221511543
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1351,
+          "normalized_defect_rmse": 0.2979096592795004
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 1069,
+          "normalized_defect_rmse": 1.0800480002182773
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn0_s2026831_noise00_ic1_clamp0.npz",
+      "sha256": "6eed098b1e62b3b9c01b1adcc24923dd9ece9213c97c32cb9db7204f73ec59ce"
+    },
+    {
+      "tag": "fhn0_s2026831_noise00",
+      "family": "fhn",
+      "noise_sigma": 0.0,
+      "initial_index": 1,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.3599685690366376,
+      "prediction_field_defect": 0.259507769058914,
+      "reference_support_p95": 0.9709639525349079,
+      "prediction_support_p95": 0.9374077104308799,
+      "linearized_relative_error": 3.2612095300067896,
+      "linearized_actual_cosine": 0.7566104497983497,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 459,
+          "normalized_defect_rmse": 0.04919974015573897
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1082,
+          "normalized_defect_rmse": 0.2404774411265898
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 1286,
+          "normalized_defect_rmse": 0.8871585044491967
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn0_s2026831_noise00_ic1_clamp1.npz",
+      "sha256": "d85454f1dd7120d5fb6eec44f52dedcb623fd5acebaf9a02562bcde70b1ecefa"
+    },
+    {
+      "tag": "fhn0_s2026831_noise03",
+      "family": "fhn",
+      "noise_sigma": 0.03,
+      "initial_index": 0,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.4158511318351461,
+      "prediction_field_defect": 0.720500909586328,
+      "reference_support_p95": 0.7501264039574083,
+      "prediction_support_p95": 0.936719795960887,
+      "linearized_relative_error": 0.9920033947131277,
+      "linearized_actual_cosine": 0.28369035068759274,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 884,
+          "normalized_defect_rmse": 0.19836670909882023
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1601,
+          "normalized_defect_rmse": 0.5504383325150508
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 599,
+          "normalized_defect_rmse": 0.9757646253677387
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn0_s2026831_noise03_ic0_clamp0.npz",
+      "sha256": "2b8373a95ccbdbcea0eb6a0cadc18ded2fe9f56181f9123003a8aca1de2bc1e8"
+    },
+    {
+      "tag": "fhn0_s2026831_noise03",
+      "family": "fhn",
+      "noise_sigma": 0.03,
+      "initial_index": 0,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.4186886167361444,
+      "prediction_field_defect": 0.6480541607822228,
+      "reference_support_p95": 0.8420007787172807,
+      "prediction_support_p95": 0.9325270559743252,
+      "linearized_relative_error": 0.9230606194914922,
+      "linearized_actual_cosine": 0.4417699336320325,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 621,
+          "normalized_defect_rmse": 0.15701164522344005
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1322,
+          "normalized_defect_rmse": 0.5846543616432477
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 884,
+          "normalized_defect_rmse": 0.8061052475034083
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn0_s2026831_noise03_ic0_clamp1.npz",
+      "sha256": "dd11014f4bc4ecd4e21d3c4b95edd683109d177c86b7166983766d4941742d26"
+    },
+    {
+      "tag": "fhn0_s2026831_noise03",
+      "family": "fhn",
+      "noise_sigma": 0.03,
+      "initial_index": 1,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.43959854746468835,
+      "prediction_field_defect": 0.3788716462812838,
+      "reference_support_p95": 0.9231892198804956,
+      "prediction_support_p95": 0.8763518774806363,
+      "linearized_relative_error": 1.731920359411638,
+      "linearized_actual_cosine": 0.5076908768422577,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 780,
+          "normalized_defect_rmse": 0.10127228862851052
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1430,
+          "normalized_defect_rmse": 0.31322020015459623
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 874,
+          "normalized_defect_rmse": 1.1978851907106243
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn0_s2026831_noise03_ic1_clamp0.npz",
+      "sha256": "cb1dda0b763ade69c0eba2cf5bd1b6ce2689db3bd6723afd3baa399e1ed46351"
+    },
+    {
+      "tag": "fhn0_s2026831_noise03",
+      "family": "fhn",
+      "noise_sigma": 0.03,
+      "initial_index": 1,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.35980372881084727,
+      "prediction_field_defect": 0.26465580349311585,
+      "reference_support_p95": 0.9199443110418132,
+      "prediction_support_p95": 0.9705811690279035,
+      "linearized_relative_error": 2.162424988480533,
+      "linearized_actual_cosine": 0.7296345085717281,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 546,
+          "normalized_defect_rmse": 0.06223519558785141
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1191,
+          "normalized_defect_rmse": 0.22611175105914072
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 1090,
+          "normalized_defect_rmse": 0.9116386130441438
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn0_s2026831_noise03_ic1_clamp1.npz",
+      "sha256": "91631ff6ceb73addee165211961e02ded4939eb4d8b839fb6bdf847df97a2715"
+    },
+    {
+      "tag": "fhn0_s2026832_noise00",
+      "family": "fhn",
+      "noise_sigma": 0.0,
+      "initial_index": 0,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.24801792968016667,
+      "prediction_field_defect": 0.290626658101691,
+      "reference_support_p95": 1.5958052877369604,
+      "prediction_support_p95": 1.2629887984096795,
+      "linearized_relative_error": 0.963120266938776,
+      "linearized_actual_cosine": 0.4709818697042319,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 584,
+          "normalized_defect_rmse": 0.06878003065085068
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1378,
+          "normalized_defect_rmse": 0.1864327052436362
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 1122,
+          "normalized_defect_rmse": 0.445562982370231
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn0_s2026832_noise00_ic0_clamp0.npz",
+      "sha256": "4d48a01e5c63347cf96b78126856d9e580adbd3576baf7fdddb28a766e87d22d"
+    },
+    {
+      "tag": "fhn0_s2026832_noise00",
+      "family": "fhn",
+      "noise_sigma": 0.0,
+      "initial_index": 0,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.22338306406037012,
+      "prediction_field_defect": 0.2785174962302641,
+      "reference_support_p95": 1.6231252425880442,
+      "prediction_support_p95": 1.2633143385238959,
+      "linearized_relative_error": 1.020268814585563,
+      "linearized_actual_cosine": 0.42971529333575537,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 698,
+          "normalized_defect_rmse": 0.06218647171700414
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1118,
+          "normalized_defect_rmse": 0.15886149685716366
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 1011,
+          "normalized_defect_rmse": 0.42973517551547896
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn0_s2026832_noise00_ic0_clamp1.npz",
+      "sha256": "7030eecbd3b7a77c3179f635369fd0bd32e52991edbb03cce1a6f8fca99ef920"
+    },
+    {
+      "tag": "fhn0_s2026832_noise00",
+      "family": "fhn",
+      "noise_sigma": 0.0,
+      "initial_index": 1,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.6404427109485419,
+      "prediction_field_defect": 0.6388190689343733,
+      "reference_support_p95": 0.8184919188537368,
+      "prediction_support_p95": 0.780764914625864,
+      "linearized_relative_error": 1.350300429373446,
+      "linearized_actual_cosine": 0.34762646698187677,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 350,
+          "normalized_defect_rmse": 0.05438320763492209
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1872,
+          "normalized_defect_rmse": 0.9324165877321138
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 862,
+          "normalized_defect_rmse": 1.0675519619163507
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn0_s2026832_noise00_ic1_clamp0.npz",
+      "sha256": "628a4d4fe64b5951383b04f3df1df96a40a8b58b8d194e55c63e863fa2207041"
+    },
+    {
+      "tag": "fhn0_s2026832_noise00",
+      "family": "fhn",
+      "noise_sigma": 0.0,
+      "initial_index": 1,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.4111251779802616,
+      "prediction_field_defect": 0.6436551499239967,
+      "reference_support_p95": 0.8513570805959084,
+      "prediction_support_p95": 0.9021409928822959,
+      "linearized_relative_error": 2.241009987836263,
+      "linearized_actual_cosine": 0.33886574078746695,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 358,
+          "normalized_defect_rmse": 0.19427896667279812
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1479,
+          "normalized_defect_rmse": 0.35959920469905754
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 990,
+          "normalized_defect_rmse": 0.9221320069017304
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn0_s2026832_noise00_ic1_clamp1.npz",
+      "sha256": "027f58c30de70aa2e32a73da629b4b048cb713c9daa2fa3a72519abc6b468fd3"
+    },
+    {
+      "tag": "fhn0_s2026832_noise03",
+      "family": "fhn",
+      "noise_sigma": 0.03,
+      "initial_index": 0,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.25604693136103623,
+      "prediction_field_defect": 0.33525611563127006,
+      "reference_support_p95": 1.5698008729139052,
+      "prediction_support_p95": 1.2496865018203118,
+      "linearized_relative_error": 0.7720937904123581,
+      "linearized_actual_cosine": 0.6575132142325602,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 764,
+          "normalized_defect_rmse": 0.12892089090313316
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1304,
+          "normalized_defect_rmse": 0.20162563193218286
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 1016,
+          "normalized_defect_rmse": 0.46746020196806415
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn0_s2026832_noise03_ic0_clamp0.npz",
+      "sha256": "270e486fe124d7ec5d04c47499f821e791bda3f3310d733b4244c2047a0b65ae"
+    },
+    {
+      "tag": "fhn0_s2026832_noise03",
+      "family": "fhn",
+      "noise_sigma": 0.03,
+      "initial_index": 0,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.22900142695393552,
+      "prediction_field_defect": 0.32870799804712303,
+      "reference_support_p95": 1.5797089546512977,
+      "prediction_support_p95": 1.2483768656600094,
+      "linearized_relative_error": 0.7760863174636634,
+      "linearized_actual_cosine": 0.6589490744000516,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 822,
+          "normalized_defect_rmse": 0.08329710278591279
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1078,
+          "normalized_defect_rmse": 0.18056567397941303
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 927,
+          "normalized_defect_rmse": 0.4445164999881989
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn0_s2026832_noise03_ic0_clamp1.npz",
+      "sha256": "9d7d1952723eda076a459577840b2fa5a29b00871a4bc06247704f7a3d07bdcf"
+    },
+    {
+      "tag": "fhn0_s2026832_noise03",
+      "family": "fhn",
+      "noise_sigma": 0.03,
+      "initial_index": 1,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.650520196770979,
+      "prediction_field_defect": 0.6718063587435797,
+      "reference_support_p95": 0.7741698187598542,
+      "prediction_support_p95": 0.7555499743163758,
+      "linearized_relative_error": 1.27295547735687,
+      "linearized_actual_cosine": 0.265095159594674,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 431,
+          "normalized_defect_rmse": 0.06936348438761698
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1940,
+          "normalized_defect_rmse": 1.0185621045621156
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 713,
+          "normalized_defect_rmse": 0.9474863808668377
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn0_s2026832_noise03_ic1_clamp0.npz",
+      "sha256": "c799946861f297683e9e83f597f1caa979dfc739b886d87bdbcb7d8ed92248d3"
+    },
+    {
+      "tag": "fhn0_s2026832_noise03",
+      "family": "fhn",
+      "noise_sigma": 0.03,
+      "initial_index": 1,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.4028971110155453,
+      "prediction_field_defect": 0.6239719402492789,
+      "reference_support_p95": 0.8163989296924287,
+      "prediction_support_p95": 0.8607929968142266,
+      "linearized_relative_error": 2.1402397777788464,
+      "linearized_actual_cosine": 0.2380745232987611,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 425,
+          "normalized_defect_rmse": 0.2063198314975235
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1571,
+          "normalized_defect_rmse": 0.41435275077218675
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 831,
+          "normalized_defect_rmse": 0.8627812679832951
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn0_s2026832_noise03_ic1_clamp1.npz",
+      "sha256": "4dfe69ffed0796b8ad6d97137b07da5f29d48a8bfead5f3a0e00b33f3da8048c"
+    },
+    {
+      "tag": "fhn1_s2026831_noise00",
+      "family": "fhn",
+      "noise_sigma": 0.0,
+      "initial_index": 0,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.1319788848441972,
+      "prediction_field_defect": 0.12323377868645495,
+      "reference_support_p95": 0.7051868632734785,
+      "prediction_support_p95": 0.7351450731185203,
+      "linearized_relative_error": 0.43566000826004847,
+      "linearized_actual_cosine": 0.9236261497723057,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1336,
+          "normalized_defect_rmse": 0.05500662323155983
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1218,
+          "normalized_defect_rmse": 0.15302058897913018
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 530,
+          "normalized_defect_rmse": 0.26547700922635764
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn1_s2026831_noise00_ic0_clamp0.npz",
+      "sha256": "33d3039227fe958e1be05f100cc195ed17cfb7c1f3e148cdfff5c25984404763"
+    },
+    {
+      "tag": "fhn1_s2026831_noise00",
+      "family": "fhn",
+      "noise_sigma": 0.0,
+      "initial_index": 0,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.20992149202288735,
+      "prediction_field_defect": 0.16901958581943555,
+      "reference_support_p95": 1.6504497703102796,
+      "prediction_support_p95": 1.3200667091539822,
+      "linearized_relative_error": 0.48362784992820396,
+      "linearized_actual_cosine": 0.9552284217230804,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1007,
+          "normalized_defect_rmse": 0.045009373049640686
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 767,
+          "normalized_defect_rmse": 0.12412174987975445
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 1053,
+          "normalized_defect_rmse": 0.3618411906017325
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn1_s2026831_noise00_ic0_clamp1.npz",
+      "sha256": "cfb77201dd70f28c66e8ef752ef7b49ee459144155fc0b49de57701004d7cf8a"
+    },
+    {
+      "tag": "fhn1_s2026831_noise00",
+      "family": "fhn",
+      "noise_sigma": 0.0,
+      "initial_index": 1,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.10259964987244853,
+      "prediction_field_defect": 0.09894086467284412,
+      "reference_support_p95": 0.6297805617037303,
+      "prediction_support_p95": 0.5962388588507831,
+      "linearized_relative_error": 0.2987008853740937,
+      "linearized_actual_cosine": 0.9635143102935722,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1445,
+          "normalized_defect_rmse": 0.04637710913499283
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1395,
+          "normalized_defect_rmse": 0.12726246007284242
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 244,
+          "normalized_defect_rmse": 0.2548136338917509
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn1_s2026831_noise00_ic1_clamp0.npz",
+      "sha256": "f09acb7cb5e8320eae455ee2772ed1b6f8a5d6723c8a7947d58242cb7f546f4e"
+    },
+    {
+      "tag": "fhn1_s2026831_noise00",
+      "family": "fhn",
+      "noise_sigma": 0.0,
+      "initial_index": 1,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.20030986232800221,
+      "prediction_field_defect": 0.13684343120522321,
+      "reference_support_p95": 1.2769072682265976,
+      "prediction_support_p95": 1.051763300639904,
+      "linearized_relative_error": 0.3503571382384079,
+      "linearized_actual_cosine": 0.9522470104428931,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1045,
+          "normalized_defect_rmse": 0.04570763963095541
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 961,
+          "normalized_defect_rmse": 0.09833892933516751
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 821,
+          "normalized_defect_rmse": 0.4372869094402961
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn1_s2026831_noise00_ic1_clamp1.npz",
+      "sha256": "cacd8f106189d9073f496808ca1428be1bdf2efdb9f75bd66f710e40f1d78351"
+    },
+    {
+      "tag": "fhn1_s2026831_noise03",
+      "family": "fhn",
+      "noise_sigma": 0.03,
+      "initial_index": 0,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.1517453335716453,
+      "prediction_field_defect": 0.13758412276706797,
+      "reference_support_p95": 0.6759442886718735,
+      "prediction_support_p95": 0.7688490543673464,
+      "linearized_relative_error": 0.3511862793932643,
+      "linearized_actual_cosine": 0.9425251948349525,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1534,
+          "normalized_defect_rmse": 0.07279176910190754
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1111,
+          "normalized_defect_rmse": 0.19910029232456677
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 439,
+          "normalized_defect_rmse": 0.2711588618999738
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn1_s2026831_noise03_ic0_clamp0.npz",
+      "sha256": "7c6430a4201d3df3b567819a8f8d12f91c636763ee0da17bfddc2f371d9d40da"
+    },
+    {
+      "tag": "fhn1_s2026831_noise03",
+      "family": "fhn",
+      "noise_sigma": 0.03,
+      "initial_index": 0,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.24860314407039838,
+      "prediction_field_defect": 0.21433266353243477,
+      "reference_support_p95": 1.6220496333305525,
+      "prediction_support_p95": 1.2279562249195217,
+      "linearized_relative_error": 0.4080012434325732,
+      "linearized_actual_cosine": 0.9651030057565069,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1084,
+          "normalized_defect_rmse": 0.060334754794558444
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 739,
+          "normalized_defect_rmse": 0.13730730677257322
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 1004,
+          "normalized_defect_rmse": 0.47321251681699933
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn1_s2026831_noise03_ic0_clamp1.npz",
+      "sha256": "a1603809b2a4fc367e47a85fca695318ac9f7ee442344ffb7419875ce2b873c8"
+    },
+    {
+      "tag": "fhn1_s2026831_noise03",
+      "family": "fhn",
+      "noise_sigma": 0.03,
+      "initial_index": 1,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.11351469017474704,
+      "prediction_field_defect": 0.1114459322741293,
+      "reference_support_p95": 0.6008793537902574,
+      "prediction_support_p95": 0.5664947329976415,
+      "linearized_relative_error": 0.2630857934435229,
+      "linearized_actual_cosine": 0.9670007778326746,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1575,
+          "normalized_defect_rmse": 0.06632126666303527
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1290,
+          "normalized_defect_rmse": 0.13694756060737392
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 219,
+          "normalized_defect_rmse": 0.2627049510640959
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn1_s2026831_noise03_ic1_clamp0.npz",
+      "sha256": "f62a7cf4f5a755e099fdcb6e0e4046ffe39be5149b7abf020720773a80eb6295"
+    },
+    {
+      "tag": "fhn1_s2026831_noise03",
+      "family": "fhn",
+      "noise_sigma": 0.03,
+      "initial_index": 1,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.21979627809403945,
+      "prediction_field_defect": 0.1713290884378372,
+      "reference_support_p95": 1.2166761354513544,
+      "prediction_support_p95": 1.0634703486632577,
+      "linearized_relative_error": 0.2780017920965718,
+      "linearized_actual_cosine": 0.9742465766106688,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1188,
+          "normalized_defect_rmse": 0.05970127951633699
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 850,
+          "normalized_defect_rmse": 0.11167144980032052
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 789,
+          "normalized_defect_rmse": 0.4877723782485804
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn1_s2026831_noise03_ic1_clamp1.npz",
+      "sha256": "9ddbd93508e054162544ca3c594b9dca164744155fadca0f1d5ddd0fdc86c3c0"
+    },
+    {
+      "tag": "fhn1_s2026832_noise00",
+      "family": "fhn",
+      "noise_sigma": 0.0,
+      "initial_index": 0,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.14183577763319635,
+      "prediction_field_defect": 0.1637939075026283,
+      "reference_support_p95": 0.6202630181224389,
+      "prediction_support_p95": 0.6564817073188525,
+      "linearized_relative_error": 0.333872803407914,
+      "linearized_actual_cosine": 0.9435170259663923,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1677,
+          "normalized_defect_rmse": 0.060931570420727936
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1188,
+          "normalized_defect_rmse": 0.15127929513991653
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 219,
+          "normalized_defect_rmse": 0.5466923314096956
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn1_s2026832_noise00_ic0_clamp0.npz",
+      "sha256": "d78fe97ccd3fe5a0a052bec4dcbd4c3d06def77b1a2201b35098b4c4787c03b2"
+    },
+    {
+      "tag": "fhn1_s2026832_noise00",
+      "family": "fhn",
+      "noise_sigma": 0.0,
+      "initial_index": 0,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.19483592515116996,
+      "prediction_field_defect": 0.2113258663891049,
+      "reference_support_p95": 1.448234947024588,
+      "prediction_support_p95": 1.2995227212320466,
+      "linearized_relative_error": 0.2638267786565139,
+      "linearized_actual_cosine": 0.9646987446160815,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1015,
+          "normalized_defect_rmse": 0.06818165242709948
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1200,
+          "normalized_defect_rmse": 0.1801995518991491
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 612,
+          "normalized_defect_rmse": 0.40101095943564197
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn1_s2026832_noise00_ic0_clamp1.npz",
+      "sha256": "1aba18ac41813ddff19c82bca14d3d084c3a723ec9c3ce77a1d8d947dbe55547"
+    },
+    {
+      "tag": "fhn1_s2026832_noise00",
+      "family": "fhn",
+      "noise_sigma": 0.0,
+      "initial_index": 1,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.13176773220320662,
+      "prediction_field_defect": 0.13106630242024975,
+      "reference_support_p95": 0.9144729425120471,
+      "prediction_support_p95": 0.8670101829181933,
+      "linearized_relative_error": 0.6417046372196947,
+      "linearized_actual_cosine": 0.9221054719947256,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1756,
+          "normalized_defect_rmse": 0.05751498346086783
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 891,
+          "normalized_defect_rmse": 0.12304469027488021
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 437,
+          "normalized_defect_rmse": 0.33267085371656663
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn1_s2026832_noise00_ic1_clamp0.npz",
+      "sha256": "3b262cf5a8d46aae0136496740bfe24f69e69854f6b3ef5f9e5512519fa4234e"
+    },
+    {
+      "tag": "fhn1_s2026832_noise00",
+      "family": "fhn",
+      "noise_sigma": 0.0,
+      "initial_index": 1,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.37875989872504134,
+      "prediction_field_defect": 1.4946912781427015,
+      "reference_support_p95": 2.703174485136062,
+      "prediction_support_p95": 4.208965574887463,
+      "linearized_relative_error": 0.6416393086534232,
+      "linearized_actual_cosine": 0.8025988718177909,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 759,
+          "normalized_defect_rmse": 0.04362108214146587
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 771,
+          "normalized_defect_rmse": 0.17446553813757382
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 1297,
+          "normalized_defect_rmse": 0.7980548709241386
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn1_s2026832_noise00_ic1_clamp1.npz",
+      "sha256": "3302a8f6d798fa281d8d58356755e74de35290a570e1c676417cc5aa42339f4d"
+    },
+    {
+      "tag": "fhn1_s2026832_noise03",
+      "family": "fhn",
+      "noise_sigma": 0.03,
+      "initial_index": 0,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.16533784616984518,
+      "prediction_field_defect": 0.19415376860149344,
+      "reference_support_p95": 0.5774425734851313,
+      "prediction_support_p95": 0.5951717128169911,
+      "linearized_relative_error": 0.33508853003272593,
+      "linearized_actual_cosine": 0.9429158110887107,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1840,
+          "normalized_defect_rmse": 0.10487670171083693
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1040,
+          "normalized_defect_rmse": 0.2017744591669789
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 204,
+          "normalized_defect_rmse": 0.5575526984682218
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn1_s2026832_noise03_ic0_clamp0.npz",
+      "sha256": "17bee6b61242f3e7223d75d015222b0f10c46b18eef49b74f4b0a9e577b5ea5c"
+    },
+    {
+      "tag": "fhn1_s2026832_noise03",
+      "family": "fhn",
+      "noise_sigma": 0.03,
+      "initial_index": 0,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.24520533721987148,
+      "prediction_field_defect": 0.23415737125151834,
+      "reference_support_p95": 1.4158998275031873,
+      "prediction_support_p95": 1.1852968110456645,
+      "linearized_relative_error": 0.29321088639994347,
+      "linearized_actual_cosine": 0.9708142823579221,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1125,
+          "normalized_defect_rmse": 0.09187729000039511
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 1126,
+          "normalized_defect_rmse": 0.2099242618636986
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 576,
+          "normalized_defect_rmse": 0.5275086856622597
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn1_s2026832_noise03_ic0_clamp1.npz",
+      "sha256": "732eb2706ceaf25ffe82bb7fcd0074a129af907b4db46cf908a488ac7e681138"
+    },
+    {
+      "tag": "fhn1_s2026832_noise03",
+      "family": "fhn",
+      "noise_sigma": 0.03,
+      "initial_index": 1,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.14254106048640594,
+      "prediction_field_defect": 0.14005353509142557,
+      "reference_support_p95": 0.8865102805809402,
+      "prediction_support_p95": 0.8362815834264733,
+      "linearized_relative_error": 0.6213321162163139,
+      "linearized_actual_cosine": 0.9153995112419344,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1970,
+          "normalized_defect_rmse": 0.08701928101507848
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 711,
+          "normalized_defect_rmse": 0.15613980232144511
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 403,
+          "normalized_defect_rmse": 0.3188448177282863
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn1_s2026832_noise03_ic1_clamp0.npz",
+      "sha256": "2328d40422e34b6afb1c54672a02ab5e66a280ef64a9bc067c1ac0bb102ef06d"
+    },
+    {
+      "tag": "fhn1_s2026832_noise03",
+      "family": "fhn",
+      "noise_sigma": 0.03,
+      "initial_index": 1,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.39750795044167225,
+      "prediction_field_defect": 0.7010374736722849,
+      "reference_support_p95": 2.6655906367527087,
+      "prediction_support_p95": 2.7858714419333364,
+      "linearized_relative_error": 0.42505467632085076,
+      "linearized_actual_cosine": 0.9105529673141539,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 840,
+          "normalized_defect_rmse": 0.052706989348930616
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 728,
+          "normalized_defect_rmse": 0.2022287626258677
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 1259,
+          "normalized_defect_rmse": 0.8288812063516589
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\fhn1_s2026832_noise03_ic1_clamp1.npz",
+      "sha256": "c967dac81aedb94fc8930aaa4048625c09ab207654effabb165ab7a2435e4ca5"
+    },
+    {
+      "tag": "hill0_s2026831_noise00",
+      "family": "hill",
+      "noise_sigma": 0.0,
+      "initial_index": 0,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.13321032468246194,
+      "prediction_field_defect": 0.113345610429912,
+      "reference_support_p95": 0.2900682469802151,
+      "prediction_support_p95": 0.24254352214005817,
+      "linearized_relative_error": 0.4690462276099614,
+      "linearized_actual_cosine": 0.9165871661421147,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1402,
+          "normalized_defect_rmse": 0.16352788145288571
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 383,
+          "normalized_defect_rmse": 0.17794353728402615
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 14,
+          "normalized_defect_rmse": 0.24994327186784962
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill0_s2026831_noise00_ic0_clamp0.npz",
+      "sha256": "612c836853c9dedde8bbee89baab560d2141c4d5c51c975110b85e1eacf62a12"
+    },
+    {
+      "tag": "hill0_s2026831_noise00",
+      "family": "hill",
+      "noise_sigma": 0.0,
+      "initial_index": 0,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.10581162203026313,
+      "prediction_field_defect": 0.1016597338347529,
+      "reference_support_p95": 0.39895856510300215,
+      "prediction_support_p95": 0.39551856787121337,
+      "linearized_relative_error": 0.1589870317229931,
+      "linearized_actual_cosine": 0.9873946894168149,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 743,
+          "normalized_defect_rmse": 0.11125367467895507
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 785,
+          "normalized_defect_rmse": 0.11557451239167263
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 14,
+          "normalized_defect_rmse": 0.3144393524297184
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill0_s2026831_noise00_ic0_clamp1.npz",
+      "sha256": "be0860bbaa8ad81ab993a0d1e02a2715a9df56f92bc626805802b32f28814403"
+    },
+    {
+      "tag": "hill0_s2026831_noise00",
+      "family": "hill",
+      "noise_sigma": 0.0,
+      "initial_index": 1,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.29087580565268933,
+      "prediction_field_defect": 0.22411792343918036,
+      "reference_support_p95": 0.49310764247637284,
+      "prediction_support_p95": 0.37790524848058654,
+      "linearized_relative_error": 0.8574724538968284,
+      "linearized_actual_cosine": 0.9457766000224733,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 943,
+          "normalized_defect_rmse": 0.10996528224336127
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 769,
+          "normalized_defect_rmse": 0.31962692196661496
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 87,
+          "normalized_defect_rmse": 1.0727680494254148
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill0_s2026831_noise00_ic1_clamp0.npz",
+      "sha256": "b4a24d342354b1ffb237e18dd6ce1b121d78b930e1256f560e891ce54bfd3ef3"
+    },
+    {
+      "tag": "hill0_s2026831_noise00",
+      "family": "hill",
+      "noise_sigma": 0.0,
+      "initial_index": 1,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.49627034683056054,
+      "prediction_field_defect": 0.36264488762087277,
+      "reference_support_p95": 0.6598126517345229,
+      "prediction_support_p95": 0.6249401632708548,
+      "linearized_relative_error": 0.7574399149743678,
+      "linearized_actual_cosine": 0.9729910374932639,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 438,
+          "normalized_defect_rmse": 0.13155109738466908
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 866,
+          "normalized_defect_rmse": 0.4506738476875413
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 238,
+          "normalized_defect_rmse": 1.2223288399028747
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill0_s2026831_noise00_ic1_clamp1.npz",
+      "sha256": "b36a4a104ae146e2d6908fc7989f9218b6702f3b8bee0089edec12bee4864a43"
+    },
+    {
+      "tag": "hill0_s2026831_noise03",
+      "family": "hill",
+      "noise_sigma": 0.03,
+      "initial_index": 0,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.11791996803034555,
+      "prediction_field_defect": 0.09775602876768429,
+      "reference_support_p95": 0.25809939739602145,
+      "prediction_support_p95": 0.2238758964224625,
+      "linearized_relative_error": 0.26189310040938196,
+      "linearized_actual_cosine": 0.9706241397946946,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1484,
+          "normalized_defect_rmse": 0.13857758813324958
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 302,
+          "normalized_defect_rmse": 0.14999449919820482
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 13,
+          "normalized_defect_rmse": 0.2847656495490101
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill0_s2026831_noise03_ic0_clamp0.npz",
+      "sha256": "63675237fea2a94e1dc58604033fbbeb01d132e943d355f151318c9465e96260"
+    },
+    {
+      "tag": "hill0_s2026831_noise03",
+      "family": "hill",
+      "noise_sigma": 0.03,
+      "initial_index": 0,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.10569959278649743,
+      "prediction_field_defect": 0.10163235921433635,
+      "reference_support_p95": 0.36050597791443495,
+      "prediction_support_p95": 0.33626237047007645,
+      "linearized_relative_error": 0.13986415639302807,
+      "linearized_actual_cosine": 0.9901745578789329,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 868,
+          "normalized_defect_rmse": 0.09338068894608907
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 661,
+          "normalized_defect_rmse": 0.1271593816584187
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 13,
+          "normalized_defect_rmse": 0.3856595350078574
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill0_s2026831_noise03_ic0_clamp1.npz",
+      "sha256": "ebbd4f824166382419787d9c61a6c3b39909ebff3d6b8ce104e14c2f1529e669"
+    },
+    {
+      "tag": "hill0_s2026831_noise03",
+      "family": "hill",
+      "noise_sigma": 0.03,
+      "initial_index": 1,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.2611678651931767,
+      "prediction_field_defect": 0.2135199722690647,
+      "reference_support_p95": 0.4624833606467392,
+      "prediction_support_p95": 0.4070969641676352,
+      "linearized_relative_error": 0.6701918513796582,
+      "linearized_actual_cosine": 0.9306218031683078,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1028,
+          "normalized_defect_rmse": 0.09524530519416999
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 701,
+          "normalized_defect_rmse": 0.3448703660145421
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 70,
+          "normalized_defect_rmse": 0.8233087500042177
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill0_s2026831_noise03_ic1_clamp0.npz",
+      "sha256": "daa37a4691ce4e0e3e04968a25caff4d59ce4f9b4fabd51e3cf6946a6befc9bc"
+    },
+    {
+      "tag": "hill0_s2026831_noise03",
+      "family": "hill",
+      "noise_sigma": 0.03,
+      "initial_index": 1,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.4097551649812825,
+      "prediction_field_defect": 0.33665281829929367,
+      "reference_support_p95": 0.6241534479481421,
+      "prediction_support_p95": 0.6158383646695522,
+      "linearized_relative_error": 0.4206457951789956,
+      "linearized_actual_cosine": 0.9721297345460838,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 599,
+          "normalized_defect_rmse": 0.15688581476550054
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 760,
+          "normalized_defect_rmse": 0.45152413335510944
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 183,
+          "normalized_defect_rmse": 0.8368634730110321
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill0_s2026831_noise03_ic1_clamp1.npz",
+      "sha256": "1ad1dfdd5056cd16c5417c23ad0ef16398f7e1ce9c288ad9f52f73796e02970c"
+    },
+    {
+      "tag": "hill0_s2026832_noise00",
+      "family": "hill",
+      "noise_sigma": 0.0,
+      "initial_index": 0,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.08759224606782233,
+      "prediction_field_defect": 0.09077022123159588,
+      "reference_support_p95": 0.3183013119531138,
+      "prediction_support_p95": 0.29426283631573147,
+      "linearized_relative_error": 0.22758391308784578,
+      "linearized_actual_cosine": 0.9808206765432229,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1205,
+          "normalized_defect_rmse": 0.08241335001278301
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 593,
+          "normalized_defect_rmse": 0.10281987662722673
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 1,
+          "normalized_defect_rmse": 0.4755726209620126
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill0_s2026832_noise00_ic0_clamp0.npz",
+      "sha256": "013b302c461235ef8abc77d0f71f866daec510bc5f45acac5e891ad545817641"
+    },
+    {
+      "tag": "hill0_s2026832_noise00",
+      "family": "hill",
+      "noise_sigma": 0.0,
+      "initial_index": 0,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.1671382547807996,
+      "prediction_field_defect": 0.14981347097074468,
+      "reference_support_p95": 0.28446332596547674,
+      "prediction_support_p95": 0.25743913485653047,
+      "linearized_relative_error": 0.2741724862713114,
+      "linearized_actual_cosine": 0.963340909347873,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1011,
+          "normalized_defect_rmse": 0.11948849877187986
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 525,
+          "normalized_defect_rmse": 0.26446998957379825
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 6,
+          "normalized_defect_rmse": 0.5702620779147682
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill0_s2026832_noise00_ic0_clamp1.npz",
+      "sha256": "253b4d4a0c17003ff4a8e17481be7c06c57669fc31478da9562d3bab44c135b5"
+    },
+    {
+      "tag": "hill0_s2026832_noise00",
+      "family": "hill",
+      "noise_sigma": 0.0,
+      "initial_index": 1,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.10993744650062573,
+      "prediction_field_defect": 0.10802294209538978,
+      "reference_support_p95": 0.23303057884142947,
+      "prediction_support_p95": 0.24782380149521752,
+      "linearized_relative_error": 0.2740328652491148,
+      "linearized_actual_cosine": 0.9817514188524307,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1344,
+          "normalized_defect_rmse": 0.07521432867550842
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 438,
+          "normalized_defect_rmse": 0.0791083584685576
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 17,
+          "normalized_defect_rmse": 1.154732858599548
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill0_s2026832_noise00_ic1_clamp0.npz",
+      "sha256": "1452a1358284e823a9a00cc46d7660035d70aab8fb500485e4fe513b1133d92f"
+    },
+    {
+      "tag": "hill0_s2026832_noise00",
+      "family": "hill",
+      "noise_sigma": 0.0,
+      "initial_index": 1,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.19511040647894426,
+      "prediction_field_defect": 0.19698880982673536,
+      "reference_support_p95": 0.35656037878571745,
+      "prediction_support_p95": 0.3589509740912034,
+      "linearized_relative_error": 0.30102539250256566,
+      "linearized_actual_cosine": 0.9633050384076334,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 932,
+          "normalized_defect_rmse": 0.13219319964455364
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 594,
+          "normalized_defect_rmse": 0.23147231736880752
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 16,
+          "normalized_defect_rmse": 1.2823638734646705
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill0_s2026832_noise00_ic1_clamp1.npz",
+      "sha256": "60bf92549f105b6e4e3c88667561993859bec462f62f2ca6d29a8f25204dd6b8"
+    },
+    {
+      "tag": "hill0_s2026832_noise03",
+      "family": "hill",
+      "noise_sigma": 0.03,
+      "initial_index": 0,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.09385670468696687,
+      "prediction_field_defect": 0.10073619969031747,
+      "reference_support_p95": 0.26826285330070515,
+      "prediction_support_p95": 0.24141138306681934,
+      "linearized_relative_error": 0.2355706306778042,
+      "linearized_actual_cosine": 0.9779800142453663,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1307,
+          "normalized_defect_rmse": 0.09151237087468507
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 492,
+          "normalized_defect_rmse": 0.10884015368823236
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 0,
+          "normalized_defect_rmse": null
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill0_s2026832_noise03_ic0_clamp0.npz",
+      "sha256": "d9077e51c9f99675b62df061915fa4af5a023d30c2875d271d689820265e3350"
+    },
+    {
+      "tag": "hill0_s2026832_noise03",
+      "family": "hill",
+      "noise_sigma": 0.03,
+      "initial_index": 0,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.16282686117036463,
+      "prediction_field_defect": 0.14709658032322706,
+      "reference_support_p95": 0.25207629905084294,
+      "prediction_support_p95": 0.21687701125514647,
+      "linearized_relative_error": 0.28261387753806305,
+      "linearized_actual_cosine": 0.9594719619914517,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1107,
+          "normalized_defect_rmse": 0.12611188371573753
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 431,
+          "normalized_defect_rmse": 0.2655356043438165
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 4,
+          "normalized_defect_rmse": 0.457317183658003
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill0_s2026832_noise03_ic0_clamp1.npz",
+      "sha256": "f674ca53ea01a7b202fe6f6dee1e2593bb68cf2cf3b63a7dfe467874add6fd36"
+    },
+    {
+      "tag": "hill0_s2026832_noise03",
+      "family": "hill",
+      "noise_sigma": 0.03,
+      "initial_index": 1,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.11531695066891619,
+      "prediction_field_defect": 0.11369933396803301,
+      "reference_support_p95": 0.1961362815907482,
+      "prediction_support_p95": 0.2092903497346214,
+      "linearized_relative_error": 0.27104298362979146,
+      "linearized_actual_cosine": 0.9803781562149841,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1466,
+          "normalized_defect_rmse": 0.07786741462643755
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 318,
+          "normalized_defect_rmse": 0.09590466319923094
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 15,
+          "normalized_defect_rmse": 1.2612270793224205
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill0_s2026832_noise03_ic1_clamp0.npz",
+      "sha256": "0058cbf1302438f6c65a3660b7694f9162a2d5b98362999a8e157271afb9ea45"
+    },
+    {
+      "tag": "hill0_s2026832_noise03",
+      "family": "hill",
+      "noise_sigma": 0.03,
+      "initial_index": 1,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.20574929771889616,
+      "prediction_field_defect": 0.18945708621854904,
+      "reference_support_p95": 0.32507218890323375,
+      "prediction_support_p95": 0.3328977885288776,
+      "linearized_relative_error": 0.33339923119722975,
+      "linearized_actual_cosine": 0.9529041879744967,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1063,
+          "normalized_defect_rmse": 0.15922068447710297
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 464,
+          "normalized_defect_rmse": 0.25151694265524416
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 15,
+          "normalized_defect_rmse": 1.3549309528039464
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill0_s2026832_noise03_ic1_clamp1.npz",
+      "sha256": "eacc991536aa26089a582063daf334100b13967ceda65c6affbe9e42615b43ec"
+    },
+    {
+      "tag": "hill1_s2026831_noise00",
+      "family": "hill",
+      "noise_sigma": 0.0,
+      "initial_index": 0,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.1841920395469055,
+      "prediction_field_defect": 0.15642361381663153,
+      "reference_support_p95": 0.12205722227150727,
+      "prediction_support_p95": 0.11308414313328806,
+      "linearized_relative_error": 0.1970462420651857,
+      "linearized_actual_cosine": 0.9816831744503997,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1662,
+          "normalized_defect_rmse": 0.2156654455977793
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 137,
+          "normalized_defect_rmse": 0.22768146152374322
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 0,
+          "normalized_defect_rmse": null
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill1_s2026831_noise00_ic0_clamp0.npz",
+      "sha256": "0271ca783fc52d96af7337893a911871490b14af46cd19ea3c109f4cad2ce34f"
+    },
+    {
+      "tag": "hill1_s2026831_noise00",
+      "family": "hill",
+      "noise_sigma": 0.0,
+      "initial_index": 0,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.45443672651282224,
+      "prediction_field_defect": 0.30437230145822436,
+      "reference_support_p95": 0.33155484002515323,
+      "prediction_support_p95": 0.3868976585117986,
+      "linearized_relative_error": 0.5979846267346325,
+      "linearized_actual_cosine": 0.9608540429702545,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 976,
+          "normalized_defect_rmse": 0.18921567023267705
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 566,
+          "normalized_defect_rmse": 1.0009394571206585
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 0,
+          "normalized_defect_rmse": null
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill1_s2026831_noise00_ic0_clamp1.npz",
+      "sha256": "299982310c9bc2f301752a95f96221681cd1d45cb6a93329758dcd361c6c55aa"
+    },
+    {
+      "tag": "hill1_s2026831_noise00",
+      "family": "hill",
+      "noise_sigma": 0.0,
+      "initial_index": 1,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.37003033675270636,
+      "prediction_field_defect": 0.22327302876727745,
+      "reference_support_p95": 0.44096446495437497,
+      "prediction_support_p95": 0.3507845568995422,
+      "linearized_relative_error": 1.471248943330214,
+      "linearized_actual_cosine": 0.6103516380960079,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 857,
+          "normalized_defect_rmse": 0.22898747160182548
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 878,
+          "normalized_defect_rmse": 0.6010323617821848
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 64,
+          "normalized_defect_rmse": 1.2054345908674733
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill1_s2026831_noise00_ic1_clamp0.npz",
+      "sha256": "d269f39cddc46b6e219b1d4d90a65ab1aee0527c45e23231391de728bea482aa"
+    },
+    {
+      "tag": "hill1_s2026831_noise00",
+      "family": "hill",
+      "noise_sigma": 0.0,
+      "initial_index": 1,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.2374009126701504,
+      "prediction_field_defect": 0.24004732797995343,
+      "reference_support_p95": 0.2882754986096743,
+      "prediction_support_p95": 0.2908857521207693,
+      "linearized_relative_error": 0.2507508321037714,
+      "linearized_actual_cosine": 0.9686521542405205,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 956,
+          "normalized_defect_rmse": 0.19242591878020865
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 584,
+          "normalized_defect_rmse": 0.3411757981380442
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 2,
+          "normalized_defect_rmse": 0.3126653933907175
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill1_s2026831_noise00_ic1_clamp1.npz",
+      "sha256": "bc1ce18a87a46e1119cfbc30a7eadaacf15905aff24106ce05d4cb1a3b61c3e6"
+    },
+    {
+      "tag": "hill1_s2026831_noise03",
+      "family": "hill",
+      "noise_sigma": 0.03,
+      "initial_index": 0,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.18042513855126682,
+      "prediction_field_defect": 0.1383097140489576,
+      "reference_support_p95": 0.08820472062627695,
+      "prediction_support_p95": 0.07410465944156114,
+      "linearized_relative_error": 0.23110478291375341,
+      "linearized_actual_cosine": 0.9731426747117958,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1727,
+          "normalized_defect_rmse": 0.2143390407494683
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 72,
+          "normalized_defect_rmse": 0.31204030258547694
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 0,
+          "normalized_defect_rmse": null
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill1_s2026831_noise03_ic0_clamp0.npz",
+      "sha256": "b90f6e780e55a2cc877aa8c538c4da33993b3f74ae55cec1733f7ad2b1f8fa62"
+    },
+    {
+      "tag": "hill1_s2026831_noise03",
+      "family": "hill",
+      "noise_sigma": 0.03,
+      "initial_index": 0,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.3959897409912407,
+      "prediction_field_defect": 0.2937391498779974,
+      "reference_support_p95": 0.3031837010079659,
+      "prediction_support_p95": 0.40289393017323716,
+      "linearized_relative_error": 0.4025510909488659,
+      "linearized_actual_cosine": 0.9636690426538482,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1139,
+          "normalized_defect_rmse": 0.27508927490118484
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 403,
+          "normalized_defect_rmse": 0.8599564371299492
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 0,
+          "normalized_defect_rmse": null
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill1_s2026831_noise03_ic0_clamp1.npz",
+      "sha256": "c8ea10e725d289b0d5620429d5a9777eecad49a1b42a7111b67fddd4de1bce41"
+    },
+    {
+      "tag": "hill1_s2026831_noise03",
+      "family": "hill",
+      "noise_sigma": 0.03,
+      "initial_index": 1,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.31556547735637547,
+      "prediction_field_defect": 0.21191613999293293,
+      "reference_support_p95": 0.4049907381072932,
+      "prediction_support_p95": 0.3293281177275957,
+      "linearized_relative_error": 0.9118893040230577,
+      "linearized_actual_cosine": 0.6931993772370814,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 993,
+          "normalized_defect_rmse": 0.20007802225012605
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 762,
+          "normalized_defect_rmse": 0.5378705712470833
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 44,
+          "normalized_defect_rmse": 0.891352817329788
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill1_s2026831_noise03_ic1_clamp0.npz",
+      "sha256": "20dda5633ad195cd3cc864532f1e65942c3b72d8dd566df27e7b98e972459a87"
+    },
+    {
+      "tag": "hill1_s2026831_noise03",
+      "family": "hill",
+      "noise_sigma": 0.03,
+      "initial_index": 1,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.23398634531448026,
+      "prediction_field_defect": 0.2520988101709987,
+      "reference_support_p95": 0.24865945249236113,
+      "prediction_support_p95": 0.245967476159441,
+      "linearized_relative_error": 0.2472478099048011,
+      "linearized_actual_cosine": 0.9701490144823632,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1121,
+          "normalized_defect_rmse": 0.20516785036859875
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 421,
+          "normalized_defect_rmse": 0.38483046921035224
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 0,
+          "normalized_defect_rmse": null
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill1_s2026831_noise03_ic1_clamp1.npz",
+      "sha256": "2247d32eab890e6636fd0d711a370868baded529aeaba584c8a8d2b2b01ef826"
+    },
+    {
+      "tag": "hill1_s2026832_noise00",
+      "family": "hill",
+      "noise_sigma": 0.0,
+      "initial_index": 0,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.19242514791919932,
+      "prediction_field_defect": 0.17625292285318275,
+      "reference_support_p95": 0.2882491615147924,
+      "prediction_support_p95": 0.24324059254978733,
+      "linearized_relative_error": 1.2336145698497283,
+      "linearized_actual_cosine": 0.5442250856667399,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1332,
+          "normalized_defect_rmse": 0.17378330522123067
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 467,
+          "normalized_defect_rmse": 0.27048389978311227
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 0,
+          "normalized_defect_rmse": null
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill1_s2026832_noise00_ic0_clamp0.npz",
+      "sha256": "1ad966095816f5f3b799fcca99e2739e9ddd4f21d66c196193df4c3b63d544d7"
+    },
+    {
+      "tag": "hill1_s2026832_noise00",
+      "family": "hill",
+      "noise_sigma": 0.0,
+      "initial_index": 0,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.38561222661848343,
+      "prediction_field_defect": 0.2340507768360053,
+      "reference_support_p95": 0.46159947587042965,
+      "prediction_support_p95": 0.426145715338925,
+      "linearized_relative_error": 1.2946459273415067,
+      "linearized_actual_cosine": 0.9557304279198402,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 478,
+          "normalized_defect_rmse": 0.2349732437720506
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 998,
+          "normalized_defect_rmse": 0.5650471508540669
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 66,
+          "normalized_defect_rmse": 1.1120377976736568
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill1_s2026832_noise00_ic0_clamp1.npz",
+      "sha256": "2bca92de82240b91d4528ad97931b4ecebcc4f05617242215f7c40652744ea9c"
+    },
+    {
+      "tag": "hill1_s2026832_noise00",
+      "family": "hill",
+      "noise_sigma": 0.0,
+      "initial_index": 1,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.1424604581225755,
+      "prediction_field_defect": 0.13956154905794957,
+      "reference_support_p95": 0.17640799933863802,
+      "prediction_support_p95": 0.1715789389181909,
+      "linearized_relative_error": 0.6293139001554156,
+      "linearized_actual_cosine": 0.9066892596850836,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1538,
+          "normalized_defect_rmse": 0.1427567551381002
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 261,
+          "normalized_defect_rmse": 0.1790642567165069
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 0,
+          "normalized_defect_rmse": null
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill1_s2026832_noise00_ic1_clamp0.npz",
+      "sha256": "202626c73a3087c46a288bb85002f07b033314c1fb8562edcec74ed2159203fb"
+    },
+    {
+      "tag": "hill1_s2026832_noise00",
+      "family": "hill",
+      "noise_sigma": 0.0,
+      "initial_index": 1,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.5011724178490514,
+      "prediction_field_defect": 0.34825864562898506,
+      "reference_support_p95": 0.449878644969063,
+      "prediction_support_p95": 0.44900429005506753,
+      "linearized_relative_error": 0.5958062980381462,
+      "linearized_actual_cosine": 0.9270378359839111,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 708,
+          "normalized_defect_rmse": 0.33142602908169927
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 786,
+          "normalized_defect_rmse": 1.0126074264601048
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 48,
+          "normalized_defect_rmse": 0.2534517049218213
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill1_s2026832_noise00_ic1_clamp1.npz",
+      "sha256": "2f55a84be69b2e100581b72bfa56b7d56a3b080336f505600d596620f34288b1"
+    },
+    {
+      "tag": "hill1_s2026832_noise03",
+      "family": "hill",
+      "noise_sigma": 0.03,
+      "initial_index": 0,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.1825524650977162,
+      "prediction_field_defect": 0.1807798901771736,
+      "reference_support_p95": 0.25396211404752594,
+      "prediction_support_p95": 0.22638402169147392,
+      "linearized_relative_error": 1.107691755870448,
+      "linearized_actual_cosine": 0.17529933378856238,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1427,
+          "normalized_defect_rmse": 0.17517980740932365
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 372,
+          "normalized_defect_rmse": 0.23963149826807897
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 0,
+          "normalized_defect_rmse": null
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill1_s2026832_noise03_ic0_clamp0.npz",
+      "sha256": "5c95772755621881f4b953a376a65da7a115e0e7bec9f86f17ade927314cb604"
+    },
+    {
+      "tag": "hill1_s2026832_noise03",
+      "family": "hill",
+      "noise_sigma": 0.03,
+      "initial_index": 0,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.3173999367516665,
+      "prediction_field_defect": 0.24825703674091426,
+      "reference_support_p95": 0.4206344072360088,
+      "prediction_support_p95": 0.40030684321027715,
+      "linearized_relative_error": 1.0501525113348384,
+      "linearized_actual_cosine": 0.9533030415186935,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 612,
+          "normalized_defect_rmse": 0.20901762190971693
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 875,
+          "normalized_defect_rmse": 0.4453867748428296
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 55,
+          "normalized_defect_rmse": 0.6714446436415996
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill1_s2026832_noise03_ic0_clamp1.npz",
+      "sha256": "c324911ad3da09e2c9879302480de5d8f23cc1d5312b086e287b1ec960b4faf1"
+    },
+    {
+      "tag": "hill1_s2026832_noise03",
+      "family": "hill",
+      "noise_sigma": 0.03,
+      "initial_index": 1,
+      "clamp": false,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.15257675644893906,
+      "prediction_field_defect": 0.15080166131911005,
+      "reference_support_p95": 0.1423552448009416,
+      "prediction_support_p95": 0.1280980912484349,
+      "linearized_relative_error": 0.6735128437848033,
+      "linearized_actual_cosine": 0.8257767269793487,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 1625,
+          "normalized_defect_rmse": 0.15090113552448187
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 174,
+          "normalized_defect_rmse": 0.19807607665197008
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 0,
+          "normalized_defect_rmse": null
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill1_s2026832_noise03_ic1_clamp0.npz",
+      "sha256": "f1e216e251c7ea8eb3fca6525ddca51b7bf5c7eb0bbc7a7b3557c713126206cc"
+    },
+    {
+      "tag": "hill1_s2026832_noise03",
+      "family": "hill",
+      "noise_sigma": 0.03,
+      "initial_index": 1,
+      "clamp": true,
+      "status": "COMPLETE_ORACLE_DIAGNOSTIC",
+      "reference_field_defect": 0.39650125417314913,
+      "prediction_field_defect": 0.3266759749419623,
+      "reference_support_p95": 0.4209942675391966,
+      "prediction_support_p95": 0.4140998819754117,
+      "linearized_relative_error": 0.6184542090379614,
+      "linearized_actual_cosine": 0.8632517300994742,
+      "reference_support_bins": [
+        {
+          "bin": "near_0_.1",
+          "coordinates": 867,
+          "normalized_defect_rmse": 0.2681938961736051
+        },
+        {
+          "bin": "mid_.1_.5",
+          "coordinates": 638,
+          "normalized_defect_rmse": 0.7536343687283044
+        },
+        {
+          "bin": "far_above_.5",
+          "coordinates": 37,
+          "normalized_defect_rmse": 0.26568017036183417
+        }
+      ],
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle83\\attribution_v1\\hill1_s2026832_noise03_ic1_clamp1.npz",
+      "sha256": "75290808e59e178acc30c81b45f0dc7182eb3fdec26bbb95818cd9f68018b262"
+    }
+  ],
+  "analytic_jacobian_checks": 64,
+  "jacobian_max_abs": 4.2734171756819705e-10,
+  "wall_seconds": 110.767457799986,
+  "unavailable_truth_used_for_attribution_only": true,
+  "accepted_final_directions": 0
+}

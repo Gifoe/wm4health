@@ -1,0 +1,11 @@
+# C83 post-screen attribution contract
+
+Specified after two complete tasks were seen, before the path-level quantities below were computed. This is diagnostic analysis of the frozen C83 models, not a new method, new hyperparameter search, or confirmatory independent test. Preserve this timing explicitly.
+
+Keep every C83 model and selection unchanged. For each finished native free/clamped trajectory, evaluate the unchanged composed field at all reference states and all predicted states. Compare field defects using a shared coordinate denominator: std of the true field along the reference path, floored1e-12. Report reference-path and predicted-path defects, context-nearest-neighbor distance, and defect stratified by fixed local-support distance bins [0,.1],(.1,.5],(.5,infinity). These bins are descriptive, not calibrated certificates.
+
+For all native trajectories with complete finite predictions, also solve the classical first-order error equation `d delta/dt = J_true(y_reference(t))*delta + (f_hat(y_reference(t))-f_true(y_reference(t)))`, delta(0)=0, using independently coded analytic Jacobians and linear interpolation on the257 reference samples. Clamp row0 and defect0 are zero. This uses unavailable true future states/equations and is strictly an oracle attribution diagnostic; it is not a forecasting baseline or a proposed deployable method. Compare this linearized error with actual prediction-minus-reference error, excluding the clamped coordinate.
+
+Interpretation: large in-context field errors weaken a claim of a special composition failure. Small reference-path defects with large actual trajectory errors indicate an amplification/extrapolation question, but ordinary perturbation theory may already explain it. Agreement with the linearized equation supports classical sensitivity as an explanation, not a new mechanism. Disagreement does not prove a novel effect; linearization and sample-grid interpolation are approximations. Ordinary models and known true-family advantages remain visible. No accepted research gap follows automatically from either outcome.
+
+No model changes, new trajectories, resampled initial states, or modified evaluation parameters. Source arrays remain server-only. Publish compact diagnostics with provenance if verified.

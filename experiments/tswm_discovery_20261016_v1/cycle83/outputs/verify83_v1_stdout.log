@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "D:\tswm_discovery_20261016_v1\cycle83\scripts\verify83_v1.py", line 67, in <module>
+    if __name__=='__main__':main()
+  File "D:\tswm_discovery_20261016_v1\cycle83\scripts\verify83_v1.py", line 44, in main
+    with np.load(fr['path'],allow_pickle=False) as a:error=float(abs(nf-a['prediction']).max());assert error==0.;native.append(dict(tag=tag,max_abs=error))
+AssertionError
