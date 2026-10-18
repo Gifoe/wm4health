@@ -1,0 +1,394 @@
+{
+  "utc": "2026-10-18T08:55:33.566535+00:00",
+  "status": "PASS_INDEPENDENT_COMPANION_ROLLOUT_AND_ALL_DEV_METRICS",
+  "canonical_result_sha256": "11ca08898f6ad778be857b16f5c7239e1f8db05a4a83ac84da656a4c2edbe1a4",
+  "data_manifest_sha256": "ef7eefa0107c7cb22ef5f28cec0b2bc6a4cf50a2aeeb1ad445b4fa8df070acde",
+  "companion_checks": [
+    {
+      "case": "EMPS_DATA_EMPS",
+      "lag": 4,
+      "origin": 20128,
+      "max_abs": 4.440892098500626e-16,
+      "scaled": 4.440892098500626e-16
+    },
+    {
+      "case": "EMPS_DATA_EMPS",
+      "lag": 4,
+      "origin": 24480,
+      "max_abs": 3.1086244689504383e-15,
+      "scaled": 2.4399021016851336e-15
+    },
+    {
+      "case": "EMPS_DATA_EMPS",
+      "lag": 16,
+      "origin": 20128,
+      "max_abs": 3.885780586188048e-16,
+      "scaled": 3.885780586188048e-16
+    },
+    {
+      "case": "EMPS_DATA_EMPS",
+      "lag": 16,
+      "origin": 24480,
+      "max_abs": 6.661338147750939e-16,
+      "scaled": 5.145163920737958e-16
+    },
+    {
+      "case": "EMPS_DATA_EMPS",
+      "lag": 64,
+      "origin": 20128,
+      "max_abs": 3.0531133177191805e-16,
+      "scaled": 3.0531133177191805e-16
+    },
+    {
+      "case": "EMPS_DATA_EMPS",
+      "lag": 64,
+      "origin": 24480,
+      "max_abs": 1.7763568394002505e-15,
+      "scaled": 1.4095930265374478e-15
+    },
+    {
+      "case": "F16Data_FullMSine_Level1",
+      "lag": 4,
+      "origin": 59238,
+      "max_abs": 4.996003610813204e-16,
+      "scaled": 4.996003610813204e-16
+    },
+    {
+      "case": "F16Data_FullMSine_Level1",
+      "lag": 4,
+      "origin": 73574,
+      "max_abs": 2.7755575615628914e-16,
+      "scaled": 2.7755575615628914e-16
+    },
+    {
+      "case": "F16Data_FullMSine_Level3",
+      "lag": 4,
+      "origin": 59238,
+      "max_abs": 7.771561172376096e-16,
+      "scaled": 5.970955352921033e-16
+    },
+    {
+      "case": "F16Data_FullMSine_Level3",
+      "lag": 4,
+      "origin": 73574,
+      "max_abs": 6.661338147750939e-16,
+      "scaled": 6.648290432804873e-16
+    },
+    {
+      "case": "F16Data_FullMSine_Level5",
+      "lag": 4,
+      "origin": 59238,
+      "max_abs": 1.5543122344752192e-15,
+      "scaled": 6.50935608089654e-16
+    },
+    {
+      "case": "F16Data_FullMSine_Level5",
+      "lag": 4,
+      "origin": 73574,
+      "max_abs": 2.4424906541753444e-15,
+      "scaled": 1.219833178732716e-15
+    },
+    {
+      "case": "F16Data_FullMSine_Level7",
+      "lag": 4,
+      "origin": 59238,
+      "max_abs": 1.9984014443252818e-15,
+      "scaled": 6.642320986161414e-16
+    },
+    {
+      "case": "F16Data_FullMSine_Level7",
+      "lag": 4,
+      "origin": 73574,
+      "max_abs": 1.9984014443252818e-15,
+      "scaled": 7.566154872942495e-16
+    },
+    {
+      "case": "F16Data_SineSw_Level1",
+      "lag": 4,
+      "origin": 87037,
+      "max_abs": 1.3877787807814457e-16,
+      "scaled": 1.3877787807814457e-16
+    },
+    {
+      "case": "F16Data_SineSw_Level1",
+      "lag": 4,
+      "origin": 108285,
+      "max_abs": 4.743384504624082e-19,
+      "scaled": 4.743384504624082e-19
+    },
+    {
+      "case": "F16Data_SineSw_Level3",
+      "lag": 4,
+      "origin": 87037,
+      "max_abs": 5.551115123125783e-16,
+      "scaled": 5.551115123125783e-16
+    },
+    {
+      "case": "F16Data_SineSw_Level3",
+      "lag": 4,
+      "origin": 108285,
+      "max_abs": 4.743384504624082e-19,
+      "scaled": 4.743384504624082e-19
+    },
+    {
+      "case": "F16Data_SineSw_Level5",
+      "lag": 4,
+      "origin": 87037,
+      "max_abs": 1.1102230246251565e-15,
+      "scaled": 1.1014264511275695e-15
+    },
+    {
+      "case": "F16Data_SineSw_Level5",
+      "lag": 4,
+      "origin": 108285,
+      "max_abs": 4.743384504624082e-19,
+      "scaled": 4.743384504624082e-19
+    },
+    {
+      "case": "F16Data_SineSw_Level7",
+      "lag": 4,
+      "origin": 87037,
+      "max_abs": 1.7763568394002505e-15,
+      "scaled": 1.2511884951982725e-15
+    },
+    {
+      "case": "F16Data_SineSw_Level7",
+      "lag": 4,
+      "origin": 108285,
+      "max_abs": 2.220446049250313e-16,
+      "scaled": 2.220446049250313e-16
+    },
+    {
+      "case": "F16Data_FullMSine_Level1",
+      "lag": 16,
+      "origin": 59238,
+      "max_abs": 7.771561172376096e-16,
+      "scaled": 7.771561172376096e-16
+    },
+    {
+      "case": "F16Data_FullMSine_Level1",
+      "lag": 16,
+      "origin": 73574,
+      "max_abs": 4.440892098500626e-16,
+      "scaled": 4.440892098500626e-16
+    },
+    {
+      "case": "F16Data_FullMSine_Level3",
+      "lag": 16,
+      "origin": 59238,
+      "max_abs": 2.4424906541753444e-15,
+      "scaled": 1.3826610187017427e-15
+    },
+    {
+      "case": "F16Data_FullMSine_Level3",
+      "lag": 16,
+      "origin": 73574,
+      "max_abs": 2.7755575615628914e-15,
+      "scaled": 2.7755575615628914e-15
+    },
+    {
+      "case": "F16Data_FullMSine_Level5",
+      "lag": 16,
+      "origin": 59238,
+      "max_abs": 5.329070518200751e-15,
+      "scaled": 2.0184070320605107e-15
+    },
+    {
+      "case": "F16Data_FullMSine_Level5",
+      "lag": 16,
+      "origin": 73574,
+      "max_abs": 1.9984014443252818e-15,
+      "scaled": 9.82117860906624e-16
+    },
+    {
+      "case": "F16Data_FullMSine_Level7",
+      "lag": 16,
+      "origin": 59238,
+      "max_abs": 4.440892098500626e-15,
+      "scaled": 1.1782279049362253e-15
+    },
+    {
+      "case": "F16Data_FullMSine_Level7",
+      "lag": 16,
+      "origin": 73574,
+      "max_abs": 4.218847493575595e-15,
+      "scaled": 1.5544751613485432e-15
+    },
+    {
+      "case": "F16Data_SineSw_Level1",
+      "lag": 16,
+      "origin": 87037,
+      "max_abs": 9.020562075079397e-17,
+      "scaled": 9.020562075079397e-17
+    },
+    {
+      "case": "F16Data_SineSw_Level1",
+      "lag": 16,
+      "origin": 108285,
+      "max_abs": 3.3881317890172014e-19,
+      "scaled": 3.3881317890172014e-19
+    },
+    {
+      "case": "F16Data_SineSw_Level3",
+      "lag": 16,
+      "origin": 87037,
+      "max_abs": 3.885780586188048e-16,
+      "scaled": 3.885780586188048e-16
+    },
+    {
+      "case": "F16Data_SineSw_Level3",
+      "lag": 16,
+      "origin": 108285,
+      "max_abs": 3.3881317890172014e-19,
+      "scaled": 3.3881317890172014e-19
+    },
+    {
+      "case": "F16Data_SineSw_Level5",
+      "lag": 16,
+      "origin": 87037,
+      "max_abs": 9.992007221626409e-16,
+      "scaled": 9.992007221626409e-16
+    },
+    {
+      "case": "F16Data_SineSw_Level5",
+      "lag": 16,
+      "origin": 108285,
+      "max_abs": 3.3881317890172014e-19,
+      "scaled": 3.3881317890172014e-19
+    },
+    {
+      "case": "F16Data_SineSw_Level7",
+      "lag": 16,
+      "origin": 87037,
+      "max_abs": 2.1094237467877974e-15,
+      "scaled": 1.829894013381555e-15
+    },
+    {
+      "case": "F16Data_SineSw_Level7",
+      "lag": 16,
+      "origin": 108285,
+      "max_abs": 2.914335439641036e-16,
+      "scaled": 2.914335439641036e-16
+    },
+    {
+      "case": "F16Data_FullMSine_Level1",
+      "lag": 64,
+      "origin": 59238,
+      "max_abs": 1.0547118733938987e-15,
+      "scaled": 1.0547118733938987e-15
+    },
+    {
+      "case": "F16Data_FullMSine_Level1",
+      "lag": 64,
+      "origin": 73574,
+      "max_abs": 7.216449660063518e-16,
+      "scaled": 7.216449660063518e-16
+    },
+    {
+      "case": "F16Data_FullMSine_Level3",
+      "lag": 64,
+      "origin": 59238,
+      "max_abs": 2.886579864025407e-15,
+      "scaled": 1.399698969207622e-15
+    },
+    {
+      "case": "F16Data_FullMSine_Level3",
+      "lag": 64,
+      "origin": 73574,
+      "max_abs": 3.1086244689504383e-15,
+      "scaled": 2.5369200248627755e-15
+    },
+    {
+      "case": "F16Data_FullMSine_Level5",
+      "lag": 64,
+      "origin": 59238,
+      "max_abs": 2.886579864025407e-15,
+      "scaled": 9.853812620214306e-16
+    },
+    {
+      "case": "F16Data_FullMSine_Level5",
+      "lag": 64,
+      "origin": 73574,
+      "max_abs": 6.716849298982197e-15,
+      "scaled": 2.655252906821887e-15
+    },
+    {
+      "case": "F16Data_FullMSine_Level7",
+      "lag": 64,
+      "origin": 59238,
+      "max_abs": 1.0658141036401503e-14,
+      "scaled": 2.69800297134461e-15
+    },
+    {
+      "case": "F16Data_FullMSine_Level7",
+      "lag": 64,
+      "origin": 73574,
+      "max_abs": 4.107825191113079e-15,
+      "scaled": 1.2457318252032217e-15
+    },
+    {
+      "case": "F16Data_SineSw_Level1",
+      "lag": 64,
+      "origin": 87037,
+      "max_abs": 2.2898349882893854e-16,
+      "scaled": 2.2898349882893854e-16
+    },
+    {
+      "case": "F16Data_SineSw_Level1",
+      "lag": 64,
+      "origin": 108285,
+      "max_abs": 6.776263578034403e-19,
+      "scaled": 6.776263578034403e-19
+    },
+    {
+      "case": "F16Data_SineSw_Level3",
+      "lag": 64,
+      "origin": 87037,
+      "max_abs": 1.3877787807814457e-15,
+      "scaled": 1.3877787807814457e-15
+    },
+    {
+      "case": "F16Data_SineSw_Level3",
+      "lag": 64,
+      "origin": 108285,
+      "max_abs": 6.776263578034403e-19,
+      "scaled": 6.776263578034403e-19
+    },
+    {
+      "case": "F16Data_SineSw_Level5",
+      "lag": 64,
+      "origin": 87037,
+      "max_abs": 2.6645352591003757e-15,
+      "scaled": 2.4697945856389176e-15
+    },
+    {
+      "case": "F16Data_SineSw_Level5",
+      "lag": 64,
+      "origin": 108285,
+      "max_abs": 6.776263578034403e-19,
+      "scaled": 6.776263578034403e-19
+    },
+    {
+      "case": "F16Data_SineSw_Level7",
+      "lag": 64,
+      "origin": 87037,
+      "max_abs": 3.1086244689504383e-15,
+      "scaled": 2.1300508400714103e-15
+    },
+    {
+      "case": "F16Data_SineSw_Level7",
+      "lag": 64,
+      "origin": 108285,
+      "max_abs": 2.498001805406602e-16,
+      "scaled": 2.498001805406602e-16
+    }
+  ],
+  "max_companion_abs": 1.0658141036401503e-14,
+  "max_saved_target_difference": 0.0,
+  "forecast_value_rows_rechecked": 372480,
+  "per_system_method_rows": 10,
+  "official_test_numeric_values_parsed": false,
+  "accepted_final_directions": 0,
+  "local_result_files_written": 0,
+  "wall_seconds": 0.1263275999808684
+}

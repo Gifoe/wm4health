@@ -1,0 +1,12 @@
+{"status": "NINE_ORIGINAL_TRAIN_RECORDS_QUALIFIED_OFFICIAL_TEST_NUMERICS_CLOSED", "records": 9, "train_points": 602924, "dev_origins": 582, "sampling_times": {"EMPS": [0.0010000240583173613], "F16": [0.0025]}, "history_files_checked": 136, "wall_seconds": 1.257176699989941}
+{"dataset": "EMPS", "method": "ridge_arx_lag4", "normalized_rmse": 0.051000862138599105, "normalized_mae": 0.039966076919923266, "failed_records": 0}
+{"dataset": "EMPS", "method": "ridge_arx_lag16", "normalized_rmse": 0.05061563623065678, "normalized_mae": 0.04258808712814693, "failed_records": 0}
+{"dataset": "EMPS", "method": "ridge_arx_lag64", "normalized_rmse": 0.02069353111778895, "normalized_mae": 0.016152736736639202, "failed_records": 0}
+{"dataset": "EMPS", "method": "persistence", "normalized_rmse": 0.08562861073049656, "normalized_mae": 0.06812610171182756, "failed_records": 0}
+{"dataset": "EMPS", "method": "train_mean", "normalized_rmse": 0.9566687338741948, "normalized_mae": 0.8357561230647765, "failed_records": 0}
+{"dataset": "F16", "method": "ridge_arx_lag4", "normalized_rmse": 0.48065770010503683, "normalized_mae": 0.3174973498299181, "failed_records": 0}
+{"dataset": "F16", "method": "ridge_arx_lag16", "normalized_rmse": 0.38428570214991375, "normalized_mae": 0.2415503587983638, "failed_records": 0}
+{"dataset": "F16", "method": "ridge_arx_lag64", "normalized_rmse": 0.3356509386871195, "normalized_mae": 0.2004499090425666, "failed_records": 0}
+{"dataset": "F16", "method": "persistence", "normalized_rmse": 1.250291647794584, "normalized_mae": 0.7732045437127844, "failed_records": 0}
+{"dataset": "F16", "method": "train_mean", "normalized_rmse": 0.8737369315127359, "normalized_mae": 0.5783997337429165, "failed_records": 0}
+{"status": "SIX_ORDINARY_ARX_TRAIN_FITS_AND_DEV_FREE_ROLLOUTS_CLOSED", "selected": {"EMPS": "ridge_arx_lag64", "F16": "ridge_arx_lag64"}, "wall_seconds": 4.992303200007882}

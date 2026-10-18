@@ -1,0 +1,1384 @@
+{
+  "utc": "2026-10-18T08:53:09.347409+00:00",
+  "status": "NINE_ORIGINAL_TRAIN_RECORDS_QUALIFIED_OFFICIAL_TEST_NUMERICS_CLOSED",
+  "data_receipt_sha256": "a82f35bbea9e8183d54e50bdf6662edebab5cfd757eea72e0cad993976469a09",
+  "records": [
+    {
+      "dataset": "EMPS",
+      "case": "EMPS_DATA_EMPS",
+      "length": 24841,
+      "train_end_exclusive": 19872,
+      "dev_gap": 256,
+      "context": 128,
+      "horizon": 128,
+      "stride": 256,
+      "dev_origins": [
+        20128,
+        20384,
+        20640,
+        20896,
+        21152,
+        21408,
+        21664,
+        21920,
+        22176,
+        22432,
+        22688,
+        22944,
+        23200,
+        23456,
+        23712,
+        23968,
+        24224,
+        24480
+      ],
+      "sampling_time": 0.0010000240583173613,
+      "clock": {
+        "first_interval": 0.0010000240583173613,
+        "mean_interval": 0.001,
+        "min_interval": 0.0009999839611189998,
+        "max_interval": 0.0010000240583174502,
+        "resampled": false
+      },
+      "source_member": {
+        "member": "DATA_EMPS.mat",
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle74\\EMPS\\training_members\\DATA_EMPS.mat",
+        "bytes": 626039,
+        "sha256": "6cf6814ae14618795da0101aae2bb97ff0c6351b0501b5492751b02b07facf7e",
+        "crc32": "8de4f21c"
+      },
+      "channels": {
+        "input": "vir",
+        "output": "qm",
+        "unit_status": "Raw released source units; no magnitude-based inference",
+        "input_role": "recorded feedback motor-force path, provided conditionally"
+      },
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle74\\canonical_training_v2\\EMPS_DATA_EMPS.npz",
+      "array_sha256": "f2cf0203d770b0db061a567b6a36e7a63c56697f79f15b66740c64610208d907",
+      "mat_variables": [
+        {
+          "name": "gtau",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "kp",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "kv",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "qg",
+          "shape": [
+            24841,
+            1
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "qm",
+          "shape": [
+            24841,
+            1
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "t",
+          "shape": [
+            24841,
+            1
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "vir",
+          "shape": [
+            24841,
+            1
+          ],
+          "dtype": "double"
+        }
+      ]
+    },
+    {
+      "dataset": "F16",
+      "case": "F16Data_FullMSine_Level1",
+      "length": 73728,
+      "train_end_exclusive": 58982,
+      "dev_gap": 256,
+      "context": 128,
+      "horizon": 128,
+      "stride": 256,
+      "dev_origins": [
+        59238,
+        59494,
+        59750,
+        60006,
+        60262,
+        60518,
+        60774,
+        61030,
+        61286,
+        61542,
+        61798,
+        62054,
+        62310,
+        62566,
+        62822,
+        63078,
+        63334,
+        63590,
+        63846,
+        64102,
+        64358,
+        64614,
+        64870,
+        65126,
+        65382,
+        65638,
+        65894,
+        66150,
+        66406,
+        66662,
+        66918,
+        67174,
+        67430,
+        67686,
+        67942,
+        68198,
+        68454,
+        68710,
+        68966,
+        69222,
+        69478,
+        69734,
+        69990,
+        70246,
+        70502,
+        70758,
+        71014,
+        71270,
+        71526,
+        71782,
+        72038,
+        72294,
+        72550,
+        72806,
+        73062,
+        73318,
+        73574
+      ],
+      "sampling_time": 0.0025,
+      "clock": {
+        "source": "Fs scalar",
+        "interval": 0.0025,
+        "resampled": false
+      },
+      "source_member": {
+        "member": "F16GVT_Files/BenchmarkData/F16Data_FullMSine_Level1.mat",
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle74\\F16\\training_members\\F16Data_FullMSine_Level1.mat",
+        "bytes": 2790773,
+        "sha256": "30e7bec7115a117f1391466c1dce34d05c673054fd1a862c441bd4d45dc19b2b",
+        "crc32": "ac77e479"
+      },
+      "channels": {
+        "input": "Force",
+        "output": "Acceleration[0,:]",
+        "unit_status": "Raw released source units; no magnitude-based inference",
+        "input_role": "measured shaker-force path, provided conditionally"
+      },
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle74\\canonical_training_v2\\F16Data_FullMSine_Level1.npz",
+      "array_sha256": "2702b72630010b6d32acca6d582b4110c437bcbdc7be30a463d85dc9da8f8d6b",
+      "mat_variables": [
+        {
+          "name": "Force",
+          "shape": [
+            1,
+            73728
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Voltage",
+          "shape": [
+            1,
+            73728
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Acceleration",
+          "shape": [
+            3,
+            73728
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Fs",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "double"
+        }
+      ]
+    },
+    {
+      "dataset": "F16",
+      "case": "F16Data_FullMSine_Level3",
+      "length": 73728,
+      "train_end_exclusive": 58982,
+      "dev_gap": 256,
+      "context": 128,
+      "horizon": 128,
+      "stride": 256,
+      "dev_origins": [
+        59238,
+        59494,
+        59750,
+        60006,
+        60262,
+        60518,
+        60774,
+        61030,
+        61286,
+        61542,
+        61798,
+        62054,
+        62310,
+        62566,
+        62822,
+        63078,
+        63334,
+        63590,
+        63846,
+        64102,
+        64358,
+        64614,
+        64870,
+        65126,
+        65382,
+        65638,
+        65894,
+        66150,
+        66406,
+        66662,
+        66918,
+        67174,
+        67430,
+        67686,
+        67942,
+        68198,
+        68454,
+        68710,
+        68966,
+        69222,
+        69478,
+        69734,
+        69990,
+        70246,
+        70502,
+        70758,
+        71014,
+        71270,
+        71526,
+        71782,
+        72038,
+        72294,
+        72550,
+        72806,
+        73062,
+        73318,
+        73574
+      ],
+      "sampling_time": 0.0025,
+      "clock": {
+        "source": "Fs scalar",
+        "interval": 0.0025,
+        "resampled": false
+      },
+      "source_member": {
+        "member": "F16GVT_Files/BenchmarkData/F16Data_FullMSine_Level3.mat",
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle74\\F16\\training_members\\F16Data_FullMSine_Level3.mat",
+        "bytes": 2592010,
+        "sha256": "f06fcb7cc0486b50352c1d3a7045617ab24cad8fbe0f282c27baba1c3d139839",
+        "crc32": "1f4bfda7"
+      },
+      "channels": {
+        "input": "Force",
+        "output": "Acceleration[0,:]",
+        "unit_status": "Raw released source units; no magnitude-based inference",
+        "input_role": "measured shaker-force path, provided conditionally"
+      },
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle74\\canonical_training_v2\\F16Data_FullMSine_Level3.npz",
+      "array_sha256": "04acfcc65e73f04e9101cc6e5bfeeb5239ca1b81dfb840384c6840c176ef792f",
+      "mat_variables": [
+        {
+          "name": "Force",
+          "shape": [
+            1,
+            73728
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Voltage",
+          "shape": [
+            1,
+            73728
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Acceleration",
+          "shape": [
+            3,
+            73728
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Fs",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "double"
+        }
+      ]
+    },
+    {
+      "dataset": "F16",
+      "case": "F16Data_FullMSine_Level5",
+      "length": 73728,
+      "train_end_exclusive": 58982,
+      "dev_gap": 256,
+      "context": 128,
+      "horizon": 128,
+      "stride": 256,
+      "dev_origins": [
+        59238,
+        59494,
+        59750,
+        60006,
+        60262,
+        60518,
+        60774,
+        61030,
+        61286,
+        61542,
+        61798,
+        62054,
+        62310,
+        62566,
+        62822,
+        63078,
+        63334,
+        63590,
+        63846,
+        64102,
+        64358,
+        64614,
+        64870,
+        65126,
+        65382,
+        65638,
+        65894,
+        66150,
+        66406,
+        66662,
+        66918,
+        67174,
+        67430,
+        67686,
+        67942,
+        68198,
+        68454,
+        68710,
+        68966,
+        69222,
+        69478,
+        69734,
+        69990,
+        70246,
+        70502,
+        70758,
+        71014,
+        71270,
+        71526,
+        71782,
+        72038,
+        72294,
+        72550,
+        72806,
+        73062,
+        73318,
+        73574
+      ],
+      "sampling_time": 0.0025,
+      "clock": {
+        "source": "Fs scalar",
+        "interval": 0.0025,
+        "resampled": false
+      },
+      "source_member": {
+        "member": "F16GVT_Files/BenchmarkData/F16Data_FullMSine_Level5.mat",
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle74\\F16\\training_members\\F16Data_FullMSine_Level5.mat",
+        "bytes": 2618343,
+        "sha256": "e92c8a6ad21d5d8af62741baa8dc6b667aa7332d0d8d79115849ba4ff42949b0",
+        "crc32": "22d6574d"
+      },
+      "channels": {
+        "input": "Force",
+        "output": "Acceleration[0,:]",
+        "unit_status": "Raw released source units; no magnitude-based inference",
+        "input_role": "measured shaker-force path, provided conditionally"
+      },
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle74\\canonical_training_v2\\F16Data_FullMSine_Level5.npz",
+      "array_sha256": "719b1af8e07326b804666c5ec4b9dcbdef1aff5e7029c2ccd33d67b34834519d",
+      "mat_variables": [
+        {
+          "name": "Force",
+          "shape": [
+            1,
+            73728
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Voltage",
+          "shape": [
+            1,
+            73728
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Acceleration",
+          "shape": [
+            3,
+            73728
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Fs",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "double"
+        }
+      ]
+    },
+    {
+      "dataset": "F16",
+      "case": "F16Data_FullMSine_Level7",
+      "length": 73728,
+      "train_end_exclusive": 58982,
+      "dev_gap": 256,
+      "context": 128,
+      "horizon": 128,
+      "stride": 256,
+      "dev_origins": [
+        59238,
+        59494,
+        59750,
+        60006,
+        60262,
+        60518,
+        60774,
+        61030,
+        61286,
+        61542,
+        61798,
+        62054,
+        62310,
+        62566,
+        62822,
+        63078,
+        63334,
+        63590,
+        63846,
+        64102,
+        64358,
+        64614,
+        64870,
+        65126,
+        65382,
+        65638,
+        65894,
+        66150,
+        66406,
+        66662,
+        66918,
+        67174,
+        67430,
+        67686,
+        67942,
+        68198,
+        68454,
+        68710,
+        68966,
+        69222,
+        69478,
+        69734,
+        69990,
+        70246,
+        70502,
+        70758,
+        71014,
+        71270,
+        71526,
+        71782,
+        72038,
+        72294,
+        72550,
+        72806,
+        73062,
+        73318,
+        73574
+      ],
+      "sampling_time": 0.0025,
+      "clock": {
+        "source": "Fs scalar",
+        "interval": 0.0025,
+        "resampled": false
+      },
+      "source_member": {
+        "member": "F16GVT_Files/BenchmarkData/F16Data_FullMSine_Level7.mat",
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle74\\F16\\training_members\\F16Data_FullMSine_Level7.mat",
+        "bytes": 2631634,
+        "sha256": "bd6dedf8bf1aec4dbba40fb2b553592408dbd0043e11c87a6d8c6969086f46a0",
+        "crc32": "e5536409"
+      },
+      "channels": {
+        "input": "Force",
+        "output": "Acceleration[0,:]",
+        "unit_status": "Raw released source units; no magnitude-based inference",
+        "input_role": "measured shaker-force path, provided conditionally"
+      },
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle74\\canonical_training_v2\\F16Data_FullMSine_Level7.npz",
+      "array_sha256": "666f890258b51bbe13afc90ab5ac6e6210293af47fe6181d581136aa1726e1c5",
+      "mat_variables": [
+        {
+          "name": "Force",
+          "shape": [
+            1,
+            73728
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Voltage",
+          "shape": [
+            1,
+            73728
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Acceleration",
+          "shape": [
+            3,
+            73728
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Fs",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "double"
+        }
+      ]
+    },
+    {
+      "dataset": "F16",
+      "case": "F16Data_SineSw_Level1",
+      "length": 108477,
+      "train_end_exclusive": 86781,
+      "dev_gap": 256,
+      "context": 128,
+      "horizon": 128,
+      "stride": 256,
+      "dev_origins": [
+        87037,
+        87293,
+        87549,
+        87805,
+        88061,
+        88317,
+        88573,
+        88829,
+        89085,
+        89341,
+        89597,
+        89853,
+        90109,
+        90365,
+        90621,
+        90877,
+        91133,
+        91389,
+        91645,
+        91901,
+        92157,
+        92413,
+        92669,
+        92925,
+        93181,
+        93437,
+        93693,
+        93949,
+        94205,
+        94461,
+        94717,
+        94973,
+        95229,
+        95485,
+        95741,
+        95997,
+        96253,
+        96509,
+        96765,
+        97021,
+        97277,
+        97533,
+        97789,
+        98045,
+        98301,
+        98557,
+        98813,
+        99069,
+        99325,
+        99581,
+        99837,
+        100093,
+        100349,
+        100605,
+        100861,
+        101117,
+        101373,
+        101629,
+        101885,
+        102141,
+        102397,
+        102653,
+        102909,
+        103165,
+        103421,
+        103677,
+        103933,
+        104189,
+        104445,
+        104701,
+        104957,
+        105213,
+        105469,
+        105725,
+        105981,
+        106237,
+        106493,
+        106749,
+        107005,
+        107261,
+        107517,
+        107773,
+        108029,
+        108285
+      ],
+      "sampling_time": 0.0025,
+      "clock": {
+        "source": "Fs scalar",
+        "interval": 0.0025,
+        "resampled": false
+      },
+      "source_member": {
+        "member": "F16GVT_Files/BenchmarkData/F16Data_SineSw_Level1.mat",
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle74\\F16\\training_members\\F16Data_SineSw_Level1.mat",
+        "bytes": 3349366,
+        "sha256": "cf3554012b2fb2bfc8f8f1f5c678ccb2a23512466b0f4fbb3d6e2c4b5b2215ac",
+        "crc32": "ba60e9fa"
+      },
+      "channels": {
+        "input": "Force",
+        "output": "Acceleration[0,:]",
+        "unit_status": "Raw released source units; no magnitude-based inference",
+        "input_role": "measured shaker-force path, provided conditionally"
+      },
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle74\\canonical_training_v2\\F16Data_SineSw_Level1.npz",
+      "array_sha256": "5567875c1f506f7cefef8351e6b8190c4345affe64e09f6e366ebfa8b99a4aaf",
+      "mat_variables": [
+        {
+          "name": "Voltage",
+          "shape": [
+            1,
+            108477
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Force",
+          "shape": [
+            1,
+            108477
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Acceleration",
+          "shape": [
+            3,
+            108477
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Fs",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "double"
+        }
+      ]
+    },
+    {
+      "dataset": "F16",
+      "case": "F16Data_SineSw_Level3",
+      "length": 108477,
+      "train_end_exclusive": 86781,
+      "dev_gap": 256,
+      "context": 128,
+      "horizon": 128,
+      "stride": 256,
+      "dev_origins": [
+        87037,
+        87293,
+        87549,
+        87805,
+        88061,
+        88317,
+        88573,
+        88829,
+        89085,
+        89341,
+        89597,
+        89853,
+        90109,
+        90365,
+        90621,
+        90877,
+        91133,
+        91389,
+        91645,
+        91901,
+        92157,
+        92413,
+        92669,
+        92925,
+        93181,
+        93437,
+        93693,
+        93949,
+        94205,
+        94461,
+        94717,
+        94973,
+        95229,
+        95485,
+        95741,
+        95997,
+        96253,
+        96509,
+        96765,
+        97021,
+        97277,
+        97533,
+        97789,
+        98045,
+        98301,
+        98557,
+        98813,
+        99069,
+        99325,
+        99581,
+        99837,
+        100093,
+        100349,
+        100605,
+        100861,
+        101117,
+        101373,
+        101629,
+        101885,
+        102141,
+        102397,
+        102653,
+        102909,
+        103165,
+        103421,
+        103677,
+        103933,
+        104189,
+        104445,
+        104701,
+        104957,
+        105213,
+        105469,
+        105725,
+        105981,
+        106237,
+        106493,
+        106749,
+        107005,
+        107261,
+        107517,
+        107773,
+        108029,
+        108285
+      ],
+      "sampling_time": 0.0025,
+      "clock": {
+        "source": "Fs scalar",
+        "interval": 0.0025,
+        "resampled": false
+      },
+      "source_member": {
+        "member": "F16GVT_Files/BenchmarkData/F16Data_SineSw_Level3.mat",
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle74\\F16\\training_members\\F16Data_SineSw_Level3.mat",
+        "bytes": 3586668,
+        "sha256": "663cb3f8650b5adb8cd40e5d4395513e559a4af129fabf631b1db645a8ff12cd",
+        "crc32": "8b04fca3"
+      },
+      "channels": {
+        "input": "Force",
+        "output": "Acceleration[0,:]",
+        "unit_status": "Raw released source units; no magnitude-based inference",
+        "input_role": "measured shaker-force path, provided conditionally"
+      },
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle74\\canonical_training_v2\\F16Data_SineSw_Level3.npz",
+      "array_sha256": "67872e45dbcf05bab04c2bc8b26cfd198550f8416ead77e8129e9aae5548e791",
+      "mat_variables": [
+        {
+          "name": "Force",
+          "shape": [
+            1,
+            108477
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Voltage",
+          "shape": [
+            1,
+            108477
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Acceleration",
+          "shape": [
+            3,
+            108477
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Fs",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "double"
+        }
+      ]
+    },
+    {
+      "dataset": "F16",
+      "case": "F16Data_SineSw_Level5",
+      "length": 108477,
+      "train_end_exclusive": 86781,
+      "dev_gap": 256,
+      "context": 128,
+      "horizon": 128,
+      "stride": 256,
+      "dev_origins": [
+        87037,
+        87293,
+        87549,
+        87805,
+        88061,
+        88317,
+        88573,
+        88829,
+        89085,
+        89341,
+        89597,
+        89853,
+        90109,
+        90365,
+        90621,
+        90877,
+        91133,
+        91389,
+        91645,
+        91901,
+        92157,
+        92413,
+        92669,
+        92925,
+        93181,
+        93437,
+        93693,
+        93949,
+        94205,
+        94461,
+        94717,
+        94973,
+        95229,
+        95485,
+        95741,
+        95997,
+        96253,
+        96509,
+        96765,
+        97021,
+        97277,
+        97533,
+        97789,
+        98045,
+        98301,
+        98557,
+        98813,
+        99069,
+        99325,
+        99581,
+        99837,
+        100093,
+        100349,
+        100605,
+        100861,
+        101117,
+        101373,
+        101629,
+        101885,
+        102141,
+        102397,
+        102653,
+        102909,
+        103165,
+        103421,
+        103677,
+        103933,
+        104189,
+        104445,
+        104701,
+        104957,
+        105213,
+        105469,
+        105725,
+        105981,
+        106237,
+        106493,
+        106749,
+        107005,
+        107261,
+        107517,
+        107773,
+        108029,
+        108285
+      ],
+      "sampling_time": 0.0025,
+      "clock": {
+        "source": "Fs scalar",
+        "interval": 0.0025,
+        "resampled": false
+      },
+      "source_member": {
+        "member": "F16GVT_Files/BenchmarkData/F16Data_SineSw_Level5.mat",
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle74\\F16\\training_members\\F16Data_SineSw_Level5.mat",
+        "bytes": 3643846,
+        "sha256": "b8c4415d0b66daec0b991e1ce319ba274b7ca8815e63d79023c3015e998a6157",
+        "crc32": "0588c889"
+      },
+      "channels": {
+        "input": "Force",
+        "output": "Acceleration[0,:]",
+        "unit_status": "Raw released source units; no magnitude-based inference",
+        "input_role": "measured shaker-force path, provided conditionally"
+      },
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle74\\canonical_training_v2\\F16Data_SineSw_Level5.npz",
+      "array_sha256": "ae70d22723e7d6b0249b0bff386769b0442a1cb6789521ae20a7bfb03f2882fd",
+      "mat_variables": [
+        {
+          "name": "Force",
+          "shape": [
+            1,
+            108477
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Voltage",
+          "shape": [
+            1,
+            108477
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Acceleration",
+          "shape": [
+            3,
+            108477
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Fs",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "double"
+        }
+      ]
+    },
+    {
+      "dataset": "F16",
+      "case": "F16Data_SineSw_Level7",
+      "length": 108477,
+      "train_end_exclusive": 86781,
+      "dev_gap": 256,
+      "context": 128,
+      "horizon": 128,
+      "stride": 256,
+      "dev_origins": [
+        87037,
+        87293,
+        87549,
+        87805,
+        88061,
+        88317,
+        88573,
+        88829,
+        89085,
+        89341,
+        89597,
+        89853,
+        90109,
+        90365,
+        90621,
+        90877,
+        91133,
+        91389,
+        91645,
+        91901,
+        92157,
+        92413,
+        92669,
+        92925,
+        93181,
+        93437,
+        93693,
+        93949,
+        94205,
+        94461,
+        94717,
+        94973,
+        95229,
+        95485,
+        95741,
+        95997,
+        96253,
+        96509,
+        96765,
+        97021,
+        97277,
+        97533,
+        97789,
+        98045,
+        98301,
+        98557,
+        98813,
+        99069,
+        99325,
+        99581,
+        99837,
+        100093,
+        100349,
+        100605,
+        100861,
+        101117,
+        101373,
+        101629,
+        101885,
+        102141,
+        102397,
+        102653,
+        102909,
+        103165,
+        103421,
+        103677,
+        103933,
+        104189,
+        104445,
+        104701,
+        104957,
+        105213,
+        105469,
+        105725,
+        105981,
+        106237,
+        106493,
+        106749,
+        107005,
+        107261,
+        107517,
+        107773,
+        108029,
+        108285
+      ],
+      "sampling_time": 0.0025,
+      "clock": {
+        "source": "Fs scalar",
+        "interval": 0.0025,
+        "resampled": false
+      },
+      "source_member": {
+        "member": "F16GVT_Files/BenchmarkData/F16Data_SineSw_Level7.mat",
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle74\\F16\\training_members\\F16Data_SineSw_Level7.mat",
+        "bytes": 3671893,
+        "sha256": "54415f357a6a057dc1dd73a030b6105f1a1efa801a4abb05cfe8678facc87c6f",
+        "crc32": "ecd21454"
+      },
+      "channels": {
+        "input": "Force",
+        "output": "Acceleration[0,:]",
+        "unit_status": "Raw released source units; no magnitude-based inference",
+        "input_role": "measured shaker-force path, provided conditionally"
+      },
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle74\\canonical_training_v2\\F16Data_SineSw_Level7.npz",
+      "array_sha256": "3d7d977b5f6bbeb27a704d327a8694557580a11aee948abde834f16eae4a2451",
+      "mat_variables": [
+        {
+          "name": "Force",
+          "shape": [
+            1,
+            108477
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Voltage",
+          "shape": [
+            1,
+            108477
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Acceleration",
+          "shape": [
+            3,
+            108477
+          ],
+          "dtype": "double"
+        },
+        {
+          "name": "Fs",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "double"
+        }
+      ]
+    }
+  ],
+  "scaling": {
+    "EMPS": {
+      "mean": [
+        -0.02246715186453788,
+        0.11774219897846229
+      ],
+      "std": [
+        1.530513989415951,
+        0.08354596860083872
+      ],
+      "train_points": 19872,
+      "scope": "Pooled first80% of all original TRAIN records in this system only"
+    },
+    "F16": {
+      "mean": [
+        0.00800148369737871,
+        0.00015500179760231307
+      ],
+      "std": [
+        52.345639457238846,
+        0.8378694368196049
+      ],
+      "train_points": 583052,
+      "scope": "Pooled first80% of all original TRAIN records in this system only"
+    }
+  },
+  "qualification": [
+    {
+      "case": "EMPS_DATA_EMPS",
+      "min_clock_step": 0.0010000240583173613,
+      "modeled_values_finite": true,
+      "train_dev_separated": true,
+      "official_test_values_read": false
+    },
+    {
+      "case": "F16Data_FullMSine_Level1",
+      "min_clock_step": 0.0025,
+      "modeled_values_finite": true,
+      "train_dev_separated": true,
+      "official_test_values_read": false
+    },
+    {
+      "case": "F16Data_FullMSine_Level3",
+      "min_clock_step": 0.0025,
+      "modeled_values_finite": true,
+      "train_dev_separated": true,
+      "official_test_values_read": false
+    },
+    {
+      "case": "F16Data_FullMSine_Level5",
+      "min_clock_step": 0.0025,
+      "modeled_values_finite": true,
+      "train_dev_separated": true,
+      "official_test_values_read": false
+    },
+    {
+      "case": "F16Data_FullMSine_Level7",
+      "min_clock_step": 0.0025,
+      "modeled_values_finite": true,
+      "train_dev_separated": true,
+      "official_test_values_read": false
+    },
+    {
+      "case": "F16Data_SineSw_Level1",
+      "min_clock_step": 0.0025,
+      "modeled_values_finite": true,
+      "train_dev_separated": true,
+      "official_test_values_read": false
+    },
+    {
+      "case": "F16Data_SineSw_Level3",
+      "min_clock_step": 0.0025,
+      "modeled_values_finite": true,
+      "train_dev_separated": true,
+      "official_test_values_read": false
+    },
+    {
+      "case": "F16Data_SineSw_Level5",
+      "min_clock_step": 0.0025,
+      "modeled_values_finite": true,
+      "train_dev_separated": true,
+      "official_test_values_read": false
+    },
+    {
+      "case": "F16Data_SineSw_Level7",
+      "min_clock_step": 0.0025,
+      "modeled_values_finite": true,
+      "train_dev_separated": true,
+      "official_test_values_read": false
+    }
+  ],
+  "history_review": {
+    "files_checked": 136,
+    "hits": [
+      {
+        "path": "cycle29/baseline_registry.md",
+        "sha256": "3f13933f5fac936d0437dc6810f8d2f987e1b58023f79eefea6b84933b2b737b",
+        "matches": [
+          {
+            "line": 44,
+            "text": "\u771f\u5b9e\u6570\u636e\u6cbf\u7528nonlinear_benchmarks\u5b98\u65b9\u5212\u5206\u4e0e\u539f\u91c7\u6837\u7387\uff1bSilverbox\u53caCascaded Tanks\u5404\u4e00\u53f0\u7269\u7406\u5bf9\u8c61\uff0c\u517171\u7a97\u53e3/3\u8bb0\u5f55\u89d2\u8272\u3002\u4ec5\u51bb\u7ed3\u6a21\u578brolling-origin C128/H128\u91cd\u653e\uff0c\u4e0d\u662f\u5b98\u65b950\u6b65\u521d\u59cb\u5316\u5168\u6bb5\u699c\u5355\u300171\u53f0\u8bbe\u5907\u3001\u771f\u5b9e\u53cd\u4e8b\u5b9e\u6216\u795e\u7ecf\u5fae\u8c03\u3002"
+          }
+        ]
+      },
+      {
+        "path": "cycle29/experimental_results.md",
+        "sha256": "94e9e7502cb18e7607cdfb51bc8963fb5aedf12f58605379f31bacd51f456a57",
+        "matches": [
+          {
+            "line": 59,
+            "text": "| silverbox | conditional96 | 0.809321 | 0.032586 |"
+          },
+          {
+            "line": 60,
+            "text": "| silverbox | compiled64 | 0.782454 | 0.032528 |"
+          },
+          {
+            "line": 61,
+            "text": "| silverbox | conditional128 | 0.808300 | 0.032766 |"
+          },
+          {
+            "line": 62,
+            "text": "| silverbox | native_attention64 | 0.942804 | 0.020000 |"
+          },
+          {
+            "line": 63,
+            "text": "| silverbox | native_attention64_chunk32 | 0.905391 | 0.026455 |"
+          },
+          {
+            "line": 64,
+            "text": "| silverbox | arx_context_selected | 0.121519 | - |"
+          },
+          {
+            "line": 65,
+            "text": "| silverbox | persistence | 1.272273 | - |"
+          },
+          {
+            "line": 66,
+            "text": "| silverbox | train_mean | 0.898431 | - |"
+          },
+          {
+            "line": 67,
+            "text": "| silverbox | pretrained_native_icl | 0.866632 | - |"
+          },
+          {
+            "line": 68,
+            "text": "| silverbox | pretrained_pcfm_cd_glue0 | 0.850399 | - |"
+          },
+          {
+            "line": 80,
+            "text": "Tanks\u7684train-mean\u4f18\u4e8e\u5168\u90e8\u795e\u7ecf\u6a21\u578b\uff1bSilverbox\u7684\u4e0a\u4e0b\u6587ARX\u660e\u663e\u66f4\u5f3a\u3002\u4e24\u53f0\u5bf9\u8c61\u4e0d\u8db3\u4ee5\u8bc1\u660e\u8de8\u9886\u57df\u6a21\u578b\u4f18\u52bf\u3002"
+          }
+        ]
+      }
+    ],
+    "scope": "Prior baseline/result ledgers only, not a universal no-exposure proof",
+    "Silverbox_excluded_due_to_prior_scores": true
+  },
+  "new_model_fits": 0,
+  "official_test_numeric_values_parsed": false,
+  "local_result_files_written": 0,
+  "protocol_sha256": "f8779d9f85eb1045382c55591b93f64d1d6cc438ba9b7bdee9bbdb51605eb29c",
+  "scaling_clarification_sha256": "08822d1752d267d76ac9580700045e9d9c00bce8f8274ef3aa6c904c41994db0",
+  "clock_clarification_sha256": "19c8716e86967c881f71ed3964384729b3f02e9071657019bfcd45396df7d328",
+  "clock_audit_sha256": "acf26960cedcb77d83752ed4ac0ceb19ea114712fcd4ce76054c688dbeb203ac",
+  "wall_seconds": 1.257176699989941
+}

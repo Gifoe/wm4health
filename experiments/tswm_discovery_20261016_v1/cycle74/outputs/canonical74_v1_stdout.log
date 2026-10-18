@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\tswm_discovery_20261016_v1\cycle74\scripts\prepare74_v1.py", line 49, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "D:\tswm_discovery_20261016_v1\cycle74\scripts\prepare74_v1.py", line 19, in main
+    u=m['vir'][:,0].copy();y=m['qm'][:,0].copy();t=m['t'][:,0];dt=float(t[1]-t[0]);assert dt>0 and np.allclose(np.diff(t),dt,rtol=1e-7,atol=1e-9);case='EMPS_DATA_EMPS';channels=dict(input='vir',output='qm',unit_status='Raw released source units; no magnitude-based inference',input_role='recorded feedback motor-force path, provided conditionally')
+                                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

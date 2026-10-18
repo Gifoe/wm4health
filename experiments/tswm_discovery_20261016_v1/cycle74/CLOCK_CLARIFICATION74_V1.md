@@ -1,0 +1,5 @@
+# EMPS released clock: preserve sample indices, do not resample
+
+The first preparation attempt stopped at our uniform-clock assertion before writing any canonical dataset or fitting a model. TRAIN_CLOCK74_V1.json records24841 original training timestamps, strictly positive increments in two narrow values: approximately0.0009999839611 and0.0010000240583 seconds. The largest increment difference from the first step is4.00972e-8 seconds. This is a measured property of the released clock; the cause is not established.
+
+The task is sample-index conditional simulation. Retain all original samples without interpolation, resampling or future realized time inputs. Preserve the official loader's first-interval sampling metadata and additionally record the mean/min/max interval. Require finite strictly increasing t, rather than exact uniformity. This is an input-clock qualification correction, not a forecasting hyperparameter change. Split indices, origins, histories, horizons, normalization, lags and regularization stay unchanged. No model score existed before this clarification.

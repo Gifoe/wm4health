@@ -1,0 +1,7 @@
+# C74 current state: new physical corpus and ordinary controls executed
+
+See cycle74/CANONICAL_FINDING74_V1.md and cycle74/outputs/CANONICAL_CLOSURE74_V1.json. EMPS and F16 supplied nine original training records. Six ordinary ridge-ARX fits and persistence/mean controls generated582 DEV origins per method, each128 free-running steps. Independent companion-state and all-score reconstruction passed. Raw data and predictions stay on the configured server G storage. EMPS transfer used transient RAM after a remote network timeout; no local data file was saved.
+
+The best declared lag64 control has DEV NRMSE0.020693531 on EMPS and0.335650939 on F16; all three lags and every record remain in the evidence. These are canonical observation controls, not a new method, sensor-shift evidence, causal-effect estimates or official leaderboard scores. Official test outputs have not been parsed numerically. A strict-clock preparation failure and failed direct EMPS acquisition are preserved.
+
+The focused candidate remains sequential observation/dynamics reuse without paired views or future-task encoder exposure. A separate, prospectively frozen constructed-measurement curriculum and complete nonlinear observer/state-space/replay controls are still needed. No final research direction accepted; overall goal ACTIVE/UNACHIEVED. The independent C71 original-budget three-seed campaign and frozen assessment continue unchanged. GitHub receives selected authored code, reports and compact evidence; no local result synchronization.
