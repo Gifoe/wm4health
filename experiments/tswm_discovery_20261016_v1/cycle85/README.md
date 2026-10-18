@@ -1,0 +1,9 @@
+# C85: existing repairs under anchored observation/dynamics changes
+
+Read experimental_results.md, negative_evidence.md and final_research_direction.md. This is an original controlled falsification screen using existing methods, not a new-method paper or original robot-benchmark reproduction.
+
+For a fresh reproduction, configure STORAGE_LOCATION_V1.json in the project parent with external artifact_root, data_root, checkpoint_root and cache_root directories. Use Python3.10, Torch2.8, NumPy1.26 and SciPy1.15; Matplotlib is needed only for export. Run scripts/bootstrap_source85_v1.py, then scripts/qualify85_v1.py, then scripts/capture85_v1.py. The separate capacity and source-polish captures reproduce the documented source-only repairs. Their guards enforce the recorded qualification branches; a different runtime may qualify a source earlier, in which case do not override a gate merely to force the same branch. Run verify85_v1.py for the original stage and verify85_v3.py source_polish for the final source-polish stage. All outputs/artifact directories must be fresh; existing evidence is protected against overwriting.
+
+The frozen protocol and both source amendments disclose the information, update budgets and checks. Raw source/target arrays, selected weights, prediction arrays and raw logs remain on the server. Their hashes and compact verified metrics are published; no local result-payload synchronization was performed. Source and target neural sizes differ between families, so no matched-compute claim is supported.
+
+Final control: run the composed capture for seeds1/2; its documented immutable-source loading failure is retained. The v2 composed capture runs seeds3/4 using the repaired source loader. Run verify_controls85_v1.py and verify_composed85_v1.py, then finalize85_v3.py. The final ordinary composition passes all16 Brusselator conditions; see the report before interpreting earlier unresolved rows.

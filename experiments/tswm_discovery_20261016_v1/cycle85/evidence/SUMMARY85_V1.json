@@ -1,0 +1,40 @@
+{
+  "utc": "2026-10-18T15:18:23.272568+00:00",
+  "completed_cases": 12,
+  "planned_cases": 16,
+  "selected_existing_satisfies_cases": 10,
+  "source_training_records": 8,
+  "original_source_runs": 4,
+  "capacity_source_runs": 2,
+  "source_continuations": 2,
+  "target_neural_candidates": 48,
+  "ordinary_target_coefficient_fits": 288,
+  "ordinary_source_coefficient_fits": 24,
+  "eval_prediction_trajectories": 960,
+  "eval_action_response_pairs": 480,
+  "metric_rows": 2400,
+  "source_hashes": {
+    "utils.py": "636fddfaf498a9b209139ee93849909e3871ef007ee6dc353402b4fda18e2b42",
+    "td3.py": "a167fe0f5c5c95e0c019f494dcbbc3384622ce31900b0e365d0e205edcf80c14",
+    "bc.py": "bf1ff0638441715d10b904791ccf7188aa7f52ddd2b806c8d55acbf6805f59f1",
+    "align.py": "8bd0d3abef71d2497e740ca1fecc70d90a3296c20dd4a29f5bf438a9cf512a83"
+  },
+  "verified_prediction_scalars": 245760,
+  "new_method_tested": false,
+  "qualified_final_directions": 0,
+  "scope": "Two low-dimensional fully observed controlled systems; same-information calibration access; distinct neural capacities/costs and source-training controls disclosed",
+  "ordinary_controls": {
+    "weak_cases": 8,
+    "attribution_cases": 12,
+    "composed_cases": 16,
+    "ordinary_composed_val128_passed": 16,
+    "ordinary_composed_joint_val128_passed": 4,
+    "composed_new_eval_seed": 2026854,
+    "control_verified_prediction_scalars": 720896,
+    "control_metric_rows": 7040,
+    "new_method_validated": false,
+    "qualified_final_directions": 0,
+    "candidate_decision": "REJECT_CALIBRATION_NECESSITY_IN_THIS_CONTROLLED_SUBCASE"
+  },
+  "all_verified_prediction_scalars": 966656
+}

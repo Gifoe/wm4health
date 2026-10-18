@@ -1,0 +1,7 @@
+# Source-only long-rollout training control
+
+The larger source baseline also failed the unchanged gate for both Brusselator seeds. The first reached median H32=0.1516906961; the second's validation-selected checkpoint had H32=0.2193123311. No Brusselator target training or EVAL generation has occurred in either preceding stage. Do not lower the0.15 criterion or interpret this as a transfer failure.
+
+Run one source-training control before interpreting this family: retain the128-wide/4-latent architecture and same source data; initialize from each capacity-stage validation-selected checkpoint; reset Adam at1e-4; use the same observable-output loss with32-step windows instead of8, plus unchanged0.1 reconstruction and0.001 inverse-action terms. Check after2000,4000,8000 additional updates, stopping at the first checkpoint satisfying the original H32/H128 gates. No learning-rate sweep, test-selected checkpoint or new mechanism is introduced. This is a standard longer-rollout training control to address inadequate source simulator fit.
+
+Save under source_polish_v3, retain all ancestor checkpoints/logs, record the ancestor checkpoint path/hash and selected/completed update counts separately, and verify exact equality of source arrays. If a source qualifies, execute the original target fits, selection and first EVAL generation without changing their protocol. This changes source training cost and objective horizon, so the final comparison must disclose it. It is not a paper-method reproduction or a proposed scientific contribution.

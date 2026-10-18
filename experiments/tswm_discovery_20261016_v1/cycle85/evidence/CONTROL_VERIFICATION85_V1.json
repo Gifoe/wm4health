@@ -1,0 +1,203 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-18T15:04:50.290165+00:00",
+  "weak": {
+    "cases": 8,
+    "prediction_scalars": 65536,
+    "checks": [
+      {
+        "seed": 2026851,
+        "case": "dynamics",
+        "max_augmented_coefficient_difference": 2.2571100544155343e-10,
+        "max_successful_replay_difference": 5.684341886080802e-14,
+        "failed_paths_independently_reproduced": 0,
+        "metric_rows_checked": 80,
+        "max_independent_reference_difference": 4.649394863998069e-06
+      },
+      {
+        "seed": 2026851,
+        "case": "joint",
+        "max_augmented_coefficient_difference": 4.582292323362935e-09,
+        "max_successful_replay_difference": 2.609024107869118e-14,
+        "failed_paths_independently_reproduced": 0,
+        "metric_rows_checked": 80,
+        "max_independent_reference_difference": 4.649394863998069e-06
+      },
+      {
+        "seed": 2026851,
+        "case": "none",
+        "max_augmented_coefficient_difference": 1.2990910430721314e-14,
+        "max_successful_replay_difference": 5.551115123125783e-16,
+        "failed_paths_independently_reproduced": 0,
+        "metric_rows_checked": 80,
+        "max_independent_reference_difference": 9.562810765473273e-08
+      },
+      {
+        "seed": 2026851,
+        "case": "observation",
+        "max_augmented_coefficient_difference": 2.5186103203012067e-13,
+        "max_successful_replay_difference": 8.881784197001252e-16,
+        "failed_paths_independently_reproduced": 0,
+        "metric_rows_checked": 80,
+        "max_independent_reference_difference": 9.562810765473273e-08
+      },
+      {
+        "seed": 2026852,
+        "case": "dynamics",
+        "max_augmented_coefficient_difference": 3.071765064532883e-11,
+        "max_successful_replay_difference": 1.0658141036401503e-14,
+        "failed_paths_independently_reproduced": 0,
+        "metric_rows_checked": 80,
+        "max_independent_reference_difference": 6.8551361480651e-06
+      },
+      {
+        "seed": 2026852,
+        "case": "joint",
+        "max_augmented_coefficient_difference": 9.194112138288801e-11,
+        "max_successful_replay_difference": 8.881784197001252e-15,
+        "failed_paths_independently_reproduced": 0,
+        "metric_rows_checked": 80,
+        "max_independent_reference_difference": 6.8551361480651e-06
+      },
+      {
+        "seed": 2026852,
+        "case": "none",
+        "max_augmented_coefficient_difference": 3.2612801348363973e-15,
+        "max_successful_replay_difference": 9.992007221626409e-16,
+        "failed_paths_independently_reproduced": 0,
+        "metric_rows_checked": 80,
+        "max_independent_reference_difference": 1.1312046432898626e-07
+      },
+      {
+        "seed": 2026852,
+        "case": "observation",
+        "max_augmented_coefficient_difference": 1.5457773949734133e-13,
+        "max_successful_replay_difference": 2.220446049250313e-15,
+        "failed_paths_independently_reproduced": 0,
+        "metric_rows_checked": 80,
+        "max_independent_reference_difference": 1.1312046432898626e-07
+      }
+    ]
+  },
+  "attribution": {
+    "cases": 12,
+    "prediction_scalars": 393216,
+    "checks": [
+      {
+        "seed": 2026851,
+        "case": "dynamics",
+        "max_augmented_coefficient_difference": 2.2571100544155343e-10,
+        "max_successful_replay_difference": 5.684341886080802e-14,
+        "failed_paths_independently_reproduced": 0,
+        "metric_rows_checked": 320,
+        "max_independent_reference_difference": 4.649394863998069e-06
+      },
+      {
+        "seed": 2026851,
+        "case": "joint",
+        "max_augmented_coefficient_difference": 4.582292323362935e-09,
+        "max_successful_replay_difference": 8.72191208145523e-13,
+        "failed_paths_independently_reproduced": 0,
+        "metric_rows_checked": 320,
+        "max_independent_reference_difference": 4.649394863998069e-06
+      },
+      {
+        "seed": 2026851,
+        "case": "none",
+        "max_augmented_coefficient_difference": 1.3877787807814457e-14,
+        "max_successful_replay_difference": 8.881784197001252e-16,
+        "failed_paths_independently_reproduced": 0,
+        "metric_rows_checked": 320,
+        "max_independent_reference_difference": 9.562810765473273e-08
+      },
+      {
+        "seed": 2026851,
+        "case": "observation",
+        "max_augmented_coefficient_difference": 2.0678569967458316e-11,
+        "max_successful_replay_difference": 1.9984014443252818e-15,
+        "failed_paths_independently_reproduced": 0,
+        "metric_rows_checked": 320,
+        "max_independent_reference_difference": 9.562810765473273e-08
+      },
+      {
+        "seed": 2026852,
+        "case": "dynamics",
+        "max_augmented_coefficient_difference": 1.0239742387341266e-10,
+        "max_successful_replay_difference": 2.1760371282653068e-14,
+        "failed_paths_independently_reproduced": 0,
+        "metric_rows_checked": 320,
+        "max_independent_reference_difference": 6.8551361480651e-06
+      },
+      {
+        "seed": 2026852,
+        "case": "joint",
+        "max_augmented_coefficient_difference": 9.194112138288801e-11,
+        "max_successful_replay_difference": 8.260059303211165e-14,
+        "failed_paths_independently_reproduced": 0,
+        "metric_rows_checked": 320,
+        "max_independent_reference_difference": 6.8551361480651e-06
+      },
+      {
+        "seed": 2026852,
+        "case": "none",
+        "max_augmented_coefficient_difference": 5.761667185022468e-15,
+        "max_successful_replay_difference": 1.7486012637846216e-15,
+        "failed_paths_independently_reproduced": 0,
+        "metric_rows_checked": 320,
+        "max_independent_reference_difference": 1.1312046432898626e-07
+      },
+      {
+        "seed": 2026852,
+        "case": "observation",
+        "max_augmented_coefficient_difference": 1.5457773949734133e-13,
+        "max_successful_replay_difference": 2.220446049250313e-15,
+        "failed_paths_independently_reproduced": 0,
+        "metric_rows_checked": 320,
+        "max_independent_reference_difference": 1.1312046432898626e-07
+      },
+      {
+        "seed": 2026853,
+        "case": "dynamics",
+        "max_augmented_coefficient_difference": 5.6781954138607205e-11,
+        "max_successful_replay_difference": 2.398081733190338e-14,
+        "failed_paths_independently_reproduced": 0,
+        "metric_rows_checked": 320,
+        "max_independent_reference_difference": 1.6498577613877075e-05
+      },
+      {
+        "seed": 2026853,
+        "case": "joint",
+        "max_augmented_coefficient_difference": 1.5400431763179512e-09,
+        "max_successful_replay_difference": 5.3375970310298726e-11,
+        "failed_paths_independently_reproduced": 27,
+        "metric_rows_checked": 320,
+        "max_independent_reference_difference": 1.6498577613877075e-05
+      },
+      {
+        "seed": 2026853,
+        "case": "none",
+        "max_augmented_coefficient_difference": 1.965094753586527e-14,
+        "max_successful_replay_difference": 1.7486012637846216e-15,
+        "failed_paths_independently_reproduced": 0,
+        "metric_rows_checked": 320,
+        "max_independent_reference_difference": 1.2897195184047305e-06
+      },
+      {
+        "seed": 2026853,
+        "case": "observation",
+        "max_augmented_coefficient_difference": 7.220890552162018e-12,
+        "max_successful_replay_difference": 3.552713678800501e-15,
+        "failed_paths_independently_reproduced": 0,
+        "metric_rows_checked": 320,
+        "max_independent_reference_difference": 1.2897195184047305e-06
+      }
+    ]
+  },
+  "verification_protocol_sha256": "f88664097a76e4ea6058e6bec24539b37f7130655d1ee98eaa84c157d3575e1e",
+  "weak_result_sha256": "70993da80a9ca5b310e60cf79669716657e370caad37cb72b6fdca395606c2bd",
+  "attribution_result_sha256": "5ed70148a0e81224ae036820a3931110df10f1363dcfdf29ead603cff21e8325",
+  "same_budget_prefixes_verified": true,
+  "all_selectors_validation_only": true,
+  "new_method_validated": false,
+  "local_result_payload_files_written": 0
+}

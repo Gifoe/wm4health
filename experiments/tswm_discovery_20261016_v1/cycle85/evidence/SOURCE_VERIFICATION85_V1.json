@@ -1,0 +1,131 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-18T14:35:23.241981+00:00",
+  "source_checkpoints": 8,
+  "max_source_score_recompute_difference": 2.7755575615628914e-17,
+  "unchanged_gate_applied": true,
+  "source_arrays_identical_across_repair_stages": true,
+  "rows": [
+    {
+      "stage": "primary",
+      "family": "duffing",
+      "seed": 2026851,
+      "qualified": true,
+      "source_data_sha256": "97b6e3ed46c9c6af1ae30fc878c81f7844f9139d3fa8c5baef3de94833e5496e",
+      "checkpoint_sha256": "f51507642e2d03384829eea945b68cdb13fb2ccfb5ce67c216762bd1572e6e4f",
+      "parameter_count": 18055,
+      "maximum_score_difference": 0.0,
+      "recomputed": {
+        "mean32": 0.19287297369020884,
+        "median32": 0.11675093395995279,
+        "median128": 0.09371525923560542
+      }
+    },
+    {
+      "stage": "primary",
+      "family": "duffing",
+      "seed": 2026852,
+      "qualified": true,
+      "source_data_sha256": "d23be60910fe6a75c426f42c3654f7231efd193cd1f5757b93e62631eaf5b0c5",
+      "checkpoint_sha256": "258a34c5f4ebac1baa8aab8d95ecf90d4c64d0a71b13036dff9044594e43bfef",
+      "parameter_count": 18055,
+      "maximum_score_difference": 0.0,
+      "recomputed": {
+        "mean32": 0.12027112382799546,
+        "median32": 0.1001243284103008,
+        "median128": 0.09895464421236057
+      }
+    },
+    {
+      "stage": "primary",
+      "family": "brusselator",
+      "seed": 2026851,
+      "qualified": false,
+      "source_data_sha256": "0a247ac81fbe25de218a7994d650ed108da96a587b86045de110ee0d5afa95b7",
+      "checkpoint_sha256": "9db80b16793bf844a5ed32d4f8e167cd8c98e2902fb90649154f20b28add76a9",
+      "parameter_count": 18184,
+      "maximum_score_difference": 2.7755575615628914e-17,
+      "recomputed": {
+        "mean32": 0.21943846205651105,
+        "median32": 0.20095736654280866,
+        "median128": 0.13976017271354085
+      }
+    },
+    {
+      "stage": "primary",
+      "family": "brusselator",
+      "seed": 2026852,
+      "qualified": false,
+      "source_data_sha256": "1650078fdbbbef694d81e82d488685294e17f256fd12c7c2365cb0b2bc8e6bc8",
+      "checkpoint_sha256": "202d31ab1820065e3a2b44306fa1280c4dcdc2ad7a97556dd39948b414463e48",
+      "parameter_count": 18184,
+      "maximum_score_difference": 0.0,
+      "recomputed": {
+        "mean32": 0.29280983686899187,
+        "median32": 0.19601947854401247,
+        "median128": 0.14225102354820063
+      }
+    },
+    {
+      "stage": "capacity_v2",
+      "family": "brusselator",
+      "seed": 2026851,
+      "qualified": false,
+      "source_data_sha256": "0a247ac81fbe25de218a7994d650ed108da96a587b86045de110ee0d5afa95b7",
+      "checkpoint_sha256": "1eb89f5572db493f2e48819c375b0954ed0e2f535f97e07e038fe64c756ab3e6",
+      "parameter_count": 70668,
+      "maximum_score_difference": 2.7755575615628914e-17,
+      "recomputed": {
+        "mean32": 0.17503276514693014,
+        "median32": 0.1516906961222726,
+        "median128": 0.1266463179883291
+      }
+    },
+    {
+      "stage": "capacity_v2",
+      "family": "brusselator",
+      "seed": 2026852,
+      "qualified": false,
+      "source_data_sha256": "1650078fdbbbef694d81e82d488685294e17f256fd12c7c2365cb0b2bc8e6bc8",
+      "checkpoint_sha256": "0e03641b683d55aa83b18141cec7a7e346133546c4529ee512c95e4c710b150a",
+      "parameter_count": 70668,
+      "maximum_score_difference": 0.0,
+      "recomputed": {
+        "mean32": 0.3394753122706118,
+        "median32": 0.21931233106423298,
+        "median128": 0.13319614885067987
+      }
+    },
+    {
+      "stage": "source_polish_v3",
+      "family": "brusselator",
+      "seed": 2026851,
+      "qualified": true,
+      "source_data_sha256": "0a247ac81fbe25de218a7994d650ed108da96a587b86045de110ee0d5afa95b7",
+      "checkpoint_sha256": "fe31d3dfed4ce74010e3dc84a0f5fd386db843afdf1babdda756659b22d807f4",
+      "parameter_count": 70668,
+      "maximum_score_difference": 0.0,
+      "recomputed": {
+        "mean32": 0.13914506228931733,
+        "median32": 0.12794090954543813,
+        "median128": 0.08180932250197673
+      }
+    },
+    {
+      "stage": "source_polish_v3",
+      "family": "brusselator",
+      "seed": 2026852,
+      "qualified": false,
+      "source_data_sha256": "1650078fdbbbef694d81e82d488685294e17f256fd12c7c2365cb0b2bc8e6bc8",
+      "checkpoint_sha256": "5e09b0b22f1b6990a0d91b27619b9950ee3f6848e78566fdfcf3205cdd230056",
+      "parameter_count": 70668,
+      "maximum_score_difference": 0.0,
+      "recomputed": {
+        "mean32": 0.2544754636810618,
+        "median32": 0.17555033713037121,
+        "median128": 0.11025009951388522
+      }
+    }
+  ],
+  "local_result_payload_files_written": 0
+}

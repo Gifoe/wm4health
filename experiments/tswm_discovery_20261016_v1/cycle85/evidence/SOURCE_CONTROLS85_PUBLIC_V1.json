@@ -1,0 +1,414 @@
+[
+  {
+    "stage": "primary",
+    "utc": "2026-10-18T13:57:06.505917+00:00",
+    "family": "duffing",
+    "seed": 2026851,
+    "nu": 1,
+    "qualified": true,
+    "checkpoint": "server-checkpoint:cycle85/anchored_screen_v1/duffing_2026851/source_selected_v1.pt",
+    "checkpoint_sha256": "f51507642e2d03384829eea945b68cdb13fb2ccfb5ce67c216762bd1572e6e4f",
+    "selected": {
+      "polish_updates": 16000,
+      "warmup_updates": 2000,
+      "loss": 0.00039354601176455617,
+      "mean32": 0.19287297369020884,
+      "median32": 0.11675093395995279,
+      "median128": 0.09371525923560542
+    },
+    "validation_checks": [
+      {
+        "polish_updates": 2000,
+        "warmup_updates": 2000,
+        "loss": 0.0036401052493602037,
+        "mean32": 0.5580565003543321,
+        "median32": 0.3017424568382798,
+        "median128": 0.2590283592716719
+      },
+      {
+        "polish_updates": 4000,
+        "warmup_updates": 2000,
+        "loss": 0.0028721343260258436,
+        "mean32": 0.3476587845978715,
+        "median32": 0.26543294518185934,
+        "median128": 0.22214192636375285
+      },
+      {
+        "polish_updates": 8000,
+        "warmup_updates": 2000,
+        "loss": 0.0017017980571836233,
+        "mean32": 0.30516782912146767,
+        "median32": 0.18795729821056076,
+        "median128": 0.20881549961648344
+      },
+      {
+        "polish_updates": 16000,
+        "warmup_updates": 2000,
+        "loss": 0.00039354601176455617,
+        "mean32": 0.19287297369020884,
+        "median32": 0.11675093395995279,
+        "median128": 0.09371525923560542
+      }
+    ],
+    "source_data_sha256": "97b6e3ed46c9c6af1ae30fc878c81f7844f9139d3fa8c5baef3de94833e5496e",
+    "trained_parameters": 18055,
+    "wall_seconds": 118.32420510001248
+  },
+  {
+    "stage": "primary",
+    "utc": "2026-10-18T14:01:43.500505+00:00",
+    "family": "duffing",
+    "seed": 2026852,
+    "nu": 1,
+    "qualified": true,
+    "checkpoint": "server-checkpoint:cycle85/anchored_screen_v1/duffing_2026852/source_selected_v1.pt",
+    "checkpoint_sha256": "258a34c5f4ebac1baa8aab8d95ecf90d4c64d0a71b13036dff9044594e43bfef",
+    "selected": {
+      "polish_updates": 8000,
+      "warmup_updates": 2000,
+      "loss": 0.0019158294890075922,
+      "mean32": 0.12027112382799546,
+      "median32": 0.1001243284103008,
+      "median128": 0.09895464421236057
+    },
+    "validation_checks": [
+      {
+        "polish_updates": 2000,
+        "warmup_updates": 2000,
+        "loss": 0.001602291245944798,
+        "mean32": 0.18550302060780027,
+        "median32": 0.19407619635155549,
+        "median128": 0.17998716268882492
+      },
+      {
+        "polish_updates": 4000,
+        "warmup_updates": 2000,
+        "loss": 0.0012484745820984244,
+        "mean32": 0.19244693080088587,
+        "median32": 0.16825746708667152,
+        "median128": 0.15079066474767566
+      },
+      {
+        "polish_updates": 8000,
+        "warmup_updates": 2000,
+        "loss": 0.0019158294890075922,
+        "mean32": 0.12027112382799546,
+        "median32": 0.1001243284103008,
+        "median128": 0.09895464421236057
+      }
+    ],
+    "source_data_sha256": "d23be60910fe6a75c426f42c3654f7231efd193cd1f5757b93e62631eaf5b0c5",
+    "trained_parameters": 18055,
+    "wall_seconds": 64.15757149999263
+  },
+  {
+    "stage": "primary",
+    "utc": "2026-10-18T14:07:15.462517+00:00",
+    "family": "brusselator",
+    "seed": 2026851,
+    "nu": 2,
+    "qualified": false,
+    "checkpoint": "server-checkpoint:cycle85/anchored_screen_v1/brusselator_2026851/source_selected_v1.pt",
+    "checkpoint_sha256": "9db80b16793bf844a5ed32d4f8e167cd8c98e2902fb90649154f20b28add76a9",
+    "selected": {
+      "polish_updates": 16000,
+      "warmup_updates": 2000,
+      "loss": 0.0006397981778718531,
+      "mean32": 0.21943846205651107,
+      "median32": 0.20095736654280866,
+      "median128": 0.13976017271354085
+    },
+    "validation_checks": [
+      {
+        "polish_updates": 2000,
+        "warmup_updates": 2000,
+        "loss": 0.002662014216184616,
+        "mean32": 0.5037557303612705,
+        "median32": 0.40993442094940236,
+        "median128": 0.34162917366513323
+      },
+      {
+        "polish_updates": 4000,
+        "warmup_updates": 2000,
+        "loss": 0.002144558820873499,
+        "mean32": 0.4142012431100415,
+        "median32": 0.4201248427737962,
+        "median128": 0.27008310970364335
+      },
+      {
+        "polish_updates": 8000,
+        "warmup_updates": 2000,
+        "loss": 0.0013344265753403306,
+        "mean32": 0.3370749567049046,
+        "median32": 0.27641018254201355,
+        "median128": 0.2404120337873093
+      },
+      {
+        "polish_updates": 16000,
+        "warmup_updates": 2000,
+        "loss": 0.0006397981778718531,
+        "mean32": 0.21943846205651107,
+        "median32": 0.20095736654280866,
+        "median128": 0.13976017271354085
+      }
+    ],
+    "source_data_sha256": "0a247ac81fbe25de218a7994d650ed108da96a587b86045de110ee0d5afa95b7",
+    "trained_parameters": 18184,
+    "wall_seconds": 121.90849900001194
+  },
+  {
+    "stage": "primary",
+    "utc": "2026-10-18T14:09:17.288074+00:00",
+    "family": "brusselator",
+    "seed": 2026852,
+    "nu": 2,
+    "qualified": false,
+    "checkpoint": "server-checkpoint:cycle85/anchored_screen_v1/brusselator_2026852/source_selected_v1.pt",
+    "checkpoint_sha256": "202d31ab1820065e3a2b44306fa1280c4dcdc2ad7a97556dd39948b414463e48",
+    "selected": {
+      "polish_updates": 16000,
+      "warmup_updates": 2000,
+      "loss": 0.0009760052198544145,
+      "mean32": 0.29280983686899187,
+      "median32": 0.19601947854401247,
+      "median128": 0.14225102354820063
+    },
+    "validation_checks": [
+      {
+        "polish_updates": 2000,
+        "warmup_updates": 2000,
+        "loss": 0.005627795588225126,
+        "mean32": 0.8440946412792478,
+        "median32": 0.5309253704379979,
+        "median128": 0.27521816266393606
+      },
+      {
+        "polish_updates": 4000,
+        "warmup_updates": 2000,
+        "loss": 0.0018166962545365095,
+        "mean32": 0.6400351721687029,
+        "median32": 0.5051748447447251,
+        "median128": 0.2811240755637094
+      },
+      {
+        "polish_updates": 8000,
+        "warmup_updates": 2000,
+        "loss": 0.0018327919533476233,
+        "mean32": 0.6414927875991747,
+        "median32": 0.45496339997455504,
+        "median128": 0.32040636088440005
+      },
+      {
+        "polish_updates": 16000,
+        "warmup_updates": 2000,
+        "loss": 0.0009760052198544145,
+        "mean32": 0.29280983686899187,
+        "median32": 0.19601947854401247,
+        "median128": 0.14225102354820063
+      }
+    ],
+    "source_data_sha256": "1650078fdbbbef694d81e82d488685294e17f256fd12c7c2365cb0b2bc8e6bc8",
+    "trained_parameters": 18184,
+    "wall_seconds": 121.80549719999544
+  },
+  {
+    "stage": "capacity_v2",
+    "utc": "2026-10-18T14:15:35.924650+00:00",
+    "family": "brusselator",
+    "seed": 2026851,
+    "nu": 2,
+    "qualified": false,
+    "checkpoint": "server-checkpoint:cycle85/anchored_screen_capacity_v2/brusselator_2026851/source_selected_v1.pt",
+    "checkpoint_sha256": "1eb89f5572db493f2e48819c375b0954ed0e2f535f97e07e038fe64c756ab3e6",
+    "selected": {
+      "polish_updates": 16000,
+      "warmup_updates": 2000,
+      "loss": 0.0006848888006061316,
+      "mean32": 0.17503276514693017,
+      "median32": 0.1516906961222726,
+      "median128": 0.1266463179883291
+    },
+    "validation_checks": [
+      {
+        "polish_updates": 2000,
+        "warmup_updates": 2000,
+        "loss": 0.0014618809800595045,
+        "mean32": 0.2849278394098971,
+        "median32": 0.2403370700471705,
+        "median128": 0.19914548175220603
+      },
+      {
+        "polish_updates": 4000,
+        "warmup_updates": 2000,
+        "loss": 0.003531091846525669,
+        "mean32": 0.2519579127488204,
+        "median32": 0.17431818825161186,
+        "median128": 0.15709702617532859
+      },
+      {
+        "polish_updates": 8000,
+        "warmup_updates": 2000,
+        "loss": 0.000619555008597672,
+        "mean32": 0.23153153770484863,
+        "median32": 0.19457196694726264,
+        "median128": 0.12424471361975553
+      },
+      {
+        "polish_updates": 16000,
+        "warmup_updates": 2000,
+        "loss": 0.0006848888006061316,
+        "mean32": 0.17503276514693017,
+        "median32": 0.1516906961222726,
+        "median128": 0.1266463179883291
+      }
+    ],
+    "source_data_sha256": "0a247ac81fbe25de218a7994d650ed108da96a587b86045de110ee0d5afa95b7",
+    "trained_parameters": 70668,
+    "wall_seconds": 136.55641899997136
+  },
+  {
+    "stage": "capacity_v2",
+    "utc": "2026-10-18T14:17:53.068985+00:00",
+    "family": "brusselator",
+    "seed": 2026852,
+    "nu": 2,
+    "qualified": false,
+    "checkpoint": "server-checkpoint:cycle85/anchored_screen_capacity_v2/brusselator_2026852/source_selected_v1.pt",
+    "checkpoint_sha256": "0e03641b683d55aa83b18141cec7a7e346133546c4529ee512c95e4c710b150a",
+    "selected": {
+      "polish_updates": 8000,
+      "warmup_updates": 2000,
+      "loss": 0.0025532282888889313,
+      "mean32": 0.3394753122706118,
+      "median32": 0.21931233106423298,
+      "median128": 0.13319614885067987
+    },
+    "validation_checks": [
+      {
+        "polish_updates": 2000,
+        "warmup_updates": 2000,
+        "loss": 0.0037999837659299374,
+        "mean32": 0.5508745572435649,
+        "median32": 0.3514503225580645,
+        "median128": 0.23368487705310276
+      },
+      {
+        "polish_updates": 4000,
+        "warmup_updates": 2000,
+        "loss": 0.001176904421299696,
+        "mean32": 0.4085597899932861,
+        "median32": 0.3788771848365356,
+        "median128": 0.2136249057362221
+      },
+      {
+        "polish_updates": 8000,
+        "warmup_updates": 2000,
+        "loss": 0.0025532282888889313,
+        "mean32": 0.3394753122706118,
+        "median32": 0.21931233106423298,
+        "median128": 0.13319614885067987
+      },
+      {
+        "polish_updates": 16000,
+        "warmup_updates": 2000,
+        "loss": 0.0006873855018056929,
+        "mean32": 0.36962714715419487,
+        "median32": 0.25660407514273176,
+        "median128": 0.20661687137875268
+      }
+    ],
+    "source_data_sha256": "1650078fdbbbef694d81e82d488685294e17f256fd12c7c2365cb0b2bc8e6bc8",
+    "trained_parameters": 70668,
+    "wall_seconds": 137.1264356999891
+  },
+  {
+    "stage": "source_polish_v3",
+    "utc": "2026-10-18T14:21:56.767745+00:00",
+    "family": "brusselator",
+    "seed": 2026851,
+    "nu": 2,
+    "qualified": true,
+    "checkpoint": "server-checkpoint:cycle85/anchored_screen_source_polish_v3/brusselator_2026851/source_selected_v1.pt",
+    "checkpoint_sha256": "fe31d3dfed4ce74010e3dc84a0f5fd386db843afdf1babdda756659b22d807f4",
+    "selected": {
+      "additional_polish_updates": 2000,
+      "ancestor_selected_polish_updates": 16000,
+      "loss": 0.0004427109379321337,
+      "mean32": 0.13914506228931733,
+      "median32": 0.12794090954543813,
+      "median128": 0.08180932250197673
+    },
+    "validation_checks": [
+      {
+        "additional_polish_updates": 2000,
+        "ancestor_selected_polish_updates": 16000,
+        "loss": 0.0004427109379321337,
+        "mean32": 0.13914506228931733,
+        "median32": 0.12794090954543813,
+        "median128": 0.08180932250197673
+      }
+    ],
+    "source_data_sha256": "0a247ac81fbe25de218a7994d650ed108da96a587b86045de110ee0d5afa95b7",
+    "trained_parameters": 70668,
+    "wall_seconds": 42.266910500009544,
+    "ancestor_checkpoint": "server-checkpoint:cycle85/anchored_screen_capacity_v2/brusselator_2026851/source_selected_v1.pt",
+    "ancestor_checkpoint_sha256": "1eb89f5572db493f2e48819c375b0954ed0e2f535f97e07e038fe64c756ab3e6",
+    "ancestor_record_sha256": "f2824032ac611814b832fdde1bff53cf2895fe231cd2e073432782cf9f67546f",
+    "ancestor_completed_polish_updates": 16000,
+    "additional_completed_updates": 2000,
+    "source_objective_horizon": 32
+  },
+  {
+    "stage": "source_polish_v3",
+    "utc": "2026-10-18T14:28:42.429323+00:00",
+    "family": "brusselator",
+    "seed": 2026852,
+    "nu": 2,
+    "qualified": false,
+    "checkpoint": "server-checkpoint:cycle85/anchored_screen_source_polish_v3/brusselator_2026852/source_selected_v1.pt",
+    "checkpoint_sha256": "5e09b0b22f1b6990a0d91b27619b9950ee3f6848e78566fdfcf3205cdd230056",
+    "selected": {
+      "additional_polish_updates": 4000,
+      "ancestor_selected_polish_updates": 8000,
+      "loss": 0.0007806479698047042,
+      "mean32": 0.2544754636810618,
+      "median32": 0.17555033713037121,
+      "median128": 0.11025009951388522
+    },
+    "validation_checks": [
+      {
+        "additional_polish_updates": 2000,
+        "ancestor_selected_polish_updates": 8000,
+        "loss": 0.0006565582007169724,
+        "mean32": 0.2749569034447453,
+        "median32": 0.1757151451970571,
+        "median128": 0.13128384858229222
+      },
+      {
+        "additional_polish_updates": 4000,
+        "ancestor_selected_polish_updates": 8000,
+        "loss": 0.0007806479698047042,
+        "mean32": 0.2544754636810618,
+        "median32": 0.17555033713037121,
+        "median128": 0.11025009951388522
+      },
+      {
+        "additional_polish_updates": 8000,
+        "ancestor_selected_polish_updates": 8000,
+        "loss": 0.0003629460115917027,
+        "mean32": 0.255089329613155,
+        "median32": 0.16520889787921597,
+        "median128": 0.10634851864083791
+      }
+    ],
+    "source_data_sha256": "1650078fdbbbef694d81e82d488685294e17f256fd12c7c2365cb0b2bc8e6bc8",
+    "trained_parameters": 70668,
+    "wall_seconds": 167.18758179998258,
+    "ancestor_checkpoint": "server-checkpoint:cycle85/anchored_screen_capacity_v2/brusselator_2026852/source_selected_v1.pt",
+    "ancestor_checkpoint_sha256": "0e03641b683d55aa83b18141cec7a7e346133546c4529ee512c95e4c710b150a",
+    "ancestor_record_sha256": "48ee0f9170d52aca291153322408e93bd457db69e3e1bb4450575678e5aebf33",
+    "ancestor_completed_polish_updates": 16000,
+    "additional_completed_updates": 8000,
+    "source_objective_horizon": 32
+  }
+]

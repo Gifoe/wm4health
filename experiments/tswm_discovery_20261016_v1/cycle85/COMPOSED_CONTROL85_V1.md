@@ -1,0 +1,13 @@
+# C85 composed-calibration falsification control
+
+Frozen before this control is run. This is an existing-method composition, not a proposed contribution. The purpose is to test whether the apparent joint observation/dynamics failure merely omitted an obvious strong baseline.
+
+Use Brusselator seeds2026851–2026853 descriptively after their preceding screens; seed2026854 is a newly unopened evaluation seed. Keep all four change conditions. Use the already documented long allocation (two128-step TRAIN paths, one128-step VAL path, the same256/128 transitions and eight paired static anchors). No extra labels, resets or online observations are introduced.
+
+Fit paired observation calibration from the eight anchors only: ordinary bidirectional affine least squares, or affine plus Gaussian-kernel residual ridge with bandwidth0.5/1/2/4 in anchor-standardized coordinates and ridge0.01. Fit the inverse and forward maps separately. Then transform target TRAIN observations to source coordinates and use the already established weak degree-three source field, either frozen or with a standard affine residual. Source fields use windows8/16 and unchanged source qualification thresholds. Residual ridge is1e-6/0.001/0.1/10. Select the entire ordinary composition using target VAL H128; also retain H32 selection as a diagnostic. No test-selection is allowed.
+
+Separately run an explicitly privileged calibration-family oracle: fit M,b,rho in g(s)=M(s+rho*tanh(s))+b using only the same anchors, with rho in[-0.5,0.5]. This knows the generator's functional family, so it is attribution evidence, not an information-matched baseline. It receives no true parameters, true inverse, target physical trajectories or target dynamics equations. Apply the same source field/residual grid and VAL selectors. Newton inversion uses the fitted monotone coordinate map.
+
+All choices and coefficients are sealed before each EVAL is generated. EVAL and noise match preceding controls exactly for overlapping seeds. Score the unchanged H128 NRMSE<=0.2, paired action-response error<=0.3, zero failures gates. Failure sentinels remain1e12. Inspect all completed conditions, including new-seed failures.
+
+If an ordinary composition repairs joint changes, reject that case as evidence requiring a new world-model mechanism. If only the privileged family oracle repairs it, unknown observation structure/calibration extrapolation remains an unexcluded explanation. If neither works, verify fits, source competence and optimization before any novelty claim. No accepted research direction follows automatically from this screen.

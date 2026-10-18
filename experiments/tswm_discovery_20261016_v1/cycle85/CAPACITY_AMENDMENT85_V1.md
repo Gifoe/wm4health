@@ -1,0 +1,9 @@
+# Capacity repair after source-only qualification failure
+
+The original C85 campaign terminated normally with both Duffing sources qualified and both Brusselator sources unqualified. At16,000 polish updates the two Brusselator median H32 scores were0.2009573665 and0.1960194785, above the frozen0.15 gate. Their H128 medians were0.1397601727 and0.1422510235. No Brusselator target fits, selection seals or EVAL datasets were generated in that campaign.
+
+Do not interpret those source failures as a transfer gap. Preserve the complete original trial. In a separate capacity_v2 stage, change the Brusselator source/target neural backbone from two64-wide layers with latent dimension2 to two128-wide layers with latent dimension4. This is a baseline capacity repair, not a proposed method. The alignment discriminators remain64-wide. All source/target datasets, random seed namespaces, training update caps, losses, source competence thresholds, calibration budgets, validation-only selection, evaluation commands and performance gates remain unchanged. The capacity stage runs only the two previously unqualified Brusselator source seeds.
+
+Before reading formal data, execute the native update, aligner and joint-gradient contracts with the enlarged dimensions. Confirm equality of the regenerated source TRAIN/VAL arrays to the original source arrays. Proceed to target fitting only after the same source gate passes. Keep source checkpoints, target fits, results and logs under separate capacity_v2 locations. No original artifact is overwritten, and no test result selects the capacity.
+
+The cross-family screen will therefore use different neural sizes if this repair qualifies. Report that fact and actual parameter/update counts; do not claim compute-matched architecture superiority or count the capacity repair as an independent scientific replication. If capacity is still inadequate, diagnose source training before interpreting any shift failure.
