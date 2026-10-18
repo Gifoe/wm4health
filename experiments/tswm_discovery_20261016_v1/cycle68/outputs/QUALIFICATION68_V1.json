@@ -1,0 +1,177 @@
+{
+  "utc": "2026-10-18T04:02:34.452953+00:00",
+  "status": "PASS",
+  "fixtures": [
+    {
+      "family": "linear",
+      "fixture_seed": 689900,
+      "raw_cubic_exact_recovery_max_abs": 6.605826996519681e-14,
+      "native_hidden_future_max_abs": 0,
+      "meta_hidden_future_max_abs": 0.0,
+      "native_paths": {
+        "native_predict": {
+          "shape": [
+            100
+          ],
+          "finite": true
+        },
+        "clamped_simulate": {
+          "shape": [
+            100
+          ],
+          "finite": true
+        },
+        "bayes_indexed": {
+          "shape": [
+            100
+          ],
+          "finite": true
+        },
+        "bayes_same_view": {
+          "shape": [
+            100
+          ],
+          "finite": true
+        }
+      },
+      "latent_operator_shape": [
+        100
+      ],
+      "meta_shape": [
+        100
+      ],
+      "meta_aux": {
+        "min_predictive_sd": 0.016071025282144547,
+        "max_predictive_sd": 0.30346807837486267,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      }
+    },
+    {
+      "family": "cubic",
+      "fixture_seed": 689901,
+      "raw_cubic_exact_recovery_max_abs": 1.2784218128558678e-13,
+      "native_hidden_future_max_abs": 0,
+      "meta_hidden_future_max_abs": 0.0,
+      "native_paths": {
+        "native_predict": {
+          "shape": [
+            100
+          ],
+          "finite": true
+        },
+        "clamped_simulate": {
+          "shape": [
+            100
+          ],
+          "finite": true
+        },
+        "bayes_indexed": {
+          "shape": [
+            100
+          ],
+          "finite": true
+        },
+        "bayes_same_view": {
+          "shape": [
+            100
+          ],
+          "finite": true
+        }
+      },
+      "latent_operator_shape": [
+        100
+      ],
+      "meta_shape": [
+        100
+      ],
+      "meta_aux": {
+        "min_predictive_sd": 0.01640024036169052,
+        "max_predictive_sd": 0.14693273603916168,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      }
+    }
+  ],
+  "native_parameters": 186714897,
+  "meta_parameters": 5548418,
+  "meta_state_tensors": 204,
+  "meta_model_args": {
+    "n_layer": 12,
+    "n_head": 4,
+    "n_embd": 128,
+    "n_y": 1,
+    "n_u": 1,
+    "seq_len_ctx": 400,
+    "seq_len_new": 100,
+    "d_model_RNN": 128,
+    "bias": false,
+    "dropout": 0.0,
+    "seq_len_patch": 400,
+    "device_name": "cuda:7"
+  },
+  "meta_checkpoint_keys": [
+    "model",
+    "optimizer",
+    "model_args",
+    "iter_num",
+    "train_time",
+    "LOSS",
+    "LOSS_VAL",
+    "best_val_loss",
+    "cfg"
+  ],
+  "meta_cfg": {
+    "model_dir": "models",
+    "out_file": "ckpt_ln",
+    "in_file": "ckpt_430_400skip_nopatch",
+    "init_from": "resume",
+    "seed": 42,
+    "log_wandb": true,
+    "nx": 5,
+    "nu": 1,
+    "ny": 1,
+    "seq_len_skip": 400,
+    "seq_len_n_in": 30,
+    "seq_len_ctx": 400,
+    "seq_len_new": 100,
+    "seq_len_patch": 400,
+    "mag_range": [
+      0.5,
+      0.97
+    ],
+    "phase_range": [
+      0.0,
+      1.5707963267948966
+    ],
+    "fixed_system": false,
+    "n_layer": 12,
+    "n_head": 4,
+    "d_model_RNN": 128,
+    "n_embd": 128,
+    "dropout": 0.0,
+    "bias": false,
+    "batch_size": 32,
+    "max_iters": 3100000,
+    "warmup_iters": 10000,
+    "lr": 0.0006,
+    "weight_decay": 0.0,
+    "eval_interval": 2000,
+    "eval_iters": 100,
+    "fixed_lr": false,
+    "threads": 10,
+    "no_cuda": false,
+    "cuda_device": "cuda:7",
+    "compile": false,
+    "beta1": 0.9,
+    "beta2": 0.95,
+    "lr_decay_iters": 3100000,
+    "min_lr": 5.9999999999999995e-05,
+    "decay_lr": true,
+    "eval_batch_size": 32
+  },
+  "native_sampler_AST_sha256": "15fa42ded70e5f2474a3df028f8fc36e94e7d005d42bdeb5fe8f7301e8926d68",
+  "source_receipt_sha256": "7e344e41d1abddaf9bd756dd63df280ab6159613ff6e5dab38ea3195cd54fca0",
+  "protocol_sha256": "8fe1b713ef5abe9c005232ad4239ee5012783616db1e967d98dd583d3008a641",
+  "qualification_only_no_benchmark_scores": true
+}

@@ -1,0 +1,6280 @@
+{
+  "utc": "2026-10-18T04:03:39.498866+00:00",
+  "cases": [
+    {
+      "case": "VAL_linear_680100",
+      "subset": "VAL",
+      "family": "linear",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\VAL_linear_680100.npz",
+      "sha256": "d8c9dc85c5baea2763c95260f10bcc76ab766ee2f4cd06a192522760bc6d5b18",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.0001__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.0001__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.1__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.1__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.0001__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.0001__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.1__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.1__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k4_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.001__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.001__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.001__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.1__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.1__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.1__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a10__2021": [
+          100
+        ],
+        "latent_ridge_k4_a10__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a10__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a10__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k16_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.001__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.001__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.001__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a10__2021": [
+          100
+        ],
+        "latent_ridge_k16_a10__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a10__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a10__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k32_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.001__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.001__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.001__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.1__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.1__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.1__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a10__2021": [
+          100
+        ],
+        "latent_ridge_k32_a10__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a10__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a10__operator_w": [
+          48,
+          32
+        ]
+      },
+      "forecast_count": 26,
+      "seconds": 1.3148793999862392
+    },
+    {
+      "case": "VAL_linear_680101",
+      "subset": "VAL",
+      "family": "linear",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\VAL_linear_680101.npz",
+      "sha256": "f8b0c468db9f4ab8c41848bbd26ff4281d2f2a7519edde88911ed6f371a7acc7",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.0001__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.0001__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.1__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.1__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.0001__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.0001__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.1__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.1__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k4_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.001__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.001__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.001__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.1__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.1__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.1__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a10__2021": [
+          100
+        ],
+        "latent_ridge_k4_a10__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a10__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a10__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k16_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.001__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.001__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.001__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a10__2021": [
+          100
+        ],
+        "latent_ridge_k16_a10__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a10__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a10__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k32_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.001__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.001__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.001__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.1__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.1__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.1__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a10__2021": [
+          100
+        ],
+        "latent_ridge_k32_a10__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a10__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a10__operator_w": [
+          48,
+          32
+        ]
+      },
+      "forecast_count": 26,
+      "seconds": 1.1165110000001732
+    },
+    {
+      "case": "VAL_linear_680102",
+      "subset": "VAL",
+      "family": "linear",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\VAL_linear_680102.npz",
+      "sha256": "dbb2d5d8cf86e6c22cfad2efab772a43c4688a123e79ebc315db6a35eb432fd7",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.0001__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.0001__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.1__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.1__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.0001__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.0001__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.1__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.1__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k4_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.001__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.001__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.001__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.1__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.1__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.1__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a10__2021": [
+          100
+        ],
+        "latent_ridge_k4_a10__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a10__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a10__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k16_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.001__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.001__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.001__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a10__2021": [
+          100
+        ],
+        "latent_ridge_k16_a10__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a10__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a10__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k32_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.001__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.001__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.001__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.1__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.1__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.1__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a10__2021": [
+          100
+        ],
+        "latent_ridge_k32_a10__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a10__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a10__operator_w": [
+          48,
+          32
+        ]
+      },
+      "forecast_count": 26,
+      "seconds": 1.1159106999984942
+    },
+    {
+      "case": "VAL_linear_680103",
+      "subset": "VAL",
+      "family": "linear",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\VAL_linear_680103.npz",
+      "sha256": "b25c042fda8a33d2218202c6ea73735a9788b60d1371c1d5397efc95b6964c8c",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.0001__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.0001__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.1__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.1__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.0001__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.0001__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.1__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.1__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k4_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.001__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.001__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.001__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.1__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.1__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.1__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a10__2021": [
+          100
+        ],
+        "latent_ridge_k4_a10__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a10__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a10__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k16_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.001__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.001__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.001__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a10__2021": [
+          100
+        ],
+        "latent_ridge_k16_a10__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a10__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a10__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k32_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.001__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.001__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.001__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.1__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.1__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.1__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a10__2021": [
+          100
+        ],
+        "latent_ridge_k32_a10__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a10__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a10__operator_w": [
+          48,
+          32
+        ]
+      },
+      "forecast_count": 26,
+      "seconds": 1.1486312000197358
+    },
+    {
+      "case": "VAL_linear_680104",
+      "subset": "VAL",
+      "family": "linear",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\VAL_linear_680104.npz",
+      "sha256": "2c8666afdb02cf02e818e8a1e213b2298fb49d5ccb2037097fc94a60f2e70faf",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.0001__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.0001__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.1__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.1__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.0001__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.0001__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.1__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.1__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k4_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.001__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.001__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.001__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.1__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.1__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.1__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a10__2021": [
+          100
+        ],
+        "latent_ridge_k4_a10__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a10__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a10__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k16_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.001__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.001__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.001__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a10__2021": [
+          100
+        ],
+        "latent_ridge_k16_a10__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a10__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a10__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k32_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.001__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.001__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.001__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.1__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.1__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.1__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a10__2021": [
+          100
+        ],
+        "latent_ridge_k32_a10__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a10__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a10__operator_w": [
+          48,
+          32
+        ]
+      },
+      "forecast_count": 26,
+      "seconds": 1.1320712000015192
+    },
+    {
+      "case": "VAL_linear_680105",
+      "subset": "VAL",
+      "family": "linear",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\VAL_linear_680105.npz",
+      "sha256": "5a9e847b34b633ff8d971bfdf942cbb4464f584aa256006cf4efe7df44dd044e",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.0001__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.0001__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.1__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.1__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.0001__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.0001__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.1__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.1__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k4_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.001__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.001__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.001__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.1__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.1__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.1__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a10__2021": [
+          100
+        ],
+        "latent_ridge_k4_a10__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a10__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a10__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k16_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.001__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.001__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.001__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a10__2021": [
+          100
+        ],
+        "latent_ridge_k16_a10__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a10__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a10__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k32_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.001__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.001__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.001__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.1__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.1__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.1__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a10__2021": [
+          100
+        ],
+        "latent_ridge_k32_a10__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a10__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a10__operator_w": [
+          48,
+          32
+        ]
+      },
+      "forecast_count": 26,
+      "seconds": 1.1199966999993194
+    },
+    {
+      "case": "VAL_cubic_680200",
+      "subset": "VAL",
+      "family": "cubic",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\VAL_cubic_680200.npz",
+      "sha256": "ade2113a1cbabe3d454aaf8396744451c1a87f2fffc73eea93f5a2374b04219d",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.0001__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.0001__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.1__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.1__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.0001__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.0001__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.1__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.1__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k4_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.001__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.001__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.001__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.1__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.1__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.1__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a10__2021": [
+          100
+        ],
+        "latent_ridge_k4_a10__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a10__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a10__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k16_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.001__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.001__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.001__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a10__2021": [
+          100
+        ],
+        "latent_ridge_k16_a10__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a10__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a10__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k32_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.001__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.001__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.001__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.1__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.1__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.1__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a10__2021": [
+          100
+        ],
+        "latent_ridge_k32_a10__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a10__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a10__operator_w": [
+          48,
+          32
+        ]
+      },
+      "forecast_count": 26,
+      "seconds": 1.1264424000110012
+    },
+    {
+      "case": "VAL_cubic_680201",
+      "subset": "VAL",
+      "family": "cubic",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\VAL_cubic_680201.npz",
+      "sha256": "baceebf9acb7fed128e554ebaa3b9b3f103c07d7d9b22372a4d3ebb5ea956a87",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.0001__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.0001__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.1__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.1__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.0001__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.0001__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.1__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.1__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k4_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.001__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.001__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.001__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.1__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.1__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.1__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a10__2021": [
+          100
+        ],
+        "latent_ridge_k4_a10__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a10__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a10__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k16_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.001__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.001__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.001__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a10__2021": [
+          100
+        ],
+        "latent_ridge_k16_a10__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a10__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a10__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k32_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.001__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.001__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.001__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.1__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.1__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.1__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a10__2021": [
+          100
+        ],
+        "latent_ridge_k32_a10__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a10__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a10__operator_w": [
+          48,
+          32
+        ]
+      },
+      "forecast_count": 26,
+      "seconds": 1.138644699996803
+    },
+    {
+      "case": "VAL_cubic_680202",
+      "subset": "VAL",
+      "family": "cubic",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\VAL_cubic_680202.npz",
+      "sha256": "ab4a3823fafad4107cac371df762f553fd5433b2387cc5b63e7cf3101514a25f",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.0001__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.0001__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.1__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.1__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.0001__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.0001__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.1__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.1__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k4_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.001__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.001__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.001__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.1__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.1__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.1__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a10__2021": [
+          100
+        ],
+        "latent_ridge_k4_a10__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a10__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a10__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k16_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.001__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.001__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.001__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a10__2021": [
+          100
+        ],
+        "latent_ridge_k16_a10__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a10__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a10__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k32_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.001__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.001__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.001__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.1__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.1__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.1__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a10__2021": [
+          100
+        ],
+        "latent_ridge_k32_a10__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a10__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a10__operator_w": [
+          48,
+          32
+        ]
+      },
+      "forecast_count": 26,
+      "seconds": 1.1104511999874376
+    },
+    {
+      "case": "VAL_cubic_680203",
+      "subset": "VAL",
+      "family": "cubic",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\VAL_cubic_680203.npz",
+      "sha256": "6ffaf692a5df215b0963716faa7c47e04d10b33386ad2b53b081ddd369fe6f37",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.0001__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.0001__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.1__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.1__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.0001__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.0001__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.1__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.1__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k4_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.001__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.001__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.001__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.1__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.1__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.1__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a10__2021": [
+          100
+        ],
+        "latent_ridge_k4_a10__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a10__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a10__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k16_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.001__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.001__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.001__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a10__2021": [
+          100
+        ],
+        "latent_ridge_k16_a10__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a10__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a10__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k32_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.001__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.001__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.001__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.1__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.1__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.1__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a10__2021": [
+          100
+        ],
+        "latent_ridge_k32_a10__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a10__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a10__operator_w": [
+          48,
+          32
+        ]
+      },
+      "forecast_count": 26,
+      "seconds": 1.130223299987847
+    },
+    {
+      "case": "VAL_cubic_680204",
+      "subset": "VAL",
+      "family": "cubic",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\VAL_cubic_680204.npz",
+      "sha256": "02adafdbe16f58b47163086abec7cf3fc02574617427099e4b68e39403d6d17c",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.0001__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.0001__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.1__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.1__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.0001__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.0001__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.1__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.1__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k4_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.001__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.001__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.001__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.1__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.1__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.1__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a10__2021": [
+          100
+        ],
+        "latent_ridge_k4_a10__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a10__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a10__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k16_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.001__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.001__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.001__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a10__2021": [
+          100
+        ],
+        "latent_ridge_k16_a10__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a10__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a10__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k32_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.001__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.001__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.001__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.1__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.1__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.1__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a10__2021": [
+          100
+        ],
+        "latent_ridge_k32_a10__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a10__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a10__operator_w": [
+          48,
+          32
+        ]
+      },
+      "forecast_count": 26,
+      "seconds": 1.1248342999897432
+    },
+    {
+      "case": "VAL_cubic_680205",
+      "subset": "VAL",
+      "family": "cubic",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\VAL_cubic_680205.npz",
+      "sha256": "8a32623950e22d5bf5197d330373943d8f66d9ff1ce035b259b91a544e13c801",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.0001__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.0001__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d1_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d1_a0.1__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a0.1__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.0001__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.0001__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.0001__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.0001__fit_w": [
+          5,
+          1
+        ],
+        "raw_arx_d3_a0.1__2021": [
+          100
+        ],
+        "raw_arx_d3_a0.1__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a0.1__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a0.1__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k4_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.001__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.001__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.001__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.001__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k4_a0.1__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a0.1__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a0.1__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a0.1__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k4_a10__2021": [
+          100
+        ],
+        "latent_ridge_k4_a10__basis": [
+          4,
+          1536
+        ],
+        "latent_ridge_k4_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k4_a10__operator_xm": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_xs": [
+          20
+        ],
+        "latent_ridge_k4_a10__operator_ym": [
+          4
+        ],
+        "latent_ridge_k4_a10__operator_w": [
+          20,
+          4
+        ],
+        "latent_ridge_k16_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.001__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.001__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.001__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.001__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k16_a10__2021": [
+          100
+        ],
+        "latent_ridge_k16_a10__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a10__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a10__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a10__operator_w": [
+          32,
+          16
+        ],
+        "latent_ridge_k32_a0.001__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.001__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.001__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.001__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.001__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.001__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k32_a0.1__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a0.1__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a0.1__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a0.1__operator_w": [
+          48,
+          32
+        ],
+        "latent_ridge_k32_a10__2021": [
+          100
+        ],
+        "latent_ridge_k32_a10__basis": [
+          32,
+          1536
+        ],
+        "latent_ridge_k32_a10__mean": [
+          1536
+        ],
+        "latent_ridge_k32_a10__operator_xm": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_xs": [
+          48
+        ],
+        "latent_ridge_k32_a10__operator_ym": [
+          32
+        ],
+        "latent_ridge_k32_a10__operator_w": [
+          48,
+          32
+        ]
+      },
+      "forecast_count": 26,
+      "seconds": 1.1086202000151388
+    },
+    {
+      "case": "EVAL_linear_681100",
+      "subset": "EVAL",
+      "family": "linear",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\EVAL_linear_681100.npz",
+      "sha256": "fea38f91689e54611e2a5795beaf04a2d5635bafaf021d03ab8a897f93e92b55",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ]
+      },
+      "forecast_count": 14,
+      "seconds": 0.993714899988845
+    },
+    {
+      "case": "EVAL_linear_681101",
+      "subset": "EVAL",
+      "family": "linear",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\EVAL_linear_681101.npz",
+      "sha256": "9a651c33bebc6a02f35dc5c4593e15102003611d268d89c9483bf4ed6d6f83ba",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ]
+      },
+      "forecast_count": 14,
+      "seconds": 0.9689393000153359
+    },
+    {
+      "case": "EVAL_linear_681102",
+      "subset": "EVAL",
+      "family": "linear",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\EVAL_linear_681102.npz",
+      "sha256": "b1bf624405ca1a25b618a61036ddf776291312efe1a0923d97911a4a7bf24e62",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ]
+      },
+      "forecast_count": 14,
+      "seconds": 1.0362811999802943
+    },
+    {
+      "case": "EVAL_linear_681103",
+      "subset": "EVAL",
+      "family": "linear",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\EVAL_linear_681103.npz",
+      "sha256": "8541c2dd2beeed38f01a973116a997d0d71d52eee4ca0c5a18aafd18faa29190",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ]
+      },
+      "forecast_count": 14,
+      "seconds": 0.9930840999877546
+    },
+    {
+      "case": "EVAL_linear_681104",
+      "subset": "EVAL",
+      "family": "linear",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\EVAL_linear_681104.npz",
+      "sha256": "077b1d6679ed84ab8b032471cb05147d1d38c0a03a3672a97dc8050ec69e7680",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ]
+      },
+      "forecast_count": 14,
+      "seconds": 0.999313499982236
+    },
+    {
+      "case": "EVAL_linear_681105",
+      "subset": "EVAL",
+      "family": "linear",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\EVAL_linear_681105.npz",
+      "sha256": "fe2189e1c23071b49e0d0fded0ded8bf7aa0410838748100ad1d443ebe4c1e47",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ]
+      },
+      "forecast_count": 14,
+      "seconds": 0.9942145000095479
+    },
+    {
+      "case": "EVAL_cubic_681200",
+      "subset": "EVAL",
+      "family": "cubic",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\EVAL_cubic_681200.npz",
+      "sha256": "476187b585286c2d32f13de1d50063f3fecc9661d9be99afcc804ef27f28e4a5",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ]
+      },
+      "forecast_count": 14,
+      "seconds": 1.0060973000072408
+    },
+    {
+      "case": "EVAL_cubic_681201",
+      "subset": "EVAL",
+      "family": "cubic",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\EVAL_cubic_681201.npz",
+      "sha256": "cee281b826768e8917784f48df0d0fafa85a7a61eb1cb289a38e07fbeff78595",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ]
+      },
+      "forecast_count": 14,
+      "seconds": 0.9675917999993544
+    },
+    {
+      "case": "EVAL_cubic_681202",
+      "subset": "EVAL",
+      "family": "cubic",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\EVAL_cubic_681202.npz",
+      "sha256": "91935c4f22d47448657c7710f648feabb99319cea64f9fd81d7979d6e4319abe",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ]
+      },
+      "forecast_count": 14,
+      "seconds": 1.0002737000177149
+    },
+    {
+      "case": "EVAL_cubic_681203",
+      "subset": "EVAL",
+      "family": "cubic",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\EVAL_cubic_681203.npz",
+      "sha256": "cedcfd545f0c1d6e27dde6f80501c301160ebdc942bd89ccf3f0ace3ccf602af",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ]
+      },
+      "forecast_count": 14,
+      "seconds": 0.9630305000173394
+    },
+    {
+      "case": "EVAL_cubic_681204",
+      "subset": "EVAL",
+      "family": "cubic",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\EVAL_cubic_681204.npz",
+      "sha256": "fe79c426be533941d966f1c68a9b3a6a6ce57c068169888c1eed062099351fec",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ]
+      },
+      "forecast_count": 14,
+      "seconds": 0.991163200000301
+    },
+    {
+      "case": "EVAL_cubic_681205",
+      "subset": "EVAL",
+      "family": "cubic",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle68\\predictions\\EVAL_cubic_681205.npz",
+      "sha256": "a54f19a2b508e5801685ff2828be476e13538d4de02340d809e116ad791778ca",
+      "arrays": {
+        "native_predict__2021": [
+          100
+        ],
+        "clamped_simulate__2021": [
+          100
+        ],
+        "bayes_indexed__2021": [
+          100
+        ],
+        "bayes_indexed__2022": [
+          100
+        ],
+        "bayes_indexed__2023": [
+          100
+        ],
+        "bayes_same_view__2021": [
+          100
+        ],
+        "bayes_same_view__2022": [
+          100
+        ],
+        "bayes_same_view__2023": [
+          100
+        ],
+        "meta_id_author_ensemble__2021": [
+          100
+        ],
+        "context_mean__2021": [
+          100
+        ],
+        "last_value__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d1_a1e-08__fit_xm": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_xs": [
+          3
+        ],
+        "raw_arx_d1_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d1_a1e-08__fit_w": [
+          3,
+          1
+        ],
+        "raw_arx_d3_a1e-08__2021": [
+          100
+        ],
+        "raw_arx_d3_a1e-08__fit_xm": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_xs": [
+          5
+        ],
+        "raw_arx_d3_a1e-08__fit_ym": [
+          1
+        ],
+        "raw_arx_d3_a1e-08__fit_w": [
+          5,
+          1
+        ],
+        "latent_ridge_k16_a0.1__2021": [
+          100
+        ],
+        "latent_ridge_k16_a0.1__basis": [
+          16,
+          1536
+        ],
+        "latent_ridge_k16_a0.1__mean": [
+          1536
+        ],
+        "latent_ridge_k16_a0.1__operator_xm": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_xs": [
+          32
+        ],
+        "latent_ridge_k16_a0.1__operator_ym": [
+          16
+        ],
+        "latent_ridge_k16_a0.1__operator_w": [
+          32,
+          16
+        ]
+      },
+      "forecast_count": 14,
+      "seconds": 0.9772437000065111
+    }
+  ],
+  "diagnostics": [
+    {
+      "case": "VAL_linear_680100",
+      "native_context_reconstruction_MAE": 0.013801950766092648,
+      "native_context_reconstruction_normalized_MAE": 0.023890768487799193,
+      "meta_aux": {
+        "min_predictive_sd": 0.015350121073424816,
+        "max_predictive_sd": 0.1342276930809021,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 4,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.18265316389191893
+        },
+        {
+          "k": 4,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.18265316389191893
+        },
+        {
+          "k": 4,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.18265316389191893
+        },
+        {
+          "k": 16,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.04169085109836316
+        },
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.04169085109836316
+        },
+        {
+          "k": 16,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.04169085109836316
+        },
+        {
+          "k": 32,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.029402450095103567
+        },
+        {
+          "k": 32,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.029402450095103567
+        },
+        {
+          "k": 32,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.029402450095103567
+        }
+      ]
+    },
+    {
+      "case": "VAL_linear_680101",
+      "native_context_reconstruction_MAE": 0.022724310384447364,
+      "native_context_reconstruction_normalized_MAE": 0.028843203577817302,
+      "meta_aux": {
+        "min_predictive_sd": 0.0145407160744071,
+        "max_predictive_sd": 0.09146562218666077,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 4,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.14383545122817407
+        },
+        {
+          "k": 4,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.14383545122817407
+        },
+        {
+          "k": 4,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.14383545122817407
+        },
+        {
+          "k": 16,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.04556202563085617
+        },
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.04556202563085617
+        },
+        {
+          "k": 16,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.04556202563085617
+        },
+        {
+          "k": 32,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.0345882638695523
+        },
+        {
+          "k": 32,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.0345882638695523
+        },
+        {
+          "k": 32,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.0345882638695523
+        }
+      ]
+    },
+    {
+      "case": "VAL_linear_680102",
+      "native_context_reconstruction_MAE": 0.013624028650283304,
+      "native_context_reconstruction_normalized_MAE": 0.02372106536918988,
+      "meta_aux": {
+        "min_predictive_sd": 0.015476120635867119,
+        "max_predictive_sd": 0.12177249044179916,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 4,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.20030917019908048
+        },
+        {
+          "k": 4,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.20030917019908048
+        },
+        {
+          "k": 4,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.20030917019908048
+        },
+        {
+          "k": 16,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.044373713084247646
+        },
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.044373713084247646
+        },
+        {
+          "k": 16,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.044373713084247646
+        },
+        {
+          "k": 32,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.031233709291377934
+        },
+        {
+          "k": 32,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.031233709291377934
+        },
+        {
+          "k": 32,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.031233709291377934
+        }
+      ]
+    },
+    {
+      "case": "VAL_linear_680103",
+      "native_context_reconstruction_MAE": 0.01835155491318118,
+      "native_context_reconstruction_normalized_MAE": 0.028032485317857896,
+      "meta_aux": {
+        "min_predictive_sd": 0.01380896382033825,
+        "max_predictive_sd": 0.1290929764509201,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 4,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.2020894973496032
+        },
+        {
+          "k": 4,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.2020894973496032
+        },
+        {
+          "k": 4,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.2020894973496032
+        },
+        {
+          "k": 16,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.04424659961227943
+        },
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.04424659961227943
+        },
+        {
+          "k": 16,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.04424659961227943
+        },
+        {
+          "k": 32,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.033166917770169384
+        },
+        {
+          "k": 32,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.033166917770169384
+        },
+        {
+          "k": 32,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.033166917770169384
+        }
+      ]
+    },
+    {
+      "case": "VAL_linear_680104",
+      "native_context_reconstruction_MAE": 0.020980477000132475,
+      "native_context_reconstruction_normalized_MAE": 0.031008730279408946,
+      "meta_aux": {
+        "min_predictive_sd": 0.012719267047941685,
+        "max_predictive_sd": 0.12476008385419846,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 4,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.18779284140749233
+        },
+        {
+          "k": 4,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.18779284140749233
+        },
+        {
+          "k": 4,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.18779284140749233
+        },
+        {
+          "k": 16,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.04874616969130588
+        },
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.04874616969130588
+        },
+        {
+          "k": 16,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.04874616969130588
+        },
+        {
+          "k": 32,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.03649730109788029
+        },
+        {
+          "k": 32,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.03649730109788029
+        },
+        {
+          "k": 32,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.03649730109788029
+        }
+      ]
+    },
+    {
+      "case": "VAL_linear_680105",
+      "native_context_reconstruction_MAE": 0.016185280509149934,
+      "native_context_reconstruction_normalized_MAE": 0.02871898678208417,
+      "meta_aux": {
+        "min_predictive_sd": 0.014911377802491188,
+        "max_predictive_sd": 0.14976397156715393,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 4,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.20289681811564123
+        },
+        {
+          "k": 4,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.20289681811564123
+        },
+        {
+          "k": 4,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.20289681811564123
+        },
+        {
+          "k": 16,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.04723401496074503
+        },
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.04723401496074503
+        },
+        {
+          "k": 16,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.04723401496074503
+        },
+        {
+          "k": 32,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.034459242967825446
+        },
+        {
+          "k": 32,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.034459242967825446
+        },
+        {
+          "k": 32,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.034459242967825446
+        }
+      ]
+    },
+    {
+      "case": "VAL_cubic_680200",
+      "native_context_reconstruction_MAE": 0.025053759502050986,
+      "native_context_reconstruction_normalized_MAE": 0.026935287381817608,
+      "meta_aux": {
+        "min_predictive_sd": 0.015666771680116653,
+        "max_predictive_sd": 0.2987508475780487,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 4,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.19890104596846472
+        },
+        {
+          "k": 4,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.19890104596846472
+        },
+        {
+          "k": 4,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.19890104596846472
+        },
+        {
+          "k": 16,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.045337545255191215
+        },
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.045337545255191215
+        },
+        {
+          "k": 16,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.045337545255191215
+        },
+        {
+          "k": 32,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.03299305443929674
+        },
+        {
+          "k": 32,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.03299305443929674
+        },
+        {
+          "k": 32,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.03299305443929674
+        }
+      ]
+    },
+    {
+      "case": "VAL_cubic_680201",
+      "native_context_reconstruction_MAE": 0.011373460935978533,
+      "native_context_reconstruction_normalized_MAE": 0.026773430342416672,
+      "meta_aux": {
+        "min_predictive_sd": 0.015591107308864594,
+        "max_predictive_sd": 0.12026496231555939,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 4,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.1690619070710695
+        },
+        {
+          "k": 4,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.1690619070710695
+        },
+        {
+          "k": 4,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.1690619070710695
+        },
+        {
+          "k": 16,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.042150626255647125
+        },
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.042150626255647125
+        },
+        {
+          "k": 16,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.042150626255647125
+        },
+        {
+          "k": 32,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.03224781894120218
+        },
+        {
+          "k": 32,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.03224781894120218
+        },
+        {
+          "k": 32,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.03224781894120218
+        }
+      ]
+    },
+    {
+      "case": "VAL_cubic_680202",
+      "native_context_reconstruction_MAE": 0.018965991496421288,
+      "native_context_reconstruction_normalized_MAE": 0.02877694013475283,
+      "meta_aux": {
+        "min_predictive_sd": 0.01919904164969921,
+        "max_predictive_sd": 0.23188704252243042,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 4,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.19457294322212382
+        },
+        {
+          "k": 4,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.19457294322212382
+        },
+        {
+          "k": 4,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.19457294322212382
+        },
+        {
+          "k": 16,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.047951520895510975
+        },
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.047951520895510975
+        },
+        {
+          "k": 16,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.047951520895510975
+        },
+        {
+          "k": 32,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.03554872709903521
+        },
+        {
+          "k": 32,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.03554872709903521
+        },
+        {
+          "k": 32,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.03554872709903521
+        }
+      ]
+    },
+    {
+      "case": "VAL_cubic_680203",
+      "native_context_reconstruction_MAE": 0.022990152342534625,
+      "native_context_reconstruction_normalized_MAE": 0.0318710417829431,
+      "meta_aux": {
+        "min_predictive_sd": 0.016012417152523994,
+        "max_predictive_sd": 0.07830751687288284,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 4,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.12606886752835442
+        },
+        {
+          "k": 4,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.12606886752835442
+        },
+        {
+          "k": 4,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.12606886752835442
+        },
+        {
+          "k": 16,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.04520563364395525
+        },
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.04520563364395525
+        },
+        {
+          "k": 16,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.04520563364395525
+        },
+        {
+          "k": 32,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.03615976541556454
+        },
+        {
+          "k": 32,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.03615976541556454
+        },
+        {
+          "k": 32,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.03615976541556454
+        }
+      ]
+    },
+    {
+      "case": "VAL_cubic_680204",
+      "native_context_reconstruction_MAE": 0.01962295894293846,
+      "native_context_reconstruction_normalized_MAE": 0.03162268514538447,
+      "meta_aux": {
+        "min_predictive_sd": 0.014494101516902447,
+        "max_predictive_sd": 0.17341181635856628,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 4,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.13769423411028694
+        },
+        {
+          "k": 4,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.13769423411028694
+        },
+        {
+          "k": 4,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.13769423411028694
+        },
+        {
+          "k": 16,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.04538504098425861
+        },
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.04538504098425861
+        },
+        {
+          "k": 16,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.04538504098425861
+        },
+        {
+          "k": 32,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.03565743801936773
+        },
+        {
+          "k": 32,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.03565743801936773
+        },
+        {
+          "k": 32,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.03565743801936773
+        }
+      ]
+    },
+    {
+      "case": "VAL_cubic_680205",
+      "native_context_reconstruction_MAE": 0.020757432854195495,
+      "native_context_reconstruction_normalized_MAE": 0.02967860669176007,
+      "meta_aux": {
+        "min_predictive_sd": 0.016422072425484657,
+        "max_predictive_sd": 0.18152739107608795,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 4,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.21288743721454859
+        },
+        {
+          "k": 4,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.21288743721454859
+        },
+        {
+          "k": 4,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.21288743721454859
+        },
+        {
+          "k": 16,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.04856499055801466
+        },
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.04856499055801466
+        },
+        {
+          "k": 16,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.04856499055801466
+        },
+        {
+          "k": 32,
+          "alpha": 0.001,
+          "context_projection_decode_normalized_MAE": 0.03617714792271116
+        },
+        {
+          "k": 32,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.03617714792271116
+        },
+        {
+          "k": 32,
+          "alpha": 10.0,
+          "context_projection_decode_normalized_MAE": 0.03617714792271116
+        }
+      ]
+    },
+    {
+      "case": "EVAL_linear_681100",
+      "native_context_reconstruction_MAE": 0.009961711573625695,
+      "native_context_reconstruction_normalized_MAE": 0.02789178859589068,
+      "meta_aux": {
+        "min_predictive_sd": 0.012751622125506401,
+        "max_predictive_sd": 0.0737558901309967,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.04331923521622174
+        }
+      ]
+    },
+    {
+      "case": "EVAL_linear_681101",
+      "native_context_reconstruction_MAE": 0.013977246825860167,
+      "native_context_reconstruction_normalized_MAE": 0.028867287902538653,
+      "meta_aux": {
+        "min_predictive_sd": 0.014462963677942753,
+        "max_predictive_sd": 0.17471347749233246,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.04619702798371606
+        }
+      ]
+    },
+    {
+      "case": "EVAL_linear_681102",
+      "native_context_reconstruction_MAE": 0.016767477961702096,
+      "native_context_reconstruction_normalized_MAE": 0.026134647745547412,
+      "meta_aux": {
+        "min_predictive_sd": 0.011415567249059677,
+        "max_predictive_sd": 0.05298730358481407,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.04201515270625316
+        }
+      ]
+    },
+    {
+      "case": "EVAL_linear_681103",
+      "native_context_reconstruction_MAE": 0.010981095198734947,
+      "native_context_reconstruction_normalized_MAE": 0.026735160431014805,
+      "meta_aux": {
+        "min_predictive_sd": 0.011735072359442711,
+        "max_predictive_sd": 0.28930357098579407,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.042281718110960494
+        }
+      ]
+    },
+    {
+      "case": "EVAL_linear_681104",
+      "native_context_reconstruction_MAE": 0.01889815206217106,
+      "native_context_reconstruction_normalized_MAE": 0.028678251486225142,
+      "meta_aux": {
+        "min_predictive_sd": 0.012580491602420807,
+        "max_predictive_sd": 0.08580080419778824,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.045688356932215644
+        }
+      ]
+    },
+    {
+      "case": "EVAL_linear_681105",
+      "native_context_reconstruction_MAE": 0.014568940905487668,
+      "native_context_reconstruction_normalized_MAE": 0.02762016770819962,
+      "meta_aux": {
+        "min_predictive_sd": 0.013023086823523045,
+        "max_predictive_sd": 0.08262639492750168,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.042070157151181745
+        }
+      ]
+    },
+    {
+      "case": "EVAL_cubic_681200",
+      "native_context_reconstruction_MAE": 0.010748894388286452,
+      "native_context_reconstruction_normalized_MAE": 0.02571375629466358,
+      "meta_aux": {
+        "min_predictive_sd": 0.013049574568867683,
+        "max_predictive_sd": 0.06949080526828766,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.040999716690964735
+        }
+      ]
+    },
+    {
+      "case": "EVAL_cubic_681201",
+      "native_context_reconstruction_MAE": 0.01221914871912169,
+      "native_context_reconstruction_normalized_MAE": 0.02425770025345587,
+      "meta_aux": {
+        "min_predictive_sd": 0.011582167819142342,
+        "max_predictive_sd": 0.23250119388103485,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.04044306786819131
+        }
+      ]
+    },
+    {
+      "case": "EVAL_cubic_681202",
+      "native_context_reconstruction_MAE": 0.013653062389527727,
+      "native_context_reconstruction_normalized_MAE": 0.028243722971718,
+      "meta_aux": {
+        "min_predictive_sd": 0.014238052070140839,
+        "max_predictive_sd": 0.11588443070650101,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.045504886963542296
+        }
+      ]
+    },
+    {
+      "case": "EVAL_cubic_681203",
+      "native_context_reconstruction_MAE": 0.01723540070978723,
+      "native_context_reconstruction_normalized_MAE": 0.028464398042094174,
+      "meta_aux": {
+        "min_predictive_sd": 0.013381938450038433,
+        "max_predictive_sd": 0.14447934925556183,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.043372573161452974
+        }
+      ]
+    },
+    {
+      "case": "EVAL_cubic_681204",
+      "native_context_reconstruction_MAE": 0.01820961698090205,
+      "native_context_reconstruction_normalized_MAE": 0.02862643255907151,
+      "meta_aux": {
+        "min_predictive_sd": 0.012302485294640064,
+        "max_predictive_sd": 0.16365870833396912,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.0455369724864322
+        }
+      ]
+    },
+    {
+      "case": "EVAL_cubic_681205",
+      "native_context_reconstruction_MAE": 0.01660884692618086,
+      "native_context_reconstruction_normalized_MAE": 0.02883269797308408,
+      "meta_aux": {
+        "min_predictive_sd": 0.016608545556664467,
+        "max_predictive_sd": 0.09425518661737442,
+        "ensemble": "equal eight disjoint400-point contexts",
+        "joint_path_law": false
+      },
+      "latent": [
+        {
+          "k": 16,
+          "alpha": 0.1,
+          "context_projection_decode_normalized_MAE": 0.04311863276876187
+        }
+      ]
+    }
+  ],
+  "source_manifest_sha256": "adcd7d4f5681f3f3ba01152cfbde4a545921808560a5a54774dd76ccc6f2b230",
+  "validation_selection_sha256": "f397b95f3b0f618f529d071be708d18ceae9bf172b072479e53ee661594bc7d7",
+  "native_model_source_sha256": "dbcbc3b1a184ca78457b878a70ae7abb5f5329685056ca8a05f25425fedfa12f",
+  "meta_model_source_sha256": "7e344e41d1abddaf9bd756dd63df280ab6159613ff6e5dab38ea3195cd54fca0",
+  "native_parameters": 186714897,
+  "meta_parameters": 5548418,
+  "neural_fits": 0,
+  "score_rows": 480,
+  "raw_data_and_forecast_storage": "Server G only"
+}

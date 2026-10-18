@@ -1,0 +1,12 @@
+# Reproduction instructions and scope
+
+This folder requires its sibling cycle66/scripts/native66_v1.py and the complete original NormWear-2 source/checkpoint. Keep the repository project hierarchy intact. Configure the project STORAGE_LOCATION_V1.json with data_root, checkpoint_root and artifact_root on an authorized G drive directory. No model weights or raw arrays are stored in Git.
+
+Use an isolated Python environment containing PyTorch, NumPy, safetensors and scikit-learn; exact versions and hardware are in CLOSURE68_V1.json. On Windows activate the environment's Library/bin DLL path before Python. Existing launchers show the server's exact environment setup; adapt only installation paths on another machine.
+
+1. Acquire pinned original NormWear-2 files using cycle66/scripts/stage_model66_v1.py, then ensure its MODEL_FILES66_V1.json byte hashes verify. Acquire the author Meta-ID files using cycle68/scripts/stage68_v2.py. This performs ordinary public HTTP downloads; failures preserve partial files. Never reuse an unchecked partial checkpoint. C68's authoritative source-to-server receipt and failed transport/checked-repair receipts are retained.
+2. From this directory run python -I -B scripts/prepare68_v1.py, then python -I -B scripts/qualify68_v1.py. They create new files exclusively. Do not rerun over prior outputs; use a separate reproduction directory/configured storage and preserve its source hierarchy.
+3. Run python -I -B scripts/campaign68_v2.py. VAL settings are selected before EVAL; all24 systems and480 predictions are retained. Neural weights remain frozen.
+4. Run python -I -B scripts/replay68_v2.py, then python -I -B scripts/analyze68_v2.py. The verifier independently reconstructs all systems, checks all480 score rows,96 raw and120 latent operator fits/rollouts and4 fixed fresh native calls. V1's final-print import error is preserved; V2 changes no arithmetic or tolerance.
+
+The authored polynomial recurrence is the complete generator specification. It is a controlled mechanism audit with a declared true-form polynomial control, not exact reproduction of a physiology or nonlinear-benchmark paper table. The additional meta model uses the source checkpoint's400-context/30-initial-condition/100-future configuration and author-style equal subcontext ensembling. No future response is embedded. Upstream training itself has not been independently reproduced.

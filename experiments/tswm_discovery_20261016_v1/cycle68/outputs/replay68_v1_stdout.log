@@ -1,0 +1,31 @@
+E:\Anaconda\envs\salt_env\Lib\site-packages\torch\nn\modules\conv.py:370: UserWarning: Using padding='same' with even kernel lengths and odd dilation may require a zero-padded copy of the input be created (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\Convolution.cpp:1025.)
+  return F.conv1d(
+VAL_linear_680100 REPLAYED
+VAL_linear_680101 REPLAYED
+VAL_linear_680102 REPLAYED
+VAL_linear_680103 REPLAYED
+VAL_linear_680104 REPLAYED
+VAL_linear_680105 REPLAYED
+VAL_cubic_680200 REPLAYED
+VAL_cubic_680201 REPLAYED
+VAL_cubic_680202 REPLAYED
+VAL_cubic_680203 REPLAYED
+VAL_cubic_680204 REPLAYED
+VAL_cubic_680205 REPLAYED
+EVAL_linear_681100 REPLAYED
+EVAL_linear_681101 REPLAYED
+EVAL_linear_681102 REPLAYED
+EVAL_linear_681103 REPLAYED
+EVAL_linear_681104 REPLAYED
+EVAL_linear_681105 REPLAYED
+EVAL_cubic_681200 REPLAYED
+EVAL_cubic_681201 REPLAYED
+EVAL_cubic_681202 REPLAYED
+EVAL_cubic_681203 REPLAYED
+EVAL_cubic_681204 REPLAYED
+EVAL_cubic_681205 REPLAYED
+Traceback (most recent call last):
+  File "D:\tswm_discovery_20261016_v1\cycle68\scripts\replay68_v1.py", line 65, in <module>
+    dump(OUT/'INDEPENDENT_REPLAY68_V1.json',dict(utc=utc(),status='PASS',counts=dict(counts),maximum_absolute_errors=errors,case_manifest_sha256=sha(OUT/'CASE_MANIFEST68_V1.json'),validation_results_sha256=sha(OUT/'VALIDATION_RESULTS68_V1.json'),selection_sha256=sha(OUT/'VALIDATION_SELECTION68_V1.json'),evaluation_results_sha256=sha(OUT/'EVALUATION_RESULTS68_V1.json'),scope='Independent scalar generator and all scores; augmented ridge fits, PCA via full SVD, fresh decoded latent rollouts and four fixed native calls; no claim of independent upstream pretraining reproduction',accepted_final_directions=0));print(json.dumps(dict(status='PASS',counts=dict(counts),maximum_absolute_errors=errors)),flush=True)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'?

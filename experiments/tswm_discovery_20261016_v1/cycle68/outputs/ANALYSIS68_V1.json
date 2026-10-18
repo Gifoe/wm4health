@@ -1,0 +1,155 @@
+{
+  "utc": "2026-10-18T04:05:07.490861+00:00",
+  "status": "CONTROLLED_OPERATOR_COMPARISON_AND_REPLAY_CLOSED",
+  "case_count": 24,
+  "forecast_rows": 480,
+  "neural_fits": 0,
+  "native_parameters": 186714897,
+  "meta_parameters": 5548418,
+  "selected": {
+    "latent": {
+      "k": 16,
+      "alpha": 0.1,
+      "method": "latent_ridge_k16_a0.1"
+    },
+    "raw": {
+      "1": 1e-08,
+      "3": 1e-08
+    }
+  },
+  "contrasts": [
+    {
+      "a": "latent_ridge_k16_a0.1",
+      "b": "bayes_indexed",
+      "mean_delta": -0.35209982175138915,
+      "relative_percent": -65.50058373585716,
+      "better_systems": 12,
+      "systems": 12,
+      "per_case_delta": {
+        "EVAL_cubic_681200": -0.3449956490401517,
+        "EVAL_cubic_681201": -0.25552279263544053,
+        "EVAL_cubic_681202": -0.47675548617292673,
+        "EVAL_cubic_681203": -0.4040070790669987,
+        "EVAL_cubic_681204": -0.21327363852710562,
+        "EVAL_cubic_681205": -0.4414991423260311,
+        "EVAL_linear_681100": -0.3256536897434768,
+        "EVAL_linear_681101": -0.23173866015273936,
+        "EVAL_linear_681102": -0.49872780962427093,
+        "EVAL_linear_681103": -0.18211946528847103,
+        "EVAL_linear_681104": -0.5113398604240342,
+        "EVAL_linear_681105": -0.3395645880150234
+      }
+    },
+    {
+      "a": "latent_ridge_k16_a0.1",
+      "b": "bayes_same_view",
+      "mean_delta": -0.3595422183801051,
+      "relative_percent": -65.97170463506625,
+      "better_systems": 12,
+      "systems": 12,
+      "per_case_delta": {
+        "EVAL_cubic_681200": -0.33501929755233273,
+        "EVAL_cubic_681201": -0.2626137578988319,
+        "EVAL_cubic_681202": -0.4801767326844617,
+        "EVAL_cubic_681203": -0.3887553302421952,
+        "EVAL_cubic_681204": -0.22978568674871647,
+        "EVAL_cubic_681205": -0.47772557744019767,
+        "EVAL_linear_681100": -0.26386605284011755,
+        "EVAL_linear_681101": -0.2918621712571237,
+        "EVAL_linear_681102": -0.5982639811588891,
+        "EVAL_linear_681103": -0.20043635988936712,
+        "EVAL_linear_681104": -0.4548458920694288,
+        "EVAL_linear_681105": -0.33115578077959995
+      }
+    },
+    {
+      "a": "meta_id_author_ensemble",
+      "b": "bayes_same_view",
+      "mean_delta": -0.5131973858918605,
+      "relative_percent": -94.16559344291832,
+      "better_systems": 12,
+      "systems": 12,
+      "per_case_delta": {
+        "EVAL_cubic_681200": -0.5198337629214248,
+        "EVAL_cubic_681201": -0.5701354208775153,
+        "EVAL_cubic_681202": -0.5947640405901028,
+        "EVAL_cubic_681203": -0.43126573338079865,
+        "EVAL_cubic_681204": -0.42544290903018417,
+        "EVAL_cubic_681205": -0.5536968807045745,
+        "EVAL_linear_681100": -0.32712923935979155,
+        "EVAL_linear_681101": -0.4831600471387924,
+        "EVAL_linear_681102": -0.6635479262206698,
+        "EVAL_linear_681103": -0.32747774926397055,
+        "EVAL_linear_681104": -0.7071194610599278,
+        "EVAL_linear_681105": -0.5547954601545724
+      }
+    },
+    {
+      "a": "raw_arx_d3_a1e-08",
+      "b": "meta_id_author_ensemble",
+      "mean_delta": -0.03179719373699854,
+      "relative_percent": -99.9999807875119,
+      "better_systems": 12,
+      "systems": 12,
+      "per_case_delta": {
+        "EVAL_cubic_681200": -0.014265311704576997,
+        "EVAL_cubic_681201": -0.038165338213631814,
+        "EVAL_cubic_681202": -0.03708712020182311,
+        "EVAL_cubic_681203": -0.051753822439257656,
+        "EVAL_cubic_681204": -0.03856081658136055,
+        "EVAL_cubic_681205": -0.023349593361538655,
+        "EVAL_linear_681100": -0.01637333501233401,
+        "EVAL_linear_681101": -0.03289225779867224,
+        "EVAL_linear_681102": -0.021612359402249894,
+        "EVAL_linear_681103": -0.049514077988254176,
+        "EVAL_linear_681104": -0.041454835739680757,
+        "EVAL_linear_681105": -0.01653745640060257
+      }
+    }
+  ],
+  "validation": {
+    "bayes_indexed": 0.6071543730692557,
+    "bayes_same_view": 0.6238047095468773,
+    "clamped_simulate": 0.6707190968386685,
+    "context_mean": 0.8672865568460371,
+    "last_value": 1.2015047551820173,
+    "latent_ridge_k16_a0.001": 0.22771617372012867,
+    "latent_ridge_k16_a0.1": 0.22685444720444242,
+    "latent_ridge_k16_a10": 0.23316147611370128,
+    "latent_ridge_k32_a0.001": 0.23195502566075654,
+    "latent_ridge_k32_a0.1": 0.2314986885394708,
+    "latent_ridge_k32_a10": 0.23801518011877837,
+    "latent_ridge_k4_a0.001": 0.30409395124211414,
+    "latent_ridge_k4_a0.1": 0.3040103756530752,
+    "latent_ridge_k4_a10": 0.3104471280646723,
+    "meta_id_author_ensemble": 0.04020520987791687,
+    "native_predict": 0.7824061251367076,
+    "raw_arx_d1_a0.0001": 0.007748960542415872,
+    "raw_arx_d1_a0.1": 0.05897628013421803,
+    "raw_arx_d1_a1e-08": 0.007708434513850771,
+    "raw_arx_d3_a0.0001": 6.492265239945439e-05,
+    "raw_arx_d3_a0.1": 0.05771389537893201,
+    "raw_arx_d3_a1e-08": 6.493090785575735e-09
+  },
+  "evaluation": {
+    "bayes_indexed": 0.5375521891091761,
+    "bayes_same_view": 0.5449945857378922,
+    "clamped_simulate": 0.6506845490021663,
+    "context_mean": 0.7908785798833498,
+    "last_value": 1.087570296799186,
+    "latent_ridge_k16_a0.1": 0.18545236735778697,
+    "meta_id_author_ensemble": 0.03179719984603178,
+    "native_predict": 0.8253576303742745,
+    "raw_arx_d1_a1e-08": 0.006245698787657101,
+    "raw_arx_d3_a1e-08": 6.109033241468898e-09
+  },
+  "accepted_final_directions": 0,
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "interpretation_boundaries": [
+    "Two controlled transfer families, not physiological paper-table reproduction or a universal world-model failure theorem.",
+    "Linear/PCA operator failure does not identify representation information loss.",
+    "Cubic dictionary includes the true generator form; it is a solvability control.",
+    "Meta-ID pretraining and model size differ, so no equal-pretraining efficiency claim.",
+    "Known future exogenous commands are legitimate conditions; no real-world clinical causal claim."
+  ]
+}
