@@ -41,3 +41,8 @@ Runtime diagnosis uses primary Intel/Microsoft documentation only as bounded eng
 ## Existing hidden-state capability qualification, C71
 
 ModularNRI section5.2 already optimizes hidden initial state through a learned simulator; its demonstration trained with true edges. Generic observer+frozen-dynamics inference is not novel. The pinned native branch has a demonstrated hidden-target dependency in a deliberately constructed reordered-parameter fixture; this does not invalidate reported paper numbers.
+
+
+## Joint-shift prior-art refinement, C71 v4
+
+NOVELTY_BOUNDARY71_V4.md adds primary-source boundaries for SplitJEPA, JEPA-TTT, stratified retention, R2-WAM and structural growth. SplitJEPA code was inspected at a8d65ecb: seven files22758 bytes Git-hash verified, not executed. Paired invariance and fixed-interface predictor adaptation are covered; unpaired joint shifts remain an unvalidated differentiation question. Position-paper agendas are not empirical solutions.

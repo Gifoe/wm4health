@@ -45,3 +45,8 @@ No accepted final direction. The original recovered campaign failed again after 
 ## Existing hidden-state capability qualification, C71
 
 No final direction accepted. Ordinary frozen-simulator initial-state estimation is now qualified as an existing baseline; current source comparison needs an explicit information-safe objective. Await the unchanged full-budget three-seed free-simulation assessment before committing to a new research direction.
+
+
+## Joint-shift prior-art refinement, C71 v4
+
+No final recommendation accepted. Sequential observation/dynamics reuse is a focused development question, not a verified gap. Need an independent cohort and a residual surviving complete ordinary controls; this source screen supplies neither a new method nor performance evidence. Keep the full task active.

@@ -1,0 +1,7 @@
+# Current research state: joint observation/dynamics change remains provisional
+
+The latest source and method boundary is cycle71/NOVELTY_BOUNDARY71_V4.md; machine-readable read-depth and scope are in cycle71/outputs/NOVELTY_SCREEN71_V4.json. Seven SplitJEPA source files were read and hash verified, without source execution or source redistribution. Paired block separation, fixed-interface dynamics adaptation, replay and structural expansion are existing work; none of this screen proves an unpaired sequential joint-shift failure or its solution.
+
+The focused development question is preserving/reusing dynamics across sequential observation and mechanism changes, with complete observer, alignment, state-space and replay controls. The next independent work is a prospective data/information-contract audit that excludes previously scored records. A distinct new learning mechanism and supporting independent residual are still missing. No final direction is accepted; overall goal ACTIVE/UNACHIEVED.
+
+The original C71 three-seed full-budget campaign and frozen free-simulation assessment continue unchanged. Its bounded live-state snapshot is in the screen receipt and is historical after its timestamp. C71 graph-orbit coverage and hidden-state qualification limitations remain. C72 remains closed. Raw data, arrays and weights stay on server G storage; no local result synchronization.

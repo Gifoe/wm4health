@@ -41,3 +41,8 @@ RUNTIME_INCIDENT71_V2.json closes the second terminal native failure at checkpoi
 ## Existing hidden-state capability qualification, C71
 
 HIDDEN_STATE_QUALIFICATION71_V3.json: native constructed fixture changes49/49 candidate choices under hidden-target-only intervention. Separate information-safe observer TRAIN-context MSE0.0006915383273735642 ->0.000008196262569981627; all four row values retained. This is in-sample fitting, not held-out forecasting or a method improvement. No VAL/EVAL rows accessed.
+
+
+## Joint-shift prior-art refinement, C71 v4
+
+No new model-performance result in this source screen. Existing hidden-state execution qualification and ongoing original-budget formal fits retain their previous scope. The three-seed simulation assessment cannot itself validate a sequential unknown-interface claim. No reserved EVAL or new source performance scores accessed.

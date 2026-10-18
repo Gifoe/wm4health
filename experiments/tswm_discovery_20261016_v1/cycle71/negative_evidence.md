@@ -38,3 +38,8 @@ CUDA_LAUNCH_BLOCKING=1 did not prevent a second access violation. The second Win
 ## Existing hidden-state capability qualification, C71
 
 Do not interpret adapter V1 float64/float32 failure or V2 omitted-ReLU NumPy reference failure as model failures. Both retained. Source hidden-state capability predates this work, and the ordinary observer is executable without hidden-target gradients. A generic hidden-inference contribution is not supported; no new final direction accepted.
+
+
+## Joint-shift prior-art refinement, C71 v4
+
+Generic stable/variant splitting, predictor-only test-time updates, replay and latent expansion already have direct prior art or public agendas. Their existence does not prove the stricter unpaired joint-change setting solved. A source limitation is not an observed failure. Existing affine/response-control negative results remain; historical real-system test records cannot become a fresh held-out cohort by renaming.

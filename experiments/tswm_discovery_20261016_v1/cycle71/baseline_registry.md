@@ -37,3 +37,8 @@ The earlier recovered campaign/queue stopped after epoch800 with access violatio
 ## Existing hidden-state capability qualification, C71
 
 Epoch1000 fixed before scores. CPU-adapted native composer independently agrees with NumPy to<=1.90e-7. Unmodified native batched_evaluate branch executed on49 TRAIN-shaped fixture tasks. A separate ordinary initial-state observer executed2 complete100-update runs on TRAIN0..3 with frozen library/graphs; hidden-sentinel interventions give identical objectives/gradients/Adam states.
+
+
+## Joint-shift prior-art refinement, C71 v4
+
+SplitJEPA source-only registry added; its synthetic rotation uses matched pairs and frozen representations, robot code requires separate prepared pairs. No author source redistributed or native fit claimed. For any later joint-shift study use complete observation-adapter/frozen-dynamics, replay, factorized state-space and larger fixed-state controls; do not create a weak fixed-encoder-only comparison.

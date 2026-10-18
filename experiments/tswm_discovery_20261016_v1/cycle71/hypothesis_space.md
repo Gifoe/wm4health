@@ -39,3 +39,8 @@ Runtime explanations remain competing: intermittent native software/runtime faul
 ## Existing hidden-state capability qualification, C71
 
 Qualified: frozen native dynamics can receive initial-state gradients solely from visible history. Falsified for the constructed pinned-source contract: hidden targets are purely diagnostic (49/49 comparison decisions change). Still untested: independently held-out observation/mechanism generalization beyond complete ordinary observer controls. No claim of a generic new gap from this source issue.
+
+
+## Joint-shift prior-art refinement, C71 v4
+
+Retain a precise joint-shift question: which apparent changes can be calibrated into an existing predictive state, and which require richer state? Compare observation-only, dynamics-only and joint changes with equal available information. Non-identifiable explanations require uncertainty, not a forced correct latent label. Complete ordinary observer/state-space/replay controls must precede a new method.

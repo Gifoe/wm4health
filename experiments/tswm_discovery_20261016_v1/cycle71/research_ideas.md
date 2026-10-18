@@ -41,3 +41,8 @@ No scientific candidate is promoted by the runtime work. The next scientific dis
 ## Existing hidden-state capability qualification, C71
 
 CandidateA remains provisional. Adding hidden initial-state optimization or alternating graph/state inference repeats known methods. Require a distinct learning interaction and a prospectively specified independent test; current pretrained graphs cover all34 classes. Stop treating execution qualification as novelty evidence.
+
+
+## Joint-shift prior-art refinement, C71 v4
+
+A/B are consolidated into a focused provisional sequential observation/dynamics reuse route. Its method remains unspecified and unvalidated. SplitJEPA uses meaningful paired correspondences; JEPA-TTT fixes observation mapping. Removing those assumptions alone is not innovation. Next independent work is a prospective unused-data and information-contract audit, while the original C71 fits continue.

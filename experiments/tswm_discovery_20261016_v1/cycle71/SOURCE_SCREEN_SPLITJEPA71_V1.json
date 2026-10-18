@@ -1,0 +1,85 @@
+{
+  "checked_utc": "2026-10-18T08:27:25+00:00",
+  "repo": "splitjepa/splitjepa.github.io",
+  "revision": "a8d65ecbc3dd173d3130f588e685861551a79294",
+  "tree": "9d729d76c77aa7369d94d43ad8b31d4c39029c0a",
+  "selected_files": [
+    {
+      "path": "simulation/run.py",
+      "bytes": 2619,
+      "git_blob_sha1": "cc88c055c2fcbfa17165e1fa8885edb9e64f708a",
+      "sha256": "602f2afc510903f2a280058d80843bfcb5ba97db086944bee3f9799ca66f7999"
+    },
+    {
+      "path": "simulation/lejepa.py",
+      "bytes": 3280,
+      "git_blob_sha1": "b5c57735e3b152b561c6228c2ee9ce2b8db29676",
+      "sha256": "bd4a783c1257c63a30d1734f59c17e349f634b4d7b7d974034efd0c2e712ec0d"
+    },
+    {
+      "path": "simulation/splitjepa.py",
+      "bytes": 1452,
+      "git_blob_sha1": "30cc59c95c045955b32db28400569600688f4179",
+      "sha256": "64e3056b82aa967280b8cf5a7aad47b3bedbd8f71d07952953ce37e1a0a97148"
+    },
+    {
+      "path": "simulation/world.py",
+      "bytes": 1599,
+      "git_blob_sha1": "7c9c20accfae854374afbc7fce945251dd6152b5",
+      "sha256": "dd0a980ea36dc5f461a6cf5d087dcda2d8c41c2c6ad65ac1de807eb73f671953"
+    },
+    {
+      "path": "robot/hl_maniskill/data.py",
+      "bytes": 7011,
+      "git_blob_sha1": "c56a232545e7363e2ed6e9cfd6dcddf3f3c08077",
+      "sha256": "d944809eabf44a1c34b9c34341080001dee35ba9994546832b83aa854849d2d8"
+    },
+    {
+      "path": "robot/hl_maniskill/train_splitjepa.py",
+      "bytes": 5765,
+      "git_blob_sha1": "8c7e0a302eadf9dc7b938c9e7b4e3dad74d8b947",
+      "sha256": "5fec58cd427f625002abe4b8937580926130f8b4d615e1bc5a7a8db547754b37"
+    },
+    {
+      "path": "robot/configs/common.yaml",
+      "bytes": 1032,
+      "git_blob_sha1": "ec8e4eb05369153ddcea0a378cf1ead81d6c7af4",
+      "sha256": "497aab91eaf57e8c9db2d8d850d014ff13f0f1e8c0f1dde1e05a659f2153d666"
+    }
+  ],
+  "selected_bytes": 22758,
+  "source_files_read": 7,
+  "source_file_bytes_verified_in_ram": true,
+  "local_source_or_result_files_written": 0,
+  "upstream_source_redistributed": false,
+  "source_execution_claimed": false,
+  "license_file_found_in_complete_inspected_tree": false,
+  "scope": "Source inspection only; no Lean build, encoder training, robotic data acquisition or performance reproduction.",
+  "findings": [
+    {
+      "source": "simulation/run.py",
+      "lines": "16-26, 48-57",
+      "fact": "Synthetic default uses eight latent coordinates, 10000 encoder updates, fixed same frozen encoder and a separate spectral head."
+    },
+    {
+      "source": "simulation/world.py",
+      "lines": "18-27",
+      "fact": "Matched-pair construction keeps invariant latent coordinates identical and independently resamples variant coordinates."
+    },
+    {
+      "source": "simulation/splitjepa.py",
+      "lines": "23-40",
+      "fact": "ZCA normalization followed by eigendecomposition of matched-pair difference covariance determines the partition without latent-label targets."
+    },
+    {
+      "source": "robot/hl_maniskill/train_splitjepa.py",
+      "lines": "36-47, 72-92",
+      "fact": "Robot training consumes temporal prediction batches and a separate matched-pair loader in the representation objective."
+    },
+    {
+      "source": "robot/hl_maniskill/data.py",
+      "lines": "105-139,190-207",
+      "fact": "Prepared paired observations and pair indices are expected from pairs.h5; no unpaired online pairing or sequential environment identification path was found in the inspected functions."
+    }
+  ]
+}
