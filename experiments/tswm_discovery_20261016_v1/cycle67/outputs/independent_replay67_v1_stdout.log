@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\tswm_discovery_20261016_v1\cycle67\scripts\replay67_v1.py", line 26, in <module>
+    yy=z['history'][i,0].astype('float64');mu=statistics.mean(yy);sd=statistics.stdev(yy);sd=(sd or 1.)+1e-8;features=np.r_[[statistics.mean(block) for block in np.array_split((yy-mu)/sd,96)],[math.fsum(block) for rowu in u for block in np.array_split(rowu.astype('float64'),12)]];compare('source_features',features,z['features'][i],1e-9)
+                                                                                                                                                                                                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\tswm_discovery_20261016_v1\cycle67\scripts\replay67_v1.py", line 11, in compare
+    a=np.asarray(a,dtype='float64');b=np.asarray(b,dtype='float64');err=float(np.max(np.abs(a-b)));errors[name]=max(errors.get(name,0.),err);assert err<=tol,(name,err,tol)
+                                                                                                                                                    ^^^^^^^^
+AssertionError: ('source_features', 7.152557373046875e-07, 1e-09)

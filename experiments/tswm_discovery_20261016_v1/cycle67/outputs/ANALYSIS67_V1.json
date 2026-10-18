@@ -1,0 +1,1397 @@
+{
+  "utc": "2026-10-18T03:36:26.139549+00:00",
+  "status": "REAL_TASK_EVIDENCE_AND_REPLAY_CLOSED",
+  "results": {
+    "VALIDATION": [
+      {
+        "method": "analog_k1",
+        "participants": 9,
+        "case_predictions": 35,
+        "mean_normalized_MAE": 1.139686106473943,
+        "MAE_mg_dL": 26.501906435405786,
+        "RMSE_mg_dL": 33.50144258782767
+      },
+      {
+        "method": "analog_k16",
+        "participants": 9,
+        "case_predictions": 35,
+        "mean_normalized_MAE": 0.7726723384279336,
+        "MAE_mg_dL": 18.169942677296163,
+        "RMSE_mg_dL": 22.67176096314329
+      },
+      {
+        "method": "analog_k4",
+        "participants": 9,
+        "case_predictions": 35,
+        "mean_normalized_MAE": 0.8710352325474188,
+        "MAE_mg_dL": 20.200736576653853,
+        "RMSE_mg_dL": 24.988547922089637
+      },
+      {
+        "method": "bayes_action_full_view",
+        "participants": 9,
+        "case_predictions": 105,
+        "mean_normalized_MAE": 0.9332569761989971,
+        "MAE_mg_dL": 22.369327789373354,
+        "RMSE_mg_dL": 28.46230532146518
+      },
+      {
+        "method": "bayes_action_past_view",
+        "participants": 9,
+        "case_predictions": 105,
+        "mean_normalized_MAE": 0.933256979788291,
+        "MAE_mg_dL": 22.369327886801198,
+        "RMSE_mg_dL": 28.46230539902949
+      },
+      {
+        "method": "bayes_ignored",
+        "participants": 9,
+        "case_predictions": 105,
+        "mean_normalized_MAE": 0.9719327772058607,
+        "MAE_mg_dL": 23.714649166328265,
+        "RMSE_mg_dL": 29.642885053994107
+      },
+      {
+        "method": "bayes_indexed",
+        "participants": 9,
+        "case_predictions": 105,
+        "mean_normalized_MAE": 0.9328108205581133,
+        "MAE_mg_dL": 22.353824380820996,
+        "RMSE_mg_dL": 28.443715093107077
+      },
+      {
+        "method": "bayes_raw_macro",
+        "participants": 9,
+        "case_predictions": 105,
+        "mean_normalized_MAE": 0.899880962399915,
+        "MAE_mg_dL": 21.838808027478073,
+        "RMSE_mg_dL": 27.539319109547826
+      },
+      {
+        "method": "clamped_simulate",
+        "participants": 9,
+        "case_predictions": 35,
+        "mean_normalized_MAE": 0.7953167108912418,
+        "MAE_mg_dL": 19.070637435530436,
+        "RMSE_mg_dL": 23.993580036798775
+      },
+      {
+        "method": "context_mean",
+        "participants": 9,
+        "case_predictions": 35,
+        "mean_normalized_MAE": 0.8133961221991305,
+        "MAE_mg_dL": 19.614463339058723,
+        "RMSE_mg_dL": 24.69284124058366
+      },
+      {
+        "method": "last_value",
+        "participants": 9,
+        "case_predictions": 35,
+        "mean_normalized_MAE": 1.3520730667962313,
+        "MAE_mg_dL": 35.39129180849334,
+        "RMSE_mg_dL": 40.12803756944206
+      },
+      {
+        "method": "native_predict",
+        "participants": 9,
+        "case_predictions": 35,
+        "mean_normalized_MAE": 0.9643002936090297,
+        "MAE_mg_dL": 22.7918379241547,
+        "RMSE_mg_dL": 28.29171274243386
+      },
+      {
+        "method": "ridge_alpha1",
+        "participants": 9,
+        "case_predictions": 35,
+        "mean_normalized_MAE": 0.8577309143200516,
+        "MAE_mg_dL": 20.352677309347932,
+        "RMSE_mg_dL": 25.542865604134818
+      },
+      {
+        "method": "ridge_alpha100",
+        "participants": 9,
+        "case_predictions": 35,
+        "mean_normalized_MAE": 0.738475040270418,
+        "MAE_mg_dL": 17.58560099737271,
+        "RMSE_mg_dL": 22.0943189594509
+      },
+      {
+        "method": "ridge_alpha10000",
+        "participants": 9,
+        "case_predictions": 35,
+        "mean_normalized_MAE": 0.774767652848518,
+        "MAE_mg_dL": 18.339592734383064,
+        "RMSE_mg_dL": 22.8962927973269
+      },
+      {
+        "method": "seasonal_day",
+        "participants": 9,
+        "case_predictions": 35,
+        "mean_normalized_MAE": 0.9946521448276641,
+        "MAE_mg_dL": 24.444678497216344,
+        "RMSE_mg_dL": 31.275804549928846
+      }
+    ],
+    "EVALUATION": [
+      {
+        "method": "analog_k16",
+        "participants": 9,
+        "case_predictions": 33,
+        "mean_normalized_MAE": 0.8311606871546582,
+        "MAE_mg_dL": 18.375428890763615,
+        "RMSE_mg_dL": 22.89062987369087
+      },
+      {
+        "method": "bayes_action_full_view",
+        "participants": 9,
+        "case_predictions": 99,
+        "mean_normalized_MAE": 0.9916726328009118,
+        "MAE_mg_dL": 22.57735547806827,
+        "RMSE_mg_dL": 29.14789232051955
+      },
+      {
+        "method": "bayes_action_past_view",
+        "participants": 9,
+        "case_predictions": 99,
+        "mean_normalized_MAE": 0.9916726299457636,
+        "MAE_mg_dL": 22.57735541700826,
+        "RMSE_mg_dL": 29.14789223792823
+      },
+      {
+        "method": "bayes_ignored",
+        "participants": 9,
+        "case_predictions": 99,
+        "mean_normalized_MAE": 0.9893258756802924,
+        "MAE_mg_dL": 23.07985106930648,
+        "RMSE_mg_dL": 29.46938012544485
+      },
+      {
+        "method": "bayes_indexed",
+        "participants": 9,
+        "case_predictions": 99,
+        "mean_normalized_MAE": 0.9981396205495883,
+        "MAE_mg_dL": 22.68539636836621,
+        "RMSE_mg_dL": 29.27000546871037
+      },
+      {
+        "method": "bayes_raw_macro",
+        "participants": 9,
+        "case_predictions": 99,
+        "mean_normalized_MAE": 0.9988369066928914,
+        "MAE_mg_dL": 22.748453627904908,
+        "RMSE_mg_dL": 29.08563442069779
+      },
+      {
+        "method": "clamped_simulate",
+        "participants": 9,
+        "case_predictions": 33,
+        "mean_normalized_MAE": 0.8818126608444068,
+        "MAE_mg_dL": 19.957055174028923,
+        "RMSE_mg_dL": 25.345050331099188
+      },
+      {
+        "method": "context_mean",
+        "participants": 9,
+        "case_predictions": 33,
+        "mean_normalized_MAE": 0.8934153949903568,
+        "MAE_mg_dL": 20.362145805589527,
+        "RMSE_mg_dL": 26.017873961380534
+      },
+      {
+        "method": "last_value",
+        "participants": 9,
+        "case_predictions": 33,
+        "mean_normalized_MAE": 1.451496326116632,
+        "MAE_mg_dL": 36.307698260315156,
+        "RMSE_mg_dL": 41.14266792931891
+      },
+      {
+        "method": "native_predict",
+        "participants": 9,
+        "case_predictions": 33,
+        "mean_normalized_MAE": 1.0697421128148499,
+        "MAE_mg_dL": 23.887553364798855,
+        "RMSE_mg_dL": 29.38873599724265
+      },
+      {
+        "method": "ridge_alpha100",
+        "participants": 9,
+        "case_predictions": 33,
+        "mean_normalized_MAE": 0.8365311156470914,
+        "MAE_mg_dL": 19.440399109181087,
+        "RMSE_mg_dL": 24.046241315366565
+      },
+      {
+        "method": "seasonal_day",
+        "participants": 9,
+        "case_predictions": 33,
+        "mean_normalized_MAE": 1.097737167216533,
+        "MAE_mg_dL": 25.66042865774759,
+        "RMSE_mg_dL": 32.99851276306323
+      }
+    ]
+  },
+  "contrasts": [
+    {
+      "split": "VALIDATION",
+      "a": "bayes_action_full_view",
+      "b": "bayes_indexed",
+      "mean_paired_delta": 0.00044615564088384344,
+      "relative_mean_difference": 0.0004782916654171127,
+      "a_better_participants": 4,
+      "participants": 9,
+      "participant_deltas": [
+        {
+          "participant": "CGMacros-005.csv",
+          "a": 0.9099893111470913,
+          "b": 0.9099474865764249,
+          "delta": 4.182457066637113e-05
+        },
+        {
+          "participant": "CGMacros-009.csv",
+          "a": 0.7536467990479142,
+          "b": 0.7438443690073102,
+          "delta": 0.009802430040603993
+        },
+        {
+          "participant": "CGMacros-010.csv",
+          "a": 0.9785529356980254,
+          "b": 0.9787192246218014,
+          "delta": -0.00016628892377601456
+        },
+        {
+          "participant": "CGMacros-018.csv",
+          "a": 0.8864811737246892,
+          "b": 0.8862514607840171,
+          "delta": 0.0002297129406720888
+        },
+        {
+          "participant": "CGMacros-021.csv",
+          "a": 1.0698685252297981,
+          "b": 1.0700458442936904,
+          "delta": -0.00017731906389228946
+        },
+        {
+          "participant": "CGMacros-022.csv",
+          "a": 0.9303037273043326,
+          "b": 0.9362762911170527,
+          "delta": -0.005972563812720044
+        },
+        {
+          "participant": "CGMacros-029.csv",
+          "a": 0.826945896765955,
+          "b": 0.8269480463671796,
+          "delta": -2.149601224576969e-06
+        },
+        {
+          "participant": "CGMacros-035.csv",
+          "a": 1.0313369784717283,
+          "b": 1.0311487696153303,
+          "delta": 0.0001882088563980311
+        },
+        {
+          "participant": "CGMacros-041.csv",
+          "a": 1.0121874384014407,
+          "b": 1.0121158926402136,
+          "delta": 7.154576122703205e-05
+        }
+      ],
+      "descriptive_participant_bootstrap_95percent": [
+        -0.0019481890952350238,
+        0.0032755430587497842
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 67025,
+      "multiplicity_adjusted": false
+    },
+    {
+      "split": "VALIDATION",
+      "a": "bayes_action_past_view",
+      "b": "bayes_indexed",
+      "mean_paired_delta": 0.0004461592301776809,
+      "relative_mean_difference": 0.00047829551324322955,
+      "a_better_participants": 4,
+      "participants": 9,
+      "participant_deltas": [
+        {
+          "participant": "CGMacros-005.csv",
+          "a": 0.909989313645966,
+          "b": 0.9099474865764249,
+          "delta": 4.18270695411449e-05
+        },
+        {
+          "participant": "CGMacros-009.csv",
+          "a": 0.7536468018062741,
+          "b": 0.7438443690073102,
+          "delta": 0.009802432798963867
+        },
+        {
+          "participant": "CGMacros-010.csv",
+          "a": 0.9785529363342551,
+          "b": 0.9787192246218014,
+          "delta": -0.000166288287546279
+        },
+        {
+          "participant": "CGMacros-018.csv",
+          "a": 0.8864811754359493,
+          "b": 0.8862514607840171,
+          "delta": 0.0002297146519322224
+        },
+        {
+          "participant": "CGMacros-021.csv",
+          "a": 1.0698685276693527,
+          "b": 1.0700458442936904,
+          "delta": -0.0001773166243377311
+        },
+        {
+          "participant": "CGMacros-022.csv",
+          "a": 0.9303037359690055,
+          "b": 0.9362762911170527,
+          "delta": -0.005972555148047176
+        },
+        {
+          "participant": "CGMacros-029.csv",
+          "a": 0.8269458930992006,
+          "b": 0.8269480463671796,
+          "delta": -2.153267978921569e-06
+        },
+        {
+          "participant": "CGMacros-035.csv",
+          "a": 1.031336997642647,
+          "b": 1.0311487696153303,
+          "delta": 0.00018822802731666144
+        },
+        {
+          "participant": "CGMacros-041.csv",
+          "a": 1.012187436491969,
+          "b": 1.0121158926402136,
+          "delta": 7.154385175534017e-05
+        }
+      ],
+      "descriptive_participant_bootstrap_95percent": [
+        -0.001948181785870715,
+        0.003275548326211957
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 67025,
+      "multiplicity_adjusted": false
+    },
+    {
+      "split": "VALIDATION",
+      "a": "bayes_raw_macro",
+      "b": "bayes_indexed",
+      "mean_paired_delta": -0.032929858158198475,
+      "relative_mean_difference": -0.03530175404536592,
+      "a_better_participants": 7,
+      "participants": 9,
+      "participant_deltas": [
+        {
+          "participant": "CGMacros-005.csv",
+          "a": 0.9423766469277055,
+          "b": 0.9099474865764249,
+          "delta": 0.03242916035128063
+        },
+        {
+          "participant": "CGMacros-009.csv",
+          "a": 0.7853919122987977,
+          "b": 0.7438443690073102,
+          "delta": 0.041547543291487465
+        },
+        {
+          "participant": "CGMacros-010.csv",
+          "a": 0.9092808632781688,
+          "b": 0.9787192246218014,
+          "delta": -0.06943836134363257
+        },
+        {
+          "participant": "CGMacros-018.csv",
+          "a": 0.8175167836200655,
+          "b": 0.8862514607840171,
+          "delta": -0.06873467716395154
+        },
+        {
+          "participant": "CGMacros-021.csv",
+          "a": 1.0412947164014457,
+          "b": 1.0700458442936904,
+          "delta": -0.028751127892244766
+        },
+        {
+          "participant": "CGMacros-022.csv",
+          "a": 0.8587684707598462,
+          "b": 0.9362762911170527,
+          "delta": -0.07750782035720649
+        },
+        {
+          "participant": "CGMacros-029.csv",
+          "a": 0.7540009852212434,
+          "b": 0.8269480463671796,
+          "delta": -0.07294706114593619
+        },
+        {
+          "participant": "CGMacros-035.csv",
+          "a": 1.0058563372892873,
+          "b": 1.0311487696153303,
+          "delta": -0.025292432326043057
+        },
+        {
+          "participant": "CGMacros-041.csv",
+          "a": 0.9844419458026739,
+          "b": 1.0121158926402136,
+          "delta": -0.027673946837539765
+        }
+      ],
+      "descriptive_participant_bootstrap_95percent": [
+        -0.058175725368138115,
+        -0.003430711994607082
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 67025,
+      "multiplicity_adjusted": false
+    },
+    {
+      "split": "VALIDATION",
+      "a": "bayes_indexed",
+      "b": "bayes_ignored",
+      "mean_paired_delta": -0.0391219566477472,
+      "relative_mean_difference": -0.04025171037056296,
+      "a_better_participants": 4,
+      "participants": 9,
+      "participant_deltas": [
+        {
+          "participant": "CGMacros-005.csv",
+          "a": 0.9099474865764249,
+          "b": 1.2506795142993454,
+          "delta": -0.34073202772292055
+        },
+        {
+          "participant": "CGMacros-009.csv",
+          "a": 0.7438443690073102,
+          "b": 0.7349239813694436,
+          "delta": 0.008920387637866622
+        },
+        {
+          "participant": "CGMacros-010.csv",
+          "a": 0.9787192246218014,
+          "b": 0.9475831065244735,
+          "delta": 0.03113611809732786
+        },
+        {
+          "participant": "CGMacros-018.csv",
+          "a": 0.8862514607840171,
+          "b": 1.0071222441117216,
+          "delta": -0.12087078332770451
+        },
+        {
+          "participant": "CGMacros-021.csv",
+          "a": 1.0700458442936904,
+          "b": 0.9404252700072059,
+          "delta": 0.12962057428648455
+        },
+        {
+          "participant": "CGMacros-022.csv",
+          "a": 0.9362762911170527,
+          "b": 0.9074796457191886,
+          "delta": 0.028796645397864085
+        },
+        {
+          "participant": "CGMacros-029.csv",
+          "a": 0.8269480463671796,
+          "b": 0.906479678701445,
+          "delta": -0.07953163233426541
+        },
+        {
+          "participant": "CGMacros-035.csv",
+          "a": 1.0311487696153303,
+          "b": 1.0087874922783928,
+          "delta": 0.02236127733693749
+        },
+        {
+          "participant": "CGMacros-041.csv",
+          "a": 1.0121158926402136,
+          "b": 1.0439140618415286,
+          "delta": -0.03179816920131495
+        }
+      ],
+      "descriptive_participant_bootstrap_95percent": [
+        -0.12910971126402754,
+        0.03467268295481421
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 67025,
+      "multiplicity_adjusted": false
+    },
+    {
+      "split": "VALIDATION",
+      "a": "bayes_action_full_view",
+      "b": "bayes_action_past_view",
+      "mean_paired_delta": -3.58929383745574e-09,
+      "relative_mean_difference": -3.845986598750078e-09,
+      "a_better_participants": 7,
+      "participants": 9,
+      "participant_deltas": [
+        {
+          "participant": "CGMacros-005.csv",
+          "a": 0.9099893111470913,
+          "b": 0.909989313645966,
+          "delta": -2.498874773770865e-09
+        },
+        {
+          "participant": "CGMacros-009.csv",
+          "a": 0.7536467990479142,
+          "b": 0.7536468018062741,
+          "delta": -2.7583598738445403e-09
+        },
+        {
+          "participant": "CGMacros-010.csv",
+          "a": 0.9785529356980254,
+          "b": 0.9785529363342551,
+          "delta": -6.362297355622104e-10
+        },
+        {
+          "participant": "CGMacros-018.csv",
+          "a": 0.8864811737246892,
+          "b": 0.8864811754359493,
+          "delta": -1.7112601335966815e-09
+        },
+        {
+          "participant": "CGMacros-021.csv",
+          "a": 1.0698685252297981,
+          "b": 1.0698685276693527,
+          "delta": -2.4395545583644207e-09
+        },
+        {
+          "participant": "CGMacros-022.csv",
+          "a": 0.9303037273043326,
+          "b": 0.9303037359690055,
+          "delta": -8.664672868086143e-09
+        },
+        {
+          "participant": "CGMacros-029.csv",
+          "a": 0.826945896765955,
+          "b": 0.8269458930992006,
+          "delta": 3.666754344600065e-09
+        },
+        {
+          "participant": "CGMacros-035.csv",
+          "a": 1.0313369784717283,
+          "b": 1.031336997642647,
+          "delta": -1.9170918630351252e-08
+        },
+        {
+          "participant": "CGMacros-041.csv",
+          "a": 1.0121874384014407,
+          "b": 1.012187436491969,
+          "delta": 1.909471691874387e-09
+        }
+      ],
+      "descriptive_participant_bootstrap_95percent": [
+        -8.145965400983989e-09,
+        -4.8494997832252814e-11
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 67025,
+      "multiplicity_adjusted": false
+    },
+    {
+      "split": "VALIDATION",
+      "a": "clamped_simulate",
+      "b": "context_mean",
+      "mean_paired_delta": -0.018079411307888666,
+      "relative_mean_difference": -0.022227068478035576,
+      "a_better_participants": 6,
+      "participants": 9,
+      "participant_deltas": [
+        {
+          "participant": "CGMacros-005.csv",
+          "a": 0.8231283529103636,
+          "b": 0.8480380229903547,
+          "delta": -0.02490967007999112
+        },
+        {
+          "participant": "CGMacros-009.csv",
+          "a": 0.7262972114018605,
+          "b": 0.7148721751379837,
+          "delta": 0.011425036263876809
+        },
+        {
+          "participant": "CGMacros-010.csv",
+          "a": 0.8787464204721944,
+          "b": 0.9103515408401506,
+          "delta": -0.03160512036795615
+        },
+        {
+          "participant": "CGMacros-018.csv",
+          "a": 0.7427391860781247,
+          "b": 0.7609909322958105,
+          "delta": -0.01825174621768577
+        },
+        {
+          "participant": "CGMacros-021.csv",
+          "a": 0.8596050066926662,
+          "b": 0.8511046181076413,
+          "delta": 0.008500388585024887
+        },
+        {
+          "participant": "CGMacros-022.csv",
+          "a": 0.6881803833404274,
+          "b": 0.7168977834558623,
+          "delta": -0.028717400115434888
+        },
+        {
+          "participant": "CGMacros-029.csv",
+          "a": 0.8075908555556697,
+          "b": 0.799788203300221,
+          "delta": 0.007802652255448628
+        },
+        {
+          "participant": "CGMacros-035.csv",
+          "a": 0.7640134386247006,
+          "b": 0.8231352712946389,
+          "delta": -0.05912183266993831
+        },
+        {
+          "participant": "CGMacros-041.csv",
+          "a": 0.8675495429451694,
+          "b": 0.8953865523695115,
+          "delta": -0.027837009424342085
+        }
+      ],
+      "descriptive_participant_bootstrap_95percent": [
+        -0.03269176312194122,
+        -0.0033769771391774566
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 67025,
+      "multiplicity_adjusted": false
+    },
+    {
+      "split": "VALIDATION",
+      "a": "analog_k16",
+      "b": "bayes_indexed",
+      "mean_paired_delta": -0.16013848213017973,
+      "relative_mean_difference": -0.17167305374348757,
+      "a_better_participants": 8,
+      "participants": 9,
+      "participant_deltas": [
+        {
+          "participant": "CGMacros-005.csv",
+          "a": 0.7198509933988476,
+          "b": 0.9099474865764249,
+          "delta": -0.19009649317757726
+        },
+        {
+          "participant": "CGMacros-009.csv",
+          "a": 0.6812550647170723,
+          "b": 0.7438443690073102,
+          "delta": -0.0625893042902379
+        },
+        {
+          "participant": "CGMacros-010.csv",
+          "a": 0.9463131695369255,
+          "b": 0.9787192246218014,
+          "delta": -0.03240605508487593
+        },
+        {
+          "participant": "CGMacros-018.csv",
+          "a": 0.8862714234798105,
+          "b": 0.8862514607840171,
+          "delta": 1.996269579340737e-05
+        },
+        {
+          "participant": "CGMacros-021.csv",
+          "a": 0.8076205427085377,
+          "b": 1.0700458442936904,
+          "delta": -0.26242530158515276
+        },
+        {
+          "participant": "CGMacros-022.csv",
+          "a": 0.7067413705395735,
+          "b": 0.9362762911170527,
+          "delta": -0.22953492057747915
+        },
+        {
+          "participant": "CGMacros-029.csv",
+          "a": 0.6931933222601978,
+          "b": 0.8269480463671796,
+          "delta": -0.13375472410698175
+        },
+        {
+          "participant": "CGMacros-035.csv",
+          "a": 0.765408711690935,
+          "b": 1.0311487696153303,
+          "delta": -0.26574005792439526
+        },
+        {
+          "participant": "CGMacros-041.csv",
+          "a": 0.7473964475195028,
+          "b": 1.0121158926402136,
+          "delta": -0.2647194451207108
+        }
+      ],
+      "descriptive_participant_bootstrap_95percent": [
+        -0.22344476175010203,
+        -0.09463088481980596
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 67025,
+      "multiplicity_adjusted": false
+    },
+    {
+      "split": "VALIDATION",
+      "a": "ridge_alpha100",
+      "b": "bayes_indexed",
+      "mean_paired_delta": -0.19433578028769535,
+      "relative_mean_difference": -0.20833353988263306,
+      "a_better_participants": 9,
+      "participants": 9,
+      "participant_deltas": [
+        {
+          "participant": "CGMacros-005.csv",
+          "a": 0.8187775839428935,
+          "b": 0.9099474865764249,
+          "delta": -0.09116990263353142
+        },
+        {
+          "participant": "CGMacros-009.csv",
+          "a": 0.6416084394066723,
+          "b": 0.7438443690073102,
+          "delta": -0.10223592960063788
+        },
+        {
+          "participant": "CGMacros-010.csv",
+          "a": 0.8008646322166169,
+          "b": 0.9787192246218014,
+          "delta": -0.17785459240518453
+        },
+        {
+          "participant": "CGMacros-018.csv",
+          "a": 0.694261755550786,
+          "b": 0.8862514607840171,
+          "delta": -0.1919897052332311
+        },
+        {
+          "participant": "CGMacros-021.csv",
+          "a": 0.8039322543712203,
+          "b": 1.0700458442936904,
+          "delta": -0.26611358992247014
+        },
+        {
+          "participant": "CGMacros-022.csv",
+          "a": 0.7099957778472479,
+          "b": 0.9362762911170527,
+          "delta": -0.2262805132698048
+        },
+        {
+          "participant": "CGMacros-029.csv",
+          "a": 0.6166979304187931,
+          "b": 0.8269480463671796,
+          "delta": -0.2102501159483865
+        },
+        {
+          "participant": "CGMacros-035.csv",
+          "a": 0.6737869752898336,
+          "b": 1.0311487696153303,
+          "delta": -0.35736179432549675
+        },
+        {
+          "participant": "CGMacros-041.csv",
+          "a": 0.8863500133896987,
+          "b": 1.0121158926402136,
+          "delta": -0.12576587925051497
+        }
+      ],
+      "descriptive_participant_bootstrap_95percent": [
+        -0.24841597804323318,
+        -0.1445213390140759
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 67025,
+      "multiplicity_adjusted": false
+    },
+    {
+      "split": "EVALUATION",
+      "a": "bayes_action_full_view",
+      "b": "bayes_indexed",
+      "mean_paired_delta": -0.00646698774867639,
+      "relative_mean_difference": -0.00647904122382757,
+      "a_better_participants": 9,
+      "participants": 9,
+      "participant_deltas": [
+        {
+          "participant": "CGMacros-003.csv",
+          "a": 1.3226312381221454,
+          "b": 1.3226592144047535,
+          "delta": -2.797628260808871e-05
+        },
+        {
+          "participant": "CGMacros-013.csv",
+          "a": 0.8140258830300698,
+          "b": 0.8143637634501483,
+          "delta": -0.0003378804200784291
+        },
+        {
+          "participant": "CGMacros-014.csv",
+          "a": 0.8716984528341661,
+          "b": 0.87262371626808,
+          "delta": -0.0009252634339138588
+        },
+        {
+          "participant": "CGMacros-015.csv",
+          "a": 0.9694805819719714,
+          "b": 0.9696245687028563,
+          "delta": -0.000143986730884893
+        },
+        {
+          "participant": "CGMacros-023.csv",
+          "a": 0.9784066276625228,
+          "b": 0.9813513099237429,
+          "delta": -0.002944682261220022
+        },
+        {
+          "participant": "CGMacros-027.csv",
+          "a": 0.9595505900849997,
+          "b": 0.9602314270855145,
+          "delta": -0.0006808370005148001
+        },
+        {
+          "participant": "CGMacros-032.csv",
+          "a": 1.1522890690586873,
+          "b": 1.200493314152538,
+          "delta": -0.048204245093850684
+        },
+        {
+          "participant": "CGMacros-036.csv",
+          "a": 0.7776216824672236,
+          "b": 0.7825266439197741,
+          "delta": -0.0049049614525504825
+        },
+        {
+          "participant": "CGMacros-044.csv",
+          "a": 1.0793495699764204,
+          "b": 1.0793826270388867,
+          "delta": -3.305706246625739e-05
+        }
+      ],
+      "descriptive_participant_bootstrap_95percent": [
+        -0.01723120850455187,
+        -0.00048189980337088283
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 67025,
+      "multiplicity_adjusted": false
+    },
+    {
+      "split": "EVALUATION",
+      "a": "bayes_action_past_view",
+      "b": "bayes_indexed",
+      "mean_paired_delta": -0.006466990603824829,
+      "relative_mean_difference": -0.006479044084297568,
+      "a_better_participants": 9,
+      "participants": 9,
+      "participant_deltas": [
+        {
+          "participant": "CGMacros-003.csv",
+          "a": 1.3226312401222602,
+          "b": 1.3226592144047535,
+          "delta": -2.7974282493348213e-05
+        },
+        {
+          "participant": "CGMacros-013.csv",
+          "a": 0.8140258591716827,
+          "b": 0.8143637634501483,
+          "delta": -0.0003379042784655839
+        },
+        {
+          "participant": "CGMacros-014.csv",
+          "a": 0.8716984538053665,
+          "b": 0.87262371626808,
+          "delta": -0.0009252624627135164
+        },
+        {
+          "participant": "CGMacros-015.csv",
+          "a": 0.969480575673569,
+          "b": 0.9696245687028563,
+          "delta": -0.00014399302928724822
+        },
+        {
+          "participant": "CGMacros-023.csv",
+          "a": 0.9784066271943402,
+          "b": 0.9813513099237429,
+          "delta": -0.0029446827294026257
+        },
+        {
+          "participant": "CGMacros-027.csv",
+          "a": 0.9595505911908454,
+          "b": 0.9602314270855145,
+          "delta": -0.0006808358946690518
+        },
+        {
+          "participant": "CGMacros-032.csv",
+          "a": 1.1522890687871155,
+          "b": 1.200493314152538,
+          "delta": -0.04820424536542256
+        },
+        {
+          "participant": "CGMacros-036.csv",
+          "a": 0.7776216785936426,
+          "b": 0.7825266439197741,
+          "delta": -0.004904965326131494
+        },
+        {
+          "participant": "CGMacros-044.csv",
+          "a": 1.0793495749730486,
+          "b": 1.0793826270388867,
+          "delta": -3.3052065838035105e-05
+        }
+      ],
+      "descriptive_participant_bootstrap_95percent": [
+        -0.017231208414447544,
+        -0.0004819044799419055
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 67025,
+      "multiplicity_adjusted": false
+    },
+    {
+      "split": "EVALUATION",
+      "a": "bayes_raw_macro",
+      "b": "bayes_indexed",
+      "mean_paired_delta": 0.0006972861433031108,
+      "relative_mean_difference": 0.0006985857779287193,
+      "a_better_participants": 5,
+      "participants": 9,
+      "participant_deltas": [
+        {
+          "participant": "CGMacros-003.csv",
+          "a": 1.318596968608359,
+          "b": 1.3226592144047535,
+          "delta": -0.004062245796394581
+        },
+        {
+          "participant": "CGMacros-013.csv",
+          "a": 0.8004113257571602,
+          "b": 0.8143637634501483,
+          "delta": -0.01395243769298804
+        },
+        {
+          "participant": "CGMacros-014.csv",
+          "a": 0.8239492307762551,
+          "b": 0.87262371626808,
+          "delta": -0.04867448549182485
+        },
+        {
+          "participant": "CGMacros-015.csv",
+          "a": 1.0264905537760982,
+          "b": 0.9696245687028563,
+          "delta": 0.05686598507324192
+        },
+        {
+          "participant": "CGMacros-023.csv",
+          "a": 0.9588908877823749,
+          "b": 0.9813513099237429,
+          "delta": -0.02246042214136801
+        },
+        {
+          "participant": "CGMacros-027.csv",
+          "a": 0.9054541278278957,
+          "b": 0.9602314270855145,
+          "delta": -0.05477729925761876
+        },
+        {
+          "participant": "CGMacros-032.csv",
+          "a": 1.215832506349188,
+          "b": 1.200493314152538,
+          "delta": 0.01533919219664992
+        },
+        {
+          "participant": "CGMacros-036.csv",
+          "a": 0.8393486206468127,
+          "b": 0.7825266439197741,
+          "delta": 0.05682197672703859
+        },
+        {
+          "participant": "CGMacros-044.csv",
+          "a": 1.1005579387118785,
+          "b": 1.0793826270388867,
+          "delta": 0.021175311672991803
+        }
+      ],
+      "descriptive_participant_bootstrap_95percent": [
+        -0.023772285817282402,
+        0.025422687852106704
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 67025,
+      "multiplicity_adjusted": false
+    },
+    {
+      "split": "EVALUATION",
+      "a": "bayes_indexed",
+      "b": "bayes_ignored",
+      "mean_paired_delta": 0.008813744869295882,
+      "relative_mean_difference": 0.008908838923509674,
+      "a_better_participants": 4,
+      "participants": 9,
+      "participant_deltas": [
+        {
+          "participant": "CGMacros-003.csv",
+          "a": 1.3226592144047535,
+          "b": 1.2775042011661255,
+          "delta": 0.04515501323862803
+        },
+        {
+          "participant": "CGMacros-013.csv",
+          "a": 0.8143637634501483,
+          "b": 0.892662237146374,
+          "delta": -0.07829847369622578
+        },
+        {
+          "participant": "CGMacros-014.csv",
+          "a": 0.87262371626808,
+          "b": 0.8573714945850904,
+          "delta": 0.015252221682989564
+        },
+        {
+          "participant": "CGMacros-015.csv",
+          "a": 0.9696245687028563,
+          "b": 0.9048156968013514,
+          "delta": 0.06480887190150486
+        },
+        {
+          "participant": "CGMacros-023.csv",
+          "a": 0.9813513099237429,
+          "b": 1.0596578553057214,
+          "delta": -0.07830654538197857
+        },
+        {
+          "participant": "CGMacros-027.csv",
+          "a": 0.9602314270855145,
+          "b": 0.8289991058900386,
+          "delta": 0.1312323211954759
+        },
+        {
+          "participant": "CGMacros-032.csv",
+          "a": 1.200493314152538,
+          "b": 1.0587442688063053,
+          "delta": 0.14174904534623267
+        },
+        {
+          "participant": "CGMacros-036.csv",
+          "a": 0.7825266439197741,
+          "b": 0.9389335974938255,
+          "delta": -0.15640695357405143
+        },
+        {
+          "participant": "CGMacros-044.csv",
+          "a": 1.0793826270388867,
+          "b": 1.085244423927799,
+          "delta": -0.005861796888912307
+        }
+      ],
+      "descriptive_participant_bootstrap_95percent": [
+        -0.05339680230825653,
+        0.06854681787522666
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 67025,
+      "multiplicity_adjusted": false
+    },
+    {
+      "split": "EVALUATION",
+      "a": "bayes_action_full_view",
+      "b": "bayes_action_past_view",
+      "mean_paired_delta": 2.855148438661735e-09,
+      "relative_mean_difference": 2.8791239693868416e-09,
+      "a_better_participants": 4,
+      "participants": 9,
+      "participant_deltas": [
+        {
+          "participant": "CGMacros-003.csv",
+          "a": 1.3226312381221454,
+          "b": 1.3226312401222602,
+          "delta": -2.0001147404968833e-09
+        },
+        {
+          "participant": "CGMacros-013.csv",
+          "a": 0.8140258830300698,
+          "b": 0.8140258591716827,
+          "delta": 2.3858387154795935e-08
+        },
+        {
+          "participant": "CGMacros-014.csv",
+          "a": 0.8716984528341661,
+          "b": 0.8716984538053665,
+          "delta": -9.712003423700821e-10
+        },
+        {
+          "participant": "CGMacros-015.csv",
+          "a": 0.9694805819719714,
+          "b": 0.969480575673569,
+          "delta": 6.298402355220389e-09
+        },
+        {
+          "participant": "CGMacros-023.csv",
+          "a": 0.9784066276625228,
+          "b": 0.9784066271943402,
+          "delta": 4.68182603796663e-10
+        },
+        {
+          "participant": "CGMacros-027.csv",
+          "a": 0.9595505900849997,
+          "b": 0.9595505911908454,
+          "delta": -1.105845748305967e-09
+        },
+        {
+          "participant": "CGMacros-032.csv",
+          "a": 1.1522890690586873,
+          "b": 1.1522890687871155,
+          "delta": 2.7157187609816447e-10
+        },
+        {
+          "participant": "CGMacros-036.csv",
+          "a": 0.7776216824672236,
+          "b": 0.7776216785936426,
+          "delta": 3.873581011504257e-09
+        },
+        {
+          "participant": "CGMacros-044.csv",
+          "a": 1.0793495699764204,
+          "b": 1.0793495749730486,
+          "delta": -4.9966282222868585e-09
+        }
+      ],
+      "descriptive_participant_bootstrap_95percent": [
+        -1.2996735299086736e-09,
+        8.682018511526243e-09
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 67025,
+      "multiplicity_adjusted": false
+    },
+    {
+      "split": "EVALUATION",
+      "a": "clamped_simulate",
+      "b": "context_mean",
+      "mean_paired_delta": -0.011602734145949947,
+      "relative_mean_difference": -0.012986942256658989,
+      "a_better_participants": 6,
+      "participants": 9,
+      "participant_deltas": [
+        {
+          "participant": "CGMacros-003.csv",
+          "a": 1.1928054990979966,
+          "b": 1.1871567280646727,
+          "delta": 0.005648771033323952
+        },
+        {
+          "participant": "CGMacros-013.csv",
+          "a": 0.7800094418889104,
+          "b": 0.795739397074436,
+          "delta": -0.015729955185525557
+        },
+        {
+          "participant": "CGMacros-014.csv",
+          "a": 0.8030597753074972,
+          "b": 0.8364305916724913,
+          "delta": -0.03337081636499417
+        },
+        {
+          "participant": "CGMacros-015.csv",
+          "a": 0.9190320135118979,
+          "b": 0.9323651639543057,
+          "delta": -0.013333150442407793
+        },
+        {
+          "participant": "CGMacros-023.csv",
+          "a": 0.8760190156556091,
+          "b": 0.8888867668804301,
+          "delta": -0.012867751224820978
+        },
+        {
+          "participant": "CGMacros-027.csv",
+          "a": 0.49072908084090794,
+          "b": 0.48986319773274667,
+          "delta": 0.0008658831081612695
+        },
+        {
+          "participant": "CGMacros-032.csv",
+          "a": 1.183851876884619,
+          "b": 1.1415800797309337,
+          "delta": 0.04227179715368523
+        },
+        {
+          "participant": "CGMacros-036.csv",
+          "a": 0.6688300941014154,
+          "b": 0.7223106646031224,
+          "delta": -0.05348057050170707
+        },
+        {
+          "participant": "CGMacros-044.csv",
+          "a": 1.0219771503108075,
+          "b": 1.046405965200072,
+          "delta": -0.024428814889264405
+        }
+      ],
+      "descriptive_participant_bootstrap_95percent": [
+        -0.02689520434607845,
+        0.005652132859516526
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 67025,
+      "multiplicity_adjusted": false
+    },
+    {
+      "split": "EVALUATION",
+      "a": "analog_k16",
+      "b": "bayes_indexed",
+      "mean_paired_delta": -0.16697893339493003,
+      "relative_mean_difference": -0.1672901565644587,
+      "a_better_participants": 8,
+      "participants": 9,
+      "participant_deltas": [
+        {
+          "participant": "CGMacros-003.csv",
+          "a": 1.1332103106687539,
+          "b": 1.3226592144047535,
+          "delta": -0.18944890373599965
+        },
+        {
+          "participant": "CGMacros-013.csv",
+          "a": 0.7298887910141116,
+          "b": 0.8143637634501483,
+          "delta": -0.08447497243603663
+        },
+        {
+          "participant": "CGMacros-014.csv",
+          "a": 0.654751207457984,
+          "b": 0.87262371626808,
+          "delta": -0.217872508810096
+        },
+        {
+          "participant": "CGMacros-015.csv",
+          "a": 1.1452411576379105,
+          "b": 0.9696245687028563,
+          "delta": 0.17561658893505416
+        },
+        {
+          "participant": "CGMacros-023.csv",
+          "a": 0.8400511404020411,
+          "b": 0.9813513099237429,
+          "delta": -0.14130016952170177
+        },
+        {
+          "participant": "CGMacros-027.csv",
+          "a": 0.5271166745072483,
+          "b": 0.9602314270855145,
+          "delta": -0.43311475257826615
+        },
+        {
+          "participant": "CGMacros-032.csv",
+          "a": 0.9559624171356136,
+          "b": 1.200493314152538,
+          "delta": -0.24453089701692443
+        },
+        {
+          "participant": "CGMacros-036.csv",
+          "a": 0.584783552590958,
+          "b": 0.7825266439197741,
+          "delta": -0.19774309132881607
+        },
+        {
+          "participant": "CGMacros-044.csv",
+          "a": 0.9094409329773028,
+          "b": 1.0793826270388867,
+          "delta": -0.16994169406158388
+        }
+      ],
+      "descriptive_participant_bootstrap_95percent": [
+        -0.2597165592252141,
+        -0.0641982787101287
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 67025,
+      "multiplicity_adjusted": false
+    },
+    {
+      "split": "EVALUATION",
+      "a": "ridge_alpha100",
+      "b": "bayes_indexed",
+      "mean_paired_delta": -0.16160850490249679,
+      "relative_mean_difference": -0.16190971841545884,
+      "a_better_participants": 7,
+      "participants": 9,
+      "participant_deltas": [
+        {
+          "participant": "CGMacros-003.csv",
+          "a": 1.0114830471437446,
+          "b": 1.3226592144047535,
+          "delta": -0.31117616726100894
+        },
+        {
+          "participant": "CGMacros-013.csv",
+          "a": 0.7310884002947204,
+          "b": 0.8143637634501483,
+          "delta": -0.08327536315542783
+        },
+        {
+          "participant": "CGMacros-014.csv",
+          "a": 0.6089125252335514,
+          "b": 0.87262371626808,
+          "delta": -0.26371119103452856
+        },
+        {
+          "participant": "CGMacros-015.csv",
+          "a": 1.008996823140483,
+          "b": 0.9696245687028563,
+          "delta": 0.0393722544376266
+        },
+        {
+          "participant": "CGMacros-023.csv",
+          "a": 0.8554522185658253,
+          "b": 0.9813513099237429,
+          "delta": -0.12589909135791755
+        },
+        {
+          "participant": "CGMacros-027.csv",
+          "a": 0.6277909748913241,
+          "b": 0.9602314270855145,
+          "delta": -0.3324404521941904
+        },
+        {
+          "participant": "CGMacros-032.csv",
+          "a": 0.872794315739731,
+          "b": 1.200493314152538,
+          "delta": -0.32769899841280703
+        },
+        {
+          "participant": "CGMacros-036.csv",
+          "a": 0.900199847574398,
+          "b": 0.7825266439197741,
+          "delta": 0.11767320365462386
+        },
+        {
+          "participant": "CGMacros-044.csv",
+          "a": 0.9120618882400452,
+          "b": 1.0793826270388867,
+          "delta": -0.16732073879884146
+        }
+      ],
+      "descriptive_participant_bootstrap_95percent": [
+        -0.25830410521321484,
+        -0.057856928534350385
+      ],
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 67025,
+      "multiplicity_adjusted": false
+    }
+  ],
+  "full_vs_past_view_max_abs_forecast_change_mg_dL": 4.57763671875e-05,
+  "validation_results_sha256": "4bbf58c35250db80af58a009a2ad26cee5b8d3f24d914344f6cbadc5fcf49cf3",
+  "evaluation_results_sha256": "911b095b92625b25e8f9783d1c79f744dc05702cb1828c17bc993923ee80388a",
+  "selection_sha256": "d2a1ccf5dff9da8f21810410ed9e44dc71903948f80902898565bd3063cb9c7b",
+  "replay_sha256": "de9daca8e196bcb55058fc4b33a18eb3c919b895f695c6535ed3f5e5cd142a66",
+  "forecast_ledger_sha256": "1cf0f0ab21ae82f11aa65ac3395cf7985efe3133f745a7210f5223ac761cc25b",
+  "accepted_final_directions": 0,
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "judgment": "Do not promote view alignment as a primary new framework. Ordinary control shows tiny/inconsistent primary contrast across VAL/EVAL; broader priors already study alignment. One task/protocol cannot establish or refute a universal world-model capability."
+}

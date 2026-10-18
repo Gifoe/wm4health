@@ -1,0 +1,30 @@
+{
+    "utc":  "2026-10-18T03:13:00.7712805Z",
+    "status":  "INTENTIONAL_SOURCE_TRANSPORT_SWITCH",
+    "confirmed_worker_pid":  44628,
+    "command":  "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -u D:\\tswm_discovery_20261016_v1\\cycle67\\scripts\\stage_data67_v1.py",
+    "reason":  "Direct server curl measured15968/262668 bytes in12 seconds,1330 B/s; official S3 connection refused. Switch public numerical-source requests to transient RAM relay, no local dataset/result files.",
+    "retained_files":  [
+                           {
+                               "path":  "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle67\\cgmacros_v1\\CGMacros-001.csv",
+                               "bytes":  1133908,
+                               "sha256":  "64CDE6F844A1AC43AC7802FF2A1B793DF88ABCED4DB55DCB016FF74A952B4F8F"
+                           },
+                           {
+                               "path":  "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle67\\cgmacros_v1\\CGMacros-002.csv",
+                               "bytes":  1173101,
+                               "sha256":  "4AC368784DFC9E23C1DCEC9F72A4C563FF2F31688EA1183868F825F418170782"
+                           },
+                           {
+                               "path":  "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle67\\cgmacros_v1\\DataDictionary_CGMacros-00X.csv",
+                               "bytes":  1604,
+                               "sha256":  "DB7BF114D61B90FC5DE43FED5E5CD6BA33AF37E900A706E1B5747D7B0FFAC3F8"
+                           },
+                           {
+                               "path":  "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle67\\cgmacros_v1\\SHA256SUMS.txt",
+                               "bytes":  632,
+                               "sha256":  "C84420E6336997D3B1892CF5BEBCB6223F41D1FD0528FF6EB1C360A8E167FFB7"
+                           }
+                       ],
+    "restarted_due_to_observation_timeout":  false
+}

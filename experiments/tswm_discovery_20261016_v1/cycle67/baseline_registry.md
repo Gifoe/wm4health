@@ -1,0 +1,13 @@
+# Model/data/protocol registry
+
+Pinned full native NormWear-2 revision3d1281c9994140056edfbbdedab57f2e6493dfaa; weight SHA25644ddf4118b4b027a5b726ce7368439e0fa28fd3c331909149befac2087daad11.186714897 parameters plus327680 buffers,277 strict native state tensors. Source algorithms and all weights are retained; C66's ordinary hidden-channel recurrent clamp and action-coordinate correction are explicit controls. Full/past-view and raw-covariate variants change only distance features under the same context clusters/transition counts/native sampler. They are not new trained architectures.
+
+Three ridge coefficient matrices, each133x720, use TRAIN labels. Analog forecasting retrieves only TRAIN windows. Their target-domain information differs from zero-shot/context-only native adaptation, so the result table identifies this group. No equal-compute or pretraining-data comparison is asserted. The pretrained corpus's overlap with these released records is unverified; participant splits protect this experiment's fitting/selection, not unknown upstream pretraining.
+
+Source45 participant files/687580 released one-minute rows. Split27/9/9 by seed67021; after fixed coverage rules,26 TRAIN participants provide422 bank windows, VALIDATION9/35 cases, EVALUATION9/33 cases. Channel roles are explicit[Libre GL,Carbs,Protein,Fat].2880-minute observed context,720-minute known-meal forecast,16 synthetic padding points use repeated last known macros and zero hidden response. Context normalization uses observed data only; source missing targets stay masked. Float32 data inputs/retained targets and native inference; classical feature/statistical calculations use float64 except source macro-block sums performed on float32 inputs.
+
+Native Bayesian states10,4 fused sampled trajectories,3 fixed MC streams2021/2022/2023. Padded output is cropped explicitly. Native predict lacks future meals and is an information ablation. Point forecasts and native weighted trajectory fusion do not certify a calibrated predictive law.
+
+Runtime: existing isolated Python3.12.13/PyTorch2.11.0+cu128/NumPy2.4.3 on RTX5090, TF32 disabled, no environment installation. pandas was absent; a failed authored audit import is retained, and final preprocessing uses stdlib CSV/ISO datetime plus NumPy. Successful source/precision corrections preserve every prior failure and do not rerun or alter frozen forecasts. See PROTOCOL67_V1.md, EXECUTION67_V1.json, source/data receipts and independent replay.
+
+Selected classical settings: k=16, alpha=100; selection SHA256d2a1ccf5dff9da8f21810410ed9e44dc71903948f80902898565bd3063cb9c7b, written before EVAL. All predeclared native controls are reported, including unfavorable ones. No EVAL tuning occurred.

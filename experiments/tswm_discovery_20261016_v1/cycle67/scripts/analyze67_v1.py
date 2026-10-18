@@ -1,0 +1,19 @@
+import sys,pathlib
+sys.path.insert(0,str(pathlib.Path(__file__).resolve().parent))
+from common67_v1 import *
+assert read(OUT/'INDEPENDENT_REPLAY67_V2.json')['status']=='PASS';results={s:read(OUT/(s+'_RESULTS67_V1.json')) for s in ['VALIDATION','EVALUATION']};summaries={};contrasts=[]
+pairs=[('bayes_action_full_view','bayes_indexed'),('bayes_action_past_view','bayes_indexed'),('bayes_raw_macro','bayes_indexed'),('bayes_indexed','bayes_ignored'),('bayes_action_full_view','bayes_action_past_view'),('clamped_simulate','context_mean'),('analog_k16','bayes_indexed'),('ridge_alpha100','bayes_indexed')]
+rng=np.random.default_rng(67025);bootstrap=rng.integers(0,9,size=(10000,9))
+for part,res in results.items():
+ lookup={g['method']:g for g in res['groups']};summaries[part]=res['groups']
+ for a,b in pairs:
+  pa={p['participant']:p['mean_normalized_MAE'] for p in lookup[a]['participant_means']};pb={p['participant']:p['mean_normalized_MAE'] for p in lookup[b]['participant_means']};assert set(pa)==set(pb);names=sorted(pa);delta=np.array([pa[n]-pb[n] for n in names]);bs=delta[bootstrap].mean(1);contrasts.append(dict(split=part,a=a,b=b,mean_paired_delta=float(delta.mean()),relative_mean_difference=float(delta.mean()/lookup[b]['mean_normalized_MAE']),a_better_participants=int((delta<0).sum()),participants=9,participant_deltas=[dict(participant=n,a=pa[n],b=pb[n],delta=pa[n]-pb[n]) for n in names],descriptive_participant_bootstrap_95percent=np.quantile(bs,[.025,.975]).tolist(),bootstrap_resamples=10000,bootstrap_seed=67025,multiplicity_adjusted=False))
+ledger=[];max_full_past=0.;processed_bytes=0
+for part,res in results.items():
+ for row in res['case_receipts']:
+  assert sha(row['path'])==row['sha256'];r=read(row['path']);assert sha(r['artifact'])==r['artifact_sha256'];z=np.load(r['artifact'],allow_pickle=False)
+  for mc in [2021,2022,2023]:max_full_past=max(max_full_past,float(np.max(np.abs(z[f'bayes_action_full_view_MC{mc}']-z[f'bayes_action_past_view_MC{mc}']))))
+  ledger.append(dict(split=part,case=r['case']['id'],participant=r['case']['participant'],forecast_archive=r['artifact'],forecast_archive_sha256=r['artifact_sha256'],bytes=pathlib.Path(r['artifact']).stat().st_size,case_receipt_sha256=row['sha256'],prediction_arrays=len(z.files),selection_sha256=r['selection_sha256']));processed_bytes+=pathlib.Path(r['artifact']).stat().st_size
+dump(OUT/'FORECAST_ARCHIVE_LEDGER67_V1.json',dict(utc=utc(),archives=ledger,archives_count=len(ledger),forecast_arrays=sum(x['prediction_arrays'] for x in ledger),bytes=processed_bytes,location='server_G_only'))
+obj=dict(utc=utc(),status='REAL_TASK_EVIDENCE_AND_REPLAY_CLOSED',results={s:[{k:g[k] for k in ['method','participants','case_predictions','mean_normalized_MAE','MAE_mg_dL','RMSE_mg_dL']} for g in groups] for s,groups in summaries.items()},contrasts=contrasts,full_vs_past_view_max_abs_forecast_change_mg_dL=max_full_past,validation_results_sha256=sha(OUT/'VALIDATION_RESULTS67_V1.json'),evaluation_results_sha256=sha(OUT/'EVALUATION_RESULTS67_V1.json'),selection_sha256=sha(OUT/'VALIDATION_SELECTION67_V1.json'),replay_sha256=sha(OUT/'INDEPENDENT_REPLAY67_V2.json'),forecast_ledger_sha256=sha(OUT/'FORECAST_ARCHIVE_LEDGER67_V1.json'),accepted_final_directions=0,overall_goal='ACTIVE_UNACHIEVED',judgment='Do not promote view alignment as a primary new framework. Ordinary control shows tiny/inconsistent primary contrast across VAL/EVAL; broader priors already study alignment. One task/protocol cannot establish or refute a universal world-model capability.')
+dump(OUT/'ANALYSIS67_V1.json',obj);print(json.dumps(dict(status=obj['status'],primary_contrast=[x for x in contrasts if x['a']=='bayes_action_full_view' and x['b']=='bayes_indexed'],max_full_vs_past_forecast_difference=max_full_past,accepted_final_directions=0)),flush=True)

@@ -1,0 +1,5542 @@
+{
+  "utc": "2026-10-18T03:23:20.047639+00:00",
+  "status": "RAW_NUMERIC_PROVENANCE_AND_QUALITY_AUDITED_NO_MODEL",
+  "source_receipt_sha256": "80dd4b0b6ccac514288a3e7001bda56f03aa7580912a12a2b8a7f25cfbec68a3",
+  "subjects": 45,
+  "records": [
+    {
+      "file": "CGMacros-039.csv",
+      "sha256": "acd3d25dceb167e6741280c9385a45375b67f40c2932e3b585b27f2695a8a43a",
+      "rows": 17205,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2025-02-07T09:28:00.000000000",
+      "last": "2025-02-19T08:12:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 17204
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 17205,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 59.0,
+          "max": 321.0,
+          "positive": 17205,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14275,
+          "missing": 2930,
+          "finite_fraction": 0.8297006684103458,
+          "min": 101.0,
+          "max": 400.0,
+          "positive": 14275,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "HR": {
+          "finite": 14338,
+          "missing": 2867,
+          "finite_fraction": 0.8333623946527172,
+          "min": 56.0,
+          "max": 169.0,
+          "positive": 14338,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            563.0
+          ]
+        },
+        "Carbs": {
+          "finite": 34,
+          "missing": 17171,
+          "finite_fraction": 0.001976169718105202,
+          "min": 0.0,
+          "max": 94.0,
+          "positive": 31,
+          "observed_gap_minutes_quantiles": [
+            51.0,
+            230.0,
+            962.0,
+            1009.08,
+            1019.0
+          ]
+        },
+        "Protein": {
+          "finite": 34,
+          "missing": 17171,
+          "finite_fraction": 0.001976169718105202,
+          "min": 0.0,
+          "max": 96.0,
+          "positive": 30,
+          "observed_gap_minutes_quantiles": [
+            51.0,
+            230.0,
+            962.0,
+            1009.08,
+            1019.0
+          ]
+        },
+        "Fat": {
+          "finite": 34,
+          "missing": 17171,
+          "finite_fraction": 0.001976169718105202,
+          "min": 0.0,
+          "max": 66.0,
+          "positive": 26,
+          "observed_gap_minutes_quantiles": [
+            51.0,
+            230.0,
+            962.0,
+            1009.08,
+            1019.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 34,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-012.csv",
+      "sha256": "9426dd6f42fcd2028247ec086695304b79cef7b673d70a9d7d290399e02672d5",
+      "rows": 14655,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2023-02-26T08:43:00.000000000",
+      "last": "2023-03-08T13:12:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 14639,
+        "2.0": 15
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 14655,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 77.0,
+          "max": 342.0,
+          "positive": 14655,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            2.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14270,
+          "missing": 385,
+          "finite_fraction": 0.9737291026953259,
+          "min": 72.0,
+          "max": 300.0,
+          "positive": 14270,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            2.0
+          ]
+        },
+        "HR": {
+          "finite": 13399,
+          "missing": 1256,
+          "finite_fraction": 0.9142954622995565,
+          "min": 59.0,
+          "max": 148.0,
+          "positive": 13399,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1243.0
+          ]
+        },
+        "Carbs": {
+          "finite": 33,
+          "missing": 14622,
+          "finite_fraction": 0.0022517911975435006,
+          "min": 0.0,
+          "max": 94.0,
+          "positive": 31,
+          "observed_gap_minutes_quantiles": [
+            122.0,
+            341.0,
+            768.3000000000001,
+            870.38,
+            871.0
+          ]
+        },
+        "Protein": {
+          "finite": 33,
+          "missing": 14622,
+          "finite_fraction": 0.0022517911975435006,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 32,
+          "observed_gap_minutes_quantiles": [
+            122.0,
+            341.0,
+            768.3000000000001,
+            870.38,
+            871.0
+          ]
+        },
+        "Fat": {
+          "finite": 33,
+          "missing": 14622,
+          "finite_fraction": 0.0022517911975435006,
+          "min": 0.0,
+          "max": 54.5,
+          "positive": 30,
+          "observed_gap_minutes_quantiles": [
+            122.0,
+            341.0,
+            768.3000000000001,
+            870.38,
+            871.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 33,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-004.csv",
+      "sha256": "ebfc6d494e92c13c61743ba18f237be7407d119ffe8a9a10c9d7d8872a0043da",
+      "rows": 14275,
+      "columns": [
+        "Unnamed: 0",
+        "Timestamp",
+        "Dexcom GL",
+        "Libre GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2023-09-11T09:54:00.000000000",
+      "last": "2023-09-21T07:48:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 14274
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 14055,
+          "missing": 220,
+          "finite_fraction": 0.9845884413309982,
+          "min": 60.0,
+          "max": 168.0,
+          "positive": 14055,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            16.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14275,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 77.0,
+          "max": 209.0,
+          "positive": 14275,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "HR": {
+          "finite": 14235,
+          "missing": 40,
+          "finite_fraction": 0.9971978984238179,
+          "min": 54.0,
+          "max": 151.0,
+          "positive": 14235,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            22.0
+          ]
+        },
+        "Carbs": {
+          "finite": 62,
+          "missing": 14213,
+          "finite_fraction": 0.004343257443082312,
+          "min": 5.0,
+          "max": 229.0,
+          "positive": 62,
+          "observed_gap_minutes_quantiles": [
+            4.0,
+            196.0,
+            691.0,
+            814.4,
+            839.0
+          ]
+        },
+        "Protein": {
+          "finite": 62,
+          "missing": 14213,
+          "finite_fraction": 0.004343257443082312,
+          "min": 0.0,
+          "max": 116.0,
+          "positive": 57,
+          "observed_gap_minutes_quantiles": [
+            4.0,
+            196.0,
+            691.0,
+            814.4,
+            839.0
+          ]
+        },
+        "Fat": {
+          "finite": 62,
+          "missing": 14213,
+          "finite_fraction": 0.004343257443082312,
+          "min": 0.0,
+          "max": 141.0,
+          "positive": 57,
+          "observed_gap_minutes_quantiles": [
+            4.0,
+            196.0,
+            691.0,
+            814.4,
+            839.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 62,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-033.csv",
+      "sha256": "f0c30c52375bc0a45bbf9ac709e99635395c5e979614d99631c351498e56f214",
+      "rows": 15840,
+      "columns": [
+        "Unnamed: 0",
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "Intensity",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2022-04-16T09:30:00.000000000",
+      "last": "2022-04-27T09:44:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 15824,
+        "2.0": 15
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 15840,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 55.0,
+          "max": 307.0,
+          "positive": 15840,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            2.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14215,
+          "missing": 1625,
+          "finite_fraction": 0.8974116161616161,
+          "min": 40.0,
+          "max": 352.0,
+          "positive": 14215,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            9.0
+          ]
+        },
+        "HR": {
+          "finite": 10855,
+          "missing": 4985,
+          "finite_fraction": 0.6852904040404041,
+          "min": 58.0,
+          "max": 154.0,
+          "positive": 10855,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1052.0
+          ]
+        },
+        "Carbs": {
+          "finite": 33,
+          "missing": 15807,
+          "finite_fraction": 0.0020833333333333333,
+          "min": 0.0,
+          "max": 94.0,
+          "positive": 31,
+          "observed_gap_minutes_quantiles": [
+            166.0,
+            392.0,
+            750.6,
+            845.8300000000002,
+            879.0
+          ]
+        },
+        "Protein": {
+          "finite": 33,
+          "missing": 15807,
+          "finite_fraction": 0.0020833333333333333,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 32,
+          "observed_gap_minutes_quantiles": [
+            166.0,
+            392.0,
+            750.6,
+            845.8300000000002,
+            879.0
+          ]
+        },
+        "Fat": {
+          "finite": 33,
+          "missing": 15807,
+          "finite_fraction": 0.0020833333333333333,
+          "min": 0.0,
+          "max": 54.5,
+          "positive": 32,
+          "observed_gap_minutes_quantiles": [
+            166.0,
+            392.0,
+            750.6,
+            845.8300000000002,
+            879.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 33,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-048.csv",
+      "sha256": "f1544bcc1d2323f471ff7b7fc2b89b001ad1094ed4c8dd2678e5ab1bbbe4e9f5",
+      "rows": 17340,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2022-11-14T09:14:00.000000000",
+      "last": "2022-11-26T10:28:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 17324,
+        "2.0": 15
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 17340,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 40.0,
+          "max": 158.0,
+          "positive": 17340,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            2.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14260,
+          "missing": 3080,
+          "finite_fraction": 0.8223760092272203,
+          "min": 40.0,
+          "max": 194.0,
+          "positive": 14260,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            2.0
+          ]
+        },
+        "HR": {
+          "finite": 14347,
+          "missing": 2993,
+          "finite_fraction": 0.8273933102652826,
+          "min": 61.0,
+          "max": 163.0,
+          "positive": 14347,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1881.0
+          ]
+        },
+        "Carbs": {
+          "finite": 36,
+          "missing": 17304,
+          "finite_fraction": 0.0020761245674740486,
+          "min": 2.0,
+          "max": 97.0,
+          "positive": 36,
+          "observed_gap_minutes_quantiles": [
+            30.0,
+            314.0,
+            814.2000000000002,
+            894.24,
+            899.0
+          ]
+        },
+        "Protein": {
+          "finite": 36,
+          "missing": 17304,
+          "finite_fraction": 0.0020761245674740486,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 34,
+          "observed_gap_minutes_quantiles": [
+            30.0,
+            314.0,
+            814.2000000000002,
+            894.24,
+            899.0
+          ]
+        },
+        "Fat": {
+          "finite": 36,
+          "missing": 17304,
+          "finite_fraction": 0.0020761245674740486,
+          "min": 0.0,
+          "max": 83.0,
+          "positive": 35,
+          "observed_gap_minutes_quantiles": [
+            30.0,
+            314.0,
+            814.2000000000002,
+            894.24,
+            899.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 36,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-019.csv",
+      "sha256": "91448add8e2d85662069d7e7101c1f63130fd5c9a95b42173d43bf8070798822",
+      "rows": 14430,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2020-09-29T08:32:00.000000000",
+      "last": "2020-10-09T09:16:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 14414,
+        "2.0": 15
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 14430,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 40.0,
+          "max": 151.0,
+          "positive": 14430,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            2.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14260,
+          "missing": 170,
+          "finite_fraction": 0.9882189882189882,
+          "min": 101.0,
+          "max": 237.0,
+          "positive": 14260,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            2.0
+          ]
+        },
+        "HR": {
+          "finite": 14137,
+          "missing": 293,
+          "finite_fraction": 0.9796950796950797,
+          "min": 57.0,
+          "max": 155.0,
+          "positive": 14137,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            206.0
+          ]
+        },
+        "Carbs": {
+          "finite": 48,
+          "missing": 14382,
+          "finite_fraction": 0.0033264033264033266,
+          "min": 0.0,
+          "max": 138.0,
+          "positive": 45,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            214.0,
+            807.7999999999998,
+            1011.3399999999999,
+            1044.0
+          ]
+        },
+        "Protein": {
+          "finite": 48,
+          "missing": 14382,
+          "finite_fraction": 0.0033264033264033266,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 42,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            214.0,
+            807.7999999999998,
+            1011.3399999999999,
+            1044.0
+          ]
+        },
+        "Fat": {
+          "finite": 48,
+          "missing": 14382,
+          "finite_fraction": 0.0033264033264033266,
+          "min": 0.0,
+          "max": 90.0,
+          "positive": 39,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            214.0,
+            807.7999999999998,
+            1011.3399999999999,
+            1044.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 48,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-021.csv",
+      "sha256": "316e1886d2e924886c328f737e1dcb0527719571df3f9863ba66eecd93d64188",
+      "rows": 16125,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2020-06-08T08:12:00.000000000",
+      "last": "2020-06-19T12:56:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 16124
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 16125,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 55.0,
+          "max": 187.0,
+          "positive": 16125,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14275,
+          "missing": 1850,
+          "finite_fraction": 0.8852713178294573,
+          "min": 63.0,
+          "max": 204.0,
+          "positive": 14275,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "HR": {
+          "finite": 15116,
+          "missing": 1009,
+          "finite_fraction": 0.9374263565891473,
+          "min": 44.0,
+          "max": 163.0,
+          "positive": 15116,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            81.0
+          ]
+        },
+        "Carbs": {
+          "finite": 39,
+          "missing": 16086,
+          "finite_fraction": 0.0024186046511627908,
+          "min": 0.0,
+          "max": 472.0,
+          "positive": 38,
+          "observed_gap_minutes_quantiles": [
+            18.0,
+            383.5,
+            630.9000000000002,
+            748.86,
+            757.0
+          ]
+        },
+        "Protein": {
+          "finite": 39,
+          "missing": 16086,
+          "finite_fraction": 0.0024186046511627908,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 38,
+          "observed_gap_minutes_quantiles": [
+            18.0,
+            383.5,
+            630.9000000000002,
+            748.86,
+            757.0
+          ]
+        },
+        "Fat": {
+          "finite": 39,
+          "missing": 16086,
+          "finite_fraction": 0.0024186046511627908,
+          "min": 0.0,
+          "max": 109.0,
+          "positive": 33,
+          "observed_gap_minutes_quantiles": [
+            18.0,
+            383.5,
+            630.9000000000002,
+            748.86,
+            757.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 39,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-001.csv",
+      "sha256": "64cde6f844a1ac43ac7802ff2a1b793df88abced4db55dcb016ff74a952b4f8f",
+      "rows": 14730,
+      "columns": [
+        "Unnamed: 0",
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed ",
+        "Image path"
+      ],
+      "first": "2020-05-01T10:30:00.000000000",
+      "last": "2020-05-11T15:59:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 14729
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 14730,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 54.0,
+          "max": 127.0,
+          "positive": 14730,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14265,
+          "missing": 465,
+          "finite_fraction": 0.9684317718940937,
+          "min": 40.0,
+          "max": 176.0,
+          "positive": 14265,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            2.0
+          ]
+        },
+        "HR": {
+          "finite": 14618,
+          "missing": 112,
+          "finite_fraction": 0.9923964697895451,
+          "min": 41.0,
+          "max": 176.0,
+          "positive": 14618,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            41.0
+          ]
+        },
+        "Carbs": {
+          "finite": 43,
+          "missing": 14687,
+          "finite_fraction": 0.0029192124915139173,
+          "min": 0.0,
+          "max": 94.0,
+          "positive": 41,
+          "observed_gap_minutes_quantiles": [
+            6.0,
+            259.0,
+            695.9,
+            893.67,
+            899.0
+          ]
+        },
+        "Protein": {
+          "finite": 43,
+          "missing": 14687,
+          "finite_fraction": 0.0029192124915139173,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 36,
+          "observed_gap_minutes_quantiles": [
+            6.0,
+            259.0,
+            695.9,
+            893.67,
+            899.0
+          ]
+        },
+        "Fat": {
+          "finite": 43,
+          "missing": 14687,
+          "finite_fraction": 0.0029192124915139173,
+          "min": 0.0,
+          "max": 54.2,
+          "positive": 35,
+          "observed_gap_minutes_quantiles": [
+            6.0,
+            259.0,
+            695.9,
+            893.67,
+            899.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 43,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-014.csv",
+      "sha256": "179c0e52b651a4c4d3210aa19a330643e8644afab70ef7fc016fc1b2a77d97c3",
+      "rows": 17250,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2023-05-09T09:01:00.000000000",
+      "last": "2023-05-21T08:30:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 17249
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 17250,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 69.0,
+          "max": 222.0,
+          "positive": 17250,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14275,
+          "missing": 2975,
+          "finite_fraction": 0.827536231884058,
+          "min": 82.0,
+          "max": 267.0,
+          "positive": 14275,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "HR": {
+          "finite": 15152,
+          "missing": 2098,
+          "finite_fraction": 0.8783768115942029,
+          "min": 51.0,
+          "max": 156.0,
+          "positive": 15152,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            64.0
+          ]
+        },
+        "Carbs": {
+          "finite": 40,
+          "missing": 17210,
+          "finite_fraction": 0.002318840579710145,
+          "min": 0.0,
+          "max": 97.0,
+          "positive": 38,
+          "observed_gap_minutes_quantiles": [
+            15.0,
+            295.0,
+            763.6000000000001,
+            844.3,
+            850.0
+          ]
+        },
+        "Protein": {
+          "finite": 40,
+          "missing": 17210,
+          "finite_fraction": 0.002318840579710145,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 36,
+          "observed_gap_minutes_quantiles": [
+            15.0,
+            295.0,
+            763.6000000000001,
+            844.3,
+            850.0
+          ]
+        },
+        "Fat": {
+          "finite": 40,
+          "missing": 17210,
+          "finite_fraction": 0.002318840579710145,
+          "min": 0.0,
+          "max": 54.5,
+          "positive": 33,
+          "observed_gap_minutes_quantiles": [
+            15.0,
+            295.0,
+            763.6000000000001,
+            844.3,
+            850.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 40,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-046.csv",
+      "sha256": "f4a09f231e327e065481d67ca7aa0812122547bc6f1e5123cb22d426151e8c4a",
+      "rows": 14655,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "Intensity",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2025-05-01T08:32:00.000000000",
+      "last": "2025-05-11T13:16:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 14624,
+        "2.0": 30
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 14655,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 71.0,
+          "max": 327.0,
+          "positive": 14655,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            2.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14245,
+          "missing": 410,
+          "finite_fraction": 0.9720232002729444,
+          "min": 57.0,
+          "max": 382.0,
+          "positive": 14245,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            2.0
+          ]
+        },
+        "HR": {
+          "finite": 13622,
+          "missing": 1033,
+          "finite_fraction": 0.929512111907199,
+          "min": 66.0,
+          "max": 144.0,
+          "positive": 13622,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            111.0
+          ]
+        },
+        "Carbs": {
+          "finite": 29,
+          "missing": 14626,
+          "finite_fraction": 0.00197884680996247,
+          "min": 16.0,
+          "max": 94.0,
+          "positive": 29,
+          "observed_gap_minutes_quantiles": [
+            8.0,
+            255.5,
+            1083.7,
+            1220.46,
+            1221.0
+          ]
+        },
+        "Protein": {
+          "finite": 29,
+          "missing": 14626,
+          "finite_fraction": 0.00197884680996247,
+          "min": 2.0,
+          "max": 88.0,
+          "positive": 29,
+          "observed_gap_minutes_quantiles": [
+            8.0,
+            255.5,
+            1083.7,
+            1220.46,
+            1221.0
+          ]
+        },
+        "Fat": {
+          "finite": 29,
+          "missing": 14626,
+          "finite_fraction": 0.00197884680996247,
+          "min": 0.0,
+          "max": 54.5,
+          "positive": 28,
+          "observed_gap_minutes_quantiles": [
+            8.0,
+            255.5,
+            1083.7,
+            1220.46,
+            1221.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 29,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-015.csv",
+      "sha256": "73ba7b946be75856e19e4b6a70e82a87c68af1be1aeb077b60933b708e1899b1",
+      "rows": 16875,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2024-01-25T09:12:00.000000000",
+      "last": "2024-02-06T08:26:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 16724,
+        "2.0": 60,
+        "3.0": 45,
+        "4.0": 15,
+        "6.0": 15,
+        "7.0": 15
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 16875,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 40.0,
+          "max": 129.0,
+          "positive": 16875,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            7.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14210,
+          "missing": 2665,
+          "finite_fraction": 0.8420740740740741,
+          "min": 64.0,
+          "max": 192.0,
+          "positive": 14210,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            3.0
+          ]
+        },
+        "HR": {
+          "finite": 14890,
+          "missing": 1985,
+          "finite_fraction": 0.8823703703703704,
+          "min": 30.0,
+          "max": 161.0,
+          "positive": 14890,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            169.0
+          ]
+        },
+        "Carbs": {
+          "finite": 52,
+          "missing": 16823,
+          "finite_fraction": 0.0030814814814814815,
+          "min": 0.0,
+          "max": 97.0,
+          "positive": 49,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            187.0,
+            743.0,
+            1002.0,
+            1064.0
+          ]
+        },
+        "Protein": {
+          "finite": 52,
+          "missing": 16823,
+          "finite_fraction": 0.0030814814814814815,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 44,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            187.0,
+            743.0,
+            1002.0,
+            1064.0
+          ]
+        },
+        "Fat": {
+          "finite": 52,
+          "missing": 16823,
+          "finite_fraction": 0.0030814814814814815,
+          "min": 0.0,
+          "max": 54.5,
+          "positive": 40,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            187.0,
+            743.0,
+            1002.0,
+            1064.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 52,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-018.csv",
+      "sha256": "30ae855abfda3e60e25317e2f64c952de8f6dc69e3dbb77d1d3d88f1ea592bdc",
+      "rows": 14085,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2024-01-28T08:10:00.000000000",
+      "last": "2024-02-16T11:51:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 14069,
+        "900.0": 3,
+        "901.0": 12
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 14085,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 40.0,
+          "max": 171.0,
+          "positive": 14085,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            901.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 13934,
+          "missing": 151,
+          "finite_fraction": 0.9892793752218673,
+          "min": 77.0,
+          "max": 234.0,
+          "positive": 13934,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            13545.0
+          ]
+        },
+        "HR": {
+          "finite": 13986,
+          "missing": 99,
+          "finite_fraction": 0.9929712460063898,
+          "min": 48.0,
+          "max": 154.0,
+          "positive": 13986,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            13512.0
+          ]
+        },
+        "Carbs": {
+          "finite": 39,
+          "missing": 14046,
+          "finite_fraction": 0.0027689030883919063,
+          "min": 15.0,
+          "max": 276.0,
+          "positive": 39,
+          "observed_gap_minutes_quantiles": [
+            6.0,
+            290.5,
+            840.3000000000002,
+            9163.050000000032,
+            13912.0
+          ]
+        },
+        "Protein": {
+          "finite": 39,
+          "missing": 14046,
+          "finite_fraction": 0.0027689030883919063,
+          "min": 0.0,
+          "max": 108.0,
+          "positive": 37,
+          "observed_gap_minutes_quantiles": [
+            6.0,
+            290.5,
+            840.3000000000002,
+            9163.050000000032,
+            13912.0
+          ]
+        },
+        "Fat": {
+          "finite": 39,
+          "missing": 14046,
+          "finite_fraction": 0.0027689030883919063,
+          "min": 0.0,
+          "max": 66.0,
+          "positive": 37,
+          "observed_gap_minutes_quantiles": [
+            6.0,
+            290.5,
+            840.3000000000002,
+            9163.050000000032,
+            13912.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 39,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-007.csv",
+      "sha256": "51da8ae0c4ca4c3bbd73c418458ab16ae68ee0e9c13aaa5339615be5de49fa54",
+      "rows": 5655,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Steps",
+        "METs",
+        "Meal Type",
+        "RecordIndex",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2023-11-03T10:41:00.000000000",
+      "last": "2023-11-10T16:10:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 4784,
+        "2.0": 135,
+        "3.0": 195,
+        "4.0": 120,
+        "5.0": 30,
+        "6.0": 75,
+        "7.0": 75,
+        "8.0": 75,
+        "9.0": 15,
+        "10.0": 15,
+        "11.0": 15,
+        "12.0": 30,
+        "18.0": 30,
+        "19.0": 30,
+        "20.0": 15,
+        "23.0": 15
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 5655,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 40.0,
+          "max": 153.0,
+          "positive": 5655,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            3.0,
+            19.0,
+            23.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 5640,
+          "missing": 15,
+          "finite_fraction": 0.9973474801061007,
+          "min": 64.4,
+          "max": 214.8,
+          "positive": 5640,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            3.0,
+            19.0,
+            23.0
+          ]
+        },
+        "HR": {
+          "finite": 5640,
+          "missing": 15,
+          "finite_fraction": 0.9973474801061007,
+          "min": 50.0,
+          "max": 143.0,
+          "positive": 5640,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            3.0,
+            18.0,
+            148.0
+          ]
+        },
+        "Carbs": {
+          "finite": 17,
+          "missing": 5638,
+          "finite_fraction": 0.003006189213085765,
+          "min": 16.0,
+          "max": 93.0,
+          "positive": 17,
+          "observed_gap_minutes_quantiles": [
+            40.0,
+            560.0,
+            1151.5,
+            1399.85,
+            1430.0
+          ]
+        },
+        "Protein": {
+          "finite": 17,
+          "missing": 5638,
+          "finite_fraction": 0.003006189213085765,
+          "min": 1.0,
+          "max": 88.0,
+          "positive": 17,
+          "observed_gap_minutes_quantiles": [
+            40.0,
+            560.0,
+            1151.5,
+            1399.85,
+            1430.0
+          ]
+        },
+        "Fat": {
+          "finite": 17,
+          "missing": 5638,
+          "finite_fraction": 0.003006189213085765,
+          "min": 0.0,
+          "max": 54.5,
+          "positive": 16,
+          "observed_gap_minutes_quantiles": [
+            40.0,
+            560.0,
+            1151.5,
+            1399.85,
+            1430.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 17,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-042.csv",
+      "sha256": "a96fd530ce69b94896451b8c3af881ffbf035f2bc14e2e78bf023d9b6daef236",
+      "rows": 14520,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "Intensity",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2025-07-25T10:10:00.000000000",
+      "last": "2025-08-04T12:09:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 14519
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 14520,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 83.0,
+          "max": 230.0,
+          "positive": 14520,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14275,
+          "missing": 245,
+          "finite_fraction": 0.9831267217630854,
+          "min": 80.0,
+          "max": 308.0,
+          "positive": 14275,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "HR": {
+          "finite": 13235,
+          "missing": 1285,
+          "finite_fraction": 0.9115013774104683,
+          "min": 49.0,
+          "max": 162.0,
+          "positive": 13235,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            280.0
+          ]
+        },
+        "Carbs": {
+          "finite": 22,
+          "missing": 14498,
+          "finite_fraction": 0.0015151515151515152,
+          "min": 0.0,
+          "max": 94.0,
+          "positive": 20,
+          "observed_gap_minutes_quantiles": [
+            40.0,
+            467.0,
+            1209.0,
+            1466.4,
+            1509.0
+          ]
+        },
+        "Protein": {
+          "finite": 22,
+          "missing": 14498,
+          "finite_fraction": 0.0015151515151515152,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 20,
+          "observed_gap_minutes_quantiles": [
+            40.0,
+            467.0,
+            1209.0,
+            1466.4,
+            1509.0
+          ]
+        },
+        "Fat": {
+          "finite": 22,
+          "missing": 14498,
+          "finite_fraction": 0.0015151515151515152,
+          "min": 0.0,
+          "max": 54.5,
+          "positive": 19,
+          "observed_gap_minutes_quantiles": [
+            40.0,
+            467.0,
+            1209.0,
+            1466.4,
+            1509.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 22,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-002.csv",
+      "sha256": "4ac368784dfc9e23c1dcec9f72a4c563ff2f31688ea1183868f825f418170782",
+      "rows": 17025,
+      "columns": [
+        "Unnamed: 0",
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2019-11-15T20:12:00.000000000",
+      "last": "2019-11-27T15:56:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 17024
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 17025,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 40.0,
+          "max": 157.0,
+          "positive": 17025,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 13677,
+          "missing": 3348,
+          "finite_fraction": 0.8033480176211454,
+          "min": 64.0,
+          "max": 237.0,
+          "positive": 13677,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "HR": {
+          "finite": 14286,
+          "missing": 2739,
+          "finite_fraction": 0.8391189427312775,
+          "min": 55.0,
+          "max": 141.0,
+          "positive": 14286,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            342.0
+          ]
+        },
+        "Carbs": {
+          "finite": 37,
+          "missing": 16988,
+          "finite_fraction": 0.0021732745961820852,
+          "min": 0.0,
+          "max": 94.0,
+          "positive": 35,
+          "observed_gap_minutes_quantiles": [
+            2.0,
+            269.5,
+            904.0,
+            1340.999999999999,
+            1565.0
+          ]
+        },
+        "Protein": {
+          "finite": 37,
+          "missing": 16988,
+          "finite_fraction": 0.0021732745961820852,
+          "min": 0.0,
+          "max": 84.0,
+          "positive": 35,
+          "observed_gap_minutes_quantiles": [
+            2.0,
+            269.5,
+            904.0,
+            1340.999999999999,
+            1565.0
+          ]
+        },
+        "Fat": {
+          "finite": 37,
+          "missing": 16988,
+          "finite_fraction": 0.0021732745961820852,
+          "min": 0.0,
+          "max": 57.0,
+          "positive": 33,
+          "observed_gap_minutes_quantiles": [
+            2.0,
+            269.5,
+            904.0,
+            1340.999999999999,
+            1565.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 37,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-030.csv",
+      "sha256": "ee8cfe35580461ae1e09eb34350fb3cab7a5ccad3adf64ec64d85af4244f6cfc",
+      "rows": 15465,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2021-01-23T09:27:00.000000000",
+      "last": "2021-02-03T03:11:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 15464
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 15465,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 67.0,
+          "max": 405.0,
+          "positive": 15465,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14210,
+          "missing": 1255,
+          "finite_fraction": 0.9188490139023602,
+          "min": 97.0,
+          "max": 400.0,
+          "positive": 14210,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            14.0
+          ]
+        },
+        "HR": {
+          "finite": 12372,
+          "missing": 3093,
+          "finite_fraction": 0.8,
+          "min": 63.0,
+          "max": 154.0,
+          "positive": 12372,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            612.0
+          ]
+        },
+        "Carbs": {
+          "finite": 28,
+          "missing": 15437,
+          "finite_fraction": 0.0018105399288716457,
+          "min": 0.0,
+          "max": 94.0,
+          "positive": 25,
+          "observed_gap_minutes_quantiles": [
+            188.0,
+            381.0,
+            902.0000000000001,
+            1080.3,
+            1092.0
+          ]
+        },
+        "Protein": {
+          "finite": 28,
+          "missing": 15437,
+          "finite_fraction": 0.0018105399288716457,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 25,
+          "observed_gap_minutes_quantiles": [
+            188.0,
+            381.0,
+            902.0000000000001,
+            1080.3,
+            1092.0
+          ]
+        },
+        "Fat": {
+          "finite": 28,
+          "missing": 15437,
+          "finite_fraction": 0.0018105399288716457,
+          "min": 0.0,
+          "max": 54.5,
+          "positive": 25,
+          "observed_gap_minutes_quantiles": [
+            188.0,
+            381.0,
+            902.0000000000001,
+            1080.3,
+            1092.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 28,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-029.csv",
+      "sha256": "bc0c39befffc1d574c8ac955ed5411e5b3456fc209726816e033c71d82286d1b",
+      "rows": 17730,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Image path"
+      ],
+      "first": "2024-01-17T08:13:00.000000000",
+      "last": "2024-01-29T15:42:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 17729
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 17730,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 65.0,
+          "max": 233.0,
+          "positive": 17730,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14275,
+          "missing": 3455,
+          "finite_fraction": 0.8051325437112239,
+          "min": 84.0,
+          "max": 228.0,
+          "positive": 14275,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "HR": {
+          "finite": 15072,
+          "missing": 2658,
+          "finite_fraction": 0.8500846023688663,
+          "min": 45.0,
+          "max": 155.0,
+          "positive": 15072,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            101.0
+          ]
+        },
+        "Carbs": {
+          "finite": 30,
+          "missing": 17700,
+          "finite_fraction": 0.001692047377326565,
+          "min": 16.0,
+          "max": 135.0,
+          "positive": 30,
+          "observed_gap_minutes_quantiles": [
+            261.0,
+            355.0,
+            791.6,
+            838.92,
+            842.0
+          ]
+        },
+        "Protein": {
+          "finite": 30,
+          "missing": 17700,
+          "finite_fraction": 0.001692047377326565,
+          "min": 12.0,
+          "max": 88.0,
+          "positive": 30,
+          "observed_gap_minutes_quantiles": [
+            261.0,
+            355.0,
+            791.6,
+            838.92,
+            842.0
+          ]
+        },
+        "Fat": {
+          "finite": 30,
+          "missing": 17700,
+          "finite_fraction": 0.001692047377326565,
+          "min": 4.0,
+          "max": 54.5,
+          "positive": 30,
+          "observed_gap_minutes_quantiles": [
+            261.0,
+            355.0,
+            791.6,
+            838.92,
+            842.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 30,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-027.csv",
+      "sha256": "590f76188646cd9cb9641bafbc4f24c663857589bd78549d17697037b1b48027",
+      "rows": 14535,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "Intensity",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2024-06-10T08:12:00.000000000",
+      "last": "2024-06-20T10:26:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 14534
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 14535,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 40.0,
+          "max": 164.0,
+          "positive": 14535,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14210,
+          "missing": 325,
+          "finite_fraction": 0.977640178878569,
+          "min": 66.0,
+          "max": 245.0,
+          "positive": 14210,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            14.0
+          ]
+        },
+        "HR": {
+          "finite": 14485,
+          "missing": 50,
+          "finite_fraction": 0.9965600275197798,
+          "min": 49.0,
+          "max": 158.0,
+          "positive": 14485,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            10.0
+          ]
+        },
+        "Carbs": {
+          "finite": 36,
+          "missing": 14499,
+          "finite_fraction": 0.002476780185758514,
+          "min": 0.0,
+          "max": 136.0,
+          "positive": 33,
+          "observed_gap_minutes_quantiles": [
+            5.0,
+            320.0,
+            822.4,
+            973.2599999999998,
+            994.0
+          ]
+        },
+        "Protein": {
+          "finite": 36,
+          "missing": 14499,
+          "finite_fraction": 0.002476780185758514,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 32,
+          "observed_gap_minutes_quantiles": [
+            5.0,
+            320.0,
+            822.4,
+            973.2599999999998,
+            994.0
+          ]
+        },
+        "Fat": {
+          "finite": 36,
+          "missing": 14499,
+          "finite_fraction": 0.002476780185758514,
+          "min": 0.0,
+          "max": 54.5,
+          "positive": 33,
+          "observed_gap_minutes_quantiles": [
+            5.0,
+            320.0,
+            822.4,
+            973.2599999999998,
+            994.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 36,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-031.csv",
+      "sha256": "785bc3d1a5ab5061841b1837386ec45ef3e3d3a82416c0ecc4716d981e83cd81",
+      "rows": 13725,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "Intensity",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2022-06-29T20:05:00.000000000",
+      "last": "2022-07-09T08:49:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 13724
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 13725,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 53.0,
+          "max": 172.0,
+          "positive": 13725,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 13673,
+          "missing": 52,
+          "finite_fraction": 0.9962112932604736,
+          "min": 67.0,
+          "max": 214.0,
+          "positive": 13673,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "HR": {
+          "finite": 13536,
+          "missing": 189,
+          "finite_fraction": 0.9862295081967213,
+          "min": 55.0,
+          "max": 148.0,
+          "positive": 13536,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            94.0
+          ]
+        },
+        "Carbs": {
+          "finite": 54,
+          "missing": 13671,
+          "finite_fraction": 0.003934426229508197,
+          "min": 0.0,
+          "max": 146.0,
+          "positive": 45,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            185.0,
+            689.0000000000002,
+            821.8799999999999,
+            838.0
+          ]
+        },
+        "Protein": {
+          "finite": 54,
+          "missing": 13671,
+          "finite_fraction": 0.003934426229508197,
+          "min": 0.0,
+          "max": 84.0,
+          "positive": 43,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            185.0,
+            689.0000000000002,
+            821.8799999999999,
+            838.0
+          ]
+        },
+        "Fat": {
+          "finite": 54,
+          "missing": 13671,
+          "finite_fraction": 0.003934426229508197,
+          "min": 0.0,
+          "max": 65.0,
+          "positive": 40,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            185.0,
+            689.0000000000002,
+            821.8799999999999,
+            838.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 54,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-011.csv",
+      "sha256": "a3ab6608159cb64f1a84557605f5038a91750bc87106e4e3d8ae338c9d885bed",
+      "rows": 14805,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "Intensity",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2020-10-03T09:21:00.000000000",
+      "last": "2020-10-13T16:05:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 14804
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 14805,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 75.0,
+          "max": 208.0,
+          "positive": 14805,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14275,
+          "missing": 530,
+          "finite_fraction": 0.9642012833502195,
+          "min": 83.0,
+          "max": 224.0,
+          "positive": 14275,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "HR": {
+          "finite": 14656,
+          "missing": 149,
+          "finite_fraction": 0.989935832489024,
+          "min": 49.0,
+          "max": 159.0,
+          "positive": 14656,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            149.0
+          ]
+        },
+        "Carbs": {
+          "finite": 39,
+          "missing": 14766,
+          "finite_fraction": 0.0026342451874366768,
+          "min": 0.0,
+          "max": 168.0,
+          "positive": 38,
+          "observed_gap_minutes_quantiles": [
+            10.0,
+            284.0,
+            747.2,
+            912.4500000000005,
+            992.0
+          ]
+        },
+        "Protein": {
+          "finite": 39,
+          "missing": 14766,
+          "finite_fraction": 0.0026342451874366768,
+          "min": 0.0,
+          "max": 119.0,
+          "positive": 38,
+          "observed_gap_minutes_quantiles": [
+            10.0,
+            284.0,
+            747.2,
+            912.4500000000005,
+            992.0
+          ]
+        },
+        "Fat": {
+          "finite": 39,
+          "missing": 14766,
+          "finite_fraction": 0.0026342451874366768,
+          "min": 0.0,
+          "max": 57.0,
+          "positive": 36,
+          "observed_gap_minutes_quantiles": [
+            10.0,
+            284.0,
+            747.2,
+            912.4500000000005,
+            992.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 39,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-022.csv",
+      "sha256": "da045e6cc6d011a07a625b57751689106e96ee835e94a90d6a48159f2a86dbab",
+      "rows": 17625,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2021-03-28T08:09:00.000000000",
+      "last": "2021-04-09T13:53:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 17624
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 17625,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 61.0,
+          "max": 185.0,
+          "positive": 17625,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14275,
+          "missing": 3350,
+          "finite_fraction": 0.8099290780141843,
+          "min": 60.0,
+          "max": 199.0,
+          "positive": 14275,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "HR": {
+          "finite": 14512,
+          "missing": 3113,
+          "finite_fraction": 0.8233758865248227,
+          "min": 46.0,
+          "max": 121.0,
+          "positive": 14512,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            199.0
+          ]
+        },
+        "Carbs": {
+          "finite": 42,
+          "missing": 17583,
+          "finite_fraction": 0.0023829787234042553,
+          "min": 0.0,
+          "max": 94.0,
+          "positive": 41,
+          "observed_gap_minutes_quantiles": [
+            6.0,
+            217.0,
+            817.0,
+            839.2,
+            840.0
+          ]
+        },
+        "Protein": {
+          "finite": 42,
+          "missing": 17583,
+          "finite_fraction": 0.0023829787234042553,
+          "min": 0.0,
+          "max": 95.0,
+          "positive": 40,
+          "observed_gap_minutes_quantiles": [
+            6.0,
+            217.0,
+            817.0,
+            839.2,
+            840.0
+          ]
+        },
+        "Fat": {
+          "finite": 42,
+          "missing": 17583,
+          "finite_fraction": 0.0023829787234042553,
+          "min": 0.0,
+          "max": 74.0,
+          "positive": 38,
+          "observed_gap_minutes_quantiles": [
+            6.0,
+            217.0,
+            817.0,
+            839.2,
+            840.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 42,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-020.csv",
+      "sha256": "da8315b4b582769e70cad4fb93a98fbc184d3ec5e11012a70d4e503454e4f2eb",
+      "rows": 16260,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2024-03-19T07:36:00.000000000",
+      "last": "2024-03-30T14:35:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 16259
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 16260,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 78.0,
+          "max": 239.0,
+          "positive": 16260,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14275,
+          "missing": 1985,
+          "finite_fraction": 0.8779212792127922,
+          "min": 75.0,
+          "max": 257.0,
+          "positive": 14275,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "HR": {
+          "finite": 14354,
+          "missing": 1906,
+          "finite_fraction": 0.882779827798278,
+          "min": 78.0,
+          "max": 159.0,
+          "positive": 14354,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            509.0
+          ]
+        },
+        "Carbs": {
+          "finite": 41,
+          "missing": 16219,
+          "finite_fraction": 0.0025215252152521526,
+          "min": 0.0,
+          "max": 190.0,
+          "positive": 40,
+          "observed_gap_minutes_quantiles": [
+            2.0,
+            332.5,
+            615.7,
+            761.2,
+            769.0
+          ]
+        },
+        "Protein": {
+          "finite": 41,
+          "missing": 16219,
+          "finite_fraction": 0.0025215252152521526,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 38,
+          "observed_gap_minutes_quantiles": [
+            2.0,
+            332.5,
+            615.7,
+            761.2,
+            769.0
+          ]
+        },
+        "Fat": {
+          "finite": 41,
+          "missing": 16219,
+          "finite_fraction": 0.0025215252152521526,
+          "min": 0.0,
+          "max": 100.0,
+          "positive": 37,
+          "observed_gap_minutes_quantiles": [
+            2.0,
+            332.5,
+            615.7,
+            761.2,
+            769.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 41,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-036.csv",
+      "sha256": "08ac01b1fade15040d1bca12cef49ddbc974befb7243862fc7db252f8df0d9b8",
+      "rows": 17115,
+      "columns": [
+        "Unnamed: 0",
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2022-03-29T09:58:00.000000000",
+      "last": "2022-04-10T07:12:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 17114
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 17115,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 40.0,
+          "max": 299.0,
+          "positive": 17115,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14275,
+          "missing": 2840,
+          "finite_fraction": 0.834063686824423,
+          "min": 44.0,
+          "max": 351.0,
+          "positive": 14275,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "HR": {
+          "finite": 14403,
+          "missing": 2712,
+          "finite_fraction": 0.8415425065731814,
+          "min": 50.0,
+          "max": 149.0,
+          "positive": 14403,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            599.0
+          ]
+        },
+        "Carbs": {
+          "finite": 30,
+          "missing": 17085,
+          "finite_fraction": 0.0017528483786152498,
+          "min": 0.0,
+          "max": 761.0,
+          "positive": 28,
+          "observed_gap_minutes_quantiles": [
+            220.0,
+            314.0,
+            896.6,
+            906.76,
+            909.0
+          ]
+        },
+        "Protein": {
+          "finite": 30,
+          "missing": 17085,
+          "finite_fraction": 0.0017528483786152498,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 29,
+          "observed_gap_minutes_quantiles": [
+            220.0,
+            314.0,
+            896.6,
+            906.76,
+            909.0
+          ]
+        },
+        "Fat": {
+          "finite": 30,
+          "missing": 17085,
+          "finite_fraction": 0.0017528483786152498,
+          "min": 0.0,
+          "max": 54.5,
+          "positive": 29,
+          "observed_gap_minutes_quantiles": [
+            220.0,
+            314.0,
+            896.6,
+            906.76,
+            909.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 30,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-017.csv",
+      "sha256": "dbee217bde6eacf6a0d45ef7660d83e961a7be9360c9dad831fdd28f65b14ecb",
+      "rows": 16185,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2023-10-10T08:51:00.000000000",
+      "last": "2023-10-21T14:35:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 16184
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 16185,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 40.0,
+          "max": 133.0,
+          "positive": 16185,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14240,
+          "missing": 1945,
+          "finite_fraction": 0.879827000308928,
+          "min": 40.0,
+          "max": 199.0,
+          "positive": 14240,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            8.0
+          ]
+        },
+        "HR": {
+          "finite": 13159,
+          "missing": 3026,
+          "finite_fraction": 0.8130367624343527,
+          "min": 47.0,
+          "max": 153.0,
+          "positive": 13159,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            2.0,
+            156.0
+          ]
+        },
+        "Carbs": {
+          "finite": 48,
+          "missing": 16137,
+          "finite_fraction": 0.0029657089898053753,
+          "min": 0.0,
+          "max": 131.0,
+          "positive": 47,
+          "observed_gap_minutes_quantiles": [
+            7.0,
+            209.0,
+            779.2,
+            1064.9999999999998,
+            1180.0
+          ]
+        },
+        "Protein": {
+          "finite": 48,
+          "missing": 16137,
+          "finite_fraction": 0.0029657089898053753,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 46,
+          "observed_gap_minutes_quantiles": [
+            7.0,
+            209.0,
+            779.2,
+            1064.9999999999998,
+            1180.0
+          ]
+        },
+        "Fat": {
+          "finite": 48,
+          "missing": 16137,
+          "finite_fraction": 0.0029657089898053753,
+          "min": 0.0,
+          "max": 54.5,
+          "positive": 39,
+          "observed_gap_minutes_quantiles": [
+            7.0,
+            209.0,
+            779.2,
+            1064.9999999999998,
+            1180.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 48,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-013.csv",
+      "sha256": "9511d2cd59df3dbb2c035fb2a664c289ee2eec7e3642b5ed6007eb0a446d7fa4",
+      "rows": 15840,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Sugar",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2024-01-25T08:42:00.000000000",
+      "last": "2024-02-05T08:41:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 15839
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 15840,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 61.0,
+          "max": 223.0,
+          "positive": 15840,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14275,
+          "missing": 1565,
+          "finite_fraction": 0.9011994949494949,
+          "min": 59.0,
+          "max": 215.0,
+          "positive": 14275,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "HR": {
+          "finite": 15197,
+          "missing": 643,
+          "finite_fraction": 0.9594065656565657,
+          "min": 60.0,
+          "max": 132.0,
+          "positive": 15197,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            61.0
+          ]
+        },
+        "Carbs": {
+          "finite": 39,
+          "missing": 15801,
+          "finite_fraction": 0.002462121212121212,
+          "min": 2.0,
+          "max": 147.0,
+          "positive": 39,
+          "observed_gap_minutes_quantiles": [
+            24.0,
+            251.0,
+            877.7,
+            968.4600000000002,
+            984.0
+          ]
+        },
+        "Protein": {
+          "finite": 39,
+          "missing": 15801,
+          "finite_fraction": 0.002462121212121212,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 38,
+          "observed_gap_minutes_quantiles": [
+            24.0,
+            251.0,
+            877.7,
+            968.4600000000002,
+            984.0
+          ]
+        },
+        "Fat": {
+          "finite": 39,
+          "missing": 15801,
+          "finite_fraction": 0.002462121212121212,
+          "min": 0.0,
+          "max": 54.5,
+          "positive": 36,
+          "observed_gap_minutes_quantiles": [
+            24.0,
+            251.0,
+            877.7,
+            968.4600000000002,
+            984.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 39,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-009.csv",
+      "sha256": "63f6e1b39dfe8dd575726e08362bf130542ca73f4bb50749c1a6b09d4e31071a",
+      "rows": 14370,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2020-09-15T09:05:00.000000000",
+      "last": "2020-09-25T08:34:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 14369
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 14370,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 57.0,
+          "max": 193.0,
+          "positive": 14370,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14226,
+          "missing": 144,
+          "finite_fraction": 0.9899791231732776,
+          "min": 40.0,
+          "max": 240.0,
+          "positive": 14226,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            2.0
+          ]
+        },
+        "HR": {
+          "finite": 14157,
+          "missing": 213,
+          "finite_fraction": 0.9851774530271399,
+          "min": 59.0,
+          "max": 153.0,
+          "positive": 14157,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            89.0
+          ]
+        },
+        "Carbs": {
+          "finite": 41,
+          "missing": 14329,
+          "finite_fraction": 0.0028531663187195545,
+          "min": 0.0,
+          "max": 133.0,
+          "positive": 39,
+          "observed_gap_minutes_quantiles": [
+            42.0,
+            280.0,
+            673.7,
+            886.4599999999999,
+            920.0
+          ]
+        },
+        "Protein": {
+          "finite": 41,
+          "missing": 14329,
+          "finite_fraction": 0.0028531663187195545,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 40,
+          "observed_gap_minutes_quantiles": [
+            42.0,
+            280.0,
+            673.7,
+            886.4599999999999,
+            920.0
+          ]
+        },
+        "Fat": {
+          "finite": 41,
+          "missing": 14329,
+          "finite_fraction": 0.0028531663187195545,
+          "min": 0.0,
+          "max": 67.0,
+          "positive": 38,
+          "observed_gap_minutes_quantiles": [
+            42.0,
+            280.0,
+            673.7,
+            886.4599999999999,
+            920.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 41,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-003.csv",
+      "sha256": "68ef5d5e8fc882cc103d3603167cb11e727e15a00fc6f2259ec308eb8cf8f6e5",
+      "rows": 14565,
+      "columns": [
+        "Unnamed: 0",
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2020-03-11T09:03:00.000000000",
+      "last": "2020-03-21T12:02:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 14549,
+        "2.0": 15
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 14565,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 45.0,
+          "max": 261.0,
+          "positive": 14565,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            2.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14260,
+          "missing": 305,
+          "finite_fraction": 0.9790593889461037,
+          "min": 75.0,
+          "max": 286.0,
+          "positive": 14260,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            2.0
+          ]
+        },
+        "HR": {
+          "finite": 14478,
+          "missing": 87,
+          "finite_fraction": 0.9940267765190525,
+          "min": 59.0,
+          "max": 159.0,
+          "positive": 14478,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            86.0
+          ]
+        },
+        "Carbs": {
+          "finite": 35,
+          "missing": 14530,
+          "finite_fraction": 0.002403020940611054,
+          "min": 4.0,
+          "max": 94.0,
+          "positive": 35,
+          "observed_gap_minutes_quantiles": [
+            86.0,
+            300.5,
+            786.6999999999999,
+            864.8100000000001,
+            879.0
+          ]
+        },
+        "Protein": {
+          "finite": 35,
+          "missing": 14530,
+          "finite_fraction": 0.002403020940611054,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 33,
+          "observed_gap_minutes_quantiles": [
+            86.0,
+            300.5,
+            786.6999999999999,
+            864.8100000000001,
+            879.0
+          ]
+        },
+        "Fat": {
+          "finite": 35,
+          "missing": 14530,
+          "finite_fraction": 0.002403020940611054,
+          "min": 0.0,
+          "max": 54.5,
+          "positive": 32,
+          "observed_gap_minutes_quantiles": [
+            86.0,
+            300.5,
+            786.6999999999999,
+            864.8100000000001,
+            879.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 35,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-041.csv",
+      "sha256": "5521f85cae1d09a588cf7317cdbb6a766cdb5e8f725d58b46c09099000dd0cb4",
+      "rows": 14310,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2022-04-26T09:04:00.000000000",
+      "last": "2022-05-06T07:33:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 14309
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 14310,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 79.0,
+          "max": 289.0,
+          "positive": 14310,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14241,
+          "missing": 69,
+          "finite_fraction": 0.9951781970649896,
+          "min": 100.0,
+          "max": 377.0,
+          "positive": 14241,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "HR": {
+          "finite": 9848,
+          "missing": 4462,
+          "finite_fraction": 0.6881900768693221,
+          "min": 46.0,
+          "max": 137.0,
+          "positive": 9848,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            2739.0
+          ]
+        },
+        "Carbs": {
+          "finite": 48,
+          "missing": 14262,
+          "finite_fraction": 0.0033542976939203353,
+          "min": 0.0,
+          "max": 98.0,
+          "positive": 45,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            210.0,
+            697.8,
+            766.4399999999999,
+            783.0
+          ]
+        },
+        "Protein": {
+          "finite": 48,
+          "missing": 14262,
+          "finite_fraction": 0.0033542976939203353,
+          "min": 0.0,
+          "max": 89.0,
+          "positive": 45,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            210.0,
+            697.8,
+            766.4399999999999,
+            783.0
+          ]
+        },
+        "Fat": {
+          "finite": 48,
+          "missing": 14262,
+          "finite_fraction": 0.0033542976939203353,
+          "min": 0.0,
+          "max": 54.5,
+          "positive": 44,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            210.0,
+            697.8,
+            766.4399999999999,
+            783.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 48,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-047.csv",
+      "sha256": "5151b1cf7890611cbe2c64187c946baaea717e3fbfe41469517d59ad54b4e806",
+      "rows": 15690,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2025-10-30T08:49:00.000000000",
+      "last": "2025-11-10T06:18:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 15689
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 15690,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 77.0,
+          "max": 307.0,
+          "positive": 15690,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14225,
+          "missing": 1465,
+          "finite_fraction": 0.9066284257488847,
+          "min": 109.0,
+          "max": 362.0,
+          "positive": 14225,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            7.0
+          ]
+        },
+        "HR": {
+          "finite": 14400,
+          "missing": 1290,
+          "finite_fraction": 0.9177820267686424,
+          "min": 49.0,
+          "max": 149.0,
+          "positive": 14400,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            667.0
+          ]
+        },
+        "Carbs": {
+          "finite": 29,
+          "missing": 15661,
+          "finite_fraction": 0.0018483110261312938,
+          "min": 4.0,
+          "max": 95.0,
+          "positive": 29,
+          "observed_gap_minutes_quantiles": [
+            89.0,
+            300.5,
+            934.0,
+            1052.28,
+            1089.0
+          ]
+        },
+        "Protein": {
+          "finite": 29,
+          "missing": 15661,
+          "finite_fraction": 0.0018483110261312938,
+          "min": 10.0,
+          "max": 88.0,
+          "positive": 29,
+          "observed_gap_minutes_quantiles": [
+            89.0,
+            300.5,
+            934.0,
+            1052.28,
+            1089.0
+          ]
+        },
+        "Fat": {
+          "finite": 29,
+          "missing": 15661,
+          "finite_fraction": 0.0018483110261312938,
+          "min": 7.0,
+          "max": 60.0,
+          "positive": 29,
+          "observed_gap_minutes_quantiles": [
+            89.0,
+            300.5,
+            934.0,
+            1052.28,
+            1089.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 29,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-049.csv",
+      "sha256": "2526a253a0775bcdc2db8934960b55981a5430fe1925c7c32701a3b802d062c7",
+      "rows": 15315,
+      "columns": [
+        "Unnamed: 0",
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2025-05-11T08:53:00.000000000",
+      "last": "2025-05-22T00:07:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 15314
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 15315,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 60.0,
+          "max": 357.0,
+          "positive": 15315,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14275,
+          "missing": 1040,
+          "finite_fraction": 0.9320927195559908,
+          "min": 64.0,
+          "max": 397.0,
+          "positive": 14275,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "HR": {
+          "finite": 13974,
+          "missing": 1341,
+          "finite_fraction": 0.9124387855044075,
+          "min": 53.0,
+          "max": 156.0,
+          "positive": 13974,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            734.0
+          ]
+        },
+        "Carbs": {
+          "finite": 28,
+          "missing": 15287,
+          "finite_fraction": 0.0018282729350310154,
+          "min": 13.0,
+          "max": 124.0,
+          "positive": 28,
+          "observed_gap_minutes_quantiles": [
+            242.0,
+            431.0,
+            783.0000000000001,
+            1126.3799999999999,
+            1149.0
+          ]
+        },
+        "Protein": {
+          "finite": 28,
+          "missing": 15287,
+          "finite_fraction": 0.0018282729350310154,
+          "min": 3.0,
+          "max": 88.0,
+          "positive": 28,
+          "observed_gap_minutes_quantiles": [
+            242.0,
+            431.0,
+            783.0000000000001,
+            1126.3799999999999,
+            1149.0
+          ]
+        },
+        "Fat": {
+          "finite": 28,
+          "missing": 15287,
+          "finite_fraction": 0.0018282729350310154,
+          "min": 0.0,
+          "max": 55.0,
+          "positive": 27,
+          "observed_gap_minutes_quantiles": [
+            242.0,
+            431.0,
+            783.0000000000001,
+            1126.3799999999999,
+            1149.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 28,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-008.csv",
+      "sha256": "228568d779ef41d6d6dd2cf179131a0ec6b973d080d5737c687ea8ca48f28e77",
+      "rows": 14760,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2023-01-30T10:52:00.000000000",
+      "last": "2023-02-09T16:51:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 14759
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 14760,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 53.0,
+          "max": 185.0,
+          "positive": 14760,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14220,
+          "missing": 540,
+          "finite_fraction": 0.9634146341463414,
+          "min": 40.0,
+          "max": 277.0,
+          "positive": 14220,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            5.0
+          ]
+        },
+        "HR": {
+          "finite": 14435,
+          "missing": 325,
+          "finite_fraction": 0.9779810298102981,
+          "min": 56.0,
+          "max": 129.0,
+          "positive": 14435,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            60.0
+          ]
+        },
+        "Carbs": {
+          "finite": 30,
+          "missing": 14730,
+          "finite_fraction": 0.0020325203252032522,
+          "min": 16.0,
+          "max": 168.0,
+          "positive": 30,
+          "observed_gap_minutes_quantiles": [
+            198.0,
+            391.0,
+            832.8,
+            883.28,
+            897.0
+          ]
+        },
+        "Protein": {
+          "finite": 30,
+          "missing": 14730,
+          "finite_fraction": 0.0020325203252032522,
+          "min": 10.0,
+          "max": 148.0,
+          "positive": 30,
+          "observed_gap_minutes_quantiles": [
+            198.0,
+            391.0,
+            832.8,
+            883.28,
+            897.0
+          ]
+        },
+        "Fat": {
+          "finite": 30,
+          "missing": 14730,
+          "finite_fraction": 0.0020325203252032522,
+          "min": 10.5,
+          "max": 110.0,
+          "positive": 30,
+          "observed_gap_minutes_quantiles": [
+            198.0,
+            391.0,
+            832.8,
+            883.28,
+            897.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 30,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-010.csv",
+      "sha256": "8f6de4da4896dc3c1c99a04a6085cef220c0006a7e964f3801036f69ff1bce10",
+      "rows": 16155,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2020-06-21T09:18:00.000000000",
+      "last": "2020-07-02T14:32:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 16154
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 16155,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 40.0,
+          "max": 189.0,
+          "positive": 16155,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14275,
+          "missing": 1880,
+          "finite_fraction": 0.8836273599504797,
+          "min": 71.0,
+          "max": 243.0,
+          "positive": 14275,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "HR": {
+          "finite": 15139,
+          "missing": 1016,
+          "finite_fraction": 0.9371092541008975,
+          "min": 58.0,
+          "max": 139.0,
+          "positive": 15139,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            95.0
+          ]
+        },
+        "Carbs": {
+          "finite": 45,
+          "missing": 16110,
+          "finite_fraction": 0.002785515320334262,
+          "min": 0.0,
+          "max": 94.0,
+          "positive": 42,
+          "observed_gap_minutes_quantiles": [
+            16.0,
+            253.0,
+            719.1,
+            843.71,
+            888.0
+          ]
+        },
+        "Protein": {
+          "finite": 45,
+          "missing": 16110,
+          "finite_fraction": 0.002785515320334262,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 40,
+          "observed_gap_minutes_quantiles": [
+            16.0,
+            253.0,
+            719.1,
+            843.71,
+            888.0
+          ]
+        },
+        "Fat": {
+          "finite": 45,
+          "missing": 16110,
+          "finite_fraction": 0.002785515320334262,
+          "min": 0.0,
+          "max": 54.5,
+          "positive": 36,
+          "observed_gap_minutes_quantiles": [
+            16.0,
+            253.0,
+            719.1,
+            843.71,
+            888.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 45,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-035.csv",
+      "sha256": "b00be8afb37e72fbdf0c4675b6798bccc4a653f0af6fa030c684bafbaa10b820",
+      "rows": 14400,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "Intensity",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2024-12-12T09:07:00.000000000",
+      "last": "2024-12-22T09:06:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 14399
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 14400,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 92.0,
+          "max": 371.0,
+          "positive": 14400,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14270,
+          "missing": 130,
+          "finite_fraction": 0.9909722222222223,
+          "min": 110.0,
+          "max": 400.0,
+          "positive": 14270,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            2.0
+          ]
+        },
+        "HR": {
+          "finite": 12053,
+          "missing": 2347,
+          "finite_fraction": 0.8370138888888888,
+          "min": 51.0,
+          "max": 158.0,
+          "positive": 12053,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            197.0
+          ]
+        },
+        "Carbs": {
+          "finite": 27,
+          "missing": 14373,
+          "finite_fraction": 0.001875,
+          "min": 0.0,
+          "max": 94.0,
+          "positive": 23,
+          "observed_gap_minutes_quantiles": [
+            253.0,
+            416.5,
+            721.0,
+            1051.5,
+            1160.0
+          ]
+        },
+        "Protein": {
+          "finite": 27,
+          "missing": 14373,
+          "finite_fraction": 0.001875,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 23,
+          "observed_gap_minutes_quantiles": [
+            253.0,
+            416.5,
+            721.0,
+            1051.5,
+            1160.0
+          ]
+        },
+        "Fat": {
+          "finite": 27,
+          "missing": 14373,
+          "finite_fraction": 0.001875,
+          "min": 0.0,
+          "max": 82.0,
+          "positive": 23,
+          "observed_gap_minutes_quantiles": [
+            253.0,
+            416.5,
+            721.0,
+            1051.5,
+            1160.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 27,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-005.csv",
+      "sha256": "89435504eb7f0ee014f45813be71680808d8051a6df9d267dd98659be5742dd5",
+      "rows": 14460,
+      "columns": [
+        "Unnamed: 0",
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2020-08-17T11:14:00.000000000",
+      "last": "2020-08-27T12:13:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 14459
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 14460,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 40.0,
+          "max": 237.0,
+          "positive": 14460,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14275,
+          "missing": 185,
+          "finite_fraction": 0.9872060857538036,
+          "min": 40.0,
+          "max": 309.0,
+          "positive": 14275,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "HR": {
+          "finite": 14283,
+          "missing": 177,
+          "finite_fraction": 0.9877593360995851,
+          "min": 62.0,
+          "max": 159.0,
+          "positive": 14283,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            155.0
+          ]
+        },
+        "Carbs": {
+          "finite": 46,
+          "missing": 14414,
+          "finite_fraction": 0.00318118948824343,
+          "min": 3.0,
+          "max": 94.0,
+          "positive": 46,
+          "observed_gap_minutes_quantiles": [
+            2.0,
+            253.0,
+            734.6,
+            833.6000000000001,
+            849.0
+          ]
+        },
+        "Protein": {
+          "finite": 46,
+          "missing": 14414,
+          "finite_fraction": 0.00318118948824343,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 45,
+          "observed_gap_minutes_quantiles": [
+            2.0,
+            253.0,
+            734.6,
+            833.6000000000001,
+            849.0
+          ]
+        },
+        "Fat": {
+          "finite": 46,
+          "missing": 14414,
+          "finite_fraction": 0.00318118948824343,
+          "min": 0.0,
+          "max": 54.5,
+          "positive": 40,
+          "observed_gap_minutes_quantiles": [
+            2.0,
+            253.0,
+            734.6,
+            833.6000000000001,
+            849.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 46,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-034.csv",
+      "sha256": "dbe83d3cb77a1d031b2ff779758b8208dae2c25449921a4378914b0209f4c738",
+      "rows": 14700,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "Intensity",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2022-03-02T09:12:00.000000000",
+      "last": "2022-03-12T14:11:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 14699
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 14700,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 40.0,
+          "max": 141.0,
+          "positive": 14700,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14275,
+          "missing": 425,
+          "finite_fraction": 0.9710884353741497,
+          "min": 60.0,
+          "max": 162.0,
+          "positive": 14275,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "HR": {
+          "finite": 7951,
+          "missing": 6749,
+          "finite_fraction": 0.5408843537414966,
+          "min": 56.0,
+          "max": 168.0,
+          "positive": 7951,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            830.0
+          ]
+        },
+        "Carbs": {
+          "finite": 49,
+          "missing": 14651,
+          "finite_fraction": 0.0033333333333333335,
+          "min": 0.0,
+          "max": 150.0,
+          "positive": 48,
+          "observed_gap_minutes_quantiles": [
+            2.0,
+            209.5,
+            673.1000000000003,
+            781.21,
+            808.0
+          ]
+        },
+        "Protein": {
+          "finite": 49,
+          "missing": 14651,
+          "finite_fraction": 0.0033333333333333335,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 48,
+          "observed_gap_minutes_quantiles": [
+            2.0,
+            209.5,
+            673.1000000000003,
+            781.21,
+            808.0
+          ]
+        },
+        "Fat": {
+          "finite": 49,
+          "missing": 14651,
+          "finite_fraction": 0.0033333333333333335,
+          "min": 0.0,
+          "max": 54.5,
+          "positive": 48,
+          "observed_gap_minutes_quantiles": [
+            2.0,
+            209.5,
+            673.1000000000003,
+            781.21,
+            808.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 49,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-023.csv",
+      "sha256": "83d082776e49d372caa9ead7e0720f366d6db501eb2809c608eb8607eb14c781",
+      "rows": 16185,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2021-05-05T08:37:00.000000000",
+      "last": "2021-05-16T14:21:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 16184
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 16185,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 64.0,
+          "max": 227.0,
+          "positive": 16185,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14265,
+          "missing": 1920,
+          "finite_fraction": 0.881371640407785,
+          "min": 85.0,
+          "max": 261.0,
+          "positive": 14265,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            3.0
+          ]
+        },
+        "HR": {
+          "finite": 15132,
+          "missing": 1053,
+          "finite_fraction": 0.9349397590361446,
+          "min": 46.0,
+          "max": 176.0,
+          "positive": 15132,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            107.0
+          ]
+        },
+        "Carbs": {
+          "finite": 42,
+          "missing": 16143,
+          "finite_fraction": 0.0025949953660797036,
+          "min": 1.0,
+          "max": 116.0,
+          "positive": 42,
+          "observed_gap_minutes_quantiles": [
+            20.0,
+            267.0,
+            695.0,
+            737.8000000000001,
+            749.0
+          ]
+        },
+        "Protein": {
+          "finite": 42,
+          "missing": 16143,
+          "finite_fraction": 0.0025949953660797036,
+          "min": 0.0,
+          "max": 94.0,
+          "positive": 41,
+          "observed_gap_minutes_quantiles": [
+            20.0,
+            267.0,
+            695.0,
+            737.8000000000001,
+            749.0
+          ]
+        },
+        "Fat": {
+          "finite": 42,
+          "missing": 16143,
+          "finite_fraction": 0.0025949953660797036,
+          "min": 1.0,
+          "max": 88.0,
+          "positive": 42,
+          "observed_gap_minutes_quantiles": [
+            20.0,
+            267.0,
+            695.0,
+            737.8000000000001,
+            749.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 42,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-044.csv",
+      "sha256": "2b724a2d55b3dabce829eeb1450644a90694cd33aa2c0282d9f46f0437d3976f",
+      "rows": 14535,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2022-10-17T08:36:00.000000000",
+      "last": "2022-10-27T10:50:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 14534
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 14535,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 56.0,
+          "max": 214.0,
+          "positive": 14535,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14225,
+          "missing": 310,
+          "finite_fraction": 0.978672170622635,
+          "min": 45.0,
+          "max": 247.0,
+          "positive": 14225,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            11.0
+          ]
+        },
+        "HR": {
+          "finite": 12226,
+          "missing": 2309,
+          "finite_fraction": 0.8411420708634331,
+          "min": 66.0,
+          "max": 158.0,
+          "positive": 12226,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1773.0
+          ]
+        },
+        "Carbs": {
+          "finite": 43,
+          "missing": 14492,
+          "finite_fraction": 0.002958376332989336,
+          "min": 1.0,
+          "max": 94.0,
+          "positive": 43,
+          "observed_gap_minutes_quantiles": [
+            4.0,
+            261.0,
+            831.1999999999998,
+            940.6999999999999,
+            953.0
+          ]
+        },
+        "Protein": {
+          "finite": 43,
+          "missing": 14492,
+          "finite_fraction": 0.002958376332989336,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 41,
+          "observed_gap_minutes_quantiles": [
+            4.0,
+            261.0,
+            831.1999999999998,
+            940.6999999999999,
+            953.0
+          ]
+        },
+        "Fat": {
+          "finite": 43,
+          "missing": 14492,
+          "finite_fraction": 0.002958376332989336,
+          "min": 0.0,
+          "max": 54.5,
+          "positive": 39,
+          "observed_gap_minutes_quantiles": [
+            4.0,
+            261.0,
+            831.1999999999998,
+            940.6999999999999,
+            953.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 43,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-006.csv",
+      "sha256": "168487450f5537e5667e476b0f3d2f68f2a1711890d338f38643ae0c00a4c9d7",
+      "rows": 14460,
+      "columns": [
+        "Unnamed: 0",
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2023-04-07T11:19:00.000000000",
+      "last": "2023-04-17T12:18:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 14459
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 14460,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 40.0,
+          "max": 173.0,
+          "positive": 14460,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14275,
+          "missing": 185,
+          "finite_fraction": 0.9872060857538036,
+          "min": 56.0,
+          "max": 234.0,
+          "positive": 14275,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "HR": {
+          "finite": 14340,
+          "missing": 120,
+          "finite_fraction": 0.991701244813278,
+          "min": 45.0,
+          "max": 137.0,
+          "positive": 14340,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            62.0
+          ]
+        },
+        "Carbs": {
+          "finite": 38,
+          "missing": 14422,
+          "finite_fraction": 0.0026279391424619642,
+          "min": 16.0,
+          "max": 118.0,
+          "positive": 38,
+          "observed_gap_minutes_quantiles": [
+            9.0,
+            318.0,
+            727.8,
+            857.76,
+            888.0
+          ]
+        },
+        "Protein": {
+          "finite": 38,
+          "missing": 14422,
+          "finite_fraction": 0.0026279391424619642,
+          "min": 1.0,
+          "max": 88.0,
+          "positive": 38,
+          "observed_gap_minutes_quantiles": [
+            9.0,
+            318.0,
+            727.8,
+            857.76,
+            888.0
+          ]
+        },
+        "Fat": {
+          "finite": 38,
+          "missing": 14422,
+          "finite_fraction": 0.0026279391424619642,
+          "min": 0.0,
+          "max": 54.5,
+          "positive": 36,
+          "observed_gap_minutes_quantiles": [
+            9.0,
+            318.0,
+            727.8,
+            857.76,
+            888.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 38,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-026.csv",
+      "sha256": "ecdeb0a46e55eb142452c259d8fc513e5231a7b18eff8b3f46d0a46d09141506",
+      "rows": 16320,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "Intensity",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2021-03-26T08:16:00.000000000",
+      "last": "2021-04-06T16:15:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 16319
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 16320,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 49.0,
+          "max": 197.0,
+          "positive": 16320,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 13824,
+          "missing": 2496,
+          "finite_fraction": 0.8470588235294118,
+          "min": 74.0,
+          "max": 270.0,
+          "positive": 13824,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            487.0
+          ]
+        },
+        "HR": {
+          "finite": 15211,
+          "missing": 1109,
+          "finite_fraction": 0.9320465686274509,
+          "min": 61.0,
+          "max": 137.0,
+          "positive": 15211,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            83.0
+          ]
+        },
+        "Carbs": {
+          "finite": 36,
+          "missing": 16284,
+          "finite_fraction": 0.0022058823529411764,
+          "min": 4.0,
+          "max": 148.0,
+          "positive": 36,
+          "observed_gap_minutes_quantiles": [
+            14.0,
+            266.0,
+            1030.2,
+            1119.82,
+            1129.0
+          ]
+        },
+        "Protein": {
+          "finite": 36,
+          "missing": 16284,
+          "finite_fraction": 0.0022058823529411764,
+          "min": 1.0,
+          "max": 88.0,
+          "positive": 36,
+          "observed_gap_minutes_quantiles": [
+            14.0,
+            266.0,
+            1030.2,
+            1119.82,
+            1129.0
+          ]
+        },
+        "Fat": {
+          "finite": 36,
+          "missing": 16284,
+          "finite_fraction": 0.0022058823529411764,
+          "min": 0.0,
+          "max": 54.5,
+          "positive": 34,
+          "observed_gap_minutes_quantiles": [
+            14.0,
+            266.0,
+            1030.2,
+            1119.82,
+            1129.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 36,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-045.csv",
+      "sha256": "e20bced28247d522aa74d5dc055590bc9a88c761d56a5e72c0b8d7c5c28b5ecd",
+      "rows": 15570,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2025-03-25T19:59:00.000000000",
+      "last": "2025-04-05T15:28:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 15569
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 15570,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 47.0,
+          "max": 300.0,
+          "positive": 15570,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 13669,
+          "missing": 1901,
+          "finite_fraction": 0.8779062299293513,
+          "min": 76.0,
+          "max": 400.0,
+          "positive": 13669,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            2.0
+          ]
+        },
+        "HR": {
+          "finite": 14597,
+          "missing": 973,
+          "finite_fraction": 0.9375080282594733,
+          "min": 61.0,
+          "max": 123.0,
+          "positive": 14597,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            2.0
+          ]
+        },
+        "Carbs": {
+          "finite": 32,
+          "missing": 15538,
+          "finite_fraction": 0.0020552344251766217,
+          "min": 6.0,
+          "max": 134.0,
+          "positive": 32,
+          "observed_gap_minutes_quantiles": [
+            19.0,
+            297.0,
+            789.0,
+            1151.4999999999998,
+            1246.0
+          ]
+        },
+        "Protein": {
+          "finite": 32,
+          "missing": 15538,
+          "finite_fraction": 0.0020552344251766217,
+          "min": 1.0,
+          "max": 84.0,
+          "positive": 32,
+          "observed_gap_minutes_quantiles": [
+            19.0,
+            297.0,
+            789.0,
+            1151.4999999999998,
+            1246.0
+          ]
+        },
+        "Fat": {
+          "finite": 32,
+          "missing": 15538,
+          "finite_fraction": 0.0020552344251766217,
+          "min": 0.0,
+          "max": 44.0,
+          "positive": 30,
+          "observed_gap_minutes_quantiles": [
+            19.0,
+            297.0,
+            789.0,
+            1151.4999999999998,
+            1246.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 32,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-038.csv",
+      "sha256": "1fc8c0af8bb4854b0e669355bbb821b7c0810a93a62872cd89d7fae86baf4f24",
+      "rows": 14505,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "Intensity",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2022-01-25T08:56:00.000000000",
+      "last": "2022-02-04T10:40:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 14504
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 14505,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 63.0,
+          "max": 243.0,
+          "positive": 14505,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14270,
+          "missing": 235,
+          "finite_fraction": 0.9837986901068597,
+          "min": 90.0,
+          "max": 314.0,
+          "positive": 14270,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            2.0
+          ]
+        },
+        "HR": {
+          "finite": 14346,
+          "missing": 159,
+          "finite_fraction": 0.9890382626680455,
+          "min": 30.0,
+          "max": 158.0,
+          "positive": 14346,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            30.0
+          ]
+        },
+        "Carbs": {
+          "finite": 40,
+          "missing": 14465,
+          "finite_fraction": 0.002757669769045157,
+          "min": 0.0,
+          "max": 94.0,
+          "positive": 32,
+          "observed_gap_minutes_quantiles": [
+            2.0,
+            263.0,
+            831.2,
+            893.9999999999999,
+            913.0
+          ]
+        },
+        "Protein": {
+          "finite": 40,
+          "missing": 14465,
+          "finite_fraction": 0.002757669769045157,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 32,
+          "observed_gap_minutes_quantiles": [
+            2.0,
+            263.0,
+            831.2,
+            893.9999999999999,
+            913.0
+          ]
+        },
+        "Fat": {
+          "finite": 40,
+          "missing": 14465,
+          "finite_fraction": 0.002757669769045157,
+          "min": 0.0,
+          "max": 54.5,
+          "positive": 26,
+          "observed_gap_minutes_quantiles": [
+            2.0,
+            263.0,
+            831.2,
+            893.9999999999999,
+            913.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 40,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-016.csv",
+      "sha256": "c938b8f51b3e4c254aa1a3bf2c99db3cabf607f93c0e9e2c5fb3f35fb3f2a276",
+      "rows": 16290,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2023-07-14T09:12:00.000000000",
+      "last": "2023-07-25T16:41:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 16289
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 16290,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 40.0,
+          "max": 143.0,
+          "positive": 16290,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14275,
+          "missing": 2015,
+          "finite_fraction": 0.876304481276857,
+          "min": 81.0,
+          "max": 209.0,
+          "positive": 14275,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "HR": {
+          "finite": 15229,
+          "missing": 1061,
+          "finite_fraction": 0.9348680171884591,
+          "min": 54.0,
+          "max": 137.0,
+          "positive": 15229,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            60.0
+          ]
+        },
+        "Carbs": {
+          "finite": 28,
+          "missing": 16262,
+          "finite_fraction": 0.0017188459177409454,
+          "min": 2.0,
+          "max": 110.0,
+          "positive": 28,
+          "observed_gap_minutes_quantiles": [
+            195.0,
+            293.0,
+            1161.4,
+            1206.0,
+            1219.0
+          ]
+        },
+        "Protein": {
+          "finite": 28,
+          "missing": 16262,
+          "finite_fraction": 0.0017188459177409454,
+          "min": 0.0,
+          "max": 76.0,
+          "positive": 27,
+          "observed_gap_minutes_quantiles": [
+            195.0,
+            293.0,
+            1161.4,
+            1206.0,
+            1219.0
+          ]
+        },
+        "Fat": {
+          "finite": 28,
+          "missing": 16262,
+          "finite_fraction": 0.0017188459177409454,
+          "min": 0.0,
+          "max": 508.0,
+          "positive": 27,
+          "observed_gap_minutes_quantiles": [
+            195.0,
+            293.0,
+            1161.4,
+            1206.0,
+            1219.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 28,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-032.csv",
+      "sha256": "f43419bd406fe6e5d73956787c058e97cba702f4fb5136fe4e165b89a4607832",
+      "rows": 13785,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "Intensity",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2022-01-01T20:54:00.000000000",
+      "last": "2022-01-11T10:38:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 13784
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 13785,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 40.0,
+          "max": 135.0,
+          "positive": 13785,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 13656,
+          "missing": 129,
+          "finite_fraction": 0.9906420021762785,
+          "min": 47.0,
+          "max": 196.0,
+          "positive": 13656,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            4.0
+          ]
+        },
+        "HR": {
+          "finite": 6559,
+          "missing": 7226,
+          "finite_fraction": 0.47580703663402246,
+          "min": 54.0,
+          "max": 147.0,
+          "positive": 6559,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            921.0
+          ]
+        },
+        "Carbs": {
+          "finite": 20,
+          "missing": 13765,
+          "finite_fraction": 0.0014508523757707653,
+          "min": 0.0,
+          "max": 94.0,
+          "positive": 18,
+          "observed_gap_minutes_quantiles": [
+            313.0,
+            501.0,
+            1070.4,
+            1092.2,
+            1094.0
+          ]
+        },
+        "Protein": {
+          "finite": 20,
+          "missing": 13765,
+          "finite_fraction": 0.0014508523757707653,
+          "min": 0.0,
+          "max": 84.0,
+          "positive": 18,
+          "observed_gap_minutes_quantiles": [
+            313.0,
+            501.0,
+            1070.4,
+            1092.2,
+            1094.0
+          ]
+        },
+        "Fat": {
+          "finite": 20,
+          "missing": 13765,
+          "finite_fraction": 0.0014508523757707653,
+          "min": 0.0,
+          "max": 44.0,
+          "positive": 18,
+          "observed_gap_minutes_quantiles": [
+            313.0,
+            501.0,
+            1070.4,
+            1092.2,
+            1094.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 20,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-028.csv",
+      "sha256": "2b7d5c9e11f51b7f6630f585c1855bb063446fcc01d75bdccf0139799272d1f6",
+      "rows": 18735,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Image path"
+      ],
+      "first": "2023-11-28T08:04:00.000000000",
+      "last": "2023-12-11T08:18:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 18734
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 18735,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 63.0,
+          "max": 198.0,
+          "positive": 18735,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14230,
+          "missing": 4505,
+          "finite_fraction": 0.7595409661062184,
+          "min": 89.0,
+          "max": 251.0,
+          "positive": 14230,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            10.0
+          ]
+        },
+        "HR": {
+          "finite": 14289,
+          "missing": 4446,
+          "finite_fraction": 0.7626901521216973,
+          "min": 50.0,
+          "max": 146.0,
+          "positive": 14289,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            434.0
+          ]
+        },
+        "Carbs": {
+          "finite": 34,
+          "missing": 18701,
+          "finite_fraction": 0.0018147851614625033,
+          "min": 3.0,
+          "max": 117.0,
+          "positive": 34,
+          "observed_gap_minutes_quantiles": [
+            103.0,
+            373.0,
+            828.4,
+            866.04,
+            867.0
+          ]
+        },
+        "Protein": {
+          "finite": 34,
+          "missing": 18701,
+          "finite_fraction": 0.0018147851614625033,
+          "min": 1.0,
+          "max": 88.0,
+          "positive": 34,
+          "observed_gap_minutes_quantiles": [
+            103.0,
+            373.0,
+            828.4,
+            866.04,
+            867.0
+          ]
+        },
+        "Fat": {
+          "finite": 34,
+          "missing": 18701,
+          "finite_fraction": 0.0018147851614625033,
+          "min": 0.0,
+          "max": 90.0,
+          "positive": 31,
+          "observed_gap_minutes_quantiles": [
+            103.0,
+            373.0,
+            828.4,
+            866.04,
+            867.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 34,
+      "carbs_positive_without_meal_type": 0
+    },
+    {
+      "file": "CGMacros-043.csv",
+      "sha256": "0f5879b4579d9663467ca66dc8a082b0c99c6086c3d79470788a50f9cfaaa4e5",
+      "rows": 14520,
+      "columns": [
+        "Timestamp",
+        "Libre GL",
+        "Dexcom GL",
+        "HR",
+        "Calories (Activity)",
+        "METs",
+        "Meal Type",
+        "Calories",
+        "Carbs",
+        "Protein",
+        "Fat",
+        "Fiber",
+        "Amount Consumed",
+        "Image path"
+      ],
+      "first": "2025-10-14T09:09:00.000000000",
+      "last": "2025-10-24T11:23:00.000000000",
+      "timestamps_unique": true,
+      "timestamps_increasing": true,
+      "row_spacing_minutes_values_counts": {
+        "1.0": 14504,
+        "2.0": 15
+      },
+      "channels": {
+        "Libre GL": {
+          "finite": 14520,
+          "missing": 0,
+          "finite_fraction": 1.0,
+          "min": 40.0,
+          "max": 166.0,
+          "positive": 14520,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            2.0
+          ]
+        },
+        "Dexcom GL": {
+          "finite": 14260,
+          "missing": 260,
+          "finite_fraction": 0.9820936639118457,
+          "min": 81.0,
+          "max": 222.0,
+          "positive": 14260,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            2.0
+          ]
+        },
+        "HR": {
+          "finite": 14007,
+          "missing": 513,
+          "finite_fraction": 0.9646694214876033,
+          "min": 50.0,
+          "max": 156.0,
+          "positive": 14007,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            431.0
+          ]
+        },
+        "Carbs": {
+          "finite": 64,
+          "missing": 14456,
+          "finite_fraction": 0.004407713498622589,
+          "min": 3.0,
+          "max": 201.0,
+          "positive": 64,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            206.0,
+            577.6,
+            643.5000000000001,
+            659.0
+          ]
+        },
+        "Protein": {
+          "finite": 64,
+          "missing": 14456,
+          "finite_fraction": 0.004407713498622589,
+          "min": 0.0,
+          "max": 88.0,
+          "positive": 61,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            206.0,
+            577.6,
+            643.5000000000001,
+            659.0
+          ]
+        },
+        "Fat": {
+          "finite": 64,
+          "missing": 14456,
+          "finite_fraction": 0.004407713498622589,
+          "min": 0.0,
+          "max": 68.0,
+          "positive": 59,
+          "observed_gap_minutes_quantiles": [
+            1.0,
+            206.0,
+            577.6,
+            643.5000000000001,
+            659.0
+          ]
+        }
+      },
+      "meal_type_nonempty": 64,
+      "carbs_positive_without_meal_type": 0
+    }
+  ],
+  "observational_data": true,
+  "clinical_causal_truth": false,
+  "model_execution": false,
+  "forecast_scores_computed": false,
+  "local_result_files_written": 0,
+  "parser": "stdlib CSV/ISO datetime plus NumPy; pandas absent and not installed"
+}
