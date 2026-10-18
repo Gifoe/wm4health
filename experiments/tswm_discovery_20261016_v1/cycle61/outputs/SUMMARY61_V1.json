@@ -1,0 +1,235 @@
+{
+  "utc": "2026-10-18T00:12:50.516846+00:00",
+  "status": "C61_EXISTING_DURATION_CONTROL_INTERPRETED",
+  "decision": "EXISTING_LEARNED_HSMM_SUFFICIENT_ON_BOTH_CONTROLLED_FAMILIES",
+  "groups": {
+    "peaked": {
+      "hsmm": {
+        "complete_three_seed_group": true,
+        "fits": 3,
+        "finite_fits": 3,
+        "per_seed": [
+          {
+            "seed": 2021,
+            "selected_step": 800,
+            "conditional_nll": 1.4180679876126943,
+            "conditional_nll_above_oracle": 0.006901544796008991,
+            "brier": 0.047745627791121764,
+            "survival_probability_mse_vs_oracle": 0.00022411374830590779,
+            "observation_mse": 0.6606654542066268
+          },
+          {
+            "seed": 2023,
+            "selected_step": 1300,
+            "conditional_nll": 1.4183712338514027,
+            "conditional_nll_above_oracle": 0.007204791034717488,
+            "brier": 0.04763560175333703,
+            "survival_probability_mse_vs_oracle": 0.0002834756090417947,
+            "observation_mse": 0.6613161762478952
+          },
+          {
+            "seed": 2022,
+            "selected_step": 1100,
+            "conditional_nll": 1.419172740060256,
+            "conditional_nll_above_oracle": 0.00800629724357104,
+            "brier": 0.04772509658621478,
+            "survival_probability_mse_vs_oracle": 0.00030861238161685215,
+            "observation_mse": 0.6607447902181101
+          }
+        ],
+        "conditional_nll_mean": 1.4185373205081178,
+        "conditional_nll_seed_sd": 0.0005707960018715212,
+        "conditional_nll_above_oracle_mean": 0.007370877691432506,
+        "conditional_nll_above_oracle_seed_sd": 0.000570796001871653,
+        "brier_mean": 0.04770210871022453,
+        "brier_seed_sd": 5.850439367739281e-05,
+        "survival_probability_mse_vs_oracle_mean": 0.0002720672463215182,
+        "survival_probability_mse_vs_oracle_seed_sd": 4.338914395125128e-05,
+        "observation_mse_mean": 0.6609088068908774,
+        "observation_mse_seed_sd": 0.0003550153453829267,
+        "nll_above_oracle_record_bootstrap95": [
+          0.0051508807506060236,
+          0.009743811244185375
+        ],
+        "all_seeds_pass_prespecified_sufficiency_screen": true
+      },
+      "hmm": {
+        "complete_three_seed_group": true,
+        "fits": 3,
+        "finite_fits": 3,
+        "per_seed": [
+          {
+            "seed": 2021,
+            "selected_step": 800,
+            "conditional_nll": 1.522035038153464,
+            "conditional_nll_above_oracle": 0.11086859533677886,
+            "brier": 0.13982651091996198,
+            "survival_probability_mse_vs_oracle": 0.09067913460952796,
+            "observation_mse": 0.762897830975915
+          },
+          {
+            "seed": 2022,
+            "selected_step": 600,
+            "conditional_nll": 1.5215426697417564,
+            "conditional_nll_above_oracle": 0.11037622692507158,
+            "brier": 0.1356107817603805,
+            "survival_probability_mse_vs_oracle": 0.08639200204007574,
+            "observation_mse": 0.7608203028348863
+          },
+          {
+            "seed": 2023,
+            "selected_step": 1300,
+            "conditional_nll": 1.5216414520202115,
+            "conditional_nll_above_oracle": 0.11047500920352653,
+            "brier": 0.1416999379769367,
+            "survival_probability_mse_vs_oracle": 0.0925935761889304,
+            "observation_mse": 0.7653490985917001
+          }
+        ],
+        "conditional_nll_mean": 1.5217397199718106,
+        "conditional_nll_seed_sd": 0.00026047860938177765,
+        "conditional_nll_above_oracle_mean": 0.11057327715512566,
+        "conditional_nll_above_oracle_seed_sd": 0.000260478609381657,
+        "brier_mean": 0.13904574355242638,
+        "brier_seed_sd": 0.003118758425890438,
+        "survival_probability_mse_vs_oracle_mean": 0.0898882376128447,
+        "survival_probability_mse_vs_oracle_seed_sd": 0.003175534447216331,
+        "observation_mse_mean": 0.7630224108008338,
+        "observation_mse_seed_sd": 0.0022669666630359083,
+        "nll_above_oracle_record_bootstrap95": [
+          0.10696643339859076,
+          0.11408224716147596
+        ]
+      }
+    },
+    "bimodal": {
+      "hsmm": {
+        "complete_three_seed_group": true,
+        "fits": 3,
+        "finite_fits": 3,
+        "per_seed": [
+          {
+            "seed": 2022,
+            "selected_step": 1000,
+            "conditional_nll": 1.4277180442956796,
+            "conditional_nll_above_oracle": 0.00697813953863112,
+            "brier": 0.07895361864602553,
+            "survival_probability_mse_vs_oracle": 0.0006927008563343614,
+            "observation_mse": 0.6915258048165929
+          },
+          {
+            "seed": 2021,
+            "selected_step": 1000,
+            "conditional_nll": 1.4272918338545881,
+            "conditional_nll_above_oracle": 0.006551929097539652,
+            "brier": 0.07876925360690286,
+            "survival_probability_mse_vs_oracle": 0.0006601812161227511,
+            "observation_mse": 0.6901904749909743
+          },
+          {
+            "seed": 2023,
+            "selected_step": 1300,
+            "conditional_nll": 1.4274225333801498,
+            "conditional_nll_above_oracle": 0.006682628623101414,
+            "brier": 0.07862941398690255,
+            "survival_probability_mse_vs_oracle": 0.0006177965113340213,
+            "observation_mse": 0.6893580307305571
+          }
+        ],
+        "conditional_nll_mean": 1.4274774705101392,
+        "conditional_nll_seed_sd": 0.00021835155417915223,
+        "conditional_nll_above_oracle_mean": 0.006737565753090729,
+        "conditional_nll_above_oracle_seed_sd": 0.00021835155417913347,
+        "brier_mean": 0.07878409541327698,
+        "brier_seed_sd": 0.00016261111481567298,
+        "survival_probability_mse_vs_oracle_mean": 0.0006568928612637113,
+        "survival_probability_mse_vs_oracle_seed_sd": 3.756028731575038e-05,
+        "observation_mse_mean": 0.6903581035127081,
+        "observation_mse_seed_sd": 0.00109356555038828,
+        "nll_above_oracle_record_bootstrap95": [
+          0.004734893499455186,
+          0.008875060154223048
+        ],
+        "all_seeds_pass_prespecified_sufficiency_screen": true
+      },
+      "hmm": {
+        "complete_three_seed_group": true,
+        "fits": 3,
+        "finite_fits": 3,
+        "per_seed": [
+          {
+            "seed": 2021,
+            "selected_step": 900,
+            "conditional_nll": 1.5016763141719152,
+            "conditional_nll_above_oracle": 0.0809364094148668,
+            "brier": 0.1419429428300369,
+            "survival_probability_mse_vs_oracle": 0.06445472672725129,
+            "observation_mse": 0.7548683691473013
+          },
+          {
+            "seed": 2022,
+            "selected_step": 1000,
+            "conditional_nll": 1.5022432742324314,
+            "conditional_nll_above_oracle": 0.08150336947538292,
+            "brier": 0.14253906108713094,
+            "survival_probability_mse_vs_oracle": 0.06498743864057704,
+            "observation_mse": 0.7563969241089495
+          },
+          {
+            "seed": 2023,
+            "selected_step": 1500,
+            "conditional_nll": 1.5024528610761596,
+            "conditional_nll_above_oracle": 0.08171295631911134,
+            "brier": 0.14241420447911438,
+            "survival_probability_mse_vs_oracle": 0.06493411335334545,
+            "observation_mse": 0.7559133093509356
+          }
+        ],
+        "conditional_nll_mean": 1.5021241498268354,
+        "conditional_nll_seed_sd": 0.00040174524468792824,
+        "conditional_nll_above_oracle_mean": 0.08138424506978702,
+        "conditional_nll_above_oracle_seed_sd": 0.00040174524468794743,
+        "brier_mean": 0.14229873613209407,
+        "brier_seed_sd": 0.0003143866226207994,
+        "survival_probability_mse_vs_oracle_mean": 0.06479209290705792,
+        "survival_probability_mse_vs_oracle_seed_sd": 0.00029338174964127646,
+        "observation_mse_mean": 0.7557262008690621,
+        "observation_mse_seed_sd": 0.0007812664434663975,
+        "nll_above_oracle_record_bootstrap95": [
+          0.07797716228028076,
+          0.08466964758148987
+        ]
+      }
+    }
+  },
+  "paired_arm_comparisons": {
+    "peaked": {
+      "hsmm_minus_hmm_conditional_nll": -0.10320239946369314,
+      "paired_record_bootstrap95": [
+        -0.10715528421793975,
+        -0.09909449051194331
+      ],
+      "conditioning": "All three fitted seeds fixed; records resampled with all history/horizon views together. This is not uncertainty over training seeds."
+    },
+    "bimodal": {
+      "hsmm_minus_hmm_conditional_nll": -0.07464667931669629,
+      "paired_record_bootstrap95": [
+        -0.07891426113567802,
+        -0.07015320256347082
+      ],
+      "conditioning": "All three fitted seeds fixed; records resampled with all history/horizon views together. This is not uncertainty over training seeds."
+    }
+  },
+  "failed_attempts": [],
+  "valid_fits": 12,
+  "valid_neural_optimizer_updates": 18000,
+  "qualification_updates_separate": 12,
+  "max_score_arithmetic_discrepancy": 0.0,
+  "max_native_dense_conditional_nll_error": 9.325873406851315e-15,
+  "max_native_dense_posterior_error": 1.432187701766452e-14,
+  "max_native_dense_survival_error": 1.432187701766452e-14,
+  "evaluation_sha256": "3ea6694b3843c0a9059b902d3c06c87a3e5cee357f266c293851adb1fe5cedcf",
+  "real_domains": 0,
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "accepted_final_directions": 0
+}

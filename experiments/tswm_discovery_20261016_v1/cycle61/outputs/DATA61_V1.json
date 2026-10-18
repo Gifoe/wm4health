@@ -1,0 +1,142 @@
+{
+  "utc": "2026-10-17T23:58:51.048336+00:00",
+  "status": "UNLABELED_OBSERVATION_ARRAYS_AND_SEPARATE_AUDIT_TRUTH_PREPARED",
+  "families": {
+    "peaked": {
+      "train": {
+        "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle61\\peaked\\train.npz",
+        "sha256": "36120667c3a8188dcd1597325227ec752db8aa06bf5701073cd1ccfcbf6eb09e",
+        "records": 96,
+        "shape": [
+          96,
+          128,
+          2
+        ],
+        "generation_seed": 61100,
+        "keys": [
+          "X",
+          "lengths"
+        ]
+      },
+      "validation": {
+        "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle61\\peaked\\validation.npz",
+        "sha256": "a1e9c8d92664189415a47a26d3572ba89d62b76d9fdedca172b3cfaa27110cc4",
+        "records": 32,
+        "shape": [
+          32,
+          144,
+          2
+        ],
+        "generation_seed": 61101,
+        "keys": [
+          "X",
+          "lengths"
+        ]
+      },
+      "test": {
+        "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle61\\peaked\\test.npz",
+        "sha256": "7b99ec6e0a5a372c7ebd0b9cbb1eb7637ed4afae682d330e2498b18dfebb32ea",
+        "records": 128,
+        "shape": [
+          128,
+          144,
+          2
+        ],
+        "generation_seed": 61102,
+        "keys": [
+          "X",
+          "lengths"
+        ]
+      }
+    },
+    "bimodal": {
+      "train": {
+        "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle61\\bimodal\\train.npz",
+        "sha256": "ca2252943bf7f68612a26f50110818b6d0d52082f311f20dd65254deb25563a8",
+        "records": 96,
+        "shape": [
+          96,
+          128,
+          2
+        ],
+        "generation_seed": 61200,
+        "keys": [
+          "X",
+          "lengths"
+        ]
+      },
+      "validation": {
+        "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle61\\bimodal\\validation.npz",
+        "sha256": "10b1e9a0a438cde81405ea1f88e4af2a33e9d59272fa5fb557a3dc1ab5c119fa",
+        "records": 32,
+        "shape": [
+          32,
+          144,
+          2
+        ],
+        "generation_seed": 61201,
+        "keys": [
+          "X",
+          "lengths"
+        ]
+      },
+      "test": {
+        "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle61\\bimodal\\test.npz",
+        "sha256": "3e700bad5da3a5eba626571522e400ea610252adf1974d2a942a557d236a8257",
+        "records": 128,
+        "shape": [
+          128,
+          144,
+          2
+        ],
+        "generation_seed": 61202,
+        "keys": [
+          "X",
+          "lengths"
+        ]
+      }
+    }
+  },
+  "audit_truth": {
+    "peaked": {
+      "train": {
+        "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle61\\peaked\\train_audit_truth.npz",
+        "sha256": "0328e94505a900a7a1d4fd51a330037c3a9e95ab4d6bf414b9f1faf252eeafb2",
+        "scorer_only": true
+      },
+      "validation": {
+        "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle61\\peaked\\validation_audit_truth.npz",
+        "sha256": "a2d1c0db4831e83841ade08c3a58beba1f60576e44b9a5273256d597251fb201",
+        "scorer_only": true
+      },
+      "test": {
+        "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle61\\peaked\\test_audit_truth.npz",
+        "sha256": "e82d71e5a7ff08868a833433be208825b4293f59453563ea9b9e4650847f538a",
+        "scorer_only": true
+      }
+    },
+    "bimodal": {
+      "train": {
+        "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle61\\bimodal\\train_audit_truth.npz",
+        "sha256": "84f36705af8e67d16b9dcd67963c40e909934e4881f15428a47c7a73efc16f2c",
+        "scorer_only": true
+      },
+      "validation": {
+        "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle61\\bimodal\\validation_audit_truth.npz",
+        "sha256": "9ee6ec9ae693297c7e1db301382a652bd56c5061e0bab0afc6384f637c6311c2",
+        "scorer_only": true
+      },
+      "test": {
+        "file": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle61\\bimodal\\test_audit_truth.npz",
+        "sha256": "ff3d443fca6c1609969f89c32d55e164b0752a28495e3e4f2a045379070eb993",
+        "scorer_only": true
+      }
+    }
+  },
+  "generator_sha256": "69113414f051b298a5267ed34d29005843378c2651b4f1e706977484b713d66e",
+  "protocol_sha256": "bbc7a7c1d7c825deee25be8618b7964085443cdac5de6458b463e65d3e769a79",
+  "role_separation": "Training reads only X and lengths in train/validation arrays, never latent audit labels or law parameters. Generation/provenance construction reads all splits before model fitting; no test score or test-based selection.",
+  "real_domains": 0,
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "accepted_final_directions": 0
+}

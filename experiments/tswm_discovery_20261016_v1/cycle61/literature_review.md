@@ -1,0 +1,7 @@
+# C61 prior-art boundary
+
+[NHSMM source](https://github.com/awa-si/nhsmm/tree/25aeaaff594c0250359226145d7192f4ec8c427f) already implements joint state-age causal filtering, context modulation, native likelihood learning, streaming state, repeated survival queries and active-episode remaining-life probabilities. These are direct existing mechanisms. The current native component execution does not reproduce an associated paper's table or the package's full optimizer/default context encoder. The fixed budget optimizer and supported injected transition subclass are explicit adapters.
+
+[Linderman SSM](https://github.com/lindermanlab/ssm/tree/eb6c8aa33e5311d3564075807dec340759dd8081) and [Bayesian Nonparametric Hidden Semi-Markov Models](https://arxiv.org/abs/1203.1365) provide older explicit-duration and state-space precedents. Linderman source is audited and pinned but not executed in this cycle. No claim of reproducing its Cython/Autograd runtime is made. NHSMM Apache-2.0 and SSM MIT licenses are retained with original bytes. A learned semi-Markov posterior cannot be renamed into a contribution merely by calling it a world state.
+
+Native active-episode survival freezes the duration distribution at the current information set; it does not synthesize unknown future context. This cycle uses autonomous stationary laws, so that contract is appropriate. Future action-dependent hazards and observation models require separately specified conditional laws and matched existing controls; lack of such experiments is not proof of a new gap.

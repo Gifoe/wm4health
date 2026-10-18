@@ -1,0 +1,7 @@
+# C61 executed identities
+
+Unmodified NHSMM causal likelihood and filtering/survival code, pinned to the commit in source_selection61_v1.json. HSMM: K=3, D=32, unknown categorical duration/transition/diagonal Gaussian emission parameters, no internal context encoder. A supported injected Transition subclass forbids unobservable same-state renewal. HMM: same source with D=1 and unrestricted transitions; same-state transition means persistence for its remaining-life endpoint. All fitted parameters use observation-only likelihood; both arms get native train-only k-means emission initialization and the same record sampler seed.
+
+Twelve fixed attempts, 1500 Adam updates each, three CPU workers with four threads per worker, validation every 100 including zero, full individual-seed outcomes. Synthetic CPU profiling median 0.0644596s versus CUDA 0.108155s chose CPU before data outcomes. Qualification optimizer steps are separate. Parameter counts and runtime differ across arms; this is a competent existing-model exclusion, not equal-capacity or equal-compute novelty evidence.
+
+Direct import used existing Python 3.10.20 below package metadata >=3.12. Qualified paths executed successfully without package/environment changes; no supported installation or full-package compatibility claim. Failed preflight V1 changed a private ergodic support mask and conflicted with a runtime fast path. V2 uses the documented distribution-factory extension. Preserve both attempts; the V1 discrepancy is our adapter issue, not native model insufficiency.

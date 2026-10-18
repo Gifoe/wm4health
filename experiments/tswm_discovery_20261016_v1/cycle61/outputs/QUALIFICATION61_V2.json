@@ -1,0 +1,151 @@
+{
+  "utc": "2026-10-17T23:56:48.579058+00:00",
+  "status": "NATIVE_NHSMM_CAUSAL_CORE_RUNTIME_AND_GRADIENTS_QUALIFIED",
+  "cases": [
+    {
+      "arm": "hsmm",
+      "seed": 0,
+      "batch": 0,
+      "posterior_max_error": 1.1102230246251565e-16,
+      "log_likelihood_error": 3.552713678800501e-15,
+      "survival_max_error": 0.0
+    },
+    {
+      "arm": "hsmm",
+      "seed": 0,
+      "batch": 1,
+      "posterior_max_error": 1.6653345369377348e-16,
+      "log_likelihood_error": 3.552713678800501e-15,
+      "survival_max_error": 1.1102230246251565e-16
+    },
+    {
+      "arm": "hsmm",
+      "seed": 1,
+      "batch": 0,
+      "posterior_max_error": 3.3306690738754696e-16,
+      "log_likelihood_error": 0.0,
+      "survival_max_error": 0.0
+    },
+    {
+      "arm": "hsmm",
+      "seed": 1,
+      "batch": 1,
+      "posterior_max_error": 3.3306690738754696e-16,
+      "log_likelihood_error": 3.552713678800501e-15,
+      "survival_max_error": 1.1102230246251565e-16
+    },
+    {
+      "arm": "hsmm",
+      "seed": 2,
+      "batch": 0,
+      "posterior_max_error": 2.220446049250313e-16,
+      "log_likelihood_error": 0.0,
+      "survival_max_error": 1.1102230246251565e-16
+    },
+    {
+      "arm": "hsmm",
+      "seed": 2,
+      "batch": 1,
+      "posterior_max_error": 2.220446049250313e-16,
+      "log_likelihood_error": 0.0,
+      "survival_max_error": 1.1102230246251565e-16
+    },
+    {
+      "arm": "hsmm",
+      "seed": 3,
+      "batch": 0,
+      "posterior_max_error": 2.220446049250313e-16,
+      "log_likelihood_error": 0.0,
+      "survival_max_error": 1.1102230246251565e-16
+    },
+    {
+      "arm": "hsmm",
+      "seed": 3,
+      "batch": 1,
+      "posterior_max_error": 2.220446049250313e-16,
+      "log_likelihood_error": 0.0,
+      "survival_max_error": 1.1102230246251565e-16
+    },
+    {
+      "arm": "hmm",
+      "seed": 0,
+      "batch": 0,
+      "posterior_max_error": 2.220446049250313e-16,
+      "log_likelihood_error": 3.552713678800501e-15,
+      "survival_max_error": 0.0
+    },
+    {
+      "arm": "hmm",
+      "seed": 0,
+      "batch": 1,
+      "posterior_max_error": 2.220446049250313e-16,
+      "log_likelihood_error": 3.552713678800501e-15,
+      "survival_max_error": 0.0
+    },
+    {
+      "arm": "hmm",
+      "seed": 1,
+      "batch": 0,
+      "posterior_max_error": 2.220446049250313e-16,
+      "log_likelihood_error": 0.0,
+      "survival_max_error": 0.0
+    },
+    {
+      "arm": "hmm",
+      "seed": 1,
+      "batch": 1,
+      "posterior_max_error": 2.220446049250313e-16,
+      "log_likelihood_error": 0.0,
+      "survival_max_error": 0.0
+    },
+    {
+      "arm": "hmm",
+      "seed": 2,
+      "batch": 0,
+      "posterior_max_error": 1.1102230246251565e-16,
+      "log_likelihood_error": 7.105427357601002e-15,
+      "survival_max_error": 0.0
+    },
+    {
+      "arm": "hmm",
+      "seed": 2,
+      "batch": 1,
+      "posterior_max_error": 1.6653345369377348e-16,
+      "log_likelihood_error": 0.0,
+      "survival_max_error": 0.0
+    },
+    {
+      "arm": "hmm",
+      "seed": 3,
+      "batch": 0,
+      "posterior_max_error": 2.220446049250313e-16,
+      "log_likelihood_error": 0.0,
+      "survival_max_error": 0.0
+    },
+    {
+      "arm": "hmm",
+      "seed": 3,
+      "batch": 1,
+      "posterior_max_error": 2.220446049250313e-16,
+      "log_likelihood_error": 0.0,
+      "survival_max_error": 0.0
+    }
+  ],
+  "max_gradient_error": 8.881784197001252e-15,
+  "runtime_stream_vs_batch_max_error": 2.220446049250313e-16,
+  "repeat_survival_query_state_unchanged": true,
+  "synthetic_step_seconds": {
+    "cpu": 0.06445964999147691,
+    "cuda": 0.1081551500101341
+  },
+  "profile_updates_separate": 12,
+  "chosen_device": "cpu",
+  "python": "3.10.20",
+  "torch": "2.8.0+cu128",
+  "source_python_requirement": ">=3.12",
+  "execution_mode": "Unmodified source imported directly under existing Python; package not installed, declared minimum Python version not met. Successful qualified execution is scoped to these exact code paths.",
+  "source_receipt_sha256": "44d6ee60d605c0c73a6bcf70e85bb9de48a3f057a1c7a302f0a9b1ad12845470",
+  "script_sha256": "245e1c0d9a24b275574c61773a0ab5cb088179834956f6e5e9960ac513987304",
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "accepted_final_directions": 0
+}
