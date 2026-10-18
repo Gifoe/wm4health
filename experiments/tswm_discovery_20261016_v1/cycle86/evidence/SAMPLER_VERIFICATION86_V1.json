@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-18T15:43:11.109666+00:00",
+  "result_sha256": "c613aa0f772505354edc02a40a9e25977f66d85edfa25bfc009ef5f19ad86eb6",
+  "source_public_https_sha256": "744f1df3852c7c85a29dcc300fb4ef5e00d13d1b384881a73643a52ab6e01691",
+  "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/data_generation/sde/dynamical_systems_sample.py",
+  "verified_trajectory_scalars": 31850496,
+  "checks": [
+    {
+      "seed": 2026861,
+      "trajectory_scalars": 10616832,
+      "max_rotation_reconstruction_difference": 0.0,
+      "max_scipy_expm_difference": 1.3500311979441904e-12,
+      "max_snapshot_probe_replay_difference": 8.049116928532385e-16
+    },
+    {
+      "seed": 2026862,
+      "trajectory_scalars": 10616832,
+      "max_rotation_reconstruction_difference": 0.0,
+      "max_scipy_expm_difference": 2.1245227799226996e-12,
+      "max_snapshot_probe_replay_difference": 5.551115123125783e-16
+    },
+    {
+      "seed": 2026863,
+      "trajectory_scalars": 10616832,
+      "max_rotation_reconstruction_difference": 0.0,
+      "max_scipy_expm_difference": 1.84385839929746e-12,
+      "max_snapshot_probe_replay_difference": 4.996003610813204e-16
+    }
+  ],
+  "verification_protocol_sha256": "445067ea8fa24d6abb7f3940c13067590f91447af52c3e085eb71a1031abf8f7",
+  "released_checkpoint_provenance_verified": false,
+  "new_method_validated": false,
+  "local_result_payload_files_written": 0
+}

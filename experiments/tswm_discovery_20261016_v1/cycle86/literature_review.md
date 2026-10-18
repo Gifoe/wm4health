@@ -1,0 +1,15 @@
+# Literature and novelty boundary
+
+[OpenFIM source](https://github.com/FIM4Science/OpenFIM/blob/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/data_generation/sde/dynamical_systems_sample.py#L315) is pinned and executed at the sampler-method level. It drops a parameter realization if any of its paths is nonfinite or exceeds the configured threshold. We replace its integrator with an exact linear flow to isolate that selection operation. This is not a reproduction of its full data-generation pipeline. The released FIM-ODE checkpoint's precise training-data lineage remains unverified; previous FIM-ODE errors cannot be causally attributed to this sampler.
+
+[Ziegler et al.](https://arxiv.org/html/2412.00395v2), sections4–5, describes trajectory selection using total variation and context/future variation similarity. This is a separate explicit precedent for trajectory-dependent synthetic pretraining selection. Its implementation and trained weights are not run in C86. The paper discloses these choices; noticing them is not a novel contribution.
+
+[Plevrakis, COLT2021](https://proceedings.mlr.press/v134/plevrakis21a.html) already studies efficient identification of linear dynamics from censored, temporally dependent observations. Selection bias, censor-aware estimation and survival probabilities are established statistics. C86 must differentiate any future claim about many-task pretraining populations and mechanism/initial-state dependence from this prior work; it introduces no new censor-aware estimator.
+
+[Causal Analysis for Time Series Foundation Models](https://arxiv.org/html/2608.24303v1), August2026, probes model behavior under interventions on six synthetic patterns and discusses possible pretraining explanations. A generic proposal to audit pretrained forecasts with controlled generators is therefore occupied. A potential C86 distinction is a controlled intervention on the training sampler itself, with mechanism-preserving resampling and crossed initial-condition queries. It remains a candidate distinction, not verified novelty.
+
+[Pythia](https://arxiv.org/html/2610.05240v1), October2026, explicitly defines its world model for observational context-conditioned forecasting and marks code/models as to be released. [T2-z](https://arxiv.org/html/2610.22364v1), October15, already learns and optimizes environment latents from few interaction trajectories. Neither is reproduced here. Adding an environment latent is insufficient differentiation.
+
+[Bilinear World Models](https://arxiv.org/html/2609.36305v1) and [Control-Geometry Straightening](https://arxiv.org/html/2609.35603v1), September2026, already constrain control geometry. Their theory assumptions and approximation limits must be respected; C86 contains no experimental refutation of either paper. These reading results prevent another generic control-geometry proposal without a specific difference.
+
+Only primary papers and official source support these statements. Search-discovered aggregators, unverified manuscript descriptions and missing code are not evidence that a problem is unsolved.

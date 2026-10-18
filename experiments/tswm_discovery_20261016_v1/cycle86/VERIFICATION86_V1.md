@@ -1,0 +1,7 @@
+# Independent verification contract
+
+Verify the pinned source bytes against the public raw GitHub file using normal HTTPS. The cached sampler's function AST must match the recorded source contract. Independent SciPy matrix exponentials check a fixed subset of physical paths, and independently reconstructed rotations check all retained paths/masks. Re-fit snapshot probes by QR, recompute every descriptor, verify identical unselected test IDs and nested masks across sibling counts/thresholds.
+
+For paired learning, verify source data hashes,1024 distinct TRAIN IDs per arm, disjoint VAL IDs, identical A/B mechanism IDs, independent B initial states, shared A/C noise for overlaps, exact factual generation, and fixed initialization/minibatch-stream hashes. Check all18 fits and every selected checkpoint against source VAL traces and persistence gates. Recompute source VAL predictions in a separately instantiated NumPy network; replay all neural/ordinary EVAL predictions with independent forward and least-squares implementations. Independently recompute per-mechanism and subgroup errors/failures, selection seals and physical reference paths. No acceptance threshold is chosen from EVAL.
+
+Use numerical tolerances appropriate to float32: neural replay atol/rtol1e-4, source VAL loss1e-5 absolute/relative, physical truth1e-10. Record actual maxima. Failure classification must match. A PASS verifies numerical consistency only, not novelty, sufficient convergence, general world-model performance or released-checkpoint provenance.

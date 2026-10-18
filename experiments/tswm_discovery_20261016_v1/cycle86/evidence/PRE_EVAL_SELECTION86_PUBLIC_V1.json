@@ -1,0 +1,1661 @@
+{
+  "utc": "2026-10-18T15:40:51.763717+00:00",
+  "fits": [
+    {
+      "seed": 2026861,
+      "architecture": "generator",
+      "arm": "whole_filter",
+      "trace": [
+        {
+          "step": 0,
+          "val_mse": 0.009171918965876102,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_whole_filter_step0000_v1.pt",
+          "checkpoint_sha256": "ebd8f6f7d38bb70c50fb1943035ebd21499951c74be3d43ada8933484298323a"
+        },
+        {
+          "step": 300,
+          "val_mse": 0.006829602178186178,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_whole_filter_step0300_v1.pt",
+          "checkpoint_sha256": "6f9cc9af6b92c05d6d0ad43cbc6e9882402173f2b2ca3edc0f23064d8db9cfc6"
+        },
+        {
+          "step": 600,
+          "val_mse": 0.006868098396807909,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_whole_filter_step0600_v1.pt",
+          "checkpoint_sha256": "2c88203da65daec32dd85cf448df38da6060e8d4980812afada1a90ac61ae37c"
+        },
+        {
+          "step": 900,
+          "val_mse": 0.006635420024394989,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_whole_filter_step0900_v1.pt",
+          "checkpoint_sha256": "f23334c45e50cc8db2549e2802571db8d3c74a1994dcad6b6d5f82603ae054d8"
+        },
+        {
+          "step": 1200,
+          "val_mse": 0.00668521411716938,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_whole_filter_step1200_v1.pt",
+          "checkpoint_sha256": "10b64ba9f78d8fc90902b1aa3ec054536a396b59de295654e057e19e3f8e028a"
+        },
+        {
+          "step": 1500,
+          "val_mse": 0.0067086052149534225,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_whole_filter_step1500_v1.pt",
+          "checkpoint_sha256": "16f639e79081ba8a3b903fcf5e134972681846b07db519ab26a4107e267ece41"
+        },
+        {
+          "step": 1800,
+          "val_mse": 0.006765095517039299,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_whole_filter_step1800_v1.pt",
+          "checkpoint_sha256": "bd84dd1db5636a3d56dbe71107e90f1c0244d94e5e80d17ea7e9bbfe74546a1f"
+        },
+        {
+          "step": 2100,
+          "val_mse": 0.006589291151612997,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_whole_filter_step2100_v1.pt",
+          "checkpoint_sha256": "9438785e659808bc20397a45ae04a9466fe7c76c4d2ecefffa4870ec04cd91a3"
+        },
+        {
+          "step": 2400,
+          "val_mse": 0.006686265114694834,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_whole_filter_step2400_v1.pt",
+          "checkpoint_sha256": "31079813766d6472b5409bd6f6c9fd9ac57b8a5c521d6362443b3621fdf63a76"
+        },
+        {
+          "step": 2700,
+          "val_mse": 0.006536351051181555,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_whole_filter_step2700_v1.pt",
+          "checkpoint_sha256": "f4c993c42e71678fb71816ab5e10e1992e465d680c36a6d68c18929ef7795fae"
+        },
+        {
+          "step": 3000,
+          "val_mse": 0.0064715053886175156,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_whole_filter_step3000_v1.pt",
+          "checkpoint_sha256": "b3cce3629dcdb33030b7d3108f06eacd829cee6284176d8d159be5b7216399d2"
+        }
+      ],
+      "selected": {
+        "step": 3000,
+        "val_mse": 0.0064715053886175156,
+        "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_whole_filter_step3000_v1.pt",
+        "checkpoint_sha256": "b3cce3629dcdb33030b7d3108f06eacd829cee6284176d8d159be5b7216399d2"
+      },
+      "persistence_val_mse": 0.007115405518561602,
+      "source_qualified": true,
+      "parameters": 5443,
+      "updates": 3000,
+      "elapsed_seconds": 6.8128232000162825,
+      "schedule_sha256": "776ad060a0e29bff925c76d66a8f79f565cb27c4cc108eaa9b9612e7c1ca08b2",
+      "initial_state_sha256": "6b1b9518fce1cf4cc7c9809255036936065b30c883ab31d42a534474094fdb65"
+    },
+    {
+      "seed": 2026861,
+      "architecture": "generator",
+      "arm": "resampled_ic",
+      "trace": [
+        {
+          "step": 0,
+          "val_mse": 0.018101802095770836,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_resampled_ic_step0000_v1.pt",
+          "checkpoint_sha256": "ebd8f6f7d38bb70c50fb1943035ebd21499951c74be3d43ada8933484298323a"
+        },
+        {
+          "step": 300,
+          "val_mse": 0.011998012661933899,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_resampled_ic_step0300_v1.pt",
+          "checkpoint_sha256": "9f46a4341a5f8113e6b857c57173af5378cbb9d3b9598ca7d29b584dbdfda781"
+        },
+        {
+          "step": 600,
+          "val_mse": 0.011642816476523876,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_resampled_ic_step0600_v1.pt",
+          "checkpoint_sha256": "210ae602ef2f9290b43ada86a1d5485e77d02b9ab23baad1c9e59de3fb2cced9"
+        },
+        {
+          "step": 900,
+          "val_mse": 0.011671745218336582,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_resampled_ic_step0900_v1.pt",
+          "checkpoint_sha256": "87a19e3d014805d533ba30ecf578449e67bed2c2e2c4463a93abd1ceffc2bb93"
+        },
+        {
+          "step": 1200,
+          "val_mse": 0.01136428490281105,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_resampled_ic_step1200_v1.pt",
+          "checkpoint_sha256": "82c6cb69726b046910e4d14feff9379b7915c10c416176010a0dee92f2655fe1"
+        },
+        {
+          "step": 1500,
+          "val_mse": 0.011239810846745968,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_resampled_ic_step1500_v1.pt",
+          "checkpoint_sha256": "3a6e679d53f93dd7a3ef90608bb0cc7bdeb02bdc91660db92502cc6b2baf9a0e"
+        },
+        {
+          "step": 1800,
+          "val_mse": 0.010867497883737087,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_resampled_ic_step1800_v1.pt",
+          "checkpoint_sha256": "bb90ae10676866583b018de7d0dd14f78646490182fc4dd9f4af984d167a941c"
+        },
+        {
+          "step": 2100,
+          "val_mse": 0.01037171483039856,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_resampled_ic_step2100_v1.pt",
+          "checkpoint_sha256": "3fc12751c1166052daeee8e204c95745c7ed39f6ceef93e85e31d2a783b2b357"
+        },
+        {
+          "step": 2400,
+          "val_mse": 0.01003136858344078,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_resampled_ic_step2400_v1.pt",
+          "checkpoint_sha256": "b769779b5a1a0fd0611c3d41643118c0a5f3a388cf6fa09f6ab6efd3b1c78db4"
+        },
+        {
+          "step": 2700,
+          "val_mse": 0.009361046366393566,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_resampled_ic_step2700_v1.pt",
+          "checkpoint_sha256": "245a476a139c1cd8ab62e14cce13e118cc36fbf1cc29a4f27a352d36f74a9f52"
+        },
+        {
+          "step": 3000,
+          "val_mse": 0.008866794407367706,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_resampled_ic_step3000_v1.pt",
+          "checkpoint_sha256": "9b98d611c443a7b7518c0dd16cbf427ed097cd388558533e0839c4f3c234679a"
+        }
+      ],
+      "selected": {
+        "step": 3000,
+        "val_mse": 0.008866794407367706,
+        "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_resampled_ic_step3000_v1.pt",
+        "checkpoint_sha256": "9b98d611c443a7b7518c0dd16cbf427ed097cd388558533e0839c4f3c234679a"
+      },
+      "persistence_val_mse": 0.012147023342549801,
+      "source_qualified": true,
+      "parameters": 5443,
+      "updates": 3000,
+      "elapsed_seconds": 6.877345399989281,
+      "schedule_sha256": "776ad060a0e29bff925c76d66a8f79f565cb27c4cc108eaa9b9612e7c1ca08b2",
+      "initial_state_sha256": "6b1b9518fce1cf4cc7c9809255036936065b30c883ab31d42a534474094fdb65"
+    },
+    {
+      "seed": 2026861,
+      "architecture": "generator",
+      "arm": "prefix_all",
+      "trace": [
+        {
+          "step": 0,
+          "val_mse": 0.033161524683237076,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_prefix_all_step0000_v1.pt",
+          "checkpoint_sha256": "ebd8f6f7d38bb70c50fb1943035ebd21499951c74be3d43ada8933484298323a"
+        },
+        {
+          "step": 300,
+          "val_mse": 0.017730634659528732,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_prefix_all_step0300_v1.pt",
+          "checkpoint_sha256": "32bdfcad3ebe16654af0ac12891629fd8ff25712f95d726f476c08888c027d42"
+        },
+        {
+          "step": 600,
+          "val_mse": 0.017453720793128014,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_prefix_all_step0600_v1.pt",
+          "checkpoint_sha256": "9e1925aa8999386bdbaeb2b13b93bac7aa1ea42c1b19db64a1075bc15eaf66c4"
+        },
+        {
+          "step": 900,
+          "val_mse": 0.017523517832159996,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_prefix_all_step0900_v1.pt",
+          "checkpoint_sha256": "f85b0a44c1beb1999105a51269299632628fc84418f3ba8ddcdb4bae8e66e40c"
+        },
+        {
+          "step": 1200,
+          "val_mse": 0.01753697358071804,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_prefix_all_step1200_v1.pt",
+          "checkpoint_sha256": "0190f5bce30ddb6cfeeb1fe718cf22f9518bce60a096532261f23f5de802b648"
+        },
+        {
+          "step": 1500,
+          "val_mse": 0.017088616266846657,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_prefix_all_step1500_v1.pt",
+          "checkpoint_sha256": "cbe170e1b079342791994761fab3481a40c2eedcd17e02bfb31c3f5801715c91"
+        },
+        {
+          "step": 1800,
+          "val_mse": 0.01671009510755539,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_prefix_all_step1800_v1.pt",
+          "checkpoint_sha256": "ea7bbe401efb80c80b7dcac1ef608ae79ca88fc1f33518e0149ae54ba014addb"
+        },
+        {
+          "step": 2100,
+          "val_mse": 0.01609380915760994,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_prefix_all_step2100_v1.pt",
+          "checkpoint_sha256": "3a96616c586f9cf7bacd3a433bc01bc4a8a1302fedefc15ed3015cf62f616961"
+        },
+        {
+          "step": 2400,
+          "val_mse": 0.015337378717958927,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_prefix_all_step2400_v1.pt",
+          "checkpoint_sha256": "2b5bbc7a34118ffeb4bd8ba12bb294d80436f9a0473d0d297236e23b81f211a6"
+        },
+        {
+          "step": 2700,
+          "val_mse": 0.01457484532147646,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_prefix_all_step2700_v1.pt",
+          "checkpoint_sha256": "35601cd8a3008135ac71f4dcbc0716e90d5a1eb76030693738b8909fb4f3411f"
+        },
+        {
+          "step": 3000,
+          "val_mse": 0.01306608971208334,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_prefix_all_step3000_v1.pt",
+          "checkpoint_sha256": "3962ef8f5116618a8bfa63c108161cabf9dc090a74d49d5cbc6705fcd6650dfa"
+        }
+      ],
+      "selected": {
+        "step": 3000,
+        "val_mse": 0.01306608971208334,
+        "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_generator_prefix_all_step3000_v1.pt",
+        "checkpoint_sha256": "3962ef8f5116618a8bfa63c108161cabf9dc090a74d49d5cbc6705fcd6650dfa"
+      },
+      "persistence_val_mse": 0.021478451788425446,
+      "source_qualified": true,
+      "parameters": 5443,
+      "updates": 3000,
+      "elapsed_seconds": 6.8295170000055805,
+      "schedule_sha256": "776ad060a0e29bff925c76d66a8f79f565cb27c4cc108eaa9b9612e7c1ca08b2",
+      "initial_state_sha256": "6b1b9518fce1cf4cc7c9809255036936065b30c883ab31d42a534474094fdb65"
+    },
+    {
+      "seed": 2026861,
+      "architecture": "direct",
+      "arm": "whole_filter",
+      "trace": [
+        {
+          "step": 0,
+          "val_mse": 0.27078351378440857,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_whole_filter_step0000_v1.pt",
+          "checkpoint_sha256": "91fb4920dfee82e51b637ad6718448e303ed8fe16d0a53bf5379d71904834dc1"
+        },
+        {
+          "step": 300,
+          "val_mse": 0.013232248835265636,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_whole_filter_step0300_v1.pt",
+          "checkpoint_sha256": "93eee43728148646c1eaed523157ef2f62d265ff39362724945ffa4ad3461010"
+        },
+        {
+          "step": 600,
+          "val_mse": 0.010504999198019505,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_whole_filter_step0600_v1.pt",
+          "checkpoint_sha256": "ee04732f179c17fee19bdf1139f70eeff78f3fd9c201e9c16c5a4a41a5f96c57"
+        },
+        {
+          "step": 900,
+          "val_mse": 0.006225808057934046,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_whole_filter_step0900_v1.pt",
+          "checkpoint_sha256": "5b4116071f9d7d86310b9541bc0847cf705aa3ad8ab7ec7c45e915f37cb80a20"
+        },
+        {
+          "step": 1200,
+          "val_mse": 0.002542495494708419,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_whole_filter_step1200_v1.pt",
+          "checkpoint_sha256": "cacf95600f6437b5510ff3488c2c9b5a9130738b43b99237f1ff1723dd28b780"
+        },
+        {
+          "step": 1500,
+          "val_mse": 0.001357643399387598,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_whole_filter_step1500_v1.pt",
+          "checkpoint_sha256": "c195dfe41c1fc5e522b5a7584199d961c871661f0f164a8e5f7e033133d56052"
+        },
+        {
+          "step": 1800,
+          "val_mse": 0.001049622311256826,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_whole_filter_step1800_v1.pt",
+          "checkpoint_sha256": "6f28081c27be983577c1051d02796ad312a9b595e65398f11c7088689ed0a36a"
+        },
+        {
+          "step": 2100,
+          "val_mse": 0.0009959031594917178,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_whole_filter_step2100_v1.pt",
+          "checkpoint_sha256": "dbbc1b54584e4642106b31cd2bc5d9fc05ab16e579a4741784d92fc90b554762"
+        },
+        {
+          "step": 2400,
+          "val_mse": 0.000894059834536165,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_whole_filter_step2400_v1.pt",
+          "checkpoint_sha256": "98e7179d4f703aec8afdc2269ff591daf1b567b8e255ec70a3a0c69f56a34aac"
+        },
+        {
+          "step": 2700,
+          "val_mse": 0.0008658673614263535,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_whole_filter_step2700_v1.pt",
+          "checkpoint_sha256": "1f80b5d71d8ed99a781c29c91afa7799b5fd547c8a4123fe4f3b60d2d9826651"
+        },
+        {
+          "step": 3000,
+          "val_mse": 0.0008537902031093836,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_whole_filter_step3000_v1.pt",
+          "checkpoint_sha256": "b81d3aebd8b8abb104d5dc70830356ab407c1e58f3df04b46ea564433ae39e37"
+        }
+      ],
+      "selected": {
+        "step": 3000,
+        "val_mse": 0.0008537902031093836,
+        "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_whole_filter_step3000_v1.pt",
+        "checkpoint_sha256": "b81d3aebd8b8abb104d5dc70830356ab407c1e58f3df04b46ea564433ae39e37"
+      },
+      "persistence_val_mse": 0.007115405518561602,
+      "source_qualified": true,
+      "parameters": 7328,
+      "updates": 3000,
+      "elapsed_seconds": 3.2316021000151522,
+      "schedule_sha256": "776ad060a0e29bff925c76d66a8f79f565cb27c4cc108eaa9b9612e7c1ca08b2",
+      "initial_state_sha256": "23857d609479fb38208ffdd51ee4d262bb9b7df8b0df3fc9bcb88311972962bb"
+    },
+    {
+      "seed": 2026861,
+      "architecture": "direct",
+      "arm": "resampled_ic",
+      "trace": [
+        {
+          "step": 0,
+          "val_mse": 0.3427685797214508,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_resampled_ic_step0000_v1.pt",
+          "checkpoint_sha256": "91fb4920dfee82e51b637ad6718448e303ed8fe16d0a53bf5379d71904834dc1"
+        },
+        {
+          "step": 300,
+          "val_mse": 0.022760717198252678,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_resampled_ic_step0300_v1.pt",
+          "checkpoint_sha256": "6953f3606f83679f84bef9ea63ffce3c85bac7c76c37724f071fe150a924a5ab"
+        },
+        {
+          "step": 600,
+          "val_mse": 0.015637746080756187,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_resampled_ic_step0600_v1.pt",
+          "checkpoint_sha256": "ebddd095d828d551609b1017bd2d423e96d9b3c4202f2168233a4f9208d9ef58"
+        },
+        {
+          "step": 900,
+          "val_mse": 0.006124792620539665,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_resampled_ic_step0900_v1.pt",
+          "checkpoint_sha256": "8b01e3adf7cc142eeac902f8f2160890c390d23cda239e8eab1e4e395af8f2f9"
+        },
+        {
+          "step": 1200,
+          "val_mse": 0.002434432739391923,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_resampled_ic_step1200_v1.pt",
+          "checkpoint_sha256": "074f90a4d8a7b4c402d0381879766db449efb6db4f8ff1c8e7529711fb062f56"
+        },
+        {
+          "step": 1500,
+          "val_mse": 0.001785201020538807,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_resampled_ic_step1500_v1.pt",
+          "checkpoint_sha256": "fc76e10ad97fd1eeecd66437c6d7e17dacdf1b6187d9b26edc97d43f9abf4843"
+        },
+        {
+          "step": 1800,
+          "val_mse": 0.0015667584957554936,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_resampled_ic_step1800_v1.pt",
+          "checkpoint_sha256": "a166920a382baa5260369b0cad8eedde7e328fbe536ee654e3a5604a9211c1bc"
+        },
+        {
+          "step": 2100,
+          "val_mse": 0.0015173362335190177,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_resampled_ic_step2100_v1.pt",
+          "checkpoint_sha256": "98f6662a2697521d758cb252fdac1a1471a395fd44b631ad83197e8b7ed9015a"
+        },
+        {
+          "step": 2400,
+          "val_mse": 0.001431356300599873,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_resampled_ic_step2400_v1.pt",
+          "checkpoint_sha256": "1519d2e227d884164e364b6b03d1e6e9ba0d6710179aaa71ec1e0e0667caa673"
+        },
+        {
+          "step": 2700,
+          "val_mse": 0.001367657445371151,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_resampled_ic_step2700_v1.pt",
+          "checkpoint_sha256": "7ebdfb08cb9e86dcfb58ad444540a100c590c98fbf1f7100f6e4d77af0a1ac9b"
+        },
+        {
+          "step": 3000,
+          "val_mse": 0.0014061540132388473,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_resampled_ic_step3000_v1.pt",
+          "checkpoint_sha256": "7f77e332cc9634dcc3e4c1cf07bedf7e2cea34695fb4d832f48363b89bb33c2d"
+        }
+      ],
+      "selected": {
+        "step": 2700,
+        "val_mse": 0.001367657445371151,
+        "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_resampled_ic_step2700_v1.pt",
+        "checkpoint_sha256": "7ebdfb08cb9e86dcfb58ad444540a100c590c98fbf1f7100f6e4d77af0a1ac9b"
+      },
+      "persistence_val_mse": 0.012147023342549801,
+      "source_qualified": true,
+      "parameters": 7328,
+      "updates": 3000,
+      "elapsed_seconds": 3.246722400013823,
+      "schedule_sha256": "776ad060a0e29bff925c76d66a8f79f565cb27c4cc108eaa9b9612e7c1ca08b2",
+      "initial_state_sha256": "23857d609479fb38208ffdd51ee4d262bb9b7df8b0df3fc9bcb88311972962bb"
+    },
+    {
+      "seed": 2026861,
+      "architecture": "direct",
+      "arm": "prefix_all",
+      "trace": [
+        {
+          "step": 0,
+          "val_mse": 0.4441467821598053,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_prefix_all_step0000_v1.pt",
+          "checkpoint_sha256": "91fb4920dfee82e51b637ad6718448e303ed8fe16d0a53bf5379d71904834dc1"
+        },
+        {
+          "step": 300,
+          "val_mse": 0.035010453313589096,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_prefix_all_step0300_v1.pt",
+          "checkpoint_sha256": "dd94ca39f9e08a4548e69d59e7f6079fff0134e7a8360df612d9e3cc455cfff7"
+        },
+        {
+          "step": 600,
+          "val_mse": 0.02098042331635952,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_prefix_all_step0600_v1.pt",
+          "checkpoint_sha256": "96b53c1bfb868a70e44c10527e230cab0dd1f81df81f25ccd9648fa78f4ff364"
+        },
+        {
+          "step": 900,
+          "val_mse": 0.006703726481646299,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_prefix_all_step0900_v1.pt",
+          "checkpoint_sha256": "def11cb4182abbb1b5aa5edb48f1253f87a7649cbc20f3a59a84e6ccdf5ae55b"
+        },
+        {
+          "step": 1200,
+          "val_mse": 0.0033036007080227137,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_prefix_all_step1200_v1.pt",
+          "checkpoint_sha256": "4f6996a0551528341b974feffe67c1207e5f8cef2d5c4ec89c903fb7a84d0a0b"
+        },
+        {
+          "step": 1500,
+          "val_mse": 0.002570291282609105,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_prefix_all_step1500_v1.pt",
+          "checkpoint_sha256": "1e60bac919fa1e4fdc8d03ed74a828118b2ba5426805a15543190019c15a365e"
+        },
+        {
+          "step": 1800,
+          "val_mse": 0.0022786457557231188,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_prefix_all_step1800_v1.pt",
+          "checkpoint_sha256": "1be9dd4771789b143f70baa748563b488fea14a8c833501fcaf8154e340b4df9"
+        },
+        {
+          "step": 2100,
+          "val_mse": 0.002234087558463216,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_prefix_all_step2100_v1.pt",
+          "checkpoint_sha256": "cae002095fb0638dd6f0c62e8ba0dab80aaf55f72039e0650bb224b943c6dfc5"
+        },
+        {
+          "step": 2400,
+          "val_mse": 0.0021820785477757454,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_prefix_all_step2400_v1.pt",
+          "checkpoint_sha256": "9b8fb81bfe2e4b0ae8ea3477d8dc7d843734a7b0a5ea51dcabae54bde42f27fd"
+        },
+        {
+          "step": 2700,
+          "val_mse": 0.001999242464080453,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_prefix_all_step2700_v1.pt",
+          "checkpoint_sha256": "11c59353937efb18a248d6b096daff612d9e31fe293532a77a6fc98ff48f43e4"
+        },
+        {
+          "step": 3000,
+          "val_mse": 0.0019561562221497297,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_prefix_all_step3000_v1.pt",
+          "checkpoint_sha256": "218e4e9f8465d508ed3cf2c8ff9768d870154aac4af26b2ec6bc4f7f39c10f90"
+        }
+      ],
+      "selected": {
+        "step": 3000,
+        "val_mse": 0.0019561562221497297,
+        "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026861_direct_prefix_all_step3000_v1.pt",
+        "checkpoint_sha256": "218e4e9f8465d508ed3cf2c8ff9768d870154aac4af26b2ec6bc4f7f39c10f90"
+      },
+      "persistence_val_mse": 0.021478451788425446,
+      "source_qualified": true,
+      "parameters": 7328,
+      "updates": 3000,
+      "elapsed_seconds": 3.287959400040563,
+      "schedule_sha256": "776ad060a0e29bff925c76d66a8f79f565cb27c4cc108eaa9b9612e7c1ca08b2",
+      "initial_state_sha256": "23857d609479fb38208ffdd51ee4d262bb9b7df8b0df3fc9bcb88311972962bb"
+    },
+    {
+      "seed": 2026862,
+      "architecture": "generator",
+      "arm": "whole_filter",
+      "trace": [
+        {
+          "step": 0,
+          "val_mse": 0.008671583607792854,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_whole_filter_step0000_v1.pt",
+          "checkpoint_sha256": "47e1b1290f9b62aa979ec49f3860f6c423e112258e7087ce95515214064f4938"
+        },
+        {
+          "step": 300,
+          "val_mse": 0.006324087735265493,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_whole_filter_step0300_v1.pt",
+          "checkpoint_sha256": "bbd34fb8042bfadf23f2c830d4df77da11176629b6267ee329c87e281ddaa2ba"
+        },
+        {
+          "step": 600,
+          "val_mse": 0.006279964465647936,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_whole_filter_step0600_v1.pt",
+          "checkpoint_sha256": "c65f25805c2fea90c090aac7244e563ea5ce816c53b128b879308d6e6cb9b36c"
+        },
+        {
+          "step": 900,
+          "val_mse": 0.006327823270112276,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_whole_filter_step0900_v1.pt",
+          "checkpoint_sha256": "a9b9dbc3179bdd185a7b79f6d14cbe46f0dd5b88bf1c824e09fe2e51bfd87567"
+        },
+        {
+          "step": 1200,
+          "val_mse": 0.006254967767745256,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_whole_filter_step1200_v1.pt",
+          "checkpoint_sha256": "9a61af08c08aef86b32c1482307454df448931577636289b9db3724465f740cc"
+        },
+        {
+          "step": 1500,
+          "val_mse": 0.006287613417953253,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_whole_filter_step1500_v1.pt",
+          "checkpoint_sha256": "fb01db3738ee6a7fc5dc98d9b84471447ab9b413b5a5246657041160f5b73a89"
+        },
+        {
+          "step": 1800,
+          "val_mse": 0.006237708032131195,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_whole_filter_step1800_v1.pt",
+          "checkpoint_sha256": "40adf10aab9f10eb01e8804efb288ce465208a51c4822c0974786e41ff39cb3b"
+        },
+        {
+          "step": 2100,
+          "val_mse": 0.006184633821249008,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_whole_filter_step2100_v1.pt",
+          "checkpoint_sha256": "37a93ec0350f755c0128058f3404ffffc9e10388533aca2dff3f981c3279312e"
+        },
+        {
+          "step": 2400,
+          "val_mse": 0.006110533606261015,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_whole_filter_step2400_v1.pt",
+          "checkpoint_sha256": "dd1d6d9909fd93b35d680accf6cc9eb4236bd2c7dde208405d528da12e13cf6a"
+        },
+        {
+          "step": 2700,
+          "val_mse": 0.006057033780962229,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_whole_filter_step2700_v1.pt",
+          "checkpoint_sha256": "7789c6c29d92502df837496885dd8b739f826862712b3b6b85aa8e35314a79bf"
+        },
+        {
+          "step": 3000,
+          "val_mse": 0.006027563940733671,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_whole_filter_step3000_v1.pt",
+          "checkpoint_sha256": "55a6ea2f2c5fa58071a25b987d3fcb4b9ec00f973a7ca7b8e993d6f506bc3eb7"
+        }
+      ],
+      "selected": {
+        "step": 3000,
+        "val_mse": 0.006027563940733671,
+        "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_whole_filter_step3000_v1.pt",
+        "checkpoint_sha256": "55a6ea2f2c5fa58071a25b987d3fcb4b9ec00f973a7ca7b8e993d6f506bc3eb7"
+      },
+      "persistence_val_mse": 0.006762741599231958,
+      "source_qualified": true,
+      "parameters": 5443,
+      "updates": 3000,
+      "elapsed_seconds": 6.724615499959327,
+      "schedule_sha256": "b67e2387070f882b602f90a28f4f4fcfaa97d79697afe1814979391d66fccde8",
+      "initial_state_sha256": "c69a3ed88fe0b565ab2980190cb62e6bf5d2e9df0a26c539ad80d685f59b377a"
+    },
+    {
+      "seed": 2026862,
+      "architecture": "generator",
+      "arm": "resampled_ic",
+      "trace": [
+        {
+          "step": 0,
+          "val_mse": 0.013249881565570831,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_resampled_ic_step0000_v1.pt",
+          "checkpoint_sha256": "47e1b1290f9b62aa979ec49f3860f6c423e112258e7087ce95515214064f4938"
+        },
+        {
+          "step": 300,
+          "val_mse": 0.012325678952038288,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_resampled_ic_step0300_v1.pt",
+          "checkpoint_sha256": "f6344557e072da2349a8cb7d4e70d6401550350231674772f4d1097904c75c9d"
+        },
+        {
+          "step": 600,
+          "val_mse": 0.012448207475244999,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_resampled_ic_step0600_v1.pt",
+          "checkpoint_sha256": "7e50bd785b2041a94a6f8958785b8b140be392159f174532e9f3895a27a61c15"
+        },
+        {
+          "step": 900,
+          "val_mse": 0.012432265095412731,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_resampled_ic_step0900_v1.pt",
+          "checkpoint_sha256": "b0da562db2c21c213f6a1ea3cdeb424b23702214c2c1bd262632a08d9537446b"
+        },
+        {
+          "step": 1200,
+          "val_mse": 0.012500673532485962,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_resampled_ic_step1200_v1.pt",
+          "checkpoint_sha256": "eb6c768083c8bbddae0d68b086a1cab997d1842ab00bc6d61ff6cb9deb83c299"
+        },
+        {
+          "step": 1500,
+          "val_mse": 0.012091794051229954,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_resampled_ic_step1500_v1.pt",
+          "checkpoint_sha256": "5de09d830ea8d4bea01b93f456e5d1a98596d7503c69d66d5781af6ae4662ee4"
+        },
+        {
+          "step": 1800,
+          "val_mse": 0.011981288902461529,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_resampled_ic_step1800_v1.pt",
+          "checkpoint_sha256": "f00fc4832f43c931c0edda143a78cf453869ec94b762e10510b9c22919a82859"
+        },
+        {
+          "step": 2100,
+          "val_mse": 0.011996365152299404,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_resampled_ic_step2100_v1.pt",
+          "checkpoint_sha256": "0c02e024138edb3c103a4b7a4777a45b66fcf76f354d1d34f00efbaef7f526c5"
+        },
+        {
+          "step": 2400,
+          "val_mse": 0.01151774451136589,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_resampled_ic_step2400_v1.pt",
+          "checkpoint_sha256": "e48a0e19b0b35afe6ee6f75b127c413960c20920b5da95a7c6137c71b300268c"
+        },
+        {
+          "step": 2700,
+          "val_mse": 0.011091426014900208,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_resampled_ic_step2700_v1.pt",
+          "checkpoint_sha256": "3d7ab7726b24417081d4fff4e599e93d1e747e53cf2d58c640c172cb6cd9b3a2"
+        },
+        {
+          "step": 3000,
+          "val_mse": 0.010691364295780659,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_resampled_ic_step3000_v1.pt",
+          "checkpoint_sha256": "47b53c18ac49ecd1c1dba8e3f2d3e497921d47c8a5def19b5580fe066b47160a"
+        }
+      ],
+      "selected": {
+        "step": 3000,
+        "val_mse": 0.010691364295780659,
+        "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_resampled_ic_step3000_v1.pt",
+        "checkpoint_sha256": "47b53c18ac49ecd1c1dba8e3f2d3e497921d47c8a5def19b5580fe066b47160a"
+      },
+      "persistence_val_mse": 0.01226233970373869,
+      "source_qualified": true,
+      "parameters": 5443,
+      "updates": 3000,
+      "elapsed_seconds": 6.837504399998579,
+      "schedule_sha256": "b67e2387070f882b602f90a28f4f4fcfaa97d79697afe1814979391d66fccde8",
+      "initial_state_sha256": "c69a3ed88fe0b565ab2980190cb62e6bf5d2e9df0a26c539ad80d685f59b377a"
+    },
+    {
+      "seed": 2026862,
+      "architecture": "generator",
+      "arm": "prefix_all",
+      "trace": [
+        {
+          "step": 0,
+          "val_mse": 0.023897351697087288,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_prefix_all_step0000_v1.pt",
+          "checkpoint_sha256": "47e1b1290f9b62aa979ec49f3860f6c423e112258e7087ce95515214064f4938"
+        },
+        {
+          "step": 300,
+          "val_mse": 0.019464725628495216,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_prefix_all_step0300_v1.pt",
+          "checkpoint_sha256": "28d5a318ce839970891a6d4ed113fe3c13a5052259b2bf2c59c22edf89b740c9"
+        },
+        {
+          "step": 600,
+          "val_mse": 0.018620135262608528,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_prefix_all_step0600_v1.pt",
+          "checkpoint_sha256": "6892b2a7ee5df5eed87abe83bc22382344d91a9c39fddae1261db1624fd99ed3"
+        },
+        {
+          "step": 900,
+          "val_mse": 0.01878436654806137,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_prefix_all_step0900_v1.pt",
+          "checkpoint_sha256": "a41475de2851ce8ec36fe2aba20611ab3c31e521e2abf7cae51ac32781eac139"
+        },
+        {
+          "step": 1200,
+          "val_mse": 0.018359623849391937,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_prefix_all_step1200_v1.pt",
+          "checkpoint_sha256": "6fbb61a80341439577503ad4ea984a5e06778953c1dbd3381e7d71e5f08ac79a"
+        },
+        {
+          "step": 1500,
+          "val_mse": 0.018343478441238403,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_prefix_all_step1500_v1.pt",
+          "checkpoint_sha256": "41841cdcd83bf127a7649a8ae036d321ad748d6c3900954d88be629285c4c5c2"
+        },
+        {
+          "step": 1800,
+          "val_mse": 0.01731654442846775,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_prefix_all_step1800_v1.pt",
+          "checkpoint_sha256": "64b9b94a728eb78345829edc203322db75f0fd4353eed3c8c1a9d475311a905f"
+        },
+        {
+          "step": 2100,
+          "val_mse": 0.016360653564333916,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_prefix_all_step2100_v1.pt",
+          "checkpoint_sha256": "8bad5cc4c3f477bf5371235ad16b8065fef7220389c99cf10c02a1d636275edb"
+        },
+        {
+          "step": 2400,
+          "val_mse": 0.015592253766953945,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_prefix_all_step2400_v1.pt",
+          "checkpoint_sha256": "cd2fb2b0fb53e0e4400c8e1f40bdbbb8b05729995520ac85464ea7ced9b65908"
+        },
+        {
+          "step": 2700,
+          "val_mse": 0.01493240799754858,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_prefix_all_step2700_v1.pt",
+          "checkpoint_sha256": "7de7fd7540424e4035e82b998d5951264c3912e7d63b82731412ffaaa73855f3"
+        },
+        {
+          "step": 3000,
+          "val_mse": 0.013693943619728088,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_prefix_all_step3000_v1.pt",
+          "checkpoint_sha256": "e362d39a1b87b3e9e40363f79363dcc8977327540a81a9c15a232e6d88d614af"
+        }
+      ],
+      "selected": {
+        "step": 3000,
+        "val_mse": 0.013693943619728088,
+        "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_generator_prefix_all_step3000_v1.pt",
+        "checkpoint_sha256": "e362d39a1b87b3e9e40363f79363dcc8977327540a81a9c15a232e6d88d614af"
+      },
+      "persistence_val_mse": 0.022685358300805092,
+      "source_qualified": true,
+      "parameters": 5443,
+      "updates": 3000,
+      "elapsed_seconds": 6.750413300003856,
+      "schedule_sha256": "b67e2387070f882b602f90a28f4f4fcfaa97d79697afe1814979391d66fccde8",
+      "initial_state_sha256": "c69a3ed88fe0b565ab2980190cb62e6bf5d2e9df0a26c539ad80d685f59b377a"
+    },
+    {
+      "seed": 2026862,
+      "architecture": "direct",
+      "arm": "whole_filter",
+      "trace": [
+        {
+          "step": 0,
+          "val_mse": 0.2732468843460083,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_whole_filter_step0000_v1.pt",
+          "checkpoint_sha256": "9c9adae563bb040f9a011d84614af678389d1567c809627b8f609110596ac5b6"
+        },
+        {
+          "step": 300,
+          "val_mse": 0.012565861456096172,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_whole_filter_step0300_v1.pt",
+          "checkpoint_sha256": "8cde7b8769841c760749c251c67752da8680eb2f571d7f97c21032b8d03c209f"
+        },
+        {
+          "step": 600,
+          "val_mse": 0.010373919270932674,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_whole_filter_step0600_v1.pt",
+          "checkpoint_sha256": "2b5fa2ee173962f4a67ce71f655e40e9ab9bf82871da0333730b2ac5371b994d"
+        },
+        {
+          "step": 900,
+          "val_mse": 0.0070745497941970825,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_whole_filter_step0900_v1.pt",
+          "checkpoint_sha256": "8a7cc52332067ad9bb7404231a48c90a14b4c473d32ec824c6f6d52ae3a459ad"
+        },
+        {
+          "step": 1200,
+          "val_mse": 0.0030906025785952806,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_whole_filter_step1200_v1.pt",
+          "checkpoint_sha256": "a516de180ebb34b5836536ad6bcd5744c481b6ced6630d668d5ab181329a0c84"
+        },
+        {
+          "step": 1500,
+          "val_mse": 0.001417115912772715,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_whole_filter_step1500_v1.pt",
+          "checkpoint_sha256": "ad06a8836d08b6d1c58e57570fbd364459f3f0470556536e1b8ae717db63ff2b"
+        },
+        {
+          "step": 1800,
+          "val_mse": 0.001000468386337161,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_whole_filter_step1800_v1.pt",
+          "checkpoint_sha256": "68bf8b645eba26430b604bcb999638b49088fbb0ccb56c5fdfdeff37dd474537"
+        },
+        {
+          "step": 2100,
+          "val_mse": 0.0008913140627555549,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_whole_filter_step2100_v1.pt",
+          "checkpoint_sha256": "4cbc0e770c626b38a4ca10b3f5eed9c085a83a40ca5c77ff09975e919c525185"
+        },
+        {
+          "step": 2400,
+          "val_mse": 0.0008548269979655743,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_whole_filter_step2400_v1.pt",
+          "checkpoint_sha256": "80b048ece7c615951393174d75715c2b879a7094599df1bbb32a5c7115ab543f"
+        },
+        {
+          "step": 2700,
+          "val_mse": 0.0008238624432124197,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_whole_filter_step2700_v1.pt",
+          "checkpoint_sha256": "46b8e0bce74c5df782557f2667cc6d3ff87b53d4e91a02b25ae0ed5c9f43535b"
+        },
+        {
+          "step": 3000,
+          "val_mse": 0.0007904849480837584,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_whole_filter_step3000_v1.pt",
+          "checkpoint_sha256": "3a3ace15b3da0e3943d3a6cf886a6b56d3b38ce39427a17566d6b2adaad1d21a"
+        }
+      ],
+      "selected": {
+        "step": 3000,
+        "val_mse": 0.0007904849480837584,
+        "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_whole_filter_step3000_v1.pt",
+        "checkpoint_sha256": "3a3ace15b3da0e3943d3a6cf886a6b56d3b38ce39427a17566d6b2adaad1d21a"
+      },
+      "persistence_val_mse": 0.006762741599231958,
+      "source_qualified": true,
+      "parameters": 7328,
+      "updates": 3000,
+      "elapsed_seconds": 3.2358012999757193,
+      "schedule_sha256": "b67e2387070f882b602f90a28f4f4fcfaa97d79697afe1814979391d66fccde8",
+      "initial_state_sha256": "22516b6e8935df7c21490e78bd2e98a04f2c25740356ed1b06393229717ac817"
+    },
+    {
+      "seed": 2026862,
+      "architecture": "direct",
+      "arm": "resampled_ic",
+      "trace": [
+        {
+          "step": 0,
+          "val_mse": 0.3350062370300293,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_resampled_ic_step0000_v1.pt",
+          "checkpoint_sha256": "9c9adae563bb040f9a011d84614af678389d1567c809627b8f609110596ac5b6"
+        },
+        {
+          "step": 300,
+          "val_mse": 0.023444533348083496,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_resampled_ic_step0300_v1.pt",
+          "checkpoint_sha256": "4bc0d5671d79e5ca124070752bab34e410efa2c25bb3116cf011689f057799ee"
+        },
+        {
+          "step": 600,
+          "val_mse": 0.017628641799092293,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_resampled_ic_step0600_v1.pt",
+          "checkpoint_sha256": "38536296cd081004c33712a1f6a1e3238aba2045cb5cca04cae03069a0d847db"
+        },
+        {
+          "step": 900,
+          "val_mse": 0.00862102024257183,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_resampled_ic_step0900_v1.pt",
+          "checkpoint_sha256": "2d06f5b1a7af7ac84a7a54098919cf5fe4356f2c3e169b606f289af5f7c74620"
+        },
+        {
+          "step": 1200,
+          "val_mse": 0.0030502777080982924,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_resampled_ic_step1200_v1.pt",
+          "checkpoint_sha256": "21a623cb5561951a5021488288ae081242abe6c5f2fcc6a75a01251df753b7c9"
+        },
+        {
+          "step": 1500,
+          "val_mse": 0.0020343188662081957,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_resampled_ic_step1500_v1.pt",
+          "checkpoint_sha256": "d01c464a91d6051e985811aa4923ccb7ed28a7276356046eeb30cb6faf559530"
+        },
+        {
+          "step": 1800,
+          "val_mse": 0.00165598897729069,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_resampled_ic_step1800_v1.pt",
+          "checkpoint_sha256": "2f1be43a90bf2996935b326bebe21d6591fca9c01d04295522d4c8da6c4f14bc"
+        },
+        {
+          "step": 2100,
+          "val_mse": 0.0016333338571712375,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_resampled_ic_step2100_v1.pt",
+          "checkpoint_sha256": "14afd8b50c56677d5ab7be67871f4d986f62a7dcdccc543078242362ae1359a8"
+        },
+        {
+          "step": 2400,
+          "val_mse": 0.0015054669929668307,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_resampled_ic_step2400_v1.pt",
+          "checkpoint_sha256": "ddbcdd5b8fe6a9a4a94e1731d9b16640955401f9cdaf20c7c05636731e005b64"
+        },
+        {
+          "step": 2700,
+          "val_mse": 0.001446479931473732,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_resampled_ic_step2700_v1.pt",
+          "checkpoint_sha256": "5fe89b5661ce072c08f2401cc5f24dad062eb0b80b99d354eac4eb28fe2393be"
+        },
+        {
+          "step": 3000,
+          "val_mse": 0.0014463450061157346,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_resampled_ic_step3000_v1.pt",
+          "checkpoint_sha256": "3d47b32d05ef7d8d88944f2db5f912b2ac36787d29b3537e9e12a3b63d7a7b4d"
+        }
+      ],
+      "selected": {
+        "step": 3000,
+        "val_mse": 0.0014463450061157346,
+        "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_resampled_ic_step3000_v1.pt",
+        "checkpoint_sha256": "3d47b32d05ef7d8d88944f2db5f912b2ac36787d29b3537e9e12a3b63d7a7b4d"
+      },
+      "persistence_val_mse": 0.01226233970373869,
+      "source_qualified": true,
+      "parameters": 7328,
+      "updates": 3000,
+      "elapsed_seconds": 3.2929079000023194,
+      "schedule_sha256": "b67e2387070f882b602f90a28f4f4fcfaa97d79697afe1814979391d66fccde8",
+      "initial_state_sha256": "22516b6e8935df7c21490e78bd2e98a04f2c25740356ed1b06393229717ac817"
+    },
+    {
+      "seed": 2026862,
+      "architecture": "direct",
+      "arm": "prefix_all",
+      "trace": [
+        {
+          "step": 0,
+          "val_mse": 0.4541875123977661,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_prefix_all_step0000_v1.pt",
+          "checkpoint_sha256": "9c9adae563bb040f9a011d84614af678389d1567c809627b8f609110596ac5b6"
+        },
+        {
+          "step": 300,
+          "val_mse": 0.041000086814165115,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_prefix_all_step0300_v1.pt",
+          "checkpoint_sha256": "2ee7ddffa5a42c36085603905c9992fff59b3c114eddc22ea5df1ec6460901ec"
+        },
+        {
+          "step": 600,
+          "val_mse": 0.027716226875782013,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_prefix_all_step0600_v1.pt",
+          "checkpoint_sha256": "d65e93cf49adb31932eadb74a1a1b6a87d27a68e39f2990f8b75f615d2e52891"
+        },
+        {
+          "step": 900,
+          "val_mse": 0.010193973779678345,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_prefix_all_step0900_v1.pt",
+          "checkpoint_sha256": "aaeaed10b1906418cf74ddc251a5fe432ba5d7e848f8861b651148aad42aed39"
+        },
+        {
+          "step": 1200,
+          "val_mse": 0.004101803060621023,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_prefix_all_step1200_v1.pt",
+          "checkpoint_sha256": "135a98fa1e43f214c59727d911088f6c0f79ef12e7ddb9c3b268607036d4ff65"
+        },
+        {
+          "step": 1500,
+          "val_mse": 0.0029201069846749306,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_prefix_all_step1500_v1.pt",
+          "checkpoint_sha256": "37603e07186433377376ed0a93fe3d70bd1cca169241fc4e9853892f7b8d07d4"
+        },
+        {
+          "step": 1800,
+          "val_mse": 0.002547723241150379,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_prefix_all_step1800_v1.pt",
+          "checkpoint_sha256": "8028a1c4259be75b9a95a9496265d5bccf1b20633cddf564a5ca02ce3a70c8a6"
+        },
+        {
+          "step": 2100,
+          "val_mse": 0.002406425541266799,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_prefix_all_step2100_v1.pt",
+          "checkpoint_sha256": "cf25ff4f904991ac3870a212f495b3680d4b4c3c2a20c38148c4a22c70258824"
+        },
+        {
+          "step": 2400,
+          "val_mse": 0.002359724836423993,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_prefix_all_step2400_v1.pt",
+          "checkpoint_sha256": "3b1c77b10623b8fca5fcaecc36c38fd57b985762d752592c4e9c67252a4d988a"
+        },
+        {
+          "step": 2700,
+          "val_mse": 0.002297232858836651,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_prefix_all_step2700_v1.pt",
+          "checkpoint_sha256": "0197aeab2d91857efac97a81f71f0c00e3166f9cc12b64dc82fe5157dfe8ab3e"
+        },
+        {
+          "step": 3000,
+          "val_mse": 0.0022441416513174772,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_prefix_all_step3000_v1.pt",
+          "checkpoint_sha256": "d017514eaf69bb0d52aebf125a7fd5d66873e207a2b93135b7f6742c860eb4ac"
+        }
+      ],
+      "selected": {
+        "step": 3000,
+        "val_mse": 0.0022441416513174772,
+        "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026862_direct_prefix_all_step3000_v1.pt",
+        "checkpoint_sha256": "d017514eaf69bb0d52aebf125a7fd5d66873e207a2b93135b7f6742c860eb4ac"
+      },
+      "persistence_val_mse": 0.022685358300805092,
+      "source_qualified": true,
+      "parameters": 7328,
+      "updates": 3000,
+      "elapsed_seconds": 3.1542364999768324,
+      "schedule_sha256": "b67e2387070f882b602f90a28f4f4fcfaa97d79697afe1814979391d66fccde8",
+      "initial_state_sha256": "22516b6e8935df7c21490e78bd2e98a04f2c25740356ed1b06393229717ac817"
+    },
+    {
+      "seed": 2026863,
+      "architecture": "generator",
+      "arm": "whole_filter",
+      "trace": [
+        {
+          "step": 0,
+          "val_mse": 0.009205615147948265,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_whole_filter_step0000_v1.pt",
+          "checkpoint_sha256": "db49270c5ff8f2fc99afd0146c01f3fbd13a9fb38f939233f01bad7f22641dad"
+        },
+        {
+          "step": 300,
+          "val_mse": 0.006196077913045883,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_whole_filter_step0300_v1.pt",
+          "checkpoint_sha256": "b8f058401c4c24ffcb2ff7143eb9bf36644972c0fdf2783e5baa41549ae8e132"
+        },
+        {
+          "step": 600,
+          "val_mse": 0.006181266158819199,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_whole_filter_step0600_v1.pt",
+          "checkpoint_sha256": "9faf9670479d24ffc2944e5f865b08d0c3aa682e1991bd877f5db3b1355a8fc5"
+        },
+        {
+          "step": 900,
+          "val_mse": 0.006149596069008112,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_whole_filter_step0900_v1.pt",
+          "checkpoint_sha256": "f962a59757a83a98c4ee5d9e98b8e85894751f77652727befc5ee0aefcade80b"
+        },
+        {
+          "step": 1200,
+          "val_mse": 0.006298138294368982,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_whole_filter_step1200_v1.pt",
+          "checkpoint_sha256": "61046f8d6bbb93c45d5c483765f30c812413b56a1afd400fe3560b10f4881d1b"
+        },
+        {
+          "step": 1500,
+          "val_mse": 0.006216473877429962,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_whole_filter_step1500_v1.pt",
+          "checkpoint_sha256": "cbf2fbac803e18c8220f5f10fc2b29bea2e21ca6fb4373a77cbe357e95ce1a7c"
+        },
+        {
+          "step": 1800,
+          "val_mse": 0.006176950875669718,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_whole_filter_step1800_v1.pt",
+          "checkpoint_sha256": "6f82af45b369f7278dfd4eb9fcd2787a14f4e06359162d8f134c14f219b896c9"
+        },
+        {
+          "step": 2100,
+          "val_mse": 0.006155554670840502,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_whole_filter_step2100_v1.pt",
+          "checkpoint_sha256": "49d509295a7ac16eebfcb70eb8fd854f1e5381fae0c67f14c2c0a7882fd14aea"
+        },
+        {
+          "step": 2400,
+          "val_mse": 0.0062179770320653915,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_whole_filter_step2400_v1.pt",
+          "checkpoint_sha256": "4628f1e35570b7bf0cc0ba925bb80e071a658ae600fe8894d15a4d5d92527411"
+        },
+        {
+          "step": 2700,
+          "val_mse": 0.006208060774952173,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_whole_filter_step2700_v1.pt",
+          "checkpoint_sha256": "7bbf448deacd7ac7aae2d6c14cfdad8b44e373a0bfb522d4aa02f7fc65a48ba1"
+        },
+        {
+          "step": 3000,
+          "val_mse": 0.006317276507616043,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_whole_filter_step3000_v1.pt",
+          "checkpoint_sha256": "1c8bb31f2c7d8776b4e5ff73e60f2afaf15d6fcd32cea6ad2a22fb455ff36bcd"
+        }
+      ],
+      "selected": {
+        "step": 900,
+        "val_mse": 0.006149596069008112,
+        "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_whole_filter_step0900_v1.pt",
+        "checkpoint_sha256": "f962a59757a83a98c4ee5d9e98b8e85894751f77652727befc5ee0aefcade80b"
+      },
+      "persistence_val_mse": 0.006508661899715662,
+      "source_qualified": true,
+      "parameters": 5443,
+      "updates": 3000,
+      "elapsed_seconds": 6.759322699974291,
+      "schedule_sha256": "ce1cd7daf043d609de8cfb0a1b7e8fa00437dfdc76bedadd3d1ed680b9f5a28a",
+      "initial_state_sha256": "6820457481b26f4cbc2b0ed2aa9cdbd48d0ae37af5c4aff7535193e43f6b4da8"
+    },
+    {
+      "seed": 2026863,
+      "architecture": "generator",
+      "arm": "resampled_ic",
+      "trace": [
+        {
+          "step": 0,
+          "val_mse": 0.015157703310251236,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_resampled_ic_step0000_v1.pt",
+          "checkpoint_sha256": "db49270c5ff8f2fc99afd0146c01f3fbd13a9fb38f939233f01bad7f22641dad"
+        },
+        {
+          "step": 300,
+          "val_mse": 0.013243000954389572,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_resampled_ic_step0300_v1.pt",
+          "checkpoint_sha256": "4902f7b066e965c4911ce44782f63b62a90b50efe437e923d7249770b84c953d"
+        },
+        {
+          "step": 600,
+          "val_mse": 0.013400427997112274,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_resampled_ic_step0600_v1.pt",
+          "checkpoint_sha256": "024137a6d5a550d804abd12b5e5bbb9cbd53bf22645485ba77abf92eb133899c"
+        },
+        {
+          "step": 900,
+          "val_mse": 0.013219133019447327,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_resampled_ic_step0900_v1.pt",
+          "checkpoint_sha256": "01ec1ba2b6cf13a903285e321558262537cefe2e0db8245cae14a45a8dc19439"
+        },
+        {
+          "step": 1200,
+          "val_mse": 0.013466225005686283,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_resampled_ic_step1200_v1.pt",
+          "checkpoint_sha256": "8dbdbb3e14dfb64d1c1ca1d9dcc0318c466ca4db9c424708cc6e964e5429185e"
+        },
+        {
+          "step": 1500,
+          "val_mse": 0.013182911090552807,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_resampled_ic_step1500_v1.pt",
+          "checkpoint_sha256": "1a50dde0b50ee8b088063ef22a52d607bd1d595cc390d410aaf971875f59f4cc"
+        },
+        {
+          "step": 1800,
+          "val_mse": 0.01316127646714449,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_resampled_ic_step1800_v1.pt",
+          "checkpoint_sha256": "87fb0ecaa6c9ed733cf0cef3a724d4619e21665e90a360cf5a820f9484ab8f0a"
+        },
+        {
+          "step": 2100,
+          "val_mse": 0.012917958199977875,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_resampled_ic_step2100_v1.pt",
+          "checkpoint_sha256": "22f42ee25aea980984c86af5149a44f2762051c45cfe0074dc367c463e0621df"
+        },
+        {
+          "step": 2400,
+          "val_mse": 0.012694548815488815,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_resampled_ic_step2400_v1.pt",
+          "checkpoint_sha256": "fa8ac279a1ae8e6a075e9b9b594a1a1056f68ab7a094664a8250b104d46512ed"
+        },
+        {
+          "step": 2700,
+          "val_mse": 0.012427647598087788,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_resampled_ic_step2700_v1.pt",
+          "checkpoint_sha256": "f7709e2244683ff3c1b6c252c0ae8087289be712dc7c56577c5cdaf6d3d30407"
+        },
+        {
+          "step": 3000,
+          "val_mse": 0.011731022037565708,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_resampled_ic_step3000_v1.pt",
+          "checkpoint_sha256": "4d0db5402a82d45418c9ba36b0003bbf507fbc104246b1388d9c9681748c26c8"
+        }
+      ],
+      "selected": {
+        "step": 3000,
+        "val_mse": 0.011731022037565708,
+        "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_resampled_ic_step3000_v1.pt",
+        "checkpoint_sha256": "4d0db5402a82d45418c9ba36b0003bbf507fbc104246b1388d9c9681748c26c8"
+      },
+      "persistence_val_mse": 0.012761213816702366,
+      "source_qualified": true,
+      "parameters": 5443,
+      "updates": 3000,
+      "elapsed_seconds": 6.842399100016337,
+      "schedule_sha256": "ce1cd7daf043d609de8cfb0a1b7e8fa00437dfdc76bedadd3d1ed680b9f5a28a",
+      "initial_state_sha256": "6820457481b26f4cbc2b0ed2aa9cdbd48d0ae37af5c4aff7535193e43f6b4da8"
+    },
+    {
+      "seed": 2026863,
+      "architecture": "generator",
+      "arm": "prefix_all",
+      "trace": [
+        {
+          "step": 0,
+          "val_mse": 0.026009807363152504,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_prefix_all_step0000_v1.pt",
+          "checkpoint_sha256": "db49270c5ff8f2fc99afd0146c01f3fbd13a9fb38f939233f01bad7f22641dad"
+        },
+        {
+          "step": 300,
+          "val_mse": 0.019310131669044495,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_prefix_all_step0300_v1.pt",
+          "checkpoint_sha256": "0daf9ca88ef962e15ab9280e5bf4c0ed3e2c1cf892130d6b9f887f61f5e3eafa"
+        },
+        {
+          "step": 600,
+          "val_mse": 0.019826559349894524,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_prefix_all_step0600_v1.pt",
+          "checkpoint_sha256": "802037ee85d98b9a923d533d12974a1796623612f3f55c2d75529c7764e7c08a"
+        },
+        {
+          "step": 900,
+          "val_mse": 0.019615959376096725,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_prefix_all_step0900_v1.pt",
+          "checkpoint_sha256": "bb0a1c297dc1e9cd0feac75901a55c5d3de11a0fbb32231ce25078430b9a97d9"
+        },
+        {
+          "step": 1200,
+          "val_mse": 0.019098252058029175,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_prefix_all_step1200_v1.pt",
+          "checkpoint_sha256": "676bfe25ae7808fa31e36282570000685791d254644795b2240bc81d39451540"
+        },
+        {
+          "step": 1500,
+          "val_mse": 0.01874621957540512,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_prefix_all_step1500_v1.pt",
+          "checkpoint_sha256": "aae0d357a60dd09a5a42e927116569208eadd1fcbadef9a2ebab7520941c705a"
+        },
+        {
+          "step": 1800,
+          "val_mse": 0.01867787539958954,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_prefix_all_step1800_v1.pt",
+          "checkpoint_sha256": "a93c402b33e126c2718cdb8f7e369f216fdf14403c92f80c4e324c2fa22357e2"
+        },
+        {
+          "step": 2100,
+          "val_mse": 0.017959946766495705,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_prefix_all_step2100_v1.pt",
+          "checkpoint_sha256": "0f7371993bc161fa724fd1a2418af52d1841802b99c9db0df273185c011d3614"
+        },
+        {
+          "step": 2400,
+          "val_mse": 0.017900733277201653,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_prefix_all_step2400_v1.pt",
+          "checkpoint_sha256": "e595108b7d7130d39099846099fa231194db28540a4dafbfb5493a8b173613d1"
+        },
+        {
+          "step": 2700,
+          "val_mse": 0.01711505465209484,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_prefix_all_step2700_v1.pt",
+          "checkpoint_sha256": "4dc70c9015817288c56fb2bd6eec432b60125bb8579c04b72d9f3aa649e4d4af"
+        },
+        {
+          "step": 3000,
+          "val_mse": 0.016168924048542976,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_prefix_all_step3000_v1.pt",
+          "checkpoint_sha256": "7619f8a4c326912b20cf04fb3e530a30f5f5e17a6b43706688640328523d4fe6"
+        }
+      ],
+      "selected": {
+        "step": 3000,
+        "val_mse": 0.016168924048542976,
+        "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_generator_prefix_all_step3000_v1.pt",
+        "checkpoint_sha256": "7619f8a4c326912b20cf04fb3e530a30f5f5e17a6b43706688640328523d4fe6"
+      },
+      "persistence_val_mse": 0.02460247278213501,
+      "source_qualified": true,
+      "parameters": 5443,
+      "updates": 3000,
+      "elapsed_seconds": 5.437212399963755,
+      "schedule_sha256": "ce1cd7daf043d609de8cfb0a1b7e8fa00437dfdc76bedadd3d1ed680b9f5a28a",
+      "initial_state_sha256": "6820457481b26f4cbc2b0ed2aa9cdbd48d0ae37af5c4aff7535193e43f6b4da8"
+    },
+    {
+      "seed": 2026863,
+      "architecture": "direct",
+      "arm": "whole_filter",
+      "trace": [
+        {
+          "step": 0,
+          "val_mse": 0.28046390414237976,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_whole_filter_step0000_v1.pt",
+          "checkpoint_sha256": "bc92f10fd760f214720c836950af28c16c24206c2ed6f46a8cd959b9549c7acc"
+        },
+        {
+          "step": 300,
+          "val_mse": 0.012415665201842785,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_whole_filter_step0300_v1.pt",
+          "checkpoint_sha256": "30cad69e4251acc66ecc47776f5632115b7c6d5c1cfdc0f54be22cc7a5893597"
+        },
+        {
+          "step": 600,
+          "val_mse": 0.009824765846133232,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_whole_filter_step0600_v1.pt",
+          "checkpoint_sha256": "3c347f3cd4b2f99ad31d8e68e797648d9416df82795e7cbf07de393f798f4e35"
+        },
+        {
+          "step": 900,
+          "val_mse": 0.006180782336741686,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_whole_filter_step0900_v1.pt",
+          "checkpoint_sha256": "cb2da16306021d2cfce10d16b32773db2f788802c0df0393bf08cb4c3fc5b753"
+        },
+        {
+          "step": 1200,
+          "val_mse": 0.002404335420578718,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_whole_filter_step1200_v1.pt",
+          "checkpoint_sha256": "4e6fd85c72c63e4ac2bba3638ed92e696e0b74b42e7a4bc938c28419d6aa7893"
+        },
+        {
+          "step": 1500,
+          "val_mse": 0.00110959995072335,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_whole_filter_step1500_v1.pt",
+          "checkpoint_sha256": "81ef11ce4c5102540d0425348b9719c3ddfd8bf5e8b77c9720a3f146e93f128b"
+        },
+        {
+          "step": 1800,
+          "val_mse": 0.0008665639907121658,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_whole_filter_step1800_v1.pt",
+          "checkpoint_sha256": "eb16bc1712adc6f1e87746703840fb9744ff0c8ff6831d7ab0041d98a7ed37b6"
+        },
+        {
+          "step": 2100,
+          "val_mse": 0.0007982917595654726,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_whole_filter_step2100_v1.pt",
+          "checkpoint_sha256": "8c9bf25fefd4a00e5035c45e56039990979cd487de9eabec5c0480e3f229facd"
+        },
+        {
+          "step": 2400,
+          "val_mse": 0.000757867528591305,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_whole_filter_step2400_v1.pt",
+          "checkpoint_sha256": "70ce013a023ba887876e9ab180dfd7f37a182315cd1f7f7dce890392c0d2563c"
+        },
+        {
+          "step": 2700,
+          "val_mse": 0.0007557796197943389,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_whole_filter_step2700_v1.pt",
+          "checkpoint_sha256": "06c60314a98ec96c5736a22955e5b8d745d5ee7470c59b5447b10386045d050c"
+        },
+        {
+          "step": 3000,
+          "val_mse": 0.0007501269574277103,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_whole_filter_step3000_v1.pt",
+          "checkpoint_sha256": "3c1ea4548ae3593ed52fade497c49adfb3e30ad5c6b714a9995d7396cc2a11ee"
+        }
+      ],
+      "selected": {
+        "step": 3000,
+        "val_mse": 0.0007501269574277103,
+        "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_whole_filter_step3000_v1.pt",
+        "checkpoint_sha256": "3c1ea4548ae3593ed52fade497c49adfb3e30ad5c6b714a9995d7396cc2a11ee"
+      },
+      "persistence_val_mse": 0.006508661899715662,
+      "source_qualified": true,
+      "parameters": 7328,
+      "updates": 3000,
+      "elapsed_seconds": 2.5849471000256017,
+      "schedule_sha256": "ce1cd7daf043d609de8cfb0a1b7e8fa00437dfdc76bedadd3d1ed680b9f5a28a",
+      "initial_state_sha256": "b03800f68ce697f140845c7b86b2a5e997fc3d8a7de14f5403172d43d6ff1c16"
+    },
+    {
+      "seed": 2026863,
+      "architecture": "direct",
+      "arm": "resampled_ic",
+      "trace": [
+        {
+          "step": 0,
+          "val_mse": 0.35751423239707947,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_resampled_ic_step0000_v1.pt",
+          "checkpoint_sha256": "bc92f10fd760f214720c836950af28c16c24206c2ed6f46a8cd959b9549c7acc"
+        },
+        {
+          "step": 300,
+          "val_mse": 0.02415323257446289,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_resampled_ic_step0300_v1.pt",
+          "checkpoint_sha256": "4f7506ae4238c27e59e1dbfe0c27d755ce7645caffcbfac66d4cebd2a494bf24"
+        },
+        {
+          "step": 600,
+          "val_mse": 0.01781286858022213,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_resampled_ic_step0600_v1.pt",
+          "checkpoint_sha256": "c3a58964fcf9c6dda707bc841c00e252c3e71aedd69fd45a3702d8be94ee1225"
+        },
+        {
+          "step": 900,
+          "val_mse": 0.008014745078980923,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_resampled_ic_step0900_v1.pt",
+          "checkpoint_sha256": "e518a7b61438af745db6117fce833d709a9984c0af0c1ed746de2d64ab29884f"
+        },
+        {
+          "step": 1200,
+          "val_mse": 0.0026171610224992037,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_resampled_ic_step1200_v1.pt",
+          "checkpoint_sha256": "4f92a916a22aca872656c75155e316174c82542cd9be299abe56116ebc839c0b"
+        },
+        {
+          "step": 1500,
+          "val_mse": 0.0018259341595694423,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_resampled_ic_step1500_v1.pt",
+          "checkpoint_sha256": "a1fa088c73f0f0c9309450d0f627863b15784821308eee13fbaf955281c7fdbb"
+        },
+        {
+          "step": 1800,
+          "val_mse": 0.001668875920586288,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_resampled_ic_step1800_v1.pt",
+          "checkpoint_sha256": "96c2f9a8d3b5723ad8ef2bbe338fa4a41303a83b614e849a4605cc26e87269df"
+        },
+        {
+          "step": 2100,
+          "val_mse": 0.0015263353707268834,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_resampled_ic_step2100_v1.pt",
+          "checkpoint_sha256": "e3fd58cc73585bb837f3edc556213a0a3eae2c961c1eedccb455419afc914408"
+        },
+        {
+          "step": 2400,
+          "val_mse": 0.0014730977127328515,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_resampled_ic_step2400_v1.pt",
+          "checkpoint_sha256": "31765ecb1570afb26b629b629604dab51e1befceb9e7e728769f1d37e243e87d"
+        },
+        {
+          "step": 2700,
+          "val_mse": 0.0014503615675494075,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_resampled_ic_step2700_v1.pt",
+          "checkpoint_sha256": "15744ac42322465d1e0d0543b8d113dc7222bd1358de9744b91dd2931cd4e342"
+        },
+        {
+          "step": 3000,
+          "val_mse": 0.0014069104800000787,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_resampled_ic_step3000_v1.pt",
+          "checkpoint_sha256": "4665c3a6f9c1ce5670316414e5a4db23b99e24e71db350859770ca13db0808c1"
+        }
+      ],
+      "selected": {
+        "step": 3000,
+        "val_mse": 0.0014069104800000787,
+        "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_resampled_ic_step3000_v1.pt",
+        "checkpoint_sha256": "4665c3a6f9c1ce5670316414e5a4db23b99e24e71db350859770ca13db0808c1"
+      },
+      "persistence_val_mse": 0.012761213816702366,
+      "source_qualified": true,
+      "parameters": 7328,
+      "updates": 3000,
+      "elapsed_seconds": 2.4062020999845117,
+      "schedule_sha256": "ce1cd7daf043d609de8cfb0a1b7e8fa00437dfdc76bedadd3d1ed680b9f5a28a",
+      "initial_state_sha256": "b03800f68ce697f140845c7b86b2a5e997fc3d8a7de14f5403172d43d6ff1c16"
+    },
+    {
+      "seed": 2026863,
+      "architecture": "direct",
+      "arm": "prefix_all",
+      "trace": [
+        {
+          "step": 0,
+          "val_mse": 0.4932985305786133,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_prefix_all_step0000_v1.pt",
+          "checkpoint_sha256": "bc92f10fd760f214720c836950af28c16c24206c2ed6f46a8cd959b9549c7acc"
+        },
+        {
+          "step": 300,
+          "val_mse": 0.04057002067565918,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_prefix_all_step0300_v1.pt",
+          "checkpoint_sha256": "c4af4de05b59843a49f4cdfaa4f176b2f183dd289ec8e92deeb4292825d80774"
+        },
+        {
+          "step": 600,
+          "val_mse": 0.02747310698032379,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_prefix_all_step0600_v1.pt",
+          "checkpoint_sha256": "3b8e359c253a863b2f28b290c459bd3a02634b49a20e90c2785a8dafaf80d84b"
+        },
+        {
+          "step": 900,
+          "val_mse": 0.009295356459915638,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_prefix_all_step0900_v1.pt",
+          "checkpoint_sha256": "df1b6b716626b55342cf3684e78e1b2d7ed00279da678c0ba261a259deef7fb2"
+        },
+        {
+          "step": 1200,
+          "val_mse": 0.003729494521394372,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_prefix_all_step1200_v1.pt",
+          "checkpoint_sha256": "3edcf179236ca16c0b3af193f84c269bac53b3f9eee599beb301d15ead299b15"
+        },
+        {
+          "step": 1500,
+          "val_mse": 0.002810065634548664,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_prefix_all_step1500_v1.pt",
+          "checkpoint_sha256": "58b349d6644a323ce0a1ec6ea30badb8f9cdea1b511d915ac83cfb7d61d88eb1"
+        },
+        {
+          "step": 1800,
+          "val_mse": 0.0024650082923471928,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_prefix_all_step1800_v1.pt",
+          "checkpoint_sha256": "e5a9538246aa126f60054810e43f5f5b7783a7f488035696b52f47f940467285"
+        },
+        {
+          "step": 2100,
+          "val_mse": 0.002348321722820401,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_prefix_all_step2100_v1.pt",
+          "checkpoint_sha256": "3cbe58959deb1a85d2716688c5af72474cd2e9144ba18dcc645f94d5ddb19774"
+        },
+        {
+          "step": 2400,
+          "val_mse": 0.002266684314236045,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_prefix_all_step2400_v1.pt",
+          "checkpoint_sha256": "6875a7d53046abf7b0b84593493d251bb3a60a186c9957c7f1c6c595a8a02499"
+        },
+        {
+          "step": 2700,
+          "val_mse": 0.002153937006369233,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_prefix_all_step2700_v1.pt",
+          "checkpoint_sha256": "7cb5244f5f32c77be3428be6f1d5fd4329214d449a286cf2670838042108f1a0"
+        },
+        {
+          "step": 3000,
+          "val_mse": 0.0020896289497613907,
+          "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_prefix_all_step3000_v1.pt",
+          "checkpoint_sha256": "8646dbab5bf233880e97dc6d25b40dc2f238825246a898d23bd5ac7a162299ee"
+        }
+      ],
+      "selected": {
+        "step": 3000,
+        "val_mse": 0.0020896289497613907,
+        "checkpoint_path": "server-checkpoint:cycle86/paired_v1/2026863_direct_prefix_all_step3000_v1.pt",
+        "checkpoint_sha256": "8646dbab5bf233880e97dc6d25b40dc2f238825246a898d23bd5ac7a162299ee"
+      },
+      "persistence_val_mse": 0.02460247278213501,
+      "source_qualified": true,
+      "parameters": 7328,
+      "updates": 3000,
+      "elapsed_seconds": 3.1805949000408873,
+      "schedule_sha256": "ce1cd7daf043d609de8cfb0a1b7e8fa00437dfdc76bedadd3d1ed680b9f5a28a",
+      "initial_state_sha256": "b03800f68ce697f140845c7b86b2a5e997fc3d8a7de14f5403172d43d6ff1c16"
+    }
+  ],
+  "sources": [
+    {
+      "seed": 2026861,
+      "path": "server-artifact:cycle86/paired_v1/source_2026861_v1.npz",
+      "sha256": "9f9f590697e86a2aed6f6e8e7ee1aa4d9fd7e331494eb4f255e4d34bdc30839b"
+    },
+    {
+      "seed": 2026862,
+      "path": "server-artifact:cycle86/paired_v1/source_2026862_v1.npz",
+      "sha256": "6f8e933e49bdf678c965857d5fa8d8b72ed802c9071f9d40a73b1f5617ead2d7"
+    },
+    {
+      "seed": 2026863,
+      "path": "server-artifact:cycle86/paired_v1/source_2026863_v1.npz",
+      "sha256": "dea912909d2680de96992580192ad711f0971ffe42cea9aa6d015d6bc94b5390"
+    }
+  ],
+  "linear": [
+    {
+      "seed": 2026861,
+      "candidates": [
+        {
+          "ridge": 0.0,
+          "val_mse": 0.03747848758216953
+        },
+        {
+          "ridge": 0.0001,
+          "val_mse": 0.025548752345335102
+        },
+        {
+          "ridge": 0.01,
+          "val_mse": 0.0034482091953405417
+        },
+        {
+          "ridge": 0.1,
+          "val_mse": 0.0014612462474093459
+        },
+        {
+          "ridge": 1.0,
+          "val_mse": 0.0018748355913708393
+        }
+      ],
+      "selected": {
+        "ridge": 0.1,
+        "val_mse": 0.0014612462474093459
+      }
+    },
+    {
+      "seed": 2026862,
+      "candidates": [
+        {
+          "ridge": 0.0,
+          "val_mse": 0.10741547626942853
+        },
+        {
+          "ridge": 0.0001,
+          "val_mse": 0.06810489781851513
+        },
+        {
+          "ridge": 0.01,
+          "val_mse": 0.002457236906021348
+        },
+        {
+          "ridge": 0.1,
+          "val_mse": 0.0011887800517436852
+        },
+        {
+          "ridge": 1.0,
+          "val_mse": 0.0016148884914141484
+        }
+      ],
+      "selected": {
+        "ridge": 0.1,
+        "val_mse": 0.0011887800517436852
+      }
+    },
+    {
+      "seed": 2026863,
+      "candidates": [
+        {
+          "ridge": 0.0,
+          "val_mse": 0.06479374533515748
+        },
+        {
+          "ridge": 0.0001,
+          "val_mse": 0.0561981817409069
+        },
+        {
+          "ridge": 0.01,
+          "val_mse": 0.0026181217481850167
+        },
+        {
+          "ridge": 0.1,
+          "val_mse": 0.0012465040654118774
+        },
+        {
+          "ridge": 1.0,
+          "val_mse": 0.0018259935814570558
+        }
+      ],
+      "selected": {
+        "ridge": 0.1,
+        "val_mse": 0.0012465040654118774
+      }
+    }
+  ],
+  "eval_generated": false,
+  "protocol_sha256": "b843c44c69623f9e2f6d37656169f0354fc891d6d79f6ce8ec6d8d939161eeb4"
+}

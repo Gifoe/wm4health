@@ -1,0 +1,129 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-18T15:45:27.610499+00:00",
+  "result_sha256": "27c5e0b24369a667d2e3744b9e1b1929937f519508e631f86d482727a4593824",
+  "prediction_scalars": 720896,
+  "neural_fits": 18,
+  "checkpoint_traces_checked": 198,
+  "checks": [
+    {
+      "label": "2026861_generator_whole_filter",
+      "source_qualified": true,
+      "selected_step": 3000,
+      "max_numpy_replay_difference": 1.508029876751138e-06
+    },
+    {
+      "label": "2026861_generator_resampled_ic",
+      "source_qualified": true,
+      "selected_step": 3000,
+      "max_numpy_replay_difference": 4.001419858790101e-06
+    },
+    {
+      "label": "2026861_generator_prefix_all",
+      "source_qualified": true,
+      "selected_step": 3000,
+      "max_numpy_replay_difference": 3.4456887101352862e-06
+    },
+    {
+      "label": "2026861_direct_whole_filter",
+      "source_qualified": true,
+      "selected_step": 3000,
+      "max_numpy_replay_difference": 6.369436686970431e-07
+    },
+    {
+      "label": "2026861_direct_resampled_ic",
+      "source_qualified": true,
+      "selected_step": 2700,
+      "max_numpy_replay_difference": 6.61596028628253e-07
+    },
+    {
+      "label": "2026861_direct_prefix_all",
+      "source_qualified": true,
+      "selected_step": 3000,
+      "max_numpy_replay_difference": 7.326222266623716e-07
+    },
+    {
+      "label": "2026862_generator_whole_filter",
+      "source_qualified": true,
+      "selected_step": 3000,
+      "max_numpy_replay_difference": 2.5624011741331998e-06
+    },
+    {
+      "label": "2026862_generator_resampled_ic",
+      "source_qualified": true,
+      "selected_step": 3000,
+      "max_numpy_replay_difference": 3.124929427000822e-06
+    },
+    {
+      "label": "2026862_generator_prefix_all",
+      "source_qualified": true,
+      "selected_step": 3000,
+      "max_numpy_replay_difference": 3.2250220052265632e-06
+    },
+    {
+      "label": "2026862_direct_whole_filter",
+      "source_qualified": true,
+      "selected_step": 3000,
+      "max_numpy_replay_difference": 6.457796661862858e-07
+    },
+    {
+      "label": "2026862_direct_resampled_ic",
+      "source_qualified": true,
+      "selected_step": 3000,
+      "max_numpy_replay_difference": 6.563188801322895e-07
+    },
+    {
+      "label": "2026862_direct_prefix_all",
+      "source_qualified": true,
+      "selected_step": 3000,
+      "max_numpy_replay_difference": 7.767036196426602e-07
+    },
+    {
+      "label": "2026863_generator_whole_filter",
+      "source_qualified": true,
+      "selected_step": 900,
+      "max_numpy_replay_difference": 2.3121749266330482e-06
+    },
+    {
+      "label": "2026863_generator_resampled_ic",
+      "source_qualified": true,
+      "selected_step": 3000,
+      "max_numpy_replay_difference": 3.391153308829331e-06
+    },
+    {
+      "label": "2026863_generator_prefix_all",
+      "source_qualified": true,
+      "selected_step": 3000,
+      "max_numpy_replay_difference": 3.748855064378276e-06
+    },
+    {
+      "label": "2026863_direct_whole_filter",
+      "source_qualified": true,
+      "selected_step": 3000,
+      "max_numpy_replay_difference": 6.45485615624608e-07
+    },
+    {
+      "label": "2026863_direct_resampled_ic",
+      "source_qualified": true,
+      "selected_step": 3000,
+      "max_numpy_replay_difference": 6.753407988391302e-07
+    },
+    {
+      "label": "2026863_direct_prefix_all",
+      "source_qualified": true,
+      "selected_step": 3000,
+      "max_numpy_replay_difference": 8.425469251172046e-07
+    }
+  ],
+  "max_numpy_prediction_difference": 4.001419858790101e-06,
+  "max_numpy_val_loss_difference": 4.745546172690851e-08,
+  "max_eval_scipy_reference_difference": 1.1102230246251565e-15,
+  "max_source_scipy_reference_difference": 8.881784197001252e-16,
+  "paired_initializations_and_schedules_verified": true,
+  "all_selectors_source_validation_only": true,
+  "protocol_sha256": "b843c44c69623f9e2f6d37656169f0354fc891d6d79f6ce8ec6d8d939161eeb4",
+  "verification_protocol_sha256": "445067ea8fa24d6abb7f3940c13067590f91447af52c3e085eb71a1031abf8f7",
+  "released_checkpoint_tested": false,
+  "new_method_validated": false,
+  "local_result_payload_files_written": 0
+}
