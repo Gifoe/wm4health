@@ -1,0 +1,57 @@
+{
+  "utc": "2026-10-18T11:22:27.438198+00:00",
+  "decision": "RETIRE_THIS_READOUT_ONLY_DEVELOPMENT_ROUTE",
+  "development_only": true,
+  "reserved_evaluation_opened": false,
+  "improves_native_new_ic": 3,
+  "beats_ordinary_lower_envelope": 0,
+  "retains_native_successes": true,
+  "median_paired_ratio": 3.05844416266461,
+  "systems": [
+    {
+      "system": 24,
+      "learned_nrmse": 1.475761188275825,
+      "native_nrmse": 2.094754887557573,
+      "ordinary_lower_envelope_nrmse": 0.5222739989222668,
+      "ratio_to_ordinary_lower_envelope": 2.825645525760649
+    },
+    {
+      "system": 29,
+      "learned_nrmse": 0.23562441861082895,
+      "native_nrmse": 0.053260006682069615,
+      "ordinary_lower_envelope_nrmse": 0.057240221369361806,
+      "ratio_to_ordinary_lower_envelope": 4.116413475943481
+    },
+    {
+      "system": 32,
+      "learned_nrmse": 0.9585366434856329,
+      "native_nrmse": 0.9439376754973139,
+      "ordinary_lower_envelope_nrmse": 0.9428989573385657,
+      "ratio_to_ordinary_lower_envelope": 1.0165846891921553
+    },
+    {
+      "system": 35,
+      "learned_nrmse": 11264.68924349443,
+      "native_nrmse": 3.3912065499366255,
+      "ordinary_lower_envelope_nrmse": 3.3514834929546127,
+      "ratio_to_ordinary_lower_envelope": 3361.1053932310033
+    },
+    {
+      "system": 38,
+      "learned_nrmse": 0.20504599336455281,
+      "native_nrmse": 0.27765876452653565,
+      "ordinary_lower_envelope_nrmse": 0.06230047609718464,
+      "ratio_to_ordinary_lower_envelope": 3.291242799568571
+    },
+    {
+      "system": 41,
+      "learned_nrmse": 0.9881376668193186,
+      "native_nrmse": 0.9898102541178416,
+      "ordinary_lower_envelope_nrmse": 0.7312830241983803,
+      "ratio_to_ordinary_lower_envelope": 1.3512383497517912
+    }
+  ],
+  "ordinary_lower_envelope_is_diagnostic_not_deployable_selector": true,
+  "qualified_final_research_directions": 0,
+  "requires_stronger_prior_art_controls_even_if_passed": true
+}

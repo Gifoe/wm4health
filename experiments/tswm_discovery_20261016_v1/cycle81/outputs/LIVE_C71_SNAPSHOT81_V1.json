@@ -1,0 +1,44 @@
+{
+    "records":  {
+                    "queue_free_simulation71_v3_progress.json":  {
+                                                                     "utc":  "2026-10-18T11:20:08.496726+00:00",
+                                                                     "status":  "CAMPAIGN_PROCESS_HANDLE_STILL_LIVE",
+                                                                     "campaign_pid":  43620,
+                                                                     "campaign_creation_filetime":  134367811306185603,
+                                                                     "reserved_eval_rows_accessed":  0
+                                                                 },
+                    "BOUNDED_CAMPAIGN71_V1_progress.json":  {
+                                                                "utc":  "2026-10-18T11:17:01.597471+00:00",
+                                                                "status":  "ORIGINAL_BUDGET_RUNNING_IN_BOUNDED_PROCESSES",
+                                                                "current_seed":  2026712,
+                                                                "last_completed_epoch":  400,
+                                                                "effective_updates_current_seed":  6416,
+                                                                "closed_fits":  1,
+                                                                "segments_current_fit":  8,
+                                                                "reserved_eval_rows_accessed":  0
+                                                            }
+                },
+    "utc":  "2026-10-18T11:20:10.2723459Z",
+    "processes":  [
+                      {
+                          "ProcessId":  30928,
+                          "CommandLine":  "\"E:\\Anaconda\\envs\\salt_env\\python.exe\" -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\capture_bounded_campaign71_v1.py formal"
+                      },
+                      {
+                          "ProcessId":  43620,
+                          "CommandLine":  "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\bounded_campaign71_v1.py formal"
+                      },
+                      {
+                          "ProcessId":  42004,
+                          "CommandLine":  "\"E:\\Anaconda\\envs\\salt_env\\python.exe\" -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\capture_assessment71_v3.py queue"
+                      },
+                      {
+                          "ProcessId":  1620,
+                          "CommandLine":  "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\queue_free_simulation71_v3.py"
+                      },
+                      {
+                          "ProcessId":  28428,
+                          "CommandLine":  "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\bounded_native71_v1.py --request D:\\tswm_discovery_20261016_v1\\cycle71\\outputs\\formal_seed2026712_bounded00450_v1_request.json"
+                      }
+                  ]
+}
