@@ -1,0 +1,51 @@
+{
+  "utc": "2026-10-18T19:10:02.567560+00:00",
+  "status": "NATIVE_CORE_FORWARD_BACKWARD_SAMPLING_QUALIFIED",
+  "source": {
+    "root": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\caches\\cycle89\\CSDI_7f24a436_v1",
+    "revision": "7f24a436f08d98853a6b43d4f7f04e5a65ecdf27",
+    "sha256": {
+      "main_model.py": "c3702366be9b439f3abff74c304d08efd5488c4a8e0b85a1aa7d7072cf1db0d8",
+      "diff_models.py": "1271c5ba574eb7271174e8817ddd102adcfeb540236ea135a197b5f49a56d24f"
+    },
+    "unused_optional_import_sentinel": false
+  },
+  "config": {
+    "model": {
+      "timeemb": 128,
+      "featureemb": 16,
+      "is_unconditional": 0,
+      "target_strategy": "test"
+    },
+    "diffusion": {
+      "layers": 4,
+      "channels": 64,
+      "nheads": 8,
+      "diffusion_embedding_dim": 128,
+      "beta_start": 0.0001,
+      "beta_end": 0.5,
+      "num_steps": 50,
+      "schedule": "quad",
+      "is_linear": false
+    }
+  },
+  "parameters": 413569,
+  "finite_gradient_tensors": 139,
+  "loss": 0.9743325710296631,
+  "sample_shape": [
+    8,
+    2,
+    64
+  ],
+  "masked_future_dummy_change_max_abs": 0.0,
+  "runtime": {
+    "python": "3.10.20",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5090"
+  },
+  "peak_allocated_bytes": 164971008,
+  "elapsed_seconds": 5.311468800005969,
+  "protocol_sha256": "99d5bc848818ef53c1605bb6646ccd0599be0e871abab7a872eab54367a31fa1",
+  "source_files_unchanged": true
+}

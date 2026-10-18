@@ -1,0 +1,858 @@
+{
+  "frankroeder/DALI": {
+    "repo": "frankroeder/DALI",
+    "commit": "5ca393468defffe79e4e3537ba9766f6d31b510b",
+    "files": [
+      {
+        "path": "LICENSE",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/LICENSE",
+        "bytes": 1056,
+        "sha256": "06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241",
+        "git_blob_sha1": "b77bf2ab726c6e7cb5a81a9d3b7dc38266ebfd3d"
+      },
+      {
+        "path": "README.md",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/README.md",
+        "bytes": 3685,
+        "sha256": "c22a765c50547e4e7e6bf010d1a8ec465b84c65c7c8e7c2a6fe40a2a60706cef",
+        "git_blob_sha1": "1fe3eaae3a786ba0d9dd8778f49dcf649455fe16"
+      },
+      {
+        "path": "anaylsis/neurips_plots.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/anaylsis/neurips_plots.py",
+        "bytes": 17463,
+        "sha256": "204bbef36cab7c1c54a28afb88f87cc07245ccab90b012c7efc8a352157499a2",
+        "git_blob_sha1": "7a76cfc01fd3a7f25b55b5677448a4f7b43f1f25"
+      },
+      {
+        "path": "anaylsis/plot_rliable.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/anaylsis/plot_rliable.py",
+        "bytes": 24084,
+        "sha256": "33fbb274dd7953eeea4952177e4d384b701e6bb79f0e3720111a4df0002a8996",
+        "git_blob_sha1": "6169b3869d24cedee63493a36ed6cd06ffd504b5"
+      },
+      {
+        "path": "anaylsis/utils.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/anaylsis/utils.py",
+        "bytes": 1657,
+        "sha256": "5c8856852b3c3e9370cae08d335537e9e7673013130639f732b841a22247fd17",
+        "git_blob_sha1": "d904d696eff17831ece08cd558f68e8822e93abe"
+      },
+      {
+        "path": "contextual_mbrl/baseline/configs.yaml",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/contextual_mbrl/baseline/configs.yaml",
+        "bytes": 255,
+        "sha256": "73214a3c440e7e4d35c67021ac3092ce27731f4cc27f4c6a16b6229073f0512a",
+        "git_blob_sha1": "f3a8e4560a28652847b9181abe44634e6a49c614"
+      },
+      {
+        "path": "contextual_mbrl/baseline/envs.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/contextual_mbrl/baseline/envs.py",
+        "bytes": 9102,
+        "sha256": "cdeb3689b74c0d12e058c667c1139cf1fe5408a8ec117cfd58579fa1b6731b87",
+        "git_blob_sha1": "e3949e98541cdace478fc0ce41dc7ec3087ea60c"
+      },
+      {
+        "path": "contextual_mbrl/baseline/eval.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/contextual_mbrl/baseline/eval.py",
+        "bytes": 2325,
+        "sha256": "6a55e591330272015460da32360d770c8870e679c365e7a41e11e36c54985334",
+        "git_blob_sha1": "d65587eb9d80270126e0bffe370e420b87f3ae0a"
+      },
+      {
+        "path": "contextual_mbrl/baseline/model.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/contextual_mbrl/baseline/model.py",
+        "bytes": 2958,
+        "sha256": "1e7f8def04df11237ed2d0782acd9842d7016f898719d14824190be9800fc0ff",
+        "git_blob_sha1": "980df83c135ed2eae5d361041f1b10cab876b10e"
+      },
+      {
+        "path": "contextual_mbrl/baseline/train.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/contextual_mbrl/baseline/train.py",
+        "bytes": 1505,
+        "sha256": "565d6acb344c68adb0545ab6647099ec44587ee7277fc1f69ebf0a0297142c19",
+        "git_blob_sha1": "5cb9d00265fe3b3cfcd7ea652f97ea57c3d8b063"
+      },
+      {
+        "path": "contextual_mbrl/dreamer/configs.yaml",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/contextual_mbrl/dreamer/configs.yaml",
+        "bytes": 17911,
+        "sha256": "57b52e256b90fff4434c09b1f7f27ab2f51a9705dab819a19ff164798e2c3bfb",
+        "git_blob_sha1": "943b1711969e870a4dd34c357b153d33f0a0b925"
+      },
+      {
+        "path": "contextual_mbrl/dreamer/envs.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/contextual_mbrl/dreamer/envs.py",
+        "bytes": 21096,
+        "sha256": "addce4da3018b4e8127f26ff0efbc0d096327fa50f4a3459813e1ae1e564d4dc",
+        "git_blob_sha1": "8a1e0103a9a06f5009970c05651f90d99232da16"
+      },
+      {
+        "path": "contextual_mbrl/dreamer/eval.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/contextual_mbrl/dreamer/eval.py",
+        "bytes": 4245,
+        "sha256": "dfa8a9d8279191faf9d93f23efa532e934ec6385a072a654a094c695d5f81941",
+        "git_blob_sha1": "52452306bad5b328d3bdea44f95532338264dc73"
+      },
+      {
+        "path": "contextual_mbrl/dreamer/eval_record.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/contextual_mbrl/dreamer/eval_record.py",
+        "bytes": 5083,
+        "sha256": "8c7879763ad6c9301be466fecf4d3a4ff7c38912dc9080c8a080f06ba21f19bd",
+        "git_blob_sha1": "21f83199d32439db03a53cb354a2007033e2cf96"
+      },
+      {
+        "path": "contextual_mbrl/dreamer/record_context.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/contextual_mbrl/dreamer/record_context.py",
+        "bytes": 10293,
+        "sha256": "08edc0d7464b42414e4b128216be09e4dc33903b0a104f46be06a19268c51339",
+        "git_blob_sha1": "4ce246142c011c575ca619741bedf5cb2262ba80"
+      },
+      {
+        "path": "contextual_mbrl/dreamer/record_counterfactual_dreams.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/contextual_mbrl/dreamer/record_counterfactual_dreams.py",
+        "bytes": 10368,
+        "sha256": "a01b94de611b8d950f3e6cac61dde5404b123df7cd5344a620c8db64794bd9ef",
+        "git_blob_sha1": "78411237178f5ef6e80ef981426540634f965935"
+      },
+      {
+        "path": "contextual_mbrl/dreamer/record_counterfactual_plausibility.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/contextual_mbrl/dreamer/record_counterfactual_plausibility.py",
+        "bytes": 7150,
+        "sha256": "aa37e9b67d2649fcb4513104700e7ae1597d7aa2803956844e6503c446118361",
+        "git_blob_sha1": "e57b71c526d1b5a4cfcc42ee967fdbdfe4363774"
+      },
+      {
+        "path": "contextual_mbrl/dreamer/record_counterfactual_plausibility_action.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/contextual_mbrl/dreamer/record_counterfactual_plausibility_action.py",
+        "bytes": 7891,
+        "sha256": "8866e8364d996941741bf0467bd9fc603dbe81922c4979af00840644b2eb1505",
+        "git_blob_sha1": "2feda399c6c1a6019605f9d12909c7a95b689017"
+      },
+      {
+        "path": "contextual_mbrl/dreamer/record_counterfactual_plausibility_obs.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/contextual_mbrl/dreamer/record_counterfactual_plausibility_obs.py",
+        "bytes": 10611,
+        "sha256": "6847970e7e64095cba056032496684f74128ecce0e46470be9a44b4f37386bf0",
+        "git_blob_sha1": "ee7a5679e629ccda8896df8315d7dae91cc12057"
+      },
+      {
+        "path": "contextual_mbrl/dreamer/record_counterfactual_plausibility_obs_dataset.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/contextual_mbrl/dreamer/record_counterfactual_plausibility_obs_dataset.py",
+        "bytes": 7210,
+        "sha256": "58941e33cdfceea7429a9ed6f6c5f9e4e58828961ab8fe229411d4bd75bcd0cf",
+        "git_blob_sha1": "bf66eb0ff28d156c85a2afbf23ad073bb5b51ab6"
+      },
+      {
+        "path": "contextual_mbrl/dreamer/record_dreams.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/contextual_mbrl/dreamer/record_dreams.py",
+        "bytes": 10722,
+        "sha256": "08f020254db2c097b5feced698fc01d9bff90680e48e360630778cfe12be5fcf",
+        "git_blob_sha1": "28e26c9a3bb6e3a60c7f5662568a8cd8b045ad28"
+      },
+      {
+        "path": "contextual_mbrl/dreamer/record_latent_traversal.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/contextual_mbrl/dreamer/record_latent_traversal.py",
+        "bytes": 11236,
+        "sha256": "ef65224fba3343b0e675823c1cfc55c0f72530886584f5906a8eb39d2f125441",
+        "git_blob_sha1": "c3638f3ff55f0728fd189f92213ab0050d2891af"
+      },
+      {
+        "path": "contextual_mbrl/dreamer/record_latents.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/contextual_mbrl/dreamer/record_latents.py",
+        "bytes": 8579,
+        "sha256": "5510275c6f6180805bac861a5eab46467657907586c58d7410ebafad6e387c94",
+        "git_blob_sha1": "00c9521bf6a0f4cff471a0354a4150a171303b5b"
+      },
+      {
+        "path": "contextual_mbrl/dreamer/train.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/contextual_mbrl/dreamer/train.py",
+        "bytes": 7189,
+        "sha256": "f02eb8eddbf052463140cba248e0bf315bf64cb998a1e95ff404f81ec839eeba",
+        "git_blob_sha1": "ec02936f003eda2d4cab4c748bf210271fec5411"
+      },
+      {
+        "path": "dreamerv3_compat/README.md",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/README.md",
+        "bytes": 5772,
+        "sha256": "9a565023e209ffabf63ff55152640790cdd6e5c72289ad5049fa53c0a4c92d4b",
+        "git_blob_sha1": "d5930c77327036e96008a0009af82f3a27040ab3"
+      },
+      {
+        "path": "dreamerv3_compat/__init__.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/__init__.py",
+        "bytes": 54,
+        "sha256": "120090a83757656014a28cf3840ffdfa5439ada60d9aa842cbbf257c2c15f71c",
+        "git_blob_sha1": "7e1338ccf2de156a790141dbdc48abbf074e27b1"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/__init__.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/__init__.py",
+        "bytes": 158,
+        "sha256": "b8e8aa9fc8555af0a6c74c765ab5d3e2bda4c108fdcaa59877978bcad483da8d",
+        "git_blob_sha1": "7ea0c5e2b887de22391406083c1ce6a3d139d117"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/agent.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/agent.py",
+        "bytes": 27632,
+        "sha256": "886ea92a56d658f24445fcda79040dd02e7d6822d0bcf389dfa97446f061adfa",
+        "git_blob_sha1": "68015dd098d6bb90a98793ac9debd872a8920f6c"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/behaviors.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/behaviors.py",
+        "bytes": 2825,
+        "sha256": "31a18a1e158ba422b2e57d2dce41f059121be927b550a0c563fe25438bd5a24f",
+        "git_blob_sha1": "71527c3cc8ea5ff1264b1a796400d768c6f7d106"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/configs.yaml",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/configs.yaml",
+        "bytes": 7487,
+        "sha256": "198ef76a674a1a825ba0db154e98eee08dd194f694160af521bd48c9ffe8dc4d",
+        "git_blob_sha1": "20205c552abe4352d11aa5037faf1603fafdf5dc"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/__init__.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/__init__.py",
+        "bytes": 163,
+        "sha256": "9db2b8ac9e5e7da493512e12f49602e05c4afc53a1a1c7a58fe58423bf7de1dc",
+        "git_blob_sha1": "530f8ac1e31b6e99e7cce481c80da76b7f4be5c0"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/core/__init__.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/core/__init__.py",
+        "bytes": 747,
+        "sha256": "16096b6ffebb32294fed8d2fe441b8896883d1ec18f6d573a1d03a46ffa55b72",
+        "git_blob_sha1": "5131255f5857a9550f6d235ed4a943b367cfb952"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/core/base.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/core/base.py",
+        "bytes": 2873,
+        "sha256": "e745a5ef47c83bcdb525198422e6d5593780d7904c579f33be93f051d94de299",
+        "git_blob_sha1": "6e8d5597d171dec57e91057528e737b6f6c87da7"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/core/basics.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/core/basics.py",
+        "bytes": 4676,
+        "sha256": "353bdccf1963f92cd85cf91a3739a4fc5675fae02db85a26b74b2797dd16b72c",
+        "git_blob_sha1": "2b2abea7f741005acd12539de83e7f159c04a541"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/core/batch.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/core/batch.py",
+        "bytes": 1077,
+        "sha256": "adaa7f30f843dbcbf7225bcc52f267603aeb1ba0e06e84df2db6ca0497a423ce",
+        "git_blob_sha1": "1c76e3092a03e4921f4f3a28dd57e7190828bd8f"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/core/batcher.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/core/batcher.py",
+        "bytes": 3024,
+        "sha256": "f42b5c7475cbdcea5f0f56e437938cfe32967c2d9ce989eb1b3c32e0ab141a66",
+        "git_blob_sha1": "8f93f9f9ac699c0edf54725c281d06bfb92d5f54"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/core/checkpoint.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/core/checkpoint.py",
+        "bytes": 3078,
+        "sha256": "7a3bb63e1fd5968933f51149a7c10fa9988f8d202eadf0f37faa753bb5754961",
+        "git_blob_sha1": "e1437b087879787d18f319c3f28a5a84c4c5d0b2"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/core/config.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/core/config.py",
+        "bytes": 5954,
+        "sha256": "f5f225ed9535b31ce0f5ce6545c98080545a08bf6ddaf4c790a7c6d5ab4fac48",
+        "git_blob_sha1": "0c600ed392635212563650950eb71895ff769b06"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/core/counter.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/core/counter.py",
+        "bytes": 783,
+        "sha256": "fa5c42edb88c16845870b5dafafd22dd99c5d1457cbaed25757fc202b4047768",
+        "git_blob_sha1": "f6e26835a30636cfe5f276ec98880f0c4ef9f2ef"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/core/distr.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/core/distr.py",
+        "bytes": 6494,
+        "sha256": "ec25acfc5afff7c92f96020ab1a2b853788142cfaaa291ccc876b960c4dc625b",
+        "git_blob_sha1": "ee2b9c9d0b2d36ee9babe6d60a7c4500af648d69"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/core/driver.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/core/driver.py",
+        "bytes": 2457,
+        "sha256": "622bb94492b1eb96c0eafcedd0abc78784273409bcbeff2dc46ef832d4fac23a",
+        "git_blob_sha1": "aa4d66e63b4074c7bdb911d1a8dcfc3a3f029cef"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/core/flags.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/core/flags.py",
+        "bytes": 3240,
+        "sha256": "a5996b463d6afbaf67281defed2279199bd72dacfe40cb893c0c1a0edad6f284",
+        "git_blob_sha1": "785fbcddfc46e0e3ee73a81789310f6779139bf9"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/core/logger.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/core/logger.py",
+        "bytes": 10704,
+        "sha256": "c466e5fd8733753a136a9c215d4c3374dd566d11939035306fee68204ae3d2ae",
+        "git_blob_sha1": "5ca37e397fc2d74542ebc7ca58479cd79582503c"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/core/metrics.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/core/metrics.py",
+        "bytes": 1077,
+        "sha256": "23011de84fbdaeea1e953a3d66c8a311f6850720744e15e2dd17d0bfc619c6cc",
+        "git_blob_sha1": "db6e9bc9f825aa0696e20f5dcea0f887c0748e06"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/core/parallel.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/core/parallel.py",
+        "bytes": 1311,
+        "sha256": "41c84e6f8ddf5eaebc440f7fbd0fe1be0dad24419ce0a1653bddb404e6b7bf2f",
+        "git_blob_sha1": "919b6bc687b0ee19bbae8f1ec01fd783115b8506"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/core/path.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/core/path.py",
+        "bytes": 5063,
+        "sha256": "81c1a30bed99017c537d0bdb24a6b6366e1f996bbf756724b137b2e3d02eab54",
+        "git_blob_sha1": "82b431cd8c9e033960f591ed8456f519fa150bd9"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/core/random.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/core/random.py",
+        "bytes": 359,
+        "sha256": "57f0900c7c80edf770b2239bd5868947a38582149d84451de6bc2d3225a25e7c",
+        "git_blob_sha1": "2e59f9daf1be4b40eafe4dfb91d87e479b59e172"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/core/space.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/core/space.py",
+        "bytes": 3211,
+        "sha256": "ae9b6262f2b92092df8eb64082449192f99221583508016c32c6ada83efdb32a",
+        "git_blob_sha1": "9447cd771a725aea7cf877ea8c62a34689a79e5d"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/core/timer.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/core/timer.py",
+        "bytes": 1878,
+        "sha256": "bdbb9716cc1ab55b2e8767f486fbda809e7531efa7f05e82a351a42fed70bde6",
+        "git_blob_sha1": "58589876ff046788565105c3eab9e30dc50e1b06"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/core/uuid.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/core/uuid.py",
+        "bytes": 1977,
+        "sha256": "f078c2ceb5f07cefaa5a7864e4a550b0265103a7672306fa24786d6976e9c26d",
+        "git_blob_sha1": "cf518f455a7904687ba0ae9cfa67cec4af6a5f2b"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/core/when.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/core/when.py",
+        "bytes": 1671,
+        "sha256": "a37b5589efe94da23f782930a07e35de176116c1e5ca896a961a17e4d9b5ee0f",
+        "git_blob_sha1": "2604edae084668217018b6d09784c6e4cbeb5046"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/core/worker.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/core/worker.py",
+        "bytes": 6440,
+        "sha256": "1a87dbd5522e8a6b89b6c8073b51f1cda32f2a02147a28ce45f96a0ed34655c8",
+        "git_blob_sha1": "f3ec90c29e0591e6811895991a66f6529c7af668"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/core/wrappers.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/core/wrappers.py",
+        "bytes": 10496,
+        "sha256": "fd7a9683eac351ff78d44ef455c174c50b3b496b654f6e5f380a590e40387605",
+        "git_blob_sha1": "63ed52be782b21f8fbe18aa4383a01d3626036fc"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/envs/atari.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/envs/atari.py",
+        "bytes": 4317,
+        "sha256": "dd3f44a853c9f058a404300091f6fdad5c52adc4a25f43bd18448b2389335cdc",
+        "git_blob_sha1": "cd085a45dd452c99b53f0c80a00079ef0e648715"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/envs/crafter.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/envs/crafter.py",
+        "bytes": 2162,
+        "sha256": "06022d98a7053ede1b32e0bc6d20e42ca255a824b5b01626504bf09ca38a49a0",
+        "git_blob_sha1": "ba8594930a7c53a095a98c30877cfbd959b6487f"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/envs/dmc.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/envs/dmc.py",
+        "bytes": 1959,
+        "sha256": "dfa52c45cb5c29e1128746d6cc47c195a5ba468d2583e5172a35796caaf0c4ed",
+        "git_blob_sha1": "d1c5437a8a5b26613e2cf20895173185da1af1da"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/envs/dmlab.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/envs/dmlab.py",
+        "bytes": 4499,
+        "sha256": "907bf9bffd543629f8d524923f83cbe89607a4b3330e10476a38a3229fcb4002",
+        "git_blob_sha1": "2bc2edf042e15ae80517c7f064a59cf7387fafa7"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/envs/dummy.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/envs/dummy.py",
+        "bytes": 1551,
+        "sha256": "ecc7bbca1e47fe89f95708fc7a0e097366abc48953c14765efbfd55270e93b11",
+        "git_blob_sha1": "5165a386b36b3f2097934c08b148da75dbc0068e"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/envs/from_dm.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/envs/from_dm.py",
+        "bytes": 2820,
+        "sha256": "e27481564cc99ec0412dbbc8b1a3bbde21af11e7cf3fa4de469e215606c65857",
+        "git_blob_sha1": "19231a28cd03bd57c8cf920dd301aa4fcda9b71c"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/envs/from_gym.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/envs/from_gym.py",
+        "bytes": 4691,
+        "sha256": "e5fc9d62c7c4459554ca9ebef1c678f9cb0ceb42ed44bb1043349e3291013fb8",
+        "git_blob_sha1": "b9b2483bf914cc1bb0355a4acdd51a9bf4442f98"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/envs/from_gymnasium.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/envs/from_gymnasium.py",
+        "bytes": 4794,
+        "sha256": "c7d578da547a21674eee850ec880bc0b7a075f0cb00b37022ba65171aceea3b5",
+        "git_blob_sha1": "9df068b112572569638b20fd17c307762e0794eb"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/envs/loconav.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/envs/loconav.py",
+        "bytes": 7945,
+        "sha256": "b24734c568a608e8253a1bfa03019b29e992be89b23e97590bcf77e34700223a",
+        "git_blob_sha1": "d34513a126b47a819c8b3cd0f2f76dc866a947ff"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/envs/loconav_quadruped.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/envs/loconav_quadruped.py",
+        "bytes": 3790,
+        "sha256": "c2ae65449a55b32c420514ef883c73261900b83a56993cc9e23a459642d0d678",
+        "git_blob_sha1": "5c5701d1e920d0f748d6d7f840af3a50176be820"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/envs/minecraft.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/envs/minecraft.py",
+        "bytes": 4656,
+        "sha256": "2339c0e29733b957812d8c780c6cf5196878052e61a83fb5fe5318db6bb666f7",
+        "git_blob_sha1": "512ae7f90738ad8f581af4a13d117f53a0faf55d"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/envs/minecraft_base.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/envs/minecraft_base.py",
+        "bytes": 6262,
+        "sha256": "53300e989491f3364535e90a312f56a5fcd392f4209ba811090773b5167bdeeb",
+        "git_blob_sha1": "3d8f48c1b0ae66e7dda2da763aa9861a874f92a1"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/envs/minecraft_minerl.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/envs/minecraft_minerl.py",
+        "bytes": 4396,
+        "sha256": "b719b575ee6695f6614fdc77ecfbfd967ab00d0dcf3ab9991ab775e7e989bc99",
+        "git_blob_sha1": "b412218fd8613dddd4812af45b2d6c07c33d0cd3"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/envs/pinpad.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/envs/pinpad.py",
+        "bytes": 5401,
+        "sha256": "4189cf7ab6c396dd599c9b53cfdc2dd9835368e23b578dc3ce59422cc070ec09",
+        "git_blob_sha1": "da0e00865181b10d4ffd8ac706a076d6d1c165b1"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/envs/robodesk.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/envs/robodesk.py",
+        "bytes": 967,
+        "sha256": "b1e12482830b1288365c7524f0f7a89fc62600f94c3cc2773a6ce9a698ac089c",
+        "git_blob_sha1": "322614774e532c784c7ecb60297fdc416384a5b7"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/replay/__init__.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/replay/__init__.py",
+        "bytes": 170,
+        "sha256": "85470284e1064a2ac7e59abc6b9c0a3329db3fa0490b6e93358d418111f08481",
+        "git_blob_sha1": "669dea0abfb11bed0a573e95bade2a50fbe3d5e9"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/replay/chunk.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/replay/chunk.py",
+        "bytes": 2358,
+        "sha256": "eafa884e5765b9c38ba9b8a76de8b0b60860ac0c57a671c34bb8f6c61c96e0ff",
+        "git_blob_sha1": "d9e14a8d0af5adac152e8134e31e51848388d969"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/replay/generic.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/replay/generic.py",
+        "bytes": 4920,
+        "sha256": "0da5ece9adf4aca5c17b5ac09340f8a67227ac8cfeaaa8120dc847d5864b3f12",
+        "git_blob_sha1": "3ae64d53c6d76accd023ee835336ebc2daba5093"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/replay/limiters.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/replay/limiters.py",
+        "bytes": 2479,
+        "sha256": "d53648dabe420f361a7b52db9549847d267c91d3d675277b2209bcd8f93af30f",
+        "git_blob_sha1": "73a2ee2a116bdf178cb97f39f54f8d7f6d24ca3d"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/replay/naive_chunks.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/replay/naive_chunks.py",
+        "bytes": 2554,
+        "sha256": "b57c35e4e3348cfd8f63e515c800662a9f573ecfadef0568bc4b0a9b3d9bf231",
+        "git_blob_sha1": "f98dbdf002a67cbe83cbde3d50c18b2c0b59d96b"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/replay/replays.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/replay/replays.py",
+        "bytes": 740,
+        "sha256": "00c423059c4f2b38495b1e3a29551e75fe95aed57aeafa81358e48571c478b22",
+        "git_blob_sha1": "9aef20358839802456a83282c32272e6dd5c03b3"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/replay/reverb.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/replay/reverb.py",
+        "bytes": 3695,
+        "sha256": "191951f8e59e2fcc4c7c692cc5f63197e0762db3af4e597089a7e76789891a7b",
+        "git_blob_sha1": "86bd35ffddcdacb45d5ed516543bdac266401cf1"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/replay/saver.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/replay/saver.py",
+        "bytes": 2118,
+        "sha256": "10211757d40635d54adccda1be0d537ba1c578c1832d730fc58a9932374317d6",
+        "git_blob_sha1": "1b7958a0efd0934300dd7ad14dcca50e7984f1c1"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/replay/selectors.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/replay/selectors.py",
+        "bytes": 931,
+        "sha256": "91e7951125bc998135ed07b78e4616719904a80685ad845266d9e5be95a4bb12",
+        "git_blob_sha1": "51700c95ad0a4767facdf7ea00f16bfe71e7dc7b"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/run/__init__.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/run/__init__.py",
+        "bytes": 200,
+        "sha256": "d75040af846655d060968ed336f10c71f9245529108b494706801ac7e371f651",
+        "git_blob_sha1": "c6a11dd55aa805e5176096e4328aefd2dbd71b9c"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/run/eval_only.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/run/eval_only.py",
+        "bytes": 1914,
+        "sha256": "b9b69989deef82f7df21736c0857cc4a48768945802b8d03bcd2d8e659e2840f",
+        "git_blob_sha1": "2db3050e3542f0dd30a87adeeffa512ef9a6a907"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/run/parallel.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/run/parallel.py",
+        "bytes": 5385,
+        "sha256": "a2786515bb2cf5c78e4fef5a83d66aa8ff80b5de2c2b777ae2fb8d3fc12f9f37",
+        "git_blob_sha1": "1adab12d6a54ce40ac17ccafe0372bdec97eb7fe"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/run/train.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/run/train.py",
+        "bytes": 3881,
+        "sha256": "e47fd3f7cfe548a2d6951290562bd3ff9fbe2e3676273f96c58ed15e8de2406b",
+        "git_blob_sha1": "7b0cc5ab2957cea49e1aa57af30b46b51fa014da"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/run/train_eval.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/run/train_eval.py",
+        "bytes": 4783,
+        "sha256": "f9084ac14ca45564b5b7de14d8b48fdd1c467ca0b6b0bf53d58cc95841c4bd13",
+        "git_blob_sha1": "211742dd8c4f248d5f7a2d4c96b9f55f4b3dc10b"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/run/train_holdout.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/run/train_holdout.py",
+        "bytes": 4730,
+        "sha256": "a267b4b21ae4b3ddf2c960af427dbd4861c53ff5711ec3929cefa3aca6f4e127",
+        "git_blob_sha1": "35b3a01cec1d7ca10c04dc7fa959b59f0b4932af"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/run/train_save.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/run/train_save.py",
+        "bytes": 4576,
+        "sha256": "c290fc4d0a544ce1c32a3b19ff7d3a897bda2f39233c9bf7cccf64bad9b0fe1c",
+        "git_blob_sha1": "1e59e2c802f16a93e64bbae18b391eb68b3c909b"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/scripts/install-atari.sh",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/scripts/install-atari.sh",
+        "bytes": 333,
+        "sha256": "e8f8a0e52896c4980a8540cd956caf88faf5d503bfed4a685faa98b6caa2b782",
+        "git_blob_sha1": "bed4d2a29c08d55bf9ddfdfb0f9be7f05d872f46"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/scripts/install-dmlab.sh",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/scripts/install-dmlab.sh",
+        "bytes": 1464,
+        "sha256": "e697b02a20f0df294293a5f6e055e27b21f4ab0aff11178ee95933a9ac135028",
+        "git_blob_sha1": "96a8f4dbae03dcbc216476531364c3f46508bf65"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/scripts/install-minecraft.sh",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/scripts/install-minecraft.sh",
+        "bytes": 233,
+        "sha256": "61dc154a56c89de0cd7683658c139a00ff49e90367b59941425e2f57845efc26",
+        "git_blob_sha1": "02f995496bbb01e28af3c22b0eaa0d9f7994c2f2"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/scripts/plot.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/scripts/plot.py",
+        "bytes": 19801,
+        "sha256": "6660192bcda64723105b7007b2fde8d453958eaa2c2f5964af8af3deaebc08ed",
+        "git_blob_sha1": "34297bfffe3c69d4e6db4b1077e720fa8b41abce"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/embodied/scripts/xvfb_run.sh",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/embodied/scripts/xvfb_run.sh",
+        "bytes": 96,
+        "sha256": "8354eeebb09b86aa1222f5cc47b6a7088b522b8c0c87d98708a12f6464b90628",
+        "git_blob_sha1": "4a1e06e180a9fb90995ac0214b77806c24150f6f"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/expl.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/expl.py",
+        "bytes": 1174,
+        "sha256": "56913c11ea38ca9bfd67150340144ee7cd427b3eb9e7c2a4db715058483340b0",
+        "git_blob_sha1": "6df6445e4556f608d753a062bfc46f8aee4a4c7f"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/jaxagent.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/jaxagent.py",
+        "bytes": 9287,
+        "sha256": "e81f6f0eec3982acd275fc8474be8f920915f548a5c7b88546897302007ad1b1",
+        "git_blob_sha1": "6a2152acb8f2740381eeb17c730b28e8e4d02ca9"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/jaxutils.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/jaxutils.py",
+        "bytes": 16477,
+        "sha256": "e9ffa22d7cbd51d069b05e389a0b88521dae8502cb1d3f72a061407ec39a2ff4",
+        "git_blob_sha1": "6ee5d152df03fcc9d367d0fba97bbb0437d84b93"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/nets.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/nets.py",
+        "bytes": 38932,
+        "sha256": "0233a0d7aedce5f137a29a5ce3b49d100db1c0d1322d1c8b6238e66235539b9d",
+        "git_blob_sha1": "f63ecdb6da1c94b2f953a6bf772c91fb654cf7e5"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/ninjax.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/ninjax.py",
+        "bytes": 17826,
+        "sha256": "f9786a23ca0795015994fa2a0380bfb2129e154d3677dd9429f667c7047df87e",
+        "git_blob_sha1": "385a428ec84b12ba9bb7683b19c086643d62f5ad"
+      },
+      {
+        "path": "dreamerv3_compat/dreamerv3/train.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/dreamerv3/train.py",
+        "bytes": 7457,
+        "sha256": "655af76915a5009a8a0066fa4a512e2b6ebe3b599b795d921648104679f43716",
+        "git_blob_sha1": "2b4c3375bc27151ac53a53d4df3a89c0adc10dc6"
+      },
+      {
+        "path": "dreamerv3_compat/example.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/example.py",
+        "bytes": 2180,
+        "sha256": "d4cd593c45b08a92891503b72e085ee72b8701251a466dac392d2e38b8bbcd49",
+        "git_blob_sha1": "8c912bde17d72d1d66472192d12f7b94eb581d51"
+      },
+      {
+        "path": "dreamerv3_compat/requirements.txt",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/requirements.txt",
+        "bytes": 449,
+        "sha256": "fdc57429aa9fab18a4363219a475686a0abd3bb8b485301af5c93ff7eae5a522",
+        "git_blob_sha1": "5eaea588a75e650ba1d6a1bd745c7266c6eeb539"
+      },
+      {
+        "path": "dreamerv3_compat/scores/clean.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/scores/clean.py",
+        "bytes": 1486,
+        "sha256": "1b8dbaed4c32dc3f2a7de1b7f3d2862cf15bf32fb6e19c6490c74f12745192ca",
+        "git_blob_sha1": "eba7f6db2fd6264990612bd99acd0b92b0cdf42d"
+      },
+      {
+        "path": "dreamerv3_compat/scores/plot.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/scores/plot.py",
+        "bytes": 5450,
+        "sha256": "21615b1a2e25b9f4584500ed34d35a1c9ddc6aa530f78684030d201a89719ade",
+        "git_blob_sha1": "ccba59622785038882e30cabbb7ff2df9b53a7e0"
+      },
+      {
+        "path": "dreamerv3_compat/scores/view.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/scores/view.py",
+        "bytes": 817,
+        "sha256": "da9482af08f1dfe6c90c1dc400211764bc93186762b7936284092c037ff04da9",
+        "git_blob_sha1": "254ae67a0976f82344ecbcfe40199299a5e4eebd"
+      },
+      {
+        "path": "dreamerv3_compat/setup.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/dreamerv3_compat/setup.py",
+        "bytes": 812,
+        "sha256": "514d07929022dcebca9007c97c829877df6c4c90c38a1640a69c5671b1a5595e",
+        "git_blob_sha1": "3cc7ef0c0aed1019afe8d7e3111b980c49e7596c"
+      },
+      {
+        "path": "local_scripts/ball_in_cup_expert_local.sh",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/local_scripts/ball_in_cup_expert_local.sh",
+        "bytes": 1569,
+        "sha256": "240e8c4198d6ec806c96801b27692566b2a5bbbe11e485ca848deb5cb6e7a1c1",
+        "git_blob_sha1": "f373bf4fc4fcd66d070aeb66cd219719678ab8e5"
+      },
+      {
+        "path": "local_scripts/main_local.sh",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/local_scripts/main_local.sh",
+        "bytes": 2375,
+        "sha256": "7e010e5ba6581603375e0d277f10b7ee09acf5a50e6e9d4cd42ce51dd2c9913a",
+        "git_blob_sha1": "7018c64d3aff7e660eea087a69766b2d2dacd6ee"
+      },
+      {
+        "path": "local_scripts/walker_expert_local.sh",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/local_scripts/walker_expert_local.sh",
+        "bytes": 1552,
+        "sha256": "23763795be192acc3b03c468907aff6c3bc08b3614f1f3899ef8977121898b22",
+        "git_blob_sha1": "2f52f74a587e8438f65661cf7e72079d6a180d69"
+      },
+      {
+        "path": "setup.py",
+        "url": "https://raw.githubusercontent.com/frankroeder/DALI/5ca393468defffe79e4e3537ba9766f6d31b510b/setup.py",
+        "bytes": 131,
+        "sha256": "209accfeef4c94747d127e25a81a260e19a43135f9bb1bb288a80b188430f6fc",
+        "git_blob_sha1": "c58781b44e59d64a25d24e2569ea3f8de6a13ff0"
+      }
+    ],
+    "manifest_sha256": "b533cae98a4ec7730fd5795ff0bbda4faac8ce4e1bca77643c0009662f083aac",
+    "source_only_snapshot": true
+  },
+  "ermongroup/CSDI": {
+    "repo": "ermongroup/CSDI",
+    "commit": "7f24a436f08d98853a6b43d4f7f04e5a65ecdf27",
+    "files": [
+      {
+        "path": "LICENSE",
+        "url": "https://raw.githubusercontent.com/ermongroup/CSDI/7f24a436f08d98853a6b43d4f7f04e5a65ecdf27/LICENSE",
+        "sha256": "76f5d72acd2d179c72f9c8d7212cc2e6904c1a15908951d0959b9ea13d528ba9",
+        "bytes": 1071,
+        "git_blob_sha1": "d1c9b92e6983a30c6177da507fae3fc5dedf4e43"
+      },
+      {
+        "path": "README.md",
+        "url": "https://raw.githubusercontent.com/ermongroup/CSDI/7f24a436f08d98853a6b43d4f7f04e5a65ecdf27/README.md",
+        "sha256": "78b960d81451647c5302684fbdd6a4312322c975fc9ff4cdc184eaa3d1af441f",
+        "bytes": 1849,
+        "git_blob_sha1": "dc4f9ee3c59d2b1cffdab87d123cad68d1e7caeb"
+      },
+      {
+        "path": "config/base.yaml",
+        "url": "https://raw.githubusercontent.com/ermongroup/CSDI/7f24a436f08d98853a6b43d4f7f04e5a65ecdf27/config/base.yaml",
+        "sha256": "a492e8e1f682cec19549da2c7f4e13cf04067f6db260142a0243aba3daaab0e7",
+        "bytes": 356,
+        "git_blob_sha1": "9a2954fb0c7a6fd981d5b7a63142087eb66d109e"
+      },
+      {
+        "path": "config/base_forecasting.yaml",
+        "url": "https://raw.githubusercontent.com/ermongroup/CSDI/7f24a436f08d98853a6b43d4f7f04e5a65ecdf27/config/base_forecasting.yaml",
+        "sha256": "99d39c52905b0c9a6569bbd4160280a149305ce3dcfcda99975952106756ef3a",
+        "bytes": 377,
+        "git_blob_sha1": "aac12abf72a28b0890d3bf2ab45c00aa48a60462"
+      },
+      {
+        "path": "dataset_forecasting.py",
+        "url": "https://raw.githubusercontent.com/ermongroup/CSDI/7f24a436f08d98853a6b43d4f7f04e5a65ecdf27/dataset_forecasting.py",
+        "sha256": "f5f796b338ea95e8cc1f4a9d9c73250b10cc646751aaff434a4a83d784f3d640",
+        "bytes": 3094,
+        "git_blob_sha1": "bd72b098e06b227e83d1b4a27de3a8dc3ff1776e"
+      },
+      {
+        "path": "dataset_physio.py",
+        "url": "https://raw.githubusercontent.com/ermongroup/CSDI/7f24a436f08d98853a6b43d4f7f04e5a65ecdf27/dataset_physio.py",
+        "sha256": "a79fd1def63b39da5bcd9a9fd897df9ae834e097188f6289f8e75ae704a2adcc",
+        "bytes": 6274,
+        "git_blob_sha1": "af7a1ab59f3e520c6e89e60a9c7ea6efdc226a16"
+      },
+      {
+        "path": "dataset_pm25.py",
+        "url": "https://raw.githubusercontent.com/ermongroup/CSDI/7f24a436f08d98853a6b43d4f7f04e5a65ecdf27/dataset_pm25.py",
+        "sha256": "923a0e9e095b6e361039c4ca909dd6819145fe4d6452c0916cf28f7f4b742710",
+        "bytes": 6649,
+        "git_blob_sha1": "9a4f9357120659658248eea31286b4fe7a868092"
+      },
+      {
+        "path": "diff_models.py",
+        "url": "https://raw.githubusercontent.com/ermongroup/CSDI/7f24a436f08d98853a6b43d4f7f04e5a65ecdf27/diff_models.py",
+        "sha256": "1271c5ba574eb7271174e8817ddd102adcfeb540236ea135a197b5f49a56d24f",
+        "bytes": 6732,
+        "git_blob_sha1": "6c4b75b6517eb15b91437dde9ff6deb0408b92b7"
+      },
+      {
+        "path": "download.py",
+        "url": "https://raw.githubusercontent.com/ermongroup/CSDI/7f24a436f08d98853a6b43d4f7f04e5a65ecdf27/download.py",
+        "sha256": "bae8ad2de3d73db4f84217c6b8e9ec26638153283117dad43df1694e02fc09b2",
+        "bytes": 1299,
+        "git_blob_sha1": "91422ca618dfe9fe6287e545d21bf830354438d1"
+      },
+      {
+        "path": "exe_forecasting.py",
+        "url": "https://raw.githubusercontent.com/ermongroup/CSDI/7f24a436f08d98853a6b43d4f7f04e5a65ecdf27/exe_forecasting.py",
+        "sha256": "4587052dd2c17d0cb3e83249fe50fe66722f708699c7f66326c50de3dfb358b5",
+        "bytes": 1972,
+        "git_blob_sha1": "5f8e46f33af28af1cc4852b4ffb8e9b2fdb16da0"
+      },
+      {
+        "path": "exe_physio.py",
+        "url": "https://raw.githubusercontent.com/ermongroup/CSDI/7f24a436f08d98853a6b43d4f7f04e5a65ecdf27/exe_physio.py",
+        "sha256": "8d50d41f021c777728319c201c0956d0d107c0d58a5c23870a1730633b79c136",
+        "bytes": 1979,
+        "git_blob_sha1": "ac038ba822cca9349b7c768cc66c08fdb2a820c6"
+      },
+      {
+        "path": "exe_pm25.py",
+        "url": "https://raw.githubusercontent.com/ermongroup/CSDI/7f24a436f08d98853a6b43d4f7f04e5a65ecdf27/exe_pm25.py",
+        "sha256": "37cdf1ae07eae54b7d1fa2c864f71fba3300d6bd3de18511dbe826be3421cd5e",
+        "bytes": 2034,
+        "git_blob_sha1": "dba7c66e50791123177430c99870e518955154a3"
+      },
+      {
+        "path": "main_model.py",
+        "url": "https://raw.githubusercontent.com/ermongroup/CSDI/7f24a436f08d98853a6b43d4f7f04e5a65ecdf27/main_model.py",
+        "sha256": "c3702366be9b439f3abff74c304d08efd5488c4a8e0b85a1aa7d7072cf1db0d8",
+        "bytes": 16212,
+        "git_blob_sha1": "314a12a4d28e36eec63efe68b9350c42f13e70d8"
+      },
+      {
+        "path": "requirements.txt",
+        "url": "https://raw.githubusercontent.com/ermongroup/CSDI/7f24a436f08d98853a6b43d4f7f04e5a65ecdf27/requirements.txt",
+        "sha256": "6a14207beb17400d8595e111a5bc2d26f4886acea7d84952f501a419d5d372ce",
+        "bytes": 76,
+        "git_blob_sha1": "8485455c3ff70c768744596203e143b87fbcb070"
+      },
+      {
+        "path": "utils.py",
+        "url": "https://raw.githubusercontent.com/ermongroup/CSDI/7f24a436f08d98853a6b43d4f7f04e5a65ecdf27/utils.py",
+        "sha256": "7449ec7b9026ab3e9bae1b8b19e98f5ff4f61b7b364f01112fc8e6b12f15befe",
+        "bytes": 7794,
+        "git_blob_sha1": "e972dca638bf9f298918786bdfb518e107cf2ea5"
+      }
+    ],
+    "manifest_sha256": "e2a351635e6973f82b01224fdb2e777b47f1cdc2216f5ef6f720c50157debfe2",
+    "source_only_snapshot": true
+  }
+}

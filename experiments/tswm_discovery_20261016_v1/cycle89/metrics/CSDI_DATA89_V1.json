@@ -1,0 +1,45 @@
+{
+  "utc": "2026-10-18T19:09:55.895270+00:00",
+  "files": [
+    {
+      "split": "train",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle89\\csdi_v1\\train.npz",
+      "sha256": "9648741ddf01837d1af3e74f35dee7597203dad7d5b68a44ab01d7e3c60467fc",
+      "shape": [
+        8192,
+        4,
+        72
+      ]
+    },
+    {
+      "split": "cal",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle89\\csdi_v1\\cal.npz",
+      "sha256": "a0535f94147ba1dd13ae21d6ec89f740745f3fb55793ee5a196c79ba7bedcdad",
+      "shape": [
+        256,
+        4,
+        72
+      ]
+    },
+    {
+      "split": "eval_queries",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle89\\csdi_v1\\eval_queries.npz",
+      "sha256": "ecac7ec93134d580c01f5a0046d9f5a46da52da3e14744f0723107c0fa734762",
+      "queries": 64,
+      "groups_per_family": 8,
+      "plans_per_group": 4
+    }
+  ],
+  "center": [
+    -0.0002943238396268834,
+    -0.0005104383609752342
+  ],
+  "scale": [
+    0.40168422282829164,
+    0.3107230482039243
+  ],
+  "protocol_sha256": "99d5bc848818ef53c1605bb6646ccd0599be0e871abab7a872eab54367a31fa1",
+  "simulator_sha256": "bb45b44018487816eff5da699fce880eb662fae9634c7e5b83210af134579508",
+  "elapsed_seconds": 1.0456539999577217,
+  "eval_used_for_fit_or_selection": false
+}

@@ -1,0 +1,54 @@
+{
+  "utc": "2026-10-18T19:13:52.797561+00:00",
+  "status": "PILOT_TRAINING_COMPLETE_GENERATOR_COMPETENCE_UNASSESSED",
+  "updates": 3000,
+  "optimizer_seed": 20268913,
+  "selected_step": 3000,
+  "cal_denoising_mse": 0.04562739082117332,
+  "trace": [
+    {
+      "step": 0,
+      "cal_denoising_mse": 1.0030238032341003,
+      "elapsed_seconds": 2.0642925999709405
+    },
+    {
+      "step": 500,
+      "cal_denoising_mse": 0.09864577783388086,
+      "elapsed_seconds": 29.78674549999414
+    },
+    {
+      "step": 1000,
+      "cal_denoising_mse": 0.07537567902123556,
+      "elapsed_seconds": 57.1702863999526
+    },
+    {
+      "step": 2000,
+      "cal_denoising_mse": 0.0585469847737113,
+      "elapsed_seconds": 111.45711779996054
+    },
+    {
+      "step": 3000,
+      "cal_denoising_mse": 0.04562739082117332,
+      "elapsed_seconds": 165.56635859998642
+    }
+  ],
+  "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle89\\csdi_v1\\selected.pt",
+  "checkpoint_sha256": "c47bda07c64571cd37c081c98d929becf46919f6855273182febf9f2c6582c61",
+  "source": {
+    "root": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\caches\\cycle89\\CSDI_7f24a436_v1",
+    "revision": "7f24a436f08d98853a6b43d4f7f04e5a65ecdf27",
+    "sha256": {
+      "main_model.py": "c3702366be9b439f3abff74c304d08efd5488c4a8e0b85a1aa7d7072cf1db0d8",
+      "diff_models.py": "1271c5ba574eb7271174e8817ddd102adcfeb540236ea135a197b5f49a56d24f"
+    },
+    "unused_optional_import_sentinel": false
+  },
+  "source_files_unchanged": true,
+  "data_manifest_sha256": "e3f22a3a8142265288515dbaea25975dfffd39dd5227fde18a2dffe4768e604b",
+  "protocol_sha256": "99d5bc848818ef53c1605bb6646ccd0599be0e871abab7a872eab54367a31fa1",
+  "parameters": 413569,
+  "elapsed_seconds": 165.59671349998098,
+  "peak_allocated_bytes": 1210258432,
+  "eval_queries_accessed": false,
+  "accepted_research_directions": 0
+}

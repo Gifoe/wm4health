@@ -1,7 +1,11 @@
-Closed C88 decision: **retire the new-method candidate based on fixing action anticipation**. The original registered ordinary-control criterion is satisfied. The stronger supplementary post-edit response check fails and remains unresolved; no all-metrics simulation-fidelity success is claimed. Do not restart this route or tune its edit cases to salvage novelty. See DECISION_RECONCILIATION88_V1.md. Overall research goal ACTIVE/UNACHIEVED; accepted directions0.
+# Current time-series world-model research status
 
-# Current time-series world-model research status — C88
+C89 closure: actual native stochastic time-series transfer, finite compatibility stress and ordinary falsification controls. **Research goal ACTIVE/UNACHIEVED; accepted final directions0.**
 
-Goal ACTIVE/UNACHIEVED; accepted novel directions0. C87 remains a limited negative study with incomplete numerical rollout qualification. C88 now adds four actual1000-update learned-core fits, an ordinary ARX4, and paired primitive-action suffix tests on two nonlinear partially observed families. This is a controlled transfer experiment, not original-paper score reproduction.
+Nine critic fits do not constitute nine world models. Twenty-seven standard IPF cells retain at least99.605944% mechanism agreement with maximum branch TV2.03776e-05; only9 meet strict tolerance. This weakens the new-method justification.
 
-Current C88 decision: UNRESOLVED_DEVELOPMENTAL_COMPARISON_NO_NOVELTY_ESTABLISHED. Original ordinary-fix gate=True; additional competence=True; paired response comparability=False. A simple causal reindexing is not a novel method. Full results/negative evidence are in cycle88/. No positive generalization claim is supported by one developmental pool/one seed. Raw data, weights and predictions remain remote; GitHub receives source, compact results and logs only. The independent C71 full-budget campaign is preserved.
+One native CSDI model completed3000 updates and64-query distributional evaluation. It beats the deterministic posterior mean on energy in both systems but fails both physical-support competence screens. No learned-generator coupling failure claim is supported. Two ordinary EM transition-mixture fits completed, but future rollout overflows; no successful strong-model comparison is claimed.
+
+Candidate: probability-preserving and physically consistent multi-action simulation. Generic novelty is unverified; no final paper direction or architecture is accepted. The next scientific test requires qualified learned generators and closest existing coupling controls. See cycle89/final_research_direction.md and all negative evidence.
+
+Original C88 action-timing candidate remains retired. All earlier work, independent long-running C71 campaign and unrelated experiments are preserved. Raw data/checkpoints/sample arrays remain only on the server storage volume; publication contains authored source, protocols, bounded metrics and reports.

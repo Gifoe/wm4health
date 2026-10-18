@@ -1,0 +1,56 @@
+{
+  "utc": "2026-10-18T18:38:56.178357+00:00",
+  "status": "SINGLE_WORLD_MEMBERSHIP_NOT_VALID_FOR_POSTERIOR_MEAN",
+  "rows": [
+    {
+      "family": 0,
+      "posterior_weights": [
+        0.5,
+        0.5
+      ],
+      "identical_context_max_abs": 0.0,
+      "best_single_k": 0.9219841079442351,
+      "single_world_calibration_rms": 0.050471451517830015,
+      "single_world_heldout_rms": 0.06373417000514212,
+      "single_world_relative_heldout_rms": 0.12754809919826685,
+      "mixture_weight_from_calibration": 0.5,
+      "mixture_calibration_rms": 0.0,
+      "mixture_heldout_rms": 0.0,
+      "query_switch_global_weight": 0.6247350279436388,
+      "query_switch_calibration_rms": 0.16080180156934443,
+      "query_switch_heldout_rms": 0.19042198550341513,
+      "calibration_queries": 8,
+      "heldout_queries": 32
+    },
+    {
+      "family": 1,
+      "posterior_weights": [
+        0.5,
+        0.5
+      ],
+      "identical_context_max_abs": 0.0,
+      "best_single_k": 0.9208005420750149,
+      "single_world_calibration_rms": 0.003970455137640487,
+      "single_world_heldout_rms": 0.003599647525899557,
+      "single_world_relative_heldout_rms": 0.011437054513393085,
+      "mixture_weight_from_calibration": 0.5,
+      "mixture_calibration_rms": 0.0,
+      "mixture_heldout_rms": 0.0,
+      "query_switch_global_weight": 0.5702054601772198,
+      "query_switch_calibration_rms": 0.0313073674222503,
+      "query_switch_heldout_rms": 0.02870554141517336,
+      "calibration_queries": 8,
+      "heldout_queries": 32
+    }
+  ],
+  "qualification_only": true,
+  "learned_models_executed": 0,
+  "new_scientific_training_fits": 0,
+  "proof_of_novelty": false,
+  "full_joint_distribution_coherence_certified": false,
+  "payload_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle89\\oracle_belief_qualification89_v1.npz",
+  "payload_sha256": "f953efb0324c53a993153db380938478f414853ed4ca0e927fa25057759118fc",
+  "simulator_script_sha256": "bb45b44018487816eff5da699fce880eb662fae9634c7e5b83210af134579508",
+  "protocol_sha256": "19548bd36acbdfbe4b896868e167e58e6444e4e5546c48677fb7649bf313378d",
+  "elapsed_seconds": 9.174561400024686
+}
