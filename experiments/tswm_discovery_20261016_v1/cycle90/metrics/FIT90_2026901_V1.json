@@ -1,0 +1,63 @@
+{
+  "utc": "2026-10-18T19:45:25.516213+00:00",
+  "status": "FULL_BUDGET_NATIVE_FIT_COMPLETE_CAL_SCREEN_PENDING",
+  "seed": 2026901,
+  "updates": 20000,
+  "selected_step": 20000,
+  "cal_denoising_mse": 0.024178682384226702,
+  "trace": [
+    {
+      "step": 0,
+      "cal_denoising_mse": 1.0032513511180878,
+      "elapsed_seconds": 2.0425604000338353
+    },
+    {
+      "step": 1000,
+      "cal_denoising_mse": 0.07297533528239,
+      "elapsed_seconds": 55.84331020002719
+    },
+    {
+      "step": 3000,
+      "cal_denoising_mse": 0.055747415674850344,
+      "elapsed_seconds": 162.25274800002808
+    },
+    {
+      "step": 6000,
+      "cal_denoising_mse": 0.04379021491971798,
+      "elapsed_seconds": 322.1838974999846
+    },
+    {
+      "step": 10000,
+      "cal_denoising_mse": 0.0405445895853336,
+      "elapsed_seconds": 534.6962212999933
+    },
+    {
+      "step": 15000,
+      "cal_denoising_mse": 0.036397121850459374,
+      "elapsed_seconds": 805.3935342000332
+    },
+    {
+      "step": 20000,
+      "cal_denoising_mse": 0.024178682384226702,
+      "elapsed_seconds": 1068.5608278000145
+    }
+  ],
+  "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle90\\native_seed2026901_v1\\selected.pt",
+  "checkpoint_sha256": "4592ae70f820e5ebd6b3a2a54a4c9c71f1b56045d2d9288e2e0ee7f0f379c493",
+  "source": {
+    "root": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\caches\\cycle89\\CSDI_7f24a436_v1",
+    "revision": "7f24a436f08d98853a6b43d4f7f04e5a65ecdf27",
+    "sha256": {
+      "main_model.py": "c3702366be9b439f3abff74c304d08efd5488c4a8e0b85a1aa7d7072cf1db0d8",
+      "diff_models.py": "1271c5ba574eb7271174e8817ddd102adcfeb540236ea135a197b5f49a56d24f"
+    },
+    "unused_optional_import_sentinel": false
+  },
+  "source_files_unchanged": true,
+  "protocol_sha256": "ef1591c7e81a28608cae4b8845f82beeeec8858649dee95d80942783ee91c2fe",
+  "data_manifest_sha256": "e3f22a3a8142265288515dbaea25975dfffd39dd5227fde18a2dffe4768e604b",
+  "eval_accessed": false,
+  "parameters": 413569,
+  "peak_allocated_bytes": 1210258432,
+  "elapsed_seconds": 1068.5938115000026
+}
