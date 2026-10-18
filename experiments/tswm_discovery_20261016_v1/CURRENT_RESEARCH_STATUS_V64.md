@@ -1,0 +1,15 @@
+# Current research status V64
+
+Updated 18 October 2026. Overall autonomous research goal ACTIVE / UNACHIEVED. Accepted final directions: 0.
+
+C64 closed a Gaussian attribution study of frozen observational trajectory laws under sequential intervention. It is not a new method, learned diffusion reproduction or real-data result. See [cycle64 reports](cycle64/README.md).
+
+At gain2/H64, across three independent training seeds and two fixed intervention plans, normalized Gaussian discrepancy was 0.834823 for direct block conditioning, 0.008559 for ordinary causal AR, and 0.108579 for the same frozen joint checkpoint's temporal causal factorization (no refit). All six known-policy and all six estimated-policy ratio laws in that cell were nonintegrable; over the full registered grid there were 16 invalid ratio rows out of 192. A fixed eigenvalue floor gave 37.3287 error in that hardest cell. This is finite estimated-density incompatibility, not failure of the exact causal identity.
+
+Oracle plug-in DDIM at 1024 steps still had 0.761772 discrepancy at gain2/H64; identical-budget exact target scores gave 0.002991. This isolates guidance approximation from solver error but does not validate a new sampler. Ordinary Gibbs/annealed SMC had excess moment discrepancy in the fixed budgets. Crucially, all H64/P512 exact iid target references also failed the original <=.1 moment threshold, so the raw failure count cannot establish an algorithmic research gap.
+
+Independent replay passed: all 12 raw corpora and 48 checkpoints hashed; 480 original learned-law, 96 same-joint, 168 particle and 144 DDIM final-law rows verified. Max scaled arithmetic difference 4.263e-10. Another 144 exact iid references were checked with max absolute W2 arithmetic difference 2.274e-13. Shared horizon prefixes are dependent; no neural training occurred. Same-joint and iid controls were added after the initial screen and disclosed, without changing original results or tuning settings.
+
+Research decision: do not turn known conditioning bias, inverse policy weighting, causal factorization or generic SMC into a claimed innovation. The sole prioritized provisional question is actual frozen nonlinear generator reuse under sequential interventions, compared with strongest existing causal/sequential generation and posterior sampling. It remains untested; ordinary causal AR already repairs the present system. A real model API/access pattern and nonlinear held-out mechanism test are required before any new-framework claim.
+
+Earlier C60-C63 artifacts remain intact: native NSSM and HSMM supplied strong existing repairs, C62 provides a partial native PRO-DYN reproduction with recorded crashes, and C63 is a qualified untrained COFE component audit. No prior negatives are erased or counted as novel successes. Raw arrays/checkpoints remain under authorized server G storage; compact code/config/reports/receipts are uploaded to GitHub. Upstream TDS files are not redistributed because a root license was not located. No result files are synchronized locally.

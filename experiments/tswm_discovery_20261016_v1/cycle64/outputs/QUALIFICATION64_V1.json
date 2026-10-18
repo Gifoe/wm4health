@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-18T01:27:33.385608+00:00",
+  "status": "PASS",
+  "max_oracle_conditional_difference": 1.5543122344752192e-15,
+  "oracle_cases": 16,
+  "noisy_log_ratio_score_fd_error": 8.811396057240017e-12,
+  "native_smc_weight_ESS": 2.571428571428571,
+  "native_smc_tilt_fixture_mean": 0.2910378338742773,
+  "native_smc_tilt_truth_mean": 0.3,
+  "compatibility": [
+    "optional numba import",
+    "optional jit decorator on inverse_cdf; Python algorithm unchanged"
+  ],
+  "source_receipt_sha256": "bd0de9da7e529b84d6c493d4f708f6bca0f4c245358446103eca1ce9d445d9ab",
+  "protocol_sha256": "47a3775034d239ca254933177f690e48271d842812edd24015b409ece62adc41",
+  "scope": "Generic author Feynman-Kac utility, not full TDS denoiser reproduction. Model/algorithm functions unchanged except optional JIT decorator removal."
+}

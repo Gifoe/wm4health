@@ -1,0 +1,3 @@
+# Prefix identifiability and numerical fitting
+
+H1 with fixed Y0 makes the autoregressive-state column collinear with the intercept. Fit64_v2 therefore uses least squares via SVD, not inversion of singular normal equations. The one-step conditional prediction remains estimable; separate rho/intercept recovery is not claimed at H1. Likewise its behavior slope/intercept are not separately identified from one fixed initial state. H1 remains an oracle causal-conditioning negative control, not evidence of full dynamical parameter identification. No fitted outcome or score had been opened when this numerical correction was made.

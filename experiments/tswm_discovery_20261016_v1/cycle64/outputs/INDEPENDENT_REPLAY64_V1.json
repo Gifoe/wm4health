@@ -1,0 +1,150 @@
+{
+  "utc": "2026-10-18T01:35:20.950400+00:00",
+  "status": "PASS",
+  "counts": {
+    "data_hashes": 12,
+    "checkpoint_hashes": 48,
+    "learned_rows": 480,
+    "same_joint_rows": 96,
+    "particle_rows": 168,
+    "DDIM_moment_rows": 144
+  },
+  "max_scaled_errors": {
+    "conditional_covariance_QR": 1.4583763819155978e-10,
+    "observational_validation_NLL": 2.4378454307019865e-11,
+    "AR_QR_predictions": 1.3319428327217125e-13,
+    "AR_QR_variance": 4.443914842867984e-17,
+    "policy_QR_predictions": 7.129713674953387e-14,
+    "policy_QR_variance": 8.879147314448005e-17,
+    "joint_causalization_A": 1.1457585733841439e-14,
+    "joint_causalization_B": 6.168388916915498e-15,
+    "joint_causalization_b": 2.415705305117776e-16,
+    "joint_causalization_variance": 8.421181876749336e-16,
+    "metric_gaussian_W2_squared": 1.8744031167262e-10,
+    "metric_normalized_Gaussian_moment_discrepancy": 4.262785586832022e-10,
+    "metric_mean_MSE": 5.498874868596394e-11,
+    "metric_variance_trace_ratio": 2.358991950543425e-12,
+    "metric_terminal_tail_probability": 1.4136665433919121e-11,
+    "metric_true_terminal_tail_probability": 5.420281583283197e-17,
+    "metric_terminal_tail_abs_error": 1.4531411532700641e-11,
+    "weight_normalization": 6.661338147750939e-16,
+    "metric_Gaussian_moment_projection_W2_squared": 1.6458349545479419e-12,
+    "metric_Gaussian_moment_tail_probability": 2.3968811359828874e-16,
+    "empirical_ESS": 1.9974261385935428e-15
+  },
+  "invalid_rows": [
+    {
+      "gain": 2.0,
+      "horizon": 64,
+      "data_seed": 2021,
+      "query": "zero",
+      "method": "ratio_known_policy"
+    },
+    {
+      "gain": 2.0,
+      "horizon": 64,
+      "data_seed": 2021,
+      "query": "zero",
+      "method": "ratio_estimated_policy"
+    },
+    {
+      "gain": 2.0,
+      "horizon": 64,
+      "data_seed": 2021,
+      "query": "sine",
+      "method": "ratio_known_policy"
+    },
+    {
+      "gain": 2.0,
+      "horizon": 64,
+      "data_seed": 2021,
+      "query": "sine",
+      "method": "ratio_estimated_policy"
+    },
+    {
+      "gain": 2.0,
+      "horizon": 16,
+      "data_seed": 2022,
+      "query": "zero",
+      "method": "ratio_known_policy"
+    },
+    {
+      "gain": 2.0,
+      "horizon": 16,
+      "data_seed": 2022,
+      "query": "zero",
+      "method": "ratio_estimated_policy"
+    },
+    {
+      "gain": 2.0,
+      "horizon": 16,
+      "data_seed": 2022,
+      "query": "sine",
+      "method": "ratio_known_policy"
+    },
+    {
+      "gain": 2.0,
+      "horizon": 16,
+      "data_seed": 2022,
+      "query": "sine",
+      "method": "ratio_estimated_policy"
+    },
+    {
+      "gain": 2.0,
+      "horizon": 64,
+      "data_seed": 2022,
+      "query": "zero",
+      "method": "ratio_known_policy"
+    },
+    {
+      "gain": 2.0,
+      "horizon": 64,
+      "data_seed": 2022,
+      "query": "zero",
+      "method": "ratio_estimated_policy"
+    },
+    {
+      "gain": 2.0,
+      "horizon": 64,
+      "data_seed": 2022,
+      "query": "sine",
+      "method": "ratio_known_policy"
+    },
+    {
+      "gain": 2.0,
+      "horizon": 64,
+      "data_seed": 2022,
+      "query": "sine",
+      "method": "ratio_estimated_policy"
+    },
+    {
+      "gain": 2.0,
+      "horizon": 64,
+      "data_seed": 2023,
+      "query": "zero",
+      "method": "ratio_known_policy"
+    },
+    {
+      "gain": 2.0,
+      "horizon": 64,
+      "data_seed": 2023,
+      "query": "zero",
+      "method": "ratio_estimated_policy"
+    },
+    {
+      "gain": 2.0,
+      "horizon": 64,
+      "data_seed": 2023,
+      "query": "sine",
+      "method": "ratio_known_policy"
+    },
+    {
+      "gain": 2.0,
+      "horizon": 64,
+      "data_seed": 2023,
+      "query": "sine",
+      "method": "ratio_estimated_policy"
+    }
+  ],
+  "scope": "Independent SciPy QR refits, structural truth, direct sequential Gaussian regressions, SVD Bures moments, all saved weights and DDIM final-law metrics. Does not independently execute a neural diffusion model or prove novelty."
+}

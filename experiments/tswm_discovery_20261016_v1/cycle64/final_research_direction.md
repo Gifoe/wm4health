@@ -1,0 +1,17 @@
+# Research judgment after C64
+
+**Research Question:** Can a real frozen nonlinear whole-trajectory time-series generator be reused for sequential interventions, with defensible distributional fidelity and useful inference cost, beyond existing causal factorization and posterior sampling?
+
+**Evidence:** C64 proves an attribution phenomenon on a fully observed Gaussian feedback process. Direct block conditioning is wrong for intervention; independently estimated policy removal can become nonintegrable; a denoised-mean plug-in score remains inaccurate even with many DDIM steps. These are controlled facts, not a demonstrated novel gap. Causal AR largely repairs the problem; same-joint temporal factorization is a valid no-refit control. Original SMC threshold failures are partly confounded by the finite-particle sampling floor.
+
+**Existing Methods:** Causal AR, temporal factorization and sequential g-computation already address causal semantics. CaTSG, ADMIT, DiffPO, Diffusion Forcing and TDS occupy nearby causal-generation/guidance territory. C64 has not shown their inadequacy on an actual learned nonlinear checkpoint. It would be unoriginal to rename these ingredients as a new framework.
+
+**Proposed Idea:** No new mechanism is accepted. First test the narrow frozen-generator reuse question using an actual released architecture and access pattern. A proposed correction or distillation method should be designed only after an existing-method failure survives fair-information, training, sampler and iid-floor controls. Ordinary posterior expectation guidance, SMC and sequential density factorization are baselines, not innovations.
+
+**Falsification:** Abandon if ordinary autoregressive/causal generation, available same-checkpoint factorization, or a strong generic conditional sampler reaches the target at comparable total cost. Abandon a score-only access limitation if it is not representative of an actual intended model. Also abandon if error is explained by low observational fit, unsupported actions, hidden confounding, finite sampling, or unfair compute. A new mechanism must improve sealed held-out mechanisms and policies across multiple seeds without future truth tuning.
+
+**Feasibility:** The current exact Gaussian harness, saved raw corpora, learned covariance checkpoints and qualified native FK component are ready. A small nonlinear sequence model and causal density baseline fit a single RTX5090, but the current Gaussian study used CPU only. No performance or runtime for an unimplemented nonlinear model is asserted. Existing GPU/native instability noted in C62 should be qualified before a long run, without altering unrelated environments.
+
+**Next Experiment:** Inspect the real CaTSG/ADMIT or a comparably available sequential generator's preprocessing, causal assumptions and conditioning interface; choose a genuine reusable checkpoint/access pattern. Before training, register a small nonlinear multi-mechanism feedback test with one held-out mechanism, correct observational NLL and interventional distribution metrics calibrated to exact iid floors. Compare causal training and strongest applicable frozen-model factorization/SMC. Reject the candidate if these already solve it. This is the highest priority falsification test, not a final recommended paper direction.
+
+Final decision: overall goal ACTIVE / UNACHIEVED. Accepted final directions: **0**. C64 is closed and reproducible; novelty remains unproven.
