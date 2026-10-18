@@ -1,0 +1,41 @@
+{
+  "utc": "2026-10-18T09:42:54.299154+00:00",
+  "status": "POSTDISCOVERY_FIXED_OFFSET_PROFILES_AND_LINEAR_RESPONSE_IDENTITY_VERIFIED",
+  "protocol_sha256": "50edc3e05e9e9cf632ede290896acce9f4f12e78687cdc154df92a1551ecd58e",
+  "composition_result_sha256": "0285ce3a24fa540a31f1c2fd1adbb1a515b1455eb14cc9bae33b902287cde00f",
+  "source_response": [
+    {
+      "dataset": "EMPS",
+      "one_minus_sum_output_lags": -0.0006186626526587524,
+      "homogeneous_R1_minus_one_rms": 0.006316587869608752,
+      "homogeneous_R1_minus_one_max_abs": 0.01168514473074067,
+      "R1_last": 1.0116851447307407,
+      "unit_sum_mathematical_fixture_max_abs": 0.0,
+      "physical_nonidentifiability_proven": false
+    },
+    {
+      "dataset": "F16",
+      "one_minus_sum_output_lags": 0.3200745114788772,
+      "homogeneous_R1_minus_one_rms": 1.3154481576087507,
+      "homogeneous_R1_minus_one_max_abs": 2.4906724597865795,
+      "R1_last": -0.5383421506814253,
+      "unit_sum_mathematical_fixture_max_abs": 0.0,
+      "physical_nonidentifiability_proven": false
+    }
+  ],
+  "profile_rows": 324,
+  "forecast_values_verified": 9642240,
+  "independent_scalar_replay_checks": 2916,
+  "independent_scalar_replay_max_abs": 4.399258735077183e-14,
+  "translation_formula_max_abs": 1.176836406102666e-14,
+  "metric_reconstruction_max_abs": 0.0,
+  "original_maps_changed": false,
+  "offset_selected_from_DEV": false,
+  "privileged_offset_used_as_method": false,
+  "new_fits": 0,
+  "accepted_final_directions": 0,
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "official_test_values_parsed": false,
+  "wall_seconds": 43.14360340000712,
+  "local_result_files_written": 0
+}

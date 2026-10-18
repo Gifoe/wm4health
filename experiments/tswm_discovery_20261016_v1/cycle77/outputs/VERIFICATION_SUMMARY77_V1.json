@@ -1,0 +1,235 @@
+{
+  "utc": "2026-10-18T09:37:14.800155+00:00",
+  "status": "FROZEN_TRANSPORT_ALL_TARGETS_METRICS_SUPPORT_CONTRASTS_AND_REPLAYS_VERIFIED",
+  "result_sha256": "0285ce3a24fa540a31f1c2fd1adbb1a515b1455eb14cc9bae33b902287cde00f",
+  "forecast_values_verified": 1787904,
+  "replay_checks": 432,
+  "max_replay_abs": 2.842170943040401e-14,
+  "metric_reconstruction_max_abs": 0.0,
+  "canonical_inverse_max_abs": 3.552713678800501e-15,
+  "contrast_reconstruction_max_abs": 0.0,
+  "diagonal_checks": [
+    {
+      "destination": "EMPS",
+      "condition": "identity",
+      "family": "C75_innovation_monotone",
+      "max_abs": 3.774758283725532e-15
+    },
+    {
+      "destination": "EMPS",
+      "condition": "identity",
+      "family": "C76_simulation_affine",
+      "max_abs": 0.0
+    },
+    {
+      "destination": "EMPS",
+      "condition": "identity",
+      "family": "C76_simulation_monotone",
+      "max_abs": 0.0
+    },
+    {
+      "destination": "EMPS",
+      "condition": "affine",
+      "family": "C75_innovation_monotone",
+      "max_abs": 4.218847493575595e-15
+    },
+    {
+      "destination": "EMPS",
+      "condition": "affine",
+      "family": "C76_simulation_affine",
+      "max_abs": 0.0
+    },
+    {
+      "destination": "EMPS",
+      "condition": "affine",
+      "family": "C76_simulation_monotone",
+      "max_abs": 0.0
+    },
+    {
+      "destination": "EMPS",
+      "condition": "nonlinear",
+      "family": "C75_innovation_monotone",
+      "max_abs": 4.6351811278100286e-15
+    },
+    {
+      "destination": "EMPS",
+      "condition": "nonlinear",
+      "family": "C76_simulation_affine",
+      "max_abs": 0.0
+    },
+    {
+      "destination": "EMPS",
+      "condition": "nonlinear",
+      "family": "C76_simulation_monotone",
+      "max_abs": 0.0
+    },
+    {
+      "destination": "F16",
+      "condition": "identity",
+      "family": "C75_innovation_monotone",
+      "max_abs": 2.042810365310288e-14
+    },
+    {
+      "destination": "F16",
+      "condition": "identity",
+      "family": "C76_simulation_affine",
+      "max_abs": 0.0
+    },
+    {
+      "destination": "F16",
+      "condition": "identity",
+      "family": "C76_simulation_monotone",
+      "max_abs": 0.0
+    },
+    {
+      "destination": "F16",
+      "condition": "affine",
+      "family": "C75_innovation_monotone",
+      "max_abs": 2.398081733190338e-14
+    },
+    {
+      "destination": "F16",
+      "condition": "affine",
+      "family": "C76_simulation_affine",
+      "max_abs": 0.0
+    },
+    {
+      "destination": "F16",
+      "condition": "affine",
+      "family": "C76_simulation_monotone",
+      "max_abs": 0.0
+    },
+    {
+      "destination": "F16",
+      "condition": "nonlinear",
+      "family": "C75_innovation_monotone",
+      "max_abs": 2.1760371282653068e-14
+    },
+    {
+      "destination": "F16",
+      "condition": "nonlinear",
+      "family": "C76_simulation_affine",
+      "max_abs": 0.0
+    },
+    {
+      "destination": "F16",
+      "condition": "nonlinear",
+      "family": "C76_simulation_monotone",
+      "max_abs": 0.0
+    }
+  ],
+  "grid_checks": [
+    {
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C75_innovation_monotone",
+      "max_metric_abs": 0.0
+    },
+    {
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C76_simulation_affine",
+      "max_metric_abs": 0.0
+    },
+    {
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C76_simulation_monotone",
+      "max_metric_abs": 0.0
+    },
+    {
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C75_innovation_monotone",
+      "max_metric_abs": 1.1102230246251565e-16
+    },
+    {
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C76_simulation_affine",
+      "max_metric_abs": 0.0
+    },
+    {
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C76_simulation_monotone",
+      "max_metric_abs": 1.1102230246251565e-16
+    },
+    {
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C75_innovation_monotone",
+      "max_metric_abs": 2.220446049250313e-16
+    },
+    {
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C76_simulation_affine",
+      "max_metric_abs": 0.0
+    },
+    {
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C76_simulation_monotone",
+      "max_metric_abs": 2.220446049250313e-16
+    },
+    {
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C75_innovation_monotone",
+      "max_metric_abs": 2.59015899006787e-16
+    },
+    {
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C76_simulation_affine",
+      "max_metric_abs": 0.0
+    },
+    {
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C76_simulation_monotone",
+      "max_metric_abs": 6.548581121812447e-17
+    },
+    {
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C75_innovation_monotone",
+      "max_metric_abs": 7.216449660063518e-16
+    },
+    {
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C76_simulation_affine",
+      "max_metric_abs": 0.0
+    },
+    {
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C76_simulation_monotone",
+      "max_metric_abs": 1.9168694409543718e-16
+    },
+    {
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C75_innovation_monotone",
+      "max_metric_abs": 2.271403551357132e-16
+    },
+    {
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C76_simulation_affine",
+      "max_metric_abs": 0.0
+    },
+    {
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C76_simulation_monotone",
+      "max_metric_abs": 5.221517662690189e-16
+    }
+  ],
+  "no_new_fit_calls_in_runner": true,
+  "imported_library_publication_sha256": "dcad56965f13ab7acd6c060c28986d456fb5dd3171b0f9da9b51597495733d1d",
+  "official_test_values_parsed": false,
+  "wall_seconds": 3.6865942000003997
+}

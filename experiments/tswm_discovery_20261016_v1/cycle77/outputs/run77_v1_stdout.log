@@ -1,0 +1,16 @@
+{"destination": "EMPS", "condition": "identity", "method": "unadapted", "observed_nrmse": 0.023877072310118073, "history_outside_value_fraction": null}
+{"destination": "EMPS", "condition": "identity", "method": "known_sensor", "observed_nrmse": 0.023877072310118073, "history_outside_value_fraction": null}
+{"destination": "EMPS", "condition": "identity", "method": "EMPS_C75_innovation_monotone", "observed_nrmse": 0.0212249479224653, "history_outside_value_fraction": 0.0008680555555555555}
+Traceback (most recent call last):
+  File "D:\tswm_discovery_20261016_v1\cycle77\scripts\run77_v1.py", line 92, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "D:\tswm_discovery_20261016_v1\cycle77\scripts\run77_v1.py", line 80, in main
+    for family in families:close(source+'_'+family,source,family,transport(coef[target],maps[source,condition,family],uh,xh,fu),maps[source,condition,family])
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\tswm_discovery_20261016_v1\cycle77\scripts\run77_v1.py", line 74, in close
+    ordered=np.concatenate([previous[r['case']+'_pred'] for r in records]);delta=float(abs(ordered-p).max())
+                            ~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "E:\Anaconda\envs\salt_env\Lib\site-packages\numpy\lib\_npyio_impl.py", line 243, in __getitem__
+    raise KeyError(f"{key} is not a file in the archive") from None
+KeyError: 'EMPS_DATA_EMPS_pred is not a file in the archive'

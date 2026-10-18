@@ -1,0 +1,3 @@
+# C77 schema correction
+
+The first run stopped at its first diagonal comparison, before any cross-system transport result. It incorrectly expected C74-style per-case prediction keys in a C75 prediction archive. Actual C75/C76 archives use pred,target,record_ids,origins. V2 validates record IDs/origins and reads pred for both sources. Keep V1 source, partial artifacts and its terminal log. No map, source dynamics, protocol, metric, support stratum, selection or input information changes. V2 writes a separate artifact directory and source/result/progress receipts. This is an implementation correction, not a model failure or an outcome-driven change.

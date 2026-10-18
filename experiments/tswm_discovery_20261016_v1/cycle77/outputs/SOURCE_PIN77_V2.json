@@ -1,0 +1,189 @@
+{
+  "utc": "2026-10-18T09:35:49.498128+00:00",
+  "protocol_sha256": "110fbdf340bafb905067ddd15f1c0267b7d8461dec128eada4d3e556d01fed0b",
+  "split_sha256": "0dafec0ef2d51007e2bb4371c2a613421a544dbfd3682fa201e7cf628980603c",
+  "results75_sha256": "67c9660dfd5cc1b400b2c1948f1a1871dff0e979bd2fe56809bd5d204f921cb7",
+  "results76_sha256": "380915d1373f505becbb77b2b750edf884ec96ad6d1dbb3b065e934d0da82ff6",
+  "source_models": {
+    "EMPS": {
+      "training_rows": 9872,
+      "ridge": 9.803165466522783,
+      "normal_equation_residual": 1.0913936421275139e-11,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_source_arx64.npy",
+      "sha256": "3e27de357bc92b98ed2adfb53c5e881ff9b9f3095bf2ed924f128898b15bef49"
+    },
+    "F16": {
+      "training_rows": 291012,
+      "ridge": 291.21253229658294,
+      "normal_equation_residual": 2.3283064365386963e-10,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_source_arx64.npy",
+      "sha256": "e29d7b87394f9d2461d660235e97d1dff944092ba1e90423d08b367b38110aae"
+    }
+  },
+  "map_pins": [
+    {
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C75_innovation_monotone",
+      "map_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_identity_monotone_inverse.json",
+      "map_sha256": "b63d578620142186065f151afc9386d3b2dd04682562e33994d3ecf72955054f",
+      "previous_diagonal_array": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_identity_source_monotone_inverse_dev.npz",
+      "previous_diagonal_array_sha256": "76b2a0946c723acc0338ed088312668626d8d317613a9f9cdbe164c4361fb7ac"
+    },
+    {
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C76_simulation_affine",
+      "map_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\EMPS_identity_simulation_affine_global_map.json",
+      "map_sha256": "82a9bcef0eea8cc84746f10c10728c84d82a682fed2d3d02f0f0eb615c929d15",
+      "previous_diagonal_array": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\EMPS_identity_simulation_affine_global_dev.npz",
+      "previous_diagonal_array_sha256": "32392a4bc74e43c2cd6932ead6f79dbcf4d313c88be83499065b348f025c1b6a"
+    },
+    {
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C76_simulation_monotone",
+      "map_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\EMPS_identity_simulation_monotone_selected_map.json",
+      "map_sha256": "798e5bd77eb2e35b18139557b556c8d34ac835d95a7348e310bff23a15e4c663",
+      "previous_diagonal_array": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\EMPS_identity_simulation_monotone_selected_dev.npz",
+      "previous_diagonal_array_sha256": "c2b5e19051efae8110a708a7693ac5d21304b9b176fb1738b98aa842fbf4d808"
+    },
+    {
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C75_innovation_monotone",
+      "map_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_affine_monotone_inverse.json",
+      "map_sha256": "e883220b414337ecf984f5b2ac9d053ef34d65b2b3991fa04a1917e23559c35c",
+      "previous_diagonal_array": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_affine_source_monotone_inverse_dev.npz",
+      "previous_diagonal_array_sha256": "857845ddee034e21db85dec56ba40f214f6b308b80d1f940b86a9cacc19f6a46"
+    },
+    {
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C76_simulation_affine",
+      "map_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\EMPS_affine_simulation_affine_global_map.json",
+      "map_sha256": "d8fa2e8943d489a393671503ca41a870690557c14fc5f5e639f167d92b4ae4e5",
+      "previous_diagonal_array": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\EMPS_affine_simulation_affine_global_dev.npz",
+      "previous_diagonal_array_sha256": "15a269659b10d2c2b29d47e9eb16e705eb6be9c2bea75c3d912f8098cbd063d1"
+    },
+    {
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C76_simulation_monotone",
+      "map_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\EMPS_affine_simulation_monotone_selected_map.json",
+      "map_sha256": "234d32104fd9b78f2ad6715fe8ae05643fd5a46c060bf80a0df6de78ca9d89ea",
+      "previous_diagonal_array": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\EMPS_affine_simulation_monotone_selected_dev.npz",
+      "previous_diagonal_array_sha256": "9aed96340932dc8f0dfc401baab4d20a6e28747211a160d4750332e2e8d2883d"
+    },
+    {
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C75_innovation_monotone",
+      "map_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_nonlinear_monotone_inverse.json",
+      "map_sha256": "1466dfa0362d49f0f4153e8b04eeca78a0114f888ebc34f187a4304bbba1f768",
+      "previous_diagonal_array": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_nonlinear_source_monotone_inverse_dev.npz",
+      "previous_diagonal_array_sha256": "9620ac8e0192ae65c30f3ece662a139a4b3bafaa0a2d7d9ef30aebffca217b73"
+    },
+    {
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C76_simulation_affine",
+      "map_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\EMPS_nonlinear_simulation_affine_global_map.json",
+      "map_sha256": "04c46d34b06519ecfe02172c6ad808a6110c8a38dc32c3a077d1ef5a56aa9d32",
+      "previous_diagonal_array": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\EMPS_nonlinear_simulation_affine_global_dev.npz",
+      "previous_diagonal_array_sha256": "e4df6f25c32c640eee6195a0207981d4ec294d7222e2bd058b987e8b98c19fce"
+    },
+    {
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C76_simulation_monotone",
+      "map_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\EMPS_nonlinear_simulation_monotone_selected_map.json",
+      "map_sha256": "4eabad10c81192c63d2d08e26f9de014aae1b1fe48c093d3a89a4756a1db70d5",
+      "previous_diagonal_array": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\EMPS_nonlinear_simulation_monotone_selected_dev.npz",
+      "previous_diagonal_array_sha256": "85ae9daca8a58ac73685d51cc3e2488bc9c5c71d674ae720cfe0b64af3bd7223"
+    },
+    {
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C75_innovation_monotone",
+      "map_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_identity_monotone_inverse.json",
+      "map_sha256": "8b0f3384f02340a123373899a90225b2c030cb5d6bd7c443ad73946ad96cd1fb",
+      "previous_diagonal_array": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_identity_source_monotone_inverse_dev.npz",
+      "previous_diagonal_array_sha256": "9816f716a983c1798ac3164cfb3137dc5a1af04a35bd395b46d7897d5cc9727b"
+    },
+    {
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C76_simulation_affine",
+      "map_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\F16_identity_simulation_affine_global_map.json",
+      "map_sha256": "40b1b1b16a373639fa1ec74076894c6d61c256ec14cab91fead7919f4587a1d4",
+      "previous_diagonal_array": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\F16_identity_simulation_affine_global_dev.npz",
+      "previous_diagonal_array_sha256": "151bb1afe642c969019d95285e09e80513fc45c09ff9ad649b6c7b83ddafded4"
+    },
+    {
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C76_simulation_monotone",
+      "map_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\F16_identity_simulation_monotone_selected_map.json",
+      "map_sha256": "5756075cddb468da54bcf44ca4f05d58a729d5a86f4909dd886a086544984c4f",
+      "previous_diagonal_array": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\F16_identity_simulation_monotone_selected_dev.npz",
+      "previous_diagonal_array_sha256": "c41cff0867a8bd3e21894b70bdae74ca9395a335d80c3ee57dca086eaadad00f"
+    },
+    {
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C75_innovation_monotone",
+      "map_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_affine_monotone_inverse.json",
+      "map_sha256": "8b41605bdddb6e1f31f1fc8637a044b451785e5a8d8ad1b1da0473525d730821",
+      "previous_diagonal_array": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_affine_source_monotone_inverse_dev.npz",
+      "previous_diagonal_array_sha256": "dd59ea8b67c20e490381fe79492328e1eea7398a53d4afa8d9f81178e9133470"
+    },
+    {
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C76_simulation_affine",
+      "map_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\F16_affine_simulation_affine_global_map.json",
+      "map_sha256": "606c81880c081dafaa078a1a1186d312733550aad0a75c39f1bd06c6e3bc707e",
+      "previous_diagonal_array": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\F16_affine_simulation_affine_global_dev.npz",
+      "previous_diagonal_array_sha256": "e6b1d76aac576bd4793d94fab1fb252fbf24b0e131e06725ce06a1b4a9eff3cd"
+    },
+    {
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C76_simulation_monotone",
+      "map_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\F16_affine_simulation_monotone_selected_map.json",
+      "map_sha256": "aaac4dda7f82d52f9bbc0a1dddfdf33882406b997c0de1f1a4c974be1211fb26",
+      "previous_diagonal_array": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\F16_affine_simulation_monotone_selected_dev.npz",
+      "previous_diagonal_array_sha256": "42e2b1282a6f16d757ab3a889e2946884e602a978957c86da0fbe1aa9f1dd048"
+    },
+    {
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C75_innovation_monotone",
+      "map_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_nonlinear_monotone_inverse.json",
+      "map_sha256": "cbf497a7d2128bf6fb7045994a0ed4fed7d40a31d8042d3e01a5d72b5a31e437",
+      "previous_diagonal_array": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_nonlinear_source_monotone_inverse_dev.npz",
+      "previous_diagonal_array_sha256": "1e8ab3e174b4cd26942466634850679cc47bc7c9278ef55bc6d6703c85d52604"
+    },
+    {
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C76_simulation_affine",
+      "map_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\F16_nonlinear_simulation_affine_global_map.json",
+      "map_sha256": "b17c1ad7be0c0cee0b66c374f1366ed78b7570a0384d7b14958df92c3b40421a",
+      "previous_diagonal_array": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\F16_nonlinear_simulation_affine_global_dev.npz",
+      "previous_diagonal_array_sha256": "7da383c31d148ae9e3f12740d11995dd2351c8e3ae06119e15d5d7caa66d1b67"
+    },
+    {
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C76_simulation_monotone",
+      "map_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\F16_nonlinear_simulation_monotone_selected_map.json",
+      "map_sha256": "161d1dd0207b216646515ebf47ce6189a3b3fe032b0c63f11de42ebc5ab03c2a",
+      "previous_diagonal_array": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle76\\simulation_v1\\F16_nonlinear_simulation_monotone_selected_dev.npz",
+      "previous_diagonal_array_sha256": "3b998c6228fb173e6da118b3e2f710063de461231866a6ad19b5798a4f9546e9"
+    }
+  ],
+  "raw_arrays_remain_server_only": true,
+  "official_test_values_parsed": false
+}

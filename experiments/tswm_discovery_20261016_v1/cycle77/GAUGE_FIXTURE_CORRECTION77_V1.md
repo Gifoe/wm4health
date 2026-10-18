@@ -1,0 +1,5 @@
+# Pure integrator qualification fixture correction
+
+Gauge V2 stopped before any offset profile because its synthetic unit-sum fixture was numerically ill-conditioned. Adjusting the first F16 autoregressive coefficient to enforce sum(a)=1 left another companion eigenvalue at1.1797485833399388. Floating-point perturbations then grew to4.390957312638832e-6 over128 steps, despite the all-one trajectory being invariant in exact arithmetic. The same construction on EMPS had radius0.9999999999999991 and error5.329070518200751e-15. This is an artificial fixture, not either actual fitted physical model.
+
+V3 uses a separate pure AR1 integrator coefficient vector(a1=1, every other coefficient0) solely to qualify the stated exact-symmetry special case. All actual model coefficients, profiles, offset choices, source/destination data, error criteria and main composition results remain unchanged. V2 code, captured exit1 and stdout are preserved; V3 writes a new artifact directory/result. No actual model root is adjusted or stabilized.
