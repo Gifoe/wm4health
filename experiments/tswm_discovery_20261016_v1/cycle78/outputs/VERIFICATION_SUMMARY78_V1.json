@@ -1,0 +1,391 @@
+{
+  "utc": "2026-10-18T09:55:55.918278+00:00",
+  "status": "HISTORY_ONLY_SUFFICIENT_STATISTICS_CONSTRAINED_SOLVES_AND_FORECASTS_VERIFIED",
+  "result_sha256": "7f6056b82af8761030b37b04c3d92f7322f1de4a7b1c46bd01fd522a1694d265",
+  "forecast_values_verified": 4022784,
+  "scalar_replay_checks": 972,
+  "scalar_replay_max_abs": 2.3092638912203256e-14,
+  "metric_reconstruction_max_abs": 0.0,
+  "canonical_inverse_reconstruction_max_abs": 0.0,
+  "innovation_solutions_independently_checked": 20952,
+  "innovation_parameter_max_abs": 2.446931546273845e-13,
+  "history_cost_max_abs": 3.410605131648481e-12,
+  "past_simulation_costs_checked": 10476,
+  "source_residual_checks": [
+    {
+      "dataset": "EMPS",
+      "source_rows": 9872,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "F16",
+      "source_rows": 291012,
+      "max_abs": 4.336808689942018e-18
+    }
+  ],
+  "independent_past_gradient_diagnostics": [
+    {
+      "destination": "EMPS",
+      "source": "EMPS",
+      "condition": "identity",
+      "family": "C75_innovation_monotone",
+      "origins": 18,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 4.486823211959697e-10,
+      "past_cost_reconstruction_max_abs": 5.2784165927022286e-14
+    },
+    {
+      "destination": "EMPS",
+      "source": "EMPS",
+      "condition": "identity",
+      "family": "C76_simulation_affine",
+      "origins": 18,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 5.101265960648013e-08,
+      "past_cost_reconstruction_max_abs": 1.0047518372857667e-13
+    },
+    {
+      "destination": "EMPS",
+      "source": "EMPS",
+      "condition": "identity",
+      "family": "C76_simulation_monotone",
+      "origins": 18,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 4.486823211959697e-10,
+      "past_cost_reconstruction_max_abs": 5.2784165927022286e-14
+    },
+    {
+      "destination": "EMPS",
+      "source": "F16",
+      "condition": "identity",
+      "family": "C75_innovation_monotone",
+      "origins": 18,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 2.557468181457398e-10,
+      "past_cost_reconstruction_max_abs": 7.840950111415168e-14
+    },
+    {
+      "destination": "EMPS",
+      "source": "F16",
+      "condition": "identity",
+      "family": "C76_simulation_affine",
+      "origins": 18,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 2.747957418661488e-10,
+      "past_cost_reconstruction_max_abs": 1.6542323066914832e-13
+    },
+    {
+      "destination": "EMPS",
+      "source": "F16",
+      "condition": "identity",
+      "family": "C76_simulation_monotone",
+      "origins": 18,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 1.8745239679875039e-10,
+      "past_cost_reconstruction_max_abs": 1.6237011735142914e-13
+    },
+    {
+      "destination": "EMPS",
+      "source": "EMPS",
+      "condition": "affine",
+      "family": "C75_innovation_monotone",
+      "origins": 18,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 4.568948515696041e-10,
+      "past_cost_reconstruction_max_abs": 5.6565863104651726e-14
+    },
+    {
+      "destination": "EMPS",
+      "source": "EMPS",
+      "condition": "affine",
+      "family": "C76_simulation_affine",
+      "origins": 18,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 2.67193388616728e-10,
+      "past_cost_reconstruction_max_abs": 1.681779715489995e-13
+    },
+    {
+      "destination": "EMPS",
+      "source": "EMPS",
+      "condition": "affine",
+      "family": "C76_simulation_monotone",
+      "origins": 18,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 4.568948515696041e-10,
+      "past_cost_reconstruction_max_abs": 5.6565863104651726e-14
+    },
+    {
+      "destination": "EMPS",
+      "source": "F16",
+      "condition": "affine",
+      "family": "C75_innovation_monotone",
+      "origins": 18,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 6.185021142164973e-11,
+      "past_cost_reconstruction_max_abs": 9.567346914707286e-14
+    },
+    {
+      "destination": "EMPS",
+      "source": "F16",
+      "condition": "affine",
+      "family": "C76_simulation_affine",
+      "origins": 18,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 1.8269126250865242e-10,
+      "past_cost_reconstruction_max_abs": 1.1887019146783473e-13
+    },
+    {
+      "destination": "EMPS",
+      "source": "F16",
+      "condition": "affine",
+      "family": "C76_simulation_monotone",
+      "origins": 18,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 1.79530519140228e-10,
+      "past_cost_reconstruction_max_abs": 1.3553047573111598e-13
+    },
+    {
+      "destination": "EMPS",
+      "source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C75_innovation_monotone",
+      "origins": 18,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 6.072131441322431e-10,
+      "past_cost_reconstruction_max_abs": 5.737077479750496e-14
+    },
+    {
+      "destination": "EMPS",
+      "source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C76_simulation_affine",
+      "origins": 18,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 0.006922678562465461,
+      "past_cost_reconstruction_max_abs": 7.183142969324763e-14
+    },
+    {
+      "destination": "EMPS",
+      "source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C76_simulation_monotone",
+      "origins": 18,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 6.072131441322431e-10,
+      "past_cost_reconstruction_max_abs": 5.737077479750496e-14
+    },
+    {
+      "destination": "EMPS",
+      "source": "F16",
+      "condition": "nonlinear",
+      "family": "C75_innovation_monotone",
+      "origins": 18,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 0.0026099880087585743,
+      "past_cost_reconstruction_max_abs": 9.711675907908557e-14
+    },
+    {
+      "destination": "EMPS",
+      "source": "F16",
+      "condition": "nonlinear",
+      "family": "C76_simulation_affine",
+      "origins": 18,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 3.923070909469563e-10,
+      "past_cost_reconstruction_max_abs": 8.232303727595536e-14
+    },
+    {
+      "destination": "EMPS",
+      "source": "F16",
+      "condition": "nonlinear",
+      "family": "C76_simulation_monotone",
+      "origins": 18,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 7.609490511664707e-11,
+      "past_cost_reconstruction_max_abs": 1.9298451725546784e-13
+    },
+    {
+      "destination": "F16",
+      "source": "EMPS",
+      "condition": "identity",
+      "family": "C75_innovation_monotone",
+      "origins": 564,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 0.17713403944502898,
+      "past_cost_reconstruction_max_abs": 8.668621376273222e-13
+    },
+    {
+      "destination": "F16",
+      "source": "EMPS",
+      "condition": "identity",
+      "family": "C76_simulation_affine",
+      "origins": 564,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 1.1711525142877395e-05,
+      "past_cost_reconstruction_max_abs": 1.1795009413617663e-12
+    },
+    {
+      "destination": "F16",
+      "source": "EMPS",
+      "condition": "identity",
+      "family": "C76_simulation_monotone",
+      "origins": 564,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 0.17713403944502898,
+      "past_cost_reconstruction_max_abs": 8.668621376273222e-13
+    },
+    {
+      "destination": "F16",
+      "source": "F16",
+      "condition": "identity",
+      "family": "C75_innovation_monotone",
+      "origins": 564,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 0.004468648772232964,
+      "past_cost_reconstruction_max_abs": 8.384404281969182e-13
+    },
+    {
+      "destination": "F16",
+      "source": "F16",
+      "condition": "identity",
+      "family": "C76_simulation_affine",
+      "origins": 564,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 1.4638791295134077e-05,
+      "past_cost_reconstruction_max_abs": 5.258016244624741e-13
+    },
+    {
+      "destination": "F16",
+      "source": "F16",
+      "condition": "identity",
+      "family": "C76_simulation_monotone",
+      "origins": 564,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 7.691082905835796e-07,
+      "past_cost_reconstruction_max_abs": 1.8474111129762605e-12
+    },
+    {
+      "destination": "F16",
+      "source": "EMPS",
+      "condition": "affine",
+      "family": "C75_innovation_monotone",
+      "origins": 564,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 0.17713403944503875,
+      "past_cost_reconstruction_max_abs": 1.0871303857129533e-12
+    },
+    {
+      "destination": "F16",
+      "source": "EMPS",
+      "condition": "affine",
+      "family": "C76_simulation_affine",
+      "origins": 564,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 1.1983230888513953e-05,
+      "past_cost_reconstruction_max_abs": 2.1316282072803006e-12
+    },
+    {
+      "destination": "F16",
+      "source": "EMPS",
+      "condition": "affine",
+      "family": "C76_simulation_monotone",
+      "origins": 564,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 0.17713403944503875,
+      "past_cost_reconstruction_max_abs": 1.0871303857129533e-12
+    },
+    {
+      "destination": "F16",
+      "source": "F16",
+      "condition": "affine",
+      "family": "C75_innovation_monotone",
+      "origins": 564,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 0.021811754175772996,
+      "past_cost_reconstruction_max_abs": 1.5063505998114124e-12
+    },
+    {
+      "destination": "F16",
+      "source": "F16",
+      "condition": "affine",
+      "family": "C76_simulation_affine",
+      "origins": 564,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 1.3772718479501893e-05,
+      "past_cost_reconstruction_max_abs": 1.5347723092418164e-12
+    },
+    {
+      "destination": "F16",
+      "source": "F16",
+      "condition": "affine",
+      "family": "C76_simulation_monotone",
+      "origins": 564,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 8.257962441925028e-07,
+      "past_cost_reconstruction_max_abs": 1.9255708139098715e-12
+    },
+    {
+      "destination": "F16",
+      "source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C75_innovation_monotone",
+      "origins": 564,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 0.31842086596966107,
+      "past_cost_reconstruction_max_abs": 1.7479351299698465e-12
+    },
+    {
+      "destination": "F16",
+      "source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C76_simulation_affine",
+      "origins": 564,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 1.9694631969765586e-05,
+      "past_cost_reconstruction_max_abs": 1.6910917111090384e-12
+    },
+    {
+      "destination": "F16",
+      "source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C76_simulation_monotone",
+      "origins": 564,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 0.31842086596966107,
+      "past_cost_reconstruction_max_abs": 1.7479351299698465e-12
+    },
+    {
+      "destination": "F16",
+      "source": "F16",
+      "condition": "nonlinear",
+      "family": "C75_innovation_monotone",
+      "origins": 564,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 0.0552804191353792,
+      "past_cost_reconstruction_max_abs": 4.902744876744691e-13
+    },
+    {
+      "destination": "F16",
+      "source": "F16",
+      "condition": "nonlinear",
+      "family": "C76_simulation_affine",
+      "origins": 564,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 1.2041234122594682e-05,
+      "past_cost_reconstruction_max_abs": 3.836930773104541e-13
+    },
+    {
+      "destination": "F16",
+      "source": "F16",
+      "condition": "nonlinear",
+      "family": "C76_simulation_monotone",
+      "origins": 564,
+      "solver_nonconverged": 0,
+      "max_projected_gradient_abs": 0.29053712703909734,
+      "past_cost_reconstruction_max_abs": 3.410605131648481e-12
+    }
+  ],
+  "fit_api_has_no_future_or_generator_arguments": true,
+  "official_test_values_parsed": false,
+  "wall_seconds": 13.4703805000172
+}

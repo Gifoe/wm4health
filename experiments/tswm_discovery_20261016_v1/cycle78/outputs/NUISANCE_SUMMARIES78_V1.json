@@ -1,0 +1,4744 @@
+{
+  "per_origin_arrays_remain_on_server": true,
+  "rows": [
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C75_innovation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -2.0,
+          -2.0,
+          -0.1976099071838272,
+          2.0,
+          2.0
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 18
+        },
+        "total_evaluations": 18,
+        "any_active_bound_origins": 7,
+        "cost_mean": 0.0001258587461136646,
+        "cost_max": 0.0006104471094017478
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C75_innovation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.12370028985635675,
+          0.15611352783534005,
+          1.0516982140257867,
+          1.3350020473432682,
+          1.442288549370892
+        ],
+        "r_percentiles": [
+          -0.9625720537746421,
+          -0.8451389016811665,
+          -0.017220001139752486,
+          0.22048259593089725,
+          1.067020074739654
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 18
+        },
+        "total_evaluations": 0,
+        "any_active_bound_origins": 0,
+        "cost_mean": 1.5997525111580184e-05,
+        "cost_max": 6.41752981695936e-05
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C75_innovation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.020000000000000004,
+          0.18455183632709943,
+          1.0365398122047735,
+          1.3185533264872826,
+          1.4776485360559939
+        ],
+        "r_percentiles": [
+          -1.9999999999967588,
+          -1.9999999999810834,
+          -0.019559851840754303,
+          0.4638321605445068,
+          1.5668305896330508
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 16,
+          "2": 2
+        },
+        "total_evaluations": 131,
+        "any_active_bound_origins": 3,
+        "cost_mean": 0.05740041438331548,
+        "cost_max": 0.24578640790430564
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C76_simulation_affine",
+      "method": "offset_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -2.0,
+          -2.0,
+          -1.1414350522100642,
+          2.0,
+          2.0
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 18
+        },
+        "total_evaluations": 18,
+        "any_active_bound_origins": 11,
+        "cost_mean": 0.00012658825204523892,
+        "cost_max": 0.0004364968035864463
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C76_simulation_affine",
+      "method": "affine_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.26696704846484365,
+          0.28497723847359135,
+          1.211482196737006,
+          1.4904475493968419,
+          1.5285858189763293
+        ],
+        "r_percentiles": [
+          -0.8916351929483868,
+          -0.6883378583741996,
+          -0.04887903653790737,
+          0.2652165746380744,
+          1.3307798633336978
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 18
+        },
+        "total_evaluations": 0,
+        "any_active_bound_origins": 0,
+        "cost_mean": 1.1049706756807052e-05,
+        "cost_max": 3.6009097225326694e-05
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C76_simulation_affine",
+      "method": "affine_past_simulation",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.0836505677895882,
+          0.22993669513873136,
+          1.2111893381901138,
+          1.4938595757444233,
+          1.5317959235672447
+        ],
+        "r_percentiles": [
+          -1.9999999999999996,
+          -1.9999999999997626,
+          -0.06019074958318858,
+          0.6193957894622866,
+          1.9611973539615146
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 1,
+          "1": 15,
+          "2": 2
+        },
+        "total_evaluations": 149,
+        "any_active_bound_origins": 2,
+        "cost_mean": 0.04428868087491012,
+        "cost_max": 0.23288518961349852
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C76_simulation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -2.0,
+          -2.0,
+          -0.1976099071838272,
+          2.0,
+          2.0
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 18
+        },
+        "total_evaluations": 18,
+        "any_active_bound_origins": 7,
+        "cost_mean": 0.0001258587461136646,
+        "cost_max": 0.0006104471094017478
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C76_simulation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.12370028985635675,
+          0.15611352783534005,
+          1.0516982140257867,
+          1.3350020473432682,
+          1.442288549370892
+        ],
+        "r_percentiles": [
+          -0.9625720537746421,
+          -0.8451389016811665,
+          -0.017220001139752486,
+          0.22048259593089725,
+          1.067020074739654
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 18
+        },
+        "total_evaluations": 0,
+        "any_active_bound_origins": 0,
+        "cost_mean": 1.5997525111580184e-05,
+        "cost_max": 6.41752981695936e-05
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C76_simulation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.020000000000000004,
+          0.18455183632709943,
+          1.0365398122047735,
+          1.3185533264872826,
+          1.4776485360559939
+        ],
+        "r_percentiles": [
+          -1.9999999999967588,
+          -1.9999999999810834,
+          -0.019559851840754303,
+          0.4638321605445068,
+          1.5668305896330508
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 16,
+          "2": 2
+        },
+        "total_evaluations": 131,
+        "any_active_bound_origins": 3,
+        "cost_mean": 0.05740041438331548,
+        "cost_max": 0.24578640790430564
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C75_innovation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -2.0,
+          -2.0,
+          -1.9100970919674762,
+          2.0,
+          2.0
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 18
+        },
+        "total_evaluations": 18,
+        "any_active_bound_origins": 13,
+        "cost_mean": 0.0001382973340092029,
+        "cost_max": 0.0005977963097113823
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C75_innovation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.1969490030040534,
+          0.2698992574338471,
+          1.2997290037042781,
+          1.5232371856190685,
+          1.6145322845772025
+        ],
+        "r_percentiles": [
+          -1.06630732084863,
+          -1.033862050644727,
+          -0.08639299536618608,
+          0.18149649554541486,
+          0.8032951628470888
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 18
+        },
+        "total_evaluations": 0,
+        "any_active_bound_origins": 0,
+        "cost_mean": 1.2183267647356313e-05,
+        "cost_max": 4.4421415036070514e-05
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C75_innovation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.14994010804411065,
+          0.24676481010635945,
+          1.3039510664331089,
+          1.5230735019606956,
+          1.6079448646058392
+        ],
+        "r_percentiles": [
+          -1.9999999999999867,
+          -1.9999999999999702,
+          -0.10870412125844883,
+          0.23309414528414746,
+          1.1237383256883295
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 17,
+          "2": 1
+        },
+        "total_evaluations": 135,
+        "any_active_bound_origins": 4,
+        "cost_mean": 0.04561471870448632,
+        "cost_max": 0.22243862452410257
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C76_simulation_affine",
+      "method": "offset_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -2.0,
+          -2.0,
+          -1.8742774933984747,
+          2.0,
+          2.0
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 18
+        },
+        "total_evaluations": 18,
+        "any_active_bound_origins": 15,
+        "cost_mean": 0.00013818644245194744,
+        "cost_max": 0.0006135864920680251
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C76_simulation_affine",
+      "method": "affine_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.21125931329042072,
+          0.2761187351983306,
+          1.3571361630573122,
+          1.548713557660671,
+          1.5990718923097216
+        ],
+        "r_percentiles": [
+          -1.1161111409769775,
+          -1.0727733361433875,
+          -0.09027414839148895,
+          0.18811304668622442,
+          0.8366994391802175
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 18
+        },
+        "total_evaluations": 0,
+        "any_active_bound_origins": 0,
+        "cost_mean": 1.3477422061336455e-05,
+        "cost_max": 4.8478397981525996e-05
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C76_simulation_affine",
+      "method": "affine_past_simulation",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.1686143035075151,
+          0.25304620721999255,
+          1.3597251837753395,
+          1.549264877208572,
+          1.5945894942590828
+        ],
+        "r_percentiles": [
+          -1.9999999999998441,
+          -1.9999999998927762,
+          -0.11125036124803002,
+          0.24304116221363992,
+          1.179810316010294
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 16,
+          "2": 1,
+          "3": 1
+        },
+        "total_evaluations": 142,
+        "any_active_bound_origins": 2,
+        "cost_mean": 0.04694681237547486,
+        "cost_max": 0.23039683560272026
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C76_simulation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -2.0,
+          -2.0,
+          -1.8742774933984494,
+          2.0,
+          2.0
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 18
+        },
+        "total_evaluations": 18,
+        "any_active_bound_origins": 15,
+        "cost_mean": 0.00013818644245194484,
+        "cost_max": 0.0006135864920680156
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C76_simulation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.2112593132904182,
+          0.2761187351983205,
+          1.3571361630573082,
+          1.548713557660668,
+          1.5990718923097085
+        ],
+        "r_percentiles": [
+          -1.1161111409769462,
+          -1.07277333614333,
+          -0.09027414839148587,
+          0.18811304668619255,
+          0.836699439180032
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 18
+        },
+        "total_evaluations": 0,
+        "any_active_bound_origins": 0,
+        "cost_mean": 1.3477422061336938e-05,
+        "cost_max": 4.847839798152657e-05
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C76_simulation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.16861430350747453,
+          0.25304620722010035,
+          1.3597251837753728,
+          1.549264877208546,
+          1.594589494259064
+        ],
+        "r_percentiles": [
+          -1.9999999999998441,
+          -1.9999999998927767,
+          -0.11125036124800805,
+          0.24304116221360358,
+          1.1798103160100757
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 16,
+          "3": 1,
+          "4": 1
+        },
+        "total_evaluations": 143,
+        "any_active_bound_origins": 2,
+        "cost_mean": 0.04694681237549661,
+        "cost_max": 0.2303968356027728
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C75_innovation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -2.0,
+          -2.0,
+          -0.19760990718374127,
+          2.0,
+          2.0
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 18
+        },
+        "total_evaluations": 18,
+        "any_active_bound_origins": 7,
+        "cost_mean": 0.00012585874611366522,
+        "cost_max": 0.0006104471094018021
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C75_innovation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.12370028985637396,
+          0.1561135278352963,
+          1.0516982140257825,
+          1.3350020473432929,
+          1.4422885493709057
+        ],
+        "r_percentiles": [
+          -0.9625720537746124,
+          -0.8451389016811691,
+          -0.017220001139751653,
+          0.22048259593088534,
+          1.0670200747395593
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 18
+        },
+        "total_evaluations": 0,
+        "any_active_bound_origins": 0,
+        "cost_mean": 1.5997525111580913e-05,
+        "cost_max": 6.417529816959592e-05
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C75_innovation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.020000000000000004,
+          0.1845518363270665,
+          1.0365398122048015,
+          1.3185533264873068,
+          1.4776485360560057
+        ],
+        "r_percentiles": [
+          -1.9999999999967588,
+          -1.9999999999810834,
+          -0.01955984307575976,
+          0.4638321605445451,
+          1.5668305896329449
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 16,
+          "3": 2
+        },
+        "total_evaluations": 138,
+        "any_active_bound_origins": 3,
+        "cost_mean": 0.05740041438332471,
+        "cost_max": 0.24578640790433257
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C76_simulation_affine",
+      "method": "offset_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -2.0,
+          -2.0,
+          -1.1414350522100616,
+          2.0,
+          2.0
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 18
+        },
+        "total_evaluations": 18,
+        "any_active_bound_origins": 11,
+        "cost_mean": 0.00012658825204523753,
+        "cost_max": 0.0004364968035864332
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C76_simulation_affine",
+      "method": "affine_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.2669670484648551,
+          0.2849772384735997,
+          1.2114821967370073,
+          1.4904475493968359,
+          1.5285858189763342
+        ],
+        "r_percentiles": [
+          -0.8916351929483269,
+          -0.688337858374164,
+          -0.04887903653790906,
+          0.26521657463806586,
+          1.3307798633336445
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 18
+        },
+        "total_evaluations": 0,
+        "any_active_bound_origins": 0,
+        "cost_mean": 1.1049706756806652e-05,
+        "cost_max": 3.600909722532249e-05
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C76_simulation_affine",
+      "method": "affine_past_simulation",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.08365056778959301,
+          0.22993669513871645,
+          1.211189303839042,
+          1.4938595757444273,
+          1.5317959235672498
+        ],
+        "r_percentiles": [
+          -1.9999999999999996,
+          -1.9999999999997626,
+          -0.06019073530403726,
+          0.6193958092914353,
+          1.961197486155209
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 16,
+          "3": 1,
+          "2": 1
+        },
+        "total_evaluations": 150,
+        "any_active_bound_origins": 2,
+        "cost_mean": 0.044288680874912945,
+        "cost_max": 0.23288518961354657
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C76_simulation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -2.0,
+          -2.0,
+          -0.19760990718374127,
+          2.0,
+          2.0
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 18
+        },
+        "total_evaluations": 18,
+        "any_active_bound_origins": 7,
+        "cost_mean": 0.00012585874611366522,
+        "cost_max": 0.0006104471094018021
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C76_simulation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.12370028985637396,
+          0.1561135278352963,
+          1.0516982140257825,
+          1.3350020473432929,
+          1.4422885493709057
+        ],
+        "r_percentiles": [
+          -0.9625720537746124,
+          -0.8451389016811691,
+          -0.017220001139751653,
+          0.22048259593088534,
+          1.0670200747395593
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 18
+        },
+        "total_evaluations": 0,
+        "any_active_bound_origins": 0,
+        "cost_mean": 1.5997525111580913e-05,
+        "cost_max": 6.417529816959592e-05
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C76_simulation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.020000000000000004,
+          0.1845518363270665,
+          1.0365398122048015,
+          1.3185533264873068,
+          1.4776485360560057
+        ],
+        "r_percentiles": [
+          -1.9999999999967588,
+          -1.9999999999810834,
+          -0.01955984307575976,
+          0.4638321605445451,
+          1.5668305896329449
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 16,
+          "3": 2
+        },
+        "total_evaluations": 138,
+        "any_active_bound_origins": 3,
+        "cost_mean": 0.05740041438332471,
+        "cost_max": 0.24578640790433257
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C75_innovation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -2.0,
+          -2.0,
+          -1.9176633207475389,
+          2.0,
+          2.0
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 18
+        },
+        "total_evaluations": 18,
+        "any_active_bound_origins": 13,
+        "cost_mean": 0.0003874745615764595,
+        "cost_max": 0.0012199760312296875
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C75_innovation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.2560657818464305,
+          0.3596722126512203,
+          1.7133554446125028,
+          2.049985618808476,
+          2.211127710036271
+        ],
+        "r_percentiles": [
+          -1.4313138740505387,
+          -1.4007619868315668,
+          -0.15296702633797254,
+          0.28431193089034695,
+          1.0815542527898063
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 18
+        },
+        "total_evaluations": 0,
+        "any_active_bound_origins": 0,
+        "cost_mean": 2.2468546677655495e-05,
+        "cost_max": 7.694476798985375e-05
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C75_innovation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.310103467808424,
+          0.3179702233469908,
+          1.718583887380253,
+          2.0585790349249695,
+          2.2438574233700233
+        ],
+        "r_percentiles": [
+          -1.9999999999999998,
+          -1.9999999999999847,
+          -0.1782606628607375,
+          0.34425946015409914,
+          1.4872350667575305
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 18
+        },
+        "total_evaluations": 130,
+        "any_active_bound_origins": 3,
+        "cost_mean": 0.04838403344759039,
+        "cost_max": 0.21861402693356785
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C76_simulation_affine",
+      "method": "offset_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -2.0,
+          -2.0,
+          -1.8742774933984694,
+          2.0,
+          2.0
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 18
+        },
+        "total_evaluations": 18,
+        "any_active_bound_origins": 15,
+        "cost_mean": 0.00013818644245194647,
+        "cost_max": 0.0006135864920680392
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C76_simulation_affine",
+      "method": "affine_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.21125931329040717,
+          0.276118735198352,
+          1.3571361630573109,
+          1.548713557660674,
+          1.5990718923097103
+        ],
+        "r_percentiles": [
+          -1.116111140977001,
+          -1.0727733361433012,
+          -0.09027414839149163,
+          0.18811304668620815,
+          0.8366994391800828
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 18
+        },
+        "total_evaluations": 0,
+        "any_active_bound_origins": 0,
+        "cost_mean": 1.3477422061338004e-05,
+        "cost_max": 4.8478397981537495e-05
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C76_simulation_affine",
+      "method": "affine_past_simulation",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.16861430350749934,
+          0.2530462072200445,
+          1.3597251785702311,
+          1.5492648772085598,
+          1.594589494259089
+        ],
+        "r_percentiles": [
+          -1.9999999999998441,
+          -1.9999999998927755,
+          -0.11125036124799378,
+          0.2430411622136595,
+          1.1798103160104405
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "2": 2,
+          "1": 16
+        },
+        "total_evaluations": 134,
+        "any_active_bound_origins": 2,
+        "cost_mean": 0.046946812375481525,
+        "cost_max": 0.23039683560262353
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C76_simulation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -2.0,
+          -2.0,
+          -1.8742774933985258,
+          2.0,
+          2.0
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 18
+        },
+        "total_evaluations": 18,
+        "any_active_bound_origins": 15,
+        "cost_mean": 0.00013818644245194896,
+        "cost_max": 0.000613586492068043
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C76_simulation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.21125931329040487,
+          0.27611873519834507,
+          1.357136163057316,
+          1.5487135576606819,
+          1.5990718923097187
+        ],
+        "r_percentiles": [
+          -1.1161111409770414,
+          -1.072773336143306,
+          -0.09027414839149321,
+          0.18811304668619533,
+          0.8366994391800305
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 18
+        },
+        "total_evaluations": 0,
+        "any_active_bound_origins": 0,
+        "cost_mean": 1.3477422061337589e-05,
+        "cost_max": 4.8478397981531085e-05
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C76_simulation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.16861430350753748,
+          0.2530462072200081,
+          1.3597251869627982,
+          1.5492648772085673,
+          1.5945894942590568
+        ],
+        "r_percentiles": [
+          -1.9999999999998441,
+          -1.9999999998927769,
+          -0.11125036124802853,
+          0.24304116221369146,
+          1.179810316010659
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 16,
+          "2": 2
+        },
+        "total_evaluations": 138,
+        "any_active_bound_origins": 2,
+        "cost_mean": 0.04694681237546862,
+        "cost_max": 0.23039683560268148
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C75_innovation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -2.0,
+          -2.0,
+          -0.058683650157044395,
+          2.0,
+          2.0
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 18
+        },
+        "total_evaluations": 18,
+        "any_active_bound_origins": 8,
+        "cost_mean": 0.00013597054476388568,
+        "cost_max": 0.00062014647385428
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C75_innovation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.08456376125767957,
+          0.1342229601333271,
+          1.0387152482015862,
+          1.4002221565643997,
+          1.4629459975242292
+        ],
+        "r_percentiles": [
+          -1.0159588702657218,
+          -0.8737001904533599,
+          -0.0191645480792587,
+          0.22165820415748544,
+          1.0394209401485608
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 18
+        },
+        "total_evaluations": 0,
+        "any_active_bound_origins": 0,
+        "cost_mean": 1.5704089953049357e-05,
+        "cost_max": 6.960291116127e-05
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C75_innovation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.020000000000000007,
+          0.19600440300612995,
+          1.0420527528739596,
+          1.3869548483858325,
+          1.5110731211391017
+        ],
+        "r_percentiles": [
+          -1.999999999998936,
+          -1.999999999979816,
+          -0.01667108146721291,
+          0.4840137713316368,
+          1.529710494901958
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 16,
+          "3": 1,
+          "2": 1
+        },
+        "total_evaluations": 134,
+        "any_active_bound_origins": 3,
+        "cost_mean": 0.05787242387456361,
+        "cost_max": 0.27873912839938014
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C76_simulation_affine",
+      "method": "offset_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -2.0,
+          -2.0,
+          0.16027787826788492,
+          2.0,
+          2.0
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 18
+        },
+        "total_evaluations": 18,
+        "any_active_bound_origins": 11,
+        "cost_mean": 0.0002683332927624715,
+        "cost_max": 0.000949037333138341
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C76_simulation_affine",
+      "method": "affine_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.19641109116608568,
+          0.27280922826723475,
+          0.9473027840758537,
+          1.8607807696978047,
+          1.9646655198848062
+        ],
+        "r_percentiles": [
+          -0.6869005590609674,
+          -0.5058128159022713,
+          -0.01740790761930934,
+          0.3392113250659927,
+          1.4910244981960457
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 18
+        },
+        "total_evaluations": 0,
+        "any_active_bound_origins": 0,
+        "cost_mean": 9.95184398480308e-06,
+        "cost_max": 3.9405446467967e-05
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C76_simulation_affine",
+      "method": "affine_past_simulation",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.062293098360780765,
+          0.20595457048392352,
+          0.9435137257808893,
+          1.8775753275042752,
+          1.9640579304535453
+        ],
+        "r_percentiles": [
+          -1.999999986928156,
+          -1.923609518309538,
+          -0.07084632893319268,
+          0.6685931973371688,
+          1.999999999990213
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 17,
+          "2": 1
+        },
+        "total_evaluations": 144,
+        "any_active_bound_origins": 1,
+        "cost_mean": 0.044114736468882775,
+        "cost_max": 0.24145357842469595
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C76_simulation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -2.0,
+          -2.0,
+          -0.058683650157044395,
+          2.0,
+          2.0
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 18
+        },
+        "total_evaluations": 18,
+        "any_active_bound_origins": 8,
+        "cost_mean": 0.00013597054476388568,
+        "cost_max": 0.00062014647385428
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C76_simulation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.08456376125767957,
+          0.1342229601333271,
+          1.0387152482015862,
+          1.4002221565643997,
+          1.4629459975242292
+        ],
+        "r_percentiles": [
+          -1.0159588702657218,
+          -0.8737001904533599,
+          -0.0191645480792587,
+          0.22165820415748544,
+          1.0394209401485608
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 18
+        },
+        "total_evaluations": 0,
+        "any_active_bound_origins": 0,
+        "cost_mean": 1.5704089953049357e-05,
+        "cost_max": 6.960291116127e-05
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C76_simulation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.020000000000000007,
+          0.19600440300612995,
+          1.0420527528739596,
+          1.3869548483858325,
+          1.5110731211391017
+        ],
+        "r_percentiles": [
+          -1.999999999998936,
+          -1.999999999979816,
+          -0.01667108146721291,
+          0.4840137713316368,
+          1.529710494901958
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 16,
+          "3": 1,
+          "2": 1
+        },
+        "total_evaluations": 134,
+        "any_active_bound_origins": 3,
+        "cost_mean": 0.05787242387456361,
+        "cost_max": 0.27873912839938014
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C75_innovation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -2.0,
+          -2.0,
+          -1.9036986372955362,
+          2.0,
+          2.0
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 18
+        },
+        "total_evaluations": 18,
+        "any_active_bound_origins": 14,
+        "cost_mean": 0.0009185355283642939,
+        "cost_max": 0.004904645843186438
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C75_innovation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.2968322441528307,
+          0.40606556179098663,
+          1.600346571297504,
+          2.7962272053533135,
+          3.2212819602188447
+        ],
+        "r_percentiles": [
+          -1.4608915515676284,
+          -1.450894569009854,
+          -0.1714073148338697,
+          0.41480918765733277,
+          1.4116585263756405
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 18
+        },
+        "total_evaluations": 0,
+        "any_active_bound_origins": 0,
+        "cost_mean": 4.106038461526557e-05,
+        "cost_max": 0.00013546137926467337
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C75_innovation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.3127832339532516,
+          0.3344624474676595,
+          1.6136459759142205,
+          2.784611996910824,
+          3.2088416303965803
+        ],
+        "r_percentiles": [
+          -1.9999999999999998,
+          -1.9999999999999976,
+          -0.22343202894564135,
+          0.4968174611680325,
+          1.999999985791267
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 17,
+          "3": 1
+        },
+        "total_evaluations": 145,
+        "any_active_bound_origins": 4,
+        "cost_mean": 0.05490547382099905,
+        "cost_max": 0.24926078176950608
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C76_simulation_affine",
+      "method": "offset_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -2.0,
+          -2.0,
+          -0.9611608437047829,
+          2.0,
+          2.0
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 18
+        },
+        "total_evaluations": 18,
+        "any_active_bound_origins": 13,
+        "cost_mean": 0.00039551464108340974,
+        "cost_max": 0.0016167481469780197
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C76_simulation_affine",
+      "method": "affine_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.21509741472341856,
+          0.3004642716167799,
+          1.151033543986491,
+          2.2086864682809604,
+          2.35131842381513
+        ],
+        "r_percentiles": [
+          -1.0537509383660963,
+          -1.050639801108175,
+          -0.10265769685938789,
+          0.2943418794250335,
+          1.0233765264009405
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 18
+        },
+        "total_evaluations": 0,
+        "any_active_bound_origins": 0,
+        "cost_mean": 1.5255155052214244e-05,
+        "cost_max": 4.6444368494783384e-05
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C76_simulation_affine",
+      "method": "affine_past_simulation",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.14133800815231676,
+          0.2859068902652139,
+          1.1582804798887416,
+          2.216326822194213,
+          2.404218593415481
+        ],
+        "r_percentiles": [
+          -1.9999999999999973,
+          -1.9999999999957139,
+          -0.15051357592011338,
+          0.3551618985149748,
+          1.441209131258441
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 16,
+          "2": 2
+        },
+        "total_evaluations": 142,
+        "any_active_bound_origins": 4,
+        "cost_mean": 0.04698367117428355,
+        "cost_max": 0.22327344925939469
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C76_simulation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -2.0,
+          -2.0,
+          -1.1177898485119528,
+          2.0,
+          2.0
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 18
+        },
+        "total_evaluations": 18,
+        "any_active_bound_origins": 14,
+        "cost_mean": 0.00018627131110628367,
+        "cost_max": 0.0008037542723929765
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C76_simulation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.2674584712143877,
+          0.28478342760706277,
+          1.2591911694255558,
+          1.624952174609413,
+          1.6462434113812427
+        ],
+        "r_percentiles": [
+          -1.9367671284308858,
+          -1.2731340827256923,
+          -0.08919427975047334,
+          0.21566204807100184,
+          0.9784467397007466
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 18
+        },
+        "total_evaluations": 0,
+        "any_active_bound_origins": 0,
+        "cost_mean": 2.6019035356598328e-05,
+        "cost_max": 0.00012525846765508496
+      }
+    },
+    {
+      "destination": "EMPS",
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C76_simulation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 18,
+        "finite_parameters": 18,
+        "q_percentiles": [
+          0.13750789054137447,
+          0.15266450395234757,
+          1.2701561979440834,
+          1.6523154968727236,
+          1.6676287557134537
+        ],
+        "r_percentiles": [
+          -1.999999999999999,
+          -1.999999999999987,
+          -0.10780896531440981,
+          0.28813768724849914,
+          1.4295790042181573
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 18,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 17,
+          "2": 1
+        },
+        "total_evaluations": 135,
+        "any_active_bound_origins": 4,
+        "cost_mean": 0.06204802019862213,
+        "cost_max": 0.2675606797356705
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C75_innovation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          0.33767314669903425,
+          0.4718943687788014,
+          0.6014370601282246,
+          0.7164219156212454,
+          0.8907561306006924
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 564
+        },
+        "total_evaluations": 564,
+        "any_active_bound_origins": 0,
+        "cost_mean": 0.8505137959492478,
+        "cost_max": 24.42629404058319
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C75_innovation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.02,
+          0.6730859130228639,
+          0.9321821168984317,
+          1.2698368927277321,
+          1.6324950611352018
+        ],
+        "r_percentiles": [
+          0.34126345613590187,
+          0.48271109232645265,
+          0.6009835460451372,
+          0.7053514497802329,
+          0.943096374175133
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 559,
+          "1": 5
+        },
+        "total_evaluations": 10,
+        "any_active_bound_origins": 5,
+        "cost_mean": 0.7819867321020517,
+        "cost_max": 24.396647626816648
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C75_innovation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.020000000000000004,
+          0.5530591293124589,
+          0.9163243854105424,
+          1.3452374181526383,
+          2.498866284295434
+        ],
+        "r_percentiles": [
+          0.24958660798065124,
+          0.4857736922715989,
+          0.6041018291330484,
+          0.7121306241649745,
+          1.1015754807679368
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 403,
+          "3": 92,
+          "2": 58,
+          "4": 11
+        },
+        "total_evaluations": 4303,
+        "any_active_bound_origins": 5,
+        "cost_mean": 4.733710556995391,
+        "cost_max": 113.83268753366539
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C76_simulation_affine",
+      "method": "offset_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          0.5852670124943602,
+          0.7727853432789482,
+          0.8533020683326885,
+          0.9379075191987584,
+          1.1884232010641806
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 564
+        },
+        "total_evaluations": 564,
+        "any_active_bound_origins": 0,
+        "cost_mean": 0.4171249324550939,
+        "cost_max": 11.851923719859437
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C76_simulation_affine",
+      "method": "affine_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.02,
+          0.7715925205152901,
+          0.9781839102547426,
+          1.2451979609605295,
+          1.7589108395148179
+        ],
+        "r_percentiles": [
+          0.5633758913490509,
+          0.7681245040334413,
+          0.8532059413813486,
+          0.9320111251328113,
+          1.2127991722899187
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 559,
+          "1": 5
+        },
+        "total_evaluations": 10,
+        "any_active_bound_origins": 5,
+        "cost_mean": 0.38027233741032485,
+        "cost_max": 11.826841226233867
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C76_simulation_affine",
+      "method": "affine_past_simulation",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.020000000000000004,
+          0.661682297499551,
+          1.008923287913892,
+          1.3954874015182759,
+          3.0105467984865526
+        ],
+        "r_percentiles": [
+          0.5368719366809125,
+          0.755406547192216,
+          0.8546709616323397,
+          0.9630865482141961,
+          1.2578494054300227
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 303,
+          "3": 214,
+          "2": 39,
+          "4": 8
+        },
+        "total_evaluations": 4280,
+        "any_active_bound_origins": 5,
+        "cost_mean": 4.530514547656226,
+        "cost_max": 106.83740751169016
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C76_simulation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          0.33767314669903425,
+          0.4718943687788014,
+          0.6014370601282246,
+          0.7164219156212454,
+          0.8907561306006924
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 564
+        },
+        "total_evaluations": 564,
+        "any_active_bound_origins": 0,
+        "cost_mean": 0.8505137959492478,
+        "cost_max": 24.42629404058319
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C76_simulation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.02,
+          0.6730859130228639,
+          0.9321821168984317,
+          1.2698368927277321,
+          1.6324950611352018
+        ],
+        "r_percentiles": [
+          0.34126345613590187,
+          0.48271109232645265,
+          0.6009835460451372,
+          0.7053514497802329,
+          0.943096374175133
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 559,
+          "1": 5
+        },
+        "total_evaluations": 10,
+        "any_active_bound_origins": 5,
+        "cost_mean": 0.7819867321020517,
+        "cost_max": 24.396647626816648
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "identity",
+      "family": "C76_simulation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.020000000000000004,
+          0.5530591293124589,
+          0.9163243854105424,
+          1.3452374181526383,
+          2.498866284295434
+        ],
+        "r_percentiles": [
+          0.24958660798065124,
+          0.4857736922715989,
+          0.6041018291330484,
+          0.7121306241649745,
+          1.1015754807679368
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 403,
+          "3": 92,
+          "2": 58,
+          "4": 11
+        },
+        "total_evaluations": 4303,
+        "any_active_bound_origins": 5,
+        "cost_mean": 4.733710556995391,
+        "cost_max": 113.83268753366539
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C75_innovation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -0.2793060170024465,
+          -0.08584882188145243,
+          0.0010983306914266592,
+          0.08901539729496684,
+          0.3439456276862719
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 564
+        },
+        "total_evaluations": 564,
+        "any_active_bound_origins": 0,
+        "cost_mean": 0.3948997939239579,
+        "cost_max": 10.460254477620397
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C75_innovation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.02,
+          0.7839177734412449,
+          0.9999997302791839,
+          1.2897512057802212,
+          1.8325459932764647
+        ],
+        "r_percentiles": [
+          -0.30165612988470175,
+          -0.08327736716192573,
+          0.0008916789476627644,
+          0.07773012004220566,
+          0.3708891283786046
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 559,
+          "1": 5
+        },
+        "total_evaluations": 10,
+        "any_active_bound_origins": 5,
+        "cost_mean": 0.3518004494937209,
+        "cost_max": 10.417970637119558
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C75_innovation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.020000000000000004,
+          0.695868247871804,
+          1.0506374100532825,
+          1.4647358956642893,
+          3.222273692261965
+        ],
+        "r_percentiles": [
+          -0.32123349306756155,
+          -0.10359910050670516,
+          0.0011366621960998918,
+          0.11535044713712539,
+          0.41467454060982095
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 438,
+          "3": 81,
+          "4": 11,
+          "2": 34
+        },
+        "total_evaluations": 2813,
+        "any_active_bound_origins": 5,
+        "cost_mean": 4.5578160980877165,
+        "cost_max": 106.08657888722978
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C76_simulation_affine",
+      "method": "offset_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -0.2778221972188234,
+          -0.08925660168373585,
+          0.005762156888986025,
+          0.09866011081721843,
+          0.354892783970887
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 564
+        },
+        "total_evaluations": 564,
+        "any_active_bound_origins": 0,
+        "cost_mean": 0.4494720501163548,
+        "cost_max": 13.27649954519576
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C76_simulation_affine",
+      "method": "affine_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.02,
+          0.8083066710711561,
+          1.0191485541351053,
+          1.3184387011159875,
+          1.854009909272995
+        ],
+        "r_percentiles": [
+          -0.30178338348991995,
+          -0.08497477988724687,
+          0.00551469209606071,
+          0.08837514896480451,
+          0.3859548239938574
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 559,
+          "1": 5
+        },
+        "total_evaluations": 10,
+        "any_active_bound_origins": 5,
+        "cost_mean": 0.42096366810065566,
+        "cost_max": 13.270644158994674
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C76_simulation_affine",
+      "method": "affine_past_simulation",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.020000000000000004,
+          0.7010793837525547,
+          1.0689927488166717,
+          1.478574074593013,
+          3.1897341028819284
+        ],
+        "r_percentiles": [
+          -0.33127190542593504,
+          -0.09973241852240698,
+          0.0054377248970181764,
+          0.12031474375260712,
+          0.432627971187133
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 430,
+          "4": 11,
+          "3": 74,
+          "2": 49
+        },
+        "total_evaluations": 2765,
+        "any_active_bound_origins": 5,
+        "cost_mean": 4.527719037407814,
+        "cost_max": 106.35345657538548
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C76_simulation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -0.27782219721882334,
+          -0.08925660168373566,
+          0.005762156888985981,
+          0.09866011081721845,
+          0.3548927839708872
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 564
+        },
+        "total_evaluations": 564,
+        "any_active_bound_origins": 0,
+        "cost_mean": 0.4494720501163549,
+        "cost_max": 13.27649954519576
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C76_simulation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.02,
+          0.8083066710711561,
+          1.0191485541351049,
+          1.3184387011159877,
+          1.8540099092729951
+        ],
+        "r_percentiles": [
+          -0.30178338348992,
+          -0.08497477988724686,
+          0.005514692096060767,
+          0.08837514896480442,
+          0.3859548239938575
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 559,
+          "1": 5
+        },
+        "total_evaluations": 10,
+        "any_active_bound_origins": 5,
+        "cost_mean": 0.42096366810065566,
+        "cost_max": 13.270644158994674
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "identity",
+      "family": "C76_simulation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.020000000000000004,
+          0.7010793837525551,
+          1.068992748816672,
+          1.4785740745743747,
+          3.1897341028751995
+        ],
+        "r_percentiles": [
+          -0.3312719054259354,
+          -0.0997324185224072,
+          0.005437724897017827,
+          0.1203147434514319,
+          0.43262797124152746
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 425,
+          "3": 98,
+          "2": 34,
+          "4": 7
+        },
+        "total_evaluations": 2747,
+        "any_active_bound_origins": 5,
+        "cost_mean": 4.5277190374078105,
+        "cost_max": 106.3534565753849
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C75_innovation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          0.3376731466989421,
+          0.4718943687787168,
+          0.601437060128143,
+          0.7164219156211677,
+          0.8907561306005954
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 564
+        },
+        "total_evaluations": 564,
+        "any_active_bound_origins": 0,
+        "cost_mean": 0.8505137959492856,
+        "cost_max": 24.426294040583702
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C75_innovation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.02,
+          0.6730859130228588,
+          0.9321821168984321,
+          1.2698368927277321,
+          1.6324950611351934
+        ],
+        "r_percentiles": [
+          0.3412634561358123,
+          0.48271109232636594,
+          0.6009835460450585,
+          0.7053514497801378,
+          0.9430963741750371
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 559,
+          "1": 5
+        },
+        "total_evaluations": 10,
+        "any_active_bound_origins": 5,
+        "cost_mean": 0.7819867321020837,
+        "cost_max": 24.39664762681715
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C75_innovation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.020000000000000004,
+          0.5530591293124555,
+          0.9163243854156742,
+          1.345237418152626,
+          2.498866284295427
+        ],
+        "r_percentiles": [
+          0.24958660488889206,
+          0.4857736922149266,
+          0.6041018291329698,
+          0.7121306241648844,
+          1.101575480767866
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "4": 11,
+          "2": 60,
+          "1": 381,
+          "3": 112
+        },
+        "total_evaluations": 4318,
+        "any_active_bound_origins": 5,
+        "cost_mean": 4.733710556995417,
+        "cost_max": 113.8326875336668
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C76_simulation_affine",
+      "method": "offset_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          0.5852670124943744,
+          0.7727853432789623,
+          0.8533020683327026,
+          0.9379075191987726,
+          1.188423201064195
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 564
+        },
+        "total_evaluations": 564,
+        "any_active_bound_origins": 0,
+        "cost_mean": 0.41712493245509413,
+        "cost_max": 11.851923719859435
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C76_simulation_affine",
+      "method": "affine_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.02,
+          0.7715925205152901,
+          0.978183910254742,
+          1.2451979609605304,
+          1.7589108395148172
+        ],
+        "r_percentiles": [
+          0.5633758913490651,
+          0.7681245040334557,
+          0.8532059413813629,
+          0.9320111251328258,
+          1.212799172289933
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 559,
+          "1": 5
+        },
+        "total_evaluations": 10,
+        "any_active_bound_origins": 5,
+        "cost_mean": 0.380272337410325,
+        "cost_max": 11.826841226233865
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C76_simulation_affine",
+      "method": "affine_past_simulation",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.020000000000000004,
+          0.6616822974995512,
+          1.0089232879141155,
+          1.3954874016415182,
+          3.0105467985373053
+        ],
+        "r_percentiles": [
+          0.5368719366809266,
+          0.7554065471922301,
+          0.854670961632354,
+          0.9630865482142102,
+          1.2578494054300369
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 204,
+          "1": 302,
+          "2": 44,
+          "4": 14
+        },
+        "total_evaluations": 4280,
+        "any_active_bound_origins": 5,
+        "cost_mean": 4.530514547656216,
+        "cost_max": 106.83740751168939
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C76_simulation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          0.3376731466989421,
+          0.4718943687787168,
+          0.601437060128143,
+          0.7164219156211677,
+          0.8907561306005954
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 564
+        },
+        "total_evaluations": 564,
+        "any_active_bound_origins": 0,
+        "cost_mean": 0.8505137959492856,
+        "cost_max": 24.426294040583702
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C76_simulation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.02,
+          0.6730859130228588,
+          0.9321821168984321,
+          1.2698368927277321,
+          1.6324950611351934
+        ],
+        "r_percentiles": [
+          0.3412634561358123,
+          0.48271109232636594,
+          0.6009835460450585,
+          0.7053514497801378,
+          0.9430963741750371
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 559,
+          "1": 5
+        },
+        "total_evaluations": 10,
+        "any_active_bound_origins": 5,
+        "cost_mean": 0.7819867321020837,
+        "cost_max": 24.39664762681715
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "affine",
+      "family": "C76_simulation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.020000000000000004,
+          0.5530591293124555,
+          0.9163243854156742,
+          1.345237418152626,
+          2.498866284295427
+        ],
+        "r_percentiles": [
+          0.24958660488889206,
+          0.4857736922149266,
+          0.6041018291329698,
+          0.7121306241648844,
+          1.101575480767866
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "4": 11,
+          "2": 60,
+          "1": 381,
+          "3": 112
+        },
+        "total_evaluations": 4318,
+        "any_active_bound_origins": 5,
+        "cost_mean": 4.733710556995417,
+        "cost_max": 113.8326875336668
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C75_innovation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -0.405811943575794,
+          -0.1805001128493209,
+          0.0015535539584732878,
+          0.1575953746382448,
+          0.48094046015401826
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 564
+        },
+        "total_evaluations": 564,
+        "any_active_bound_origins": 0,
+        "cost_mean": 0.8025912680079225,
+        "cost_max": 18.13639181231913
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C75_innovation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.02,
+          0.9915628024250853,
+          1.2836403672292005,
+          1.7219813630663094,
+          2.4627996204972837
+        ],
+        "r_percentiles": [
+          -0.4070179477038833,
+          -0.10747543280117147,
+          0.0007108320438972563,
+          0.10488312069882579,
+          0.49800269927167634
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 559,
+          "1": 5
+        },
+        "total_evaluations": 10,
+        "any_active_bound_origins": 5,
+        "cost_mean": 0.6231588014585051,
+        "cost_max": 18.084968261864564
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C75_innovation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.020000000000000004,
+          0.9474529823854657,
+          1.4194262506353872,
+          1.9984058448096993,
+          4.432550172958632
+        ],
+        "r_percentiles": [
+          -0.4314688305986681,
+          -0.14006346200418013,
+          0.0010859773988822854,
+          0.15555855737499988,
+          0.5556530935266001
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 124,
+          "1": 385,
+          "2": 42,
+          "4": 13
+        },
+        "total_evaluations": 2905,
+        "any_active_bound_origins": 5,
+        "cost_mean": 4.564597029536725,
+        "cost_max": 103.77720890019683
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C76_simulation_affine",
+      "method": "offset_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -0.2778221972188229,
+          -0.08925660168373568,
+          0.005762156888986683,
+          0.0986601108172191,
+          0.354892783970888
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 564
+        },
+        "total_evaluations": 564,
+        "any_active_bound_origins": 0,
+        "cost_mean": 0.4494720501163557,
+        "cost_max": 13.276499545195769
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C76_simulation_affine",
+      "method": "affine_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.02,
+          0.8083066710711565,
+          1.0191485541351064,
+          1.3184387011159893,
+          1.8540099092729971
+        ],
+        "r_percentiles": [
+          -0.30178338348991984,
+          -0.08497477988724637,
+          0.005514692096061341,
+          0.08837514896480499,
+          0.38595482399385833
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 559,
+          "1": 5
+        },
+        "total_evaluations": 10,
+        "any_active_bound_origins": 5,
+        "cost_mean": 0.42096366810065644,
+        "cost_max": 13.270644158994681
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C76_simulation_affine",
+      "method": "affine_past_simulation",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.020000000000000004,
+          0.7010793842702479,
+          1.0689927488166728,
+          1.4785740745743763,
+          3.189734102881947
+        ],
+        "r_percentiles": [
+          -0.3312719054259353,
+          -0.09973241852232634,
+          0.005437724897018393,
+          0.1203147437526075,
+          0.4326279708954008
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 416,
+          "3": 88,
+          "4": 13,
+          "2": 47
+        },
+        "total_evaluations": 2779,
+        "any_active_bound_origins": 5,
+        "cost_mean": 4.527719037407811,
+        "cost_max": 106.35345657538478
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C76_simulation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -0.2778221972188231,
+          -0.08925660168373607,
+          0.0057621568889867116,
+          0.09866011081721895,
+          0.35489278397088775
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 564
+        },
+        "total_evaluations": 564,
+        "any_active_bound_origins": 0,
+        "cost_mean": 0.4494720501163557,
+        "cost_max": 13.276499545195774
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C76_simulation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.02,
+          0.8083066710711566,
+          1.0191485541351073,
+          1.3184387011159888,
+          1.8540099092729967
+        ],
+        "r_percentiles": [
+          -0.30178338348991995,
+          -0.08497477988724642,
+          0.005514692096061349,
+          0.08837514896480476,
+          0.3859548239938584
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 559,
+          "1": 5
+        },
+        "total_evaluations": 10,
+        "any_active_bound_origins": 5,
+        "cost_mean": 0.4209636681006565,
+        "cost_max": 13.270644158994685
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "affine",
+      "family": "C76_simulation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.020000000000000004,
+          0.7010793837525559,
+          1.068992748816672,
+          1.4785740745917857,
+          3.1897341028752026
+        ],
+        "r_percentiles": [
+          -0.33127190542593504,
+          -0.09973241852232595,
+          0.005437724897018476,
+          0.12031474375260773,
+          0.4326279712409852
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 425,
+          "3": 93,
+          "2": 40,
+          "4": 6
+        },
+        "total_evaluations": 2748,
+        "any_active_bound_origins": 5,
+        "cost_mean": 4.527719037407817,
+        "cost_max": 106.35345657538504
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C75_innovation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          0.3468249827689869,
+          0.4774533609248633,
+          0.6021703154353588,
+          0.7088240579581538,
+          0.8893123843896048
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 564
+        },
+        "total_evaluations": 564,
+        "any_active_bound_origins": 0,
+        "cost_mean": 0.7597136687417946,
+        "cost_max": 22.011842213411644
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C75_innovation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.02,
+          0.6801056338238799,
+          0.9297453161743767,
+          1.2336649444755365,
+          1.6132790396758498
+        ],
+        "r_percentiles": [
+          0.3415621246664137,
+          0.49081735242150853,
+          0.6013757650185003,
+          0.7012969709123764,
+          0.9390729543578733
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 559,
+          "1": 5
+        },
+        "total_evaluations": 10,
+        "any_active_bound_origins": 5,
+        "cost_mean": 0.7042782015059214,
+        "cost_max": 21.999605185194646
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C75_innovation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.020000000000000004,
+          0.564164132997228,
+          0.916049869326529,
+          1.3016731475694687,
+          2.575240811273248
+        ],
+        "r_percentiles": [
+          0.17839982115646863,
+          0.48225289203294247,
+          0.6038608781586462,
+          0.7112324371379412,
+          1.2329565287900748
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 380,
+          "3": 98,
+          "4": 14,
+          "2": 72
+        },
+        "total_evaluations": 4701,
+        "any_active_bound_origins": 5,
+        "cost_mean": 4.585024435905111,
+        "cost_max": 114.36667853048361
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C76_simulation_affine",
+      "method": "offset_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          0.7001881264606002,
+          0.9019621355620524,
+          0.9999969763050822,
+          1.0982109381255778,
+          1.333359282658517
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 564
+        },
+        "total_evaluations": 564,
+        "any_active_bound_origins": 0,
+        "cost_mean": 0.4341410416803254,
+        "cost_max": 7.011050613554122
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C76_simulation_affine",
+      "method": "affine_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.02,
+          0.7166644666826171,
+          1.0401867439099075,
+          1.3919263446462788,
+          2.1261302169801355
+        ],
+        "r_percentiles": [
+          0.6821181199450516,
+          0.9044382829925506,
+          0.9994778884158515,
+          1.0741492878583472,
+          1.3599436110873748
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 559,
+          "1": 5
+        },
+        "total_evaluations": 10,
+        "any_active_bound_origins": 5,
+        "cost_mean": 0.3215702502793644,
+        "cost_max": 6.682424764262998
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C76_simulation_affine",
+      "method": "affine_past_simulation",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.020000000000000004,
+          0.6743747758149261,
+          1.077668635096407,
+          1.6708540539688195,
+          3.926464090006449
+        ],
+        "r_percentiles": [
+          0.6830292835019594,
+          0.8818199491445956,
+          0.9995953909085968,
+          1.1153140513630018,
+          1.4261725018487523
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 408,
+          "3": 100,
+          "4": 17,
+          "2": 39
+        },
+        "total_evaluations": 4427,
+        "any_active_bound_origins": 5,
+        "cost_mean": 4.814567974099332,
+        "cost_max": 104.97062018700963
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C76_simulation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          0.3468249827689869,
+          0.4774533609248633,
+          0.6021703154353588,
+          0.7088240579581538,
+          0.8893123843896048
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 564
+        },
+        "total_evaluations": 564,
+        "any_active_bound_origins": 0,
+        "cost_mean": 0.7597136687417946,
+        "cost_max": 22.011842213411644
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C76_simulation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.02,
+          0.6801056338238799,
+          0.9297453161743767,
+          1.2336649444755365,
+          1.6132790396758498
+        ],
+        "r_percentiles": [
+          0.3415621246664137,
+          0.49081735242150853,
+          0.6013757650185003,
+          0.7012969709123764,
+          0.9390729543578733
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 559,
+          "1": 5
+        },
+        "total_evaluations": 10,
+        "any_active_bound_origins": 5,
+        "cost_mean": 0.7042782015059214,
+        "cost_max": 21.999605185194646
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "EMPS",
+      "condition": "nonlinear",
+      "family": "C76_simulation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": true,
+      "source_new_view_calibration_available": false,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.020000000000000004,
+          0.564164132997228,
+          0.916049869326529,
+          1.3016731475694687,
+          2.575240811273248
+        ],
+        "r_percentiles": [
+          0.17839982115646863,
+          0.48225289203294247,
+          0.6038608781586462,
+          0.7112324371379412,
+          1.2329565287900748
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 380,
+          "3": 98,
+          "4": 14,
+          "2": 72
+        },
+        "total_evaluations": 4701,
+        "any_active_bound_origins": 5,
+        "cost_mean": 4.585024435905111,
+        "cost_max": 114.36667853048361
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C75_innovation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -0.577276330678666,
+          -0.2666189295265978,
+          0.00027352806759365137,
+          0.25154689008183684,
+          0.5570635373933006
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 564
+        },
+        "total_evaluations": 564,
+        "any_active_bound_origins": 0,
+        "cost_mean": 1.1519976856323186,
+        "cost_max": 17.37099880457086
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C75_innovation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.02,
+          0.9999991207409044,
+          1.5593129974789757,
+          2.1212211769428158,
+          3.2598919898523073
+        ],
+        "r_percentiles": [
+          -0.49406907666388156,
+          -0.1471712907551664,
+          0.0010012297064584139,
+          0.12908531797931644,
+          0.5700275279837388
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 559,
+          "1": 5
+        },
+        "total_evaluations": 10,
+        "any_active_bound_origins": 5,
+        "cost_mean": 0.7874518876656685,
+        "cost_max": 17.32613500219048
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C75_innovation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.020000000000000004,
+          1.0055502153991496,
+          1.7147263876380314,
+          2.7833159869206447,
+          6.490039467607419
+        ],
+        "r_percentiles": [
+          -0.5186083678340994,
+          -0.1749132469346896,
+          -0.00033446928562934635,
+          0.1776774214125614,
+          0.6832188840699256
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 433,
+          "3": 84,
+          "2": 39,
+          "4": 8
+        },
+        "total_evaluations": 3131,
+        "any_active_bound_origins": 5,
+        "cost_mean": 4.773174898375674,
+        "cost_max": 101.09890539395019
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C76_simulation_affine",
+      "method": "offset_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -0.3475911221122973,
+          -0.14970451239281163,
+          0.006592990646154175,
+          0.1420813117842062,
+          0.3973177612158648
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 564
+        },
+        "total_evaluations": 564,
+        "any_active_bound_origins": 0,
+        "cost_mean": 0.5108889527269077,
+        "cost_max": 9.526598104769803
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C76_simulation_affine",
+      "method": "affine_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.02,
+          0.8472170474906002,
+          1.1949586202603766,
+          1.6344624571590554,
+          2.502664603921226
+        ],
+        "r_percentiles": [
+          -0.3721427286084571,
+          -0.1080310588811128,
+          0.005321611447846033,
+          0.09476618668976881,
+          0.4349338465622124
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 559,
+          "1": 5
+        },
+        "total_evaluations": 10,
+        "any_active_bound_origins": 5,
+        "cost_mean": 0.44621437473008985,
+        "cost_max": 9.46710158507728
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C76_simulation_affine",
+      "method": "affine_past_simulation",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.020000000000000004,
+          0.8031834612817337,
+          1.2835024569820348,
+          1.9899667901598967,
+          4.675793136074463
+        ],
+        "r_percentiles": [
+          -0.37315455092087524,
+          -0.13638552340822488,
+          0.0038709678424958724,
+          0.14169731984014144,
+          0.5119321947039502
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 112,
+          "2": 53,
+          "1": 380,
+          "4": 19
+        },
+        "total_evaluations": 2785,
+        "any_active_bound_origins": 5,
+        "cost_mean": 4.80913982576155,
+        "cost_max": 103.92869926484697
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C76_simulation_monotone",
+      "method": "offset_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "r_percentiles": [
+          -0.27460523518291874,
+          -0.07760268491626139,
+          0.0028222082606958587,
+          0.1162176076346575,
+          0.3552564277400377
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "0": 564
+        },
+        "total_evaluations": 564,
+        "any_active_bound_origins": 0,
+        "cost_mean": 0.5380649294802606,
+        "cost_max": 15.538472232945507
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C76_simulation_monotone",
+      "method": "affine_innovation_ridge",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.02,
+          0.8233041611998689,
+          1.0198647280783435,
+          1.3143607921161848,
+          1.8598758814635332
+        ],
+        "r_percentiles": [
+          -0.30336029834911116,
+          -0.08419376894725679,
+          0.00322735027657584,
+          0.11231272201208305,
+          0.38203677695146065
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "3": 559,
+          "1": 5
+        },
+        "total_evaluations": 10,
+        "any_active_bound_origins": 5,
+        "cost_mean": 0.5078102718615161,
+        "cost_max": 15.537824723630722
+      }
+    },
+    {
+      "destination": "F16",
+      "calibration_source": "F16",
+      "condition": "nonlinear",
+      "family": "C76_simulation_monotone",
+      "method": "affine_past_simulation",
+      "cross_system": false,
+      "source_new_view_calibration_available": true,
+      "nuisance": {
+        "origins": 564,
+        "finite_parameters": 564,
+        "q_percentiles": [
+          0.020000000000000004,
+          0.6881054159294406,
+          1.0585337533829193,
+          1.4701264348581342,
+          3.1344936241610624
+        ],
+        "r_percentiles": [
+          -0.3867481782282904,
+          -0.09995422360094872,
+          0.003311109264335782,
+          0.14039583887296728,
+          0.550193980636658
+        ],
+        "quantile_levels": [
+          0,
+          0.05,
+          0.5,
+          0.95,
+          1.0
+        ],
+        "solver_successes": 564,
+        "solver_nonconverged": 0,
+        "status_counts": {
+          "1": 407,
+          "3": 85,
+          "2": 58,
+          "4": 14
+        },
+        "total_evaluations": 3214,
+        "any_active_bound_origins": 5,
+        "cost_mean": 4.465426985086444,
+        "cost_max": 110.01197475601545
+      }
+    }
+  ]
+}
