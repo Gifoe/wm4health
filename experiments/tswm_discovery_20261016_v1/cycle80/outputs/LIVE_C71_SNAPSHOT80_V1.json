@@ -1,0 +1,37 @@
+{
+    "utc":  "2026-10-18T10:48:00.5529523Z",
+    "source":  "Current Win32_Process handles and exact progress file",
+    "processes":  [
+                      {
+                          "ProcessId":  30928,
+                          "CommandLine":  "\"E:\\Anaconda\\envs\\salt_env\\python.exe\" -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\capture_bounded_campaign71_v1.py formal"
+                      },
+                      {
+                          "ProcessId":  43620,
+                          "CommandLine":  "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\bounded_campaign71_v1.py formal"
+                      },
+                      {
+                          "ProcessId":  42004,
+                          "CommandLine":  "\"E:\\Anaconda\\envs\\salt_env\\python.exe\" -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\capture_assessment71_v3.py queue"
+                      },
+                      {
+                          "ProcessId":  1620,
+                          "CommandLine":  "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\queue_free_simulation71_v3.py"
+                      },
+                      {
+                          "ProcessId":  41404,
+                          "CommandLine":  "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\bounded_native71_v1.py --request D:\\tswm_discovery_20261016_v1\\cycle71\\outputs\\formal_seed2026712_bounded00250_v1_request.json"
+                      }
+                  ],
+    "campaign_progress":  {
+                              "utc":  "2026-10-18T10:47:02.236671+00:00",
+                              "status":  "ORIGINAL_BUDGET_RUNNING_IN_BOUNDED_PROCESSES",
+                              "current_seed":  2026712,
+                              "last_completed_epoch":  200,
+                              "effective_updates_current_seed":  3216,
+                              "closed_fits":  1,
+                              "segments_current_fit":  4,
+                              "reserved_eval_rows_accessed":  0
+                          },
+    "reserved_evaluation_not_opened":  true
+}

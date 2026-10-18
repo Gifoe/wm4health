@@ -1,0 +1,77 @@
+{
+  "utc": "2026-10-18T10:43:37.580042+00:00",
+  "status": "PASS_ALL18_METRICS_CLEAN_CONTEXT_RECONSTRUCTION36_SELECTIONS3_COEFFICIENT_REPLAYS6_NATIVE_INTEGRATIONS",
+  "native_result_sha256": "0df310217bdc6ee6dd32ab48b632f5fa605819fb51a083de90aeacc5a9c3fd13",
+  "control_result_sha256": "194b1ea31c9ec9ca231592372a33e62db59bfa7acad8bb7e1f5742239b97dddd",
+  "rows": 18,
+  "prediction_and_target_values": 36864,
+  "metric_max_abs_error": 0.0,
+  "context_candidate_validation_max_abs_error": 0.0,
+  "regression_checks": [
+    {
+      "system": 26,
+      "augmented_lstsq_coefficient_max_abs_difference": 3.74200670449909e-13,
+      "normalized_design_smallest_singular_value": 8.656185650714318e-05,
+      "selected_library": "polynomial3_trig"
+    },
+    {
+      "system": 42,
+      "augmented_lstsq_coefficient_max_abs_difference": 7.183142969324763e-10,
+      "normalized_design_smallest_singular_value": 0.045882843145936617,
+      "selected_library": "polynomial3_trig"
+    },
+    {
+      "system": 28,
+      "augmented_lstsq_coefficient_max_abs_difference": 7.496953058350186e-11,
+      "normalized_design_smallest_singular_value": 0.01667750324007088,
+      "selected_library": "polynomial3_trig"
+    }
+  ],
+  "native_replays": [
+    {
+      "system": 26,
+      "initial_condition": 0,
+      "max_abs_cached_vs_native_integrated_difference": 0.0,
+      "repeated_query_max_abs": 0.0,
+      "nfev": 134
+    },
+    {
+      "system": 26,
+      "initial_condition": 1,
+      "max_abs_cached_vs_native_integrated_difference": 0.0,
+      "repeated_query_max_abs": 0.0,
+      "nfev": 122
+    },
+    {
+      "system": 42,
+      "initial_condition": 0,
+      "max_abs_cached_vs_native_integrated_difference": 0.0,
+      "repeated_query_max_abs": 0.0,
+      "nfev": 290
+    },
+    {
+      "system": 42,
+      "initial_condition": 1,
+      "max_abs_cached_vs_native_integrated_difference": 0.0,
+      "repeated_query_max_abs": 0.0,
+      "nfev": 248
+    },
+    {
+      "system": 28,
+      "initial_condition": 0,
+      "max_abs_cached_vs_native_integrated_difference": 0.0,
+      "repeated_query_max_abs": 0.0,
+      "nfev": 134
+    },
+    {
+      "system": 28,
+      "initial_condition": 1,
+      "max_abs_cached_vs_native_integrated_difference": 0.0,
+      "repeated_query_max_abs": 0.0,
+      "nfev": 158
+    }
+  ],
+  "wall_seconds": 19.408446999965236,
+  "source_files": 70,
+  "accepted_final_directions": 0
+}

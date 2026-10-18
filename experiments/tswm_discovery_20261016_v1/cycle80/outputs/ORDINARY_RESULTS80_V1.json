@@ -1,0 +1,4473 @@
+{
+  "utc": "2026-10-18T10:41:33.764407+00:00",
+  "status": "ORDINARY_AND_TRUE_EQUATION_CONTROLS_CLOSED_UNVERIFIED",
+  "rows": [
+    {
+      "system": 26,
+      "initial_condition_index": 0,
+      "role": "context_trajectory_reconstruction",
+      "method": "ordinary_weak_integral",
+      "privileged": false,
+      "finite_complete": true,
+      "mse": 0.0001478991977831188,
+      "rmse": 0.012161381409326771,
+      "mae": 0.008305769146137081,
+      "nrmse": 0.014212416765050006,
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 146,
+        "returned_steps": 512,
+        "wall_seconds": 0.011291600007098168
+      },
+      "native_fim_mse": 0.00618495176008464,
+      "native_fim_nrmse": 0.0919079720327887,
+      "selected_library": "polynomial3_trig",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle80\\ordinary_context_v1\\system26_ic0_ordinary_weak_integral.npz",
+      "array_sha256": "47482a7e35775568ebf746020f5d9a78eea72c738671eac74160e13602459cec"
+    },
+    {
+      "system": 26,
+      "initial_condition_index": 0,
+      "role": "context_trajectory_reconstruction",
+      "method": "privileged_true_equations",
+      "privileged": true,
+      "finite_complete": true,
+      "mse": 8.539317216412982e-09,
+      "rmse": 9.24084261115456e-05,
+      "mae": 6.920387546903606e-05,
+      "nrmse": 0.00010799324684384843,
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 146,
+        "returned_steps": 512,
+        "wall_seconds": 0.004671200003940612
+      },
+      "native_fim_mse": 0.00618495176008464,
+      "native_fim_nrmse": 0.0919079720327887,
+      "selected_library": null,
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle80\\ordinary_context_v1\\system26_ic0_privileged_true_equations.npz",
+      "array_sha256": "02a5f69d6ff95dcb08ded06f5b06345e8cb3cfb0022124852e26a6c90d3175d4"
+    },
+    {
+      "system": 26,
+      "initial_condition_index": 1,
+      "role": "new_initial_condition_same_system",
+      "method": "ordinary_weak_integral",
+      "privileged": false,
+      "finite_complete": true,
+      "mse": 0.07805022285394105,
+      "rmse": 0.2793746997384356,
+      "mae": 0.14648704478854885,
+      "nrmse": 0.30099103367160174,
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 98,
+        "returned_steps": 512,
+        "wall_seconds": 0.007731200021225959
+      },
+      "native_fim_mse": 0.014170223719616236,
+      "native_fim_nrmse": 0.12824925122628647,
+      "selected_library": "polynomial3_trig",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle80\\ordinary_context_v1\\system26_ic1_ordinary_weak_integral.npz",
+      "array_sha256": "e2ce87d27416d2ceff57c8c4da6b686d88147b2f91c2e0d709b89cd868f03ed7"
+    },
+    {
+      "system": 26,
+      "initial_condition_index": 1,
+      "role": "new_initial_condition_same_system",
+      "method": "privileged_true_equations",
+      "privileged": true,
+      "finite_complete": true,
+      "mse": 1.7090842523077898e-09,
+      "rmse": 4.134107222010322e-05,
+      "mae": 2.498582534810203e-05,
+      "nrmse": 4.4539795737664266e-05,
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 134,
+        "returned_steps": 512,
+        "wall_seconds": 0.004319900006521493
+      },
+      "native_fim_mse": 0.014170223719616236,
+      "native_fim_nrmse": 0.12824925122628647,
+      "selected_library": null,
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle80\\ordinary_context_v1\\system26_ic1_privileged_true_equations.npz",
+      "array_sha256": "8d44ae612f5ae58e33c98814584eb2aad2f16259e31d822c5e2917de4bf54267"
+    },
+    {
+      "system": 42,
+      "initial_condition_index": 0,
+      "role": "context_trajectory_reconstruction",
+      "method": "ordinary_weak_integral",
+      "privileged": false,
+      "finite_complete": true,
+      "mse": 0.007754835081492355,
+      "rmse": 0.08806154144399447,
+      "mae": 0.0729461574995114,
+      "nrmse": 0.04520942153088738,
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 374,
+        "returned_steps": 512,
+        "wall_seconds": 0.027699100028257817
+      },
+      "native_fim_mse": 0.01488852607559127,
+      "native_fim_nrmse": 0.06264241897527198,
+      "selected_library": "polynomial3_trig",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle80\\ordinary_context_v1\\system42_ic0_ordinary_weak_integral.npz",
+      "array_sha256": "c73392fb6aacf91088229439549ff6ea086fcb1e41ad9e4bd73ca3a10d23d018"
+    },
+    {
+      "system": 42,
+      "initial_condition_index": 0,
+      "role": "context_trajectory_reconstruction",
+      "method": "privileged_true_equations",
+      "privileged": true,
+      "finite_complete": true,
+      "mse": 1.2953151252104673e-07,
+      "rmse": 0.0003599048659313274,
+      "mae": 0.0002701878144699689,
+      "nrmse": 0.0001847695433000682,
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 308,
+        "returned_steps": 512,
+        "wall_seconds": 0.00956069998210296
+      },
+      "native_fim_mse": 0.01488852607559127,
+      "native_fim_nrmse": 0.06264241897527198,
+      "selected_library": null,
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle80\\ordinary_context_v1\\system42_ic0_privileged_true_equations.npz",
+      "array_sha256": "77d87e1aa5742f059acd88d6a2dc50690235ddde957125aa33df1571f4a3dfca"
+    },
+    {
+      "system": 42,
+      "initial_condition_index": 1,
+      "role": "new_initial_condition_same_system",
+      "method": "ordinary_weak_integral",
+      "privileged": false,
+      "finite_complete": true,
+      "mse": 0.0027996636897643264,
+      "rmse": 0.052911848292838216,
+      "mae": 0.04102749474766249,
+      "nrmse": 0.029382549088004414,
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 398,
+        "returned_steps": 512,
+        "wall_seconds": 0.029278400004841387
+      },
+      "native_fim_mse": 0.0813969525468623,
+      "native_fim_nrmse": 0.15843116317527406,
+      "selected_library": "polynomial3_trig",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle80\\ordinary_context_v1\\system42_ic1_ordinary_weak_integral.npz",
+      "array_sha256": "b872ac7fe0d4225e26e0e8761d26638c65b5a95b9e1c5ee9105a31e364378bee"
+    },
+    {
+      "system": 42,
+      "initial_condition_index": 1,
+      "role": "new_initial_condition_same_system",
+      "method": "privileged_true_equations",
+      "privileged": true,
+      "finite_complete": true,
+      "mse": 1.4613082233821008e-07,
+      "rmse": 0.0003822706140134369,
+      "mae": 0.0002712316252524509,
+      "nrmse": 0.0002122792048198342,
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 338,
+        "returned_steps": 512,
+        "wall_seconds": 0.010321299952920526
+      },
+      "native_fim_mse": 0.0813969525468623,
+      "native_fim_nrmse": 0.15843116317527406,
+      "selected_library": null,
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle80\\ordinary_context_v1\\system42_ic1_privileged_true_equations.npz",
+      "array_sha256": "81c35878c2be5c68bf90359c60424c5bbbdbc8fa72376dc65b0f5f735e331670"
+    },
+    {
+      "system": 28,
+      "initial_condition_index": 0,
+      "role": "context_trajectory_reconstruction",
+      "method": "ordinary_weak_integral",
+      "privileged": false,
+      "finite_complete": true,
+      "mse": 0.0013039037626049136,
+      "rmse": 0.0361096076218631,
+      "mae": 0.02222780008392744,
+      "nrmse": 0.02974542552071644,
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 134,
+        "returned_steps": 512,
+        "wall_seconds": 0.010177400021348149
+      },
+      "native_fim_mse": 0.02491869586069558,
+      "native_fim_nrmse": 0.1300349429637547,
+      "selected_library": "polynomial3_trig",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle80\\ordinary_context_v1\\system28_ic0_ordinary_weak_integral.npz",
+      "array_sha256": "eb6a750946762a72ab53a7af6a1276b999dfc11798c8b3105bbe5263856fb340"
+    },
+    {
+      "system": 28,
+      "initial_condition_index": 0,
+      "role": "context_trajectory_reconstruction",
+      "method": "privileged_true_equations",
+      "privileged": true,
+      "finite_complete": true,
+      "mse": 4.441593249525639e-08,
+      "rmse": 0.00021075087780423688,
+      "mae": 0.00014838558523680174,
+      "nrmse": 0.00017360683075813753,
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 110,
+        "returned_steps": 512,
+        "wall_seconds": 0.0035502000246196985
+      },
+      "native_fim_mse": 0.02491869586069558,
+      "native_fim_nrmse": 0.1300349429637547,
+      "selected_library": null,
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle80\\ordinary_context_v1\\system28_ic0_privileged_true_equations.npz",
+      "array_sha256": "1b2f5d5031aeb40e561eb1b13815496b5a4eedb08f83f7c6ff22b6a346887aca"
+    },
+    {
+      "system": 28,
+      "initial_condition_index": 1,
+      "role": "new_initial_condition_same_system",
+      "method": "ordinary_weak_integral",
+      "privileged": false,
+      "finite_complete": true,
+      "mse": 0.3181784925144211,
+      "rmse": 0.5640731269209881,
+      "mae": 0.4772687354030518,
+      "nrmse": 0.9087610334799724,
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 164,
+        "returned_steps": 512,
+        "wall_seconds": 0.012370899959933013
+      },
+      "native_fim_mse": 1.0126324911658369,
+      "native_fim_nrmse": 1.6212135161361387,
+      "selected_library": "polynomial3_trig",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle80\\ordinary_context_v1\\system28_ic1_ordinary_weak_integral.npz",
+      "array_sha256": "bd3a58845d6c0d5dfb3cd003bddc1a2cd849c633c9167476c77378c38a585141"
+    },
+    {
+      "system": 28,
+      "initial_condition_index": 1,
+      "role": "new_initial_condition_same_system",
+      "method": "privileged_true_equations",
+      "privileged": true,
+      "finite_complete": true,
+      "mse": 2.237358800624193e-08,
+      "rmse": 0.00014957803316744718,
+      "mae": 0.00011417130944759265,
+      "nrmse": 0.00024098061318597654,
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 122,
+        "returned_steps": 512,
+        "wall_seconds": 0.0038767000078223646
+      },
+      "native_fim_mse": 1.0126324911658369,
+      "native_fim_nrmse": 1.6212135161361387,
+      "selected_library": null,
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle80\\ordinary_context_v1\\system28_ic1_privileged_true_equations.npz",
+      "array_sha256": "44785863df1fdf916606e821952c13ed208b8f1ca528f0931ef67a469df38110"
+    }
+  ],
+  "candidates": [
+    {
+      "system": 26,
+      "library": "polynomial3",
+      "ridge": 1e-06,
+      "threshold": 0.0,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.004139806761189389,
+        "rmse": 0.06434133011672503,
+        "mae": 0.03974906435037366,
+        "nrmse": 0.06439752777736749
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 26,
+        "returned_steps": 65,
+        "wall_seconds": 0.0021071999799460173
+      },
+      "model": {
+        "library": "polynomial3",
+        "ridge": 1e-06,
+        "threshold": 0.0,
+        "mean": [
+          0.3940062671940115,
+          1.730064633382337
+        ],
+        "std": [
+          0.5764103765057047,
+          0.33289028749197275
+        ],
+        "coefficient": [
+          [
+            -0.21512328610085782,
+            0.81025918983422
+          ],
+          [
+            -0.05555145251892858,
+            0.6371173097841129
+          ],
+          [
+            -0.11227718081188287,
+            0.2567903314780657
+          ],
+          [
+            -0.20084516836357855,
+            0.1541175407596194
+          ],
+          [
+            -0.3705691214685337,
+            0.1835200714092046
+          ],
+          [
+            -0.4864292057828353,
+            -2.451884998990516
+          ],
+          [
+            -0.0008686576300293576,
+            -0.046088581334758495
+          ],
+          [
+            0.24245242932658823,
+            0.2689483548591189
+          ],
+          [
+            0.542734168426609,
+            0.31531231559532724
+          ],
+          [
+            -0.7709302628943142,
+            -0.41453912605297627
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.5056555268814399,
+          0.40434562341444985,
+          0.539775221090305,
+          0.3624834242026738,
+          0.5166033743411016,
+          1.3732131023109098,
+          1.4976852882671494,
+          1.6336604649979232,
+          1.9649437614275926
+        ],
+        "singular_values": [
+          54.427950750464696,
+          33.97468279843899,
+          29.10350962151003,
+          12.213340342675359,
+          8.331510149240353,
+          3.8594734213411637,
+          1.6155305319645126,
+          0.3629401732248486,
+          0.2815505059387769,
+          0.09284191789722426
+        ],
+        "rows": 520,
+        "active_coefficients": 20,
+        "normalized_integral_fit_mse": 0.02608798549228431
+      }
+    },
+    {
+      "system": 26,
+      "library": "polynomial3",
+      "ridge": 1e-06,
+      "threshold": 0.03,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.004317888400672007,
+        "rmse": 0.06571064145686,
+        "mae": 0.040293047753152664,
+        "nrmse": 0.06576803511537609
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 26,
+        "returned_steps": 65,
+        "wall_seconds": 0.001952200022060424
+      },
+      "model": {
+        "library": "polynomial3",
+        "ridge": 1e-06,
+        "threshold": 0.03,
+        "mean": [
+          0.3940062671940115,
+          1.730064633382337
+        ],
+        "std": [
+          0.5764103765057047,
+          0.33289028749197275
+        ],
+        "coefficient": [
+          [
+            -0.17712754690957122,
+            0.81025918983422
+          ],
+          [
+            0.0,
+            0.6371173097841129
+          ],
+          [
+            0.0,
+            0.2567903314780657
+          ],
+          [
+            -0.19998998468433477,
+            0.1541175407596194
+          ],
+          [
+            -0.3199075955975177,
+            0.1835200714092046
+          ],
+          [
+            -0.49365681452604243,
+            -2.451884998990516
+          ],
+          [
+            0.0,
+            -0.046088581334758495
+          ],
+          [
+            0.2670788893718758,
+            0.2689483548591189
+          ],
+          [
+            0.5821550742508678,
+            0.31531231559532724
+          ],
+          [
+            -0.8402616874625954,
+            -0.41453912605297627
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.5056555268814399,
+          0.40434562341444985,
+          0.539775221090305,
+          0.3624834242026738,
+          0.5166033743411016,
+          1.3732131023109098,
+          1.4976852882671494,
+          1.6336604649979232,
+          1.9649437614275926
+        ],
+        "singular_values": [
+          54.427950750464696,
+          33.97468279843899,
+          29.10350962151003,
+          12.213340342675359,
+          8.331510149240353,
+          3.8594734213411637,
+          1.6155305319645126,
+          0.3629401732248486,
+          0.2815505059387769,
+          0.09284191789722426
+        ],
+        "rows": 520,
+        "active_coefficients": 17,
+        "normalized_integral_fit_mse": 0.026088498451945566
+      }
+    },
+    {
+      "system": 26,
+      "library": "polynomial3",
+      "ridge": 0.001,
+      "threshold": 0.0,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.004523819447887152,
+        "rmse": 0.06725934468820784,
+        "mae": 0.040731507699590455,
+        "nrmse": 0.06731809103089245
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 26,
+        "returned_steps": 65,
+        "wall_seconds": 0.0018965000053867698
+      },
+      "model": {
+        "library": "polynomial3",
+        "ridge": 0.001,
+        "threshold": 0.0,
+        "mean": [
+          0.3940062671940115,
+          1.730064633382337
+        ],
+        "std": [
+          0.5764103765057047,
+          0.33289028749197275
+        ],
+        "coefficient": [
+          [
+            -0.2444985800513494,
+            0.7854948570608935
+          ],
+          [
+            -0.08737797595096998,
+            0.6062344852280874
+          ],
+          [
+            -0.20317334862933387,
+            0.1862820362658335
+          ],
+          [
+            -0.17647670301022522,
+            0.1683987865229876
+          ],
+          [
+            -0.3931293246693238,
+            0.16755623779447404
+          ],
+          [
+            -0.49378409094405634,
+            -2.444825255406755
+          ],
+          [
+            0.010474309914441135,
+            -0.03747544606693628
+          ],
+          [
+            0.2287650425851158,
+            0.25987164601607804
+          ],
+          [
+            0.481595505314254,
+            0.2743097467695752
+          ],
+          [
+            -0.707007724231059,
+            -0.3735545661765047
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.5056555268814399,
+          0.40434562341444985,
+          0.539775221090305,
+          0.3624834242026738,
+          0.5166033743411016,
+          1.3732131023109098,
+          1.4976852882671494,
+          1.6336604649979232,
+          1.9649437614275926
+        ],
+        "singular_values": [
+          54.427950750464696,
+          33.97468279843899,
+          29.10350962151003,
+          12.213340342675359,
+          8.331510149240353,
+          3.8594734213411637,
+          1.6155305319645126,
+          0.3629401732248486,
+          0.2815505059387769,
+          0.09284191789722426
+        ],
+        "rows": 520,
+        "active_coefficients": 20,
+        "normalized_integral_fit_mse": 0.02608834113694371
+      }
+    },
+    {
+      "system": 26,
+      "library": "polynomial3",
+      "ridge": 0.001,
+      "threshold": 0.03,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.004371671998628234,
+        "rmse": 0.06611862066489464,
+        "mae": 0.040478954296544065,
+        "nrmse": 0.06617637066477079
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 26,
+        "returned_steps": 65,
+        "wall_seconds": 0.0018982000183314085
+      },
+      "model": {
+        "library": "polynomial3",
+        "ridge": 0.001,
+        "threshold": 0.03,
+        "mean": [
+          0.3940062671940115,
+          1.730064633382337
+        ],
+        "std": [
+          0.5764103765057047,
+          0.33289028749197275
+        ],
+        "coefficient": [
+          [
+            -0.23066009630013382,
+            0.7854948570608935
+          ],
+          [
+            -0.07254131229165697,
+            0.6062344852280874
+          ],
+          [
+            -0.16753131874853017,
+            0.1862820362658335
+          ],
+          [
+            -0.1923754529289956,
+            0.1683987865229876
+          ],
+          [
+            -0.3969899971493922,
+            0.16755623779447404
+          ],
+          [
+            -0.5037841542138263,
+            -2.444825255406755
+          ],
+          [
+            0.0,
+            -0.03747544606693628
+          ],
+          [
+            0.2280230814395622,
+            0.25987164601607804
+          ],
+          [
+            0.5113069029794731,
+            0.2743097467695752
+          ],
+          [
+            -0.7226369930926011,
+            -0.3735545661765047
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.5056555268814399,
+          0.40434562341444985,
+          0.539775221090305,
+          0.3624834242026738,
+          0.5166033743411016,
+          1.3732131023109098,
+          1.4976852882671494,
+          1.6336604649979232,
+          1.9649437614275926
+        ],
+        "singular_values": [
+          54.427950750464696,
+          33.97468279843899,
+          29.10350962151003,
+          12.213340342675359,
+          8.331510149240353,
+          3.8594734213411637,
+          1.6155305319645126,
+          0.3629401732248486,
+          0.2815505059387769,
+          0.09284191789722426
+        ],
+        "rows": 520,
+        "active_coefficients": 19,
+        "normalized_integral_fit_mse": 0.026088264347693103
+      }
+    },
+    {
+      "system": 26,
+      "library": "polynomial3",
+      "ridge": 1.0,
+      "threshold": 0.0,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.0026108911970103687,
+        "rmse": 0.05109688050175244,
+        "mae": 0.03984045648369847,
+        "nrmse": 0.05114151006015784
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 26,
+        "returned_steps": 65,
+        "wall_seconds": 0.0018909999635070562
+      },
+      "model": {
+        "library": "polynomial3",
+        "ridge": 1.0,
+        "threshold": 0.0,
+        "mean": [
+          0.3940062671940115,
+          1.730064633382337
+        ],
+        "std": [
+          0.5764103765057047,
+          0.33289028749197275
+        ],
+        "coefficient": [
+          [
+            -0.3488778105427081,
+            0.1468280970358721
+          ],
+          [
+            -0.11336516696505257,
+            -0.4963583734130359
+          ],
+          [
+            -0.7114032803796576,
+            -1.255774674220345
+          ],
+          [
+            0.03370891423510375,
+            0.02416631048133245
+          ],
+          [
+            -0.6264796797906408,
+            -0.19963467892919548
+          ],
+          [
+            -0.9047710289498492,
+            -1.443830354485639
+          ],
+          [
+            0.05008294256896516,
+            0.060257264300881797
+          ],
+          [
+            0.06354813818329119,
+            0.0947002707807154
+          ],
+          [
+            0.019056421902844622,
+            0.012278189291597543
+          ],
+          [
+            -0.08338369264408944,
+            -0.08578112184892268
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.5056555268814399,
+          0.40434562341444985,
+          0.539775221090305,
+          0.3624834242026738,
+          0.5166033743411016,
+          1.3732131023109098,
+          1.4976852882671494,
+          1.6336604649979232,
+          1.9649437614275926
+        ],
+        "singular_values": [
+          54.427950750464696,
+          33.97468279843899,
+          29.10350962151003,
+          12.213340342675359,
+          8.331510149240353,
+          3.8594734213411637,
+          1.6155305319645126,
+          0.3629401732248486,
+          0.2815505059387769,
+          0.09284191789722426
+        ],
+        "rows": 520,
+        "active_coefficients": 20,
+        "normalized_integral_fit_mse": 0.026255834539479748
+      }
+    },
+    {
+      "system": 26,
+      "library": "polynomial3",
+      "ridge": 1.0,
+      "threshold": 0.03,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.002060237546327418,
+        "rmse": 0.04538983968166684,
+        "mae": 0.03333760682898108,
+        "nrmse": 0.045429484538284166
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 26,
+        "returned_steps": 65,
+        "wall_seconds": 0.0018905000179074705
+      },
+      "model": {
+        "library": "polynomial3",
+        "ridge": 1.0,
+        "threshold": 0.03,
+        "mean": [
+          0.3940062671940115,
+          1.730064633382337
+        ],
+        "std": [
+          0.5764103765057047,
+          0.33289028749197275
+        ],
+        "coefficient": [
+          [
+            -0.35574791648786913,
+            0.12698491510392043
+          ],
+          [
+            -0.1404697402209674,
+            -0.5394695488697769
+          ],
+          [
+            -0.7312935278771742,
+            -1.311411976272367
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -0.6581261948519592,
+            -0.2255571314262864
+          ],
+          [
+            -0.8839883706408466,
+            -1.4048881463571097
+          ],
+          [
+            0.03997668811402288,
+            0.060277505490507914
+          ],
+          [
+            0.05826457100145758,
+            0.09848539824087899
+          ],
+          [
+            0.03882153624730142,
+            0.0
+          ],
+          [
+            -0.08176598036310255,
+            -0.07388060107939853
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.5056555268814399,
+          0.40434562341444985,
+          0.539775221090305,
+          0.3624834242026738,
+          0.5166033743411016,
+          1.3732131023109098,
+          1.4976852882671494,
+          1.6336604649979232,
+          1.9649437614275926
+        ],
+        "singular_values": [
+          54.427950750464696,
+          33.97468279843899,
+          29.10350962151003,
+          12.213340342675359,
+          8.331510149240353,
+          3.8594734213411637,
+          1.6155305319645126,
+          0.3629401732248486,
+          0.2815505059387769,
+          0.09284191789722426
+        ],
+        "rows": 520,
+        "active_coefficients": 17,
+        "normalized_integral_fit_mse": 0.026264740491629156
+      }
+    },
+    {
+      "system": 26,
+      "library": "polynomial3_trig",
+      "ridge": 1e-06,
+      "threshold": 0.0,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.0035805413483919898,
+        "rmse": 0.059837624855871324,
+        "mae": 0.037967731963284075,
+        "nrmse": 0.059889888844340315
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 44,
+        "returned_steps": 65,
+        "wall_seconds": 0.003476999991107732
+      },
+      "model": {
+        "library": "polynomial3_trig",
+        "ridge": 1e-06,
+        "threshold": 0.0,
+        "mean": [
+          0.3940062671940115,
+          1.730064633382337
+        ],
+        "std": [
+          0.5764103765057047,
+          0.33289028749197275
+        ],
+        "coefficient": [
+          [
+            -15.122614742858351,
+            -215.64584342691293
+          ],
+          [
+            -29.950259767446312,
+            -19.60566760671531
+          ],
+          [
+            -16.723150025138185,
+            45.07357936239363
+          ],
+          [
+            2.462395494576901,
+            7.775577409999899
+          ],
+          [
+            3.3765532641096923,
+            -4.155256060847886
+          ],
+          [
+            0.38756399262235003,
+            2.7696891125905387
+          ],
+          [
+            1.0510728907430187,
+            -0.33984019414972927
+          ],
+          [
+            1.382402726403408,
+            -1.2831638567248072
+          ],
+          [
+            -0.10642275767647888,
+            0.9350777028845713
+          ],
+          [
+            -2.2042235939698642,
+            -0.3010196043865972
+          ],
+          [
+            26.138620485115624,
+            -56.789754426789564
+          ],
+          [
+            7.9163656414757,
+            158.3840775336724
+          ],
+          [
+            -19.36904389169374,
+            74.13462038265443
+          ],
+          [
+            -95.11503477146157,
+            -83.64086354541176
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.5056555268814399,
+          0.40434562341444985,
+          0.539775221090305,
+          0.3624834242026738,
+          0.5166033743411016,
+          1.3732131023109098,
+          1.4976852882671494,
+          1.6336604649979232,
+          1.9649437614275926,
+          0.293653972946468,
+          0.7826461752404799,
+          0.7467375694945433,
+          0.1787519347965164
+        ],
+        "singular_values": [
+          55.76836574939354,
+          48.75195533656651,
+          38.75465906127364,
+          13.375418966262544,
+          9.62392641281828,
+          4.08598263425189,
+          1.6417095316674897,
+          0.4534609203841506,
+          0.2926672497270239,
+          0.09399347156512625,
+          0.015757534843758334,
+          0.003608399951356355,
+          0.000349622290404269,
+          0.00010392058353271687
+        ],
+        "rows": 520,
+        "active_coefficients": 28,
+        "normalized_integral_fit_mse": 0.025746673943805552
+      }
+    },
+    {
+      "system": 26,
+      "library": "polynomial3_trig",
+      "ridge": 1e-06,
+      "threshold": 0.03,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.0035805413483919898,
+        "rmse": 0.059837624855871324,
+        "mae": 0.037967731963284075,
+        "nrmse": 0.059889888844340315
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 44,
+        "returned_steps": 65,
+        "wall_seconds": 0.0034995999885722995
+      },
+      "model": {
+        "library": "polynomial3_trig",
+        "ridge": 1e-06,
+        "threshold": 0.03,
+        "mean": [
+          0.3940062671940115,
+          1.730064633382337
+        ],
+        "std": [
+          0.5764103765057047,
+          0.33289028749197275
+        ],
+        "coefficient": [
+          [
+            -15.122614742858351,
+            -215.64584342691293
+          ],
+          [
+            -29.950259767446312,
+            -19.60566760671531
+          ],
+          [
+            -16.723150025138185,
+            45.07357936239363
+          ],
+          [
+            2.462395494576901,
+            7.775577409999899
+          ],
+          [
+            3.3765532641096923,
+            -4.155256060847886
+          ],
+          [
+            0.38756399262235003,
+            2.7696891125905387
+          ],
+          [
+            1.0510728907430187,
+            -0.33984019414972927
+          ],
+          [
+            1.382402726403408,
+            -1.2831638567248072
+          ],
+          [
+            -0.10642275767647888,
+            0.9350777028845713
+          ],
+          [
+            -2.2042235939698642,
+            -0.3010196043865972
+          ],
+          [
+            26.138620485115624,
+            -56.789754426789564
+          ],
+          [
+            7.9163656414757,
+            158.3840775336724
+          ],
+          [
+            -19.36904389169374,
+            74.13462038265443
+          ],
+          [
+            -95.11503477146157,
+            -83.64086354541176
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.5056555268814399,
+          0.40434562341444985,
+          0.539775221090305,
+          0.3624834242026738,
+          0.5166033743411016,
+          1.3732131023109098,
+          1.4976852882671494,
+          1.6336604649979232,
+          1.9649437614275926,
+          0.293653972946468,
+          0.7826461752404799,
+          0.7467375694945433,
+          0.1787519347965164
+        ],
+        "singular_values": [
+          55.76836574939354,
+          48.75195533656651,
+          38.75465906127364,
+          13.375418966262544,
+          9.62392641281828,
+          4.08598263425189,
+          1.6417095316674897,
+          0.4534609203841506,
+          0.2926672497270239,
+          0.09399347156512625,
+          0.015757534843758334,
+          0.003608399951356355,
+          0.000349622290404269,
+          0.00010392058353271687
+        ],
+        "rows": 520,
+        "active_coefficients": 28,
+        "normalized_integral_fit_mse": 0.025746673943805552
+      }
+    },
+    {
+      "system": 26,
+      "library": "polynomial3_trig",
+      "ridge": 0.001,
+      "threshold": 0.0,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.004311458266189021,
+        "rmse": 0.06566169557808435,
+        "mae": 0.03892465435969427,
+        "nrmse": 0.0657190464857919
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 32,
+        "returned_steps": 65,
+        "wall_seconds": 0.0025514000444673
+      },
+      "model": {
+        "library": "polynomial3_trig",
+        "ridge": 0.001,
+        "threshold": 0.0,
+        "mean": [
+          0.3940062671940115,
+          1.730064633382337
+        ],
+        "std": [
+          0.5764103765057047,
+          0.33289028749197275
+        ],
+        "coefficient": [
+          [
+            -1.0028043944845384,
+            0.6444159410330986
+          ],
+          [
+            -0.6244602478137623,
+            1.3105388480470812
+          ],
+          [
+            -4.855376363682667,
+            5.08669254721778
+          ],
+          [
+            0.09695688115283489,
+            -0.11843985047145496
+          ],
+          [
+            0.39198526056074245,
+            -0.6520060226598607
+          ],
+          [
+            0.1215889381396156,
+            -2.938491372873139
+          ],
+          [
+            0.11377456664828871,
+            -0.15102365474560517
+          ],
+          [
+            0.45069977899776137,
+            0.02364746463051691
+          ],
+          [
+            0.3301637869560299,
+            0.4288246545167921
+          ],
+          [
+            -0.9548634080617239,
+            -0.12159838388312431
+          ],
+          [
+            8.468683405747031,
+            -8.538134436162604
+          ],
+          [
+            -0.6998591545852326,
+            0.7924501465052142
+          ],
+          [
+            -2.2828699877216465,
+            3.275291595890987
+          ],
+          [
+            -2.2003031593172726,
+            2.706593123123357
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.5056555268814399,
+          0.40434562341444985,
+          0.539775221090305,
+          0.3624834242026738,
+          0.5166033743411016,
+          1.3732131023109098,
+          1.4976852882671494,
+          1.6336604649979232,
+          1.9649437614275926,
+          0.293653972946468,
+          0.7826461752404799,
+          0.7467375694945433,
+          0.1787519347965164
+        ],
+        "singular_values": [
+          55.76836574939354,
+          48.75195533656651,
+          38.75465906127364,
+          13.375418966262544,
+          9.62392641281828,
+          4.08598263425189,
+          1.6417095316674897,
+          0.4534609203841506,
+          0.2926672497270239,
+          0.09399347156512625,
+          0.015757534843758334,
+          0.003608399951356355,
+          0.000349622290404269,
+          0.00010392058353271687
+        ],
+        "rows": 520,
+        "active_coefficients": 28,
+        "normalized_integral_fit_mse": 0.026018403320931457
+      }
+    },
+    {
+      "system": 26,
+      "library": "polynomial3_trig",
+      "ridge": 0.001,
+      "threshold": 0.03,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.004311458266189021,
+        "rmse": 0.06566169557808435,
+        "mae": 0.03892465435969427,
+        "nrmse": 0.0657190464857919
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 32,
+        "returned_steps": 65,
+        "wall_seconds": 0.0026289999950677156
+      },
+      "model": {
+        "library": "polynomial3_trig",
+        "ridge": 0.001,
+        "threshold": 0.03,
+        "mean": [
+          0.3940062671940115,
+          1.730064633382337
+        ],
+        "std": [
+          0.5764103765057047,
+          0.33289028749197275
+        ],
+        "coefficient": [
+          [
+            -1.0028043944845384,
+            0.6444159410330986
+          ],
+          [
+            -0.6244602478137623,
+            1.3105388480470812
+          ],
+          [
+            -4.855376363682667,
+            5.08669254721778
+          ],
+          [
+            0.09695688115283489,
+            -0.11843985047145496
+          ],
+          [
+            0.39198526056074245,
+            -0.6520060226598607
+          ],
+          [
+            0.1215889381396156,
+            -2.938491372873139
+          ],
+          [
+            0.11377456664828871,
+            -0.15102365474560517
+          ],
+          [
+            0.45069977899776137,
+            0.02364746463051691
+          ],
+          [
+            0.3301637869560299,
+            0.4288246545167921
+          ],
+          [
+            -0.9548634080617239,
+            -0.12159838388312431
+          ],
+          [
+            8.468683405747031,
+            -8.538134436162604
+          ],
+          [
+            -0.6998591545852326,
+            0.7924501465052142
+          ],
+          [
+            -2.2828699877216465,
+            3.275291595890987
+          ],
+          [
+            -2.2003031593172726,
+            2.706593123123357
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.5056555268814399,
+          0.40434562341444985,
+          0.539775221090305,
+          0.3624834242026738,
+          0.5166033743411016,
+          1.3732131023109098,
+          1.4976852882671494,
+          1.6336604649979232,
+          1.9649437614275926,
+          0.293653972946468,
+          0.7826461752404799,
+          0.7467375694945433,
+          0.1787519347965164
+        ],
+        "singular_values": [
+          55.76836574939354,
+          48.75195533656651,
+          38.75465906127364,
+          13.375418966262544,
+          9.62392641281828,
+          4.08598263425189,
+          1.6417095316674897,
+          0.4534609203841506,
+          0.2926672497270239,
+          0.09399347156512625,
+          0.015757534843758334,
+          0.003608399951356355,
+          0.000349622290404269,
+          0.00010392058353271687
+        ],
+        "rows": 520,
+        "active_coefficients": 28,
+        "normalized_integral_fit_mse": 0.026018403320931457
+      }
+    },
+    {
+      "system": 26,
+      "library": "polynomial3_trig",
+      "ridge": 1.0,
+      "threshold": 0.0,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.0018038108414663028,
+        "rmse": 0.042471294322945975,
+        "mae": 0.027604360588731242,
+        "nrmse": 0.04250839003391552
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 32,
+        "returned_steps": 65,
+        "wall_seconds": 0.0025514999870210886
+      },
+      "model": {
+        "library": "polynomial3_trig",
+        "ridge": 1.0,
+        "threshold": 0.0,
+        "mean": [
+          0.3940062671940115,
+          1.730064633382337
+        ],
+        "std": [
+          0.5764103765057047,
+          0.33289028749197275
+        ],
+        "coefficient": [
+          [
+            -0.07611361121538583,
+            0.07436671021118578
+          ],
+          [
+            -0.14639872461317974,
+            -0.3584335387222182
+          ],
+          [
+            -0.6723572303449931,
+            -1.0797118721032242
+          ],
+          [
+            -0.024932621997328246,
+            -0.007130822141479133
+          ],
+          [
+            -0.705959721849607,
+            -0.2526137098259794
+          ],
+          [
+            -0.7149705245210043,
+            -1.3571446709076886
+          ],
+          [
+            0.06086274214224907,
+            0.061545303784501786
+          ],
+          [
+            0.04873793438642627,
+            0.08435771729503
+          ],
+          [
+            0.0013593224823374626,
+            0.007591223503293574
+          ],
+          [
+            -0.07328191041308556,
+            -0.07972772651214645
+          ],
+          [
+            -0.6113031526213655,
+            -0.457582181035626
+          ],
+          [
+            -0.07452452737899565,
+            0.08775514917730204
+          ],
+          [
+            0.003689817830748584,
+            0.24156905221896866
+          ],
+          [
+            0.6309639963264349,
+            0.7122452407182173
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.5056555268814399,
+          0.40434562341444985,
+          0.539775221090305,
+          0.3624834242026738,
+          0.5166033743411016,
+          1.3732131023109098,
+          1.4976852882671494,
+          1.6336604649979232,
+          1.9649437614275926,
+          0.293653972946468,
+          0.7826461752404799,
+          0.7467375694945433,
+          0.1787519347965164
+        ],
+        "singular_values": [
+          55.76836574939354,
+          48.75195533656651,
+          38.75465906127364,
+          13.375418966262544,
+          9.62392641281828,
+          4.08598263425189,
+          1.6417095316674897,
+          0.4534609203841506,
+          0.2926672497270239,
+          0.09399347156512625,
+          0.015757534843758334,
+          0.003608399951356355,
+          0.000349622290404269,
+          0.00010392058353271687
+        ],
+        "rows": 520,
+        "active_coefficients": 28,
+        "normalized_integral_fit_mse": 0.026264687623456788
+      }
+    },
+    {
+      "system": 26,
+      "library": "polynomial3_trig",
+      "ridge": 1.0,
+      "threshold": 0.03,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.0019001102052210307,
+        "rmse": 0.04359025355765932,
+        "mae": 0.030288985055308797,
+        "nrmse": 0.04362832660141373
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 32,
+        "returned_steps": 65,
+        "wall_seconds": 0.0025439999881200492
+      },
+      "model": {
+        "library": "polynomial3_trig",
+        "ridge": 1.0,
+        "threshold": 0.03,
+        "mean": [
+          0.3940062671940115,
+          1.730064633382337
+        ],
+        "std": [
+          0.5764103765057047,
+          0.33289028749197275
+        ],
+        "coefficient": [
+          [
+            -0.0803357772105385,
+            0.07387024980059786
+          ],
+          [
+            -0.12658550272873187,
+            -0.3568571616598624
+          ],
+          [
+            -0.6442950398567778,
+            -1.0804957384048295
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -0.6800099556060346,
+            -0.24636274451669818
+          ],
+          [
+            -0.7500532490761495,
+            -1.3586764642572582
+          ],
+          [
+            0.06379724792795695,
+            0.06460373374940613
+          ],
+          [
+            0.05026272683838724,
+            0.08648517665260967
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -0.07890187581539879,
+            -0.078658538516771
+          ],
+          [
+            -0.5794072506622018,
+            -0.4581456915398067
+          ],
+          [
+            -0.07114548639491224,
+            0.0877504087221332
+          ],
+          [
+            0.0,
+            0.24127564764657514
+          ],
+          [
+            0.5664221785650428,
+            0.7084992122321079
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.5056555268814399,
+          0.40434562341444985,
+          0.539775221090305,
+          0.3624834242026738,
+          0.5166033743411016,
+          1.3732131023109098,
+          1.4976852882671494,
+          1.6336604649979232,
+          1.9649437614275926,
+          0.293653972946468,
+          0.7826461752404799,
+          0.7467375694945433,
+          0.1787519347965164
+        ],
+        "singular_values": [
+          55.76836574939354,
+          48.75195533656651,
+          38.75465906127364,
+          13.375418966262544,
+          9.62392641281828,
+          4.08598263425189,
+          1.6417095316674897,
+          0.4534609203841506,
+          0.2926672497270239,
+          0.09399347156512625,
+          0.015757534843758334,
+          0.003608399951356355,
+          0.000349622290404269,
+          0.00010392058353271687
+        ],
+        "rows": 520,
+        "active_coefficients": 23,
+        "normalized_integral_fit_mse": 0.026266004825347238
+      }
+    },
+    {
+      "system": 42,
+      "library": "polynomial3",
+      "ridge": 1e-06,
+      "threshold": 0.0,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.04768431108883748,
+        "rmse": 0.21836737642980802,
+        "mae": 0.1698950953060891,
+        "nrmse": 0.16964530257329044
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 50,
+        "returned_steps": 65,
+        "wall_seconds": 0.003564300015568733
+      },
+      "model": {
+        "library": "polynomial3",
+        "ridge": 1e-06,
+        "threshold": 0.0,
+        "mean": [
+          2.0934604389475893,
+          4.75255814032043
+        ],
+        "std": [
+          1.3529291481912764,
+          1.8856215061600925
+        ],
+        "coefficient": [
+          [
+            -0.6493262207528009,
+            0.18397846485541292
+          ],
+          [
+            -2.32809714619445,
+            -0.4955577808170386
+          ],
+          [
+            1.3720096704718427,
+            1.430854578982144
+          ],
+          [
+            -0.008104037805582127,
+            -0.005104226685842056
+          ],
+          [
+            0.03495114592616355,
+            -0.008720923329531926
+          ],
+          [
+            1.014234255904318,
+            0.1628866096150254
+          ],
+          [
+            0.026300152766292578,
+            -0.022403874623955898
+          ],
+          [
+            -0.17570876996922452,
+            0.012877569225863807
+          ],
+          [
+            0.485714086943737,
+            0.12402717158692061
+          ],
+          [
+            -0.8225318152787547,
+            -0.12656466253344606
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.6551640000364976,
+          0.7527070705833913,
+          0.9696145785237419,
+          0.4817732856060973,
+          1.1099177686239314,
+          1.5842689176466818,
+          0.654677355863282,
+          0.7225693609104671,
+          1.7165651917103755
+        ],
+        "singular_values": [
+          48.33899618989274,
+          35.910843528398836,
+          28.47650239184576,
+          18.793473282856187,
+          13.048144539177178,
+          9.6069767340125,
+          8.70104545634328,
+          7.15760792938507,
+          4.263029707931092,
+          1.4092176723967365
+        ],
+        "rows": 520,
+        "active_coefficients": 20,
+        "normalized_integral_fit_mse": 0.01432950992233563
+      }
+    },
+    {
+      "system": 42,
+      "library": "polynomial3",
+      "ridge": 1e-06,
+      "threshold": 0.03,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.04190189787597656,
+        "rmse": 0.20469953071752892,
+        "mae": 0.1596927697589134,
+        "nrmse": 0.1590270231430297
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 50,
+        "returned_steps": 65,
+        "wall_seconds": 0.003650899976491928
+      },
+      "model": {
+        "library": "polynomial3",
+        "ridge": 1e-06,
+        "threshold": 0.03,
+        "mean": [
+          2.0934604389475893,
+          4.75255814032043
+        ],
+        "std": [
+          1.3529291481912764,
+          1.8856215061600925
+        ],
+        "coefficient": [
+          [
+            -0.6399286205138333,
+            0.17636777315038263
+          ],
+          [
+            -2.3333344354777097,
+            -0.5004703385343116
+          ],
+          [
+            1.3104138475082072,
+            1.4492414973540857
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.9791619251133331,
+            0.17218598719619121
+          ],
+          [
+            0.026752090967107015,
+            -0.02083129135625784
+          ],
+          [
+            -0.1536135243583333,
+            0.0
+          ],
+          [
+            0.5005065098321284,
+            0.12032212458644036
+          ],
+          [
+            -0.7908841623309345,
+            -0.13441885190105793
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.6551640000364976,
+          0.7527070705833913,
+          0.9696145785237419,
+          0.4817732856060973,
+          1.1099177686239314,
+          1.5842689176466818,
+          0.654677355863282,
+          0.7225693609104671,
+          1.7165651917103755
+        ],
+        "singular_values": [
+          48.33899618989274,
+          35.910843528398836,
+          28.47650239184576,
+          18.793473282856187,
+          13.048144539177178,
+          9.6069767340125,
+          8.70104545634328,
+          7.15760792938507,
+          4.263029707931092,
+          1.4092176723967365
+        ],
+        "rows": 520,
+        "active_coefficients": 15,
+        "normalized_integral_fit_mse": 0.014382744096967062
+      }
+    },
+    {
+      "system": 42,
+      "library": "polynomial3",
+      "ridge": 0.001,
+      "threshold": 0.0,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.047683007874076165,
+        "rmse": 0.21836439241340647,
+        "mae": 0.16990338745118336,
+        "nrmse": 0.16964298434987446
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 50,
+        "returned_steps": 65,
+        "wall_seconds": 0.003471900010481477
+      },
+      "model": {
+        "library": "polynomial3",
+        "ridge": 0.001,
+        "threshold": 0.0,
+        "mean": [
+          2.0934604389475893,
+          4.75255814032043
+        ],
+        "std": [
+          1.3529291481912764,
+          1.8856215061600925
+        ],
+        "coefficient": [
+          [
+            -0.6490711344653854,
+            0.18406259565104152
+          ],
+          [
+            -2.327776546982138,
+            -0.4954578035581067
+          ],
+          [
+            1.371180488135187,
+            1.4305486076180884
+          ],
+          [
+            -0.008129257145528321,
+            -0.005112058490019215
+          ],
+          [
+            0.03472657323701313,
+            -0.008805282180982931
+          ],
+          [
+            1.0137917270083883,
+            0.1627304528043168
+          ],
+          [
+            0.02621456829570564,
+            -0.02243091080506293
+          ],
+          [
+            -0.17547365429520323,
+            0.01296713765494831
+          ],
+          [
+            0.48574746861699286,
+            0.12404461803416651
+          ],
+          [
+            -0.8221010652105982,
+            -0.12640895861151882
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.6551640000364976,
+          0.7527070705833913,
+          0.9696145785237419,
+          0.4817732856060973,
+          1.1099177686239314,
+          1.5842689176466818,
+          0.654677355863282,
+          0.7225693609104671,
+          1.7165651917103755
+        ],
+        "singular_values": [
+          48.33899618989274,
+          35.910843528398836,
+          28.47650239184576,
+          18.793473282856187,
+          13.048144539177178,
+          9.6069767340125,
+          8.70104545634328,
+          7.15760792938507,
+          4.263029707931092,
+          1.4092176723967365
+        ],
+        "rows": 520,
+        "active_coefficients": 20,
+        "normalized_integral_fit_mse": 0.014329512838567615
+      }
+    },
+    {
+      "system": 42,
+      "library": "polynomial3",
+      "ridge": 0.001,
+      "threshold": 0.03,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.04191410107913385,
+        "rmse": 0.20472933614685965,
+        "mae": 0.15972066716597846,
+        "nrmse": 0.15905017839249874
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 50,
+        "returned_steps": 65,
+        "wall_seconds": 0.0034697999944910407
+      },
+      "model": {
+        "library": "polynomial3",
+        "ridge": 0.001,
+        "threshold": 0.03,
+        "mean": [
+          2.0934604389475893,
+          4.75255814032043
+        ],
+        "std": [
+          1.3529291481912764,
+          1.8856215061600925
+        ],
+        "coefficient": [
+          [
+            -0.6397827057110039,
+            0.17640825925476464
+          ],
+          [
+            -2.333018850466048,
+            -0.5003850297928135
+          ],
+          [
+            1.3099626495135102,
+            1.4491020786614548
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.9789339604474694,
+            0.17211831869917457
+          ],
+          [
+            0.026672171722524923,
+            -0.020851705397434365
+          ],
+          [
+            -0.15355008291839034,
+            0.0
+          ],
+          [
+            0.5004348968787422,
+            0.12030518497721605
+          ],
+          [
+            -0.7906455072108636,
+            -0.13434009066009509
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.6551640000364976,
+          0.7527070705833913,
+          0.9696145785237419,
+          0.4817732856060973,
+          1.1099177686239314,
+          1.5842689176466818,
+          0.654677355863282,
+          0.7225693609104671,
+          1.7165651917103755
+        ],
+        "singular_values": [
+          48.33899618989274,
+          35.910843528398836,
+          28.47650239184576,
+          18.793473282856187,
+          13.048144539177178,
+          9.6069767340125,
+          8.70104545634328,
+          7.15760792938507,
+          4.263029707931092,
+          1.4092176723967365
+        ],
+        "rows": 520,
+        "active_coefficients": 15,
+        "normalized_integral_fit_mse": 0.0143827457759629
+      }
+    },
+    {
+      "system": 42,
+      "library": "polynomial3",
+      "ridge": 1.0,
+      "threshold": 0.0,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.053248416657860294,
+        "rmse": 0.23075618444119822,
+        "mae": 0.1862831754460793,
+        "nrmse": 0.17926992287132415
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 56,
+        "returned_steps": 65,
+        "wall_seconds": 0.0038103999686427414
+      },
+      "model": {
+        "library": "polynomial3",
+        "ridge": 1.0,
+        "threshold": 0.0,
+        "mean": [
+          2.0934604389475893,
+          4.75255814032043
+        ],
+        "std": [
+          1.3529291481912764,
+          1.8856215061600925
+        ],
+        "coefficient": [
+          [
+            -0.4767779380498238,
+            0.2385664114009775
+          ],
+          [
+            -2.0952111144616232,
+            -0.42638654884336247
+          ],
+          [
+            0.8217171795756666,
+            1.2254024286919527
+          ],
+          [
+            -0.024360713149916415,
+            -0.009718497411976465
+          ],
+          [
+            -0.10699912059245237,
+            -0.06306134988992662
+          ],
+          [
+            0.7202164017478927,
+            0.060180068435153354
+          ],
+          [
+            -0.03439130428395787,
+            -0.04067208208639094
+          ],
+          [
+            -0.023357803356791183,
+            0.07250163545667843
+          ],
+          [
+            0.49598059309354997,
+            0.13279528951062972
+          ],
+          [
+            -0.5359511946320291,
+            -0.022786287219509368
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.6551640000364976,
+          0.7527070705833913,
+          0.9696145785237419,
+          0.4817732856060973,
+          1.1099177686239314,
+          1.5842689176466818,
+          0.654677355863282,
+          0.7225693609104671,
+          1.7165651917103755
+        ],
+        "singular_values": [
+          48.33899618989274,
+          35.910843528398836,
+          28.47650239184576,
+          18.793473282856187,
+          13.048144539177178,
+          9.6069767340125,
+          8.70104545634328,
+          7.15760792938507,
+          4.263029707931092,
+          1.4092176723967365
+        ],
+        "rows": 520,
+        "active_coefficients": 20,
+        "normalized_integral_fit_mse": 0.015655036671226592
+      }
+    },
+    {
+      "system": 42,
+      "library": "polynomial3",
+      "ridge": 1.0,
+      "threshold": 0.03,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.04408660772091217,
+        "rmse": 0.20996811120003955,
+        "mae": 0.1693437388153316,
+        "nrmse": 0.16312007927943725
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 50,
+        "returned_steps": 65,
+        "wall_seconds": 0.0034029000089503825
+      },
+      "model": {
+        "library": "polynomial3",
+        "ridge": 1.0,
+        "threshold": 0.03,
+        "mean": [
+          2.0934604389475893,
+          4.75255814032043
+        ],
+        "std": [
+          1.3529291481912764,
+          1.8856215061600925
+        ],
+        "coefficient": [
+          [
+            -0.482891546409152,
+            0.2083817989361996
+          ],
+          [
+            -2.093943865748802,
+            -0.43183249438659793
+          ],
+          [
+            0.770622671177215,
+            1.335576528520808
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -0.11914224143170482,
+            0.0
+          ],
+          [
+            0.6966345337232962,
+            0.11798021040685235
+          ],
+          [
+            -0.036543342616227915,
+            -0.03705254660572812
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.4938127146398926,
+            0.10627623314185844
+          ],
+          [
+            -0.5162965725017681,
+            -0.07052497128381069
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.6551640000364976,
+          0.7527070705833913,
+          0.9696145785237419,
+          0.4817732856060973,
+          1.1099177686239314,
+          1.5842689176466818,
+          0.654677355863282,
+          0.7225693609104671,
+          1.7165651917103755
+        ],
+        "singular_values": [
+          48.33899618989274,
+          35.910843528398836,
+          28.47650239184576,
+          18.793473282856187,
+          13.048144539177178,
+          9.6069767340125,
+          8.70104545634328,
+          7.15760792938507,
+          4.263029707931092,
+          1.4092176723967365
+        ],
+        "rows": 520,
+        "active_coefficients": 15,
+        "normalized_integral_fit_mse": 0.015900593168591305
+      }
+    },
+    {
+      "system": 42,
+      "library": "polynomial3_trig",
+      "ridge": 1e-06,
+      "threshold": 0.0,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.010829534472719319,
+        "rmse": 0.1040650492370965,
+        "mae": 0.07949138155823093,
+        "nrmse": 0.08084608174429549
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 92,
+        "returned_steps": 65,
+        "wall_seconds": 0.006886899995151907
+      },
+      "model": {
+        "library": "polynomial3_trig",
+        "ridge": 1e-06,
+        "threshold": 0.0,
+        "mean": [
+          2.0934604389475893,
+          4.75255814032043
+        ],
+        "std": [
+          1.3529291481912764,
+          1.8856215061600925
+        ],
+        "coefficient": [
+          [
+            -10.659513567034198,
+            -1.992239701697711
+          ],
+          [
+            -2.52611064385579,
+            -1.9630583729480346
+          ],
+          [
+            14.48933447103591,
+            5.8953981000139715
+          ],
+          [
+            -0.15928316958921732,
+            0.20757390710122195
+          ],
+          [
+            0.5997386604123074,
+            0.12800017387931814
+          ],
+          [
+            8.547989901167016,
+            1.6669972053191129
+          ],
+          [
+            0.11842290171660094,
+            0.4375694180611834
+          ],
+          [
+            -0.18259813775934944,
+            -0.09442028563124319
+          ],
+          [
+            -0.007812253747175357,
+            0.13967601617241154
+          ],
+          [
+            -4.830711133326436,
+            -1.3543796135400425
+          ],
+          [
+            13.896462738934295,
+            3.3461913515059796
+          ],
+          [
+            0.5306106032490012,
+            -0.16979590122735871
+          ],
+          [
+            2.872012444676458,
+            1.817136898088849
+          ],
+          [
+            0.23025370438301912,
+            0.841850159110392
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.6551640000364976,
+          0.7527070705833913,
+          0.9696145785237419,
+          0.4817732856060973,
+          1.1099177686239314,
+          1.5842689176466818,
+          0.654677355863282,
+          0.7225693609104671,
+          1.7165651917103755,
+          0.5159676464547484,
+          0.4822411148932134,
+          0.4881255444491812,
+          0.42475054908237425
+        ],
+        "singular_values": [
+          50.696419692876646,
+          40.64288894898621,
+          35.189201235782534,
+          25.853186073222364,
+          21.13898383837614,
+          20.041662971482577,
+          13.087893627861984,
+          9.021766099267635,
+          6.094719375270509,
+          3.337581713119373,
+          1.3048986959534055,
+          0.37163556393299235,
+          0.1549517851977901,
+          0.037938099780800504
+        ],
+        "rows": 520,
+        "active_coefficients": 28,
+        "normalized_integral_fit_mse": 0.011101815207922859
+      }
+    },
+    {
+      "system": 42,
+      "library": "polynomial3_trig",
+      "ridge": 1e-06,
+      "threshold": 0.03,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.01079813544716383,
+        "rmse": 0.10391407723289386,
+        "mae": 0.07933403168468424,
+        "nrmse": 0.08072879457552609
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 92,
+        "returned_steps": 65,
+        "wall_seconds": 0.006862999987788498
+      },
+      "model": {
+        "library": "polynomial3_trig",
+        "ridge": 1e-06,
+        "threshold": 0.03,
+        "mean": [
+          2.0934604389475893,
+          4.75255814032043
+        ],
+        "std": [
+          1.3529291481912764,
+          1.8856215061600925
+        ],
+        "coefficient": [
+          [
+            -10.652429919586893,
+            -1.992239701697711
+          ],
+          [
+            -2.5783526715872536,
+            -1.9630583729480346
+          ],
+          [
+            14.674419476404793,
+            5.8953981000139715
+          ],
+          [
+            -0.1471298409426481,
+            0.20757390710122195
+          ],
+          [
+            0.5970942143695007,
+            0.12800017387931814
+          ],
+          [
+            8.53546523936821,
+            1.6669972053191129
+          ],
+          [
+            0.13446807274601558,
+            0.4375694180611834
+          ],
+          [
+            -0.18692970971206638,
+            -0.09442028563124319
+          ],
+          [
+            0.0,
+            0.13967601617241154
+          ],
+          [
+            -4.870831972387617,
+            -1.3543796135400425
+          ],
+          [
+            13.946905516421747,
+            3.3461913515059796
+          ],
+          [
+            0.512135838811405,
+            -0.16979590122735871
+          ],
+          [
+            3.008155568887129,
+            1.817136898088849
+          ],
+          [
+            0.2577863509583763,
+            0.841850159110392
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.6551640000364976,
+          0.7527070705833913,
+          0.9696145785237419,
+          0.4817732856060973,
+          1.1099177686239314,
+          1.5842689176466818,
+          0.654677355863282,
+          0.7225693609104671,
+          1.7165651917103755,
+          0.5159676464547484,
+          0.4822411148932134,
+          0.4881255444491812,
+          0.42475054908237425
+        ],
+        "singular_values": [
+          50.696419692876646,
+          40.64288894898621,
+          35.189201235782534,
+          25.853186073222364,
+          21.13898383837614,
+          20.041662971482577,
+          13.087893627861984,
+          9.021766099267635,
+          6.094719375270509,
+          3.337581713119373,
+          1.3048986959534055,
+          0.37163556393299235,
+          0.1549517851977901,
+          0.037938099780800504
+        ],
+        "rows": 520,
+        "active_coefficients": 27,
+        "normalized_integral_fit_mse": 0.011101959214800911
+      }
+    },
+    {
+      "system": 42,
+      "library": "polynomial3_trig",
+      "ridge": 0.001,
+      "threshold": 0.0,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.013030798439638707,
+        "rmse": 0.11415252270378744,
+        "mae": 0.08822392887539307,
+        "nrmse": 0.08868284067979014
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 80,
+        "returned_steps": 65,
+        "wall_seconds": 0.0060100999544374645
+      },
+      "model": {
+        "library": "polynomial3_trig",
+        "ridge": 0.001,
+        "threshold": 0.0,
+        "mean": [
+          2.0934604389475893,
+          4.75255814032043
+        ],
+        "std": [
+          1.3529291481912764,
+          1.8856215061600925
+        ],
+        "coefficient": [
+          [
+            -9.146854264297692,
+            -1.5379266599476116
+          ],
+          [
+            -1.5622023230058575,
+            -1.592924732782643
+          ],
+          [
+            7.4396704416005495,
+            3.44382209919179
+          ],
+          [
+            -0.36643606829255687,
+            0.12832934417630906
+          ],
+          [
+            0.5531285198317587,
+            0.11545105070350219
+          ],
+          [
+            7.522912430997378,
+            1.3669452951436443
+          ],
+          [
+            -0.1860871852028626,
+            0.321099232857579
+          ],
+          [
+            -0.08032145188325517,
+            -0.05553384314375443
+          ],
+          [
+            -0.0637384420788395,
+            0.11350193489860712
+          ],
+          [
+            -3.0900333038246073,
+            -0.7564487758379481
+          ],
+          [
+            10.141503713528088,
+            2.1116189749267953
+          ],
+          [
+            0.8155012693600978,
+            -0.059360048929855254
+          ],
+          [
+            -1.1000383466275159,
+            0.39098960357633555
+          ],
+          [
+            -0.30137578475871035,
+            0.6382341123795523
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.6551640000364976,
+          0.7527070705833913,
+          0.9696145785237419,
+          0.4817732856060973,
+          1.1099177686239314,
+          1.5842689176466818,
+          0.654677355863282,
+          0.7225693609104671,
+          1.7165651917103755,
+          0.5159676464547484,
+          0.4822411148932134,
+          0.4881255444491812,
+          0.42475054908237425
+        ],
+        "singular_values": [
+          50.696419692876646,
+          40.64288894898621,
+          35.189201235782534,
+          25.853186073222364,
+          21.13898383837614,
+          20.041662971482577,
+          13.087893627861984,
+          9.021766099267635,
+          6.094719375270509,
+          3.337581713119373,
+          1.3048986959534055,
+          0.37163556393299235,
+          0.1549517851977901,
+          0.037938099780800504
+        ],
+        "rows": 520,
+        "active_coefficients": 28,
+        "normalized_integral_fit_mse": 0.0111805990850214
+      }
+    },
+    {
+      "system": 42,
+      "library": "polynomial3_trig",
+      "ridge": 0.001,
+      "threshold": 0.03,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.012609258974830262,
+        "rmse": 0.11229095678116854,
+        "mae": 0.08690022294921282,
+        "nrmse": 0.08723662687548445
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 80,
+        "returned_steps": 65,
+        "wall_seconds": 0.006016900006216019
+      },
+      "model": {
+        "library": "polynomial3_trig",
+        "ridge": 0.001,
+        "threshold": 0.03,
+        "mean": [
+          2.0934604389475893,
+          4.75255814032043
+        ],
+        "std": [
+          1.3529291481912764,
+          1.8856215061600925
+        ],
+        "coefficient": [
+          [
+            -9.146854264297692,
+            -1.6935676654647527
+          ],
+          [
+            -1.5622023230058575,
+            -1.1558047384938874
+          ],
+          [
+            7.4396704416005495,
+            2.987482417504838
+          ],
+          [
+            -0.36643606829255687,
+            0.06783095622468302
+          ],
+          [
+            0.5531285198317587,
+            0.09453132460856402
+          ],
+          [
+            7.522912430997378,
+            1.4888723759240037
+          ],
+          [
+            -0.1860871852028626,
+            0.1866712222079054
+          ],
+          [
+            -0.08032145188325517,
+            0.0
+          ],
+          [
+            -0.0637384420788395,
+            0.08407812961948029
+          ],
+          [
+            -3.0900333038246073,
+            -0.6585215856406268
+          ],
+          [
+            10.141503713528088,
+            2.166553938847528
+          ],
+          [
+            0.8155012693600978,
+            0.0
+          ],
+          [
+            -1.1000383466275159,
+            0.0
+          ],
+          [
+            -0.30137578475871035,
+            0.3909793721155146
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.6551640000364976,
+          0.7527070705833913,
+          0.9696145785237419,
+          0.4817732856060973,
+          1.1099177686239314,
+          1.5842689176466818,
+          0.654677355863282,
+          0.7225693609104671,
+          1.7165651917103755,
+          0.5159676464547484,
+          0.4822411148932134,
+          0.4881255444491812,
+          0.42475054908237425
+        ],
+        "singular_values": [
+          50.696419692876646,
+          40.64288894898621,
+          35.189201235782534,
+          25.853186073222364,
+          21.13898383837614,
+          20.041662971482577,
+          13.087893627861984,
+          9.021766099267635,
+          6.094719375270509,
+          3.337581713119373,
+          1.3048986959534055,
+          0.37163556393299235,
+          0.1549517851977901,
+          0.037938099780800504
+        ],
+        "rows": 520,
+        "active_coefficients": 25,
+        "normalized_integral_fit_mse": 0.011197378328599393
+      }
+    },
+    {
+      "system": 42,
+      "library": "polynomial3_trig",
+      "ridge": 1.0,
+      "threshold": 0.0,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.045503559064669165,
+        "rmse": 0.21331563249014163,
+        "mae": 0.17302814565991326,
+        "nrmse": 0.16572070246507342
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 44,
+        "returned_steps": 65,
+        "wall_seconds": 0.0034333000076003373
+      },
+      "model": {
+        "library": "polynomial3_trig",
+        "ridge": 1.0,
+        "threshold": 0.0,
+        "mean": [
+          2.0934604389475893,
+          4.75255814032043
+        ],
+        "std": [
+          1.3529291481912764,
+          1.8856215061600925
+        ],
+        "coefficient": [
+          [
+            -0.05130354552007445,
+            0.08274855527735585
+          ],
+          [
+            -1.1138061950377045,
+            -0.36372898720063035
+          ],
+          [
+            -0.19048241407791888,
+            0.36896740003619827
+          ],
+          [
+            -0.0854008459731308,
+            0.013300956552098774
+          ],
+          [
+            -0.13623183364349234,
+            -0.039755273429402535
+          ],
+          [
+            0.470688791891428,
+            0.16936089212247465
+          ],
+          [
+            -0.3408265963078727,
+            -0.06067131102687105
+          ],
+          [
+            -0.015196240756793022,
+            0.057887772922571835
+          ],
+          [
+            0.4822841640261176,
+            0.1282969877323575
+          ],
+          [
+            -0.3188987018520552,
+            0.13206293311903425
+          ],
+          [
+            -0.8661012384310389,
+            -0.29517771053688524
+          ],
+          [
+            -0.031596946767480975,
+            -0.04012911351245759
+          ],
+          [
+            -0.5358500244320766,
+            -0.7008736866649894
+          ],
+          [
+            -0.6810794632783229,
+            -0.08059923499356714
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.6551640000364976,
+          0.7527070705833913,
+          0.9696145785237419,
+          0.4817732856060973,
+          1.1099177686239314,
+          1.5842689176466818,
+          0.654677355863282,
+          0.7225693609104671,
+          1.7165651917103755,
+          0.5159676464547484,
+          0.4822411148932134,
+          0.4881255444491812,
+          0.42475054908237425
+        ],
+        "singular_values": [
+          50.696419692876646,
+          40.64288894898621,
+          35.189201235782534,
+          25.853186073222364,
+          21.13898383837614,
+          20.041662971482577,
+          13.087893627861984,
+          9.021766099267635,
+          6.094719375270509,
+          3.337581713119373,
+          1.3048986959534055,
+          0.37163556393299235,
+          0.1549517851977901,
+          0.037938099780800504
+        ],
+        "rows": 520,
+        "active_coefficients": 28,
+        "normalized_integral_fit_mse": 0.01505499754417129
+      }
+    },
+    {
+      "system": 42,
+      "library": "polynomial3_trig",
+      "ridge": 1.0,
+      "threshold": 0.03,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.035546449390434005,
+        "rmse": 0.18853766040352257,
+        "mae": 0.15230390147291512,
+        "nrmse": 0.1464711852500411
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 44,
+        "returned_steps": 65,
+        "wall_seconds": 0.0034171000006608665
+      },
+      "model": {
+        "library": "polynomial3_trig",
+        "ridge": 1.0,
+        "threshold": 0.03,
+        "mean": [
+          2.0934604389475893,
+          4.75255814032043
+        ],
+        "std": [
+          1.3529291481912764,
+          1.8856215061600925
+        ],
+        "coefficient": [
+          [
+            -0.05024938499021965,
+            0.1572341521819042
+          ],
+          [
+            -1.0724264638869718,
+            -0.4926427638296883
+          ],
+          [
+            -0.20415503187651685,
+            0.3994779004523908
+          ],
+          [
+            -0.1066887476881819,
+            0.0
+          ],
+          [
+            -0.1405639569889726,
+            0.0
+          ],
+          [
+            0.4823571303300316,
+            0.16487717659122741
+          ],
+          [
+            -0.35420999241153467,
+            -0.020780225354147783
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.4767032858325602,
+            0.11694584335615543
+          ],
+          [
+            -0.3162922679482085,
+            0.11331260959088758
+          ],
+          [
+            -0.8379651476290321,
+            -0.3759672694208182
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -0.551120805078277,
+            -0.7054768732777686
+          ],
+          [
+            -0.6974107479550209,
+            0.0
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.6551640000364976,
+          0.7527070705833913,
+          0.9696145785237419,
+          0.4817732856060973,
+          1.1099177686239314,
+          1.5842689176466818,
+          0.654677355863282,
+          0.7225693609104671,
+          1.7165651917103755,
+          0.5159676464547484,
+          0.4822411148932134,
+          0.4881255444491812,
+          0.42475054908237425
+        ],
+        "singular_values": [
+          50.696419692876646,
+          40.64288894898621,
+          35.189201235782534,
+          25.853186073222364,
+          21.13898383837614,
+          20.041662971482577,
+          13.087893627861984,
+          9.021766099267635,
+          6.094719375270509,
+          3.337581713119373,
+          1.3048986959534055,
+          0.37163556393299235,
+          0.1549517851977901,
+          0.037938099780800504
+        ],
+        "rows": 520,
+        "active_coefficients": 21,
+        "normalized_integral_fit_mse": 0.015083063978680538
+      }
+    },
+    {
+      "system": 28,
+      "library": "polynomial3",
+      "ridge": 1e-06,
+      "threshold": 0.0,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.002549410426230394,
+        "rmse": 0.05049168670415353,
+        "mae": 0.0337249348935721,
+        "nrmse": 0.04894725745524003
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 32,
+        "returned_steps": 65,
+        "wall_seconds": 0.0023172000073827803
+      },
+      "model": {
+        "library": "polynomial3",
+        "ridge": 1e-06,
+        "threshold": 0.0,
+        "mean": [
+          0.23054047500814612,
+          0.06446872498145935
+        ],
+        "std": [
+          1.2904041432198345,
+          1.0629564611764875
+        ],
+        "coefficient": [
+          [
+            0.3013944909142849,
+            -0.11529554931595566
+          ],
+          [
+            1.3816256149594954,
+            -0.7455194798740835
+          ],
+          [
+            -0.1984048585538812,
+            -1.2212259452336673
+          ],
+          [
+            -0.15489214854156264,
+            0.0009464383492481346
+          ],
+          [
+            -0.10433755092301332,
+            0.1454784905210123
+          ],
+          [
+            -0.10508450046361918,
+            0.12358505458170467
+          ],
+          [
+            -0.2817960619340183,
+            0.36690686306043885
+          ],
+          [
+            0.07086201168342715,
+            0.0874549118272729
+          ],
+          [
+            -0.30654862000168887,
+            0.386861931531118
+          ],
+          [
+            0.07940643979159195,
+            0.32860226836304285
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.8010439868444704,
+          0.723109279260953,
+          0.99180560839998,
+          0.47728129699206695,
+          0.8540212184640763,
+          1.298159595306884,
+          0.46923206633335635,
+          0.4766916559273111,
+          1.0781901867021142
+        ],
+        "singular_values": [
+          42.488851054303886,
+          36.70807443785102,
+          31.83467944035208,
+          21.458285577672704,
+          16.481230900963922,
+          14.708830334400195,
+          9.230292863803902,
+          0.2841823714903019,
+          0.18812163046224012,
+          0.12187949242395434
+        ],
+        "rows": 520,
+        "active_coefficients": 20,
+        "normalized_integral_fit_mse": 0.0019338843535983722
+      }
+    },
+    {
+      "system": 28,
+      "library": "polynomial3",
+      "ridge": 1e-06,
+      "threshold": 0.03,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.0025317198862835695,
+        "rmse": 0.050316199044478406,
+        "mae": 0.03356735314113048,
+        "nrmse": 0.048777137575730656
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 38,
+        "returned_steps": 65,
+        "wall_seconds": 0.0026861000224016607
+      },
+      "model": {
+        "library": "polynomial3",
+        "ridge": 1e-06,
+        "threshold": 0.03,
+        "mean": [
+          0.23054047500814612,
+          0.06446872498145935
+        ],
+        "std": [
+          1.2904041432198345,
+          1.0629564611764875
+        ],
+        "coefficient": [
+          [
+            0.3013944909142849,
+            -0.11335985071464354
+          ],
+          [
+            1.3816256149594954,
+            -0.7459924078769095
+          ],
+          [
+            -0.1984048585538812,
+            -1.2231074728882
+          ],
+          [
+            -0.15489214854156264,
+            0.0
+          ],
+          [
+            -0.10433755092301332,
+            0.14565012446691697
+          ],
+          [
+            -0.10508450046361918,
+            0.12289163871427357
+          ],
+          [
+            -0.2817960619340183,
+            0.36709338619200904
+          ],
+          [
+            0.07086201168342715,
+            0.08822070674163529
+          ],
+          [
+            -0.30654862000168887,
+            0.38702979402552345
+          ],
+          [
+            0.07940643979159195,
+            0.3293638012709839
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.8010439868444704,
+          0.723109279260953,
+          0.99180560839998,
+          0.47728129699206695,
+          0.8540212184640763,
+          1.298159595306884,
+          0.46923206633335635,
+          0.4766916559273111,
+          1.0781901867021142
+        ],
+        "singular_values": [
+          42.488851054303886,
+          36.70807443785102,
+          31.83467944035208,
+          21.458285577672704,
+          16.481230900963922,
+          14.708830334400195,
+          9.230292863803902,
+          0.2841823714903019,
+          0.18812163046224012,
+          0.12187949242395434
+        ],
+        "rows": 520,
+        "active_coefficients": 19,
+        "normalized_integral_fit_mse": 0.001933884512555678
+      }
+    },
+    {
+      "system": 28,
+      "library": "polynomial3",
+      "ridge": 0.001,
+      "threshold": 0.0,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.0029215047584747584,
+        "rmse": 0.05405094595356087,
+        "mae": 0.03675550562190418,
+        "nrmse": 0.05239764682035416
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 32,
+        "returned_steps": 65,
+        "wall_seconds": 0.0022686999873258173
+      },
+      "model": {
+        "library": "polynomial3",
+        "ridge": 0.001,
+        "threshold": 0.0,
+        "mean": [
+          0.23054047500814612,
+          0.06446872498145935
+        ],
+        "std": [
+          1.2904041432198345,
+          1.0629564611764875
+        ],
+        "coefficient": [
+          [
+            0.30112743613501375,
+            -0.13702256321841025
+          ],
+          [
+            1.3467115768320381,
+            -0.705049621774126
+          ],
+          [
+            -0.20247119323925258,
+            -1.1669608358495063
+          ],
+          [
+            -0.15292442299241274,
+            0.009496396286181081
+          ],
+          [
+            -0.09736871371641734,
+            0.1347090688862671
+          ],
+          [
+            -0.10415578680152975,
+            0.12559350484099757
+          ],
+          [
+            -0.26450351966284913,
+            0.3474037203189887
+          ],
+          [
+            0.07281920589593796,
+            0.06161601445199672
+          ],
+          [
+            -0.28836980011646124,
+            0.36663038953941063
+          ],
+          [
+            0.08150912467351384,
+            0.3037649040091185
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.8010439868444704,
+          0.723109279260953,
+          0.99180560839998,
+          0.47728129699206695,
+          0.8540212184640763,
+          1.298159595306884,
+          0.46923206633335635,
+          0.4766916559273111,
+          1.0781901867021142
+        ],
+        "singular_values": [
+          42.488851054303886,
+          36.70807443785102,
+          31.83467944035208,
+          21.458285577672704,
+          16.481230900963922,
+          14.708830334400195,
+          9.230292863803902,
+          0.2841823714903019,
+          0.18812163046224012,
+          0.12187949242395434
+        ],
+        "rows": 520,
+        "active_coefficients": 20,
+        "normalized_integral_fit_mse": 0.0019339909654198038
+      }
+    },
+    {
+      "system": 28,
+      "library": "polynomial3",
+      "ridge": 0.001,
+      "threshold": 0.03,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.003687353067663697,
+        "rmse": 0.06072357917369246,
+        "mae": 0.04174467661410252,
+        "nrmse": 0.05886617891839756
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 32,
+        "returned_steps": 65,
+        "wall_seconds": 0.0024280999787151814
+      },
+      "model": {
+        "library": "polynomial3",
+        "ridge": 0.001,
+        "threshold": 0.03,
+        "mean": [
+          0.23054047500814612,
+          0.06446872498145935
+        ],
+        "std": [
+          1.2904041432198345,
+          1.0629564611764875
+        ],
+        "coefficient": [
+          [
+            0.30112743613501375,
+            -0.12378644475383035
+          ],
+          [
+            1.3467115768320381,
+            -0.6690896644468523
+          ],
+          [
+            -0.20247119323925258,
+            -1.0526715019522723
+          ],
+          [
+            -0.15292442299241274,
+            0.0
+          ],
+          [
+            -0.09736871371641734,
+            0.12033329789763189
+          ],
+          [
+            -0.10415578680152975,
+            0.09894140351455342
+          ],
+          [
+            -0.26450351966284913,
+            0.32926838041461054
+          ],
+          [
+            0.07281920589593796,
+            0.0
+          ],
+          [
+            -0.28836980011646124,
+            0.34717191958169547
+          ],
+          [
+            0.08150912467351384,
+            0.24677394613530784
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.8010439868444704,
+          0.723109279260953,
+          0.99180560839998,
+          0.47728129699206695,
+          0.8540212184640763,
+          1.298159595306884,
+          0.46923206633335635,
+          0.4766916559273111,
+          1.0781901867021142
+        ],
+        "singular_values": [
+          42.488851054303886,
+          36.70807443785102,
+          31.83467944035208,
+          21.458285577672704,
+          16.481230900963922,
+          14.708830334400195,
+          9.230292863803902,
+          0.2841823714903019,
+          0.18812163046224012,
+          0.12187949242395434
+        ],
+        "rows": 520,
+        "active_coefficients": 18,
+        "normalized_integral_fit_mse": 0.0019347360637611743
+      }
+    },
+    {
+      "system": 28,
+      "library": "polynomial3",
+      "ridge": 1.0,
+      "threshold": 0.0,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.0027280897443816093,
+        "rmse": 0.05223111854423194,
+        "mae": 0.03854448564738243,
+        "nrmse": 0.050633483914677285
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 50,
+        "returned_steps": 65,
+        "wall_seconds": 0.003371399943716824
+      },
+      "model": {
+        "library": "polynomial3",
+        "ridge": 1.0,
+        "threshold": 0.0,
+        "mean": [
+          0.23054047500814612,
+          0.06446872498145935
+        ],
+        "std": [
+          1.2904041432198345,
+          1.0629564611764875
+        ],
+        "coefficient": [
+          [
+            0.056770629867991806,
+            -0.12945923420245262
+          ],
+          [
+            0.38565576171682425,
+            -0.019871273836403507
+          ],
+          [
+            -0.005678619357362275,
+            -0.2857445674994457
+          ],
+          [
+            0.019270571394814643,
+            -0.03631087655898315
+          ],
+          [
+            0.07918431020166294,
+            -0.052707616913118385
+          ],
+          [
+            -0.007035309769067458,
+            -0.03148231563847065
+          ],
+          [
+            0.2167232315676581,
+            0.007862393978434077
+          ],
+          [
+            -0.008828506638906197,
+            -0.39841039649597004
+          ],
+          [
+            0.22207735767592765,
+            0.009185015989015066
+          ],
+          [
+            0.008160015977605139,
+            -0.1289980741019449
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.8010439868444704,
+          0.723109279260953,
+          0.99180560839998,
+          0.47728129699206695,
+          0.8540212184640763,
+          1.298159595306884,
+          0.46923206633335635,
+          0.4766916559273111,
+          1.0781901867021142
+        ],
+        "singular_values": [
+          42.488851054303886,
+          36.70807443785102,
+          31.83467944035208,
+          21.458285577672704,
+          16.481230900963922,
+          14.708830334400195,
+          9.230292863803902,
+          0.2841823714903019,
+          0.18812163046224012,
+          0.12187949242395434
+        ],
+        "rows": 520,
+        "active_coefficients": 20,
+        "normalized_integral_fit_mse": 0.002007536813190382
+      }
+    },
+    {
+      "system": 28,
+      "library": "polynomial3",
+      "ridge": 1.0,
+      "threshold": 0.03,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.003516190062145951,
+        "rmse": 0.059297470959105425,
+        "mae": 0.04646942595867538,
+        "nrmse": 0.05748369220632893
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 44,
+        "returned_steps": 65,
+        "wall_seconds": 0.0029993000207468867
+      },
+      "model": {
+        "library": "polynomial3",
+        "ridge": 1.0,
+        "threshold": 0.03,
+        "mean": [
+          0.23054047500814612,
+          0.06446872498145935
+        ],
+        "std": [
+          1.2904041432198345,
+          1.0629564611764875
+        ],
+        "coefficient": [
+          [
+            0.046748639767992206,
+            -0.10228612922495571
+          ],
+          [
+            0.8196541679770585,
+            0.0
+          ],
+          [
+            0.0,
+            -0.5074587781736847
+          ],
+          [
+            0.0,
+            -0.04835820880980788
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -0.2802290945534324
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -0.029527236386386112
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.8010439868444704,
+          0.723109279260953,
+          0.99180560839998,
+          0.47728129699206695,
+          0.8540212184640763,
+          1.298159595306884,
+          0.46923206633335635,
+          0.4766916559273111,
+          1.0781901867021142
+        ],
+        "singular_values": [
+          42.488851054303886,
+          36.70807443785102,
+          31.83467944035208,
+          21.458285577672704,
+          16.481230900963922,
+          14.708830334400195,
+          9.230292863803902,
+          0.2841823714903019,
+          0.18812163046224012,
+          0.12187949242395434
+        ],
+        "rows": 520,
+        "active_coefficients": 7,
+        "normalized_integral_fit_mse": 0.002155804341099868
+      }
+    },
+    {
+      "system": 28,
+      "library": "polynomial3_trig",
+      "ridge": 1e-06,
+      "threshold": 0.0,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.009709828690412719,
+        "rmse": 0.09853846300005252,
+        "mae": 0.08000666545477339,
+        "nrmse": 0.09552438891510533
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 86,
+        "returned_steps": 65,
+        "wall_seconds": 0.006408099958207458
+      },
+      "model": {
+        "library": "polynomial3_trig",
+        "ridge": 1e-06,
+        "threshold": 0.0,
+        "mean": [
+          0.23054047500814612,
+          0.06446872498145935
+        ],
+        "std": [
+          1.2904041432198345,
+          1.0629564611764875
+        ],
+        "coefficient": [
+          [
+            4.372282844926062,
+            -2.8617511873750976
+          ],
+          [
+            -6.624359104379132,
+            -0.27435147915425284
+          ],
+          [
+            -0.5442314420036651,
+            0.7906978600845951
+          ],
+          [
+            -4.321647875053322,
+            3.0670325452251457
+          ],
+          [
+            -0.33430694224750607,
+            0.24691887795295528
+          ],
+          [
+            2.7049607849832134,
+            -1.9982379137695507
+          ],
+          [
+            0.6630406230166354,
+            0.38924549398771185
+          ],
+          [
+            -0.41869554510427365,
+            0.7668418859864103
+          ],
+          [
+            -0.7757498263285028,
+            0.46570843284782115
+          ],
+          [
+            0.14562789090608466,
+            0.03507713470778003
+          ],
+          [
+            1.8259804238526651,
+            -3.2269669924594866
+          ],
+          [
+            7.990436773985045,
+            -0.2260653510112325
+          ],
+          [
+            4.511228196981387,
+            -3.169295696141801
+          ],
+          [
+            -9.245100600261765,
+            6.378910095018248
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.8010439868444704,
+          0.723109279260953,
+          0.99180560839998,
+          0.47728129699206695,
+          0.8540212184640763,
+          1.298159595306884,
+          0.46923206633335635,
+          0.4766916559273111,
+          1.0781901867021142,
+          0.6273220023353075,
+          0.6326595304303843,
+          0.42773369882517437,
+          0.46446228786398985
+        ],
+        "singular_values": [
+          48.77929664205622,
+          45.73309801141858,
+          37.567035153798294,
+          26.5889377004869,
+          19.42627770605079,
+          14.921998283866527,
+          9.510738709622608,
+          0.4169817144251877,
+          0.27375190672977384,
+          0.19833269432796558,
+          0.14290819433103352,
+          0.030339671598292633,
+          0.013327064552098089,
+          0.010364630711327306
+        ],
+        "rows": 520,
+        "active_coefficients": 28,
+        "normalized_integral_fit_mse": 0.001894990884713596
+      }
+    },
+    {
+      "system": 28,
+      "library": "polynomial3_trig",
+      "ridge": 1e-06,
+      "threshold": 0.03,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.009709828690412719,
+        "rmse": 0.09853846300005252,
+        "mae": 0.08000666545477339,
+        "nrmse": 0.09552438891510533
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 86,
+        "returned_steps": 65,
+        "wall_seconds": 0.006418200035113841
+      },
+      "model": {
+        "library": "polynomial3_trig",
+        "ridge": 1e-06,
+        "threshold": 0.03,
+        "mean": [
+          0.23054047500814612,
+          0.06446872498145935
+        ],
+        "std": [
+          1.2904041432198345,
+          1.0629564611764875
+        ],
+        "coefficient": [
+          [
+            4.372282844926062,
+            -2.8617511873750976
+          ],
+          [
+            -6.624359104379132,
+            -0.27435147915425284
+          ],
+          [
+            -0.5442314420036651,
+            0.7906978600845951
+          ],
+          [
+            -4.321647875053322,
+            3.0670325452251457
+          ],
+          [
+            -0.33430694224750607,
+            0.24691887795295528
+          ],
+          [
+            2.7049607849832134,
+            -1.9982379137695507
+          ],
+          [
+            0.6630406230166354,
+            0.38924549398771185
+          ],
+          [
+            -0.41869554510427365,
+            0.7668418859864103
+          ],
+          [
+            -0.7757498263285028,
+            0.46570843284782115
+          ],
+          [
+            0.14562789090608466,
+            0.03507713470778003
+          ],
+          [
+            1.8259804238526651,
+            -3.2269669924594866
+          ],
+          [
+            7.990436773985045,
+            -0.2260653510112325
+          ],
+          [
+            4.511228196981387,
+            -3.169295696141801
+          ],
+          [
+            -9.245100600261765,
+            6.378910095018248
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.8010439868444704,
+          0.723109279260953,
+          0.99180560839998,
+          0.47728129699206695,
+          0.8540212184640763,
+          1.298159595306884,
+          0.46923206633335635,
+          0.4766916559273111,
+          1.0781901867021142,
+          0.6273220023353075,
+          0.6326595304303843,
+          0.42773369882517437,
+          0.46446228786398985
+        ],
+        "singular_values": [
+          48.77929664205622,
+          45.73309801141858,
+          37.567035153798294,
+          26.5889377004869,
+          19.42627770605079,
+          14.921998283866527,
+          9.510738709622608,
+          0.4169817144251877,
+          0.27375190672977384,
+          0.19833269432796558,
+          0.14290819433103352,
+          0.030339671598292633,
+          0.013327064552098089,
+          0.010364630711327306
+        ],
+        "rows": 520,
+        "active_coefficients": 28,
+        "normalized_integral_fit_mse": 0.001894990884713596
+      }
+    },
+    {
+      "system": 28,
+      "library": "polynomial3_trig",
+      "ridge": 0.001,
+      "threshold": 0.0,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.0020987242021616895,
+        "rmse": 0.04581183473908996,
+        "mae": 0.03143479725515165,
+        "nrmse": 0.04441055183222241
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 50,
+        "returned_steps": 65,
+        "wall_seconds": 0.0038075000047683716
+      },
+      "model": {
+        "library": "polynomial3_trig",
+        "ridge": 0.001,
+        "threshold": 0.0,
+        "mean": [
+          0.23054047500814612,
+          0.06446872498145935
+        ],
+        "std": [
+          1.2904041432198345,
+          1.0629564611764875
+        ],
+        "coefficient": [
+          [
+            0.6867309752297015,
+            -0.317118124800385
+          ],
+          [
+            -0.12140863304394736,
+            -0.3080393749233952
+          ],
+          [
+            -1.1452779887346078,
+            0.5420936328654444
+          ],
+          [
+            -0.8921688094550236,
+            0.6458059526800973
+          ],
+          [
+            -0.18832980850925757,
+            0.2206082304420672
+          ],
+          [
+            0.3478330984122152,
+            -0.39735626896530174
+          ],
+          [
+            -0.14100071338781195,
+            0.3613776770011618
+          ],
+          [
+            -0.18117435338314314,
+            0.46629367060912813
+          ],
+          [
+            -0.45909902471501657,
+            0.4800046107857035
+          ],
+          [
+            0.20663438045885799,
+            0.07391170070684243
+          ],
+          [
+            1.258747894940571,
+            -2.1143125988516935
+          ],
+          [
+            1.6195404713014294,
+            -0.5048576330122884
+          ],
+          [
+            0.8910898452718694,
+            -0.6944045765175436
+          ],
+          [
+            -1.211990201334646,
+            1.1637129182051724
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.8010439868444704,
+          0.723109279260953,
+          0.99180560839998,
+          0.47728129699206695,
+          0.8540212184640763,
+          1.298159595306884,
+          0.46923206633335635,
+          0.4766916559273111,
+          1.0781901867021142,
+          0.6273220023353075,
+          0.6326595304303843,
+          0.42773369882517437,
+          0.46446228786398985
+        ],
+        "singular_values": [
+          48.77929664205622,
+          45.73309801141858,
+          37.567035153798294,
+          26.5889377004869,
+          19.42627770605079,
+          14.921998283866527,
+          9.510738709622608,
+          0.4169817144251877,
+          0.27375190672977384,
+          0.19833269432796558,
+          0.14290819433103352,
+          0.030339671598292633,
+          0.013327064552098089,
+          0.010364630711327306
+        ],
+        "rows": 520,
+        "active_coefficients": 28,
+        "normalized_integral_fit_mse": 0.0019119085817276905
+      }
+    },
+    {
+      "system": 28,
+      "library": "polynomial3_trig",
+      "ridge": 0.001,
+      "threshold": 0.03,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.0020987242021616895,
+        "rmse": 0.04581183473908996,
+        "mae": 0.03143479725515165,
+        "nrmse": 0.04441055183222241
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 50,
+        "returned_steps": 65,
+        "wall_seconds": 0.0038174999644979835
+      },
+      "model": {
+        "library": "polynomial3_trig",
+        "ridge": 0.001,
+        "threshold": 0.03,
+        "mean": [
+          0.23054047500814612,
+          0.06446872498145935
+        ],
+        "std": [
+          1.2904041432198345,
+          1.0629564611764875
+        ],
+        "coefficient": [
+          [
+            0.6867309752297015,
+            -0.317118124800385
+          ],
+          [
+            -0.12140863304394736,
+            -0.3080393749233952
+          ],
+          [
+            -1.1452779887346078,
+            0.5420936328654444
+          ],
+          [
+            -0.8921688094550236,
+            0.6458059526800973
+          ],
+          [
+            -0.18832980850925757,
+            0.2206082304420672
+          ],
+          [
+            0.3478330984122152,
+            -0.39735626896530174
+          ],
+          [
+            -0.14100071338781195,
+            0.3613776770011618
+          ],
+          [
+            -0.18117435338314314,
+            0.46629367060912813
+          ],
+          [
+            -0.45909902471501657,
+            0.4800046107857035
+          ],
+          [
+            0.20663438045885799,
+            0.07391170070684243
+          ],
+          [
+            1.258747894940571,
+            -2.1143125988516935
+          ],
+          [
+            1.6195404713014294,
+            -0.5048576330122884
+          ],
+          [
+            0.8910898452718694,
+            -0.6944045765175436
+          ],
+          [
+            -1.211990201334646,
+            1.1637129182051724
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.8010439868444704,
+          0.723109279260953,
+          0.99180560839998,
+          0.47728129699206695,
+          0.8540212184640763,
+          1.298159595306884,
+          0.46923206633335635,
+          0.4766916559273111,
+          1.0781901867021142,
+          0.6273220023353075,
+          0.6326595304303843,
+          0.42773369882517437,
+          0.46446228786398985
+        ],
+        "singular_values": [
+          48.77929664205622,
+          45.73309801141858,
+          37.567035153798294,
+          26.5889377004869,
+          19.42627770605079,
+          14.921998283866527,
+          9.510738709622608,
+          0.4169817144251877,
+          0.27375190672977384,
+          0.19833269432796558,
+          0.14290819433103352,
+          0.030339671598292633,
+          0.013327064552098089,
+          0.010364630711327306
+        ],
+        "rows": 520,
+        "active_coefficients": 28,
+        "normalized_integral_fit_mse": 0.0019119085817276905
+      }
+    },
+    {
+      "system": 28,
+      "library": "polynomial3_trig",
+      "ridge": 1.0,
+      "threshold": 0.0,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.0027914840664845578,
+        "rmse": 0.0528344969360413,
+        "mae": 0.037713901986228135,
+        "nrmse": 0.05121840629328327
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 44,
+        "returned_steps": 65,
+        "wall_seconds": 0.0033663000212982297
+      },
+      "model": {
+        "library": "polynomial3_trig",
+        "ridge": 1.0,
+        "threshold": 0.0,
+        "mean": [
+          0.23054047500814612,
+          0.06446872498145935
+        ],
+        "std": [
+          1.2904041432198345,
+          1.0629564611764875
+        ],
+        "coefficient": [
+          [
+            0.03586715450801321,
+            -0.07254612322718089
+          ],
+          [
+            0.27003494663872857,
+            -0.010788839344107418
+          ],
+          [
+            -0.005945047453946828,
+            -0.1904327189191009
+          ],
+          [
+            0.0007852141773580481,
+            -0.026004216577436227
+          ],
+          [
+            0.03285578934639415,
+            -0.03429481478303655
+          ],
+          [
+            -0.006991092819296461,
+            0.01460257004554607
+          ],
+          [
+            0.15668654267963364,
+            0.013109680633422736
+          ],
+          [
+            -0.009774286090678158,
+            -0.2745913765272609
+          ],
+          [
+            0.09777809140633914,
+            0.021465718923801797
+          ],
+          [
+            0.006597113744157118,
+            -0.08791572448048832
+          ],
+          [
+            0.003970328711488163,
+            -0.2548260018103843
+          ],
+          [
+            0.33691561598115916,
+            -0.0282575832577884
+          ],
+          [
+            0.033890559176532144,
+            -0.010623727380439573
+          ],
+          [
+            0.007495213308228258,
+            -0.095120006624383
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.8010439868444704,
+          0.723109279260953,
+          0.99180560839998,
+          0.47728129699206695,
+          0.8540212184640763,
+          1.298159595306884,
+          0.46923206633335635,
+          0.4766916559273111,
+          1.0781901867021142,
+          0.6273220023353075,
+          0.6326595304303843,
+          0.42773369882517437,
+          0.46446228786398985
+        ],
+        "singular_values": [
+          48.77929664205622,
+          45.73309801141858,
+          37.567035153798294,
+          26.5889377004869,
+          19.42627770605079,
+          14.921998283866527,
+          9.510738709622608,
+          0.4169817144251877,
+          0.27375190672977384,
+          0.19833269432796558,
+          0.14290819433103352,
+          0.030339671598292633,
+          0.013327064552098089,
+          0.010364630711327306
+        ],
+        "rows": 520,
+        "active_coefficients": 28,
+        "normalized_integral_fit_mse": 0.0019852118175113734
+      }
+    },
+    {
+      "system": 28,
+      "library": "polynomial3_trig",
+      "ridge": 1.0,
+      "threshold": 0.03,
+      "validation": {
+        "finite_complete": true,
+        "mse": 0.00436560955552885,
+        "rmse": 0.06607275955739135,
+        "mae": 0.05260838218030356,
+        "nrmse": 0.06405173968109418
+      },
+      "solver": {
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "status": 0,
+        "nfev": 26,
+        "returned_steps": 65,
+        "wall_seconds": 0.0020588000188581645
+      },
+      "model": {
+        "library": "polynomial3_trig",
+        "ridge": 1.0,
+        "threshold": 0.03,
+        "mean": [
+          0.23054047500814612,
+          0.06446872498145935
+        ],
+        "std": [
+          1.2904041432198345,
+          1.0629564611764875
+        ],
+        "coefficient": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.18365866672475498,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.09332742979545593,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -0.818955502347788
+          ],
+          [
+            0.631602430036165,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "integral_column_rms": [
+          0.8062709998660859,
+          0.8010439868444704,
+          0.723109279260953,
+          0.99180560839998,
+          0.47728129699206695,
+          0.8540212184640763,
+          1.298159595306884,
+          0.46923206633335635,
+          0.4766916559273111,
+          1.0781901867021142,
+          0.6273220023353075,
+          0.6326595304303843,
+          0.42773369882517437,
+          0.46446228786398985
+        ],
+        "singular_values": [
+          48.77929664205622,
+          45.73309801141858,
+          37.567035153798294,
+          26.5889377004869,
+          19.42627770605079,
+          14.921998283866527,
+          9.510738709622608,
+          0.4169817144251877,
+          0.27375190672977384,
+          0.19833269432796558,
+          0.14290819433103352,
+          0.030339671598292633,
+          0.013327064552098089,
+          0.010364630711327306
+        ],
+        "rows": 520,
+        "active_coefficients": 4,
+        "normalized_integral_fit_mse": 0.002425070099942221
+      }
+    }
+  ],
+  "models": [
+    {
+      "system": 26,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle80\\ordinary_context_v1\\system26_weak_integral_model_v1.json",
+      "sha256": "290d72221df4b45994b4ed5dc88b62b3baa47b029e6e7042c391922442098f81"
+    },
+    {
+      "system": 42,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle80\\ordinary_context_v1\\system42_weak_integral_model_v1.json",
+      "sha256": "1aa7c74ee3fe7744c0789aafb3ec54de13d4415f7f4d1e9482aebf002cf9e967"
+    },
+    {
+      "system": 28,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle80\\ordinary_context_v1\\system28_weak_integral_model_v1.json",
+      "sha256": "4c62ad22c7c1f95fc8246ee9f771196028a077d520084b718984534e7037cf3a"
+    }
+  ],
+  "inner_candidate_fits": 36,
+  "full_context_refits": 3,
+  "new_neural_fits": 0,
+  "post_discovery_not_independent_confirmation": true,
+  "source_informed_trig_library": true,
+  "accepted_final_directions": 0,
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "wall_seconds": 1.012436399993021
+}

@@ -1,0 +1,503 @@
+{
+  "utc": "2026-10-18T10:31:54.111354+00:00",
+  "repository": "FIM4Science/OpenFIM",
+  "commit": "cee2bb53be1e8e92b73f98dfdbe3605efc9119cc",
+  "source_root": "G:/ICLR Omni-eeg cache/tswm_discovery_20261016_v1/caches/cycle80/OpenFIM_cee2bb53_v1",
+  "files": [
+    {
+      "path": "LICENSE.md",
+      "bytes": 1074,
+      "git_blob_sha1": "68552d699d2883827a34812e4399c419f36fb999",
+      "sha256": "3ce5f44b13787ca717d98c9090350a757bf8dc7e648f0c270497db9d26293a30",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/LICENSE.md"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2950,
+      "git_blob_sha1": "085b9e041082d0b4e1dbf3eefd0ac1126fba537c",
+      "sha256": "e1410ff2fe1d7f338c0d58e747215eeb68fa22234ef3f1726cb3ae1de21a29a9",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/README.md"
+    },
+    {
+      "path": "configs/train/ode/base_model.yaml",
+      "bytes": 4807,
+      "git_blob_sha1": "067ca928404ff3a218de14e3f104f504cfe164e3",
+      "sha256": "b21937a0061b16a9fa19aa4dc4eb7e7a33e81421b7a16df507e7753b01f11e53",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/configs/train/ode/base_model.yaml"
+    },
+    {
+      "path": "publications.bib",
+      "bytes": 2301,
+      "git_blob_sha1": "e1ed4b5cea0910f1355841cc6e667335dfc45b34",
+      "sha256": "bac1f4655368db054362354c0fb10c035f6ee8e5f29d038fceeffdd04ce5f82e",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/publications.bib"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 2727,
+      "git_blob_sha1": "953230da95221ff63c8fb343b132d8ba7b7b7374",
+      "sha256": "99c20d385f52e218e43dbd4ebe1b9d6de5f7e1c2688499d4ed6d682df5d6075d",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/pyproject.toml"
+    },
+    {
+      "path": "src/fim/__init__.py",
+      "bytes": 1040,
+      "git_blob_sha1": "f4ea5cbdfcbece91aec1e57e907328ef97b3edb9",
+      "sha256": "9524d1b579926c03bfe6a33dc0d587f6468a996f026edd96001dc7e29ca48b0b",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/__init__.py"
+    },
+    {
+      "path": "src/fim/data/__init__.py",
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/data/__init__.py"
+    },
+    {
+      "path": "src/fim/data/config_dataclasses.py",
+      "bytes": 3115,
+      "git_blob_sha1": "ec453f6344aa0e1cb3a954378e95fa256028c99f",
+      "sha256": "73498dd1a83fa69f1e2977e8ace01c1de21778131eaca0e9a50d77cded7eff29",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/data/config_dataclasses.py"
+    },
+    {
+      "path": "src/fim/data/dataloaders.py",
+      "bytes": 53963,
+      "git_blob_sha1": "ae03d58f760c98d5fe11662547cabe452f35e11e",
+      "sha256": "efc4ab2da99b9422753d1f054fd8fdb4229b3f1efe57d81cd64e7739195aa275",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/data/dataloaders.py"
+    },
+    {
+      "path": "src/fim/data/datasets.py",
+      "bytes": 104862,
+      "git_blob_sha1": "60a6a7d54a2350b514866a3ea4ea3747ebab1bcc",
+      "sha256": "d588c5989b262bd6d6f79b33b838d1af212fe09b378bfe50983b83fe0d15bdea",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/data/datasets.py"
+    },
+    {
+      "path": "src/fim/data/tokenizers.py",
+      "bytes": 7245,
+      "git_blob_sha1": "a210aab688e0dd70c8546dabc5567da5b5472dd9",
+      "sha256": "7babe211af52350cf89526916c1611dc17e6418bc8bb1897c67b24d9193fae20",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/data/tokenizers.py"
+    },
+    {
+      "path": "src/fim/data/utils.py",
+      "bytes": 18592,
+      "git_blob_sha1": "a0742363e2a0fb5db2207016a6f83e7da624e158",
+      "sha256": "7c271742be4553e99153a2666678e363421a03942ee7d3589a8409ea69745184",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/data/utils.py"
+    },
+    {
+      "path": "src/fim/data_generation/data_saver.py",
+      "bytes": 3017,
+      "git_blob_sha1": "b47a741b4ae11797c46a6a7885c7108f2840683d",
+      "sha256": "a190196709de0fd1ade4bd61ab5bf523c8c322523c2f8f6a08492b9791c3c66a",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/data_generation/data_saver.py"
+    },
+    {
+      "path": "src/fim/data_generation/grid_samplers.py",
+      "bytes": 4201,
+      "git_blob_sha1": "56050abb7579f489aaf724227a5e66ea4d46ca61",
+      "sha256": "51364f36a267e1858d08bc5b98d2eb7b5639e700a129e6b2ae53802c815eead4",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/data_generation/grid_samplers.py"
+    },
+    {
+      "path": "src/fim/data_generation/hawkes/hawkes_simulation.py",
+      "bytes": 5578,
+      "git_blob_sha1": "0f8e0e59669bb12d98cacb991090a6804343b397",
+      "sha256": "f8c8cb6a2d37acab89a72aafdd1b9b497f97a60b901307c83ff469a615d08640",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/data_generation/hawkes/hawkes_simulation.py"
+    },
+    {
+      "path": "src/fim/data_generation/hawkes/kernel_functions.py",
+      "bytes": 6072,
+      "git_blob_sha1": "8885bf4fbcac87a371f3be2505195d78f4bfab81",
+      "sha256": "6e5474a532f9d16cd442ca7372209283b9842b727ebf244df58968703b4c8d9a",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/data_generation/hawkes/kernel_functions.py"
+    },
+    {
+      "path": "src/fim/data_generation/hawkes/sampling_distributions.py",
+      "bytes": 874,
+      "git_blob_sha1": "44cfbee888bfca5c62d3906cda34cbb46042a7c8",
+      "sha256": "d4419d225c70a584d587237dd41853c601656cc459aae9859469c6b3fab762cc",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/data_generation/hawkes/sampling_distributions.py"
+    },
+    {
+      "path": "src/fim/data_generation/hawkes/synthetic_dataset_generation.py",
+      "bytes": 6356,
+      "git_blob_sha1": "dc593144a08ea5deb5c5a0750d990759386640f6",
+      "sha256": "1e0fb5668de7e048a6e0b1e71d1d3bd306f96c419887f976fafbb5ca0261d294",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/data_generation/hawkes/synthetic_dataset_generation.py"
+    },
+    {
+      "path": "src/fim/data_generation/sde/dynamical_systems.py",
+      "bytes": 64050,
+      "git_blob_sha1": "8b9f35febdea6c6b99c852c0851f862da57c2eb4",
+      "sha256": "8836509d6cc12f70f4f63a5514ab58bc435f6c93b594ff7df9d279c975a1b19d",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/data_generation/sde/dynamical_systems.py"
+    },
+    {
+      "path": "src/fim/data_generation/sde/dynamical_systems_sample.py",
+      "bytes": 34715,
+      "git_blob_sha1": "13a240545847533eccc7e9fd6dcda55c94afc2e4",
+      "sha256": "744f1df3852c7c85a29dcc300fb4ef5e00d13d1b384881a73643a52ab6e01691",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/data_generation/sde/dynamical_systems_sample.py"
+    },
+    {
+      "path": "src/fim/data_generation/sde/dynamical_systems_target.py",
+      "bytes": 14072,
+      "git_blob_sha1": "fbf0949a4a595075a5e3e7fd2aa546a2fce3c5be",
+      "sha256": "24a8572d568b998d3aeef3d008cf980c4bf315fce911eb9d943d8300390de0e9",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/data_generation/sde/dynamical_systems_target.py"
+    },
+    {
+      "path": "src/fim/data_generation/sde/dynamical_systems_to_files.py",
+      "bytes": 8248,
+      "git_blob_sha1": "934adfadce8db97b491a33b0496dc245f5edb053",
+      "sha256": "0bc7b007ffda172749825521b049d93d792cb6922f25ac9da908ed9239d349c9",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/data_generation/sde/dynamical_systems_to_files.py"
+    },
+    {
+      "path": "src/fim/data_generation/sde/preprocess_utils.py",
+      "bytes": 2995,
+      "git_blob_sha1": "b7ff4a2664cd319a725b51fa8d409329fde68ef6",
+      "sha256": "1f1ebf17a746c74580c983df887b88161137cbaf952a489254ddcb53744b9abc",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/data_generation/sde/preprocess_utils.py"
+    },
+    {
+      "path": "src/fim/leftovers_from_old_library.py",
+      "bytes": 3094,
+      "git_blob_sha1": "a0e88d9e899396917f65445162567a76ae6164fc",
+      "sha256": "4d94f926f988a49150a0ce804ac8c8b2a7163fc8eab58429cb3ebcab1d5149f9",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/leftovers_from_old_library.py"
+    },
+    {
+      "path": "src/fim/models/__init__.py",
+      "bytes": 1197,
+      "git_blob_sha1": "186b07528e6c3e69d1a3f5599e7de7313b7c2b23",
+      "sha256": "f82e79db67effba5921d0d56c95a2c9d6010575da5ffc43a5fc39ef239b396c5",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/models/__init__.py"
+    },
+    {
+      "path": "src/fim/models/blocks/__init__.py",
+      "bytes": 4346,
+      "git_blob_sha1": "19eae4fd47a65ef53dbee713b09b24656f60590d",
+      "sha256": "c5b37b2a0fcaacbda4db7bd15118a0d457c2104332b1f289278f63a430e31e1b",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/models/blocks/__init__.py"
+    },
+    {
+      "path": "src/fim/models/blocks/base.py",
+      "bytes": 14888,
+      "git_blob_sha1": "e11d773d17e4a4ab9fbdd93c7e34618ca4d9e770",
+      "sha256": "dc36576c31eb5e8d2e61e1abd88a93abae2b6b99adfc129b34b92520debb3f03",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/models/blocks/base.py"
+    },
+    {
+      "path": "src/fim/models/blocks/denoising.py",
+      "bytes": 2370,
+      "git_blob_sha1": "098d1a071b10a46efaa228a16dfb1745729c6553",
+      "sha256": "97844cb8f7034096efabec0425f311868d97c1b9929e64fed5c0b53dee86f356",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/models/blocks/denoising.py"
+    },
+    {
+      "path": "src/fim/models/blocks/neural_operators.py",
+      "bytes": 16590,
+      "git_blob_sha1": "2c8bd396e8d7a99ebc99e7e1a7355aa2cea6e18d",
+      "sha256": "3776804ca19917b0861cd5181950c199f6dc569d001d9aa60004348207815172",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/models/blocks/neural_operators.py"
+    },
+    {
+      "path": "src/fim/models/blocks/normalization.py",
+      "bytes": 16247,
+      "git_blob_sha1": "43ffbadeadd8434ea46ef5e170e5f7397a5ae9ec",
+      "sha256": "d6fda9d46f8cd4fcf7e578109bb26eef1b3dd2b8f6bed455694a7b3a604801e1",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/models/blocks/normalization.py"
+    },
+    {
+      "path": "src/fim/models/blocks/positional_encodings.py",
+      "bytes": 1830,
+      "git_blob_sha1": "a6aaa10441fb57bf1adf2c8b95f2b20dd9eb266c",
+      "sha256": "cf9e52b24d6f0010dc91cde87a2bdb5d8e8f5faf4bebbc4ecd2a576959701359",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/models/blocks/positional_encodings.py"
+    },
+    {
+      "path": "src/fim/models/hawkes/__init__.py",
+      "bytes": 579,
+      "git_blob_sha1": "a1e4ec29cf047f8ef87249292b877feafcfb5429",
+      "sha256": "276e2afd9c8c9180b06b22e47249fe0cf7faa93ec0bf4eb14a7243e0d488ac49",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/models/hawkes/__init__.py"
+    },
+    {
+      "path": "src/fim/models/hawkes/hawkes.py",
+      "bytes": 86008,
+      "git_blob_sha1": "56424554af15343348672544d196184eaecd4528",
+      "sha256": "ad4c0b11107d7af2192baeaee42dfbec8390fadcfc66380c76f93d9523c13de0",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/models/hawkes/hawkes.py"
+    },
+    {
+      "path": "src/fim/models/hawkes/hawkes_intensity_free.py",
+      "bytes": 86706,
+      "git_blob_sha1": "c9cc98db0b3cfcfc54bd26f6a1dcfb454bc0ffba",
+      "sha256": "a396be9635bfb214a2dbed207375552e1e7481f0af03da7bb73bfca2f98e0af0",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/models/hawkes/hawkes_intensity_free.py"
+    },
+    {
+      "path": "src/fim/models/hawkes/piecewise_intensity.py",
+      "bytes": 15989,
+      "git_blob_sha1": "f69db1752d9fd962fe2e9eead5155ec35540b22d",
+      "sha256": "83575cc34fa789d4c6e17df5fd2b9b94beafaac3678ed3f028ba0c81c1b7bef4",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/models/hawkes/piecewise_intensity.py"
+    },
+    {
+      "path": "src/fim/models/hawkes/thinning.py",
+      "bytes": 14813,
+      "git_blob_sha1": "76dfeec929328ad8e8d4f8eb3d1096e082f9512a",
+      "sha256": "2fba9db200b31837674a971142f90ba06c55bd401b349515491c5e2046f00b32",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/models/hawkes/thinning.py"
+    },
+    {
+      "path": "src/fim/models/imputation_pointwise.py",
+      "bytes": 66711,
+      "git_blob_sha1": "f394576f316a8aa40be64c05b5055d1f3c0bf31c",
+      "sha256": "be77aa76f857f2c994c58f1942fd6787d55d51fecc08eb3af04992d81044454f",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/models/imputation_pointwise.py"
+    },
+    {
+      "path": "src/fim/models/imputation_temporal.py",
+      "bytes": 27479,
+      "git_blob_sha1": "9a4dd2977ab1646d27b089069a7a7ef777cf8491",
+      "sha256": "19e67c875b1deb0dc39ab5b4f5285cbbb9388c1469e280e61bcb0183b48e6860",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/models/imputation_temporal.py"
+    },
+    {
+      "path": "src/fim/models/latent_sde.py",
+      "bytes": 18606,
+      "git_blob_sha1": "9b052e57c815e4b33dc16dfcb7acbc6881390e6c",
+      "sha256": "88a01aad9f434299ef2edb14355f3784ee320d13ad2acf404cd125c965732163",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/models/latent_sde.py"
+    },
+    {
+      "path": "src/fim/models/mjp.py",
+      "bytes": 19008,
+      "git_blob_sha1": "8e7015e7be1b90680dab4e16223c6095fd33753c",
+      "sha256": "778a9745b08d471b9d61f6742d4c9a653caa87c2795665c00df0d2b7707ebb4c",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/models/mjp.py"
+    },
+    {
+      "path": "src/fim/models/ode.py",
+      "bytes": 27379,
+      "git_blob_sha1": "15542c7753a86d33959ec167e5cd17b7733c82ba",
+      "sha256": "9ada4698677e41a5ca2f2e15efacd11e13949fbcdadd4ece3c5784fe74cf2856",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/models/ode.py"
+    },
+    {
+      "path": "src/fim/models/ode_trainer.py",
+      "bytes": 28595,
+      "git_blob_sha1": "6cf044a1cd9201d519528267c9196ddb23610991",
+      "sha256": "0bf49458d6a858ddce7569268f962683b1bb4aa05874b00e139603cb5b66b8a1",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/models/ode_trainer.py"
+    },
+    {
+      "path": "src/fim/models/sde.py",
+      "bytes": 89643,
+      "git_blob_sha1": "1cf80fc6c31a7fbd618e07a1cc4d326382be7fc1",
+      "sha256": "a7b6a1dfe7b8e4092f82783998806941d1b32f2316ece160a4441bebbfb7d258",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/models/sde.py"
+    },
+    {
+      "path": "src/fim/models/utils.py",
+      "bytes": 10357,
+      "git_blob_sha1": "bd06e6277c64a2fbeb92fdc3701b8c3612d4a23e",
+      "sha256": "1fb333a25d0517183a2bb757dce4485825cb2c263fbc14f1f108fe572a1ff6bf",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/models/utils.py"
+    },
+    {
+      "path": "src/fim/trainers/__init__.py",
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/trainers/__init__.py"
+    },
+    {
+      "path": "src/fim/trainers/checkpoint.py",
+      "bytes": 29644,
+      "git_blob_sha1": "97e5c2e0eee193d3a9a9c787e2448f99270ff79c",
+      "sha256": "a7e19a7d77aa9953f790f8e077a950f88fd5bd9f69074f52e3ea9e08612cd220",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/trainers/checkpoint.py"
+    },
+    {
+      "path": "src/fim/trainers/evaluation_epochs.py",
+      "bytes": 28672,
+      "git_blob_sha1": "48b5e283c2cd04f6276cfd32d9b7525e61ef94a2",
+      "sha256": "cc157782db3fd13b2c607cb01887da58c277a362c67fc3cbd1e26b2ca0eaee00",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/trainers/evaluation_epochs.py"
+    },
+    {
+      "path": "src/fim/trainers/lr_warmup.py",
+      "bytes": 716,
+      "git_blob_sha1": "cafef02496b2ce1f30b9da663a006c870b7f54d9",
+      "sha256": "e8bd4294d4174667ac2cd4fc03d4063d8e0aebc9b54b4f9eba6f96c5a7d13199",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/trainers/lr_warmup.py"
+    },
+    {
+      "path": "src/fim/trainers/mixed_precision.py",
+      "bytes": 1351,
+      "git_blob_sha1": "282b433aae665da014a30df72a00342f51611324",
+      "sha256": "13f1768b59e196c633403598110778638f91462d6d332cde6c6f585dee79170a",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/trainers/mixed_precision.py"
+    },
+    {
+      "path": "src/fim/trainers/trainer.py",
+      "bytes": 25573,
+      "git_blob_sha1": "466fde5d67dca49fa362b72e884d2538b4c5304e",
+      "sha256": "7189fbe451737031c77de48f84148d41316b6b9097e479aee7665df9f9316cb4",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/trainers/trainer.py"
+    },
+    {
+      "path": "src/fim/trainers/utils.py",
+      "bytes": 46697,
+      "git_blob_sha1": "e0fd62e37c02c8f26e7dfd87fb756910bd5be521",
+      "sha256": "a36fa3e0d7ef42c2ea679ec1da6faf2a84e94f351d3044062fca6074f4fcc40e",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/trainers/utils.py"
+    },
+    {
+      "path": "src/fim/typing.py",
+      "bytes": 93,
+      "git_blob_sha1": "5ff181bc9f5cf29dfcaddadb629478d854cf75e6",
+      "sha256": "a2182392fb5bd156c51873a3a64a08f99dbd51b7bc0d78a3b00c2519c55ae59e",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/typing.py"
+    },
+    {
+      "path": "src/fim/utils/__init__.py",
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/utils/__init__.py"
+    },
+    {
+      "path": "src/fim/utils/collate.py",
+      "bytes": 844,
+      "git_blob_sha1": "7359d909c6ccfda33e1870d34b89101172f2b562",
+      "sha256": "50bfb67056e630fd98d9ed3b37ab4e0d9a1c979b7b080e560cf9408c9b072b89",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/utils/collate.py"
+    },
+    {
+      "path": "src/fim/utils/evaluation.py",
+      "bytes": 41745,
+      "git_blob_sha1": "75cbaad2a87ce2d23c35606664e05f2295895cd0",
+      "sha256": "139d279e989d79425814f1ee041d02b434f8717e1e17ba2603f93946ba7548be",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/utils/evaluation.py"
+    },
+    {
+      "path": "src/fim/utils/experiment_files.py",
+      "bytes": 3307,
+      "git_blob_sha1": "ef36e1ae062e1ead421f1c7382bba4aa9e57ba2a",
+      "sha256": "b9ec26a5f0d782fe23eaa0fc337538aca89c9fe8dfef239686e6a4ccd00d9af8",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/utils/experiment_files.py"
+    },
+    {
+      "path": "src/fim/utils/git.py",
+      "bytes": 585,
+      "git_blob_sha1": "a45f07cccaa38b8c6d44b665e6f976fee7ad36b0",
+      "sha256": "51fe9a5f8b48a1fcbed94ed1779eba2918093c7db3ec042763cd3be1fd01a546",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/utils/git.py"
+    },
+    {
+      "path": "src/fim/utils/grids.py",
+      "bytes": 7612,
+      "git_blob_sha1": "9134ac79b5f40a98c291a7a75872e55e2279e27e",
+      "sha256": "6f8895befd26b9f8a3673cc2540acd0247eb22645467fc5a9da02df5b95c1ba6",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/utils/grids.py"
+    },
+    {
+      "path": "src/fim/utils/helper.py",
+      "bytes": 26297,
+      "git_blob_sha1": "5b93416aaa417e79ef09b2246358f6d64f531795",
+      "sha256": "82d1108e7aba860d24885282faa4ce80d6be22541c016e03765b55027e7cad9a",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/utils/helper.py"
+    },
+    {
+      "path": "src/fim/utils/interpolator.py",
+      "bytes": 8588,
+      "git_blob_sha1": "5d2bc7e7855b38f78db3ecb8f9e19f04eccbc046",
+      "sha256": "5ad2ffb01425905cc6b335905a2e049581a075cd015d5434f84c14be1136d66d",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/utils/interpolator.py"
+    },
+    {
+      "path": "src/fim/utils/logging.py",
+      "bytes": 1472,
+      "git_blob_sha1": "55d46bdacf52424fd79edb5d8ef6f6906c7f0a01",
+      "sha256": "574cf12c89228a8475ba298795f1fa1898f85af0674f547abf2b85d54a18d284",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/utils/logging.py"
+    },
+    {
+      "path": "src/fim/utils/metrics.py",
+      "bytes": 5093,
+      "git_blob_sha1": "81c2c76a4347815c20e0671798b2d97073ece77f",
+      "sha256": "d0fc887188b817b92bbf16b0f38ba1c2ff86ff05d7c42b6fd7b535d23bb15651",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/utils/metrics.py"
+    },
+    {
+      "path": "src/fim/utils/param_scheduler.py",
+      "bytes": 3706,
+      "git_blob_sha1": "b10476d090d764394694b5a544dc982e2e0b75dc",
+      "sha256": "cebf6a8c9a0a308263a264675434a51d81381ca13406cb0ae132a47ab3391125",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/utils/param_scheduler.py"
+    },
+    {
+      "path": "src/fim/utils/params.py",
+      "bytes": 874,
+      "git_blob_sha1": "32595195b54a01814301a40fa385fdedc26c05de",
+      "sha256": "4f66dbf6b627b42dfd14948e84320acd581ee4f3589b9b5d95688645d61691ed",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/utils/params.py"
+    },
+    {
+      "path": "src/fim/utils/sde/data_exploration_plots.py",
+      "bytes": 15575,
+      "git_blob_sha1": "1f431a8f488c070100bac8a43da303a9305e5abb",
+      "sha256": "f845de5630d06366afa10377850aacffe659fbb62cdea0d5694367f4a77a363f",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/utils/sde/data_exploration_plots.py"
+    },
+    {
+      "path": "src/fim/utils/sde/evaluation.py",
+      "bytes": 26231,
+      "git_blob_sha1": "13850af12e0e26370f30533272371dcdb914d2ab",
+      "sha256": "310e85ce88df6d9af0e3dc31bda7492f5ee7a62cd436c1dcebe9471637a6f37f",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/utils/sde/evaluation.py"
+    },
+    {
+      "path": "src/fim/utils/sde/solvers.py",
+      "bytes": 14555,
+      "git_blob_sha1": "3f97bc9fa0bc5efd6c5ab344dab1d0ec199109d5",
+      "sha256": "bdebe7066be8598d30d5e26f48860be48184d635ee8de4a0fe671d439993bfe3",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/utils/sde/solvers.py"
+    },
+    {
+      "path": "src/fim/utils/sde/vector_fields_and_paths_plots.py",
+      "bytes": 12418,
+      "git_blob_sha1": "fceabeed37d3e2a2b0fae1eefb6ae5920af44988",
+      "sha256": "2bb0bf2dbd7f4e86efd14f18c1e8fbca829c4913cd09c320f522ad8b6abea461",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/utils/sde/vector_fields_and_paths_plots.py"
+    },
+    {
+      "path": "tests/test_ode.py",
+      "bytes": 27748,
+      "git_blob_sha1": "eab96311afa4700c1d84204b6e1376b6195606ea",
+      "sha256": "94b86b0605c8b4c6f77bcad27a58c8739e40bfed4a99a79b689b1940bd12c8f8",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/tests/test_ode.py"
+    },
+    {
+      "path": "tutorial/06_ode/ode_tutorial_helper.py",
+      "bytes": 13023,
+      "git_blob_sha1": "81ff0acb8143f23b8c2056ae285898da2b97d220",
+      "sha256": "a39e08c337f0a42d78366d6c8cdca8f5798403b0206bbfdcf4264a830357b138",
+      "source_url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/tutorial/06_ode/ode_tutorial_helper.py"
+    }
+  ],
+  "file_count": 70,
+  "source_bytes": 1247708,
+  "numerical_source_modified": false,
+  "public_source_transit_in_ram_only": true,
+  "local_result_files_written": 0
+}

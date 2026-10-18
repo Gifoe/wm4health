@@ -1,0 +1,78 @@
+{
+  "utc": "2026-10-18T10:51:40.853287+00:00",
+  "entries": [
+    {
+      "key": "MOD",
+      "authors": "Giampiccolo, Iacca, Marchetti",
+      "title": "A novel approach to quantify out-of-distribution uncertainty in Neural and Universal Differential Equations",
+      "date": "2026-05-27",
+      "primary": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13494032/",
+      "code": "https://github.com/cosbi-research/UQNU",
+      "verified": "Full primary paper and actual public Julia source, not executed",
+      "scope": "Context-compatible off-support disagreement; chosen region/thresholds, no universal calibrated posterior"
+    },
+    {
+      "key": "GP-ODE",
+      "authors": "Hegde, Y\u0131ld\u0131z, L\u00e4hdesm\u00e4ki, Kaski, Heinonen",
+      "title": "Variational multiple shooting for Bayesian ODEs with Gaussian processes",
+      "date": "UAI2022",
+      "primary": "https://proceedings.mlr.press/v180/hegde22a.html",
+      "code": "https://github.com/hegdepashupati/gaussian-process-odes",
+      "verified": "Primary proceedings/full PDF and implementation, not executed",
+      "scope": "Stationary GP posterior, sparse VI and coherent function samples"
+    },
+    {
+      "key": "LUNO",
+      "authors": "Magnani, Pf\u00f6rtner, Weber, Hennig",
+      "title": "Linearization Turns Neural Operators into Function-Valued Gaussian Processes",
+      "date": "ICML2025",
+      "primary": "https://proceedings.mlr.press/v267/magnani25a.html",
+      "code": "https://github.com/MethodsOfMachineLearning/luno",
+      "verified": "Primary proceedings/full text and package, not executed",
+      "scope": "Posthoc operator GP;250 labeled calibration pairs in experiments"
+    },
+    {
+      "key": "SANODEP",
+      "authors": "Qing, Langdon, Lee, Shafei, van der Wilk, Tsay, Misener",
+      "title": "System-Aware Neural ODE Processes for Few-Shot Bayesian Optimization",
+      "date": "arXiv2406.02352v2,2024-11-02; TMLR2025",
+      "primary": "https://arxiv.org/html/2406.02352v2",
+      "code": "https://github.com/TsingQAQ/SANODEP",
+      "verified": "Full primary text and JAX repo; external checkpoint links not downloaded",
+      "scope": "System distributions from trajectories; task BO acquisition, no generic field certificate"
+    },
+    {
+      "key": "Active-SINDy",
+      "authors": "Larra\u00f1aga, Fasel, Brunton",
+      "title": "How Low Can You Go? Active Learning for Sparse Model Discovery in the Ultra-Low-Data Limit",
+      "date": "arXiv2606.12182v1,2026-06-10",
+      "primary": "https://arxiv.org/html/2606.12182v1",
+      "code": "https://github.com/alarran/active-sindy",
+      "verified": "Full paper and actual Python acquisition/stopping code, not executed",
+      "scope": "Resettable observed ODE states/library; PDE candidate residual uses derivative labels"
+    },
+    {
+      "key": "PBML-LTI",
+      "authors": "Huang, Michailidis",
+      "title": "PAC-Bayesian Meta-Learning for Few-Shot Identification of Linear Dynamical Systems",
+      "date": "arXiv2609.24117v1,2026-09-21",
+      "primary": "https://arxiv.org/html/2609.24117v1",
+      "code": "https://github.com/chenfeng-huang/PBML-LTI-TMLR-2026",
+      "verified": "Full paper, context-selection protocol and implementation, not executed",
+      "scope": "Observed autonomous LTI; inner validation prefix selection; conditional query/support certificate"
+    },
+    {
+      "key": "OPAX",
+      "authors": "Sukhija et al.",
+      "title": "Optimistic Active Exploration of Dynamical Systems",
+      "date": "NeurIPS2023; arXiv2306.12371v2,2023-10-30",
+      "primary": "https://arxiv.org/html/2306.12371v2",
+      "code": "https://github.com/lasgroup/opax",
+      "verified": "Full primary text and JAX source by adjacent scout;5090 compatibility not verified",
+      "scope": "Reachable action-constrained information exploration; calibration and regularity assumptions"
+    }
+  ],
+  "independent_perspectives": 3,
+  "literature_claims_are_not_native_replications": true,
+  "final_new_mechanism_recommendations": 0
+}
