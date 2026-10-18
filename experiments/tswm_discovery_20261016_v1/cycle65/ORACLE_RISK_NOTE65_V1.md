@@ -1,0 +1,5 @@
+# Additional validation-only attribution diagnostic
+
+Before learned intervention laws are scored, define an exact Gaussian denoising-risk reference for the linear mechanism only. This adds no fitting, selection rule, training setting or test query. Reuse each linear corpus's train-only normalization, the fixed block/prefix validation masks, the native50 alpha values and the same seeded validation noise draws. Compute the Bayes conditional noise predictor analytically from the known joint Gaussian. Report both its realized validation DSM loss and population irreducible loss, alongside learned validation losses.
+
+This diagnostic distinguishes observational model approximation/training quality from causal semantics. The native inputs are float32; analytic conditioning is float64 applied to those inputs, so tiny quantization differences remain. It does not provide an exact nonlinear denoising oracle, and a small validation gap does not prove arbitrary intervention generalization. Do not tune against the reference or use it to discard unfavorable results.

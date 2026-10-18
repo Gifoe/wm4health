@@ -1,0 +1,26 @@
+Windows fatal exception: access violation
+
+Current thread 0x000095a8 (most recent call first):
+  File "E:\Anaconda\envs\persist_stable_251\lib\site-packages\torch\_ops.py", line 1376 in _get_packet
+  File "E:\Anaconda\envs\persist_stable_251\lib\site-packages\torch\_ops.py", line 1351 in __getattr__
+  File "E:\Anaconda\envs\persist_stable_251\lib\site-packages\torch\_meta_registrations.py", line 3957 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 883 in exec_module
+  File "<frozen importlib._bootstrap>", line 688 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1006 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1027 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1078 in _handle_fromlist
+  File "E:\Anaconda\envs\persist_stable_251\lib\site-packages\torch\__init__.py", line 2668 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 883 in exec_module
+  File "<frozen importlib._bootstrap>", line 688 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1006 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1027 in _find_and_load
+  File "D:\tswm_discovery_20261016_v1\cycle65\scripts\models65.py", line 2 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 883 in exec_module
+  File "<frozen importlib._bootstrap>", line 688 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1006 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1027 in _find_and_load
+  File "D:\tswm_discovery_20261016_v1\cycle65\scripts\recover_campaign65_v1.py", line 1 in <module>

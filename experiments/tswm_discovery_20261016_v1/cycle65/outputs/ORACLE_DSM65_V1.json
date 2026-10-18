@@ -1,0 +1,48 @@
+{
+  "utc": "2026-10-18T01:59:34.900103+00:00",
+  "status": "LINEAR_VALIDATION_ORACLE_EVALUATED",
+  "actual_script": "oracle_dsm65_v2.py",
+  "rows": [
+    {
+      "key": "linear_s2021",
+      "view": "block",
+      "realized_Bayes_validation_DSM": 0.33510599922277784,
+      "population_irreducible_DSM": 0.3355932696767775
+    },
+    {
+      "key": "linear_s2021",
+      "view": "prefix",
+      "realized_Bayes_validation_DSM": 0.3783963517372767,
+      "population_irreducible_DSM": 0.37617227150202964
+    },
+    {
+      "key": "linear_s2022",
+      "view": "block",
+      "realized_Bayes_validation_DSM": 0.33723349179088946,
+      "population_irreducible_DSM": 0.33616097554762847
+    },
+    {
+      "key": "linear_s2022",
+      "view": "prefix",
+      "realized_Bayes_validation_DSM": 0.3767055606756136,
+      "population_irreducible_DSM": 0.3768188422285334
+    },
+    {
+      "key": "linear_s2023",
+      "view": "block",
+      "realized_Bayes_validation_DSM": 0.33528093630277117,
+      "population_irreducible_DSM": 0.3363620186771781
+    },
+    {
+      "key": "linear_s2023",
+      "view": "prefix",
+      "realized_Bayes_validation_DSM": 0.3741908416226149,
+      "population_irreducible_DSM": 0.37661019292469533
+    }
+  ],
+  "source_registry": "D:\\tswm_discovery_20261016_v1\\cycle65\\outputs\\fit_registry65_v1.json",
+  "source_registry_sha256": "5491d79e7e3f4b4fab41d2918028e5f52ab12b29d4d3900dadb79682084b793c",
+  "data_only_reference": true,
+  "scope": "Linear Gaussian conditional Bayes denoiser, fixed native validation noise/masks; no nonlinear oracle, learned performance or model selection change.",
+  "note_sha256": "af35b97f3ae7df8e1c93f0f7a6189d37ce77027cfd29c36781deee9f32b26889"
+}

@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-18T02:41:38.962458+00:00",
+  "actual_final_coordinator": "finish_npz65_v1.py",
+  "prior_isolated_coordinator": "recover_campaign65_v2.py",
+  "source_sha256": {
+    "finish_npz65_v1.py": "9658ecac29b4e172945de3c2a7fef0112740fdddb07a1cc4efaa24a87e044ce9",
+    "recover_campaign65_v2.py": "30f899251401bdcd32bf75df63ea249476d446c8a6eeed0519b1860ed1c79e18",
+    "recover_cell65_v2.py": "8f9fc2600ff83f8a23fa495e9974e4cf8ef9088fec6275e27a8bd4acb6feb4d0",
+    "recover_validate65_v2.py": "388ff1189eb26ec95108a5c70967ecdaa47360bbe7f740c2e5b88fcde1309a2b",
+    "checkpoint_io65_v1.py": "14645b4e401f7b2aee784900f0adb36086725b145a7f8b46cc3e0ddad8722dc3",
+    "evaluate65_v3.py": "356b8e22f55b323b1e0913231f52b4abf7c52c77f235c7091a9046dc1d3ce866",
+    "replay65_v2.py": "049a6f19bfd0ed3ff04082793a1e9ec361e6eda0a8c24f1becc8600c5113b1da",
+    "isolated_entry65_v1.py": "561dfb673ffa0dba61d9ef8bf0885810b30667e2da6ec150545747f42cb609eb"
+  },
+  "runtime_receipt_sha256": "757a70650a444b8d9d41cf272fc4b829ce491259ec9eb291456fc4ccf739a625",
+  "checkpoint_IO_qualification_sha256": "0aa4cb4d5d26f909c376ef3839fc204f5c99fed7b5dde69c1039a28b865af92f",
+  "supersedes": "EXECUTION_IDENTITY65_V1.json final-coordinator attribution; earlier v2 coordinator completed four recovery fits, NPZ finisher completes last two.",
+  "scientific_settings_changed": false,
+  "storage_backend_changed": "Tensor pickle to numeric NPZ/JSON for final two recovered fits; exact real4000-step model/optimizer/RNG roundtrip qualified",
+  "scope": "Execution provenance; final completion requires results and independent replay"
+}

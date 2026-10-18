@@ -1,0 +1,195 @@
+{
+  "utc": "2026-10-18T01:49:38.633235+00:00",
+  "status": "EXACT_ORACLES_QUALIFIED",
+  "records": [
+    {
+      "mechanism": "linear",
+      "query": "zero",
+      "reference_records": 8192,
+      "observational_rejection": {
+        "proposed": 98304,
+        "accepted_candidates": 11956,
+        "retained": 8192,
+        "acceptance_rate": 0.12162272135416667
+      },
+      "linear_analytic_checks": {
+        "do": {
+          "mean_max_standard_errors": 1.7318340465703819,
+          "covariance_max_standard_errors": 1.9773864049930105
+        },
+        "obs": {
+          "mean_max_standard_errors": 2.3375238366898228,
+          "covariance_max_standard_errors": 2.607593230141219
+        }
+      },
+      "iid_floor_receipts": [
+        {
+          "seed": 2021,
+          "observational_rejection": {
+            "proposed": 32768,
+            "accepted_candidates": 4001,
+            "retained": 512,
+            "acceptance_rate": 0.122100830078125
+          }
+        },
+        {
+          "seed": 2022,
+          "observational_rejection": {
+            "proposed": 32768,
+            "accepted_candidates": 4009,
+            "retained": 512,
+            "acceptance_rate": 0.122344970703125
+          }
+        },
+        {
+          "seed": 2023,
+          "observational_rejection": {
+            "proposed": 32768,
+            "accepted_candidates": 4017,
+            "retained": 512,
+            "acceptance_rate": 0.122589111328125
+          }
+        }
+      ]
+    },
+    {
+      "mechanism": "linear",
+      "query": "sine",
+      "reference_records": 8192,
+      "observational_rejection": {
+        "proposed": 262144,
+        "accepted_candidates": 8862,
+        "retained": 8192,
+        "acceptance_rate": 0.03380584716796875
+      },
+      "linear_analytic_checks": {
+        "do": {
+          "mean_max_standard_errors": 1.0476380441906334,
+          "covariance_max_standard_errors": 2.643101169879596
+        },
+        "obs": {
+          "mean_max_standard_errors": 1.7681117000593836,
+          "covariance_max_standard_errors": 1.75267514638585
+        }
+      },
+      "iid_floor_receipts": [
+        {
+          "seed": 2021,
+          "observational_rejection": {
+            "proposed": 32768,
+            "accepted_candidates": 1027,
+            "retained": 512,
+            "acceptance_rate": 0.031341552734375
+          }
+        },
+        {
+          "seed": 2022,
+          "observational_rejection": {
+            "proposed": 32768,
+            "accepted_candidates": 1066,
+            "retained": 512,
+            "acceptance_rate": 0.03253173828125
+          }
+        },
+        {
+          "seed": 2023,
+          "observational_rejection": {
+            "proposed": 32768,
+            "accepted_candidates": 1159,
+            "retained": 512,
+            "acceptance_rate": 0.035369873046875
+          }
+        }
+      ]
+    },
+    {
+      "mechanism": "nonlinear",
+      "query": "zero",
+      "reference_records": 8192,
+      "observational_rejection": {
+        "proposed": 98304,
+        "accepted_candidates": 9086,
+        "retained": 8192,
+        "acceptance_rate": 0.09242757161458333
+      },
+      "linear_analytic_checks": {},
+      "iid_floor_receipts": [
+        {
+          "seed": 2021,
+          "observational_rejection": {
+            "proposed": 32768,
+            "accepted_candidates": 3127,
+            "retained": 512,
+            "acceptance_rate": 0.095428466796875
+          }
+        },
+        {
+          "seed": 2022,
+          "observational_rejection": {
+            "proposed": 32768,
+            "accepted_candidates": 3001,
+            "retained": 512,
+            "acceptance_rate": 0.091583251953125
+          }
+        },
+        {
+          "seed": 2023,
+          "observational_rejection": {
+            "proposed": 32768,
+            "accepted_candidates": 3096,
+            "retained": 512,
+            "acceptance_rate": 0.094482421875
+          }
+        }
+      ]
+    },
+    {
+      "mechanism": "nonlinear",
+      "query": "sine",
+      "reference_records": 8192,
+      "observational_rejection": {
+        "proposed": 360448,
+        "accepted_candidates": 8348,
+        "retained": 8192,
+        "acceptance_rate": 0.023160067471590908
+      },
+      "linear_analytic_checks": {},
+      "iid_floor_receipts": [
+        {
+          "seed": 2021,
+          "observational_rejection": {
+            "proposed": 32768,
+            "accepted_candidates": 789,
+            "retained": 512,
+            "acceptance_rate": 0.024078369140625
+          }
+        },
+        {
+          "seed": 2022,
+          "observational_rejection": {
+            "proposed": 32768,
+            "accepted_candidates": 743,
+            "retained": 512,
+            "acceptance_rate": 0.022674560546875
+          }
+        },
+        {
+          "seed": 2023,
+          "observational_rejection": {
+            "proposed": 32768,
+            "accepted_candidates": 760,
+            "retained": 512,
+            "acceptance_rate": 0.023193359375
+          }
+        }
+      ]
+    }
+  ],
+  "artifact": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle65\\ORACLE_REFERENCE65_V1.npz",
+  "artifact_sha256": "608a9a59a6d5dc831e7b2e75bae3afe78aae3b5e994355c90605a4c8a60a5871",
+  "directions": 136,
+  "reference_records_per_law": 8192,
+  "MC_floor_records_per_law": 512,
+  "scope": "Known-SCM do simulation and exact rejection observational conditionals, not learned model performance",
+  "evaluation_spec_sha256": "fb8d51570cfe04f54bdd4134c31051ac755fd4e1842a6b60d4f8b20843fc1989"
+}

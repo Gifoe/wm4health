@@ -1,0 +1,46 @@
+{
+  "key": "nonlinear_s2022",
+  "model": "CSDI_native_random",
+  "mechanism": "nonlinear",
+  "seed": 2022,
+  "parameters": 51377,
+  "optimizer_updates": 8000,
+  "target_scalar_exposures": 4104678.0,
+  "elapsed_seconds": 124.60795420000795,
+  "checkpoints": [
+    {
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\recovery_v1\\nonlinear_s2022\\CSDI_native_random\\attempt1\\step2000.pt",
+      "sha256": "3c5f7a965ba135e1a79fdf83e2fe6d555ffc9268b84da74b5d9109587ed157f0",
+      "step": 2000,
+      "validation": {
+        "block": 0.38366398215293884,
+        "prefix": 0.4047493636608124,
+        "mean": 0.3942066729068756
+      }
+    },
+    {
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\recovery_v1\\nonlinear_s2022\\CSDI_native_random\\attempt1\\step8000.pt",
+      "sha256": "827aceab77fe696fe4277e3defff02e53475afe92bd0bc44f84b99580ebdd152",
+      "step": 8000,
+      "validation": {
+        "block": 0.3147352337837219,
+        "prefix": 0.3639303743839264,
+        "mean": 0.33933280408382416
+      }
+    }
+  ],
+  "selected_checkpoint": {
+    "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\recovery_v1\\nonlinear_s2022\\CSDI_native_random\\attempt1\\step8000.pt",
+    "sha256": "827aceab77fe696fe4277e3defff02e53475afe92bd0bc44f84b99580ebdd152",
+    "step": 8000,
+    "validation": {
+      "block": 0.3147352337837219,
+      "prefix": 0.3639303743839264,
+      "mean": 0.33933280408382416
+    }
+  },
+  "data_sha256": "b3eb844487073169b8b2e58c07d8e69e90a86246b4245dc9e74650d2fd0a357d",
+  "selection": "fixed block/prefix validation DSM only",
+  "execution_variant": "Isolated recovery process; CPU snapshots atomically before separate native validation; model/loss/budget unchanged",
+  "trajectory_presentations": 512000
+}

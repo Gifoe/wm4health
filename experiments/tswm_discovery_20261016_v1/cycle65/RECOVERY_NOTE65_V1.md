@@ -1,0 +1,9 @@
+# Verified native-process failure and recovery
+
+Original train65_v2 worker terminated with0xc0000005 after flushing optimizer step8000 of nonlinear/seed2022/random. Windows Application Error event1000 identifies python310.dll, offset0x195f83. This differs from older VCRUNTIME reports; root cause is unknown. No driver, interpreter, dependency or unrelated process is changed.
+
+Twelve formal model fits are complete and preserved. The next model's step2000 checkpoint is intact; its step8000 file is zero bytes and is retained as failed evidence. Because the old checkpoint lacks RNG states, restarting that cell from step2000 would not reproduce the prescribed random stream. Re-run only that incomplete cell from its original seed; never overwrite its old files. The remaining five cells also run unchanged settings.
+
+Recovery isolates one fit per child process, serializes a detached CPU copy of tensors with normalizers as plain lists, writes to new attempt directories atomically, and saves RNG/optimizer states every2000 updates before validation. Validation runs in a separate child. These are execution/recovery changes, not model, loss, training budget or selection changes. Keep all failed attempts; retry native process errors at most twice, resuming only a valid recovery checkpoint with complete RNG state. The12 old successful fits are reused after hash checks. Record discarded8000 updates separately from the final144000 successful updates.
+
+Both original dependency coordinators are verified absent after the failed training process; stale waiting state files are not live-process evidence. No original learned-law evaluation was started. Recovery uses a new coordinator and the same sealed evaluation specification. The evaluator's v2 only converts either legacy NumPy normalizers or new plain-list normalizers to float32 arrays; the inference algorithm is unchanged. Independent replay checks all36 selected-budget checkpoints and all240 final laws.

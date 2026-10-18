@@ -1,0 +1,37 @@
+{
+  "utc": "2026-10-18T02:47:05.495431+00:00",
+  "status": "PASS",
+  "counts": {
+    "raw_corpus_hashes": 6,
+    "checkpoint_hashes": 36,
+    "selected_checkpoints": 18,
+    "native_validation_views": 48,
+    "MDN_validation_checkpoints": 12,
+    "trained_CPU_GPU_output_checks": 12,
+    "sample_law_hashes": 240,
+    "target_metric_views": 480,
+    "projected_W1_values": 65280
+  },
+  "max_scaled_errors": {
+    "train_only_mean": 0.0,
+    "train_only_std": 0.0,
+    "native_validation_DSM_block": 9.06537830718882e-08,
+    "native_validation_DSM_prefix": 8.540859128436073e-08,
+    "validation_selection_mean": 7.658411646518571e-08,
+    "trained_CPU_GPU_output": 2.697269394502655e-07,
+    "MDN_validation_NLL": 0.0,
+    "exact_empirical_projected_W1": 2.015436198122495e-16,
+    "normalized_projected_W1": 3.177182231404602e-16,
+    "terminal_marginal_W1": 2.630743452447604e-15,
+    "path_mean_MSE": 1.0981273249201028e-07,
+    "variance_trace_ratio": 2.6369468939788226e-07,
+    "terminal_tail": 0.0,
+    "reference_tail": 0.0,
+    "terminal_tail_abs_error": 0.0,
+    "AR_QR_coefficients": 1.6009013650894554e-14,
+    "AR_QR_residual_sd": 4.090223078995929e-17
+  },
+  "runtime_seconds": 48.86518490000162,
+  "evaluation_sha256": "426d11cfb5f07d04d0b8504303a4d70886784e7bfa1e341b49091ea5c3842f6d",
+  "scope": "Native learned-checkpoint validation/selection replay and CPU/GPU output checks; independent SciPy CDF integration for every projected empirical W1 and every raw-law metric. Not an independent reproduction of original CSDI benchmarks or novelty proof."
+}

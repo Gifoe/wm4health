@@ -1,0 +1,536 @@
+{
+  "utc": "2026-10-18T02:04:05.559364+00:00",
+  "status": "PARTIAL",
+  "fits": [
+    {
+      "key": "linear_s2021",
+      "model": "CSDI_native_random",
+      "mechanism": "linear",
+      "seed": 2021,
+      "parameters": 51377,
+      "optimizer_updates": 8000,
+      "trajectory_presentations": 512000,
+      "target_scalar_exposures": 4097073.0,
+      "elapsed_seconds": 124.9938448999892,
+      "checkpoints": [
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2021_csdi_random_step2000.pt",
+          "sha256": "6f60b94e5bf3317eb971549d42728fcfd52dadc90cb1cbf6d9bf1e206f264269",
+          "step": 2000,
+          "validation": {
+            "block": 0.40536805987358093,
+            "prefix": 0.4209122657775879,
+            "mean": 0.4131401628255844
+          }
+        },
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2021_csdi_random_step8000.pt",
+          "sha256": "7a5f1876f88020c0cd6e3ced76dc33f110110a89176861b3e0cb1cef805899c3",
+          "step": 8000,
+          "validation": {
+            "block": 0.3500080406665802,
+            "prefix": 0.3887503445148468,
+            "mean": 0.3693791925907135
+          }
+        }
+      ],
+      "selected_checkpoint": {
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2021_csdi_random_step8000.pt",
+        "sha256": "7a5f1876f88020c0cd6e3ced76dc33f110110a89176861b3e0cb1cef805899c3",
+        "step": 8000,
+        "validation": {
+          "block": 0.3500080406665802,
+          "prefix": 0.3887503445148468,
+          "mean": 0.3693791925907135
+        }
+      },
+      "data_sha256": "54e545fd9856694a50f6fa137232f8dca7540c48ef14b98a85ed4b36a6e8901e",
+      "selection": "fixed block/prefix validation DSM only"
+    },
+    {
+      "key": "linear_s2021",
+      "model": "CSDI_native_coverage",
+      "mechanism": "linear",
+      "seed": 2021,
+      "parameters": 51377,
+      "optimizer_updates": 8000,
+      "trajectory_presentations": 512000,
+      "target_scalar_exposures": 4098440.0,
+      "elapsed_seconds": 99.76760230000946,
+      "checkpoints": [
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2021_csdi_coverage_step2000.pt",
+          "sha256": "eb52ba05af7b67266dbda449c158672b5eebb6a01f0261f510568f6c6fa51bbd",
+          "step": 2000,
+          "validation": {
+            "block": 0.4043295085430145,
+            "prefix": 0.4206286668777466,
+            "mean": 0.41247908771038055
+          }
+        },
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2021_csdi_coverage_step8000.pt",
+          "sha256": "7d8ce3373acb1a87659dd48f73b704217744fac83f99691e38cefc61dc3b21c1",
+          "step": 8000,
+          "validation": {
+            "block": 0.3439287841320038,
+            "prefix": 0.38778209686279297,
+            "mean": 0.3658554404973984
+          }
+        }
+      ],
+      "selected_checkpoint": {
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2021_csdi_coverage_step8000.pt",
+        "sha256": "7d8ce3373acb1a87659dd48f73b704217744fac83f99691e38cefc61dc3b21c1",
+        "step": 8000,
+        "validation": {
+          "block": 0.3439287841320038,
+          "prefix": 0.38778209686279297,
+          "mean": 0.3658554404973984
+        }
+      },
+      "data_sha256": "54e545fd9856694a50f6fa137232f8dca7540c48ef14b98a85ed4b36a6e8901e",
+      "selection": "fixed block/prefix validation DSM only"
+    },
+    {
+      "key": "linear_s2021",
+      "model": "causal_MDN",
+      "mechanism": "linear",
+      "seed": 2021,
+      "parameters": 53097,
+      "optimizer_updates": 8000,
+      "target_scalar_exposures": 4096000,
+      "elapsed_seconds": 9.8568994999805,
+      "checkpoints": [
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2021_MDN_step2000.pt",
+          "sha256": "7b45ed0e31c9322193e6a0b67504f22fa2aa4d33d335fd81d985f9500ba11960",
+          "step": 2000,
+          "validation_NLL": 0.728882908821106
+        },
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2021_MDN_step8000.pt",
+          "sha256": "f72b7aa20d5a88cfc1f887f32d552231a23863ac05ecb514890c92c87fb4af0f",
+          "step": 8000,
+          "validation_NLL": 0.7305437326431274
+        }
+      ],
+      "selected_checkpoint": {
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2021_MDN_step2000.pt",
+        "sha256": "7b45ed0e31c9322193e6a0b67504f22fa2aa4d33d335fd81d985f9500ba11960",
+        "step": 2000,
+        "validation_NLL": 0.728882908821106
+      },
+      "data_sha256": "54e545fd9856694a50f6fa137232f8dca7540c48ef14b98a85ed4b36a6e8901e",
+      "selection": "validation one-step conditional NLL only"
+    },
+    {
+      "key": "linear_s2022",
+      "model": "CSDI_native_random",
+      "mechanism": "linear",
+      "seed": 2022,
+      "parameters": 51377,
+      "optimizer_updates": 8000,
+      "trajectory_presentations": 512000,
+      "target_scalar_exposures": 4104678.0,
+      "elapsed_seconds": 124.59051430001273,
+      "checkpoints": [
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2022_csdi_random_step2000.pt",
+          "sha256": "f0e843bb2994a3d81b84e36ac73643ab6ef8d60f013b39f79ca6121ca29407e6",
+          "step": 2000,
+          "validation": {
+            "block": 0.40446746349334717,
+            "prefix": 0.4148438274860382,
+            "mean": 0.4096556454896927
+          }
+        },
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2022_csdi_random_step8000.pt",
+          "sha256": "08fc2e798ec6ca1499e66695f994f5a165dde3dbb2d77f94e546add594c29d78",
+          "step": 8000,
+          "validation": {
+            "block": 0.34757426381111145,
+            "prefix": 0.38631582260131836,
+            "mean": 0.3669450432062149
+          }
+        }
+      ],
+      "selected_checkpoint": {
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2022_csdi_random_step8000.pt",
+        "sha256": "08fc2e798ec6ca1499e66695f994f5a165dde3dbb2d77f94e546add594c29d78",
+        "step": 8000,
+        "validation": {
+          "block": 0.34757426381111145,
+          "prefix": 0.38631582260131836,
+          "mean": 0.3669450432062149
+        }
+      },
+      "data_sha256": "5d4e70dca658025f147b01c81b8fe517dec3915873588787c0ecbe37bb1d4f26",
+      "selection": "fixed block/prefix validation DSM only"
+    },
+    {
+      "key": "linear_s2022",
+      "model": "CSDI_native_coverage",
+      "mechanism": "linear",
+      "seed": 2022,
+      "parameters": 51377,
+      "optimizer_updates": 8000,
+      "trajectory_presentations": 512000,
+      "target_scalar_exposures": 4102058.0,
+      "elapsed_seconds": 100.25052860000869,
+      "checkpoints": [
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2022_csdi_coverage_step2000.pt",
+          "sha256": "8120dc29ba7c394c3a2753e0f20726f157f1e4c6687391db6f388f3ca2da0d5d",
+          "step": 2000,
+          "validation": {
+            "block": 0.4011082649230957,
+            "prefix": 0.4134775400161743,
+            "mean": 0.407292902469635
+          }
+        },
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2022_csdi_coverage_step8000.pt",
+          "sha256": "db0b3614fc0147826c3ff29ba2ec41451a1bf411091a2b023237cf0cd4dd6e3f",
+          "step": 8000,
+          "validation": {
+            "block": 0.3486895263195038,
+            "prefix": 0.3861508369445801,
+            "mean": 0.36742018163204193
+          }
+        }
+      ],
+      "selected_checkpoint": {
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2022_csdi_coverage_step8000.pt",
+        "sha256": "db0b3614fc0147826c3ff29ba2ec41451a1bf411091a2b023237cf0cd4dd6e3f",
+        "step": 8000,
+        "validation": {
+          "block": 0.3486895263195038,
+          "prefix": 0.3861508369445801,
+          "mean": 0.36742018163204193
+        }
+      },
+      "data_sha256": "5d4e70dca658025f147b01c81b8fe517dec3915873588787c0ecbe37bb1d4f26",
+      "selection": "fixed block/prefix validation DSM only"
+    },
+    {
+      "key": "linear_s2022",
+      "model": "causal_MDN",
+      "mechanism": "linear",
+      "seed": 2022,
+      "parameters": 53097,
+      "optimizer_updates": 8000,
+      "target_scalar_exposures": 4096000,
+      "elapsed_seconds": 9.79343130000052,
+      "checkpoints": [
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2022_MDN_step2000.pt",
+          "sha256": "f5fa9fae19a549533dfa74d56cf1556ab45003212542bd80bdc350f2a34e75f1",
+          "step": 2000,
+          "validation_NLL": 0.7341383695602417
+        },
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2022_MDN_step8000.pt",
+          "sha256": "a3110c391915cb36cf4790f9666da67384385f0eb503923de8d33f5d507ab1be",
+          "step": 8000,
+          "validation_NLL": 0.7351008653640747
+        }
+      ],
+      "selected_checkpoint": {
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2022_MDN_step2000.pt",
+        "sha256": "f5fa9fae19a549533dfa74d56cf1556ab45003212542bd80bdc350f2a34e75f1",
+        "step": 2000,
+        "validation_NLL": 0.7341383695602417
+      },
+      "data_sha256": "5d4e70dca658025f147b01c81b8fe517dec3915873588787c0ecbe37bb1d4f26",
+      "selection": "validation one-step conditional NLL only"
+    },
+    {
+      "key": "linear_s2023",
+      "model": "CSDI_native_random",
+      "mechanism": "linear",
+      "seed": 2023,
+      "parameters": 51377,
+      "optimizer_updates": 8000,
+      "trajectory_presentations": 512000,
+      "target_scalar_exposures": 4098217.0,
+      "elapsed_seconds": 124.88080859999172,
+      "checkpoints": [
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2023_csdi_random_step2000.pt",
+          "sha256": "72a23c472d9c94deafda7d783b65e98dc1cea40ca104c4e920e472b5fd36a568",
+          "step": 2000,
+          "validation": {
+            "block": 0.40061599016189575,
+            "prefix": 0.4117995500564575,
+            "mean": 0.40620777010917664
+          }
+        },
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2023_csdi_random_step8000.pt",
+          "sha256": "38e577118dc65aab7334a6e8e6137c24398af84c8460e301861fe5707a7327ce",
+          "step": 8000,
+          "validation": {
+            "block": 0.34641268849372864,
+            "prefix": 0.38074636459350586,
+            "mean": 0.36357952654361725
+          }
+        }
+      ],
+      "selected_checkpoint": {
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2023_csdi_random_step8000.pt",
+        "sha256": "38e577118dc65aab7334a6e8e6137c24398af84c8460e301861fe5707a7327ce",
+        "step": 8000,
+        "validation": {
+          "block": 0.34641268849372864,
+          "prefix": 0.38074636459350586,
+          "mean": 0.36357952654361725
+        }
+      },
+      "data_sha256": "62645a8d3184c7b2220052e71be63b3d20f56d3cec693ddb486d0a841b202fb6",
+      "selection": "fixed block/prefix validation DSM only"
+    },
+    {
+      "key": "linear_s2023",
+      "model": "CSDI_native_coverage",
+      "mechanism": "linear",
+      "seed": 2023,
+      "parameters": 51377,
+      "optimizer_updates": 8000,
+      "trajectory_presentations": 512000,
+      "target_scalar_exposures": 4095883.0,
+      "elapsed_seconds": 100.80554620001931,
+      "checkpoints": [
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2023_csdi_coverage_step2000.pt",
+          "sha256": "204cbf0e3bb02bb3e47c8684bff9e35bab503a055e3f54f480f12a0a8e44f327",
+          "step": 2000,
+          "validation": {
+            "block": 0.40144842863082886,
+            "prefix": 0.4138827919960022,
+            "mean": 0.4076656103134155
+          }
+        },
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2023_csdi_coverage_step8000.pt",
+          "sha256": "5fbf60378e68b45f305d567bc130d611f5ec6ec7189f386a486cf503a67ff759",
+          "step": 8000,
+          "validation": {
+            "block": 0.34296947717666626,
+            "prefix": 0.3810451924800873,
+            "mean": 0.36200733482837677
+          }
+        }
+      ],
+      "selected_checkpoint": {
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2023_csdi_coverage_step8000.pt",
+        "sha256": "5fbf60378e68b45f305d567bc130d611f5ec6ec7189f386a486cf503a67ff759",
+        "step": 8000,
+        "validation": {
+          "block": 0.34296947717666626,
+          "prefix": 0.3810451924800873,
+          "mean": 0.36200733482837677
+        }
+      },
+      "data_sha256": "62645a8d3184c7b2220052e71be63b3d20f56d3cec693ddb486d0a841b202fb6",
+      "selection": "fixed block/prefix validation DSM only"
+    },
+    {
+      "key": "linear_s2023",
+      "model": "causal_MDN",
+      "mechanism": "linear",
+      "seed": 2023,
+      "parameters": 53097,
+      "optimizer_updates": 8000,
+      "target_scalar_exposures": 4096000,
+      "elapsed_seconds": 9.748345400003018,
+      "checkpoints": [
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2023_MDN_step2000.pt",
+          "sha256": "9955f33dbf90ec823b44fe1828c0a08190297e6359ae18a6e20486ffd869fef1",
+          "step": 2000,
+          "validation_NLL": 0.7290103435516357
+        },
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2023_MDN_step8000.pt",
+          "sha256": "244d38d062b60cb71977724a7b67e5600ec032e3be2dff1e99c495cc57b06f30",
+          "step": 8000,
+          "validation_NLL": 0.7269686460494995
+        }
+      ],
+      "selected_checkpoint": {
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\linear_s2023_MDN_step8000.pt",
+        "sha256": "244d38d062b60cb71977724a7b67e5600ec032e3be2dff1e99c495cc57b06f30",
+        "step": 8000,
+        "validation_NLL": 0.7269686460494995
+      },
+      "data_sha256": "62645a8d3184c7b2220052e71be63b3d20f56d3cec693ddb486d0a841b202fb6",
+      "selection": "validation one-step conditional NLL only"
+    },
+    {
+      "key": "nonlinear_s2021",
+      "model": "CSDI_native_random",
+      "mechanism": "nonlinear",
+      "seed": 2021,
+      "parameters": 51377,
+      "optimizer_updates": 8000,
+      "trajectory_presentations": 512000,
+      "target_scalar_exposures": 4097073.0,
+      "elapsed_seconds": 124.74486449998221,
+      "checkpoints": [
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\nonlinear_s2021_csdi_random_step2000.pt",
+          "sha256": "e3947605525e36e7e2a044a759daec84fc8aed3c21c7953f13fef6665c879442",
+          "step": 2000,
+          "validation": {
+            "block": 0.3690771758556366,
+            "prefix": 0.4040234684944153,
+            "mean": 0.38655032217502594
+          }
+        },
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\nonlinear_s2021_csdi_random_step8000.pt",
+          "sha256": "00134d90db5b49d2b4519b60a6adb5f341385ca1f437cd66d895f67da0816ed5",
+          "step": 8000,
+          "validation": {
+            "block": 0.3176558315753937,
+            "prefix": 0.3692760765552521,
+            "mean": 0.3434659540653229
+          }
+        }
+      ],
+      "selected_checkpoint": {
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\nonlinear_s2021_csdi_random_step8000.pt",
+        "sha256": "00134d90db5b49d2b4519b60a6adb5f341385ca1f437cd66d895f67da0816ed5",
+        "step": 8000,
+        "validation": {
+          "block": 0.3176558315753937,
+          "prefix": 0.3692760765552521,
+          "mean": 0.3434659540653229
+        }
+      },
+      "data_sha256": "793d36cde4fb5ba42a2b6c6b90176c60e76ebc05f9ded0343a6089f3faea8150",
+      "selection": "fixed block/prefix validation DSM only"
+    },
+    {
+      "key": "nonlinear_s2021",
+      "model": "CSDI_native_coverage",
+      "mechanism": "nonlinear",
+      "seed": 2021,
+      "parameters": 51377,
+      "optimizer_updates": 8000,
+      "trajectory_presentations": 512000,
+      "target_scalar_exposures": 4098440.0,
+      "elapsed_seconds": 98.68449349998264,
+      "checkpoints": [
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\nonlinear_s2021_csdi_coverage_step2000.pt",
+          "sha256": "822a9f304735b5f38d5909e98ada873a3a0db7e5da1800ccab4013122d1cefd7",
+          "step": 2000,
+          "validation": {
+            "block": 0.37612003087997437,
+            "prefix": 0.4070431888103485,
+            "mean": 0.39158160984516144
+          }
+        },
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\nonlinear_s2021_csdi_coverage_step8000.pt",
+          "sha256": "5bdaf737fe66d02237f3a582df86f89a4aba0f74f9111ca66be41171ff618994",
+          "step": 8000,
+          "validation": {
+            "block": 0.31024491786956787,
+            "prefix": 0.3693985939025879,
+            "mean": 0.3398217558860779
+          }
+        }
+      ],
+      "selected_checkpoint": {
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\nonlinear_s2021_csdi_coverage_step8000.pt",
+        "sha256": "5bdaf737fe66d02237f3a582df86f89a4aba0f74f9111ca66be41171ff618994",
+        "step": 8000,
+        "validation": {
+          "block": 0.31024491786956787,
+          "prefix": 0.3693985939025879,
+          "mean": 0.3398217558860779
+        }
+      },
+      "data_sha256": "793d36cde4fb5ba42a2b6c6b90176c60e76ebc05f9ded0343a6089f3faea8150",
+      "selection": "fixed block/prefix validation DSM only"
+    },
+    {
+      "key": "nonlinear_s2021",
+      "model": "causal_MDN",
+      "mechanism": "nonlinear",
+      "seed": 2021,
+      "parameters": 53097,
+      "optimizer_updates": 8000,
+      "target_scalar_exposures": 4096000,
+      "elapsed_seconds": 9.899358599999687,
+      "checkpoints": [
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\nonlinear_s2021_MDN_step2000.pt",
+          "sha256": "c62bc6f3cfab02ed0c5e2918d7bc0a400c88a3ac5e5e5471b1de49391b8ff879",
+          "step": 2000,
+          "validation_NLL": 0.3707506060600281
+        },
+        {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\nonlinear_s2021_MDN_step8000.pt",
+          "sha256": "fe960a6ac34dc6031ae8e770a1d3ba4fc8357bc03c7ccf4aa452fe771ed57775",
+          "step": 8000,
+          "validation_NLL": 0.3702530860900879
+        }
+      ],
+      "selected_checkpoint": {
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\nonlinear_s2021_MDN_step8000.pt",
+        "sha256": "fe960a6ac34dc6031ae8e770a1d3ba4fc8357bc03c7ccf4aa452fe771ed57775",
+        "step": 8000,
+        "validation_NLL": 0.3702530860900879
+      },
+      "data_sha256": "793d36cde4fb5ba42a2b6c6b90176c60e76ebc05f9ded0343a6089f3faea8150",
+      "selection": "validation one-step conditional NLL only"
+    }
+  ],
+  "corpora": [
+    {
+      "key": "linear_s2021",
+      "mechanism": "linear",
+      "seed": 2021,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle65\\linear_s2021.npz",
+      "sha256": "54e545fd9856694a50f6fa137232f8dca7540c48ef14b98a85ed4b36a6e8901e",
+      "training_records": 16384,
+      "validation_records": 4096,
+      "reserved_observational_test_records": 8192
+    },
+    {
+      "key": "linear_s2022",
+      "mechanism": "linear",
+      "seed": 2022,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle65\\linear_s2022.npz",
+      "sha256": "5d4e70dca658025f147b01c81b8fe517dec3915873588787c0ecbe37bb1d4f26",
+      "training_records": 16384,
+      "validation_records": 4096,
+      "reserved_observational_test_records": 8192
+    },
+    {
+      "key": "linear_s2023",
+      "mechanism": "linear",
+      "seed": 2023,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle65\\linear_s2023.npz",
+      "sha256": "62645a8d3184c7b2220052e71be63b3d20f56d3cec693ddb486d0a841b202fb6",
+      "training_records": 16384,
+      "validation_records": 4096,
+      "reserved_observational_test_records": 8192
+    },
+    {
+      "key": "nonlinear_s2021",
+      "mechanism": "nonlinear",
+      "seed": 2021,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle65\\nonlinear_s2021.npz",
+      "sha256": "793d36cde4fb5ba42a2b6c6b90176c60e76ebc05f9ded0343a6089f3faea8150",
+      "training_records": 16384,
+      "validation_records": 4096,
+      "reserved_observational_test_records": 8192
+    }
+  ]
+}

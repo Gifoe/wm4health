@@ -1,0 +1,22 @@
+E:\Anaconda\envs\persist_stable_251\lib\site-packages\torch\nn\modules\transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(
+D:\tswm_discovery_20261016_v1\cycle65\scripts\recover_cell65_v1.py:27: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\generated\python_variable_methods.cpp:836.)
+  if step%500==0:state(f'recovery_{key}_{kind}_attempt{attempt}_state.json',dict(status='TRAINING',step=step,start_step=startstep,attempt=int(attempt),loss=float(loss)));print(json.dumps(dict(key=key,kind=kind,step=step,attempt=int(attempt))),flush=True)
+{"key": "nonlinear_s2023", "kind": "CSDI_native_random", "step": 500, "attempt": 1}
+{"key": "nonlinear_s2023", "kind": "CSDI_native_random", "step": 1000, "attempt": 1}
+{"key": "nonlinear_s2023", "kind": "CSDI_native_random", "step": 1500, "attempt": 1}
+{"key": "nonlinear_s2023", "kind": "CSDI_native_random", "step": 2000, "attempt": 1}
+{"key": "nonlinear_s2023", "kind": "CSDI_native_random", "step": 2500, "attempt": 1}
+{"key": "nonlinear_s2023", "kind": "CSDI_native_random", "step": 3000, "attempt": 1}
+{"key": "nonlinear_s2023", "kind": "CSDI_native_random", "step": 3500, "attempt": 1}
+{"key": "nonlinear_s2023", "kind": "CSDI_native_random", "step": 4000, "attempt": 1}
+{"key": "nonlinear_s2023", "kind": "CSDI_native_random", "step": 4500, "attempt": 1}
+{"key": "nonlinear_s2023", "kind": "CSDI_native_random", "step": 5000, "attempt": 1}
+{"key": "nonlinear_s2023", "kind": "CSDI_native_random", "step": 5500, "attempt": 1}
+{"key": "nonlinear_s2023", "kind": "CSDI_native_random", "step": 6000, "attempt": 1}
+{"key": "nonlinear_s2023", "kind": "CSDI_native_random", "step": 6500, "attempt": 1}
+{"key": "nonlinear_s2023", "kind": "CSDI_native_random", "step": 7000, "attempt": 1}
+{"key": "nonlinear_s2023", "kind": "CSDI_native_random", "step": 7500, "attempt": 1}
+{"key": "nonlinear_s2023", "kind": "CSDI_native_random", "step": 8000, "attempt": 1}
+{"status": "TRAINING_CHILD_CLOSED", "key": "nonlinear_s2023", "kind": "CSDI_native_random"}

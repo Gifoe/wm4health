@@ -1,0 +1,52 @@
+Windows fatal exception: access violation
+
+Current thread 0x00007740 (most recent call first):
+  File "E:\Anaconda\envs\persist_stable_251\lib\site-packages\torch\_ops.py", line 1376 in _get_packet
+  File "E:\Anaconda\envs\persist_stable_251\lib\site-packages\torch\_ops.py", line 1351 in __getattr__
+  File "E:\Anaconda\envs\persist_stable_251\lib\site-packages\torch\masked\maskedtensor\unary.py", line 177 in <dictcomp>
+  File "E:\Anaconda\envs\persist_stable_251\lib\site-packages\torch\masked\maskedtensor\unary.py", line 176 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 883 in exec_module
+  File "<frozen importlib._bootstrap>", line 688 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1006 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1027 in _find_and_load
+  File "E:\Anaconda\envs\persist_stable_251\lib\site-packages\torch\masked\maskedtensor\__init__.py", line 7 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 883 in exec_module
+  File "<frozen importlib._bootstrap>", line 688 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1006 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1027 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 992 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1027 in _find_and_load
+  File "E:\Anaconda\envs\persist_stable_251\lib\site-packages\torch\masked\_ops.py", line 10 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 883 in exec_module
+  File "<frozen importlib._bootstrap>", line 688 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1006 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1027 in _find_and_load
+  File "E:\Anaconda\envs\persist_stable_251\lib\site-packages\torch\masked\__init__.py", line 1 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 883 in exec_module
+  File "<frozen importlib._bootstrap>", line 688 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1006 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1027 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1078 in _handle_fromlist
+  File "E:\Anaconda\envs\persist_stable_251\lib\site-packages\torch\__init__.py", line 2295 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 883 in exec_module
+  File "<frozen importlib._bootstrap>", line 688 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1006 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1027 in _find_and_load
+  File "D:\tswm_discovery_20261016_v1\cycle65\scripts\models65.py", line 2 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 883 in exec_module
+  File "<frozen importlib._bootstrap>", line 688 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1006 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1027 in _find_and_load
+  File "D:\tswm_discovery_20261016_v1\cycle65\scripts\recover_validate65_v2.py", line 1 in <module>
+  File "E:\Anaconda\envs\persist_stable_251\lib\runpy.py", line 86 in _run_code
+  File "E:\Anaconda\envs\persist_stable_251\lib\runpy.py", line 96 in _run_module_code
+  File "E:\Anaconda\envs\persist_stable_251\lib\runpy.py", line 289 in run_path
+  File "D:\tswm_discovery_20261016_v1\cycle65\scripts\isolated_entry65_v1.py", line 11 in <module>

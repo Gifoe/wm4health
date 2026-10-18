@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "D:\tswm_discovery_20261016_v1\cycle65\scripts\isolated_entry65_v1.py", line 11, in <module>
+    runpy.run_path(str(target),run_name='__main__')
+  File "E:\Anaconda\envs\persist_stable_251\lib\runpy.py", line 289, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "E:\Anaconda\envs\persist_stable_251\lib\runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "E:\Anaconda\envs\persist_stable_251\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "D:\tswm_discovery_20261016_v1\cycle65\scripts\finish_npz65_v1.py", line 29, in <module>
+    code=run(script,[],OUT/log);dump(OUT/receipt,dict(utc=utc(),exit_code=code,log_sha256=sha(OUT/log)));assert code==0,(script,code)
+AssertionError: ('evaluate65_v3.py', 2147483651)

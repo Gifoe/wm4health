@@ -1,0 +1,33 @@
+{
+  "key": "nonlinear_s2022",
+  "model": "causal_MDN",
+  "mechanism": "nonlinear",
+  "seed": 2022,
+  "parameters": 53097,
+  "optimizer_updates": 8000,
+  "target_scalar_exposures": 4096000.0,
+  "elapsed_seconds": 10.584879100002581,
+  "checkpoints": [
+    {
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\recovery_v1\\nonlinear_s2022\\causal_MDN\\attempt1\\step2000.pt",
+      "sha256": "59f18af88a387e84ebabd39be42b46af6e9d860e9e3745ad764b78104c2c53e5",
+      "step": 2000,
+      "validation_NLL": 0.38188618421554565
+    },
+    {
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\recovery_v1\\nonlinear_s2022\\causal_MDN\\attempt1\\step8000.pt",
+      "sha256": "53ea691aedb9f90ad7c7f0915953a15e43197930b0e22d97f4348502a2c6b1c7",
+      "step": 8000,
+      "validation_NLL": 0.3753403127193451
+    }
+  ],
+  "selected_checkpoint": {
+    "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle65\\recovery_v1\\nonlinear_s2022\\causal_MDN\\attempt1\\step8000.pt",
+    "sha256": "53ea691aedb9f90ad7c7f0915953a15e43197930b0e22d97f4348502a2c6b1c7",
+    "step": 8000,
+    "validation_NLL": 0.3753403127193451
+  },
+  "data_sha256": "b3eb844487073169b8b2e58c07d8e69e90a86246b4245dc9e74650d2fd0a357d",
+  "selection": "validation one-step conditional NLL only",
+  "execution_variant": "Isolated recovery process; CPU snapshots atomically before separate native validation; model/loss/budget unchanged"
+}

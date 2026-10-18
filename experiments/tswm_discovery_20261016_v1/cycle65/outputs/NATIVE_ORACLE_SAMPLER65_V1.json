@@ -1,0 +1,257 @@
+{
+  "utc": "2026-10-18T02:02:32.626293+00:00",
+  "status": "NATIVE_GAUSSIAN_SAMPLER_LAWS_QUALIFIED",
+  "rows": [
+    {
+      "key": "linear_s2021_zero_block",
+      "training_normalization_seed": 2021,
+      "query": "zero",
+      "operation": "block",
+      "do": {
+        "normalized_Gaussian_W2": 0.5188883324934761,
+        "variance_trace_ratio": 0.3116830033121384,
+        "mean_MSE": 0.00705921216801509
+      },
+      "obs": {
+        "normalized_Gaussian_W2": 0.06439747915373228,
+        "variance_trace_ratio": 0.8763628950934014,
+        "mean_MSE": 4.1173933818579356e-13
+      },
+      "scope": "Analytically propagated native50-step DDPM with exact Gaussian conditional noise predictor; privileged sampler attribution"
+    },
+    {
+      "key": "linear_s2021_zero_prefix",
+      "training_normalization_seed": 2021,
+      "query": "zero",
+      "operation": "prefix",
+      "do": {
+        "normalized_Gaussian_W2": 0.06095620277819028,
+        "variance_trace_ratio": 0.8818044834310502,
+        "mean_MSE": 8.706531478351503e-11
+      },
+      "obs": {
+        "normalized_Gaussian_W2": 0.737751128265412,
+        "variance_trace_ratio": 2.4793804018631924,
+        "mean_MSE": 0.007057671433414589
+      },
+      "scope": "Analytically propagated native50-step DDPM with exact Gaussian conditional noise predictor; privileged sampler attribution"
+    },
+    {
+      "key": "linear_s2021_sine_block",
+      "training_normalization_seed": 2021,
+      "query": "sine",
+      "operation": "block",
+      "do": {
+        "normalized_Gaussian_W2": 0.6785210087466566,
+        "variance_trace_ratio": 0.3116830033121384,
+        "mean_MSE": 0.11113175444422244
+      },
+      "obs": {
+        "normalized_Gaussian_W2": 0.06439748011331786,
+        "variance_trace_ratio": 0.8763628950934014,
+        "mean_MSE": 2.4343939897505204e-11
+      },
+      "scope": "Analytically propagated native50-step DDPM with exact Gaussian conditional noise predictor; privileged sampler attribution"
+    },
+    {
+      "key": "linear_s2021_sine_prefix",
+      "training_normalization_seed": 2021,
+      "query": "sine",
+      "operation": "prefix",
+      "do": {
+        "normalized_Gaussian_W2": 0.060956220715526706,
+        "variance_trace_ratio": 0.8818044834310502,
+        "mean_MSE": 1.2776975999627917e-09
+      },
+      "obs": {
+        "normalized_Gaussian_W2": 1.0400412243615516,
+        "variance_trace_ratio": 2.4793804018631924,
+        "mean_MSE": 0.1111229420747552
+      },
+      "scope": "Analytically propagated native50-step DDPM with exact Gaussian conditional noise predictor; privileged sampler attribution"
+    },
+    {
+      "key": "linear_s2022_zero_block",
+      "training_normalization_seed": 2022,
+      "query": "zero",
+      "operation": "block",
+      "do": {
+        "normalized_Gaussian_W2": 0.5188643184303544,
+        "variance_trace_ratio": 0.31172986079750953,
+        "mean_MSE": 0.007059234423450611
+      },
+      "obs": {
+        "normalized_Gaussian_W2": 0.06432322390262735,
+        "variance_trace_ratio": 0.8764946448555003,
+        "mean_MSE": 4.3175831119714515e-13
+      },
+      "scope": "Analytically propagated native50-step DDPM with exact Gaussian conditional noise predictor; privileged sampler attribution"
+    },
+    {
+      "key": "linear_s2022_zero_prefix",
+      "training_normalization_seed": 2022,
+      "query": "zero",
+      "operation": "prefix",
+      "do": {
+        "normalized_Gaussian_W2": 0.0608999906341798,
+        "variance_trace_ratio": 0.8819100334624558,
+        "mean_MSE": 9.539676783913118e-11
+      },
+      "obs": {
+        "normalized_Gaussian_W2": 0.737830209476152,
+        "variance_trace_ratio": 2.479677178171547,
+        "mean_MSE": 0.007057606586555123
+      },
+      "scope": "Analytically propagated native50-step DDPM with exact Gaussian conditional noise predictor; privileged sampler attribution"
+    },
+    {
+      "key": "linear_s2022_sine_block",
+      "training_normalization_seed": 2022,
+      "query": "sine",
+      "operation": "block",
+      "do": {
+        "normalized_Gaussian_W2": 0.6785026411848835,
+        "variance_trace_ratio": 0.31172986079750953,
+        "mean_MSE": 0.11113177421794725
+      },
+      "obs": {
+        "normalized_Gaussian_W2": 0.06432322491997176,
+        "variance_trace_ratio": 0.8764946448555003,
+        "mean_MSE": 2.5775201623253245e-11
+      },
+      "scope": "Analytically propagated native50-step DDPM with exact Gaussian conditional noise predictor; privileged sampler attribution"
+    },
+    {
+      "key": "linear_s2022_sine_prefix",
+      "training_normalization_seed": 2022,
+      "query": "sine",
+      "operation": "prefix",
+      "do": {
+        "normalized_Gaussian_W2": 0.06090000913558277,
+        "variance_trace_ratio": 0.8819100334624558,
+        "mean_MSE": 1.322337833963071e-09
+      },
+      "obs": {
+        "normalized_Gaussian_W2": 1.040097293943903,
+        "variance_trace_ratio": 2.479677178171547,
+        "mean_MSE": 0.11112286594612798
+      },
+      "scope": "Analytically propagated native50-step DDPM with exact Gaussian conditional noise predictor; privileged sampler attribution"
+    },
+    {
+      "key": "linear_s2023_zero_block",
+      "training_normalization_seed": 2023,
+      "query": "zero",
+      "operation": "block",
+      "do": {
+        "normalized_Gaussian_W2": 0.5188558194037036,
+        "variance_trace_ratio": 0.31174639304914925,
+        "mean_MSE": 0.007059222640430575
+      },
+      "obs": {
+        "normalized_Gaussian_W2": 0.06429702482357755,
+        "variance_trace_ratio": 0.8765411287887128,
+        "mean_MSE": 4.2018637978043855e-13
+      },
+      "scope": "Analytically propagated native50-step DDPM with exact Gaussian conditional noise predictor; privileged sampler attribution"
+    },
+    {
+      "key": "linear_s2023_zero_prefix",
+      "training_normalization_seed": 2023,
+      "query": "zero",
+      "operation": "prefix",
+      "do": {
+        "normalized_Gaussian_W2": 0.06088221194869922,
+        "variance_trace_ratio": 0.881943413020364,
+        "mean_MSE": 9.130977250304748e-11
+      },
+      "obs": {
+        "normalized_Gaussian_W2": 0.7378552597121008,
+        "variance_trace_ratio": 2.4797710318809076,
+        "mean_MSE": 0.00705763774322181
+      },
+      "scope": "Analytically propagated native50-step DDPM with exact Gaussian conditional noise predictor; privileged sampler attribution"
+    },
+    {
+      "key": "linear_s2023_sine_block",
+      "training_normalization_seed": 2023,
+      "query": "sine",
+      "operation": "block",
+      "do": {
+        "normalized_Gaussian_W2": 0.678496151088752,
+        "variance_trace_ratio": 0.31174639304914925,
+        "mean_MSE": 0.1111317692726162
+      },
+      "obs": {
+        "normalized_Gaussian_W2": 0.06429702582216944,
+        "variance_trace_ratio": 0.8765411287887128,
+        "mean_MSE": 2.5286383770485983e-11
+      },
+      "scope": "Analytically propagated native50-step DDPM with exact Gaussian conditional noise predictor; privileged sampler attribution"
+    },
+    {
+      "key": "linear_s2023_sine_prefix",
+      "training_normalization_seed": 2023,
+      "query": "sine",
+      "operation": "prefix",
+      "do": {
+        "normalized_Gaussian_W2": 0.06088223026032386,
+        "variance_trace_ratio": 0.881943413020364,
+        "mean_MSE": 1.3053107879066295e-09
+      },
+      "obs": {
+        "normalized_Gaussian_W2": 1.0401150356765327,
+        "variance_trace_ratio": 2.4797710318809076,
+        "mean_MSE": 0.11112288554267638
+      },
+      "scope": "Analytically propagated native50-step DDPM with exact Gaussian conditional noise predictor; privileged sampler attribution"
+    }
+  ],
+  "checks": [
+    {
+      "key": "linear_s2021_zero_block",
+      "native_samples": 8192,
+      "mean_max_standard_errors": 1.6050252683367292,
+      "covariance_max_standard_errors": 1.9597902635225326
+    },
+    {
+      "key": "linear_s2021_zero_prefix",
+      "native_samples": 8192,
+      "mean_max_standard_errors": 1.382604509404409,
+      "covariance_max_standard_errors": 2.4483099298487865
+    },
+    {
+      "key": "linear_s2021_sine_block",
+      "native_samples": 8192,
+      "mean_max_standard_errors": 1.6051135552760019,
+      "covariance_max_standard_errors": 1.95979087113081
+    },
+    {
+      "key": "linear_s2021_sine_prefix",
+      "native_samples": 8192,
+      "mean_max_standard_errors": 1.3825601233793468,
+      "covariance_max_standard_errors": 2.4483113437603383
+    }
+  ],
+  "artifact": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle65\\NATIVE_ORACLE_SAMPLER65_V1.npz",
+  "artifact_sha256": "6a88a6be56854d8bb46508c9a586c7ae201ac4bbf07c32b6ba85cc82d888d3f0",
+  "data_receipts": [
+    {
+      "key": "linear_s2021",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle65\\linear_s2021.npz",
+      "sha256": "54e545fd9856694a50f6fa137232f8dca7540c48ef14b98a85ed4b36a6e8901e"
+    },
+    {
+      "key": "linear_s2022",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle65\\linear_s2022.npz",
+      "sha256": "5d4e70dca658025f147b01c81b8fe517dec3915873588787c0ecbe37bb1d4f26"
+    },
+    {
+      "key": "linear_s2023",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle65\\linear_s2023.npz",
+      "sha256": "62645a8d3184c7b2220052e71be63b3d20f56d3cec693ddb486d0a841b202fb6"
+    }
+  ],
+  "note_sha256": "c34e3c01503e7308997dfe6279dc59bc3daca51e2c0a72986e634fe0e9985333",
+  "accepted_final_directions": 0
+}

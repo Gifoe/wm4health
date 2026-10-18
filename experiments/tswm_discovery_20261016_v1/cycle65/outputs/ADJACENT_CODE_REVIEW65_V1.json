@@ -1,0 +1,69 @@
+{
+  "reviewed_at": "2026-10-18",
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "accepted_final_directions": 0,
+  "sources": [
+    {
+      "key": "CSDI",
+      "repository": "ermongroup/CSDI",
+      "commit": "7f24a436f08d98853a6b43d4f7f04e5a65ecdf27",
+      "scope": "Native model, diffusion loss and sampler executing on transferred two-variable feedback tasks. Original benchmark scores not reproduced.",
+      "files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1071,
+          "git_blob_sha1": "d1c9b92e6983a30c6177da507fae3fc5dedf4e43"
+        },
+        {
+          "path": "README.md",
+          "bytes": 1849,
+          "git_blob_sha1": "dc4f9ee3c59d2b1cffdab87d123cad68d1e7caeb"
+        },
+        {
+          "path": "diff_models.py",
+          "bytes": 6732,
+          "git_blob_sha1": "6c4b75b6517eb15b91437dde9ff6deb0408b92b7"
+        },
+        {
+          "path": "main_model.py",
+          "bytes": 16212,
+          "git_blob_sha1": "314a12a4d28e36eec63efe68b9350c42f13e70d8"
+        },
+        {
+          "path": "config/base.yaml",
+          "bytes": 356,
+          "git_blob_sha1": "9a2954fb0c7a6fd981d5b7a63142087eb66d109e"
+        }
+      ]
+    },
+    {
+      "key": "CaTSG",
+      "repository": "microsoft/TimeCraft",
+      "commit": "ad38a7df05fa47f3142db60f2c92d7e6a7f04cc0",
+      "scope": "Source inspection only; not trained in C65.",
+      "reviewed_paths": [
+        "CaTSG/README.md",
+        "CaTSG/ldm/models/diffusion/causal_tsg.py",
+        "CaTSG/ldm/modules/diffusionmodules/ba_unet.py",
+        "CaTSG/ldm/modules/diffusionmodules/ts_unet.py",
+        "CaTSG/configs/catsg.yaml",
+        "CaTSG/ldm/data/catsg_dataset.py"
+      ],
+      "finding": "Whole-context cross attention and environment-guided sampling do not by themselves verify feedback-policy intervention semantics. Do not claim failure on original tasks."
+    },
+    {
+      "key": "OrthoGen",
+      "repository": "tgarriga/OrthoGen",
+      "commit": "77b93f16d6ee3669b27aaaeb69cc89d9658f66f5",
+      "scope": "Source/paper inspection only; no execution or performance conclusion.",
+      "reviewed_paths": [
+        "README.md",
+        "src/orthogen/learners.py",
+        "src/orthogen/nuisances.py",
+        "configs/fully_synthetic/normalizing_flow.yaml"
+      ],
+      "finding": "Generative recursive g-computation and orthogonal distributional treatment learning already exist. Pinned implementation has a binary propensity and regime-specific continuation/target artifact checks; this is a source-scope statement, not a general impossibility claim.",
+      "root_license_located": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Corrected module-origin provenance
+
+This note supersedes the source-origin wording in RUNTIME_ISOLATION_NOTE65_V1.md. User-site being enabled did not prove that the loaded NumPy came from user-site. A direct normal-startup find_spec probe establishes the actual origin as D:\baseline_reproduction_seed2021_v1\.venv\Lib\site-packages\numpy\__init__.py. That old project environment appears ahead of the intended conda environment in the research venv's sys.path. The loaded version was1.26.4.
+
+Isolated Python-I excludes that injected project path and loads NumPy2.2.6 from E:\Anaconda\envs\persist_stable_251\lib\site-packages. PyTorch remains2.8.0+cu128; no installed environment or driver was modified. Explicit conda DLL paths and user-site/PYTHONPATH isolation are applied in a child PowerShell process, because changing an invoking shell's environment alone is not a reliable WMI child configuration.
+
+The same100-update native fixture passes the unchanged CPU/GPU and hidden-value invariance guards under isolation. The original12 model checkpoints are retained and must pass common-runtime validation replay; new raw-corpus regeneration checks passed before remaining cells started. The actual recovery coordinator is recover_campaign65_v2.py through isolated_entry65_v1.py. EXECUTION_IDENTITY65_V1.json corrects the static base-script label retained in the aggregate metadata.
+
+Native crashes occurred in python310.dll during checkpoint creation and in torch operator registration during a subsequent import. The cross-project dependency injection is confirmed, but its causal responsibility for those crashes is not established. Report isolation and atomic CPU snapshots as mitigations, not a proven root-cause repair. All original failure files and the zero-byte checkpoint remain on the server. No formal metric, test query, model or selection rule changes.
