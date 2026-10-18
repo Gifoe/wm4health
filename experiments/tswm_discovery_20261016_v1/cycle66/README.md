@@ -1,0 +1,9 @@
+# C66: released pretrained NormWear-2 interface audit
+
+The real pretrained framework is loaded and executed, with native predict, simulate and latent Bayesian transition branches. This is an implementation audit, not an original-paper benchmark reproduction, held-out task result, new method or accepted research gap. Overall goal remains ACTIVE / UNACHIEVED; accepted final directions0.
+
+Pinned model revision3d1281c9994140056edfbbdedab57f2e6493dfaa, full safetensors SHA25644ddf4118b4b027a5b726ce7368439e0fa28fd3c331909149befac2087daad11. Actual model parameters186714897 plus327680 registered buffers =187042577 state elements. The earlier protocol/staging field calling187042577 parameters is corrected by the executed receipt and BAYES_INTERFACE_PROTOCOL66_V1.md. The original wrapper-prefix assumption was also wrong: V1 stopped at an authored assertion before inference; V2 loaded all277 bare-key native tensors strictly and checked every loaded value bitwise. No weights were dropped and no proxy network was used.
+
+Two ordinary implementation discrepancies were demonstrated: recurrent simulation overwrites known covariates, and the Bayesian action-centroid suffix selects mixed coordinates from a feature-major interleaved representation. Minimal clamping/indexing controls were executed and labelled. These repairs are not research innovations. Independent array/layout replay and fresh native CPU/GPU prediction/encoding checks passed.
+
+Read experimental_results.md for exact quantities and limitations; negative_evidence.md excludes unsupported causal/performance claims. No upstream model source, weights or signal arrays are published here; pinned links and hashes identify them on server G. Raw source-derived diff remains server-only. Authored scripts and compact provenance are published.

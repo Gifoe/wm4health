@@ -1,0 +1,11 @@
+# C66 entry: actual pretrained world-model interface audit
+
+Overall research goal remains active and unachieved. C65 neural experiments continue independently. This directory stages an existing pretrained time-series world model for a later evidence-based capability audit, not a new proposed method or an accepted research direction.
+
+NormWear-2 author paper: https://arxiv.org/html/2605.15465 . Author inference repository: https://huggingface.co/mosaic-laboratory/normwear2 at revision3d1281c9994140056edfbbdedab57f2e6493dfaa. Public model card specifies Apache-2.0. Download only required Python/config/model-card files and model.safetensors; do not download duplicate pytorch_model.bin, images or datasets. Model has187042577 float32 parameters, safetensors748201812 bytes, SHA25644ddf4118b4b027a5b726ce7368439e0fa28fd3c331909149befac2087daad11. All checkpoints and source downloads stay in authorized G storage. Downloading does not execute remote code.
+
+Inspected imports/config and method surfaces: model wrapper delegates predict, simulate and latent_bayesian_transition; inference core uses local relative torch/numpy/sklearn modules. Before native execution, read the actual predict/simulate/Bayesian implementation, verify all hashes, check existing dependencies, and use a separate process. Do not install into or modify unrelated environments or use a substitute network. Record any compatibility adaptation explicitly. Weight publication is not requested; publish pinned links/hash receipts and authored audit code.
+
+Question remains open: what does the actual released framework expose and what does it promise? Observational forecasting, controlled-channel completion, interventional distributions and individual counterfactuals must not be conflated. The paper's clinical examples do not supply universal causal identification by themselves. Do not judge performance before an appropriate protocol or impose a probabilistic/causal guarantee the model did not claim. Missing Pythia source/weights is a reproducibility availability fact, not a scientific gap.
+
+No benchmark is selected here and no training or performance result is claimed. Follow the completed C65 controls and current literature before deciding the next decisive experiment. The ultimate objective is a generalizable research problem, not optimization of physiological dataset scores.

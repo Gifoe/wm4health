@@ -1,0 +1,11 @@
+# Execution and baseline registry
+
+Native full architecture/configuration is unchanged. The thin Hugging Face wrapper was bypassed by instantiating its exact delegated class under a package namespace for relative imports. No transformers installation or dependency imitation was introduced. All277 exact bare-key state tensors loaded strictly, with0 missing/unexpected keys and bitwise loaded-value checks. Parameters=186714897; buffers=327680; state elements=187042577.
+
+Executed paths: native predict; native simulate; native unconditional and conditional Bayesian transition; explicitly labelled covariate-clamped simulate and action-coordinate-indexed Bayesian sampler. These are interface paths and existing-method repairs, not independently trained baselines. No task leaderboard, matched-compute gain or intervention-effect score is claimed.
+
+Existing environment used without modification: Python3.12.13, PyTorch2.11.0+cu128, NumPy2.4.3, sklearn1.8.0, safetensors0.7.0, isolated execution, RTX5090, float32, TF32 disabled. This differs from C65's PyTorch2.8 runtime and must not be silently merged into a homogeneous reproduction claim. Source/module origins are retained in INTERFACE66_V2.json.
+
+The fixture has explicit channel0=response/channel1=known covariate,128 observed and32 future points, fixed analytic nonconstant signals and seed2021. Native insight uses a16-point returned horizon plus one extra latent patch,3 context clusters,4 sampled latent trajectories. All normalization in that branch uses observed128-point statistics. This fixture has no physical transition truth and is not physiological data.
+
+Source/weight metadata and transport receipts preserve an initially mismatching file. Direct server downloads failed; public content was streamed through transient controller RAM, with no local model/result file. Stable independent remote hashes exposed the mismatch. An ACKed selective repair retained the bad original, patched9 four-MiB chunks, and independently verified the full public SHA256. Cause of the original corruption is unknown. A first repair verification hit a Windows open-file sharing lock; its candidate was retained and re-inspected before continuation. Never load the mismatching original.

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "D:\tswm_discovery_20261016_v1\cycle66\scripts\interface66_v1.py", line 25, in <module>
+    model=mod.NormWear2(**args);weights=load_file(str(base/'model.safetensors'),device='cpu');assert all(k.startswith('normwear.') for k in weights)
+                                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

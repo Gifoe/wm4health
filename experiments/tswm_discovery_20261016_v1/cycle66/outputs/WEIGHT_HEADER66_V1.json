@@ -1,0 +1,39 @@
+{
+  "tensors": 277,
+  "state_elements": 187042577,
+  "top_level_prefix_counts": {
+    "decoder_blocks": 18,
+    "decoder_embed": 2,
+    "decoder_out": 8,
+    "decoder_pos_embed": 2,
+    "encoder_blocks": 242,
+    "mask_token": 1,
+    "patch_embed": 2,
+    "pos_embed": 2
+  },
+  "first_keys": [
+    "decoder_blocks.0.attn.proj.bias",
+    "decoder_blocks.0.attn.proj.weight",
+    "decoder_blocks.0.attn.qkv.weight",
+    "decoder_blocks.0.mlp.fc1.bias",
+    "decoder_blocks.0.mlp.fc1.weight",
+    "decoder_blocks.0.mlp.fc2.bias",
+    "decoder_blocks.0.mlp.fc2.weight",
+    "decoder_blocks.0.norm1.weight",
+    "decoder_blocks.0.norm2.weight",
+    "decoder_blocks.1.attn.proj.bias",
+    "decoder_blocks.1.attn.proj.weight",
+    "decoder_blocks.1.attn.qkv.weight",
+    "decoder_blocks.1.mlp.fc1.bias",
+    "decoder_blocks.1.mlp.fc1.weight",
+    "decoder_blocks.1.mlp.fc2.bias",
+    "decoder_blocks.1.mlp.fc2.weight",
+    "decoder_blocks.1.norm1.weight",
+    "decoder_blocks.1.norm2.weight",
+    "decoder_embed.bias",
+    "decoder_embed.weight"
+  ],
+  "metadata": {
+    "format": "pt"
+  }
+}

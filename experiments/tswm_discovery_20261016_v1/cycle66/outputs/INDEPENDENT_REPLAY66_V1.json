@@ -1,0 +1,35 @@
+{
+  "utc": "2026-10-18T02:58:57.163880+00:00",
+  "status": "PASS",
+  "counts": {
+    "array_artifact_hashes": 2,
+    "loaded_npz_arrays": 32,
+    "interface_output_shapes": 4,
+    "interface_scalar_metrics": 6,
+    "transition_laws": 3,
+    "CPU_GPU_native_outputs": 2
+  },
+  "max_absolute_errors": {
+    "native_simulate_known_output": 0.0,
+    "native_simulate_encoder_known": 2.575462176857002e-09,
+    "native_hidden_perturbed_known_output": 0.0,
+    "native_hidden_perturbed_encoder_known": 2.575462176857002e-09,
+    "clamped_simulate_known_output": 0.0,
+    "clamped_simulate_encoder_known": 7.488986342174542e-08,
+    "hidden_future_invariance": 0.0,
+    "late_plan_early_response": 0.0,
+    "native_unconditional_row_sum": 0.0,
+    "native_conditional_row_sum": 0.0,
+    "indexed_conditional_row_sum": 0.0,
+    "indexing_only_changes_output": 0.0,
+    "CPU_GPU_predict": 9.834766387939453e-07,
+    "CPU_GPU_history_encoder": 6.67572021484375e-06
+  },
+  "CPU_GPU_absolute_tolerance": 0.0002,
+  "metric_float64_replay_tolerance": 1e-06,
+  "native_fixture_receipt_sha256": "c95b57463d4b99d3efed25aeb888a7ba9c199b57802bf4fc9539836fb5f58f61",
+  "bayes_fixture_receipt_sha256": "cf5651f75256b80d7787d9c88e1a8ad83d9c877f3aa69bd71724fc9f7f818787",
+  "source_model_files_sha256": "dbcbc3b1a184ca78457b878a70ae7abb5f5329685056ca8a05f25425fedfa12f",
+  "scope": "Independent saved-array scalar/layout replay, normalized transition checks, exact shared fitted transition artifacts, fresh CPU native predict/encoder vs original GPU outputs. No task performance or causal truth.",
+  "accepted_final_directions": 0
+}
