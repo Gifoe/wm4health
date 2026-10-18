@@ -1,0 +1,209 @@
+{
+  "utc": "2026-10-18T10:26:56.160046+00:00",
+  "entries": [
+    {
+      "key": "LatentTSF",
+      "title": "From Observations to States: Latent Time Series Forecasting",
+      "authors": "Yang et al.",
+      "version_date": "ICML2026; arXiv2602.00297v2,2026-05-12",
+      "primary_url": "https://proceedings.mlr.press/v306/yang26y.html",
+      "verification": "Full paper, official proceedings and current source repository",
+      "supported_scope": "Pointwise frozen AE and latent prediction; no general hidden-state/intervention guarantee",
+      "code_url": "https://github.com/Muyiiiii/LatentTSF",
+      "author_results_not_our_replication": true
+    },
+    {
+      "key": "WorldTS",
+      "title": "WorldTS: World Modeling for Multimodal Covariate-aware Time Series Forecasting",
+      "authors": "Zhu et al.",
+      "version_date": "arXiv2609.31162v1,2026-09-25",
+      "primary_url": "https://arxiv.org/html/2609.31162v1",
+      "verification": "Full paper and current official repository independently verified by root",
+      "supported_scope": "Multimodal conditional forecasting, two-stage dynamics/readout; future-known versus future-unknown contract",
+      "code_url": "https://github.com/decisionintelligence/WorldTS",
+      "author_results_not_our_replication": true
+    },
+    {
+      "key": "COFE",
+      "title": "Disentangling Coarse and Fine Latent Dynamics for Probabilistic Time Series Forecasting",
+      "authors": "Zhou et al.",
+      "version_date": "IJCAI2026",
+      "primary_url": "https://www.ijcai.org/proceedings/2026/0602.pdf",
+      "verification": "Full primary PDF verified",
+      "supported_scope": "Conditional block identifiability; forecast evidence does not verify physical-state assumptions",
+      "code_url": "https://github.com/polars8948/COFE",
+      "author_results_not_our_replication": true
+    },
+    {
+      "key": "FIM-ODE",
+      "title": "Foundation Inference Models for Ordinary Differential Equations",
+      "authors": "H\u00fcbers, Mauel, Berghaus, Seifner, S\u00e1nchez",
+      "version_date": "arXiv2602.08733v2,2026-06-08; ICML2026",
+      "primary_url": "https://arxiv.org/html/2602.08733v2",
+      "verification": "Full paper, tutorial, public code tree and actual HF checkpoint metadata",
+      "supported_scope": "Low-dimensional fully observed autonomous ODE; queryable vector field; prior/support limits and explicit evaluation-window checkpoint selection caveat",
+      "code_url": "https://github.com/FIM4Science/OpenFIM",
+      "author_results_not_our_replication": true
+    },
+    {
+      "key": "ICL-SysID",
+      "title": "In-Context Learning for System Identification: Probabilistic Formulation, Long-Sequence Handling, and Benchmark Validation",
+      "authors": "Rufolo, Piga, Pura, Forgione",
+      "version_date": "arXiv2610.13411v1,2026-10-09",
+      "primary_url": "https://arxiv.org/html/2610.13411v1",
+      "verification": "Full paper, official source and v0.1 release asset metadata",
+      "supported_scope": "WH prior, long input/output context and query warmup; excitation-only adaptation is parameter finetuning",
+      "code_url": "https://github.com/PuraFilippo/sysid_benchmarks",
+      "author_results_not_our_replication": true
+    },
+    {
+      "key": "TTF",
+      "title": "Test-Time Forecasting: Recurrent Depth Enables In-Context Dynamics Prediction",
+      "authors": "Lai, Quinn, Bao, Gilpin",
+      "version_date": "arXiv2610.19552v1,2026-10-14",
+      "primary_url": "https://arxiv.org/html/2610.19552v1",
+      "verification": "Full primary paper incl Appendix C.2; public runnable code not established",
+      "supported_scope": "Within-equation parameter OOD; exact EDMD eTTF comparator forbids unique recurrent-depth inference",
+      "code_url": null,
+      "author_results_not_our_replication": true
+    },
+    {
+      "key": "OSSM",
+      "title": "Correct then Forecast: Observer State-Space Models for Time Series Forecasting",
+      "authors": "Brachet, Clavier-Fremond, Ziani, Richard, Hudelot",
+      "version_date": "arXiv2609.33566v1,2026-09-27",
+      "primary_url": "https://arxiv.org/html/2609.33566v1",
+      "verification": "Full primary paper; accessible supplementary implementation not independently established",
+      "supported_scope": "Propagation/innovation split is prior art and has matched forecasting controls",
+      "code_url": null,
+      "author_results_not_our_replication": true
+    },
+    {
+      "key": "DynaBase",
+      "title": "A Minimal Interpretable Architecture for Zero-Shot Reconstruction of Dynamical Systems",
+      "authors": "Hemmer, Plaswig, Durstewitz",
+      "version_date": "arXiv2607.14937v1,2026-07-16",
+      "primary_url": "https://arxiv.org/html/2607.14937v1",
+      "verification": "Full primary paper; no public executable repo verified",
+      "supported_scope": "Two-parameter nearest-context successor control; prediction versus reconstruction objective mismatch is occupied",
+      "code_url": null,
+      "author_results_not_our_replication": true
+    },
+    {
+      "key": "RP-GSSM",
+      "title": "Maximum Likelihood Learning of Latent Dynamics Without Reconstruction",
+      "authors": "Hromadka, Biegun, Fox, Heald, Sahani",
+      "version_date": "arXiv2505.23569v1,2025-05-29; older foundation",
+      "primary_url": "https://arxiv.org/abs/2505.23569",
+      "verification": "Primary paper and author repository examined by independent scouts; previous native project audit",
+      "supported_scope": "Recognition-parametrized likelihood/latent inference; not a released general novel-observation simulator",
+      "code_url": "https://github.com/gatsby-sahani/rp-gssm",
+      "author_results_not_our_replication": true
+    },
+    {
+      "key": "TSWM",
+      "title": "On the Divergence of Accuracy and Mechanism Consistency in Time Series World Models",
+      "authors": "Zhang, Guo, Xu, Plotkin, Konz, Tan, Chen",
+      "version_date": "arXiv2610.01842v1,2026-10-01",
+      "primary_url": "https://arxiv.org/html/2610.01842v1",
+      "verification": "Full paper, current commit125 Python files; C53 fixed trained models executed C79",
+      "supported_scope": "Declared-sign consistency under plan perturbations; observational scores are not true interventional effects",
+      "code_url": "https://github.com/HaochenZhang717/TSWM-Official-Repo",
+      "author_results_not_our_replication": false
+    },
+    {
+      "key": "DoTime",
+      "title": "DoTime: A Synthetic Benchmark Generator for Interventional and Counterfactual Time Series",
+      "authors": "Thumm, Anthony, Chen",
+      "version_date": "arXiv2607.27263v1,2026-07-29",
+      "primary_url": "https://arxiv.org/html/2607.27263v1",
+      "verification": "Primary full paper and package audit by critic; C10 previously executed",
+      "supported_scope": "SCM family/noise coupling/version matters; intervention-PFN not always better than simple mean",
+      "code_url": "https://github.com/thummd/dotime",
+      "author_results_not_our_replication": true
+    },
+    {
+      "key": "BeliefGraph-JEPA",
+      "title": "BeliefGraph-JEPA: Structured Latent World Models for Action-Conditioned Time Series",
+      "authors": "Li, Ni, Tan, Chen",
+      "version_date": "arXiv2610.05409v1,2026-10-04",
+      "primary_url": "https://arxiv.org/html/2610.05409v1",
+      "verification": "Full primary paper; no public implementation link established",
+      "supported_scope": "Typed effect persistence/rollout already proposed; real-data perturbation is reliance, not causal truth",
+      "code_url": null,
+      "author_results_not_our_replication": true
+    },
+    {
+      "key": "Response-Attenuation",
+      "title": "Attenuated in-context identification in time-series foundation models: diagnosis under counterfactual inputs and repair by synthetic forced-system fine-tuning",
+      "authors": "Won",
+      "version_date": "arXiv2610.08118v1,2026-10-06",
+      "primary_url": "https://arxiv.org/html/2610.08118v1",
+      "verification": "Full primary paper; code/configs on request, not a verified public implementation",
+      "supported_scope": "Explicit input response attenuation, lag features, dither and matched synthetic-data repairs occupy generic response-deficit proposals",
+      "code_url": null,
+      "author_results_not_our_replication": true
+    },
+    {
+      "key": "Pythia",
+      "title": "Technical Report Pythia: Toward Foundation World Models for Multimodal Time Series",
+      "authors": "Dai et al.",
+      "version_date": "arXiv2610.05240v1,2026-10-04",
+      "primary_url": "https://arxiv.org/html/2610.05240v1",
+      "verification": "Full primary paper; paper explicitly says code/model to be released",
+      "supported_scope": "Separate frozen encoder/readout adaptation and large partially private multimodal pretraining; no single5090 public reproduction established",
+      "code_url": null,
+      "author_results_not_our_replication": true
+    },
+    {
+      "key": "Meta-iLaD",
+      "title": "Meta-iLaD: Identifiable Latent Dynamics via Meta-Learning of Dynamics Environments",
+      "authors": "Ye, Piya, Jiang, Wang",
+      "version_date": "ICML2026",
+      "primary_url": "https://proceedings.mlr.press/v306/ye26p.html",
+      "verification": "Proceedings abstract and repository only; theorem assumptions not verified due PDF retrieval failure",
+      "supported_scope": "State/environment/dynamics few-shot identification already a prior-art obstacle; code forthcoming",
+      "code_url": "https://github.com/GoForIt-YYB/Meta-iLaD",
+      "author_results_not_our_replication": true
+    },
+    {
+      "key": "iCReN",
+      "title": "Causal Representation Learning with Instantaneous and Lagged Relations via Nonstationarity",
+      "authors": "Yamada, Morioka, Kawahara",
+      "version_date": "arXiv2610.03452v1,2026-10-02",
+      "primary_url": "https://arxiv.org/html/2610.03452v1",
+      "verification": "Full primary paper examined by adjacent scout",
+      "supported_scope": "Invariant observation/structural functions and strong auxiliary variation assumptions; not arbitrary sensor/mechanism transfer",
+      "code_url": null,
+      "author_results_not_our_replication": true
+    },
+    {
+      "key": "MTS3",
+      "title": "Multi Time Scale World Models",
+      "authors": "Shaj et al.",
+      "version_date": "NeurIPS2023; older foundation",
+      "primary_url": "https://arxiv.org/html/2310.18534v1",
+      "verification": "Full primary paper and official code checked by adjacent scout; previous project audits",
+      "supported_scope": "Fast/slow latent inference and proprioceptive action-conditioned prediction; not demonstrated general image/control transfer",
+      "code_url": "https://github.com/ALRhub/MTS3",
+      "author_results_not_our_replication": true
+    },
+    {
+      "key": "Video-SysID",
+      "title": "Non-linear State-space Model Identification from Video Data using Deep Encoders",
+      "authors": "Beintema, T\u00f3th, Schoukens",
+      "version_date": "SYSID2021; arXiv2012.07721v3",
+      "primary_url": "https://arxiv.org/abs/2012.07721",
+      "verification": "Primary paper and pinned original code/data notebook checked by adjacent scout",
+      "supported_scope": "History-state encoder with controlled video dynamics is established; broad changing-camera transfer not demonstrated",
+      "code_url": "https://github.com/GerbenBeintema/SS-encoder-video",
+      "author_results_not_our_replication": true
+    }
+  ],
+  "metadata_is_not_full_theorem_verification": true,
+  "main_window": [
+    "2026-04-18",
+    "2026-10-18"
+  ],
+  "unverified_references_excluded": true
+}

@@ -1,0 +1,7 @@
+The model parameter horizon is deprecated. Please use pred_len.
+Traceback (most recent call last):
+  File "D:\tswm_discovery_20261016_v1\cycle79\scripts\run79_v1.py", line 89, in <module>
+    if __name__=='__main__':main()
+  File "D:\tswm_discovery_20261016_v1\cycle79\scripts\run79_v1.py", line 72, in main
+    base=fw.predict(plan,cat,exog);assert torch.isfinite(base).all();base_np=base.numpy().copy();assert np.allclose(base_np,saved[start:start+128],atol=2e-5,rtol=2e-5),(tag,bankname,float(abs(base_np-saved[start:start+128]).max()))
+AssertionError: ('CrossLinear__obs__seed0', 'source_val', 5.835294723510742e-05)
