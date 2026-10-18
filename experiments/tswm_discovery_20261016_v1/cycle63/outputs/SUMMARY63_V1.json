@@ -1,0 +1,43 @@
+{
+  "utc": "2026-10-18T01:08:20.628937+00:00",
+  "status": "C63_NATIVE_CONTRACT_AUDIT_CLOSED",
+  "decision": "NO_NEW_RESEARCH_DIRECTION_ESTABLISHED",
+  "weight_fixtures": 3,
+  "trained_models": 0,
+  "optimizer_updates": 0,
+  "heldout_scores": 0,
+  "rows": [
+    {
+      "fixture_seed": 2021,
+      "auxiliary_penalty_before": 0.002620652016508789,
+      "auxiliary_penalty_zero_head": 0.0024999750000000206,
+      "native_total_loss_reduction": 0.00012067701650853024,
+      "predictive_output_max_change": 0.0,
+      "missing_within_component_variance_N20": 0.6997206423565834,
+      "zero_head_aux_encoder_gradient_norm": 0.0
+    },
+    {
+      "fixture_seed": 2022,
+      "auxiliary_penalty_before": 0.002648598406545966,
+      "auxiliary_penalty_zero_head": 0.0024999750000000206,
+      "native_total_loss_reduction": 0.0001486234065453118,
+      "predictive_output_max_change": 0.0,
+      "missing_within_component_variance_N20": 0.7026190443813954,
+      "zero_head_aux_encoder_gradient_norm": 0.0
+    },
+    {
+      "fixture_seed": 2023,
+      "auxiliary_penalty_before": 0.0026514548229851637,
+      "auxiliary_penalty_zero_head": 0.0024999750000000206,
+      "native_total_loss_reduction": 0.00015147982298469032,
+      "predictive_output_max_change": 0.0,
+      "missing_within_component_variance_N20": 0.692519903180691,
+      "zero_head_aux_encoder_gradient_norm": 0.0
+    }
+  ],
+  "independent_replay_max_error": 1.1102230246251565e-16,
+  "sample_count_branch_scope": "N20; official N100 does not enter it",
+  "zero_estimator_minimizes_auxiliary_penalty_without_predictive_change": true,
+  "posterior_prior_difference_is_not_by_itself_a_bug": true,
+  "accepted_final_directions": 0
+}

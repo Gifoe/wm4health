@@ -1,0 +1,5 @@
+# Existing safeguard and novelty boundary
+
+The density guard in INDEPENDENT_REPLAY63_V1.json is ordinary change-of-variables reasoning. [Papamakarios et al., JMLR2021](https://jmlr.org/papers/v22/19-1028.html) describes normalizing flows as bijective probability transformations. A singular zero innovation map is not an admissible invertible density transform. The scalar illustration is not a fit of a flow to COFE, nor a new objective or evidence of forecasting improvement.
+
+The native zero-head result follows a stronger, source-specific argument: its estimator affects the auxiliary residual outputs but not the predictive outputs; sigmoid(10*(delta-abs(e))) is globally maximized at e=0, and max(.2,diff) has its global lower bound at .2. A zero estimator attains both favorable penalty bounds. This argument does not depend on whether the code's s/f labels match the paper's coarse/fine names. An optimizer's actual trajectory and learned predictive quality remain separate empirical questions.

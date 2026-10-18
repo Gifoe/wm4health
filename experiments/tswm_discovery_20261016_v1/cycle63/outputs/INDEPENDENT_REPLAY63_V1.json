@@ -1,0 +1,58 @@
+{
+  "utc": "2026-10-18T01:08:20.575860+00:00",
+  "status": "PASS",
+  "audited_weight_fixtures": 3,
+  "trained_models": 0,
+  "optimizer_updates": 0,
+  "max_arithmetic_difference": 1.1102230246251565e-16,
+  "checks": [
+    {
+      "seed": 2021,
+      "mean_missing_variance": 0.6997206423565834,
+      "zero_head_regularizer_floor": 0.002499975000000021,
+      "global_minimum_argument": "sigmoid(10*(delta-abs(e))) <= sigmoid(10*delta), and max(.2,diff)>=.2; zero estimator attains both bounds independently of predictive state."
+    },
+    {
+      "seed": 2022,
+      "mean_missing_variance": 0.7026190443813954,
+      "zero_head_regularizer_floor": 0.002499975000000021,
+      "global_minimum_argument": "sigmoid(10*(delta-abs(e))) <= sigmoid(10*delta), and max(.2,diff)>=.2; zero estimator attains both bounds independently of predictive state."
+    },
+    {
+      "seed": 2023,
+      "mean_missing_variance": 0.6925199031806911,
+      "zero_head_regularizer_floor": 0.002499975000000021,
+      "global_minimum_argument": "sigmoid(10*(delta-abs(e))) <= sigmoid(10*delta), and max(.2,diff)>=.2; zero estimator attains both bounds independently of predictive state."
+    }
+  ],
+  "existing_change_of_variables_guard": [
+    {
+      "a": 1.0,
+      "normalized_gaussian_nll_at_residual_1": 1.4189385332046727,
+      "quadratic_term_without_jacobian": 0.5
+    },
+    {
+      "a": 0.1,
+      "normalized_gaussian_nll_at_residual_1": 3.226523626198718,
+      "quadratic_term_without_jacobian": 0.005000000000000001
+    },
+    {
+      "a": 0.01,
+      "normalized_gaussian_nll_at_residual_1": 5.524158719192764,
+      "quadratic_term_without_jacobian": 5e-05
+    },
+    {
+      "a": 0.001,
+      "normalized_gaussian_nll_at_residual_1": 7.8266943121868096,
+      "quadratic_term_without_jacobian": 5e-07
+    },
+    {
+      "a": 1e-06,
+      "normalized_gaussian_nll_at_residual_1": 14.734449091169447,
+      "quadratic_term_without_jacobian": 5e-13
+    }
+  ],
+  "zero_transform": "noninvertible and not a finite normalized density transformation",
+  "audit_sha256": "68baf918cee6b2cc5ca268432d6cbdc5e5a51b1f1d92ada32b215776ec08e9ea",
+  "scope": "Independent NumPy moment/penalty replay and analytic collapse bound; not an independent reimplementation of the whole neural model or a trained alternative."
+}

@@ -1,0 +1,5 @@
+# Literature and innovation boundary
+
+[COFE paper](https://www.ijcai.org/proceedings/2026/0602.pdf), Sections3.1–3.3, describes variational inference and coarse/fine innovation constraints; its stated prior is standard Normal. The proof has explicit distributional assumptions. This audit does not test those assumptions on real systems. [Pinned code](https://github.com/polars8948/COFE/tree/a53409aa6d97c65b5b36b7f6b27fc5fbdb5e3df1) supplies the exact executed core and selected original loss bodies. The published Figure3 and Equation13 also differ in their displayed difference order, so naming alone is insufficient to diagnose the code’s intended coarse/fine orientation. The collapse bound below does not depend on assigning physical meaning to those labels.
+
+No new world-model research direction is established. Zero-head collapse prevention by an invertible normalized innovation density/Jacobian is established probability and flow machinery, not a new method. Do not claim novelty by adding it to this code. Before treating this source as a mechanism baseline, separate original-protocol use from any scientifically justified correction.

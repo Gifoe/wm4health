@@ -1,0 +1,8 @@
+# Search boundary decisions before the C63 qualification
+
+Search date2026-10-18. No new final direction accepted. These are targeted source checks, not a systematic review of all recent literature.
+
+- Generic slow-sampling ambiguity is established. [Gonzalez et al.](https://arxiv.org/abs/2410.19629) analyzes sampling and input conditions in identification, including when input information can permit estimation beyond naive signal reconstruction limits. The [nonlinear sampling theorem](https://ieeexplore.ieee.org/document/10549777/) has explicit Koopman-related conditions. Do not turn “below Nyquist” into an unconditional impossibility claim for every controlled system.
+- A posterior over plausible continuous dynamics is also an existing mechanism: [GP-NODE](https://arxiv.org/abs/2103.03385) uses Bayesian inference from partial, noisy, irregular observations. A generic alias-aware Bayesian state or additional parameter latent is therefore insufficient as a novel proposal. No implementation or comparative timing was executed in this branch.
+- C58 already established close precedents for multiple futures, latent mixtures, duration models and module composition; C60/C61 executed competent existing controls in their selected settings. Those exclusions are local evidence, not a proof that all data-efficient conditional simulation is solved.
+- COFE was selected for actual native component qualification because its source exposes both generative sampling and an auxiliary innovation estimator. C63 tests those executable contracts before treating it as a future mechanism baseline. It does not infer an unreported action-conditioned or causal capability from an autonomous forecasting interface.

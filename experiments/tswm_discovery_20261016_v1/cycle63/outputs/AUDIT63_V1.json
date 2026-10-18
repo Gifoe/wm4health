@@ -1,0 +1,253 @@
+{
+  "utc": "2026-10-18T01:06:19.708535+00:00",
+  "status": "NATIVE_COMPONENT_AUDIT_EXECUTED",
+  "source_revision": "a53409aa6d97c65b5b36b7f6b27fc5fbdb5e3df1",
+  "protocol_sha256": "1be7d383609ac5d6703c0dba9c717e16f34764dbb7935879ea5b29aa3db91180",
+  "source_receipt_sha256": "86f605ae9e84ff3989a133350688d7ee4ee0840a4f889660dbf1190a3006a00e",
+  "scope": {
+    "source_method_file": "D:\\tswm_discovery_20261016_v1\\cycle63\\upstream\\cofe\\probts\\model\\forecaster\\prob_forecaster\\COFE.py",
+    "selected_method_ast_names": [
+      "forward",
+      "kld_loss",
+      "loss"
+    ],
+    "full_forecaster_or_Lightning_imported": false,
+    "native_core_imported_unchanged": true
+  },
+  "config": {
+    "seq_len": 96,
+    "pred_len": 720,
+    "patch_len": 24,
+    "multistep": true,
+    "dynamic_dim": 128,
+    "hidden_layers": 3,
+    "hidden_dim": 256,
+    "n_vars": 7,
+    "d_model": 128,
+    "d_ff": 256,
+    "e_layers": 1,
+    "dropout": 0.1,
+    "activation": "relu",
+    "n_heads": 4,
+    "factor": 3,
+    "sample_schedule": 20,
+    "zero_threshold": 1e-05
+  },
+  "dtype": "float64",
+  "device": "CPU",
+  "torch": "2.8.0+cu128",
+  "numpy": "1.26.4",
+  "python": "3.10.20",
+  "trained_models": 0,
+  "optimizer_updates": 0,
+  "heldout_scores": 0,
+  "records": [
+    {
+      "untrained_seed": 2021,
+      "weight_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle63\\untrained_2021.pt",
+      "weights_sha256": "3d83925adc0d9c382a276f4332393650c68b8b76dd59a448bd0b349b0be19f84",
+      "parameters": 2859525,
+      "finite_native_loss_backward": true,
+      "sample_count_law": {
+        "component_parameters_exactly_equal": true,
+        "native_N20_equals_component_locations": true,
+        "mean_between_component_variance": 0.0018661447156441927,
+        "mean_missing_within_component_variance": 0.6997206423565834,
+        "mean_full_mixture_variance": 0.7015867870722275,
+        "official_config_N100_enters_special_branch": false
+      },
+      "estimator_interventions": [
+        {
+          "estimator_weight_multiplier": 1.0,
+          "native_total_loss": 5.81078746431188,
+          "unchanged_predictive_loss": 5.808166812295371,
+          "auxiliary_penalty": 0.002620652016508789,
+          "coarse_named_sparsity": 0.37934798349121124,
+          "other_named_sparsity": 0.37969785706587567,
+          "predictive_output_max_difference": 0.0,
+          "aux_grad_estimator_norm": 0.0015700497395144447,
+          "aux_grad_encoder_norm": 1.6916873370818814e-05
+        },
+        {
+          "estimator_weight_multiplier": 0.1,
+          "native_total_loss": 5.810672971322918,
+          "unchanged_predictive_loss": 5.808166812295371,
+          "auxiliary_penalty": 0.0025061590275476087,
+          "coarse_named_sparsity": 0.49384097245239134,
+          "other_named_sparsity": 0.49382438263951367,
+          "predictive_output_max_difference": 0.0,
+          "aux_grad_estimator_norm": 0.0009457299817405718,
+          "aux_grad_encoder_norm": 1.869720866907291e-07
+        },
+        {
+          "estimator_weight_multiplier": 0.01,
+          "native_total_loss": 5.810667486978312,
+          "unchanged_predictive_loss": 5.808166812295371,
+          "auxiliary_penalty": 0.002500674682941637,
+          "coarse_named_sparsity": 0.4993253170583632,
+          "other_named_sparsity": 0.4993251019822279,
+          "predictive_output_max_difference": 0.0,
+          "aux_grad_estimator_norm": 0.0009451779337277138,
+          "aux_grad_encoder_norm": 1.8906725771912007e-09
+        },
+        {
+          "estimator_weight_multiplier": 0.0,
+          "native_total_loss": 5.8106667872953714,
+          "unchanged_predictive_loss": 5.808166812295371,
+          "auxiliary_penalty": 0.0024999750000000206,
+          "coarse_named_sparsity": 0.5000249999999794,
+          "other_named_sparsity": 0.5000249999999794,
+          "predictive_output_max_difference": 0.0,
+          "aux_grad_estimator_norm": 0.0,
+          "aux_grad_encoder_norm": 0.0
+        }
+      ],
+      "variational_posterior_to_standard_prior_mean_KL": 1.0465372603527454,
+      "prior_difference_is_not_by_itself_a_defect": true,
+      "internal_translation_probe": {
+        "mean_translation_error": 8.881784197001252e-16,
+        "mean_scale_change": 1.1241880856482827,
+        "scope": "fixed normalized decoder coordinates only; external-scaler and real heteroscedasticity caveats apply"
+      }
+    },
+    {
+      "untrained_seed": 2022,
+      "weight_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle63\\untrained_2022.pt",
+      "weights_sha256": "5f382fa1241b823799d321f782761368c32a80bdc1792fadf92c476208e8b1db",
+      "parameters": 2859525,
+      "finite_native_loss_backward": true,
+      "sample_count_law": {
+        "component_parameters_exactly_equal": true,
+        "native_N20_equals_component_locations": true,
+        "mean_between_component_variance": 0.001841706502718163,
+        "mean_missing_within_component_variance": 0.7026190443813954,
+        "mean_full_mixture_variance": 0.7044607508841135,
+        "official_config_N100_enters_special_branch": false
+      },
+      "estimator_interventions": [
+        {
+          "estimator_weight_multiplier": 1.0,
+          "native_total_loss": 5.851011341016651,
+          "unchanged_predictive_loss": 5.848362742610106,
+          "auxiliary_penalty": 0.002648598406545966,
+          "coarse_named_sparsity": 0.35140159345403393,
+          "other_named_sparsity": 0.3551776901358176,
+          "predictive_output_max_difference": 0.0,
+          "aux_grad_estimator_norm": 0.0018449003619554728,
+          "aux_grad_encoder_norm": 1.6271062204672654e-05
+        },
+        {
+          "estimator_weight_multiplier": 0.1,
+          "native_total_loss": 5.850870432678012,
+          "unchanged_predictive_loss": 5.848362742610106,
+          "auxiliary_penalty": 0.0025076900679069955,
+          "coarse_named_sparsity": 0.4923099320930047,
+          "other_named_sparsity": 0.49241625806801204,
+          "predictive_output_max_difference": 0.0,
+          "aux_grad_estimator_norm": 0.0009713588989550034,
+          "aux_grad_encoder_norm": 1.794987200719108e-07
+        },
+        {
+          "estimator_weight_multiplier": 0.01,
+          "native_total_loss": 5.850863561480688,
+          "unchanged_predictive_loss": 5.848362742610106,
+          "auxiliary_penalty": 0.002500818870582628,
+          "coarse_named_sparsity": 0.49918112941737225,
+          "other_named_sparsity": 0.4991821929066391,
+          "predictive_output_max_difference": 0.0,
+          "aux_grad_estimator_norm": 0.0009451791732565457,
+          "aux_grad_encoder_norm": 1.7953189203146795e-09
+        },
+        {
+          "estimator_weight_multiplier": 0.0,
+          "native_total_loss": 5.850862717610106,
+          "unchanged_predictive_loss": 5.848362742610106,
+          "auxiliary_penalty": 0.0024999750000000206,
+          "coarse_named_sparsity": 0.5000249999999794,
+          "other_named_sparsity": 0.5000249999999794,
+          "predictive_output_max_difference": 0.0,
+          "aux_grad_estimator_norm": 0.0,
+          "aux_grad_encoder_norm": 0.0
+        }
+      ],
+      "variational_posterior_to_standard_prior_mean_KL": 1.2176358788957173,
+      "prior_difference_is_not_by_itself_a_defect": true,
+      "internal_translation_probe": {
+        "mean_translation_error": 8.881784197001252e-16,
+        "mean_scale_change": 1.123151066090344,
+        "scope": "fixed normalized decoder coordinates only; external-scaler and real heteroscedasticity caveats apply"
+      }
+    },
+    {
+      "untrained_seed": 2023,
+      "weight_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle63\\untrained_2023.pt",
+      "weights_sha256": "e65c82cc2e3aede8132d9060be4d633e1e8238adbde9bd85bc0961c637f1b625",
+      "parameters": 2859525,
+      "finite_native_loss_backward": true,
+      "sample_count_law": {
+        "component_parameters_exactly_equal": true,
+        "native_N20_equals_component_locations": true,
+        "mean_between_component_variance": 0.0018233519446265191,
+        "mean_missing_within_component_variance": 0.692519903180691,
+        "mean_full_mixture_variance": 0.6943432551253174,
+        "official_config_N100_enters_special_branch": false
+      },
+      "estimator_interventions": [
+        {
+          "estimator_weight_multiplier": 1.0,
+          "native_total_loss": 5.8269318486696084,
+          "unchanged_predictive_loss": 5.824280393846624,
+          "auxiliary_penalty": 0.0026514548229851637,
+          "coarse_named_sparsity": 0.3485451770148365,
+          "other_named_sparsity": 0.34935522870106894,
+          "predictive_output_max_difference": 0.0,
+          "aux_grad_estimator_norm": 0.001397754213933633,
+          "aux_grad_encoder_norm": 1.636327730272197e-05
+        },
+        {
+          "estimator_weight_multiplier": 0.1,
+          "native_total_loss": 5.8267882609713855,
+          "unchanged_predictive_loss": 5.824280393846624,
+          "auxiliary_penalty": 0.0025078671247623398,
+          "coarse_named_sparsity": 0.4921328752376604,
+          "other_named_sparsity": 0.49207104600109697,
+          "predictive_output_max_difference": 0.0,
+          "aux_grad_estimator_norm": 0.0009715362967542402,
+          "aux_grad_encoder_norm": 2.0170724016264932e-07
+        },
+        {
+          "estimator_weight_multiplier": 0.01,
+          "native_total_loss": 5.826781119954784,
+          "unchanged_predictive_loss": 5.824280393846624,
+          "auxiliary_penalty": 0.0025007261081607694,
+          "coarse_named_sparsity": 0.4992738918392306,
+          "other_named_sparsity": 0.49927327397029425,
+          "predictive_output_max_difference": 0.0,
+          "aux_grad_estimator_norm": 0.0009451889196310094,
+          "aux_grad_encoder_norm": 2.0243494232791568e-09
+        },
+        {
+          "estimator_weight_multiplier": 0.0,
+          "native_total_loss": 5.826780368846624,
+          "unchanged_predictive_loss": 5.824280393846624,
+          "auxiliary_penalty": 0.0024999750000000206,
+          "coarse_named_sparsity": 0.5000249999999794,
+          "other_named_sparsity": 0.5000249999999794,
+          "predictive_output_max_difference": 0.0,
+          "aux_grad_estimator_norm": 0.0,
+          "aux_grad_encoder_norm": 0.0
+        }
+      ],
+      "variational_posterior_to_standard_prior_mean_KL": 1.0835399019349847,
+      "prior_difference_is_not_by_itself_a_defect": true,
+      "internal_translation_probe": {
+        "mean_translation_error": 8.881784197001252e-16,
+        "mean_scale_change": 1.1225191174246847,
+        "scope": "fixed normalized decoder coordinates only; external-scaler and real heteroscedasticity caveats apply"
+      }
+    }
+  ],
+  "traces": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle63\\AUDIT_TRACES63_V1.npz",
+  "traces_sha256": "3faf5b99387282ed738b5d7394787107b3b0acdaff4437c8f981dc022f6e7fa2",
+  "accepted_final_directions": 0
+}
