@@ -1,0 +1,51 @@
+{
+  "utc": "2026-10-18T11:57:24.639663+00:00",
+  "decision": "SIMPLE_CLOSURE_FAILURE_HYPOTHESIS_NOT_SUPPORTED",
+  "frozen_gate_passed": false,
+  "summaries": [
+    {
+      "kind": "FIM_local2",
+      "closed_field_median": 0.05758044557620269,
+      "open_field_median": 0.049670391358662344,
+      "median_paired_open_closed_ratio": 0.8288429361497589,
+      "pairs_at_least_double": 0,
+      "controlled_rollout_median": 0.06425605752827869,
+      "successful_controlled_rollouts": 32,
+      "expected_controlled_rollouts": 32
+    },
+    {
+      "kind": "FIM_full3_diagnostic",
+      "closed_field_median": 0.16907954679786694,
+      "open_field_median": 0.0948241310028117,
+      "median_paired_open_closed_ratio": 0.6401074258177448,
+      "pairs_at_least_double": 0,
+      "controlled_rollout_median": 0.11716925609332232,
+      "successful_controlled_rollouts": 32,
+      "expected_controlled_rollouts": 32
+    },
+    {
+      "kind": "weak_polynomial3",
+      "closed_field_median": 0.00027482567959192405,
+      "open_field_median": 0.00025270303901136864,
+      "median_paired_open_closed_ratio": 1.1029932200646309,
+      "pairs_at_least_double": 0,
+      "controlled_rollout_median": 0.00013279538141271825,
+      "successful_controlled_rollouts": 32,
+      "expected_controlled_rollouts": 32
+    },
+    {
+      "kind": "weak_rff128",
+      "closed_field_median": 0.009825373947664192,
+      "open_field_median": 0.0038236354902258466,
+      "median_paired_open_closed_ratio": 0.3817192315164269,
+      "pairs_at_least_double": 0,
+      "controlled_rollout_median": 0.02481245703443382,
+      "successful_controlled_rollouts": 32,
+      "expected_controlled_rollouts": 32
+    }
+  ],
+  "full_state_has_richer_information": true,
+  "clean_polynomial_development_carrier_only": true,
+  "accepted_final_research_directions": 0,
+  "overall_goal": "ACTIVE_UNACHIEVED"
+}
