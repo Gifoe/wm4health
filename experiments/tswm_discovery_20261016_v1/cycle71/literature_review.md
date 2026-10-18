@@ -31,3 +31,8 @@ RESUME_QUALIFICATION71_V2.json reports zero differences across174 tensors and al
 ## Exact structure-orbit audit, C71
 
 An exhaustive metadata audit supplies a local protocol boundary, not a literature novelty claim. STRUCTURE_ORBIT_FINDING71_V1.md separates graph topology from continuous initial-state generalization. The original full ModularNRI experiment is not being declared invalid by this subset audit.
+
+
+## Second runtime incident and bounded continuation, C71
+
+Runtime diagnosis uses primary Intel/Microsoft documentation only as bounded engineering context. Two different native fault modules and old firmware context do not establish a hardware or software cause. No new scientific prior-art gap follows. See BOUNDED_RUNTIME_FINDING71_V1.md for the exact claim boundaries.

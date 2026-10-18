@@ -27,3 +27,8 @@ RESUME_QUALIFICATION71_V2.json reports zero differences across174 tensors and al
 ## Exact structure-orbit audit, C71
 
 Exact TRAIN/VAL structure audit closed: TRAIN covers all34 five-node binary undirected graph orbits; VAL has33, all seen structurally. The existing native fits remain new-trajectory baseline development, not an unseen-topology experiment. No fit, checkpoint selector or frozen forecast arm changed.
+
+
+## Second runtime incident and bounded continuation, C71
+
+The earlier recovered campaign/queue stopped after epoch800 with access violation; Windows names NumPy mtrand for this second incident. Both the two-epoch CPU-affinity comparison and the separate bounded-process continuation comparison match174 tensors and all compared states exactly. A new bounded-process controller and fail-closed assessment queue now carry the original three-fit budget. See the bounded snapshot for actual live identities; the baseline remains incomplete.

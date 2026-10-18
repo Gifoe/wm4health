@@ -31,3 +31,8 @@ RESUME_QUALIFICATION71_V2.json reports zero differences across174 tensors and al
 ## Exact structure-orbit audit, C71
 
 GRAPH_ISOMORPHISM71_V1.json: 881 labeled TRAIN graphs cover34/34 possible node-permutation orbits. VAL has230 labeled graphs/33 orbits; 214/256 exact labeled overlaps, all42 remaining rows isomorphic to TRAIN. Unseen VAL orbits0. Exhaustive120-permutation and independent adjacency enumeration agree. No forecasts or EVAL rows were semantically accessed.
+
+
+## Second runtime incident and bounded continuation, C71
+
+RUNTIME_INCIDENT71_V2.json closes the second terminal native failure at checkpoint800/12816 effective updates,174 finite checkpoint tensors. RUNTIME_REPLAY_QUALIFICATION71_V2.json and BOUNDED_CONTINUATION_QUALIFICATION71_V1.json each report174 tensors/max difference0/non-tensor mismatches0. These are numerical/execution checks, not forecast performance. The formal loop body,2000-epoch budget and checkpoint grid are retained under bounded worker lifetimes.

@@ -1,0 +1,112 @@
+{
+  "utc": "2026-10-18T07:15:44.398420+00:00",
+  "status": "BOUNDED_FORMAL_CAMPAIGN_AND_NEW_ASSESSMENT_QUEUE_RUNNING_NOT_COMPLETE",
+  "live_processes": [
+    {
+      "ProcessId": 30928,
+      "CommandLine": "\"E:\\Anaconda\\envs\\salt_env\\python.exe\" -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\capture_bounded_campaign71_v1.py formal"
+    },
+    {
+      "ProcessId": 43620,
+      "CommandLine": "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\bounded_campaign71_v1.py formal"
+    },
+    {
+      "ProcessId": 30784,
+      "CommandLine": "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\bounded_native71_v1.py --request D:\\tswm_discovery_20261016_v1\\cycle71\\outputs\\formal_seed2026711_bounded00850_v1_request.json"
+    },
+    {
+      "ProcessId": 42004,
+      "CommandLine": "\"E:\\Anaconda\\envs\\salt_env\\python.exe\" -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\capture_assessment71_v3.py queue"
+    },
+    {
+      "ProcessId": 1620,
+      "CommandLine": "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\queue_free_simulation71_v3.py"
+    }
+  ],
+  "current_worker_launch": {
+    "pid": 30784,
+    "utc": "2026-10-18T07:12:10.658010+00:00",
+    "request_sha256": "ca797e7367b47eeb1e856443195fb4a3701cace8ccb1177b7d442289dc9060f0",
+    "cuda_launch_blocking": "1"
+  },
+  "current_progress": {
+    "utc": "2026-10-18T07:15:39.639769+00:00",
+    "tag": "formal_seed2026711_bounded00850_v1",
+    "epoch": 823,
+    "module_updates": 13184,
+    "proposal_updates": 13184,
+    "elapsed_seconds": 205.43603680000524,
+    "train_loss": 2.9117604753992055e-06,
+    "val_loss": 1.807571607059799e-05,
+    "native_encoder_accuracy": 0.8037109375,
+    "native_structure_accuracy": 0.9896484375,
+    "gpu_peak_bytes": 2075552256,
+    "reserved_eval_rows_accessed": 0
+  },
+  "queue": {
+    "utc": "2026-10-18T07:13:38.243270+00:00",
+    "status": "WAITING_ON_LIVE_CAMPAIGN_PROCESS_HANDLE",
+    "campaign_process": {
+      "ProcessId": 43620,
+      "CommandLine": "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\bounded_campaign71_v1.py formal"
+    },
+    "campaign_creation_filetime": 134367811306185603,
+    "protocol_sha256": "261b702e630543728475a187c13f110b1a97a6bd2ae9af66089db35a1a0299c3",
+    "evaluator_sha256": "2f09e76a7630e5f8cc63755001ff442628fa85574140d5b8c90cf915b5fdb0f7",
+    "calibration_sha256": "01196c84f8982b4e70002c60e793079ed79a8cf2a958a5c03fe4b61cb5729dc0",
+    "reserved_eval_rows_accessed": 0
+  },
+  "runtime_incident_sha256": "a361aaf67f28b74ca80fea949ed5b88da4e271db9587706be58aa888eb8a00f9",
+  "replay_qualification_sha256": "78b898c459c757eb9b9e7e7f2d7ef439d00367b4e168873befb22bc40fda8848",
+  "bounded_qualification_sha256": "47e2307d8b6b1904e9a8f70e70f3ebcceef4dace50072b5696adbe5047c22eec",
+  "ledgers": {
+    "literature_review.md": {
+      "before_sha256": "f49d8ca2375cd05900d03025e4948511e89aaa8fa0e904ec9e74ffb2157bfaa3",
+      "after_sha256": "eae2a106014914fd06302fd45fac43ace8add48ac8fd8248982203dbcce3f7b4",
+      "original_bytes": 4976,
+      "prefix_preserved": true
+    },
+    "baseline_registry.md": {
+      "before_sha256": "980c4d3e692994c46b16306c1536042f056d06027af30b374b9c715f4572758f",
+      "after_sha256": "491f2186d3763331737009b41883c71b3f4bed8cb38ed58de31cb0afb69c9fd6",
+      "original_bytes": 3717,
+      "prefix_preserved": true
+    },
+    "experimental_results.md": {
+      "before_sha256": "8dd11368e0b36f9a7cfec9da2799ce867fff8410f516db7c214626c68c30cfac",
+      "after_sha256": "102dd6d66b36c30e8fa72d620baaeeb7b7ba06b2f855eab0f344f5e3b1c095c0",
+      "original_bytes": 3623,
+      "prefix_preserved": true
+    },
+    "negative_evidence.md": {
+      "before_sha256": "42dfc7e014688e5269a70cbed4dfbc360ead160d87211a174dd5acc66747d36e",
+      "after_sha256": "cedcfe0fa9ed8f9bd5f41cae6abd072790824bdea99724f6a72aa0491f70dbaf",
+      "original_bytes": 3631,
+      "prefix_preserved": true
+    },
+    "hypothesis_space.md": {
+      "before_sha256": "07a2835ea8497dd0f9c16b2b69755790fb4da549575e780bc20fa28557895591",
+      "after_sha256": "7eeca6f42eb694c73207f412b88e4afa72539f278a450f48fe3c071388f531d3",
+      "original_bytes": 3369,
+      "prefix_preserved": true
+    },
+    "research_ideas.md": {
+      "before_sha256": "32dec099c0df404531545fe2b0f3db00089a453cc02728a26a1efc8ee1fc39b8",
+      "after_sha256": "2397e4a6871edf50a84f521f29d50083871403559f84dcbc5f87cf63dd69d26f",
+      "original_bytes": 4971,
+      "prefix_preserved": true
+    },
+    "final_research_direction.md": {
+      "before_sha256": "1282d266224bdf7fe77ba90d7344cc747936260b6b8a56d0c52a7e4148f33275",
+      "after_sha256": "141fadf557497bb81967c9ef146fd21434430af9d441f59ace9c1d27e1f48a48",
+      "original_bytes": 4511,
+      "prefix_preserved": true
+    }
+  },
+  "root_cause_verified": false,
+  "long_run_stability_verified": false,
+  "reserved_eval_rows_accessed": 0,
+  "accepted_final_directions": 0,
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "local_result_data_or_model_files_written": 0
+}

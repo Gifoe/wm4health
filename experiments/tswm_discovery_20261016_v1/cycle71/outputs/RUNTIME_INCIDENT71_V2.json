@@ -1,0 +1,98 @@
+{
+  "utc": "2026-10-18T07:01:48.762989+00:00",
+  "status": "SECOND_NATIVE_ACCESS_VIOLATION_TERMINAL_CHECKPOINT_FINITE",
+  "first_incident_sha256": "79d96cb74cd7abe93fb4bb2bfb3c4c824c53aa53219a768efb629b474252a48e",
+  "fit_exit": {
+    "pid": 43972,
+    "exit_code": 3221225477,
+    "utc": "2026-10-18T06:56:18.784810+00:00",
+    "log_sha256": "c58d224cc109bd9c97b2491d9e2b18763b0429620418d5ce17300bac2909b42d"
+  },
+  "campaign_exit": {
+    "pid": 32528,
+    "exit_code": 1,
+    "utc": "2026-10-18T06:56:19.086409+00:00",
+    "log_sha256": "9eb7214d474769dfe319ef33adc019478e81690136a317a44e99dce16e03bd1c"
+  },
+  "queue_exit": {
+    "pid": 43320,
+    "exit_code": 1,
+    "utc": "2026-10-18T06:56:19.093409+00:00",
+    "log_sha256": "b51e3d998052dd4f3d18f3970d576dbd41e79feb45cf9b85bc8a5c59868b9a7d"
+  },
+  "windows_application_error": {
+    "utc": "2026-10-18T06:56:15.7552653Z",
+    "event_id": 1000,
+    "record_id": 50592,
+    "application": "python.exe",
+    "module": "mtrand.cp312-win_amd64.pyd",
+    "exception_code": "c0000005",
+    "fault_offset": "000000000002efed",
+    "pid": 43972,
+    "process_creation_time": "01dd5ecb65df49a9",
+    "report_id": "0423f557-66fc-4fab-8975-1df241220fef"
+  },
+  "first_fault_module": "nvcuda64.dll",
+  "second_fault_module": "mtrand.cp312-win_amd64.pyd",
+  "exception_hex": "0xc0000005",
+  "current_thread_source": "hgnn_composer.py:350, np.random.choice inside native node-edge proposal",
+  "cuda_launch_blocking_was_enabled": true,
+  "diagnostic_synchronization_did_not_prevent_recurrence": true,
+  "root_cause": "Unestablished: first fault WER named nvcuda64.dll; second named NumPy mtrand. Neither record establishes a software defect or hardware cause.",
+  "last_checkpoint": {
+    "epoch": 800,
+    "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle71\\formal_seed2026711_resumed_v2\\epoch00800.pt",
+    "sha256": "2541564eab6fb53d8e09d43bfb7223d141808ba7753fd58fbf8bfdf03a93745a",
+    "val_loss": 1.828179301810451e-05,
+    "module_updates": 12816,
+    "proposal_updates": 12816
+  },
+  "checkpoint_tensor_audit": {
+    "tensors": 174,
+    "nonfinite": 0
+  },
+  "annealing_temperature_exact_replay": {
+    "steps": 801,
+    "value": 3.211957061556062e-13,
+    "float64_hex": "0x1.69a25bf4c376ap-42",
+    "trace_sha256": "594849b0fe73346c53d656e8aa326b2e14f911372ee3481cd9bb94072b70f341",
+    "source_logs": [
+      {
+        "tag": "formal_seed2026711_v3",
+        "epoch_start": 0,
+        "epoch_end": 650,
+        "sha256": "069f53653b099db07e2fa68d26d621556acc717995e58e58276d56dedde77288"
+      },
+      {
+        "tag": "formal_seed2026711_resumed_v2",
+        "epoch_start": 651,
+        "epoch_end": 800,
+        "sha256": "8d0a31f8fc86781fa680f799e6e7b2030ed03679f22fe122dd067bd06f6a65a6"
+      }
+    ]
+  },
+  "terminal_excerpt": {
+    "full_log_bytes": 16405,
+    "full_log_sha256": "c58d224cc109bd9c97b2491d9e2b18763b0429620418d5ce17300bac2909b42d",
+    "byte_offset": 14951,
+    "bytes": 1454,
+    "sha256": "5f59ffe0b026388379abd5d25f351f2f5dfd65e6abd3751de3ec446e2d4ac2a6",
+    "encoding": "Base64 exact terminal exception excerpt"
+  },
+  "machine_readonly_context": {
+    "cpu": {
+      "Name": "Intel(R) Core(TM) i9-14900KF",
+      "NumberOfCores": 24,
+      "NumberOfLogicalProcessors": 32
+    },
+    "physical_memory_bytes": 68498305024,
+    "whea_events_in_checked_hour": 0,
+    "whea_events_absence_does_not_rule_out_hardware_fault": true
+  },
+  "later_fit_seeds_started": false,
+  "neural_free_val_assessment_started": false,
+  "reserved_eval_rows_accessed": 0,
+  "accepted_final_directions": 0,
+  "formal_training_currently_running": false,
+  "next_action": "Bounded checkpoint800 replay to distinguish a reproducible step failure from an intermittent runtime fault; no automatic long rerun."
+}

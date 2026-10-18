@@ -29,3 +29,8 @@ RESUME_QUALIFICATION71_V2.json reports zero differences across174 tensors and al
 ## Exact structure-orbit audit, C71
 
 The hypothesis that labeled-graph exclusion in this already-trained five-node cohort creates an unseen-topology discriminator is contradicted by the exhaustive orbit audit. New continuous-state generalization, proposal equivariance, memorization and forecast quality remain separate untested explanations. An orbit-disjoint fit would be a new experiment requiring pre-training partitioning.
+
+
+## Second runtime incident and bounded continuation, C71
+
+Runtime explanations remain competing: intermittent native software/runtime faults versus machine stability; neither a different fault module nor i9-14900KF/0x12b context proves causation. Successful bounded replay rejects only a deterministically failing replay at that checkpoint in the tested executions. Process-local CPU class plus bounded lifetime is a qualified execution control, not a research mechanism or a demonstrated root fix.

@@ -1,0 +1,435 @@
+{
+  "utc": "2026-10-18T07:11:40.013427+00:00",
+  "status": "NATIVE_BOUNDED_SEGMENT_COMPLETE",
+  "seed": 2026731,
+  "tag": "bounded_qual71_v1_part2",
+  "qualification": true,
+  "performance_evidence": false,
+  "start_epoch": 2,
+  "last_epoch": 2,
+  "total_epochs": 3,
+  "train_tasks": 128,
+  "val_tasks": 128,
+  "effective_module_updates": 3,
+  "effective_proposal_updates": 3,
+  "parent_checkpoint": {
+    "epoch": 1,
+    "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle71\\bounded_qual71_v1_part1\\epoch00001.pt",
+    "sha256": "0792f3f1492fb2804b2a3e3b47996ac4a707d3f83aae7be7ffb7d29360502d03",
+    "val_loss": 7.14386305641412e+20,
+    "module_updates": 2,
+    "proposal_updates": 2
+  },
+  "checkpoint_manifest": "D:\\tswm_discovery_20261016_v1\\cycle71\\outputs\\bounded_qual71_v1_part2_checkpoints.json",
+  "last": {
+    "epoch": 2,
+    "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle71\\bounded_qual71_v1_part2\\epoch00002.pt",
+    "sha256": "9cb5b95b1c006d8611db016b74ba10366535e4aa58f9a864b52b2dbf9d3f647f",
+    "val_loss": 6.068826381550554e+20,
+    "module_updates": 3,
+    "proposal_updates": 3
+  },
+  "selected": {
+    "epoch": 2,
+    "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle71\\bounded_qual71_v1_part2\\epoch00002.pt",
+    "sha256": "9cb5b95b1c006d8611db016b74ba10366535e4aa58f9a864b52b2dbf9d3f647f",
+    "val_loss": 6.068826381550554e+20,
+    "module_updates": 3,
+    "proposal_updates": 3
+  },
+  "temperature_float64_hex": "0x1.ffad8b184eae6p-15",
+  "temperature": 6.099675937539465e-05,
+  "entry_adapter": {
+    "original_source_sha256": "023666561cb4008848965dcebb9a3218eb13ead3cca4c027905d0286ef997ed6",
+    "unchanged_epoch_loop_body_sha256": "a983b27e66dcc1c9844a0333875f10473c02db44d7e67bd4397d3a0610e7f996",
+    "entry_only_changes": [
+      "restore exact temperature",
+      "initialize bookkeeping then restore full checkpoint/RNG",
+      "bound only the outer range; retain original optimization_steps"
+    ],
+    "exit_instrumentation": "copy exact local temperature; no RNG or optimizer operation",
+    "transformed_function_ast_sha256": "1e3d62974dc72a7af3697cbea5f98bec6e179669558a8440c38eba827c152e1c"
+  },
+  "affinity": {
+    "mode": "efficient",
+    "original_process_mask": "0xffffffff",
+    "current_process_mask": "0xffff0000",
+    "available_efficiency_classes": [
+      0,
+      1
+    ],
+    "selected_logical_processors": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "cpu_sets": [
+      {
+        "id": 256,
+        "group": 0,
+        "logical_processor": 0,
+        "core": 0,
+        "efficiency_class": 1,
+        "flags": 0
+      },
+      {
+        "id": 257,
+        "group": 0,
+        "logical_processor": 1,
+        "core": 0,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 258,
+        "group": 0,
+        "logical_processor": 2,
+        "core": 2,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 259,
+        "group": 0,
+        "logical_processor": 3,
+        "core": 2,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 260,
+        "group": 0,
+        "logical_processor": 4,
+        "core": 4,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 261,
+        "group": 0,
+        "logical_processor": 5,
+        "core": 4,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 262,
+        "group": 0,
+        "logical_processor": 6,
+        "core": 6,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 263,
+        "group": 0,
+        "logical_processor": 7,
+        "core": 6,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 264,
+        "group": 0,
+        "logical_processor": 8,
+        "core": 8,
+        "efficiency_class": 1,
+        "flags": 0
+      },
+      {
+        "id": 265,
+        "group": 0,
+        "logical_processor": 9,
+        "core": 8,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 266,
+        "group": 0,
+        "logical_processor": 10,
+        "core": 10,
+        "efficiency_class": 1,
+        "flags": 0
+      },
+      {
+        "id": 267,
+        "group": 0,
+        "logical_processor": 11,
+        "core": 10,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 268,
+        "group": 0,
+        "logical_processor": 12,
+        "core": 12,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 269,
+        "group": 0,
+        "logical_processor": 13,
+        "core": 12,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 270,
+        "group": 0,
+        "logical_processor": 14,
+        "core": 14,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 271,
+        "group": 0,
+        "logical_processor": 15,
+        "core": 14,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 272,
+        "group": 0,
+        "logical_processor": 16,
+        "core": 16,
+        "efficiency_class": 0,
+        "flags": 0
+      },
+      {
+        "id": 273,
+        "group": 0,
+        "logical_processor": 17,
+        "core": 17,
+        "efficiency_class": 0,
+        "flags": 0
+      },
+      {
+        "id": 274,
+        "group": 0,
+        "logical_processor": 18,
+        "core": 18,
+        "efficiency_class": 0,
+        "flags": 0
+      },
+      {
+        "id": 275,
+        "group": 0,
+        "logical_processor": 19,
+        "core": 19,
+        "efficiency_class": 0,
+        "flags": 0
+      },
+      {
+        "id": 276,
+        "group": 0,
+        "logical_processor": 20,
+        "core": 20,
+        "efficiency_class": 0,
+        "flags": 0
+      },
+      {
+        "id": 277,
+        "group": 0,
+        "logical_processor": 21,
+        "core": 21,
+        "efficiency_class": 0,
+        "flags": 0
+      },
+      {
+        "id": 278,
+        "group": 0,
+        "logical_processor": 22,
+        "core": 22,
+        "efficiency_class": 0,
+        "flags": 0
+      },
+      {
+        "id": 279,
+        "group": 0,
+        "logical_processor": 23,
+        "core": 23,
+        "efficiency_class": 0,
+        "flags": 0
+      },
+      {
+        "id": 280,
+        "group": 0,
+        "logical_processor": 24,
+        "core": 24,
+        "efficiency_class": 0,
+        "flags": 0
+      },
+      {
+        "id": 281,
+        "group": 0,
+        "logical_processor": 25,
+        "core": 25,
+        "efficiency_class": 0,
+        "flags": 0
+      },
+      {
+        "id": 282,
+        "group": 0,
+        "logical_processor": 26,
+        "core": 26,
+        "efficiency_class": 0,
+        "flags": 0
+      },
+      {
+        "id": 283,
+        "group": 0,
+        "logical_processor": 27,
+        "core": 27,
+        "efficiency_class": 0,
+        "flags": 0
+      },
+      {
+        "id": 284,
+        "group": 0,
+        "logical_processor": 28,
+        "core": 28,
+        "efficiency_class": 0,
+        "flags": 0
+      },
+      {
+        "id": 285,
+        "group": 0,
+        "logical_processor": 29,
+        "core": 29,
+        "efficiency_class": 0,
+        "flags": 0
+      },
+      {
+        "id": 286,
+        "group": 0,
+        "logical_processor": 30,
+        "core": 30,
+        "efficiency_class": 0,
+        "flags": 0
+      },
+      {
+        "id": 287,
+        "group": 0,
+        "logical_processor": 31,
+        "core": 31,
+        "efficiency_class": 0,
+        "flags": 0
+      }
+    ],
+    "system_configuration_modified": false,
+    "other_processes_modified": false,
+    "interpretation": "Process-local execution control, not a diagnosis or a proven hardware remedy"
+  },
+  "module_parameters": 467204,
+  "proposal_parameters": 2735106,
+  "wall_seconds": 3.299308400019072,
+  "gpu_peak_bytes": 1941611008,
+  "reserved_eval_rows_accessed": 0,
+  "source_bodies": {
+    "layers": {
+      "source_sha256": "e1d6bdd39eb626f1dcca381cbea6a4c399041002fe65d1a4b90bf8996ca871dd",
+      "skipped_imports": [],
+      "scientific_bodies": {
+        "linear": "1b064ef7daa9ef8de379ada78fdd484a23d04532c04ea8df7286415b2c248132",
+        "conv2d": "1238a4ac08841eee7cb76fd999870be4205eed316acd3357466be9328e534e43",
+        "relu": "46c16bc2bc71d960c66e0ce19d632658d4b5167c6541cb69543d96ceeb0f274d",
+        "maxpool": "4d1d781389eb079bed472c9f41708779bd62ea240be2cf893c50e44dcc41b364",
+        "batchnorm": "61d86860b21caa203f5ff07d570cada4af14ad240d244ad3a092b3e4771254cc",
+        "bilinear_upsample": "0a52e7770f27d162b4daa1f6b02900f1e7c34fbeede7350b88b275e635e75053",
+        "log_softmax": "dcaa067416190b798115d191e51d4ab5542e17fd5512a0571485f3d317f4f6b0",
+        "exponential": "1670c105c447d1fbdadcdb0299ed8aaa4104b7533971127cba0a55aaccfdfb1b",
+        "Net": "33cf8519339a3f12c00caabed3f7b451472f753a218f10f476a43a8bb8a84c97"
+      }
+    },
+    "custom_module": {
+      "source_sha256": "691ff7f6d50cab6d6e9714faf39b1e0a491c24def20fc9b0c5f6b48c14cb95d7",
+      "skipped_imports": [],
+      "scientific_bodies": {
+        "torch_NN": "56814ecd6490f9d697c00e3748447238a301f62be624337d568abb93fefccb0f",
+        "main": "94d792e94d166f6375d18dc8ccbf189873034519c2b0a3f8ee454e5f34c951c4"
+      }
+    },
+    "composition": {
+      "source_sha256": "8d00e66bf9dd27d78e760181c85e64cbbd53c249d8b64a9c20a237a986d23f57",
+      "skipped_imports": [],
+      "scientific_bodies": {
+        "Composer": "704f4a19eae46586ecfbfe84302c8d3ed8943f06d7b65f46cd6b48f32457542e"
+      }
+    },
+    "structure": {
+      "source_sha256": "f101dbc22fa24f60f13983a83f1f6a402bafee9ac8bb91e2f1e8a9383370aaa1",
+      "skipped_imports": [],
+      "scientific_bodies": {
+        "Structure": "1fbfd340946b1f52adcf816610c57a56f6f4a10b19edd567e819cf3c402cb715"
+      }
+    },
+    "hgnn_composer": {
+      "source_sha256": "0397e3cc60a999b53f09920f4f37ff4ba127c4101a0a3be6d36bccc08c9f5853",
+      "skipped_imports": [],
+      "scientific_bodies": {
+        "HGNN_Composer": "cc5102a4665c2c4d1bd4543408ad4e017853d7333603c8a06b2381d691655529",
+        "HGNN_Structure": "caf40cff87c41abf514b9ca64919ac9ab73595f4bbf46d83716fe07c889722d6"
+      }
+    },
+    "data_loading": {
+      "source_sha256": "256011adad31eea36dd4be2dbefcd7232c609cb6cc84ae050abcd66d92ab9753",
+      "skipped_imports": [
+        "import h5py"
+      ],
+      "scientific_bodies": {
+        "Dataset": "6bb903e1dc68284b937fffbfe7c6766a7723ac0ab4fc6423f83c967764832116",
+        "MetaDataset": "118351bfda333b39e40118f8caffb9daf7e0b263917bae35d6432824fcfd0d8c",
+        "NPDataset": "07e514fbefb878648cac9a65238d4800666e1fd25026a2d021f979e838052109",
+        "MetaNpySelfRegressDataset": "68dbe9977860a320931cd57e79cfe9c658d909dec4bb9c6a0236e574eec343c0",
+        "MetaHDFDataset": "825c5293c67bf17ffcab52411aa57badd32a676b0855f6e1a095a2ce238ca0f2",
+        "convert_to_torch_tensors": "c8ab1cb1d7a516693125b7aec5842bd210dc27eff7fe8053a9f177d7e6975ea4",
+        "get_data_loaders": "40fb9d1982a2cea302e4145d3cd7e4eb9f2705c0a4644e8b80a40097d7672a03"
+      }
+    },
+    "encoder": {
+      "source_sha256": "c41acaa9faadcb713917067d8dd3bc5cd1a10d0f87c134f49441d582f3111fcc",
+      "skipped_imports": [],
+      "scientific_bodies": {
+        "MLP": "60c2199c99af714d346ca893f924d902a06a3f83ebac3c99c5ef43d73de9c97f",
+        "Encoder": "f6b30dc13e0ac89300cd5fed7c2ff6e9968066a9e5115f2182c3a8693c55eaf5",
+        "FullMLPStructureEncoder": "2efa1a0c0f42bb1e44e7803978338b7dfd45251f14f11acfb8ae2fcb8d7b1c77",
+        "MLPStructureEncoder": "bb8d57079f57f42e1234daa1adba9969f7c6d994523e033ec5d886d60f8f94c0",
+        "MLPStateEncoder": "8468bd28effb1e7805106137ea6508a1c18bf15c566b94946d94760dee45246e",
+        "CNN": "a96dae7c70b98493d372d1d289d2dba99ac0259b10fa770cf8c09c9fd9f1a16e",
+        "CNNStateEncoder": "992eaba6bd80e9e03b0be704654d78c883a9df7a94147af2b84b3203633f0e85"
+      }
+    },
+    "modular_metalearning": {
+      "source_sha256": "023666561cb4008848965dcebb9a3218eb13ead3cca4c027905d0286ef997ed6",
+      "skipped_imports": [
+        "from torch.optim.lr_scheduler import ReduceLROnPlateau",
+        "from tensorboardX import SummaryWriter"
+      ],
+      "scientific_bodies": {
+        "BounceGrad": "8c56868b81cbfe1b64d11c08a343e11c8c6733cba79f3d919cec62b7cee71eed"
+      }
+    }
+  },
+  "protocol_sha256": "dbc39dbc20a16a254b32c03488ae08c18f3972a688cd36df397e1843658a1e89",
+  "root_cause_verified": false,
+  "long_run_stability_verified": false,
+  "accepted_final_directions": 0
+}

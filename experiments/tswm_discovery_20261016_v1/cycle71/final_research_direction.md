@@ -35,3 +35,8 @@ RESUME_QUALIFICATION71_V2.json reports zero differences across174 tensors and al
 ## Exact structure-orbit audit, C71
 
 No final direction accepted. The new exact orbit audit rules out interpreting the current split or its42 label-hash-unseen leftovers as unseen-topology transfer: every VAL topology is already represented in TRAIN up to node permutation. The next live discriminator remains the unchanged complete-model free-simulation assessment. Any later topology claim needs an independently defined orbit-disjoint fit, not retrospective relabeling of this baseline.
+
+
+## Second runtime incident and bounded continuation, C71
+
+No accepted final direction. The original recovered campaign failed again after epoch800; the exact failure and finite checkpoint are preserved. Two independent numerical continuation checks pass with174 tensor/max difference0 and no non-tensor differences. A qualified process-local, bounded-lifetime controller and new terminal-gated assessment queue now continue the unchanged original scientific budget. Live state is in BOUNDED_RUNTIME_SNAPSHOT71_V1.json; neither training nor the full research objective is complete.

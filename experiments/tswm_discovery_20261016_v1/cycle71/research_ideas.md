@@ -31,3 +31,8 @@ RESUME_QUALIFICATION71_V2.json reports zero differences across174 tensors and al
 ## Exact structure-orbit audit, C71
 
 CandidateC cannot be rescued by graph-hash exclusion alone: all34 structural orbit types are already in TRAIN. For candidateA, a later claim about unseen topology requires a new fit with complete orbit exclusion before any shared representation/library/proposal training. This metadata rule is ordinary evaluation hygiene and supplies no distinct new learning mechanism. Continue the frozen competence assessment before committing to another composition experiment.
+
+
+## Second runtime incident and bounded continuation, C71
+
+No scientific candidate is promoted by the runtime work. The next scientific discriminator still requires the complete frozen native free-simulation assessment. The new bounded controller preserves effective training and selection; source-body and numerical equivalence guard against converting an execution workaround into a different baseline. The structural-orbit finding continues to forbid unseen-topology claims from this split.

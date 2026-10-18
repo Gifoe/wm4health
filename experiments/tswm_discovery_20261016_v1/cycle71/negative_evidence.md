@@ -28,3 +28,8 @@ RESUME_QUALIFICATION71_V2.json reports zero differences across174 tensors and al
 ## Exact structure-orbit audit, C71
 
 Rejected protocol shortcut: selecting the42 label-hash-unseen VAL rows does not yield an unseen-topology test; all42 are node permutations of TRAIN graphs. A post-training row repartition cannot undo exposure to every one of the34 structural orbits. This rejects that evidence interpretation, not new-trajectory prediction or the general potential of modular models.
+
+
+## Second runtime incident and bounded continuation, C71
+
+CUDA_LAUNCH_BLOCKING=1 did not prevent a second access violation. The second Windows event names NumPy mtrand, whereas the first names nvcuda64; a driver-only diagnosis is unsupported. Epoch801 failure did not recur in the bounded replay, and affinity numerical equivalence does not prove long-run stability. The first replay diagnostic also failed a Python checkpoint-expectation assertion, corrected in a separately versioned script; retain it as an implementation failure, not a model deficit.
