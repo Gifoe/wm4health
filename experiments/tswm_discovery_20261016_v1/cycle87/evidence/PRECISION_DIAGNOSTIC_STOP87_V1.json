@@ -1,0 +1,11 @@
+﻿{
+    "utc":  "2026-10-18T16:53:49.7923567Z",
+    "status":  "UNBOUNDED_FP32_ADAPTIVE_DIAGNOSTIC_STOPPED",
+    "stopped_diagnostic_pids":  [
+                                    9016,
+                                    43804
+                                ],
+    "reason":  "No completed first-case metric after sustained CPU work; native attention explicitly casts feature maps to float32 and rejects full float64 evaluation. Replace with bounded FP32-appropriate adaptive diagnostic; do not change model, selected settings or reported predictions.",
+    "model_or_metric_changed":  false,
+    "native_training_and_evaluation_already_terminal":  true
+}

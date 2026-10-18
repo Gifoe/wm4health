@@ -1,0 +1,7 @@
+{"utc": "2026-10-18T16:54:02.557299+00:00", "stage": "independent_learned_rollout_check", "model": "native_frozen", "cohort": "retained", "indices": [0, 112, 128, 239], "nfev": 614, "max_abs": 0.11505254458497571, "max_trajectory_rms_relative": 0.021744366934861474, "rtol": 0.001, "atol": 1e-05}
+Traceback (most recent call last):
+  File "D:\tswm_discovery_20261016_v1\cycle87\scripts\check_rollout87_v2.py", line 45, in <module>
+    if __name__=='__main__':main()
+  File "D:\tswm_discovery_20261016_v1\cycle87\scripts\check_rollout87_v2.py", line 43, in main
+    absmax=float(abs(ref-expected).max());scaled=float((np.sqrt(np.mean((ref-expected)**2,axis=(1,2)))/np.maximum(np.sqrt(np.mean(ref*ref,axis=(1,2))),.1)).max());row=dict(model=name,cohort=cohort,indices=indices.tolist(),nfev=int(sol.nfev),max_abs=absmax,max_trajectory_rms_relative=scaled,rtol=rtol,atol=atol);rows.append(row);log(dict(stage='independent_learned_rollout_check',**row));assert scaled<.01,(name,cohort,absmax,scaled)
+AssertionError: ('native_frozen', 'retained', 0.11505254458497571, 0.021744366934861474)

@@ -1,0 +1,153 @@
+{
+  "utc": "2026-10-18T16:08:56.743971+00:00",
+  "status": "FIXED_TRAIN_VAL_ONLY_CREATED",
+  "protocol_sha256": "63079a941a4d7ed5b259e2e6b502895acd068c235515b1a432b357df3a465a5a",
+  "files": [
+    {
+      "split": "train",
+      "family": "duffing",
+      "seed": 2026870,
+      "pool_count": 8192,
+      "accepted_count": 7313,
+      "retained_fraction": 0.8927001953125,
+      "all_finite": true,
+      "max_abs": 7.958276271820068,
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\population_v1\\train_duffing_v1.npz",
+      "array_sha256": "4b4031c930b81f3a7d74f27244a47ab7b1680b12c305d308bf0cd0f121cd2ad0"
+    },
+    {
+      "split": "train",
+      "family": "duffing",
+      "arm": "whole_filter",
+      "count": 1024,
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\population_v1\\train_duffing_whole_filter_v1.npz",
+      "array_sha256": "38e2507d497cc83ac051294ff8ec29c1bc6697806d47b44e26fb551ebfe8e3b1"
+    },
+    {
+      "split": "train",
+      "family": "duffing",
+      "arm": "resampled_ic",
+      "count": 1024,
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\population_v1\\train_duffing_resampled_ic_v1.npz",
+      "array_sha256": "213e16090e9c0515392e79c2df65366d848e7d7edb0524a0a8b3fd2577daa0eb"
+    },
+    {
+      "split": "train",
+      "family": "duffing",
+      "arm": "unselected",
+      "count": 1024,
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\population_v1\\train_duffing_unselected_v1.npz",
+      "array_sha256": "a4062e0b975540df501719fe4907e8537622eefcafff2fb53906b814cbd16ed2"
+    },
+    {
+      "split": "train",
+      "family": "stuart_landau",
+      "seed": 2026870,
+      "pool_count": 8192,
+      "accepted_count": 7941,
+      "retained_fraction": 0.9693603515625,
+      "all_finite": true,
+      "max_abs": 3.6686227321624756,
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\population_v1\\train_stuart_landau_v1.npz",
+      "array_sha256": "79e5c22cc8c5e5772599147164e79df670d6d19da5866f44e0ab19fe1db078f4"
+    },
+    {
+      "split": "train",
+      "family": "stuart_landau",
+      "arm": "whole_filter",
+      "count": 1024,
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\population_v1\\train_stuart_landau_whole_filter_v1.npz",
+      "array_sha256": "1b6eefd8b72f6c008c054fa0eea730d5e64c399b8e99783cbadb339ad58d02eb"
+    },
+    {
+      "split": "train",
+      "family": "stuart_landau",
+      "arm": "resampled_ic",
+      "count": 1024,
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\population_v1\\train_stuart_landau_resampled_ic_v1.npz",
+      "array_sha256": "f65f2f78052d81fa498a13fa4f908e36ce054347f63d5e8b069e77d3cfb5c5c9"
+    },
+    {
+      "split": "train",
+      "family": "stuart_landau",
+      "arm": "unselected",
+      "count": 1024,
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\population_v1\\train_stuart_landau_unselected_v1.npz",
+      "array_sha256": "784d19ffa92ac9a05e51caf475a8b25c7f09455ce819966461259423821ec427"
+    },
+    {
+      "split": "val",
+      "family": "duffing",
+      "seed": 2026871,
+      "pool_count": 1024,
+      "accepted_count": 924,
+      "retained_fraction": 0.90234375,
+      "all_finite": true,
+      "max_abs": 8.47370433807373,
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\population_v1\\val_duffing_v1.npz",
+      "array_sha256": "74ebb3b21616aa48afca7b6c3541c9b5899b5d882c9ecae801522771045b0023"
+    },
+    {
+      "split": "val",
+      "family": "duffing",
+      "arm": "whole_filter",
+      "count": 128,
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\population_v1\\val_duffing_whole_filter_v1.npz",
+      "array_sha256": "026273d27116553444473f8e4162f646d05c7b2a4db45e5ff33aac306b895aa3"
+    },
+    {
+      "split": "val",
+      "family": "duffing",
+      "arm": "resampled_ic",
+      "count": 128,
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\population_v1\\val_duffing_resampled_ic_v1.npz",
+      "array_sha256": "ea6b1a5414d8ab27bc4fed11d30ab463f77a361939485a936f41cf16976733a7"
+    },
+    {
+      "split": "val",
+      "family": "duffing",
+      "arm": "unselected",
+      "count": 128,
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\population_v1\\val_duffing_unselected_v1.npz",
+      "array_sha256": "5322334229856af7048183ff847e97b766e82059cc24a4998d6dc31b8974a67c"
+    },
+    {
+      "split": "val",
+      "family": "stuart_landau",
+      "seed": 2026871,
+      "pool_count": 1024,
+      "accepted_count": 998,
+      "retained_fraction": 0.974609375,
+      "all_finite": true,
+      "max_abs": 3.5218570232391357,
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\population_v1\\val_stuart_landau_v1.npz",
+      "array_sha256": "93024b706979f8e0834d73709fac5a1d9b26bb48a423e07ada78e0b724559a9f"
+    },
+    {
+      "split": "val",
+      "family": "stuart_landau",
+      "arm": "whole_filter",
+      "count": 128,
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\population_v1\\val_stuart_landau_whole_filter_v1.npz",
+      "array_sha256": "9de2d96ed66ed6031a25d8be4c5e7fac13a4422aa6b0506d36247fc9d1b0ab38"
+    },
+    {
+      "split": "val",
+      "family": "stuart_landau",
+      "arm": "resampled_ic",
+      "count": 128,
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\population_v1\\val_stuart_landau_resampled_ic_v1.npz",
+      "array_sha256": "484c92504aaa4ccc25f65c46d446290b6b2ce323d5197d8ea98426228ccb8d9b"
+    },
+    {
+      "split": "val",
+      "family": "stuart_landau",
+      "arm": "unselected",
+      "count": 128,
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\population_v1\\val_stuart_landau_unselected_v1.npz",
+      "array_sha256": "1b262a4465df29391c56638255f211ca3cd36e952904fe3b9e166f8d0749c832"
+    }
+  ],
+  "eval_opened": false,
+  "elapsed_seconds": 31.426605999993626
+}

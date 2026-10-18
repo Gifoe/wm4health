@@ -1,0 +1,11 @@
+# Prospective same-supervision empirical-prior control
+
+Added before EVAL generation; no held-out rows accessed. `QUEUE_HOLD87_V1.json` records stopping only the waiting evaluation queue. The9 native fits continue unchanged. Previous12-model evaluator is superseded prospectively by a14-model evaluator. No native training hyperparameter or screening threshold changed.
+
+Reason: a per-context polynomial fitter does not use the shared mechanism prior available through synthetic pretraining. A competent ordinary comparator should be allowed the same32 TRAIN field-query labels per mechanism as FIM. Fit cubic polynomial coefficients by least squares from those source query locations/labels; do not read parameters or family labels to learn the prior. Learn either1 Gaussian or2 Gaussian components in coefficient space, using deterministic unsupervised Lloyd clustering and regularized empirical covariance. This is an empirical Bayes baseline, not a novel contribution.
+
+Inference uses only the same two noisy context paths. Weak integral equations give a linear approximate likelihood for cubic coefficients; integrate out component uncertainty using Gaussian conditioning and likelihood responsibilities. Choose component count1/2 and weak-equation noise std .01/.03/.1/.3/1 using only common unselected VAL field loss. The approximation ignores errors-in-variables/overlapping-equation noise; disclose it. Use fixed covariance eigenvalue floor1e-6. No test tuning.
+
+Learn separate filtered-mechanism and unselected-mechanism priors from their respective native TRAIN arm data. whole_filter/resampled_ic share identical32 independent query labels, hence the empirical prior is identical; count it once, not as two independent baselines. Add2 models to the previous frozen-native +9 native adaptations +weak-polynomial +persistence =14 total,84 family/cohort rows. Their trajectories use the same RK4/finite-failure rules. Report all VAL choices and all held-out metrics.
+
+A successful ordinary empirical-prior control weakens method-necessity and may explain native model failures as inference/training choices rather than an unresolved world-model problem. No positive research-direction claim is permitted solely because an existing Bayesian procedure works.

@@ -1,0 +1,361 @@
+{
+  "utc": "2026-10-18T16:49:38.924163+00:00",
+  "status": "POSTSTUDY_DESCRIPTIVE_ANALYSIS_NOT_MODEL_SELECTION",
+  "source_results_sha256": "fa0e5225996ad9ffa9a23001f9a6154ff340ea3ec00e2f03f7c0d971fdd297d7",
+  "seed_averaged_pairs": [
+    {
+      "family": "duffing",
+      "cohort": "retained",
+      "resampled_minus_filtered_mean_nrmse": -0.008746220423970916,
+      "exploratory_conditional_pool_bootstrap_interval": [
+        -0.059723624837242646,
+        0.04218571383690617
+      ],
+      "optimizer_seed_delta_mean_nrmse": [
+        0.0205977668971833,
+        0.03311396534048764,
+        -0.07995039350958369
+      ],
+      "resampled_minus_filtered_mse": 0.011787560638101187,
+      "exploratory_mse_interval": [
+        -0.057563333941475156,
+        0.08564868184610636
+      ]
+    },
+    {
+      "family": "duffing",
+      "cohort": "crossed",
+      "resampled_minus_filtered_mean_nrmse": 0.0013231196448974906,
+      "exploratory_conditional_pool_bootstrap_interval": [
+        -0.05034615939738286,
+        0.05320755338683865
+      ],
+      "optimizer_seed_delta_mean_nrmse": [
+        0.029722351453040384,
+        0.007372547479059164,
+        -0.033125539997407076
+      ],
+      "resampled_minus_filtered_mse": 0.0011473373252409366,
+      "exploratory_mse_interval": [
+        -0.057182989279535905,
+        0.060449955858159224
+      ]
+    },
+    {
+      "family": "duffing",
+      "cohort": "unselected",
+      "resampled_minus_filtered_mean_nrmse": -0.021251551877068217,
+      "exploratory_conditional_pool_bootstrap_interval": [
+        -0.06610165260553104,
+        0.02671793304170835
+      ],
+      "optimizer_seed_delta_mean_nrmse": [
+        0.04031328663314619,
+        -0.010507078713110237,
+        -0.09356086355124062
+      ],
+      "resampled_minus_filtered_mse": -0.014531596204254772,
+      "exploratory_mse_interval": [
+        -0.07771268222308439,
+        0.05848498876574342
+      ]
+    },
+    {
+      "family": "stuart_landau",
+      "cohort": "retained",
+      "resampled_minus_filtered_mean_nrmse": -0.002302458888624543,
+      "exploratory_conditional_pool_bootstrap_interval": [
+        -0.041263453681482126,
+        0.03466526824835487
+      ],
+      "optimizer_seed_delta_mean_nrmse": [
+        -0.08682879921148101,
+        0.01134717135732567,
+        0.06857425118828168
+      ],
+      "resampled_minus_filtered_mse": 0.026946775896136824,
+      "exploratory_mse_interval": [
+        -0.0011418819752010054,
+        0.05995850020236296
+      ]
+    },
+    {
+      "family": "stuart_landau",
+      "cohort": "crossed",
+      "resampled_minus_filtered_mean_nrmse": -0.08133879291366684,
+      "exploratory_conditional_pool_bootstrap_interval": [
+        -0.2211480122167163,
+        0.016779831767333463
+      ],
+      "optimizer_seed_delta_mean_nrmse": [
+        -0.11489291198023388,
+        0.017191791220330817,
+        -0.14631525798109746
+      ],
+      "resampled_minus_filtered_mse": -0.1163119449972387,
+      "exploratory_mse_interval": [
+        -0.41403919401956424,
+        0.068738513372361
+      ]
+    },
+    {
+      "family": "stuart_landau",
+      "cohort": "unselected",
+      "resampled_minus_filtered_mean_nrmse": -0.0035331449742907776,
+      "exploratory_conditional_pool_bootstrap_interval": [
+        -0.03705487272696578,
+        0.030562344918343042
+      ],
+      "optimizer_seed_delta_mean_nrmse": [
+        -0.07517880007825879,
+        0.006526278370887331,
+        0.058053086784499136
+      ],
+      "resampled_minus_filtered_mse": 0.02603150655207444,
+      "exploratory_mse_interval": [
+        0.0011524588677683902,
+        0.056602173657524596
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "family": "duffing",
+      "crossed_minus_retained_resampling_effect": 0.010069340068868417,
+      "exploratory_conditional_pool_interval": [
+        -0.0587487772531382,
+        0.07606991640746998
+      ]
+    },
+    {
+      "family": "stuart_landau",
+      "crossed_minus_retained_resampling_effect": -0.0790363340250423,
+      "exploratory_conditional_pool_interval": [
+        -0.23518339204882516,
+        0.0283588178984873
+      ]
+    }
+  ],
+  "native_summaries": [
+    {
+      "family": "duffing",
+      "cohort": "retained",
+      "arm": "whole_filter",
+      "mean_nrmse": 0.7875789483511104,
+      "optimizer_seed_nrmse_means": [
+        0.8000852290189482,
+        0.7581914702783786,
+        0.8044601457560041
+      ],
+      "mean_mse": 0.38450278261300697
+    },
+    {
+      "family": "duffing",
+      "cohort": "retained",
+      "arm": "resampled_ic",
+      "mean_nrmse": 0.7788327279271395,
+      "optimizer_seed_nrmse_means": [
+        0.8206829959161315,
+        0.7913054356188663,
+        0.7245097522464206
+      ],
+      "mean_mse": 0.39629034325110823
+    },
+    {
+      "family": "duffing",
+      "cohort": "retained",
+      "arm": "unselected",
+      "mean_nrmse": 0.828918998161396,
+      "optimizer_seed_nrmse_means": [
+        0.8041194686583375,
+        0.8456225043977665,
+        0.8370150214280843
+      ],
+      "mean_mse": 0.40932991521630996
+    },
+    {
+      "family": "duffing",
+      "cohort": "crossed",
+      "arm": "whole_filter",
+      "mean_nrmse": 0.7941732483174034,
+      "optimizer_seed_nrmse_means": [
+        0.8006710808908453,
+        0.7831086089882482,
+        0.798740055073117
+      ],
+      "mean_mse": 0.440353749887526
+    },
+    {
+      "family": "duffing",
+      "cohort": "crossed",
+      "arm": "resampled_ic",
+      "mean_nrmse": 0.7954963679623009,
+      "optimizer_seed_nrmse_means": [
+        0.8303934323438856,
+        0.7904811564673073,
+        0.7656145150757099
+      ],
+      "mean_mse": 0.44150108721276693
+    },
+    {
+      "family": "duffing",
+      "cohort": "crossed",
+      "arm": "unselected",
+      "mean_nrmse": 0.798652193623273,
+      "optimizer_seed_nrmse_means": [
+        0.7933251391992816,
+        0.8117591064226506,
+        0.7908723352478864
+      ],
+      "mean_mse": 0.44330892970086694
+    },
+    {
+      "family": "duffing",
+      "cohort": "unselected",
+      "arm": "whole_filter",
+      "mean_nrmse": 0.7193350593275808,
+      "optimizer_seed_nrmse_means": [
+        0.7331260760482092,
+        0.6854587638775658,
+        0.7394203380569677
+      ],
+      "mean_mse": 0.3291245748371629
+    },
+    {
+      "family": "duffing",
+      "cohort": "unselected",
+      "arm": "resampled_ic",
+      "mean_nrmse": 0.6980835074505127,
+      "optimizer_seed_nrmse_means": [
+        0.7734393626813554,
+        0.6749516851644556,
+        0.6458594745057271
+      ],
+      "mean_mse": 0.3145929786329082
+    },
+    {
+      "family": "duffing",
+      "cohort": "unselected",
+      "arm": "unselected",
+      "mean_nrmse": 0.7269888075276496,
+      "optimizer_seed_nrmse_means": [
+        0.6996006916686678,
+        0.7573220306783846,
+        0.7240437002358968
+      ],
+      "mean_mse": 0.3345293007721932
+    },
+    {
+      "family": "stuart_landau",
+      "cohort": "retained",
+      "arm": "whole_filter",
+      "mean_nrmse": 0.7187420126728495,
+      "optimizer_seed_nrmse_means": [
+        0.7725298456924418,
+        0.6537780390573478,
+        0.7299181532687589
+      ],
+      "mean_mse": 0.21797289993631588
+    },
+    {
+      "family": "stuart_landau",
+      "cohort": "retained",
+      "arm": "resampled_ic",
+      "mean_nrmse": 0.716439553784225,
+      "optimizer_seed_nrmse_means": [
+        0.6857010464809608,
+        0.6651252104146734,
+        0.7984924044570407
+      ],
+      "mean_mse": 0.2449196758324527
+    },
+    {
+      "family": "stuart_landau",
+      "cohort": "retained",
+      "arm": "unselected",
+      "mean_nrmse": 0.6854761907783985,
+      "optimizer_seed_nrmse_means": [
+        0.6782631997861026,
+        0.7155021741598487,
+        0.6626631983892443
+      ],
+      "mean_mse": 0.19961118109280482
+    },
+    {
+      "family": "stuart_landau",
+      "cohort": "crossed",
+      "arm": "whole_filter",
+      "mean_nrmse": 0.8244827866850648,
+      "optimizer_seed_nrmse_means": [
+        0.818253360314748,
+        0.7015556737222545,
+        0.9536393260181919
+      ],
+      "mean_mse": 0.3989438877561294
+    },
+    {
+      "family": "stuart_landau",
+      "cohort": "crossed",
+      "arm": "resampled_ic",
+      "mean_nrmse": 0.7431439937713978,
+      "optimizer_seed_nrmse_means": [
+        0.7033604483345142,
+        0.7187474649425852,
+        0.8073240680370943
+      ],
+      "mean_mse": 0.2826319427588907
+    },
+    {
+      "family": "stuart_landau",
+      "cohort": "crossed",
+      "arm": "unselected",
+      "mean_nrmse": 0.7685326769522772,
+      "optimizer_seed_nrmse_means": [
+        0.7808524708513332,
+        0.7999502352379926,
+        0.7247953247675056
+      ],
+      "mean_mse": 0.28779960964303336
+    },
+    {
+      "family": "stuart_landau",
+      "cohort": "unselected",
+      "arm": "whole_filter",
+      "mean_nrmse": 0.7384449353944357,
+      "optimizer_seed_nrmse_means": [
+        0.785415737544906,
+        0.6716516257907073,
+        0.7582674428476939
+      ],
+      "mean_mse": 0.21959230274688737
+    },
+    {
+      "family": "stuart_landau",
+      "cohort": "unselected",
+      "arm": "resampled_ic",
+      "mean_nrmse": 0.7349117904201449,
+      "optimizer_seed_nrmse_means": [
+        0.7102369374666472,
+        0.6781779041615947,
+        0.816320529632193
+      ],
+      "mean_mse": 0.2456238092989618
+    },
+    {
+      "family": "stuart_landau",
+      "cohort": "unselected",
+      "arm": "unselected",
+      "mean_nrmse": 0.70548815235719,
+      "optimizer_seed_nrmse_means": [
+        0.715625650694198,
+        0.7179782730356004,
+        0.6828605333417719
+      ],
+      "mean_mse": 0.20606460560908169
+    }
+  ],
+  "matched_empirical_prior_wins": 54,
+  "total_matched_native_comparisons": 54,
+  "bootstrap_scope": "Exploratory conditional on one fixed TRAIN pool and one held-out pool per family; averages3 optimizer seeds; no source-population uncertainty or confirmatory p-values",
+  "script_sha256": "fc98e3170eabb0ad7c46681940b35db8dced0dc5e677cdb0d9ba353baf2e45cb"
+}

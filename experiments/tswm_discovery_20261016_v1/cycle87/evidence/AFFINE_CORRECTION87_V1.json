@@ -1,0 +1,32 @@
+{
+  "utc": "2026-10-18T16:47:25.270024+00:00",
+  "status": "ONLY_AFFINE_NUMERICAL_FLOW_REPLACED_NO_HYPERPARAMETER_CHANGE",
+  "original_results_sha256": "76dbf18990358edcbb30e12c28a1c4aef29f9a1213043452df7bc4e5bed28ded",
+  "revised_results_sha256": "fa0e5225996ad9ffa9a23001f9a6154ff340ea3ec00e2f03f7c0d971fdd297d7",
+  "changes": [
+    {
+      "cohort": "retained",
+      "original_array_sha256": "da58196a05ab3791279f467ee0af2828c6227dd28b395b69f097a4e792517d70",
+      "exact_array_sha256": "90c7e83c67b3f0ac95d1f9b118763df6119199127ea6c947f6572568f985b1e6",
+      "finite_common_max_abs_delta": 4.3256457843199314e-05,
+      "old_h10_failures": 4,
+      "new_h10_failures": 4
+    },
+    {
+      "cohort": "crossed",
+      "original_array_sha256": "199499f25b495b61edb0ec6d07671ae0e02fbe1023d598b6402803cd14602d12",
+      "exact_array_sha256": "46beedfe066c67ff9d3e76f6403a7894552e2acbf6775ebe7b59c0826c0f5c12",
+      "finite_common_max_abs_delta": 0.000163502874841015,
+      "old_h10_failures": 8,
+      "new_h10_failures": 8
+    },
+    {
+      "cohort": "unselected",
+      "original_array_sha256": "4085992b6bf8619da064937f43c24797f254bea886e038d533108aa1289dcfc2",
+      "exact_array_sha256": "35dbd311d6d8237ba540e19cc185da612b53d9bdea3def771ad16f2013503242",
+      "finite_common_max_abs_delta": 4.3256457843199314e-05,
+      "old_h10_failures": 2,
+      "new_h10_failures": 2
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "utc": "2026-10-18T16:18:20.729858+00:00",
+  "status": "PASS_PARAMETER_REPLAY_PAIRED_DATA_AND_INDEPENDENT_DOP853",
+  "checks": [
+    {
+      "family": "duffing",
+      "split": "train",
+      "n": 8192,
+      "accepted": 7313,
+      "independent_reference_mechanisms": 25,
+      "independent_reference_paths": 225
+    },
+    {
+      "family": "stuart_landau",
+      "split": "train",
+      "n": 8192,
+      "accepted": 7941,
+      "independent_reference_mechanisms": 25,
+      "independent_reference_paths": 225
+    },
+    {
+      "family": "duffing",
+      "split": "val",
+      "n": 1024,
+      "accepted": 924,
+      "independent_reference_mechanisms": 25,
+      "independent_reference_paths": 225
+    },
+    {
+      "family": "stuart_landau",
+      "split": "val",
+      "n": 1024,
+      "accepted": 998,
+      "independent_reference_mechanisms": 25,
+      "independent_reference_paths": 225
+    }
+  ],
+  "reference_scalars": 361800,
+  "max_abs_dop853_rk4": 1.5364423659347537e-05,
+  "max_scaled_abs_dop853_rk4": 1.5364423659347537e-05,
+  "eval_opened": false,
+  "manifest_sha256": "7a911e15e705b623139b52618432d27760a5252149272703a0e37b61e3fd2e11",
+  "source_sha256": "326c995ee4ba9ce7a0fce5f5718dc7704588b4bd12a0b45a4240fc6609def3bd",
+  "seconds": 4.212599900027271
+}

@@ -1,0 +1,4405 @@
+{
+  "utc": "2026-10-18T16:47:25.261009+00:00",
+  "status": "FOURTEEN_MODELS_CLOSED_AFFINE_FLOW_EXACT_REPLAY_PENDING",
+  "rows": [
+    {
+      "model": "native_frozen",
+      "seed": null,
+      "arm": "frozen",
+      "family": "duffing",
+      "cohort": "retained",
+      "context_field_mse": 0.004951878832770941,
+      "future_field_mse": 0.6462517405042894,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.12932342057290214,
+          "population_mean_nrmse": 0.4381698219650255,
+          "population_median_nrmse": 0.30900367459872413,
+          "finite_only_mse": 0.12932342057290214,
+          "finite_only_mean_nrmse": 0.4381698219650255,
+          "failure_penalized_mean_nrmse": 0.4381698219650255
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 2.1227310780514017,
+          "population_mean_nrmse": 1.503665518979838,
+          "population_median_nrmse": 1.1075978931065908,
+          "finite_only_mse": 2.1227310780514017,
+          "finite_only_mean_nrmse": 1.503665518979838,
+          "failure_penalized_mean_nrmse": 1.503665518979838
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 10.359483157961222,
+          "population_mean_nrmse": 3.112943645642554,
+          "population_median_nrmse": 1.763388928953037,
+          "finite_only_mse": 10.359483157961222,
+          "finite_only_mean_nrmse": 3.112943645642554,
+          "failure_penalized_mean_nrmse": 3.112943645642554
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_frozen_retained_v1.npz",
+      "array_sha256": "9256c7790aa2bdec1207bd376395e7cc26794f395985130701930f64412234f3"
+    },
+    {
+      "model": "native_frozen",
+      "seed": null,
+      "arm": "frozen",
+      "family": "stuart_landau",
+      "cohort": "retained",
+      "context_field_mse": 0.01234233456263355,
+      "future_field_mse": 0.5897920299475087,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.12375922908779557,
+          "population_mean_nrmse": 0.39998800523271527,
+          "population_median_nrmse": 0.25750505834944193,
+          "finite_only_mse": 0.12375922908779557,
+          "finite_only_mean_nrmse": 0.39998800523271527,
+          "failure_penalized_mean_nrmse": 0.39998800523271527
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 1.0933364671245727,
+          "population_mean_nrmse": 1.4208714582716484,
+          "population_median_nrmse": 0.7052513312835698,
+          "finite_only_mse": 1.0933364671245727,
+          "finite_only_mean_nrmse": 1.4208714582716484,
+          "failure_penalized_mean_nrmse": 1.4208714582716484
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 4.584933964259108,
+          "population_mean_nrmse": 3.1482364263281615,
+          "population_median_nrmse": 1.0140087036159966,
+          "finite_only_mse": 4.584933964259108,
+          "finite_only_mean_nrmse": 3.1482364263281615,
+          "failure_penalized_mean_nrmse": 3.1482364263281615
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_frozen_retained_v1.npz",
+      "array_sha256": "9256c7790aa2bdec1207bd376395e7cc26794f395985130701930f64412234f3"
+    },
+    {
+      "model": "native_frozen",
+      "seed": null,
+      "arm": "frozen",
+      "family": "duffing",
+      "cohort": "crossed",
+      "context_field_mse": 0.004803850593247205,
+      "future_field_mse": 0.7151388772812203,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.1384495974953559,
+          "population_mean_nrmse": 0.48258797500542083,
+          "population_median_nrmse": 0.3144142898007083,
+          "finite_only_mse": 0.1384495974953559,
+          "finite_only_mean_nrmse": 0.48258797500542083,
+          "failure_penalized_mean_nrmse": 0.48258797500542083
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 8.658135070408207,
+          "population_mean_nrmse": 1.700293680651269,
+          "population_median_nrmse": 1.0120814508392186,
+          "finite_only_mse": 8.658135070408207,
+          "finite_only_mean_nrmse": 1.700293680651269,
+          "failure_penalized_mean_nrmse": 1.700293680651269
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 61.528034882245265,
+          "population_mean_nrmse": 3.7101015374310866,
+          "population_median_nrmse": 1.5149564592908893,
+          "finite_only_mse": 61.528034882245265,
+          "finite_only_mean_nrmse": 3.7101015374310866,
+          "failure_penalized_mean_nrmse": 3.7101015374310866
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_frozen_crossed_v1.npz",
+      "array_sha256": "fa0817ab40a0d91bf1c7b978ef725981d80d0d5249539d72bf20d4b61e0ebe68"
+    },
+    {
+      "model": "native_frozen",
+      "seed": null,
+      "arm": "frozen",
+      "family": "stuart_landau",
+      "cohort": "crossed",
+      "context_field_mse": 0.01000607260225271,
+      "future_field_mse": 0.6112595359495117,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.15633999468082038,
+          "population_mean_nrmse": 0.4775393399503569,
+          "population_median_nrmse": 0.30978885504765574,
+          "finite_only_mse": 0.15633999468082038,
+          "finite_only_mean_nrmse": 0.4775393399503569,
+          "failure_penalized_mean_nrmse": 0.4775393399503569
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 2.3885272958632413,
+          "population_mean_nrmse": 1.6366584376240465,
+          "population_median_nrmse": 0.878655959354111,
+          "finite_only_mse": 2.3885272958632413,
+          "finite_only_mean_nrmse": 1.6366584376240465,
+          "failure_penalized_mean_nrmse": 1.6366584376240465
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 12.405374262271835,
+          "population_mean_nrmse": 3.279851477154116,
+          "population_median_nrmse": 1.136225553098244,
+          "finite_only_mse": 12.405374262271835,
+          "finite_only_mean_nrmse": 3.279851477154116,
+          "failure_penalized_mean_nrmse": 3.279851477154116
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_frozen_crossed_v1.npz",
+      "array_sha256": "fa0817ab40a0d91bf1c7b978ef725981d80d0d5249539d72bf20d4b61e0ebe68"
+    },
+    {
+      "model": "native_frozen",
+      "seed": null,
+      "arm": "frozen",
+      "family": "duffing",
+      "cohort": "unselected",
+      "context_field_mse": 0.00713964676409962,
+      "future_field_mse": 0.564869166326959,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.11896242765612897,
+          "population_mean_nrmse": 0.4159512508258646,
+          "population_median_nrmse": 0.30609997758186586,
+          "finite_only_mse": 0.11896242765612897,
+          "finite_only_mean_nrmse": 0.4159512508258646,
+          "failure_penalized_mean_nrmse": 0.4159512508258646
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 1.1316666792604337,
+          "population_mean_nrmse": 1.358388658729762,
+          "population_median_nrmse": 0.9476003128498613,
+          "finite_only_mse": 1.1316666792604337,
+          "finite_only_mean_nrmse": 1.358388658729762,
+          "failure_penalized_mean_nrmse": 1.358388658729762
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 4.921386846981477,
+          "population_mean_nrmse": 2.7028654404022023,
+          "population_median_nrmse": 1.2560365765306791,
+          "finite_only_mse": 4.921386846981477,
+          "finite_only_mean_nrmse": 2.7028654404022023,
+          "failure_penalized_mean_nrmse": 2.7028654404022023
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_frozen_unselected_v1.npz",
+      "array_sha256": "f40826fcea77c3c7e16a2a04d775e61cf114c08394610e7aabb6b0b13ea5304f"
+    },
+    {
+      "model": "native_frozen",
+      "seed": null,
+      "arm": "frozen",
+      "family": "stuart_landau",
+      "cohort": "unselected",
+      "context_field_mse": 0.012901027924940363,
+      "future_field_mse": 0.5822928955102022,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.12877458250403606,
+          "population_mean_nrmse": 0.40491314546140766,
+          "population_median_nrmse": 0.24025449681152097,
+          "finite_only_mse": 0.12877458250403606,
+          "finite_only_mean_nrmse": 0.40491314546140766,
+          "failure_penalized_mean_nrmse": 0.40491314546140766
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 1.0760192799416473,
+          "population_mean_nrmse": 1.4353358759090311,
+          "population_median_nrmse": 0.7236473416136249,
+          "finite_only_mse": 1.0760192799416473,
+          "finite_only_mean_nrmse": 1.4353358759090311,
+          "failure_penalized_mean_nrmse": 1.4353358759090311
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 4.1090123315261735,
+          "population_mean_nrmse": 3.0510961198301683,
+          "population_median_nrmse": 0.9833186486316017,
+          "finite_only_mse": 4.1090123315261735,
+          "finite_only_mean_nrmse": 3.0510961198301683,
+          "failure_penalized_mean_nrmse": 3.0510961198301683
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_frozen_unselected_v1.npz",
+      "array_sha256": "f40826fcea77c3c7e16a2a04d775e61cf114c08394610e7aabb6b0b13ea5304f"
+    },
+    {
+      "model": "native_seed2026872_whole_filter",
+      "seed": 2026872,
+      "arm": "whole_filter",
+      "family": "duffing",
+      "cohort": "retained",
+      "context_field_mse": 0.0031863481619374603,
+      "future_field_mse": 0.5704153582900214,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.07645605850772341,
+          "population_mean_nrmse": 0.2468107226689749,
+          "population_median_nrmse": 0.10862608956061838,
+          "finite_only_mse": 0.07645605850772341,
+          "finite_only_mean_nrmse": 0.2468107226689749,
+          "failure_penalized_mean_nrmse": 0.2468107226689749
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.3132429518063873,
+          "population_mean_nrmse": 0.6557936226359914,
+          "population_median_nrmse": 0.45334795541006956,
+          "finite_only_mse": 0.3132429518063873,
+          "finite_only_mean_nrmse": 0.6557936226359914,
+          "failure_penalized_mean_nrmse": 0.6557936226359914
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.4187194834557886,
+          "population_mean_nrmse": 0.8000852371454477,
+          "population_median_nrmse": 0.528040525478483,
+          "finite_only_mse": 0.4187194834557886,
+          "finite_only_mean_nrmse": 0.8000852371454477,
+          "failure_penalized_mean_nrmse": 0.8000852371454477
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026872_whole_filter_retained_v1.npz",
+      "array_sha256": "067dde2cfe11a2b0d77e4df1772af03af53933e15c2ab101acae993b080d0f30"
+    },
+    {
+      "model": "native_seed2026872_whole_filter",
+      "seed": 2026872,
+      "arm": "whole_filter",
+      "family": "stuart_landau",
+      "cohort": "retained",
+      "context_field_mse": 0.012861468282642813,
+      "future_field_mse": 0.3217078203873637,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.024833904239699223,
+          "population_mean_nrmse": 0.1921372979319765,
+          "population_median_nrmse": 0.12806354301735612,
+          "finite_only_mse": 0.024833904239699223,
+          "finite_only_mean_nrmse": 0.1921372979319765,
+          "failure_penalized_mean_nrmse": 0.1921372979319765
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.11052078074317251,
+          "population_mean_nrmse": 0.4920722408958016,
+          "population_median_nrmse": 0.33968384464470486,
+          "finite_only_mse": 0.11052078074317251,
+          "finite_only_mean_nrmse": 0.4920722408958016,
+          "failure_penalized_mean_nrmse": 0.4920722408958016
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.2539933291500347,
+          "population_mean_nrmse": 0.7725298488157689,
+          "population_median_nrmse": 0.616153283070804,
+          "finite_only_mse": 0.2539933291500347,
+          "finite_only_mean_nrmse": 0.7725298488157689,
+          "failure_penalized_mean_nrmse": 0.7725298488157689
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026872_whole_filter_retained_v1.npz",
+      "array_sha256": "067dde2cfe11a2b0d77e4df1772af03af53933e15c2ab101acae993b080d0f30"
+    },
+    {
+      "model": "native_seed2026872_whole_filter",
+      "seed": 2026872,
+      "arm": "whole_filter",
+      "family": "duffing",
+      "cohort": "crossed",
+      "context_field_mse": 0.0036756574518442965,
+      "future_field_mse": 1.4123905515101423,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.0845799780916785,
+          "population_mean_nrmse": 0.31691748195197744,
+          "population_median_nrmse": 0.1391757598045388,
+          "finite_only_mse": 0.0845799780916785,
+          "finite_only_mean_nrmse": 0.31691748195197744,
+          "failure_penalized_mean_nrmse": 0.31691748195197744
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.32925139616509114,
+          "population_mean_nrmse": 0.6930959687795596,
+          "population_median_nrmse": 0.45465763898541456,
+          "finite_only_mse": 0.32925139616509114,
+          "finite_only_mean_nrmse": 0.6930959687795596,
+          "failure_penalized_mean_nrmse": 0.6930959687795596
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.4550535181874693,
+          "population_mean_nrmse": 0.800671083552266,
+          "population_median_nrmse": 0.6680558699387691,
+          "finite_only_mse": 0.4550535181874693,
+          "finite_only_mean_nrmse": 0.800671083552266,
+          "failure_penalized_mean_nrmse": 0.800671083552266
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026872_whole_filter_crossed_v1.npz",
+      "array_sha256": "2f7f1aa39c574c98f5b12f47b74d2f8e503d4fb8f8610bbc04cfedea183cf469"
+    },
+    {
+      "model": "native_seed2026872_whole_filter",
+      "seed": 2026872,
+      "arm": "whole_filter",
+      "family": "stuart_landau",
+      "cohort": "crossed",
+      "context_field_mse": 0.010520302280534258,
+      "future_field_mse": 0.36435068116473457,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.02460307097430814,
+          "population_mean_nrmse": 0.21949291434237767,
+          "population_median_nrmse": 0.13842318804211992,
+          "finite_only_mse": 0.02460307097430814,
+          "finite_only_mean_nrmse": 0.21949291434237767,
+          "failure_penalized_mean_nrmse": 0.21949291434237767
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.17245993647156865,
+          "population_mean_nrmse": 0.5763124394037131,
+          "population_median_nrmse": 0.3487013668367043,
+          "finite_only_mse": 0.17245993647156865,
+          "finite_only_mean_nrmse": 0.5763124394037131,
+          "failure_penalized_mean_nrmse": 0.5763124394037131
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.2959558244544951,
+          "population_mean_nrmse": 0.8182533627065901,
+          "population_median_nrmse": 0.6619998433977832,
+          "finite_only_mse": 0.2959558244544951,
+          "finite_only_mean_nrmse": 0.8182533627065901,
+          "failure_penalized_mean_nrmse": 0.8182533627065901
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026872_whole_filter_crossed_v1.npz",
+      "array_sha256": "2f7f1aa39c574c98f5b12f47b74d2f8e503d4fb8f8610bbc04cfedea183cf469"
+    },
+    {
+      "model": "native_seed2026872_whole_filter",
+      "seed": 2026872,
+      "arm": "whole_filter",
+      "family": "duffing",
+      "cohort": "unselected",
+      "context_field_mse": 0.007207588754500968,
+      "future_field_mse": 0.48104101543836963,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.07147924765736491,
+          "population_mean_nrmse": 0.2332298546402488,
+          "population_median_nrmse": 0.11980917966742305,
+          "finite_only_mse": 0.07147924765736491,
+          "finite_only_mean_nrmse": 0.2332298546402488,
+          "failure_penalized_mean_nrmse": 0.2332298546402488
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.2682763338798395,
+          "population_mean_nrmse": 0.5959726411302227,
+          "population_median_nrmse": 0.4184588235264286,
+          "finite_only_mse": 0.2682763338798395,
+          "finite_only_mean_nrmse": 0.5959726411302227,
+          "failure_penalized_mean_nrmse": 0.5959726411302227
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.36465262166757384,
+          "population_mean_nrmse": 0.7331260830076949,
+          "population_median_nrmse": 0.5512442539228812,
+          "finite_only_mse": 0.36465262166757384,
+          "finite_only_mean_nrmse": 0.7331260830076949,
+          "failure_penalized_mean_nrmse": 0.7331260830076949
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026872_whole_filter_unselected_v1.npz",
+      "array_sha256": "428f81c2784f5773eebef8de4c6dd08270a6e12aff36f852ff1c90d4e5f42450"
+    },
+    {
+      "model": "native_seed2026872_whole_filter",
+      "seed": 2026872,
+      "arm": "whole_filter",
+      "family": "stuart_landau",
+      "cohort": "unselected",
+      "context_field_mse": 0.012823095289933245,
+      "future_field_mse": 0.3235859505861966,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.02377732876891514,
+          "population_mean_nrmse": 0.1918936969176896,
+          "population_median_nrmse": 0.11465981170399434,
+          "finite_only_mse": 0.02377732876891514,
+          "finite_only_mean_nrmse": 0.1918936969176896,
+          "failure_penalized_mean_nrmse": 0.1918936969176896
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.11096392953095346,
+          "population_mean_nrmse": 0.5042673952523786,
+          "population_median_nrmse": 0.3575146108660089,
+          "finite_only_mse": 0.11096392953095346,
+          "finite_only_mean_nrmse": 0.5042673952523786,
+          "failure_penalized_mean_nrmse": 0.5042673952523786
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.2484864920443215,
+          "population_mean_nrmse": 0.7854157347754022,
+          "population_median_nrmse": 0.6384738920362731,
+          "finite_only_mse": 0.2484864920443215,
+          "finite_only_mean_nrmse": 0.7854157347754022,
+          "failure_penalized_mean_nrmse": 0.7854157347754022
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026872_whole_filter_unselected_v1.npz",
+      "array_sha256": "428f81c2784f5773eebef8de4c6dd08270a6e12aff36f852ff1c90d4e5f42450"
+    },
+    {
+      "model": "native_seed2026872_resampled_ic",
+      "seed": 2026872,
+      "arm": "resampled_ic",
+      "family": "duffing",
+      "cohort": "retained",
+      "context_field_mse": 0.005115397589814587,
+      "future_field_mse": 0.6608768146919501,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.08249683811961717,
+          "population_mean_nrmse": 0.27271717332017775,
+          "population_median_nrmse": 0.11387428099844864,
+          "finite_only_mse": 0.08249683811961717,
+          "finite_only_mean_nrmse": 0.27271717332017775,
+          "failure_penalized_mean_nrmse": 0.27271717332017775
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.31301775806923615,
+          "population_mean_nrmse": 0.6660220040179327,
+          "population_median_nrmse": 0.47678405344807184,
+          "finite_only_mse": 0.31301775806923615,
+          "finite_only_mean_nrmse": 0.6660220040179327,
+          "failure_penalized_mean_nrmse": 0.6660220040179327
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.46066499171229225,
+          "population_mean_nrmse": 0.8206830026318304,
+          "population_median_nrmse": 0.6245684968213157,
+          "finite_only_mse": 0.46066499171229225,
+          "finite_only_mean_nrmse": 0.8206830026318304,
+          "failure_penalized_mean_nrmse": 0.8206830026318304
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026872_resampled_ic_retained_v1.npz",
+      "array_sha256": "a2780c9a8dbac3ff5b6b5c0cfb58e0de04f1a93806d8844d1a0990846ae581d4"
+    },
+    {
+      "model": "native_seed2026872_resampled_ic",
+      "seed": 2026872,
+      "arm": "resampled_ic",
+      "family": "stuart_landau",
+      "cohort": "retained",
+      "context_field_mse": 0.01194243223893167,
+      "future_field_mse": 0.3054973820584883,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.024351544923035817,
+          "population_mean_nrmse": 0.18485907400919835,
+          "population_median_nrmse": 0.11208177362971007,
+          "finite_only_mse": 0.024351544923035817,
+          "finite_only_mean_nrmse": 0.18485907400919835,
+          "failure_penalized_mean_nrmse": 0.18485907400919835
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.1185449751114902,
+          "population_mean_nrmse": 0.45902681335114603,
+          "population_median_nrmse": 0.309094995257759,
+          "finite_only_mse": 0.1185449751114902,
+          "finite_only_mean_nrmse": 0.45902681335114603,
+          "failure_penalized_mean_nrmse": 0.45902681335114603
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.23787419972177304,
+          "population_mean_nrmse": 0.685701048327129,
+          "population_median_nrmse": 0.5323353800971199,
+          "finite_only_mse": 0.23787419972177304,
+          "finite_only_mean_nrmse": 0.685701048327129,
+          "failure_penalized_mean_nrmse": 0.685701048327129
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026872_resampled_ic_retained_v1.npz",
+      "array_sha256": "a2780c9a8dbac3ff5b6b5c0cfb58e0de04f1a93806d8844d1a0990846ae581d4"
+    },
+    {
+      "model": "native_seed2026872_resampled_ic",
+      "seed": 2026872,
+      "arm": "resampled_ic",
+      "family": "duffing",
+      "cohort": "crossed",
+      "context_field_mse": 0.005457634339848098,
+      "future_field_mse": 0.7118089871062998,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.0863944220819235,
+          "population_mean_nrmse": 0.31396098394710004,
+          "population_median_nrmse": 0.1483601071439395,
+          "finite_only_mse": 0.0863944220819235,
+          "finite_only_mean_nrmse": 0.31396098394710004,
+          "failure_penalized_mean_nrmse": 0.31396098394710004
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.3693293502366828,
+          "population_mean_nrmse": 0.7341654186294635,
+          "population_median_nrmse": 0.49707005819921257,
+          "finite_only_mse": 0.3693293502366828,
+          "finite_only_mean_nrmse": 0.7341654186294635,
+          "failure_penalized_mean_nrmse": 0.7341654186294635
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.473127665206448,
+          "population_mean_nrmse": 0.8303934349818972,
+          "population_median_nrmse": 0.6795978174612758,
+          "finite_only_mse": 0.473127665206448,
+          "finite_only_mean_nrmse": 0.8303934349818972,
+          "failure_penalized_mean_nrmse": 0.8303934349818972
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026872_resampled_ic_crossed_v1.npz",
+      "array_sha256": "d9905af43e5fa970e020766580617f10f5989b90ec44d08f19417a93bbd9da91"
+    },
+    {
+      "model": "native_seed2026872_resampled_ic",
+      "seed": 2026872,
+      "arm": "resampled_ic",
+      "family": "stuart_landau",
+      "cohort": "crossed",
+      "context_field_mse": 0.014823831855814654,
+      "future_field_mse": 0.31481068315663835,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.021856985650288152,
+          "population_mean_nrmse": 0.22429821139794823,
+          "population_median_nrmse": 0.13768793613180458,
+          "finite_only_mse": 0.021856985650288152,
+          "finite_only_mean_nrmse": 0.22429821139794823,
+          "failure_penalized_mean_nrmse": 0.22429821139794823
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.14706160541936697,
+          "population_mean_nrmse": 0.505090499992991,
+          "population_median_nrmse": 0.3250605179202207,
+          "finite_only_mse": 0.14706160541936697,
+          "finite_only_mean_nrmse": 0.505090499992991,
+          "failure_penalized_mean_nrmse": 0.505090499992991
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.24317326723576116,
+          "population_mean_nrmse": 0.703360453304817,
+          "population_median_nrmse": 0.5225650645695403,
+          "finite_only_mse": 0.24317326723576116,
+          "finite_only_mean_nrmse": 0.703360453304817,
+          "failure_penalized_mean_nrmse": 0.703360453304817
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026872_resampled_ic_crossed_v1.npz",
+      "array_sha256": "d9905af43e5fa970e020766580617f10f5989b90ec44d08f19417a93bbd9da91"
+    },
+    {
+      "model": "native_seed2026872_resampled_ic",
+      "seed": 2026872,
+      "arm": "resampled_ic",
+      "family": "duffing",
+      "cohort": "unselected",
+      "context_field_mse": 0.009796850039359942,
+      "future_field_mse": 0.38527324419744435,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.07617885871116314,
+          "population_mean_nrmse": 0.23848594614176466,
+          "population_median_nrmse": 0.12369208358744,
+          "finite_only_mse": 0.07617885871116314,
+          "finite_only_mean_nrmse": 0.23848594614176466,
+          "failure_penalized_mean_nrmse": 0.23848594614176466
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.2744231559220225,
+          "population_mean_nrmse": 0.6212412059487453,
+          "population_median_nrmse": 0.4537738085690469,
+          "finite_only_mse": 0.2744231559220225,
+          "finite_only_mean_nrmse": 0.6212412059487453,
+          "failure_penalized_mean_nrmse": 0.6212412059487453
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.3913148782858116,
+          "population_mean_nrmse": 0.7734393694979115,
+          "population_median_nrmse": 0.5691142108125964,
+          "finite_only_mse": 0.3913148782858116,
+          "finite_only_mean_nrmse": 0.7734393694979115,
+          "failure_penalized_mean_nrmse": 0.7734393694979115
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026872_resampled_ic_unselected_v1.npz",
+      "array_sha256": "bb0594763b1ab4a83ce2af32a10aaca878ee68a4920c0a128a4ff4faf8fc6744"
+    },
+    {
+      "model": "native_seed2026872_resampled_ic",
+      "seed": 2026872,
+      "arm": "resampled_ic",
+      "family": "stuart_landau",
+      "cohort": "unselected",
+      "context_field_mse": 0.013782390160481986,
+      "future_field_mse": 0.3049562368137931,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.021836734398618773,
+          "population_mean_nrmse": 0.18148852682044575,
+          "population_median_nrmse": 0.11268198093276689,
+          "finite_only_mse": 0.021836734398618773,
+          "finite_only_mean_nrmse": 0.18148852682044575,
+          "failure_penalized_mean_nrmse": 0.18148852682044575
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.1209716532011953,
+          "population_mean_nrmse": 0.470334339275403,
+          "population_median_nrmse": 0.3057911828930868,
+          "finite_only_mse": 0.1209716532011953,
+          "finite_only_mean_nrmse": 0.470334339275403,
+          "failure_penalized_mean_nrmse": 0.470334339275403
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.24113812290852366,
+          "population_mean_nrmse": 0.7102369360331966,
+          "population_median_nrmse": 0.5662837964427268,
+          "finite_only_mse": 0.24113812290852366,
+          "finite_only_mean_nrmse": 0.7102369360331966,
+          "failure_penalized_mean_nrmse": 0.7102369360331966
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026872_resampled_ic_unselected_v1.npz",
+      "array_sha256": "bb0594763b1ab4a83ce2af32a10aaca878ee68a4920c0a128a4ff4faf8fc6744"
+    },
+    {
+      "model": "native_seed2026872_unselected",
+      "seed": 2026872,
+      "arm": "unselected",
+      "family": "duffing",
+      "cohort": "retained",
+      "context_field_mse": 0.00488422526532049,
+      "future_field_mse": 0.18670286963216776,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.04008212578397519,
+          "population_mean_nrmse": 0.21033161003284312,
+          "population_median_nrmse": 0.10472769627835701,
+          "finite_only_mse": 0.04008212578397519,
+          "finite_only_mean_nrmse": 0.21033161003284312,
+          "failure_penalized_mean_nrmse": 0.21033161003284312
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.26840083939237047,
+          "population_mean_nrmse": 0.6265360915828442,
+          "population_median_nrmse": 0.42797964216904577,
+          "finite_only_mse": 0.26840083939237047,
+          "finite_only_mean_nrmse": 0.6265360915828442,
+          "failure_penalized_mean_nrmse": 0.6265360915828442
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.3995587420213269,
+          "population_mean_nrmse": 0.8041194734602235,
+          "population_median_nrmse": 0.6381715554757101,
+          "finite_only_mse": 0.3995587420213269,
+          "finite_only_mean_nrmse": 0.8041194734602235,
+          "failure_penalized_mean_nrmse": 0.8041194734602235
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026872_unselected_retained_v1.npz",
+      "array_sha256": "2b56fa0b0696beb446cae471dba56dfa9db6bfdaab5af87d062a517c4316e308"
+    },
+    {
+      "model": "native_seed2026872_unselected",
+      "seed": 2026872,
+      "arm": "unselected",
+      "family": "stuart_landau",
+      "cohort": "retained",
+      "context_field_mse": 0.012245833826721625,
+      "future_field_mse": 0.2950044408497003,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.021801759505393647,
+          "population_mean_nrmse": 0.1805364712907065,
+          "population_median_nrmse": 0.10300355237538844,
+          "finite_only_mse": 0.021801759505393647,
+          "finite_only_mean_nrmse": 0.1805364712907065,
+          "failure_penalized_mean_nrmse": 0.1805364712907065
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.0828922081204837,
+          "population_mean_nrmse": 0.43645448049551094,
+          "population_median_nrmse": 0.31734252916571054,
+          "finite_only_mse": 0.0828922081204837,
+          "finite_only_mean_nrmse": 0.43645448049551094,
+          "failure_penalized_mean_nrmse": 0.43645448049551094
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.17244943909781796,
+          "population_mean_nrmse": 0.6782631990128831,
+          "population_median_nrmse": 0.506976796719858,
+          "finite_only_mse": 0.17244943909781796,
+          "finite_only_mean_nrmse": 0.6782631990128831,
+          "failure_penalized_mean_nrmse": 0.6782631990128831
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026872_unselected_retained_v1.npz",
+      "array_sha256": "2b56fa0b0696beb446cae471dba56dfa9db6bfdaab5af87d062a517c4316e308"
+    },
+    {
+      "model": "native_seed2026872_unselected",
+      "seed": 2026872,
+      "arm": "unselected",
+      "family": "duffing",
+      "cohort": "crossed",
+      "context_field_mse": 0.006770754275883141,
+      "future_field_mse": 0.48804192611053454,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.05748487395194957,
+          "population_mean_nrmse": 0.26388479894883177,
+          "population_median_nrmse": 0.1411803810500103,
+          "finite_only_mse": 0.05748487395194957,
+          "finite_only_mean_nrmse": 0.26388479894883177,
+          "failure_penalized_mean_nrmse": 0.26388479894883177
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.32772476961554275,
+          "population_mean_nrmse": 0.6754462336482113,
+          "population_median_nrmse": 0.437572232997833,
+          "finite_only_mse": 0.32772476961554275,
+          "finite_only_mean_nrmse": 0.6754462336482113,
+          "failure_penalized_mean_nrmse": 0.6754462336482113
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.44797735240035763,
+          "population_mean_nrmse": 0.7933251407876036,
+          "population_median_nrmse": 0.6357014050800418,
+          "finite_only_mse": 0.44797735240035763,
+          "finite_only_mean_nrmse": 0.7933251407876036,
+          "failure_penalized_mean_nrmse": 0.7933251407876036
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026872_unselected_crossed_v1.npz",
+      "array_sha256": "edea104c75073f7990c899c6712503e23471f5d85ab7ba8d3bbc2ed80f9634f9"
+    },
+    {
+      "model": "native_seed2026872_unselected",
+      "seed": 2026872,
+      "arm": "unselected",
+      "family": "stuart_landau",
+      "cohort": "crossed",
+      "context_field_mse": 0.021480195596965478,
+      "future_field_mse": 0.27950440134285814,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.029844794377417827,
+          "population_mean_nrmse": 0.21931632373251578,
+          "population_median_nrmse": 0.12706903824861732,
+          "finite_only_mse": 0.029844794377417827,
+          "finite_only_mean_nrmse": 0.21931632373251578,
+          "failure_penalized_mean_nrmse": 0.21931632373251578
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.19557963242277765,
+          "population_mean_nrmse": 0.5434011433592731,
+          "population_median_nrmse": 0.3279486604651105,
+          "finite_only_mse": 0.19557963242277765,
+          "finite_only_mean_nrmse": 0.5434011433592731,
+          "failure_penalized_mean_nrmse": 0.5434011433592731
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.3149873054780983,
+          "population_mean_nrmse": 0.7808524749630166,
+          "population_median_nrmse": 0.5431221172379895,
+          "finite_only_mse": 0.3149873054780983,
+          "finite_only_mean_nrmse": 0.7808524749630166,
+          "failure_penalized_mean_nrmse": 0.7808524749630166
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026872_unselected_crossed_v1.npz",
+      "array_sha256": "edea104c75073f7990c899c6712503e23471f5d85ab7ba8d3bbc2ed80f9634f9"
+    },
+    {
+      "model": "native_seed2026872_unselected",
+      "seed": 2026872,
+      "arm": "unselected",
+      "family": "duffing",
+      "cohort": "unselected",
+      "context_field_mse": 0.021466824950754994,
+      "future_field_mse": 0.18392186404613517,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.05270746044939756,
+          "population_mean_nrmse": 0.2088343169474301,
+          "population_median_nrmse": 0.13218952961185848,
+          "finite_only_mse": 0.05270746044939756,
+          "finite_only_mean_nrmse": 0.2088343169474301,
+          "failure_penalized_mean_nrmse": 0.2088343169474301
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.2520566372277244,
+          "population_mean_nrmse": 0.5792696281757426,
+          "population_median_nrmse": 0.4122666271728626,
+          "finite_only_mse": 0.2520566372277244,
+          "finite_only_mean_nrmse": 0.5792696281757426,
+          "failure_penalized_mean_nrmse": 0.5792696281757426
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.31658627623778557,
+          "population_mean_nrmse": 0.6996006941878576,
+          "population_median_nrmse": 0.5337079775868214,
+          "finite_only_mse": 0.31658627623778557,
+          "finite_only_mean_nrmse": 0.6996006941878576,
+          "failure_penalized_mean_nrmse": 0.6996006941878576
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026872_unselected_unselected_v1.npz",
+      "array_sha256": "6e8f27713b15f118fe51fdf6403e6a0cde26c08aba53da6af03ffe50f3db5a1e"
+    },
+    {
+      "model": "native_seed2026872_unselected",
+      "seed": 2026872,
+      "arm": "unselected",
+      "family": "stuart_landau",
+      "cohort": "unselected",
+      "context_field_mse": 0.012303838363433536,
+      "future_field_mse": 0.2867790963570871,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.02337340226614515,
+          "population_mean_nrmse": 0.1924550265944449,
+          "population_median_nrmse": 0.10796877584958697,
+          "finite_only_mse": 0.02337340226614515,
+          "finite_only_mean_nrmse": 0.1924550265944449,
+          "failure_penalized_mean_nrmse": 0.1924550265944449
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.09427080115784747,
+          "population_mean_nrmse": 0.47901204000314945,
+          "population_median_nrmse": 0.35394322839948134,
+          "finite_only_mse": 0.09427080115784747,
+          "finite_only_mean_nrmse": 0.47901204000314945,
+          "failure_penalized_mean_nrmse": 0.47901204000314945
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.18456641631701132,
+          "population_mean_nrmse": 0.7156256490231616,
+          "population_median_nrmse": 0.5322979538019674,
+          "finite_only_mse": 0.18456641631701132,
+          "finite_only_mean_nrmse": 0.7156256490231616,
+          "failure_penalized_mean_nrmse": 0.7156256490231616
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026872_unselected_unselected_v1.npz",
+      "array_sha256": "6e8f27713b15f118fe51fdf6403e6a0cde26c08aba53da6af03ffe50f3db5a1e"
+    },
+    {
+      "model": "native_seed2026873_whole_filter",
+      "seed": 2026873,
+      "arm": "whole_filter",
+      "family": "duffing",
+      "cohort": "retained",
+      "context_field_mse": 0.004310110252830821,
+      "future_field_mse": 0.56311555341192,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.05885326329169516,
+          "population_mean_nrmse": 0.2475256112388822,
+          "population_median_nrmse": 0.12388619978720564,
+          "finite_only_mse": 0.05885326329169516,
+          "finite_only_mean_nrmse": 0.2475256112388822,
+          "failure_penalized_mean_nrmse": 0.2475256112388822
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.24524749680222158,
+          "population_mean_nrmse": 0.6043942603255759,
+          "population_median_nrmse": 0.40639457445399185,
+          "finite_only_mse": 0.24524749680222158,
+          "finite_only_mean_nrmse": 0.6043942603255759,
+          "failure_penalized_mean_nrmse": 0.6043942603255759
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.3353057691383583,
+          "population_mean_nrmse": 0.7581914726062349,
+          "population_median_nrmse": 0.5376306402533371,
+          "finite_only_mse": 0.3353057691383583,
+          "finite_only_mean_nrmse": 0.7581914726062349,
+          "failure_penalized_mean_nrmse": 0.7581914726062349
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026873_whole_filter_retained_v1.npz",
+      "array_sha256": "f390ab70bebb4219fcf602254fc103f6a7e1a1a54d0999ee4706881a1c563833"
+    },
+    {
+      "model": "native_seed2026873_whole_filter",
+      "seed": 2026873,
+      "arm": "whole_filter",
+      "family": "stuart_landau",
+      "cohort": "retained",
+      "context_field_mse": 0.007906551319036316,
+      "future_field_mse": 0.32102923185891996,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.02156064772583477,
+          "population_mean_nrmse": 0.18050647378430135,
+          "population_median_nrmse": 0.11079814874958951,
+          "finite_only_mse": 0.02156064772583477,
+          "finite_only_mean_nrmse": 0.18050647378430135,
+          "failure_penalized_mean_nrmse": 0.18050647378430135
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.09326542460121345,
+          "population_mean_nrmse": 0.4342194034029506,
+          "population_median_nrmse": 0.29529308412786615,
+          "finite_only_mse": 0.09326542460121345,
+          "finite_only_mean_nrmse": 0.4342194034029506,
+          "failure_penalized_mean_nrmse": 0.4342194034029506
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.19491363340102907,
+          "population_mean_nrmse": 0.6537780396413005,
+          "population_median_nrmse": 0.5232173295721511,
+          "finite_only_mse": 0.19491363340102907,
+          "finite_only_mean_nrmse": 0.6537780396413005,
+          "failure_penalized_mean_nrmse": 0.6537780396413005
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026873_whole_filter_retained_v1.npz",
+      "array_sha256": "f390ab70bebb4219fcf602254fc103f6a7e1a1a54d0999ee4706881a1c563833"
+    },
+    {
+      "model": "native_seed2026873_whole_filter",
+      "seed": 2026873,
+      "arm": "whole_filter",
+      "family": "duffing",
+      "cohort": "crossed",
+      "context_field_mse": 0.005037505388421149,
+      "future_field_mse": 1.1218702842047743,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.0777030918692958,
+          "population_mean_nrmse": 0.3079415791125554,
+          "population_median_nrmse": 0.14012510261570937,
+          "finite_only_mse": 0.0777030918692958,
+          "finite_only_mean_nrmse": 0.3079415791125554,
+          "failure_penalized_mean_nrmse": 0.3079415791125554
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.30648651279011574,
+          "population_mean_nrmse": 0.6861765857007092,
+          "population_median_nrmse": 0.44310289506373735,
+          "finite_only_mse": 0.30648651279011574,
+          "finite_only_mean_nrmse": 0.6861765857007092,
+          "failure_penalized_mean_nrmse": 0.6861765857007092
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.4117128595516988,
+          "population_mean_nrmse": 0.7831086135860019,
+          "population_median_nrmse": 0.5858768380937484,
+          "finite_only_mse": 0.4117128595516988,
+          "finite_only_mean_nrmse": 0.7831086135860019,
+          "failure_penalized_mean_nrmse": 0.7831086135860019
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026873_whole_filter_crossed_v1.npz",
+      "array_sha256": "cf80f6848b69226c7728eb1da7d218fdb731bcebfde82df6e2c88c3bae60d0fb"
+    },
+    {
+      "model": "native_seed2026873_whole_filter",
+      "seed": 2026873,
+      "arm": "whole_filter",
+      "family": "stuart_landau",
+      "cohort": "crossed",
+      "context_field_mse": 0.006201321654061522,
+      "future_field_mse": 0.2991709954552578,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.02411425753851404,
+          "population_mean_nrmse": 0.21130553781540495,
+          "population_median_nrmse": 0.12826544411082058,
+          "finite_only_mse": 0.02411425753851404,
+          "finite_only_mean_nrmse": 0.21130553781540495,
+          "failure_penalized_mean_nrmse": 0.21130553781540495
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.1396236931882413,
+          "population_mean_nrmse": 0.4972000238429579,
+          "population_median_nrmse": 0.328640987561253,
+          "finite_only_mse": 0.1396236931882413,
+          "finite_only_mean_nrmse": 0.4972000238429579,
+          "failure_penalized_mean_nrmse": 0.4972000238429579
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.23653365103041324,
+          "population_mean_nrmse": 0.7015556780908567,
+          "population_median_nrmse": 0.5346914002829977,
+          "finite_only_mse": 0.23653365103041324,
+          "finite_only_mean_nrmse": 0.7015556780908567,
+          "failure_penalized_mean_nrmse": 0.7015556780908567
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026873_whole_filter_crossed_v1.npz",
+      "array_sha256": "cf80f6848b69226c7728eb1da7d218fdb731bcebfde82df6e2c88c3bae60d0fb"
+    },
+    {
+      "model": "native_seed2026873_whole_filter",
+      "seed": 2026873,
+      "arm": "whole_filter",
+      "family": "duffing",
+      "cohort": "unselected",
+      "context_field_mse": 0.006299854799676634,
+      "future_field_mse": 0.5503986798418721,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.05749891972064347,
+          "population_mean_nrmse": 0.22999841282006567,
+          "population_median_nrmse": 0.12141386039805188,
+          "finite_only_mse": 0.05749891972064347,
+          "finite_only_mean_nrmse": 0.22999841282006567,
+          "failure_penalized_mean_nrmse": 0.22999841282006567
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.21258672094973008,
+          "population_mean_nrmse": 0.5575887454153743,
+          "population_median_nrmse": 0.4139310391864789,
+          "finite_only_mse": 0.21258672094973008,
+          "finite_only_mean_nrmse": 0.5575887454153743,
+          "failure_penalized_mean_nrmse": 0.5575887454153743
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.26955622284003766,
+          "population_mean_nrmse": 0.6854587678039261,
+          "population_median_nrmse": 0.5133395895695,
+          "finite_only_mse": 0.26955622284003766,
+          "finite_only_mean_nrmse": 0.6854587678039261,
+          "failure_penalized_mean_nrmse": 0.6854587678039261
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026873_whole_filter_unselected_v1.npz",
+      "array_sha256": "e8b6757834c89ca2bbbaac9d18e8650fd47906587d3d00fc5c6fd46e3ddb97d0"
+    },
+    {
+      "model": "native_seed2026873_whole_filter",
+      "seed": 2026873,
+      "arm": "whole_filter",
+      "family": "stuart_landau",
+      "cohort": "unselected",
+      "context_field_mse": 0.008615992555446478,
+      "future_field_mse": 0.29287484044958095,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.020388773010495242,
+          "population_mean_nrmse": 0.17550170345674093,
+          "population_median_nrmse": 0.11061456799831851,
+          "finite_only_mse": 0.020388773010495242,
+          "finite_only_mean_nrmse": 0.17550170345674093,
+          "failure_penalized_mean_nrmse": 0.17550170345674093
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.09420738583321508,
+          "population_mean_nrmse": 0.43729104334562274,
+          "population_median_nrmse": 0.2835546063556901,
+          "finite_only_mse": 0.09420738583321508,
+          "finite_only_mean_nrmse": 0.43729104334562274,
+          "failure_penalized_mean_nrmse": 0.43729104334562274
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.19530581607523345,
+          "population_mean_nrmse": 0.6716516241290459,
+          "population_median_nrmse": 0.5041025893923955,
+          "finite_only_mse": 0.19530581607523345,
+          "finite_only_mean_nrmse": 0.6716516241290459,
+          "failure_penalized_mean_nrmse": 0.6716516241290459
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026873_whole_filter_unselected_v1.npz",
+      "array_sha256": "e8b6757834c89ca2bbbaac9d18e8650fd47906587d3d00fc5c6fd46e3ddb97d0"
+    },
+    {
+      "model": "native_seed2026873_resampled_ic",
+      "seed": 2026873,
+      "arm": "resampled_ic",
+      "family": "duffing",
+      "cohort": "retained",
+      "context_field_mse": 0.0026920682308174335,
+      "future_field_mse": 0.4976032704346042,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.07322609915684097,
+          "population_mean_nrmse": 0.2625169377611297,
+          "population_median_nrmse": 0.10426542060484176,
+          "finite_only_mse": 0.07322609915684097,
+          "finite_only_mean_nrmse": 0.2625169377611297,
+          "failure_penalized_mean_nrmse": 0.2625169377611297
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.2829033600269213,
+          "population_mean_nrmse": 0.6375875499708907,
+          "population_median_nrmse": 0.44115394044628475,
+          "finite_only_mse": 0.2829033600269213,
+          "finite_only_mean_nrmse": 0.6375875499708907,
+          "failure_penalized_mean_nrmse": 0.6375875499708907
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.3849377987889966,
+          "population_mean_nrmse": 0.7913054368458254,
+          "population_median_nrmse": 0.570228966049739,
+          "finite_only_mse": 0.3849377987889966,
+          "finite_only_mean_nrmse": 0.7913054368458254,
+          "failure_penalized_mean_nrmse": 0.7913054368458254
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026873_resampled_ic_retained_v1.npz",
+      "array_sha256": "f8e1cb827b3cd214011237aa5d6139617bc26fe5d6acf26f9339e6e9977347f7"
+    },
+    {
+      "model": "native_seed2026873_resampled_ic",
+      "seed": 2026873,
+      "arm": "resampled_ic",
+      "family": "stuart_landau",
+      "cohort": "retained",
+      "context_field_mse": 0.009128457333241063,
+      "future_field_mse": 0.2595026083743849,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.020678187263513337,
+          "population_mean_nrmse": 0.17491008505716477,
+          "population_median_nrmse": 0.10678032595834663,
+          "finite_only_mse": 0.020678187263513337,
+          "finite_only_mean_nrmse": 0.17491008505716477,
+          "failure_penalized_mean_nrmse": 0.17491008505716477
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.09647205317651242,
+          "population_mean_nrmse": 0.4475207658213698,
+          "population_median_nrmse": 0.28626088249059234,
+          "finite_only_mse": 0.09647205317651242,
+          "finite_only_mean_nrmse": 0.4475207658213698,
+          "failure_penalized_mean_nrmse": 0.4475207658213698
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.1869581651135377,
+          "population_mean_nrmse": 0.665125211964027,
+          "population_median_nrmse": 0.49516095329412435,
+          "finite_only_mse": 0.1869581651135377,
+          "finite_only_mean_nrmse": 0.665125211964027,
+          "failure_penalized_mean_nrmse": 0.665125211964027
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026873_resampled_ic_retained_v1.npz",
+      "array_sha256": "f8e1cb827b3cd214011237aa5d6139617bc26fe5d6acf26f9339e6e9977347f7"
+    },
+    {
+      "model": "native_seed2026873_resampled_ic",
+      "seed": 2026873,
+      "arm": "resampled_ic",
+      "family": "duffing",
+      "cohort": "crossed",
+      "context_field_mse": 0.0031798075275326176,
+      "future_field_mse": 0.5643754193484106,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.07096710909397785,
+          "population_mean_nrmse": 0.28748092731684693,
+          "population_median_nrmse": 0.11877926648047234,
+          "finite_only_mse": 0.07096710909397785,
+          "finite_only_mean_nrmse": 0.28748092731684693,
+          "failure_penalized_mean_nrmse": 0.28748092731684693
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.30626539565173516,
+          "population_mean_nrmse": 0.6740400554054282,
+          "population_median_nrmse": 0.49224901056144116,
+          "finite_only_mse": 0.30626539565173516,
+          "finite_only_mean_nrmse": 0.6740400554054282,
+          "failure_penalized_mean_nrmse": 0.6740400554054282
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.4340111544411229,
+          "population_mean_nrmse": 0.7904811567868562,
+          "population_median_nrmse": 0.6533249461816444,
+          "finite_only_mse": 0.4340111544411229,
+          "finite_only_mean_nrmse": 0.7904811567868562,
+          "failure_penalized_mean_nrmse": 0.7904811567868562
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026873_resampled_ic_crossed_v1.npz",
+      "array_sha256": "6c17b77ba80adcc9bb2b4980c1151dcc627049d1d12bf3de14ff4c246bd5ea31"
+    },
+    {
+      "model": "native_seed2026873_resampled_ic",
+      "seed": 2026873,
+      "arm": "resampled_ic",
+      "family": "stuart_landau",
+      "cohort": "crossed",
+      "context_field_mse": 0.010865637469553826,
+      "future_field_mse": 0.3178886851450643,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.028408579834760417,
+          "population_mean_nrmse": 0.22794587028018887,
+          "population_median_nrmse": 0.13359307907289233,
+          "finite_only_mse": 0.028408579834760417,
+          "finite_only_mean_nrmse": 0.22794587028018887,
+          "failure_penalized_mean_nrmse": 0.22794587028018887
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.19036240864352294,
+          "population_mean_nrmse": 0.5254372613090094,
+          "population_median_nrmse": 0.3029548746233507,
+          "finite_only_mse": 0.19036240864352294,
+          "finite_only_mean_nrmse": 0.5254372613090094,
+          "failure_penalized_mean_nrmse": 0.5254372613090094
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.312432944075681,
+          "population_mean_nrmse": 0.7187474659155493,
+          "population_median_nrmse": 0.4780158587870619,
+          "finite_only_mse": 0.312432944075681,
+          "finite_only_mean_nrmse": 0.7187474659155493,
+          "failure_penalized_mean_nrmse": 0.7187474659155493
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026873_resampled_ic_crossed_v1.npz",
+      "array_sha256": "6c17b77ba80adcc9bb2b4980c1151dcc627049d1d12bf3de14ff4c246bd5ea31"
+    },
+    {
+      "model": "native_seed2026873_resampled_ic",
+      "seed": 2026873,
+      "arm": "resampled_ic",
+      "family": "duffing",
+      "cohort": "unselected",
+      "context_field_mse": 0.005499228083901361,
+      "future_field_mse": 0.39997354623734865,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.06600296258041993,
+          "population_mean_nrmse": 0.22686597691876267,
+          "population_median_nrmse": 0.12357304541564429,
+          "finite_only_mse": 0.06600296258041993,
+          "finite_only_mean_nrmse": 0.22686597691876267,
+          "failure_penalized_mean_nrmse": 0.22686597691876267
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.24018055363336543,
+          "population_mean_nrmse": 0.5527686046830822,
+          "population_median_nrmse": 0.39618998479610845,
+          "finite_only_mse": 0.24018055363336543,
+          "finite_only_mean_nrmse": 0.5527686046830822,
+          "failure_penalized_mean_nrmse": 0.5527686046830822
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.2845171971766831,
+          "population_mean_nrmse": 0.6749516885055544,
+          "population_median_nrmse": 0.5054303383364975,
+          "finite_only_mse": 0.2845171971766831,
+          "finite_only_mean_nrmse": 0.6749516885055544,
+          "failure_penalized_mean_nrmse": 0.6749516885055544
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026873_resampled_ic_unselected_v1.npz",
+      "array_sha256": "7b7cdf32b70b6c7b8352880b0dc828da0af6e6c7754dd4e9b67de163b088cb34"
+    },
+    {
+      "model": "native_seed2026873_resampled_ic",
+      "seed": 2026873,
+      "arm": "resampled_ic",
+      "family": "stuart_landau",
+      "cohort": "unselected",
+      "context_field_mse": 0.009457317219751061,
+      "future_field_mse": 0.26636685357588386,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.02003904744775653,
+          "population_mean_nrmse": 0.17592513490689485,
+          "population_median_nrmse": 0.10737132849750429,
+          "finite_only_mse": 0.02003904744775653,
+          "finite_only_mean_nrmse": 0.17592513490689485,
+          "failure_penalized_mean_nrmse": 0.17592513490689485
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.10233688099469873,
+          "population_mean_nrmse": 0.45514431019793566,
+          "population_median_nrmse": 0.3138177678509789,
+          "finite_only_mse": 0.10233688099469873,
+          "finite_only_mean_nrmse": 0.45514431019793566,
+          "failure_penalized_mean_nrmse": 0.45514431019793566
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.18595599351101555,
+          "population_mean_nrmse": 0.6781779039212605,
+          "population_median_nrmse": 0.5237678977345375,
+          "finite_only_mse": 0.18595599351101555,
+          "finite_only_mean_nrmse": 0.6781779039212605,
+          "failure_penalized_mean_nrmse": 0.6781779039212605
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026873_resampled_ic_unselected_v1.npz",
+      "array_sha256": "7b7cdf32b70b6c7b8352880b0dc828da0af6e6c7754dd4e9b67de163b088cb34"
+    },
+    {
+      "model": "native_seed2026873_unselected",
+      "seed": 2026873,
+      "arm": "unselected",
+      "family": "duffing",
+      "cohort": "retained",
+      "context_field_mse": 0.006118442353357739,
+      "future_field_mse": 0.2258986620399588,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.04956224643808582,
+          "population_mean_nrmse": 0.22128635276766317,
+          "population_median_nrmse": 0.11415364697807795,
+          "finite_only_mse": 0.04956224643808582,
+          "finite_only_mean_nrmse": 0.22128635276766317,
+          "failure_penalized_mean_nrmse": 0.22128635276766317
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.29323154139092367,
+          "population_mean_nrmse": 0.6602497726016704,
+          "population_median_nrmse": 0.4742085080181051,
+          "finite_only_mse": 0.29323154139092367,
+          "finite_only_mean_nrmse": 0.6602497726016704,
+          "failure_penalized_mean_nrmse": 0.6602497726016704
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.412441070226123,
+          "population_mean_nrmse": 0.8456225062368675,
+          "population_median_nrmse": 0.6360768103986219,
+          "finite_only_mse": 0.412441070226123,
+          "finite_only_mean_nrmse": 0.8456225062368675,
+          "failure_penalized_mean_nrmse": 0.8456225062368675
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026873_unselected_retained_v1.npz",
+      "array_sha256": "5735c790a4100b8af8f1b0aa5c0ad311a8ffccea01b878b5c65870f586e96f7b"
+    },
+    {
+      "model": "native_seed2026873_unselected",
+      "seed": 2026873,
+      "arm": "unselected",
+      "family": "stuart_landau",
+      "cohort": "retained",
+      "context_field_mse": 0.009301327771279094,
+      "future_field_mse": 0.24797507041772004,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.020509058019072768,
+          "population_mean_nrmse": 0.18440956166184935,
+          "population_median_nrmse": 0.11706576248053426,
+          "finite_only_mse": 0.020509058019072768,
+          "finite_only_mean_nrmse": 0.18440956166184935,
+          "failure_penalized_mean_nrmse": 0.18440956166184935
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.09233993855468725,
+          "population_mean_nrmse": 0.4615090702553744,
+          "population_median_nrmse": 0.3600835140297367,
+          "finite_only_mse": 0.09233993855468725,
+          "finite_only_mean_nrmse": 0.4615090702553744,
+          "failure_penalized_mean_nrmse": 0.4615090702553744
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.22033159379316203,
+          "population_mean_nrmse": 0.7155021762829872,
+          "population_median_nrmse": 0.6174392537596451,
+          "finite_only_mse": 0.22033159379316203,
+          "finite_only_mean_nrmse": 0.7155021762829872,
+          "failure_penalized_mean_nrmse": 0.7155021762829872
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026873_unselected_retained_v1.npz",
+      "array_sha256": "5735c790a4100b8af8f1b0aa5c0ad311a8ffccea01b878b5c65870f586e96f7b"
+    },
+    {
+      "model": "native_seed2026873_unselected",
+      "seed": 2026873,
+      "arm": "unselected",
+      "family": "duffing",
+      "cohort": "crossed",
+      "context_field_mse": 0.006839147080808676,
+      "future_field_mse": 0.5386716153684697,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.06732046996654617,
+          "population_mean_nrmse": 0.28570256413534223,
+          "population_median_nrmse": 0.14816638952416517,
+          "finite_only_mse": 0.06732046996654617,
+          "finite_only_mean_nrmse": 0.28570256413534223,
+          "failure_penalized_mean_nrmse": 0.28570256413534223
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.3308415408437213,
+          "population_mean_nrmse": 0.7025768222114412,
+          "population_median_nrmse": 0.44037595369952237,
+          "finite_only_mse": 0.3308415408437213,
+          "finite_only_mean_nrmse": 0.7025768222114412,
+          "failure_penalized_mean_nrmse": 0.7025768222114412
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.4421498030951625,
+          "population_mean_nrmse": 0.8117591061609076,
+          "population_median_nrmse": 0.6759311064995961,
+          "finite_only_mse": 0.4421498030951625,
+          "finite_only_mean_nrmse": 0.8117591061609076,
+          "failure_penalized_mean_nrmse": 0.8117591061609076
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026873_unselected_crossed_v1.npz",
+      "array_sha256": "a4e3e1e3abf55f4d8bd41beea1347bf2f92536f6b496fa29404d629ec05bc8b4"
+    },
+    {
+      "model": "native_seed2026873_unselected",
+      "seed": 2026873,
+      "arm": "unselected",
+      "family": "stuart_landau",
+      "cohort": "crossed",
+      "context_field_mse": 0.010063205890883291,
+      "future_field_mse": 0.21902293782441665,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.025401545095292022,
+          "population_mean_nrmse": 0.21895757295889406,
+          "population_median_nrmse": 0.146528293628485,
+          "finite_only_mse": 0.025401545095292022,
+          "finite_only_mean_nrmse": 0.21895757295889406,
+          "failure_penalized_mean_nrmse": 0.21895757295889406
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.1786800332929488,
+          "population_mean_nrmse": 0.5659430829144192,
+          "population_median_nrmse": 0.36375178114253537,
+          "finite_only_mse": 0.1786800332929488,
+          "finite_only_mean_nrmse": 0.5659430829144192,
+          "failure_penalized_mean_nrmse": 0.5659430829144192
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.29359306630158244,
+          "population_mean_nrmse": 0.7999502353115053,
+          "population_median_nrmse": 0.595074158773651,
+          "finite_only_mse": 0.29359306630158244,
+          "finite_only_mean_nrmse": 0.7999502353115053,
+          "failure_penalized_mean_nrmse": 0.7999502353115053
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026873_unselected_crossed_v1.npz",
+      "array_sha256": "a4e3e1e3abf55f4d8bd41beea1347bf2f92536f6b496fa29404d629ec05bc8b4"
+    },
+    {
+      "model": "native_seed2026873_unselected",
+      "seed": 2026873,
+      "arm": "unselected",
+      "family": "duffing",
+      "cohort": "unselected",
+      "context_field_mse": 0.013026354915281119,
+      "future_field_mse": 0.243518812374488,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.06096181845020965,
+          "population_mean_nrmse": 0.22026400627593984,
+          "population_median_nrmse": 0.11979235918973359,
+          "finite_only_mse": 0.06096181845020965,
+          "finite_only_mean_nrmse": 0.22026400627593984,
+          "failure_penalized_mean_nrmse": 0.22026400627593984
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.26335552648379235,
+          "population_mean_nrmse": 0.6087381838162789,
+          "population_median_nrmse": 0.4213822028650952,
+          "finite_only_mse": 0.26335552648379235,
+          "finite_only_mean_nrmse": 0.6087381838162789,
+          "failure_penalized_mean_nrmse": 0.6087381838162789
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.35665976853306347,
+          "population_mean_nrmse": 0.7573220401795389,
+          "population_median_nrmse": 0.5900645618306039,
+          "finite_only_mse": 0.35665976853306347,
+          "finite_only_mean_nrmse": 0.7573220401795389,
+          "failure_penalized_mean_nrmse": 0.7573220401795389
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026873_unselected_unselected_v1.npz",
+      "array_sha256": "8ad99be368e0e0c9148d7b5b7b04f8618a603f2dcf60af3158819e07c0980057"
+    },
+    {
+      "model": "native_seed2026873_unselected",
+      "seed": 2026873,
+      "arm": "unselected",
+      "family": "stuart_landau",
+      "cohort": "unselected",
+      "context_field_mse": 0.009591578658660666,
+      "future_field_mse": 0.24533774840820996,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.02145053758135873,
+          "population_mean_nrmse": 0.18074247857180256,
+          "population_median_nrmse": 0.11286600056658652,
+          "finite_only_mse": 0.02145053758135873,
+          "finite_only_mean_nrmse": 0.18074247857180256,
+          "failure_penalized_mean_nrmse": 0.18074247857180256
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.09356737371763302,
+          "population_mean_nrmse": 0.4538842632852008,
+          "population_median_nrmse": 0.3572750257094448,
+          "finite_only_mse": 0.09356737371763302,
+          "finite_only_mean_nrmse": 0.4538842632852008,
+          "failure_penalized_mean_nrmse": 0.4538842632852008
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.2211132625297978,
+          "population_mean_nrmse": 0.7179782720094529,
+          "population_median_nrmse": 0.616103594499131,
+          "finite_only_mse": 0.2211132625297978,
+          "finite_only_mean_nrmse": 0.7179782720094529,
+          "failure_penalized_mean_nrmse": 0.7179782720094529
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026873_unselected_unselected_v1.npz",
+      "array_sha256": "8ad99be368e0e0c9148d7b5b7b04f8618a603f2dcf60af3158819e07c0980057"
+    },
+    {
+      "model": "native_seed2026874_whole_filter",
+      "seed": 2026874,
+      "arm": "whole_filter",
+      "family": "duffing",
+      "cohort": "retained",
+      "context_field_mse": 0.003638690881792801,
+      "future_field_mse": 0.4396264709274781,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.07802550574360367,
+          "population_mean_nrmse": 0.25210090295821946,
+          "population_median_nrmse": 0.11202643783243378,
+          "finite_only_mse": 0.07802550574360367,
+          "finite_only_mean_nrmse": 0.25210090295821946,
+          "failure_penalized_mean_nrmse": 0.25210090295821946
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.2958210538304229,
+          "population_mean_nrmse": 0.6375735270018651,
+          "population_median_nrmse": 0.39714600419351315,
+          "finite_only_mse": 0.2958210538304229,
+          "finite_only_mean_nrmse": 0.6375735270018651,
+          "failure_penalized_mean_nrmse": 0.6375735270018651
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.3994830938497671,
+          "population_mean_nrmse": 0.8044601504220933,
+          "population_median_nrmse": 0.5451998049463411,
+          "finite_only_mse": 0.3994830938497671,
+          "finite_only_mean_nrmse": 0.8044601504220933,
+          "failure_penalized_mean_nrmse": 0.8044601504220933
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026874_whole_filter_retained_v1.npz",
+      "array_sha256": "9ceeda02ec0d0e3a3918ee3f1e5e1f27272a6970f6988c1363eb990a52b19a5b"
+    },
+    {
+      "model": "native_seed2026874_whole_filter",
+      "seed": 2026874,
+      "arm": "whole_filter",
+      "family": "stuart_landau",
+      "cohort": "retained",
+      "context_field_mse": 0.009556200665417245,
+      "future_field_mse": 0.26260777018621073,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.021138891566977236,
+          "population_mean_nrmse": 0.17972292922350114,
+          "population_median_nrmse": 0.11311778108738482,
+          "finite_only_mse": 0.021138891566977236,
+          "finite_only_mean_nrmse": 0.17972292922350114,
+          "failure_penalized_mean_nrmse": 0.17972292922350114
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.09854432867314245,
+          "population_mean_nrmse": 0.4763762824973327,
+          "population_median_nrmse": 0.3280676078864867,
+          "finite_only_mse": 0.09854432867314245,
+          "finite_only_mean_nrmse": 0.4763762824973327,
+          "failure_penalized_mean_nrmse": 0.4763762824973327
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.20501174377568532,
+          "population_mean_nrmse": 0.7299181556036389,
+          "population_median_nrmse": 0.5565653486421718,
+          "finite_only_mse": 0.20501174377568532,
+          "finite_only_mean_nrmse": 0.7299181556036389,
+          "failure_penalized_mean_nrmse": 0.7299181556036389
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026874_whole_filter_retained_v1.npz",
+      "array_sha256": "9ceeda02ec0d0e3a3918ee3f1e5e1f27272a6970f6988c1363eb990a52b19a5b"
+    },
+    {
+      "model": "native_seed2026874_whole_filter",
+      "seed": 2026874,
+      "arm": "whole_filter",
+      "family": "duffing",
+      "cohort": "crossed",
+      "context_field_mse": 0.004761744295822962,
+      "future_field_mse": 1.0196499914196153,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.0677072425714158,
+          "population_mean_nrmse": 0.2972571253464471,
+          "population_median_nrmse": 0.12606055540845987,
+          "finite_only_mse": 0.0677072425714158,
+          "finite_only_mean_nrmse": 0.2972571253464471,
+          "failure_penalized_mean_nrmse": 0.2972571253464471
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.33096284468399517,
+          "population_mean_nrmse": 0.6809905885094032,
+          "population_median_nrmse": 0.42165121758871815,
+          "finite_only_mse": 0.33096284468399517,
+          "finite_only_mean_nrmse": 0.6809905885094032,
+          "failure_penalized_mean_nrmse": 0.6809905885094032
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.4542948706152856,
+          "population_mean_nrmse": 0.7987400585649935,
+          "population_median_nrmse": 0.6372735777610826,
+          "finite_only_mse": 0.4542948706152856,
+          "finite_only_mean_nrmse": 0.7987400585649935,
+          "failure_penalized_mean_nrmse": 0.7987400585649935
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026874_whole_filter_crossed_v1.npz",
+      "array_sha256": "5e497d097ce4ee7cb7b5b8b645ac9996ce9979cc3c711df5a333954babcb6ece"
+    },
+    {
+      "model": "native_seed2026874_whole_filter",
+      "seed": 2026874,
+      "arm": "whole_filter",
+      "family": "stuart_landau",
+      "cohort": "crossed",
+      "context_field_mse": 0.007232475692177704,
+      "future_field_mse": 0.2470951994923384,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.023304667444485005,
+          "population_mean_nrmse": 0.2161965641091374,
+          "population_median_nrmse": 0.1317602404167767,
+          "finite_only_mse": 0.023304667444485005,
+          "finite_only_mean_nrmse": 0.2161965641091374,
+          "failure_penalized_mean_nrmse": 0.2161965641091374
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.14715623734650762,
+          "population_mean_nrmse": 0.5270142073575578,
+          "population_median_nrmse": 0.3328046154978757,
+          "finite_only_mse": 0.14715623734650762,
+          "finite_only_mean_nrmse": 0.5270142073575578,
+          "failure_penalized_mean_nrmse": 0.5270142073575578
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.6643421925471102,
+          "population_mean_nrmse": 0.9536393289689942,
+          "population_median_nrmse": 0.5575248518288811,
+          "finite_only_mse": 0.6643421925471102,
+          "finite_only_mean_nrmse": 0.9536393289689942,
+          "failure_penalized_mean_nrmse": 0.9536393289689942
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026874_whole_filter_crossed_v1.npz",
+      "array_sha256": "5e497d097ce4ee7cb7b5b8b645ac9996ce9979cc3c711df5a333954babcb6ece"
+    },
+    {
+      "model": "native_seed2026874_whole_filter",
+      "seed": 2026874,
+      "arm": "whole_filter",
+      "family": "duffing",
+      "cohort": "unselected",
+      "context_field_mse": 0.01167904222419665,
+      "future_field_mse": 0.4410066208103156,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.07543705717822036,
+          "population_mean_nrmse": 0.2342710148978749,
+          "population_median_nrmse": 0.12008695474513512,
+          "finite_only_mse": 0.07543705717822036,
+          "finite_only_mean_nrmse": 0.2342710148978749,
+          "failure_penalized_mean_nrmse": 0.2342710148978749
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.2545870177866618,
+          "population_mean_nrmse": 0.5764359497822537,
+          "population_median_nrmse": 0.40816598672111715,
+          "finite_only_mse": 0.2545870177866618,
+          "finite_only_mean_nrmse": 0.5764359497822537,
+          "failure_penalized_mean_nrmse": 0.5764359497822537
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.3531648773919187,
+          "population_mean_nrmse": 0.7394203391105332,
+          "population_median_nrmse": 0.5176849438954216,
+          "finite_only_mse": 0.3531648773919187,
+          "finite_only_mean_nrmse": 0.7394203391105332,
+          "failure_penalized_mean_nrmse": 0.7394203391105332
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026874_whole_filter_unselected_v1.npz",
+      "array_sha256": "343ecf2a49e98906007420f28a7e3e6161e5c6aa94764d557b561d73f87df892"
+    },
+    {
+      "model": "native_seed2026874_whole_filter",
+      "seed": 2026874,
+      "arm": "whole_filter",
+      "family": "stuart_landau",
+      "cohort": "unselected",
+      "context_field_mse": 0.010445382476254013,
+      "future_field_mse": 0.2598859116746028,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.020474768466456794,
+          "population_mean_nrmse": 0.1799613484566487,
+          "population_median_nrmse": 0.11125127974572488,
+          "finite_only_mse": 0.020474768466456794,
+          "finite_only_mean_nrmse": 0.1799613484566487,
+          "failure_penalized_mean_nrmse": 0.1799613484566487
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.10237145680457616,
+          "population_mean_nrmse": 0.4919589090902287,
+          "population_median_nrmse": 0.31641359848062245,
+          "finite_only_mse": 0.10237145680457616,
+          "finite_only_mean_nrmse": 0.4919589090902287,
+          "failure_penalized_mean_nrmse": 0.4919589090902287
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.21498460181283008,
+          "population_mean_nrmse": 0.758267441427504,
+          "population_median_nrmse": 0.5384421058747866,
+          "finite_only_mse": 0.21498460181283008,
+          "finite_only_mean_nrmse": 0.758267441427504,
+          "failure_penalized_mean_nrmse": 0.758267441427504
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026874_whole_filter_unselected_v1.npz",
+      "array_sha256": "343ecf2a49e98906007420f28a7e3e6161e5c6aa94764d557b561d73f87df892"
+    },
+    {
+      "model": "native_seed2026874_resampled_ic",
+      "seed": 2026874,
+      "arm": "resampled_ic",
+      "family": "duffing",
+      "cohort": "retained",
+      "context_field_mse": 0.004394009500494563,
+      "future_field_mse": 0.7345441471078424,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.05093118197692803,
+          "population_mean_nrmse": 0.24614332284573354,
+          "population_median_nrmse": 0.11796108309596867,
+          "finite_only_mse": 0.05093118197692803,
+          "finite_only_mean_nrmse": 0.24614332284573354,
+          "failure_penalized_mean_nrmse": 0.24614332284573354
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.25470683036519404,
+          "population_mean_nrmse": 0.5955267703621393,
+          "population_median_nrmse": 0.4383873625481207,
+          "finite_only_mse": 0.25470683036519404,
+          "finite_only_mean_nrmse": 0.5955267703621393,
+          "failure_penalized_mean_nrmse": 0.5955267703621393
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.34326823819765195,
+          "population_mean_nrmse": 0.724509756262984,
+          "population_median_nrmse": 0.4989585078672817,
+          "finite_only_mse": 0.34326823819765195,
+          "finite_only_mean_nrmse": 0.724509756262984,
+          "failure_penalized_mean_nrmse": 0.724509756262984
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026874_resampled_ic_retained_v1.npz",
+      "array_sha256": "4f29046ad21e3a1ebc826cfdd9da4d8c2c0e6eed2dc658f8f4190e4c34f1b096"
+    },
+    {
+      "model": "native_seed2026874_resampled_ic",
+      "seed": 2026874,
+      "arm": "resampled_ic",
+      "family": "stuart_landau",
+      "cohort": "retained",
+      "context_field_mse": 0.012772508168241945,
+      "future_field_mse": 0.22672964769529383,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.023129287052057634,
+          "population_mean_nrmse": 0.1860462656030453,
+          "population_median_nrmse": 0.13266331238038576,
+          "finite_only_mse": 0.023129287052057634,
+          "finite_only_mean_nrmse": 0.1860462656030453,
+          "failure_penalized_mean_nrmse": 0.1860462656030453
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.14672267719470256,
+          "population_mean_nrmse": 0.5071166536425445,
+          "population_median_nrmse": 0.36056047937909125,
+          "finite_only_mse": 0.14672267719470256,
+          "finite_only_mean_nrmse": 0.5071166536425445,
+          "failure_penalized_mean_nrmse": 0.5071166536425445
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.30992666673773783,
+          "population_mean_nrmse": 0.7984924093150896,
+          "population_median_nrmse": 0.6746830305413312,
+          "finite_only_mse": 0.30992666673773783,
+          "finite_only_mean_nrmse": 0.7984924093150896,
+          "failure_penalized_mean_nrmse": 0.7984924093150896
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026874_resampled_ic_retained_v1.npz",
+      "array_sha256": "4f29046ad21e3a1ebc826cfdd9da4d8c2c0e6eed2dc658f8f4190e4c34f1b096"
+    },
+    {
+      "model": "native_seed2026874_resampled_ic",
+      "seed": 2026874,
+      "arm": "resampled_ic",
+      "family": "duffing",
+      "cohort": "crossed",
+      "context_field_mse": 0.005229356901781349,
+      "future_field_mse": 0.7701913303510222,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.0795053172423934,
+          "population_mean_nrmse": 0.29511974064460894,
+          "population_median_nrmse": 0.12235587447204464,
+          "finite_only_mse": 0.0795053172423934,
+          "finite_only_mean_nrmse": 0.29511974064460894,
+          "failure_penalized_mean_nrmse": 0.29511974064460894
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.3089642708714564,
+          "population_mean_nrmse": 0.6634937299912211,
+          "population_median_nrmse": 0.4813361044729494,
+          "finite_only_mse": 0.3089642708714564,
+          "finite_only_mean_nrmse": 0.6634937299912211,
+          "failure_penalized_mean_nrmse": 0.6634937299912211
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.4173644315783349,
+          "population_mean_nrmse": 0.7656145186420311,
+          "population_median_nrmse": 0.5454460436663433,
+          "finite_only_mse": 0.4173644315783349,
+          "finite_only_mean_nrmse": 0.7656145186420311,
+          "failure_penalized_mean_nrmse": 0.7656145186420311
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026874_resampled_ic_crossed_v1.npz",
+      "array_sha256": "41df52ffce343bc04d9320a6fe7af1fd1dc2ef5826eadc2706897d2369b9cec7"
+    },
+    {
+      "model": "native_seed2026874_resampled_ic",
+      "seed": 2026874,
+      "arm": "resampled_ic",
+      "family": "stuart_landau",
+      "cohort": "crossed",
+      "context_field_mse": 0.0131120705398386,
+      "future_field_mse": 0.3185677775334136,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.02306790977278439,
+          "population_mean_nrmse": 0.2013300035906591,
+          "population_median_nrmse": 0.13656990656547086,
+          "finite_only_mse": 0.02306790977278439,
+          "finite_only_mean_nrmse": 0.2013300035906591,
+          "failure_penalized_mean_nrmse": 0.2013300035906591
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.16009521247997327,
+          "population_mean_nrmse": 0.5354093529383833,
+          "population_median_nrmse": 0.3641394232510709,
+          "finite_only_mse": 0.16009521247997327,
+          "finite_only_mean_nrmse": 0.5354093529383833,
+          "failure_penalized_mean_nrmse": 0.5354093529383833
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.29228961681747023,
+          "population_mean_nrmse": 0.8073240721930877,
+          "population_median_nrmse": 0.6377808896230992,
+          "finite_only_mse": 0.29228961681747023,
+          "finite_only_mean_nrmse": 0.8073240721930877,
+          "failure_penalized_mean_nrmse": 0.8073240721930877
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026874_resampled_ic_crossed_v1.npz",
+      "array_sha256": "41df52ffce343bc04d9320a6fe7af1fd1dc2ef5826eadc2706897d2369b9cec7"
+    },
+    {
+      "model": "native_seed2026874_resampled_ic",
+      "seed": 2026874,
+      "arm": "resampled_ic",
+      "family": "duffing",
+      "cohort": "unselected",
+      "context_field_mse": 0.007013343540725231,
+      "future_field_mse": 0.5286330596720872,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.045686800649420434,
+          "population_mean_nrmse": 0.21353795671591352,
+          "population_median_nrmse": 0.1081638372542125,
+          "finite_only_mse": 0.045686800649420434,
+          "finite_only_mean_nrmse": 0.21353795671591352,
+          "failure_penalized_mean_nrmse": 0.21353795671591352
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.20960465869484324,
+          "population_mean_nrmse": 0.5389514576189629,
+          "population_median_nrmse": 0.3640187381630554,
+          "finite_only_mse": 0.20960465869484324,
+          "finite_only_mean_nrmse": 0.5389514576189629,
+          "failure_penalized_mean_nrmse": 0.5389514576189629
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.26794685786762784,
+          "population_mean_nrmse": 0.6458594771581117,
+          "population_median_nrmse": 0.42710312389518323,
+          "finite_only_mse": 0.26794685786762784,
+          "finite_only_mean_nrmse": 0.6458594771581117,
+          "failure_penalized_mean_nrmse": 0.6458594771581117
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026874_resampled_ic_unselected_v1.npz",
+      "array_sha256": "7f45081a90f16376fe5200103d5f4af39efb2461b58234feb3bee63f5334d30c"
+    },
+    {
+      "model": "native_seed2026874_resampled_ic",
+      "seed": 2026874,
+      "arm": "resampled_ic",
+      "family": "stuart_landau",
+      "cohort": "unselected",
+      "context_field_mse": 0.012772538153118856,
+      "future_field_mse": 0.2232361774264243,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.02181285110823694,
+          "population_mean_nrmse": 0.19018572414595422,
+          "population_median_nrmse": 0.12236306336525421,
+          "finite_only_mse": 0.02181285110823694,
+          "finite_only_mean_nrmse": 0.19018572414595422,
+          "failure_penalized_mean_nrmse": 0.19018572414595422
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.1477509430533246,
+          "population_mean_nrmse": 0.5251710415593093,
+          "population_median_nrmse": 0.3736941703520389,
+          "finite_only_mse": 0.1477509430533246,
+          "finite_only_mean_nrmse": 0.5251710415593093,
+          "failure_penalized_mean_nrmse": 0.5251710415593093
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.3097773098616017,
+          "population_mean_nrmse": 0.8163205299355925,
+          "population_median_nrmse": 0.6364343288113388,
+          "finite_only_mse": 0.3097773098616017,
+          "finite_only_mean_nrmse": 0.8163205299355925,
+          "failure_penalized_mean_nrmse": 0.8163205299355925
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026874_resampled_ic_unselected_v1.npz",
+      "array_sha256": "7f45081a90f16376fe5200103d5f4af39efb2461b58234feb3bee63f5334d30c"
+    },
+    {
+      "model": "native_seed2026874_unselected",
+      "seed": 2026874,
+      "arm": "unselected",
+      "family": "duffing",
+      "cohort": "retained",
+      "context_field_mse": 0.002999832922081609,
+      "future_field_mse": 0.3442981385213982,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.04619518050199645,
+          "population_mean_nrmse": 0.22221924179068048,
+          "population_median_nrmse": 0.10963146782940994,
+          "finite_only_mse": 0.04619518050199645,
+          "finite_only_mean_nrmse": 0.22221924179068048,
+          "failure_penalized_mean_nrmse": 0.22221924179068048
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.26615198902072734,
+          "population_mean_nrmse": 0.6360201871308611,
+          "population_median_nrmse": 0.47081631842080185,
+          "finite_only_mse": 0.26615198902072734,
+          "finite_only_mean_nrmse": 0.6360201871308611,
+          "failure_penalized_mean_nrmse": 0.6360201871308611
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.4159899252008472,
+          "population_mean_nrmse": 0.8370150246936185,
+          "population_median_nrmse": 0.6328189076603589,
+          "finite_only_mse": 0.4159899252008472,
+          "finite_only_mean_nrmse": 0.8370150246936185,
+          "failure_penalized_mean_nrmse": 0.8370150246936185
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026874_unselected_retained_v1.npz",
+      "array_sha256": "6a5915cdba28c6d80ec342e41db9b37946ee9237ec84a5d306c24a3726f1ab01"
+    },
+    {
+      "model": "native_seed2026874_unselected",
+      "seed": 2026874,
+      "arm": "unselected",
+      "family": "stuart_landau",
+      "cohort": "retained",
+      "context_field_mse": 0.00935277892911658,
+      "future_field_mse": 0.3032289650335742,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.024260462104649605,
+          "population_mean_nrmse": 0.17449896114841157,
+          "population_median_nrmse": 0.12100297993511741,
+          "finite_only_mse": 0.024260462104649605,
+          "finite_only_mean_nrmse": 0.17449896114841157,
+          "failure_penalized_mean_nrmse": 0.17449896114841157
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.09999668086334168,
+          "population_mean_nrmse": 0.42544418384800786,
+          "population_median_nrmse": 0.313581438809339,
+          "finite_only_mse": 0.09999668086334168,
+          "finite_only_mean_nrmse": 0.42544418384800786,
+          "failure_penalized_mean_nrmse": 0.42544418384800786
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.20605250639073347,
+          "population_mean_nrmse": 0.6626631950332891,
+          "population_median_nrmse": 0.5308278509726941,
+          "finite_only_mse": 0.20605250639073347,
+          "finite_only_mean_nrmse": 0.6626631950332891,
+          "failure_penalized_mean_nrmse": 0.6626631950332891
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026874_unselected_retained_v1.npz",
+      "array_sha256": "6a5915cdba28c6d80ec342e41db9b37946ee9237ec84a5d306c24a3726f1ab01"
+    },
+    {
+      "model": "native_seed2026874_unselected",
+      "seed": 2026874,
+      "arm": "unselected",
+      "family": "duffing",
+      "cohort": "crossed",
+      "context_field_mse": 0.0038456818541044687,
+      "future_field_mse": 0.8982816967243339,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.08224934990929,
+          "population_mean_nrmse": 0.30330623600729967,
+          "population_median_nrmse": 0.13540344489988004,
+          "finite_only_mse": 0.08224934990929,
+          "finite_only_mean_nrmse": 0.30330623600729967,
+          "failure_penalized_mean_nrmse": 0.30330623600729967
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.3481291465786853,
+          "population_mean_nrmse": 0.7165580242485147,
+          "population_median_nrmse": 0.4571368633207089,
+          "finite_only_mse": 0.3481291465786853,
+          "finite_only_mean_nrmse": 0.7165580242485147,
+          "failure_penalized_mean_nrmse": 0.7165580242485147
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.4397996277077709,
+          "population_mean_nrmse": 0.7908723380236091,
+          "population_median_nrmse": 0.5962712652986908,
+          "finite_only_mse": 0.4397996277077709,
+          "finite_only_mean_nrmse": 0.7908723380236091,
+          "failure_penalized_mean_nrmse": 0.7908723380236091
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026874_unselected_crossed_v1.npz",
+      "array_sha256": "84da12f79566c1058ea257b7e0f669939e6c8179cbd38e0a24942e7ecdf3dfd3"
+    },
+    {
+      "model": "native_seed2026874_unselected",
+      "seed": 2026874,
+      "arm": "unselected",
+      "family": "stuart_landau",
+      "cohort": "crossed",
+      "context_field_mse": 0.008901013009934915,
+      "future_field_mse": 0.2785279393010164,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.02275706394561894,
+          "population_mean_nrmse": 0.20764887872805507,
+          "population_median_nrmse": 0.13467476251952015,
+          "finite_only_mse": 0.02275706394561894,
+          "finite_only_mean_nrmse": 0.20764887872805507,
+          "failure_penalized_mean_nrmse": 0.20764887872805507
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.1526923695705591,
+          "population_mean_nrmse": 0.50555417405758,
+          "population_median_nrmse": 0.3277917031103018,
+          "finite_only_mse": 0.1526923695705591,
+          "finite_only_mean_nrmse": 0.50555417405758,
+          "failure_penalized_mean_nrmse": 0.50555417405758
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.25481846165575917,
+          "population_mean_nrmse": 0.7247953218770049,
+          "population_median_nrmse": 0.5803344380877565,
+          "finite_only_mse": 0.25481846165575917,
+          "finite_only_mean_nrmse": 0.7247953218770049,
+          "failure_penalized_mean_nrmse": 0.7247953218770049
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026874_unselected_crossed_v1.npz",
+      "array_sha256": "84da12f79566c1058ea257b7e0f669939e6c8179cbd38e0a24942e7ecdf3dfd3"
+    },
+    {
+      "model": "native_seed2026874_unselected",
+      "seed": 2026874,
+      "arm": "unselected",
+      "family": "duffing",
+      "cohort": "unselected",
+      "context_field_mse": 0.006044698346227338,
+      "future_field_mse": 0.2495471986350892,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.05553402342373204,
+          "population_mean_nrmse": 0.22464191309334197,
+          "population_median_nrmse": 0.10027163440081704,
+          "finite_only_mse": 0.05553402342373204,
+          "finite_only_mean_nrmse": 0.22464191309334197,
+          "failure_penalized_mean_nrmse": 0.22464191309334197
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.2417275694905925,
+          "population_mean_nrmse": 0.5761345401641413,
+          "population_median_nrmse": 0.4159166830841751,
+          "finite_only_mse": 0.2417275694905925,
+          "finite_only_mean_nrmse": 0.5761345401641413,
+          "failure_penalized_mean_nrmse": 0.5761345401641413
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.3303418590955971,
+          "population_mean_nrmse": 0.7240437084350443,
+          "population_median_nrmse": 0.5325986751566094,
+          "finite_only_mse": 0.3303418590955971,
+          "finite_only_mean_nrmse": 0.7240437084350443,
+          "failure_penalized_mean_nrmse": 0.7240437084350443
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026874_unselected_unselected_v1.npz",
+      "array_sha256": "e5505a77367c3f703faea5dd62d6760605c666d8bc421fa546aecf70574e8e56"
+    },
+    {
+      "model": "native_seed2026874_unselected",
+      "seed": 2026874,
+      "arm": "unselected",
+      "family": "stuart_landau",
+      "cohort": "unselected",
+      "context_field_mse": 0.009349204442133762,
+      "future_field_mse": 0.29184921045064965,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.022303766127154567,
+          "population_mean_nrmse": 0.17241862549186343,
+          "population_median_nrmse": 0.10764889789581977,
+          "finite_only_mse": 0.022303766127154567,
+          "finite_only_mean_nrmse": 0.17241862549186343,
+          "failure_penalized_mean_nrmse": 0.17241862549186343
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.10466302498252844,
+          "population_mean_nrmse": 0.44194735702152105,
+          "population_median_nrmse": 0.31150190983599746,
+          "finite_only_mse": 0.10466302498252844,
+          "finite_only_mean_nrmse": 0.44194735702152105,
+          "failure_penalized_mean_nrmse": 0.44194735702152105
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.21251413415893694,
+          "population_mean_nrmse": 0.6828605317011968,
+          "population_median_nrmse": 0.5380685715176534,
+          "finite_only_mse": 0.21251413415893694,
+          "finite_only_mean_nrmse": 0.6828605317011968,
+          "failure_penalized_mean_nrmse": 0.6828605317011968
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\native_seed2026874_unselected_unselected_v1.npz",
+      "array_sha256": "e5505a77367c3f703faea5dd62d6760605c666d8bc421fa546aecf70574e8e56"
+    },
+    {
+      "model": "ordinary_weak_polynomial",
+      "seed": null,
+      "arm": "ordinary",
+      "family": "duffing",
+      "cohort": "retained",
+      "context_field_mse": 0.08145812762176564,
+      "future_field_mse": 0.9512834835403033,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.19555836416123357,
+          "population_mean_nrmse": 0.47399127940941094,
+          "population_median_nrmse": 0.2689532309160935,
+          "finite_only_mse": 0.19555836416123357,
+          "finite_only_mean_nrmse": 0.47399127940941094,
+          "failure_penalized_mean_nrmse": 0.47399127940941094
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 127,
+          "failed_count": 1,
+          "population_mse": null,
+          "population_mean_nrmse": null,
+          "population_median_nrmse": null,
+          "finite_only_mse": 16.410859653287734,
+          "finite_only_mean_nrmse": 2.0613216448152833,
+          "failure_penalized_mean_nrmse": 9.857717569465164
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 125,
+          "failed_count": 3,
+          "population_mse": null,
+          "population_mean_nrmse": null,
+          "population_median_nrmse": null,
+          "finite_only_mse": 314.6921880099717,
+          "finite_only_mean_nrmse": 7.899914098440427,
+          "failure_penalized_mean_nrmse": 31.152259861758232
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v3_affine\\ordinary_retained_exact_v1.npz",
+      "array_sha256": "90c7e83c67b3f0ac95d1f9b118763df6119199127ea6c947f6572568f985b1e6"
+    },
+    {
+      "model": "ordinary_weak_polynomial",
+      "seed": null,
+      "arm": "ordinary",
+      "family": "stuart_landau",
+      "cohort": "retained",
+      "context_field_mse": 0.10371314893082532,
+      "future_field_mse": 0.44353126521586844,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.11010035671544159,
+          "population_mean_nrmse": 0.3633929150592979,
+          "population_median_nrmse": 0.28766513056953846,
+          "finite_only_mse": 0.11010035671544159,
+          "finite_only_mean_nrmse": 0.3633929150592979,
+          "failure_penalized_mean_nrmse": 0.3633929150592979
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 2.441760003840054,
+          "population_mean_nrmse": 1.1289051474942013,
+          "population_median_nrmse": 0.6435241549134922,
+          "finite_only_mse": 2.441760003840054,
+          "finite_only_mean_nrmse": 1.1289051474942013,
+          "failure_penalized_mean_nrmse": 1.1289051474942013
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 127,
+          "failed_count": 1,
+          "population_mse": null,
+          "population_mean_nrmse": null,
+          "population_median_nrmse": null,
+          "finite_only_mse": 84.87938158535788,
+          "finite_only_mean_nrmse": 3.7883947118017947,
+          "failure_penalized_mean_nrmse": 11.57129787811584
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v3_affine\\ordinary_retained_exact_v1.npz",
+      "array_sha256": "90c7e83c67b3f0ac95d1f9b118763df6119199127ea6c947f6572568f985b1e6"
+    },
+    {
+      "model": "ordinary_weak_polynomial",
+      "seed": null,
+      "arm": "ordinary",
+      "family": "duffing",
+      "cohort": "crossed",
+      "context_field_mse": 0.08342257602487015,
+      "future_field_mse": 0.9073691741615717,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.2964254091384097,
+          "population_mean_nrmse": 0.6362410962182423,
+          "population_median_nrmse": 0.2829747739509506,
+          "finite_only_mse": 0.2964254091384097,
+          "finite_only_mean_nrmse": 0.6362410962182423,
+          "failure_penalized_mean_nrmse": 0.6362410962182423
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 295.42496599509803,
+          "population_mean_nrmse": 6.545617537163009,
+          "population_median_nrmse": 0.9810993142073483,
+          "finite_only_mse": 295.42496599509803,
+          "finite_only_mean_nrmse": 6.545617537163009,
+          "failure_penalized_mean_nrmse": 6.545617537163009
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 121,
+          "failed_count": 7,
+          "population_mse": null,
+          "population_mean_nrmse": null,
+          "population_median_nrmse": null,
+          "finite_only_mse": 577.7048396008869,
+          "finite_only_mean_nrmse": 10.266393084478596,
+          "failure_penalized_mean_nrmse": 64.39244971267118
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v3_affine\\ordinary_crossed_exact_v1.npz",
+      "array_sha256": "46beedfe066c67ff9d3e76f6403a7894552e2acbf6775ebe7b59c0826c0f5c12"
+    },
+    {
+      "model": "ordinary_weak_polynomial",
+      "seed": null,
+      "arm": "ordinary",
+      "family": "stuart_landau",
+      "cohort": "crossed",
+      "context_field_mse": 0.09127793586236309,
+      "future_field_mse": 0.5189798622565203,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.11003261195647934,
+          "population_mean_nrmse": 0.38762596908827573,
+          "population_median_nrmse": 0.29630416117282726,
+          "finite_only_mse": 0.11003261195647934,
+          "finite_only_mean_nrmse": 0.38762596908827573,
+          "failure_penalized_mean_nrmse": 0.38762596908827573
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 9.237731670672606,
+          "population_mean_nrmse": 1.3629438525780224,
+          "population_median_nrmse": 0.7254853731723763,
+          "finite_only_mse": 9.237731670672606,
+          "finite_only_mean_nrmse": 1.3629438525780224,
+          "failure_penalized_mean_nrmse": 1.3629438525780224
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 127,
+          "failed_count": 1,
+          "population_mse": null,
+          "population_mean_nrmse": null,
+          "population_median_nrmse": null,
+          "finite_only_mse": 86.60529271569845,
+          "finite_only_mean_nrmse": 2.732069420573154,
+          "failure_penalized_mean_nrmse": 10.523225128224926
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v3_affine\\ordinary_crossed_exact_v1.npz",
+      "array_sha256": "46beedfe066c67ff9d3e76f6403a7894552e2acbf6775ebe7b59c0826c0f5c12"
+    },
+    {
+      "model": "ordinary_weak_polynomial",
+      "seed": null,
+      "arm": "ordinary",
+      "family": "duffing",
+      "cohort": "unselected",
+      "context_field_mse": 0.1662070675636579,
+      "future_field_mse": 0.9928549299525479,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.18107359130983425,
+          "population_mean_nrmse": 0.4644489594957207,
+          "population_median_nrmse": 0.2651823134447149,
+          "finite_only_mse": 0.18107359130983425,
+          "finite_only_mean_nrmse": 0.4644489594957207,
+          "failure_penalized_mean_nrmse": 0.4644489594957207
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 4.5584218462039505,
+          "population_mean_nrmse": 1.7191837840019408,
+          "population_median_nrmse": 0.9417703204859842,
+          "finite_only_mse": 4.5584218462039505,
+          "finite_only_mean_nrmse": 1.7191837840019408,
+          "failure_penalized_mean_nrmse": 1.7191837840019408
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 127,
+          "failed_count": 1,
+          "population_mse": null,
+          "population_mean_nrmse": null,
+          "population_median_nrmse": null,
+          "finite_only_mse": 324.9617538494728,
+          "finite_only_mean_nrmse": 7.266633375555434,
+          "failure_penalized_mean_nrmse": 15.022362802308905
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v3_affine\\ordinary_unselected_exact_v1.npz",
+      "array_sha256": "35dbd311d6d8237ba540e19cc185da612b53d9bdea3def771ad16f2013503242"
+    },
+    {
+      "model": "ordinary_weak_polynomial",
+      "seed": null,
+      "arm": "ordinary",
+      "family": "stuart_landau",
+      "cohort": "unselected",
+      "context_field_mse": 0.11401457354850499,
+      "future_field_mse": 0.45640776646509124,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.11218522494479838,
+          "population_mean_nrmse": 0.3678706879988886,
+          "population_median_nrmse": 0.28641853456608835,
+          "finite_only_mse": 0.11218522494479838,
+          "finite_only_mean_nrmse": 0.3678706879988886,
+          "failure_penalized_mean_nrmse": 0.3678706879988886
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 2.4156492816009374,
+          "population_mean_nrmse": 1.1451385595641632,
+          "population_median_nrmse": 0.6461435274689388,
+          "finite_only_mse": 2.4156492816009374,
+          "finite_only_mean_nrmse": 1.1451385595641632,
+          "failure_penalized_mean_nrmse": 1.1451385595641632
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 127,
+          "failed_count": 1,
+          "population_mse": null,
+          "population_mean_nrmse": null,
+          "population_median_nrmse": null,
+          "finite_only_mse": 79.58725373039593,
+          "finite_only_mean_nrmse": 3.6500152936136114,
+          "failure_penalized_mean_nrmse": 11.433999549132256
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v3_affine\\ordinary_unselected_exact_v1.npz",
+      "array_sha256": "35dbd311d6d8237ba540e19cc185da612b53d9bdea3def771ad16f2013503242"
+    },
+    {
+      "model": "persistence",
+      "seed": null,
+      "arm": "persistence",
+      "family": "duffing",
+      "cohort": "retained",
+      "context_field_mse": 0.6098132698538277,
+      "future_field_mse": 0.2350861629788479,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.20608010625550482,
+          "population_mean_nrmse": 0.5995888089564916,
+          "population_median_nrmse": 0.5905789873604348,
+          "finite_only_mse": 0.20608010625550482,
+          "finite_only_mean_nrmse": 0.5995888089564916,
+          "failure_penalized_mean_nrmse": 0.5995888089564916
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.7301445867776211,
+          "population_mean_nrmse": 1.3130097798057532,
+          "population_median_nrmse": 1.3272298088454226,
+          "finite_only_mse": 0.7301445867776211,
+          "finite_only_mean_nrmse": 1.3130097798057532,
+          "failure_penalized_mean_nrmse": 1.3130097798057532
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.7622813305916308,
+          "population_mean_nrmse": 1.4064326592242793,
+          "population_median_nrmse": 1.408526477578104,
+          "finite_only_mse": 0.7622813305916308,
+          "finite_only_mean_nrmse": 1.4064326592242793,
+          "failure_penalized_mean_nrmse": 1.4064326592242793
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\persistence_retained_v1.npz",
+      "array_sha256": "76d154e4d1b110626cb3c723a07e7c78e4a8d954da0849c1e36eb44ac3f86154"
+    },
+    {
+      "model": "persistence",
+      "seed": null,
+      "arm": "persistence",
+      "family": "stuart_landau",
+      "cohort": "retained",
+      "context_field_mse": 1.287064537689745,
+      "future_field_mse": 1.5116123958595051,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.4792022812313277,
+          "population_mean_nrmse": 0.8776927172390822,
+          "population_median_nrmse": 0.843961459284069,
+          "finite_only_mse": 0.4792022812313277,
+          "finite_only_mean_nrmse": 0.8776927172390822,
+          "failure_penalized_mean_nrmse": 0.8776927172390822
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 1.2333113403877405,
+          "population_mean_nrmse": 1.7976777419788326,
+          "population_median_nrmse": 1.5911734800474173,
+          "finite_only_mse": 1.2333113403877405,
+          "finite_only_mean_nrmse": 1.7976777419788326,
+          "failure_penalized_mean_nrmse": 1.7976777419788326
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 1.2222058041800843,
+          "population_mean_nrmse": 2.0062296405651736,
+          "population_median_nrmse": 1.654916534824133,
+          "finite_only_mse": 1.2222058041800843,
+          "finite_only_mean_nrmse": 2.0062296405651736,
+          "failure_penalized_mean_nrmse": 2.0062296405651736
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\persistence_retained_v1.npz",
+      "array_sha256": "76d154e4d1b110626cb3c723a07e7c78e4a8d954da0849c1e36eb44ac3f86154"
+    },
+    {
+      "model": "persistence",
+      "seed": null,
+      "arm": "persistence",
+      "family": "duffing",
+      "cohort": "crossed",
+      "context_field_mse": 0.617950931827083,
+      "future_field_mse": 0.2350861629788479,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.20608010625550482,
+          "population_mean_nrmse": 0.5995888089564916,
+          "population_median_nrmse": 0.5905789873604348,
+          "finite_only_mse": 0.20608010625550482,
+          "finite_only_mean_nrmse": 0.5995888089564916,
+          "failure_penalized_mean_nrmse": 0.5995888089564916
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.7301445867776211,
+          "population_mean_nrmse": 1.3130097798057532,
+          "population_median_nrmse": 1.3272298088454226,
+          "finite_only_mse": 0.7301445867776211,
+          "finite_only_mean_nrmse": 1.3130097798057532,
+          "failure_penalized_mean_nrmse": 1.3130097798057532
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.7622813305916308,
+          "population_mean_nrmse": 1.4064326592242793,
+          "population_median_nrmse": 1.408526477578104,
+          "finite_only_mse": 0.7622813305916308,
+          "finite_only_mean_nrmse": 1.4064326592242793,
+          "failure_penalized_mean_nrmse": 1.4064326592242793
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\persistence_crossed_v1.npz",
+      "array_sha256": "76d154e4d1b110626cb3c723a07e7c78e4a8d954da0849c1e36eb44ac3f86154"
+    },
+    {
+      "model": "persistence",
+      "seed": null,
+      "arm": "persistence",
+      "family": "stuart_landau",
+      "cohort": "crossed",
+      "context_field_mse": 1.2256928802245908,
+      "future_field_mse": 1.5116123958595051,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.4792022812313277,
+          "population_mean_nrmse": 0.8776927172390822,
+          "population_median_nrmse": 0.843961459284069,
+          "finite_only_mse": 0.4792022812313277,
+          "finite_only_mean_nrmse": 0.8776927172390822,
+          "failure_penalized_mean_nrmse": 0.8776927172390822
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 1.2333113403877405,
+          "population_mean_nrmse": 1.7976777419788326,
+          "population_median_nrmse": 1.5911734800474173,
+          "finite_only_mse": 1.2333113403877405,
+          "finite_only_mean_nrmse": 1.7976777419788326,
+          "failure_penalized_mean_nrmse": 1.7976777419788326
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 1.2222058041800843,
+          "population_mean_nrmse": 2.0062296405651736,
+          "population_median_nrmse": 1.654916534824133,
+          "finite_only_mse": 1.2222058041800843,
+          "finite_only_mean_nrmse": 2.0062296405651736,
+          "failure_penalized_mean_nrmse": 2.0062296405651736
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\persistence_crossed_v1.npz",
+      "array_sha256": "76d154e4d1b110626cb3c723a07e7c78e4a8d954da0849c1e36eb44ac3f86154"
+    },
+    {
+      "model": "persistence",
+      "seed": null,
+      "arm": "persistence",
+      "family": "duffing",
+      "cohort": "unselected",
+      "context_field_mse": 1.0933297595670144,
+      "future_field_mse": 0.24583585093139948,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.237402038412721,
+          "population_mean_nrmse": 0.6029034341108226,
+          "population_median_nrmse": 0.5946998665697785,
+          "finite_only_mse": 0.237402038412721,
+          "finite_only_mean_nrmse": 0.6029034341108226,
+          "failure_penalized_mean_nrmse": 0.6029034341108226
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.7417250690938786,
+          "population_mean_nrmse": 1.3291177794034823,
+          "population_median_nrmse": 1.3419184427270041,
+          "finite_only_mse": 0.7417250690938786,
+          "finite_only_mean_nrmse": 1.3291177794034823,
+          "failure_penalized_mean_nrmse": 1.3291177794034823
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.7623301639410427,
+          "population_mean_nrmse": 1.4354228886955562,
+          "population_median_nrmse": 1.4284370552298986,
+          "finite_only_mse": 0.7623301639410427,
+          "finite_only_mean_nrmse": 1.4354228886955562,
+          "failure_penalized_mean_nrmse": 1.4354228886955562
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\persistence_unselected_v1.npz",
+      "array_sha256": "55c95a9903417e43906cbc8b4fb71cc4ec51fd9f9b64bdd553c2a393c564583d"
+    },
+    {
+      "model": "persistence",
+      "seed": null,
+      "arm": "persistence",
+      "family": "stuart_landau",
+      "cohort": "unselected",
+      "context_field_mse": 1.318853530863826,
+      "future_field_mse": 1.5348774095140234,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.48529885071551615,
+          "population_mean_nrmse": 0.8853908123480958,
+          "population_median_nrmse": 0.8544376995598804,
+          "finite_only_mse": 0.48529885071551615,
+          "finite_only_mean_nrmse": 0.8853908123480958,
+          "failure_penalized_mean_nrmse": 0.8853908123480958
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 1.243230416215245,
+          "population_mean_nrmse": 1.8298300376424503,
+          "population_median_nrmse": 1.5947270444926986,
+          "finite_only_mse": 1.243230416215245,
+          "finite_only_mean_nrmse": 1.8298300376424503,
+          "failure_penalized_mean_nrmse": 1.8298300376424503
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 1.2344393684755752,
+          "population_mean_nrmse": 2.06133318414878,
+          "population_median_nrmse": 1.6613832062082006,
+          "finite_only_mse": 1.2344393684755752,
+          "finite_only_mean_nrmse": 2.06133318414878,
+          "failure_penalized_mean_nrmse": 2.06133318414878
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\persistence_unselected_v1.npz",
+      "array_sha256": "55c95a9903417e43906cbc8b4fb71cc4ec51fd9f9b64bdd553c2a393c564583d"
+    },
+    {
+      "model": "empirical_prior_whole_filter",
+      "seed": null,
+      "arm": "empirical_prior_whole_filter",
+      "family": "duffing",
+      "cohort": "retained",
+      "context_field_mse": 0.00013587719911426326,
+      "future_field_mse": 0.00652741662876759,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.0008625205042733507,
+          "population_mean_nrmse": 0.028710605915743977,
+          "population_median_nrmse": 0.015417043926382056,
+          "finite_only_mse": 0.0008625205042733507,
+          "finite_only_mean_nrmse": 0.028710605915743977,
+          "failure_penalized_mean_nrmse": 0.028710605915743977
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.013363662672731,
+          "population_mean_nrmse": 0.11472415400969385,
+          "population_median_nrmse": 0.047534936280744094,
+          "finite_only_mse": 0.013363662672731,
+          "finite_only_mean_nrmse": 0.11472415400969385,
+          "failure_penalized_mean_nrmse": 0.11472415400969385
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.03231860421612442,
+          "population_mean_nrmse": 0.16998986522781248,
+          "population_median_nrmse": 0.08034873239976408,
+          "finite_only_mse": 0.03231860421612442,
+          "finite_only_mean_nrmse": 0.16998986522781248,
+          "failure_penalized_mean_nrmse": 0.16998986522781248
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\empirical_prior_whole_filter_retained_v1.npz",
+      "array_sha256": "785665aca79f956efd18aeed89b11b64024af275fee352633bf2fad4df257644"
+    },
+    {
+      "model": "empirical_prior_whole_filter",
+      "seed": null,
+      "arm": "empirical_prior_whole_filter",
+      "family": "stuart_landau",
+      "cohort": "retained",
+      "context_field_mse": 0.00013628694813089284,
+      "future_field_mse": 0.01291188312596509,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.00043376362729207396,
+          "population_mean_nrmse": 0.01106227053687623,
+          "population_median_nrmse": 0.005257055876558284,
+          "finite_only_mse": 0.00043376362729207396,
+          "finite_only_mean_nrmse": 0.01106227053687623,
+          "failure_penalized_mean_nrmse": 0.01106227053687623
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.0005021555369088791,
+          "population_mean_nrmse": 0.02401900330761092,
+          "population_median_nrmse": 0.016049837592730952,
+          "finite_only_mse": 0.0005021555369088791,
+          "finite_only_mean_nrmse": 0.02401900330761092,
+          "failure_penalized_mean_nrmse": 0.02401900330761092
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.0008467042047921346,
+          "population_mean_nrmse": 0.03525123154529154,
+          "population_median_nrmse": 0.02632351418006163,
+          "finite_only_mse": 0.0008467042047921346,
+          "finite_only_mean_nrmse": 0.03525123154529154,
+          "failure_penalized_mean_nrmse": 0.03525123154529154
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\empirical_prior_whole_filter_retained_v1.npz",
+      "array_sha256": "785665aca79f956efd18aeed89b11b64024af275fee352633bf2fad4df257644"
+    },
+    {
+      "model": "empirical_prior_whole_filter",
+      "seed": null,
+      "arm": "empirical_prior_whole_filter",
+      "family": "duffing",
+      "cohort": "crossed",
+      "context_field_mse": 0.00016540021632844128,
+      "future_field_mse": 0.007554956784975329,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.0010134981680786268,
+          "population_mean_nrmse": 0.0344884249046114,
+          "population_median_nrmse": 0.016499848946290002,
+          "finite_only_mse": 0.0010134981680786268,
+          "finite_only_mean_nrmse": 0.0344884249046114,
+          "failure_penalized_mean_nrmse": 0.0344884249046114
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.015603106302968978,
+          "population_mean_nrmse": 0.14157721790254335,
+          "population_median_nrmse": 0.0640659005016357,
+          "finite_only_mse": 0.015603106302968978,
+          "finite_only_mean_nrmse": 0.14157721790254335,
+          "failure_penalized_mean_nrmse": 0.14157721790254335
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.058461436139106815,
+          "population_mean_nrmse": 0.2159668976727165,
+          "population_median_nrmse": 0.08194873740607864,
+          "finite_only_mse": 0.058461436139106815,
+          "finite_only_mean_nrmse": 0.2159668976727165,
+          "failure_penalized_mean_nrmse": 0.2159668976727165
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\empirical_prior_whole_filter_crossed_v1.npz",
+      "array_sha256": "97cb1986268cea09b646bb52819b24bd30cdb25fd257c53c46753c34acbac3b0"
+    },
+    {
+      "model": "empirical_prior_whole_filter",
+      "seed": null,
+      "arm": "empirical_prior_whole_filter",
+      "family": "stuart_landau",
+      "cohort": "crossed",
+      "context_field_mse": 0.00015756295719454648,
+      "future_field_mse": 0.012056597480345875,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.0002577958625152126,
+          "population_mean_nrmse": 0.010225807123384847,
+          "population_median_nrmse": 0.004388935887287658,
+          "finite_only_mse": 0.0002577958625152126,
+          "finite_only_mean_nrmse": 0.010225807123384847,
+          "failure_penalized_mean_nrmse": 0.010225807123384847
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.00021523110849691206,
+          "population_mean_nrmse": 0.019314181810824754,
+          "population_median_nrmse": 0.013465326524420007,
+          "finite_only_mse": 0.00021523110849691206,
+          "finite_only_mean_nrmse": 0.019314181810824754,
+          "failure_penalized_mean_nrmse": 0.019314181810824754
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.00044482938356838245,
+          "population_mean_nrmse": 0.0296324017089278,
+          "population_median_nrmse": 0.02350548447006407,
+          "finite_only_mse": 0.00044482938356838245,
+          "finite_only_mean_nrmse": 0.0296324017089278,
+          "failure_penalized_mean_nrmse": 0.0296324017089278
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\empirical_prior_whole_filter_crossed_v1.npz",
+      "array_sha256": "97cb1986268cea09b646bb52819b24bd30cdb25fd257c53c46753c34acbac3b0"
+    },
+    {
+      "model": "empirical_prior_whole_filter",
+      "seed": null,
+      "arm": "empirical_prior_whole_filter",
+      "family": "duffing",
+      "cohort": "unselected",
+      "context_field_mse": 0.00020471554647429573,
+      "future_field_mse": 0.005237108233674024,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.0006475952056388393,
+          "population_mean_nrmse": 0.027048662535793033,
+          "population_median_nrmse": 0.016738445962641815,
+          "finite_only_mse": 0.0006475952056388393,
+          "finite_only_mean_nrmse": 0.027048662535793033,
+          "failure_penalized_mean_nrmse": 0.027048662535793033
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.015669038456088934,
+          "population_mean_nrmse": 0.11820444945322203,
+          "population_median_nrmse": 0.058125603716291205,
+          "finite_only_mse": 0.015669038456088934,
+          "finite_only_mean_nrmse": 0.11820444945322203,
+          "failure_penalized_mean_nrmse": 0.11820444945322203
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.05558878623874133,
+          "population_mean_nrmse": 0.21041426860990897,
+          "population_median_nrmse": 0.08060216297807729,
+          "finite_only_mse": 0.05558878623874133,
+          "finite_only_mean_nrmse": 0.21041426860990897,
+          "failure_penalized_mean_nrmse": 0.21041426860990897
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\empirical_prior_whole_filter_unselected_v1.npz",
+      "array_sha256": "307dd5bebfc8294ba76d3feb21aa7dc3601716c2a3cac7deb3109a2caa128051"
+    },
+    {
+      "model": "empirical_prior_whole_filter",
+      "seed": null,
+      "arm": "empirical_prior_whole_filter",
+      "family": "stuart_landau",
+      "cohort": "unselected",
+      "context_field_mse": 0.00014432950234761897,
+      "future_field_mse": 0.011994404405945668,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.0004071367845020807,
+          "population_mean_nrmse": 0.011420282788179182,
+          "population_median_nrmse": 0.005313985626842009,
+          "finite_only_mse": 0.0004071367845020807,
+          "finite_only_mean_nrmse": 0.011420282788179182,
+          "failure_penalized_mean_nrmse": 0.011420282788179182
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.00043789645329393343,
+          "population_mean_nrmse": 0.02371890050732088,
+          "population_median_nrmse": 0.01586893552690039,
+          "finite_only_mse": 0.00043789645329393343,
+          "finite_only_mean_nrmse": 0.02371890050732088,
+          "failure_penalized_mean_nrmse": 0.02371890050732088
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.000699680432670281,
+          "population_mean_nrmse": 0.03471667881447761,
+          "population_median_nrmse": 0.02630784439957396,
+          "finite_only_mse": 0.000699680432670281,
+          "finite_only_mean_nrmse": 0.03471667881447761,
+          "failure_penalized_mean_nrmse": 0.03471667881447761
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\empirical_prior_whole_filter_unselected_v1.npz",
+      "array_sha256": "307dd5bebfc8294ba76d3feb21aa7dc3601716c2a3cac7deb3109a2caa128051"
+    },
+    {
+      "model": "empirical_prior_unselected",
+      "seed": null,
+      "arm": "empirical_prior_unselected",
+      "family": "duffing",
+      "cohort": "retained",
+      "context_field_mse": 0.00013591452886629486,
+      "future_field_mse": 0.0063780723269590955,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.0008235876127083152,
+          "population_mean_nrmse": 0.028480450429189383,
+          "population_median_nrmse": 0.015432209227581274,
+          "finite_only_mse": 0.0008235876127083152,
+          "finite_only_mean_nrmse": 0.028480450429189383,
+          "failure_penalized_mean_nrmse": 0.028480450429189383
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.013013534797752635,
+          "population_mean_nrmse": 0.1146862238094419,
+          "population_median_nrmse": 0.04769807568107726,
+          "finite_only_mse": 0.013013534797752635,
+          "finite_only_mean_nrmse": 0.1146862238094419,
+          "failure_penalized_mean_nrmse": 0.1146862238094419
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.03300132955802955,
+          "population_mean_nrmse": 0.17338579285115102,
+          "population_median_nrmse": 0.08194175067636623,
+          "finite_only_mse": 0.03300132955802955,
+          "finite_only_mean_nrmse": 0.17338579285115102,
+          "failure_penalized_mean_nrmse": 0.17338579285115102
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\empirical_prior_unselected_retained_v1.npz",
+      "array_sha256": "637fdc15a5eec5ea9da90a3bd005af8363c685ea89085c0934d2c096d32881d8"
+    },
+    {
+      "model": "empirical_prior_unselected",
+      "seed": null,
+      "arm": "empirical_prior_unselected",
+      "family": "stuart_landau",
+      "cohort": "retained",
+      "context_field_mse": 0.00013627463200334205,
+      "future_field_mse": 0.012919163408358709,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.0004346304928174357,
+          "population_mean_nrmse": 0.011068456428980735,
+          "population_median_nrmse": 0.0052562389499099405,
+          "finite_only_mse": 0.0004346304928174357,
+          "finite_only_mean_nrmse": 0.011068456428980735,
+          "failure_penalized_mean_nrmse": 0.011068456428980735
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.0005026997856414403,
+          "population_mean_nrmse": 0.02402677308392863,
+          "population_median_nrmse": 0.016046106706641597,
+          "finite_only_mse": 0.0005026997856414403,
+          "finite_only_mean_nrmse": 0.02402677308392863,
+          "failure_penalized_mean_nrmse": 0.02402677308392863
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.0008467256100297695,
+          "population_mean_nrmse": 0.03525210452507167,
+          "population_median_nrmse": 0.026316188545773764,
+          "finite_only_mse": 0.0008467256100297695,
+          "finite_only_mean_nrmse": 0.03525210452507167,
+          "failure_penalized_mean_nrmse": 0.03525210452507167
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\empirical_prior_unselected_retained_v1.npz",
+      "array_sha256": "637fdc15a5eec5ea9da90a3bd005af8363c685ea89085c0934d2c096d32881d8"
+    },
+    {
+      "model": "empirical_prior_unselected",
+      "seed": null,
+      "arm": "empirical_prior_unselected",
+      "family": "duffing",
+      "cohort": "crossed",
+      "context_field_mse": 0.0001653173448218079,
+      "future_field_mse": 0.007629347468396939,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.001020853183829019,
+          "population_mean_nrmse": 0.03438274010383806,
+          "population_median_nrmse": 0.01643245034443455,
+          "finite_only_mse": 0.001020853183829019,
+          "finite_only_mean_nrmse": 0.03438274010383806,
+          "failure_penalized_mean_nrmse": 0.03438274010383806
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.01560257254933864,
+          "population_mean_nrmse": 0.14153712360358858,
+          "population_median_nrmse": 0.0641466083929281,
+          "finite_only_mse": 0.01560257254933864,
+          "finite_only_mean_nrmse": 0.14153712360358858,
+          "failure_penalized_mean_nrmse": 0.14153712360358858
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.058574629172040246,
+          "population_mean_nrmse": 0.2161397978324606,
+          "population_median_nrmse": 0.08034133347670375,
+          "finite_only_mse": 0.058574629172040246,
+          "finite_only_mean_nrmse": 0.2161397978324606,
+          "failure_penalized_mean_nrmse": 0.2161397978324606
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\empirical_prior_unselected_crossed_v1.npz",
+      "array_sha256": "bc811f80eb9b65d8445e3813d326298ad63176ebd71f7e2a486e54d6168e9d05"
+    },
+    {
+      "model": "empirical_prior_unselected",
+      "seed": null,
+      "arm": "empirical_prior_unselected",
+      "family": "stuart_landau",
+      "cohort": "crossed",
+      "context_field_mse": 0.00015758965628116645,
+      "future_field_mse": 0.012061084591340799,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.0002576809317806093,
+          "population_mean_nrmse": 0.01022345763637339,
+          "population_median_nrmse": 0.004391090752963127,
+          "finite_only_mse": 0.0002576809317806093,
+          "finite_only_mean_nrmse": 0.01022345763637339,
+          "failure_penalized_mean_nrmse": 0.01022345763637339
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.00021515864753890362,
+          "population_mean_nrmse": 0.019313781545101258,
+          "population_median_nrmse": 0.013465961773245995,
+          "finite_only_mse": 0.00021515864753890362,
+          "finite_only_mean_nrmse": 0.019313781545101258,
+          "failure_penalized_mean_nrmse": 0.019313781545101258
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.0004447281884553206,
+          "population_mean_nrmse": 0.0296355963815988,
+          "population_median_nrmse": 0.02350121237613318,
+          "finite_only_mse": 0.0004447281884553206,
+          "finite_only_mean_nrmse": 0.0296355963815988,
+          "failure_penalized_mean_nrmse": 0.0296355963815988
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\empirical_prior_unselected_crossed_v1.npz",
+      "array_sha256": "bc811f80eb9b65d8445e3813d326298ad63176ebd71f7e2a486e54d6168e9d05"
+    },
+    {
+      "model": "empirical_prior_unselected",
+      "seed": null,
+      "arm": "empirical_prior_unselected",
+      "family": "duffing",
+      "cohort": "unselected",
+      "context_field_mse": 0.00020490850511751106,
+      "future_field_mse": 0.005214206269865865,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.0006157721240865481,
+          "population_mean_nrmse": 0.026975097346195763,
+          "population_median_nrmse": 0.016690176093833456,
+          "finite_only_mse": 0.0006157721240865481,
+          "finite_only_mean_nrmse": 0.026975097346195763,
+          "failure_penalized_mean_nrmse": 0.026975097346195763
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.01573573455391363,
+          "population_mean_nrmse": 0.11867754037424956,
+          "population_median_nrmse": 0.057147428322341445,
+          "finite_only_mse": 0.01573573455391363,
+          "finite_only_mean_nrmse": 0.11867754037424956,
+          "failure_penalized_mean_nrmse": 0.11867754037424956
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.05597388680016627,
+          "population_mean_nrmse": 0.21233122444435862,
+          "population_median_nrmse": 0.07970842589015734,
+          "finite_only_mse": 0.05597388680016627,
+          "finite_only_mean_nrmse": 0.21233122444435862,
+          "failure_penalized_mean_nrmse": 0.21233122444435862
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\empirical_prior_unselected_unselected_v1.npz",
+      "array_sha256": "5f75955964af8755b5471d2bed6e51b56f152089507d24746a05380168939ec9"
+    },
+    {
+      "model": "empirical_prior_unselected",
+      "seed": null,
+      "arm": "empirical_prior_unselected",
+      "family": "stuart_landau",
+      "cohort": "unselected",
+      "context_field_mse": 0.00014437057501135638,
+      "future_field_mse": 0.012008823123605924,
+      "field_finite": true,
+      "horizons": [
+        {
+          "horizon": 1,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.00040832895915909455,
+          "population_mean_nrmse": 0.01142944306873328,
+          "population_median_nrmse": 0.005314134508340386,
+          "finite_only_mse": 0.00040832895915909455,
+          "finite_only_mean_nrmse": 0.01142944306873328,
+          "failure_penalized_mean_nrmse": 0.01142944306873328
+        },
+        {
+          "horizon": 5,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.0004387916212109012,
+          "population_mean_nrmse": 0.023730034780449768,
+          "population_median_nrmse": 0.01586884160513406,
+          "finite_only_mse": 0.0004387916212109012,
+          "finite_only_mean_nrmse": 0.023730034780449768,
+          "failure_penalized_mean_nrmse": 0.023730034780449768
+        },
+        {
+          "horizon": 10,
+          "n": 128,
+          "complete_count": 128,
+          "failed_count": 0,
+          "population_mse": 0.0007001387140804971,
+          "population_mean_nrmse": 0.03472186504384245,
+          "population_median_nrmse": 0.026308052066523833,
+          "finite_only_mse": 0.0007001387140804971,
+          "finite_only_mean_nrmse": 0.03472186504384245,
+          "failure_penalized_mean_nrmse": 0.03472186504384245
+        }
+      ],
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle87\\evaluation_v2\\predictions\\empirical_prior_unselected_unselected_v1.npz",
+      "array_sha256": "5f75955964af8755b5471d2bed6e51b56f152089507d24746a05380168939ec9"
+    }
+  ],
+  "cached_native_checks": [
+    {
+      "model": "native_frozen",
+      "cohort": "retained",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_frozen",
+      "cohort": "crossed",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_frozen",
+      "cohort": "unselected",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026872_whole_filter",
+      "cohort": "retained",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026872_whole_filter",
+      "cohort": "crossed",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026872_whole_filter",
+      "cohort": "unselected",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026872_resampled_ic",
+      "cohort": "retained",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026872_resampled_ic",
+      "cohort": "crossed",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026872_resampled_ic",
+      "cohort": "unselected",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026872_unselected",
+      "cohort": "retained",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026872_unselected",
+      "cohort": "crossed",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026872_unselected",
+      "cohort": "unselected",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026873_whole_filter",
+      "cohort": "retained",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026873_whole_filter",
+      "cohort": "crossed",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026873_whole_filter",
+      "cohort": "unselected",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026873_resampled_ic",
+      "cohort": "retained",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026873_resampled_ic",
+      "cohort": "crossed",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026873_resampled_ic",
+      "cohort": "unselected",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026873_unselected",
+      "cohort": "retained",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026873_unselected",
+      "cohort": "crossed",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026873_unselected",
+      "cohort": "unselected",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026874_whole_filter",
+      "cohort": "retained",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026874_whole_filter",
+      "cohort": "crossed",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026874_whole_filter",
+      "cohort": "unselected",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026874_resampled_ic",
+      "cohort": "retained",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026874_resampled_ic",
+      "cohort": "crossed",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026874_resampled_ic",
+      "cohort": "unselected",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026874_unselected",
+      "cohort": "retained",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026874_unselected",
+      "cohort": "crossed",
+      "cached_direct_max_abs": 0.0
+    },
+    {
+      "model": "native_seed2026874_unselected",
+      "cohort": "unselected",
+      "cached_direct_max_abs": 0.0
+    }
+  ],
+  "selection_sha256": "b377937cb471d15806d2bbfc6bb74c9d3aa02d79ba82037716c38ba59bd141ec",
+  "evaluation_manifest_sha256": "ffaf1eded3c965b364bb89b319d4ee4eba519fd62bf3b3b0304c18e56e00bd56",
+  "ordinary_selection": {
+    "degree": 1,
+    "ridge": 0.01,
+    "val_normalized_field_l1": 0.3880732175897095,
+    "val_raw_field_mse": 28.780131443767736,
+    "finite": true
+  },
+  "empirical_selection_sha256": "bc6f13125835d2e05df65a7d0981dfcac13ec2f335998aed756850b0756e6545",
+  "strong_control_sha256": "84ed583ae3dc8387583721ab2a5b925e1cc9d8caa5a538ed24e39c60d8533484",
+  "elapsed_seconds": 608.3626673999825,
+  "accepted_final_directions": 0,
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "original_eval_results_sha256": "76dbf18990358edcbb30e12c28a1c4aef29f9a1213043452df7bc4e5bed28ded",
+  "numerical_revision": {
+    "only_changed_model": "ordinary_weak_polynomial",
+    "changes": [
+      {
+        "cohort": "retained",
+        "original_array_sha256": "da58196a05ab3791279f467ee0af2828c6227dd28b395b69f097a4e792517d70",
+        "exact_array_sha256": "90c7e83c67b3f0ac95d1f9b118763df6119199127ea6c947f6572568f985b1e6",
+        "finite_common_max_abs_delta": 4.3256457843199314e-05,
+        "old_h10_failures": 4,
+        "new_h10_failures": 4
+      },
+      {
+        "cohort": "crossed",
+        "original_array_sha256": "199499f25b495b61edb0ec6d07671ae0e02fbe1023d598b6402803cd14602d12",
+        "exact_array_sha256": "46beedfe066c67ff9d3e76f6403a7894552e2acbf6775ebe7b59c0826c0f5c12",
+        "finite_common_max_abs_delta": 0.000163502874841015,
+        "old_h10_failures": 8,
+        "new_h10_failures": 8
+      },
+      {
+        "cohort": "unselected",
+        "original_array_sha256": "4085992b6bf8619da064937f43c24797f254bea886e038d533108aa1289dcfc2",
+        "exact_array_sha256": "35dbd311d6d8237ba540e19cc185da612b53d9bdea3def771ad16f2013503242",
+        "finite_common_max_abs_delta": 4.3256457843199314e-05,
+        "old_h10_failures": 2,
+        "new_h10_failures": 2
+      }
+    ],
+    "learning_and_selection_unchanged": true,
+    "all_other_prediction_arrays_unchanged": true,
+    "note_sha256": "c1b545fc3d969d5bd080398b79fd511e895a64796ebb8e1a4a32408d0977d43b"
+  }
+}

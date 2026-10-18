@@ -1,0 +1,606 @@
+{
+  "utc": "2026-10-18T16:32:48.799386+00:00",
+  "status": "NINE_NATIVE_FITS_SELECTED_BEFORE_EVALUATION",
+  "fits": [
+    {
+      "seed": 2026872,
+      "arm": "whole_filter",
+      "trace": [
+        {
+          "step": 0,
+          "val_normalized_field_l1": 38.88418388366699,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_whole_filter_step00000_v1.pt",
+          "checkpoint_sha256": "4c75566c9abc44ee46c5b6c56737e5a4ec7f7b9bf1224978023f1cbdd894c166",
+          "elapsed_seconds": 0.9171512000029907
+        },
+        {
+          "step": 500,
+          "val_normalized_field_l1": 23.399474561214447,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_whole_filter_step00500_v1.pt",
+          "checkpoint_sha256": "9c767c6dcceef63e8d6f4ad3b02368858271953a58fbf416b3e8256dbafddab6",
+          "elapsed_seconds": 24.875903200008906
+        },
+        {
+          "step": 1000,
+          "val_normalized_field_l1": 20.179111897945404,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_whole_filter_step01000_v1.pt",
+          "checkpoint_sha256": "820117a1cc158c2f4ef11325fe23f45ed0d444520532a2d50bf5e706aa7567ff",
+          "elapsed_seconds": 48.940910600009374
+        },
+        {
+          "step": 1500,
+          "val_normalized_field_l1": 18.681881844997406,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_whole_filter_step01500_v1.pt",
+          "checkpoint_sha256": "783e00da9df1ce0dadd551c181964618287b804d6e37beb608ecdb7a44512303",
+          "elapsed_seconds": 72.92937450000318
+        },
+        {
+          "step": 2000,
+          "val_normalized_field_l1": 19.246824979782104,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_whole_filter_step02000_v1.pt",
+          "checkpoint_sha256": "e8ac70e097e26ed6bbe1da4f2156189f186dc0f0dd8847a79340668064e5d70f",
+          "elapsed_seconds": 97.42540140001802
+        },
+        {
+          "step": 2500,
+          "val_normalized_field_l1": 17.447541415691376,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_whole_filter_step02500_v1.pt",
+          "checkpoint_sha256": "b1ecb3372578c8455f329933a476ed50123063b0ee0e98a6fa7ccc32091c9e67",
+          "elapsed_seconds": 121.35730729997158
+        },
+        {
+          "step": 3000,
+          "val_normalized_field_l1": 19.194263100624084,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_whole_filter_step03000_v1.pt",
+          "checkpoint_sha256": "d5261a42aeefb6ccfa3b705d01916d504e8cfd6060422cb3862e1700e9d046c7",
+          "elapsed_seconds": 145.3820423000143
+        }
+      ],
+      "selected": {
+        "step": 2500,
+        "val_normalized_field_l1": 17.447541415691376,
+        "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_whole_filter_step02500_v1.pt",
+        "checkpoint_sha256": "b1ecb3372578c8455f329933a476ed50123063b0ee0e98a6fa7ccc32091c9e67",
+        "elapsed_seconds": 121.35730729997158
+      },
+      "updates": 3000,
+      "changed_state_tensors": 280,
+      "initial_state_identical_to_pinned_checkpoint": true,
+      "wall_seconds": 145.4065381999826
+    },
+    {
+      "seed": 2026872,
+      "arm": "resampled_ic",
+      "trace": [
+        {
+          "step": 0,
+          "val_normalized_field_l1": 38.88418388366699,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_resampled_ic_step00000_v1.pt",
+          "checkpoint_sha256": "b373ea46fd65b3bcf1f038a119dffc1f839e51752f5d4df81bafbbaafa0914a7",
+          "elapsed_seconds": 0.5248180999769829
+        },
+        {
+          "step": 500,
+          "val_normalized_field_l1": 22.5436173081398,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_resampled_ic_step00500_v1.pt",
+          "checkpoint_sha256": "1d6635060e91638d7d74aaaa443602d66a4ba3266f2e29f90af795d8ff0782e1",
+          "elapsed_seconds": 24.43069229996763
+        },
+        {
+          "step": 1000,
+          "val_normalized_field_l1": 19.97893214225769,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_resampled_ic_step01000_v1.pt",
+          "checkpoint_sha256": "63612f468779e605b650cfa1f7b9b16cab682173bfb088b0b44e5a962d8a014b",
+          "elapsed_seconds": 48.356885899964254
+        },
+        {
+          "step": 1500,
+          "val_normalized_field_l1": 18.828701317310333,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_resampled_ic_step01500_v1.pt",
+          "checkpoint_sha256": "58ed97a212fb038707b12316c7568f41d694caed14f70602fca5bce74de768a8",
+          "elapsed_seconds": 72.29307199997129
+        },
+        {
+          "step": 2000,
+          "val_normalized_field_l1": 20.10667872428894,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_resampled_ic_step02000_v1.pt",
+          "checkpoint_sha256": "4a31ff3318785cedf4c3d96d851dc926ffe62b8f2b875a3342e2207b6f6bf888",
+          "elapsed_seconds": 96.2347009999794
+        },
+        {
+          "step": 2500,
+          "val_normalized_field_l1": 17.8117458820343,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_resampled_ic_step02500_v1.pt",
+          "checkpoint_sha256": "be8beb9837ed20b2a84f62a6bbe16d7b7735f1a6f59a584c616944e5f86d2b18",
+          "elapsed_seconds": 120.49720179999713
+        },
+        {
+          "step": 3000,
+          "val_normalized_field_l1": 17.813420355319977,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_resampled_ic_step03000_v1.pt",
+          "checkpoint_sha256": "48a371163c998315b587d949465fb9861916d1bb4658a725bbef6f9aacacbeb5",
+          "elapsed_seconds": 144.38480549998349
+        }
+      ],
+      "selected": {
+        "step": 2500,
+        "val_normalized_field_l1": 17.8117458820343,
+        "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_resampled_ic_step02500_v1.pt",
+        "checkpoint_sha256": "be8beb9837ed20b2a84f62a6bbe16d7b7735f1a6f59a584c616944e5f86d2b18",
+        "elapsed_seconds": 120.49720179999713
+      },
+      "updates": 3000,
+      "changed_state_tensors": 280,
+      "initial_state_identical_to_pinned_checkpoint": true,
+      "wall_seconds": 144.40272919996642
+    },
+    {
+      "seed": 2026872,
+      "arm": "unselected",
+      "trace": [
+        {
+          "step": 0,
+          "val_normalized_field_l1": 38.88418388366699,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_unselected_step00000_v1.pt",
+          "checkpoint_sha256": "44ffd99ae55587176f730a38a0c1ce1a24fcb42a01b3298b17c9e4fae6163f97",
+          "elapsed_seconds": 0.5065755000105128
+        },
+        {
+          "step": 500,
+          "val_normalized_field_l1": 22.714966654777527,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_unselected_step00500_v1.pt",
+          "checkpoint_sha256": "7901cb894ce7e1e2b1a7d1012db8a685dcf24dcca06acb6628907ef865466605",
+          "elapsed_seconds": 24.571228499989957
+        },
+        {
+          "step": 1000,
+          "val_normalized_field_l1": 20.61666512489319,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_unselected_step01000_v1.pt",
+          "checkpoint_sha256": "ba235c48aa5cddf96ab204e66a8d5fe476450d937cb3f90013cf97c5a256ace6",
+          "elapsed_seconds": 48.45893600001
+        },
+        {
+          "step": 1500,
+          "val_normalized_field_l1": 19.02707529067993,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_unselected_step01500_v1.pt",
+          "checkpoint_sha256": "8ff40683e63ee3dd42150a40c0ce76f2d580c9427717e2e257132d550573e3e7",
+          "elapsed_seconds": 72.50640929996734
+        },
+        {
+          "step": 2000,
+          "val_normalized_field_l1": 20.33089178800583,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_unselected_step02000_v1.pt",
+          "checkpoint_sha256": "75cb30c79e86ff4acdd096abbbd7ea2d1f8edecf6a5a191e944b3a5b62e637d3",
+          "elapsed_seconds": 96.38327619998017
+        },
+        {
+          "step": 2500,
+          "val_normalized_field_l1": 18.912047564983368,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_unselected_step02500_v1.pt",
+          "checkpoint_sha256": "390dcc695bd5a7f0126200f86ef99cd6d9d6d46b9598b96287c376c9e728b8de",
+          "elapsed_seconds": 120.37138009996852
+        },
+        {
+          "step": 3000,
+          "val_normalized_field_l1": 18.550173103809357,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_unselected_step03000_v1.pt",
+          "checkpoint_sha256": "65dd9715a0958392cf5b9d59e40cad89cb511ade5da31b295d270497d50bb110",
+          "elapsed_seconds": 144.55322399997385
+        }
+      ],
+      "selected": {
+        "step": 3000,
+        "val_normalized_field_l1": 18.550173103809357,
+        "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026872_unselected_step03000_v1.pt",
+        "checkpoint_sha256": "65dd9715a0958392cf5b9d59e40cad89cb511ade5da31b295d270497d50bb110",
+        "elapsed_seconds": 144.55322399997385
+      },
+      "updates": 3000,
+      "changed_state_tensors": 280,
+      "initial_state_identical_to_pinned_checkpoint": true,
+      "wall_seconds": 144.57447910000337
+    },
+    {
+      "seed": 2026873,
+      "arm": "whole_filter",
+      "trace": [
+        {
+          "step": 0,
+          "val_normalized_field_l1": 38.88418388366699,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_whole_filter_step00000_v1.pt",
+          "checkpoint_sha256": "df04ae04a18a2d741c0489e9424c562245d4fd7223e31cb50d30506593454fff",
+          "elapsed_seconds": 0.5190219999640249
+        },
+        {
+          "step": 500,
+          "val_normalized_field_l1": 22.21997183561325,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_whole_filter_step00500_v1.pt",
+          "checkpoint_sha256": "13fa5ecbf9b5f36255b7a141d20ac7341635a669ca4de9915b5be0deebfbe16c",
+          "elapsed_seconds": 23.93438559997594
+        },
+        {
+          "step": 1000,
+          "val_normalized_field_l1": 21.257309436798096,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_whole_filter_step01000_v1.pt",
+          "checkpoint_sha256": "b07c35a81a5d74f36b24d61714e8e5eb23b4bb143c8e61d33daae834edadfde4",
+          "elapsed_seconds": 48.00621829996817
+        },
+        {
+          "step": 1500,
+          "val_normalized_field_l1": 19.62896454334259,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_whole_filter_step01500_v1.pt",
+          "checkpoint_sha256": "d9773665621e2e5d1b8fb45f7c6611f0b48d3fee19239529166a208d3b0e968a",
+          "elapsed_seconds": 72.30637059995206
+        },
+        {
+          "step": 2000,
+          "val_normalized_field_l1": 18.217426419258118,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_whole_filter_step02000_v1.pt",
+          "checkpoint_sha256": "c5a9262e06cfb7be421c9246b79aaa8e86c0f9569521af4f02547d74a5ea532a",
+          "elapsed_seconds": 95.9327515999903
+        },
+        {
+          "step": 2500,
+          "val_normalized_field_l1": 17.84171152114868,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_whole_filter_step02500_v1.pt",
+          "checkpoint_sha256": "e57068f05bfcd9295fe02ff05b2a9a4c04d3e6bbfc16a554b466b9545f59c89a",
+          "elapsed_seconds": 120.10812190000433
+        },
+        {
+          "step": 3000,
+          "val_normalized_field_l1": 18.02244544029236,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_whole_filter_step03000_v1.pt",
+          "checkpoint_sha256": "4771e5b5677f61c375066ef094519b24383c8240453461d98c4959f40053ee38",
+          "elapsed_seconds": 144.13656979997177
+        }
+      ],
+      "selected": {
+        "step": 2500,
+        "val_normalized_field_l1": 17.84171152114868,
+        "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_whole_filter_step02500_v1.pt",
+        "checkpoint_sha256": "e57068f05bfcd9295fe02ff05b2a9a4c04d3e6bbfc16a554b466b9545f59c89a",
+        "elapsed_seconds": 120.10812190000433
+      },
+      "updates": 3000,
+      "changed_state_tensors": 280,
+      "initial_state_identical_to_pinned_checkpoint": true,
+      "wall_seconds": 144.15835669997614
+    },
+    {
+      "seed": 2026873,
+      "arm": "resampled_ic",
+      "trace": [
+        {
+          "step": 0,
+          "val_normalized_field_l1": 38.88418388366699,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_resampled_ic_step00000_v1.pt",
+          "checkpoint_sha256": "43e23947cc97951978f7a22778da436cca018f2f9eaf712c70dabf72e276d4f6",
+          "elapsed_seconds": 0.5178596000187099
+        },
+        {
+          "step": 500,
+          "val_normalized_field_l1": 22.535105764865875,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_resampled_ic_step00500_v1.pt",
+          "checkpoint_sha256": "42da6bafcfa30ed448f32f3aaae21a8cf3e7bd813483886941be63fd2939211a",
+          "elapsed_seconds": 24.766850600019097
+        },
+        {
+          "step": 1000,
+          "val_normalized_field_l1": 20.66288185119629,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_resampled_ic_step01000_v1.pt",
+          "checkpoint_sha256": "768d7eaca18125b5a09cbb49384284ad0eb5a0c7dadc9bf1521d5f5a962c095c",
+          "elapsed_seconds": 48.819699199986644
+        },
+        {
+          "step": 1500,
+          "val_normalized_field_l1": 19.275430023670197,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_resampled_ic_step01500_v1.pt",
+          "checkpoint_sha256": "da4d778e85f2d772259af97752c8e80b3c06ec2f0b21d6e6c966cf6f5f6aea89",
+          "elapsed_seconds": 73.03159969998524
+        },
+        {
+          "step": 2000,
+          "val_normalized_field_l1": 18.291219294071198,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_resampled_ic_step02000_v1.pt",
+          "checkpoint_sha256": "e8192b63dbd55e46d1d0d1a8b00a96065f247146301172f8350c535e30528571",
+          "elapsed_seconds": 97.2630882000085
+        },
+        {
+          "step": 2500,
+          "val_normalized_field_l1": 18.28593647480011,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_resampled_ic_step02500_v1.pt",
+          "checkpoint_sha256": "3b249780b29d654bea41ac743e06e5f652a41b9c8a70198218196a5dbf666f6e",
+          "elapsed_seconds": 121.3136758999899
+        },
+        {
+          "step": 3000,
+          "val_normalized_field_l1": 19.327940702438354,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_resampled_ic_step03000_v1.pt",
+          "checkpoint_sha256": "865420325b55ebbbf2dcd066b9de05373bb8e5bb6a8c1a2ba7d602a61c22418c",
+          "elapsed_seconds": 145.40563039999688
+        }
+      ],
+      "selected": {
+        "step": 2500,
+        "val_normalized_field_l1": 18.28593647480011,
+        "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_resampled_ic_step02500_v1.pt",
+        "checkpoint_sha256": "3b249780b29d654bea41ac743e06e5f652a41b9c8a70198218196a5dbf666f6e",
+        "elapsed_seconds": 121.3136758999899
+      },
+      "updates": 3000,
+      "changed_state_tensors": 280,
+      "initial_state_identical_to_pinned_checkpoint": true,
+      "wall_seconds": 145.4258026999887
+    },
+    {
+      "seed": 2026873,
+      "arm": "unselected",
+      "trace": [
+        {
+          "step": 0,
+          "val_normalized_field_l1": 38.88418388366699,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_unselected_step00000_v1.pt",
+          "checkpoint_sha256": "ad6922dbaac0d1b51551f64e2010f687dc61d709ccb6c632028ae831735aca23",
+          "elapsed_seconds": 0.45023789996048436
+        },
+        {
+          "step": 500,
+          "val_normalized_field_l1": 21.88429546356201,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_unselected_step00500_v1.pt",
+          "checkpoint_sha256": "1e834c20f447c2b0973dd30848aa7b12c19aa5c7d0bb909655ad17bca3313641",
+          "elapsed_seconds": 24.62862109998241
+        },
+        {
+          "step": 1000,
+          "val_normalized_field_l1": 21.105828404426575,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_unselected_step01000_v1.pt",
+          "checkpoint_sha256": "077b05112be86325892aa4128d1fd45cc699067db0a26bc8dd7c4574f6dc257f",
+          "elapsed_seconds": 48.718509799975436
+        },
+        {
+          "step": 1500,
+          "val_normalized_field_l1": 20.32772070169449,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_unselected_step01500_v1.pt",
+          "checkpoint_sha256": "ca2303d6aa1c72c3da40e71f51e7774eddbe576ac15b48f5e1d17b9fd48f62d4",
+          "elapsed_seconds": 73.0197971999878
+        },
+        {
+          "step": 2000,
+          "val_normalized_field_l1": 19.591813564300537,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_unselected_step02000_v1.pt",
+          "checkpoint_sha256": "997a9fadc0f515ec6ad73a6511cb2dbb84485c5ddc8e667dfb10513df1cf5251",
+          "elapsed_seconds": 97.06670929997927
+        },
+        {
+          "step": 2500,
+          "val_normalized_field_l1": 18.61047923564911,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_unselected_step02500_v1.pt",
+          "checkpoint_sha256": "1f06e63015a5fe707b77b4176b56c3426786b5250e452ba69e5197eba3a22f88",
+          "elapsed_seconds": 121.147554199968
+        },
+        {
+          "step": 3000,
+          "val_normalized_field_l1": 19.16511833667755,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_unselected_step03000_v1.pt",
+          "checkpoint_sha256": "65fdd0c89c9a8b5e376d4d1acc192d8525bc755b3bd9cb1277d247098410e4aa",
+          "elapsed_seconds": 145.23292219999712
+        }
+      ],
+      "selected": {
+        "step": 2500,
+        "val_normalized_field_l1": 18.61047923564911,
+        "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026873_unselected_step02500_v1.pt",
+        "checkpoint_sha256": "1f06e63015a5fe707b77b4176b56c3426786b5250e452ba69e5197eba3a22f88",
+        "elapsed_seconds": 121.147554199968
+      },
+      "updates": 3000,
+      "changed_state_tensors": 280,
+      "initial_state_identical_to_pinned_checkpoint": true,
+      "wall_seconds": 145.2525582999806
+    },
+    {
+      "seed": 2026874,
+      "arm": "whole_filter",
+      "trace": [
+        {
+          "step": 0,
+          "val_normalized_field_l1": 38.88418388366699,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_whole_filter_step00000_v1.pt",
+          "checkpoint_sha256": "a801745967dc777bbe5ac4c0f00805bb656a0fc87b9159acc4ef60754d255ee2",
+          "elapsed_seconds": 0.4937868000124581
+        },
+        {
+          "step": 500,
+          "val_normalized_field_l1": 22.04308658838272,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_whole_filter_step00500_v1.pt",
+          "checkpoint_sha256": "6793655c9974bc8d2f9c3892b464de770dab8bec8a6bd2aef652e726c2055f39",
+          "elapsed_seconds": 23.977559899969492
+        },
+        {
+          "step": 1000,
+          "val_normalized_field_l1": 20.83931690454483,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_whole_filter_step01000_v1.pt",
+          "checkpoint_sha256": "43b92aa2a1e14926bd932f7b777c64b17ac1552e3014fb4b25e336415953c082",
+          "elapsed_seconds": 47.40267889999086
+        },
+        {
+          "step": 1500,
+          "val_normalized_field_l1": 18.98808580636978,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_whole_filter_step01500_v1.pt",
+          "checkpoint_sha256": "7718acd2aa85bff3a84f7413f464e811b3d07fa1be44d6e439a77193fed32290",
+          "elapsed_seconds": 71.6468139999779
+        },
+        {
+          "step": 2000,
+          "val_normalized_field_l1": 18.984755635261536,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_whole_filter_step02000_v1.pt",
+          "checkpoint_sha256": "7ca08ad9c973a7ea95bdea0ca57c8670e2fa2c520c8a8b534a805ccd65957398",
+          "elapsed_seconds": 96.06396769999992
+        },
+        {
+          "step": 2500,
+          "val_normalized_field_l1": 17.270885825157166,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_whole_filter_step02500_v1.pt",
+          "checkpoint_sha256": "28b33f7e4d49034139179b9f3060ada9b3704dd094f6b574da8c03833ca9242f",
+          "elapsed_seconds": 120.33130730001722
+        },
+        {
+          "step": 3000,
+          "val_normalized_field_l1": 17.93883341550827,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_whole_filter_step03000_v1.pt",
+          "checkpoint_sha256": "48c45e1dabae75069d0309a57052fa95734faf12c9e752b6da54df7e6227d4ce",
+          "elapsed_seconds": 144.38262449996546
+        }
+      ],
+      "selected": {
+        "step": 2500,
+        "val_normalized_field_l1": 17.270885825157166,
+        "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_whole_filter_step02500_v1.pt",
+        "checkpoint_sha256": "28b33f7e4d49034139179b9f3060ada9b3704dd094f6b574da8c03833ca9242f",
+        "elapsed_seconds": 120.33130730001722
+      },
+      "updates": 3000,
+      "changed_state_tensors": 280,
+      "initial_state_identical_to_pinned_checkpoint": true,
+      "wall_seconds": 144.40419099997962
+    },
+    {
+      "seed": 2026874,
+      "arm": "resampled_ic",
+      "trace": [
+        {
+          "step": 0,
+          "val_normalized_field_l1": 38.88418388366699,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_resampled_ic_step00000_v1.pt",
+          "checkpoint_sha256": "5caf9fc07e89864a71bd4ddc0f0cf1b9942f7ce9313abb7f448bb5767d8bfc1c",
+          "elapsed_seconds": 0.46702479996019974
+        },
+        {
+          "step": 500,
+          "val_normalized_field_l1": 22.352118849754333,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_resampled_ic_step00500_v1.pt",
+          "checkpoint_sha256": "bb32d32280538bd7511417a7bf02850cf78c286322aa15b04f50a9c25edd9e7b",
+          "elapsed_seconds": 24.767089699977078
+        },
+        {
+          "step": 1000,
+          "val_normalized_field_l1": 20.12067723274231,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_resampled_ic_step01000_v1.pt",
+          "checkpoint_sha256": "2829872f01bc36e2594c973ff5923a56fcd66f42a85c5ade78610457e9880bed",
+          "elapsed_seconds": 49.05565429996932
+        },
+        {
+          "step": 1500,
+          "val_normalized_field_l1": 19.34897744655609,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_resampled_ic_step01500_v1.pt",
+          "checkpoint_sha256": "344a5f58312660b69fdfd5344c00c76c0b2dd32def50e4cf8310fe269ce8cf0c",
+          "elapsed_seconds": 73.28411359997699
+        },
+        {
+          "step": 2000,
+          "val_normalized_field_l1": 18.48047024011612,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_resampled_ic_step02000_v1.pt",
+          "checkpoint_sha256": "cb73a0970c24fad2c33d357dd29fed4797771fbb193cc84fd6cc857daeb009af",
+          "elapsed_seconds": 97.4345248999889
+        },
+        {
+          "step": 2500,
+          "val_normalized_field_l1": 18.00929367542267,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_resampled_ic_step02500_v1.pt",
+          "checkpoint_sha256": "7ec0dacc3b1fccdc4a2b04e1425799e1cca6656ea37c55577c91a50d4c1b76f0",
+          "elapsed_seconds": 121.71392670000205
+        },
+        {
+          "step": 3000,
+          "val_normalized_field_l1": 17.20468819141388,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_resampled_ic_step03000_v1.pt",
+          "checkpoint_sha256": "7010d8a8020cf6d1562a11deda9fae0aa736beeb6ba64339257902f6d9979bae",
+          "elapsed_seconds": 145.73437129997183
+        }
+      ],
+      "selected": {
+        "step": 3000,
+        "val_normalized_field_l1": 17.20468819141388,
+        "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_resampled_ic_step03000_v1.pt",
+        "checkpoint_sha256": "7010d8a8020cf6d1562a11deda9fae0aa736beeb6ba64339257902f6d9979bae",
+        "elapsed_seconds": 145.73437129997183
+      },
+      "updates": 3000,
+      "changed_state_tensors": 280,
+      "initial_state_identical_to_pinned_checkpoint": true,
+      "wall_seconds": 145.757668599952
+    },
+    {
+      "seed": 2026874,
+      "arm": "unselected",
+      "trace": [
+        {
+          "step": 0,
+          "val_normalized_field_l1": 38.88418388366699,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_unselected_step00000_v1.pt",
+          "checkpoint_sha256": "50627bb6711ac1267826e7d55f9522d55841a31aaf69016ea31e4ab63a92cf0f",
+          "elapsed_seconds": 0.4429454000201076
+        },
+        {
+          "step": 500,
+          "val_normalized_field_l1": 22.774236023426056,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_unselected_step00500_v1.pt",
+          "checkpoint_sha256": "62735476f7b4b0ea63d7ae659edb13c5894c7a8186c8dcdaf3be965ef5b3eadc",
+          "elapsed_seconds": 24.529288700025063
+        },
+        {
+          "step": 1000,
+          "val_normalized_field_l1": 20.16193789243698,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_unselected_step01000_v1.pt",
+          "checkpoint_sha256": "ad52c7c5bd3faf85b03d9013b9a73d3ed128bcef5f0677e86b2e7804ed209ff5",
+          "elapsed_seconds": 48.78210410004249
+        },
+        {
+          "step": 1500,
+          "val_normalized_field_l1": 21.566319346427917,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_unselected_step01500_v1.pt",
+          "checkpoint_sha256": "dd5b9dfb49de74e986dd48a23d542b0bb5b132caa685441ba466a2f6ea85ac89",
+          "elapsed_seconds": 72.82956940005533
+        },
+        {
+          "step": 2000,
+          "val_normalized_field_l1": 20.809726059436798,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_unselected_step02000_v1.pt",
+          "checkpoint_sha256": "65a3ba054df30675072433bc20398acec69e2e8eb339e8f72265b9924e5d90a5",
+          "elapsed_seconds": 97.02571810001973
+        },
+        {
+          "step": 2500,
+          "val_normalized_field_l1": 17.81481570005417,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_unselected_step02500_v1.pt",
+          "checkpoint_sha256": "60c8ec60e47774f0d500cd9055b1be70af5f5419848239cdd55dea840f5f4b4b",
+          "elapsed_seconds": 121.33840720000444
+        },
+        {
+          "step": 3000,
+          "val_normalized_field_l1": 18.520197689533234,
+          "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_unselected_step03000_v1.pt",
+          "checkpoint_sha256": "770f0ecd02c3eb1847386ae0dd219172dac2a7ed1b69947e5fb624879297c4eb",
+          "elapsed_seconds": 145.38814960001037
+        }
+      ],
+      "selected": {
+        "step": 2500,
+        "val_normalized_field_l1": 17.81481570005417,
+        "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle87\\native_adaptation_v1\\seed2026874_unselected_step02500_v1.pt",
+        "checkpoint_sha256": "60c8ec60e47774f0d500cd9055b1be70af5f5419848239cdd55dea840f5f4b4b",
+        "elapsed_seconds": 121.33840720000444
+      },
+      "updates": 3000,
+      "changed_state_tensors": 280,
+      "initial_state_identical_to_pinned_checkpoint": true,
+      "wall_seconds": 145.41214650002075
+    }
+  ],
+  "selection": "minimum common unselected VAL normalized field l1, earliest tie",
+  "eval_opened": false,
+  "parameters": 12968068,
+  "wall_seconds": 1307.4149671999621,
+  "protocol_sha256": "63079a941a4d7ed5b259e2e6b502895acd068c235515b1a432b357df3a465a5a",
+  "data_manifest_sha256": "7a911e15e705b623139b52618432d27760a5252149272703a0e37b61e3fd2e11"
+}

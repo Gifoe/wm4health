@@ -1,0 +1,163 @@
+{
+  "utc": "2026-10-18T16:14:43.719278+00:00",
+  "status": "PINNED_ODE_REGENERATION_CONFIG_AND_ENTRYPOINT_FETCHED",
+  "sources": [
+    {
+      "path": "configs/data_generation/ode/ode_icml_regeneration_600k_deg_3_monomial_survival_uniform.yaml",
+      "url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/configs/data_generation/ode/ode_icml_regeneration_600k_deg_3_monomial_survival_uniform.yaml",
+      "sha256": "324022fd63a672b91f2ca3de1fc9a711b5aa89248ece20e4c60142e58ed3eb35",
+      "server_cache_path": "G:/ICLR Omni-eeg cache/tswm_discovery_20261016_v1/caches/cycle87/generation_source_0_v1.txt",
+      "selected_lines": [
+        {
+          "line": 8,
+          "text": "  num_steps: 200"
+        },
+        {
+          "line": 9,
+          "text": "  num_paths: 9"
+        },
+        {
+          "line": 12,
+          "text": "  reject_threshold: 100"
+        },
+        {
+          "line": 31,
+          "text": "      distribution:"
+        },
+        {
+          "line": 36,
+          "text": "        distribution: \"uniform\""
+        },
+        {
+          "line": 41,
+          "text": "      distribution:"
+        },
+        {
+          "line": 46,
+          "text": "      distribution: \"normal\""
+        }
+      ]
+    },
+    {
+      "path": "scripts/sde/data_generation/train/generate_one_setup_in_yaml.py",
+      "url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/scripts/sde/data_generation/train/generate_one_setup_in_yaml.py",
+      "sha256": "4aacfc8f6c59dcb85be763e7ca7bac3f9b228a7a1ffdb4594c20f448cc2c9ea7",
+      "server_cache_path": "G:/ICLR Omni-eeg cache/tswm_discovery_20261016_v1/caches/cycle87/generation_source_1_v1.txt",
+      "selected_lines": []
+    },
+    {
+      "path": "src/fim/data_generation/sde/dynamical_systems_to_files.py",
+      "url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/src/fim/data_generation/sde/dynamical_systems_to_files.py",
+      "sha256": "0bc7b007ffda172749825521b049d93d792cb6922f25ac9da908ed9239d349c9",
+      "server_cache_path": "G:/ICLR Omni-eeg cache/tswm_discovery_20261016_v1/caches/cycle87/generation_source_2_v1.txt",
+      "selected_lines": [
+        {
+          "line": 12,
+          "text": "from fim.data_generation.sde.dynamical_systems import DynamicalSystem"
+        },
+        {
+          "line": 13,
+          "text": "from fim.data_generation.sde.dynamical_systems_sample import PathGenerator, set_up_a_dynamical_system"
+        },
+        {
+          "line": 16,
+          "text": "def get_data_from_dynamical_system(dynamical_system: DynamicalSystem, integration_config: dict, locations_params: dict) -> FIMSDEDatabatch:"
+        },
+        {
+          "line": 20,
+          "text": "    path_generator = PathGenerator("
+        },
+        {
+          "line": 21,
+          "text": "        dataset_type=\"FIMSDEpDataset\", system=dynamical_system, integrator_params=integration_config, locations_params=locations_params"
+        },
+        {
+          "line": 97,
+          "text": "    all_integrator_params = data_config[\"integration\"]"
+        },
+        {
+          "line": 101,
+          "text": "    if not isinstance(all_integrator_params, list):"
+        },
+        {
+          "line": 102,
+          "text": "        all_integrator_params = [all_integrator_params]"
+        },
+        {
+          "line": 114,
+          "text": "            # change bulk name and number of realizations per integrator"
+        },
+        {
+          "line": 121,
+          "text": "            for integrator_params in all_integrator_params:"
+        },
+        {
+          "line": 122,
+          "text": "                integrator_params = deepcopy(integrator_params)"
+        },
+        {
+          "line": 124,
+          "text": "                integrator_label = integrator_params.pop(\"label\", None)"
+        },
+        {
+          "line": 125,
+          "text": "                if integrator_label is None and len(all_integrator_params) > 1:"
+        },
+        {
+          "line": 126,
+          "text": "                    raise ValueError(\"Multiple integrators require passing a `label` with each of them.\")"
+        },
+        {
+          "line": 128,
+          "text": "                # multiple integrators: add integrator label to save directory name"
+        },
+        {
+          "line": 129,
+          "text": "                if integrator_label is not None:"
+        },
+        {
+          "line": 130,
+          "text": "                    # percentage of num_realizations for current integrator"
+        },
+        {
+          "line": 131,
+          "text": "                    perc = integrator_params.pop(\"percentage\", 1)"
+        },
+        {
+          "line": 135,
+          "text": "                        integrator_label = integrator_label + \"_num_realiz_\" + str(params[\"num_realizations\"])"
+        },
+        {
+          "line": 137,
+          "text": "                    integrator_dir = subset_dir / integrator_label"
+        },
+        {
+          "line": 138,
+          "text": "                    params[\"data_bulk_name\"] = subset_label + \"_integrator_\" + integrator_label"
+        },
+        {
+          "line": 141,
+          "text": "                    integrator_dir = deepcopy(subset_dir)"
+        },
+        {
+          "line": 143,
+          "text": "                print(f\"Generating {subset_label} with integrator {integrator_label}\")"
+        },
+        {
+          "line": 145,
+          "text": "                    dataset_type, params, integrator_params, locations_params, tr_save_dir, True"
+        },
+        {
+          "line": 148,
+          "text": "                save_fimsdedatabatch_to_files(subset_data, integrator_dir)"
+        },
+        {
+          "line": 158,
+          "text": "    Cut long observation series generated from DynamicalSystem into shorter paths of some target length."
+        }
+      ]
+    }
+  ],
+  "exact_checkpoint_dataset_regeneration_receipt_available": false,
+  "local_payload_files_written": 0
+}

@@ -1,0 +1,60 @@
+{
+  "utc": "2026-10-18T17:03:25.429106+00:00",
+  "status": "INDEPENDENT_LEARNED_ROLLOUT_QUALIFICATION_NOT_PASSED",
+  "criterion_not_relaxed": true,
+  "previously_failed_relative_errors": [
+    0.021744366934861474,
+    0.015544012911164733
+  ],
+  "threshold": 0.01,
+  "checks": [
+    {
+      "stem": "check_rollout87_v1",
+      "exit_receipt": {
+        "utc": "2026-10-18T16:53:49.777356+00:00",
+        "capture_pid": 39840,
+        "worker_pid": 9016,
+        "exit_code": 4294967295,
+        "stem": "check_rollout87_v1"
+      },
+      "exit_sha256": "4dbea2fd81283ff222c7fd500835d11536c9e8079e4f4fe6a9b45407b0364b62",
+      "log_path": "D:\\tswm_discovery_20261016_v1\\cycle87\\outputs\\check_rollout87_v1\\worker.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "log_bytes": 0
+    },
+    {
+      "stem": "check_rollout87_v2",
+      "exit_receipt": {
+        "utc": "2026-10-18T16:54:03.193137+00:00",
+        "capture_pid": 31340,
+        "worker_pid": 42072,
+        "exit_code": 1,
+        "stem": "check_rollout87_v2"
+      },
+      "exit_sha256": "93416fd4ab8f04796afe114d31a5a43d4108dd4127f08b07fc63f9ef143672d9",
+      "log_path": "D:\\tswm_discovery_20261016_v1\\cycle87\\outputs\\check_rollout87_v2\\worker.log",
+      "log_sha256": "c35c0dc7d094f7a0cc5184c6574e184ed9ad96ae3e2621256d79938396a97e11",
+      "log_bytes": 1091
+    },
+    {
+      "stem": "check_rollout87_v3",
+      "exit_receipt": {
+        "utc": "2026-10-18T16:59:00.262108+00:00",
+        "capture_pid": 20036,
+        "worker_pid": 13248,
+        "exit_code": 1,
+        "stem": "check_rollout87_v3"
+      },
+      "exit_sha256": "e3275fff932c233880b1df2d0a1bfeadb21f7b68d99f3f4612328246e6a26ef6",
+      "log_path": "D:\\tswm_discovery_20261016_v1\\cycle87\\outputs\\check_rollout87_v3\\worker.log",
+      "log_sha256": "1b5f17b42ef8d5d52f852c98bc8dff784b4d065ad9c85cf93fb4d6f6e40e193d",
+      "log_bytes": 1091
+    }
+  ],
+  "original_batch_reference_verified": true,
+  "batch_precision_receipt_sha256": "4d13a5dea8a63b3794ad51fe7cb4b9dc17e3441246c0e741991610a67e03d65b",
+  "model_weights_and_selected_settings_unchanged": true,
+  "primary_adapted_model_supplemental_checks_not_reached": true,
+  "full_population_continuous_time_error_certified": false,
+  "note_sha256": "48b5b4ec01f8709a68fd8af3ab588ebff187ca079e88161ca82c2e68711c56ba"
+}

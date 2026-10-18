@@ -1,0 +1,87 @@
+{
+  "utc": "2026-10-18T16:11:44.393780+00:00",
+  "status": "PAPER_AND_PINNED_TRAIN_CONFIG_PRIMARY_SOURCES_VERIFIED",
+  "sources": [
+    {
+      "name": "paper",
+      "url": "https://arxiv.org/html/2602.08733v1",
+      "bytes": 413003,
+      "sha256": "7a8b0ca147aeace6d711eee9fecf81ae98f287f7d0a1fea6d6ffc3207aee1790",
+      "server_cache_path": "G:/ICLR Omni-eeg cache/tswm_discovery_20261016_v1/caches/cycle87/public_paper_v1.html"
+    },
+    {
+      "name": "training_config",
+      "url": "https://raw.githubusercontent.com/FIM4Science/OpenFIM/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc/configs/train/ode/base_model.yaml",
+      "bytes": 4807,
+      "sha256": "b21937a0061b16a9fa19aa4dc4eb7e7a33e81421b7a16df507e7753b01f11e53",
+      "server_cache_path": "G:/ICLR Omni-eeg cache/tswm_discovery_20261016_v1/caches/cycle87/public_training_config_v1.txt"
+    },
+    {
+      "name": "repository_tree",
+      "url": "https://api.github.com/repos/FIM4Science/OpenFIM/git/trees/cee2bb53be1e8e92b73f98dfdbe3605efc9119cc?recursive=1",
+      "bytes": 178681,
+      "sha256": "ca1d152c72e2e53e11a8de13d8220b432e5bea0410df051a4d271447ea7cdeb5",
+      "server_cache_path": "G:/ICLR Omni-eeg cache/tswm_discovery_20261016_v1/caches/cycle87/public_repository_tree_v1.txt"
+    },
+    {
+      "name": "hf_revision",
+      "url": "https://huggingface.co/api/models/FIM4Science/fim-ode/revision/00875c253d025dd33fd70ae751089b1be3a7c174?blobs=true",
+      "bytes": 22454,
+      "sha256": "1cc7164fdc9e8681141aab041fe561de0f92d1eb81190c67adf132edbc2d258a",
+      "server_cache_path": "G:/ICLR Omni-eeg cache/tswm_discovery_20261016_v1/caches/cycle87/public_hf_revision_v1.txt"
+    },
+    {
+      "name": "hf_model_card",
+      "url": "https://huggingface.co/FIM4Science/fim-ode/raw/00875c253d025dd33fd70ae751089b1be3a7c174/README.md",
+      "bytes": 234,
+      "sha256": "5077c2d7cd4e8ebce65cb7ddb22744ab267c64df861a012818b88d95d09fe298",
+      "server_cache_path": "G:/ICLR Omni-eeg cache/tswm_discovery_20261016_v1/caches/cycle87/public_hf_model_card_v1.txt"
+    }
+  ],
+  "errors": {},
+  "pinned_tree_truncated": false,
+  "pinned_tree_blob_count": 551,
+  "candidate_generation_paths": [
+    "configs/data_generation/hawkes/data_generation.yaml",
+    "configs/data_generation/ode/600k_degree_3_monomials_max_dimension_3_num_obs_200_corrupted_mult_noise_0_1_binom_surv_prob_0_125.yaml",
+    "configs/data_generation/ode/ode_icml_regeneration_600k_deg_3_monomial_survival_uniform.yaml",
+    "configs/data_generation/sde/20250220_600k_drift_deg_3_diffusion_deg_2_100_paths_half_with_noise_delta_tau_1e-1_to_1e-3.yaml",
+    "configs/data_generation/sde/20250629_600k_drift_deg_3_diffusion_deg_2_100_paths_half_with_noise_delta_tau_1e-1_to_1e-3_with_vector_fields_at_obs.yaml",
+    "configs/data_generation/sde/neurips_ablation_studies/20250313_30k_drift_deg_3_diffusion_deg_2_100_paths_half_with_noise.yaml",
+    "configs/data_generation/sde/neurips_ablation_studies/20250314_30k_drift_deg_4_diffusion_deg_2_100_paths_half_with_noise.yaml",
+    "configs/train/ode/base_model.yaml",
+    "scripts/ode/generate_dummy_ode_dataset.py",
+    "scripts/ode/mocap/generate_mocap_pkl.py",
+    "scripts/sde/data_generation/test/20250114_preprocess_mocap_43.py",
+    "scripts/sde/data_generation/test/20250123_preprocess_mocap_35.py",
+    "scripts/sde/data_generation/test/20250318_synthetic_systems_data_json_generation.py",
+    "scripts/sde/data_generation/test/20250504_real_world_data_cross_validation_splits.py",
+    "scripts/sde/data_generation/test/20250602_lorenz_system.py",
+    "scripts/sde/data_generation/test/20250727_synthetic_systems_data_for_ablation_studies.py",
+    "scripts/sde/data_generation/test/20250925_double_well_duffing_for_aisummit.py",
+    "scripts/sde/data_generation/test/20250925_double_well_duffing_for_aisummit_json.py",
+    "scripts/sde/data_generation/test/synthetic_systems_helpers.py",
+    "scripts/sde/data_generation/train/600k_drift_deg_3_diffusion_deg_2.py",
+    "scripts/sde/data_generation/train/generate_one_setup_in_yaml.py",
+    "scripts/sde/data_generation/train/neurips_ablation_studies.py",
+    "src/fim/data_generation/data_saver.py",
+    "src/fim/data_generation/grid_samplers.py",
+    "src/fim/data_generation/hawkes/README.md",
+    "src/fim/data_generation/hawkes/hawkes_simulation.py",
+    "src/fim/data_generation/hawkes/kernel_functions.py",
+    "src/fim/data_generation/hawkes/sampling_distributions.py",
+    "src/fim/data_generation/hawkes/synthetic_dataset_generation.py",
+    "src/fim/data_generation/hawkes/tick_installation.md",
+    "src/fim/data_generation/sde/dynamical_systems.py",
+    "src/fim/data_generation/sde/dynamical_systems_sample.py",
+    "src/fim/data_generation/sde/dynamical_systems_target.py",
+    "src/fim/data_generation/sde/dynamical_systems_to_files.py",
+    "src/fim/data_generation/sde/preprocess_utils.py"
+  ],
+  "hf_resolved_sha": "00875c253d025dd33fd70ae751089b1be3a7c174",
+  "paper_declares_whole_ode_rejection": true,
+  "training_config_equals_previous_pinned_cache": true,
+  "exact_generated_training_dataset_available": false,
+  "local_payload_files_written": 0,
+  "original_server_receipt_sha256": "e8a2847fa1db3681e0c09062e601e1a04e8f4ce97a169c167acac0024818a12e"
+}

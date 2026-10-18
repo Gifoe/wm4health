@@ -1,0 +1,7 @@
+# Post-evaluation numerical audit; no learning or selection change
+
+The first independent verifier stopped before issuing a certificate. Its matrix-exponential check for the degree1 ordinary baseline found maximum absolute RK4 error1.63503e-4 in a large-amplitude predicted oscillation; its strict pointwise-scaled criterion was1e-4. The offending matrix has eigenvalues .5291 +/-3.0618i. Other baseline cohort errors were smaller. This is finite-step integration error, not evidence of a changed predictor or a mislabeled physical equation. The failed verifier/log and V2 results are retained.
+
+Rather than weaken the tolerance, V3 replaces only the affine baseline's integration with its analytic augmented-matrix exponential, monitoring the same1000 amplitude/nonfinite failure criterion at every original.0125 substep. Field estimates, hyperparameters, source selections, cohort arrays, native/empirical/persistence predictions and all model weights remain unchanged. V3 records V2 hashes and changed rows. The analytic flow is independently checked using.05 transitions against.0125 transitions.
+
+Separately, fixed-case/worst-amplitude native and empirical polynomial rollouts receive an independent adaptive DOP853 integration check. This is a numerical verification subset, not a new evaluation split or model-selection opportunity. Any discrepancy is reported; no test-time hyperparameter tuning is allowed. Full-population independent learned-rollout replay is not claimed. The numerical audit must pass before snapshot/publication.

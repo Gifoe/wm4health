@@ -1,0 +1,50 @@
+{
+  "utc": "2026-10-18T16:58:05.050941+00:00",
+  "status": "NATIVE_BATCH_SHAPE_AND_REPEAT_PRECISION_DIAGNOSTIC",
+  "indices": [
+    0,
+    112,
+    128,
+    239
+  ],
+  "rows": [
+    {
+      "step": 0,
+      "subset_vs_original_batch_max_abs": 0.00026154518127441406,
+      "subset_repeat_max_abs": 0.0,
+      "same_batch_dummy_other_rows_max_abs": 0.0,
+      "max_abs_field": 1.8267349004745483
+    },
+    {
+      "step": 50,
+      "subset_vs_original_batch_max_abs": 0.0030155181884765625,
+      "subset_repeat_max_abs": 0.0,
+      "same_batch_dummy_other_rows_max_abs": 0.0,
+      "max_abs_field": 5.788092136383057
+    },
+    {
+      "step": 100,
+      "subset_vs_original_batch_max_abs": 0.0032415390014648438,
+      "subset_repeat_max_abs": 0.0,
+      "same_batch_dummy_other_rows_max_abs": 0.0,
+      "max_abs_field": 6.263375282287598
+    },
+    {
+      "step": 150,
+      "subset_vs_original_batch_max_abs": 0.004931807518005371,
+      "subset_repeat_max_abs": 0.0,
+      "same_batch_dummy_other_rows_max_abs": 0.0,
+      "max_abs_field": 8.82076644897461
+    },
+    {
+      "step": 200,
+      "subset_vs_original_batch_max_abs": 0.005069732666015625,
+      "subset_repeat_max_abs": 0.0,
+      "same_batch_dummy_other_rows_max_abs": 0.0,
+      "max_abs_field": 6.368540287017822
+    }
+  ],
+  "native_model_unchanged": true,
+  "float32_matmul_precision": "high",
+  "allow_tf32": true
+}

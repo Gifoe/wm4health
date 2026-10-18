@@ -1,0 +1,3 @@
+# Negative evidence and unproved claims
+
+The prospective nonlinear populations have high acceptance; no threshold was changed to force bias. The native learner is compared with a same-supervision empirical-prior control. All source VAL choices are retained. The weak per-task fitter alone does not account for the mechanism prior available through synthetic supervision. Held-out errors, failures and metric tradeoffs are all retained in experimental_results.md. C87 alone cannot isolate a context shortcut from changed supervised state coverage, explain a released checkpoint causally, or establish an original method. Final accepted directions remain0.
