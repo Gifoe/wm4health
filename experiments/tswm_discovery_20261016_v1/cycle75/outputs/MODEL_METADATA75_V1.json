@@ -1,0 +1,1823 @@
+{
+  "raw_result_sha256": "67c9660dfd5cc1b400b2c1948f1a1871dff0e979bd2fe56809bd5d204f921cb7",
+  "models": [
+    {
+      "dataset": "EMPS",
+      "condition": "identity",
+      "method": "persistence",
+      "model": {}
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "identity",
+      "method": "source_unadapted",
+      "model": {
+        "source": {
+          "training_rows": 9872,
+          "ridge": 9.803165466522783,
+          "normal_equation_residual": 1.0913936421275139e-11,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_source_arx64.npy",
+          "sha256": "3e27de357bc92b98ed2adfb53c5e881ff9b9f3095bf2ed924f128898b15bef49"
+        }
+      }
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "identity",
+      "method": "privileged_known_sensor",
+      "model": {
+        "privileged": true,
+        "source": {
+          "training_rows": 9872,
+          "ridge": 9.803165466522783,
+          "normal_equation_residual": 1.0913936421275139e-11,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_source_arx64.npy",
+          "sha256": "3e27de357bc92b98ed2adfb53c5e881ff9b9f3095bf2ed924f128898b15bef49"
+        }
+      }
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "identity",
+      "method": "source_affine_inverse",
+      "model": {
+        "adapter": {
+          "kind": "affine",
+          "knots": [
+            -1.5067091367707195,
+            1.4004263157395171
+          ],
+          "beta": [
+            -1.9537360051978336,
+            0.8312520534379283
+          ],
+          "lambda_identity_slopes": 0.1,
+          "innovation_mse": 3.5148672625774398e-06,
+          "optimizer_status": 3,
+          "optimality": 7.546047120499111e-17,
+          "active_bounds": 0,
+          "design_condition_number": 10.167814915464168,
+          "training_rows": 7884,
+          "internal_validation_nrmse": 0.01733595402352282,
+          "internal_failed_records": 0,
+          "roundtrip_max_abs": 1.3322676295501878e-15
+        },
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_identity_affine_inverse.json",
+        "sha256": "02db34f67260a1b598be52e1898e92d0175b33fb0319c21e6114f7eb52ced5ef",
+        "history_extrapolation_fraction": 0.0008680555555555555,
+        "source": {
+          "training_rows": 9872,
+          "ridge": 9.803165466522783,
+          "normal_equation_residual": 1.0913936421275139e-11,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_source_arx64.npy",
+          "sha256": "3e27de357bc92b98ed2adfb53c5e881ff9b9f3095bf2ed924f128898b15bef49"
+        }
+      }
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "identity",
+      "method": "source_monotone_inverse",
+      "model": {
+        "adapter": {
+          "kind": "monotone",
+          "knots": [
+            -1.5067091367707195,
+            -1.395318126328649,
+            -1.2970299756794141,
+            -1.0351928949479003,
+            -0.7779634837634909,
+            -0.5705028397908442,
+            -0.3915933766391209,
+            -0.14830234096817524,
+            0.09546822859194101,
+            0.33876490540428633,
+            0.45776658986871466,
+            0.6367492035076064,
+            0.8183478319476994,
+            1.0003107011452208,
+            1.1907944959917218,
+            1.2890856699977855,
+            1.4004263157395171
+          ],
+          "beta": [
+            -1.8849587562142078,
+            1.4333442410896748,
+            1.121611890037635,
+            0.8623953912512731,
+            0.7570864308049653,
+            0.7581350179761608,
+            0.81869520759367,
+            0.7340461698096787,
+            0.7174435592252159,
+            0.8440051705270891,
+            0.9331256463522789,
+            0.7824096860383344,
+            0.7278671188522513,
+            0.7383545051837825,
+            0.8435430542287828,
+            1.089905060108451,
+            1.3818846280789159
+          ],
+          "lambda_identity_slopes": 0.0,
+          "innovation_mse": 2.8681211433593044e-06,
+          "optimizer_status": 3,
+          "optimality": 1.0036789597121754e-15,
+          "active_bounds": 0,
+          "design_condition_number": 5.600635015290792,
+          "training_rows": 7884,
+          "internal_validation_nrmse": 0.008041450188083889,
+          "internal_failed_records": 0,
+          "roundtrip_max_abs": 8.881784197001252e-16
+        },
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_identity_monotone_inverse.json",
+        "sha256": "b63d578620142186065f151afc9386d3b2dd04682562e33994d3ecf72955054f",
+        "history_extrapolation_fraction": 0.0008680555555555555,
+        "source": {
+          "training_rows": 9872,
+          "ridge": 9.803165466522783,
+          "normal_equation_residual": 1.0913936421275139e-11,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_source_arx64.npy",
+          "sha256": "3e27de357bc92b98ed2adfb53c5e881ff9b9f3095bf2ed924f128898b15bef49"
+        }
+      }
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "identity",
+      "method": "calibration_arx64",
+      "model": {
+        "training_rows": 7884,
+        "ridge": 7.652106356382565,
+        "normal_equation_residual": 4.547473508864641e-12,
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_identity_refit_arx64.npy",
+        "sha256": "840b9e332ac76b8e7d04d3738353a6e7495418c71b59f19bd1178e6700f42ddb"
+      }
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "identity",
+      "method": "calibration_narx64_seed2026751",
+      "model": {
+        "seed": 2026751,
+        "observed_mean": 0.009705427445758023,
+        "observed_std": 0.9129182746884406,
+        "selected_update": 1500,
+        "checkpoints": [
+          {
+            "update": 500,
+            "training_loss": 1.9491483271849575e-07,
+            "internal_validation_mse": 0.0006487768675320908,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1000,
+            "training_loss": 1.5163715261223842e-07,
+            "internal_validation_mse": 0.00033678696045013994,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1500,
+            "training_loss": 6.406951769122315e-08,
+            "internal_validation_mse": 0.00014334276511625865,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2000,
+            "training_loss": 5.691086926162825e-07,
+            "internal_validation_mse": 0.0019899294126097694,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2500,
+            "training_loss": 1.0098002348968294e-05,
+            "internal_validation_mse": 0.0004788583564177685,
+            "all_predictions_finite": true
+          }
+        ],
+        "updates": 2500,
+        "parameters": 33281,
+        "elapsed_seconds": 11.087296500016237,
+        "artifact": {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_identity_narx64_seed2026751.pt",
+          "sha256": "16e936a401e931282ad15b9a9ef29e9b72c772cecb25011e5870039147e1798e"
+        }
+      }
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "identity",
+      "method": "calibration_narx64_seed2026752",
+      "model": {
+        "seed": 2026752,
+        "observed_mean": 0.009705427445758023,
+        "observed_std": 0.9129182746884406,
+        "selected_update": 2000,
+        "checkpoints": [
+          {
+            "update": 500,
+            "training_loss": 1.7262141227547545e-07,
+            "internal_validation_mse": 0.0006939756728748344,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1000,
+            "training_loss": 7.232638665755076e-08,
+            "internal_validation_mse": 0.000454953303321069,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1500,
+            "training_loss": 4.554883759055883e-08,
+            "internal_validation_mse": 0.00017903875173471169,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2000,
+            "training_loss": 2.291245593255553e-08,
+            "internal_validation_mse": 7.361210312237083e-05,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2500,
+            "training_loss": 8.269435966212768e-06,
+            "internal_validation_mse": 0.00014596128285342168,
+            "all_predictions_finite": true
+          }
+        ],
+        "updates": 2500,
+        "parameters": 33281,
+        "elapsed_seconds": 10.928072599985171,
+        "artifact": {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_identity_narx64_seed2026752.pt",
+          "sha256": "f1893017e6129ab924c4d599b91f93c5ef91d3f6de79d306082728fa64f45b87"
+        }
+      }
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "identity",
+      "method": "calibration_narx64_seed2026753",
+      "model": {
+        "seed": 2026753,
+        "observed_mean": 0.009705427445758023,
+        "observed_std": 0.9129182746884406,
+        "selected_update": 1500,
+        "checkpoints": [
+          {
+            "update": 500,
+            "training_loss": 2.9770879450552457e-07,
+            "internal_validation_mse": 0.0011011669523135707,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1000,
+            "training_loss": 1.0012997364583498e-07,
+            "internal_validation_mse": 0.001014201865751662,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1500,
+            "training_loss": 3.320904795600654e-08,
+            "internal_validation_mse": 0.0001964187975954734,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2000,
+            "training_loss": 3.5261535913377884e-08,
+            "internal_validation_mse": 0.00026588289169070717,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2500,
+            "training_loss": 2.8353813377179904e-06,
+            "internal_validation_mse": 0.0004609623843603423,
+            "all_predictions_finite": true
+          }
+        ],
+        "updates": 2500,
+        "parameters": 33281,
+        "elapsed_seconds": 10.963374300015857,
+        "artifact": {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_identity_narx64_seed2026753.pt",
+          "sha256": "45ab18b004a02d5fa471aa0f55e383b290695dfffc14e1f397fd6e4d2c0e1b42"
+        }
+      }
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "affine",
+      "method": "persistence",
+      "model": {}
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "affine",
+      "method": "source_unadapted",
+      "model": {
+        "source": {
+          "training_rows": 9872,
+          "ridge": 9.803165466522783,
+          "normal_equation_residual": 1.0913936421275139e-11,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_source_arx64.npy",
+          "sha256": "3e27de357bc92b98ed2adfb53c5e881ff9b9f3095bf2ed924f128898b15bef49"
+        }
+      }
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "affine",
+      "method": "privileged_known_sensor",
+      "model": {
+        "privileged": true,
+        "source": {
+          "training_rows": 9872,
+          "ridge": 9.803165466522783,
+          "normal_equation_residual": 1.0913936421275139e-11,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_source_arx64.npy",
+          "sha256": "3e27de357bc92b98ed2adfb53c5e881ff9b9f3095bf2ed924f128898b15bef49"
+        }
+      }
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "affine",
+      "method": "source_affine_inverse",
+      "model": {
+        "adapter": {
+          "kind": "affine",
+          "knots": [
+            -1.7593927914790068,
+            2.310596842035324
+          ],
+          "beta": [
+            -2.097636078758322,
+            0.6233640945935396
+          ],
+          "lambda_identity_slopes": 0.1,
+          "innovation_mse": 3.6133154341270592e-06,
+          "optimizer_status": 3,
+          "optimality": 1.3183898417423734e-16,
+          "active_bounds": 0,
+          "design_condition_number": 14.224228827679337,
+          "training_rows": 7884,
+          "internal_validation_nrmse": 0.016370900706285555,
+          "internal_failed_records": 0,
+          "roundtrip_max_abs": 1.7763568394002505e-15
+        },
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_affine_affine_inverse.json",
+        "sha256": "70528c59ca622b625acd9426aaea7d146cd709e69f70bcac305b03c26d589c9c",
+        "history_extrapolation_fraction": 0.0008680555555555555,
+        "source": {
+          "training_rows": 9872,
+          "ridge": 9.803165466522783,
+          "normal_equation_residual": 1.0913936421275139e-11,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_source_arx64.npy",
+          "sha256": "3e27de357bc92b98ed2adfb53c5e881ff9b9f3095bf2ed924f128898b15bef49"
+        }
+      }
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "affine",
+      "method": "source_monotone_inverse",
+      "model": {
+        "adapter": {
+          "kind": "monotone",
+          "knots": [
+            -1.7593927914790068,
+            -1.6034453768601085,
+            -1.4658419659511797,
+            -1.0992700529270607,
+            -0.7391488772688872,
+            -0.4487039757071819,
+            -0.19823072729476934,
+            0.14237672264455467,
+            0.48365552002871737,
+            0.8242708675660009,
+            0.9908732258162005,
+            1.2414488849106489,
+            1.4956869647267792,
+            1.7504349816033091,
+            2.0171122943884106,
+            2.1547199379968998,
+            2.310596842035324
+          ],
+          "beta": [
+            -1.8849587562140908,
+            1.023817315064092,
+            0.8011513500268739,
+            0.6159967080365707,
+            0.5407760220035212,
+            0.5415250128401005,
+            0.584782291138335,
+            0.5243186927211706,
+            0.5124596851608624,
+            0.6028608360907861,
+            0.6665183188230792,
+            0.5588640614559633,
+            0.5199050848944664,
+            0.5273960751312753,
+            0.6025307530205714,
+            0.7785036143631818,
+            0.9870604486277992
+          ],
+          "lambda_identity_slopes": 0.0,
+          "innovation_mse": 2.868121143359308e-06,
+          "optimizer_status": 3,
+          "optimality": 2.3366592872509583e-15,
+          "active_bounds": 0,
+          "design_condition_number": 7.6957034150688735,
+          "training_rows": 7884,
+          "internal_validation_nrmse": 0.008041450188081998,
+          "internal_failed_records": 0,
+          "roundtrip_max_abs": 8.881784197001252e-16
+        },
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_affine_monotone_inverse.json",
+        "sha256": "e883220b414337ecf984f5b2ac9d053ef34d65b2b3991fa04a1917e23559c35c",
+        "history_extrapolation_fraction": 0.0008680555555555555,
+        "source": {
+          "training_rows": 9872,
+          "ridge": 9.803165466522783,
+          "normal_equation_residual": 1.0913936421275139e-11,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_source_arx64.npy",
+          "sha256": "3e27de357bc92b98ed2adfb53c5e881ff9b9f3095bf2ed924f128898b15bef49"
+        }
+      }
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "affine",
+      "method": "calibration_arx64",
+      "model": {
+        "training_rows": 7884,
+        "ridge": 11.291512413526608,
+        "normal_equation_residual": 7.275957614183426e-12,
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_affine_refit_arx64.npy",
+        "sha256": "417fe4982dc98a37fc7ba51e7019b863b68f51957d01b178a5fa0494adec63a8"
+      }
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "affine",
+      "method": "calibration_narx64_seed2026751",
+      "model": {
+        "seed": 2026751,
+        "observed_mean": 0.3635875984240612,
+        "observed_std": 1.2780855845638168,
+        "selected_update": 1500,
+        "checkpoints": [
+          {
+            "update": 500,
+            "training_loss": 1.9491483271849575e-07,
+            "internal_validation_mse": 0.00064877686753209,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1000,
+            "training_loss": 1.5163715261223842e-07,
+            "internal_validation_mse": 0.0003367869604501387,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1500,
+            "training_loss": 6.406951769122315e-08,
+            "internal_validation_mse": 0.00014334276511625778,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2000,
+            "training_loss": 5.691086926162825e-07,
+            "internal_validation_mse": 0.0019899294126097668,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2500,
+            "training_loss": 1.0098002348968294e-05,
+            "internal_validation_mse": 0.00047885835641776897,
+            "all_predictions_finite": true
+          }
+        ],
+        "updates": 2500,
+        "parameters": 33281,
+        "elapsed_seconds": 10.977592800016282,
+        "artifact": {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_affine_narx64_seed2026751.pt",
+          "sha256": "87c3bc380cdf0703e316469bc924421b2eb55b032d4979a27e9d58cffa784e48"
+        }
+      }
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "affine",
+      "method": "calibration_narx64_seed2026752",
+      "model": {
+        "seed": 2026752,
+        "observed_mean": 0.3635875984240612,
+        "observed_std": 1.2780855845638168,
+        "selected_update": 2000,
+        "checkpoints": [
+          {
+            "update": 500,
+            "training_loss": 1.7262141227547545e-07,
+            "internal_validation_mse": 0.0006939756728748327,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1000,
+            "training_loss": 7.232638665755076e-08,
+            "internal_validation_mse": 0.00045495330332106745,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1500,
+            "training_loss": 4.554883759055883e-08,
+            "internal_validation_mse": 0.0001790387517347114,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2000,
+            "training_loss": 2.291245593255553e-08,
+            "internal_validation_mse": 7.361210312237026e-05,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2500,
+            "training_loss": 8.269435966212768e-06,
+            "internal_validation_mse": 0.00014596128285342184,
+            "all_predictions_finite": true
+          }
+        ],
+        "updates": 2500,
+        "parameters": 33281,
+        "elapsed_seconds": 10.934531499980949,
+        "artifact": {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_affine_narx64_seed2026752.pt",
+          "sha256": "7becdc0514ccbadc6380bf3dd21d0bb3993d259a910231cce94690016875aa63"
+        }
+      }
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "affine",
+      "method": "calibration_narx64_seed2026753",
+      "model": {
+        "seed": 2026753,
+        "observed_mean": 0.3635875984240612,
+        "observed_std": 1.2780855845638168,
+        "selected_update": 1500,
+        "checkpoints": [
+          {
+            "update": 500,
+            "training_loss": 2.9770879450552457e-07,
+            "internal_validation_mse": 0.0011011669523135709,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1000,
+            "training_loss": 1.0012997364583498e-07,
+            "internal_validation_mse": 0.0010142018657516634,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1500,
+            "training_loss": 3.320904795600654e-08,
+            "internal_validation_mse": 0.00019641879759547392,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2000,
+            "training_loss": 3.5261535913377884e-08,
+            "internal_validation_mse": 0.000265882891690708,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2500,
+            "training_loss": 2.8353813377179904e-06,
+            "internal_validation_mse": 0.0004609623843603417,
+            "all_predictions_finite": true
+          }
+        ],
+        "updates": 2500,
+        "parameters": 33281,
+        "elapsed_seconds": 10.898958100005984,
+        "artifact": {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_affine_narx64_seed2026753.pt",
+          "sha256": "32a207514be98491775b73a116cd13e7df9276115cdb32435aaa1fb23fe4776d"
+        }
+      }
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "nonlinear",
+      "method": "persistence",
+      "model": {}
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "nonlinear",
+      "method": "source_unadapted",
+      "model": {
+        "source": {
+          "training_rows": 9872,
+          "ridge": 9.803165466522783,
+          "normal_equation_residual": 1.0913936421275139e-11,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_source_arx64.npy",
+          "sha256": "3e27de357bc92b98ed2adfb53c5e881ff9b9f3095bf2ed924f128898b15bef49"
+        }
+      }
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "nonlinear",
+      "method": "privileged_known_sensor",
+      "model": {
+        "privileged": true,
+        "source": {
+          "training_rows": 9872,
+          "ridge": 9.803165466522783,
+          "normal_equation_residual": 1.0913936421275139e-11,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_source_arx64.npy",
+          "sha256": "3e27de357bc92b98ed2adfb53c5e881ff9b9f3095bf2ed924f128898b15bef49"
+        }
+      }
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "nonlinear",
+      "method": "source_affine_inverse",
+      "model": {
+        "adapter": {
+          "kind": "affine",
+          "knots": [
+            -2.340818368150917,
+            2.706902895378617
+          ],
+          "beta": [
+            -2.125559939445217,
+            0.47606930341805326
+          ],
+          "lambda_identity_slopes": 0.1,
+          "innovation_mse": 5.2755448671715775e-06,
+          "optimizer_status": 3,
+          "optimality": 6.243501030035129e-17,
+          "active_bounds": 0,
+          "design_condition_number": 19.021959523542296,
+          "training_rows": 7884,
+          "internal_validation_nrmse": 0.022051844017237796,
+          "internal_failed_records": 0,
+          "roundtrip_max_abs": 2.6645352591003757e-15
+        },
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_nonlinear_affine_inverse.json",
+        "sha256": "ac24a10e5bf429172a18d90db8bb20cc111d7c9decc855d209dc53afe79bc2ef",
+        "history_extrapolation_fraction": 0.0008680555555555555,
+        "source": {
+          "training_rows": 9872,
+          "ridge": 9.803165466522783,
+          "normal_equation_residual": 1.0913936421275139e-11,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_source_arx64.npy",
+          "sha256": "3e27de357bc92b98ed2adfb53c5e881ff9b9f3095bf2ed924f128898b15bef49"
+        }
+      }
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "nonlinear",
+      "method": "source_monotone_inverse",
+      "model": {
+        "adapter": {
+          "kind": "monotone",
+          "knots": [
+            -2.340818368150917,
+            -2.200413948565147,
+            -2.074413056984526,
+            -1.7236271048805973,
+            -1.342188489053437,
+            -0.9898543561196219,
+            -0.6423247524116216,
+            -0.10304705384276942,
+            0.4783469750064382,
+            1.0313182168505644,
+            1.275980320433818,
+            1.607774108710465,
+            1.9055045606094356,
+            2.1745587825428143,
+            2.4352391560106215,
+            2.5641233463903386,
+            2.706902895378617
+          ],
+          "beta": [
+            -1.870887857098177,
+            1.1326388279282622,
+            0.8677666425954063,
+            0.624162369374568,
+            0.4936656700773073,
+            0.44115477611407955,
+            0.4170617798112083,
+            0.33336585286523657,
+            0.3085748059405052,
+            0.3716782635800253,
+            0.4493548988503096,
+            0.4225291326931595,
+            0.4392652355489598,
+            0.4905486148141245,
+            0.5987648868205421,
+            0.8248253935499564,
+            1.0724989789193387
+          ],
+          "lambda_identity_slopes": 0.0,
+          "innovation_mse": 3.022359676997476e-06,
+          "optimizer_status": 3,
+          "optimality": 2.8825138875029046e-15,
+          "active_bounds": 0,
+          "design_condition_number": 12.670540013718542,
+          "training_rows": 7884,
+          "internal_validation_nrmse": 0.0060060527945589555,
+          "internal_failed_records": 0,
+          "roundtrip_max_abs": 8.881784197001252e-16
+        },
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_nonlinear_monotone_inverse.json",
+        "sha256": "1466dfa0362d49f0f4153e8b04eeca78a0114f888ebc34f187a4304bbba1f768",
+        "history_extrapolation_fraction": 0.0008680555555555555,
+        "source": {
+          "training_rows": 9872,
+          "ridge": 9.803165466522783,
+          "normal_equation_residual": 1.0913936421275139e-11,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_source_arx64.npy",
+          "sha256": "3e27de357bc92b98ed2adfb53c5e881ff9b9f3095bf2ed924f128898b15bef49"
+        }
+      }
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "nonlinear",
+      "method": "calibration_arx64",
+      "model": {
+        "training_rows": 7884,
+        "ridge": 16.097775499158065,
+        "normal_equation_residual": 1.4551915228366852e-11,
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_nonlinear_refit_arx64.npy",
+        "sha256": "f035baefbe23e268162c522292e900c5cf3adcf0bfc76c127e88c5e425ca85e4"
+      }
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "nonlinear",
+      "method": "calibration_narx64_seed2026751",
+      "model": {
+        "seed": 2026751,
+        "observed_mean": 0.285946674613786,
+        "observed_std": 1.707470491460194,
+        "selected_update": 1000,
+        "checkpoints": [
+          {
+            "update": 500,
+            "training_loss": 1.9166957088145864e-07,
+            "internal_validation_mse": 0.0005397437494219034,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1000,
+            "training_loss": 1.531664679532696e-07,
+            "internal_validation_mse": 0.00016030629135227413,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1500,
+            "training_loss": 9.910421283620963e-08,
+            "internal_validation_mse": 0.00020748454578613546,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2000,
+            "training_loss": 1.359151724500407e-07,
+            "internal_validation_mse": 0.0005833129979250214,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2500,
+            "training_loss": 2.0082909486518474e-06,
+            "internal_validation_mse": 0.00032243858303741005,
+            "all_predictions_finite": true
+          }
+        ],
+        "updates": 2500,
+        "parameters": 33281,
+        "elapsed_seconds": 10.929418100015027,
+        "artifact": {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_nonlinear_narx64_seed2026751.pt",
+          "sha256": "6f33c8e04bfbdc536a653d0209d776ae94a1109a770d1894cdc8026fac660a9a"
+        }
+      }
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "nonlinear",
+      "method": "calibration_narx64_seed2026752",
+      "model": {
+        "seed": 2026752,
+        "observed_mean": 0.285946674613786,
+        "observed_std": 1.707470491460194,
+        "selected_update": 500,
+        "checkpoints": [
+          {
+            "update": 500,
+            "training_loss": 1.8292899994776235e-07,
+            "internal_validation_mse": 0.00014549183210179015,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1000,
+            "training_loss": 1.3106267715556896e-07,
+            "internal_validation_mse": 0.0025799102899458854,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1500,
+            "training_loss": 7.428748460824863e-08,
+            "internal_validation_mse": 0.00026992149594339237,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2000,
+            "training_loss": 4.325692160023209e-08,
+            "internal_validation_mse": 0.0004205776215735579,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2500,
+            "training_loss": 6.599112111871364e-06,
+            "internal_validation_mse": 0.000203373307034758,
+            "all_predictions_finite": true
+          }
+        ],
+        "updates": 2500,
+        "parameters": 33281,
+        "elapsed_seconds": 10.90028390000225,
+        "artifact": {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_nonlinear_narx64_seed2026752.pt",
+          "sha256": "619bec4a1e8852c7949c3a651ceefc94d29365520930f07fe74802ec72043b42"
+        }
+      }
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "nonlinear",
+      "method": "calibration_narx64_seed2026753",
+      "model": {
+        "seed": 2026753,
+        "observed_mean": 0.285946674613786,
+        "observed_std": 1.707470491460194,
+        "selected_update": 2500,
+        "checkpoints": [
+          {
+            "update": 500,
+            "training_loss": 2.9544861490649055e-07,
+            "internal_validation_mse": 0.0006638355921754078,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1000,
+            "training_loss": 1.0200266586934958e-07,
+            "internal_validation_mse": 0.00037907413069886923,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1500,
+            "training_loss": 3.737644149737207e-08,
+            "internal_validation_mse": 0.00020467459371507562,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2000,
+            "training_loss": 5.816164616589958e-08,
+            "internal_validation_mse": 0.0015045885993552786,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2500,
+            "training_loss": 2.9286470635270234e-06,
+            "internal_validation_mse": 0.00012376897648475684,
+            "all_predictions_finite": true
+          }
+        ],
+        "updates": 2500,
+        "parameters": 33281,
+        "elapsed_seconds": 10.924784400005592,
+        "artifact": {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\EMPS_nonlinear_narx64_seed2026753.pt",
+          "sha256": "acd0bfd3a6a647e8c966f41034e88aa876da419985fc220367317e76097b366e"
+        }
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "identity",
+      "method": "persistence",
+      "model": {}
+    },
+    {
+      "dataset": "F16",
+      "condition": "identity",
+      "method": "source_unadapted",
+      "model": {
+        "source": {
+          "training_rows": 291012,
+          "ridge": 291.21253229658294,
+          "normal_equation_residual": 2.3283064365386963e-10,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_source_arx64.npy",
+          "sha256": "e29d7b87394f9d2461d660235e97d1dff944092ba1e90423d08b367b38110aae"
+        }
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "identity",
+      "method": "privileged_known_sensor",
+      "model": {
+        "privileged": true,
+        "source": {
+          "training_rows": 291012,
+          "ridge": 291.21253229658294,
+          "normal_equation_residual": 2.3283064365386963e-10,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_source_arx64.npy",
+          "sha256": "e29d7b87394f9d2461d660235e97d1dff944092ba1e90423d08b367b38110aae"
+        }
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "identity",
+      "method": "source_affine_inverse",
+      "model": {
+        "adapter": {
+          "kind": "affine",
+          "knots": [
+            -6.624646166387315,
+            6.870463330372787
+          ],
+          "beta": [
+            -6.314589609215739,
+            0.953191705799024
+          ],
+          "lambda_identity_slopes": 0.1,
+          "innovation_mse": 0.02120266420532732,
+          "optimizer_status": 3,
+          "optimality": 5.614228939521126e-07,
+          "active_bounds": 0,
+          "design_condition_number": 57.26744225815468,
+          "training_rows": 232704,
+          "internal_validation_nrmse": 0.32600845081909163,
+          "internal_failed_records": 0,
+          "roundtrip_max_abs": 3.552713678800501e-15
+        },
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_identity_affine_inverse.json",
+        "sha256": "d26d22ca81ddbe6529dfc32b4be1fe069dd3011c997289831ce0095f534f86ab",
+        "history_extrapolation_fraction": 0.0,
+        "source": {
+          "training_rows": 291012,
+          "ridge": 291.21253229658294,
+          "normal_equation_residual": 2.3283064365386963e-10,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_source_arx64.npy",
+          "sha256": "e29d7b87394f9d2461d660235e97d1dff944092ba1e90423d08b367b38110aae"
+        }
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "identity",
+      "method": "source_monotone_inverse",
+      "model": {
+        "adapter": {
+          "kind": "monotone",
+          "knots": [
+            -6.624646166387315,
+            -1.9002853998389726,
+            -1.2393193004250886,
+            -0.8055567413606346,
+            -0.5260581182725318,
+            -0.3251332813471089,
+            -0.16388377585678657,
+            -0.06904322731022076,
+            0.0006732624547021217,
+            0.0700878866085081,
+            0.16413783079544803,
+            0.3217888339482934,
+            0.5229856546826134,
+            0.8059832030335995,
+            1.2445717541684342,
+            1.9227393712816205,
+            6.870463330372787
+          ],
+          "beta": [
+            -5.567847089358631,
+            0.8058012606543856,
+            0.8989910966312675,
+            0.9222799697914298,
+            0.9387574566895285,
+            0.9510204333063753,
+            0.9564841790951117,
+            0.9736418281310572,
+            0.9807716736645646,
+            0.980743414010952,
+            0.9743101436621289,
+            0.9584067265131138,
+            0.950962065360612,
+            0.9389426234481892,
+            0.9197504310737535,
+            0.8920136587613765,
+            0.7889766275864597
+          ],
+          "lambda_identity_slopes": 0.1,
+          "innovation_mse": 0.01823143550313678,
+          "optimizer_status": 3,
+          "optimality": 3.48217440659937e-07,
+          "active_bounds": 0,
+          "design_condition_number": 198.22091648979978,
+          "training_rows": 232704,
+          "internal_validation_nrmse": 0.33535104905866137,
+          "internal_failed_records": 0,
+          "roundtrip_max_abs": 3.552713678800501e-15
+        },
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_identity_monotone_inverse.json",
+        "sha256": "8b0f3384f02340a123373899a90225b2c030cb5d6bd7c443ad73946ad96cd1fb",
+        "history_extrapolation_fraction": 0.0,
+        "source": {
+          "training_rows": 291012,
+          "ridge": 291.21253229658294,
+          "normal_equation_residual": 2.3283064365386963e-10,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_source_arx64.npy",
+          "sha256": "e29d7b87394f9d2461d660235e97d1dff944092ba1e90423d08b367b38110aae"
+        }
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "identity",
+      "method": "calibration_arx64",
+      "model": {
+        "training_rows": 232704,
+        "ridge": 297.1336769150267,
+        "normal_equation_residual": 2.9103830456733704e-10,
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_identity_refit_arx64.npy",
+        "sha256": "6582aaa2e62421aee0a7c0ff3951f43cffc69580f291fc80781baf8b906f5e61"
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "identity",
+      "method": "calibration_narx64_seed2026751",
+      "model": {
+        "seed": 2026751,
+        "observed_mean": 0.00031186877420739625,
+        "observed_std": 1.233116660277043,
+        "selected_update": 2500,
+        "checkpoints": [
+          {
+            "update": 500,
+            "training_loss": 0.00673100259155035,
+            "internal_validation_mse": 0.22682386578787916,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1000,
+            "training_loss": 0.006628518924117088,
+            "internal_validation_mse": 0.1935485227305088,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1500,
+            "training_loss": 0.016826864331960678,
+            "internal_validation_mse": 0.23732854368067555,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2000,
+            "training_loss": 0.00926531944423914,
+            "internal_validation_mse": 0.41931949942818275,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2500,
+            "training_loss": 0.03990921750664711,
+            "internal_validation_mse": 0.149163304955431,
+            "all_predictions_finite": true
+          }
+        ],
+        "updates": 2500,
+        "parameters": 33281,
+        "elapsed_seconds": 11.140639300021576,
+        "artifact": {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_identity_narx64_seed2026751.pt",
+          "sha256": "9d158b86a05c9d719dbcceacaedb94c28a9c38df122c27b31f49e3c563964394"
+        }
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "identity",
+      "method": "calibration_narx64_seed2026752",
+      "model": {
+        "seed": 2026752,
+        "observed_mean": 0.00031186877420739625,
+        "observed_std": 1.233116660277043,
+        "selected_update": 2500,
+        "checkpoints": [
+          {
+            "update": 500,
+            "training_loss": 0.014377000741660595,
+            "internal_validation_mse": 0.1955935597991776,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1000,
+            "training_loss": 0.010485618375241756,
+            "internal_validation_mse": 0.1763046598100671,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1500,
+            "training_loss": 0.009574100375175476,
+            "internal_validation_mse": 0.2147938065503378,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2000,
+            "training_loss": 0.0072189695201814175,
+            "internal_validation_mse": 0.19486327299492925,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2500,
+            "training_loss": 0.03965795412659645,
+            "internal_validation_mse": 0.11470708307284834,
+            "all_predictions_finite": true
+          }
+        ],
+        "updates": 2500,
+        "parameters": 33281,
+        "elapsed_seconds": 11.16139110000222,
+        "artifact": {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_identity_narx64_seed2026752.pt",
+          "sha256": "325756ea1e3d397e988e5211138cfe9f7b1d6263f10b7b6d0fcfc36b7fbe8ead"
+        }
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "identity",
+      "method": "calibration_narx64_seed2026753",
+      "model": {
+        "seed": 2026753,
+        "observed_mean": 0.00031186877420739625,
+        "observed_std": 1.233116660277043,
+        "selected_update": 2500,
+        "checkpoints": [
+          {
+            "update": 500,
+            "training_loss": 0.011878570541739464,
+            "internal_validation_mse": 0.19172127192343952,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1000,
+            "training_loss": 0.009302794933319092,
+            "internal_validation_mse": 0.14768814952428894,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1500,
+            "training_loss": 0.014824495650827885,
+            "internal_validation_mse": 0.3497391999654882,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2000,
+            "training_loss": 0.013464410789310932,
+            "internal_validation_mse": 0.5019507003377623,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2500,
+            "training_loss": 0.0357644148170948,
+            "internal_validation_mse": 0.13174009126538247,
+            "all_predictions_finite": true
+          }
+        ],
+        "updates": 2500,
+        "parameters": 33281,
+        "elapsed_seconds": 11.142305100016529,
+        "artifact": {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_identity_narx64_seed2026753.pt",
+          "sha256": "c8068637b36fdd3e36da82428d197183584a0f850566997d9f24b0f714110adc"
+        }
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "affine",
+      "method": "persistence",
+      "model": {}
+    },
+    {
+      "dataset": "F16",
+      "condition": "affine",
+      "method": "source_unadapted",
+      "model": {
+        "source": {
+          "training_rows": 291012,
+          "ridge": 291.21253229658294,
+          "normal_equation_residual": 2.3283064365386963e-10,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_source_arx64.npy",
+          "sha256": "e29d7b87394f9d2461d660235e97d1dff944092ba1e90423d08b367b38110aae"
+        }
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "affine",
+      "method": "privileged_known_sensor",
+      "model": {
+        "privileged": true,
+        "source": {
+          "training_rows": 291012,
+          "ridge": 291.21253229658294,
+          "normal_equation_residual": 2.3283064365386963e-10,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_source_arx64.npy",
+          "sha256": "e29d7b87394f9d2461d660235e97d1dff944092ba1e90423d08b367b38110aae"
+        }
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "affine",
+      "method": "source_affine_inverse",
+      "model": {
+        "adapter": {
+          "kind": "affine",
+          "knots": [
+            -8.92450463294224,
+            9.9686486625219
+          ],
+          "beta": [
+            -8.635321172988785,
+            0.9310777363587417
+          ],
+          "lambda_identity_slopes": 0.1,
+          "innovation_mse": 0.04409755445216319,
+          "optimizer_status": 3,
+          "optimality": 1.0748244676506147e-06,
+          "active_bounds": 0,
+          "design_condition_number": 79.32327014804217,
+          "training_rows": 232704,
+          "internal_validation_nrmse": 0.38058699249746825,
+          "internal_failed_records": 0,
+          "roundtrip_max_abs": 7.105427357601002e-15
+        },
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_affine_affine_inverse.json",
+        "sha256": "efd906fba2b4a3568922437b2b64640dfe89c94f341f0a488a6e3309aa190401",
+        "history_extrapolation_fraction": 0.0,
+        "source": {
+          "training_rows": 291012,
+          "ridge": 291.21253229658294,
+          "normal_equation_residual": 2.3283064365386963e-10,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_source_arx64.npy",
+          "sha256": "e29d7b87394f9d2461d660235e97d1dff944092ba1e90423d08b367b38110aae"
+        }
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "affine",
+      "method": "source_monotone_inverse",
+      "model": {
+        "adapter": {
+          "kind": "monotone",
+          "knots": [
+            -8.92450463294224,
+            -2.3103995597745612,
+            -1.3850470205951242,
+            -0.7777794379048885,
+            -0.38648136558154444,
+            -0.10518659388595242,
+            0.12056271380049881,
+            0.25333948176569093,
+            0.350942567436583,
+            0.44812304125191127,
+            0.5797929631136273,
+            0.8005043675276107,
+            1.0821799165556585,
+            1.478376484247039,
+            2.092400455835808,
+            3.0418351197942686,
+            9.9686486625219
+          ],
+          "beta": [
+            -7.327518830948401,
+            0.7523943600257579,
+            0.8467790649701972,
+            0.8723637788829197,
+            0.8987274400907117,
+            0.9180766329659125,
+            0.927872950999056,
+            0.9558341010103332,
+            0.9673689515654224,
+            0.9673912654065516,
+            0.9565002161003515,
+            0.9298105603666174,
+            0.9172057437932598,
+            0.89749842034865,
+            0.8683349682131182,
+            0.8370821227726921,
+            0.7358692835881155
+          ],
+          "lambda_identity_slopes": 0.1,
+          "innovation_mse": 0.03391434848390951,
+          "optimizer_status": 3,
+          "optimality": 6.198176834004698e-07,
+          "active_bounds": 0,
+          "design_condition_number": 196.16413151326117,
+          "training_rows": 232704,
+          "internal_validation_nrmse": 0.3644775264944879,
+          "internal_failed_records": 0,
+          "roundtrip_max_abs": 7.105427357601002e-15
+        },
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_affine_monotone_inverse.json",
+        "sha256": "8b41605bdddb6e1f31f1fc8637a044b451785e5a8d8ad1b1da0473525d730821",
+        "history_extrapolation_fraction": 0.0,
+        "source": {
+          "training_rows": 291012,
+          "ridge": 291.21253229658294,
+          "normal_equation_residual": 2.3283064365386963e-10,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_source_arx64.npy",
+          "sha256": "e29d7b87394f9d2461d660235e97d1dff944092ba1e90423d08b367b38110aae"
+        }
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "affine",
+      "method": "calibration_arx64",
+      "model": {
+        "training_rows": 232704,
+        "ridge": 479.84680929279847,
+        "normal_equation_residual": 5.820766091346741e-10,
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_affine_refit_arx64.npy",
+        "sha256": "965e7de526dac5129fe3775b767f70d10caf18ce4e77ba1ebd3bf287b4d050ca"
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "affine",
+      "method": "calibration_narx64_seed2026751",
+      "model": {
+        "seed": 2026751,
+        "observed_mean": 0.35043661628389033,
+        "observed_std": 1.7263633243878596,
+        "selected_update": 2500,
+        "checkpoints": [
+          {
+            "update": 500,
+            "training_loss": 0.00673100259155035,
+            "internal_validation_mse": 0.22682386578787916,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1000,
+            "training_loss": 0.006628518924117088,
+            "internal_validation_mse": 0.19354852273050888,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1500,
+            "training_loss": 0.016826864331960678,
+            "internal_validation_mse": 0.23732854368067557,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2000,
+            "training_loss": 0.00926531944423914,
+            "internal_validation_mse": 0.4193194994281829,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2500,
+            "training_loss": 0.03990921750664711,
+            "internal_validation_mse": 0.1491633049554311,
+            "all_predictions_finite": true
+          }
+        ],
+        "updates": 2500,
+        "parameters": 33281,
+        "elapsed_seconds": 11.169682800013106,
+        "artifact": {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_affine_narx64_seed2026751.pt",
+          "sha256": "eafb08ee0e4e519e870078e6fa247d26f3f12b0e2db1d52ae7ce921cbbb1ba3f"
+        }
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "affine",
+      "method": "calibration_narx64_seed2026752",
+      "model": {
+        "seed": 2026752,
+        "observed_mean": 0.35043661628389033,
+        "observed_std": 1.7263633243878596,
+        "selected_update": 2500,
+        "checkpoints": [
+          {
+            "update": 500,
+            "training_loss": 0.014377000741660595,
+            "internal_validation_mse": 0.19559355979917767,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1000,
+            "training_loss": 0.010485618375241756,
+            "internal_validation_mse": 0.17630465981006724,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1500,
+            "training_loss": 0.009574100375175476,
+            "internal_validation_mse": 0.2147938065503379,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2000,
+            "training_loss": 0.0072189695201814175,
+            "internal_validation_mse": 0.1948632729949293,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2500,
+            "training_loss": 0.03965795412659645,
+            "internal_validation_mse": 0.11470708307284837,
+            "all_predictions_finite": true
+          }
+        ],
+        "updates": 2500,
+        "parameters": 33281,
+        "elapsed_seconds": 11.158741099992767,
+        "artifact": {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_affine_narx64_seed2026752.pt",
+          "sha256": "7bd8ac30ef8892878047123a555401a1902829546450617c68d8219df995476b"
+        }
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "affine",
+      "method": "calibration_narx64_seed2026753",
+      "model": {
+        "seed": 2026753,
+        "observed_mean": 0.35043661628389033,
+        "observed_std": 1.7263633243878596,
+        "selected_update": 2500,
+        "checkpoints": [
+          {
+            "update": 500,
+            "training_loss": 0.011878570541739464,
+            "internal_validation_mse": 0.19172127192343957,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1000,
+            "training_loss": 0.009302794933319092,
+            "internal_validation_mse": 0.147688149524289,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1500,
+            "training_loss": 0.014824495650827885,
+            "internal_validation_mse": 0.34973919996548825,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2000,
+            "training_loss": 0.013464410789310932,
+            "internal_validation_mse": 0.5019507003377625,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2500,
+            "training_loss": 0.0357644148170948,
+            "internal_validation_mse": 0.13174009126538247,
+            "all_predictions_finite": true
+          }
+        ],
+        "updates": 2500,
+        "parameters": 33281,
+        "elapsed_seconds": 11.153046099992935,
+        "artifact": {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_affine_narx64_seed2026753.pt",
+          "sha256": "0bc29c330fc9afe47613771fe17a3f4d619e14fccf2b5a1d8185d2004b994e1e"
+        }
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "nonlinear",
+      "method": "persistence",
+      "model": {}
+    },
+    {
+      "dataset": "F16",
+      "condition": "nonlinear",
+      "method": "source_unadapted",
+      "model": {
+        "source": {
+          "training_rows": 291012,
+          "ridge": 291.21253229658294,
+          "normal_equation_residual": 2.3283064365386963e-10,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_source_arx64.npy",
+          "sha256": "e29d7b87394f9d2461d660235e97d1dff944092ba1e90423d08b367b38110aae"
+        }
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "nonlinear",
+      "method": "privileged_known_sensor",
+      "model": {
+        "privileged": true,
+        "source": {
+          "training_rows": 291012,
+          "ridge": 291.21253229658294,
+          "normal_equation_residual": 2.3283064365386963e-10,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_source_arx64.npy",
+          "sha256": "e29d7b87394f9d2461d660235e97d1dff944092ba1e90423d08b367b38110aae"
+        }
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "nonlinear",
+      "method": "source_affine_inverse",
+      "model": {
+        "adapter": {
+          "kind": "affine",
+          "knots": [
+            -8.49957539592386,
+            9.294555994657946
+          ],
+          "beta": [
+            -7.826732995902927,
+            0.8945297262687043
+          ],
+          "lambda_identity_slopes": 0.1,
+          "innovation_mse": 0.057532602834506806,
+          "optimizer_status": 3,
+          "optimality": 9.188897820422426e-07,
+          "active_bounds": 0,
+          "design_condition_number": 62.175893591085334,
+          "training_rows": 232704,
+          "internal_validation_nrmse": 0.467182297877477,
+          "internal_failed_records": 0,
+          "roundtrip_max_abs": 3.552713678800501e-15
+        },
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_nonlinear_affine_inverse.json",
+        "sha256": "b0ac5e259f3478ce708eec41ff0d2b9b1c404a7f04efbbb50121f0eb22e50c74",
+        "history_extrapolation_fraction": 0.0,
+        "source": {
+          "training_rows": 291012,
+          "ridge": 291.21253229658294,
+          "normal_equation_residual": 2.3283064365386963e-10,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_source_arx64.npy",
+          "sha256": "e29d7b87394f9d2461d660235e97d1dff944092ba1e90423d08b367b38110aae"
+        }
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "nonlinear",
+      "method": "source_monotone_inverse",
+      "model": {
+        "adapter": {
+          "kind": "monotone",
+          "knots": [
+            -8.49957539592386,
+            -2.8250113393557936,
+            -1.999250683555363,
+            -1.3856115942188327,
+            -0.9075830326221246,
+            -0.502071124594759,
+            -0.13945311612944256,
+            0.084591203232327,
+            0.251615829616625,
+            0.41790242748246226,
+            0.6400451160248095,
+            0.9948585697328247,
+            1.4017985685649659,
+            1.8862772035175093,
+            2.506132814412264,
+            3.352302310624866,
+            9.294555994657946
+          ],
+          "beta": [
+            -7.044757916700273,
+            0.8017735103892552,
+            0.8594203835387619,
+            0.829904328904856,
+            0.7902346759361067,
+            0.7622951707229875,
+            0.7394416276691904,
+            0.816841897230814,
+            0.8575022804771165,
+            0.8575063839785168,
+            0.8180930656703597,
+            0.7415382279466668,
+            0.7553088210769519,
+            0.7842526313551262,
+            0.825161866152546,
+            0.8493794833750477,
+            0.7718939762992526
+          ],
+          "lambda_identity_slopes": 0.1,
+          "innovation_mse": 0.04226008571786942,
+          "optimizer_status": 3,
+          "optimality": 5.164522463019239e-07,
+          "active_bounds": 0,
+          "design_condition_number": 99.56948824837565,
+          "training_rows": 232704,
+          "internal_validation_nrmse": 0.4236598922011248,
+          "internal_failed_records": 0,
+          "roundtrip_max_abs": 3.552713678800501e-15
+        },
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_nonlinear_monotone_inverse.json",
+        "sha256": "cbf497a7d2128bf6fb7045994a0ed4fed7d40a31d8042d3e01a5d72b5a31e437",
+        "history_extrapolation_fraction": 0.0,
+        "source": {
+          "training_rows": 291012,
+          "ridge": 291.21253229658294,
+          "normal_equation_residual": 2.3283064365386963e-10,
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_source_arx64.npy",
+          "sha256": "e29d7b87394f9d2461d660235e97d1dff944092ba1e90423d08b367b38110aae"
+        }
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "nonlinear",
+      "method": "calibration_arx64",
+      "model": {
+        "training_rows": 232704,
+        "ridge": 582.6515815037637,
+        "normal_equation_residual": 1.1641532182693481e-09,
+        "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_nonlinear_refit_arx64.npy",
+        "sha256": "67b7743b28776401da49667971a45a5632b234baa17e8276398aeb747462e148"
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "nonlinear",
+      "method": "calibration_narx64_seed2026751",
+      "model": {
+        "seed": 2026751,
+        "observed_mean": 0.25035864251398415,
+        "observed_std": 1.9827134861795328,
+        "selected_update": 2500,
+        "checkpoints": [
+          {
+            "update": 500,
+            "training_loss": 0.00798686221241951,
+            "internal_validation_mse": 0.40267166614143474,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1000,
+            "training_loss": 0.00862879678606987,
+            "internal_validation_mse": 0.1726181464510221,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1500,
+            "training_loss": 0.013589611276984215,
+            "internal_validation_mse": 0.5969345838483058,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2000,
+            "training_loss": 0.010065675713121891,
+            "internal_validation_mse": 0.2502207163391594,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2500,
+            "training_loss": 0.04328463226556778,
+            "internal_validation_mse": 0.14799474055967174,
+            "all_predictions_finite": true
+          }
+        ],
+        "updates": 2500,
+        "parameters": 33281,
+        "elapsed_seconds": 11.176670000015292,
+        "artifact": {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_nonlinear_narx64_seed2026751.pt",
+          "sha256": "54fd421e8acdc70cffb4302d9e17a81a247cbb15dc9a131686b8f04aa06e6839"
+        }
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "nonlinear",
+      "method": "calibration_narx64_seed2026752",
+      "model": {
+        "seed": 2026752,
+        "observed_mean": 0.25035864251398415,
+        "observed_std": 1.9827134861795328,
+        "selected_update": 2500,
+        "checkpoints": [
+          {
+            "update": 500,
+            "training_loss": 0.014297031797468662,
+            "internal_validation_mse": 0.33924059337042445,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1000,
+            "training_loss": 0.009364125318825245,
+            "internal_validation_mse": 0.28510575900582064,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1500,
+            "training_loss": 0.011150403879582882,
+            "internal_validation_mse": 0.25195674523744943,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2000,
+            "training_loss": 0.006235045380890369,
+            "internal_validation_mse": 0.4492375729451084,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2500,
+            "training_loss": 0.04150042682886124,
+            "internal_validation_mse": 0.13679730650924196,
+            "all_predictions_finite": true
+          }
+        ],
+        "updates": 2500,
+        "parameters": 33281,
+        "elapsed_seconds": 11.168407899996964,
+        "artifact": {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_nonlinear_narx64_seed2026752.pt",
+          "sha256": "3f784217f5831afbd7541239c69d67f3ebfaba598971cebc3ef268bcb962737e"
+        }
+      }
+    },
+    {
+      "dataset": "F16",
+      "condition": "nonlinear",
+      "method": "calibration_narx64_seed2026753",
+      "model": {
+        "seed": 2026753,
+        "observed_mean": 0.25035864251398415,
+        "observed_std": 1.9827134861795328,
+        "selected_update": 2500,
+        "checkpoints": [
+          {
+            "update": 500,
+            "training_loss": 0.01370866596698761,
+            "internal_validation_mse": 0.19625582986603224,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1000,
+            "training_loss": 0.01155335083603859,
+            "internal_validation_mse": 0.22078534048111953,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 1500,
+            "training_loss": 0.013028502464294434,
+            "internal_validation_mse": 0.38013498836608534,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2000,
+            "training_loss": 0.012933816760778427,
+            "internal_validation_mse": 0.22020107270170125,
+            "all_predictions_finite": true
+          },
+          {
+            "update": 2500,
+            "training_loss": 0.03444327041506767,
+            "internal_validation_mse": 0.13613047845388931,
+            "all_predictions_finite": true
+          }
+        ],
+        "updates": 2500,
+        "parameters": 33281,
+        "elapsed_seconds": 11.200194500008365,
+        "artifact": {
+          "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle75\\experiment_v1\\F16_nonlinear_narx64_seed2026753.pt",
+          "sha256": "d6b80fffdefe546c1a36895d5397bd48fc0e2cfa9fe611c77a7411db78e01933"
+        }
+      }
+    }
+  ]
+}

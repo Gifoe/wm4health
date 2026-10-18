@@ -1,0 +1,7 @@
+# C75 current state: ordinary sensor calibration/refits tested
+
+See cycle75/CALIBRATION_FINDING75_V1.md and cycle75/outputs/CLOSURE75_V1.json. Two real systems, nine original TRAIN records; source/calibration trajectories disjoint, source-only normalization. Identity/affine/monotone nonlinear observation effects are explicitly constructed, not measured sensor replacements or changed physical dynamics. Eighteen ordinary neural refits completed45,000 updates, plus two source/six calibration ridge fits and48 inverse-map candidates. All54 aggregate/243 record rows retained;2,011,392 forecast values and486 independent recurrences verified. No official test MAT output read.
+
+EMPS nonlinear NRMSE: unadapted0.040125129, ordinary monotone calibration0.023289393, nonlinear refits0.010562858/0.014706616/0.020304213. F16 nonlinear: unadapted0.521722905, monotone calibration0.409961400, nonlinear refits0.349425181/0.327292385/0.342957464. These show ordinary repairs; the remaining F16 one-step-calibration residual has no new-mechanism attribution. Next control is standard simulation-error calibration with state/noise checks, before any new architecture or claimed sequential joint-change gap.
+
+No final research direction accepted; general world-model research goal ACTIVE/UNACHIEVED. Independent C71 original-budget three-seed training and frozen assessment continue unchanged. Data/arrays/weights stay on server G; compact evidence/code/reports are selected for GitHub only, with no local result-file synchronization.

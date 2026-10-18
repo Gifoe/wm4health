@@ -1,0 +1,150 @@
+{"dataset": "EMPS", "source_fit": {"training_rows": 9872, "ridge": 9.803165466522783, "normal_equation_residual": 1.0913936421275139e-11}}
+{"dataset": "F16", "source_fit": {"training_rows": 291012, "ridge": 291.21253229658294, "normal_equation_residual": 2.3283064365386963e-10}}
+{"dataset": "EMPS", "condition": "identity", "method": "persistence", "nrmse": 0.09245662345833414, "failed_records": 0}
+{"dataset": "EMPS", "condition": "identity", "method": "source_unadapted", "nrmse": 0.023877072310118014, "failed_records": 0}
+{"dataset": "EMPS", "condition": "identity", "method": "privileged_known_sensor", "nrmse": 0.023877072310118014, "failed_records": 0}
+{"dataset": "EMPS", "condition": "identity", "method": "source_affine_inverse", "nrmse": 0.023806867181191568, "failed_records": 0}
+{"dataset": "EMPS", "condition": "identity", "method": "source_monotone_inverse", "nrmse": 0.02122494792246536, "failed_records": 0}
+{"dataset": "EMPS", "condition": "identity", "method": "calibration_arx64", "nrmse": 0.021546379807747932, "failed_records": 0}
+D:\tswm_discovery_20261016_v1\cycle75\scripts\learners75_v1.py:82: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\autograd\generated\python_variable_methods.cpp:837.)
+  row=dict(update=step,training_loss=float(loss),internal_validation_mse=mse,all_predictions_finite=finite);checkpoints.append(row);progress_callback(dict(seed=seed,**row,elapsed_seconds=time.perf_counter()-started))
+{"dataset": "EMPS", "condition": "identity", "seed": 2026751, "update": 500, "training_loss": 1.9491483271849575e-07, "internal_validation_mse": 0.0006487768675320908, "all_predictions_finite": true, "elapsed_seconds": 1.288562700006878}
+{"dataset": "EMPS", "condition": "identity", "seed": 2026751, "update": 1000, "training_loss": 1.5163715261223842e-07, "internal_validation_mse": 0.00033678696045013994, "all_predictions_finite": true, "elapsed_seconds": 2.4434071000141557}
+{"dataset": "EMPS", "condition": "identity", "seed": 2026751, "update": 1500, "training_loss": 6.406951769122315e-08, "internal_validation_mse": 0.00014334276511625865, "all_predictions_finite": true, "elapsed_seconds": 3.61080920000677}
+{"dataset": "EMPS", "condition": "identity", "seed": 2026751, "update": 2000, "training_loss": 5.691086926162825e-07, "internal_validation_mse": 0.0019899294126097694, "all_predictions_finite": true, "elapsed_seconds": 4.77001979999477}
+{"dataset": "EMPS", "condition": "identity", "seed": 2026751, "update": 2500, "training_loss": 1.0098002348968294e-05, "internal_validation_mse": 0.0004788583564177685, "all_predictions_finite": true, "elapsed_seconds": 11.075976699998137}
+{"dataset": "EMPS", "condition": "identity", "method": "calibration_narx64_seed2026751", "nrmse": 0.010242921827602095, "failed_records": 0}
+{"dataset": "EMPS", "condition": "identity", "seed": 2026752, "update": 500, "training_loss": 1.7262141227547545e-07, "internal_validation_mse": 0.0006939756728748344, "all_predictions_finite": true, "elapsed_seconds": 1.1608471999934409}
+{"dataset": "EMPS", "condition": "identity", "seed": 2026752, "update": 1000, "training_loss": 7.232638665755076e-08, "internal_validation_mse": 0.000454953303321069, "all_predictions_finite": true, "elapsed_seconds": 2.3228865999844857}
+{"dataset": "EMPS", "condition": "identity", "seed": 2026752, "update": 1500, "training_loss": 4.554883759055883e-08, "internal_validation_mse": 0.00017903875173471169, "all_predictions_finite": true, "elapsed_seconds": 3.4851179999823216}
+{"dataset": "EMPS", "condition": "identity", "seed": 2026752, "update": 2000, "training_loss": 2.291245593255553e-08, "internal_validation_mse": 7.361210312237083e-05, "all_predictions_finite": true, "elapsed_seconds": 4.640836699982174}
+{"dataset": "EMPS", "condition": "identity", "seed": 2026752, "update": 2500, "training_loss": 8.269435966212768e-06, "internal_validation_mse": 0.00014596128285342168, "all_predictions_finite": true, "elapsed_seconds": 10.920204499998363}
+{"dataset": "EMPS", "condition": "identity", "method": "calibration_narx64_seed2026752", "nrmse": 0.012312144484081758, "failed_records": 0}
+{"dataset": "EMPS", "condition": "identity", "seed": 2026753, "update": 500, "training_loss": 2.9770879450552457e-07, "internal_validation_mse": 0.0011011669523135707, "all_predictions_finite": true, "elapsed_seconds": 1.1624728000024334}
+{"dataset": "EMPS", "condition": "identity", "seed": 2026753, "update": 1000, "training_loss": 1.0012997364583498e-07, "internal_validation_mse": 0.001014201865751662, "all_predictions_finite": true, "elapsed_seconds": 2.323534800001653}
+{"dataset": "EMPS", "condition": "identity", "seed": 2026753, "update": 1500, "training_loss": 3.320904795600654e-08, "internal_validation_mse": 0.0001964187975954734, "all_predictions_finite": true, "elapsed_seconds": 3.495377700019162}
+{"dataset": "EMPS", "condition": "identity", "seed": 2026753, "update": 2000, "training_loss": 3.5261535913377884e-08, "internal_validation_mse": 0.00026588289169070717, "all_predictions_finite": true, "elapsed_seconds": 4.649667599995155}
+{"dataset": "EMPS", "condition": "identity", "seed": 2026753, "update": 2500, "training_loss": 2.8353813377179904e-06, "internal_validation_mse": 0.0004609623843603423, "all_predictions_finite": true, "elapsed_seconds": 10.955756500014104}
+{"dataset": "EMPS", "condition": "identity", "method": "calibration_narx64_seed2026753", "nrmse": 0.017301431990699584, "failed_records": 0}
+{"dataset": "EMPS", "condition": "affine", "method": "persistence", "nrmse": 0.09245662345833411, "failed_records": 0}
+{"dataset": "EMPS", "condition": "affine", "method": "source_unadapted", "nrmse": 0.031211531830555417, "failed_records": 0}
+{"dataset": "EMPS", "condition": "affine", "method": "privileged_known_sensor", "nrmse": 0.023877072310118007, "failed_records": 0}
+{"dataset": "EMPS", "condition": "affine", "method": "source_affine_inverse", "nrmse": 0.02285418364111472, "failed_records": 0}
+{"dataset": "EMPS", "condition": "affine", "method": "source_monotone_inverse", "nrmse": 0.02122494792246575, "failed_records": 0}
+{"dataset": "EMPS", "condition": "affine", "method": "calibration_arx64", "nrmse": 0.018188128717296657, "failed_records": 0}
+{"dataset": "EMPS", "condition": "affine", "seed": 2026751, "update": 500, "training_loss": 1.9491483271849575e-07, "internal_validation_mse": 0.00064877686753209, "all_predictions_finite": true, "elapsed_seconds": 1.1680935000185855}
+{"dataset": "EMPS", "condition": "affine", "seed": 2026751, "update": 1000, "training_loss": 1.5163715261223842e-07, "internal_validation_mse": 0.0003367869604501387, "all_predictions_finite": true, "elapsed_seconds": 2.327969600009965}
+{"dataset": "EMPS", "condition": "affine", "seed": 2026751, "update": 1500, "training_loss": 6.406951769122315e-08, "internal_validation_mse": 0.00014334276511625778, "all_predictions_finite": true, "elapsed_seconds": 3.497276200010674}
+{"dataset": "EMPS", "condition": "affine", "seed": 2026751, "update": 2000, "training_loss": 5.691086926162825e-07, "internal_validation_mse": 0.0019899294126097668, "all_predictions_finite": true, "elapsed_seconds": 4.66192160002538}
+{"dataset": "EMPS", "condition": "affine", "seed": 2026751, "update": 2500, "training_loss": 1.0098002348968294e-05, "internal_validation_mse": 0.00047885835641776897, "all_predictions_finite": true, "elapsed_seconds": 10.970632100012153}
+{"dataset": "EMPS", "condition": "affine", "method": "calibration_narx64_seed2026751", "nrmse": 0.010242921827602045, "failed_records": 0}
+{"dataset": "EMPS", "condition": "affine", "seed": 2026752, "update": 500, "training_loss": 1.7262141227547545e-07, "internal_validation_mse": 0.0006939756728748327, "all_predictions_finite": true, "elapsed_seconds": 1.155656299990369}
+{"dataset": "EMPS", "condition": "affine", "seed": 2026752, "update": 1000, "training_loss": 7.232638665755076e-08, "internal_validation_mse": 0.00045495330332106745, "all_predictions_finite": true, "elapsed_seconds": 2.3223413999949116}
+{"dataset": "EMPS", "condition": "affine", "seed": 2026752, "update": 1500, "training_loss": 4.554883759055883e-08, "internal_validation_mse": 0.0001790387517347114, "all_predictions_finite": true, "elapsed_seconds": 3.4851856000022963}
+{"dataset": "EMPS", "condition": "affine", "seed": 2026752, "update": 2000, "training_loss": 2.291245593255553e-08, "internal_validation_mse": 7.361210312237026e-05, "all_predictions_finite": true, "elapsed_seconds": 4.652224199991906}
+{"dataset": "EMPS", "condition": "affine", "seed": 2026752, "update": 2500, "training_loss": 8.269435966212768e-06, "internal_validation_mse": 0.00014596128285342184, "all_predictions_finite": true, "elapsed_seconds": 10.926170699996874}
+{"dataset": "EMPS", "condition": "affine", "method": "calibration_narx64_seed2026752", "nrmse": 0.012312144484081694, "failed_records": 0}
+{"dataset": "EMPS", "condition": "affine", "seed": 2026753, "update": 500, "training_loss": 2.9770879450552457e-07, "internal_validation_mse": 0.0011011669523135709, "all_predictions_finite": true, "elapsed_seconds": 1.1592033999913838}
+{"dataset": "EMPS", "condition": "affine", "seed": 2026753, "update": 1000, "training_loss": 1.0012997364583498e-07, "internal_validation_mse": 0.0010142018657516634, "all_predictions_finite": true, "elapsed_seconds": 2.3231862999964505}
+{"dataset": "EMPS", "condition": "affine", "seed": 2026753, "update": 1500, "training_loss": 3.320904795600654e-08, "internal_validation_mse": 0.00019641879759547392, "all_predictions_finite": true, "elapsed_seconds": 3.483405100007076}
+{"dataset": "EMPS", "condition": "affine", "seed": 2026753, "update": 2000, "training_loss": 3.5261535913377884e-08, "internal_validation_mse": 0.000265882891690708, "all_predictions_finite": true, "elapsed_seconds": 4.640851500007557}
+{"dataset": "EMPS", "condition": "affine", "seed": 2026753, "update": 2500, "training_loss": 2.8353813377179904e-06, "internal_validation_mse": 0.0004609623843603417, "all_predictions_finite": true, "elapsed_seconds": 10.889559200004442}
+{"dataset": "EMPS", "condition": "affine", "method": "calibration_narx64_seed2026753", "nrmse": 0.01730143199069957, "failed_records": 0}
+{"dataset": "EMPS", "condition": "nonlinear", "method": "persistence", "nrmse": 0.09354822007710029, "failed_records": 0}
+{"dataset": "EMPS", "condition": "nonlinear", "method": "source_unadapted", "nrmse": 0.04012512886889942, "failed_records": 0}
+{"dataset": "EMPS", "condition": "nonlinear", "method": "privileged_known_sensor", "nrmse": 0.02426018826138714, "failed_records": 0}
+{"dataset": "EMPS", "condition": "nonlinear", "method": "source_affine_inverse", "nrmse": 0.02691608383545263, "failed_records": 0}
+{"dataset": "EMPS", "condition": "nonlinear", "method": "source_monotone_inverse", "nrmse": 0.02328939269441431, "failed_records": 0}
+{"dataset": "EMPS", "condition": "nonlinear", "method": "calibration_arx64", "nrmse": 0.01690599391882713, "failed_records": 0}
+{"dataset": "EMPS", "condition": "nonlinear", "seed": 2026751, "update": 500, "training_loss": 1.9166957088145864e-07, "internal_validation_mse": 0.0005397437494219034, "all_predictions_finite": true, "elapsed_seconds": 1.172158400004264}
+{"dataset": "EMPS", "condition": "nonlinear", "seed": 2026751, "update": 1000, "training_loss": 1.531664679532696e-07, "internal_validation_mse": 0.00016030629135227413, "all_predictions_finite": true, "elapsed_seconds": 2.331718000001274}
+{"dataset": "EMPS", "condition": "nonlinear", "seed": 2026751, "update": 1500, "training_loss": 9.910421283620963e-08, "internal_validation_mse": 0.00020748454578613546, "all_predictions_finite": true, "elapsed_seconds": 3.4821190000220668}
+{"dataset": "EMPS", "condition": "nonlinear", "seed": 2026751, "update": 2000, "training_loss": 1.359151724500407e-07, "internal_validation_mse": 0.0005833129979250214, "all_predictions_finite": true, "elapsed_seconds": 4.6515513000194915}
+{"dataset": "EMPS", "condition": "nonlinear", "seed": 2026751, "update": 2500, "training_loss": 2.0082909486518474e-06, "internal_validation_mse": 0.00032243858303741005, "all_predictions_finite": true, "elapsed_seconds": 10.921654600009788}
+{"dataset": "EMPS", "condition": "nonlinear", "method": "calibration_narx64_seed2026751", "nrmse": 0.010562857838050095, "failed_records": 0}
+{"dataset": "EMPS", "condition": "nonlinear", "seed": 2026752, "update": 500, "training_loss": 1.8292899994776235e-07, "internal_validation_mse": 0.00014549183210179015, "all_predictions_finite": true, "elapsed_seconds": 1.1566505999944638}
+{"dataset": "EMPS", "condition": "nonlinear", "seed": 2026752, "update": 1000, "training_loss": 1.3106267715556896e-07, "internal_validation_mse": 0.0025799102899458854, "all_predictions_finite": true, "elapsed_seconds": 2.3097957000136375}
+{"dataset": "EMPS", "condition": "nonlinear", "seed": 2026752, "update": 1500, "training_loss": 7.428748460824863e-08, "internal_validation_mse": 0.00026992149594339237, "all_predictions_finite": true, "elapsed_seconds": 3.4731330999929924}
+{"dataset": "EMPS", "condition": "nonlinear", "seed": 2026752, "update": 2000, "training_loss": 4.325692160023209e-08, "internal_validation_mse": 0.0004205776215735579, "all_predictions_finite": true, "elapsed_seconds": 4.629325899994001}
+{"dataset": "EMPS", "condition": "nonlinear", "seed": 2026752, "update": 2500, "training_loss": 6.599112111871364e-06, "internal_validation_mse": 0.000203373307034758, "all_predictions_finite": true, "elapsed_seconds": 10.892510800011223}
+{"dataset": "EMPS", "condition": "nonlinear", "method": "calibration_narx64_seed2026752", "nrmse": 0.01470661620290922, "failed_records": 0}
+{"dataset": "EMPS", "condition": "nonlinear", "seed": 2026753, "update": 500, "training_loss": 2.9544861490649055e-07, "internal_validation_mse": 0.0006638355921754078, "all_predictions_finite": true, "elapsed_seconds": 1.1665317000006326}
+{"dataset": "EMPS", "condition": "nonlinear", "seed": 2026753, "update": 1000, "training_loss": 1.0200266586934958e-07, "internal_validation_mse": 0.00037907413069886923, "all_predictions_finite": true, "elapsed_seconds": 2.3325639000104275}
+{"dataset": "EMPS", "condition": "nonlinear", "seed": 2026753, "update": 1500, "training_loss": 3.737644149737207e-08, "internal_validation_mse": 0.00020467459371507562, "all_predictions_finite": true, "elapsed_seconds": 3.4937375000154134}
+{"dataset": "EMPS", "condition": "nonlinear", "seed": 2026753, "update": 2000, "training_loss": 5.816164616589958e-08, "internal_validation_mse": 0.0015045885993552786, "all_predictions_finite": true, "elapsed_seconds": 4.656550300016534}
+{"dataset": "EMPS", "condition": "nonlinear", "seed": 2026753, "update": 2500, "training_loss": 2.9286470635270234e-06, "internal_validation_mse": 0.00012376897648475684, "all_predictions_finite": true, "elapsed_seconds": 10.91601700001047}
+{"dataset": "EMPS", "condition": "nonlinear", "method": "calibration_narx64_seed2026753", "nrmse": 0.02030421321772339, "failed_records": 0}
+{"dataset": "F16", "condition": "identity", "method": "persistence", "nrmse": 1.1147338820757906, "failed_records": 0}
+{"dataset": "F16", "condition": "identity", "method": "source_unadapted", "nrmse": 0.2908410121180961, "failed_records": 0}
+{"dataset": "F16", "condition": "identity", "method": "privileged_known_sensor", "nrmse": 0.2908410121180961, "failed_records": 0}
+{"dataset": "F16", "condition": "identity", "method": "source_affine_inverse", "nrmse": 0.28951946343619955, "failed_records": 0}
+{"dataset": "F16", "condition": "identity", "method": "source_monotone_inverse", "nrmse": 0.29978026918204576, "failed_records": 0}
+{"dataset": "F16", "condition": "identity", "method": "calibration_arx64", "nrmse": 0.30456029748097396, "failed_records": 0}
+{"dataset": "F16", "condition": "identity", "seed": 2026751, "update": 500, "training_loss": 0.00673100259155035, "internal_validation_mse": 0.22682386578787916, "all_predictions_finite": true, "elapsed_seconds": 1.2094764000212308}
+{"dataset": "F16", "condition": "identity", "seed": 2026751, "update": 1000, "training_loss": 0.006628518924117088, "internal_validation_mse": 0.1935485227305088, "all_predictions_finite": true, "elapsed_seconds": 2.4157601000042632}
+{"dataset": "F16", "condition": "identity", "seed": 2026751, "update": 1500, "training_loss": 0.016826864331960678, "internal_validation_mse": 0.23732854368067555, "all_predictions_finite": true, "elapsed_seconds": 3.6309204999997746}
+{"dataset": "F16", "condition": "identity", "seed": 2026751, "update": 2000, "training_loss": 0.00926531944423914, "internal_validation_mse": 0.41931949942818275, "all_predictions_finite": true, "elapsed_seconds": 4.840243500017095}
+{"dataset": "F16", "condition": "identity", "seed": 2026751, "update": 2500, "training_loss": 0.03990921750664711, "internal_validation_mse": 0.149163304955431, "all_predictions_finite": true, "elapsed_seconds": 11.132217700011097}
+{"dataset": "F16", "condition": "identity", "method": "calibration_narx64_seed2026751", "nrmse": 0.35283670283622975, "failed_records": 0}
+{"dataset": "F16", "condition": "identity", "seed": 2026752, "update": 500, "training_loss": 0.014377000741660595, "internal_validation_mse": 0.1955935597991776, "all_predictions_finite": true, "elapsed_seconds": 1.2128908000013325}
+{"dataset": "F16", "condition": "identity", "seed": 2026752, "update": 1000, "training_loss": 0.010485618375241756, "internal_validation_mse": 0.1763046598100671, "all_predictions_finite": true, "elapsed_seconds": 2.4380114000232425}
+{"dataset": "F16", "condition": "identity", "seed": 2026752, "update": 1500, "training_loss": 0.009574100375175476, "internal_validation_mse": 0.2147938065503378, "all_predictions_finite": true, "elapsed_seconds": 3.6302499000157695}
+{"dataset": "F16", "condition": "identity", "seed": 2026752, "update": 2000, "training_loss": 0.0072189695201814175, "internal_validation_mse": 0.19486327299492925, "all_predictions_finite": true, "elapsed_seconds": 4.820980200020131}
+{"dataset": "F16", "condition": "identity", "seed": 2026752, "update": 2500, "training_loss": 0.03965795412659645, "internal_validation_mse": 0.11470708307284834, "all_predictions_finite": true, "elapsed_seconds": 11.148697399999946}
+{"dataset": "F16", "condition": "identity", "method": "calibration_narx64_seed2026752", "nrmse": 0.2986451763898983, "failed_records": 0}
+{"dataset": "F16", "condition": "identity", "seed": 2026753, "update": 500, "training_loss": 0.011878570541739464, "internal_validation_mse": 0.19172127192343952, "all_predictions_finite": true, "elapsed_seconds": 1.2094902000098955}
+{"dataset": "F16", "condition": "identity", "seed": 2026753, "update": 1000, "training_loss": 0.009302794933319092, "internal_validation_mse": 0.14768814952428894, "all_predictions_finite": true, "elapsed_seconds": 2.4217553000198677}
+{"dataset": "F16", "condition": "identity", "seed": 2026753, "update": 1500, "training_loss": 0.014824495650827885, "internal_validation_mse": 0.3497391999654882, "all_predictions_finite": true, "elapsed_seconds": 3.642892700008815}
+{"dataset": "F16", "condition": "identity", "seed": 2026753, "update": 2000, "training_loss": 0.013464410789310932, "internal_validation_mse": 0.5019507003377623, "all_predictions_finite": true, "elapsed_seconds": 4.829979100002674}
+{"dataset": "F16", "condition": "identity", "seed": 2026753, "update": 2500, "training_loss": 0.0357644148170948, "internal_validation_mse": 0.13174009126538247, "all_predictions_finite": true, "elapsed_seconds": 11.134090400009882}
+{"dataset": "F16", "condition": "identity", "method": "calibration_narx64_seed2026753", "nrmse": 0.3144184616785823, "failed_records": 0}
+{"dataset": "F16", "condition": "affine", "method": "persistence", "nrmse": 1.1147338820757908, "failed_records": 0}
+{"dataset": "F16", "condition": "affine", "method": "source_unadapted", "nrmse": 0.46770034833724794, "failed_records": 0}
+{"dataset": "F16", "condition": "affine", "method": "privileged_known_sensor", "nrmse": 0.29084101211809615, "failed_records": 0}
+{"dataset": "F16", "condition": "affine", "method": "source_affine_inverse", "nrmse": 0.3589365885070792, "failed_records": 0}
+{"dataset": "F16", "condition": "affine", "method": "source_monotone_inverse", "nrmse": 0.34334990148329864, "failed_records": 0}
+{"dataset": "F16", "condition": "affine", "method": "calibration_arx64", "nrmse": 0.3067195997357073, "failed_records": 0}
+{"dataset": "F16", "condition": "affine", "seed": 2026751, "update": 500, "training_loss": 0.00673100259155035, "internal_validation_mse": 0.22682386578787916, "all_predictions_finite": true, "elapsed_seconds": 1.2084038000029977}
+{"dataset": "F16", "condition": "affine", "seed": 2026751, "update": 1000, "training_loss": 0.006628518924117088, "internal_validation_mse": 0.19354852273050888, "all_predictions_finite": true, "elapsed_seconds": 2.4173948999959975}
+{"dataset": "F16", "condition": "affine", "seed": 2026751, "update": 1500, "training_loss": 0.016826864331960678, "internal_validation_mse": 0.23732854368067557, "all_predictions_finite": true, "elapsed_seconds": 3.630548799992539}
+{"dataset": "F16", "condition": "affine", "seed": 2026751, "update": 2000, "training_loss": 0.00926531944423914, "internal_validation_mse": 0.4193194994281829, "all_predictions_finite": true, "elapsed_seconds": 4.835855999990599}
+{"dataset": "F16", "condition": "affine", "seed": 2026751, "update": 2500, "training_loss": 0.03990921750664711, "internal_validation_mse": 0.1491633049554311, "all_predictions_finite": true, "elapsed_seconds": 11.161511400016025}
+{"dataset": "F16", "condition": "affine", "method": "calibration_narx64_seed2026751", "nrmse": 0.35283670283622987, "failed_records": 0}
+{"dataset": "F16", "condition": "affine", "seed": 2026752, "update": 500, "training_loss": 0.014377000741660595, "internal_validation_mse": 0.19559355979917767, "all_predictions_finite": true, "elapsed_seconds": 1.2007024000049569}
+{"dataset": "F16", "condition": "affine", "seed": 2026752, "update": 1000, "training_loss": 0.010485618375241756, "internal_validation_mse": 0.17630465981006724, "all_predictions_finite": true, "elapsed_seconds": 2.407277599995723}
+{"dataset": "F16", "condition": "affine", "seed": 2026752, "update": 1500, "training_loss": 0.009574100375175476, "internal_validation_mse": 0.2147938065503379, "all_predictions_finite": true, "elapsed_seconds": 3.611496800003806}
+{"dataset": "F16", "condition": "affine", "seed": 2026752, "update": 2000, "training_loss": 0.0072189695201814175, "internal_validation_mse": 0.1948632729949293, "all_predictions_finite": true, "elapsed_seconds": 4.823098699998809}
+{"dataset": "F16", "condition": "affine", "seed": 2026752, "update": 2500, "training_loss": 0.03965795412659645, "internal_validation_mse": 0.11470708307284837, "all_predictions_finite": true, "elapsed_seconds": 11.150588699994842}
+{"dataset": "F16", "condition": "affine", "method": "calibration_narx64_seed2026752", "nrmse": 0.29864517638989846, "failed_records": 0}
+{"dataset": "F16", "condition": "affine", "seed": 2026753, "update": 500, "training_loss": 0.011878570541739464, "internal_validation_mse": 0.19172127192343957, "all_predictions_finite": true, "elapsed_seconds": 1.2063037999905646}
+{"dataset": "F16", "condition": "affine", "seed": 2026753, "update": 1000, "training_loss": 0.009302794933319092, "internal_validation_mse": 0.147688149524289, "all_predictions_finite": true, "elapsed_seconds": 2.41726230000495}
+{"dataset": "F16", "condition": "affine", "seed": 2026753, "update": 1500, "training_loss": 0.014824495650827885, "internal_validation_mse": 0.34973919996548825, "all_predictions_finite": true, "elapsed_seconds": 3.620159499987494}
+{"dataset": "F16", "condition": "affine", "seed": 2026753, "update": 2000, "training_loss": 0.013464410789310932, "internal_validation_mse": 0.5019507003377625, "all_predictions_finite": true, "elapsed_seconds": 4.8398692999908235}
+{"dataset": "F16", "condition": "affine", "seed": 2026753, "update": 2500, "training_loss": 0.0357644148170948, "internal_validation_mse": 0.13174009126538247, "all_predictions_finite": true, "elapsed_seconds": 11.143590299994685}
+{"dataset": "F16", "condition": "affine", "method": "calibration_narx64_seed2026753", "nrmse": 0.31441846167858234, "failed_records": 0}
+{"dataset": "F16", "condition": "nonlinear", "method": "persistence", "nrmse": 1.1578190700755615, "failed_records": 0}
+{"dataset": "F16", "condition": "nonlinear", "method": "source_unadapted", "nrmse": 0.5217229054198335, "failed_records": 0}
+{"dataset": "F16", "condition": "nonlinear", "method": "privileged_known_sensor", "nrmse": 0.29931362817625834, "failed_records": 0}
+{"dataset": "F16", "condition": "nonlinear", "method": "source_affine_inverse", "nrmse": 0.45367778778088086, "failed_records": 0}
+{"dataset": "F16", "condition": "nonlinear", "method": "source_monotone_inverse", "nrmse": 0.40996140030424577, "failed_records": 0}
+{"dataset": "F16", "condition": "nonlinear", "method": "calibration_arx64", "nrmse": 0.36124149007356554, "failed_records": 0}
+{"dataset": "F16", "condition": "nonlinear", "seed": 2026751, "update": 500, "training_loss": 0.00798686221241951, "internal_validation_mse": 0.40267166614143474, "all_predictions_finite": true, "elapsed_seconds": 1.2115943000244442}
+{"dataset": "F16", "condition": "nonlinear", "seed": 2026751, "update": 1000, "training_loss": 0.00862879678606987, "internal_validation_mse": 0.1726181464510221, "all_predictions_finite": true, "elapsed_seconds": 2.4185957000008784}
+{"dataset": "F16", "condition": "nonlinear", "seed": 2026751, "update": 1500, "training_loss": 0.013589611276984215, "internal_validation_mse": 0.5969345838483058, "all_predictions_finite": true, "elapsed_seconds": 3.62852749999729}
+{"dataset": "F16", "condition": "nonlinear", "seed": 2026751, "update": 2000, "training_loss": 0.010065675713121891, "internal_validation_mse": 0.2502207163391594, "all_predictions_finite": true, "elapsed_seconds": 4.841091000009328}
+{"dataset": "F16", "condition": "nonlinear", "seed": 2026751, "update": 2500, "training_loss": 0.04328463226556778, "internal_validation_mse": 0.14799474055967174, "all_predictions_finite": true, "elapsed_seconds": 11.16798260001815}
+{"dataset": "F16", "condition": "nonlinear", "method": "calibration_narx64_seed2026751", "nrmse": 0.3494251807548536, "failed_records": 0}
+{"dataset": "F16", "condition": "nonlinear", "seed": 2026752, "update": 500, "training_loss": 0.014297031797468662, "internal_validation_mse": 0.33924059337042445, "all_predictions_finite": true, "elapsed_seconds": 1.2107626000070013}
+{"dataset": "F16", "condition": "nonlinear", "seed": 2026752, "update": 1000, "training_loss": 0.009364125318825245, "internal_validation_mse": 0.28510575900582064, "all_predictions_finite": true, "elapsed_seconds": 2.432745199999772}
+{"dataset": "F16", "condition": "nonlinear", "seed": 2026752, "update": 1500, "training_loss": 0.011150403879582882, "internal_validation_mse": 0.25195674523744943, "all_predictions_finite": true, "elapsed_seconds": 3.6356874000048265}
+{"dataset": "F16", "condition": "nonlinear", "seed": 2026752, "update": 2000, "training_loss": 0.006235045380890369, "internal_validation_mse": 0.4492375729451084, "all_predictions_finite": true, "elapsed_seconds": 4.844361000024946}
+{"dataset": "F16", "condition": "nonlinear", "seed": 2026752, "update": 2500, "training_loss": 0.04150042682886124, "internal_validation_mse": 0.13679730650924196, "all_predictions_finite": true, "elapsed_seconds": 11.160678300017025}
+{"dataset": "F16", "condition": "nonlinear", "method": "calibration_narx64_seed2026752", "nrmse": 0.3272923850116599, "failed_records": 0}
+{"dataset": "F16", "condition": "nonlinear", "seed": 2026753, "update": 500, "training_loss": 0.01370866596698761, "internal_validation_mse": 0.19625582986603224, "all_predictions_finite": true, "elapsed_seconds": 1.2452195000078063}
+{"dataset": "F16", "condition": "nonlinear", "seed": 2026753, "update": 1000, "training_loss": 0.01155335083603859, "internal_validation_mse": 0.22078534048111953, "all_predictions_finite": true, "elapsed_seconds": 2.4511253999953624}
+{"dataset": "F16", "condition": "nonlinear", "seed": 2026753, "update": 1500, "training_loss": 0.013028502464294434, "internal_validation_mse": 0.38013498836608534, "all_predictions_finite": true, "elapsed_seconds": 3.65518199998769}
+{"dataset": "F16", "condition": "nonlinear", "seed": 2026753, "update": 2000, "training_loss": 0.012933816760778427, "internal_validation_mse": 0.22020107270170125, "all_predictions_finite": true, "elapsed_seconds": 4.863255600008415}
+{"dataset": "F16", "condition": "nonlinear", "seed": 2026753, "update": 2500, "training_loss": 0.03444327041506767, "internal_validation_mse": 0.13613047845388931, "all_predictions_finite": true, "elapsed_seconds": 11.192366700008279}
+{"dataset": "F16", "condition": "nonlinear", "method": "calibration_narx64_seed2026753", "nrmse": 0.3429574643603151, "failed_records": 0}
+{"status": "CONSTRUCTED_OBSERVATION_CALIBRATION_DEV_CLOSED", "rows": 54, "wall_seconds": 212.40946090000216}
