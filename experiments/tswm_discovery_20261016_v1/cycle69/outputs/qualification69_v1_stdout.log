@@ -1,0 +1,28 @@
+Windows fatal exception: access violation
+
+Current thread 0x0000a450 (most recent call first):
+  File "<frozen _collections_abc>", line 521 in _is_param_expr
+  File "<frozen _collections_abc>", line 476 in __new__
+  File "E:\Anaconda\envs\salt_env\Lib\site-packages\torch\_ops.py", line 121 in py_impl
+  File "E:\Anaconda\envs\salt_env\Lib\site-packages\torch\_meta_registrations.py", line 8751 in activate_meta
+  File "E:\Anaconda\envs\salt_env\Lib\site-packages\torch\_meta_registrations.py", line 8799 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 999 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1415 in _handle_fromlist
+  File "E:\Anaconda\envs\salt_env\Lib\site-packages\torch\__init__.py", line 2804 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 999 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "D:\tswm_discovery_20261016_v1\cycle69\scripts\native69_v1.py", line 4 in <module>
+  File "<frozen importlib._bootstrap>", line 488 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 999 in exec_module
+  File "<frozen importlib._bootstrap>", line 935 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1331 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1360 in _find_and_load
+  File "D:\tswm_discovery_20261016_v1\cycle69\scripts\qualify69_v1.py", line 3 in <module>

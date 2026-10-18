@@ -1,0 +1,246 @@
+{
+  "utc": "2026-10-18T04:26:16.559265+00:00",
+  "status": "OFFICIAL_SPLITS_EXECUTED_WITH_SAFE_AST_AND_VERIFIED_NUMERIC_INPUTS",
+  "cases": [
+    {
+      "case": "WH0",
+      "benchmark": "WH",
+      "index": 0,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle69\\datasets\\WH0.npz",
+      "sha256": "02afbc8c253a0db0d0df5eda84aeb48c253b1b1f7c3afccb739d513c8c51a9a3",
+      "train_length": 100000,
+      "test_length": 78800,
+      "sample_time": 1.953125e-05,
+      "official_initial": 50,
+      "paper_initial": 50,
+      "context_length": 100000,
+      "context_stride": 400,
+      "source_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle69\\WienerHammerBenchMark\\WienerHammerBenchMark.mat",
+      "source_sha256": "096e6128687efb664d146d28fc17db4c5a94f247c4b3a2e451319be1efb25ae2",
+      "released_units": "As released; no magnitude-based physical-unit inference"
+    },
+    {
+      "case": "Tanks0",
+      "benchmark": "Tanks",
+      "index": 0,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle69\\datasets\\Tanks0.npz",
+      "sha256": "2b56fc054979750003bf03dc36af384418fb8cc20f1e2b9747117792ea59a798",
+      "train_length": 1024,
+      "test_length": 1024,
+      "sample_time": 4.0,
+      "official_initial": 50,
+      "paper_initial": 5,
+      "context_length": 1000,
+      "context_stride": 10,
+      "source_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle69\\Cascaded_Tanks\\CascadedTanksFiles\\dataBenchmark.mat",
+      "source_sha256": "cb2f88d4388be4d3f2a24c6402fba804976aac5f2e1f26cda59ea0a38d016eab",
+      "released_units": "As released; no magnitude-based physical-unit inference"
+    },
+    {
+      "case": "CED0",
+      "benchmark": "CED",
+      "index": 0,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle69\\datasets\\CED0.npz",
+      "sha256": "65725da304e427bc76e423203b072ba32a17be9384e7cba53565af3db1b69beb",
+      "train_length": 400,
+      "test_length": 100,
+      "sample_time": 0.02,
+      "official_initial": 10,
+      "paper_initial": 4,
+      "context_length": 400,
+      "context_stride": 400,
+      "source_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle69\\CED\\DATAUNIF.MAT",
+      "source_sha256": "102c8d8012d6e850d50c13227b8c2280fe69f8bc4a845177f8bc3d761d152c89",
+      "released_units": "As released; no magnitude-based physical-unit inference"
+    },
+    {
+      "case": "CED1",
+      "benchmark": "CED",
+      "index": 1,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle69\\datasets\\CED1.npz",
+      "sha256": "e1d62c067b9b1bb768b91712d2267e9ae61b5a4bb132ad452b118ebcd29554a3",
+      "train_length": 400,
+      "test_length": 100,
+      "sample_time": 0.02,
+      "official_initial": 10,
+      "paper_initial": 4,
+      "context_length": 400,
+      "context_stride": 400,
+      "source_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle69\\CED\\DATAUNIF.MAT",
+      "source_sha256": "102c8d8012d6e850d50c13227b8c2280fe69f8bc4a845177f8bc3d761d152c89",
+      "released_units": "As released; no magnitude-based physical-unit inference"
+    }
+  ],
+  "descriptive_audit": [
+    {
+      "case": "WH0",
+      "arrays": {
+        "train_u": {
+          "shape": [
+            100000
+          ],
+          "min": -2.9331691419065464,
+          "max": 2.88784802207374,
+          "mean": -0.003969072604557732,
+          "std": 0.6767831653290628
+        },
+        "train_y": {
+          "shape": [
+            100000
+          ],
+          "min": -1.1203243485942949,
+          "max": 0.5977581032493617,
+          "mean": -0.040772386672168794,
+          "std": 0.24460187703241887
+        },
+        "test_u": {
+          "shape": [
+            78800
+          ],
+          "min": -3.0059576070925687,
+          "max": 2.6660492083465215,
+          "mean": -0.003527536526857388,
+          "std": 0.6755565168832909
+        },
+        "test_y": {
+          "shape": [
+            78800
+          ],
+          "min": -1.0907969523395877,
+          "max": 0.6358690449269488,
+          "mean": -0.04021898200511262,
+          "std": 0.2438572761272947
+        }
+      }
+    },
+    {
+      "case": "Tanks0",
+      "arrays": {
+        "train_u": {
+          "shape": [
+            1024
+          ],
+          "min": 0.40936826060393905,
+          "max": 6.471210099744564,
+          "mean": 2.8,
+          "std": 0.9995115994824673
+        },
+        "train_y": {
+          "shape": [
+            1024
+          ],
+          "min": 2.911573968108644,
+          "max": 10.0,
+          "mean": 5.582729231040664,
+          "std": 2.1651354198021573
+        },
+        "test_u": {
+          "shape": [
+            1024
+          ],
+          "min": 0.5051156392227587,
+          "max": 6.349953911214941,
+          "mean": 2.8,
+          "std": 0.9995115994824673
+        },
+        "test_y": {
+          "shape": [
+            1024
+          ],
+          "min": 2.1638818951705194,
+          "max": 10.0,
+          "mean": 5.736466856927595,
+          "std": 2.099334841381135
+        }
+      }
+    },
+    {
+      "case": "CED0",
+      "arrays": {
+        "train_u": {
+          "shape": [
+            400
+          ],
+          "min": -1.46533203125,
+          "max": 2.46966552734375,
+          "mean": 0.5006731749216314,
+          "std": 1.1250613350212235
+        },
+        "train_y": {
+          "shape": [
+            400
+          ],
+          "min": -0.026862026862026767,
+          "max": 2.175824175824175,
+          "mean": 0.4921123321123319,
+          "std": 0.4975508488815805
+        },
+        "test_u": {
+          "shape": [
+            100
+          ],
+          "min": -1.480787618174991,
+          "max": 2.110942718328789,
+          "mean": 0.42724402994791644,
+          "std": 0.9849994407264199
+        },
+        "test_y": {
+          "shape": [
+            100
+          ],
+          "min": -0.0219780219780219,
+          "max": 1.6190476190476186,
+          "mean": 0.3483272283272283,
+          "std": 0.42210936092002577
+        }
+      }
+    },
+    {
+      "case": "CED1",
+      "arrays": {
+        "train_u": {
+          "shape": [
+            400
+          ],
+          "min": -0.96533203125,
+          "max": 2.96966552734375,
+          "mean": 1.0006731749216313,
+          "std": 1.1250613350212235
+        },
+        "train_y": {
+          "shape": [
+            400
+          ],
+          "min": -0.0219780219780219,
+          "max": 3.763125763125764,
+          "mean": 0.8164713064713064,
+          "std": 0.8325846833259525
+        },
+        "test_u": {
+          "shape": [
+            100
+          ],
+          "min": -0.980787618174991,
+          "max": 2.610942718328789,
+          "mean": 0.9272440299479165,
+          "std": 0.9849994407264199
+        },
+        "test_y": {
+          "shape": [
+            100
+          ],
+          "min": 0.0024420024420024333,
+          "max": 2.5177045177045176,
+          "mean": 0.6166056166056164,
+          "std": 0.662123868443508
+        }
+      }
+    }
+  ],
+  "official_loader_AST_sha256": "96d5d14f76a28e3251e193cfbac7f6b37bf118b217d3ded931b1f5c4e249bfa6",
+  "data_container_AST_sha256": "02fee05d169f04ba3548c1f2e39ceac5081b2ef476eb990b6d42421639561bb6",
+  "download_or_TLS_fallback_executed": false,
+  "protocol_sha256": "09bfacce3f1a18fe5825ed15c46be6b51447249cce896fb7df26ca18bace3307",
+  "source_receipt": "D:\\tswm_discovery_20261016_v1\\cycle69\\outputs\\DATA_SOURCE69_V2.json",
+  "source_receipt_sha256": "50e4ca1a492a86c50d1325617db58653c8b828447893b603540a281d62224866"
+}

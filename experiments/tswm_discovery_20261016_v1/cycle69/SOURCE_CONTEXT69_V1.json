@@ -1,0 +1,58 @@
+{
+  "upstream_meta_repo": "PuraFilippo/sysid_benchmarks",
+  "current_commit": "4c20d94ccab51abf4ebf68aa8810f4596381dd41",
+  "release_compare": {
+    "url": "https://api.github.com/repos/PuraFilippo/sysid_benchmarks/compare/v0.1...master",
+    "ahead_by": 2,
+    "changed_files": [
+      {
+        "path": "README.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "doc/paper/meta_sysid_archi_algo_syn.pdf",
+        "status": "added",
+        "additions": 0,
+        "deletions": 0
+      }
+    ],
+    "interpretation": "Between the release tag and pinned current source, only README and the repository PDF changed; current-vs-release architecture-code drift is unsupported."
+  },
+  "repository_pdf": {
+    "url": "https://raw.githubusercontent.com/PuraFilippo/sysid_benchmarks/4c20d94ccab51abf4ebf68aa8810f4596381dd41/doc/paper/meta_sysid_archi_algo_syn.pdf",
+    "bytes": 2946950,
+    "git_blob_sha1": "38f575a5b849fab2796772b1698619f79f2490e2",
+    "byte_identity_verified_in_RAM": true,
+    "pages": 15,
+    "table2_page": 11,
+    "reported_RMSE": {
+      "WH": 0.0014,
+      "Tanks": 0.429,
+      "CED": [
+        0.068,
+        0.055
+      ]
+    },
+    "no_local_payload_file_written": true
+  },
+  "loader_at_weight_release": {
+    "commit": "e5f559b9cfa772be88c3c8d0d01c4ffe4d5b3a8e",
+    "date": "2025-02-07T13:04:37Z",
+    "message": "Update benchmarks.py\n\nUpdated state initialisation window length for CED and Cascaded Tanks systems",
+    "WH_slice": [
+      5200,
+      184000
+    ],
+    "WH_train_length": 100000,
+    "WH_initial": 50,
+    "Tanks_initial": 50,
+    "CED_initial": 10,
+    "interpretation": "The latest loader file commit before the weight release already used these official initialization lengths and the same WH split. The paper's5/4 convention still differs; the exact package version used for its table is unrecorded."
+  },
+  "limitations": [
+    "Checkpoint-to-paper-table mapping remains unverified.",
+    "Do not assert the authors' table wrong or treat this source discrepancy as a new world-model gap."
+  ]
+}

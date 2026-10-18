@@ -1,0 +1,45 @@
+# C69: native contextual simulation on physical system-identification data
+
+Frozen before acquisition completion, data-array inspection or model scores. The previous turn made progress: C68 closed24 known-law cases and480 verified predictions, finding an ordinary same-encoder operator and existing Meta-ID stronger than a native cluster transition. Do not keep tuning those recurrences or promote generic context aggregation. C25 and Bayesian-context-aggregation prior art already constrain that idea.
+
+## Purpose
+
+Execute the newly qualified author Meta-ID on its original real benchmark task family with complete free-running simulation and clean information boundaries. Compare released target-trained dynoNet artifacts as a separate information group. Establish what the strong existing simulator can already do before proposing another framework. This is a reproduction attempt with explicit source/protocol discrepancies, not proof of a new gap, a new model or a fair equal-pretraining ranking.
+
+## Pinned source
+
+- Meta-ID: PuraFilippo/sysid_benchmarks at4c20d94ccab51abf4ebf68aa8810f4596381dd41, transformer_sim.py Git blob bffa3b730535ca3d32d21ae2963060f132b591bd. Reuse complete C68 source/weight receipt and the5,548,418-parameter checkpoint ckpt_430_fine-tuned_3100000_lower_noise.pt, SHA256 e8324becad85ac610ec94f8ae09048938b343761a5bcd3967a86353a5bf28197. No additional model download or neural fitting. Use the original cached TSTransformerBenchmark class, with exact state equality and qualification against uncached TSTransformer.
+- Official data definitions: MaartenSchoukens/nonlinear_benchmarks atf9fb3883086870a27b31917ccde1f78c95d53cb2; benchmarks.py Git blob0e41983c63b228e63ae74d87e4aada1eac94a6d8. Read its splitting definitions, but do not execute its SSL-unverified fallback or cache-clearing utilities. Use verified-transport downloads and explicit SciPy MAT parsing.
+- dynoNet baseline: dariopi/dynonet_baseline at4b4d609d65a2f9015828efedf6e9f7fce2c35cfe. Acquire exact architecture/scaler/apply function source and three small released checkpoint blobs for WH, tanks and CED. Underlying forgi86/dynonet at56699401b141065a45403a18977333e0ec8d7303; import exact lti/static/functional/filtering modules. Extract only original model/scaler/normalization/apply AST definitions, never execute the experiment launcher or argparse defaults. Safe weights-only checkpoint load and exact state-key/value checks. Published checkpoint training/selection provenance is not independently known; label target-trained author artifacts, not clean new neural reproductions.
+
+## Data and scope
+
+Acquire only numeric MAT members for three public physical benchmarks. Store on server G; no local payload/result files and no third-party weight/data redistribution. Verify source Git objects, numeric member CRC where ZIP supplies it, source-to-server SHA256, shapes/finite values and split indices. Record any upstream checksum unavailable rather than claiming it verified.
+
+WH: official MAT uBenchMark/yBenchMark. Select full[5200:184000], train first100000, test remaining78800; sample time1/fs. Initial50 test outputs allowed. Meta context uses all100000 training pairs in250 disjoint400-point windows (stride400), matching the inspected notebook configuration. Continuous chronology does not authorize extra test outputs after the initial50.
+
+Tanks: dataBenchmark.mat, uEst/yEst training and uVal/yVal test, with Ts from file. Meta context first1000 training points, overlapping400-point windows stride10 (61 windows), as inspected author notebook. Normalize using the entire training record as the notebook does. Two preregistered information protocols: paper_initial5 and official_initial50. Score each after its permitted initial prefix; additionally report the common suffix starting50. Do not choose which protocol to present based on errors.
+
+CED: DATAUNIF.MAT u11/z11 and u12/z12, sample time.02; split each at400. Meta model uses each trajectory's400-point train context independently. Two preregistered protocols: paper_initial4 and official_initial10. Because source states train/test contiguous, construct30 query initialization pairs using last(30-n_init) training points plus first n_init test points. Score both tails and common suffix starting10. Released dynoNet checkpoint uses both train trajectories and its author apply path warms with the corresponding full training input. This is extra target-domain information relative to the per-trajectory meta context, recorded explicitly.
+
+Do not infer physical units from magnitude. Report raw released units and documented source labels; WH also report mV if released voltage units are confirmed by primary description. No causal clinical interpretation. These are3 physical systems/4 trajectories; time points, contexts and query blocks are not independent trained systems.
+
+## Native inference
+
+Use exact author normalization for Meta-ID: convert complete training u/y to float32 Torch, subtract training mean and divide by sample std+1e-6. No test normalization. Query initial length30 and future block100, exactly the checkpoint's trained configuration. For Tanks5, prepend25 normalized zeros, following the notebook, not raw physical zeros. For each subsequent block, feed each context expert's own last30 predicted outputs, as the original notebook, never actual test outputs. Query inputs are known exogenous test inputs. For the last partial100 block, repeat the last available input to fill the native interface; retain and score only actual target positions. No truncated benchmark tail is silently discarded.
+
+Retain all per-context means and standard deviations, and compute both predeclared equal-mean and inverse-variance weighted point predictions from the same native trajectories. Weight=sd^-2 normalized over contexts. No pointwise variance is called a joint trajectory law. Estimator-variance formula under independent context-expert errors is only a diagnostic; overlapping contexts violate independence in general. Do not declare this known correlation issue a new method gap. No weighting or calibration parameter is selected using test data.
+
+Precompute cached context memory using the exact author cached class. In qualification, compare cached/uncached means/std for a fixed allowed query; test invariance to replacing hidden future y by111. Reset cached src/mem per new dataset/protocol. During formal free-running simulation all hidden future y are zeros. Record that only allowed initial outputs enter decoder embeddings. No neural dropout, no training or benchmark-specific parameter fitting this cycle.
+
+dynoNet follows original data_normalizer and apply_model semantics on CPU: population std from all allowed training trajectories, G1 -> static nonlinearity -> G2 plus linear skip. Its source ignores y_in; retain this native behavior, rather than silently replacing it with an observer. For CED use simulate_train=True with corresponding training input; WH/Tanks False. Extract and verify exact architecture AST and all state values. Do not assign authors' published timing/training budget to this current execution.
+
+## Metrics, qualification and replay
+
+Primary per-trajectory full-tail RMSE, plus MAE and normalized MAE using training sample SD; list all physical tasks separately. Do not average unrelated units or claim statistical significance from4 trajectories. Also score common suffixes, early/late halves, first and last100 points. Context expert dispersion and sd/estimator-variance coverage are descriptive only. All benchmark rows remain discovery evidence, not a new-method heldout confirmation set.
+
+One unique qualification: first allowed query of each shape/initialization policy for cache equivalence/hidden-y invariance and strict checkpoint loading, without target-error scores. Qualification inputs may contain only train and permitted initial output. Formal run covers every test point after each fixed initialization. Retain raw arrays and per-query receipts on G, compact source/score/manifest/log evidence on D/GitHub. Independent replay reconstructs splits from original MATs, recomputes every point metric and ensemble from saved native outputs, checks all source/checkpoint hashes and repeats fixed fresh native queries. A source/data/protocol failure is fixed in a new version, not interpreted as model weakness.
+
+## Decision rules
+
+A close original-task result supports keeping Meta-ID as a strong adjacent reusable simulator. A large reproduction discrepancy triggers implementation/protocol/data-version attribution before any method claim. If simple existing conditional simulation and domain-trained artifacts explain failures, reject new-architecture necessity. A generic aggregation change, inverse-variance correlation correction, extra observer, more context or a source bugfix is not automatically an innovative framework. No final direction is preregistered as accepted; the real research-discovery objective remains active and unachieved until stronger independent evidence exists.

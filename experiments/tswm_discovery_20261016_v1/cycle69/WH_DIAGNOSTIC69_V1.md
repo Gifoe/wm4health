@@ -1,0 +1,9 @@
+# Post-discovery WH discrepancy localization
+
+Declared after the28 primary benchmark rows and independent replay were opened. These are explanatory controls, not new-method heldout confirmation or selected replacement benchmark scores. Preserve RESULTS69_V1.json unchanged.
+
+Observed WH full-tail RMSE .0167266 versus paper table .0014. First100 error .0221162, early/late-half errors .0168274/.0166252, so a claim that error simply grows over time is unsupported. CED paper-prefix errors .06598/.05570 are near the reported .068/.055. Source hashes, safe loader/manual splits, cached/uncached forward and hidden-future invariance already pass.
+
+Test two fixed alternatives on the same WH test only, with no optimization or new checkpoint: (1) ordinary fused-feedback implementation: after each100-point block, precision-ensemble the outputs and feed its final30 normalized means to every context expert; (2) privileged measured-boundary reset: at each100-point boundary supply the true preceding30 test outputs, then forecast the next100. The latter changes the information set and is not a valid full-simulation competitor. Both use the same given inputs, exact source encoder/decoder, normalization and250 contexts. Run once each, retain every output and reproduce fixed queries/metrics. No weights/hyperparameters selected.
+
+Also recompute the original saved prediction over the first75000 scored points, matching the notebook's configured query count, to see whether only the final3750-point completion explains the difference. Do not silently crop the primary benchmark. A successful ordinary feedback alternative explains protocol sensitivity; a privileged reset success isolates cross-block prediction feedback, and its failure points toward within-block modeling/identification or checkpoint/protocol mismatch. None establishes a novel research problem. Checkpoint-to-paper-table correspondence is not documented sufficiently to claim the publication wrong.

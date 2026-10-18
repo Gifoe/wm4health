@@ -1,0 +1,57 @@
+{
+  "utc": "2026-10-18T04:39:36.086237+00:00",
+  "status": "REAL_BENCHMARK_EXECUTION_AND_DIAGNOSTIC_EVIDENCE_CLOSED",
+  "reproduction_status": "CED_CLOSE_TANKS_NEAR_WH_DISCREPANCY_UNRESOLVED",
+  "physical_systems": 3,
+  "trajectories": 4,
+  "protocol_records": 7,
+  "primary_rows": 28,
+  "primary_scored_point_records": 324460,
+  "native_meta_parameters": 5548418,
+  "released_dyno_parameters_per_checkpoint": 323,
+  "distinct_neural_checkpoints": 4,
+  "neural_training_this_cycle": 0,
+  "primary_WH_RMSE": 0.01672661680942684,
+  "paper_reported_WH_RMSE": 0.0014,
+  "WH_post_discovery_diagnostics": {
+    "primary_first75000": {
+      "mode": "primary_first75000",
+      "RMSE": 0.01672960344283074,
+      "points": 75000,
+      "role": "diagnostic subset, not replacement primary score"
+    },
+    "fused_feedback": {
+      "mode": "fused_feedback",
+      "RMSE": 0.016643236570233838,
+      "MAE": 0.011308321050541264,
+      "points": 78750,
+      "first100_RMSE": 0.022116181281262717,
+      "early_half_RMSE": 0.01679026771296577,
+      "late_half_RMSE": 0.016494894882735,
+      "information": "Only original initial50 and model predictions",
+      "role": "post-discovery ordinary implementation alternative, not selected replacement"
+    },
+    "privileged_measured_boundary": {
+      "mode": "privileged_measured_boundary",
+      "RMSE": 0.015753884805956554,
+      "MAE": 0.010600779908853546,
+      "points": 78750,
+      "first100_RMSE": 0.022116181281262717,
+      "early_half_RMSE": 0.015855043295676868,
+      "late_half_RMSE": 0.01565207254809757,
+      "information": "True test outputs at each100 boundary",
+      "role": "privileged explanatory control"
+    }
+  },
+  "primary_results_not_replaced": true,
+  "negative_evidence": [
+    "Generic Bayesian context aggregation has prior art and earlier project controls.",
+    "WH discrepancy is present in the first query; late-horizon drift is not its dominant explanation.",
+    "Fused feedback and even privileged measured-boundary resets leave most WH error.",
+    "Changing the scored tail to notebook75000 points does not explain the discrepancy.",
+    "Code architecture did not change between the weight release and the pinned source.",
+    "Checkpoint-to-paper-table mapping and exact publication protocol remain unverified; do not infer a new architecture requirement."
+  ],
+  "accepted_final_directions": 0,
+  "overall_goal": "ACTIVE_UNACHIEVED"
+}
