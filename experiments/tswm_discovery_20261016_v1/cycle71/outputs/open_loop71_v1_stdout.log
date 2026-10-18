@@ -1,0 +1,9 @@
+E:\Anaconda\envs\salt_env\Lib\site-packages\torch\__init__.py:1323: UserWarning: torch.set_default_tensor_type() is deprecated as of PyTorch 2.1, please use torch.set_default_dtype() and torch.set_default_device() as alternatives. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\tensor\python_tensor.cpp:436.)
+  _C._set_default_tensor_type(t)
+Num threads before:  4
+Num threads after:  4
+Using state encoder, hidden size 512.
+saving metrics to: G:\ICLR Omni-eeg cache\tswm_discovery_20261016_v1\artifacts\cycle71\open_loop_qualification71_v1\logs/seed2026721
+D:\tswm_discovery_20261016_v1\upstream\modular-metalearning_f830c6aa\neurips2019\hgnn_composer.py:82: UserWarning: The torch.cuda.*DtypeTensor constructors are no longer recommended. It's best to use methods such as torch.tensor(data, dtype=*, device='cuda') to create tensors. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\tensor\python_tensor.cpp:80.)
+  aux_idx = torch.cuda.LongTensor(np.array(sinks)).reshape(-1, len(sinks))
+{"status": "PASS_COMMON_HISTORY_FREE_ROLLOUT_INTERFACE", "checkpoint": {"epoch": 50, "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle71\\formal_seed2026711_v3\\epoch00050.pt", "sha256": "2d5f21408c4927821c6de189af723c9c4c222b9dc2b36c29182480017ab2edda", "val_loss": 0.0007168665761128068, "module_updates": 816, "proposal_updates": 816}, "horizons": [{"horizon": 1, "shape": [4, 1, 5, 4], "padding_max_abs": 0.0, "finite": true}, {"horizon": 10, "shape": [4, 10, 5, 4], "padding_max_abs": 0.0, "finite": true}, {"horizon": 50, "shape": [4, 50, 5, 4], "padding_max_abs": 0.0, "finite": true}], "numpy_reference": [{"row": 0, "absolute": 1.5094352917577325e-07, "relative_scaled": 1.5094352917577325e-07}, {"row": 1, "absolute": 1.410902845666584e-07, "relative_scaled": 1.410902845666584e-07}], "wall_seconds": 6.306864600017434}

@@ -1,0 +1,272 @@
+{
+  "utc": "2026-10-18T05:51:16.387585+00:00",
+  "status": "PASS_COMMON_HISTORY_FREE_ROLLOUT_INTERFACE",
+  "checkpoint": {
+    "epoch": 50,
+    "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle71\\formal_seed2026711_v3\\epoch00050.pt",
+    "sha256": "2d5f21408c4927821c6de189af723c9c4c222b9dc2b36c29182480017ab2edda",
+    "val_loss": 0.0007168665761128068,
+    "module_updates": 816,
+    "proposal_updates": 816
+  },
+  "protocol_sha256": "2a2f722de0272512486f7f5fc0d7029a1118fa4cbf32ce7cbee2ca12a09b6aac",
+  "source_bodies": {
+    "layers": {
+      "source_sha256": "e1d6bdd39eb626f1dcca381cbea6a4c399041002fe65d1a4b90bf8996ca871dd",
+      "skipped_imports": [],
+      "scientific_bodies": {
+        "linear": "1b064ef7daa9ef8de379ada78fdd484a23d04532c04ea8df7286415b2c248132",
+        "conv2d": "1238a4ac08841eee7cb76fd999870be4205eed316acd3357466be9328e534e43",
+        "relu": "46c16bc2bc71d960c66e0ce19d632658d4b5167c6541cb69543d96ceeb0f274d",
+        "maxpool": "4d1d781389eb079bed472c9f41708779bd62ea240be2cf893c50e44dcc41b364",
+        "batchnorm": "61d86860b21caa203f5ff07d570cada4af14ad240d244ad3a092b3e4771254cc",
+        "bilinear_upsample": "0a52e7770f27d162b4daa1f6b02900f1e7c34fbeede7350b88b275e635e75053",
+        "log_softmax": "dcaa067416190b798115d191e51d4ab5542e17fd5512a0571485f3d317f4f6b0",
+        "exponential": "1670c105c447d1fbdadcdb0299ed8aaa4104b7533971127cba0a55aaccfdfb1b",
+        "Net": "33cf8519339a3f12c00caabed3f7b451472f753a218f10f476a43a8bb8a84c97"
+      }
+    },
+    "custom_module": {
+      "source_sha256": "691ff7f6d50cab6d6e9714faf39b1e0a491c24def20fc9b0c5f6b48c14cb95d7",
+      "skipped_imports": [],
+      "scientific_bodies": {
+        "torch_NN": "56814ecd6490f9d697c00e3748447238a301f62be624337d568abb93fefccb0f",
+        "main": "94d792e94d166f6375d18dc8ccbf189873034519c2b0a3f8ee454e5f34c951c4"
+      }
+    },
+    "composition": {
+      "source_sha256": "8d00e66bf9dd27d78e760181c85e64cbbd53c249d8b64a9c20a237a986d23f57",
+      "skipped_imports": [],
+      "scientific_bodies": {
+        "Composer": "704f4a19eae46586ecfbfe84302c8d3ed8943f06d7b65f46cd6b48f32457542e"
+      }
+    },
+    "structure": {
+      "source_sha256": "f101dbc22fa24f60f13983a83f1f6a402bafee9ac8bb91e2f1e8a9383370aaa1",
+      "skipped_imports": [],
+      "scientific_bodies": {
+        "Structure": "1fbfd340946b1f52adcf816610c57a56f6f4a10b19edd567e819cf3c402cb715"
+      }
+    },
+    "hgnn_composer": {
+      "source_sha256": "0397e3cc60a999b53f09920f4f37ff4ba127c4101a0a3be6d36bccc08c9f5853",
+      "skipped_imports": [],
+      "scientific_bodies": {
+        "HGNN_Composer": "cc5102a4665c2c4d1bd4543408ad4e017853d7333603c8a06b2381d691655529",
+        "HGNN_Structure": "caf40cff87c41abf514b9ca64919ac9ab73595f4bbf46d83716fe07c889722d6"
+      }
+    },
+    "data_loading": {
+      "source_sha256": "256011adad31eea36dd4be2dbefcd7232c609cb6cc84ae050abcd66d92ab9753",
+      "skipped_imports": [
+        "import h5py"
+      ],
+      "scientific_bodies": {
+        "Dataset": "6bb903e1dc68284b937fffbfe7c6766a7723ac0ab4fc6423f83c967764832116",
+        "MetaDataset": "118351bfda333b39e40118f8caffb9daf7e0b263917bae35d6432824fcfd0d8c",
+        "NPDataset": "07e514fbefb878648cac9a65238d4800666e1fd25026a2d021f979e838052109",
+        "MetaNpySelfRegressDataset": "68dbe9977860a320931cd57e79cfe9c658d909dec4bb9c6a0236e574eec343c0",
+        "MetaHDFDataset": "825c5293c67bf17ffcab52411aa57badd32a676b0855f6e1a095a2ce238ca0f2",
+        "convert_to_torch_tensors": "c8ab1cb1d7a516693125b7aec5842bd210dc27eff7fe8053a9f177d7e6975ea4",
+        "get_data_loaders": "40fb9d1982a2cea302e4145d3cd7e4eb9f2705c0a4644e8b80a40097d7672a03"
+      }
+    },
+    "encoder": {
+      "source_sha256": "c41acaa9faadcb713917067d8dd3bc5cd1a10d0f87c134f49441d582f3111fcc",
+      "skipped_imports": [],
+      "scientific_bodies": {
+        "MLP": "60c2199c99af714d346ca893f924d902a06a3f83ebac3c99c5ef43d73de9c97f",
+        "Encoder": "f6b30dc13e0ac89300cd5fed7c2ff6e9968066a9e5115f2182c3a8693c55eaf5",
+        "FullMLPStructureEncoder": "2efa1a0c0f42bb1e44e7803978338b7dfd45251f14f11acfb8ae2fcb8d7b1c77",
+        "MLPStructureEncoder": "bb8d57079f57f42e1234daa1adba9969f7c6d994523e033ec5d886d60f8f94c0",
+        "MLPStateEncoder": "8468bd28effb1e7805106137ea6508a1c18bf15c566b94946d94760dee45246e",
+        "CNN": "a96dae7c70b98493d372d1d289d2dba99ac0259b10fa770cf8c09c9fd9f1a16e",
+        "CNNStateEncoder": "992eaba6bd80e9e03b0be704654d78c883a9df7a94147af2b84b3203633f0e85"
+      }
+    },
+    "modular_metalearning": {
+      "source_sha256": "023666561cb4008848965dcebb9a3218eb13ead3cca4c027905d0286ef997ed6",
+      "skipped_imports": [
+        "from torch.optim.lr_scheduler import ReduceLROnPlateau",
+        "from tensorboardX import SummaryWriter"
+      ],
+      "scientific_bodies": {
+        "BounceGrad": "8c56868b81cbfe1b64d11c08a343e11c8c6733cba79f3d919cec62b7cee71eed"
+      }
+    }
+  },
+  "source_revision": "f830c6aa00a8c425b1d9ab0d612733f297e56898",
+  "module_parameters": 467204,
+  "proposal_parameters": 2735106,
+  "search": {
+    "steps": 100,
+    "accepted_per_step": [
+      2,
+      3,
+      3,
+      3,
+      3,
+      4,
+      2,
+      3,
+      2,
+      2,
+      2,
+      3,
+      4,
+      2,
+      1,
+      2,
+      3,
+      3,
+      4,
+      1,
+      3,
+      3,
+      1,
+      1,
+      2,
+      1,
+      1,
+      2,
+      3,
+      0,
+      2,
+      3,
+      1,
+      2,
+      2,
+      1,
+      3,
+      2,
+      3,
+      4,
+      3,
+      1,
+      3,
+      3,
+      3,
+      1,
+      3,
+      1,
+      2,
+      2,
+      1,
+      4,
+      1,
+      1,
+      2,
+      2,
+      1,
+      2,
+      1,
+      4,
+      2,
+      3,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2,
+      2,
+      1,
+      2,
+      2,
+      3,
+      1,
+      2,
+      0,
+      2,
+      2,
+      0,
+      1,
+      2,
+      1,
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      1,
+      3,
+      2,
+      3,
+      1,
+      2,
+      1,
+      2,
+      1,
+      2
+    ],
+    "last_temperature": 2.1378992049210234e-05,
+    "dummy_labels_only": true
+  },
+  "horizons": [
+    {
+      "horizon": 1,
+      "shape": [
+        4,
+        1,
+        5,
+        4
+      ],
+      "padding_max_abs": 0.0,
+      "finite": true
+    },
+    {
+      "horizon": 10,
+      "shape": [
+        4,
+        10,
+        5,
+        4
+      ],
+      "padding_max_abs": 0.0,
+      "finite": true
+    },
+    {
+      "horizon": 50,
+      "shape": [
+        4,
+        50,
+        5,
+        4
+      ],
+      "padding_max_abs": 0.0,
+      "finite": true
+    }
+  ],
+  "numpy_reference": [
+    {
+      "row": 0,
+      "absolute": 1.5094352917577325e-07,
+      "relative_scaled": 1.5094352917577325e-07
+    },
+    {
+      "row": 1,
+      "absolute": 1.410902845666584e-07,
+      "relative_scaled": 1.410902845666584e-07
+    }
+  ],
+  "weights_unchanged_sha256": "64173a815730993dbeb53647d06a65403fd113df1ac813fbca11fb0d7c52707d",
+  "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle71\\OPEN_LOOP_QUALIFICATION71_V1.npz",
+  "array_sha256": "3e3e330cdf9fb5d1db4ca9f6d9f3d35b1f4bd48d7bd8062a5c52bd6621779e06",
+  "train_rows": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "val_forecast_rows": 0,
+  "eval_forecast_rows": 0,
+  "module_updates": 0,
+  "proposal_updates": 0,
+  "wall_seconds": 6.306864600017434,
+  "performance_test": false,
+  "new_method": false,
+  "accepted_final_directions": 0
+}
