@@ -1,0 +1,3623 @@
+{
+  "status": "QUALIFICATION_PASS_NOT_A_NEW_RESEARCH_GAP",
+  "utc": "2026-10-18T13:27:32.311995+00:00",
+  "protocol_sha256": "87e851671a94b663e83c0fa6f64d396a5cd6cc09a0d04403112f491a8664f8ae",
+  "source_sha256": "c15b6954b565af315f8e43bb4473f11adc4b04b3edee6d3c59614dd34c6212f2",
+  "raw_array_sha256": "c95a02daaac045e9b62c5f1f94f0dd2d10256aa1911ea265386ee504bbb3145d",
+  "counts": {
+    "common_action_equivalence": 192,
+    "different_named_state_interventions": 96,
+    "independent_continuous_fields": 12,
+    "ordinary_linear_output_fit": 64
+  },
+  "ordinary_fits": 8,
+  "max_common_action_equivalence_error": 2.7755575615628914e-15,
+  "max_independent_ode_error": 6.661338147750939e-16,
+  "max_jacobian_fd_error": 2.423017342323419e-11,
+  "max_inverse_error": 4.440892098500626e-16,
+  "max_ordinary_linear_rollout_error": 6.117328865684613e-14,
+  "max_known_actuation_direction_error": 0.0,
+  "rows": [
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 0,
+      "array_key": "pair_0",
+      "max_abs_error": 8.951173136040325e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 0,
+      "array_key": "named_1",
+      "max_abs_difference": 0.15550469037538117,
+      "unclamped_coordinate_rmse": 0.08732779401652344,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "independent_continuous_fields",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 0,
+      "array_key": "ode_1",
+      "max_abs_error": 1.3877787807814457e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 1,
+      "array_key": "pair_1",
+      "max_abs_error": 5.898059818321144e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 1,
+      "array_key": "named_2",
+      "max_abs_difference": 0.21903295381641016,
+      "unclamped_coordinate_rmse": 0.12368749307760815,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "independent_continuous_fields",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 1,
+      "array_key": "ode_2",
+      "max_abs_error": 1.8041124150158794e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 2,
+      "array_key": "pair_2",
+      "max_abs_error": 5.828670879282072e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 2,
+      "array_key": "named_3",
+      "max_abs_difference": 0.2091122970085118,
+      "unclamped_coordinate_rmse": 0.10595865512849276,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 3,
+      "array_key": "pair_3",
+      "max_abs_error": 8.881784197001252e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 3,
+      "array_key": "named_4",
+      "max_abs_difference": 0.24272256082801721,
+      "unclamped_coordinate_rmse": 0.11859862551400319,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 4,
+      "array_key": "pair_4",
+      "max_abs_error": 1.7694179454963432e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 5,
+      "array_key": "pair_5",
+      "max_abs_error": 3.95516952522712e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 6,
+      "array_key": "pair_6",
+      "max_abs_error": 6.661338147750939e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 7,
+      "array_key": "pair_7",
+      "max_abs_error": 1.3877787807814457e-15
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 0,
+      "array_key": "pair_8",
+      "max_abs_error": 7.355227538141662e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 0,
+      "array_key": "named_9",
+      "max_abs_difference": 0.15935344963893422,
+      "unclamped_coordinate_rmse": 0.09171351228039108,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 1,
+      "array_key": "pair_9",
+      "max_abs_error": 4.85722573273506e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 1,
+      "array_key": "named_10",
+      "max_abs_difference": 0.17842280405129446,
+      "unclamped_coordinate_rmse": 0.10539541766705522,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 2,
+      "array_key": "pair_10",
+      "max_abs_error": 6.38378239159465e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 2,
+      "array_key": "named_11",
+      "max_abs_difference": 0.19946003252205086,
+      "unclamped_coordinate_rmse": 0.11017748488385656,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 3,
+      "array_key": "pair_11",
+      "max_abs_error": 5.967448757360216e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 3,
+      "array_key": "named_12",
+      "max_abs_difference": 0.21722094462961733,
+      "unclamped_coordinate_rmse": 0.11424228346783623,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 4,
+      "array_key": "pair_12",
+      "max_abs_error": 3.3306690738754696e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 5,
+      "array_key": "pair_13",
+      "max_abs_error": 1.6653345369377348e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 6,
+      "array_key": "pair_14",
+      "max_abs_error": 7.494005416219807e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 7,
+      "array_key": "pair_15",
+      "max_abs_error": 6.38378239159465e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 0,
+      "array_key": "pair_16",
+      "max_abs_error": 6.106226635438361e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 0,
+      "array_key": "named_17",
+      "max_abs_difference": 0.19401207869063997,
+      "unclamped_coordinate_rmse": 0.11084750483894253,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 1,
+      "array_key": "pair_17",
+      "max_abs_error": 2.706168622523819e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 1,
+      "array_key": "named_18",
+      "max_abs_difference": 0.187954026031327,
+      "unclamped_coordinate_rmse": 0.10471276110762993,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 2,
+      "array_key": "pair_18",
+      "max_abs_error": 1.0130785099704553e-15
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 2,
+      "array_key": "named_19",
+      "max_abs_difference": 0.2064038427130591,
+      "unclamped_coordinate_rmse": 0.1096040163881248,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 3,
+      "array_key": "pair_19",
+      "max_abs_error": 1.9984014443252818e-15
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 3,
+      "array_key": "named_20",
+      "max_abs_difference": 0.2344195749989788,
+      "unclamped_coordinate_rmse": 0.07778938745433643,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 4,
+      "array_key": "pair_20",
+      "max_abs_error": 5.065392549852277e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 5,
+      "array_key": "pair_21",
+      "max_abs_error": 6.106226635438361e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 6,
+      "array_key": "pair_22",
+      "max_abs_error": 7.494005416219807e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 7,
+      "array_key": "pair_23",
+      "max_abs_error": 9.992007221626409e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 0,
+      "array_key": "pair_24",
+      "max_abs_error": 9.43689570931383e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 0,
+      "array_key": "named_25",
+      "max_abs_difference": 0.17505820321506893,
+      "unclamped_coordinate_rmse": 0.10005144542526292,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 1,
+      "array_key": "pair_25",
+      "max_abs_error": 7.216449660063518e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 1,
+      "array_key": "named_26",
+      "max_abs_difference": 0.16308572276982747,
+      "unclamped_coordinate_rmse": 0.09618367116261976,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 2,
+      "array_key": "pair_26",
+      "max_abs_error": 1.4988010832439613e-15
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 2,
+      "array_key": "named_27",
+      "max_abs_difference": 0.2176586586428766,
+      "unclamped_coordinate_rmse": 0.07686645163253028,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 3,
+      "array_key": "pair_27",
+      "max_abs_error": 5.689893001203927e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 3,
+      "array_key": "named_28",
+      "max_abs_difference": 0.22135751382417823,
+      "unclamped_coordinate_rmse": 0.11433583242078808,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 4,
+      "array_key": "pair_28",
+      "max_abs_error": 5.967448757360216e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 5,
+      "array_key": "pair_29",
+      "max_abs_error": 5.967448757360216e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 6,
+      "array_key": "pair_30",
+      "max_abs_error": 1.3322676295501878e-15
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 7,
+      "array_key": "pair_31",
+      "max_abs_error": 4.718447854656915e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 0,
+      "array_key": "pair_32",
+      "max_abs_error": 8.049116928532385e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 0,
+      "array_key": "named_33",
+      "max_abs_difference": 0.15550469037538134,
+      "unclamped_coordinate_rmse": 0.09203591899740088,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "independent_continuous_fields",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 0,
+      "array_key": "ode_33",
+      "max_abs_error": 3.3306690738754696e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 1,
+      "array_key": "pair_33",
+      "max_abs_error": 6.661338147750939e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 1,
+      "array_key": "named_34",
+      "max_abs_difference": 0.21903295381641,
+      "unclamped_coordinate_rmse": 0.13349410516548169,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "independent_continuous_fields",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 1,
+      "array_key": "ode_34",
+      "max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 2,
+      "array_key": "pair_34",
+      "max_abs_error": 5.689893001203927e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 2,
+      "array_key": "named_35",
+      "max_abs_difference": 0.2091122970085117,
+      "unclamped_coordinate_rmse": 0.10638893610623587,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 3,
+      "array_key": "pair_35",
+      "max_abs_error": 1.1657341758564144e-15
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 3,
+      "array_key": "named_36",
+      "max_abs_difference": 0.2427225608280174,
+      "unclamped_coordinate_rmse": 0.11728058633039462,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 4,
+      "array_key": "pair_36",
+      "max_abs_error": 2.1163626406917047e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 5,
+      "array_key": "pair_37",
+      "max_abs_error": 5.689893001203927e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 6,
+      "array_key": "pair_38",
+      "max_abs_error": 6.938893903907228e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 7,
+      "array_key": "pair_39",
+      "max_abs_error": 1.5543122344752192e-15
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 0,
+      "array_key": "pair_40",
+      "max_abs_error": 5.967448757360216e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 0,
+      "array_key": "named_41",
+      "max_abs_difference": 0.1593534496389342,
+      "unclamped_coordinate_rmse": 0.098509981856938,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 1,
+      "array_key": "pair_41",
+      "max_abs_error": 3.469446951953614e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 1,
+      "array_key": "named_42",
+      "max_abs_difference": 0.22073362005734976,
+      "unclamped_coordinate_rmse": 0.11553353498483875,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 2,
+      "array_key": "pair_42",
+      "max_abs_error": 6.38378239159465e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 2,
+      "array_key": "named_43",
+      "max_abs_difference": 0.19946003252205086,
+      "unclamped_coordinate_rmse": 0.11691068761361202,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 3,
+      "array_key": "pair_43",
+      "max_abs_error": 5.967448757360216e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 3,
+      "array_key": "named_44",
+      "max_abs_difference": 0.21722094462961725,
+      "unclamped_coordinate_rmse": 0.11807133945540439,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 4,
+      "array_key": "pair_44",
+      "max_abs_error": 2.914335439641036e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 5,
+      "array_key": "pair_45",
+      "max_abs_error": 1.6479873021779667e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 6,
+      "array_key": "pair_46",
+      "max_abs_error": 6.106226635438361e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 7,
+      "array_key": "pair_47",
+      "max_abs_error": 6.106226635438361e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 0,
+      "array_key": "pair_48",
+      "max_abs_error": 5.551115123125783e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 0,
+      "array_key": "named_49",
+      "max_abs_difference": 0.19401207869064,
+      "unclamped_coordinate_rmse": 0.11989246678103478,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 1,
+      "array_key": "pair_49",
+      "max_abs_error": 3.400058012914542e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 1,
+      "array_key": "named_50",
+      "max_abs_difference": 0.18795402603132697,
+      "unclamped_coordinate_rmse": 0.11120161038132495,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 2,
+      "array_key": "pair_50",
+      "max_abs_error": 1.1102230246251565e-15
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 2,
+      "array_key": "named_51",
+      "max_abs_difference": 0.2064038427130591,
+      "unclamped_coordinate_rmse": 0.1137767363404379,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 3,
+      "array_key": "pair_51",
+      "max_abs_error": 1.942890293094024e-15
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 3,
+      "array_key": "named_52",
+      "max_abs_difference": 0.3712499898074473,
+      "unclamped_coordinate_rmse": 0.09428232683459817,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 4,
+      "array_key": "pair_52",
+      "max_abs_error": 6.036837696399289e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 5,
+      "array_key": "pair_53",
+      "max_abs_error": 5.828670879282072e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 6,
+      "array_key": "pair_54",
+      "max_abs_error": 7.355227538141662e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 7,
+      "array_key": "pair_55",
+      "max_abs_error": 8.326672684688674e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 0,
+      "array_key": "pair_56",
+      "max_abs_error": 7.771561172376096e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 0,
+      "array_key": "named_57",
+      "max_abs_difference": 0.17505820321506893,
+      "unclamped_coordinate_rmse": 0.10752489887418706,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 1,
+      "array_key": "pair_57",
+      "max_abs_error": 8.049116928532385e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 1,
+      "array_key": "named_58",
+      "max_abs_difference": 0.2399845947914292,
+      "unclamped_coordinate_rmse": 0.10671445201610903,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 2,
+      "array_key": "pair_58",
+      "max_abs_error": 1.6375789613221059e-15
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 2,
+      "array_key": "named_59",
+      "max_abs_difference": 0.3411481656045139,
+      "unclamped_coordinate_rmse": 0.09161570160909749,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 3,
+      "array_key": "pair_59",
+      "max_abs_error": 5.689893001203927e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 3,
+      "array_key": "named_60",
+      "max_abs_difference": 0.22135751382417837,
+      "unclamped_coordinate_rmse": 0.11669935933219766,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 4,
+      "array_key": "pair_60",
+      "max_abs_error": 5.412337245047638e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 5,
+      "array_key": "pair_61",
+      "max_abs_error": 5.689893001203927e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 6,
+      "array_key": "pair_62",
+      "max_abs_error": 1.3877787807814457e-15
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 7,
+      "array_key": "pair_63",
+      "max_abs_error": 4.440892098500626e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 0,
+      "array_key": "pair_64",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 0,
+      "array_key": "named_65",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.022131791751585403,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "independent_continuous_fields",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 0,
+      "array_key": "ode_65",
+      "max_abs_error": 2.3592239273284576e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 1,
+      "array_key": "pair_65",
+      "max_abs_error": 1.3877787807814457e-17
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 1,
+      "array_key": "named_66",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.022131791751585323,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "independent_continuous_fields",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 1,
+      "array_key": "ode_66",
+      "max_abs_error": 1.942890293094024e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 2,
+      "array_key": "pair_66",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 2,
+      "array_key": "named_67",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.02213179175158537,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 3,
+      "array_key": "pair_67",
+      "max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 3,
+      "array_key": "named_68",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.022131791751585462,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 4,
+      "array_key": "pair_68",
+      "max_abs_error": 2.0816681711721685e-17
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 5,
+      "array_key": "pair_69",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 6,
+      "array_key": "pair_70",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 7,
+      "array_key": "pair_71",
+      "max_abs_error": 4.440892098500626e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 0,
+      "array_key": "pair_72",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 0,
+      "array_key": "named_73",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.0221317917515853,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 1,
+      "array_key": "pair_73",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 1,
+      "array_key": "named_74",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.022131791751585368,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 2,
+      "array_key": "pair_74",
+      "max_abs_error": 8.326672684688674e-17
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 2,
+      "array_key": "named_75",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.022131791751585347,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 3,
+      "array_key": "pair_75",
+      "max_abs_error": 2.0816681711721685e-17
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 3,
+      "array_key": "named_76",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.02213179175158527,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 4,
+      "array_key": "pair_76",
+      "max_abs_error": 1.0408340855860843e-17
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 5,
+      "array_key": "pair_77",
+      "max_abs_error": 1.3877787807814457e-17
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 6,
+      "array_key": "pair_78",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 7,
+      "array_key": "pair_79",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 0,
+      "array_key": "pair_80",
+      "max_abs_error": 8.326672684688674e-17
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 0,
+      "array_key": "named_81",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.02213179175158533,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 1,
+      "array_key": "pair_81",
+      "max_abs_error": 1.3877787807814457e-17
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 1,
+      "array_key": "named_82",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.022131791751585406,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 2,
+      "array_key": "pair_82",
+      "max_abs_error": 8.326672684688674e-17
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 2,
+      "array_key": "named_83",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.022131791751585268,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 3,
+      "array_key": "pair_83",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 3,
+      "array_key": "named_84",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.022131791751585365,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 4,
+      "array_key": "pair_84",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 5,
+      "array_key": "pair_85",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 6,
+      "array_key": "pair_86",
+      "max_abs_error": 4.163336342344337e-17
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 7,
+      "array_key": "pair_87",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 0,
+      "array_key": "pair_88",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 0,
+      "array_key": "named_89",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.022131791751585295,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 1,
+      "array_key": "pair_89",
+      "max_abs_error": 8.326672684688674e-17
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 1,
+      "array_key": "named_90",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.022131791751585337,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 2,
+      "array_key": "pair_90",
+      "max_abs_error": 4.440892098500626e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 2,
+      "array_key": "named_91",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.02213179175158537,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 3,
+      "array_key": "pair_91",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 3,
+      "array_key": "named_92",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.02213179175158539,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 4,
+      "array_key": "pair_92",
+      "max_abs_error": 8.326672684688674e-17
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 5,
+      "array_key": "pair_93",
+      "max_abs_error": 8.326672684688674e-17
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 6,
+      "array_key": "pair_94",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "linear",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 7,
+      "array_key": "pair_95",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 0,
+      "array_key": "pair_96",
+      "max_abs_error": 8.257283745649602e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 0,
+      "array_key": "named_97",
+      "max_abs_difference": 0.1395491123659123,
+      "unclamped_coordinate_rmse": 0.07493104913252607,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "independent_continuous_fields",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 0,
+      "array_key": "ode_97",
+      "max_abs_error": 2.498001805406602e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 1,
+      "array_key": "pair_97",
+      "max_abs_error": 1.2212453270876722e-15
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 1,
+      "array_key": "named_98",
+      "max_abs_difference": 0.23424451891099274,
+      "unclamped_coordinate_rmse": 0.152315031390146,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "independent_continuous_fields",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 1,
+      "array_key": "ode_98",
+      "max_abs_error": 3.3306690738754696e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 2,
+      "array_key": "pair_98",
+      "max_abs_error": 1.27675647831893e-15
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 2,
+      "array_key": "named_99",
+      "max_abs_difference": 0.2348910959421534,
+      "unclamped_coordinate_rmse": 0.12449844151761227,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 3,
+      "array_key": "pair_99",
+      "max_abs_error": 1.2490009027033011e-15
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 3,
+      "array_key": "named_100",
+      "max_abs_difference": 0.2787964493190689,
+      "unclamped_coordinate_rmse": 0.14959377826770404,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 4,
+      "array_key": "pair_100",
+      "max_abs_error": 2.636779683484747e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 5,
+      "array_key": "pair_101",
+      "max_abs_error": 9.71445146547012e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 6,
+      "array_key": "pair_102",
+      "max_abs_error": 7.216449660063518e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026841,
+      "plan": 7,
+      "array_key": "pair_103",
+      "max_abs_error": 8.951173136040325e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 0,
+      "array_key": "pair_104",
+      "max_abs_error": 1.1657341758564144e-15
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 0,
+      "array_key": "named_105",
+      "max_abs_difference": 0.16051100495815449,
+      "unclamped_coordinate_rmse": 0.09307783446251931,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 1,
+      "array_key": "pair_105",
+      "max_abs_error": 7.494005416219807e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 1,
+      "array_key": "named_106",
+      "max_abs_difference": 0.19675175555348012,
+      "unclamped_coordinate_rmse": 0.12203912267187676,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 2,
+      "array_key": "pair_106",
+      "max_abs_error": 4.996003610813204e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 2,
+      "array_key": "named_107",
+      "max_abs_difference": 0.21250526567020672,
+      "unclamped_coordinate_rmse": 0.12653210159519174,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 3,
+      "array_key": "pair_107",
+      "max_abs_error": 7.771561172376096e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 3,
+      "array_key": "named_108",
+      "max_abs_difference": 0.24664289255201877,
+      "unclamped_coordinate_rmse": 0.1394204601444067,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 4,
+      "array_key": "pair_108",
+      "max_abs_error": 2.1510571102112408e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 5,
+      "array_key": "pair_109",
+      "max_abs_error": 2.0816681711721685e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 6,
+      "array_key": "pair_110",
+      "max_abs_error": 5.828670879282072e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026842,
+      "plan": 7,
+      "array_key": "pair_111",
+      "max_abs_error": 7.771561172376096e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 0,
+      "array_key": "pair_112",
+      "max_abs_error": 1.3739009929736312e-15
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 0,
+      "array_key": "named_113",
+      "max_abs_difference": 0.1888860074509461,
+      "unclamped_coordinate_rmse": 0.12354517762374005,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 1,
+      "array_key": "pair_113",
+      "max_abs_error": 8.604228440844963e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 1,
+      "array_key": "named_114",
+      "max_abs_difference": 0.17525621678704403,
+      "unclamped_coordinate_rmse": 0.1070014926014697,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 2,
+      "array_key": "pair_114",
+      "max_abs_error": 5.551115123125783e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 2,
+      "array_key": "named_115",
+      "max_abs_difference": 0.23117765616022345,
+      "unclamped_coordinate_rmse": 0.13173909647970639,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 3,
+      "array_key": "pair_115",
+      "max_abs_error": 1.9984014443252818e-15
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 3,
+      "array_key": "named_116",
+      "max_abs_difference": 0.09427242957771242,
+      "unclamped_coordinate_rmse": 0.062116535887398794,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 4,
+      "array_key": "pair_116",
+      "max_abs_error": 6.661338147750939e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 5,
+      "array_key": "pair_117",
+      "max_abs_error": 5.620504062164855e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 6,
+      "array_key": "pair_118",
+      "max_abs_error": 1.4432899320127035e-15
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026843,
+      "plan": 7,
+      "array_key": "pair_119",
+      "max_abs_error": 1.582067810090848e-15
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 0,
+      "array_key": "pair_120",
+      "max_abs_error": 8.187894806610529e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 0,
+      "array_key": "named_121",
+      "max_abs_difference": 0.173059938261938,
+      "unclamped_coordinate_rmse": 0.10287043907847669,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 1,
+      "array_key": "pair_121",
+      "max_abs_error": 7.528699885739343e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 1,
+      "array_key": "named_122",
+      "max_abs_difference": 0.1539141236993179,
+      "unclamped_coordinate_rmse": 0.09756107526459565,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 2,
+      "array_key": "pair_122",
+      "max_abs_error": 1.3600232051658168e-15
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 2,
+      "array_key": "named_123",
+      "max_abs_difference": 0.08280398804340905,
+      "unclamped_coordinate_rmse": 0.05228592659829957,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 3,
+      "array_key": "pair_123",
+      "max_abs_error": 1.4432899320127035e-15
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 3,
+      "array_key": "named_124",
+      "max_abs_difference": 0.26152479137179624,
+      "unclamped_coordinate_rmse": 0.1418652863025565,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 4,
+      "array_key": "pair_124",
+      "max_abs_error": 5.551115123125783e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 5,
+      "array_key": "pair_125",
+      "max_abs_error": 1.124100812432971e-15
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 6,
+      "array_key": "pair_126",
+      "max_abs_error": 9.71445146547012e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "linear",
+      "seed": 2026844,
+      "plan": 7,
+      "array_key": "pair_127",
+      "max_abs_error": 2.498001805406602e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 0,
+      "array_key": "pair_128",
+      "max_abs_error": 8.326672684688674e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 0,
+      "array_key": "named_129",
+      "max_abs_difference": 0.14547061527453511,
+      "unclamped_coordinate_rmse": 0.0741189596825952,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "independent_continuous_fields",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 0,
+      "array_key": "ode_129",
+      "max_abs_error": 3.0531133177191805e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 1,
+      "array_key": "pair_129",
+      "max_abs_error": 1.6653345369377348e-15
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 1,
+      "array_key": "named_130",
+      "max_abs_difference": 0.3265511329198978,
+      "unclamped_coordinate_rmse": 0.2001994155188333,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "independent_continuous_fields",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 1,
+      "array_key": "ode_130",
+      "max_abs_error": 6.661338147750939e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 2,
+      "array_key": "pair_130",
+      "max_abs_error": 9.71445146547012e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 2,
+      "array_key": "named_131",
+      "max_abs_difference": 0.24495812616249865,
+      "unclamped_coordinate_rmse": 0.12619045297153889,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 3,
+      "array_key": "pair_131",
+      "max_abs_error": 1.1102230246251565e-15
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 3,
+      "array_key": "named_132",
+      "max_abs_difference": 0.29102528101064995,
+      "unclamped_coordinate_rmse": 0.1552178945137905,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 4,
+      "array_key": "pair_132",
+      "max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 5,
+      "array_key": "pair_133",
+      "max_abs_error": 1.2212453270876722e-15
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 6,
+      "array_key": "pair_134",
+      "max_abs_error": 6.245004513516506e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026841,
+      "plan": 7,
+      "array_key": "pair_135",
+      "max_abs_error": 9.992007221626409e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 0,
+      "array_key": "pair_136",
+      "max_abs_error": 1.2906342661267445e-15
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 0,
+      "array_key": "named_137",
+      "max_abs_difference": 0.16602155292317688,
+      "unclamped_coordinate_rmse": 0.0968645979230964,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 1,
+      "array_key": "pair_137",
+      "max_abs_error": 8.049116928532385e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 1,
+      "array_key": "named_138",
+      "max_abs_difference": 0.22976693549497207,
+      "unclamped_coordinate_rmse": 0.14488470820661703,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 2,
+      "array_key": "pair_138",
+      "max_abs_error": 6.245004513516506e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 2,
+      "array_key": "named_139",
+      "max_abs_difference": 0.23384911101246386,
+      "unclamped_coordinate_rmse": 0.14513143347115914,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 3,
+      "array_key": "pair_139",
+      "max_abs_error": 1.0269562977782698e-15
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 3,
+      "array_key": "named_140",
+      "max_abs_difference": 0.26177974112693536,
+      "unclamped_coordinate_rmse": 0.15087153224277458,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 4,
+      "array_key": "pair_140",
+      "max_abs_error": 2.3592239273284576e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 5,
+      "array_key": "pair_141",
+      "max_abs_error": 2.3592239273284576e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 6,
+      "array_key": "pair_142",
+      "max_abs_error": 4.996003610813204e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026842,
+      "plan": 7,
+      "array_key": "pair_143",
+      "max_abs_error": 1.1102230246251565e-15
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 0,
+      "array_key": "pair_144",
+      "max_abs_error": 1.5543122344752192e-15
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 0,
+      "array_key": "named_145",
+      "max_abs_difference": 0.2462244367906108,
+      "unclamped_coordinate_rmse": 0.15821995027415012,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 1,
+      "array_key": "pair_145",
+      "max_abs_error": 8.187894806610529e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 1,
+      "array_key": "named_146",
+      "max_abs_difference": 0.1978553112113483,
+      "unclamped_coordinate_rmse": 0.12298398116769414,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 2,
+      "array_key": "pair_146",
+      "max_abs_error": 7.771561172376096e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 2,
+      "array_key": "named_147",
+      "max_abs_difference": 0.23866140925212287,
+      "unclamped_coordinate_rmse": 0.14164074779922536,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 3,
+      "array_key": "pair_147",
+      "max_abs_error": 2.6645352591003757e-15
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 3,
+      "array_key": "named_148",
+      "max_abs_difference": 0.10528991136311516,
+      "unclamped_coordinate_rmse": 0.06882729297273026,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 4,
+      "array_key": "pair_148",
+      "max_abs_error": 8.465450562766819e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 5,
+      "array_key": "pair_149",
+      "max_abs_error": 6.38378239159465e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 6,
+      "array_key": "pair_150",
+      "max_abs_error": 1.942890293094024e-15
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026843,
+      "plan": 7,
+      "array_key": "pair_151",
+      "max_abs_error": 1.5543122344752192e-15
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 0,
+      "array_key": "pair_152",
+      "max_abs_error": 5.412337245047638e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 0,
+      "array_key": "named_153",
+      "max_abs_difference": 0.19409690565314083,
+      "unclamped_coordinate_rmse": 0.11483868444056725,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 1,
+      "array_key": "pair_153",
+      "max_abs_error": 9.71445146547012e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 1,
+      "array_key": "named_154",
+      "max_abs_difference": 0.1863905019243055,
+      "unclamped_coordinate_rmse": 0.11657550889156841,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 2,
+      "array_key": "pair_154",
+      "max_abs_error": 2.7755575615628914e-15
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 2,
+      "array_key": "named_155",
+      "max_abs_difference": 0.0854476916390825,
+      "unclamped_coordinate_rmse": 0.05540961038573465,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 3,
+      "array_key": "pair_155",
+      "max_abs_error": 1.1796119636642288e-15
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 3,
+      "array_key": "named_156",
+      "max_abs_difference": 0.2707848035975833,
+      "unclamped_coordinate_rmse": 0.14887776622158733,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 4,
+      "array_key": "pair_156",
+      "max_abs_error": 5.551115123125783e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 5,
+      "array_key": "pair_157",
+      "max_abs_error": 1.2212453270876722e-15
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 6,
+      "array_key": "pair_158",
+      "max_abs_error": 1.6653345369377348e-15
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "triangular",
+      "seed": 2026844,
+      "plan": 7,
+      "array_key": "pair_159",
+      "max_abs_error": 2.42861286636753e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 0,
+      "array_key": "pair_160",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 0,
+      "array_key": "named_161",
+      "max_abs_difference": 0.16603205957201128,
+      "unclamped_coordinate_rmse": 0.07851182674305696,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "independent_continuous_fields",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 0,
+      "array_key": "ode_161",
+      "max_abs_error": 1.6653345369377348e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 1,
+      "array_key": "pair_161",
+      "max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 1,
+      "array_key": "named_162",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.08463353349421637,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "independent_continuous_fields",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 1,
+      "array_key": "ode_162",
+      "max_abs_error": 3.0531133177191805e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 2,
+      "array_key": "pair_162",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 2,
+      "array_key": "named_163",
+      "max_abs_difference": 0.16609360850349308,
+      "unclamped_coordinate_rmse": 0.07681673461462254,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 3,
+      "array_key": "pair_163",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 3,
+      "array_key": "named_164",
+      "max_abs_difference": 0.16601842788688526,
+      "unclamped_coordinate_rmse": 0.07700541454723124,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 4,
+      "array_key": "pair_164",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 5,
+      "array_key": "pair_165",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 6,
+      "array_key": "pair_166",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026841,
+      "plan": 7,
+      "array_key": "pair_167",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 0,
+      "array_key": "pair_168",
+      "max_abs_error": 1.6653345369377348e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 0,
+      "array_key": "named_169",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.07729033565739817,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 1,
+      "array_key": "pair_169",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 1,
+      "array_key": "named_170",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.07981045783875089,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 2,
+      "array_key": "pair_170",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 2,
+      "array_key": "named_171",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.08173821068482083,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 3,
+      "array_key": "pair_171",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 3,
+      "array_key": "named_172",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.07758512960068469,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 4,
+      "array_key": "pair_172",
+      "max_abs_error": 8.326672684688674e-17
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 5,
+      "array_key": "pair_173",
+      "max_abs_error": 2.7755575615628914e-17
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 6,
+      "array_key": "pair_174",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026842,
+      "plan": 7,
+      "array_key": "pair_175",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 0,
+      "array_key": "pair_176",
+      "max_abs_error": 3.885780586188048e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 0,
+      "array_key": "named_177",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.08154327142267598,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 1,
+      "array_key": "pair_177",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 1,
+      "array_key": "named_178",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.08013703177894164,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 2,
+      "array_key": "pair_178",
+      "max_abs_error": 1.6653345369377348e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 2,
+      "array_key": "named_179",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.07849690785882789,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 3,
+      "array_key": "pair_179",
+      "max_abs_error": 3.3306690738754696e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 3,
+      "array_key": "named_180",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.08059823571212034,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 4,
+      "array_key": "pair_180",
+      "max_abs_error": 8.326672684688674e-17
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 5,
+      "array_key": "pair_181",
+      "max_abs_error": 1.6653345369377348e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 6,
+      "array_key": "pair_182",
+      "max_abs_error": 1.6653345369377348e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026843,
+      "plan": 7,
+      "array_key": "pair_183",
+      "max_abs_error": 3.3306690738754696e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 0,
+      "array_key": "pair_184",
+      "max_abs_error": 1.6653345369377348e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 0,
+      "array_key": "named_185",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.07993298985494222,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 1,
+      "array_key": "pair_185",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 1,
+      "array_key": "named_186",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.07904503711099435,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 2,
+      "array_key": "pair_186",
+      "max_abs_error": 4.440892098500626e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 2,
+      "array_key": "named_187",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.07874548805760938,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 3,
+      "array_key": "pair_187",
+      "max_abs_error": 1.6653345369377348e-16
+    },
+    {
+      "kind": "different_named_state_interventions",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 3,
+      "array_key": "named_188",
+      "max_abs_difference": 0.16600919256696223,
+      "unclamped_coordinate_rmse": 0.07940802558169721,
+      "not_a_common_action_failure": true
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 4,
+      "array_key": "pair_188",
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 5,
+      "array_key": "pair_189",
+      "max_abs_error": 5.551115123125783e-17
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 6,
+      "array_key": "pair_190",
+      "max_abs_error": 1.6653345369377348e-16
+    },
+    {
+      "kind": "common_action_equivalence",
+      "system": "duffing",
+      "map": "actuation_preserving",
+      "seed": 2026844,
+      "plan": 7,
+      "array_key": "pair_191",
+      "max_abs_error": 4.163336342344337e-17
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026841,
+      "budget": 64,
+      "plan": 0,
+      "array_key": "ols_2026841_64_0",
+      "coefficient_key": "ols_2026841_64",
+      "design_rank": 4,
+      "smallest_singular": 0.11141888895977668,
+      "max_abs_error": 3.760880495917718e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026841,
+      "budget": 64,
+      "plan": 1,
+      "array_key": "ols_2026841_64_1",
+      "coefficient_key": "ols_2026841_64",
+      "design_rank": 4,
+      "smallest_singular": 0.11141888895977668,
+      "max_abs_error": 9.797718192317006e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026841,
+      "budget": 64,
+      "plan": 2,
+      "array_key": "ols_2026841_64_2",
+      "coefficient_key": "ols_2026841_64",
+      "design_rank": 4,
+      "smallest_singular": 0.11141888895977668,
+      "max_abs_error": 3.400058012914542e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026841,
+      "budget": 64,
+      "plan": 3,
+      "array_key": "ols_2026841_64_3",
+      "coefficient_key": "ols_2026841_64",
+      "design_rank": 4,
+      "smallest_singular": 0.11141888895977668,
+      "max_abs_error": 3.802513859341161e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026841,
+      "budget": 64,
+      "plan": 4,
+      "array_key": "ols_2026841_64_4",
+      "coefficient_key": "ols_2026841_64",
+      "design_rank": 4,
+      "smallest_singular": 0.11141888895977668,
+      "max_abs_error": 3.760880495917718e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026841,
+      "budget": 64,
+      "plan": 5,
+      "array_key": "ols_2026841_64_5",
+      "coefficient_key": "ols_2026841_64",
+      "design_rank": 4,
+      "smallest_singular": 0.11141888895977668,
+      "max_abs_error": 6.38378239159465e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026841,
+      "budget": 64,
+      "plan": 6,
+      "array_key": "ols_2026841_64_6",
+      "coefficient_key": "ols_2026841_64",
+      "design_rank": 4,
+      "smallest_singular": 0.11141888895977668,
+      "max_abs_error": 5.551115123125783e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026841,
+      "budget": 64,
+      "plan": 7,
+      "array_key": "ols_2026841_64_7",
+      "coefficient_key": "ols_2026841_64",
+      "design_rank": 4,
+      "smallest_singular": 0.11141888895977668,
+      "max_abs_error": 5.162537064506978e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026841,
+      "budget": 256,
+      "plan": 0,
+      "array_key": "ols_2026841_256_0",
+      "coefficient_key": "ols_2026841_256",
+      "design_rank": 4,
+      "smallest_singular": 1.345120025558485,
+      "max_abs_error": 7.549516567451064e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026841,
+      "budget": 256,
+      "plan": 1,
+      "array_key": "ols_2026841_256_1",
+      "coefficient_key": "ols_2026841_256",
+      "design_rank": 4,
+      "smallest_singular": 1.345120025558485,
+      "max_abs_error": 9.443834603217738e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026841,
+      "budget": 256,
+      "plan": 2,
+      "array_key": "ols_2026841_256_2",
+      "coefficient_key": "ols_2026841_256",
+      "design_rank": 4,
+      "smallest_singular": 1.345120025558485,
+      "max_abs_error": 1.3600232051658168e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026841,
+      "budget": 256,
+      "plan": 3,
+      "array_key": "ols_2026841_256_3",
+      "coefficient_key": "ols_2026841_256",
+      "design_rank": 4,
+      "smallest_singular": 1.345120025558485,
+      "max_abs_error": 1.0935696792557792e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026841,
+      "budget": 256,
+      "plan": 4,
+      "array_key": "ols_2026841_256_4",
+      "coefficient_key": "ols_2026841_256",
+      "design_rank": 4,
+      "smallest_singular": 1.345120025558485,
+      "max_abs_error": 3.70536934468646e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026841,
+      "budget": 256,
+      "plan": 5,
+      "array_key": "ols_2026841_256_5",
+      "coefficient_key": "ols_2026841_256",
+      "design_rank": 4,
+      "smallest_singular": 1.345120025558485,
+      "max_abs_error": 7.098488463697095e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026841,
+      "budget": 256,
+      "plan": 6,
+      "array_key": "ols_2026841_256_6",
+      "coefficient_key": "ols_2026841_256",
+      "design_rank": 4,
+      "smallest_singular": 1.345120025558485,
+      "max_abs_error": 4.3576253716537394e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026841,
+      "budget": 256,
+      "plan": 7,
+      "array_key": "ols_2026841_256_7",
+      "coefficient_key": "ols_2026841_256",
+      "design_rank": 4,
+      "smallest_singular": 1.345120025558485,
+      "max_abs_error": 1.0574874309554616e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026842,
+      "budget": 64,
+      "plan": 0,
+      "array_key": "ols_2026842_64_0",
+      "coefficient_key": "ols_2026842_64",
+      "design_rank": 4,
+      "smallest_singular": 0.07748515042722577,
+      "max_abs_error": 5.370703881624195e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026842,
+      "budget": 64,
+      "plan": 1,
+      "array_key": "ols_2026842_64_1",
+      "coefficient_key": "ols_2026842_64",
+      "design_rank": 4,
+      "smallest_singular": 0.07748515042722577,
+      "max_abs_error": 6.117328865684613e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026842,
+      "budget": 64,
+      "plan": 2,
+      "array_key": "ols_2026842_64_2",
+      "coefficient_key": "ols_2026842_64",
+      "design_rank": 4,
+      "smallest_singular": 0.07748515042722577,
+      "max_abs_error": 3.674838211509268e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026842,
+      "budget": 64,
+      "plan": 3,
+      "array_key": "ols_2026842_64_3",
+      "coefficient_key": "ols_2026842_64",
+      "design_rank": 4,
+      "smallest_singular": 0.07748515042722577,
+      "max_abs_error": 3.450018049022674e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026842,
+      "budget": 64,
+      "plan": 4,
+      "array_key": "ols_2026842_64_4",
+      "coefficient_key": "ols_2026842_64",
+      "design_rank": 4,
+      "smallest_singular": 0.07748515042722577,
+      "max_abs_error": 2.8005375796169574e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026842,
+      "budget": 64,
+      "plan": 5,
+      "array_key": "ols_2026842_64_5",
+      "coefficient_key": "ols_2026842_64",
+      "design_rank": 4,
+      "smallest_singular": 0.07748515042722577,
+      "max_abs_error": 1.061650767297806e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026842,
+      "budget": 64,
+      "plan": 6,
+      "array_key": "ols_2026842_64_6",
+      "coefficient_key": "ols_2026842_64",
+      "design_rank": 4,
+      "smallest_singular": 0.07748515042722577,
+      "max_abs_error": 1.8166024240429124e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026842,
+      "budget": 64,
+      "plan": 7,
+      "array_key": "ols_2026842_64_7",
+      "coefficient_key": "ols_2026842_64",
+      "design_rank": 4,
+      "smallest_singular": 0.07748515042722577,
+      "max_abs_error": 4.349298698969051e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026842,
+      "budget": 256,
+      "plan": 0,
+      "array_key": "ols_2026842_256_0",
+      "coefficient_key": "ols_2026842_256",
+      "design_rank": 4,
+      "smallest_singular": 1.4521365818316374,
+      "max_abs_error": 1.2601031329495527e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026842,
+      "budget": 256,
+      "plan": 1,
+      "array_key": "ols_2026842_256_1",
+      "coefficient_key": "ols_2026842_256",
+      "design_rank": 4,
+      "smallest_singular": 1.4521365818316374,
+      "max_abs_error": 6.217248937900877e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026842,
+      "budget": 256,
+      "plan": 2,
+      "array_key": "ols_2026842_256_2",
+      "coefficient_key": "ols_2026842_256",
+      "design_rank": 4,
+      "smallest_singular": 1.4521365818316374,
+      "max_abs_error": 1.061650767297806e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026842,
+      "budget": 256,
+      "plan": 3,
+      "array_key": "ols_2026842_256_3",
+      "coefficient_key": "ols_2026842_256",
+      "design_rank": 4,
+      "smallest_singular": 1.4521365818316374,
+      "max_abs_error": 7.778500066280003e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026842,
+      "budget": 256,
+      "plan": 4,
+      "array_key": "ols_2026842_256_4",
+      "coefficient_key": "ols_2026842_256",
+      "design_rank": 4,
+      "smallest_singular": 1.4521365818316374,
+      "max_abs_error": 1.0769163338864018e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026842,
+      "budget": 256,
+      "plan": 5,
+      "array_key": "ols_2026842_256_5",
+      "coefficient_key": "ols_2026842_256",
+      "design_rank": 4,
+      "smallest_singular": 1.4521365818316374,
+      "max_abs_error": 8.180955912706622e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026842,
+      "budget": 256,
+      "plan": 6,
+      "array_key": "ols_2026842_256_6",
+      "coefficient_key": "ols_2026842_256",
+      "design_rank": 4,
+      "smallest_singular": 1.4521365818316374,
+      "max_abs_error": 9.908740494779522e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026842,
+      "budget": 256,
+      "plan": 7,
+      "array_key": "ols_2026842_256_7",
+      "coefficient_key": "ols_2026842_256",
+      "design_rank": 4,
+      "smallest_singular": 1.4521365818316374,
+      "max_abs_error": 1.1823875212257917e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026843,
+      "budget": 64,
+      "plan": 0,
+      "array_key": "ols_2026843_64_0",
+      "coefficient_key": "ols_2026843_64",
+      "design_rank": 4,
+      "smallest_singular": 0.3420210626539864,
+      "max_abs_error": 7.382983113757291e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026843,
+      "budget": 64,
+      "plan": 1,
+      "array_key": "ols_2026843_64_1",
+      "coefficient_key": "ols_2026843_64",
+      "design_rank": 4,
+      "smallest_singular": 0.3420210626539864,
+      "max_abs_error": 8.715250743307479e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026843,
+      "budget": 64,
+      "plan": 2,
+      "array_key": "ols_2026843_64_2",
+      "coefficient_key": "ols_2026843_64",
+      "design_rank": 4,
+      "smallest_singular": 0.3420210626539864,
+      "max_abs_error": 8.326672684688674e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026843,
+      "budget": 64,
+      "plan": 3,
+      "array_key": "ols_2026843_64_3",
+      "coefficient_key": "ols_2026843_64",
+      "design_rank": 4,
+      "smallest_singular": 0.3420210626539864,
+      "max_abs_error": 4.964778588245622e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026843,
+      "budget": 64,
+      "plan": 4,
+      "array_key": "ols_2026843_64_4",
+      "coefficient_key": "ols_2026843_64",
+      "design_rank": 4,
+      "smallest_singular": 0.3420210626539864,
+      "max_abs_error": 7.271960811294775e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026843,
+      "budget": 64,
+      "plan": 5,
+      "array_key": "ols_2026843_64_5",
+      "coefficient_key": "ols_2026843_64",
+      "design_rank": 4,
+      "smallest_singular": 0.3420210626539864,
+      "max_abs_error": 7.93809462606987e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026843,
+      "budget": 64,
+      "plan": 6,
+      "array_key": "ols_2026843_64_6",
+      "coefficient_key": "ols_2026843_64",
+      "design_rank": 4,
+      "smallest_singular": 0.3420210626539864,
+      "max_abs_error": 9.631184738623233e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026843,
+      "budget": 64,
+      "plan": 7,
+      "array_key": "ols_2026843_64_7",
+      "coefficient_key": "ols_2026843_64",
+      "design_rank": 4,
+      "smallest_singular": 0.3420210626539864,
+      "max_abs_error": 8.326672684688674e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026843,
+      "budget": 256,
+      "plan": 0,
+      "array_key": "ols_2026843_256_0",
+      "coefficient_key": "ols_2026843_256",
+      "design_rank": 4,
+      "smallest_singular": 1.572315368431545,
+      "max_abs_error": 1.1324274851176597e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026843,
+      "budget": 256,
+      "plan": 1,
+      "array_key": "ols_2026843_256_1",
+      "coefficient_key": "ols_2026843_256",
+      "design_rank": 4,
+      "smallest_singular": 1.572315368431545,
+      "max_abs_error": 1.1268763699945339e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026843,
+      "budget": 256,
+      "plan": 2,
+      "array_key": "ols_2026843_256_2",
+      "coefficient_key": "ols_2026843_256",
+      "design_rank": 4,
+      "smallest_singular": 1.572315368431545,
+      "max_abs_error": 1.952604744559494e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026843,
+      "budget": 256,
+      "plan": 3,
+      "array_key": "ols_2026843_256_3",
+      "coefficient_key": "ols_2026843_256",
+      "design_rank": 4,
+      "smallest_singular": 1.572315368431545,
+      "max_abs_error": 7.591149930874508e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026843,
+      "budget": 256,
+      "plan": 4,
+      "array_key": "ols_2026843_256_4",
+      "coefficient_key": "ols_2026843_256",
+      "design_rank": 4,
+      "smallest_singular": 1.572315368431545,
+      "max_abs_error": 1.7708057242771247e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026843,
+      "budget": 256,
+      "plan": 5,
+      "array_key": "ols_2026843_256_5",
+      "coefficient_key": "ols_2026843_256",
+      "design_rank": 4,
+      "smallest_singular": 1.572315368431545,
+      "max_abs_error": 8.715250743307479e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026843,
+      "budget": 256,
+      "plan": 6,
+      "array_key": "ols_2026843_256_6",
+      "coefficient_key": "ols_2026843_256",
+      "design_rank": 4,
+      "smallest_singular": 1.572315368431545,
+      "max_abs_error": 1.784683512084939e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026843,
+      "budget": 256,
+      "plan": 7,
+      "array_key": "ols_2026843_256_7",
+      "coefficient_key": "ols_2026843_256",
+      "design_rank": 4,
+      "smallest_singular": 1.572315368431545,
+      "max_abs_error": 2.1323220966706913e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026844,
+      "budget": 64,
+      "plan": 0,
+      "array_key": "ols_2026844_64_0",
+      "coefficient_key": "ols_2026844_64",
+      "design_rank": 4,
+      "smallest_singular": 0.3316439728873389,
+      "max_abs_error": 8.215650382226158e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026844,
+      "budget": 64,
+      "plan": 1,
+      "array_key": "ols_2026844_64_1",
+      "coefficient_key": "ols_2026844_64",
+      "design_rank": 4,
+      "smallest_singular": 0.3316439728873389,
+      "max_abs_error": 1.2323475573339238e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026844,
+      "budget": 64,
+      "plan": 2,
+      "array_key": "ols_2026844_64_2",
+      "coefficient_key": "ols_2026844_64",
+      "design_rank": 4,
+      "smallest_singular": 0.3316439728873389,
+      "max_abs_error": 2.541022947610827e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026844,
+      "budget": 64,
+      "plan": 3,
+      "array_key": "ols_2026844_64_3",
+      "coefficient_key": "ols_2026844_64",
+      "design_rank": 4,
+      "smallest_singular": 0.3316439728873389,
+      "max_abs_error": 6.661338147750939e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026844,
+      "budget": 64,
+      "plan": 4,
+      "array_key": "ols_2026844_64_4",
+      "coefficient_key": "ols_2026844_64",
+      "design_rank": 4,
+      "smallest_singular": 0.3316439728873389,
+      "max_abs_error": 8.68749516769185e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026844,
+      "budget": 64,
+      "plan": 5,
+      "array_key": "ols_2026844_64_5",
+      "coefficient_key": "ols_2026844_64",
+      "design_rank": 4,
+      "smallest_singular": 0.3316439728873389,
+      "max_abs_error": 3.241851231905457e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026844,
+      "budget": 64,
+      "plan": 6,
+      "array_key": "ols_2026844_64_6",
+      "coefficient_key": "ols_2026844_64",
+      "design_rank": 4,
+      "smallest_singular": 0.3316439728873389,
+      "max_abs_error": 3.2529534621517087e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026844,
+      "budget": 64,
+      "plan": 7,
+      "array_key": "ols_2026844_64_7",
+      "coefficient_key": "ols_2026844_64",
+      "design_rank": 4,
+      "smallest_singular": 0.3316439728873389,
+      "max_abs_error": 1.2656542480726785e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026844,
+      "budget": 256,
+      "plan": 0,
+      "array_key": "ols_2026844_256_0",
+      "coefficient_key": "ols_2026844_256",
+      "design_rank": 4,
+      "smallest_singular": 1.038006768613325,
+      "max_abs_error": 6.050715484207103e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026844,
+      "budget": 256,
+      "plan": 1,
+      "array_key": "ols_2026844_256_1",
+      "coefficient_key": "ols_2026844_256",
+      "design_rank": 4,
+      "smallest_singular": 1.038006768613325,
+      "max_abs_error": 7.965850201685498e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026844,
+      "budget": 256,
+      "plan": 2,
+      "array_key": "ols_2026844_256_2",
+      "coefficient_key": "ols_2026844_256",
+      "design_rank": 4,
+      "smallest_singular": 1.038006768613325,
+      "max_abs_error": 1.4030443473700416e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026844,
+      "budget": 256,
+      "plan": 3,
+      "array_key": "ols_2026844_256_3",
+      "coefficient_key": "ols_2026844_256",
+      "design_rank": 4,
+      "smallest_singular": 1.038006768613325,
+      "max_abs_error": 5.467848396278896e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026844,
+      "budget": 256,
+      "plan": 4,
+      "array_key": "ols_2026844_256_4",
+      "coefficient_key": "ols_2026844_256",
+      "design_rank": 4,
+      "smallest_singular": 1.038006768613325,
+      "max_abs_error": 6.189493362285248e-15
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026844,
+      "budget": 256,
+      "plan": 5,
+      "array_key": "ols_2026844_256_5",
+      "coefficient_key": "ols_2026844_256",
+      "design_rank": 4,
+      "smallest_singular": 1.038006768613325,
+      "max_abs_error": 1.6486811915683575e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026844,
+      "budget": 256,
+      "plan": 6,
+      "array_key": "ols_2026844_256_6",
+      "coefficient_key": "ols_2026844_256",
+      "design_rank": 4,
+      "smallest_singular": 1.038006768613325,
+      "max_abs_error": 1.5210055437364645e-14
+    },
+    {
+      "kind": "ordinary_linear_output_fit",
+      "seed": 2026844,
+      "budget": 256,
+      "plan": 7,
+      "array_key": "ols_2026844_256_7",
+      "coefficient_key": "ols_2026844_256",
+      "design_rank": 4,
+      "smallest_singular": 1.038006768613325,
+      "max_abs_error": 7.771561172376096e-15
+    }
+  ],
+  "wall_seconds": 3.3643064000061713,
+  "scope": "Established state-space conjugacy qualification; no neural baseline reproduced; no adaptation method failure claimed; named internal-coordinate interventions differ in physical meaning",
+  "qualified_research_directions": 0,
+  "raw_array_location": "server-artifact:cycle84/qualification_v1/arrays.npz",
+  "original_server_result_sha256": "854b4121107f393d0896e6228416fe397bfc6bdb8ccec9d49c44874ab2275674"
+}
