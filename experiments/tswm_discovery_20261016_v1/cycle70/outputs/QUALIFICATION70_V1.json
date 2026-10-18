@@ -1,0 +1,817 @@
+{
+  "utc": "2026-10-18T04:58:56.538033+00:00",
+  "status": "ACTION_CONDITIONED_COMPONENT_QUALIFICATION_COMPLETE",
+  "source_repo": "gatsby-sahani/rp-gssm",
+  "source_revision": "a75225d5edceb972bb872dc9a335608733567dd4",
+  "source_files": [
+    {
+      "path": "rp_ssm/__init__.py",
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rp_ssm/actions.py",
+      "bytes": 3661,
+      "git_blob_sha1": "92087798679d3a84193b54e3a6082c1842efbf10",
+      "sha256": "681e785b8ee79a8fbe1bac491fbbc0b2bc410c4f3ff0a55f05fa8c727a8df587"
+    },
+    {
+      "path": "rp_ssm/config.py",
+      "bytes": 951,
+      "git_blob_sha1": "a42a665aac5560fca1f8669fe9f5edc3d17da73a",
+      "sha256": "f6e55004b68078aeb084c1831e6bb9f1d743e3f2f88596d71e10abc9a2d53ddc"
+    },
+    {
+      "path": "rp_ssm/datasets.py",
+      "bytes": 9755,
+      "git_blob_sha1": "4c3d3858818491742aa4968e04f866bc369c835a",
+      "sha256": "9a1aa383b5829264c59233ad5028a63a9bfe15aad09396e831faa8b8cc297abe"
+    },
+    {
+      "path": "rp_ssm/datasets_utils.py",
+      "bytes": 12795,
+      "git_blob_sha1": "ba3ded079bea44ddf997df5a822870b480d9df87",
+      "sha256": "47d930381df5c543aac53e36fb0823d08b650fc83a5a0b3cfbdcaf94d72007df"
+    },
+    {
+      "path": "rp_ssm/distmaps.py",
+      "bytes": 3076,
+      "git_blob_sha1": "1c10acd80448aea841f3028b4911b0b99452eabf",
+      "sha256": "54ee8ebe408f724be195b4a8405e0a50e3ed68e0fd7e100b30b54ea06ba162a7"
+    },
+    {
+      "path": "rp_ssm/dists.py",
+      "bytes": 17153,
+      "git_blob_sha1": "10a891c6e79ef7f44d8f36414c3c133bcc285bdc",
+      "sha256": "6050ccdb5c0fa21267db12811db3bb5b8b8ef3bf3bca6ed4d6ec9464348a93bf"
+    },
+    {
+      "path": "rp_ssm/dists_utils.py",
+      "bytes": 6604,
+      "git_blob_sha1": "c736fee176f95c58080f6bdaf8fbc106a6cb6605",
+      "sha256": "874d7ed54403f3c987707bd4a5b17dac0fc6c9d84efb1c6107d61bb9b4d4d500"
+    },
+    {
+      "path": "rp_ssm/generation.py",
+      "bytes": 3478,
+      "git_blob_sha1": "1a6e81f462c85e67e8e4a67cca8606c3d2dbe6ea",
+      "sha256": "b1a44e2d24f2d0eb508dd30ad5053ed85213dc12675a376a843a22cbdce3afc0"
+    },
+    {
+      "path": "rp_ssm/gym_wrappers.py",
+      "bytes": 4457,
+      "git_blob_sha1": "47cec43dbb3128d1026976de218f845c7d180d78",
+      "sha256": "57bfc16924d1b3ba4d7a0d0e4237ab4801c936b3aa85e01fac60406324ee994e"
+    },
+    {
+      "path": "rp_ssm/recognition.py",
+      "bytes": 1891,
+      "git_blob_sha1": "34152a40c338ed9daf86ac37ca49560a80b61954",
+      "sha256": "04a255bbce078215b5106a19a7c42ab5a37a2d50735f91aaa54aef033913ba4a"
+    },
+    {
+      "path": "rp_ssm/rpm.py",
+      "bytes": 6753,
+      "git_blob_sha1": "2719f03fa104f58a50fc4a49dbe6d9eb9f5b8095",
+      "sha256": "da3792582ffc1997c4e775197791fc05dd00d09ff2d1fbca1c9742f93b89b2dd"
+    },
+    {
+      "path": "rp_ssm/training.py",
+      "bytes": 11621,
+      "git_blob_sha1": "2552e6bca2712055a150dee42b9d9de6dc576b87",
+      "sha256": "d84c26650a375a2cafa5f670209fe394c9170cf20c01b0fc08398498bc07dc70"
+    },
+    {
+      "path": "rp_ssm/types.py",
+      "bytes": 439,
+      "git_blob_sha1": "a803f63fb53e8d1042cd6bcf1975f57940a7d68e",
+      "sha256": "fc069345983c4f21b6670029e805718bd5bfb3cbaedce8ce64e039f16a61060d"
+    },
+    {
+      "path": "rp_ssm/utils.py",
+      "bytes": 5261,
+      "git_blob_sha1": "de0e404c810febe96ecdcd4f5df7aa50df4f9ed1",
+      "sha256": "e711f4438301c1802aef7dfb3d17403aebe5a904df35eb87d4ae9f2ccbe05e53"
+    }
+  ],
+  "protocol_sha256": "cfca4e031a3f0bb0a4c8907b099759f1b797b35b7d51123cd6b74008c2ebb083",
+  "forecast_addendum_sha256": "bbec508e36a3ecb109cbe51ff1ab473f6fb2400458b14f07cd74bd7aaf6f7489",
+  "cells": [
+    {
+      "seed": 70001,
+      "kind": "continuous",
+      "mode": "additive",
+      "start_from_invariant": true,
+      "native_update_retained_flag": true,
+      "native_updated_initial_mean_error": 0.0,
+      "native_updated_initial_cov_error": 0.0,
+      "errors": {
+        "prior_mean": 2.7755575615628914e-17,
+        "prior_cov": 1.1102230246251565e-16,
+        "prior_cross": 1.1102230246251565e-16,
+        "posterior_mean": 1.6236271528635715e-09,
+        "posterior_cov_minus_padding": 1.226300144763215e-09,
+        "posterior_cross_raw": 1.2908617658180521e-05,
+        "moment_match_mean": 1.3877787807814457e-17,
+        "moment_match_cov": 5.551115123125783e-17,
+        "forecast_mean": 5.551115123125783e-17,
+        "forecast_cov": 2.7755575615628914e-17
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [],
+      "state_flag_adapter_used": false,
+      "id": "continuous_additive_invariant1_seed70001",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\continuous_additive_invariant1_seed70001.npz",
+      "array_sha256": "40bdc3dc46cdc15b1606b4da665e2ec495f7c24c396a54818e24e3c663364d88"
+    },
+    {
+      "seed": 70001,
+      "kind": "continuous",
+      "mode": "additive",
+      "start_from_invariant": false,
+      "native_update_retained_flag": false,
+      "native_updated_initial_mean_error": 0.7,
+      "native_updated_initial_cov_error": 0.3999999999999999,
+      "errors": {
+        "prior_mean": 1.1102230246251565e-16,
+        "prior_cov": 2.220446049250313e-16,
+        "prior_cross": 2.220446049250313e-16,
+        "posterior_mean": 2.213841776566028e-09,
+        "posterior_cov_minus_padding": 1.1869180360779552e-09,
+        "posterior_cross_raw": 1.272799779025724e-05,
+        "moment_match_mean": 5.551115123125783e-17,
+        "moment_match_cov": 1.1102230246251565e-16,
+        "forecast_mean": 2.7755575615628914e-17,
+        "forecast_cov": 2.7755575615628914e-17
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [],
+      "state_flag_adapter_used": true,
+      "id": "continuous_additive_invariant0_seed70001",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\continuous_additive_invariant0_seed70001.npz",
+      "array_sha256": "4aac34b68fc93294a5db387371579483ddd74a614b3c026e567c45ce323cf4f2"
+    },
+    {
+      "seed": 70001,
+      "kind": "continuous",
+      "mode": "multiplicative",
+      "start_from_invariant": true,
+      "native_update_retained_flag": true,
+      "native_updated_initial_mean_error": 0.0,
+      "native_updated_initial_cov_error": 0.0,
+      "errors": {
+        "prior_mean": 0.0,
+        "prior_cov": 2.5849394142282115e-26,
+        "prior_cross": 4.235164736271502e-22,
+        "posterior_mean": 1.3128271247886403e-09,
+        "posterior_cov_minus_padding": 1.4629687739020625e-09,
+        "posterior_cross_raw": 6.499592343988617e-09,
+        "moment_match_mean": 6.938893903907228e-18,
+        "moment_match_cov": 1.3877787807814457e-17,
+        "forecast_mean": 0.0,
+        "forecast_cov": 1.2924697071141057e-26
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [],
+      "state_flag_adapter_used": false,
+      "id": "continuous_multiplicative_invariant1_seed70001",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\continuous_multiplicative_invariant1_seed70001.npz",
+      "array_sha256": "cb988ad5c765ecc2d7eb95743ac80339aa3c9d4eef1fbd4ac8b194825e27b7f9"
+    },
+    {
+      "seed": 70001,
+      "kind": "continuous",
+      "mode": "multiplicative",
+      "start_from_invariant": false,
+      "native_update_retained_flag": false,
+      "native_updated_initial_mean_error": 0.7,
+      "native_updated_initial_cov_error": 0.3999999999999999,
+      "errors": {
+        "prior_mean": 0.0,
+        "prior_cov": 4.1359030627651384e-25,
+        "prior_cross": 6.776263578034403e-21,
+        "posterior_mean": 1.3128266806994304e-09,
+        "posterior_cov_minus_padding": 1.410950550839729e-09,
+        "posterior_cross_raw": 8.731662146956292e-09,
+        "moment_match_mean": 6.938893903907228e-18,
+        "moment_match_cov": 1.3877787807814457e-17,
+        "forecast_mean": 0.0,
+        "forecast_cov": 1.2924697071141057e-26
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [],
+      "state_flag_adapter_used": true,
+      "id": "continuous_multiplicative_invariant0_seed70001",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\continuous_multiplicative_invariant0_seed70001.npz",
+      "array_sha256": "012141bac31e7bca43d3eb1cb01b4c56a1345368d1e6605a68bd6f6607ca72e8"
+    },
+    {
+      "seed": 70001,
+      "kind": "discrete",
+      "mode": "additive",
+      "start_from_invariant": true,
+      "native_update_retained_flag": true,
+      "native_updated_initial_mean_error": 0.0,
+      "native_updated_initial_cov_error": 0.0,
+      "errors": {
+        "prior_mean": 5.551115123125783e-17,
+        "prior_cov": 5.551115123125783e-17,
+        "prior_cross": 5.551115123125783e-17,
+        "posterior_mean": 2.828824730016777e-09,
+        "posterior_cov_minus_padding": 1.2846170238667298e-09,
+        "posterior_cross_raw": 1.3601026925214033e-05,
+        "moment_match_mean": 5.551115123125783e-17,
+        "moment_match_cov": 1.1102230246251565e-16,
+        "forecast_mean": 5.551115123125783e-17,
+        "forecast_cov": 2.7755575615628914e-17
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [
+        "discrete signature bridge"
+      ],
+      "state_flag_adapter_used": false,
+      "id": "discrete_additive_invariant1_seed70001",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\discrete_additive_invariant1_seed70001.npz",
+      "array_sha256": "a014e86336a5f594b35905f43d77de9710113e3c7e97e133ef32356318c63a7a"
+    },
+    {
+      "seed": 70001,
+      "kind": "discrete",
+      "mode": "additive",
+      "start_from_invariant": false,
+      "native_update_retained_flag": false,
+      "native_updated_initial_mean_error": 0.7,
+      "native_updated_initial_cov_error": 0.3999999999999999,
+      "errors": {
+        "prior_mean": 1.1102230246251565e-16,
+        "prior_cov": 1.1102230246251565e-16,
+        "prior_cross": 1.1102230246251565e-16,
+        "posterior_mean": 2.937737497710202e-09,
+        "posterior_cov_minus_padding": 1.241927394257658e-09,
+        "posterior_cross_raw": 1.3376697471742527e-05,
+        "moment_match_mean": 1.1102230246251565e-16,
+        "moment_match_cov": 1.1102230246251565e-16,
+        "forecast_mean": 2.220446049250313e-16,
+        "forecast_cov": 2.7755575615628914e-17
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [
+        "discrete signature bridge"
+      ],
+      "state_flag_adapter_used": true,
+      "id": "discrete_additive_invariant0_seed70001",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\discrete_additive_invariant0_seed70001.npz",
+      "array_sha256": "c8482e7a6e30b3a4bfde378c2daafe14c49e87469bc1abf567009c8f9c952820"
+    },
+    {
+      "seed": 70001,
+      "kind": "discrete",
+      "mode": "multiplicative",
+      "start_from_invariant": true,
+      "native_update_retained_flag": true,
+      "native_updated_initial_mean_error": 0.0,
+      "native_updated_initial_cov_error": 0.0,
+      "errors": {
+        "prior_mean": 1.1102230246251565e-16,
+        "prior_cov": 5.551115123125783e-17,
+        "prior_cross": 5.551115123125783e-17,
+        "posterior_mean": 2.5536945891246887e-09,
+        "posterior_cov_minus_padding": 1.2649627734173663e-09,
+        "posterior_cross_raw": 1.3345509546458523e-05,
+        "moment_match_mean": 5.551115123125783e-17,
+        "moment_match_cov": 5.551115123125783e-17,
+        "forecast_mean": 1.1102230246251565e-16,
+        "forecast_cov": 2.7755575615628914e-17
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [
+        "discrete signature bridge"
+      ],
+      "state_flag_adapter_used": false,
+      "id": "discrete_multiplicative_invariant1_seed70001",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\discrete_multiplicative_invariant1_seed70001.npz",
+      "array_sha256": "af36fc362a6418e2ae8546dcd581c58a4cc1c280b1ad5febfe1651d51037047e"
+    },
+    {
+      "seed": 70001,
+      "kind": "discrete",
+      "mode": "multiplicative",
+      "start_from_invariant": false,
+      "native_update_retained_flag": false,
+      "native_updated_initial_mean_error": 0.7,
+      "native_updated_initial_cov_error": 0.3999999999999999,
+      "errors": {
+        "prior_mean": 5.551115123125783e-17,
+        "prior_cov": 2.220446049250313e-16,
+        "prior_cross": 2.220446049250313e-16,
+        "posterior_mean": 2.679333754862512e-09,
+        "posterior_cov_minus_padding": 1.2231806123530475e-09,
+        "posterior_cross_raw": 1.3135486928800288e-05,
+        "moment_match_mean": 5.551115123125783e-17,
+        "moment_match_cov": 1.1102230246251565e-16,
+        "forecast_mean": 1.1102230246251565e-16,
+        "forecast_cov": 2.7755575615628914e-17
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [
+        "discrete signature bridge"
+      ],
+      "state_flag_adapter_used": true,
+      "id": "discrete_multiplicative_invariant0_seed70001",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\discrete_multiplicative_invariant0_seed70001.npz",
+      "array_sha256": "24e1401214c8c90e2467bc096f10b67ba12970fc5c00605099434500b225d187"
+    },
+    {
+      "seed": 70002,
+      "kind": "continuous",
+      "mode": "additive",
+      "start_from_invariant": true,
+      "native_update_retained_flag": true,
+      "native_updated_initial_mean_error": 0.0,
+      "native_updated_initial_cov_error": 0.0,
+      "errors": {
+        "prior_mean": 2.7755575615628914e-17,
+        "prior_cov": 1.1102230246251565e-16,
+        "prior_cross": 1.1102230246251565e-16,
+        "posterior_mean": 2.6921462836781984e-09,
+        "posterior_cov_minus_padding": 1.2295881257617935e-09,
+        "posterior_cross_raw": 1.2908361860158868e-05,
+        "moment_match_mean": 2.7755575615628914e-17,
+        "moment_match_cov": 2.7755575615628914e-17,
+        "forecast_mean": 5.551115123125783e-17,
+        "forecast_cov": 2.7755575615628914e-17
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [],
+      "state_flag_adapter_used": false,
+      "id": "continuous_additive_invariant1_seed70002",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\continuous_additive_invariant1_seed70002.npz",
+      "array_sha256": "864e1749aa38881e5b83aaa90f6f053047cf74b6f1609b171a9bcea29b7c5016"
+    },
+    {
+      "seed": 70002,
+      "kind": "continuous",
+      "mode": "additive",
+      "start_from_invariant": false,
+      "native_update_retained_flag": false,
+      "native_updated_initial_mean_error": 0.7,
+      "native_updated_initial_cov_error": 0.3999999999999999,
+      "errors": {
+        "prior_mean": 1.1102230246251565e-16,
+        "prior_cov": 2.220446049250313e-16,
+        "prior_cross": 2.220446049250313e-16,
+        "posterior_mean": 2.4153450350894445e-09,
+        "posterior_cov_minus_padding": 1.1899494722911186e-09,
+        "posterior_cross_raw": 1.272777100963518e-05,
+        "moment_match_mean": 5.551115123125783e-17,
+        "moment_match_cov": 1.1102230246251565e-16,
+        "forecast_mean": 2.7755575615628914e-17,
+        "forecast_cov": 2.7755575615628914e-17
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [],
+      "state_flag_adapter_used": true,
+      "id": "continuous_additive_invariant0_seed70002",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\continuous_additive_invariant0_seed70002.npz",
+      "array_sha256": "904d0a5217b7381436ec1763fac60b6fddae7d3efd8691de60c644570fa6d094"
+    },
+    {
+      "seed": 70002,
+      "kind": "continuous",
+      "mode": "multiplicative",
+      "start_from_invariant": true,
+      "native_update_retained_flag": true,
+      "native_updated_initial_mean_error": 0.0,
+      "native_updated_initial_cov_error": 0.0,
+      "errors": {
+        "prior_mean": 0.0,
+        "prior_cov": 6.462348535570529e-27,
+        "prior_cross": 2.117582368135751e-22,
+        "posterior_mean": 1.541646477143388e-09,
+        "posterior_cov_minus_padding": 1.4629687739020625e-09,
+        "posterior_cross_raw": 3.2780527473677036e-09,
+        "moment_match_mean": 6.938893903907228e-18,
+        "moment_match_cov": 1.3877787807814457e-17,
+        "forecast_mean": 0.0,
+        "forecast_cov": 6.462348535570529e-27
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [],
+      "state_flag_adapter_used": false,
+      "id": "continuous_multiplicative_invariant1_seed70002",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\continuous_multiplicative_invariant1_seed70002.npz",
+      "array_sha256": "d47eade8e9f95d99cf99ce468c4ba19d5d6a47b27a7d5b741c3b88f612ed12c7"
+    },
+    {
+      "seed": 70002,
+      "kind": "continuous",
+      "mode": "multiplicative",
+      "start_from_invariant": false,
+      "native_update_retained_flag": false,
+      "native_updated_initial_mean_error": 0.7,
+      "native_updated_initial_cov_error": 0.3999999999999999,
+      "errors": {
+        "prior_mean": 0.0,
+        "prior_cov": 6.462348535570529e-27,
+        "prior_cross": 1.6940658945086007e-21,
+        "posterior_mean": 1.541646477143388e-09,
+        "posterior_cov_minus_padding": 1.410950550839729e-09,
+        "posterior_cross_raw": 3.0538157343782925e-09,
+        "moment_match_mean": 6.938893903907228e-18,
+        "moment_match_cov": 1.3877787807814457e-17,
+        "forecast_mean": 0.0,
+        "forecast_cov": 6.462348535570529e-27
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [],
+      "state_flag_adapter_used": true,
+      "id": "continuous_multiplicative_invariant0_seed70002",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\continuous_multiplicative_invariant0_seed70002.npz",
+      "array_sha256": "317fa667bdaf651db1dabcb0c3af2de6989871e7690f0ed0695620ec533a4e53"
+    },
+    {
+      "seed": 70002,
+      "kind": "discrete",
+      "mode": "additive",
+      "start_from_invariant": true,
+      "native_update_retained_flag": true,
+      "native_updated_initial_mean_error": 0.0,
+      "native_updated_initial_cov_error": 0.0,
+      "errors": {
+        "prior_mean": 5.551115123125783e-17,
+        "prior_cov": 5.551115123125783e-17,
+        "prior_cross": 5.551115123125783e-17,
+        "posterior_mean": 2.5543172577080497e-09,
+        "posterior_cov_minus_padding": 1.287189077547879e-09,
+        "posterior_cross_raw": 1.3601059158846462e-05,
+        "moment_match_mean": 2.7755575615628914e-17,
+        "moment_match_cov": 5.551115123125783e-17,
+        "forecast_mean": 5.551115123125783e-17,
+        "forecast_cov": 2.7755575615628914e-17
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [
+        "discrete signature bridge"
+      ],
+      "state_flag_adapter_used": false,
+      "id": "discrete_additive_invariant1_seed70002",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\discrete_additive_invariant1_seed70002.npz",
+      "array_sha256": "21ffeefc889a2c2cbc26b161cda4469b00616da4c83a726fc118f989ddeb7612"
+    },
+    {
+      "seed": 70002,
+      "kind": "discrete",
+      "mode": "additive",
+      "start_from_invariant": false,
+      "native_update_retained_flag": false,
+      "native_updated_initial_mean_error": 0.7,
+      "native_updated_initial_cov_error": 0.3999999999999999,
+      "errors": {
+        "prior_mean": 1.1102230246251565e-16,
+        "prior_cov": 1.1102230246251565e-16,
+        "prior_cross": 1.1102230246251565e-16,
+        "posterior_mean": 1.9969279563269993e-09,
+        "posterior_cov_minus_padding": 1.2443551467011815e-09,
+        "posterior_cross_raw": 1.3376727069219774e-05,
+        "moment_match_mean": 1.1102230246251565e-16,
+        "moment_match_cov": 1.1102230246251565e-16,
+        "forecast_mean": 1.1102230246251565e-16,
+        "forecast_cov": 2.7755575615628914e-17
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [
+        "discrete signature bridge"
+      ],
+      "state_flag_adapter_used": true,
+      "id": "discrete_additive_invariant0_seed70002",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\discrete_additive_invariant0_seed70002.npz",
+      "array_sha256": "46367dab0277966c7c2cd78fff0871f355d576b2fe02f16fd1f5c79018cfc9dc"
+    },
+    {
+      "seed": 70002,
+      "kind": "discrete",
+      "mode": "multiplicative",
+      "start_from_invariant": true,
+      "native_update_retained_flag": true,
+      "native_updated_initial_mean_error": 0.0,
+      "native_updated_initial_cov_error": 0.0,
+      "errors": {
+        "prior_mean": 1.1102230246251565e-16,
+        "prior_cov": 5.551115123125783e-17,
+        "prior_cross": 5.551115123125783e-17,
+        "posterior_mean": 2.572626833785563e-09,
+        "posterior_cov_minus_padding": 1.2678533223287047e-09,
+        "posterior_cross_raw": 1.334554374829433e-05,
+        "moment_match_mean": 5.551115123125783e-17,
+        "moment_match_cov": 1.1102230246251565e-16,
+        "forecast_mean": 8.326672684688674e-17,
+        "forecast_cov": 2.7755575615628914e-17
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [
+        "discrete signature bridge"
+      ],
+      "state_flag_adapter_used": false,
+      "id": "discrete_multiplicative_invariant1_seed70002",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\discrete_multiplicative_invariant1_seed70002.npz",
+      "array_sha256": "d5954dee7a0d65572c3b598a4910754357c260e3a73103936dd8ff9af1a5d245"
+    },
+    {
+      "seed": 70002,
+      "kind": "discrete",
+      "mode": "multiplicative",
+      "start_from_invariant": false,
+      "native_update_retained_flag": false,
+      "native_updated_initial_mean_error": 0.7,
+      "native_updated_initial_cov_error": 0.3999999999999999,
+      "errors": {
+        "prior_mean": 5.551115123125783e-17,
+        "prior_cov": 2.220446049250313e-16,
+        "prior_cross": 2.220446049250313e-16,
+        "posterior_mean": 2.0962299673854545e-09,
+        "posterior_cov_minus_padding": 1.225891860245909e-09,
+        "posterior_cross_raw": 1.3135518436638294e-05,
+        "moment_match_mean": 5.551115123125783e-17,
+        "moment_match_cov": 5.551115123125783e-17,
+        "forecast_mean": 5.551115123125783e-17,
+        "forecast_cov": 2.7755575615628914e-17
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [
+        "discrete signature bridge"
+      ],
+      "state_flag_adapter_used": true,
+      "id": "discrete_multiplicative_invariant0_seed70002",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\discrete_multiplicative_invariant0_seed70002.npz",
+      "array_sha256": "6aef61c83244f327d4f5ad03d9cec7577eee1d0395bee70a5e67cec774fcd0a0"
+    },
+    {
+      "seed": 70003,
+      "kind": "continuous",
+      "mode": "additive",
+      "start_from_invariant": true,
+      "native_update_retained_flag": true,
+      "native_updated_initial_mean_error": 0.0,
+      "native_updated_initial_cov_error": 0.0,
+      "errors": {
+        "prior_mean": 2.7755575615628914e-17,
+        "prior_cov": 1.1102230246251565e-16,
+        "prior_cross": 5.551115123125783e-17,
+        "posterior_mean": 2.8225521919722496e-09,
+        "posterior_cov_minus_padding": 1.207741712194732e-09,
+        "posterior_cross_raw": 1.2908563593316824e-05,
+        "moment_match_mean": 2.7755575615628914e-17,
+        "moment_match_cov": 1.1102230246251565e-16,
+        "forecast_mean": 5.551115123125783e-17,
+        "forecast_cov": 2.7755575615628914e-17
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [],
+      "state_flag_adapter_used": false,
+      "id": "continuous_additive_invariant1_seed70003",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\continuous_additive_invariant1_seed70003.npz",
+      "array_sha256": "dc24117564a4cc29a01440282b5276b47efc14b1015b82305741234224283254"
+    },
+    {
+      "seed": 70003,
+      "kind": "continuous",
+      "mode": "additive",
+      "start_from_invariant": false,
+      "native_update_retained_flag": false,
+      "native_updated_initial_mean_error": 0.7,
+      "native_updated_initial_cov_error": 0.3999999999999999,
+      "errors": {
+        "prior_mean": 1.1102230246251565e-16,
+        "prior_cov": 2.220446049250313e-16,
+        "prior_cross": 2.220446049250313e-16,
+        "posterior_mean": 1.6155419224617162e-09,
+        "posterior_cov_minus_padding": 1.1692169454846635e-09,
+        "posterior_cross_raw": 1.2727972343001825e-05,
+        "moment_match_mean": 1.1102230246251565e-16,
+        "moment_match_cov": 1.1102230246251565e-16,
+        "forecast_mean": 5.551115123125783e-17,
+        "forecast_cov": 2.7755575615628914e-17
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [],
+      "state_flag_adapter_used": true,
+      "id": "continuous_additive_invariant0_seed70003",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\continuous_additive_invariant0_seed70003.npz",
+      "array_sha256": "df6d3fa6875c459e524976fd40414a32f47c35a0170bab02a751ce9ff0299e73"
+    },
+    {
+      "seed": 70003,
+      "kind": "continuous",
+      "mode": "multiplicative",
+      "start_from_invariant": true,
+      "native_update_retained_flag": true,
+      "native_updated_initial_mean_error": 0.0,
+      "native_updated_initial_cov_error": 0.0,
+      "errors": {
+        "prior_mean": 0.0,
+        "prior_cov": 1.2924697071141057e-26,
+        "prior_cross": 4.235164736271502e-22,
+        "posterior_mean": 1.889755019135464e-09,
+        "posterior_cov_minus_padding": 1.4629687739020625e-09,
+        "posterior_cross_raw": 9.105209673173709e-09,
+        "moment_match_mean": 6.938893903907228e-18,
+        "moment_match_cov": 1.3877787807814457e-17,
+        "forecast_mean": 0.0,
+        "forecast_cov": 1.2924697071141057e-26
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [],
+      "state_flag_adapter_used": false,
+      "id": "continuous_multiplicative_invariant1_seed70003",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\continuous_multiplicative_invariant1_seed70003.npz",
+      "array_sha256": "25df52a83cc99fcd1fbb38448c65fad314742a7d4da0a33a2c1489f3c7ff83b3"
+    },
+    {
+      "seed": 70003,
+      "kind": "continuous",
+      "mode": "multiplicative",
+      "start_from_invariant": false,
+      "native_update_retained_flag": false,
+      "native_updated_initial_mean_error": 0.7,
+      "native_updated_initial_cov_error": 0.3999999999999999,
+      "errors": {
+        "prior_mean": 0.0,
+        "prior_cov": 2.0679515313825692e-25,
+        "prior_cross": 3.3881317890172014e-21,
+        "posterior_mean": 1.223777468251086e-09,
+        "posterior_cov_minus_padding": 1.4109504953285779e-09,
+        "posterior_cross_raw": 1.2447584446691196e-08,
+        "moment_match_mean": 6.938893903907228e-18,
+        "moment_match_cov": 1.3877787807814457e-17,
+        "forecast_mean": 0.0,
+        "forecast_cov": 1.2924697071141057e-26
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [],
+      "state_flag_adapter_used": true,
+      "id": "continuous_multiplicative_invariant0_seed70003",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\continuous_multiplicative_invariant0_seed70003.npz",
+      "array_sha256": "4e3df85f19b08013a4628570ef5994efe5dd5b7a48ddd9d75637293820420743"
+    },
+    {
+      "seed": 70003,
+      "kind": "discrete",
+      "mode": "additive",
+      "start_from_invariant": true,
+      "native_update_retained_flag": true,
+      "native_updated_initial_mean_error": 0.0,
+      "native_updated_initial_cov_error": 0.0,
+      "errors": {
+        "prior_mean": 1.1102230246251565e-16,
+        "prior_cov": 5.551115123125783e-17,
+        "prior_cross": 5.551115123125783e-17,
+        "posterior_mean": 1.8482735342217893e-09,
+        "posterior_cov_minus_padding": 1.2640215818482403e-09,
+        "posterior_cross_raw": 1.360103443853733e-05,
+        "moment_match_mean": 5.551115123125783e-17,
+        "moment_match_cov": 5.551115123125783e-17,
+        "forecast_mean": 1.1102230246251565e-16,
+        "forecast_cov": 2.7755575615628914e-17
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [
+        "discrete signature bridge"
+      ],
+      "state_flag_adapter_used": false,
+      "id": "discrete_additive_invariant1_seed70003",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\discrete_additive_invariant1_seed70003.npz",
+      "array_sha256": "66dda39e6902eead4c1867c8adbcfb4b3acae05654492ee12158e641c1f33eaf"
+    },
+    {
+      "seed": 70003,
+      "kind": "discrete",
+      "mode": "additive",
+      "start_from_invariant": false,
+      "native_update_retained_flag": false,
+      "native_updated_initial_mean_error": 0.7,
+      "native_updated_initial_cov_error": 0.3999999999999999,
+      "errors": {
+        "prior_mean": 5.551115123125783e-17,
+        "prior_cov": 1.1102230246251565e-16,
+        "prior_cross": 1.1102230246251565e-16,
+        "posterior_mean": 1.865118504085217e-09,
+        "posterior_cov_minus_padding": 1.2223101975017414e-09,
+        "posterior_cross_raw": 1.3376704171300102e-05,
+        "moment_match_mean": 5.551115123125783e-17,
+        "moment_match_cov": 5.551115123125783e-17,
+        "forecast_mean": 1.1102230246251565e-16,
+        "forecast_cov": 2.7755575615628914e-17
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [
+        "discrete signature bridge"
+      ],
+      "state_flag_adapter_used": true,
+      "id": "discrete_additive_invariant0_seed70003",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\discrete_additive_invariant0_seed70003.npz",
+      "array_sha256": "95a936953f67645953cfe2e4aa6e7f69566df21cf5e826abc4ca9510d58f6c79"
+    },
+    {
+      "seed": 70003,
+      "kind": "discrete",
+      "mode": "multiplicative",
+      "start_from_invariant": true,
+      "native_update_retained_flag": true,
+      "native_updated_initial_mean_error": 0.0,
+      "native_updated_initial_cov_error": 0.0,
+      "errors": {
+        "prior_mean": 1.1102230246251565e-16,
+        "prior_cov": 5.551115123125783e-17,
+        "prior_cross": 5.551115123125783e-17,
+        "posterior_mean": 2.0383899013154405e-09,
+        "posterior_cov_minus_padding": 1.2446060293491712e-09,
+        "posterior_cross_raw": 1.3345517798885043e-05,
+        "moment_match_mean": 2.7755575615628914e-17,
+        "moment_match_cov": 5.551115123125783e-17,
+        "forecast_mean": 1.1102230246251565e-16,
+        "forecast_cov": 2.7755575615628914e-17
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [
+        "discrete signature bridge"
+      ],
+      "state_flag_adapter_used": false,
+      "id": "discrete_multiplicative_invariant1_seed70003",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\discrete_multiplicative_invariant1_seed70003.npz",
+      "array_sha256": "03e69c43fff114b302ce7176592f0f916e0c39ce3f4325302a42e0895f8d0fe0"
+    },
+    {
+      "seed": 70003,
+      "kind": "discrete",
+      "mode": "multiplicative",
+      "start_from_invariant": false,
+      "native_update_retained_flag": false,
+      "native_updated_initial_mean_error": 0.7,
+      "native_updated_initial_cov_error": 0.3999999999999999,
+      "errors": {
+        "prior_mean": 1.1102230246251565e-16,
+        "prior_cov": 2.220446049250313e-16,
+        "prior_cross": 2.220446049250313e-16,
+        "posterior_mean": 2.0484005602838806e-09,
+        "posterior_cov_minus_padding": 1.2037985053225952e-09,
+        "posterior_cross_raw": 1.3135494334667874e-05,
+        "moment_match_mean": 5.551115123125783e-17,
+        "moment_match_cov": 2.220446049250313e-16,
+        "forecast_mean": 1.1102230246251565e-16,
+        "forecast_cov": 2.7755575615628914e-17
+      },
+      "component_only_no_learning": true,
+      "ordinary_adapters": [
+        "discrete signature bridge"
+      ],
+      "state_flag_adapter_used": true,
+      "id": "discrete_multiplicative_invariant0_seed70003",
+      "array_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\discrete_multiplicative_invariant0_seed70003.npz",
+      "array_sha256": "b87c15d32abad9440553988b55f6582314373e9f731cda2f017323ad1e1be6a4"
+    }
+  ],
+  "interface_checks": [
+    {
+      "test": "native_discrete_initialization",
+      "status": "TYPE_ERROR_RETAINED_ADAPTER_REQUIRED",
+      "exception": "DiscreteChoiceActionMapper.init() missing 3 required positional arguments: 'transition_matrix', 'transition_bias', and 'actions'"
+    }
+  ],
+  "constant_flag_control": {
+    "native": {
+      "mean_max_abs": 0.01757991571111521,
+      "cov_max_abs": 5.9985397666384443e-05
+    },
+    "ordinary_output_mask_adapter": {
+      "mean_max_abs": 0.0,
+      "cov_max_abs": 0.0
+    },
+    "artifact": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle70\\CONSTANT_FLAG_CONTROL70_V1.npz",
+    "artifact_sha256": "080b20b3e09bd28cf5b9a4c1ca66348f759a1f22f2f717d2b28463d295b833b7"
+  },
+  "runtime_seconds": 62.100377599999774,
+  "environment": {
+    "Python": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:36:49) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "D:\\tswm_discovery_20261016_v1\\cycle2\\.venv_rpm\\Scripts\\python.exe",
+    "isolated": true,
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "jax_enable_x64": true,
+    "packages": {
+      "jax": "0.4.35",
+      "jaxlib": "0.4.35",
+      "flax": "0.10.2",
+      "optax": "0.2.4",
+      "numpy": "1.26.4",
+      "dynamax": "0.1.5",
+      "tensorflow-probability": "0.25.0"
+    }
+  },
+  "neural_training": false,
+  "learned_representation_test": false,
+  "known_system_and_likelihood_privileged": true,
+  "upstream_covariance_padding": 1e-05,
+  "accepted_final_directions": 0
+}

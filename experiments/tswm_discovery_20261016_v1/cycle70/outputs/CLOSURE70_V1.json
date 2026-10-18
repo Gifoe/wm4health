@@ -1,0 +1,67 @@
+{
+  "utc": "2026-10-18T05:06:31.857322+00:00",
+  "status": "CLOSED_ACTION_GAUSSIAN_COMPONENT_QUALIFICATION_NOT_NEW_METHOD",
+  "reports": {
+    "baseline_registry.md": "879a5648279281f20972680a3d630775525eb4c43590f3a2d116fcc6188aaa08",
+    "experimental_results.md": "dcd6896bca15d5406db90e6d3c0301e8e8bc0764b15a5be157c65d814414953d",
+    "final_research_direction.md": "2201c609b89a7477f3b735932caf34d921c9b58c1631167a2c4e45c0899042c3",
+    "FORECAST_ADDENDUM70_V1.md": "bbec508e36a3ecb109cbe51ff1ab473f6fb2400458b14f07cd74bd7aaf6f7489",
+    "hypothesis_space.md": "f265285eb4175ed04bccc8cc33cfaa37db81cbb37891f874e27e5c0f26a721b4",
+    "IMPLEMENTATION_FINDINGS70_V1.md": "f34e47a2725df73d911fc2657fd70ac391c3a2a139b4259eed9c92cd6bec83cd",
+    "LITERATURE_DELTA70_V1.md": "6dfb2d65e4a62adf847c3ee328ac353e56065009e9fa0f268b60285f4d839b1f",
+    "literature_review.md": "468a9e5ee8fb40de1a9b70f7e620569554355264e1541a4f028f78a4301ed2b9",
+    "negative_evidence.md": "b6faf5fe0feedf2ccb134ae0a666f4709ce9ce10b72a8738e43e61de4a4655da",
+    "PROTOCOL70_V1.md": "cfca4e031a3f0bb0a4c8907b099759f1b797b35b7d51123cd6b74008c2ebb083",
+    "README.md": "442f3ecf4136d1ee16b5ec7e629787a52835d8d86f81228a03ecfe113a5cd4ed",
+    "REPRODUCE70_V1.md": "b6eb77af42f167e78bd2e8a7c740bc9d8bcdd94843f0d8f4e482c67922d5d9df",
+    "research_ideas.md": "f91e0322c5473c03fd022d5a5868105801302b4b45e053ed9d9750b61f42ca2c"
+  },
+  "artifacts": {
+    "QUALIFICATION70_V1.json": "88e790eb80b5ccfb9f800b891e4ea10e1ceb3ee3f4a0d58e6ce9b9ceaaeb0fb1",
+    "INDEPENDENT_REPLAY70_V1.json": "a4cc346b8e52514bf8bd81b63e658cf4e2e621421da7bf10d7e22828e9dfc683",
+    "qualification70_v1_exit.json": "a93dec6f64518a321cc39a19da3619135c8294eeaf05793d6e822ec349232b37",
+    "replay70_v1_exit.json": "b4556bd3dab6af3c45d4540296cadc899872bca5761e0808a82bce67a53db6a7"
+  },
+  "sources": {
+    "scripts/capture_qualify70_v1.py": "af98924e93a2e93682ced5b33d0a9e00832a0dc8e0abb2526b6a044b1c96f195",
+    "scripts/capture_replay70_v1.py": "5b999a2813a33426c61fdc09d3650e0b28399629b5672cf70bd5d437b0416bf7",
+    "scripts/close70_v1.py": "94e43830866012028500b5f0755776a8a5aa84ef3de6e4fb2d121c5f592cd2cd",
+    "scripts/common70_v1.py": "fddecdc8a5fd06046a72b08ee05c1e3a94b63e29b5503d16761e4aa8fed4e763",
+    "scripts/export70_v1.py": "002cf04d159770590412ce3d6e5e68733f5b6e4f51ba734e174f6ca2ff097079",
+    "scripts/native70_v1.py": "9b011351950c49ec8970fd677ac1f26c4efd67fce0a4ef28f845e05dfe77c940",
+    "scripts/qualify70_v1.py": "3cf613f9ab024e7ec352e74d2bd6a490bda52c1a30be6588b558d5baef635b43",
+    "scripts/replay70_v1.py": "53b8b810a51b24ce7a41f1f0a5aa8ae7f6b3eef5ac0cca0fe37cf8e0aab46662",
+    "start_qualify70_v1.ps1": "ec20ccf17dc7518e9f227d1d791aaf3c46fe84d24148c8997bad258bbb2c20c7",
+    "start_replay70_v1.ps1": "88a4dce300fd92af62fbcf17df3e55cfd10c6823ce9d583e86d7a46f3abdf2de",
+    "LITERATURE_SCOPE70_V1.json": "5b494c363afa69cf2bf0d0f4d6e5cea495a1cc2440b8038c75de129c01a0478a",
+    "SOURCE_SELECTION70_V1.json": "0b8ef7c3d0ecf3243e181523487875bf8aff9f3a9278cd89251523ea863af6d6"
+  },
+  "environment": {
+    "Python": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:36:49) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "D:\\tswm_discovery_20261016_v1\\cycle2\\.venv_rpm\\Scripts\\python.exe",
+    "isolated": true,
+    "devices": [
+      "TFRT_CPU_0"
+    ],
+    "jax_enable_x64": true,
+    "packages": {
+      "jax": "0.4.35",
+      "jaxlib": "0.4.35",
+      "flax": "0.10.2",
+      "optax": "0.2.4",
+      "numpy": "1.26.4",
+      "dynamax": "0.1.5",
+      "tensorflow-probability": "0.25.0"
+    }
+  },
+  "cells": 24,
+  "sequences": 96,
+  "raw_archives": 25,
+  "neural_fits": 0,
+  "known_system_and_likelihood_privileged": true,
+  "independent_replay": "PASS",
+  "accepted_final_directions": 0,
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "local_result_files_written": 0,
+  "upstream_files_modified": false
+}
