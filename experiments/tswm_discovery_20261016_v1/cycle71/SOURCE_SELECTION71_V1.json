@@ -1,0 +1,124 @@
+{
+  "repo": "FerranAlet/modular-metalearning",
+  "revision": "f830c6aa00a8c425b1d9ab0d612733f297e56898",
+  "tree_sha": "9fc351fb7a39156423b824f72a32131301481e99",
+  "license": "MIT",
+  "files": [
+    {
+      "path": "LICENSE",
+      "git_blob_sha1": "bdf40c455b30aed1e76b73573833b10967a17c26",
+      "bytes": 1067
+    },
+    {
+      "path": "neurips2019/README.md",
+      "git_blob_sha1": "4aac59ed4c8a33a8e3148552f65b5cc2be2ce766",
+      "bytes": 2047
+    },
+    {
+      "path": "neurips2019/composition.py",
+      "git_blob_sha1": "f58754806adf59eed42fc93f0c32b2eb7bebb5df",
+      "bytes": 3207
+    },
+    {
+      "path": "neurips2019/custom_module.py",
+      "git_blob_sha1": "017a8de4c8ac841cfa6d81d51d49adf6bf0c89a6",
+      "bytes": 3462
+    },
+    {
+      "path": "neurips2019/data_loading.py",
+      "git_blob_sha1": "63c7891e8ec82d5e9f7f70f3bc034ab975b26103",
+      "bytes": 18589
+    },
+    {
+      "path": "neurips2019/encoder.py",
+      "git_blob_sha1": "3f443e496e70484401f72310fe27e69abec3abfb",
+      "bytes": 11839
+    },
+    {
+      "path": "neurips2019/hgnn_composer.py",
+      "git_blob_sha1": "1c3f95fa312334189873cf27fbc1e290bd179dc9",
+      "bytes": 22964
+    },
+    {
+      "path": "neurips2019/layers.py",
+      "git_blob_sha1": "f48ee229846c6b3e365967dc42defa6d9911e7e0",
+      "bytes": 2404
+    },
+    {
+      "path": "neurips2019/modular_main.py",
+      "git_blob_sha1": "512cd5811c0c9e8cb8db83c0c6874069b4e8c8bd",
+      "bytes": 8270
+    },
+    {
+      "path": "neurips2019/modular_metalearning.py",
+      "git_blob_sha1": "524bfd48cb8828a528b84253041d46afca0d8890",
+      "bytes": 59264
+    },
+    {
+      "path": "neurips2019/nri_structure.json",
+      "git_blob_sha1": "36f112610a7b57eb2d2822d47f40f642b0902077",
+      "bytes": 480
+    },
+    {
+      "path": "neurips2019/run_charged.sh",
+      "git_blob_sha1": "8cc09e5621651fda04f0b058683ed594d22af600",
+      "bytes": 460
+    },
+    {
+      "path": "neurips2019/run_springs.sh",
+      "git_blob_sha1": "64c4364f5a7c42b348dbbf2200d23e600a0a67b9",
+      "bytes": 457
+    },
+    {
+      "path": "neurips2019/structure.py",
+      "git_blob_sha1": "e76c6f3d18cd0fb3954c65d0cc0ad4adbe9b15de",
+      "bytes": 6553
+    }
+  ],
+  "data": {
+    "origin": "https://lis.csail.mit.edu/alet/neurips2019_data/",
+    "version": "Unversioned author-hosted payload; acquired prefix/full-label hashes define our subset, not an author release checksum.",
+    "files": [
+      {
+        "name": "state_springs5_train.npy",
+        "original_shape": [
+          50000,
+          49,
+          5,
+          4
+        ],
+        "subset_rows": 2048,
+        "source_bytes": 392000128
+      },
+      {
+        "name": "state_springs5_test.npy",
+        "original_shape": [
+          10000,
+          99,
+          5,
+          4
+        ],
+        "subset_rows": 512,
+        "source_bytes": 158400128
+      },
+      {
+        "name": "edges_springs5_train.npy",
+        "original_shape": [
+          50000,
+          20
+        ],
+        "subset_rows": 2048,
+        "source_bytes": 8000128
+      },
+      {
+        "name": "edges_springs5_test.npy",
+        "original_shape": [
+          10000,
+          20
+        ],
+        "subset_rows": 512,
+        "source_bytes": 1600128
+      }
+    ]
+  }
+}

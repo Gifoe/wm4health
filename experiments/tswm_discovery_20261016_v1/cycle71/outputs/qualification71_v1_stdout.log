@@ -1,0 +1,17 @@
+E:\Anaconda\envs\salt_env\Lib\site-packages\torch\__init__.py:1323: UserWarning: torch.set_default_tensor_type() is deprecated as of PyTorch 2.1, please use torch.set_default_dtype() and torch.set_default_device() as alternatives. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\tensor\python_tensor.cpp:436.)
+  _C._set_default_tensor_type(t)
+Num threads before:  4
+Traceback (most recent call last):
+  File "D:\tswm_discovery_20261016_v1\cycle71\scripts\train71_v1.py", line 10, in <module>
+    r=fit(2026710,1,128,'qualification71_v1');dump(OUT/'QUALIFICATION71_V1.json',dict(status='PASS',fit_result_sha256=sha(OUT/'qualification71_v1_result.json'),module_updates=r['module_updates'],proposal_updates=r['proposal_updates'],seconds=r['wall_seconds'],expected_epochs_per_formal_fit=2000,parameters=r['module_parameters']+r['proposal_parameters'],environment=dict(Python=sys.version,executable=sys.executable,isolated=bool(sys.flags.isolated),torch=torch.__version__,numpy=np.__version__,GPU=torch.cuda.get_device_name(),cuda=torch.version.cuda,TF32=False),reserved_eval_rows_accessed=0));print('QUALIFICATION_PASS',flush=True)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\tswm_discovery_20261016_v1\cycle71\scripts\native71_v1.py", line 90, in fit
+    assert torch.cuda.is_available();random.seed(seed);np.random.seed(seed);torch.manual_seed(seed);torch.cuda.manual_seed_all(seed);torch.cuda.reset_peak_memory_stats();args=parse_native(seed,epochs,ntrain,tag);S=HGNN_Structure(args=args);bg=InstrumentedNative(S,args,tag);bg.SAConfig_SGDModules(epochs);bg.writer.close();assert bg.module_updates71==epochs*((ntrain+127)//128);change=max(float(abs(v-bg.initial_parameters71[k]).max().item()) for k,v in bg.L.state_dict().items());assert change>0 and np.isfinite(change)
+                                                                                                                                                                                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\tswm_discovery_20261016_v1\cycle71\scripts\native71_v1.py", line 71, in __init__
+    self.tag71=tag;self.seed71=int(args.torch_seed);self.module_updates71=0;self.proposal_updates71=0;self.best71=float('inf');self.selected71=None;self.receipts71=[];self.start71=time.perf_counter();super().__init__(S,args);self.SOpt.register_step_post_hook(self._module_hook);self.encoder_opt.register_step_post_hook(self._proposal_hook);self.initial_parameters71={k:v.detach().clone() for k,v in self.L.state_dict().items()}
+                                                                                                                                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\tswm_discovery_20261016_v1\upstream\modular-metalearning_f830c6aa\neurips2019\modular_metalearning.py", line 38, in __init__
+    if args.cpu_threads > 0: torch.set_num_threads(args.cpu_threads)
+       ^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'

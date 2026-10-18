@@ -1,0 +1,9 @@
+# Source-based modular-relational baseline development
+
+Author source:FerranAlet/modular-metalearning,f830c6aa00a8c425b1d9ab0d612733f297e56898,MIT. Fourteen small code/config/shell/readme files plusLICENSE acquired and Git-blob/SHA-checked. The executed module, proposal, graph-composer, simulated-annealing and gradient bodies remain unchanged; exact AST body hashes are in the qualification result. Explicit data, shuffled batch stream, logger, checkpoint and compatibility adapters are documented separately.
+
+Actual native sizes:467204 module-library parameters plus2735106 proposal parameters =3202310. Qualification used one genuine module update and one learned-proposal update on128TRAIN/128VAL tasks; it is execution evidence, not a performance result. A separate native gradient/step audit flipped true graph labels and obtained exactly identical losses, gradients, updated module/proposal weights and assignments. Its qualification Adam state had60 finite tensors. This verifies the exercised unsupervised-label boundary, not universal source correctness.
+
+Three fresh formal seeds2026711/2026712/2026713 are queued for2000outer epochs each,2048TRAIN/256developmentVAL tasks,batch128:32000module updates per fit if completed. Every50epochs plus final is the fixed checkpoint-selection grid. Progress/launch/terminal receipts are authoritative; a queued fit is not a completed one. Reserved256EVAL rows are excluded from training and selection. Row separation does not guarantee graph separation. NativeVAL is a reset block-rollout score, not common-history free simulation.
+
+This is a separately designed author-data subset experiment, not the full50k-task/20k-epoch reproduction. Native full source training, module adaptation and extra datasets are not silently counted as completed. No new method is compared or recommended in this development phase.

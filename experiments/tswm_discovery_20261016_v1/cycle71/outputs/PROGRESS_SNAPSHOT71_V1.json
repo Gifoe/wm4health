@@ -1,0 +1,58 @@
+{
+  "utc": "2026-10-18T05:43:03.148663+00:00",
+  "status": "BASELINE_DEVELOPMENT_RUNNING_NOT_CLOSED",
+  "processes": [
+    {
+      "ProcessId": 38408,
+      "CommandLine": "\"E:\\Anaconda\\envs\\salt_env\\python.exe\" -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\capture71_v3.py campaign"
+    },
+    {
+      "ProcessId": 15404,
+      "CommandLine": "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\campaign71_v3.py"
+    },
+    {
+      "ProcessId": 25904,
+      "CommandLine": "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\train71_v3.py --seed 2026711"
+    }
+  ],
+  "progress": [
+    {
+      "utc": "2026-10-18T05:43:01.178640+00:00",
+      "tag": "formal_seed2026711_v3",
+      "epoch": 116,
+      "module_updates": 1872,
+      "proposal_updates": 1872,
+      "elapsed_seconds": 417.97452130002785,
+      "train_loss": 0.00026062154211103916,
+      "val_loss": 0.0004976082127541304,
+      "native_encoder_accuracy": 0.5568359375,
+      "native_structure_accuracy": 0.714453125,
+      "gpu_peak_bytes": 2100618240,
+      "reserved_eval_rows_accessed": 0
+    }
+  ],
+  "qualification_sha256": "2333c1a7c4858957cbc5e4b0f318a1060dc4d5b894c4f43031b8723c87c305a0",
+  "gradient_audit_sha256": "5fcf78a25243be9d05022cf698e4cc86b30f43d56c314f59f7c9356a28a0d3a3",
+  "acquisition_sha256": "32f60bc82d487acc3ee3e15a76c1903c9059d1321b5193e2e073e79f1665f9fa",
+  "protocol_sha256": "e970c6b05d34535dc936b342541ee64aa05cf32805f6a397e77b64b8a09b6136",
+  "reports": {
+    "baseline_registry.md": "a1ec24cadef173cf6a80ab20be2345d83319ec7312613bd0ad1558b3a58fd440",
+    "EXECUTION_AND_METRIC_ADDENDUM71_V1.md": "3a6d2f24d6131c62b0b46eea8c5626b23f9f1a53198a041c5faf36d9f2b1a7b3",
+    "experimental_results.md": "895fe5185cad6bc0bafdc1608736ddc5e27a8be397844521fde522908c4fdab8",
+    "final_research_direction.md": "06fa2eea2667f6cf7688774c2ac6a2c72ef9640fbf78ed28b5b15c61085d0700",
+    "hypothesis_space.md": "00e5e596683318b1c77be62b955ce83c8cf456dc7b92f5e33775449cc3853a8f",
+    "literature_review.md": "7b982c1d2d5f53db715eb67e78b3fb3a8b0d8cdc58b2e030f12a3a5513df4cb5",
+    "negative_evidence.md": "6f5d0ae24f1587417c9a977c6fe949151385ec0d40aba0aefdc3a73a684476e3",
+    "PROTOCOL71_V1.md": "e970c6b05d34535dc936b342541ee64aa05cf32805f6a397e77b64b8a09b6136",
+    "research_ideas.md": "f96d78537aba07ff639abd59ef454d130e2fc173dfc23ce6ee5fd5674063d758",
+    "SPLIT_AND_SCOPE_ADDENDUM71_V1.md": "516476b6bc5ec70bf070f42378bea816ca4e133ef032f3f0801463bb7be28456"
+  },
+  "actual_qualification_module_parameters": 467204,
+  "actual_qualification_proposal_parameters": 2735106,
+  "reserved_eval_scored": false,
+  "new_method": false,
+  "accepted_final_directions": 0,
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "raw_result_data_or_model_files_synchronized_locally": 0,
+  "authored_local_report_drafts_removed_after_verified_upload": 4
+}
