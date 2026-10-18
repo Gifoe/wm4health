@@ -1,0 +1,1479 @@
+{
+  "raw_result_sha256": "380915d1373f505becbb77b2b750edf884ec96ad6d1dbb3b065e934d0da82ff6",
+  "fits": [
+    {
+      "dataset": "EMPS",
+      "condition": "identity",
+      "fit_origins": 61,
+      "fit_target_points": 7808,
+      "internal_origins": 7,
+      "normalizer_calibration_x_std": 0.9129182746884406,
+      "affine": {
+        "kind": "affine_simulation",
+        "knots": [
+          -1.5067091367707195,
+          1.4004263157395171
+        ],
+        "beta": [
+          -2.226338040336355,
+          0.9114910734133208
+        ],
+        "q": 1.0971034485891715,
+        "r": -0.9358140050075536,
+        "training_simulation_mse": 0.00038002815706528735,
+        "design_condition_number": 7.494524920460936,
+        "design_rank": 2,
+        "optimizer_status": 3,
+        "active_bounds": 0,
+        "normal_equation_free_coordinate_max_abs": 3.0869404255007282e-15,
+        "affine_derivation_max_abs": 6.661338147750939e-16,
+        "internal_validation_normalized_mse": 0.0002519805912780969
+      },
+      "monotone_selected": {
+        "kind": "monotone_simulation",
+        "knots": [
+          -1.5067091367707195,
+          -1.395318126328649,
+          -1.2970299756794141,
+          -1.0351928949479003,
+          -0.7779634837634909,
+          -0.5705028397908442,
+          -0.3915933766391209,
+          -0.14830234096817524,
+          0.09546822859194101,
+          0.33876490540428633,
+          0.45776658986871466,
+          0.6367492035076064,
+          0.8183478319476994,
+          1.0003107011452208,
+          1.1907944959917218,
+          1.2890856699977855,
+          1.4004263157395171
+        ],
+        "beta": [
+          -1.8849587562142078,
+          1.4333442410896748,
+          1.121611890037635,
+          0.8623953912512731,
+          0.7570864308049653,
+          0.7581350179761608,
+          0.81869520759367,
+          0.7340461698096787,
+          0.7174435592252159,
+          0.8440051705270891,
+          0.9331256463522789,
+          0.7824096860383344,
+          0.7278671188522513,
+          0.7383545051837825,
+          0.8435430542287828,
+          1.089905060108451,
+          1.3818846280789159
+        ],
+        "selected_initializer": "C75_innovation",
+        "selected_iteration": 0,
+        "selected_stage": "initial",
+        "internal_validation_normalized_mse": 6.466492112743465e-05
+      },
+      "monotone_optimizer_attempts": [
+        {
+          "initializer": "global_affine",
+          "initial_beta": [
+            -2.226338040336355,
+            0.9114910734133208,
+            0.9114910734133208,
+            0.9114910734133208,
+            0.9114910734133208,
+            0.9114910734133208,
+            0.9114910734133208,
+            0.9114910734133208,
+            0.9114910734133208,
+            0.9114910734133208,
+            0.9114910734133208,
+            0.9114910734133208,
+            0.9114910734133208,
+            0.9114910734133208,
+            0.9114910734133208,
+            0.9114910734133208,
+            0.9114910734133208
+          ],
+          "terminal_beta": [
+            -2.143907949741778,
+            1.5892037333131648,
+            1.325861286039473,
+            0.9590831019058919,
+            0.7455638678381716,
+            0.7321909569798938,
+            0.9620609857515057,
+            0.7866839677005563,
+            0.6987645678172807,
+            0.9438459884630669,
+            1.3608563200216,
+            0.820589218771249,
+            0.72711072588889,
+            0.7616644207929731,
+            0.9640851888017136,
+            1.4804366746475919,
+            1.476755442237733
+          ],
+          "optimizer_success": true,
+          "optimizer_status": 0,
+          "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 32,
+          "objective_evaluations": 38,
+          "terminal_normalized_training_mse": 0.0002635579346764372,
+          "projected_gradient_max_abs": 1.8469638977404966e-08,
+          "checkpoints": [
+            {
+              "initializer": "global_affine",
+              "iteration": 0,
+              "stage": "initial",
+              "internal_validation_mse": 0.00025198059127806867,
+              "objective_evaluations": 0
+            },
+            {
+              "initializer": "global_affine",
+              "iteration": 32,
+              "stage": "terminal",
+              "internal_validation_mse": 0.00011951687825981,
+              "objective_evaluations": 37
+            }
+          ],
+          "elapsed_seconds": 0.061005900002783164
+        },
+        {
+          "initializer": "C75_innovation",
+          "initial_beta": [
+            -1.8849587562142078,
+            1.4333442410896748,
+            1.121611890037635,
+            0.8623953912512731,
+            0.7570864308049653,
+            0.7581350179761608,
+            0.81869520759367,
+            0.7340461698096787,
+            0.7174435592252159,
+            0.8440051705270891,
+            0.9331256463522789,
+            0.7824096860383344,
+            0.7278671188522513,
+            0.7383545051837825,
+            0.8435430542287828,
+            1.089905060108451,
+            1.3818846280789159
+          ],
+          "terminal_beta": [
+            -2.1439584557709463,
+            1.5892220905083878,
+            1.3259357427813956,
+            0.9590713724860412,
+            0.7455692674452437,
+            0.7321828714782905,
+            0.9620500899491049,
+            0.7867014381713872,
+            0.6987701122503276,
+            0.9438445931927303,
+            1.3608122142964836,
+            0.8205891549546837,
+            0.7271083356525954,
+            0.7616627476555471,
+            0.9640736934980929,
+            1.4804076731892835,
+            1.476924203406623
+          ],
+          "optimizer_success": true,
+          "optimizer_status": 0,
+          "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 29,
+          "objective_evaluations": 32,
+          "terminal_normalized_training_mse": 0.0002635579338782905,
+          "projected_gradient_max_abs": 1.1690574697100636e-08,
+          "checkpoints": [
+            {
+              "initializer": "C75_innovation",
+              "iteration": 0,
+              "stage": "initial",
+              "internal_validation_mse": 6.466492112743465e-05,
+              "objective_evaluations": 0
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 29,
+              "stage": "terminal",
+              "internal_validation_mse": 0.00011950530558378586,
+              "objective_evaluations": 31
+            }
+          ],
+          "elapsed_seconds": 0.03612920001614839
+        }
+      ]
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "affine",
+      "fit_origins": 61,
+      "fit_target_points": 7808,
+      "internal_origins": 7,
+      "normalizer_calibration_x_std": 1.2780855845638168,
+      "affine": {
+        "kind": "affine_simulation",
+        "knots": [
+          -1.7593927914790068,
+          2.310596842035324
+        ],
+        "beta": [
+          -2.226338040336369,
+          0.6510650524380864
+        ],
+        "q": 1.5359448280248398,
+        "r": -1.660139607010597,
+        "training_simulation_mse": 0.0007448551878479575,
+        "design_condition_number": 7.494524920460936,
+        "design_rank": 2,
+        "optimizer_status": 3,
+        "active_bounds": 0,
+        "normal_equation_free_coordinate_max_abs": 9.33975119465913e-15,
+        "affine_derivation_max_abs": 1.3322676295501878e-15,
+        "internal_validation_normalized_mse": 0.00025198059127809973
+      },
+      "monotone_selected": {
+        "kind": "monotone_simulation",
+        "knots": [
+          -1.7593927914790068,
+          -1.6034453768601085,
+          -1.4658419659511797,
+          -1.0992700529270607,
+          -0.7391488772688872,
+          -0.4487039757071819,
+          -0.19823072729476934,
+          0.14237672264455467,
+          0.48365552002871737,
+          0.8242708675660009,
+          0.9908732258162005,
+          1.2414488849106489,
+          1.4956869647267792,
+          1.7504349816033091,
+          2.0171122943884106,
+          2.1547199379968998,
+          2.310596842035324
+        ],
+        "beta": [
+          -1.8849587562140908,
+          1.023817315064092,
+          0.8011513500268739,
+          0.6159967080365707,
+          0.5407760220035212,
+          0.5415250128401005,
+          0.584782291138335,
+          0.5243186927211706,
+          0.5124596851608624,
+          0.6028608360907861,
+          0.6665183188230792,
+          0.5588640614559633,
+          0.5199050848944664,
+          0.5273960751312753,
+          0.6025307530205714,
+          0.7785036143631818,
+          0.9870604486277992
+        ],
+        "selected_initializer": "C75_innovation",
+        "selected_iteration": 0,
+        "selected_stage": "initial",
+        "internal_validation_normalized_mse": 6.466492112740306e-05
+      },
+      "monotone_optimizer_attempts": [
+        {
+          "initializer": "global_affine",
+          "initial_beta": [
+            -2.226338040336369,
+            0.6510650524380864,
+            0.6510650524380864,
+            0.6510650524380864,
+            0.6510650524380864,
+            0.6510650524380864,
+            0.6510650524380864,
+            0.6510650524380864,
+            0.6510650524380864,
+            0.6510650524380864,
+            0.6510650524380864,
+            0.6510650524380864,
+            0.6510650524380864,
+            0.6510650524380864,
+            0.6510650524380864,
+            0.6510650524380864,
+            0.6510650524380864
+          ],
+          "terminal_beta": [
+            -2.1438007308205145,
+            1.1351644933804848,
+            0.9468819576599905,
+            0.6850490668492567,
+            0.5325498985423699,
+            0.5229813813130455,
+            0.6871766142113639,
+            0.5619193778226509,
+            0.4991219437977592,
+            0.6741720768924931,
+            0.9720123521118224,
+            0.5861388022318497,
+            0.5193632710302258,
+            0.5440420388511945,
+            0.6886249923149106,
+            1.0574059725776488,
+            1.0547714667669223
+          ],
+          "optimizer_success": true,
+          "optimizer_status": 0,
+          "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 33,
+          "objective_evaluations": 38,
+          "terminal_normalized_training_mse": 0.0002635579357912842,
+          "projected_gradient_max_abs": 1.487655451322227e-08,
+          "checkpoints": [
+            {
+              "initializer": "global_affine",
+              "iteration": 0,
+              "stage": "initial",
+              "internal_validation_mse": 0.00025198059127806645,
+              "objective_evaluations": 0
+            },
+            {
+              "initializer": "global_affine",
+              "iteration": 33,
+              "stage": "terminal",
+              "internal_validation_mse": 0.0001195076669866797,
+              "objective_evaluations": 37
+            }
+          ],
+          "elapsed_seconds": 0.04223779999301769
+        },
+        {
+          "initializer": "C75_innovation",
+          "initial_beta": [
+            -1.8849587562140908,
+            1.023817315064092,
+            0.8011513500268739,
+            0.6159967080365707,
+            0.5407760220035212,
+            0.5415250128401005,
+            0.584782291138335,
+            0.5243186927211706,
+            0.5124596851608624,
+            0.6028608360907861,
+            0.6665183188230792,
+            0.5588640614559633,
+            0.5199050848944664,
+            0.5273960751312753,
+            0.6025307530205714,
+            0.7785036143631818,
+            0.9870604486277992
+          ],
+          "terminal_beta": [
+            -2.143843759458295,
+            1.1350764890015772,
+            0.9471096804986464,
+            0.6850499766769478,
+            0.5325462480732158,
+            0.5229830470341992,
+            0.6871892956274704,
+            0.5619151638822074,
+            0.4991200779933681,
+            0.6741701420659828,
+            0.9720009124575559,
+            0.5861318713607273,
+            0.5193608975092299,
+            0.5440411736966154,
+            0.6886251622403072,
+            1.0574240819839742,
+            1.055021041723993
+          ],
+          "optimizer_success": true,
+          "optimizer_status": 0,
+          "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 27,
+          "objective_evaluations": 30,
+          "terminal_normalized_training_mse": 0.0002635579347131161,
+          "projected_gradient_max_abs": 1.2481063915888158e-08,
+          "checkpoints": [
+            {
+              "initializer": "C75_innovation",
+              "iteration": 0,
+              "stage": "initial",
+              "internal_validation_mse": 6.466492112740306e-05,
+              "objective_evaluations": 0
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 27,
+              "stage": "terminal",
+              "internal_validation_mse": 0.00011950461672993955,
+              "objective_evaluations": 29
+            }
+          ],
+          "elapsed_seconds": 0.032300999999279156
+        }
+      ]
+    },
+    {
+      "dataset": "EMPS",
+      "condition": "nonlinear",
+      "fit_origins": 61,
+      "fit_target_points": 7808,
+      "internal_origins": 7,
+      "normalizer_calibration_x_std": 1.707470491460194,
+      "affine": {
+        "kind": "affine_simulation",
+        "knots": [
+          -2.340818368150917,
+          2.706902895378617
+        ],
+        "beta": [
+          -2.295940135454629,
+          0.5007899325474803
+        ],
+        "q": 1.996845253883352,
+        "r": -2.2438187945319594,
+        "training_simulation_mse": 0.002009867700796493,
+        "design_condition_number": 7.494524920460936,
+        "design_rank": 2,
+        "optimizer_status": 3,
+        "active_bounds": 0,
+        "normal_equation_free_coordinate_max_abs": 1.5712312093768555e-14,
+        "affine_derivation_max_abs": 1.5543122344752192e-15,
+        "internal_validation_normalized_mse": 0.0004130612101684761
+      },
+      "monotone_selected": {
+        "kind": "monotone_simulation",
+        "knots": [
+          -2.340818368150917,
+          -2.200413948565147,
+          -2.074413056984526,
+          -1.7236271048805973,
+          -1.342188489053437,
+          -0.9898543561196219,
+          -0.6423247524116216,
+          -0.10304705384276942,
+          0.4783469750064382,
+          1.0313182168505644,
+          1.275980320433818,
+          1.607774108710465,
+          1.9055045606094356,
+          2.1745587825428143,
+          2.4352391560106215,
+          2.5641233463903386,
+          2.706902895378617
+        ],
+        "beta": [
+          -1.870887857098177,
+          1.1326388279282622,
+          0.8677666425954063,
+          0.624162369374568,
+          0.4936656700773073,
+          0.44115477611407955,
+          0.4170617798112083,
+          0.33336585286523657,
+          0.3085748059405052,
+          0.3716782635800253,
+          0.4493548988503096,
+          0.4225291326931595,
+          0.4392652355489598,
+          0.4905486148141245,
+          0.5987648868205421,
+          0.8248253935499564,
+          1.0724989789193387
+        ],
+        "selected_initializer": "C75_innovation",
+        "selected_iteration": 0,
+        "selected_stage": "initial",
+        "internal_validation_normalized_mse": 3.6072670171030794e-05
+      },
+      "monotone_optimizer_attempts": [
+        {
+          "initializer": "global_affine",
+          "initial_beta": [
+            -2.295940135454629,
+            0.5007899325474803,
+            0.5007899325474803,
+            0.5007899325474803,
+            0.5007899325474803,
+            0.5007899325474803,
+            0.5007899325474803,
+            0.5007899325474803,
+            0.5007899325474803,
+            0.5007899325474803,
+            0.5007899325474803,
+            0.5007899325474803,
+            0.5007899325474803,
+            0.5007899325474803,
+            0.5007899325474803,
+            0.5007899325474803,
+            0.5007899325474803
+          ],
+          "terminal_beta": [
+            -2.0481327288907334,
+            1.2588388744579726,
+            1.0266506417364183,
+            0.7077650042938964,
+            0.4981882640390976,
+            0.44325060231583696,
+            0.5497399462134447,
+            0.33535048219564273,
+            0.2922321919685667,
+            0.41466411860423086,
+            0.6445006800951228,
+            0.44186761258748375,
+            0.43424205692540857,
+            0.5060762337919369,
+            0.6875455473736435,
+            1.1459846679672137,
+            1.158165056359058
+          ],
+          "optimizer_success": true,
+          "optimizer_status": 0,
+          "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 70,
+          "objective_evaluations": 78,
+          "terminal_normalized_training_mse": 0.0002567772882363696,
+          "projected_gradient_max_abs": 1.7496954095221756e-08,
+          "checkpoints": [
+            {
+              "initializer": "global_affine",
+              "iteration": 0,
+              "stage": "initial",
+              "internal_validation_mse": 0.00041306121016846216,
+              "objective_evaluations": 0
+            },
+            {
+              "initializer": "global_affine",
+              "iteration": 50,
+              "stage": "periodic",
+              "internal_validation_mse": 7.042419769502166e-05,
+              "objective_evaluations": 56
+            },
+            {
+              "initializer": "global_affine",
+              "iteration": 70,
+              "stage": "terminal",
+              "internal_validation_mse": 7.045790077771271e-05,
+              "objective_evaluations": 77
+            }
+          ],
+          "elapsed_seconds": 0.08239649998722598
+        },
+        {
+          "initializer": "C75_innovation",
+          "initial_beta": [
+            -1.870887857098177,
+            1.1326388279282622,
+            0.8677666425954063,
+            0.624162369374568,
+            0.4936656700773073,
+            0.44115477611407955,
+            0.4170617798112083,
+            0.33336585286523657,
+            0.3085748059405052,
+            0.3716782635800253,
+            0.4493548988503096,
+            0.4225291326931595,
+            0.4392652355489598,
+            0.4905486148141245,
+            0.5987648868205421,
+            0.8248253935499564,
+            1.0724989789193387
+          ],
+          "terminal_beta": [
+            -2.0478779221545595,
+            1.2586574619740976,
+            1.0262171468104513,
+            0.70769697872176,
+            0.4981765273925378,
+            0.4432510257422939,
+            0.5497393253603498,
+            0.3353494055572085,
+            0.2922278948127579,
+            0.4146600991815793,
+            0.6444931296876745,
+            0.441869367007572,
+            0.4342433755062654,
+            0.5060823886174041,
+            0.6875704480808582,
+            1.14608174995742,
+            1.1583379340504105
+          ],
+          "optimizer_success": true,
+          "optimizer_status": 0,
+          "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 67,
+          "objective_evaluations": 73,
+          "terminal_normalized_training_mse": 0.0002567772923636051,
+          "projected_gradient_max_abs": 2.9322967030692097e-08,
+          "checkpoints": [
+            {
+              "initializer": "C75_innovation",
+              "iteration": 0,
+              "stage": "initial",
+              "internal_validation_mse": 3.6072670171030794e-05,
+              "objective_evaluations": 0
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 50,
+              "stage": "periodic",
+              "internal_validation_mse": 7.071764131429013e-05,
+              "objective_evaluations": 52
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 67,
+              "stage": "terminal",
+              "internal_validation_mse": 7.04234538348437e-05,
+              "objective_evaluations": 72
+            }
+          ],
+          "elapsed_seconds": 0.07681379999849014
+        }
+      ]
+    },
+    {
+      "dataset": "F16",
+      "condition": "identity",
+      "fit_origins": 1812,
+      "fit_target_points": 231936,
+      "internal_origins": 224,
+      "normalizer_calibration_x_std": 1.233116660277043,
+      "affine": {
+        "kind": "affine_simulation",
+        "knots": [
+          -6.624646166387315,
+          6.870463330372787
+        ],
+        "beta": [
+          -6.401490253345437,
+          0.9657630260815098
+        ],
+        "q": 1.0354506985604983,
+        "r": -0.003781388267438779,
+        "training_simulation_mse": 0.26893215327722764,
+        "design_condition_number": 1.1961031670826487,
+        "design_rank": 2,
+        "optimizer_status": 3,
+        "active_bounds": 0,
+        "normal_equation_free_coordinate_max_abs": 8.432294862359413e-10,
+        "affine_derivation_max_abs": 3.552713678800501e-15,
+        "internal_validation_normalized_mse": 0.10556748704852463
+      },
+      "monotone_selected": {
+        "kind": "monotone_simulation",
+        "knots": [
+          -6.624646166387315,
+          -1.9002853998389726,
+          -1.2393193004250886,
+          -0.8055567413606346,
+          -0.5260581182725318,
+          -0.3251332813471089,
+          -0.16388377585678657,
+          -0.06904322731022076,
+          0.0006732624547021217,
+          0.0700878866085081,
+          0.16413783079544803,
+          0.3217888339482934,
+          0.5229856546826134,
+          0.8059832030335995,
+          1.2445717541684342,
+          1.9227393712816205,
+          6.870463330372787
+        ],
+        "beta": [
+          -6.401490253345437,
+          0.9657630260815098,
+          0.9657630260815098,
+          0.9657630260815098,
+          0.9657630260815098,
+          0.9657630260815098,
+          0.9657630260815098,
+          0.9657630260815098,
+          0.9657630260815098,
+          0.9657630260815098,
+          0.9657630260815098,
+          0.9657630260815098,
+          0.9657630260815098,
+          0.9657630260815098,
+          0.9657630260815098,
+          0.9657630260815098,
+          0.9657630260815098
+        ],
+        "selected_initializer": "global_affine",
+        "selected_iteration": 0,
+        "selected_stage": "initial",
+        "internal_validation_normalized_mse": 0.10556748704852484
+      },
+      "monotone_optimizer_attempts": [
+        {
+          "initializer": "global_affine",
+          "initial_beta": [
+            -6.401490253345437,
+            0.9657630260815098,
+            0.9657630260815098,
+            0.9657630260815098,
+            0.9657630260815098,
+            0.9657630260815098,
+            0.9657630260815098,
+            0.9657630260815098,
+            0.9657630260815098,
+            0.9657630260815098,
+            0.9657630260815098,
+            0.9657630260815098,
+            0.9657630260815098,
+            0.9657630260815098,
+            0.9657630260815098,
+            0.9657630260815098,
+            0.9657630260815098
+          ],
+          "terminal_beta": [
+            -7.7004159722329355,
+            1.2566806887060589,
+            0.9621152748915929,
+            0.8663859783868318,
+            0.9688184906064092,
+            0.9692201811225422,
+            0.888533163350653,
+            0.8898824551600024,
+            0.8604174015939995,
+            0.8340667036955384,
+            0.9965294938051007,
+            0.8599785129757282,
+            0.9280919631179416,
+            0.923860142249953,
+            0.9098767116724397,
+            0.90379366296898,
+            1.188142756229477
+          ],
+          "optimizer_success": false,
+          "optimizer_status": 1,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "iterations": 300,
+          "objective_evaluations": 367,
+          "terminal_normalized_training_mse": 0.17283349379771865,
+          "projected_gradient_max_abs": 2.7971876315610253e-06,
+          "checkpoints": [
+            {
+              "initializer": "global_affine",
+              "iteration": 0,
+              "stage": "initial",
+              "internal_validation_mse": 0.10556748704852484,
+              "objective_evaluations": 0
+            },
+            {
+              "initializer": "global_affine",
+              "iteration": 50,
+              "stage": "periodic",
+              "internal_validation_mse": 0.10869569420443106,
+              "objective_evaluations": 63
+            },
+            {
+              "initializer": "global_affine",
+              "iteration": 100,
+              "stage": "periodic",
+              "internal_validation_mse": 0.10869476654695819,
+              "objective_evaluations": 121
+            },
+            {
+              "initializer": "global_affine",
+              "iteration": 150,
+              "stage": "periodic",
+              "internal_validation_mse": 0.108690461861483,
+              "objective_evaluations": 180
+            },
+            {
+              "initializer": "global_affine",
+              "iteration": 200,
+              "stage": "periodic",
+              "internal_validation_mse": 0.10869284517191624,
+              "objective_evaluations": 242
+            },
+            {
+              "initializer": "global_affine",
+              "iteration": 250,
+              "stage": "periodic",
+              "internal_validation_mse": 0.10869897454474389,
+              "objective_evaluations": 303
+            },
+            {
+              "initializer": "global_affine",
+              "iteration": 300,
+              "stage": "periodic",
+              "internal_validation_mse": 0.10869675110767084,
+              "objective_evaluations": 366
+            },
+            {
+              "initializer": "global_affine",
+              "iteration": 300,
+              "stage": "terminal",
+              "internal_validation_mse": 0.10869675110767084,
+              "objective_evaluations": 366
+            }
+          ],
+          "elapsed_seconds": 4.339987800020026
+        },
+        {
+          "initializer": "C75_innovation",
+          "initial_beta": [
+            -5.567847089358631,
+            0.8058012606543856,
+            0.8989910966312675,
+            0.9222799697914298,
+            0.9387574566895285,
+            0.9510204333063753,
+            0.9564841790951117,
+            0.9736418281310572,
+            0.9807716736645646,
+            0.980743414010952,
+            0.9743101436621289,
+            0.9584067265131138,
+            0.950962065360612,
+            0.9389426234481892,
+            0.9197504310737535,
+            0.8920136587613765,
+            0.7889766275864597
+          ],
+          "terminal_beta": [
+            -7.700807529922594,
+            1.256783882902933,
+            0.9617416154065708,
+            0.8668522037364967,
+            0.9687417024671623,
+            0.9688213929494464,
+            0.8901930209900077,
+            0.8874921570228281,
+            0.8585466590314417,
+            0.8369747561909037,
+            0.9941710798513151,
+            0.8617972437104587,
+            0.9275805421632295,
+            0.9237022715403409,
+            0.9096845567958964,
+            0.9039782906766963,
+            1.1881773061711944
+          ],
+          "optimizer_success": false,
+          "optimizer_status": 1,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "iterations": 300,
+          "objective_evaluations": 355,
+          "terminal_normalized_training_mse": 0.17283350176453857,
+          "projected_gradient_max_abs": 5.294439168287545e-06,
+          "checkpoints": [
+            {
+              "initializer": "C75_innovation",
+              "iteration": 0,
+              "stage": "initial",
+              "internal_validation_mse": 0.11246032610474489,
+              "objective_evaluations": 0
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 50,
+              "stage": "periodic",
+              "internal_validation_mse": 0.10870321427961908,
+              "objective_evaluations": 59
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 100,
+              "stage": "periodic",
+              "internal_validation_mse": 0.10870105924974652,
+              "objective_evaluations": 121
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 150,
+              "stage": "periodic",
+              "internal_validation_mse": 0.10869568558592287,
+              "objective_evaluations": 181
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 200,
+              "stage": "periodic",
+              "internal_validation_mse": 0.10869433143414521,
+              "objective_evaluations": 238
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 250,
+              "stage": "periodic",
+              "internal_validation_mse": 0.10869576154513165,
+              "objective_evaluations": 296
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 300,
+              "stage": "periodic",
+              "internal_validation_mse": 0.10869780373153125,
+              "objective_evaluations": 354
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 300,
+              "stage": "terminal",
+              "internal_validation_mse": 0.10869780373153125,
+              "objective_evaluations": 354
+            }
+          ],
+          "elapsed_seconds": 4.165653000003658
+        }
+      ]
+    },
+    {
+      "dataset": "F16",
+      "condition": "affine",
+      "fit_origins": 1812,
+      "fit_target_points": 231936,
+      "internal_origins": 224,
+      "normalizer_calibration_x_std": 1.7263633243878596,
+      "affine": {
+        "kind": "affine_simulation",
+        "knots": [
+          -8.92450463294224,
+          9.9686486625219
+        ],
+        "beta": [
+          -6.401490253345444,
+          0.6898307329153649
+        ],
+        "q": 1.4496309779846959,
+        "r": -0.35529394357441524,
+        "training_simulation_mse": 0.527107020423366,
+        "design_condition_number": 1.1961031670826487,
+        "design_rank": 2,
+        "optimizer_status": 3,
+        "active_bounds": 0,
+        "normal_equation_free_coordinate_max_abs": 7.09405867382884e-10,
+        "affine_derivation_max_abs": 4.440892098500626e-15,
+        "internal_validation_normalized_mse": 0.10556748704852469
+      },
+      "monotone_selected": {
+        "kind": "monotone_simulation",
+        "knots": [
+          -8.92450463294224,
+          -2.3103995597745612,
+          -1.3850470205951242,
+          -0.7777794379048885,
+          -0.38648136558154444,
+          -0.10518659388595242,
+          0.12056271380049881,
+          0.25333948176569093,
+          0.350942567436583,
+          0.44812304125191127,
+          0.5797929631136273,
+          0.8005043675276107,
+          1.0821799165556585,
+          1.478376484247039,
+          2.092400455835808,
+          3.0418351197942686,
+          9.9686486625219
+        ],
+        "beta": [
+          -6.401490253345444,
+          0.6898307329153649,
+          0.6898307329153649,
+          0.6898307329153649,
+          0.6898307329153649,
+          0.6898307329153649,
+          0.6898307329153649,
+          0.6898307329153649,
+          0.6898307329153649,
+          0.6898307329153649,
+          0.6898307329153649,
+          0.6898307329153649,
+          0.6898307329153649,
+          0.6898307329153649,
+          0.6898307329153649,
+          0.6898307329153649,
+          0.6898307329153649
+        ],
+        "selected_initializer": "global_affine",
+        "selected_iteration": 0,
+        "selected_stage": "initial",
+        "internal_validation_normalized_mse": 0.10556748704852477
+      },
+      "monotone_optimizer_attempts": [
+        {
+          "initializer": "global_affine",
+          "initial_beta": [
+            -6.401490253345444,
+            0.6898307329153649,
+            0.6898307329153649,
+            0.6898307329153649,
+            0.6898307329153649,
+            0.6898307329153649,
+            0.6898307329153649,
+            0.6898307329153649,
+            0.6898307329153649,
+            0.6898307329153649,
+            0.6898307329153649,
+            0.6898307329153649,
+            0.6898307329153649,
+            0.6898307329153649,
+            0.6898307329153649,
+            0.6898307329153649,
+            0.6898307329153649
+          ],
+          "terminal_beta": [
+            -7.699175197437733,
+            0.8974328581657255,
+            0.6872843778229233,
+            0.6186644127690205,
+            0.6924863841703626,
+            0.6921776051944978,
+            0.6342584033619616,
+            0.6352888123734822,
+            0.6163945332208275,
+            0.5957258171787164,
+            0.7099168590935591,
+            0.6159875136116428,
+            0.6620158288671829,
+            0.660087025905185,
+            0.6499494600646137,
+            0.6454211262059909,
+            0.8486913989365542
+          ],
+          "optimizer_success": true,
+          "optimizer_status": 0,
+          "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 230,
+          "objective_evaluations": 276,
+          "terminal_normalized_training_mse": 0.17283348971826734,
+          "projected_gradient_max_abs": 2.7040255232814794e-06,
+          "checkpoints": [
+            {
+              "initializer": "global_affine",
+              "iteration": 0,
+              "stage": "initial",
+              "internal_validation_mse": 0.10556748704852477,
+              "objective_evaluations": 0
+            },
+            {
+              "initializer": "global_affine",
+              "iteration": 50,
+              "stage": "periodic",
+              "internal_validation_mse": 0.10869385222753614,
+              "objective_evaluations": 59
+            },
+            {
+              "initializer": "global_affine",
+              "iteration": 100,
+              "stage": "periodic",
+              "internal_validation_mse": 0.10869812035228608,
+              "objective_evaluations": 117
+            },
+            {
+              "initializer": "global_affine",
+              "iteration": 150,
+              "stage": "periodic",
+              "internal_validation_mse": 0.1087003255584225,
+              "objective_evaluations": 176
+            },
+            {
+              "initializer": "global_affine",
+              "iteration": 200,
+              "stage": "periodic",
+              "internal_validation_mse": 0.10869650564606521,
+              "objective_evaluations": 234
+            },
+            {
+              "initializer": "global_affine",
+              "iteration": 230,
+              "stage": "terminal",
+              "internal_validation_mse": 0.10869493522507485,
+              "objective_evaluations": 275
+            }
+          ],
+          "elapsed_seconds": 3.237494400003925
+        },
+        {
+          "initializer": "C75_innovation",
+          "initial_beta": [
+            -7.327518830948401,
+            0.7523943600257579,
+            0.8467790649701972,
+            0.8723637788829197,
+            0.8987274400907117,
+            0.9180766329659125,
+            0.927872950999056,
+            0.9558341010103332,
+            0.9673689515654224,
+            0.9673912654065516,
+            0.9565002161003515,
+            0.9298105603666174,
+            0.9172057437932598,
+            0.89749842034865,
+            0.8683349682131182,
+            0.8370821227726921,
+            0.7358692835881155
+          ],
+          "terminal_beta": [
+            -7.699692389949836,
+            0.897505551471058,
+            0.6869450487310875,
+            0.6197061582073716,
+            0.692328130271694,
+            0.6908144034990663,
+            0.6359934124098201,
+            0.6323500941012241,
+            0.6141998296951663,
+            0.603819410852093,
+            0.7028982313036877,
+            0.6198511548213659,
+            0.6611438254527116,
+            0.6599899069968821,
+            0.6500326527986744,
+            0.6453002922565646,
+            0.8486655741165968
+          ],
+          "optimizer_success": false,
+          "optimizer_status": 1,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "iterations": 300,
+          "objective_evaluations": 363,
+          "terminal_normalized_training_mse": 0.17283353427318,
+          "projected_gradient_max_abs": 0.00014183801500981634,
+          "checkpoints": [
+            {
+              "initializer": "C75_innovation",
+              "iteration": 0,
+              "stage": "initial",
+              "internal_validation_mse": 0.13284386731954026,
+              "objective_evaluations": 0
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 50,
+              "stage": "periodic",
+              "internal_validation_mse": 0.10888287598888736,
+              "objective_evaluations": 60
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 100,
+              "stage": "periodic",
+              "internal_validation_mse": 0.10866916073548395,
+              "objective_evaluations": 121
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 150,
+              "stage": "periodic",
+              "internal_validation_mse": 0.10868260646831349,
+              "objective_evaluations": 182
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 200,
+              "stage": "periodic",
+              "internal_validation_mse": 0.10870158202757221,
+              "objective_evaluations": 236
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 250,
+              "stage": "periodic",
+              "internal_validation_mse": 0.10869066825286897,
+              "objective_evaluations": 297
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 300,
+              "stage": "periodic",
+              "internal_validation_mse": 0.1086894384065741,
+              "objective_evaluations": 362
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 300,
+              "stage": "terminal",
+              "internal_validation_mse": 0.1086894384065741,
+              "objective_evaluations": 362
+            }
+          ],
+          "elapsed_seconds": 4.303323000000091
+        }
+      ]
+    },
+    {
+      "dataset": "F16",
+      "condition": "nonlinear",
+      "fit_origins": 1812,
+      "fit_target_points": 231936,
+      "internal_origins": 224,
+      "normalizer_calibration_x_std": 1.9827134861795328,
+      "affine": {
+        "kind": "affine_simulation",
+        "knots": [
+          -8.49957539592386,
+          9.294555994657946
+        ],
+        "beta": [
+          -5.221181872933893,
+          0.5964442775277724
+        ],
+        "q": 1.6766025556401398,
+        "r": -0.25427147569907715,
+        "training_simulation_mse": 0.7232834803964155,
+        "design_condition_number": 1.1961031670826487,
+        "design_rank": 2,
+        "optimizer_status": 3,
+        "active_bounds": 0,
+        "normal_equation_free_coordinate_max_abs": 9.51331458054483e-10,
+        "affine_derivation_max_abs": 5.329070518200751e-15,
+        "internal_validation_normalized_mse": 0.13036102071209948
+      },
+      "monotone_selected": {
+        "kind": "monotone_simulation",
+        "knots": [
+          -8.49957539592386,
+          -2.8250113393557936,
+          -1.999250683555363,
+          -1.3856115942188327,
+          -0.9075830326221246,
+          -0.502071124594759,
+          -0.13945311612944256,
+          0.084591203232327,
+          0.251615829616625,
+          0.41790242748246226,
+          0.6400451160248095,
+          0.9948585697328247,
+          1.4017985685649659,
+          1.8862772035175093,
+          2.506132814412264,
+          3.352302310624866,
+          9.294555994657946
+        ],
+        "beta": [
+          -7.4533345561730355,
+          0.9938952449081175,
+          0.7937050149091361,
+          0.5786544249908959,
+          0.5874171960088845,
+          0.5524262353192372,
+          0.4186719167461529,
+          0.3687116999881106,
+          0.36855121759798015,
+          0.3849909838730277,
+          0.4164383959620526,
+          0.45959263107699666,
+          0.45927201247372085,
+          0.5314916794345643,
+          0.6905461817921165,
+          0.6797649159064068,
+          0.9560967272407571
+        ],
+        "selected_initializer": "C75_innovation",
+        "selected_iteration": 50,
+        "selected_stage": "periodic",
+        "internal_validation_normalized_mse": 0.11850170331586941
+      },
+      "monotone_optimizer_attempts": [
+        {
+          "initializer": "global_affine",
+          "initial_beta": [
+            -5.221181872933893,
+            0.5964442775277724,
+            0.5964442775277724,
+            0.5964442775277724,
+            0.5964442775277724,
+            0.5964442775277724,
+            0.5964442775277724,
+            0.5964442775277724,
+            0.5964442775277724,
+            0.5964442775277724,
+            0.5964442775277724,
+            0.5964442775277724,
+            0.5964442775277724,
+            0.5964442775277724,
+            0.5964442775277724,
+            0.5964442775277724,
+            0.5964442775277724
+          ],
+          "terminal_beta": [
+            -7.606724144497038,
+            1.0246298113824281,
+            0.7434534824355925,
+            0.6296496524179872,
+            0.5714268525999949,
+            0.5460547175565958,
+            0.40422691334843597,
+            0.3988317911003076,
+            0.37370712780646664,
+            0.3721556328685855,
+            0.42293213372579497,
+            0.4178832509113406,
+            0.49681415993213884,
+            0.533490291402649,
+            0.6732004465389828,
+            0.7026298027431149,
+            0.9464373799467712
+          ],
+          "optimizer_success": true,
+          "optimizer_status": 0,
+          "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 240,
+          "objective_evaluations": 293,
+          "terminal_normalized_training_mse": 0.15826761777642695,
+          "projected_gradient_max_abs": 2.2752949029331698e-05,
+          "checkpoints": [
+            {
+              "initializer": "global_affine",
+              "iteration": 0,
+              "stage": "initial",
+              "internal_validation_mse": 0.13036102071209948,
+              "objective_evaluations": 0
+            },
+            {
+              "initializer": "global_affine",
+              "iteration": 50,
+              "stage": "periodic",
+              "internal_validation_mse": 0.11881758330511628,
+              "objective_evaluations": 63
+            },
+            {
+              "initializer": "global_affine",
+              "iteration": 100,
+              "stage": "periodic",
+              "internal_validation_mse": 0.11858889213837014,
+              "objective_evaluations": 125
+            },
+            {
+              "initializer": "global_affine",
+              "iteration": 150,
+              "stage": "periodic",
+              "internal_validation_mse": 0.11857778826052526,
+              "objective_evaluations": 185
+            },
+            {
+              "initializer": "global_affine",
+              "iteration": 200,
+              "stage": "periodic",
+              "internal_validation_mse": 0.1185781302019393,
+              "objective_evaluations": 242
+            },
+            {
+              "initializer": "global_affine",
+              "iteration": 240,
+              "stage": "terminal",
+              "internal_validation_mse": 0.11857893280407449,
+              "objective_evaluations": 292
+            }
+          ],
+          "elapsed_seconds": 3.4707743999897502
+        },
+        {
+          "initializer": "C75_innovation",
+          "initial_beta": [
+            -7.044757916700273,
+            0.8017735103892552,
+            0.8594203835387619,
+            0.829904328904856,
+            0.7902346759361067,
+            0.7622951707229875,
+            0.7394416276691904,
+            0.816841897230814,
+            0.8575022804771165,
+            0.8575063839785168,
+            0.8180930656703597,
+            0.7415382279466668,
+            0.7553088210769519,
+            0.7842526313551262,
+            0.825161866152546,
+            0.8493794833750477,
+            0.7718939762992526
+          ],
+          "terminal_beta": [
+            -7.606798703636371,
+            1.0246440409692585,
+            0.7435371981238059,
+            0.6295097973341399,
+            0.57131736695578,
+            0.5463337787907584,
+            0.40395103580781233,
+            0.3991358485061457,
+            0.37378115196523587,
+            0.3717111550983925,
+            0.4233194526676978,
+            0.41771944677511746,
+            0.4968713546448472,
+            0.5334496451149936,
+            0.6732098676330751,
+            0.7026456432453188,
+            0.946425062680999
+          ],
+          "optimizer_success": false,
+          "optimizer_status": 1,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "iterations": 300,
+          "objective_evaluations": 376,
+          "terminal_normalized_training_mse": 0.15826761741163306,
+          "projected_gradient_max_abs": 1.7707804000233196e-05,
+          "checkpoints": [
+            {
+              "initializer": "C75_innovation",
+              "iteration": 0,
+              "stage": "initial",
+              "internal_validation_mse": 0.17948770425986874,
+              "objective_evaluations": 0
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 50,
+              "stage": "periodic",
+              "internal_validation_mse": 0.11850170331586941,
+              "objective_evaluations": 65
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 100,
+              "stage": "periodic",
+              "internal_validation_mse": 0.11859474816759394,
+              "objective_evaluations": 129
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 150,
+              "stage": "periodic",
+              "internal_validation_mse": 0.11856327883851216,
+              "objective_evaluations": 189
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 200,
+              "stage": "periodic",
+              "internal_validation_mse": 0.11858013383460664,
+              "objective_evaluations": 254
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 250,
+              "stage": "periodic",
+              "internal_validation_mse": 0.1185774855731213,
+              "objective_evaluations": 313
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 300,
+              "stage": "periodic",
+              "internal_validation_mse": 0.11857909950525851,
+              "objective_evaluations": 375
+            },
+            {
+              "initializer": "C75_innovation",
+              "iteration": 300,
+              "stage": "terminal",
+              "internal_validation_mse": 0.11857909950525851,
+              "objective_evaluations": 375
+            }
+          ],
+          "elapsed_seconds": 4.454057199996896
+        }
+      ]
+    }
+  ]
+}
