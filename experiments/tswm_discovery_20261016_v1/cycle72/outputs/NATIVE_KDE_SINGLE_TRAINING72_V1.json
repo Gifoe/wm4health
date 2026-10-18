@@ -1,0 +1,54 @@
+{
+  "setting": "single",
+  "source_body_changed": false,
+  "training_only": true,
+  "forecast_inference_executed": false,
+  "all_native_training_tensors_on_cpu": true,
+  "bandwidth_grid": [
+    0.1,
+    0.2,
+    0.3,
+    0.5,
+    0.8,
+    1.0,
+    1.5,
+    2.0
+  ],
+  "selected_bandwidth": 0.1,
+  "selection_rule": "Native in-sample reconstruction includes self neighbors; not validation selection",
+  "artifact_storage": "checkpoint_root/cycle72/native_kde_single_v3",
+  "artifacts": [
+    {
+      "file": "best_bandwidth.txt",
+      "bytes": 3,
+      "sha256": "14be4b45f18e0d8c67b4f719b5144eee88497e413709d11d85b096d8e2346310"
+    },
+    {
+      "file": "y_train.npy",
+      "bytes": 106304,
+      "sha256": "c4fefb8d5dcad437ab3d01d242584cb03939170dda0dbd55c54cbd5f98701bc3"
+    },
+    {
+      "file": "z_mean.npy",
+      "bytes": 12224,
+      "sha256": "0bcf5f9ca9220254894854040ee33e37de56b5d473b74928d501b5c975395043"
+    },
+    {
+      "file": "z_std.npy",
+      "bytes": 12224,
+      "sha256": "50b4076050e15441b2a449895535c47df04f4df8cb54b7aaa44fd83b012d44eb"
+    },
+    {
+      "file": "z_train.npy",
+      "bytes": 1911296,
+      "sha256": "90f9a09370d0fb3fb4345db955c282196e167b72a6a786b93be1ec54e9b762da"
+    }
+  ],
+  "log_sha256": "d9c32f89963587be30e4558a733018698153eecf91ce25b0cc789dda1e21286d",
+  "normalized_training_export_hashes": {
+    "y_train.csv": "a831de5f3f92da41020ee4bb5d2c06413d2215b6f1eefd4b206fac54fdbc4ce1",
+    "a_train.csv": "f99ee3f8867beafa027b160aae8737b537a911bbb2b13ace077432067ae77ddb",
+    "x_train.csv": "9c1905e5765759d649f188c593d17c70b3ddcb371889b83a9f9b50ef61555ace",
+    "outcome_stats.json": "55bc13ac341700c4571cad62c17a7be57e9a86dd522abd92f8c352a03c11dd89"
+  }
+}

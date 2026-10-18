@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-18T07:42:02.072275+00:00",
+  "source_adapter_sha256": "94cd612d946c9f377804d49cbca62d8b838440bf4c5c9d7a82a847539defc60b",
+  "changes": [
+    "CPU-only environment prefix",
+    "Validate actual tensor allocation default, not only device visibility",
+    "Assert every native training tensor is on CPU"
+  ],
+  "diagnostic_features_and_split_changed": false,
+  "native_algorithm_bodies_changed": false,
+  "first_failure": "A device-visibility assertion fired before reading numeric factual data; no GPU tensor computation had executed"
+}

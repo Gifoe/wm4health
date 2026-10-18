@@ -1,0 +1,288 @@
+{
+  "utc": "2026-10-18T07:33:50.812935+00:00",
+  "status": "PINNED_NATIVE_EPICF_SOURCE_VERIFIED",
+  "repository": "complex-ai-lab/epi-cf-benchmark",
+  "revision": "8f7df27507dc8b01422bb373417c8d0d3efffae2",
+  "tree": "f11d8c24963a226e227e6a5519e5e94435274f50",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8545,
+      "git_blob_sha1": "6e323efb3a50d01a1873bcf572077fdf6e70db05",
+      "sha256": "e76b8295166217c0bef809481c5759ae907ff3d71abe959401b55c2e31d7e568",
+      "definitions": {}
+    },
+    {
+      "path": "experiments/multi_policy/infer_kde.py",
+      "bytes": 198,
+      "git_blob_sha1": "aa85862c82be302321fb8922d0fed424ec133755",
+      "sha256": "634dc7b84e967d9c6de00b3a9669a018c51129804238190aae28a66ce583033e",
+      "definitions": {}
+    },
+    {
+      "path": "experiments/multi_policy/infer_transformer.py",
+      "bytes": 247,
+      "git_blob_sha1": "2f03b46eb85059a6321b6c4c594c3f5541980dde",
+      "sha256": "39aced96e86f37730631932a22feab7a695555fc0be9e1a84c2b4d81a445ca62",
+      "definitions": {}
+    },
+    {
+      "path": "experiments/multi_policy/train_kde.py",
+      "bytes": 198,
+      "git_blob_sha1": "934b9559947a9252d64e2f22ea8cfb368c07c8d3",
+      "sha256": "e1b50434230ef7ee68effbcd2dc29c26db29ede6ee42c585494a111267c9c6d7",
+      "definitions": {}
+    },
+    {
+      "path": "experiments/multi_policy/train_st_learner.py",
+      "bytes": 532,
+      "git_blob_sha1": "445090b8afd2a0e87579b481629f0b8d99e96c35",
+      "sha256": "1a8223fc05f6c1c1a4478865cd215d6637402792509674bcbb322cf9f0a7b8b4",
+      "definitions": {}
+    },
+    {
+      "path": "experiments/multi_policy/train_transformer.py",
+      "bytes": 263,
+      "git_blob_sha1": "96b74524fc4d060e57b1bb602a8ecd3a3a90a901",
+      "sha256": "edecb992b488768aac34a317a574a2493d29a71364a9d08a848cecc320872995",
+      "definitions": {}
+    },
+    {
+      "path": "experiments/single_policy/infer_kde.py",
+      "bytes": 198,
+      "git_blob_sha1": "0b83fbf761eeba0cd43eb593e1829e6bc18c07c4",
+      "sha256": "1d6adb2120a712272a056ef154601de2799c023ff49b1b2e36a78b424b5f9e0d",
+      "definitions": {}
+    },
+    {
+      "path": "experiments/single_policy/infer_transformer.py",
+      "bytes": 247,
+      "git_blob_sha1": "e45d0f538c42b2e485bc817b0aba64822d1458b9",
+      "sha256": "feabe7b28d199a040da77d3852390a60335766f49c5f3c7e98f482d9d7f59fe7",
+      "definitions": {}
+    },
+    {
+      "path": "experiments/single_policy/train_kde.py",
+      "bytes": 198,
+      "git_blob_sha1": "6cdc777a20c4254257a8db574d9a0b55a81a9056",
+      "sha256": "ea064c49fa0210ba426b2e08736e8702f552679474d56e1238955075cd40e588",
+      "definitions": {}
+    },
+    {
+      "path": "experiments/single_policy/train_st_learner.py",
+      "bytes": 428,
+      "git_blob_sha1": "e743ec432a768949bcea47019d2a4833c4915ed6",
+      "sha256": "420f2457d7de9451a9c29218033c38d23df2302059f99dc9cfd6021fec89fdfe",
+      "definitions": {}
+    },
+    {
+      "path": "experiments/single_policy/train_transformer.py",
+      "bytes": 263,
+      "git_blob_sha1": "85d80c37a7dbbdcd465eedab612d1b839e412192",
+      "sha256": "c71a0f08fd0dc07fe6a4bc2e1cf255e2bc637666dd721368c40a2972b28073e3",
+      "definitions": {}
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 376,
+      "git_blob_sha1": "61818da5597079cb3660ac9d79904197e766ea92",
+      "sha256": "aacd2e4f7b629dc9210bd514b3b3b1a2b1bed18c3a2ce5607abd5b3078f63bba",
+      "definitions": {}
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 38,
+      "git_blob_sha1": "492db5f42fd6824317874bc8ba570dd35732d0da",
+      "sha256": "1ae407b164235d0310ee8031528f85497c2a944377ea94ee4697852fffb44502",
+      "definitions": {}
+    },
+    {
+      "path": "scripts/evaluate_cate.py",
+      "bytes": 1164,
+      "git_blob_sha1": "7070436b4a6ddc7a3686dfa0a8933e131c885271",
+      "sha256": "71cfd528a3a584ce74163ee145c32fea5011ae52c0d3e47c915e2568c9671b54",
+      "definitions": {
+        "main": "9b0ec33ad548cf999d14d2cebce98a668163b25be3e649b2294de8bddd16732f"
+      }
+    },
+    {
+      "path": "scripts/evaluate_distribution.py",
+      "bytes": 1021,
+      "git_blob_sha1": "66518f82826210d80a091b4ae252a765397c7f0c",
+      "sha256": "d6a2969673248b982a5ac4d98d4fed49f125edf9573181e166a9a6f1d63b64b1",
+      "definitions": {
+        "main": "87442f81a758af4e08b0330e4afd4cce7cf6bb30e8fd45146a97fca6703a743a"
+      }
+    },
+    {
+      "path": "scripts/evaluate_predictions.py",
+      "bytes": 82,
+      "git_blob_sha1": "575a5973eb896dca00a59c5f5e6bd959be1f44ae",
+      "sha256": "e4acbca572ae49ab62a765a75487097e7ecc2f40ad1bc83c5393920400011744",
+      "definitions": {}
+    },
+    {
+      "path": "scripts/postprocess_predictions.py",
+      "bytes": 85,
+      "git_blob_sha1": "247b3e8d9d4ba2b0cdaafc5e278d4108686a59e4",
+      "sha256": "feee8d7e2af597ce099c93c2033261e66d4e51e387e947aca1b90724c048c323",
+      "definitions": {}
+    },
+    {
+      "path": "scripts/preprocess_data.py",
+      "bytes": 87,
+      "git_blob_sha1": "9970cdc2e1b51ff4418915c3f59b9a1ba16c5ef3",
+      "sha256": "93d311f1749af668805b1c10f4147adb2aa5ee5caaf7462e60530260b90ba28b",
+      "definitions": {}
+    },
+    {
+      "path": "src/epicf_benchmark/__init__.py",
+      "bytes": 114,
+      "git_blob_sha1": "729f66c9acd4deade9b11013d7475936d3f20682",
+      "sha256": "b08fe68375e5b72fb305ad419109eca6d8ed4ba817add4b71c35bf096bd0a4db",
+      "definitions": {}
+    },
+    {
+      "path": "src/epicf_benchmark/data.py",
+      "bytes": 3087,
+      "git_blob_sha1": "8371f94fb00716cd4eb980e1cf085cfdaabb8d03",
+      "sha256": "730cb118d2bb633bcd80dc4066965126b1c00da851a613cbb706732c334a0160",
+      "definitions": {
+        "PolicyConfig": "da0442ba0d1b52fceae3214f0212d0d90edfea2e2cfbba132be9cf7f14f42474",
+        "FluDataset": "ad952c59369665db7a34d20b09b7cf6998cc52d8bb27629b9121b1964d3ce852",
+        "all_indices": "1d9bb15d29ec1722fdf6d0eb18bf25893b1538b33e20bfd9b0290f9e85ad20fe",
+        "_read_values": "04abf4b697f2eabf0a702dd436b4f4aaa235d3532340f532f7b62574676ab2d3"
+      }
+    },
+    {
+      "path": "src/epicf_benchmark/evaluate.py",
+      "bytes": 8658,
+      "git_blob_sha1": "c62ee5fc418daff41b8a51583d7dfe1712516788",
+      "sha256": "6f7eada6a84e03ea7f03867fec1838629e93c4897cdaa9149a903d8ee64c5328",
+      "definitions": {
+        "rmse": "373210ef68aedd43a2a061994a29828db826cc6cb7ffb8fa2cf5fb17b1c1a764",
+        "mae": "e473fef2c11045d28554fce96a50f316c1f2c20ebd2550d3f6805bdd3ce567c5",
+        "wasserstein": "6531090fc922117bc8a6953d37d0146115657d31b1eaaf04301a75ab70727837",
+        "empirical_wasserstein": "6c05de7b237fe67e121e8ae098e9b97c849e9bc401bfcac22f845adea9e601ff",
+        "wasserstein_by_feature": "9b78cad1b9e749f21d13bbbeff6f49bba100af4a5a7d495b429e755de6fde685",
+        "calculate_rmse": "3d0b6b1b94bfb7373644eb81b19c37ff60a5ac5b963de31803eaa86b7ea4e81f",
+        "predictive_interval_coverage": "ccc094377354cd680ec6b6dd3c0e68e02b37d8eab1666f60460f57a21080196a",
+        "correlation": "0f7ca15f1f1f168bd5a71ca7bd6c9e096a1ca8650681029402468a7da7843696",
+        "calibration_score": "304303cd93f9fc0b0aaa8ab4c6a45b7aea7497d93b6a38ee32092f1b47e2b958",
+        "calculate_cate": "044d090e19c44d930ca224bb0e7a78c1ea6ad5dc29af53ffad8623862248a4eb",
+        "evaluate_distribution": "5fd0462eca1346dc3b8db7ba8dbe99265ad31506448057d06fad9dde6b69921d",
+        "evaluate_cate_rmse": "3ca9ba53172e4c08b11d63dff0fb31d56100808a639c26d7bfe52b8506f7e0b1",
+        "policy_regret": "fbec15c5044fa3acc8add4d0cbbc7902a7e966854580929cd931fbac643f1d18",
+        "main": "00277eb6a2a7c5f71749963783f4ffefaa1d1d04dcaef17bd739b448697cf7f2",
+        "_load_array": "4c68aebfe6f0362918f602f8588b35909ce2dc55cae035204178a44264692828",
+        "_assert_same_shape": "13be68ef1a6bed56de79ee9ff85bfe4bbc2fd0d1e6b93bd01aa21e4f8df2123c"
+      }
+    },
+    {
+      "path": "src/epicf_benchmark/kde.py",
+      "bytes": 5772,
+      "git_blob_sha1": "0e35fc188c92a49b313b227cc65af9a31dbab5ad",
+      "sha256": "a5a5adf104006e9b6d3bdfc5a2e295132a543ec828fb299de76e7c3db282b165",
+      "definitions": {
+        "collect_xy": "196d5657f8f64b5a60fbffa84ecd5ce61e6166bc80efb7fab6225d949948b541",
+        "collect_x": "617340734d05705427f23633effe8be9677ada4f9b39f731c48daa51181cf31e",
+        "flatten_features": "0ef292911743dfd92c72a99931b27611fec0d4bff2692204459abface4d39555",
+        "kde_predict_mean": "3cc233e462df27de400d0cd61c9f7620eaee3fd2d7499513c10ad596e7d0f176",
+        "train_kde": "4ad5b52c18ce54f7c919d53ea08d9bb26141dc3c738bfe6374c9d95b629c94d3",
+        "infer_kde": "688302a1bb4d3ba0c7dfce3c4194b79de6f9345991f775f738102fc074aba2ef",
+        "_dataset": "2a9a92679eff3a0af8d406aed059e0fe4ed6e523d3ea8064604b99bb702cefb5",
+        "add_common_args": "100d79cc4638f276449a670df0dbd29669cedad2be19322c42b2b91c9bdb8982",
+        "build_train_parser": "366aa15be97c1e36e52367cf43c757b1863e1c58a8fcda2a1e6f90662f036b6a",
+        "build_infer_parser": "2cbe51d86953e2820b1b65e0280b8159124b930d74646694b8c1978b7e0c81db"
+      }
+    },
+    {
+      "path": "src/epicf_benchmark/models.py",
+      "bytes": 4047,
+      "git_blob_sha1": "a588463b3e89d69011c9bf5a2ff46e4b526deb79",
+      "sha256": "a092ad61b46f399de4dc79d8667713ebcaedd1731409bc8b8fedf48fda37b830",
+      "definitions": {
+        "PositionalEncoding": "4ba835933086304c8dd49825f6a0c6f2a1eca7b22f4691f439582330f89d45b8",
+        "FluTransformer": "3b5fdba4eca402fa872f4614f4fc21424a56ab147b642ec52ed3616db2afec5f",
+        "FluBiRNN": "01f26aa9dcd94bd83c8aad0d992c206ee307a9d12d1c5ea9b2d687d039daf1db"
+      }
+    },
+    {
+      "path": "src/epicf_benchmark/postprocess.py",
+      "bytes": 3031,
+      "git_blob_sha1": "1d9935acaa6efad804e7414228a042c174c42c59",
+      "sha256": "85fefc50c12273cc20bf7769e721853643a50f4b2c1942840e2aac1f7f8189d0",
+      "definitions": {
+        "inverse_zscore": "cfea41555ec3e50abd35782232819fbdbe7e2923dd4b9cc29d20da05f4d272ab",
+        "inverse_minmax": "e5849a409ac7297b0354f590da189fac9358e44a16152b7d3bf67ae265926988",
+        "load_prediction": "d4b9440d4bbb171906fd403f8775d48ed1f2ed7e1844210d414b3c4a9f952f0c",
+        "load_stats": "37b8555227d758fca950002175196bc14c72ff2109be13948ec324d3df03174c",
+        "inverse_transform": "86aa2d996fae85ed6ecdbf51b903eb08898a243498f2a52af561f2e3b6136682",
+        "save_prediction": "598d413c2163096ba9210c6b526aae8b3dedbfadb9ec7aa8fd611fb803f60c55",
+        "main": "98b1069b9a55799d24b2ad6836cd2a0524ecd2e684ce47054d6a3ce8e206338a"
+      }
+    },
+    {
+      "path": "src/epicf_benchmark/preprocessing.py",
+      "bytes": 8658,
+      "git_blob_sha1": "08f41db1c134e1be770c4f125e393b501dc778e6",
+      "sha256": "1789f1f6840677a980d048bbabd870d408ef95c1699b799d86aa4d10213fb48f",
+      "definitions": {
+        "OutcomeStats": "0101d1f14fe20af18053f2e8d932661bd26bfca36e9a60e5d73e1de3ff4e2728",
+        "minmax_series": "ef6f60260937c64a1f86017407079b9c752646eb2a74e3afc2094cc1bf27291e",
+        "zscore_outcomes": "ad7a191cbf573ffe259c4749c397a8011f20bdf43b21eac70e963c695855e6f6",
+        "build_base_covariates": "4d9110644c7a8f6199221ee0344b0421c1a3a84b95d1a1baafe45247127be9a5",
+        "preprocess_single": "e5279e36fe854acd16b0c9f27ef812c8b1cd1a982a698c5ae3b79075f370c1af",
+        "preprocess_multi": "e2064011e05b85767efe9dcd466c2f814f57fdcd9438dbf55491d4118e858d8b",
+        "repeat_for_multi_training": "2694d17dc37fdf1d6f3b68b7894e0cfe861c8e680fba21598c690402fdfc00b0",
+        "write_xa_files": "aefc54575d81c2045d57945d1394b7938e4aaa27561dd99d9a18105c892409a5",
+        "write_stats": "03fc25e240cbcc4048348630ca81d67691833e75af8dad432e4a2bf08a1f1ac4",
+        "main": "706c9070ee9fd08c2c04a597ba12b8076dd77783d8e0abc972b3530459af4518"
+      }
+    },
+    {
+      "path": "src/epicf_benchmark/st_learner.py",
+      "bytes": 10651,
+      "git_blob_sha1": "1e635afa80cea18b8c4604e328904f0222170e9d",
+      "sha256": "c5d72aa94962b5d062457bbe7591efb6fa0dbadc43ac30b5076f18cdc6638010",
+      "definitions": {
+        "set_seed": "bfdc0394fe924eb2fe25150fc8bed74c077cf889359960d4c7b4a5070aea87b4",
+        "save_array_both": "e4d285cc1d80b130d60474b0f5e0427ddebd5a83957de36383a9bb9c5d3e68e2",
+        "build_loader": "b4d24b2ea0ea5029e0a828af7ae53999df4ebb0d6f9eaef4908469bc17b2b58d",
+        "sample_treatment_mean": "4c466227534d52c54a3de2e2b6ec15ea5cd746ac3234bad0cd067e1334f88373",
+        "train_epoch_s": "1c528120602776d8a972061c78ee536bdbec92ca72dea20d470367405c8a945e",
+        "predict_s": "01db621001dcd39639e50193c3ec8ae1c45d3007babf65ee7244d92c5cacf628",
+        "train_epoch_t": "775574aabe1f99064e0fe2d9f73b00350dad925a4b011a0e6351b90391e7452b",
+        "predict_t": "2fedc804acd51289395efe77be39e679b23c0c9b298e51f09c1a52331b16e594",
+        "run_st_learner": "090763a0f30135b02b57017f6f128109fd8224e48e58df67a95d8c2da9035705",
+        "make_rnn": "d2cba90cc78a629a6ce771df9c7125ad0965ec558e6c03be1c0ce897513ca780",
+        "build_parser": "b745afb053d7ced5e49197ccbe8982509ce5ffc47cf85860b4425ea478bd028a"
+      }
+    },
+    {
+      "path": "src/epicf_benchmark/transformer.py",
+      "bytes": 5897,
+      "git_blob_sha1": "987aa106fd3a5fa6f3722f8f3bff60e89ca65d20",
+      "sha256": "8590a7920075cf56a8f3b86193c6fab38a2c0a9da4e5d3a1e56ba472f86dd56a",
+      "definitions": {
+        "train_epoch": "f30293c53c512f5fe28671a937e606119982b836b577a2c92bf212ad3fd18657",
+        "eval_epoch": "7a1ae848bf8f270b1954b9d51a6ee46dc1c03c9f2d7367dd03ab3117ef80ca13",
+        "predict": "02b42afde0c2925f27a1ac9ea5525bb7f0a2492d881de4d7b4d405c635639c1c",
+        "train_transformer": "c3009df3d0dcbb8b8f4dbf79abab5691f90701ef271deb075e91ed30f9c52243",
+        "infer_transformer": "e486017a796b2ab50a80f6221ab8b1f8c5cc44e250bf090f8bf14f365530da4e",
+        "_dataset": "633176478f8716091a49222e73075debdb4a5a096e51556a58dda0fe5190887f",
+        "add_common_args": "1da97aad8061b3fb8fd4ae017e3a27b5a69372b7cc1e947f74910649b79834af",
+        "build_train_parser": "e8378158267acf7c5c022601c348d7b4f1bce264fc6136fc107b579827028d8f",
+        "build_infer_parser": "fc27201b130484f4edd75c14292d60d86611f6903341a9549adb8c47a7ebfbed"
+      }
+    }
+  ],
+  "selected_files": 27,
+  "selected_bytes": 64085,
+  "source_pin_sha256": "b7139b2ab1c3f8ccceef8268c6319b345543c2a36a6a56aab934861152894272",
+  "no_license_file_in_inspected_tree": true,
+  "original_source_redistributed": false,
+  "source_imports_executed": false,
+  "numeric_target_data_accessed": false,
+  "local_result_data_or_model_files_written": 0
+}

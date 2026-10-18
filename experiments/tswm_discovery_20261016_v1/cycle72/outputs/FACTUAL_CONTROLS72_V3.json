@@ -1,0 +1,447 @@
+{
+  "utc": "2026-10-18T07:45:15.008485+00:00",
+  "status": "FACTUAL_ONLY_DIAGNOSTICS_AND_TWO_NATIVE_KDE_FITS_CLOSED",
+  "settings": [
+    {
+      "setting": "single",
+      "receipt_sha256": "d643a45c5acfe40448c9da37f36372e7479a932a5c27297c690326fa34465f58",
+      "diagnostic_results": [
+        {
+          "arm": "constant",
+          "raw_mse": 1562.8796054822012,
+          "raw_mae": 28.633016726418013,
+          "median_block_mse": 492.38872593352806,
+          "simulation_blocks": 158,
+          "unique_county_ids": 153,
+          "points": 8848,
+          "information_group": "SUPPLIED_FACTUAL_COMPARTMENT_OBSERVATION_DECODING_NOT_FORECAST"
+        },
+        {
+          "arm": "stock_complement",
+          "raw_mse": 1602.8960890325925,
+          "raw_mae": 27.990323837128777,
+          "median_block_mse": 476.2536970670121,
+          "simulation_blocks": 158,
+          "unique_county_ids": 153,
+          "points": 8848,
+          "information_group": "SUPPLIED_FACTUAL_COMPARTMENT_OBSERVATION_DECODING_NOT_FORECAST"
+        },
+        {
+          "arm": "minus_delta_S",
+          "raw_mse": 1143.9324299518366,
+          "raw_mae": 23.13362945366475,
+          "median_block_mse": 348.7132189609926,
+          "simulation_blocks": 158,
+          "unique_county_ids": 153,
+          "points": 8848,
+          "information_group": "SUPPLIED_FACTUAL_COMPARTMENT_OBSERVATION_DECODING_NOT_FORECAST"
+        },
+        {
+          "arm": "minus_delta_S_E",
+          "raw_mse": 1486.225935945269,
+          "raw_mae": 26.93479574526946,
+          "median_block_mse": 447.26117453856443,
+          "simulation_blocks": 158,
+          "unique_county_ids": 153,
+          "points": 8848,
+          "information_group": "SUPPLIED_FACTUAL_COMPARTMENT_OBSERVATION_DECODING_NOT_FORECAST"
+        },
+        {
+          "arm": "linear_levels",
+          "raw_mse": 4056.070196460658,
+          "raw_mae": 30.967800354925995,
+          "median_block_mse": 230.56466354672915,
+          "simulation_blocks": 158,
+          "unique_county_ids": 153,
+          "points": 8848,
+          "information_group": "SUPPLIED_FACTUAL_COMPARTMENT_OBSERVATION_DECODING_NOT_FORECAST"
+        },
+        {
+          "arm": "linear_levels_and_changes",
+          "raw_mse": 4564.769271474908,
+          "raw_mae": 32.083523221039584,
+          "median_block_mse": 229.663530509035,
+          "simulation_blocks": 158,
+          "unique_county_ids": 153,
+          "points": 8848,
+          "information_group": "SUPPLIED_FACTUAL_COMPARTMENT_OBSERVATION_DECODING_NOT_FORECAST"
+        }
+      ]
+    },
+    {
+      "setting": "multi",
+      "receipt_sha256": "87bf21d79221e9e0f9d07947007902a31b3ec7bf833dee13475d7fe551e1c7b6",
+      "diagnostic_results": [
+        {
+          "arm": "constant",
+          "raw_mse": 1255.2401796820527,
+          "raw_mae": 24.998341584723814,
+          "median_block_mse": 384.65907507378563,
+          "simulation_blocks": 158,
+          "unique_county_ids": 153,
+          "points": 8848,
+          "information_group": "SUPPLIED_FACTUAL_COMPARTMENT_OBSERVATION_DECODING_NOT_FORECAST"
+        },
+        {
+          "arm": "stock_complement",
+          "raw_mse": 1362.8844155241377,
+          "raw_mae": 25.336879341820065,
+          "median_block_mse": 392.0511782840172,
+          "simulation_blocks": 158,
+          "unique_county_ids": 153,
+          "points": 8848,
+          "information_group": "SUPPLIED_FACTUAL_COMPARTMENT_OBSERVATION_DECODING_NOT_FORECAST"
+        },
+        {
+          "arm": "minus_delta_S",
+          "raw_mse": 998.750722991622,
+          "raw_mae": 21.347746219473656,
+          "median_block_mse": 309.52349951698534,
+          "simulation_blocks": 158,
+          "unique_county_ids": 153,
+          "points": 8848,
+          "information_group": "SUPPLIED_FACTUAL_COMPARTMENT_OBSERVATION_DECODING_NOT_FORECAST"
+        },
+        {
+          "arm": "minus_delta_S_E",
+          "raw_mse": 1265.7646736757813,
+          "raw_mae": 24.39801671955822,
+          "median_block_mse": 377.9738482096536,
+          "simulation_blocks": 158,
+          "unique_county_ids": 153,
+          "points": 8848,
+          "information_group": "SUPPLIED_FACTUAL_COMPARTMENT_OBSERVATION_DECODING_NOT_FORECAST"
+        },
+        {
+          "arm": "linear_levels",
+          "raw_mse": 4536.988666964168,
+          "raw_mae": 30.837632800663492,
+          "median_block_mse": 284.3331556163327,
+          "simulation_blocks": 158,
+          "unique_county_ids": 153,
+          "points": 8848,
+          "information_group": "SUPPLIED_FACTUAL_COMPARTMENT_OBSERVATION_DECODING_NOT_FORECAST"
+        },
+        {
+          "arm": "linear_levels_and_changes",
+          "raw_mse": 4880.176209301328,
+          "raw_mae": 31.62497426028774,
+          "median_block_mse": 285.2731149541548,
+          "simulation_blocks": 158,
+          "unique_county_ids": 153,
+          "points": 8848,
+          "information_group": "SUPPLIED_FACTUAL_COMPARTMENT_OBSERVATION_DECODING_NOT_FORECAST"
+        }
+      ]
+    }
+  ],
+  "protocol_sha256": "518334ab93fe7343ff4fe01f03be827ecc8b41a042478c9dba3717d6d9f0da99",
+  "diagnostic_protocol_sha256": "2dbf26f77ed498ede6d3be7b471dae7227216506bb3bf74564fe777a7f4d6640",
+  "block_identity_addendum_sha256": "52daa8d879ecc712c56b1dbb76c6eab4ef25d84b226869f7a6a213ec5e8526f1",
+  "block_identity_audit_sha256": "105de7f2c6ce15ec415636a604dd6a274e739bfc5d4f8705b24d6ca167b010b4",
+  "source_audit_sha256": "4f2e758090bd109d2a7ea1061a615328ec7ad947932aef85e66c5ae1c74c4700",
+  "data_acquisition_sha256": "dc9c01fa6501642ad4b0798e663c1ab3730f60cd0635075e4912bc6d2f261774",
+  "counterfactual_targets_or_compartments_semantically_accessed": false,
+  "counterfactual_scoring_executed": false,
+  "operational_forecasting_performance_claimed": false,
+  "new_method": false,
+  "accepted_final_directions": 0,
+  "wall_seconds": 2.737829799996689,
+  "runtime": {
+    "torch": "2.11.0+cu128",
+    "numpy": "2.4.3",
+    "pandas": "2.3.3",
+    "numeric_threads": 2,
+    "cuda_available_observed": false,
+    "cuda_initialized": false,
+    "all_native_tensors_cpu": true,
+    "affinity": {
+      "mode": "efficient",
+      "original_process_mask": "0xffffffff",
+      "current_process_mask": "0xffff0000",
+      "available_efficiency_classes": [
+        0,
+        1
+      ],
+      "selected_logical_processors": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "cpu_sets": [
+        {
+          "id": 256,
+          "group": 0,
+          "logical_processor": 0,
+          "core": 0,
+          "efficiency_class": 1,
+          "flags": 0
+        },
+        {
+          "id": 257,
+          "group": 0,
+          "logical_processor": 1,
+          "core": 0,
+          "efficiency_class": 1,
+          "flags": 1
+        },
+        {
+          "id": 258,
+          "group": 0,
+          "logical_processor": 2,
+          "core": 2,
+          "efficiency_class": 1,
+          "flags": 0
+        },
+        {
+          "id": 259,
+          "group": 0,
+          "logical_processor": 3,
+          "core": 2,
+          "efficiency_class": 1,
+          "flags": 1
+        },
+        {
+          "id": 260,
+          "group": 0,
+          "logical_processor": 4,
+          "core": 4,
+          "efficiency_class": 1,
+          "flags": 0
+        },
+        {
+          "id": 261,
+          "group": 0,
+          "logical_processor": 5,
+          "core": 4,
+          "efficiency_class": 1,
+          "flags": 1
+        },
+        {
+          "id": 262,
+          "group": 0,
+          "logical_processor": 6,
+          "core": 6,
+          "efficiency_class": 1,
+          "flags": 0
+        },
+        {
+          "id": 263,
+          "group": 0,
+          "logical_processor": 7,
+          "core": 6,
+          "efficiency_class": 1,
+          "flags": 1
+        },
+        {
+          "id": 264,
+          "group": 0,
+          "logical_processor": 8,
+          "core": 8,
+          "efficiency_class": 1,
+          "flags": 0
+        },
+        {
+          "id": 265,
+          "group": 0,
+          "logical_processor": 9,
+          "core": 8,
+          "efficiency_class": 1,
+          "flags": 1
+        },
+        {
+          "id": 266,
+          "group": 0,
+          "logical_processor": 10,
+          "core": 10,
+          "efficiency_class": 1,
+          "flags": 0
+        },
+        {
+          "id": 267,
+          "group": 0,
+          "logical_processor": 11,
+          "core": 10,
+          "efficiency_class": 1,
+          "flags": 1
+        },
+        {
+          "id": 268,
+          "group": 0,
+          "logical_processor": 12,
+          "core": 12,
+          "efficiency_class": 1,
+          "flags": 0
+        },
+        {
+          "id": 269,
+          "group": 0,
+          "logical_processor": 13,
+          "core": 12,
+          "efficiency_class": 1,
+          "flags": 1
+        },
+        {
+          "id": 270,
+          "group": 0,
+          "logical_processor": 14,
+          "core": 14,
+          "efficiency_class": 1,
+          "flags": 0
+        },
+        {
+          "id": 271,
+          "group": 0,
+          "logical_processor": 15,
+          "core": 14,
+          "efficiency_class": 1,
+          "flags": 1
+        },
+        {
+          "id": 272,
+          "group": 0,
+          "logical_processor": 16,
+          "core": 16,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 273,
+          "group": 0,
+          "logical_processor": 17,
+          "core": 17,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 274,
+          "group": 0,
+          "logical_processor": 18,
+          "core": 18,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 275,
+          "group": 0,
+          "logical_processor": 19,
+          "core": 19,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 276,
+          "group": 0,
+          "logical_processor": 20,
+          "core": 20,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 277,
+          "group": 0,
+          "logical_processor": 21,
+          "core": 21,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 278,
+          "group": 0,
+          "logical_processor": 22,
+          "core": 22,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 279,
+          "group": 0,
+          "logical_processor": 23,
+          "core": 23,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 280,
+          "group": 0,
+          "logical_processor": 24,
+          "core": 24,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 281,
+          "group": 0,
+          "logical_processor": 25,
+          "core": 25,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 282,
+          "group": 0,
+          "logical_processor": 26,
+          "core": 26,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 283,
+          "group": 0,
+          "logical_processor": 27,
+          "core": 27,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 284,
+          "group": 0,
+          "logical_processor": 28,
+          "core": 28,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 285,
+          "group": 0,
+          "logical_processor": 29,
+          "core": 29,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 286,
+          "group": 0,
+          "logical_processor": 30,
+          "core": 30,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 287,
+          "group": 0,
+          "logical_processor": 31,
+          "core": 31,
+          "efficiency_class": 0,
+          "flags": 0
+        }
+      ],
+      "system_configuration_modified": false,
+      "other_processes_modified": false,
+      "interpretation": "Process-local execution control, not a diagnosis or a proven hardware remedy"
+    }
+  }
+}

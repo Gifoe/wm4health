@@ -1,0 +1,173 @@
+{
+  "repository": "complex-ai-lab/epi-cf-benchmark",
+  "revision": "8f7df27507dc8b01422bb373417c8d0d3efffae2",
+  "tree": "f11d8c24963a226e227e6a5519e5e94435274f50",
+  "license_in_inspected_tree": null,
+  "original_source_redistributed": false,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8545,
+      "git_blob_sha1": "6e323efb3a50d01a1873bcf572077fdf6e70db05",
+      "sha256": "e76b8295166217c0bef809481c5759ae907ff3d71abe959401b55c2e31d7e568"
+    },
+    {
+      "path": "experiments/multi_policy/infer_kde.py",
+      "bytes": 198,
+      "git_blob_sha1": "aa85862c82be302321fb8922d0fed424ec133755",
+      "sha256": "634dc7b84e967d9c6de00b3a9669a018c51129804238190aae28a66ce583033e"
+    },
+    {
+      "path": "experiments/multi_policy/infer_transformer.py",
+      "bytes": 247,
+      "git_blob_sha1": "2f03b46eb85059a6321b6c4c594c3f5541980dde",
+      "sha256": "39aced96e86f37730631932a22feab7a695555fc0be9e1a84c2b4d81a445ca62"
+    },
+    {
+      "path": "experiments/multi_policy/train_kde.py",
+      "bytes": 198,
+      "git_blob_sha1": "934b9559947a9252d64e2f22ea8cfb368c07c8d3",
+      "sha256": "e1b50434230ef7ee68effbcd2dc29c26db29ede6ee42c585494a111267c9c6d7"
+    },
+    {
+      "path": "experiments/multi_policy/train_st_learner.py",
+      "bytes": 532,
+      "git_blob_sha1": "445090b8afd2a0e87579b481629f0b8d99e96c35",
+      "sha256": "1a8223fc05f6c1c1a4478865cd215d6637402792509674bcbb322cf9f0a7b8b4"
+    },
+    {
+      "path": "experiments/multi_policy/train_transformer.py",
+      "bytes": 263,
+      "git_blob_sha1": "96b74524fc4d060e57b1bb602a8ecd3a3a90a901",
+      "sha256": "edecb992b488768aac34a317a574a2493d29a71364a9d08a848cecc320872995"
+    },
+    {
+      "path": "experiments/single_policy/infer_kde.py",
+      "bytes": 198,
+      "git_blob_sha1": "0b83fbf761eeba0cd43eb593e1829e6bc18c07c4",
+      "sha256": "1d6adb2120a712272a056ef154601de2799c023ff49b1b2e36a78b424b5f9e0d"
+    },
+    {
+      "path": "experiments/single_policy/infer_transformer.py",
+      "bytes": 247,
+      "git_blob_sha1": "e45d0f538c42b2e485bc817b0aba64822d1458b9",
+      "sha256": "feabe7b28d199a040da77d3852390a60335766f49c5f3c7e98f482d9d7f59fe7"
+    },
+    {
+      "path": "experiments/single_policy/train_kde.py",
+      "bytes": 198,
+      "git_blob_sha1": "6cdc777a20c4254257a8db574d9a0b55a81a9056",
+      "sha256": "ea064c49fa0210ba426b2e08736e8702f552679474d56e1238955075cd40e588"
+    },
+    {
+      "path": "experiments/single_policy/train_st_learner.py",
+      "bytes": 428,
+      "git_blob_sha1": "e743ec432a768949bcea47019d2a4833c4915ed6",
+      "sha256": "420f2457d7de9451a9c29218033c38d23df2302059f99dc9cfd6021fec89fdfe"
+    },
+    {
+      "path": "experiments/single_policy/train_transformer.py",
+      "bytes": 263,
+      "git_blob_sha1": "85d80c37a7dbbdcd465eedab612d1b839e412192",
+      "sha256": "c71a0f08fd0dc07fe6a4bc2e1cf255e2bc637666dd721368c40a2972b28073e3"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 376,
+      "git_blob_sha1": "61818da5597079cb3660ac9d79904197e766ea92",
+      "sha256": "aacd2e4f7b629dc9210bd514b3b3b1a2b1bed18c3a2ce5607abd5b3078f63bba"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 38,
+      "git_blob_sha1": "492db5f42fd6824317874bc8ba570dd35732d0da",
+      "sha256": "1ae407b164235d0310ee8031528f85497c2a944377ea94ee4697852fffb44502"
+    },
+    {
+      "path": "scripts/evaluate_cate.py",
+      "bytes": 1164,
+      "git_blob_sha1": "7070436b4a6ddc7a3686dfa0a8933e131c885271",
+      "sha256": "71cfd528a3a584ce74163ee145c32fea5011ae52c0d3e47c915e2568c9671b54"
+    },
+    {
+      "path": "scripts/evaluate_distribution.py",
+      "bytes": 1021,
+      "git_blob_sha1": "66518f82826210d80a091b4ae252a765397c7f0c",
+      "sha256": "d6a2969673248b982a5ac4d98d4fed49f125edf9573181e166a9a6f1d63b64b1"
+    },
+    {
+      "path": "scripts/evaluate_predictions.py",
+      "bytes": 82,
+      "git_blob_sha1": "575a5973eb896dca00a59c5f5e6bd959be1f44ae",
+      "sha256": "e4acbca572ae49ab62a765a75487097e7ecc2f40ad1bc83c5393920400011744"
+    },
+    {
+      "path": "scripts/postprocess_predictions.py",
+      "bytes": 85,
+      "git_blob_sha1": "247b3e8d9d4ba2b0cdaafc5e278d4108686a59e4",
+      "sha256": "feee8d7e2af597ce099c93c2033261e66d4e51e387e947aca1b90724c048c323"
+    },
+    {
+      "path": "scripts/preprocess_data.py",
+      "bytes": 87,
+      "git_blob_sha1": "9970cdc2e1b51ff4418915c3f59b9a1ba16c5ef3",
+      "sha256": "93d311f1749af668805b1c10f4147adb2aa5ee5caaf7462e60530260b90ba28b"
+    },
+    {
+      "path": "src/epicf_benchmark/__init__.py",
+      "bytes": 114,
+      "git_blob_sha1": "729f66c9acd4deade9b11013d7475936d3f20682",
+      "sha256": "b08fe68375e5b72fb305ad419109eca6d8ed4ba817add4b71c35bf096bd0a4db"
+    },
+    {
+      "path": "src/epicf_benchmark/data.py",
+      "bytes": 3087,
+      "git_blob_sha1": "8371f94fb00716cd4eb980e1cf085cfdaabb8d03",
+      "sha256": "730cb118d2bb633bcd80dc4066965126b1c00da851a613cbb706732c334a0160"
+    },
+    {
+      "path": "src/epicf_benchmark/evaluate.py",
+      "bytes": 8658,
+      "git_blob_sha1": "c62ee5fc418daff41b8a51583d7dfe1712516788",
+      "sha256": "6f7eada6a84e03ea7f03867fec1838629e93c4897cdaa9149a903d8ee64c5328"
+    },
+    {
+      "path": "src/epicf_benchmark/kde.py",
+      "bytes": 5772,
+      "git_blob_sha1": "0e35fc188c92a49b313b227cc65af9a31dbab5ad",
+      "sha256": "a5a5adf104006e9b6d3bdfc5a2e295132a543ec828fb299de76e7c3db282b165"
+    },
+    {
+      "path": "src/epicf_benchmark/models.py",
+      "bytes": 4047,
+      "git_blob_sha1": "a588463b3e89d69011c9bf5a2ff46e4b526deb79",
+      "sha256": "a092ad61b46f399de4dc79d8667713ebcaedd1731409bc8b8fedf48fda37b830"
+    },
+    {
+      "path": "src/epicf_benchmark/postprocess.py",
+      "bytes": 3031,
+      "git_blob_sha1": "1d9935acaa6efad804e7414228a042c174c42c59",
+      "sha256": "85fefc50c12273cc20bf7769e721853643a50f4b2c1942840e2aac1f7f8189d0"
+    },
+    {
+      "path": "src/epicf_benchmark/preprocessing.py",
+      "bytes": 8658,
+      "git_blob_sha1": "08f41db1c134e1be770c4f125e393b501dc778e6",
+      "sha256": "1789f1f6840677a980d048bbabd870d408ef95c1699b799d86aa4d10213fb48f"
+    },
+    {
+      "path": "src/epicf_benchmark/st_learner.py",
+      "bytes": 10651,
+      "git_blob_sha1": "1e635afa80cea18b8c4604e328904f0222170e9d",
+      "sha256": "c5d72aa94962b5d062457bbe7591efb6fa0dbadc43ac30b5076f18cdc6638010"
+    },
+    {
+      "path": "src/epicf_benchmark/transformer.py",
+      "bytes": 5897,
+      "git_blob_sha1": "987aa106fd3a5fa6f3722f8f3bff60e89ca65d20",
+      "sha256": "8590a7920075cf56a8f3b86193c6fab38a2c0a9da4e5d3a1e56ba472f86dd56a"
+    }
+  ],
+  "upstream_location": "upstream/epi-cf-benchmark",
+  "historical_source_pin_preserved": true
+}

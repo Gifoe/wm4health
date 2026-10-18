@@ -1,0 +1,13 @@
+# Fixed factual observation-decoder discriminator
+
+This plan is fixed before reading factual diagnostic scores. It measures conditional observation reconstruction with supplied compartment states, not forecasting or causal simulation. No counterfactual target or compartment column is parsed for this phase. Both numeric CSVs use the pinned version1.1 payloads; version1.2's identical signal hashes and changed dictionary are documented separately.
+
+For each setting, verify158 county blocks with168 chronological days and source row order. Read only IDs/date/day, factual target, factual compartment levels, population, native factual actions, ages and mobility. Infectious-compartment values may be read for conservation diagnostics but are excluded from all predictor features because the native17-covariate input excludes them too.
+
+Every county uses days1..111 for least-squares fitting and days112..167 for the factual development diagnostic. Day0 is omitted for every arm because a preceding state for one-day differences is absent. No county is removed; missing/nonfinite required factual values or a shape/order mismatch stops the run. No outcome-dependent choice of split or feature family is allowed.
+
+Report all six fixed arms: training-mean constant; an affine readout of minus the sum of S/E/R/M; affine readout of minus the one-day S change; affine readout of minus the combined S and E changes; linear S/E/R/M levels; and linear levels plus their one-day changes. Fits include an intercept, training-only column centering/scaling and fixed SVD relative cutoff1e-10. Report raw-unit MSE/MAE and per-county errors for all arms, with explicit sample counts. No arm is selected for future counterfactual scoring in this phase. Readout success would show that future state access can assist conditional decoding; it cannot show a model can generate those states from actions.
+
+Separately execute the exact native KDE training function on all factual county trajectories with the published global factual normalization and default bandwidth grid. Export only factual training files using native preprocessing helper bodies; counterfactual files are not generated. Keep the native training-reconstruction bandwidth rule and label all such losses as in-sample. This is a source-path execution/shape check, not a forecast/table reproduction. No counterfactual inference is run and no held-out score chooses a KDE parameter.
+
+Any further counterfactual experiment needs its own frozen information groups, adaptation/normalization/selection policy, simulator-pairing contract and independent held-out targets. A protocol mismatch or ordinary joint-state rollout repair alone is not an accepted new research gap.

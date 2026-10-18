@@ -1,0 +1,136 @@
+{
+  "utc": "2026-10-18T07:49:47.548338+00:00",
+  "status": "INPUT_CONTRACT_AND_FACTUAL_CONTROL_AUDIT_CLOSED_NO_FINAL_DIRECTION",
+  "control_receipt_sha256": "8f1f4f4537d265cef9f8d0848220129dee503e5367ea64396301c0dced7b304a",
+  "native_exit": {
+    "pid": 40128,
+    "exit_code": 0,
+    "utc": "2026-10-18T07:45:15.415507+00:00",
+    "log_sha256": "ca9bb924a170bdc8e86288e601bdbc2e194b718d7f50943a929896ec1a889fae"
+  },
+  "source_sha256": "4f2e758090bd109d2a7ea1061a615328ec7ad947932aef85e66c5ae1c74c4700",
+  "data_sha256": "dc9c01fa6501642ad4b0798e663c1ab3730f60cd0635075e4912bc6d2f261774",
+  "compact_result_files": [
+    {
+      "path": "factual_single_constant_per_block72_v1.csv",
+      "bytes": 9547,
+      "sha256": "94dff44b73b2db477a7616ead66372fee985666f33e79893d9d5864c320adcca"
+    },
+    {
+      "path": "factual_single_stock_complement_per_block72_v1.csv",
+      "bytes": 9552,
+      "sha256": "4226ab4e46d1ea3bc76afd6ee01eb706f3a7aca1738a051b47539f820beeb608"
+    },
+    {
+      "path": "factual_single_minus_delta_S_per_block72_v1.csv",
+      "bytes": 9565,
+      "sha256": "218646136302d852547a6f99b878e0effc3096ea651c6a1a4fa95229acf6d8a7"
+    },
+    {
+      "path": "factual_single_minus_delta_S_E_per_block72_v1.csv",
+      "bytes": 9547,
+      "sha256": "44b0e314e7c46cea0b32e48dabe7d8f416a4e90938a4f5f80bb4c3b1b7cf95f1"
+    },
+    {
+      "path": "factual_single_linear_levels_per_block72_v1.csv",
+      "bytes": 9544,
+      "sha256": "958aceb475689e04e257a78b302b4324bf9c116469570e656336ce18b8d47f70"
+    },
+    {
+      "path": "factual_single_linear_levels_and_changes_per_block72_v1.csv",
+      "bytes": 9546,
+      "sha256": "44763253b93e3b2c650fc37351eff5c282a3cb012394bada46094830036d8eca"
+    },
+    {
+      "path": "NATIVE_KDE_SINGLE_TRAINING72_V1.json",
+      "bytes": 1766,
+      "sha256": "8d425afa4c5157a31972a6da6e3e786808f0bb169b683f4c43ad8192be25d3c8"
+    },
+    {
+      "path": "factual_multi_constant_per_block72_v1.csv",
+      "bytes": 9393,
+      "sha256": "b777653fc227eee1b54e87de45e0c74463116f6c71eed687d5b4e221780e173b"
+    },
+    {
+      "path": "factual_multi_stock_complement_per_block72_v1.csv",
+      "bytes": 9392,
+      "sha256": "8884c6b9960a26ab9722d5e9f0e7bc7efe285dbb4509ce64327fdfc502c4cf8e"
+    },
+    {
+      "path": "factual_multi_minus_delta_S_per_block72_v1.csv",
+      "bytes": 9414,
+      "sha256": "f9ec9848c465d90f68a0bfceb68e287a1507226c5a9c6a2a94004143092549ca"
+    },
+    {
+      "path": "factual_multi_minus_delta_S_E_per_block72_v1.csv",
+      "bytes": 9406,
+      "sha256": "1f623c4c731fcd445c2ec1f9021340d2856b1d3c5fe79f44d04c1a91bb691fde"
+    },
+    {
+      "path": "factual_multi_linear_levels_per_block72_v1.csv",
+      "bytes": 9382,
+      "sha256": "72919fffabfacee50375797900dd0c680cd74e011540cba93827134f31e66992"
+    },
+    {
+      "path": "factual_multi_linear_levels_and_changes_per_block72_v1.csv",
+      "bytes": 9391,
+      "sha256": "7ae75b504a8469d88e1d9d77ed0b06a3735a9383a20800172aff40dc880fe523"
+    },
+    {
+      "path": "NATIVE_KDE_MULTI_TRAINING72_V1.json",
+      "bytes": 1764,
+      "sha256": "aad338d3d362638c625a6bfd4380edf5d9ad538d17e392c974fdcb05d20c76e1"
+    },
+    {
+      "path": "block_identity_single72_v1.csv",
+      "bytes": 15444,
+      "sha256": "b80e914801ef9086cb01a3a07e2e1bff8b258cc380a4765dec16845960528648"
+    },
+    {
+      "path": "block_identity_multi72_v1.csv",
+      "bytes": 15444,
+      "sha256": "40fcee883811ff968a095550381bd8690eda0d0e5043c6f4fc980d56453254e7"
+    },
+    {
+      "path": "BLOCK_IDENTITY_SUMMARY72_V1.json",
+      "bytes": 3217,
+      "sha256": "267bd6c8b7cf596a9c2da702e86481e26142bac0aedefbcb683da4f09e3897e6"
+    }
+  ],
+  "report_hashes": {
+    "literature_review.md": "020c968874738abd2d89d86ebf899b49980f66c400988e1963b9f66722c200ae",
+    "baseline_registry.md": "b352046426306fe4f327815f4f1ba99deb9abda936d4274142c98ea55439401e",
+    "experimental_results.md": "16617a074c8426e867f3fe99741dcfbc935c1c6c8895d2d1425e9b1189c9dbcf",
+    "negative_evidence.md": "db8c474f4bc100e65924d0cba0c9900bd701f0fb5ed5dbd89f4fabf8961f5c70",
+    "hypothesis_space.md": "54acfa3769291eb036b8b0b2c28c6a0075789c6fc14f4e8fe814a4b8b5f47906",
+    "research_ideas.md": "3b20c34c8ea55c68a1397abb6d5cb01393444a4af4626d9dfa92afbf441f1256",
+    "final_research_direction.md": "39c4a73c50eb270ba2d6ce2e8347f36418fb614aff25c293ecabc96d489c8fcd"
+  },
+  "live_c71_processes": [
+    {
+      "ProcessId": 30928,
+      "CommandLine": "\"E:\\Anaconda\\envs\\salt_env\\python.exe\" -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\capture_bounded_campaign71_v1.py formal"
+    },
+    {
+      "ProcessId": 43620,
+      "CommandLine": "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\bounded_campaign71_v1.py formal"
+    },
+    {
+      "ProcessId": 42004,
+      "CommandLine": "\"E:\\Anaconda\\envs\\salt_env\\python.exe\" -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\capture_assessment71_v3.py queue"
+    },
+    {
+      "ProcessId": 1620,
+      "CommandLine": "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\queue_free_simulation71_v3.py"
+    },
+    {
+      "ProcessId": 17868,
+      "CommandLine": "E:\\Anaconda\\envs\\salt_env\\python.exe -I -B -X faulthandler -u D:\\tswm_discovery_20261016_v1\\cycle71\\scripts\\bounded_native71_v1.py --request D:\\tswm_discovery_20261016_v1\\cycle71\\outputs\\formal_seed2026711_bounded01100_v1_request.json"
+    }
+  ],
+  "counterfactual_scoring_executed": false,
+  "new_method": false,
+  "accepted_final_directions": 0,
+  "overall_goal": "ACTIVE_UNACHIEVED",
+  "local_result_data_or_model_files_written": 0
+}

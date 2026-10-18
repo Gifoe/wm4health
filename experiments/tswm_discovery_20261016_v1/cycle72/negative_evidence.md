@@ -1,0 +1,8 @@
+# Negative evidence and implementation limitations
+
+- The predeclared algebraic/simple-linear shortcut did not nearly reconstruct the factual targets on the held-out temporal segment. The stock-complement arm is worse than the constant; generic linear arms have large aggregate errors. Do not claim the benchmark can be solved without dynamics from this experiment.
+- An input contract containing scenario-specific future compartment states differs from history-and-plan-only simulation. This is a capability boundary, not proof that the original paper is invalid, that its target is a controlled direct effect, or that a new architecture is necessary.
+- General forward simulation of unknown endogenous covariates is already covered by g-computation model families. A routine information-availability correction or reimplementation is insufficient novelty.
+- Five duplicate-ID pairs match on the selected factual fields; do not count158 independent counties or assume duplicate seed/CF pairing. Original source blocks were retained, not silently filtered.
+- The first qualification import failed because the shared runtime lacked pandas; a pinned project-local prefix fixed it without changing shared NumPy/Torch. The first factual adapter stopped on a CUDA-visibility assertion before data access; explicit CPU allocation/hiding was then checked. The second stopped on the incorrect158-unique-ID expectation before fitting. The preserved failures are implementation/identity issues, not model-performance deficits.
+- C72 performs no CF scoring, probability-calibration reproduction, independent held-out county evaluation or new-method validation. It cannot complete the research-discovery goal.

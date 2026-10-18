@@ -1,0 +1,86 @@
+{
+  "utc": "2026-10-18T07:43:04.842992+00:00",
+  "status": "FACTUAL_MISSINGNESS_GATE_AUDITED_BEFORE_FITTING",
+  "settings": [
+    {
+      "setting": "single",
+      "rows": 26544,
+      "counties": 153,
+      "county_row_count_distribution": {
+        "168": 148,
+        "336": 5
+      },
+      "missing": [],
+      "target_nonfinite": 0,
+      "compartment_nonfinite": 0,
+      "factual_columns_parsed": [
+        "county",
+        "date",
+        "day",
+        "population_size",
+        "0-F",
+        "treatment",
+        "U19",
+        "20t29",
+        "30t39",
+        "40t49",
+        "50t64",
+        "65A",
+        "retail_and_recreation_percent_change_from_baseline",
+        "grocery_and_pharmacy_percent_change_from_baseline",
+        "parks_percent_change_from_baseline",
+        "transit_stations_percent_change_from_baseline",
+        "workplaces_percent_change_from_baseline",
+        "residential_percent_change_from_baseline",
+        "susceptible_sch=0-occ=F",
+        "exposed_sch=0-occ=F",
+        "recovered_sch=0-occ=F",
+        "dead_sch=0-occ=F",
+        "infected_sch=0-occ=F"
+      ],
+      "counterfactual_columns_parsed": false
+    },
+    {
+      "setting": "multi",
+      "rows": 26544,
+      "counties": 153,
+      "county_row_count_distribution": {
+        "168": 148,
+        "336": 5
+      },
+      "missing": [],
+      "target_nonfinite": 0,
+      "compartment_nonfinite": 0,
+      "factual_columns_parsed": [
+        "county",
+        "date",
+        "day",
+        "population_size",
+        "F-F",
+        "school_treatment",
+        "occ_treatment",
+        "U19",
+        "20t29",
+        "30t39",
+        "40t49",
+        "50t64",
+        "65A",
+        "retail_and_recreation_percent_change_from_baseline",
+        "grocery_and_pharmacy_percent_change_from_baseline",
+        "parks_percent_change_from_baseline",
+        "transit_stations_percent_change_from_baseline",
+        "workplaces_percent_change_from_baseline",
+        "residential_percent_change_from_baseline",
+        "susceptible_F-F",
+        "exposed_F-F",
+        "recovered_F-F",
+        "dead_F-F",
+        "infected_F-F"
+      ],
+      "counterfactual_columns_parsed": false
+    }
+  ],
+  "forecasts_computed": 0,
+  "test_targets_accessed": false,
+  "no_rows_or_counties_removed": true
+}

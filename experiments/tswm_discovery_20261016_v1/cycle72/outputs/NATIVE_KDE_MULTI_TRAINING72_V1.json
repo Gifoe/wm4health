@@ -1,0 +1,54 @@
+{
+  "setting": "multi",
+  "source_body_changed": false,
+  "training_only": true,
+  "forecast_inference_executed": false,
+  "all_native_training_tensors_on_cpu": true,
+  "bandwidth_grid": [
+    0.1,
+    0.2,
+    0.3,
+    0.5,
+    0.8,
+    1.0,
+    1.5,
+    2.0
+  ],
+  "selected_bandwidth": 0.1,
+  "selection_rule": "Native in-sample reconstruction includes self neighbors; not validation selection",
+  "artifact_storage": "checkpoint_root/cycle72/native_kde_multi_v3",
+  "artifacts": [
+    {
+      "file": "best_bandwidth.txt",
+      "bytes": 3,
+      "sha256": "14be4b45f18e0d8c67b4f719b5144eee88497e413709d11d85b096d8e2346310"
+    },
+    {
+      "file": "y_train.npy",
+      "bytes": 106304,
+      "sha256": "6c7c339f095f343306655d2486061a5fab25bcdf60aaca23796e023dc697f954"
+    },
+    {
+      "file": "z_mean.npy",
+      "bytes": 12896,
+      "sha256": "0a680a57f6a4921cbbb74bedb3022c40cc17746e704158184e57e4f90f0381b1"
+    },
+    {
+      "file": "z_std.npy",
+      "bytes": 12896,
+      "sha256": "ab3314e45e9c0a1204632cd43355405b12470304eade650425320897e98f1d26"
+    },
+    {
+      "file": "z_train.npy",
+      "bytes": 2017472,
+      "sha256": "c2a9ccac1b37ad2cd458d02e765df01ae0f77795be5a0a4d8881f648d67ebd71"
+    }
+  ],
+  "log_sha256": "85fb29921a8fcfed0090d45a3bbd7698ee3c609356717a5f2f4b6a7aa18df2dc",
+  "normalized_training_export_hashes": {
+    "y_train.csv": "7253c7a17d46f3537bd477b383a600f8b791aede9d4cc8a1e711a8d8e10e2c44",
+    "a_train.csv": "ba8f8e317c4d4d8c3110df635a2aad6b314f83d3e2e5c0caf093a2f9561ed63d",
+    "x_train.csv": "65d2b0b1cbf66f4152e66ee4872aa60b7289323ff3608b358a604b26098b207e",
+    "outcome_stats.json": "15bbac4d05e10c374b85f17811dac5fdbad5756599c7f0bf28e2887c6b881314"
+  }
+}

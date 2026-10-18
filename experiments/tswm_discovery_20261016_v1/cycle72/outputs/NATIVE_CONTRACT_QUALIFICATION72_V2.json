@@ -1,0 +1,332 @@
+{
+  "utc": "2026-10-18T07:37:58.445521+00:00",
+  "status": "PINNED_NATIVE_INPUT_CONTRACT_EXECUTED_ON_CONSTRUCTED_SENTINELS",
+  "revision": "8f7df27507dc8b01422bb373417c8d0d3efffae2",
+  "native_functions": [
+    "preprocess_single",
+    "preprocess_multi",
+    "FluDataset",
+    "collect_x",
+    "flatten_features"
+  ],
+  "single_counterfactual_states_directly_enter_loader": true,
+  "number_changed_test_input_values": 48,
+  "train_exports_unchanged_under_counterfactual_mediator_change": {
+    "y_train.csv": true,
+    "x_train.csv": true,
+    "a_train.csv": true,
+    "outcome_stats.json": true
+  },
+  "counterfactual_target_export_unchanged": true,
+  "native_kde_flattened_input_contains_whole_supplied_sequence": true,
+  "multi_counterfactual_scenarios": 3,
+  "multi_test_units_multiplier": 3,
+  "multi_default_training_unit_count_cannot_reshape_stacked_test": true,
+  "constructed_shape_error": {
+    "type": "ValueError",
+    "message": "cannot reshape array of size 36 into shape (3,4)"
+  },
+  "explicit_threefold_test_unit_count_succeeds": true,
+  "benchmark_numeric_targets_accessed": false,
+  "performance_evidence": false,
+  "new_method": false,
+  "accepted_final_directions": 0,
+  "artifacts": {
+    "storage": "artifact_root/cycle72/native_contract_v1",
+    "synthetic_only": true
+  },
+  "runtime": {
+    "torch": "2.11.0+cu128",
+    "numpy": "2.4.3",
+    "cuda_available": true,
+    "numeric_threads": 2,
+    "affinity": {
+      "mode": "efficient",
+      "original_process_mask": "0xffffffff",
+      "current_process_mask": "0xffff0000",
+      "available_efficiency_classes": [
+        0,
+        1
+      ],
+      "selected_logical_processors": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "cpu_sets": [
+        {
+          "id": 256,
+          "group": 0,
+          "logical_processor": 0,
+          "core": 0,
+          "efficiency_class": 1,
+          "flags": 0
+        },
+        {
+          "id": 257,
+          "group": 0,
+          "logical_processor": 1,
+          "core": 0,
+          "efficiency_class": 1,
+          "flags": 1
+        },
+        {
+          "id": 258,
+          "group": 0,
+          "logical_processor": 2,
+          "core": 2,
+          "efficiency_class": 1,
+          "flags": 0
+        },
+        {
+          "id": 259,
+          "group": 0,
+          "logical_processor": 3,
+          "core": 2,
+          "efficiency_class": 1,
+          "flags": 1
+        },
+        {
+          "id": 260,
+          "group": 0,
+          "logical_processor": 4,
+          "core": 4,
+          "efficiency_class": 1,
+          "flags": 0
+        },
+        {
+          "id": 261,
+          "group": 0,
+          "logical_processor": 5,
+          "core": 4,
+          "efficiency_class": 1,
+          "flags": 1
+        },
+        {
+          "id": 262,
+          "group": 0,
+          "logical_processor": 6,
+          "core": 6,
+          "efficiency_class": 1,
+          "flags": 0
+        },
+        {
+          "id": 263,
+          "group": 0,
+          "logical_processor": 7,
+          "core": 6,
+          "efficiency_class": 1,
+          "flags": 1
+        },
+        {
+          "id": 264,
+          "group": 0,
+          "logical_processor": 8,
+          "core": 8,
+          "efficiency_class": 1,
+          "flags": 0
+        },
+        {
+          "id": 265,
+          "group": 0,
+          "logical_processor": 9,
+          "core": 8,
+          "efficiency_class": 1,
+          "flags": 0
+        },
+        {
+          "id": 266,
+          "group": 0,
+          "logical_processor": 10,
+          "core": 10,
+          "efficiency_class": 1,
+          "flags": 0
+        },
+        {
+          "id": 267,
+          "group": 0,
+          "logical_processor": 11,
+          "core": 10,
+          "efficiency_class": 1,
+          "flags": 1
+        },
+        {
+          "id": 268,
+          "group": 0,
+          "logical_processor": 12,
+          "core": 12,
+          "efficiency_class": 1,
+          "flags": 0
+        },
+        {
+          "id": 269,
+          "group": 0,
+          "logical_processor": 13,
+          "core": 12,
+          "efficiency_class": 1,
+          "flags": 1
+        },
+        {
+          "id": 270,
+          "group": 0,
+          "logical_processor": 14,
+          "core": 14,
+          "efficiency_class": 1,
+          "flags": 0
+        },
+        {
+          "id": 271,
+          "group": 0,
+          "logical_processor": 15,
+          "core": 14,
+          "efficiency_class": 1,
+          "flags": 1
+        },
+        {
+          "id": 272,
+          "group": 0,
+          "logical_processor": 16,
+          "core": 16,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 273,
+          "group": 0,
+          "logical_processor": 17,
+          "core": 17,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 274,
+          "group": 0,
+          "logical_processor": 18,
+          "core": 18,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 275,
+          "group": 0,
+          "logical_processor": 19,
+          "core": 19,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 276,
+          "group": 0,
+          "logical_processor": 20,
+          "core": 20,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 277,
+          "group": 0,
+          "logical_processor": 21,
+          "core": 21,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 278,
+          "group": 0,
+          "logical_processor": 22,
+          "core": 22,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 279,
+          "group": 0,
+          "logical_processor": 23,
+          "core": 23,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 280,
+          "group": 0,
+          "logical_processor": 24,
+          "core": 24,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 281,
+          "group": 0,
+          "logical_processor": 25,
+          "core": 25,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 282,
+          "group": 0,
+          "logical_processor": 26,
+          "core": 26,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 283,
+          "group": 0,
+          "logical_processor": 27,
+          "core": 27,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 284,
+          "group": 0,
+          "logical_processor": 28,
+          "core": 28,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 285,
+          "group": 0,
+          "logical_processor": 29,
+          "core": 29,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 286,
+          "group": 0,
+          "logical_processor": 30,
+          "core": 30,
+          "efficiency_class": 0,
+          "flags": 0
+        },
+        {
+          "id": 287,
+          "group": 0,
+          "logical_processor": 31,
+          "core": 31,
+          "efficiency_class": 0,
+          "flags": 0
+        }
+      ],
+      "system_configuration_modified": false,
+      "other_processes_modified": false,
+      "interpretation": "Process-local execution control, not a diagnosis or a proven hardware remedy"
+    }
+  }
+}
