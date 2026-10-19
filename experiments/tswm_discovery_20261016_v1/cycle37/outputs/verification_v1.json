@@ -1,0 +1,100 @@
+{
+  "passed": true,
+  "utc": "2026-10-16T23:03:43.698967+00:00",
+  "seconds": 50.780999999988126,
+  "neural_fits_verified": 12,
+  "hgb_point_models_replayed": 2,
+  "score_cells_verified": 504,
+  "max_score_abs": 1.2115630720899162e-10,
+  "max_prediction_abs": 0.0,
+  "checks": [
+    {
+      "dataset": "wind",
+      "kind": "quantile_mlp",
+      "seed": 2026371,
+      "max_prediction_abs": 0.0,
+      "initial_and_selected_hash_verified": true
+    },
+    {
+      "dataset": "wind",
+      "kind": "kite_l1",
+      "seed": 2026371,
+      "max_prediction_abs": 0.0,
+      "initial_and_selected_hash_verified": true
+    },
+    {
+      "dataset": "wind",
+      "kind": "kite_l2",
+      "seed": 2026371,
+      "max_prediction_abs": 0.0,
+      "initial_and_selected_hash_verified": true
+    },
+    {
+      "dataset": "wind",
+      "kind": "quantile_mlp",
+      "seed": 2026372,
+      "max_prediction_abs": 0.0,
+      "initial_and_selected_hash_verified": true
+    },
+    {
+      "dataset": "wind",
+      "kind": "kite_l1",
+      "seed": 2026372,
+      "max_prediction_abs": 0.0,
+      "initial_and_selected_hash_verified": true
+    },
+    {
+      "dataset": "wind",
+      "kind": "kite_l2",
+      "seed": 2026372,
+      "max_prediction_abs": 0.0,
+      "initial_and_selected_hash_verified": true
+    },
+    {
+      "dataset": "solar",
+      "kind": "quantile_mlp",
+      "seed": 2026371,
+      "max_prediction_abs": 0.0,
+      "initial_and_selected_hash_verified": true
+    },
+    {
+      "dataset": "solar",
+      "kind": "kite_l1",
+      "seed": 2026371,
+      "max_prediction_abs": 0.0,
+      "initial_and_selected_hash_verified": true
+    },
+    {
+      "dataset": "solar",
+      "kind": "kite_l2",
+      "seed": 2026371,
+      "max_prediction_abs": 0.0,
+      "initial_and_selected_hash_verified": true
+    },
+    {
+      "dataset": "solar",
+      "kind": "quantile_mlp",
+      "seed": 2026372,
+      "max_prediction_abs": 0.0,
+      "initial_and_selected_hash_verified": true
+    },
+    {
+      "dataset": "solar",
+      "kind": "kite_l1",
+      "seed": 2026372,
+      "max_prediction_abs": 0.0,
+      "initial_and_selected_hash_verified": true
+    },
+    {
+      "dataset": "solar",
+      "kind": "kite_l2",
+      "seed": 2026372,
+      "max_prediction_abs": 0.0,
+      "initial_and_selected_hash_verified": true
+    }
+  ],
+  "test_scored": false,
+  "results_sha256": "e8fc6760fde6815b1f3d35c2ed31c346fb3d2ec7e732094e2e2a6447204e0dac",
+  "verifier_sha256": "743c43965911dc07b4b21e630ddb0acab1f573c6728b505f4be39307acd7b004",
+  "accepted_research_directions": 0
+}

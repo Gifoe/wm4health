@@ -1,0 +1,6 @@
+# Negative evidence
+
+1. Candidate claim: a model that accurately simulates unforced trajectories yet responds poorly requires a new dynamics/representation architecture. This observation alone is insufficient: exact passive maps show the failure under endpoint forcing. Linear input discretization and ordinary finer input insertion are necessary controls. Table in experimental_results.md contains all predeclared cases;no method selected after scoring.
+2. Generic forecast-versus-simulation,non-Markovian residuals,multiplicative noise,response validation and physics-map-plus-memory claims are occupied by [Falasca2025 exact v4](https://arxiv.org/html/2506.22552v4), [Falasca–Zanna2026 exact v5](https://arxiv.org/html/2602.13847v5), [pinned source](https://github.com/FabriFalasca/Physics-and-causally-constrained-neural-models/tree/398082d6dcee2e9d42832dfcd39febfa48c383dd). The 2026v5 Sec5.4 memory extension must not be omitted.
+3. Source-native h=.01 is not erroneous. The failure is in an explicitly coarsened extension. This audit does not reproduce original neural-model scores or refute the paper.
+4. Full-state exact-source control cannot establish a remaining learned partial-observation gap. No final direction accepted. Earlier cycle25 universal harmful-update claim remains downgraded;do not recycle it as motivation.

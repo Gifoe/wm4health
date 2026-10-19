@@ -1,0 +1,178 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "data": "wind",
+      "model": "quantile_mlp",
+      "parameter_count": 254088,
+      "initial_sha256": "4a3641553f1946a0f06e45633bb19d5490fb376aa2cf4f6d3773917a1a0a6a25",
+      "three_step_seconds": [
+        0.449197500012815,
+        0.00422549998620525,
+        0.003770400013308972
+      ],
+      "none_gradient_parameters": [],
+      "native_mean_vs_path_mean_max_abs": null,
+      "inference_state_unchanged": true
+    },
+    {
+      "data": "wind",
+      "model": "kite_l1",
+      "parameter_count": 361477,
+      "initial_sha256": "97e7408b08cd40c2573352a2b73c8ae27a21785a50f49d54616437f614d3c2e6",
+      "three_step_seconds": [
+        0.2723483000008855,
+        0.0547153000079561,
+        0.05148699998972006
+      ],
+      "none_gradient_parameters": [
+        "flow_matching.net.cond_embed_x.0.attn.prior_bias",
+        "flow_matching.net.cond_embed_x.1.attn.prior_bias",
+        "flow_matching.net.cond_embed_y.0.attn.prior_bias",
+        "flow_matching.net.cond_embed_y.1.attn.prior_bias",
+        "flow_matching.net.res_blocks.0.in_ln.weight",
+        "flow_matching.net.res_blocks.0.in_ln.bias",
+        "flow_matching.net.res_blocks.0.mlp.0.weight",
+        "flow_matching.net.res_blocks.0.mlp.0.bias",
+        "flow_matching.net.res_blocks.0.mlp.2.weight",
+        "flow_matching.net.res_blocks.0.mlp.2.bias",
+        "flow_matching.net.res_blocks.0.adaLN_modulation.1.weight",
+        "flow_matching.net.res_blocks.0.adaLN_modulation.1.bias",
+        "flow_matching.net.res_blocks.1.in_ln.weight",
+        "flow_matching.net.res_blocks.1.in_ln.bias",
+        "flow_matching.net.res_blocks.1.mlp.0.weight",
+        "flow_matching.net.res_blocks.1.mlp.0.bias",
+        "flow_matching.net.res_blocks.1.mlp.2.weight",
+        "flow_matching.net.res_blocks.1.mlp.2.bias",
+        "flow_matching.net.res_blocks.1.adaLN_modulation.1.weight",
+        "flow_matching.net.res_blocks.1.adaLN_modulation.1.bias"
+      ],
+      "native_mean_vs_path_mean_max_abs": 9.328747663239767e-08,
+      "inference_state_unchanged": true
+    },
+    {
+      "data": "wind",
+      "model": "kite_l2",
+      "parameter_count": 361477,
+      "initial_sha256": "97e7408b08cd40c2573352a2b73c8ae27a21785a50f49d54616437f614d3c2e6",
+      "three_step_seconds": [
+        0.06976109999231994,
+        0.04875059999176301,
+        0.047649099986301735
+      ],
+      "none_gradient_parameters": [
+        "flow_matching.net.cond_embed_x.0.attn.prior_bias",
+        "flow_matching.net.cond_embed_x.1.attn.prior_bias",
+        "flow_matching.net.cond_embed_y.0.attn.prior_bias",
+        "flow_matching.net.cond_embed_y.1.attn.prior_bias",
+        "flow_matching.net.res_blocks.0.in_ln.weight",
+        "flow_matching.net.res_blocks.0.in_ln.bias",
+        "flow_matching.net.res_blocks.0.mlp.0.weight",
+        "flow_matching.net.res_blocks.0.mlp.0.bias",
+        "flow_matching.net.res_blocks.0.mlp.2.weight",
+        "flow_matching.net.res_blocks.0.mlp.2.bias",
+        "flow_matching.net.res_blocks.0.adaLN_modulation.1.weight",
+        "flow_matching.net.res_blocks.0.adaLN_modulation.1.bias",
+        "flow_matching.net.res_blocks.1.in_ln.weight",
+        "flow_matching.net.res_blocks.1.in_ln.bias",
+        "flow_matching.net.res_blocks.1.mlp.0.weight",
+        "flow_matching.net.res_blocks.1.mlp.0.bias",
+        "flow_matching.net.res_blocks.1.mlp.2.weight",
+        "flow_matching.net.res_blocks.1.mlp.2.bias",
+        "flow_matching.net.res_blocks.1.adaLN_modulation.1.weight",
+        "flow_matching.net.res_blocks.1.adaLN_modulation.1.bias"
+      ],
+      "native_mean_vs_path_mean_max_abs": 6.784543760129935e-08,
+      "inference_state_unchanged": true
+    },
+    {
+      "data": "solar",
+      "model": "quantile_mlp",
+      "parameter_count": 401544,
+      "initial_sha256": "f5f00b32d5b3be69f21a9a94d13143babe703fa363031adfbdf2b0a87ee2c95b",
+      "three_step_seconds": [
+        0.005274099996313453,
+        0.004041200008941814,
+        0.004058799997437745
+      ],
+      "none_gradient_parameters": [],
+      "native_mean_vs_path_mean_max_abs": null,
+      "inference_state_unchanged": true
+    },
+    {
+      "data": "solar",
+      "model": "kite_l1",
+      "parameter_count": 364037,
+      "initial_sha256": "0cc9b941da6faedc04a4991d513eaab876bc6fc6fe51a55e4f46b93adde73dcb",
+      "three_step_seconds": [
+        0.05242330001783557,
+        0.04845619999105111,
+        0.060964400006923825
+      ],
+      "none_gradient_parameters": [
+        "flow_matching.net.cond_embed_x.0.attn.prior_bias",
+        "flow_matching.net.cond_embed_x.1.attn.prior_bias",
+        "flow_matching.net.cond_embed_y.0.attn.prior_bias",
+        "flow_matching.net.cond_embed_y.1.attn.prior_bias",
+        "flow_matching.net.res_blocks.0.in_ln.weight",
+        "flow_matching.net.res_blocks.0.in_ln.bias",
+        "flow_matching.net.res_blocks.0.mlp.0.weight",
+        "flow_matching.net.res_blocks.0.mlp.0.bias",
+        "flow_matching.net.res_blocks.0.mlp.2.weight",
+        "flow_matching.net.res_blocks.0.mlp.2.bias",
+        "flow_matching.net.res_blocks.0.adaLN_modulation.1.weight",
+        "flow_matching.net.res_blocks.0.adaLN_modulation.1.bias",
+        "flow_matching.net.res_blocks.1.in_ln.weight",
+        "flow_matching.net.res_blocks.1.in_ln.bias",
+        "flow_matching.net.res_blocks.1.mlp.0.weight",
+        "flow_matching.net.res_blocks.1.mlp.0.bias",
+        "flow_matching.net.res_blocks.1.mlp.2.weight",
+        "flow_matching.net.res_blocks.1.mlp.2.bias",
+        "flow_matching.net.res_blocks.1.adaLN_modulation.1.weight",
+        "flow_matching.net.res_blocks.1.adaLN_modulation.1.bias"
+      ],
+      "native_mean_vs_path_mean_max_abs": 4.660170241366224e-08,
+      "inference_state_unchanged": true
+    },
+    {
+      "data": "solar",
+      "model": "kite_l2",
+      "parameter_count": 364037,
+      "initial_sha256": "0cc9b941da6faedc04a4991d513eaab876bc6fc6fe51a55e4f46b93adde73dcb",
+      "three_step_seconds": [
+        0.05540620000101626,
+        0.048059599997941405,
+        0.04995769998640753
+      ],
+      "none_gradient_parameters": [
+        "flow_matching.net.cond_embed_x.0.attn.prior_bias",
+        "flow_matching.net.cond_embed_x.1.attn.prior_bias",
+        "flow_matching.net.cond_embed_y.0.attn.prior_bias",
+        "flow_matching.net.cond_embed_y.1.attn.prior_bias",
+        "flow_matching.net.res_blocks.0.in_ln.weight",
+        "flow_matching.net.res_blocks.0.in_ln.bias",
+        "flow_matching.net.res_blocks.0.mlp.0.weight",
+        "flow_matching.net.res_blocks.0.mlp.0.bias",
+        "flow_matching.net.res_blocks.0.mlp.2.weight",
+        "flow_matching.net.res_blocks.0.mlp.2.bias",
+        "flow_matching.net.res_blocks.0.adaLN_modulation.1.weight",
+        "flow_matching.net.res_blocks.0.adaLN_modulation.1.bias",
+        "flow_matching.net.res_blocks.1.in_ln.weight",
+        "flow_matching.net.res_blocks.1.in_ln.bias",
+        "flow_matching.net.res_blocks.1.mlp.0.weight",
+        "flow_matching.net.res_blocks.1.mlp.0.bias",
+        "flow_matching.net.res_blocks.1.mlp.2.weight",
+        "flow_matching.net.res_blocks.1.mlp.2.bias",
+        "flow_matching.net.res_blocks.1.adaLN_modulation.1.weight",
+        "flow_matching.net.res_blocks.1.adaLN_modulation.1.bias"
+      ],
+      "native_mean_vs_path_mean_max_abs": 3.807626075547077e-08,
+      "inference_state_unchanged": true
+    }
+  ],
+  "no_val_or_test_scores": true,
+  "qualification_updates": 18,
+  "protocol_sha256": "a61e1d90741ac889c571e598bf0e44bef888fc77a2db45bda15e05ed24717adc",
+  "common_sha256": "3b364c2abebfdb4de721cc3c48a2d7ced766310032ea5583772003ed654d97d4",
+  "data_script_sha256": "c4285e02fc5571f5e66699e5f640c0966e6a2e5b4a25ca6c4315c46c26da5bfc"
+}

@@ -1,0 +1,91 @@
+{
+  "sources": [
+    {
+      "name": "cascaded_tanks",
+      "status": "downloaded_and_schema_checked",
+      "source_page": "https://www.nonlinearbenchmark.org/benchmarks/cascaded-tanks",
+      "url": "https://data.4tu.nl/file/d4810b78-6cdd-48fe-8950-9bd601e5f47f/3b697e42-01a4-4979-a370-813a456c36f5",
+      "final_url": "https://data.4tu.nl/file/d4810b78-6cdd-48fe-8950-9bd601e5f47f/3b697e42-01a4-4979-a370-813a456c36f5",
+      "archive_bytes": 7520592,
+      "archive_sha256": "eb0fa05851e8a7136846c2e3b61fbef87def78d0852c86ab91b02ac5db541b51",
+      "archive_member": "CascadedTanksFiles/dataBenchmark.mat",
+      "member": "dataBenchmark.mat",
+      "member_bytes": 24401,
+      "member_sha256": "cb2f88d4388be4d3f2a24c6402fba804976aac5f2e1f26cda59ea0a38d016eab",
+      "loader_version": "nonlinear_benchmarks1.0.1",
+      "loader_sha256": "08806883517ebd62d8ac81fd41b7cdf3db5ebc8e3cdc0d68bdc420561e065401",
+      "schema": {
+        "uEst": {
+          "shape": [
+            1024,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "uVal": {
+          "shape": [
+            1024,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "yEst": {
+          "shape": [
+            1024,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "yVal": {
+          "shape": [
+            1024,
+            1
+          ],
+          "dtype": "float64"
+        },
+        "Ts": {
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "uint8"
+        }
+      },
+      "failed_attempts": [],
+      "no_model_performance": true
+    },
+    {
+      "name": "silverbox",
+      "status": "acquisition_unavailable",
+      "attempts": [
+        {
+          "url": "https://drive.usercontent.google.com/download?id=17iS-6oBUUgrmiAcrZoG9S5sOaljZnDSy&export=download&confirm=t",
+          "error": "URLError: <urlopen error [WinError 10060] \u7531\u4e8e\u8fde\u63a5\u65b9\u5728\u4e00\u6bb5\u65f6\u95f4\u540e\u6ca1\u6709\u6b63\u786e\u7b54\u590d\u6216\u8fde\u63a5\u7684\u4e3b\u673a\u6ca1\u6709\u53cd\u5e94\uff0c\u8fde\u63a5\u5c1d\u8bd5\u5931\u8d25\u3002>"
+        },
+        {
+          "url": "https://drive.google.com/uc?export=download&id=17iS-6oBUUgrmiAcrZoG9S5sOaljZnDSy",
+          "error": "URLError: <urlopen error [WinError 10061] \u7531\u4e8e\u76ee\u6807\u8ba1\u7b97\u673a\u79ef\u6781\u62d2\u7edd\uff0c\u65e0\u6cd5\u8fde\u63a5\u3002>"
+        }
+      ],
+      "source_page": "https://www.nonlinearbenchmark.org/benchmarks/silverbox"
+    },
+    {
+      "name": "wiener_hammerstein",
+      "status": "acquisition_unavailable",
+      "attempts": [
+        {
+          "url": "https://www.ee.kth.se/~hjalmars/ifac_tc11_benchmarks/2009_wienerhammerstein/WienerHammerBenchMark.mat",
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)>"
+        },
+        {
+          "url": "http://www.ee.kth.se/~hjalmars/ifac_tc11_benchmarks/2009_wienerhammerstein/WienerHammerBenchMark.mat",
+          "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)>"
+        }
+      ],
+      "source_page": "https://www.nonlinearbenchmark.org/benchmarks/wiener-hammerstein"
+    }
+  ],
+  "elapsed_s": 52.062000000005355,
+  "script_sha256": "57dcecab05d92899c29f413783b64909bd86db2a28b05defe96e46b136e99d14",
+  "scope": "author-source public acquisition/schema only; no new model inference or test selection"
+}

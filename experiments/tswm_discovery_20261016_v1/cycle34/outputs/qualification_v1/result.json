@@ -1,0 +1,155 @@
+{
+  "status": "qualified_pending_independent_replay",
+  "locks": {
+    "source_manifest_sha256": "467de54a30d321147d7ae60f96772e8e8365f26a9080639dfd697df231ed9a10",
+    "asset_manifest_sha256": "d1efc0524bf7aaec12e21d9eb2b1408a49da32c3046fdfba8cd45f1765b482bd",
+    "common_sha256": "4a3473ad6247d598446e5804f8cbf19e4c3aaf58e2774e8bff79394a8f94e46a",
+    "plan_sha256": "16c46ae6bdcbd3b1b255ff61a0cc3f0e8dc526502eac5cd8af5f6533c7a1e6a7"
+  },
+  "records": [
+    {
+      "name": "deterministic_api_fixture",
+      "not_a_scientific_dataset": true,
+      "shape": [
+        2,
+        4,
+        96
+      ],
+      "controlled_native_rng_calls": [
+        [
+          8,
+          720
+        ]
+      ],
+      "native_flow_rng_calls": [
+        [
+          8,
+          720
+        ]
+      ],
+      "relative_errors": {
+        "api_vs_cached_native_flow": 0.0,
+        "api_vs_explicit_noise": 0.0,
+        "explicit_prefix_vs_full": 0.0,
+        "native_prefix_vs_full": 0.0
+      },
+      "fixture_path": "deterministic_api_fixture.npz",
+      "fixture_sha256": "07a8a6a4671d1686d88db7ff3717f875f97ba527d141b4770ee461a00e66756b"
+    },
+    {
+      "name": "solar",
+      "data_path": "assets\\fev\\solar_with_weather\\15T\\train-00000-of-00001.parquet",
+      "data_sha256": "b44068eb97346134134015763d428ef6fe0b7ec91c38bdc49f987e15aa06ecbb",
+      "id": "0",
+      "target_field": "target",
+      "history_start_index": 864,
+      "history_start_timestamp": "2017-01-10T00:00:00.000",
+      "history_end_timestamp": "2017-01-16T23:45:00.000",
+      "full_points": 198600,
+      "full_nonfinite": 1824,
+      "source_row_count": 1,
+      "history_finite": true,
+      "no_data_future_used": true,
+      "shape": [
+        1,
+        4,
+        96
+      ],
+      "controlled_native_rng_calls": [
+        [
+          4,
+          720
+        ]
+      ],
+      "native_flow_rng_calls": [
+        [
+          4,
+          720
+        ]
+      ],
+      "relative_errors": {
+        "api_vs_cached_native_flow": 0.0,
+        "api_vs_explicit_noise": 0.0,
+        "explicit_prefix_vs_full": 0.0,
+        "native_prefix_vs_full": 0.0
+      },
+      "fixture_path": "solar.npz",
+      "fixture_sha256": "34f94b1093c0fc10d43a04bba308eb133e088ed8355790049208757178b2d0f5"
+    },
+    {
+      "name": "jena",
+      "data_path": "assets\\fev\\jena_weather\\10T\\train-00000-of-00001.parquet",
+      "data_sha256": "22ce21756dfae541d740b0756330ab5181befcd797274aa5b27a0c3747cb5b0c",
+      "id": "item_0",
+      "target_field": "target_0",
+      "history_start_index": 0,
+      "history_start_timestamp": "2020-01-01T00:10:00.000",
+      "history_end_timestamp": "2020-01-05T16:00:00.000",
+      "full_points": 52704,
+      "full_nonfinite": 9,
+      "source_row_count": 1,
+      "history_finite": true,
+      "no_data_future_used": true,
+      "shape": [
+        1,
+        4,
+        96
+      ],
+      "controlled_native_rng_calls": [
+        [
+          4,
+          720
+        ]
+      ],
+      "native_flow_rng_calls": [
+        [
+          4,
+          720
+        ]
+      ],
+      "relative_errors": {
+        "api_vs_cached_native_flow": 0.0,
+        "api_vs_explicit_noise": 0.0,
+        "explicit_prefix_vs_full": 0.0,
+        "native_prefix_vs_full": 0.0
+      },
+      "fixture_path": "jena.npz",
+      "fixture_sha256": "67794851a72330471fbd6297b0a4c552bae3a2b2f6576f53261a44b4d0d814d1"
+    }
+  ],
+  "runtime": {
+    "python": "D:\\tswm_discovery_20261016_v1\\.venv\\Scripts\\python.exe",
+    "packages": {
+      "torch": "2.8.0+cu128",
+      "transformers": "4.40.1",
+      "huggingface-hub": "0.23.5",
+      "tokenizers": "0.19.1",
+      "safetensors": "0.7.0",
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "pyarrow": "25.0.1",
+      "regex": "2024.5.15"
+    },
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "torch_threads": 1,
+    "tf32": false
+  },
+  "script_sha256": "4d35d3e68d13f30dbc620de8ec7258e12b69523114cd9e5947163f2019e403c5",
+  "model_state_before": "e5f97541e7db60e8378f075c631e85a9cfaa959c75e5483de17640bb1b08c42d",
+  "model_state_after": "e5f97541e7db60e8378f075c631e85a9cfaa959c75e5483de17640bb1b08c42d",
+  "parameters": 128329680,
+  "native_steps": 50,
+  "noise_dimension": 720,
+  "qualified_horizon": 96,
+  "gradient": {
+    "analytic": 1.4581265449523926,
+    "finite_difference": 1.4617919921875,
+    "step": 0.01,
+    "symmetric_relative_error": 0.0012553247404542473,
+    "fixture_sha256": "63b72469f3a361f067168007585ef2ecccc4eb58da80b1dadce5ff5b9886c020"
+  },
+  "peak_allocated_bytes": 595270144,
+  "seconds": 10.528710800004774,
+  "not_a_method_validation": true,
+  "accepted_research_directions": 0
+}

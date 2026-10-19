@@ -1,0 +1,1969 @@
+{
+  "config": {
+    "rho": 0.9,
+    "rotation_radians": 0.3,
+    "flip_probabilities": [
+      0.0,
+      0.1,
+      0.25,
+      0.4,
+      0.5
+    ],
+    "horizons": [
+      1,
+      8
+    ],
+    "seeds": [
+      2021,
+      2022,
+      2023
+    ],
+    "n_contexts": 32768,
+    "oracle_conditional_replicates": 2,
+    "scope": "Exact-kernel diagnostic, not a native method reproduction or new method",
+    "normalization": [
+      "Gaussian radial",
+      "unit circle"
+    ],
+    "score": "oracle Bayes Energy risk, RMS time-block distance",
+    "paired_grid": true
+  },
+  "score_rows": [
+    {
+      "seed": 2021,
+      "p": 0.0,
+      "horizon": 1,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.3847779390578904,
+        "iid_context_standard_error": 0.001109967244360014,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.5388313455968883,
+        "iid_context_standard_error": 0.0016286956842890392,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": 0.1540534065389979,
+        "iid_context_standard_error": 0.0009069461810987966,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.7824407594979921,
+        "iid_context_standard_error": 0.0033625846717669195,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2021,
+      "p": 0.0,
+      "horizon": 1,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.28508197338921193,
+        "iid_context_standard_error": 0.0014116622646243248,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.4354539770933611,
+        "iid_context_standard_error": 0.0016672406139594856,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": 0.15037200370414908,
+        "iid_context_standard_error": 0.0010575217958537155,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2021,
+      "p": 0.0,
+      "horizon": 8,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.7089100144520311,
+        "iid_context_standard_error": 0.0013576602961872836,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.8425843621880607,
+        "iid_context_standard_error": 0.0015215990110251177,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": 0.1336743477360296,
+        "iid_context_standard_error": 0.001134592810422182,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.9033501164792715,
+        "iid_context_standard_error": 0.002267822135051736,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2021,
+      "p": 0.0,
+      "horizon": 8,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.5289770917609639,
+        "iid_context_standard_error": 0.0011304205731440414,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.6404145566270882,
+        "iid_context_standard_error": 0.000829730254169334,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": 0.11143746486612442,
+        "iid_context_standard_error": 0.000911782979315958,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2021,
+      "p": 0.1,
+      "horizon": 1,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.5271304570152936,
+        "iid_context_standard_error": 0.0024482632756048822,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.5386005680694138,
+        "iid_context_standard_error": 0.0016285330435114834,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": 0.01147011105412008,
+        "iid_context_standard_error": 0.002390094901125581,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.7809423390521747,
+        "iid_context_standard_error": 0.0033434200225617313,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2021,
+      "p": 0.1,
+      "horizon": 1,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.3958663473113355,
+        "iid_context_standard_error": 0.0018806764863613123,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.4354271158156682,
+        "iid_context_standard_error": 0.0016671069025080646,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": 0.03956076850433267,
+        "iid_context_standard_error": 0.0018852555837802353,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2021,
+      "p": 0.1,
+      "horizon": 8,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.8636319699496913,
+        "iid_context_standard_error": 0.0017981218456678558,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.8426240275510798,
+        "iid_context_standard_error": 0.001517008288878615,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.02100794239861143,
+        "iid_context_standard_error": 0.0015734804718784833,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.9284015410527522,
+        "iid_context_standard_error": 0.001967223818788687,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2021,
+      "p": 0.1,
+      "horizon": 8,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.6430690889311083,
+        "iid_context_standard_error": 0.0009049004736052204,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.6403074508301332,
+        "iid_context_standard_error": 0.0008293916526211036,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.002761638100975062,
+        "iid_context_standard_error": 0.0011081323163428533,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2021,
+      "p": 0.25,
+      "horizon": 1,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.6822259455200225,
+        "iid_context_standard_error": 0.0031236661522051554,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.5357653489785414,
+        "iid_context_standard_error": 0.0016220623829749131,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.14646059654148114,
+        "iid_context_standard_error": 0.0031168626037149294,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.7792615032527039,
+        "iid_context_standard_error": 0.0033589316006729644,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2021,
+      "p": 0.25,
+      "horizon": 1,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.5178994008557316,
+        "iid_context_standard_error": 0.0020941186371972887,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.43408956402083454,
+        "iid_context_standard_error": 0.0016669051844306344,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.08380983683489698,
+        "iid_context_standard_error": 0.0023170377716129876,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2021,
+      "p": 0.25,
+      "horizon": 8,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.924463806217984,
+        "iid_context_standard_error": 0.0017751911674824877,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.8420196691888444,
+        "iid_context_standard_error": 0.00150481215938244,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.08244413702913952,
+        "iid_context_standard_error": 0.0015151553875228344,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.939028049417834,
+        "iid_context_standard_error": 0.0018062069072100873,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2021,
+      "p": 0.25,
+      "horizon": 8,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.6877256599607158,
+        "iid_context_standard_error": 0.000650246061142143,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.6404273414468489,
+        "iid_context_standard_error": 0.0008241427017400426,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.047298318513866885,
+        "iid_context_standard_error": 0.0010173018989612598,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2021,
+      "p": 0.4,
+      "horizon": 1,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.7657059106653046,
+        "iid_context_standard_error": 0.0033331624317866275,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.5371812010675725,
+        "iid_context_standard_error": 0.0016205171726631838,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.22852470959773213,
+        "iid_context_standard_error": 0.0033451271617649277,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.7841495029781143,
+        "iid_context_standard_error": 0.003361895715683515,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2021,
+      "p": 0.4,
+      "horizon": 1,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.5821835304470583,
+        "iid_context_standard_error": 0.0021105371141993123,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.4342282374325589,
+        "iid_context_standard_error": 0.001661936058344905,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.14795529301449933,
+        "iid_context_standard_error": 0.002439795668066518,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2021,
+      "p": 0.4,
+      "horizon": 8,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.9413959937264864,
+        "iid_context_standard_error": 0.0017573512109018787,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.8417506290254655,
+        "iid_context_standard_error": 0.0015099556564790652,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.09964536470102096,
+        "iid_context_standard_error": 0.0014908589904083518,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.9432722816816463,
+        "iid_context_standard_error": 0.0017545183819910025,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2021,
+      "p": 0.4,
+      "horizon": 8,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.6985649351164399,
+        "iid_context_standard_error": 0.0005565964916002522,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.6400242946864951,
+        "iid_context_standard_error": 0.0008285010610794803,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.05854064042994475,
+        "iid_context_standard_error": 0.0009834595451653713,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2021,
+      "p": 0.5,
+      "horizon": 1,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.7875043332531136,
+        "iid_context_standard_error": 0.0033775245886481222,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.5375001407391149,
+        "iid_context_standard_error": 0.0016184041686604248,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.2500041925139987,
+        "iid_context_standard_error": 0.0033934241805876927,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.7869927748709764,
+        "iid_context_standard_error": 0.0033592416519066175,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2021,
+      "p": 0.5,
+      "horizon": 1,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.5977428022856386,
+        "iid_context_standard_error": 0.002108760828803907,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.43317361997103077,
+        "iid_context_standard_error": 0.001659672862455628,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.16456918231460776,
+        "iid_context_standard_error": 0.0024580619175627446,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2021,
+      "p": 0.5,
+      "horizon": 8,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.94625879580102,
+        "iid_context_standard_error": 0.001755470578320306,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.8447695118809249,
+        "iid_context_standard_error": 0.0015148850998014053,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.10148928392009512,
+        "iid_context_standard_error": 0.0014829374015952223,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.9466475723133981,
+        "iid_context_standard_error": 0.0017434645205338572,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2021,
+      "p": 0.5,
+      "horizon": 8,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.7004109351865291,
+        "iid_context_standard_error": 0.0005419110430043228,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.6398624156487148,
+        "iid_context_standard_error": 0.0008271105589988808,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.06054851953781436,
+        "iid_context_standard_error": 0.0009765348168977849,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2022,
+      "p": 0.0,
+      "horizon": 1,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.38723196934456683,
+        "iid_context_standard_error": 0.00111708565892507,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.5434206341990342,
+        "iid_context_standard_error": 0.0016330616556457897,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": 0.15618866485446736,
+        "iid_context_standard_error": 0.0008988652676037746,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.7933884517071869,
+        "iid_context_standard_error": 0.0034118684728216527,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2022,
+      "p": 0.0,
+      "horizon": 1,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.2855621506852246,
+        "iid_context_standard_error": 0.0014091779934624392,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.4370991476928972,
+        "iid_context_standard_error": 0.0016618651472344785,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": 0.15153699700767262,
+        "iid_context_standard_error": 0.0010400983425543585,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2022,
+      "p": 0.0,
+      "horizon": 8,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.7131678218770923,
+        "iid_context_standard_error": 0.0013611477862858733,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.8467847423737164,
+        "iid_context_standard_error": 0.0015194357380265827,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": 0.13361692049662405,
+        "iid_context_standard_error": 0.001150662619941382,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.9106770118817656,
+        "iid_context_standard_error": 0.0023067756858466725,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2022,
+      "p": 0.0,
+      "horizon": 8,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.5293148925189988,
+        "iid_context_standard_error": 0.0011278091526311978,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.6402558085492156,
+        "iid_context_standard_error": 0.0008270776333012935,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": 0.11094091603021683,
+        "iid_context_standard_error": 0.0009177511514919507,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2022,
+      "p": 0.1,
+      "horizon": 1,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.5353196881717501,
+        "iid_context_standard_error": 0.0024736510960386613,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.5435039699099358,
+        "iid_context_standard_error": 0.0016313678895500112,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": 0.008184281738185575,
+        "iid_context_standard_error": 0.0024327296420924146,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.7942174304065333,
+        "iid_context_standard_error": 0.0034146093406100192,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2022,
+      "p": 0.1,
+      "horizon": 1,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.39937903757076487,
+        "iid_context_standard_error": 0.0018864789097441158,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.4368221262177762,
+        "iid_context_standard_error": 0.0016626650991905141,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": 0.03744308864701133,
+        "iid_context_standard_error": 0.0018960193271645035,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2022,
+      "p": 0.1,
+      "horizon": 8,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.8750105782783383,
+        "iid_context_standard_error": 0.0018433924627950155,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.8463184776739539,
+        "iid_context_standard_error": 0.0015303206484042812,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.028692100604384426,
+        "iid_context_standard_error": 0.001613764041299646,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.9352069172011117,
+        "iid_context_standard_error": 0.002006621946063698,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2022,
+      "p": 0.1,
+      "horizon": 8,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.6464998473762703,
+        "iid_context_standard_error": 0.0009055548232354768,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.6391898694821617,
+        "iid_context_standard_error": 0.0008335034384949517,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.0073099778941085785,
+        "iid_context_standard_error": 0.0011207364383201857,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2022,
+      "p": 0.25,
+      "horizon": 1,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.6924503234152068,
+        "iid_context_standard_error": 0.003141366354727583,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.5410045504373506,
+        "iid_context_standard_error": 0.0016313912595502804,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.15144577297785633,
+        "iid_context_standard_error": 0.003149583788015077,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.7908121332610997,
+        "iid_context_standard_error": 0.003399408514004963,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2022,
+      "p": 0.25,
+      "horizon": 1,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.5213717484983948,
+        "iid_context_standard_error": 0.002092246318763155,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.4352560972574723,
+        "iid_context_standard_error": 0.0016628190783720812,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.0861156512409226,
+        "iid_context_standard_error": 0.0023276889452527876,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2022,
+      "p": 0.25,
+      "horizon": 8,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.9326728432088077,
+        "iid_context_standard_error": 0.0017904041659028952,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.8448631273492018,
+        "iid_context_standard_error": 0.001531920515958485,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.08780971585960586,
+        "iid_context_standard_error": 0.001544579847956506,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.9448299373455666,
+        "iid_context_standard_error": 0.0018187777767307287,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2022,
+      "p": 0.25,
+      "horizon": 8,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.6887320870508545,
+        "iid_context_standard_error": 0.0006503487681605341,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.6393263611811446,
+        "iid_context_standard_error": 0.0008374274823599895,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.049405725869709836,
+        "iid_context_standard_error": 0.0010379467538139803,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2022,
+      "p": 0.4,
+      "horizon": 1,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.7751412215173009,
+        "iid_context_standard_error": 0.003351936924617863,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.5409753586730894,
+        "iid_context_standard_error": 0.0016294453660210205,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.23416586284421148,
+        "iid_context_standard_error": 0.003379044595088729,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.7928662965736877,
+        "iid_context_standard_error": 0.0034086045461449834,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2022,
+      "p": 0.4,
+      "horizon": 1,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.5842282821890251,
+        "iid_context_standard_error": 0.0021064709188149513,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.43495891778185125,
+        "iid_context_standard_error": 0.0016592259562334052,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.14926936440717392,
+        "iid_context_standard_error": 0.0024478036941257184,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2022,
+      "p": 0.4,
+      "horizon": 8,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.9478261901498009,
+        "iid_context_standard_error": 0.0017718751685331508,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.8431036710423031,
+        "iid_context_standard_error": 0.0015219051973488814,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.10472251910749777,
+        "iid_context_standard_error": 0.001520370689972134,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.9492068654974312,
+        "iid_context_standard_error": 0.0017771841142014578,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2022,
+      "p": 0.4,
+      "horizon": 8,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.6991078790816523,
+        "iid_context_standard_error": 0.0005589102198426527,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.6383002374032256,
+        "iid_context_standard_error": 0.0008357829396742237,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.060807641678426574,
+        "iid_context_standard_error": 0.0009975808285462115,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2022,
+      "p": 0.5,
+      "horizon": 1,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.7928479151339951,
+        "iid_context_standard_error": 0.0033872844320646358,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.5416010998107382,
+        "iid_context_standard_error": 0.0016406586511895993,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.25124681532325677,
+        "iid_context_standard_error": 0.0034145714997542796,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.7927358932273165,
+        "iid_context_standard_error": 0.0033958681808355365,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2022,
+      "p": 0.5,
+      "horizon": 1,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.5977282790322043,
+        "iid_context_standard_error": 0.002101236092172192,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.43537483658191256,
+        "iid_context_standard_error": 0.0016642792805795965,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.1623534424502917,
+        "iid_context_standard_error": 0.002468575295202125,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2022,
+      "p": 0.5,
+      "horizon": 8,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.9507104841144411,
+        "iid_context_standard_error": 0.001760459738762512,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.8467017456830644,
+        "iid_context_standard_error": 0.0015355968957984493,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.10400873843137667,
+        "iid_context_standard_error": 0.0014932090432681875,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.9501144415772551,
+        "iid_context_standard_error": 0.0017718317539058399,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2022,
+      "p": 0.5,
+      "horizon": 8,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.7010895935466138,
+        "iid_context_standard_error": 0.0005372409231647062,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.6407678837889095,
+        "iid_context_standard_error": 0.0008285102940806429,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.06032170975770436,
+        "iid_context_standard_error": 0.0009788490135187375,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2023,
+      "p": 0.0,
+      "horizon": 1,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.38632411893251034,
+        "iid_context_standard_error": 0.0011098384101084582,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.5398954582126505,
+        "iid_context_standard_error": 0.0016160779366640261,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": 0.15357133928014022,
+        "iid_context_standard_error": 0.0009081843291610421,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.7868885349035785,
+        "iid_context_standard_error": 0.003389284582396216,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2023,
+      "p": 0.0,
+      "horizon": 1,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.2856673605819976,
+        "iid_context_standard_error": 0.0014141921326732395,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.43516822841986935,
+        "iid_context_standard_error": 0.001654377393536392,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": 0.1495008678378718,
+        "iid_context_standard_error": 0.0010602061860061956,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2023,
+      "p": 0.0,
+      "horizon": 8,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.7102787805474491,
+        "iid_context_standard_error": 0.0013686443877895405,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.8427986045492313,
+        "iid_context_standard_error": 0.0015197381982015605,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": 0.13251982400178228,
+        "iid_context_standard_error": 0.0011366119859769212,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.910180461823402,
+        "iid_context_standard_error": 0.0022945973673940104,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2023,
+      "p": 0.0,
+      "horizon": 8,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.5298244037393933,
+        "iid_context_standard_error": 0.0011263894900040762,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.6405424610380103,
+        "iid_context_standard_error": 0.0008264771988243803,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": 0.110718057298617,
+        "iid_context_standard_error": 0.000916283961651567,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2023,
+      "p": 0.1,
+      "horizon": 1,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.5296438152819052,
+        "iid_context_standard_error": 0.002464745500876496,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.5391884961570748,
+        "iid_context_standard_error": 0.0016134071214432197,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": 0.009544680875169414,
+        "iid_context_standard_error": 0.0024055252215344487,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.7877227296886624,
+        "iid_context_standard_error": 0.0033895507076848446,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2023,
+      "p": 0.1,
+      "horizon": 1,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.39638703117945345,
+        "iid_context_standard_error": 0.001883456942778667,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.4342977392025121,
+        "iid_context_standard_error": 0.0016506706118819142,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": 0.03791070802305871,
+        "iid_context_standard_error": 0.0018857785703089733,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2023,
+      "p": 0.1,
+      "horizon": 8,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.8677272249217063,
+        "iid_context_standard_error": 0.0017989332599083225,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.8430192470044918,
+        "iid_context_standard_error": 0.001522462018761175,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.024707977917214477,
+        "iid_context_standard_error": 0.001552288767779376,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.9318697807284986,
+        "iid_context_standard_error": 0.001973505146358383,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2023,
+      "p": 0.1,
+      "horizon": 8,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.6456142731471135,
+        "iid_context_standard_error": 0.0008960779503475902,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.6397297166976305,
+        "iid_context_standard_error": 0.000826580494004352,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.005884556449482945,
+        "iid_context_standard_error": 0.0011010106434119608,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2023,
+      "p": 0.25,
+      "horizon": 1,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.6831477746858936,
+        "iid_context_standard_error": 0.0031363350558202686,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.5404248209485887,
+        "iid_context_standard_error": 0.0016195486854057972,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.142722953737305,
+        "iid_context_standard_error": 0.0031113757385617343,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.7922800085295919,
+        "iid_context_standard_error": 0.003405405699292019,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2023,
+      "p": 0.25,
+      "horizon": 1,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.5153372852843148,
+        "iid_context_standard_error": 0.002087794725423515,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.4362681554876333,
+        "iid_context_standard_error": 0.0016552007393566036,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.07906912979668149,
+        "iid_context_standard_error": 0.002299725230070746,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2023,
+      "p": 0.25,
+      "horizon": 8,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.9268783830107915,
+        "iid_context_standard_error": 0.0017826075427883113,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.8451154127808291,
+        "iid_context_standard_error": 0.001525013980444245,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.08176297022996229,
+        "iid_context_standard_error": 0.001522294012547381,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.9439067399627763,
+        "iid_context_standard_error": 0.0018222390245385054,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2023,
+      "p": 0.25,
+      "horizon": 8,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.6861109126526523,
+        "iid_context_standard_error": 0.0006462613878441895,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.64086436697089,
+        "iid_context_standard_error": 0.0008285397340662515,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.045246545681762174,
+        "iid_context_standard_error": 0.0010211971671839446,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2023,
+      "p": 0.4,
+      "horizon": 1,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.7704640177730413,
+        "iid_context_standard_error": 0.003361648360986561,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.5407198072529145,
+        "iid_context_standard_error": 0.001626586527772777,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.2297442105201269,
+        "iid_context_standard_error": 0.00335651931546635,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.7902301837027892,
+        "iid_context_standard_error": 0.0033965185739518724,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2023,
+      "p": 0.4,
+      "horizon": 1,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.5832203621939557,
+        "iid_context_standard_error": 0.002106819214598541,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.4361467451995372,
+        "iid_context_standard_error": 0.0016566875414654558,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.1470736169944185,
+        "iid_context_standard_error": 0.0024353954811161763,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2023,
+      "p": 0.4,
+      "horizon": 8,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.9444119416992242,
+        "iid_context_standard_error": 0.0017643847751098378,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.8426875566119633,
+        "iid_context_standard_error": 0.0015060267070006474,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.10172438508726102,
+        "iid_context_standard_error": 0.001494742439246668,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.9462259067981531,
+        "iid_context_standard_error": 0.001768979751741465,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2023,
+      "p": 0.4,
+      "horizon": 8,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.6986142188040605,
+        "iid_context_standard_error": 0.0005548605022549157,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.6395447608937979,
+        "iid_context_standard_error": 0.0008268750618392754,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.05906945791026266,
+        "iid_context_standard_error": 0.0009835855036329085,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2023,
+      "p": 0.5,
+      "horizon": 1,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.7845381549976724,
+        "iid_context_standard_error": 0.0033907074501124067,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.5399936280963387,
+        "iid_context_standard_error": 0.0016307523803751236,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.24454452690133371,
+        "iid_context_standard_error": 0.003384671596350635,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.7874435347233312,
+        "iid_context_standard_error": 0.003382725587990315,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2023,
+      "p": 0.5,
+      "horizon": 1,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.5951026038230518,
+        "iid_context_standard_error": 0.0021046200718446177,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.43595560888928997,
+        "iid_context_standard_error": 0.0016590709289999721,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.15914699493376178,
+        "iid_context_standard_error": 0.0024503897994037484,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    },
+    {
+      "seed": 2023,
+      "p": 0.5,
+      "horizon": 8,
+      "normalization": "Gaussian radial",
+      "identity_oracle_ES": {
+        "mean": 0.9465701182946991,
+        "iid_context_standard_error": 0.0017644901355995263,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.8435964861166114,
+        "iid_context_standard_error": 0.0015130761292269444,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.10297363217808764,
+        "iid_context_standard_error": 0.0014784534551972172,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": {
+        "mean": 0.9460798617664405,
+        "iid_context_standard_error": 0.0017543775916661047,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2023,
+      "p": 0.5,
+      "horizon": 8,
+      "normalization": "unit circle",
+      "identity_oracle_ES": {
+        "mean": 0.7007832464087557,
+        "iid_context_standard_error": 0.0005409533051779938,
+        "n_contexts": 32768
+      },
+      "fold_oracle_ES": {
+        "mean": 0.6406395662702465,
+        "iid_context_standard_error": 0.0008262836803040965,
+        "n_contexts": 32768
+      },
+      "fold_minus_identity_ES": {
+        "mean": -0.06014368013850904,
+        "iid_context_standard_error": 0.0009728215153980321,
+        "n_contexts": 32768
+      },
+      "raw_folded_context_oracle_ES": null
+    }
+  ],
+  "density_rows": [
+    {
+      "seed": 2021,
+      "p": 0.0,
+      "identity_conditional_NLL": {
+        "mean": 1.1698193192073876,
+        "iid_context_standard_error": 0.005479868876161051,
+        "n_contexts": 32768
+      },
+      "fold_conditional_NLL": {
+        "mean": 1.7535006098413413,
+        "iid_context_standard_error": 0.005311780742053343,
+        "n_contexts": 32768
+      },
+      "predictive_MI_lost_by_fold": {
+        "mean": 0.5836812906339538,
+        "iid_context_standard_error": 0.0019439116379094494,
+        "n_contexts": 32768
+      },
+      "analytic_raw_MSE_increase": 1.62,
+      "MC_raw_MSE_increase": {
+        "mean": 1.600065176095109,
+        "iid_context_standard_error": 0.008818385844607406,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2021,
+      "p": 0.1,
+      "identity_conditional_NLL": {
+        "mean": 1.43797644938322,
+        "iid_context_standard_error": 0.006283657422951069,
+        "n_contexts": 32768
+      },
+      "fold_conditional_NLL": {
+        "mean": 1.7538377843234625,
+        "iid_context_standard_error": 0.005305653181631723,
+        "n_contexts": 32768
+      },
+      "predictive_MI_lost_by_fold": {
+        "mean": 0.31586133494024227,
+        "iid_context_standard_error": 0.0034687173710779774,
+        "n_contexts": 32768
+      },
+      "analytic_raw_MSE_increase": 1.0368000000000002,
+      "MC_raw_MSE_increase": {
+        "mean": 1.0240417127008699,
+        "iid_context_standard_error": 0.005643766940548741,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2021,
+      "p": 0.25,
+      "identity_conditional_NLL": {
+        "mean": 1.6415745174319771,
+        "iid_context_standard_error": 0.005835920615521309,
+        "n_contexts": 32768
+      },
+      "fold_conditional_NLL": {
+        "mean": 1.7534963105299068,
+        "iid_context_standard_error": 0.005310125306676418,
+        "n_contexts": 32768
+      },
+      "predictive_MI_lost_by_fold": {
+        "mean": 0.1119217930979297,
+        "iid_context_standard_error": 0.002456771207068676,
+        "n_contexts": 32768
+      },
+      "analytic_raw_MSE_increase": 0.405,
+      "MC_raw_MSE_increase": {
+        "mean": 0.40001629402377725,
+        "iid_context_standard_error": 0.0022045964611518516,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2021,
+      "p": 0.4,
+      "identity_conditional_NLL": {
+        "mean": 1.738999176523327,
+        "iid_context_standard_error": 0.005413805919599701,
+        "n_contexts": 32768
+      },
+      "fold_conditional_NLL": {
+        "mean": 1.7560276711702303,
+        "iid_context_standard_error": 0.005322889920636791,
+        "n_contexts": 32768
+      },
+      "predictive_MI_lost_by_fold": {
+        "mean": 0.017028494646903237,
+        "iid_context_standard_error": 0.0010206439748398602,
+        "n_contexts": 32768
+      },
+      "analytic_raw_MSE_increase": 0.06479999999999997,
+      "MC_raw_MSE_increase": {
+        "mean": 0.06400260704380434,
+        "iid_context_standard_error": 0.0003527354337842961,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2021,
+      "p": 0.5,
+      "identity_conditional_NLL": {
+        "mean": 1.7564150205077205,
+        "iid_context_standard_error": 0.005327492187334571,
+        "n_contexts": 32768
+      },
+      "fold_conditional_NLL": {
+        "mean": 1.7564150205077205,
+        "iid_context_standard_error": 0.005327492187334571,
+        "n_contexts": 32768
+      },
+      "predictive_MI_lost_by_fold": {
+        "mean": 0.0,
+        "iid_context_standard_error": 0.0,
+        "n_contexts": 32768
+      },
+      "analytic_raw_MSE_increase": 0.0,
+      "MC_raw_MSE_increase": {
+        "mean": 0.0,
+        "iid_context_standard_error": 0.0,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2022,
+      "p": 0.0,
+      "identity_conditional_NLL": {
+        "mean": 1.1799577758435942,
+        "iid_context_standard_error": 0.005530146757795838,
+        "n_contexts": 32768
+      },
+      "fold_conditional_NLL": {
+        "mean": 1.7670118830182124,
+        "iid_context_standard_error": 0.005396407326010355,
+        "n_contexts": 32768
+      },
+      "predictive_MI_lost_by_fold": {
+        "mean": 0.5870541071746183,
+        "iid_context_standard_error": 0.0018909222608535419,
+        "n_contexts": 32768
+      },
+      "analytic_raw_MSE_increase": 1.62,
+      "MC_raw_MSE_increase": {
+        "mean": 1.6292864878794995,
+        "iid_context_standard_error": 0.008973414805055443,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2022,
+      "p": 0.1,
+      "identity_conditional_NLL": {
+        "mean": 1.4554393859628074,
+        "iid_context_standard_error": 0.006359165527909896,
+        "n_contexts": 32768
+      },
+      "fold_conditional_NLL": {
+        "mean": 1.7669536377112431,
+        "iid_context_standard_error": 0.005395660058789789,
+        "n_contexts": 32768
+      },
+      "predictive_MI_lost_by_fold": {
+        "mean": 0.3115142517484359,
+        "iid_context_standard_error": 0.003507438080790819,
+        "n_contexts": 32768
+      },
+      "analytic_raw_MSE_increase": 1.0368000000000002,
+      "MC_raw_MSE_increase": {
+        "mean": 1.0427433522428797,
+        "iid_context_standard_error": 0.005742985475235484,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2022,
+      "p": 0.25,
+      "identity_conditional_NLL": {
+        "mean": 1.6579143151063633,
+        "iid_context_standard_error": 0.005909238958020801,
+        "n_contexts": 32768
+      },
+      "fold_conditional_NLL": {
+        "mean": 1.7661697385282105,
+        "iid_context_standard_error": 0.005406418765071385,
+        "n_contexts": 32768
+      },
+      "predictive_MI_lost_by_fold": {
+        "mean": 0.10825542342184716,
+        "iid_context_standard_error": 0.002466281502754972,
+        "n_contexts": 32768
+      },
+      "analytic_raw_MSE_increase": 0.405,
+      "MC_raw_MSE_increase": {
+        "mean": 0.40732162196987487,
+        "iid_context_standard_error": 0.002243353701263861,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2022,
+      "p": 0.4,
+      "identity_conditional_NLL": {
+        "mean": 1.749893524172637,
+        "iid_context_standard_error": 0.005502449998541153,
+        "n_contexts": 32768
+      },
+      "fold_conditional_NLL": {
+        "mean": 1.7664240739631407,
+        "iid_context_standard_error": 0.005412448630658457,
+        "n_contexts": 32768
+      },
+      "predictive_MI_lost_by_fold": {
+        "mean": 0.016530549790503984,
+        "iid_context_standard_error": 0.0010198946094397343,
+        "n_contexts": 32768
+      },
+      "analytic_raw_MSE_increase": 0.06479999999999997,
+      "MC_raw_MSE_increase": {
+        "mean": 0.06517145951517994,
+        "iid_context_standard_error": 0.0003589365922022176,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2022,
+      "p": 0.5,
+      "identity_conditional_NLL": {
+        "mean": 1.7662291086054023,
+        "iid_context_standard_error": 0.0054114644250198305,
+        "n_contexts": 32768
+      },
+      "fold_conditional_NLL": {
+        "mean": 1.7662291086054023,
+        "iid_context_standard_error": 0.0054114644250198305,
+        "n_contexts": 32768
+      },
+      "predictive_MI_lost_by_fold": {
+        "mean": 0.0,
+        "iid_context_standard_error": 0.0,
+        "n_contexts": 32768
+      },
+      "analytic_raw_MSE_increase": 0.0,
+      "MC_raw_MSE_increase": {
+        "mean": 0.0,
+        "iid_context_standard_error": 0.0,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2023,
+      "p": 0.0,
+      "identity_conditional_NLL": {
+        "mean": 1.1854139744135181,
+        "iid_context_standard_error": 0.005563596240019967,
+        "n_contexts": 32768
+      },
+      "fold_conditional_NLL": {
+        "mean": 1.7680650172284786,
+        "iid_context_standard_error": 0.005415042861253697,
+        "n_contexts": 32768
+      },
+      "predictive_MI_lost_by_fold": {
+        "mean": 0.5826510428149603,
+        "iid_context_standard_error": 0.001953958693115446,
+        "n_contexts": 32768
+      },
+      "analytic_raw_MSE_increase": 1.62,
+      "MC_raw_MSE_increase": {
+        "mean": 1.6175278115645653,
+        "iid_context_standard_error": 0.009086248982369944,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2023,
+      "p": 0.1,
+      "identity_conditional_NLL": {
+        "mean": 1.4551321407666908,
+        "iid_context_standard_error": 0.0063686915197272475,
+        "n_contexts": 32768
+      },
+      "fold_conditional_NLL": {
+        "mean": 1.767082296346169,
+        "iid_context_standard_error": 0.005412332033573281,
+        "n_contexts": 32768
+      },
+      "predictive_MI_lost_by_fold": {
+        "mean": 0.31195015557947814,
+        "iid_context_standard_error": 0.0034906431754963443,
+        "n_contexts": 32768
+      },
+      "analytic_raw_MSE_increase": 1.0368000000000002,
+      "MC_raw_MSE_increase": {
+        "mean": 1.0352177994013219,
+        "iid_context_standard_error": 0.005815199348716765,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2023,
+      "p": 0.25,
+      "identity_conditional_NLL": {
+        "mean": 1.6560919083217485,
+        "iid_context_standard_error": 0.005922082374851942,
+        "n_contexts": 32768
+      },
+      "fold_conditional_NLL": {
+        "mean": 1.7676280780470877,
+        "iid_context_standard_error": 0.005411130167797572,
+        "n_contexts": 32768
+      },
+      "predictive_MI_lost_by_fold": {
+        "mean": 0.11153616972533927,
+        "iid_context_standard_error": 0.0024553755634830242,
+        "n_contexts": 32768
+      },
+      "analytic_raw_MSE_increase": 0.405,
+      "MC_raw_MSE_increase": {
+        "mean": 0.4043819528911413,
+        "iid_context_standard_error": 0.002271562245592486,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2023,
+      "p": 0.4,
+      "identity_conditional_NLL": {
+        "mean": 1.7521338055630522,
+        "iid_context_standard_error": 0.00552956746699393,
+        "n_contexts": 32768
+      },
+      "fold_conditional_NLL": {
+        "mean": 1.769388449879733,
+        "iid_context_standard_error": 0.005426082301580417,
+        "n_contexts": 32768
+      },
+      "predictive_MI_lost_by_fold": {
+        "mean": 0.017254644316680806,
+        "iid_context_standard_error": 0.00101915862387113,
+        "n_contexts": 32768
+      },
+      "analytic_raw_MSE_increase": 0.06479999999999997,
+      "MC_raw_MSE_increase": {
+        "mean": 0.06470111246258257,
+        "iid_context_standard_error": 0.0003634499592947976,
+        "n_contexts": 32768
+      }
+    },
+    {
+      "seed": 2023,
+      "p": 0.5,
+      "identity_conditional_NLL": {
+        "mean": 1.769763159076111,
+        "iid_context_standard_error": 0.005421266986276182,
+        "n_contexts": 32768
+      },
+      "fold_conditional_NLL": {
+        "mean": 1.769763159076111,
+        "iid_context_standard_error": 0.005421266986276182,
+        "n_contexts": 32768
+      },
+      "predictive_MI_lost_by_fold": {
+        "mean": 0.0,
+        "iid_context_standard_error": 0.0,
+        "n_contexts": 32768
+      },
+      "analytic_raw_MSE_increase": 0.0,
+      "MC_raw_MSE_increase": {
+        "mean": 0.0,
+        "iid_context_standard_error": 0.0,
+        "n_contexts": 32768
+      }
+    }
+  ],
+  "frame_moments": [
+    {
+      "seed": 2021,
+      "representation": "identity",
+      "mean": [
+        -0.004629681250647063,
+        0.004425216890616732
+      ],
+      "covariance": [
+        [
+          0.9871713010317386,
+          0.00046992068868605304
+        ],
+        [
+          0.00046992068868605304,
+          0.9882370734449056
+        ]
+      ],
+      "radius_preservation_max_error": 0.0
+    },
+    {
+      "seed": 2021,
+      "representation": "fold",
+      "mean": [
+        -0.003906737268423477,
+        0.0031907168721716107
+      ],
+      "covariance": [
+        [
+          0.995058985511332,
+          0.004783176694249142
+        ],
+        [
+          0.004783176694249142,
+          0.9803649626633508
+        ]
+      ],
+      "radius_preservation_max_error": 1.3322676295501878e-15
+    },
+    {
+      "seed": 2022,
+      "representation": "identity",
+      "mean": [
+        0.00017949203045798944,
+        0.006197021118089198
+      ],
+      "covariance": [
+        [
+          1.0190458852094892,
+          -0.004263736963385682
+        ],
+        [
+          -0.004263736963385682,
+          0.9924418650881857
+        ]
+      ],
+      "radius_preservation_max_error": 0.0
+    },
+    {
+      "seed": 2022,
+      "representation": "fold",
+      "mean": [
+        0.01237150937806914,
+        -0.007124758465284426
+      ],
+      "covariance": [
+        [
+          1.014867397414554,
+          -0.0055860762554941585
+        ],
+        [
+          -0.0055860762554941585,
+          0.9964549666965815
+        ]
+      ],
+      "radius_preservation_max_error": 1.3322676295501878e-15
+    },
+    {
+      "seed": 2023,
+      "representation": "identity",
+      "mean": [
+        0.001806462495877001,
+        0.002372727317027344
+      ],
+      "covariance": [
+        [
+          1.0067669708135631,
+          0.0022391700150321365
+        ],
+        [
+          0.0022391700150321365,
+          0.990232995159053
+        ]
+      ],
+      "radius_preservation_max_error": 0.0
+    },
+    {
+      "seed": 2023,
+      "representation": "fold",
+      "mean": [
+        0.0032711934810351687,
+        0.0012350691693658385
+      ],
+      "covariance": [
+        [
+          1.005353789080822,
+          -0.007708826866363283
+        ],
+        [
+          -0.007708826866363283,
+          0.9916428438291031
+        ]
+      ],
+      "radius_preservation_max_error": 1.3322676295501878e-15
+    }
+  ],
+  "elapsed_seconds": 8.640891313552856,
+  "completed_utc": "2026-10-16T03:11:53.673726+00:00",
+  "interpretation": "Propriety for a fixed target does not compare different encoded targets. No full-method failure or novelty claim follows automatically. Existing likelihood/raw-space controls must be assessed."
+}

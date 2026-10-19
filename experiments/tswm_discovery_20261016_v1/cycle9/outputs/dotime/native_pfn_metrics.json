@@ -1,0 +1,71 @@
+{
+  "pooled_rmse": 0.6046745777130127,
+  "rmse_ci95": [
+    0.5367313303378412,
+    0.6793487792300164
+  ],
+  "dir_acc": 0.585106372833252,
+  "dir_n_valid": 188,
+  "dir_acc_se": 0.03593410823425728,
+  "dir_acc_level": 0.713004469871521,
+  "dir_acc_effect": 0.585106372833252,
+  "dir_target": "effect",
+  "pairs_share_noise": true,
+  "n_episodes": 540,
+  "per_structure": {
+    "back_door": {
+      "rmse": 0.8867286443710327,
+      "dir_acc": 0.5555555820465088,
+      "dir_acc_level": 0.6111111044883728,
+      "dir_acc_effect": 0.5555555820465088
+    },
+    "bi_variate": {
+      "rmse": 0.6580356359481812,
+      "dir_acc": 0.5757575631141663,
+      "dir_acc_level": 0.6086956262588501,
+      "dir_acc_effect": 0.5757575631141663
+    },
+    "bow_graph": {
+      "rmse": 0.5693625211715698,
+      "dir_acc": 0.5945945978164673,
+      "dir_acc_level": 0.7799999713897705,
+      "dir_acc_effect": 0.5945945978164673
+    },
+    "confounder_mediator": {
+      "rmse": 0.3854314982891083,
+      "dir_acc": 0.46666666865348816,
+      "dir_acc_level": 0.7599999904632568,
+      "dir_acc_effect": 0.46666666865348816
+    },
+    "front_door": {
+      "rmse": 0.3742716908454895,
+      "dir_acc": 0.5882353186607361,
+      "dir_acc_level": 0.7115384340286255,
+      "dir_acc_effect": 0.5882353186607361
+    },
+    "instrumental_variable": {
+      "rmse": 0.8213397860527039,
+      "dir_acc": 0.6666666865348816,
+      "dir_acc_level": 0.7400000095367432,
+      "dir_acc_effect": 0.6666666865348816
+    },
+    "mediator": {
+      "rmse": 0.5753734707832336,
+      "dir_acc": 0.5714285969734192,
+      "dir_acc_level": 0.7755101919174194,
+      "dir_acc_effect": 0.5714285969734192
+    },
+    "observed_confounder": {
+      "rmse": 0.4755078852176666,
+      "dir_acc": NaN,
+      "dir_acc_level": 0.760869562625885,
+      "dir_acc_effect": NaN
+    },
+    "unobserved_confounder": {
+      "rmse": 0.47624754905700684,
+      "dir_acc": NaN,
+      "dir_acc_level": 0.6734693646430969,
+      "dir_acc_effect": NaN
+    }
+  }
+}

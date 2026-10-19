@@ -1,0 +1,1 @@
+左列为验证MAE：实线是3 decoder seeds均值，阴影为最小至最大，不是置信带；隐藏随机epoch0便于阅读。右列点为3 seeds，横线为均值、误差条为seed样本标准差；仅改变decoder初始化，stage1固定同一seed。虚线原stage2只是旧训练reference，预算/初始化不同。NP/PJM同为既有电力任务，不能声称跨领域泛化。

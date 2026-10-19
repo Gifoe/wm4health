@@ -1,0 +1,7 @@
+# All-context numerical completion, original scientific choices fixed
+
+The predetermined first8 context checks passed after earlier repairs. A stronger all64-context bound using omitted Normal mass times maximum conditional Gaussian likelihood nevertheless could not certify .01nats for58 of672 method/condition rows. A loose bound does not establish an actual error. None of the primary cold-start native/no-update/particle rows is flagged; one cold-start MAP approximation row is flagged.
+
+Recompute only the flagged physical contexts using the SAME frozen posterior parameters / original native-likelihood reweighting, on16385 Normal grid points over[-14,14]. Refine32769 for every patched context. Keep both outputs, source data, checkpoints, prior/proposal parameters, scientific arms and thresholds unchanged. Recompute moments and all score arrays for the corresponding conditional mixture when needed, not merely its NLL. Save sparse patches rather than replacing any original result. Require the same .01nats refinement and conservative tail-bound gates for all replacements. Unflagged source data remain unchanged.
+
+The independent ordinary-control verifier's first run used NumPy float32 log(scale) for a stored float32 prior scale whereas the producer explicitly cast to float64; this caused an ESS discrepancy4.79e-5. Correct the verifier dtype to match the declared float64 algebra and rerun under the original2e-7 thresholds. No producer result or scientific threshold changes. The failed verifier job is retained.

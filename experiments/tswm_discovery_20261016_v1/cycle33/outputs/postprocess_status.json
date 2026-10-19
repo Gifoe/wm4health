@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "pid": 35756,
+  "started_utc": "2026-10-16T20:40:04.597943+00:00",
+  "script_hashes": {
+    "evaluate_readouts33.py": "387dff66f003c924ca94da0e8ca5af5a9dc7847bb70479fda8ab9029fdea9b3a",
+    "verify_readouts33_v2.py": "72a6f0540cfb160a15bc5da428a9023d0a53a3bc85afad3cf753f0a212a464b0",
+    "analyze_readouts33.py": "3423580c9c906cdbb53ceabfc00e04ebd0d529bcc5eaafc164e023893d61f561",
+    "close_provenance33.py": "91e1b1a27ae5484bad58f48c214152288c9bc0c3cb6da86c343bb79ac534b19a",
+    "plot_readouts33.py": "84af404a7b3131613522f1d8132af12339d5028cd4d19dac604312ba9f533eb7"
+  },
+  "never_restarts_training": true,
+  "steps": [
+    {
+      "script": "evaluate_readouts33.py",
+      "exit_code": 0,
+      "ended_utc": "2026-10-16T20:49:27.795783+00:00"
+    },
+    {
+      "script": "verify_readouts33_v2.py",
+      "exit_code": 0,
+      "ended_utc": "2026-10-16T20:49:39.026604+00:00"
+    },
+    {
+      "script": "analyze_readouts33.py",
+      "exit_code": 0,
+      "ended_utc": "2026-10-16T20:49:43.875714+00:00"
+    },
+    {
+      "script": "close_provenance33.py",
+      "exit_code": 0,
+      "ended_utc": "2026-10-16T20:49:49.398626+00:00"
+    },
+    {
+      "script": "plot_readouts33.py",
+      "exit_code": 0,
+      "ended_utc": "2026-10-16T20:49:54.364334+00:00"
+    }
+  ],
+  "training_seal_sha256": "fdfa658494db4b5066934a6cdf7a4ae8cc18cdf9fd462f1057db392c078c9ff9",
+  "current_step": "plot_readouts33.py",
+  "ended_utc": "2026-10-16T20:49:54.365327+00:00"
+}

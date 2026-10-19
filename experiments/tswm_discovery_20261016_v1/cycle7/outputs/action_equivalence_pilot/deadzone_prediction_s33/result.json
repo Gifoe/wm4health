@@ -1,0 +1,33 @@
+{
+  "kind": "deadzone",
+  "arm": "prediction",
+  "seed": 33,
+  "trainable_parameters": 15312,
+  "frozen_IDM_parameters": 267777,
+  "seconds": 19.06290209999861,
+  "minimum_validation_factual_MSE": 0.0006894315592944622,
+  "test_final": {
+    "factual_MSE": 0.0006486321217380464,
+    "zero_plan_MSE": 0.00036527664633467793,
+    "paired_response_MSE": 0.000314498960506171,
+    "predicted_cosine_gap": 0.004726879298686981,
+    "true_cosine_gap": 0.006252664141356945,
+    "null_response_RMS": 0.012826086953282356,
+    "null_plan_MSE": 0.0005339864292182028,
+    "null_cosine_gap": 0.0007609273307025433,
+    "offline_candidate_regret_mean": 0.003985133022069931,
+    "offline_candidate_regret_p90": 0.010681957006454468
+  },
+  "test_best_validation": {
+    "factual_MSE": 0.0006486321217380464,
+    "zero_plan_MSE": 0.00036527664633467793,
+    "paired_response_MSE": 0.000314498960506171,
+    "predicted_cosine_gap": 0.004726879298686981,
+    "true_cosine_gap": 0.006252664141356945,
+    "null_response_RMS": 0.012826086953282356,
+    "null_plan_MSE": 0.0005339864292182028,
+    "null_cosine_gap": 0.0007609273307025433,
+    "offline_candidate_regret_mean": 0.003985133022069931,
+    "offline_candidate_regret_p90": 0.010681957006454468
+  }
+}

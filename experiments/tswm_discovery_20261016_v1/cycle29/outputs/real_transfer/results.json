@@ -1,0 +1,618 @@
+{
+  "status": "completed",
+  "script_sha256": "501921fca201dd76d2da7ffdbdb1e7619b0b9d63c852db248b06afc337a8748c",
+  "protocol_sha256": "569ba1e529492e0c4ec08f91637cd14c71f24c7dbc6cb142ce62601cf3f7f2e0",
+  "split_manifest_sha256": "8f61c1541d138b1d871c8f1350760506d8bd6e5ec47839cb31a74e880c044ba0",
+  "main_comparison_verification_sha256": "af695ef6cd0ed9b11ba12975424365cb451d2ae0af7285d0da17028cc3767245",
+  "n_metric_rows": 4260,
+  "predictions": [
+    {
+      "path": "silverbox__multisine__conditional96_2026291.npz",
+      "sha256": "9e796eeabef6f23b559b691de8b7dacad948142e63bea731867234ff64a0ab87",
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "conditional96",
+      "seed": 2026291,
+      "weight_sha256": "c3f1b8b94bf95b1c43f7216f248bc777f9dacd5bd60c0f36f9af4848784f50d4",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__arrow_full__conditional96_2026291.npz",
+      "sha256": "b2415b95bb530606464b6aba958c7e3f48906b87382ef4a5e99e692d7851ef6e",
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "conditional96",
+      "seed": 2026291,
+      "weight_sha256": "c3f1b8b94bf95b1c43f7216f248bc777f9dacd5bd60c0f36f9af4848784f50d4",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "cascaded_tanks__test__conditional96_2026291.npz",
+      "sha256": "9429db2a180ff14393a7c85e25cfc505cd28ea40f0d7a4c2fd129e087e811dfd",
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "conditional96",
+      "seed": 2026291,
+      "weight_sha256": "c3f1b8b94bf95b1c43f7216f248bc777f9dacd5bd60c0f36f9af4848784f50d4",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__multisine__compiled64_2026291.npz",
+      "sha256": "a731d617343b9a20e08fa6b523d13d756ffdb625d8af4f4eeb35b67eff744822",
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "compiled64",
+      "seed": 2026291,
+      "weight_sha256": "2f3c0f1f00fbd682dff3ef62c7a404eb1900e7916f329fe9821020e9cc61b8ee",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__arrow_full__compiled64_2026291.npz",
+      "sha256": "eb2f437798383e581c6f0c5038350865c60518b822b1c72e6480c1c6f9b7ad0d",
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "compiled64",
+      "seed": 2026291,
+      "weight_sha256": "2f3c0f1f00fbd682dff3ef62c7a404eb1900e7916f329fe9821020e9cc61b8ee",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "cascaded_tanks__test__compiled64_2026291.npz",
+      "sha256": "c1d4ed39db6eb775adb673a9e21e35a617f956858ee0704fa39e3fca8653d61f",
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "compiled64",
+      "seed": 2026291,
+      "weight_sha256": "2f3c0f1f00fbd682dff3ef62c7a404eb1900e7916f329fe9821020e9cc61b8ee",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__multisine__conditional128_2026291.npz",
+      "sha256": "3db6a975b58be9488afea15f598f99431501c6850b4c6f856a76a66f3cfe7ab5",
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "conditional128",
+      "seed": 2026291,
+      "weight_sha256": "1305dd32bee520def811215eb11612345c7b51d5b50aba9d39913f0acabc9503",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__arrow_full__conditional128_2026291.npz",
+      "sha256": "a9797c6c5fed6404599ebc8d2c16e6595ca2f68529e6c62bd6750b360c19357e",
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "conditional128",
+      "seed": 2026291,
+      "weight_sha256": "1305dd32bee520def811215eb11612345c7b51d5b50aba9d39913f0acabc9503",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "cascaded_tanks__test__conditional128_2026291.npz",
+      "sha256": "0f01d2cc808d626a86d9e8103e2aa201c77faffda13845c90ca2c9e74c147ba4",
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "conditional128",
+      "seed": 2026291,
+      "weight_sha256": "1305dd32bee520def811215eb11612345c7b51d5b50aba9d39913f0acabc9503",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__multisine__native_attention64_2026291.npz",
+      "sha256": "4d388fb799fdc169c15a7304b5367eafd6a40556a2d511479684006ed714774e",
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "native_attention64",
+      "seed": 2026291,
+      "weight_sha256": "ebd657874984381766e89783bb1f25d39c0d21a5d1832144ebb0a16191ba1798",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__multisine__native_attention64_chunk32_2026291.npz",
+      "sha256": "10b5e19a13eb69ff2b31b36f8afa6117e8627f6dc50a4b7fd05b46e12a6dfcf9",
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "native_attention64_chunk32",
+      "seed": 2026291,
+      "weight_sha256": "ebd657874984381766e89783bb1f25d39c0d21a5d1832144ebb0a16191ba1798",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__arrow_full__native_attention64_2026291.npz",
+      "sha256": "f24b011d51b4a6bb85e4b70630453e5bf7fa57307cdd18625ebd663356cb6951",
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "native_attention64",
+      "seed": 2026291,
+      "weight_sha256": "ebd657874984381766e89783bb1f25d39c0d21a5d1832144ebb0a16191ba1798",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__arrow_full__native_attention64_chunk32_2026291.npz",
+      "sha256": "d57a6a5c5f3cc2af076e76d1b608db479d889ed75f55faef07287e19e34634a2",
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "native_attention64_chunk32",
+      "seed": 2026291,
+      "weight_sha256": "ebd657874984381766e89783bb1f25d39c0d21a5d1832144ebb0a16191ba1798",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "cascaded_tanks__test__native_attention64_2026291.npz",
+      "sha256": "d748dbdccb32520885088e3a9d363f97228b03291c8dcd61c0da748c054b7eca",
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "native_attention64",
+      "seed": 2026291,
+      "weight_sha256": "ebd657874984381766e89783bb1f25d39c0d21a5d1832144ebb0a16191ba1798",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "cascaded_tanks__test__native_attention64_chunk32_2026291.npz",
+      "sha256": "2b6534695c9898c2c594204a2826e346ba6af87d8e44874a8f3252e137561eea",
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "native_attention64_chunk32",
+      "seed": 2026291,
+      "weight_sha256": "ebd657874984381766e89783bb1f25d39c0d21a5d1832144ebb0a16191ba1798",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__multisine__conditional96_2026292.npz",
+      "sha256": "8e452aef4c919f4a044471733c0c6661ef5a88d55a8fc4ac7e75bb367ffe34c2",
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "conditional96",
+      "seed": 2026292,
+      "weight_sha256": "c344a406a127e8f4049dfbf4eb48cd7e9d1ebed0d7f01b9b1c1485515506df94",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__arrow_full__conditional96_2026292.npz",
+      "sha256": "fa508521815a07c52501c414838953b97d323e99eb7883aa3236baa7f11b763f",
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "conditional96",
+      "seed": 2026292,
+      "weight_sha256": "c344a406a127e8f4049dfbf4eb48cd7e9d1ebed0d7f01b9b1c1485515506df94",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "cascaded_tanks__test__conditional96_2026292.npz",
+      "sha256": "24ffd6cc1819bba1d77ca7c41bbca5a9ac7e0b7ba9984aa6e8a1eaf176fa313f",
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "conditional96",
+      "seed": 2026292,
+      "weight_sha256": "c344a406a127e8f4049dfbf4eb48cd7e9d1ebed0d7f01b9b1c1485515506df94",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__multisine__compiled64_2026292.npz",
+      "sha256": "969cf0047a7ea931daf75939210ff9147320d81a0820950a5be1086868362e1a",
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "compiled64",
+      "seed": 2026292,
+      "weight_sha256": "42bf3c8f42f4d980e5dd97b24a96d72eaacd7ecf3276f967a7f89d141bda994b",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__arrow_full__compiled64_2026292.npz",
+      "sha256": "6f52f6781a09b24ee403813bd780a5140ce77b92dbff4150abbd2f6286fa0345",
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "compiled64",
+      "seed": 2026292,
+      "weight_sha256": "42bf3c8f42f4d980e5dd97b24a96d72eaacd7ecf3276f967a7f89d141bda994b",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "cascaded_tanks__test__compiled64_2026292.npz",
+      "sha256": "78608c68b427b6c90b2787d05652eac8d71ff8cfb57bea79f6f2b7e6f3090640",
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "compiled64",
+      "seed": 2026292,
+      "weight_sha256": "42bf3c8f42f4d980e5dd97b24a96d72eaacd7ecf3276f967a7f89d141bda994b",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__multisine__conditional128_2026292.npz",
+      "sha256": "91c6ae7f7d2d23b068c3c2bc60db1a767fdc30e3898cdccaa5562863c58e7619",
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "conditional128",
+      "seed": 2026292,
+      "weight_sha256": "39388524cf40bcae15e294c7d4eaf8808a9265fafda169ed18b122e58a13c728",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__arrow_full__conditional128_2026292.npz",
+      "sha256": "9fe259bf5075ffc2ff502a5351447c3c0b0179a8f08f68675db080320434598a",
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "conditional128",
+      "seed": 2026292,
+      "weight_sha256": "39388524cf40bcae15e294c7d4eaf8808a9265fafda169ed18b122e58a13c728",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "cascaded_tanks__test__conditional128_2026292.npz",
+      "sha256": "c93e85284b9f281ad3f1b2239f8e9404079a36c10a989a2b941b4d71780a6c52",
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "conditional128",
+      "seed": 2026292,
+      "weight_sha256": "39388524cf40bcae15e294c7d4eaf8808a9265fafda169ed18b122e58a13c728",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__multisine__native_attention64_2026292.npz",
+      "sha256": "9710e5b7d797699165b85875a39695b95160bd08fc05c1636a0b6083aa43d739",
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "native_attention64",
+      "seed": 2026292,
+      "weight_sha256": "48a499d85061737dbe12ca4e19d73ac56dac87da56f16209a9b739a6bf20d1a2",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__multisine__native_attention64_chunk32_2026292.npz",
+      "sha256": "c788d9b84eed8fd76e455efbcfa1cbfa0e3d7cd1905d4bb6a00fe758d2277705",
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "native_attention64_chunk32",
+      "seed": 2026292,
+      "weight_sha256": "48a499d85061737dbe12ca4e19d73ac56dac87da56f16209a9b739a6bf20d1a2",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__arrow_full__native_attention64_2026292.npz",
+      "sha256": "5c2004943f787f154bbb2f7404a2649410794b6e9a32e2a7661359702890887d",
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "native_attention64",
+      "seed": 2026292,
+      "weight_sha256": "48a499d85061737dbe12ca4e19d73ac56dac87da56f16209a9b739a6bf20d1a2",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__arrow_full__native_attention64_chunk32_2026292.npz",
+      "sha256": "fe6bae1e3e84adf935eac678f6b6210473b4cf4a51a105d221aa8ba2037ea733",
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "native_attention64_chunk32",
+      "seed": 2026292,
+      "weight_sha256": "48a499d85061737dbe12ca4e19d73ac56dac87da56f16209a9b739a6bf20d1a2",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "cascaded_tanks__test__native_attention64_2026292.npz",
+      "sha256": "ec4212cc15ed3486fc56fdc8fd41b36d93a94f15619d4c1ec44b5a5cf71bd28c",
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "native_attention64",
+      "seed": 2026292,
+      "weight_sha256": "48a499d85061737dbe12ca4e19d73ac56dac87da56f16209a9b739a6bf20d1a2",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "cascaded_tanks__test__native_attention64_chunk32_2026292.npz",
+      "sha256": "563889937052f86114edfb210a2e0b5dfcec192fc332d304bd2bb0c829f3b096",
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "native_attention64_chunk32",
+      "seed": 2026292,
+      "weight_sha256": "48a499d85061737dbe12ca4e19d73ac56dac87da56f16209a9b739a6bf20d1a2",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__multisine__conditional96_2026293.npz",
+      "sha256": "b3f29cc23b41895b41249408721c7c85b3651432d2ebd12c616156668178969e",
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "conditional96",
+      "seed": 2026293,
+      "weight_sha256": "30f1c74eae63fd6d23ce319957ba78fb0158dc9daaf3be2964c04e96df8052d6",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__arrow_full__conditional96_2026293.npz",
+      "sha256": "24f4e3e0ea13d10ffebc9237b2ea2051c3036a7f3caab9a8fec8166242f519cf",
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "conditional96",
+      "seed": 2026293,
+      "weight_sha256": "30f1c74eae63fd6d23ce319957ba78fb0158dc9daaf3be2964c04e96df8052d6",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "cascaded_tanks__test__conditional96_2026293.npz",
+      "sha256": "5e0563983bed8e6b418016ca81460aceeedc385becefd09f5920cef688b4e508",
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "conditional96",
+      "seed": 2026293,
+      "weight_sha256": "30f1c74eae63fd6d23ce319957ba78fb0158dc9daaf3be2964c04e96df8052d6",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__multisine__compiled64_2026293.npz",
+      "sha256": "3841f44939b5fe599929631368eb91fa91cbefa397e8e2a54ee3c18b443c4f42",
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "compiled64",
+      "seed": 2026293,
+      "weight_sha256": "7fcb55b838d3a58ecb52b9a3bcebe99ad585d6593c3a07f7e310968a8e3c9ee7",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__arrow_full__compiled64_2026293.npz",
+      "sha256": "881140ef0a6016cc2d00c7a37f6d5d7459f613c14087358417ad272dfa6c15c6",
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "compiled64",
+      "seed": 2026293,
+      "weight_sha256": "7fcb55b838d3a58ecb52b9a3bcebe99ad585d6593c3a07f7e310968a8e3c9ee7",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "cascaded_tanks__test__compiled64_2026293.npz",
+      "sha256": "f6fae7f42f6a5bd6ab9c552ec34ea6016f32414600eb73050737c5fb1d33bab3",
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "compiled64",
+      "seed": 2026293,
+      "weight_sha256": "7fcb55b838d3a58ecb52b9a3bcebe99ad585d6593c3a07f7e310968a8e3c9ee7",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__multisine__conditional128_2026293.npz",
+      "sha256": "739515c9ea397c5a44e0ba31cd7ebd457f83ea734598ecf2f8d4e85fe7450694",
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "conditional128",
+      "seed": 2026293,
+      "weight_sha256": "7a90e1bb048d6eec8734554c409586991456e292ba7e084c2b87b0e029d7b759",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__arrow_full__conditional128_2026293.npz",
+      "sha256": "f3c46b80dc2cd903ef0be014dbec1cfa019ac6a46ec3a85a16d8c2fc6e5cbf11",
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "conditional128",
+      "seed": 2026293,
+      "weight_sha256": "7a90e1bb048d6eec8734554c409586991456e292ba7e084c2b87b0e029d7b759",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "cascaded_tanks__test__conditional128_2026293.npz",
+      "sha256": "30d1d915dd32ded90a6a4311ee08f19af4193fc3fafc2801dd95f5dd37608517",
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "conditional128",
+      "seed": 2026293,
+      "weight_sha256": "7a90e1bb048d6eec8734554c409586991456e292ba7e084c2b87b0e029d7b759",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__multisine__native_attention64_2026293.npz",
+      "sha256": "f2cb12fc7d793a9171abbc366186a4c997b25dfc84c3a3abd44582438cd3126d",
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "native_attention64",
+      "seed": 2026293,
+      "weight_sha256": "6b858977b06cdd07433f506e86790307fc5be6e70b19ad61850d7bddb5915a8c",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__multisine__native_attention64_chunk32_2026293.npz",
+      "sha256": "5b6082e135545fd3b45a5ff183b13b294fd3b46b637fdba174138d4e28a8d937",
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "native_attention64_chunk32",
+      "seed": 2026293,
+      "weight_sha256": "6b858977b06cdd07433f506e86790307fc5be6e70b19ad61850d7bddb5915a8c",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__arrow_full__native_attention64_2026293.npz",
+      "sha256": "a39e09560dab1b142f973c7b3e0cc2cdbc4d6ff2b9fa15ec7844f5570907b1c2",
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "native_attention64",
+      "seed": 2026293,
+      "weight_sha256": "6b858977b06cdd07433f506e86790307fc5be6e70b19ad61850d7bddb5915a8c",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__arrow_full__native_attention64_chunk32_2026293.npz",
+      "sha256": "f1b22bd565e95fa386d2aa08c8388414a483847cdcaba33c4302e7724f7d2579",
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "native_attention64_chunk32",
+      "seed": 2026293,
+      "weight_sha256": "6b858977b06cdd07433f506e86790307fc5be6e70b19ad61850d7bddb5915a8c",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "cascaded_tanks__test__native_attention64_2026293.npz",
+      "sha256": "84d4ea9ddf7e8bea0f271d982c83bc523ecccd22c0d4670498e7a80876f371f7",
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "native_attention64",
+      "seed": 2026293,
+      "weight_sha256": "6b858977b06cdd07433f506e86790307fc5be6e70b19ad61850d7bddb5915a8c",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "cascaded_tanks__test__native_attention64_chunk32_2026293.npz",
+      "sha256": "21c949aa2129e6a3c0ece8bb252d09864875bdcec653229976c8d31693b7956b",
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "native_attention64_chunk32",
+      "seed": 2026293,
+      "weight_sha256": "6b858977b06cdd07433f506e86790307fc5be6e70b19ad61850d7bddb5915a8c",
+      "point": "deterministic mean regression"
+    },
+    {
+      "path": "silverbox__multisine__arx_context_selected.npz",
+      "sha256": "9d3bc520ba80f30bf8523f584eed8f6f564001cd6e4f469defc4664e093f9096",
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "arx_context_selected",
+      "seed": null,
+      "selection": "within allowed 128-step context only",
+      "fit_dtype": "float64 original measured values"
+    },
+    {
+      "path": "silverbox__multisine__persistence.npz",
+      "sha256": "5a9a237f2c384cd980deba8133c33244f990d8d2c65b8772d5e15114a7d503f2",
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "persistence",
+      "seed": null
+    },
+    {
+      "path": "silverbox__multisine__train_mean.npz",
+      "sha256": "863a8b718d2446b7b0294394286d8f4b41a70c638b823cd9222ca41506a61e71",
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "train_mean",
+      "seed": null
+    },
+    {
+      "path": "silverbox__arrow_full__arx_context_selected.npz",
+      "sha256": "0b7b8e6a34729be9ce8f34dc5b2b258f93d70d9edac227611533db79b77303fd",
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "arx_context_selected",
+      "seed": null,
+      "selection": "within allowed 128-step context only",
+      "fit_dtype": "float64 original measured values"
+    },
+    {
+      "path": "silverbox__arrow_full__persistence.npz",
+      "sha256": "0e7fbe51cf734e2936cf1e7a763cbfeac05d0c1319f6dfee4223c162a488f4d4",
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "persistence",
+      "seed": null
+    },
+    {
+      "path": "silverbox__arrow_full__train_mean.npz",
+      "sha256": "fd35799bb53c5ba8c5d7a5c6d8350275b35496884d3f73cdb2acd381a944ec2c",
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "train_mean",
+      "seed": null
+    },
+    {
+      "path": "cascaded_tanks__test__arx_context_selected.npz",
+      "sha256": "4129e6dadba55105b040bbe20223ac06d4cbc825c71f59e95988a78e35612ab0",
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "arx_context_selected",
+      "seed": null,
+      "selection": "within allowed 128-step context only",
+      "fit_dtype": "float64 original measured values"
+    },
+    {
+      "path": "cascaded_tanks__test__persistence.npz",
+      "sha256": "564235ca9a1ae9dd5ff455daff7730d06928592ff4986e1ff5503c1458d78919",
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "persistence",
+      "seed": null
+    },
+    {
+      "path": "cascaded_tanks__test__train_mean.npz",
+      "sha256": "4787aaef01a07cfd7f0c8b7b1c2baed6208ca20bb2583396d7930e7db052a465",
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "train_mean",
+      "seed": null
+    },
+    {
+      "path": "silverbox__multisine__pretrained_native_icl.npz",
+      "sha256": "83e95522abf2b3c87de86de1f06ce9e4725e27b237eacc7996b4b059ee555024",
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "pretrained_native_icl",
+      "seed": null,
+      "weight_sha256": "e8324becad85ac610ec94f8ae09048938b343761a5bcd3967a86353a5bf28197",
+      "point": "native Gaussian mean",
+      "budget": "external pretraining, not matched"
+    },
+    {
+      "path": "silverbox__arrow_full__pretrained_native_icl.npz",
+      "sha256": "08ba77645ae90b9efea652a1063facd4ef2ffb06fb78990c1cf6bff862bbdfac",
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "pretrained_native_icl",
+      "seed": null,
+      "weight_sha256": "e8324becad85ac610ec94f8ae09048938b343761a5bcd3967a86353a5bf28197",
+      "point": "native Gaussian mean",
+      "budget": "external pretraining, not matched"
+    },
+    {
+      "path": "cascaded_tanks__test__pretrained_native_icl.npz",
+      "sha256": "499d9644696c28230871d4f513b6cda5e150370d0c81b761a8cac911d44e8f25",
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "pretrained_native_icl",
+      "seed": null,
+      "weight_sha256": "e8324becad85ac610ec94f8ae09048938b343761a5bcd3967a86353a5bf28197",
+      "point": "native Gaussian mean",
+      "budget": "external pretraining, not matched"
+    },
+    {
+      "path": "silverbox__multisine__pretrained_pcfm_cd_glue0.npz",
+      "sha256": "a5e20659fbe4532c29c5dffc8a5872208b7076fed0bddd3bfd0d3074d0c4c353",
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "pretrained_pcfm_cd_glue0",
+      "seed": null,
+      "weight_sha256": "746ff3eb69f9fcaa0e934f13b5afda17be7591a987eb64c671fa05b1d87b6755",
+      "source_revision": "226ddc37786ab0060ab1dbe7b0b0ebcb58b24630",
+      "graph": "CD",
+      "glue": false,
+      "point": "native marginal median",
+      "budget": "external pretraining, not matched"
+    },
+    {
+      "path": "silverbox__arrow_full__pretrained_pcfm_cd_glue0.npz",
+      "sha256": "15e7609f534b00ec3930fd0a670ceea2db5cc48b5d7b42279a5d3c4a64928fbb",
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "pretrained_pcfm_cd_glue0",
+      "seed": null,
+      "weight_sha256": "746ff3eb69f9fcaa0e934f13b5afda17be7591a987eb64c671fa05b1d87b6755",
+      "source_revision": "226ddc37786ab0060ab1dbe7b0b0ebcb58b24630",
+      "graph": "CD",
+      "glue": false,
+      "point": "native marginal median",
+      "budget": "external pretraining, not matched"
+    },
+    {
+      "path": "cascaded_tanks__test__pretrained_pcfm_cd_glue0.npz",
+      "sha256": "9d168a77568cc8ab166720638aa7ae07a6f62673e622365895b80332e1d3cde2",
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "pretrained_pcfm_cd_glue0",
+      "seed": null,
+      "weight_sha256": "746ff3eb69f9fcaa0e934f13b5afda17be7591a987eb64c671fa05b1d87b6755",
+      "source_revision": "226ddc37786ab0060ab1dbe7b0b0ebcb58b24630",
+      "graph": "CD",
+      "glue": false,
+      "point": "native marginal median",
+      "budget": "external pretraining, not matched"
+    }
+  ],
+  "physical_systems": 2,
+  "forecast_windows": 71,
+  "elapsed_s": 12.203000000008615,
+  "scope": "predeclared recorded-input rolling-origin simulation; not official full open-loop ranking, unseen-plan truth, or real-data neural finetuning",
+  "accepted_final_directions": 0
+}

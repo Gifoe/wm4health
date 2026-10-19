@@ -1,0 +1,31 @@
+{
+  "kind": "normalized_gaussian",
+  "seed": 81,
+  "parameters": 33538,
+  "selected_step": 1800,
+  "best_validation_reported_NLL": 0.9601477384567261,
+  "seconds": 4.425272100001166,
+  "test": [
+    {
+      "context": -2.0,
+      "test_reported_NLL": 0.45717644691467285,
+      "true_DGP_NLL": 0.45500391721725464,
+      "proper_normalized_test_NLL": 0.45717644691467285,
+      "integrated_surrogate_mass": 1.0
+    },
+    {
+      "context": 0.0,
+      "test_reported_NLL": 0.9867804646492004,
+      "true_DGP_NLL": 0.9867111444473267,
+      "proper_normalized_test_NLL": 0.9867804646492004,
+      "integrated_surrogate_mass": 1.0
+    },
+    {
+      "context": 2.0,
+      "test_reported_NLL": 1.3318841457366943,
+      "true_DGP_NLL": 1.3305691480636597,
+      "proper_normalized_test_NLL": 1.3318841457366943,
+      "integrated_surrogate_mass": 1.0
+    }
+  ]
+}

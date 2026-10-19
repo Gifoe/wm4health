@@ -1,0 +1,3 @@
+# C47 count guide
+
+16 trained model fits =2 mechanisms ×2 initialization seeds ×4 objectives. 21200 formal updates;56 discarded qualification updates separate. 512 unique physical EVAL trajectories =256 per mechanism. Three paired observation-density histories per physical path =1536 contexts. Each case has8 learned fits plus one known-process reference, making54 raw model/policy groups and13824 model–origin–policy score entries. Neither contexts nor model repetitions multiply independent physical trajectories. Each entry uses64 joint32-step futures. Two fit seeds are not many-seed stability evidence.

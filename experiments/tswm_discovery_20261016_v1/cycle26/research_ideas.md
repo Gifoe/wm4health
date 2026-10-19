@@ -1,0 +1,9 @@
+# Candidate research questions,not accepted directions
+
+One provisional lead remains: **Can a reusable pretrained time-series state support rapid system identification when actuation changes both dynamics and which hidden variables become observable?** The target is a common state/update/conditional rollout mechanism across systems,not motor- or triad-specific scoring.
+
+Nearest obstacle to novelty: controlled Koopman-generator EM and recurrent state-space identification already address partial observation and bilinear actuation. Existing context adaptation,history-aware neural SDEs and action-conditioned representation objectives are strong composites. Merely adding action,loops,memory or a response loss is insufficient.
+
+First falsifier: execute the native published slow-manifold control example,then a separately source-verified DC-motor benchmark with hidden current/observed speed. The motor would be a cross-benchmark transfer of bilinear EM,not an author-native example:the actual released repository has slow-manifold and Duffing notebooks,and the paper's third example is fluidic pinball. Compare bilinear EM at several latent sizes,ordinary GRU/NARX and pretrained-state adaptation. Calibration budgets and held-out physical initial conditions/action dwell times fixed before test scoring. Distinguish fully observed,oracle-filtered and history-only information. If an ordinary learned bilinear/readout/recurrent repair matches the proposal,the proposed new mechanism is unnecessary.
+
+The response-interface lead is rejected as new architecture evidence by cycle26. Hidden-memory intervention initialization remains a conceptual possibility but is not prioritized without a same-information,known-actuator nonlinear example that defeats standard controlled filters. Do not build another toy solely to exclude competent baselines.

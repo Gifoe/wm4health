@@ -1,0 +1,10 @@
+title,source_status,paper_type,primary_url,insight_1to5,completeness_1to5,numeric_evidence_1to5,scope_boundary
+WorldTS,2026 preprint,pure method,https://arxiv.org/html/2609.31162v1,3,4,3,"latent prediction with multimodal covariates; general per-task framework, not a shared pretrained causal simulator"
+Pythia,2026 technical report,pure method,https://arxiv.org/html/2610.05240v1,3,3,3,shared contextual pretraining exists; primary paper lists code/model to be released
+OSSM,2026 preprint,pure method,https://arxiv.org/html/2609.33566v1,4,3,3,observation correction versus autonomous propagation is already explicit; linear latent assumptions matter
+Timeflies,2026 preprint; author-reported NeurIPS poster not independently checked,method + benchmark,https://arxiv.org/html/2606.13571v1,3,2,3,joint observability/value modeling; stationary missingness limitation; pinned repository currently has no training code
+Under-Cali,KDD 2026 DOI10.1145/3770855.3817729,pure method,https://arxiv.org/html/2605.28603v1,3,4,3,frozen forecaster plus online calibration; uses revealed labels after predictions; no zero-feedback equivalence claimed
+Robust prediction under missingness shifts,2024 preprint,pure method,https://arxiv.org/html/2406.16484v1,4,3,3,ignorable-shift invariance and nonignorable Bayes-predictor changes already known; NeuMISE is an existing control
+MIRRAMS,2025 preprint v2,pure method,https://arxiv.org/html/2507.08280v2,3,3,3,robust tabular learning under unseen missingness shifts; broad missingness robustness is not new
+Domain Adaptation under Missingness Shift,AISTATS 2023,theory/proof,https://proceedings.mlr.press/v206/zhou23b.html,4,4,3,underreporting without indicators and linear adaptation; distinguish from known event-trigger metadata
+Latent ODEs,2019 arXiv version,pure method,https://arxiv.org/abs/1907.03907,4,4,4,continuous latent trajectories plus Poisson observation-time likelihood already exist

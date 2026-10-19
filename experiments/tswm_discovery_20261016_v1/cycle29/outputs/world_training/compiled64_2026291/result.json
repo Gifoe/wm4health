@@ -1,0 +1,136 @@
+{
+  "status": "completed",
+  "kind": "compiled64",
+  "seed": 2026291,
+  "steps": 8192,
+  "best_step": 6144,
+  "best_validation_mse": 0.6089083328843117,
+  "stopped_by_patience": true,
+  "underconverged_at_cap": false,
+  "total_parameters": 120705,
+  "trainable_parameters": 120705,
+  "batch_schedule_sha256": "b45ad016e30ec958c6da9231ef88471b618af5e3dcfb35810d872e9617908217",
+  "hashes": {
+    "MODEL_COMPARISON_PLAN.md": "2d22218f8ca32c2c8a97f017d1e980657d4e5ac39b5511e1a53a5f1757bd8ada",
+    "world_data.py": "ea5121b5e1e63964d66e2c82025c9084109cd1f63297a22e126bf5c5befaf7bd",
+    "world_models.py": "2bfae9ab348ddfc5431031a9e13bfeb9201fb5a7d9fdb49d20375aa599f3ff74",
+    "train_world_comparison.py": "c158f1ccc84eb6b151e509b84d15dccf53afa53394a96b69557182137ad8046d"
+  },
+  "best_weight_sha256": "dfef3ff2e181cfb9e093dde9900f84f73283da9bfe6b9e816312db61bf60f880",
+  "history": [
+    {
+      "step": 512,
+      "training_mse": 54.566595573560335,
+      "validation_mse": 1.232778623700142,
+      "elapsed_s": 18.828000000008615,
+      "grad_norm": 1.3138818740844727
+    },
+    {
+      "step": 1024,
+      "training_mse": 42.39129315549508,
+      "validation_mse": 1.1794197261333466,
+      "elapsed_s": 37.65700000000652,
+      "grad_norm": 1.0087164640426636
+    },
+    {
+      "step": 1536,
+      "training_mse": 25.55589820712339,
+      "validation_mse": 0.9956814050674438,
+      "elapsed_s": 56.5,
+      "grad_norm": 1.344197392463684
+    },
+    {
+      "step": 2048,
+      "training_mse": 24.59050756850047,
+      "validation_mse": 0.9728945940732956,
+      "elapsed_s": 75.375,
+      "grad_norm": 2.039754867553711
+    },
+    {
+      "step": 2560,
+      "training_mse": 42.4870863565593,
+      "validation_mse": 0.9116003811359406,
+      "elapsed_s": 94.17200000000594,
+      "grad_norm": 1.5502041578292847
+    },
+    {
+      "step": 3072,
+      "training_mse": 34.61462331342045,
+      "validation_mse": 0.8043513149023056,
+      "elapsed_s": 113.0,
+      "grad_norm": 3.8351008892059326
+    },
+    {
+      "step": 3584,
+      "training_mse": 47.930487297300715,
+      "validation_mse": 0.7534502744674683,
+      "elapsed_s": 131.82800000000861,
+      "grad_norm": 1.8780618906021118
+    },
+    {
+      "step": 4096,
+      "training_mse": 11.898122960119508,
+      "validation_mse": 0.7134019136428833,
+      "elapsed_s": 150.625,
+      "grad_norm": 1.3317925930023193
+    },
+    {
+      "step": 4608,
+      "training_mse": 13.970385253167478,
+      "validation_mse": 0.7003413811326027,
+      "elapsed_s": 169.45300000000861,
+      "grad_norm": 1.6834301948547363
+    },
+    {
+      "step": 5120,
+      "training_mse": 10.196339819638524,
+      "validation_mse": 0.6896333992481232,
+      "elapsed_s": 188.28200000000652,
+      "grad_norm": 1.770451545715332
+    },
+    {
+      "step": 5632,
+      "training_mse": 11.181324754812522,
+      "validation_mse": 0.7129663974046707,
+      "elapsed_s": 207.14100000000326,
+      "grad_norm": 5.784245014190674
+    },
+    {
+      "step": 6144,
+      "training_mse": 50.932991553650936,
+      "validation_mse": 0.6089083328843117,
+      "elapsed_s": 226.0,
+      "grad_norm": 1.4412379264831543
+    },
+    {
+      "step": 6656,
+      "training_mse": 68.05529140488943,
+      "validation_mse": 0.6690569147467613,
+      "elapsed_s": 244.86000000000058,
+      "grad_norm": 2.049311399459839
+    },
+    {
+      "step": 7168,
+      "training_mse": 48.62475895395619,
+      "validation_mse": 0.6938924491405487,
+      "elapsed_s": 263.6880000000092,
+      "grad_norm": 3.523038148880005
+    },
+    {
+      "step": 7680,
+      "training_mse": 43.27027724360232,
+      "validation_mse": 0.6564339846372604,
+      "elapsed_s": 282.5,
+      "grad_norm": 4.229509353637695
+    },
+    {
+      "step": 8192,
+      "training_mse": 1.6680241015274078,
+      "validation_mse": 0.6212494187057018,
+      "elapsed_s": 301.3280000000086,
+      "grad_norm": 1.2053649425506592
+    }
+  ],
+  "elapsed_s": 301.3440000000119,
+  "peak_cuda_allocated_bytes": 81232384
+}

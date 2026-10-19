@@ -1,0 +1,9 @@
+# Strong ordinary readouts — added before query effects or EVAL access
+
+The fixed function definitions and all training/selection rules are unchanged. A generic sampling comparison would omit capabilities already present in ordinary latent world laws. Therefore include these algebraic controls in the query phase, without treating them as proposed methods.
+
+For a selected learned LGSSM, the conditional future is Gaussian under its fitted law. Its global mean, mean squared temporal increment, and average threshold occupancy have analytic expectations. Smooth maximum and crossing depend only on the16-dimensional spatial-mean Gaussian marginal, which can be sampled directly without generating all1024 observations. Count moment/marginal setup and query costs. Zero Monte Carlo error is about the fitted model's expectation; model bias relative to the true process is unchanged.
+
+For the probabilistic GRU's fitted law, given a sampled PCA-coordinate path, the independent orthogonal observation noise is Gaussian. Integrate it analytically for mean, roughness, occupancy and crossing. Smoothmax uses only its scalar spatial-mean noise marginal. This is ordinary conditional Monte Carlo/Rao–Blackwellization with no access to the true latent state. The observation residual covariance must use the actual decoder transform, including finite-precision PCA loading values. No finite-batch sorting or dependence-blind variance calculation is allowed.
+
+These are additional strong estimator controls for already selected weights. They do not alter model training, give any learner an oracle parameter, change thresholds, or use EVAL to choose a method. Their numerical algebra is qualified separately using TRAIN/VAL only. If they absorb the useful quality/cost gain, a new multiscale architecture has not been justified.

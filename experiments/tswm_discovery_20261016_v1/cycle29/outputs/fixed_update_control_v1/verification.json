@@ -1,0 +1,206 @@
+{
+  "status": "passed",
+  "results_sha256": "88920d164714b8da4523256e6026764208756707c694426f1322fd8a8887ea70",
+  "training_summary_sha256": "c6a39a6a627c61cfb667b17027f3f0e7325fcba0adffce45c6d3ed791f09a55e",
+  "source_sha256": "fc119ced98abe3034ebb81b25db4dccc1c0b79f8230bf4cee93ed0b2011e5e04",
+  "metric_rows_rescored": 18432,
+  "relative_metric_error_max": 1.3710961034866367e-07,
+  "models": [
+    {
+      "kind": "compiled64",
+      "seed": 2026291,
+      "steps": 32768,
+      "best_step": 31744,
+      "best_validation_mse": 0.4516829326748848,
+      "weight_sha256": "2f3c0f1f00fbd682dff3ef62c7a404eb1900e7916f329fe9821020e9cc61b8ee",
+      "extra_updates": 0
+    },
+    {
+      "kind": "conditional128",
+      "seed": 2026291,
+      "steps": 32768,
+      "best_step": 31232,
+      "best_validation_mse": 0.4677807465195656,
+      "weight_sha256": "1305dd32bee520def811215eb11612345c7b51d5b50aba9d39913f0acabc9503",
+      "extra_updates": 0
+    },
+    {
+      "kind": "compiled64",
+      "seed": 2026292,
+      "steps": 32768,
+      "best_step": 32256,
+      "best_validation_mse": 0.47445565462112427,
+      "weight_sha256": "34f7fc39e1b6fff321731af4c1fe380b0a88b0eda41a743556b1ecac5e3e8297",
+      "extra_updates": 23040
+    },
+    {
+      "kind": "conditional128",
+      "seed": 2026292,
+      "steps": 32768,
+      "best_step": 28160,
+      "best_validation_mse": 0.6620923057198524,
+      "weight_sha256": "3d76331c3fd5faa2cd48bf13b3f3f16401c0c2eecd051069b0f4bc14d606141d",
+      "extra_updates": 19456
+    },
+    {
+      "kind": "compiled64",
+      "seed": 2026293,
+      "steps": 32768,
+      "best_step": 31744,
+      "best_validation_mse": 0.5373022183775902,
+      "weight_sha256": "86eaf2bd82e1d39705bca24bc06efcb29b2b9c49e6c35591a3666bc370c3d983",
+      "extra_updates": 3072
+    },
+    {
+      "kind": "conditional128",
+      "seed": 2026293,
+      "steps": 32768,
+      "best_step": 31744,
+      "best_validation_mse": 0.53703822940588,
+      "weight_sha256": "570cd7ed364e46e2e022405f3514c41037e0de571d9295133daa00003515d2e6",
+      "extra_updates": 17920
+    }
+  ],
+  "schedules": {
+    "2026291": "9e27efddb605f097af012d8c7287379b0d1ad8972e1a871ba13bd91609882e20",
+    "2026292": "438041ce3936737ff53925627b207a9889d051601c347ef10fdb094e1a33c149",
+    "2026293": "5592a4f15f1de89ca403884a05fd53a1bc70b32b695b44e53c46c421ca206265"
+  },
+  "replays": [
+    {
+      "family": "lti",
+      "kind": "compiled64",
+      "seed": 2026291,
+      "systems": [
+        0,
+        31,
+        95
+      ],
+      "relative_max_error": 5.10309749597895e-07
+    },
+    {
+      "family": "wh",
+      "kind": "compiled64",
+      "seed": 2026291,
+      "systems": [
+        0,
+        31,
+        95
+      ],
+      "relative_max_error": 3.343427913765278e-07
+    },
+    {
+      "family": "lti",
+      "kind": "conditional128",
+      "seed": 2026291,
+      "systems": [
+        0,
+        31,
+        95
+      ],
+      "relative_max_error": 5.506243588108395e-07
+    },
+    {
+      "family": "wh",
+      "kind": "conditional128",
+      "seed": 2026291,
+      "systems": [
+        0,
+        31,
+        95
+      ],
+      "relative_max_error": 4.201459345392677e-07
+    },
+    {
+      "family": "lti",
+      "kind": "compiled64",
+      "seed": 2026292,
+      "systems": [
+        0,
+        31,
+        95
+      ],
+      "relative_max_error": 2.568495889507603e-07
+    },
+    {
+      "family": "wh",
+      "kind": "compiled64",
+      "seed": 2026292,
+      "systems": [
+        0,
+        31,
+        95
+      ],
+      "relative_max_error": 3.3053834596775354e-07
+    },
+    {
+      "family": "lti",
+      "kind": "conditional128",
+      "seed": 2026292,
+      "systems": [
+        0,
+        31,
+        95
+      ],
+      "relative_max_error": 4.0034443597153863e-07
+    },
+    {
+      "family": "wh",
+      "kind": "conditional128",
+      "seed": 2026292,
+      "systems": [
+        0,
+        31,
+        95
+      ],
+      "relative_max_error": 3.864445602076797e-07
+    },
+    {
+      "family": "lti",
+      "kind": "compiled64",
+      "seed": 2026293,
+      "systems": [
+        0,
+        31,
+        95
+      ],
+      "relative_max_error": 6.234858645778727e-07
+    },
+    {
+      "family": "wh",
+      "kind": "compiled64",
+      "seed": 2026293,
+      "systems": [
+        0,
+        31,
+        95
+      ],
+      "relative_max_error": 4.3107322980065564e-07
+    },
+    {
+      "family": "lti",
+      "kind": "conditional128",
+      "seed": 2026293,
+      "systems": [
+        0,
+        31,
+        95
+      ],
+      "relative_max_error": 4.482421511678725e-07
+    },
+    {
+      "family": "wh",
+      "kind": "conditional128",
+      "seed": 2026293,
+      "systems": [
+        0,
+        31,
+        95
+      ],
+      "relative_max_error": 5.959036822459544e-07
+    }
+  ],
+  "neural_relative_error_max": 6.234858645778727e-07,
+  "seconds": 2.6089999999967404,
+  "scope": "fixed update control independent score/checkpoint/schedule/replay verification;not novelty proof"
+}

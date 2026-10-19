@@ -1,0 +1,447 @@
+{
+  "config": {
+    "seeds": [
+      2021,
+      2022,
+      2023
+    ],
+    "arms": [
+      "energy",
+      "energy_information",
+      "energy_observed",
+      "observed_only"
+    ],
+    "updates": 6000,
+    "batch": 256,
+    "lr": 0.001,
+    "components": 8,
+    "samples_per_component": 4,
+    "sigreg_weight": 1.0,
+    "sigreg_projections": 64,
+    "sigreg_knots": 17,
+    "information_weight": 2.0,
+    "rho": 0.9,
+    "p_flip": 0.25,
+    "angle": 0.3,
+    "validation_seed": 9101,
+    "validation_n": 8192,
+    "probe_train_seed": 9102,
+    "probe_train_n": 16384,
+    "probe_test_seed": 9103,
+    "probe_test_n": 8192,
+    "checkpoint_selection": "last fixed update, no physical-readout/test selection",
+    "scope": "new controlled learning study using unchanged native source components; not full native method reproduction"
+  },
+  "rows": [
+    {
+      "seed": 2021,
+      "arm": "energy",
+      "active_trainable_parameters": 11434,
+      "total_instantiated_parameters": 15916,
+      "training_seconds": 56.69491457939148,
+      "validation": {
+        "total": 2.0366269312798977,
+        "latent_energy": 0.6962995808571577,
+        "sigreg": 1.3403273643925786,
+        "aux": 0.0
+      },
+      "latent_covariance_eigenvalues": [
+        0.9304708029502705,
+        1.0684309960958778
+      ],
+      "latent_mean": [
+        -0.05553627014160156,
+        -0.03751923516392708
+      ],
+      "sign_fiber_separation_ratio": 1.9966905275884648,
+      "probes": {
+        "ridge": {
+          "raw_state_MSE": 0.001982548661731664,
+          "one_step_raw_mean_MSE": 0.000401466104000662
+        },
+        "extra_trees": {
+          "raw_state_MSE": 0.006399054240929607,
+          "one_step_raw_mean_MSE": 0.0012958084837882456
+        }
+      }
+    },
+    {
+      "seed": 2021,
+      "arm": "energy_information",
+      "active_trainable_parameters": 11434,
+      "total_instantiated_parameters": 15916,
+      "training_seconds": 75.33564019203186,
+      "validation": {
+        "total": -0.3548801504075527,
+        "latent_energy": 0.6964200343936682,
+        "sigreg": 1.283421853557229,
+        "aux": -2.334722049534321
+      },
+      "latent_covariance_eigenvalues": [
+        0.9388969459069169,
+        1.0563626060357298
+      ],
+      "latent_mean": [
+        -0.04248657077550888,
+        -0.04085870087146759
+      ],
+      "sign_fiber_separation_ratio": 1.998118322769936,
+      "probes": {
+        "ridge": {
+          "raw_state_MSE": 0.0009740401910717135,
+          "one_step_raw_mean_MSE": 0.000197243138692022
+        },
+        "extra_trees": {
+          "raw_state_MSE": 0.00457577829697923,
+          "one_step_raw_mean_MSE": 0.0009265951051382942
+        }
+      }
+    },
+    {
+      "seed": 2021,
+      "arm": "energy_observed",
+      "active_trainable_parameters": 15916,
+      "total_instantiated_parameters": 15916,
+      "training_seconds": 72.41118550300598,
+      "validation": {
+        "total": 2.735472772270441,
+        "latent_energy": 0.6972491685301065,
+        "sigreg": 1.3367760693654418,
+        "aux": 0.7014475427567959
+      },
+      "latent_covariance_eigenvalues": [
+        0.9305316542666892,
+        1.067871994148741
+      ],
+      "latent_mean": [
+        -0.055504970252513885,
+        -0.036878153681755066
+      ],
+      "sign_fiber_separation_ratio": 1.9968757926560572,
+      "probes": {
+        "ridge": {
+          "raw_state_MSE": 0.0018182426666861666,
+          "one_step_raw_mean_MSE": 0.0003681941400039488
+        },
+        "extra_trees": {
+          "raw_state_MSE": 0.00435768789508158,
+          "one_step_raw_mean_MSE": 0.00088243179875402
+        }
+      }
+    },
+    {
+      "seed": 2021,
+      "arm": "observed_only",
+      "active_trainable_parameters": 15916,
+      "total_instantiated_parameters": 15916,
+      "training_seconds": 64.12417840957642,
+      "validation": {
+        "total": 2.0468653477728367,
+        "latent_energy": 1.1363732032477856,
+        "sigreg": 1.3444838663563132,
+        "aux": 0.7023814804852009
+      },
+      "latent_covariance_eigenvalues": [
+        0.939962644277664,
+        1.0819501989190057
+      ],
+      "latent_mean": [
+        -0.05570681020617485,
+        -0.037524279206991196
+      ],
+      "sign_fiber_separation_ratio": 1.9970654794545004,
+      "probes": {
+        "ridge": {
+          "raw_state_MSE": 0.0014508589434915039,
+          "one_step_raw_mean_MSE": 0.00029379893605702953
+        },
+        "extra_trees": {
+          "raw_state_MSE": 0.005540027649097938,
+          "one_step_raw_mean_MSE": 0.0011218555989423325
+        }
+      }
+    },
+    {
+      "seed": 2022,
+      "arm": "energy",
+      "active_trainable_parameters": 11434,
+      "total_instantiated_parameters": 15916,
+      "training_seconds": 51.705225706100464,
+      "validation": {
+        "total": 1.650338388979435,
+        "latent_energy": 0.6944799739867449,
+        "sigreg": 0.9558584112673998,
+        "aux": 0.0
+      },
+      "latent_covariance_eigenvalues": [
+        0.974182635517552,
+        1.0034645032042697
+      ],
+      "latent_mean": [
+        0.0001809433160815388,
+        0.006959563586860895
+      ],
+      "sign_fiber_separation_ratio": 1.999899141186918,
+      "probes": {
+        "ridge": {
+          "raw_state_MSE": 0.0005538019652559712,
+          "one_step_raw_mean_MSE": 0.00011214489796433417
+        },
+        "extra_trees": {
+          "raw_state_MSE": 0.007663152069665813,
+          "one_step_raw_mean_MSE": 0.0015517882941073274
+        }
+      }
+    },
+    {
+      "seed": 2022,
+      "arm": "energy_information",
+      "active_trainable_parameters": 11434,
+      "total_instantiated_parameters": 15916,
+      "training_seconds": 67.83407974243164,
+      "validation": {
+        "total": -0.6814013570547104,
+        "latent_energy": 0.6933919675648212,
+        "sigreg": 0.9529958320781589,
+        "aux": -2.327789142727852
+      },
+      "latent_covariance_eigenvalues": [
+        0.9747930728501254,
+        1.0002336162087229
+      ],
+      "latent_mean": [
+        0.000903703214135021,
+        0.011527596972882748
+      ],
+      "sign_fiber_separation_ratio": 1.999459348324773,
+      "probes": {
+        "ridge": {
+          "raw_state_MSE": 0.0006245028937554727,
+          "one_step_raw_mean_MSE": 0.00012646183598548323
+        },
+        "extra_trees": {
+          "raw_state_MSE": 0.003988726135015529,
+          "one_step_raw_mean_MSE": 0.0008077170423406447
+        }
+      }
+    },
+    {
+      "seed": 2022,
+      "arm": "energy_observed",
+      "active_trainable_parameters": 15916,
+      "total_instantiated_parameters": 15916,
+      "training_seconds": 67.14491295814514,
+      "validation": {
+        "total": 2.3543473295867443,
+        "latent_energy": 0.6942099202424288,
+        "sigreg": 0.9570166226476431,
+        "aux": 0.7031207885593176
+      },
+      "latent_covariance_eigenvalues": [
+        0.9745484146032856,
+        1.0045264163738095
+      ],
+      "latent_mean": [
+        0.00047749438090249896,
+        0.006996875163167715
+      ],
+      "sign_fiber_separation_ratio": 1.999760390589565,
+      "probes": {
+        "ridge": {
+          "raw_state_MSE": 0.0006869221112912048,
+          "one_step_raw_mean_MSE": 0.00013910172753646899
+        },
+        "extra_trees": {
+          "raw_state_MSE": 0.007720053769155501,
+          "one_step_raw_mean_MSE": 0.001563310888253989
+        }
+      }
+    },
+    {
+      "seed": 2022,
+      "arm": "observed_only",
+      "active_trainable_parameters": 15916,
+      "total_instantiated_parameters": 15916,
+      "training_seconds": 61.23805022239685,
+      "validation": {
+        "total": 1.6620959043502808,
+        "latent_energy": 1.0385982189327478,
+        "sigreg": 0.9608720047399402,
+        "aux": 0.7012238968163729
+      },
+      "latent_covariance_eigenvalues": [
+        0.9867207610512492,
+        1.0145153716785438
+      ],
+      "latent_mean": [
+        0.0007260548882186413,
+        0.006200454197824001
+      ],
+      "sign_fiber_separation_ratio": 1.9999395466479404,
+      "probes": {
+        "ridge": {
+          "raw_state_MSE": 0.0003821384795145142,
+          "one_step_raw_mean_MSE": 7.738304210168913e-05
+        },
+        "extra_trees": {
+          "raw_state_MSE": 0.006978206622975737,
+          "one_step_raw_mean_MSE": 0.0014130868411525868
+        }
+      }
+    },
+    {
+      "seed": 2023,
+      "arm": "energy",
+      "active_trainable_parameters": 11434,
+      "total_instantiated_parameters": 15916,
+      "training_seconds": 48.07266187667847,
+      "validation": {
+        "total": 1.8769225552678108,
+        "latent_energy": 0.7045008186250925,
+        "sigreg": 1.172421745955944,
+        "aux": 0.0
+      },
+      "latent_covariance_eigenvalues": [
+        0.9693943679643635,
+        1.0620664496436822
+      ],
+      "latent_mean": [
+        -0.021819977089762688,
+        0.0251136664301157
+      ],
+      "sign_fiber_separation_ratio": 1.9977784961470297,
+      "probes": {
+        "ridge": {
+          "raw_state_MSE": 0.0032446138649000053,
+          "one_step_raw_mean_MSE": 0.0006570343076422511
+        },
+        "extra_trees": {
+          "raw_state_MSE": 0.008849055737295886,
+          "one_step_raw_mean_MSE": 0.001791933786802417
+        }
+      }
+    },
+    {
+      "seed": 2023,
+      "arm": "energy_information",
+      "active_trainable_parameters": 11434,
+      "total_instantiated_parameters": 15916,
+      "training_seconds": 68.81754398345947,
+      "validation": {
+        "total": -0.44689443334937096,
+        "latent_energy": 0.7038844749331474,
+        "sigreg": 1.185467042028904,
+        "aux": -2.336245946586132
+      },
+      "latent_covariance_eigenvalues": [
+        0.9652865134141119,
+        1.0659809568984528
+      ],
+      "latent_mean": [
+        -0.02077406458556652,
+        0.024575727060437202
+      ],
+      "sign_fiber_separation_ratio": 1.9999696526888313,
+      "probes": {
+        "ridge": {
+          "raw_state_MSE": 0.0010226098925613966,
+          "one_step_raw_mean_MSE": 0.00020707850324368284
+        },
+        "extra_trees": {
+          "raw_state_MSE": 0.007866535820056622,
+          "one_step_raw_mean_MSE": 0.001592973503561466
+        }
+      }
+    },
+    {
+      "seed": 2023,
+      "arm": "energy_observed",
+      "active_trainable_parameters": 15916,
+      "total_instantiated_parameters": 15916,
+      "training_seconds": 69.31649231910706,
+      "validation": {
+        "total": 2.5774824656546116,
+        "latent_energy": 0.703625513240695,
+        "sigreg": 1.171863067895174,
+        "aux": 0.7019938956946135
+      },
+      "latent_covariance_eigenvalues": [
+        0.9676636344643188,
+        1.0621678582052225
+      ],
+      "latent_mean": [
+        -0.021330520510673523,
+        0.02555355243384838
+      ],
+      "sign_fiber_separation_ratio": 1.9981469112348087,
+      "probes": {
+        "ridge": {
+          "raw_state_MSE": 0.0028129181167949715,
+          "one_step_raw_mean_MSE": 0.0005696159186509818
+        },
+        "extra_trees": {
+          "raw_state_MSE": 0.0077950597242586,
+          "one_step_raw_mean_MSE": 0.0015784995941623666
+        }
+      }
+    },
+    {
+      "seed": 2023,
+      "arm": "observed_only",
+      "active_trainable_parameters": 15916,
+      "total_instantiated_parameters": 15916,
+      "training_seconds": 61.62358069419861,
+      "validation": {
+        "total": 1.8835273832082748,
+        "latent_energy": 1.0455304384231567,
+        "sigreg": 1.1824942287057638,
+        "aux": 0.7010331451892853
+      },
+      "latent_covariance_eigenvalues": [
+        0.9793333322679708,
+        1.0735440707492574
+      ],
+      "latent_mean": [
+        -0.021191855892539024,
+        0.025797519832849503
+      ],
+      "sign_fiber_separation_ratio": 1.9985905628795668,
+      "probes": {
+        "ridge": {
+          "raw_state_MSE": 0.0022179333581591977,
+          "one_step_raw_mean_MSE": 0.00044913150502723755
+        },
+        "extra_trees": {
+          "raw_state_MSE": 0.00795386801626699,
+          "one_step_raw_mean_MSE": 0.0016106582732940656
+        }
+      }
+    }
+  ],
+  "probe_controls": {
+    "identity": {
+      "ridge": {
+        "raw_state_MSE": 7.539022407737418e-17,
+        "one_step_raw_mean_MSE": 1.5266520375668272e-17
+      },
+      "extra_trees": {
+        "raw_state_MSE": 0.0148323434680172,
+        "one_step_raw_mean_MSE": 0.003003549552273483
+      }
+    },
+    "exact_fold": {
+      "ridge": {
+        "raw_state_MSE": 2.023256053372047,
+        "one_step_raw_mean_MSE": 0.4097093508078396
+      },
+      "extra_trees": {
+        "raw_state_MSE": 2.071579718104842,
+        "one_step_raw_mean_MSE": 0.41949489291623054
+      }
+    }
+  },
+  "elapsed_seconds": 780.01811003685,
+  "max_cuda_memory_allocated": 37673984,
+  "completed_utc": "2026-10-16T03:34:32.281661+00:00",
+  "scope": "No native full model, new method superiority, or novelty verdict is implied by this controlled study."
+}

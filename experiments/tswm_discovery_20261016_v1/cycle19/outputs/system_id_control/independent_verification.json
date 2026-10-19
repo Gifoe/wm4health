@@ -1,0 +1,22 @@
+{
+  "arrays_hash_verified": 5,
+  "past_only_selection_replays_exact": 5,
+  "event_cohorts_exact": 20,
+  "prefix_replay_max_error": 0.0,
+  "normal_equation_residuals": {
+    "lorenz63_original": 1.8041124150158794e-16,
+    "chua_original": 1.8735013540549517e-16,
+    "sprottM_original": 6.245004513516506e-17,
+    "chua_common_short": 1.8041124150158794e-16,
+    "chua_common_long": 1.8046545161021221e-16
+  },
+  "max_MASE_arithmetic_error": 2.015712347036569e-09,
+  "numerical_checks": {
+    "exact_library_coefficient_error": 2.7755575615628914e-17,
+    "linear_analytic_RK4_max_error": 7.562883652667551e-11
+  },
+  "script_sha256": "b6365afe99102aab74b3568fffec12b0a483aaf5bf27c8e55cac71f8ea3fe15f",
+  "seconds": 2.2349625999922864,
+  "limits": "Selection/refit replay shares model code; event counts and MASE use independent arithmetic. No independent physical reference, bootstrap coverage or novelty is proved.",
+  "pass": true
+}

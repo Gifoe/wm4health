@@ -1,0 +1,87 @@
+{
+  "status": "completed",
+  "source_revision": "226ddc37786ab0060ab1dbe7b0b0ebcb58b24630",
+  "source_files_verified": 6,
+  "weights_sha256": "746ff3eb69f9fcaa0e934f13b5afda17be7591a987eb64c671fa05b1d87b6755",
+  "parameters": 52852000,
+  "native_example_calls": 15,
+  "n_recorded_calls": 28,
+  "screen": [
+    {
+      "plan": "OFF",
+      "glue": true,
+      "call_index": 15
+    },
+    {
+      "plan": "ON",
+      "glue": true,
+      "call_index": 16
+    },
+    {
+      "plan": "PULSE32",
+      "glue": true,
+      "call_index": 17
+    },
+    {
+      "plan": "DELAY32",
+      "glue": true,
+      "call_index": 18
+    },
+    {
+      "plan": "DELAY64",
+      "glue": true,
+      "call_index": 19
+    },
+    {
+      "plan": "DELAY96",
+      "glue": true,
+      "call_index": 20
+    },
+    {
+      "plan": "OFF",
+      "glue": false,
+      "call_index": 21
+    },
+    {
+      "plan": "ON",
+      "glue": false,
+      "call_index": 22
+    },
+    {
+      "plan": "PULSE32",
+      "glue": false,
+      "call_index": 23
+    },
+    {
+      "plan": "DELAY32",
+      "glue": false,
+      "call_index": 24
+    },
+    {
+      "plan": "DELAY64",
+      "glue": false,
+      "call_index": 25
+    },
+    {
+      "plan": "DELAY96",
+      "glue": false,
+      "call_index": 26
+    }
+  ],
+  "placeholder_max_abs_error": 0.0,
+  "elapsed_s": 8.047000000005937,
+  "peak_cuda_allocated_bytes": 520339456,
+  "environment": {
+    "python": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:36:49) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.8.0+cu128",
+    "numpy": "1.26.4",
+    "device": "NVIDIA GeForce RTX 5090",
+    "threads": 1
+  },
+  "source_manifest_sha256": "6c438ed2ba7b1e1b6ddf329d10d8f49142c0f537e2fbda9a567626dc765d5dd0",
+  "plan_sha256": "155554e4d40cd234b4bdc2c5cd8f9337bdc3c721f438f23be642f4db156f1fb9",
+  "script_sha256": "1e9c35f7ada6329e5fe1bf29d7002f178233e7e27469735bbde4aad837d62566",
+  "scope": "Untouched native five-example execution plus separately labeled single-authored-window contract screen;not independent real-data or paper-table reproduction",
+  "new_training": false,
+  "accepted_final_directions": 0
+}

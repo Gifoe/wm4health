@@ -1,0 +1,43 @@
+{
+  "variant": "scale_fix",
+  "seed": 1,
+  "epochs": 50,
+  "updates": 5000,
+  "parameters": 638917,
+  "selected_epoch": 19,
+  "best_val_native_raw_CRPS": 0.218883216381073,
+  "seconds": 130.29227399999945,
+  "checkpoint_sha256": "074bd94eb1d41ace90899e14582bfbac04de3e75f2a7353af62a419bdf02cf9f",
+  "test": {
+    "-3.0": {
+      "native_raw_CRPS_quantile19": 0.15335845947265625,
+      "native_raw_ND": 0.19971992075443268,
+      "normalized_MSE": 0.4639802575111389,
+      "normalized_MAE": 0.4206342399120331,
+      "empirical_CRPS_normalized": 0.3095504939556122,
+      "coverage90": 0.8720238208770752,
+      "interval90_width_normalized": 1.7157831192016602,
+      "windows": 30
+    },
+    "0.0": {
+      "native_raw_CRPS_quantile19": 0.2468985915184021,
+      "native_raw_ND": 0.3214053213596344,
+      "normalized_MSE": 0.4639800488948822,
+      "normalized_MAE": 0.4206341505050659,
+      "empirical_CRPS_normalized": 0.3095504939556122,
+      "coverage90": 0.8720238208770752,
+      "interval90_width_normalized": 1.7157862186431885,
+      "windows": 30
+    },
+    "3.0": {
+      "native_raw_CRPS_quantile19": 0.07822569459676743,
+      "native_raw_ND": 0.10172899812459946,
+      "normalized_MSE": 0.4639800488948822,
+      "normalized_MAE": 0.4206342101097107,
+      "empirical_CRPS_normalized": 0.30955058336257935,
+      "coverage90": 0.8720238208770752,
+      "interval90_width_normalized": 1.715787649154663,
+      "windows": 30
+    }
+  }
+}

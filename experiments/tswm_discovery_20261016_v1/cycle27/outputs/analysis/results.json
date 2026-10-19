@@ -1,0 +1,212 @@
+{
+  "status": "verified",
+  "scientific_decision": "REJECT_FRAMEWORK_NECESSITY_FROM_NATIVE_EM_FAILURE",
+  "accepted_final_directions": 0,
+  "goal_status": "ACTIVE_UNACHIEVED",
+  "headline": {
+    "train_continuation": {
+      "source_clean_mse": 2.068461549883225,
+      "corrected_clean_mse": 0.0038204025410458133,
+      "relative_reduction": 0.9981530222105113,
+      "arx_clean_mse": 3.162498879548101,
+      "corrected_coverage95": 0.9739973439575033,
+      "corrected_marginal_nll": -0.6911092493395058
+    },
+    "independent_dwell50": {
+      "source_clean_mse": 2.0079562703545313,
+      "corrected_clean_mse": 0.008857225312977182,
+      "relative_reduction": 0.9955889351557375,
+      "arx_clean_mse": 4.449711315206699,
+      "corrected_coverage95": 0.9753486055776892,
+      "corrected_marginal_nll": -0.6749524075563818
+    },
+    "independent_dwell5": {
+      "source_clean_mse": 0.04430864013753777,
+      "corrected_clean_mse": 0.00041960925969636065,
+      "relative_reduction": 0.9905298547101906,
+      "arx_clean_mse": 0.7488594598004769,
+      "corrected_coverage95": 0.9603876162018592,
+      "corrected_marginal_nll": -0.8552241125737435
+    },
+    "independent_dwell100": {
+      "source_clean_mse": 8.883271200194928,
+      "corrected_clean_mse": 0.01538269245607702,
+      "relative_reduction": 0.9982683527149616,
+      "arx_clean_mse": 17.47706837515841,
+      "corrected_coverage95": 0.971011786188579,
+      "corrected_marginal_nll": -0.5612706626766971
+    }
+  },
+  "n_score_rows": 270,
+  "n_aggregates": 110,
+  "n_paired_contrasts": 110,
+  "results_sha256": "ba8f88504cdb819988f131e783d776d57449b25812a1c4870e98cb7c9b242deb",
+  "verification": {
+    "status": "passed",
+    "maxima": {
+      "physical_abs": 1.5957501346974823e-06,
+      "native_mean_abs": 2.971010104602101e-10,
+      "native_cov_abs": 8.087681635515764e-10,
+      "forecast_mean_abs": 2.560085476943641e-11,
+      "forecast_variance_abs": 4.107278073206544e-09,
+      "score_abs": 2.842170943040401e-14,
+      "score_scaled": 1.3108293659401756e-15,
+      "arx_parameters_abs": 1.1762535390147377e-11
+    },
+    "counts": {
+      "data_hashes": 4,
+      "weight_hashes": 387,
+      "prediction_hashes": 270,
+      "physical_states": 242000,
+      "posterior_histories": 120,
+      "forecast_files": 270,
+      "score_values": 1830
+    },
+    "runtime_s": 8.671000000002095,
+    "results_sha256": "ba8f88504cdb819988f131e783d776d57449b25812a1c4870e98cb7c9b242deb",
+    "verifier_sha256": "dfe34383f22211f0d578ec361babe97e841c209732e9ad32c6b4ce836c474356",
+    "scope": "All datasets,declared checkpoints,posterior initial moments,forecast arrays,ARX selection and scores;no native-module import",
+    "tolerances": {
+      "posterior_atol": 1e-08,
+      "posterior_rtol": 1e-07,
+      "forecast_atol": 2e-07,
+      "forecast_rtol": 1e-07,
+      "score_atol": 1e-09,
+      "score_rtol": 1e-12
+    }
+  },
+  "fits": [
+    {
+      "algorithm": "source_mode",
+      "seed": 20262711,
+      "total_iterations": 280,
+      "stopping": "train_likelihood_tolerance",
+      "last_average_ll_gain": -0.03414705074992526,
+      "best": {
+        "path": "source_mode/seed20262711/weights_iter260.npz",
+        "sha256": "16a11636fa470f17b76360486966118009b84addeefdeb7f0e5384530d0fa71c",
+        "iteration": 260,
+        "likelihood": 9285.485356046687
+      },
+      "checkpoint100": {
+        "path": "source_mode/seed20262711/weights_iter100.npz",
+        "sha256": "0893020c882dd17fe10b2e106924c0e3aaea12447d0bc2f70122eb3a0b27f0f7",
+        "iteration": 100,
+        "likelihood": 9114.428194215312
+      },
+      "runtime_batched_s": 0.8589999999967404,
+      "resumed_native_iteration": 270
+    },
+    {
+      "algorithm": "source_mode",
+      "seed": 20262712,
+      "total_iterations": 250,
+      "stopping": "train_likelihood_tolerance",
+      "last_average_ll_gain": -0.02395985811308492,
+      "best": {
+        "path": "source_mode/seed20262712/weights_iter240.npz",
+        "sha256": "2d1c07c0fe3e79d03c016dedbafcea5c0900a6821b5171d7e85d0579e6a62391",
+        "iteration": 240,
+        "likelihood": 9287.795285054654
+      },
+      "checkpoint100": {
+        "path": "source_mode/seed20262712/weights_iter100.npz",
+        "sha256": "aaee8874c0145a5f4e8337e40d23f6ba23db2ee7eebb15c09cc9f664d1f5b072",
+        "iteration": 100,
+        "likelihood": 9188.397418961242
+      },
+      "runtime_batched_s": 17.328000000008615,
+      "resumed_native_iteration": 0
+    },
+    {
+      "algorithm": "source_mode",
+      "seed": 20262713,
+      "total_iterations": 220,
+      "stopping": "train_likelihood_tolerance",
+      "last_average_ll_gain": -0.03643873238343076,
+      "best": {
+        "path": "source_mode/seed20262713/weights_iter210.npz",
+        "sha256": "ed6eb81c956bf7a7df6d2df8d11987b07a3c60c91865fd565eb3cbd40ee55214",
+        "iteration": 210,
+        "likelihood": 9294.807271296406
+      },
+      "checkpoint100": {
+        "path": "source_mode/seed20262713/weights_iter100.npz",
+        "sha256": "c63accc8dfe819a2539b765bcbd82f1c4f58d765d62ae2b97fcc0440b43d40bc",
+        "iteration": 100,
+        "likelihood": 9216.336637543602
+      },
+      "runtime_batched_s": 15.280999999988126,
+      "resumed_native_iteration": 0
+    },
+    {
+      "algorithm": "corrected_em",
+      "seed": 20262711,
+      "total_iterations": 1000,
+      "stopping": "iteration_cap_underconverged",
+      "last_average_ll_gain": 0.20254789464397618,
+      "best": {
+        "path": "corrected_em/seed20262711/weights_iter1000.npz",
+        "sha256": "18f3efc884c55c8a54dbf3e02479e865e8e8ae02f21e62cf3c2e712089f08c19",
+        "iteration": 1000,
+        "likelihood": 10110.338466114774
+      },
+      "checkpoint100": {
+        "path": "corrected_em/seed20262711/weights_iter100.npz",
+        "sha256": "f36bcb870604c3eefa178c7315cd355da0231cdb1f90ec295e47866e49cb01e3",
+        "iteration": 100,
+        "likelihood": 9194.308912427474
+      },
+      "runtime_batched_s": 69.71900000001187,
+      "resumed_native_iteration": 0
+    },
+    {
+      "algorithm": "corrected_em",
+      "seed": 20262712,
+      "total_iterations": 1000,
+      "stopping": "iteration_cap_underconverged",
+      "last_average_ll_gain": 0.1302383951124284,
+      "best": {
+        "path": "corrected_em/seed20262712/weights_iter1000.npz",
+        "sha256": "b564135408004c4a4b1735e460acaf86e7f9bdfe4c749ad86651e9178d169096",
+        "iteration": 1000,
+        "likelihood": 10132.706203719237
+      },
+      "checkpoint100": {
+        "path": "corrected_em/seed20262712/weights_iter100.npz",
+        "sha256": "a6f0ff9bf552c826c73e248539c6377babaa3e352d8857135804eac6909ccc1e",
+        "iteration": 100,
+        "likelihood": 9242.647842188342
+      },
+      "runtime_batched_s": 69.73399999999674,
+      "resumed_native_iteration": 0
+    },
+    {
+      "algorithm": "corrected_em",
+      "seed": 20262713,
+      "total_iterations": 1000,
+      "stopping": "iteration_cap_underconverged",
+      "last_average_ll_gain": 0.1367309072180433,
+      "best": {
+        "path": "corrected_em/seed20262713/weights_iter1000.npz",
+        "sha256": "a8fae47d4e6871f9d1f765fff2b7710c6931ca773bb6ec521da86630836f72a7",
+        "iteration": 1000,
+        "likelihood": 10130.567548411334
+      },
+      "checkpoint100": {
+        "path": "corrected_em/seed20262713/weights_iter100.npz",
+        "sha256": "055c712fd161df2a70a8ef94573385f6afeeac5613f306f27f9ee40ca4cb84ca",
+        "iteration": 100,
+        "likelihood": 9263.653847009311
+      },
+      "runtime_batched_s": 69.5789999999979,
+      "resumed_native_iteration": 0
+    }
+  ],
+  "limitations": [
+    "One physical family with fixed parameters;three initialization seeds share one training dataset",
+    "Corrected EM is censored at 1000 while improving;source fits stop on negative likelihood gain",
+    "No cross-system pretrained transfer or new framework evaluated",
+    "Marginal Gaussian scores do not certify joint trajectory law"
+  ]
+}

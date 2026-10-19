@@ -1,0 +1,9 @@
+# Negative evidence — working cycle16
+
+1. Cycle15's large covariance error was a source-native admissible module witness, not a trained-model or real-data failure. Ordinary augmented Gaussian propagation solved it cheaply. Renaming that correction remains unsupported.
+2. The initial150-history adapter failed a pre-fit control-alignment invariant. That was an adapter error, not MTS3 failure. The corrected151-history contract passed before training.
+3. Raw NP/PJM each have two forecast covariates, despite an earlier cycle14 prose count derived from a six-dimensional calendar/config field. The old code used actual tensor columns and its numeric results are unchanged. The correction is separate from sealed artifacts.
+4. Future raw forecast issuance is unverified; claiming an operationally available future75-step input would be unjustified. This pilot excludes those columns entirely.
+5. The fixed step100 smoke does not reproduce the cycle15 extreme effect in its decoder output. This observation is preliminary and selection-biased to an early implementation-check slice. It cannot kill the broad reusable-belief question, nor support a new method. Do not expand a toy simply to recover a large failure.
+6. RAMP, Bayesian neural processes, martingale neural processes, PETS and recent probabilistic manifold system identification cover broad claims of belief propagation, functional uncertainty, persistent sampling and task-specific posterior adaptation. A title change or another uncertainty head is insufficient novelty.
+7. One pilot, one series and validation-selected weights do not establish a general limitation. Poor final performance could arise from training adequacy, transfer protocol, mean-model misspecification or a variance decoder trained to compensate for approximate latent moments. Those explanations require separation before any architectural claim.

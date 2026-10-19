@@ -1,0 +1,167 @@
+{
+  "status": "passed",
+  "summary_sha256": "6a51555b8839df5e087048ebb370f17a2a7e9e0f9fbdf17ca85fe9c36069ef4d",
+  "script_sha256": "e8ac30ea5a1becd215c3bcbff8bc4218a52c203efbf86445e3c2ef6df0e5a6ae",
+  "source": {
+    "files": 18,
+    "manifest_sha256": "9775b22e17ce9a09870d57d4d28aa8503a0d0f0b0117177822ef9bfa29c3d968"
+  },
+  "checks": [
+    {
+      "dataset": "solar",
+      "arm": "N",
+      "val_origins": 206,
+      "prediction_max_abs_error": 0.0,
+      "checkpoint_selection_passed": true,
+      "data_and_schedule_passed": true,
+      "encoder_decoder_unchanged": true,
+      "test_scored": false
+    },
+    {
+      "dataset": "solar",
+      "arm": "JZ",
+      "val_origins": 206,
+      "prediction_max_abs_error": 0.0,
+      "checkpoint_selection_passed": true,
+      "data_and_schedule_passed": true,
+      "encoder_decoder_unchanged": true,
+      "test_scored": false
+    },
+    {
+      "dataset": "solar",
+      "arm": "JZ_N",
+      "val_origins": 206,
+      "prediction_max_abs_error": 0.0,
+      "checkpoint_selection_passed": true,
+      "data_and_schedule_passed": true,
+      "encoder_decoder_unchanged": true,
+      "test_scored": false
+    },
+    {
+      "dataset": "solar",
+      "arm": "PZ",
+      "val_origins": 206,
+      "prediction_max_abs_error": 0.0,
+      "checkpoint_selection_passed": true,
+      "data_and_schedule_passed": true,
+      "encoder_decoder_unchanged": true,
+      "test_scored": false
+    },
+    {
+      "dataset": "solar",
+      "arm": "PY",
+      "val_origins": 206,
+      "prediction_max_abs_error": 0.0,
+      "checkpoint_selection_passed": true,
+      "data_and_schedule_passed": true,
+      "encoder_decoder_unchanged": true,
+      "test_scored": false
+    },
+    {
+      "dataset": "solar",
+      "arm": "PZ_NC",
+      "val_origins": 206,
+      "prediction_max_abs_error": 0.0,
+      "checkpoint_selection_passed": true,
+      "data_and_schedule_passed": true,
+      "encoder_decoder_unchanged": true,
+      "test_scored": false
+    },
+    {
+      "dataset": "jena",
+      "arm": "N",
+      "val_origins": 54,
+      "prediction_max_abs_error": 0.0,
+      "checkpoint_selection_passed": true,
+      "data_and_schedule_passed": true,
+      "encoder_decoder_unchanged": true,
+      "test_scored": false
+    },
+    {
+      "dataset": "jena",
+      "arm": "JZ",
+      "val_origins": 54,
+      "prediction_max_abs_error": 0.0,
+      "checkpoint_selection_passed": true,
+      "data_and_schedule_passed": true,
+      "encoder_decoder_unchanged": true,
+      "test_scored": false
+    },
+    {
+      "dataset": "jena",
+      "arm": "JZ_N",
+      "val_origins": 54,
+      "prediction_max_abs_error": 0.0,
+      "checkpoint_selection_passed": true,
+      "data_and_schedule_passed": true,
+      "encoder_decoder_unchanged": true,
+      "test_scored": false
+    },
+    {
+      "dataset": "jena",
+      "arm": "PZ",
+      "val_origins": 54,
+      "prediction_max_abs_error": 0.0,
+      "checkpoint_selection_passed": true,
+      "data_and_schedule_passed": true,
+      "encoder_decoder_unchanged": true,
+      "test_scored": false
+    },
+    {
+      "dataset": "jena",
+      "arm": "PY",
+      "val_origins": 54,
+      "prediction_max_abs_error": 0.0,
+      "checkpoint_selection_passed": true,
+      "data_and_schedule_passed": true,
+      "encoder_decoder_unchanged": true,
+      "test_scored": false
+    },
+    {
+      "dataset": "jena",
+      "arm": "PZ_NC",
+      "val_origins": 54,
+      "prediction_max_abs_error": 0.0,
+      "checkpoint_selection_passed": true,
+      "data_and_schedule_passed": true,
+      "encoder_decoder_unchanged": true,
+      "test_scored": false
+    }
+  ],
+  "maximum_prediction_error": 0.0,
+  "maximum_metric_error": 1.444164288155747e-08,
+  "protected_numerical_trajectories_identical": true,
+  "posthoc_untrained_references": [
+    {
+      "dataset": "solar",
+      "model": "last_value",
+      "val_mae": 0.5425723791122437,
+      "val_mse": 1.2504807710647583,
+      "posthoc_reference_only": true
+    },
+    {
+      "dataset": "solar",
+      "model": "daily_seasonal",
+      "val_mae": 0.3362463712692261,
+      "val_mse": 0.5932115912437439,
+      "posthoc_reference_only": true
+    },
+    {
+      "dataset": "jena",
+      "model": "last_value",
+      "val_mae": 0.17634977400302887,
+      "val_mse": 0.06539031863212585,
+      "posthoc_reference_only": true
+    },
+    {
+      "dataset": "jena",
+      "model": "daily_seasonal",
+      "val_mae": 0.4759923815727234,
+      "val_mse": 0.3532159924507141,
+      "posthoc_reference_only": true
+    }
+  ],
+  "screen_passes": false,
+  "test_scored": false,
+  "seconds": 2.9885861999937333
+}

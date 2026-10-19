@@ -1,0 +1,359 @@
+{
+  "key": "ett_2026402_flownp",
+  "data": "ett",
+  "seed": 2026402,
+  "family": "flownp",
+  "parameters": 604673,
+  "train_update_seconds": 24.865967699501198,
+  "fit_and_eval_wall_seconds": 106.2228635000065,
+  "peak_allocated_GiB": 1.3754982948303223,
+  "selected_step": 2000,
+  "selected_at_cap": true,
+  "last_validation_improves_over_previous": true,
+  "curves": [
+    {
+      "step": 0,
+      "selection_energy": 1.4332062788663755,
+      "score_by_reveal": [
+        {
+          "energy": 1.431780536476209,
+          "marginal_crps": 1.3457466300754013,
+          "mean_crps": 1.784928339374479,
+          "mae": 1.8837875387973213,
+          "coverage80": 0.03125
+        },
+        {
+          "energy": 1.4276870467594303,
+          "marginal_crps": 1.3404772428195957,
+          "mean_crps": 1.7767890041438372,
+          "mae": 1.8798281349868518,
+          "coverage80": 0.04296875
+        },
+        {
+          "energy": 1.4401512533634877,
+          "marginal_crps": 1.3552409039697761,
+          "mean_crps": 1.7947327358523593,
+          "mae": 1.895066563981871,
+          "coverage80": 0.03125
+        }
+      ],
+      "validation_seconds": 9.004256399988662
+    },
+    {
+      "step": 500,
+      "selection_energy": 0.7980953066991109,
+      "score_by_reveal": [
+        {
+          "energy": 0.7949886051741052,
+          "marginal_crps": 0.7884792431770504,
+          "mean_crps": 0.8140263944964502,
+          "mae": 1.010089068103202,
+          "coverage80": 0.0244140625
+        },
+        {
+          "energy": 0.7712681902583469,
+          "marginal_crps": 0.7641560035645805,
+          "mean_crps": 0.7863719018689375,
+          "mae": 0.9885754353914216,
+          "coverage80": 0.076171875
+        },
+        {
+          "energy": 0.8280291246648805,
+          "marginal_crps": 0.823532783600675,
+          "mean_crps": 0.8464902961562437,
+          "mae": 1.0254159851451377,
+          "coverage80": 0.009765625
+        }
+      ],
+      "validation_seconds": 9.003631700004917
+    },
+    {
+      "step": 1000,
+      "selection_energy": 0.5361685195830228,
+      "score_by_reveal": [
+        {
+          "energy": 0.5711463607539151,
+          "marginal_crps": 0.5539765612696306,
+          "mean_crps": 0.5642300582131756,
+          "mae": 0.7342729567190744,
+          "coverage80": 0.1376953125
+        },
+        {
+          "energy": 0.5430643574807192,
+          "marginal_crps": 0.5252733362173796,
+          "mean_crps": 0.5313224481506338,
+          "mae": 0.7035256170044519,
+          "coverage80": 0.21484375
+        },
+        {
+          "energy": 0.49429484051443406,
+          "marginal_crps": 0.47735687390621206,
+          "mean_crps": 0.4825008350798176,
+          "mae": 0.6352937235079494,
+          "coverage80": 0.1591796875
+        }
+      ],
+      "validation_seconds": 9.035407799994573
+    },
+    {
+      "step": 1500,
+      "selection_energy": 0.5610451113517866,
+      "score_by_reveal": [
+        {
+          "energy": 0.607428253309202,
+          "marginal_crps": 0.5920599999679994,
+          "mean_crps": 0.5994962844224128,
+          "mae": 0.7857318953695476,
+          "coverage80": 0.134765625
+        },
+        {
+          "energy": 0.5639446722716399,
+          "marginal_crps": 0.5478256806526209,
+          "mean_crps": 0.550580361849012,
+          "mae": 0.73831206814749,
+          "coverage80": 0.2197265625
+        },
+        {
+          "energy": 0.5117624084745178,
+          "marginal_crps": 0.49683338094810026,
+          "mean_crps": 0.5016245607628341,
+          "mae": 0.668018199825708,
+          "coverage80": 0.162109375
+        }
+      ],
+      "validation_seconds": 10.062344700010726
+    },
+    {
+      "step": 2000,
+      "selection_energy": 0.3939367688005319,
+      "score_by_reveal": [
+        {
+          "energy": 0.44155029730849005,
+          "marginal_crps": 0.4206005758053962,
+          "mean_crps": 0.41765598095167844,
+          "mae": 0.5983095568224854,
+          "coverage80": 0.40234375
+        },
+        {
+          "energy": 0.40561017128152155,
+          "marginal_crps": 0.38460574187110025,
+          "mean_crps": 0.37451901777926133,
+          "mae": 0.5466822260284481,
+          "coverage80": 0.490234375
+        },
+        {
+          "energy": 0.3346498378115842,
+          "marginal_crps": 0.3172999269228028,
+          "mean_crps": 0.30876907564023043,
+          "mae": 0.4569810893795534,
+          "coverage80": 0.5576171875
+        }
+      ],
+      "validation_seconds": 10.078467699990142
+    }
+  ],
+  "evals": [
+    {
+      "steps": 1,
+      "means_by_reveal": [
+        {
+          "energy": 0.6994217722221533,
+          "marginal_crps": 0.6740567581659263,
+          "mean_crps": 0.7082515900955495,
+          "mae": 0.8652579738827502,
+          "coverage80": 0.11215753424657535
+        },
+        {
+          "energy": 0.663475736553591,
+          "marginal_crps": 0.635102456274006,
+          "mean_crps": 0.6675671073021147,
+          "mae": 0.8216345657934573,
+          "coverage80": 0.16652397260273974
+        },
+        {
+          "energy": 0.6111646024086063,
+          "marginal_crps": 0.5858165731992722,
+          "mean_crps": 0.6021847681646693,
+          "mae": 0.7455922299088704,
+          "coverage80": 0.20034246575342465
+        }
+      ],
+      "raw": "paths_steps1.npz",
+      "raw_sha256": "b3b029557124402a7f97e3940c5f24270818968b0d811815cdf8965590313b12",
+      "batched_evaluation_seconds_by_reveal": [
+        0.2800615000014659,
+        0.28098599999793805,
+        0.28193450000253506
+      ],
+      "single_origin_cost": [
+        {
+          "r": 0,
+          "full_query_seconds": 0.004588699986925349,
+          "conditioning_included": true
+        },
+        {
+          "r": 8,
+          "full_query_seconds": 0.004677199991419911,
+          "conditioning_included": true
+        },
+        {
+          "r": 32,
+          "full_query_seconds": 0.004679100005887449,
+          "conditioning_included": true
+        }
+      ]
+    },
+    {
+      "steps": 2,
+      "means_by_reveal": [
+        {
+          "energy": 0.5113926050656935,
+          "marginal_crps": 0.49214955401465604,
+          "mean_crps": 0.500098855468849,
+          "mae": 0.6775352002499958,
+          "coverage80": 0.3360445205479452
+        },
+        {
+          "energy": 0.4913067616930943,
+          "marginal_crps": 0.47037417717859004,
+          "mean_crps": 0.47834683343676276,
+          "mae": 0.6457944403060936,
+          "coverage80": 0.3874143835616438
+        },
+        {
+          "energy": 0.43045220542592566,
+          "marginal_crps": 0.41261567037248986,
+          "mean_crps": 0.41039247040653326,
+          "mae": 0.5606603967050295,
+          "coverage80": 0.4400684931506849
+        }
+      ],
+      "raw": "paths_steps2.npz",
+      "raw_sha256": "f463b26df9e99ac2dc1c4f17e61b50fafd9aa5005bd664f73091cb03c0f03a06",
+      "batched_evaluation_seconds_by_reveal": [
+        0.47965920000569895,
+        0.5174896999960765,
+        0.5365145000105258
+      ],
+      "single_origin_cost": [
+        {
+          "r": 0,
+          "full_query_seconds": 0.008814400003757328,
+          "conditioning_included": true
+        },
+        {
+          "r": 8,
+          "full_query_seconds": 0.00863339999341406,
+          "conditioning_included": true
+        },
+        {
+          "r": 32,
+          "full_query_seconds": 0.009206899994751438,
+          "conditioning_included": true
+        }
+      ]
+    },
+    {
+      "steps": 8,
+      "means_by_reveal": [
+        {
+          "energy": 0.47678836379187944,
+          "marginal_crps": 0.4584132263764028,
+          "mean_crps": 0.45826028799937885,
+          "mae": 0.6442567762647299,
+          "coverage80": 0.3428938356164384
+        },
+        {
+          "energy": 0.45749968434044463,
+          "marginal_crps": 0.43820492606159883,
+          "mean_crps": 0.43856536706678045,
+          "mae": 0.6125919892889801,
+          "coverage80": 0.3891267123287671
+        },
+        {
+          "energy": 0.3599304655321873,
+          "marginal_crps": 0.3419446828136058,
+          "mean_crps": 0.33477069032848444,
+          "mae": 0.48059638317534503,
+          "coverage80": 0.5363869863013698
+        }
+      ],
+      "raw": "paths_steps8.npz",
+      "raw_sha256": "5a6efc08e07bc9ce7247fd7c57f07aa6c586f79591086bb92fb2e08a16c716ce",
+      "batched_evaluation_seconds_by_reveal": [
+        1.8984618000104092,
+        1.9787851000146475,
+        1.9828262000228278
+      ],
+      "single_origin_cost": [
+        {
+          "r": 0,
+          "full_query_seconds": 0.033785200008424,
+          "conditioning_included": true
+        },
+        {
+          "r": 8,
+          "full_query_seconds": 0.03333889998611994,
+          "conditioning_included": true
+        },
+        {
+          "r": 32,
+          "full_query_seconds": 0.05170749998069368,
+          "conditioning_included": true
+        }
+      ]
+    },
+    {
+      "steps": 32,
+      "means_by_reveal": [
+        {
+          "energy": 0.44622649375553464,
+          "marginal_crps": 0.42726188516963276,
+          "mean_crps": 0.4264996306076992,
+          "mae": 0.6087377353425395,
+          "coverage80": 0.4032534246575342
+        },
+        {
+          "energy": 0.42848097513938943,
+          "marginal_crps": 0.40873423799265945,
+          "mean_crps": 0.408194868431418,
+          "mae": 0.5784310488487749,
+          "coverage80": 0.4366438356164384
+        },
+        {
+          "energy": 0.3366483428844969,
+          "marginal_crps": 0.31822706555970853,
+          "mean_crps": 0.3103334357685316,
+          "mae": 0.44946109441504917,
+          "coverage80": 0.5766267123287672
+        }
+      ],
+      "raw": "paths_steps32.npz",
+      "raw_sha256": "eecf945f220d663347729273b1101e2a70182e7e12f30aaf3e1df2a9196c8c21",
+      "batched_evaluation_seconds_by_reveal": [
+        7.527997800003504,
+        7.713033100008033,
+        7.823432700010017
+      ],
+      "single_origin_cost": [
+        {
+          "r": 0,
+          "full_query_seconds": 0.14270970001234673,
+          "conditioning_included": true
+        },
+        {
+          "r": 8,
+          "full_query_seconds": 0.1588456000026781,
+          "conditioning_included": true
+        },
+        {
+          "r": 32,
+          "full_query_seconds": 0.13927269997657277,
+          "conditioning_included": true
+        }
+      ]
+    }
+  ],
+  "selected_checkpoint_sha256": "1db35d2ac5971fb7f77bac37614bf1aa51ced0e58d7a7ca9c48389eb38f84fb9",
+  "test_scored": false
+}

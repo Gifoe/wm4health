@@ -1,0 +1,38 @@
+{
+  "run": "motion_trainingCCA",
+  "seed": 41,
+  "seconds": 30.82595500000025,
+  "parameters": 268442,
+  "snapshots": [
+    {
+      "step": 2000,
+      "checkpoint_sha256": "ca42e28e3adede663cb740e1a235fb1a45e1a42b0d3ae2b2470bdf66156df9ed",
+      "physical_probe_nmse": 0.11628503215293282,
+      "signal_subspace_overlap": 0.8844350859451687,
+      "encoder_covariance_eigenvalues": [
+        0.91226323420008,
+        0.9609018664854831
+      ]
+    },
+    {
+      "step": 4000,
+      "checkpoint_sha256": "1ce9626c2c4d0ec0a4632a4967f57e70a8571291d3ab890066acb328d0c619ec",
+      "physical_probe_nmse": 0.09350384530605882,
+      "signal_subspace_overlap": 0.9070588625495739,
+      "encoder_covariance_eigenvalues": [
+        0.9456985638993567,
+        0.9728163826185905
+      ]
+    },
+    {
+      "step": 8000,
+      "checkpoint_sha256": "780d7e1e97a3f3de8fdfa1ac97943ce334c9cd6cf86a6e1b2a448682f8a4792b",
+      "physical_probe_nmse": 0.08508672006430729,
+      "signal_subspace_overlap": 0.9154464775456339,
+      "encoder_covariance_eigenvalues": [
+        0.9494731822555298,
+        0.9808507082399333
+      ]
+    }
+  ]
+}

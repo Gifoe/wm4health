@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "source_revision": "f0baf6262523d9c5abaf8c0381b4db97818f7c34",
+  "max_errors": {
+    "encoder": 9.5367431640625e-07,
+    "native_prediction": 1.7881393432617188e-06,
+    "proposal": 0.0,
+    "weights": 6.106226635438361e-16,
+    "ess": 2.1827872842550278e-11,
+    "moments": 2.353672812205332e-14,
+    "slr": 3.552713678800501e-15
+  },
+  "checks": {
+    "encoder": 54,
+    "native_prediction": 144,
+    "proposal": 72,
+    "slr": 36
+  },
+  "scope": "All six checkpoints and all three context lengths, both probes, first MC seed; all prediction scores independently checked in separate receipt.",
+  "verifier_sha256": "10a7966df03031fa733715148261aff9a17e9e5017d0c5e6ab7991f6c8b14964",
+  "raw_results_sha256": "4bd5c4743e6bdb1670b09046b231dc3a5686439e395c72d253e80ce8013c1d1f",
+  "elapsed_seconds": 48.90232609999657
+}

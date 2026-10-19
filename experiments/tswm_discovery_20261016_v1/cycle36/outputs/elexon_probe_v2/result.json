@@ -1,0 +1,700 @@
+{
+  "status": "qualified_asof_fixture",
+  "utc": "2026-10-16T22:10:40.163549+00:00",
+  "forecast": {
+    "rows": 584,
+    "fields": [
+      "dataset",
+      "generation",
+      "publishTime",
+      "startTime"
+    ],
+    "duplicates": 0,
+    "publish_min": "2026-01-01T02:30:00Z",
+    "publish_max": "2026-01-01T22:30:00Z",
+    "start_min": "2025-12-31T21:00:00Z",
+    "start_max": "2026-01-03T21:00:00Z",
+    "unique_starts": 73
+  },
+  "actual": {
+    "rows": 48,
+    "fields": [
+      "dataset",
+      "fuelType",
+      "generation",
+      "publishTime",
+      "settlementDate",
+      "settlementPeriod",
+      "startTime"
+    ],
+    "duplicates": 0,
+    "publish_min": "2026-01-02T00:30:00Z",
+    "publish_max": "2026-01-03T00:00:00Z",
+    "start_min": "2026-01-02T00:00:00Z",
+    "start_max": "2026-01-02T23:30:00Z",
+    "unique_starts": 48
+  },
+  "contracts": {
+    "/datasets/WINDFOR": {
+      "schema_path": "/datasets/WINDFOR",
+      "get": {
+        "tags": [
+          "BMRS Datasets"
+        ],
+        "summary": "Wind generation forecast (WINDFOR)",
+        "description": "This endpoint provides wind generation forecast data.\n\nSpecific publish time filters may be supplied, otherwise this will retrieve the latest published forecast.",
+        "parameters": [
+          {
+            "name": "publishDateTimeFrom",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "publishDateTimeTo",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "format",
+            "in": "query",
+            "description": "Response data format. Use json/xml to include metadata.",
+            "schema": {
+              "enum": [
+                "json",
+                "xml",
+                "csv"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Data retrieved",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Insights.Api.Models.Responses.DatasetResponse-1_Insights.Api.Models.Responses.Generation.DatasetRows.WindGenerationForecast"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Insights.Api.Models.Responses.DatasetResponse-1_Insights.Api.Models.Responses.Generation.DatasetRows.WindGenerationForecast"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Insights.Api.Models.Responses.DatasetResponse-1_Insights.Api.Models.Responses.Generation.DatasetRows.WindGenerationForecast"
+                }
+              },
+              "application/xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/Insights.Api.Models.Responses.DatasetResponse-1_Insights.Api.Models.Responses.Generation.DatasetRows.WindGenerationForecast"
+                }
+              },
+              "text/xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/Insights.Api.Models.Responses.DatasetResponse-1_Insights.Api.Models.Responses.Generation.DatasetRows.WindGenerationForecast"
+                }
+              },
+              "text/csv": {
+                "schema": {
+                  "$ref": "#/components/schemas/Insights.Api.Models.Responses.DatasetResponse-1_Insights.Api.Models.Responses.Generation.DatasetRows.WindGenerationForecast"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Too many requests"
+          },
+          "400": {
+            "description": "Error with query parameters - see response for details"
+          },
+          "500": {
+            "description": "Server error - please try again later"
+          }
+        }
+      }
+    },
+    "/datasets/FUELHH": {
+      "schema_path": "/datasets/FUELHH",
+      "get": {
+        "tags": [
+          "BMRS Datasets"
+        ],
+        "summary": "Half-hourly generation outturn by fuel type (FUELHH)",
+        "description": "This endpoint provides the half-hourly generation outturn (Generation By Fuel type)\nto give our users an indication of the generation outturn for Great Britain.\nThe data is aggregated by Fuel Type category and updated at 30-minute intervals with\naverage MW values over 30 minutes for each category.\n            \nThis endpoint includes additional settlement parameters such as Settlement Date and Settlement Period.\nThe Settlement Date fields cannot be set when a Publish Date field is set.\n            \nSettlement date parameters must be provided in the exact format yyyy-MM-dd.",
+        "parameters": [
+          {
+            "name": "publishDateTimeFrom",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time",
+              "example": "2022-06-25T00:00:00Z"
+            },
+            "example": "2022-06-25T00:00:00Z"
+          },
+          {
+            "name": "publishDateTimeTo",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time",
+              "example": "2022-06-26T00:00:00Z"
+            },
+            "example": "2022-06-26T00:00:00Z"
+          },
+          {
+            "name": "settlementDateFrom",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date",
+              "example": "2022-09-20"
+            },
+            "example": "2022-09-20"
+          },
+          {
+            "name": "settlementDateTo",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date",
+              "example": "2022-09-21"
+            },
+            "example": "2022-09-21"
+          },
+          {
+            "name": "settlementPeriod",
+            "in": "query",
+            "description": "List of Settlement Periods",
+            "schema": {
+              "uniqueItems": true,
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "format": "int32"
+              },
+              "example": [
+                3,
+                4
+              ]
+            },
+            "example": [
+              3,
+              4
+            ]
+          },
+          {
+            "name": "fuelType",
+            "in": "query",
+            "description": "Fuel Type e.g. NUCLEAR",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "example": [
+                "NUCLEAR"
+              ]
+            },
+            "example": [
+              "NUCLEAR"
+            ]
+          },
+          {
+            "name": "format",
+            "in": "query",
+            "description": "Response data format. Use json/xml to include metadata.",
+            "schema": {
+              "enum": [
+                "json",
+                "xml",
+                "csv"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Data retrieved",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Insights.Api.Models.Responses.DatasetResponse-1_Insights.Api.Models.Responses.Generation.DatasetRows.AugmentedOutturnData"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Insights.Api.Models.Responses.DatasetResponse-1_Insights.Api.Models.Responses.Generation.DatasetRows.AugmentedOutturnData"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Insights.Api.Models.Responses.DatasetResponse-1_Insights.Api.Models.Responses.Generation.DatasetRows.AugmentedOutturnData"
+                }
+              },
+              "application/xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/Insights.Api.Models.Responses.DatasetResponse-1_Insights.Api.Models.Responses.Generation.DatasetRows.AugmentedOutturnData"
+                }
+              },
+              "text/xml": {
+                "schema": {
+                  "$ref": "#/components/schemas/Insights.Api.Models.Responses.DatasetResponse-1_Insights.Api.Models.Responses.Generation.DatasetRows.AugmentedOutturnData"
+                }
+              },
+              "text/csv": {
+                "schema": {
+                  "$ref": "#/components/schemas/Insights.Api.Models.Responses.DatasetResponse-1_Insights.Api.Models.Responses.Generation.DatasetRows.AugmentedOutturnData"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Too many requests"
+          },
+          "400": {
+            "description": "Error with query parameters - see response for details"
+          },
+          "500": {
+            "description": "Server error - please try again later"
+          }
+        }
+      }
+    }
+  },
+  "asof_checks": [
+    {
+      "origin": "2026-01-01T12:00:00Z",
+      "coverage": 24,
+      "target_half_hours": 48,
+      "eligible_future_half_hours": 48,
+      "independent_asof_selection_equal": true,
+      "all_selected_published_by_origin": true,
+      "selected": [
+        {
+          "startTime": "2026-01-02T00:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 18800
+        },
+        {
+          "startTime": "2026-01-02T01:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 18955
+        },
+        {
+          "startTime": "2026-01-02T02:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 18901
+        },
+        {
+          "startTime": "2026-01-02T03:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 18973
+        },
+        {
+          "startTime": "2026-01-02T04:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 19121
+        },
+        {
+          "startTime": "2026-01-02T05:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 19103
+        },
+        {
+          "startTime": "2026-01-02T06:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 19045
+        },
+        {
+          "startTime": "2026-01-02T07:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 18950
+        },
+        {
+          "startTime": "2026-01-02T08:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 18671
+        },
+        {
+          "startTime": "2026-01-02T09:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 18463
+        },
+        {
+          "startTime": "2026-01-02T10:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 18282
+        },
+        {
+          "startTime": "2026-01-02T11:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 17998
+        },
+        {
+          "startTime": "2026-01-02T12:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 17893
+        },
+        {
+          "startTime": "2026-01-02T13:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 17919
+        },
+        {
+          "startTime": "2026-01-02T14:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 17852
+        },
+        {
+          "startTime": "2026-01-02T15:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 17844
+        },
+        {
+          "startTime": "2026-01-02T16:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 17958
+        },
+        {
+          "startTime": "2026-01-02T17:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 18207
+        },
+        {
+          "startTime": "2026-01-02T18:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 18404
+        },
+        {
+          "startTime": "2026-01-02T19:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 18417
+        },
+        {
+          "startTime": "2026-01-02T20:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 18396
+        },
+        {
+          "startTime": "2026-01-02T21:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 18371
+        },
+        {
+          "startTime": "2026-01-02T22:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 18260
+        },
+        {
+          "startTime": "2026-01-02T23:00:00Z",
+          "publishTime": "2026-01-01T11:30:00Z",
+          "generation": 18279
+        }
+      ]
+    },
+    {
+      "origin": "2026-01-01T18:00:00Z",
+      "coverage": 24,
+      "target_half_hours": 48,
+      "eligible_future_half_hours": 48,
+      "independent_asof_selection_equal": true,
+      "all_selected_published_by_origin": true,
+      "selected": [
+        {
+          "startTime": "2026-01-02T00:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 18804
+        },
+        {
+          "startTime": "2026-01-02T01:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 18958
+        },
+        {
+          "startTime": "2026-01-02T02:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 19062
+        },
+        {
+          "startTime": "2026-01-02T03:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 19210
+        },
+        {
+          "startTime": "2026-01-02T04:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 19335
+        },
+        {
+          "startTime": "2026-01-02T05:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 19348
+        },
+        {
+          "startTime": "2026-01-02T06:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 19316
+        },
+        {
+          "startTime": "2026-01-02T07:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 19191
+        },
+        {
+          "startTime": "2026-01-02T08:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 18886
+        },
+        {
+          "startTime": "2026-01-02T09:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 18737
+        },
+        {
+          "startTime": "2026-01-02T10:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 18617
+        },
+        {
+          "startTime": "2026-01-02T11:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 18336
+        },
+        {
+          "startTime": "2026-01-02T12:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 18144
+        },
+        {
+          "startTime": "2026-01-02T13:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 18111
+        },
+        {
+          "startTime": "2026-01-02T14:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 18099
+        },
+        {
+          "startTime": "2026-01-02T15:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 18092
+        },
+        {
+          "startTime": "2026-01-02T16:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 18191
+        },
+        {
+          "startTime": "2026-01-02T17:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 18230
+        },
+        {
+          "startTime": "2026-01-02T18:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 18263
+        },
+        {
+          "startTime": "2026-01-02T19:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 18358
+        },
+        {
+          "startTime": "2026-01-02T20:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 18431
+        },
+        {
+          "startTime": "2026-01-02T21:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 18421
+        },
+        {
+          "startTime": "2026-01-02T22:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 18400
+        },
+        {
+          "startTime": "2026-01-02T23:00:00Z",
+          "publishTime": "2026-01-01T15:30:00Z",
+          "generation": 18430
+        }
+      ]
+    },
+    {
+      "origin": "2026-01-02T00:00:00Z",
+      "coverage": 23,
+      "target_half_hours": 48,
+      "eligible_future_half_hours": 47,
+      "independent_asof_selection_equal": true,
+      "all_selected_published_by_origin": true,
+      "selected": [
+        {
+          "startTime": "2026-01-02T01:00:00Z",
+          "publishTime": "2026-01-01T22:30:00Z",
+          "generation": 18844
+        },
+        {
+          "startTime": "2026-01-02T02:00:00Z",
+          "publishTime": "2026-01-01T22:30:00Z",
+          "generation": 18989
+        },
+        {
+          "startTime": "2026-01-02T03:00:00Z",
+          "publishTime": "2026-01-01T22:30:00Z",
+          "generation": 19068
+        },
+        {
+          "startTime": "2026-01-02T04:00:00Z",
+          "publishTime": "2026-01-01T22:30:00Z",
+          "generation": 19286
+        },
+        {
+          "startTime": "2026-01-02T05:00:00Z",
+          "publishTime": "2026-01-01T22:30:00Z",
+          "generation": 19321
+        },
+        {
+          "startTime": "2026-01-02T06:00:00Z",
+          "publishTime": "2026-01-01T22:30:00Z",
+          "generation": 19238
+        },
+        {
+          "startTime": "2026-01-02T07:00:00Z",
+          "publishTime": "2026-01-01T22:30:00Z",
+          "generation": 19132
+        },
+        {
+          "startTime": "2026-01-02T08:00:00Z",
+          "publishTime": "2026-01-01T22:30:00Z",
+          "generation": 19075
+        },
+        {
+          "startTime": "2026-01-02T09:00:00Z",
+          "publishTime": "2026-01-01T22:30:00Z",
+          "generation": 18827
+        },
+        {
+          "startTime": "2026-01-02T10:00:00Z",
+          "publishTime": "2026-01-01T22:30:00Z",
+          "generation": 18545
+        },
+        {
+          "startTime": "2026-01-02T11:00:00Z",
+          "publishTime": "2026-01-01T22:30:00Z",
+          "generation": 18381
+        },
+        {
+          "startTime": "2026-01-02T12:00:00Z",
+          "publishTime": "2026-01-01T22:30:00Z",
+          "generation": 18110
+        },
+        {
+          "startTime": "2026-01-02T13:00:00Z",
+          "publishTime": "2026-01-01T22:30:00Z",
+          "generation": 18100
+        },
+        {
+          "startTime": "2026-01-02T14:00:00Z",
+          "publishTime": "2026-01-01T22:30:00Z",
+          "generation": 18177
+        },
+        {
+          "startTime": "2026-01-02T15:00:00Z",
+          "publishTime": "2026-01-01T22:30:00Z",
+          "generation": 17933
+        },
+        {
+          "startTime": "2026-01-02T16:00:00Z",
+          "publishTime": "2026-01-01T22:30:00Z",
+          "generation": 17744
+        },
+        {
+          "startTime": "2026-01-02T17:00:00Z",
+          "publishTime": "2026-01-01T22:30:00Z",
+          "generation": 17901
+        },
+        {
+          "startTime": "2026-01-02T18:00:00Z",
+          "publishTime": "2026-01-01T22:30:00Z",
+          "generation": 18080
+        },
+        {
+          "startTime": "2026-01-02T19:00:00Z",
+          "publishTime": "2026-01-01T22:30:00Z",
+          "generation": 18151
+        },
+        {
+          "startTime": "2026-01-02T20:00:00Z",
+          "publishTime": "2026-01-01T22:30:00Z",
+          "generation": 18176
+        },
+        {
+          "startTime": "2026-01-02T21:00:00Z",
+          "publishTime": "2026-01-01T22:30:00Z",
+          "generation": 18328
+        },
+        {
+          "startTime": "2026-01-02T22:00:00Z",
+          "publishTime": "2026-01-01T22:30:00Z",
+          "generation": 18383
+        },
+        {
+          "startTime": "2026-01-02T23:00:00Z",
+          "publishTime": "2026-01-01T22:30:00Z",
+          "generation": 18452
+        }
+      ]
+    }
+  ],
+  "receipts": [
+    {
+      "file": "schema.json",
+      "url": "https://data.elexon.co.uk/swagger/v1/swagger.json",
+      "bytes": 1479300,
+      "sha256": "8b7a77fbc13dca548e4e4da4af5a4655b0e161d520eb765dcb3d9b0bc93cf9c4",
+      "fetched_utc": "2026-10-16T22:07:12.033437+00:00",
+      "download_host": "local_client_after_server_403"
+    },
+    {
+      "file": "windfor_20260101.json",
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR?publishDateTimeFrom=2026-01-01T00:00:00Z&publishDateTimeTo=2026-01-02T00:00:00Z&format=json",
+      "bytes": 66002,
+      "sha256": "5005a5330ca7db092e0a7faffae40f6767b31ff0e0b406223081834e16599a49",
+      "fetched_utc": "2026-10-16T22:07:13.404458+00:00",
+      "download_host": "local_client_after_server_403"
+    },
+    {
+      "file": "fuelhh_wind_20260102.json",
+      "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH?settlementDateFrom=2026-01-02&settlementDateTo=2026-01-02&fuelType=WIND&format=json",
+      "bytes": 8737,
+      "sha256": "6f6048019c32e9d7653270e337696f4a6b74e5f657f7fd51b40ed52214f56885",
+      "fetched_utc": "2026-10-16T22:07:14.340164+00:00",
+      "download_host": "local_client_after_server_403"
+    }
+  ],
+  "plan_sha256": "8e7e77e5065159866093c0af81dd6a13bdb450bbc508cbdca7e37e1158ceafa7",
+  "script_sha256": "4e34c179530e757e36b9809905e8ba59d77b0a084db55fd4e49c2e284b09aaee",
+  "no_actual_values_used_for_forecast_selection": true,
+  "no_forecast_errors_or_model_scores_computed": true,
+  "not_a_training_or_test_cohort": true,
+  "transport": "raw public HTTP download on local client after server403; whole SHA verified after server upload",
+  "accepted_research_directions": 0,
+  "limits": [
+    "official publishTime labels, not independently observed historical network receipts",
+    "one issue day and one verification day, no system-level generalization evidence",
+    "later settlement revisions/curtailment/fleet definition must be checked for any full experiment"
+  ]
+}

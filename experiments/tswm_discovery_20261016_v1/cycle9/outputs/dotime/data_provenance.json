@@ -1,0 +1,478 @@
+{
+  "native_loader_manifest_md5_verified": true,
+  "released_manifest": {
+    "name": "dot-Identifiability-v1",
+    "version": "1.2.0",
+    "schema_version": "1",
+    "package_version": "0.1.3",
+    "seed": 20261719,
+    "n_episodes": 12150,
+    "structures": [
+      "bi_variate",
+      "back_door",
+      "observed_confounder",
+      "mediator",
+      "front_door",
+      "confounder_mediator",
+      "instrumental_variable",
+      "unobserved_confounder",
+      "bow_graph"
+    ],
+    "license": "CC-BY-4.0",
+    "shards": [
+      {
+        "file": "shard-0000.parquet",
+        "n_episodes": 5000,
+        "md5": "3994e20d23af5aecb322e8503f1b47ae"
+      },
+      {
+        "file": "shard-0001.parquet",
+        "n_episodes": 5000,
+        "md5": "e3f5a3354f471d730f1537fe6b44dae5"
+      },
+      {
+        "file": "shard-0002.parquet",
+        "n_episodes": 2150,
+        "md5": "121ce5c241664325ddb30979485ccc80"
+      }
+    ],
+    "generator": "identifiability",
+    "pair_mode": "counterfactual",
+    "stability_retries": 3,
+    "config_hash": "d9b70dba4efc774a",
+    "scale": 1.0,
+    "scheme": "perepisode",
+    "record_graph": true,
+    "target_qa": {
+      "mode": "enforce",
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "dir_target": "effect",
+      "check_effect": true,
+      "thresholds": {
+        "min_level_nonzero_frac": 0.5,
+        "min_effect_nonzero_frac": 0.05,
+        "min_group_n": 10,
+        "min_pooled_n": 2
+      },
+      "label": null,
+      "pooled": {
+        "n": 12150,
+        "y_obs_level": {
+          "n": 12150,
+          "n_nonfinite": 0,
+          "nonzero_frac": 1.0,
+          "mean": 0.10560094388465324,
+          "var": 0.3591991200864374,
+          "abs_max": 8.443902015686035
+        },
+        "y_int_level": {
+          "n": 12150,
+          "n_nonfinite": 0,
+          "nonzero_frac": 1.0,
+          "mean": 0.13324190231074615,
+          "var": 0.5557390591738995,
+          "abs_max": 9.188182830810547
+        },
+        "effect": {
+          "n": 12150,
+          "n_nonfinite": 0,
+          "nonzero_frac": 0.5886419753086419,
+          "mean": 0.027640958426092894,
+          "var": 0.24143026229665593,
+          "abs_max": 7.353405475616455
+        },
+        "n_null_effect_exempt": 2700,
+        "effect_checked": {
+          "n": 9450,
+          "n_nonfinite": 0,
+          "nonzero_frac": 0.7568253968253968,
+          "mean": 0.03553837511926229,
+          "var": 0.3101296758816426,
+          "abs_max": 7.353405475616455
+        },
+        "asserted": true
+      },
+      "groups": {
+        "back_door": {
+          "n": 1350,
+          "y_obs_level": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 1.0,
+            "mean": 0.12496967672236713,
+            "var": 0.4557615258716516,
+            "abs_max": 7.01695442199707
+          },
+          "y_int_level": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 1.0,
+            "mean": 0.16569450932973134,
+            "var": 1.0137648267658188,
+            "abs_max": 9.188182830810547
+          },
+          "effect": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 0.8081481481481482,
+            "mean": 0.04072483260736421,
+            "var": 0.5866257347944889,
+            "abs_max": 7.353405475616455
+          },
+          "n_null_effect_exempt": 0,
+          "effect_checked": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 0.8081481481481482,
+            "mean": 0.04072483260736421,
+            "var": 0.5866257347944889,
+            "abs_max": 7.353405475616455
+          },
+          "asserted": true
+        },
+        "bi_variate": {
+          "n": 1350,
+          "y_obs_level": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 1.0,
+            "mean": 0.08208246643568769,
+            "var": 0.37519821017308524,
+            "abs_max": 5.804954528808594
+          },
+          "y_int_level": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 1.0,
+            "mean": 0.14582036376292645,
+            "var": 0.7761009919176003,
+            "abs_max": 6.186373710632324
+          },
+          "effect": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 0.8488888888888889,
+            "mean": 0.06373789732723877,
+            "var": 0.5024064026919015,
+            "abs_max": 6.043719589710236
+          },
+          "n_null_effect_exempt": 0,
+          "effect_checked": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 0.8488888888888889,
+            "mean": 0.06373789732723877,
+            "var": 0.5024064026919015,
+            "abs_max": 6.043719589710236
+          },
+          "asserted": true
+        },
+        "bow_graph": {
+          "n": 1350,
+          "y_obs_level": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 1.0,
+            "mean": 0.1074532495247614,
+            "var": 0.40455547117148855,
+            "abs_max": 8.443902015686035
+          },
+          "y_int_level": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 1.0,
+            "mean": 0.1465530639074536,
+            "var": 0.687315176120458,
+            "abs_max": 8.441502571105957
+          },
+          "effect": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 0.8303703703703704,
+            "mean": 0.03909981438269218,
+            "var": 0.38171403829025674,
+            "abs_max": 3.9247442483901978
+          },
+          "n_null_effect_exempt": 0,
+          "effect_checked": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 0.8303703703703704,
+            "mean": 0.03909981438269218,
+            "var": 0.38171403829025674,
+            "abs_max": 3.9247442483901978
+          },
+          "asserted": true
+        },
+        "confounder_mediator": {
+          "n": 1350,
+          "y_obs_level": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 1.0,
+            "mean": 0.11203970867291059,
+            "var": 0.3513975837637847,
+            "abs_max": 5.949275016784668
+          },
+          "y_int_level": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 1.0,
+            "mean": 0.12584938088669095,
+            "var": 0.42093354584718984,
+            "abs_max": 7.106210708618164
+          },
+          "effect": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 0.66,
+            "mean": 0.013809672213780383,
+            "var": 0.08081057123186217,
+            "abs_max": 6.59976202249527
+          },
+          "n_null_effect_exempt": 0,
+          "effect_checked": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 0.66,
+            "mean": 0.013809672213780383,
+            "var": 0.08081057123186217,
+            "abs_max": 6.59976202249527
+          },
+          "asserted": true
+        },
+        "front_door": {
+          "n": 1350,
+          "y_obs_level": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 1.0,
+            "mean": 0.1327162085153611,
+            "var": 0.36605201757938954,
+            "abs_max": 4.616767883300781
+          },
+          "y_int_level": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 1.0,
+            "mean": 0.14514608711219842,
+            "var": 0.39443127383358284,
+            "abs_max": 4.5815887451171875
+          },
+          "effect": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 0.6651851851851852,
+            "mean": 0.012429878596837323,
+            "var": 0.061571583442746616,
+            "abs_max": 2.416178584098816
+          },
+          "n_null_effect_exempt": 0,
+          "effect_checked": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 0.6651851851851852,
+            "mean": 0.012429878596837323,
+            "var": 0.061571583442746616,
+            "abs_max": 2.416178584098816
+          },
+          "asserted": true
+        },
+        "instrumental_variable": {
+          "n": 1350,
+          "y_obs_level": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 1.0,
+            "mean": 0.12342407812183309,
+            "var": 0.3916503082682742,
+            "abs_max": 5.234906196594238
+          },
+          "y_int_level": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 1.0,
+            "mean": 0.19497300473541987,
+            "var": 0.7693017296151498,
+            "abs_max": 5.31889009475708
+          },
+          "effect": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 0.8437037037037037,
+            "mean": 0.07154892661358678,
+            "var": 0.4934766236936937,
+            "abs_max": 5.398782849311829
+          },
+          "n_null_effect_exempt": 0,
+          "effect_checked": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 0.8437037037037037,
+            "mean": 0.07154892661358678,
+            "var": 0.4934766236936937,
+            "abs_max": 5.398782849311829
+          },
+          "asserted": true
+        },
+        "mediator": {
+          "n": 1350,
+          "y_obs_level": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 1.0,
+            "mean": 0.09283178935120641,
+            "var": 0.3239064955089985,
+            "abs_max": 6.6478166580200195
+          },
+          "y_int_level": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 1.0,
+            "mean": 0.10024939344454281,
+            "var": 0.3677030952030699,
+            "abs_max": 6.648427486419678
+          },
+          "effect": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 0.6414814814814814,
+            "mean": 0.007417604093336397,
+            "var": 0.060374304059388074,
+            "abs_max": 3.0966424345970154
+          },
+          "n_null_effect_exempt": 0,
+          "effect_checked": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 0.6414814814814814,
+            "mean": 0.007417604093336397,
+            "var": 0.060374304059388074,
+            "abs_max": 3.0966424345970154
+          },
+          "asserted": true
+        },
+        "observed_confounder": {
+          "n": 1350,
+          "y_obs_level": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 1.0,
+            "mean": 0.08840547451896041,
+            "var": 0.31383906141434537,
+            "abs_max": 7.372195243835449
+          },
+          "y_int_level": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 1.0,
+            "mean": 0.08840547451896041,
+            "var": 0.31383906141434537,
+            "abs_max": 7.372195243835449
+          },
+          "effect": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 0.0,
+            "mean": 0.0,
+            "var": 0.0,
+            "abs_max": 0.0
+          },
+          "n_null_effect_exempt": 1350,
+          "effect_checked": {
+            "n": 0,
+            "n_nonfinite": 0,
+            "nonzero_frac": null,
+            "mean": null,
+            "var": null,
+            "abs_max": null
+          },
+          "asserted": true
+        },
+        "unobserved_confounder": {
+          "n": 1350,
+          "y_obs_level": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 1.0,
+            "mean": 0.08648584309879138,
+            "var": 0.24758122746319078,
+            "abs_max": 3.6601181030273438
+          },
+          "y_int_level": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 1.0,
+            "mean": 0.08648584309879138,
+            "var": 0.24758122746319078,
+            "abs_max": 3.6601181030273438
+          },
+          "effect": {
+            "n": 1350,
+            "n_nonfinite": 0,
+            "nonzero_frac": 0.0,
+            "mean": 0.0,
+            "var": 0.0,
+            "abs_max": 0.0
+          },
+          "n_null_effect_exempt": 1350,
+          "effect_checked": {
+            "n": 0,
+            "n_nonfinite": 0,
+            "nonzero_frac": null,
+            "mean": null,
+            "var": null,
+            "abs_max": null
+          },
+          "asserted": true
+        }
+      }
+    }
+  },
+  "retained_files": [
+    {
+      "path": "data/dotime_cache/dot-Identifiability-v1-1.2.0/.gitattributes",
+      "bytes": 2504,
+      "sha256": "9e75dd981de037ec3769f24f790e126bc5a160b6871f510214e68dc70649aeeb",
+      "md5": "32ababfa83a721a904b40483d1402287"
+    },
+    {
+      "path": "data/dotime_cache/dot-Identifiability-v1-1.2.0/croissant.json",
+      "bytes": 1834,
+      "sha256": "fd0ec9b5b292f01973538df09b10545648f3509175ac8490be1a3e2255dbe402",
+      "md5": "eb9dc27095d179a0cb79c5a6b05c167c"
+    },
+    {
+      "path": "data/dotime_cache/dot-Identifiability-v1-1.2.0/manifest.json",
+      "bytes": 11689,
+      "sha256": "9795c03b24f8300e230f5c0ff046d746a88e8d6e51ca628c1c98d40cabc871df",
+      "md5": "3c2a4ee4fb31c141846646b36210b1d6"
+    },
+    {
+      "path": "data/dotime_cache/dot-Identifiability-v1-1.2.0/README.md",
+      "bytes": 511,
+      "sha256": "823f11b1128384da55c08b6c991e9d4a5a3bcc2b714b1eb45b1a89c04428a813",
+      "md5": "5872fd484a76f32302669f9b2b789454"
+    },
+    {
+      "path": "data/dotime_cache/dot-Identifiability-v1-1.2.0/shard-0000.parquet",
+      "bytes": 34420015,
+      "sha256": "a736227a153c46f75d90be5208012f6097ac696c88d08a1cd4003225469803c9",
+      "md5": "3994e20d23af5aecb322e8503f1b47ae"
+    },
+    {
+      "path": "data/dotime_cache/dot-Identifiability-v1-1.2.0/shard-0001.parquet",
+      "bytes": 41775972,
+      "sha256": "d3b3b230bddaa7ea26c63286af70c694e7205415a6fb355287ffc0340c45bb1d",
+      "md5": "e3f5a3354f471d730f1537fe6b44dae5"
+    },
+    {
+      "path": "data/dotime_cache/dot-Identifiability-v1-1.2.0/shard-0002.parquet",
+      "bytes": 12484770,
+      "sha256": "48409b3e31c5e3d822471936e348b01feb92f7023003660dd67f2d56c88e3593",
+      "md5": "121ce5c241664325ddb30979485ccc80"
+    }
+  ]
+}

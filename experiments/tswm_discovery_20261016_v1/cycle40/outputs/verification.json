@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "fits": 8,
+  "raw_path_archives": 20,
+  "independent_score_cells": 300,
+  "max_score_difference": 1.1102230246251565e-16,
+  "protocol_sha256": "3188b97b1ad6b1abdc16fa20dd4cf79998cccf00995276dc791f680290d224b6",
+  "split_checks": [
+    {
+      "data": "ett",
+      "split": "train",
+      "origins": 11907,
+      "all_history_and_targets_in_split": true
+    },
+    {
+      "data": "ett",
+      "split": "val",
+      "origins": 2326,
+      "all_history_and_targets_in_split": true
+    },
+    {
+      "data": "ett",
+      "split": "test",
+      "origins": 2326,
+      "all_history_and_targets_in_split": true
+    },
+    {
+      "data": "jena",
+      "split": "train",
+      "origins": 5861,
+      "all_history_and_targets_in_split": true
+    },
+    {
+      "data": "jena",
+      "split": "val",
+      "origins": 727,
+      "all_history_and_targets_in_split": true
+    },
+    {
+      "data": "jena",
+      "split": "test",
+      "origins": 1031,
+      "all_history_and_targets_in_split": true
+    }
+  ],
+  "test_scored": false,
+  "native_api_qualification": [
+    {
+      "r": 0,
+      "native_sampler_max_error": 4.76837158203125e-07,
+      "native_training_loss_error": 0.0
+    },
+    {
+      "r": 8,
+      "native_sampler_max_error": 0.0,
+      "native_training_loss_error": 0.0
+    },
+    {
+      "r": 32,
+      "native_sampler_max_error": 0.0,
+      "native_training_loss_error": 0.0
+    },
+    {
+      "r": 0,
+      "cache_hidden_error": 0.0,
+      "cache_sample_error": 0.0
+    },
+    {
+      "r": 8,
+      "cache_hidden_error": 2.1141022443771362e-06,
+      "cache_sample_error": 2.86102294921875e-06
+    },
+    {
+      "r": 32,
+      "cache_hidden_error": 1.7993152141571045e-06,
+      "cache_sample_error": 5.7220458984375e-06
+    }
+  ],
+  "limits": "No independent GPU retraining; verifier reimplements raw-path statistics and data/split alignment."
+}

@@ -1,0 +1,1532 @@
+{
+  "all_arithmetic_checks_passed": true,
+  "native_rows": 630,
+  "negative_control_or_one_step_rows": 438,
+  "max_native_vs_fresh_variance_error": 4.263256414560601e-14,
+  "max_joint_vs_persistent_variance_error": 4.547473508864641e-13,
+  "simultaneous_MC_variance_intervals": [
+    {
+      "case": 0,
+      "horizon": 1,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.5440206790860063,
+        0.5428831041204953
+      ],
+      "variance_CI_upper": [
+        0.5694921899927474,
+        0.568301352799797
+      ],
+      "expected_variance": 0.56,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 0,
+      "horizon": 1,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.5442647470554877,
+        0.5513146491553484
+      ],
+      "variance_CI_upper": [
+        0.5697476854321498,
+        0.5771276699445573
+      ],
+      "expected_variance": 0.56,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 0,
+      "horizon": 2,
+      "family": "persistent",
+      "variance_CI_lower": [
+        2.0147299916703463,
+        2.0074498608491216
+      ],
+      "variance_CI_upper": [
+        2.109061363490969,
+        2.1014403707526443
+      ],
+      "expected_variance": 2.07,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 0,
+      "horizon": 2,
+      "family": "fresh",
+      "variance_CI_lower": [
+        1.0468207247039822,
+        1.0479152772940765
+      ],
+      "variance_CI_upper": [
+        1.0958337613986493,
+        1.0969795618719738
+      ],
+      "expected_variance": 1.07,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 0,
+      "horizon": 4,
+      "family": "persistent",
+      "variance_CI_lower": [
+        7.883512561301344,
+        7.851390806379281
+      ],
+      "variance_CI_upper": [
+        8.252625324672737,
+        8.218999601864352
+      ],
+      "expected_variance": 8.09,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 0,
+      "horizon": 4,
+      "family": "fresh",
+      "variance_CI_lower": [
+        2.033397693131104,
+        2.056459750102668
+      ],
+      "variance_CI_upper": [
+        2.1286031026117667,
+        2.1527449447059652
+      ],
+      "expected_variance": 2.09,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 0,
+      "horizon": 8,
+      "family": "persistent",
+      "variance_CI_lower": [
+        31.34429677138103,
+        31.189957442459423
+      ],
+      "variance_CI_upper": [
+        32.81186340582902,
+        32.65029777825537
+      ],
+      "expected_variance": 32.129999999999995,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 0,
+      "horizon": 8,
+      "family": "fresh",
+      "variance_CI_lower": [
+        4.046900518533146,
+        4.063477660626917
+      ],
+      "variance_CI_upper": [
+        4.236379842865994,
+        4.253733140852136
+      ],
+      "expected_variance": 4.13,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 0,
+      "horizon": 16,
+      "family": "persistent",
+      "variance_CI_lower": [
+        125.1458906094661,
+        124.51976814906308
+      ],
+      "variance_CI_upper": [
+        131.0053276495219,
+        130.34988960297994
+      ],
+      "expected_variance": 128.21,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 0,
+      "horizon": 16,
+      "family": "fresh",
+      "variance_CI_lower": [
+        8.043500464812954,
+        8.113302758539035
+      ],
+      "variance_CI_upper": [
+        8.420103997903047,
+        8.493174494391099
+      ],
+      "expected_variance": 8.21,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 0,
+      "horizon": 32,
+      "family": "persistent",
+      "variance_CI_lower": [
+        500.153794653941,
+        497.67426848388016
+      ],
+      "variance_CI_upper": [
+        523.5714207209858,
+        520.9758010267037
+      ],
+      "expected_variance": 512.37,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 0,
+      "horizon": 32,
+      "family": "fresh",
+      "variance_CI_lower": [
+        16.162508338287527,
+        16.030865706100457
+      ],
+      "variance_CI_upper": [
+        16.919250725563398,
+        16.781444473369863
+      ],
+      "expected_variance": 16.37,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 0,
+      "horizon": 64,
+      "family": "persistent",
+      "variance_CI_lower": [
+        2000.1395623466456,
+        1989.6657604654542
+      ],
+      "variance_CI_upper": [
+        2093.787797856573,
+        2082.8236036629055
+      ],
+      "expected_variance": 2048.69,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 0,
+      "horizon": 64,
+      "family": "fresh",
+      "variance_CI_lower": [
+        32.00762935067234,
+        32.10424741875622
+      ],
+      "variance_CI_upper": [
+        33.506253780674356,
+        33.60739558888357
+      ],
+      "expected_variance": 32.69,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 1,
+      "horizon": 1,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.5514908701614367,
+        0.5387275474673414
+      ],
+      "variance_CI_upper": [
+        0.5773121417680339,
+        0.5639512294496709
+      ],
+      "expected_variance": 0.555125,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 1,
+      "horizon": 1,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.5473490390897899,
+        0.5445097505090869
+      ],
+      "variance_CI_upper": [
+        0.5729763866428151,
+        0.5700041601558321
+      ],
+      "expected_variance": 0.555125,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 1,
+      "horizon": 2,
+      "family": "persistent",
+      "variance_CI_lower": [
+        1.9479165846545197,
+        1.9027569028075537
+      ],
+      "variance_CI_upper": [
+        2.0391196959311144,
+        1.991845599369909
+      ],
+      "expected_variance": 1.9610003125,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 1,
+      "horizon": 2,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.9913007731645499,
+        0.9838796961487838
+      ],
+      "variance_CI_upper": [
+        1.0377143185061415,
+        1.0299457803525662
+      ],
+      "expected_variance": 1.0110003125,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 1,
+      "horizon": 4,
+      "family": "persistent",
+      "variance_CI_lower": [
+        6.895215082762322,
+        6.747128688044809
+      ],
+      "variance_CI_upper": [
+        7.2180549176009166,
+        7.063034991929168
+      ],
+      "expected_variance": 6.949278260783202,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 1,
+      "horizon": 4,
+      "family": "fresh",
+      "variance_CI_lower": [
+        1.7549322927230153,
+        1.7521894315657225
+      ],
+      "variance_CI_upper": [
+        1.8370997153103092,
+        1.834228431060716
+      ],
+      "expected_variance": 1.7937410732832029,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 1,
+      "horizon": 8,
+      "family": "persistent",
+      "variance_CI_lower": [
+        22.54219906242084,
+        22.06636937018569
+      ],
+      "variance_CI_upper": [
+        23.597643995589653,
+        23.099535552451357
+      ],
+      "expected_variance": 22.73659045394003,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 1,
+      "horizon": 8,
+      "family": "fresh",
+      "variance_CI_lower": [
+        2.9125268430028677,
+        2.893929573591632
+      ],
+      "variance_CI_upper": [
+        3.0488938270159798,
+        3.0294258176331685
+      ],
+      "expected_variance": 2.950574528177198,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 1,
+      "horizon": 16,
+      "family": "persistent",
+      "variance_CI_lower": [
+        62.2093224015468,
+        60.88827516609122
+      ],
+      "variance_CI_upper": [
+        65.1220157879713,
+        63.73911599734675
+      ],
+      "expected_variance": 62.7840112632211,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 1,
+      "horizon": 16,
+      "family": "fresh",
+      "variance_CI_lower": [
+        4.150995444569762,
+        4.0929378867929405
+      ],
+      "variance_CI_upper": [
+        4.345348581876655,
+        4.284572719864385
+      ],
+      "expected_variance": 4.227194732439995,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 1,
+      "horizon": 32,
+      "family": "persistent",
+      "variance_CI_lower": [
+        128.95502311111827,
+        126.17177646941971
+      ],
+      "variance_CI_upper": [
+        134.99280697472506,
+        132.0792463579966
+      ],
+      "expected_variance": 130.12082573868466,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 1,
+      "horizon": 32,
+      "family": "fresh",
+      "variance_CI_lower": [
+        4.885150642610887,
+        4.897660567728501
+      ],
+      "variance_CI_upper": [
+        5.113877550719217,
+        5.126973201171044
+      ],
+      "expected_variance": 5.0363653249331755,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 1,
+      "horizon": 64,
+      "family": "persistent",
+      "variance_CI_lower": [
+        183.76423844017742,
+        179.7550167285364
+      ],
+      "variance_CI_upper": [
+        192.36823638297983,
+        188.17129950079197
+      ],
+      "expected_variance": 185.37444660936035,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 1,
+      "horizon": 64,
+      "family": "fresh",
+      "variance_CI_lower": [
+        5.102258490744022,
+        5.181569854196513
+      ],
+      "variance_CI_upper": [
+        5.341150572961089,
+        5.424175361907999
+      ],
+      "expected_variance": 5.223474391543449,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 2,
+      "horizon": 1,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.5302830910790083,
+        0.5294928664420289
+      ],
+      "variance_CI_upper": [
+        0.5551113964308789,
+        0.5542841728042776
+      ],
+      "expected_variance": 0.542,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 2,
+      "horizon": 1,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.5287893499327396,
+        0.5342531650265724
+      ],
+      "variance_CI_upper": [
+        0.5535477170536537,
+        0.5592673526173789
+      ],
+      "expected_variance": 0.542,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 2,
+      "horizon": 2,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.05556828837901677,
+        0.05566943882283716
+      ],
+      "variance_CI_upper": [
+        0.058170042904034186,
+        0.058275929297666854
+      ],
+      "expected_variance": 0.05688,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 2,
+      "horizon": 2,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.8404867476369768,
+        0.8394586651164961
+      ],
+      "variance_CI_upper": [
+        0.8798390520298437,
+        0.8787628338113277
+      ],
+      "expected_variance": 0.8568800000000001,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 2,
+      "horizon": 4,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.08366071727021705,
+        0.08333523899047987
+      ],
+      "variance_CI_upper": [
+        0.08757778320968519,
+        0.08723706576005806
+      ],
+      "expected_variance": 0.085298048,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 2,
+      "horizon": 4,
+      "family": "fresh",
+      "variance_CI_lower": [
+        1.1734796623217227,
+        1.1716115181523334
+      ],
+      "variance_CI_upper": [
+        1.2284229782042817,
+        1.2264673659359484
+      ],
+      "expected_variance": 1.1873780480000002,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 2,
+      "horizon": 8,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.13264703053706645,
+        0.13326593347067112
+      ],
+      "variance_CI_upper": [
+        0.13885767732856014,
+        0.13950555782391855
+      ],
+      "expected_variance": 0.13528648415674369,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 2,
+      "horizon": 8,
+      "family": "fresh",
+      "variance_CI_lower": [
+        1.35337379607048,
+        1.3568657421480241
+      ],
+      "variance_CI_upper": [
+        1.416739908302506,
+        1.4203953502654443
+      ],
+      "expected_variance": 1.378198419849544,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 2,
+      "horizon": 16,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.16896745941252733,
+        0.16936057121055292
+      ],
+      "variance_CI_upper": [
+        0.17687865957598678,
+        0.17729017720275367
+      ],
+      "expected_variance": 0.1735511380921346,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 2,
+      "horizon": 16,
+      "family": "fresh",
+      "variance_CI_lower": [
+        1.3973725762170999,
+        1.389745732073755
+      ],
+      "variance_CI_upper": [
+        1.4627987487583605,
+        1.45481480928528
+      ],
+      "expected_variance": 1.415583881778972,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 2,
+      "horizon": 32,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.17806898183491454,
+        0.17620470106393663
+      ],
+      "variance_CI_upper": [
+        0.18640632301940885,
+        0.18445475503708636
+      ],
+      "expected_variance": 0.18185434488428298,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 2,
+      "horizon": 32,
+      "family": "fresh",
+      "variance_CI_lower": [
+        1.3831722424354618,
+        1.3906546096627093
+      ],
+      "variance_CI_upper": [
+        1.447933543271099,
+        1.4557662412959869
+      ],
+      "expected_variance": 1.4166658087960966,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 2,
+      "horizon": 64,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.17835749144880111,
+        0.17781456483165822
+      ],
+      "variance_CI_upper": [
+        0.18670834089880686,
+        0.18613999399566797
+      ],
+      "expected_variance": 0.18209857169446064,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 2,
+      "horizon": 64,
+      "family": "fresh",
+      "variance_CI_lower": [
+        1.3917835708685529,
+        1.3719328874310173
+      ],
+      "variance_CI_upper": [
+        1.456948061425716,
+        1.4361679521058133
+      ],
+      "expected_variance": 1.4166666666661285,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 3,
+      "horizon": 1,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.49807208467957664,
+        0.4985659876263201
+      ],
+      "variance_CI_upper": [
+        0.5213922433150417,
+        0.5219092712178365
+      ],
+      "expected_variance": 0.51,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 3,
+      "horizon": 1,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.500697333953473,
+        0.4985532070401609
+      ],
+      "variance_CI_upper": [
+        0.5241404089928243,
+        0.5218958922337629
+      ],
+      "expected_variance": 0.51,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 3,
+      "horizon": 2,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.49785343531391535,
+        0.4980800324594035
+      ],
+      "variance_CI_upper": [
+        0.5211633566001099,
+        0.52140056321668
+      ],
+      "expected_variance": 0.51,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 3,
+      "horizon": 2,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.502251685766163,
+        0.5006442982141989
+      ],
+      "variance_CI_upper": [
+        0.5257675368794245,
+        0.5240848900751283
+      ],
+      "expected_variance": 0.51,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 3,
+      "horizon": 4,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.4974609328179642,
+        0.4971585020457151
+      ],
+      "variance_CI_upper": [
+        0.5207524768034589,
+        0.5204358859652233
+      ],
+      "expected_variance": 0.51,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 3,
+      "horizon": 4,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.49511626662349434,
+        0.49687961450071505
+      ],
+      "variance_CI_upper": [
+        0.518298031343529,
+        0.520143940668161
+      ],
+      "expected_variance": 0.51,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 3,
+      "horizon": 8,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.497097158959936,
+        0.4961671022183409
+      ],
+      "variance_CI_upper": [
+        0.5203716707439932,
+        0.5193980679547051
+      ],
+      "expected_variance": 0.51,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 3,
+      "horizon": 8,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.49910697111223135,
+        0.5029176731098254
+      ],
+      "variance_CI_upper": [
+        0.5224755840106868,
+        0.5264647063169667
+      ],
+      "expected_variance": 0.51,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 3,
+      "horizon": 16,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.49779135676917496,
+        0.49685668418183043
+      ],
+      "variance_CI_upper": [
+        0.5210983714851044,
+        0.520119936732243
+      ],
+      "expected_variance": 0.51,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 3,
+      "horizon": 16,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.4993252685301401,
+        0.5017013118473147
+      ],
+      "variance_CI_upper": [
+        0.5227041022993729,
+        0.5251913939855801
+      ],
+      "expected_variance": 0.51,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 3,
+      "horizon": 32,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.49910450335693296,
+        0.49675052026784555
+      ],
+      "variance_CI_upper": [
+        0.5224730007129864,
+        0.5200088021335086
+      ],
+      "expected_variance": 0.51,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 3,
+      "horizon": 32,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.49796706914144473,
+        0.49917461657047985
+      ],
+      "variance_CI_upper": [
+        0.5212823108600945,
+        0.5225463966868258
+      ],
+      "expected_variance": 0.51,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 3,
+      "horizon": 64,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.49722320366929357,
+        0.49661861925121015
+      ],
+      "variance_CI_upper": [
+        0.5205036169738491,
+        0.5198707253990871
+      ],
+      "expected_variance": 0.51,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 3,
+      "horizon": 64,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.4954411716753914,
+        0.4964462258759396
+      ],
+      "variance_CI_upper": [
+        0.5186381487263011,
+        0.5196902604193587
+      ],
+      "expected_variance": 0.51,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 4,
+      "horizon": 1,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.05396275637956706,
+        0.053431315119296365
+      ],
+      "variance_CI_upper": [
+        0.05648933853079932,
+        0.05593301473871013
+      ],
+      "expected_variance": 0.055125,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 4,
+      "horizon": 1,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.05396275637956706,
+        0.053431315119296365
+      ],
+      "variance_CI_upper": [
+        0.05648933853079932,
+        0.05593301473871013
+      ],
+      "expected_variance": 0.055125,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 4,
+      "horizon": 2,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.058762396542757576,
+        0.0578681749834287
+      ],
+      "variance_CI_upper": [
+        0.061513701928721534,
+        0.06057761215541271
+      ],
+      "expected_variance": 0.0597503125,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 4,
+      "horizon": 2,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.058762396542757576,
+        0.0578681749834287
+      ],
+      "variance_CI_upper": [
+        0.061513701928721534,
+        0.06057761215541271
+      ],
+      "expected_variance": 0.0597503125,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 4,
+      "horizon": 4,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.0664834226123274,
+        0.06575125517142907
+      ],
+      "variance_CI_upper": [
+        0.06959623300591845,
+        0.06882978486269878
+      ],
+      "expected_variance": 0.0676920029707031,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 4,
+      "horizon": 4,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.0664834226123274,
+        0.06575125517142907
+      ],
+      "variance_CI_upper": [
+        0.06959623300591845,
+        0.06882978486269878
+      ],
+      "expected_variance": 0.0676920029707031,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 4,
+      "horizon": 8,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.07753716815667729,
+        0.07728913058528147
+      ],
+      "variance_CI_upper": [
+        0.08116752431831943,
+        0.08090787341686473
+      ],
+      "expected_variance": 0.07942923921189435,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 4,
+      "horizon": 8,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.07753716815667729,
+        0.07728913058528147
+      ],
+      "variance_CI_upper": [
+        0.08116752431831943,
+        0.08090787341686473
+      ],
+      "expected_variance": 0.07942923921189435,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 4,
+      "horizon": 16,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.09001880154709971,
+        0.09092585224277133
+      ],
+      "variance_CI_upper": [
+        0.09423355840022335,
+        0.09518307798095019
+      ],
+      "expected_variance": 0.0923818322271813,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 4,
+      "horizon": 16,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.09001880154709971,
+        0.09092585224277133
+      ],
+      "variance_CI_upper": [
+        0.09423355840022335,
+        0.09518307798095019
+      ],
+      "expected_variance": 0.0923818322271813,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 4,
+      "horizon": 32,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.09757296907532936,
+        0.09868161410744007
+      ],
+      "variance_CI_upper": [
+        0.1021414184772545,
+        0.10330197121271677
+      ],
+      "expected_variance": 0.10059167986197973,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 4,
+      "horizon": 32,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.09757296907532936,
+        0.09868161410744007
+      ],
+      "variance_CI_upper": [
+        0.1021414184772545,
+        0.10330197121271677
+      ],
+      "expected_variance": 0.10059167986197973,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 4,
+      "horizon": 64,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.10046519322669246,
+        0.10043024693729737
+      ],
+      "variance_CI_upper": [
+        0.10516905902333985,
+        0.10513247651895202
+      ],
+      "expected_variance": 0.10249008910004484,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 4,
+      "horizon": 64,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.10046519322669246,
+        0.10043024693729737
+      ],
+      "variance_CI_upper": [
+        0.10516905902333985,
+        0.10513247651895202
+      ],
+      "expected_variance": 0.10249008910004484,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 5,
+      "horizon": 1,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.05415764757948233,
+        0.05330074514663267
+      ],
+      "variance_CI_upper": [
+        0.0566933547024576,
+        0.055796331368871195
+      ],
+      "expected_variance": 0.055125,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 5,
+      "horizon": 1,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.05415764757948233,
+        0.05330074514663267
+      ],
+      "variance_CI_upper": [
+        0.0566933547024576,
+        0.055796331368871195
+      ],
+      "expected_variance": 0.055125,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 5,
+      "horizon": 2,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.058757601170026756,
+        0.057683702904185404
+      ],
+      "variance_CI_upper": [
+        0.061508682032560796,
+        0.06038450293651816
+      ],
+      "expected_variance": 0.0597503125,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 5,
+      "horizon": 2,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.058757601170026756,
+        0.057683702904185404
+      ],
+      "variance_CI_upper": [
+        0.061508682032560796,
+        0.06038450293651816
+      ],
+      "expected_variance": 0.0597503125,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 5,
+      "horizon": 4,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.06653775389497486,
+        0.06579897463768643
+      ],
+      "variance_CI_upper": [
+        0.06965310812543046,
+        0.06887973859495367
+      ],
+      "expected_variance": 0.0676920029707031,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 5,
+      "horizon": 4,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.06653775389497486,
+        0.06579897463768643
+      ],
+      "variance_CI_upper": [
+        0.06965310812543046,
+        0.06887973859495367
+      ],
+      "expected_variance": 0.0676920029707031,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 5,
+      "horizon": 8,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.07746375144733335,
+        0.07788025612487756
+      ],
+      "variance_CI_upper": [
+        0.08109067017620009,
+        0.08152667595700125
+      ],
+      "expected_variance": 0.07942923921189435,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 5,
+      "horizon": 8,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.07746375144733335,
+        0.07788025612487756
+      ],
+      "variance_CI_upper": [
+        0.08109067017620009,
+        0.08152667595700125
+      ],
+      "expected_variance": 0.07942923921189435,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 5,
+      "horizon": 16,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.08995559427984152,
+        0.09052874541186748
+      ],
+      "variance_CI_upper": [
+        0.09416739171495175,
+        0.09476737827046773
+      ],
+      "expected_variance": 0.0923818322271813,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 5,
+      "horizon": 16,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.08995559427984152,
+        0.09052874541186748
+      ],
+      "variance_CI_upper": [
+        0.09416739171495175,
+        0.09476737827046773
+      ],
+      "expected_variance": 0.0923818322271813,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 5,
+      "horizon": 32,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.09843365056421542,
+        0.09705986903682598
+      ],
+      "variance_CI_upper": [
+        0.10304239780549516,
+        0.10160429465853572
+      ],
+      "expected_variance": 0.10059167986197973,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 5,
+      "horizon": 32,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.09843365056421542,
+        0.09705986903682598
+      ],
+      "variance_CI_upper": [
+        0.10304239780549516,
+        0.10160429465853572
+      ],
+      "expected_variance": 0.10059167986197973,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 5,
+      "horizon": 64,
+      "family": "persistent",
+      "variance_CI_lower": [
+        0.10053637669426013,
+        0.10068145937332967
+      ],
+      "variance_CI_upper": [
+        0.10524357536140351,
+        0.10539545093490586
+      ],
+      "expected_variance": 0.10249008910004484,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    },
+    {
+      "case": 5,
+      "horizon": 64,
+      "family": "fresh",
+      "variance_CI_lower": [
+        0.10053637669426013,
+        0.10068145937332967
+      ],
+      "variance_CI_upper": [
+        0.10524357536140351,
+        0.10539545093490586
+      ],
+      "expected_variance": 0.10249008910004484,
+      "expected_inside_CI": [
+        true,
+        true
+      ]
+    }
+  ],
+  "individual_interval_alpha": 0.00029761904761904765,
+  "expected_variance_inside_intervals_count": 168,
+  "total_variance_intervals": 168,
+  "interval_scope": "Bonferroni familywise .05 across168 coordinate/family/horizon sample-variance intervals; descriptive MC verification, no tuning",
+  "cost_rows_checked": 6,
+  "cost_scope": "Current eager inference operators; no equal-optimization or training-cost claim",
+  "operator_results_sha256": "fafa2770057bb8bc7422a6b1fd56772570cddeee9cb078d583b08a97e9a2c7cd",
+  "cost_results_sha256": "dd6025bc3569f241f74de0c878514747f35bf77f78f17195323ed83e71e87a1c",
+  "trained_model_relevance_established": false,
+  "objective_achieved": false,
+  "utc": "2026-10-16T05:38:31.719386+00:00"
+}

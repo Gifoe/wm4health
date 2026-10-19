@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "result_sha256": "b612664df2d69cf22adb262869d9d05d374ea61932634c92348c411563391504",
+  "verifier_sha256": "e26e2ebe3dbd1ca910840a91f882f51571e7275eac7c2ed45d83c6bbcbc1cfab",
+  "rational_raw_Bayes_MAE": "13/20",
+  "rational_shared_MAE": "7/10",
+  "rational_excess": "1/20",
+  "affine_identity_reconstruction_max_abs": 0.0,
+  "global_margin_checks": 2,
+  "coordinate_margin_checks": [
+    {
+      "context": 0,
+      "latent_median": [
+        100.0,
+        100.0
+      ],
+      "joint_coordinate_L1_margins": [
+        0.5,
+        1.75
+      ]
+    },
+    {
+      "context": 1,
+      "latent_median": [
+        100.0,
+        100.0
+      ],
+      "joint_coordinate_L1_margins": [
+        2.0,
+        1.0
+      ]
+    }
+  ],
+  "native_formula_checks": 128,
+  "decoded_grid_points": 4001,
+  "ordinary_squared_target_and_refitted_MAE_readout": [
+    0,
+    -1
+  ],
+  "seconds": 0.2397933999891393,
+  "scope": "fixed-target component witness only; no native trained-model failure or new-method claim"
+}

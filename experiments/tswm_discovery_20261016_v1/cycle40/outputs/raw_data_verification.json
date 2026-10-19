@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "independent_parser": "stdlib csv/zipfile/datetime, not pandas intake",
+  "naive_timestamp_representation": "integer epoch coordinate without claiming physical UTC or timezone conversion",
+  "checks": [
+    {
+      "data": "ett",
+      "source_rows_grid": 17420,
+      "finite": 17420,
+      "max_signal_difference": 7.105427357601002e-15,
+      "absolute_parser_tolerance": 2e-12,
+      "timestamp_difference_ns": 0
+    },
+    {
+      "data": "jena",
+      "source_rows_grid": 8784,
+      "finite": 8710,
+      "max_signal_difference": 0.0,
+      "absolute_parser_tolerance": 2e-12,
+      "timestamp_difference_ns": 0
+    }
+  ],
+  "source_files_sha_verified": 3,
+  "v1_failure_preserved": "Exact bitwise float parsing comparison failed; V2 separately checks exact timestamps/missingness and an explicit 2e-12 absolute signal tolerance",
+  "test_scored": false
+}

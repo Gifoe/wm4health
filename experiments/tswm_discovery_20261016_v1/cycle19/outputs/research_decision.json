@@ -1,0 +1,64 @@
+{
+  "cycle": 19,
+  "accepted_novel_directions": 0,
+  "objective_achieved": false,
+  "cycle_status": "completed_exploratory_audit",
+  "decision": "NO_ARCHITECTURE_NECESSITY_ESTABLISHED; STOP_TUNING_INSPECTED_FIXTURES",
+  "system_id_table": [
+    {
+      "task": "lorenz63_original",
+      "array_sha256": "6796dd5c567f142b3f6b5a73e3b2ee2b8beb0fb8311d28641b906d80b9ebecb4",
+      "global_metrics": {
+        "D_stsp": 0.3213149905204773,
+        "D_H": 0.04027439281344414,
+        "MASE_true_denominator": 0.08417919278144836
+      }
+    },
+    {
+      "task": "chua_original",
+      "array_sha256": "2ca4132c586b46b9dd96c75691132d5831e1340a122d18e4f80a836699eba412",
+      "global_metrics": {
+        "D_stsp": 1.0633476972579956,
+        "D_H": 0.04136752709746361,
+        "MASE_true_denominator": 0.056040387600660324
+      }
+    },
+    {
+      "task": "sprottM_original",
+      "array_sha256": "51776cb2ab05e4ac56cb988e8a9216ac320f835a49c6f9f55ed9cc90fdb9e36a",
+      "global_metrics": {
+        "D_stsp": 0.3250146210193634,
+        "D_H": 0.028060967102646828,
+        "MASE_true_denominator": 0.012709048576653004
+      }
+    },
+    {
+      "task": "chua_common_short",
+      "array_sha256": "722130989e16ffdef931e019417a27d4a613a842b593f706c96d3681f3e27857",
+      "global_metrics": {
+        "D_stsp": 1.532647728919983,
+        "D_H": 0.0811455175280571,
+        "MASE_true_denominator": 0.06199353560805321
+      }
+    },
+    {
+      "task": "chua_common_long",
+      "array_sha256": "46fa841097f0632d6f43ef122eee701086112f40d8167d2ea3a09e611ef997b3",
+      "global_metrics": {
+        "D_stsp": 0.6239277124404907,
+        "D_H": 0.020496146753430367,
+        "MASE_true_denominator": 0.0563325397670269
+      }
+    }
+  ],
+  "verification_receipts_pass": [
+    true,
+    true,
+    true
+  ],
+  "source_result_hashes": {
+    "outputs/event_audit_attempt1/results.json": "44affef26990d1ad8adc2d23d0e5928f411ef2e9d781f8f90908e439a399caa2",
+    "outputs/attribution/results.json": "be70ab366461316cbbc005c6063527d5fd7dcd0325c9df9aa6478f97315f8b12",
+    "outputs/system_id_control/results.json": "8097e5ada4cf4bb431a8e94a167ef811736eae18706ec7cb288b335cda3abfb6"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "status": "passed_implementation_checks",
+  "n_protocol_cases": 74,
+  "n_flow_rows": 148,
+  "n_finite_MLE_rows": 222,
+  "groups": [
+    {
+      "protocol": "feedback",
+      "method": "full_conditional_fm",
+      "n_cases": 24,
+      "mean_gain_mae": 0.4822222222222236,
+      "mean_covariance_relative_fro_error": 0.612013132757692,
+      "n_do_errors_above_1e_3": 24
+    },
+    {
+      "protocol": "feedback",
+      "method": "causal_mask_fm",
+      "n_cases": 24,
+      "mean_gain_mae": 0.29648570027664983,
+      "mean_covariance_relative_fro_error": 0.47577265751379355,
+      "n_do_errors_above_1e_3": 24
+    },
+    {
+      "protocol": "matched_independent_replay",
+      "method": "full_conditional_fm",
+      "n_cases": 24,
+      "mean_gain_mae": 3.5260259936674386e-15,
+      "mean_covariance_relative_fro_error": 2.027007637268501e-15,
+      "n_do_errors_above_1e_3": 0
+    },
+    {
+      "protocol": "matched_independent_replay",
+      "method": "causal_mask_fm",
+      "n_cases": 24,
+      "mean_gain_mae": 1.7763568394002505e-15,
+      "mean_covariance_relative_fro_error": 0.2745407700639159,
+      "n_do_errors_above_1e_3": 24
+    }
+  ],
+  "checks": [
+    {
+      "check": "full_conditional_fm_RK4_resolution",
+      "error": 2.631927310125339e-14
+    },
+    {
+      "check": "full_FM_Schur",
+      "error": 2.2125158847887047e-14
+    },
+    {
+      "check": "causal_mask_fm_RK4_resolution",
+      "error": 3.2875933136966134e-14
+    },
+    {
+      "check": "no_intrinsic_chain_control_feedback",
+      "error": 1.6148698540002276e-15
+    },
+    {
+      "check": "no_intrinsic_chain_control_matched_independent_replay",
+      "error": 1.6148698540002276e-15
+    },
+    {
+      "check": "MC_conditional_velocity_coefficients",
+      "case": 0,
+      "s": 0.25,
+      "n": 500000,
+      "full_max_error": 0.002885220594614525,
+      "causal_max_error": 0.0028852205946144974
+    },
+    {
+      "check": "MC_conditional_velocity_coefficients",
+      "case": 0,
+      "s": 0.5,
+      "n": 500000,
+      "full_max_error": 0.0027543902280074695,
+      "causal_max_error": 0.0038056905372496966
+    },
+    {
+      "check": "MC_conditional_velocity_coefficients",
+      "case": 0,
+      "s": 0.75,
+      "n": 500000,
+      "full_max_error": 0.004376223765824028,
+      "causal_max_error": 0.004376223765824028
+    },
+    {
+      "check": "independent_DOP853",
+      "case": 0,
+      "method": "full_conditional_fm",
+      "error": 3.7160322009557764e-12,
+      "nfev": 290
+    },
+    {
+      "check": "independent_DOP853",
+      "case": 0,
+      "method": "causal_mask_fm",
+      "error": 2.1656010318338303e-12,
+      "nfev": 302
+    },
+    {
+      "check": "MC_conditional_velocity_coefficients",
+      "case": 1,
+      "s": 0.25,
+      "n": 500000,
+      "full_max_error": 0.003273920240566941,
+      "causal_max_error": 0.0031941330964038173
+    },
+    {
+      "check": "MC_conditional_velocity_coefficients",
+      "case": 1,
+      "s": 0.5,
+      "n": 500000,
+      "full_max_error": 0.003290996406794311,
+      "causal_max_error": 0.004002780437075732
+    },
+    {
+      "check": "MC_conditional_velocity_coefficients",
+      "case": 1,
+      "s": 0.75,
+      "n": 500000,
+      "full_max_error": 0.00410538969169999,
+      "causal_max_error": 0.003785568661812233
+    },
+    {
+      "check": "independent_DOP853",
+      "case": 1,
+      "method": "full_conditional_fm",
+      "error": 2.639555241046302e-13,
+      "nfev": 242
+    },
+    {
+      "check": "independent_DOP853",
+      "case": 1,
+      "method": "causal_mask_fm",
+      "error": 7.184846420584378e-13,
+      "nfev": 218
+    },
+    {
+      "check": "MC_conditional_velocity_coefficients",
+      "case": 4,
+      "s": 0.25,
+      "n": 500000,
+      "full_max_error": 0.004587572509410713,
+      "causal_max_error": 0.003825353322310432
+    },
+    {
+      "check": "MC_conditional_velocity_coefficients",
+      "case": 4,
+      "s": 0.5,
+      "n": 500000,
+      "full_max_error": 0.00638563967184963,
+      "causal_max_error": 0.00638563967184963
+    },
+    {
+      "check": "MC_conditional_velocity_coefficients",
+      "case": 4,
+      "s": 0.75,
+      "n": 500000,
+      "full_max_error": 0.00660505006859638,
+      "causal_max_error": 0.005590393651170145
+    },
+    {
+      "check": "independent_DOP853",
+      "case": 4,
+      "method": "full_conditional_fm",
+      "error": 2.637334794997052e-13,
+      "nfev": 242
+    },
+    {
+      "check": "independent_DOP853",
+      "case": 4,
+      "method": "causal_mask_fm",
+      "error": 7.185231419320878e-13,
+      "nfev": 218
+    }
+  ],
+  "seconds": 2.937000000005355,
+  "source_sha256": "9f05803c438736c514a839a8322e710ab9a9c8248db1fd16570188bdb697b7be",
+  "v1_source_sha256": "ef7f1b4882bc1f9ff18653b0ce080aa4e1b26a3fb103b943c9d9b0f6579fcf54",
+  "original_plan_sha256": "381e3b288f3bf2226d31f5514f21b2c47aea91c3b29502fac76be4f27a436d1a",
+  "amendment_sha256": "cc25eb500002ea4297a6b91e1c554c6687e9b10206ead754bfa066adf476f16a",
+  "rejected_interpretation": "feedback-specific attribution is not isolated: projected causal velocity fails also for independent inputs",
+  "accepted_directions": 0
+}

@@ -1,0 +1,49 @@
+{
+  "embedding_key": "model.embed_tokens",
+  "max_iter": 2,
+  "iter_decider": "Qwen3MLPIterDecider",
+  "input_updater": "Qwen3MLPUpdater",
+  "train_loss": "CombinedLoss",
+  "eval_loss": "NextTokenPredLoss",
+  "eval_iter_decider": "iter_decider",
+  "iter_label_generator": "DynamicIterLabelGenerator",
+  "iter_attention_mode": "duo",
+  "attn_implementation": "sdpa",
+  "iter_attention_impl": "triton",
+  "weighted_hidden_method": "stop_prob_mix",
+  "memory_lean_fp32_reductions": true,
+  "iter_decider_kwargs": {
+    "hidden_size": 2048,
+    "intermediate_size": 2048,
+    "threshold": 0.5,
+    "topk": 2048
+  },
+  "input_updater_kwargs": {
+    "hidden_size": 2048,
+    "intermediate_size": 2048
+  },
+  "train_loss_kwargs": {
+    "losses": [
+      {
+        "name": "NextTokenPredLoss",
+        "weight": 1.0,
+        "kwargs": {
+          "use_target_gather_mix": true
+        }
+      },
+      {
+        "name": "IterDeciderLoss",
+        "weight": 0.05,
+        "kwargs": {
+          "dyn_pos_weight": true,
+          "cost_sensitive": true
+        }
+      }
+    ]
+  },
+  "eval_loss_kwargs": {},
+  "eval_iter_decider_kwargs": {},
+  "iter_label_generator_kwargs": {
+    "abs_improv_coverage": 0.99
+  }
+}

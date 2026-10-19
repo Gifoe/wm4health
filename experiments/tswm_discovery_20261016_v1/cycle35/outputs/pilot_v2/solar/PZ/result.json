@@ -1,0 +1,32 @@
+{
+  "dataset": "solar",
+  "arm": "PZ",
+  "seed": 2026351,
+  "best_step": 1600,
+  "best_val_mae": 0.2722804018960886,
+  "best_metrics": {
+    "step": 1600,
+    "fused_mae": 0.2722804018960886,
+    "fused_mse": 0.3381098142257525,
+    "num_mae": 0.30193463547801763,
+    "num_mse": 0.42721075514025836,
+    "latent_mae": 0.13166693373791222,
+    "num_latent_mae": 0.30070076166715437,
+    "predictor_sha256": "ba077909e56cf982586eb5074898d600373ccda2f0ca626c9deca2bbbc9c4114"
+  },
+  "seconds": 30.273839899979066,
+  "peak_allocated_bytes": 173488640,
+  "initialization": {
+    "teacher": "63f175c9d9d5e522db86f70e34915750422c9df393afb3cd9d2aba0a2867afda",
+    "predictor": "be6854521e5c223f348805286d4cdb05f858ba06f4f5d368cd043a88d35263d4",
+    "g": "eb40ad4c282e647ca8daee598b1b41d275a19dde7022386ddf73a7430f9e949e",
+    "project": null
+  },
+  "best_checkpoint_sha256": "8798342cc7fa1bfb67e7947e7bb6253c2f93f67a80312d8e27da26d9773817b2",
+  "predictions_sha256": "11ffe59977543a5ba06b79abf5a6a786f4423def13c24b0bdca30c7e6b92203e",
+  "trainable_parameters": 2075936,
+  "last_500_relative_val_improvement": 0.0044120432174607,
+  "encoder_and_decoder_unchanged": true,
+  "updates": 2000,
+  "schedule_sha256": "af27b993ff00ad3163d8437ba785bc2e48e979fbbf228c6b15e969a9fffb9765"
+}

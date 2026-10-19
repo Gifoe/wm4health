@@ -1,0 +1,7 @@
+# Literature and novelty boundary
+
+The primary-source opportunity map is in literature-search-20261016-acquisition-policy/. Six exact paper PDFs and hashes are retained in outputs/literature/registry.json. Nine verified works cover latent predictive frameworks,observers,joint observation modeling,missingness shifts and online calibration. They do not jointly prove all policy-transfer problems solved,but they rule out presenting the generic principles as new.
+
+[Timeflies](https://arxiv.org/html/2606.13571v1) states a stationary-missingness limitation. Its [author repository](https://github.com/ant-intl/Timeflies) at40b67ed216f4d1457080d3def2cb49fb6db479fdhas no executable training code. [Missingness-shift theory](https://arxiv.org/html/2406.16484v1) distinguishes ignorable from nonignorable changes. [LatentODE](https://arxiv.org/abs/1907.03907) already models observation-time probabilities. [OSSM](https://arxiv.org/html/2609.33566v1) already separates correction and propagation. [Under-Cali](https://arxiv.org/html/2605.28603v1) predicts before using revealed labels for later calibration. No full native result from these works is claimed here.
+
+The controlled real-series experiment tests an inferred residual,not an established literature gap. Its ordinary-model results do not justify a new architecture. WorldTS-level generality remains the scope reference; no dataset-specific optimization or mandatory foundation pretraining has replaced the objective.

@@ -1,0 +1,237 @@
+{
+  "oracle_grid_rows_replayed": 60,
+  "oracle_replay_max_error": 1.1102230246251565e-16,
+  "native_source_files_verified": {
+    "lens": 14,
+    "infoldm": 18,
+    "ac_mtm": 1
+  },
+  "analytic_identity_energy_checks": [
+    {
+      "seed": 2021,
+      "p": 0.0,
+      "analytic_identity_Bayes_ES": 0.38629736090933253,
+      "MC_identity_Bayes_ES": 0.3847779390578904,
+      "MC_standard_error": 0.001109967244360014
+    },
+    {
+      "seed": 2021,
+      "p": 0.1,
+      "analytic_identity_Bayes_ES": 0.5313771857034904,
+      "MC_identity_Bayes_ES": 0.5271304570152936,
+      "MC_standard_error": 0.0024482632756048822
+    },
+    {
+      "seed": 2021,
+      "p": 0.25,
+      "analytic_identity_Bayes_ES": 0.6885469958971613,
+      "MC_identity_Bayes_ES": 0.6822259455200225,
+      "MC_standard_error": 0.0031236661522051554
+    },
+    {
+      "seed": 2021,
+      "p": 0.4,
+      "analytic_identity_Bayes_ES": 0.7731768936937533,
+      "MC_identity_Bayes_ES": 0.7657059106653046,
+      "MC_standard_error": 0.0033331624317866275
+    },
+    {
+      "seed": 2021,
+      "p": 0.5,
+      "analytic_identity_Bayes_ES": 0.7892968742264375,
+      "MC_identity_Bayes_ES": 0.7875043332531136,
+      "MC_standard_error": 0.0033775245886481222
+    },
+    {
+      "seed": 2022,
+      "p": 0.0,
+      "analytic_identity_Bayes_ES": 0.38629736090933253,
+      "MC_identity_Bayes_ES": 0.38723196934456683,
+      "MC_standard_error": 0.00111708565892507
+    },
+    {
+      "seed": 2022,
+      "p": 0.1,
+      "analytic_identity_Bayes_ES": 0.5313771857034904,
+      "MC_identity_Bayes_ES": 0.5353196881717501,
+      "MC_standard_error": 0.0024736510960386613
+    },
+    {
+      "seed": 2022,
+      "p": 0.25,
+      "analytic_identity_Bayes_ES": 0.6885469958971613,
+      "MC_identity_Bayes_ES": 0.6924503234152068,
+      "MC_standard_error": 0.003141366354727583
+    },
+    {
+      "seed": 2022,
+      "p": 0.4,
+      "analytic_identity_Bayes_ES": 0.7731768936937533,
+      "MC_identity_Bayes_ES": 0.7751412215173009,
+      "MC_standard_error": 0.003351936924617863
+    },
+    {
+      "seed": 2022,
+      "p": 0.5,
+      "analytic_identity_Bayes_ES": 0.7892968742264375,
+      "MC_identity_Bayes_ES": 0.7928479151339951,
+      "MC_standard_error": 0.0033872844320646358
+    },
+    {
+      "seed": 2023,
+      "p": 0.0,
+      "analytic_identity_Bayes_ES": 0.38629736090933253,
+      "MC_identity_Bayes_ES": 0.38632411893251034,
+      "MC_standard_error": 0.0011098384101084582
+    },
+    {
+      "seed": 2023,
+      "p": 0.1,
+      "analytic_identity_Bayes_ES": 0.5313771857034904,
+      "MC_identity_Bayes_ES": 0.5296438152819052,
+      "MC_standard_error": 0.002464745500876496
+    },
+    {
+      "seed": 2023,
+      "p": 0.25,
+      "analytic_identity_Bayes_ES": 0.6885469958971613,
+      "MC_identity_Bayes_ES": 0.6831477746858936,
+      "MC_standard_error": 0.0031363350558202686
+    },
+    {
+      "seed": 2023,
+      "p": 0.4,
+      "analytic_identity_Bayes_ES": 0.7731768936937533,
+      "MC_identity_Bayes_ES": 0.7704640177730413,
+      "MC_standard_error": 0.003361648360986561
+    },
+    {
+      "seed": 2023,
+      "p": 0.5,
+      "analytic_identity_Bayes_ES": 0.7892968742264375,
+      "MC_identity_Bayes_ES": 0.7845381549976724,
+      "MC_standard_error": 0.0033907074501124067
+    }
+  ],
+  "weighted_ES_independent_normal_checks": [
+    {
+      "forecast_std": 0.0,
+      "expected_ES": 1.2533141373155001,
+      "MC_mean": 1.2459643284479778,
+      "MC_seed_values": [
+        1.2484090328216553,
+        1.2497656345367432,
+        1.2397183179855347
+      ]
+    },
+    {
+      "forecast_std": 0.5,
+      "expected_ES": 0.958134341373103,
+      "MC_mean": 0.9511944850285848,
+      "MC_seed_values": [
+        0.9532450437545776,
+        0.9537221789360046,
+        0.9466162323951721
+      ]
+    },
+    {
+      "forecast_std": 1.0,
+      "expected_ES": 0.8862269254527579,
+      "MC_mean": 0.8798770109812418,
+      "MC_seed_values": [
+        0.8811331987380981,
+        0.8816885948181152,
+        0.8768092393875122
+      ]
+    },
+    {
+      "forecast_std": 2.0,
+      "expected_ES": 1.0300417572934482,
+      "MC_mean": 1.0238625208536785,
+      "MC_seed_values": [
+        1.0241137742996216,
+        1.024811029434204,
+        1.0226627588272095
+      ]
+    }
+  ],
+  "checkpoints_verified": [
+    {
+      "seed": 2021,
+      "arm": "energy",
+      "checkpoint_encoding_max_error_CPU_vs_GPU": 9.5367431640625e-07,
+      "replayed_ridge_state_MSE": 0.001982548661731664
+    },
+    {
+      "seed": 2021,
+      "arm": "energy_information",
+      "checkpoint_encoding_max_error_CPU_vs_GPU": 7.152557373046875e-07,
+      "replayed_ridge_state_MSE": 0.0009740401910717135
+    },
+    {
+      "seed": 2021,
+      "arm": "energy_observed",
+      "checkpoint_encoding_max_error_CPU_vs_GPU": 9.5367431640625e-07,
+      "replayed_ridge_state_MSE": 0.0018182426666861666
+    },
+    {
+      "seed": 2021,
+      "arm": "observed_only",
+      "checkpoint_encoding_max_error_CPU_vs_GPU": 1.430511474609375e-06,
+      "replayed_ridge_state_MSE": 0.0014508589434915039
+    },
+    {
+      "seed": 2022,
+      "arm": "energy",
+      "checkpoint_encoding_max_error_CPU_vs_GPU": 9.5367431640625e-07,
+      "replayed_ridge_state_MSE": 0.0005538019652559712
+    },
+    {
+      "seed": 2022,
+      "arm": "energy_information",
+      "checkpoint_encoding_max_error_CPU_vs_GPU": 7.152557373046875e-07,
+      "replayed_ridge_state_MSE": 0.0006245028937554727
+    },
+    {
+      "seed": 2022,
+      "arm": "energy_observed",
+      "checkpoint_encoding_max_error_CPU_vs_GPU": 7.152557373046875e-07,
+      "replayed_ridge_state_MSE": 0.0006869221112912048
+    },
+    {
+      "seed": 2022,
+      "arm": "observed_only",
+      "checkpoint_encoding_max_error_CPU_vs_GPU": 9.5367431640625e-07,
+      "replayed_ridge_state_MSE": 0.0003821384795145142
+    },
+    {
+      "seed": 2023,
+      "arm": "energy",
+      "checkpoint_encoding_max_error_CPU_vs_GPU": 9.5367431640625e-07,
+      "replayed_ridge_state_MSE": 0.0032446138649000053
+    },
+    {
+      "seed": 2023,
+      "arm": "energy_information",
+      "checkpoint_encoding_max_error_CPU_vs_GPU": 9.5367431640625e-07,
+      "replayed_ridge_state_MSE": 0.0010226098925613966
+    },
+    {
+      "seed": 2023,
+      "arm": "energy_observed",
+      "checkpoint_encoding_max_error_CPU_vs_GPU": 9.5367431640625e-07,
+      "replayed_ridge_state_MSE": 0.0028129181167949715
+    },
+    {
+      "seed": 2023,
+      "arm": "observed_only",
+      "checkpoint_encoding_max_error_CPU_vs_GPU": 7.152557373046875e-07,
+      "replayed_ridge_state_MSE": 0.0022179333581591977
+    }
+  ],
+  "all_checks_passed": true,
+  "objective_achieved": false,
+  "scientific_jobs_complete": true,
+  "novel_direction_accepted": false,
+  "interpretation": "Constructed criterion-level preference is real; all tested random-initialized energy-only encoders retain the observed state. This is negative evidence for a new method on this task."
+}

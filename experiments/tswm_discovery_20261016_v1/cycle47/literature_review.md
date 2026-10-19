@@ -1,0 +1,25 @@
+# C47: joint physical-state and observation-clock learning
+
+Checked 2026-10-17. This screen asks about a reusable world-model learning objective, not a dataset score. No final research direction has been accepted.
+
+## Verified close methods and novelty boundaries
+
+1. **HyperNSDE**, [arXiv:2610.07383v1](https://arxiv.org/html/2610.07383v1), 2026-10-05; source pinned at `9d3db33ccfcf79e134d69381c6284b2692a5aef6`. In `compute_all_loss`, its default split recipe supplies the deterministic `pred_z` to the event-rate model while separately learning stochastic residuals. The paper explicitly discusses the non-equivalence of this split to a single SDE. Its unsplit source already supplies the complete stochastic path to the clock. Therefore stochastic state/clock coupling is an existing capability, not a newly discovered missing operator. Uncertain static latent variables can also induce clock/mark dependence in a split model; the restricted mean-clock arm here is not a universal description of HyperNSDE. Only unchanged MLP class definitions are executed in this audit; the complete paper pipeline is not reproduced. Fixed administrative horizons here exclude its EOS modeling.
+
+2. **TESAR-CDE**, [ICML 2023 primary proceedings](https://proceedings.mlr.press/v202/vanderschueren23a.html); source pinned at `a57a940310ee877cb9305b588af759d572e2be2e`. Intensity weighting under SAR/strong SAR and positivity is relevant to observation bias. These assumptions do not provide assumption-free identification for a latent-state-dependent SNAR clock. TESAR is reviewed, not executed as a comparative baseline. This audit contains no treatment intervention or causal identification claim.
+
+3. **PCF-GAN**, [NeurIPS 2023 paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/7d0e867582cdc156fd280d5a6aa1be08-Paper-Conference.pdf), [official code](https://github.com/DeepIntoStreams/PCF-GAN). Path characteristic-function matching already supplies a distribution-sensitive training objective for sequential data. Replacing likelihood with a transform discrepancy is not by itself novel. PCF-GAN uses a learned discriminator and path development; this screen uses fixed nonnegative marked-count tests and an analytic conditional-Poisson expectation. That operational distinction does not yet establish a valuable new framework.
+
+4. **From Jumps to Signatures**, [arXiv:2607.06652v1](https://arxiv.org/html/2607.06652v1), 2026-07-07; [official source](https://github.com/Code-Cornelius/sigtpp). SigTPP trains generated counting paths using expected signatures, with empirical TRAIN signatures precomputed once. Thus neither global event-sequence matching nor precomputed cohort statistics are new. Its variable-event generator and interarrival lift differ from this Cox-conditioned analytic expectation, but any claim of novelty must explain why that difference delivers useful physical-world simulation or inference. The paper is prior art, not a baseline executed here. A correctly specified complete joint likelihood already scores a sequence law: its decomposition into conditional factors does not make it intrinsically blind to dependence.
+
+5. **A Deterministic Approximation to Neural SDEs**, [primary preprint](https://arxiv.org/abs/2006.08973). Deterministic moment propagation for neural-SDE training and prediction is established. This audit's exact finite-grid recursion does not constitute a general continuous/high-dimensional approximation algorithm. Efficiency against an exact grid likelihood cannot establish scalability for neural latent world models.
+
+## Concrete provisional recipe
+
+For a conditionally Poisson marked observation process, the classical Laplace-functional identity integrates event counts and independent marks conditional on the latent path. Weighted matching of a finite random bank of these expectations is an ordinary minimum-distance construction. Adding it to full joint NLL is the specific unvalidated recipe under test, not a new mathematical identity. Rao–Blackwellization, kernels, moment matching, transform matching and sketch statistics all have extensive precedent. Targeted searches not finding an identical recipe are not proof of novelty.
+
+Potential value must survive a complete stochastic-clock NLL baseline, identical model/information controls, held-out scheduled-future laws and observation-density changes. A quality/cost signal would require fresh matched-time experiments and independent continuous or real-domain evidence. A result restricted to a known one-dimensional grid with a fixed emission model is insufficient for a WorldTS-scale framework claim.
+
+## Search scope and limitations
+
+Primary pages and actual selected source were inspected. Queries covered Laplace-functional/Cox generative learning, neural-SDE characteristic and moment objectives, point-process MMD, compressive learning, PCF-GAN and recent signature TPP models. This is a targeted adversarial novelty check, not an exhaustive proof of absence. Source manifests and hashes are retained separately. No public release, external posting, or acceptance-status assertion is made.

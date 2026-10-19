@@ -1,0 +1,2698 @@
+{
+  "rows": [
+    {
+      "condition": "zero_attention_noise",
+      "system": "lorenz63",
+      "seed": 2021,
+      "origin": 2000,
+      "finite": true,
+      "seconds": 12.136807200004114,
+      "array_file": "zero_attention_noise_lorenz63_2021.npz",
+      "array_sha256": "86a88054d04b663e9ce5b9a1abfee6f74f21a4105c30af89a14a5813f99ef91e",
+      "event_summaries": {
+        "context_thresholds": {
+          "thresholds": [
+            0.07967051863670349,
+            1.4312426090240482
+          ],
+          "eligible_landmarks": 47,
+          "hit_counts": [
+            0,
+            12,
+            29
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.2553191489361702,
+            0.6170212765957447
+          ],
+          "median_upcrossings": 52,
+          "completed_return_intervals": 51,
+          "return_CDF_completed_only": [
+            0.0,
+            0.0196078431372549,
+            0.13725490196078433
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 74,
+          "occupancy_above_upper": 0.0883,
+          "first_half_CDF": [
+            0.0,
+            0.14285714285714285,
+            0.6666666666666666
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.34615384615384615,
+            0.5769230769230769
+          ],
+          "first_half_eligible": 21,
+          "second_half_eligible": 26
+        },
+        "context_thresholds_all_offsets": {
+          "eligible_windows": 3373,
+          "first_passage_CDF": [
+            0.0,
+            0.17817966202193894,
+            0.5197153868959383
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "own_rank_diagnostic": {
+          "thresholds": [
+            0.3808959871530533,
+            1.4104854226112367
+          ],
+          "eligible_landmarks": 51,
+          "hit_counts": [
+            0,
+            17,
+            36
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.3333333333333333,
+            0.7058823529411765
+          ],
+          "median_upcrossings": 104,
+          "completed_return_intervals": 103,
+          "return_CDF_completed_only": [
+            0.0,
+            0.2621359223300971,
+            0.49514563106796117
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 35,
+          "occupancy_above_upper": 0.1,
+          "first_half_CDF": [
+            0.0,
+            0.22727272727272727,
+            0.6818181818181818
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.41379310344827586,
+            0.7241379310344828
+          ],
+          "first_half_eligible": 22,
+          "second_half_eligible": 29
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "eligible_windows": 4112,
+          "first_passage_CDF": [
+            0.01872568093385214,
+            0.321011673151751,
+            0.7186284046692607
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "reversal_odd_moment": [
+          -0.00024915663186022104,
+          -3.492649339138662e-05,
+          0.01679520084386842
+        ]
+      },
+      "event_comparison": {
+        "context_thresholds": {
+          "CDF_difference": [
+            0.0,
+            -0.2023079697078976,
+            -0.09484313018391632
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.398016048793785,
+              -0.26527858137790633
+            ],
+            [
+              0.0,
+              -0.02726360835929614,
+              0.06546249854870538
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.2023079697078976,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic": {
+          "CDF_difference": [
+            0.0,
+            -0.10303030303030303,
+            0.0149732620320856
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.2923959514440072,
+              -0.15564400355283817
+            ],
+            [
+              0.0,
+              0.07115705931495399,
+              0.18572557430359166
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.10303030303030303,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "context_thresholds_all_offsets": {
+          "CDF_difference": [
+            0.0,
+            -0.1661774147588196,
+            -0.10794418757214674
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.26758036761580645,
+              -0.2511810204900124
+            ],
+            [
+              0.0,
+              -0.07378572312129461,
+              0.03678380368071225
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.1661774147588196,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "CDF_difference": [
+            0.01872568093385214,
+            -0.008522268084317886,
+            0.11300530436530931
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.015054658694620847,
+              -0.11798544106549097,
+              -0.037745672082866194
+            ],
+            [
+              0.02247249640407746,
+              0.08832430218844119,
+              0.2579129157171103
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.11300530436530931,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "reversal_odd_moment_difference": [
+          -1.0529481794382961e-05,
+          0.0012807986262181011,
+          0.01868396080830112
+        ],
+        "reversal_odd_descriptive_bootstrap95": [
+          [
+            -0.0018934499097203177,
+            -0.005658143418512056,
+            0.007805126910405727
+          ],
+          [
+            0.0016267843968647783,
+            0.007441684791619853,
+            0.028920824679999676
+          ]
+        ]
+      },
+      "global_metrics": {
+        "D_stsp": 1.9276502132415771,
+        "D_H": 0.12084409594535828,
+        "MASE_true_denominator": 0.2713071405887604,
+        "RMSE10_context_scaled": 0.03487665206193924,
+        "any_degenerate_coordinate": false
+      }
+    },
+    {
+      "condition": "zero_attention_noise",
+      "system": "chua",
+      "seed": 2021,
+      "origin": 1028,
+      "finite": true,
+      "seconds": 11.279023099996266,
+      "array_file": "zero_attention_noise_chua_2021.npz",
+      "array_sha256": "2c9ecc70a9126d6b0b836bc59887472ea4a5f96ccde123df14b6cfbd767f7f63",
+      "event_summaries": {
+        "context_thresholds": {
+          "thresholds": [
+            0.1227647103369236,
+            1.2786916613578796
+          ],
+          "eligible_landmarks": 51,
+          "hit_counts": [
+            0,
+            7,
+            31
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.13725490196078433,
+            0.6078431372549019
+          ],
+          "median_upcrossings": 49,
+          "completed_return_intervals": 48,
+          "return_CDF_completed_only": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 116,
+          "occupancy_above_upper": 0.1032,
+          "first_half_CDF": [
+            0.0,
+            0.15384615384615385,
+            0.6923076923076923
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.12,
+            0.52
+          ],
+          "first_half_eligible": 26,
+          "second_half_eligible": 25
+        },
+        "context_thresholds_all_offsets": {
+          "eligible_windows": 4045,
+          "first_passage_CDF": [
+            0.0,
+            0.1584672435105068,
+            0.6353522867737948
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "own_rank_diagnostic": {
+          "thresholds": [
+            0.016707276925444603,
+            1.2891215443611146
+          ],
+          "eligible_landmarks": 51,
+          "hit_counts": [
+            0,
+            6,
+            31
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.11764705882352941,
+            0.6078431372549019
+          ],
+          "median_upcrossings": 49,
+          "completed_return_intervals": 48,
+          "return_CDF_completed_only": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 116,
+          "occupancy_above_upper": 0.1,
+          "first_half_CDF": [
+            0.0,
+            0.11538461538461539,
+            0.6923076923076923
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.12,
+            0.52
+          ],
+          "first_half_eligible": 26,
+          "second_half_eligible": 25
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "eligible_windows": 4016,
+          "first_passage_CDF": [
+            0.0,
+            0.14890438247011953,
+            0.6317231075697212
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "reversal_odd_moment": [
+          1.0374881929906454e-05,
+          0.0009498070075046508,
+          0.004857282954309787
+        ]
+      },
+      "event_comparison": {
+        "context_thresholds": {
+          "CDF_difference": [
+            0.0,
+            0.049535603715170295,
+            0.20433436532507737
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.10145541635961679,
+              -0.022705188427458063
+            ],
+            [
+              0.0,
+              0.20844164381260621,
+              0.4162280997304581
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.20433436532507737,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic": {
+          "CDF_difference": [
+            0.0,
+            0.008556149732620325,
+            0.2078431372549019
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.1409224789256569,
+              -0.01854269666700294
+            ],
+            [
+              0.0,
+              0.165985324947589,
+              0.42006229502724624
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.2078431372549019,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "context_thresholds_all_offsets": {
+          "CDF_difference": [
+            0.0,
+            0.054025466799822536,
+            0.2675251559214539
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              0.024197150763361822,
+              0.20562162201955397
+            ],
+            [
+              0.0,
+              0.08388019186913412,
+              0.325895600670021
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.2675251559214539,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "CDF_difference": [
+            0.0,
+            0.03846413089779248,
+            0.23876713272695388
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              0.012603785998364843,
+              0.17458357796403248
+            ],
+            [
+              0.0,
+              0.06428572702110727,
+              0.29637269013405015
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.23876713272695388,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "reversal_odd_moment_difference": [
+          9.917016897318405e-05,
+          0.0014324981651800909,
+          0.005732885319960471
+        ],
+        "reversal_odd_descriptive_bootstrap95": [
+          [
+            -0.0008901248204987537,
+            -0.0024447654279255156,
+            0.00022253445312341003
+          ],
+          [
+            0.0011244342334737665,
+            0.0054174880286562985,
+            0.011294356608062639
+          ]
+        ]
+      },
+      "global_metrics": {
+        "D_stsp": 7.990657806396484,
+        "D_H": 0.13200250267982483,
+        "MASE_true_denominator": 0.1810353845357895,
+        "RMSE10_context_scaled": 0.022916331887245178,
+        "any_degenerate_coordinate": false
+      }
+    },
+    {
+      "condition": "zero_attention_noise",
+      "system": "sprottM",
+      "seed": 2021,
+      "origin": 512,
+      "finite": true,
+      "seconds": 10.732701200002339,
+      "array_file": "zero_attention_noise_sprottM_2021.npz",
+      "array_sha256": "161839b477dbc9691bd0a41d299fc75720513e04f6447e0c717c8c8ff35002b3",
+      "event_summaries": {
+        "context_thresholds": {
+          "thresholds": [
+            0.027419469319283962,
+            1.5069047570228578
+          ],
+          "eligible_landmarks": 48,
+          "hit_counts": [
+            2,
+            25,
+            48
+          ],
+          "first_passage_CDF": [
+            0.041666666666666664,
+            0.5208333333333334,
+            1.0
+          ],
+          "median_upcrossings": 191,
+          "completed_return_intervals": 190,
+          "return_CDF_completed_only": [
+            0.0,
+            0.5,
+            1.0
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 1,
+          "occupancy_above_upper": 0.1207,
+          "first_half_CDF": [
+            0.041666666666666664,
+            0.5,
+            1.0
+          ],
+          "second_half_CDF": [
+            0.041666666666666664,
+            0.5416666666666666,
+            1.0
+          ],
+          "first_half_eligible": 24,
+          "second_half_eligible": 24
+        },
+        "context_thresholds_all_offsets": {
+          "eligible_windows": 3977,
+          "first_passage_CDF": [
+            0.04073422177520744,
+            0.5280362081971335,
+            1.0
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "own_rank_diagnostic": {
+          "thresholds": [
+            0.036428820341825485,
+            1.578615701198578
+          ],
+          "eligible_landmarks": 48,
+          "hit_counts": [
+            2,
+            23,
+            48
+          ],
+          "first_passage_CDF": [
+            0.041666666666666664,
+            0.4791666666666667,
+            1.0
+          ],
+          "median_upcrossings": 191,
+          "completed_return_intervals": 190,
+          "return_CDF_completed_only": [
+            0.0,
+            0.5,
+            1.0
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 1,
+          "occupancy_above_upper": 0.1,
+          "first_half_CDF": [
+            0.041666666666666664,
+            0.4166666666666667,
+            1.0
+          ],
+          "second_half_CDF": [
+            0.041666666666666664,
+            0.5416666666666666,
+            1.0
+          ],
+          "first_half_eligible": 24,
+          "second_half_eligible": 24
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "eligible_windows": 3999,
+          "first_passage_CDF": [
+            0.023505876469117278,
+            0.5131282820705176,
+            1.0
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "reversal_odd_moment": [
+          0.00025226579543067846,
+          0.03829228773013556,
+          0.25138510113912815
+        ]
+      },
+      "event_comparison": {
+        "context_thresholds": {
+          "CDF_difference": [
+            0.041666666666666664,
+            0.3272849462365592,
+            0.0
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              0.007565470643056833,
+              0.0
+            ],
+            [
+              0.10207600281491888,
+              0.6005325407675025,
+              0.0
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.3272849462365592,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic": {
+          "CDF_difference": [
+            0.041666666666666664,
+            0.3067528735632184,
+            0.0
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.012851375598086148,
+              0.0
+            ],
+            [
+              0.10207600281491888,
+              0.5870460942997888,
+              0.0
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.3067528735632184,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "context_thresholds_all_offsets": {
+          "CDF_difference": [
+            0.012860516792474339,
+            -0.0045242259419884245,
+            0.0
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.008340496801210321,
+              -0.016835061080682785,
+              0.0
+            ],
+            [
+              0.0170819395845663,
+              0.008069493951704412,
+              0.0
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.012860516792474339,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "CDF_difference": [
+            0.00026181381120924524,
+            -0.014158226267026564,
+            0.0
+          ],
+          "descriptive_bootstrap95": [
+            [
+              -0.00406026144920357,
+              -0.026492409278642073,
+              0.0
+            ],
+            [
+              0.004358527396268435,
+              -0.0010913292249862638,
+              0.0
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.014158226267026564,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "reversal_odd_moment_difference": [
+          4.32493134644756e-05,
+          0.0011048679087847998,
+          0.017431211912097344
+        ],
+        "reversal_odd_descriptive_bootstrap95": [
+          [
+            -0.0011731744354112276,
+            -0.0036135653195050158,
+            0.009919510454229287
+          ],
+          [
+            0.0013680359565310157,
+            0.005939948671680266,
+            0.02479998166392701
+          ]
+        ]
+      },
+      "global_metrics": {
+        "D_stsp": 7.391171455383301,
+        "D_H": 0.14144070446491241,
+        "MASE_true_denominator": 0.18201053142547607,
+        "RMSE10_context_scaled": 0.02232380583882332,
+        "any_degenerate_coordinate": false
+      }
+    },
+    {
+      "condition": "short_native",
+      "system": "chua",
+      "seed": 2021,
+      "origin": 2000,
+      "finite": true,
+      "seconds": 11.343929299997399,
+      "array_file": "short_native_chua_2021.npz",
+      "array_sha256": "0ffc1bd0cea95e0973856504a89d0b033b26bcf2b2bff5d274760e5e3a4ecff3",
+      "event_summaries": {
+        "context_thresholds": {
+          "thresholds": [
+            -0.4827692210674286,
+            1.2373820543289185
+          ],
+          "eligible_landmarks": 48,
+          "hit_counts": [
+            0,
+            12,
+            33
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.25,
+            0.6875
+          ],
+          "median_upcrossings": 45,
+          "completed_return_intervals": 44,
+          "return_CDF_completed_only": [
+            0.0,
+            0.0,
+            0.022727272727272728
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 198,
+          "occupancy_above_upper": 0.1248,
+          "first_half_CDF": [
+            0.0,
+            0.3076923076923077,
+            0.6153846153846154
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.18181818181818182,
+            0.7727272727272727
+          ],
+          "first_half_eligible": 26,
+          "second_half_eligible": 22
+        },
+        "context_thresholds_all_offsets": {
+          "eligible_windows": 3485,
+          "first_passage_CDF": [
+            0.0,
+            0.14863701578192254,
+            0.6444763271162124
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "own_rank_diagnostic": {
+          "thresholds": [
+            0.4561340808868408,
+            1.2683396697044373
+          ],
+          "eligible_landmarks": 54,
+          "hit_counts": [
+            0,
+            6,
+            24
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.1111111111111111,
+            0.4444444444444444
+          ],
+          "median_upcrossings": 44,
+          "completed_return_intervals": 43,
+          "return_CDF_completed_only": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 190,
+          "occupancy_above_upper": 0.1,
+          "first_half_CDF": [
+            0.0,
+            0.10714285714285714,
+            0.42857142857142855
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.11538461538461539,
+            0.46153846153846156
+          ],
+          "first_half_eligible": 28,
+          "second_half_eligible": 26
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "eligible_windows": 4005,
+          "first_passage_CDF": [
+            0.0,
+            0.08414481897627965,
+            0.4696629213483146
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "reversal_odd_moment": [
+          4.768901919424431e-05,
+          0.0014592332008655294,
+          0.0048700883722618505
+        ]
+      },
+      "event_comparison": {
+        "context_thresholds": {
+          "CDF_difference": [
+            0.0,
+            0.11842105263157895,
+            0.24013157894736842
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.01530949197860962,
+              0.06390880426873638
+            ],
+            [
+              0.0,
+              0.24737468671679194,
+              0.419423346994927
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.24013157894736842,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic": {
+          "CDF_difference": [
+            0.0,
+            -0.005167958656330754,
+            -0.020671834625323016
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.15284065115619233,
+              -0.19786578374039676
+            ],
+            [
+              0.0,
+              0.13207992768568735,
+              0.15163387021744795
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.020671834625323016,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "context_thresholds_all_offsets": {
+          "CDF_difference": [
+            0.0,
+            0.04338946167578557,
+            0.23267674217698914
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              0.018025377510938637,
+              0.14674328455012978
+            ],
+            [
+              0.0,
+              0.0674908380088992,
+              0.3093720795149439
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.23267674217698914,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "CDF_difference": [
+            0.0,
+            -0.02866925137547914,
+            0.05860764496640508
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.07229093342587356,
+              -0.027613662197433386
+            ],
+            [
+              0.0,
+              0.013048762913540703,
+              0.1414198665677457
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.05860764496640508,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "reversal_odd_moment_difference": [
+          -2.0096478263138625e-05,
+          0.0004505519506931982,
+          0.0036280761792924824
+        ],
+        "reversal_odd_descriptive_bootstrap95": [
+          [
+            -0.000886737037139084,
+            -0.0033685902664439575,
+            -0.0012552286355017317
+          ],
+          [
+            0.0008578906654052738,
+            0.004284823878750696,
+            0.008970857528039892
+          ]
+        ]
+      },
+      "global_metrics": {
+        "D_stsp": 4.659271717071533,
+        "D_H": 0.14098858833312988,
+        "MASE_true_denominator": 0.8347684741020203,
+        "RMSE10_context_scaled": 0.11035969108343124,
+        "any_degenerate_coordinate": false
+      }
+    },
+    {
+      "condition": "short_native",
+      "system": "chua",
+      "seed": 2022,
+      "origin": 2000,
+      "finite": true,
+      "seconds": 11.285069600009592,
+      "array_file": "short_native_chua_2022.npz",
+      "array_sha256": "ac9161da27eced42c0d1c75d7f52abda38349dab6be3c1116ab19bcc9531bb9b",
+      "event_summaries": {
+        "context_thresholds": {
+          "thresholds": [
+            -0.4827692210674286,
+            1.2373820543289185
+          ],
+          "eligible_landmarks": 46,
+          "hit_counts": [
+            0,
+            7,
+            28
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.15217391304347827,
+            0.6086956521739131
+          ],
+          "median_upcrossings": 46,
+          "completed_return_intervals": 45,
+          "return_CDF_completed_only": [
+            0.0,
+            0.0,
+            0.022222222222222223
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 129,
+          "occupancy_above_upper": 0.1179,
+          "first_half_CDF": [
+            0.0,
+            0.09523809523809523,
+            0.5238095238095238
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.2,
+            0.68
+          ],
+          "first_half_eligible": 21,
+          "second_half_eligible": 25
+        },
+        "context_thresholds_all_offsets": {
+          "eligible_windows": 3684,
+          "first_passage_CDF": [
+            0.0,
+            0.14006514657980457,
+            0.6251357220412594
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "own_rank_diagnostic": {
+          "thresholds": [
+            0.17221100628376007,
+            1.2611425399780274
+          ],
+          "eligible_landmarks": 48,
+          "hit_counts": [
+            0,
+            5,
+            25
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.10416666666666667,
+            0.5208333333333334
+          ],
+          "median_upcrossings": 45,
+          "completed_return_intervals": 44,
+          "return_CDF_completed_only": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 124,
+          "occupancy_above_upper": 0.1,
+          "first_half_CDF": [
+            0.0,
+            0.09090909090909091,
+            0.5
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.11538461538461539,
+            0.5384615384615384
+          ],
+          "first_half_eligible": 22,
+          "second_half_eligible": 26
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "eligible_windows": 4056,
+          "first_passage_CDF": [
+            0.0,
+            0.08974358974358974,
+            0.5078895463510849
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "reversal_odd_moment": [
+          -1.0121313604844022e-05,
+          -4.9661928693363725e-05,
+          0.0004984519484173319
+        ]
+      },
+      "event_comparison": {
+        "context_thresholds": {
+          "CDF_difference": [
+            0.0,
+            0.020594965675057225,
+            0.1613272311212815
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.13181818181818183,
+              -0.013522128003835296
+            ],
+            [
+              0.0,
+              0.1723652482269502,
+              0.3238582251082248
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.1613272311212815,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic": {
+          "CDF_difference": [
+            0.0,
+            -0.012112403100775188,
+            0.055717054263565935
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.15449274669605356,
+              -0.1220961788970908
+            ],
+            [
+              0.0,
+              0.10871864548494971,
+              0.22260666639103419
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.055717054263565935,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "context_thresholds_all_offsets": {
+          "CDF_difference": [
+            0.0,
+            0.0348175924736676,
+            0.2133361371020362
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              0.012023722377907392,
+              0.13394633920297166
+            ],
+            [
+              0.0,
+              0.057489277627168496,
+              0.2872930300848795
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.2133361371020362,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "CDF_difference": [
+            0.0,
+            -0.023070480608169047,
+            0.09683426996917532
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.05705238116587364,
+              0.019116735346396265
+            ],
+            [
+              0.0,
+              0.009857788825399868,
+              0.16796348682596063
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.09683426996917532,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "reversal_odd_moment_difference": [
+          -7.790681106222695e-05,
+          -0.0010583431788656948,
+          -0.0007435602445520363
+        ],
+        "reversal_odd_descriptive_bootstrap95": [
+          [
+            -0.0009805116089232882,
+            -0.004908539266551898,
+            -0.005781948356569429
+          ],
+          [
+            0.0007914884783714739,
+            0.0024752244996335453,
+            0.004446808607474221
+          ]
+        ]
+      },
+      "global_metrics": {
+        "D_stsp": 4.90423583984375,
+        "D_H": 0.14968140423297882,
+        "MASE_true_denominator": 0.673586368560791,
+        "RMSE10_context_scaled": 0.09025060385465622,
+        "any_degenerate_coordinate": false
+      }
+    },
+    {
+      "condition": "short_native",
+      "system": "chua",
+      "seed": 2023,
+      "origin": 2000,
+      "finite": true,
+      "seconds": 11.304382000002079,
+      "array_file": "short_native_chua_2023.npz",
+      "array_sha256": "042bdc6ab9e64320a6b063a7ab71cd035915c528c45ff378647b2007a867694c",
+      "event_summaries": {
+        "context_thresholds": {
+          "thresholds": [
+            -0.4827692210674286,
+            1.2373820543289185
+          ],
+          "eligible_landmarks": 50,
+          "hit_counts": [
+            0,
+            10,
+            24
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.2,
+            0.48
+          ],
+          "median_upcrossings": 45,
+          "completed_return_intervals": 44,
+          "return_CDF_completed_only": [
+            0.0,
+            0.0,
+            0.022727272727272728
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 219,
+          "occupancy_above_upper": 0.1179,
+          "first_half_CDF": [
+            0.0,
+            0.19230769230769232,
+            0.46153846153846156
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.20833333333333334,
+            0.5
+          ],
+          "first_half_eligible": 26,
+          "second_half_eligible": 24
+        },
+        "context_thresholds_all_offsets": {
+          "eligible_windows": 3517,
+          "first_passage_CDF": [
+            0.0,
+            0.1282342905885698,
+            0.5700881433039522
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "own_rank_diagnostic": {
+          "thresholds": [
+            0.15140298008918762,
+            1.2631012439727785
+          ],
+          "eligible_landmarks": 55,
+          "hit_counts": [
+            0,
+            5,
+            24
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.09090909090909091,
+            0.43636363636363634
+          ],
+          "median_upcrossings": 44,
+          "completed_return_intervals": 43,
+          "return_CDF_completed_only": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 214,
+          "occupancy_above_upper": 0.1,
+          "first_half_CDF": [
+            0.0,
+            0.10714285714285714,
+            0.4642857142857143
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.07407407407407407,
+            0.4074074074074074
+          ],
+          "first_half_eligible": 28,
+          "second_half_eligible": 27
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "eligible_windows": 3865,
+          "first_passage_CDF": [
+            0.0,
+            0.09805950840879689,
+            0.4853816300129366
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "reversal_odd_moment": [
+          0.00013764426641607103,
+          0.0017511634292744732,
+          0.005421561229281318
+        ]
+      },
+      "event_comparison": {
+        "context_thresholds": {
+          "CDF_difference": [
+            0.0,
+            0.06842105263157897,
+            0.0326315789473684
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.057155135057056154,
+              -0.15024749186983233
+            ],
+            [
+              0.0,
+              0.17527326800253515,
+              0.19735727969348632
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.06842105263157897,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic": {
+          "CDF_difference": [
+            0.0,
+            -0.025369978858350947,
+            -0.028752642706131093
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.1668344773187906,
+              -0.20005050505050506
+            ],
+            [
+              0.0,
+              0.09221741221741217,
+              0.133344298245614
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.028752642706131093,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "context_thresholds_all_offsets": {
+          "CDF_difference": [
+            0.0,
+            0.022986736482432837,
+            0.15828855836472894
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.006505921043137801,
+              0.05754549438122929
+            ],
+            [
+              0.0,
+              0.05158007822645502,
+              0.250734570919229
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.15828855836472894,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "CDF_difference": [
+            0.0,
+            -0.014754561942961902,
+            0.07432635363102708
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.05955074146756098,
+              -0.01916075472141313
+            ],
+            [
+              0.0,
+              0.02600605870048901,
+              0.15927776604144098
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.07432635363102708,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "reversal_odd_moment_difference": [
+          6.98587689586881e-05,
+          0.000742482179102142,
+          0.004179549036311949
+        ],
+        "reversal_odd_descriptive_bootstrap95": [
+          [
+            -0.0008360435605899257,
+            -0.002922086431244428,
+            -0.0005179501901398768
+          ],
+          [
+            0.0009537803695516099,
+            0.004441327864012524,
+            0.008841235888862568
+          ]
+        ]
+      },
+      "global_metrics": {
+        "D_stsp": 4.67252779006958,
+        "D_H": 0.14824722707271576,
+        "MASE_true_denominator": 0.703950822353363,
+        "RMSE10_context_scaled": 0.08469424396753311,
+        "any_degenerate_coordinate": false
+      }
+    },
+    {
+      "condition": "long_fixed_short_coordinates",
+      "system": "chua",
+      "seed": 2021,
+      "origin": 2000,
+      "finite": true,
+      "seconds": 12.24922910000896,
+      "array_file": "long_fixed_short_coordinates_chua_2021.npz",
+      "array_sha256": "445f871b3d1eb4642c17187f2a0d74f6a1ff0f752e4751710c1f8935f8fb80ec",
+      "event_summaries": {
+        "context_thresholds": {
+          "thresholds": [
+            -0.4827692210674286,
+            1.2373820543289185
+          ],
+          "eligible_landmarks": 46,
+          "hit_counts": [
+            0,
+            2,
+            28
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.043478260869565216,
+            0.6086956521739131
+          ],
+          "median_upcrossings": 52,
+          "completed_return_intervals": 51,
+          "return_CDF_completed_only": [
+            0.0,
+            0.058823529411764705,
+            0.17647058823529413
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 52,
+          "occupancy_above_upper": 0.1213,
+          "first_half_CDF": [
+            0.0,
+            0.08333333333333333,
+            0.5833333333333334
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.0,
+            0.6363636363636364
+          ],
+          "first_half_eligible": 24,
+          "second_half_eligible": 22
+        },
+        "context_thresholds_all_offsets": {
+          "eligible_windows": 3383,
+          "first_passage_CDF": [
+            0.0,
+            0.10966597694354123,
+            0.5220218740762637
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "own_rank_diagnostic": {
+          "thresholds": [
+            0.1263342648744583,
+            1.2686203479766847
+          ],
+          "eligible_landmarks": 48,
+          "hit_counts": [
+            0,
+            3,
+            24
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.0625,
+            0.5
+          ],
+          "median_upcrossings": 52,
+          "completed_return_intervals": 51,
+          "return_CDF_completed_only": [
+            0.0,
+            0.0,
+            0.1568627450980392
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 48,
+          "occupancy_above_upper": 0.1,
+          "first_half_CDF": [
+            0.0,
+            0.08,
+            0.48
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.043478260869565216,
+            0.5217391304347826
+          ],
+          "first_half_eligible": 25,
+          "second_half_eligible": 23
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "eligible_windows": 3803,
+          "first_passage_CDF": [
+            0.0,
+            0.09781751249013937,
+            0.4672626873520905
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "reversal_odd_moment": [
+          -2.717540870760492e-05,
+          0.00045493475486867526,
+          0.0029454963483676808
+        ]
+      },
+      "event_comparison": {
+        "context_thresholds": {
+          "CDF_difference": [
+            0.0,
+            -0.08810068649885583,
+            0.1613272311212815
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.20175572845417236,
+              -0.0389239926739927
+            ],
+            [
+              0.0,
+              0.015545278521202266,
+              0.35941941704310715
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.1613272311212815,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic": {
+          "CDF_difference": [
+            0.0,
+            -0.05377906976744186,
+            0.034883720930232565
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.20043231785467813,
+              -0.15500294568163075
+            ],
+            [
+              0.0,
+              0.0652244200177758,
+              0.2133107663797225
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.05377906976744186,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "context_thresholds_all_offsets": {
+          "CDF_difference": [
+            0.0,
+            0.004418422837404262,
+            0.11022228913704041
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.021386322088866344,
+              0.018998609466240234
+            ],
+            [
+              0.0,
+              0.03140302628528764,
+              0.19751786107414088
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.11022228913704041,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "CDF_difference": [
+            0.0,
+            -0.014996557861619422,
+            0.05620741097018095
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.051501071545797465,
+              -0.027857121396700907
+            ],
+            [
+              0.0,
+              0.019205185957340234,
+              0.13642133948359358
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.05620741097018095,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "reversal_odd_moment_difference": [
+          -9.496090616498785e-05,
+          -0.0005537464953036559,
+          0.0017034841553983126
+        ],
+        "reversal_odd_descriptive_bootstrap95": [
+          [
+            -0.001095408526231115,
+            -0.00481724641006035,
+            -0.0035098612108387514
+          ],
+          [
+            0.0008036202076307598,
+            0.0032086398510907284,
+            0.007211217570914443
+          ]
+        ]
+      },
+      "global_metrics": {
+        "D_stsp": 2.889011859893799,
+        "D_H": 0.1107550859451294,
+        "MASE_true_denominator": 0.9038019180297852,
+        "RMSE10_context_scaled": 0.11497055739164352,
+        "any_degenerate_coordinate": false
+      }
+    },
+    {
+      "condition": "long_fixed_short_coordinates",
+      "system": "chua",
+      "seed": 2022,
+      "origin": 2000,
+      "finite": true,
+      "seconds": 12.265665200000512,
+      "array_file": "long_fixed_short_coordinates_chua_2022.npz",
+      "array_sha256": "eb47b468c870d75769843fdf49cd00dd247714846ffebc52a2337714ef6d1813",
+      "event_summaries": {
+        "context_thresholds": {
+          "thresholds": [
+            -0.4827692210674286,
+            1.2373820543289185
+          ],
+          "eligible_landmarks": 43,
+          "hit_counts": [
+            0,
+            9,
+            26
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.20930232558139536,
+            0.6046511627906976
+          ],
+          "median_upcrossings": 54,
+          "completed_return_intervals": 53,
+          "return_CDF_completed_only": [
+            0.0,
+            0.1509433962264151,
+            0.24528301886792453
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 186,
+          "occupancy_above_upper": 0.1251,
+          "first_half_CDF": [
+            0.0,
+            0.20833333333333334,
+            0.6666666666666666
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.21052631578947367,
+            0.5263157894736842
+          ],
+          "first_half_eligible": 24,
+          "second_half_eligible": 19
+        },
+        "context_thresholds_all_offsets": {
+          "eligible_windows": 3290,
+          "first_passage_CDF": [
+            0.0,
+            0.14103343465045592,
+            0.5957446808510638
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "own_rank_diagnostic": {
+          "thresholds": [
+            0.34578877687454224,
+            1.2709668159484864
+          ],
+          "eligible_landmarks": 48,
+          "hit_counts": [
+            0,
+            4,
+            24
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.08333333333333333,
+            0.5
+          ],
+          "median_upcrossings": 47,
+          "completed_return_intervals": 46,
+          "return_CDF_completed_only": [
+            0.0,
+            0.0,
+            0.021739130434782608
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 179,
+          "occupancy_above_upper": 0.1,
+          "first_half_CDF": [
+            0.0,
+            0.08333333333333333,
+            0.625
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.08333333333333333,
+            0.375
+          ],
+          "first_half_eligible": 24,
+          "second_half_eligible": 24
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "eligible_windows": 3889,
+          "first_passage_CDF": [
+            0.00025713551041398817,
+            0.10979686294677295,
+            0.5047570069426588
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "reversal_odd_moment": [
+          4.752942290483789e-05,
+          9.638917300880975e-05,
+          0.0010479517433091415
+        ]
+      },
+      "event_comparison": {
+        "context_thresholds": {
+          "CDF_difference": [
+            0.0,
+            0.07772337821297431,
+            0.15728274173806606
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.0701737451737452,
+              -0.03612296747967489
+            ],
+            [
+              0.0,
+              0.22748590930058213,
+              0.34337697620286317
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.15728274173806606,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic": {
+          "CDF_difference": [
+            0.0,
+            -0.03294573643410853,
+            0.034883720930232565
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.18410287336278386,
+              -0.15217801167289655
+            ],
+            [
+              0.0,
+              0.085965318977514,
+              0.22674772237054452
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.034883720930232565,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "context_thresholds_all_offsets": {
+          "CDF_difference": [
+            0.0,
+            0.03578588054431896,
+            0.18394509591184055
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              0.009229045506383328,
+              0.09047571077124619
+            ],
+            [
+              0.0,
+              0.061854599518140235,
+              0.2732601675335212
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.18394509591184055,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "CDF_difference": [
+            0.00025713551041398817,
+            -0.0030172074049858444,
+            0.09370173056074926
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.04124486838114603,
+              0.005168037754304084
+            ],
+            [
+              0.0007917917924201411,
+              0.0360733217517387,
+              0.18368320790042242
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.09370173056074926,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "reversal_odd_moment_difference": [
+          -2.0256074552545043e-05,
+          -0.0009122920771635214,
+          -0.0001940604496602266
+        ],
+        "reversal_odd_descriptive_bootstrap95": [
+          [
+            -0.0009651512958097041,
+            -0.004726723722189594,
+            -0.005421277789726925
+          ],
+          [
+            0.0009238427012535145,
+            0.0029180817484549372,
+            0.004759621573390293
+          ]
+        ]
+      },
+      "global_metrics": {
+        "D_stsp": 2.8806848526000977,
+        "D_H": 0.10664408653974533,
+        "MASE_true_denominator": 0.6984062790870667,
+        "RMSE10_context_scaled": 0.0872793048620224,
+        "any_degenerate_coordinate": false
+      }
+    },
+    {
+      "condition": "long_fixed_short_coordinates",
+      "system": "chua",
+      "seed": 2023,
+      "origin": 2000,
+      "finite": true,
+      "seconds": 12.299351900001056,
+      "array_file": "long_fixed_short_coordinates_chua_2023.npz",
+      "array_sha256": "1dc55a71bc6d7766a133b9c80fdda00a06aeb08deac24bac1baf85f281cfc2b1",
+      "event_summaries": {
+        "context_thresholds": {
+          "thresholds": [
+            -0.4827692210674286,
+            1.2373820543289185
+          ],
+          "eligible_landmarks": 52,
+          "hit_counts": [
+            0,
+            8,
+            30
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.15384615384615385,
+            0.5769230769230769
+          ],
+          "median_upcrossings": 57,
+          "completed_return_intervals": 56,
+          "return_CDF_completed_only": [
+            0.0,
+            0.14285714285714285,
+            0.23214285714285715
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 43,
+          "occupancy_above_upper": 0.1197,
+          "first_half_CDF": [
+            0.0,
+            0.2222222222222222,
+            0.5185185185185185
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.08,
+            0.64
+          ],
+          "first_half_eligible": 27,
+          "second_half_eligible": 25
+        },
+        "context_thresholds_all_offsets": {
+          "eligible_windows": 3483,
+          "first_passage_CDF": [
+            0.0,
+            0.12144702842377261,
+            0.5572782084409992
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "own_rank_diagnostic": {
+          "thresholds": [
+            0.08541419357061386,
+            1.2684198141098022
+          ],
+          "eligible_landmarks": 55,
+          "hit_counts": [
+            0,
+            6,
+            28
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.10909090909090909,
+            0.509090909090909
+          ],
+          "median_upcrossings": 48,
+          "completed_return_intervals": 47,
+          "return_CDF_completed_only": [
+            0.0,
+            0.0,
+            0.0851063829787234
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 38,
+          "occupancy_above_upper": 0.1,
+          "first_half_CDF": [
+            0.0,
+            0.14285714285714285,
+            0.5357142857142857
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.07407407407407407,
+            0.48148148148148145
+          ],
+          "first_half_eligible": 28,
+          "second_half_eligible": 27
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "eligible_windows": 3891,
+          "first_passage_CDF": [
+            0.0,
+            0.09611924955024416,
+            0.4723721408378309
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "reversal_odd_moment": [
+          -4.566506774100357e-05,
+          0.0004274085945905821,
+          0.003773491820179823
+        ]
+      },
+      "event_comparison": {
+        "context_thresholds": {
+          "CDF_difference": [
+            0.0,
+            0.02226720647773281,
+            0.1295546558704453
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.12178436147186147,
+              -0.05319717221312968
+            ],
+            [
+              0.0,
+              0.1549407196338745,
+              0.30230614973262016
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.1295546558704453,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic": {
+          "CDF_difference": [
+            0.0,
+            -0.007188160676532773,
+            0.0439746300211416
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.14829420238201316,
+              -0.1357053574687055
+            ],
+            [
+              0.0,
+              0.11117185309784099,
+              0.22169746205633964
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.0439746300211416,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "context_thresholds_all_offsets": {
+          "CDF_difference": [
+            0.0,
+            0.016199474317635645,
+            0.14547862350177593
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.017448057711606957,
+              0.050973215198101884
+            ],
+            [
+              0.0,
+              0.046775300559956594,
+              0.23311802045362515
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.14547862350177593,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "CDF_difference": [
+            0.0,
+            -0.01669482080151463,
+            0.06131686445592138
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.056983475694792805,
+              -0.024843849206048735
+            ],
+            [
+              0.0,
+              0.022231338020868314,
+              0.14066429433689537
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.06131686445592138,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "reversal_odd_moment_difference": [
+          -0.00011345056519838651,
+          -0.0005812726555817491,
+          0.0025314796272104547
+        ],
+        "reversal_odd_descriptive_bootstrap95": [
+          [
+            -0.0010223204463605743,
+            -0.004401261037975567,
+            -0.0026623955979846008
+          ],
+          [
+            0.0007822014675252495,
+            0.003174849088565474,
+            0.0076300225071030655
+          ]
+        ]
+      },
+      "global_metrics": {
+        "D_stsp": 2.9524295330047607,
+        "D_H": 0.11914506554603577,
+        "MASE_true_denominator": 0.732614278793335,
+        "RMSE10_context_scaled": 0.08869743347167969,
+        "any_degenerate_coordinate": false
+      }
+    },
+    {
+      "condition": "long_native_coordinates",
+      "system": "chua",
+      "seed": 2021,
+      "origin": 2000,
+      "finite": true,
+      "seconds": 12.240852799994173,
+      "array_file": "long_native_coordinates_chua_2021.npz",
+      "array_sha256": "62b52653a0206555860fb0465105b8f41f5b4026ab024c3aed51254f148937b4",
+      "event_summaries": {
+        "context_thresholds": {
+          "thresholds": [
+            -0.4827692210674286,
+            1.2373820543289185
+          ],
+          "eligible_landmarks": 44,
+          "hit_counts": [
+            0,
+            9,
+            28
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.20454545454545456,
+            0.6363636363636364
+          ],
+          "median_upcrossings": 51,
+          "completed_return_intervals": 50,
+          "return_CDF_completed_only": [
+            0.0,
+            0.12,
+            0.14
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 180,
+          "occupancy_above_upper": 0.1243,
+          "first_half_CDF": [
+            0.0,
+            0.22727272727272727,
+            0.6818181818181818
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.18181818181818182,
+            0.5909090909090909
+          ],
+          "first_half_eligible": 22,
+          "second_half_eligible": 22
+        },
+        "context_thresholds_all_offsets": {
+          "eligible_windows": 3344,
+          "first_passage_CDF": [
+            0.0,
+            0.1444377990430622,
+            0.6115430622009569
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "own_rank_diagnostic": {
+          "thresholds": [
+            0.29240095615386963,
+            1.2709526896476746
+          ],
+          "eligible_landmarks": 51,
+          "hit_counts": [
+            0,
+            6,
+            23
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.11764705882352941,
+            0.45098039215686275
+          ],
+          "median_upcrossings": 46,
+          "completed_return_intervals": 45,
+          "return_CDF_completed_only": [
+            0.0,
+            0.0,
+            0.022222222222222223
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 174,
+          "occupancy_above_upper": 0.1,
+          "first_half_CDF": [
+            0.0,
+            0.11538461538461539,
+            0.5384615384615384
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.12,
+            0.36
+          ],
+          "first_half_eligible": 26,
+          "second_half_eligible": 25
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "eligible_windows": 3817,
+          "first_passage_CDF": [
+            0.0,
+            0.09641079381713387,
+            0.48650772858265656
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "reversal_odd_moment": [
+          4.828627902961007e-05,
+          0.0015498908426054563,
+          0.006424882139197179
+        ]
+      },
+      "event_comparison": {
+        "context_thresholds": {
+          "CDF_difference": [
+            0.0,
+            0.07296650717703351,
+            0.18899521531100477
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.06465559853857726,
+              -0.001282264061961477
+            ],
+            [
+              0.0,
+              0.19976744186046508,
+              0.36716221839777674
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.18899521531100477,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic": {
+          "CDF_difference": [
+            0.0,
+            0.0013679890560875513,
+            -0.014135886912904683
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.15170683630790013,
+              -0.18291476314530944
+            ],
+            [
+              0.0,
+              0.14809840425531903,
+              0.14578441987113203
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.014135886912904683,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "context_thresholds_all_offsets": {
+          "CDF_difference": [
+            0.0,
+            0.03919024493692523,
+            0.19974347726173364
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              0.009673692715019657,
+              0.11883810175998803
+            ],
+            [
+              0.0,
+              0.06973208964440283,
+              0.2822159044544905
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.19974347726173364,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "CDF_difference": [
+            0.0,
+            -0.016403276534624922,
+            0.07545245220074703
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.05716691025965935,
+              -0.010534643500700939
+            ],
+            [
+              0.0,
+              0.02462928230937613,
+              0.15668441637894634
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.07545245220074703,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "reversal_odd_moment_difference": [
+          -1.9499218427772862e-05,
+          0.0005412095924331251,
+          0.005182869946227811
+        ],
+        "reversal_odd_descriptive_bootstrap95": [
+          [
+            -0.0009542845617851975,
+            -0.0035918712355157783,
+            -0.00024759279166602514
+          ],
+          [
+            0.000875475604712703,
+            0.004543671876158943,
+            0.010790186862305139
+          ]
+        ]
+      },
+      "global_metrics": {
+        "D_stsp": 3.0678045749664307,
+        "D_H": 0.13143330812454224,
+        "MASE_true_denominator": 0.8698079586029053,
+        "RMSE10_context_scaled": 0.11054044961929321,
+        "any_degenerate_coordinate": false
+      }
+    },
+    {
+      "condition": "long_native_coordinates",
+      "system": "chua",
+      "seed": 2022,
+      "origin": 2000,
+      "finite": true,
+      "seconds": 12.239559599998756,
+      "array_file": "long_native_coordinates_chua_2022.npz",
+      "array_sha256": "c33d9f37cb1576714fb7e615bcb8e42f3d4a4344a59dfae84aaa2df76e88c7c2",
+      "event_summaries": {
+        "context_thresholds": {
+          "thresholds": [
+            -0.4827692210674286,
+            1.2373820543289185
+          ],
+          "eligible_landmarks": 44,
+          "hit_counts": [
+            0,
+            7,
+            30
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.1590909090909091,
+            0.6818181818181818
+          ],
+          "median_upcrossings": 54,
+          "completed_return_intervals": 53,
+          "return_CDF_completed_only": [
+            0.0,
+            0.1320754716981132,
+            0.20754716981132076
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 84,
+          "occupancy_above_upper": 0.1258,
+          "first_half_CDF": [
+            0.0,
+            0.16666666666666666,
+            0.6666666666666666
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.15,
+            0.7
+          ],
+          "first_half_eligible": 24,
+          "second_half_eligible": 20
+        },
+        "context_thresholds_all_offsets": {
+          "eligible_windows": 3290,
+          "first_passage_CDF": [
+            0.0,
+            0.13617021276595745,
+            0.621580547112462
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "own_rank_diagnostic": {
+          "thresholds": [
+            0.3622983694076538,
+            1.2733393788337708
+          ],
+          "eligible_landmarks": 45,
+          "hit_counts": [
+            0,
+            4,
+            25
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.08888888888888889,
+            0.5555555555555556
+          ],
+          "median_upcrossings": 50,
+          "completed_return_intervals": 49,
+          "return_CDF_completed_only": [
+            0.0,
+            0.0,
+            0.10204081632653061
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 78,
+          "occupancy_above_upper": 0.1,
+          "first_half_CDF": [
+            0.0,
+            0.041666666666666664,
+            0.5416666666666666
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.14285714285714285,
+            0.5714285714285714
+          ],
+          "first_half_eligible": 24,
+          "second_half_eligible": 21
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "eligible_windows": 3911,
+          "first_passage_CDF": [
+            0.0017898235745333673,
+            0.10483252365124009,
+            0.510355407824086
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "reversal_odd_moment": [
+          -5.2081498892139655e-05,
+          -0.0005702432750938091,
+          -0.00047456727359535884
+        ]
+      },
+      "event_comparison": {
+        "context_thresholds": {
+          "CDF_difference": [
+            0.0,
+            0.027511961722488043,
+            0.23444976076555019
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.11517970401691333,
+              0.04977857335489756
+            ],
+            [
+              0.0,
+              0.17274242424242414,
+              0.4046764536752021
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.23444976076555019,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic": {
+          "CDF_difference": [
+            0.0,
+            -0.027390180878552967,
+            0.09043927648578814
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.18152915019762847,
+              -0.11331839548378393
+            ],
+            [
+              0.0,
+              0.10134642225359883,
+              0.2666666666666666
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.09043927648578814,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "context_thresholds_all_offsets": {
+          "CDF_difference": [
+            0.0,
+            0.03092265865982048,
+            0.20978096217323877
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              0.002824358743006208,
+              0.1151661706681286
+            ],
+            [
+              0.0,
+              0.0578698420917553,
+              0.2989249684715019
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.20978096217323877,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "CDF_difference": [
+            0.0017898235745333673,
+            -0.007981546700518705,
+            0.09930013144217642
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.00048672164319569323,
+              -0.051749117923702674,
+              0.012895954358254946
+            ],
+            [
+              0.0035225922970706664,
+              0.032276141016835506,
+              0.18164195215886236
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.09930013144217642,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "reversal_odd_moment_difference": [
+          -0.00011986699634952259,
+          -0.0015789245252661403,
+          -0.001716579466564727
+        ],
+        "reversal_odd_descriptive_bootstrap95": [
+          [
+            -0.0010784295722418773,
+            -0.005687573127545233,
+            -0.006933162205108319
+          ],
+          [
+            0.0007935473346177023,
+            0.002331053408720554,
+            0.0032863196979428496
+          ]
+        ]
+      },
+      "global_metrics": {
+        "D_stsp": 2.778851270675659,
+        "D_H": 0.10998595505952835,
+        "MASE_true_denominator": 0.6473433971405029,
+        "RMSE10_context_scaled": 0.07967864722013474,
+        "any_degenerate_coordinate": false
+      }
+    },
+    {
+      "condition": "long_native_coordinates",
+      "system": "chua",
+      "seed": 2023,
+      "origin": 2000,
+      "finite": true,
+      "seconds": 12.23121810000157,
+      "array_file": "long_native_coordinates_chua_2023.npz",
+      "array_sha256": "5c38b5b548bd8a8ecd2f34f1eefa237434f60d3203c7f40205848cd6a30c17f7",
+      "event_summaries": {
+        "context_thresholds": {
+          "thresholds": [
+            -0.4827692210674286,
+            1.2373820543289185
+          ],
+          "eligible_landmarks": 42,
+          "hit_counts": [
+            0,
+            5,
+            27
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.11904761904761904,
+            0.6428571428571429
+          ],
+          "median_upcrossings": 55,
+          "completed_return_intervals": 54,
+          "return_CDF_completed_only": [
+            0.0,
+            0.18518518518518517,
+            0.2222222222222222
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 256,
+          "occupancy_above_upper": 0.1248,
+          "first_half_CDF": [
+            0.0,
+            0.18181818181818182,
+            0.6363636363636364
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.05,
+            0.65
+          ],
+          "first_half_eligible": 22,
+          "second_half_eligible": 20
+        },
+        "context_thresholds_all_offsets": {
+          "eligible_windows": 3323,
+          "first_passage_CDF": [
+            0.0,
+            0.1429431236834186,
+            0.6418898585615408
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "own_rank_diagnostic": {
+          "thresholds": [
+            0.37001343071460724,
+            1.2730769753456117
+          ],
+          "eligible_landmarks": 51,
+          "hit_counts": [
+            0,
+            5,
+            28
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.09803921568627451,
+            0.5490196078431373
+          ],
+          "median_upcrossings": 47,
+          "completed_return_intervals": 46,
+          "return_CDF_completed_only": [
+            0.0,
+            0.0,
+            0.021739130434782608
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 122,
+          "occupancy_above_upper": 0.1,
+          "first_half_CDF": [
+            0.0,
+            0.1111111111111111,
+            0.48148148148148145
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.08333333333333333,
+            0.625
+          ],
+          "first_half_eligible": 27,
+          "second_half_eligible": 24
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "eligible_windows": 3912,
+          "first_passage_CDF": [
+            0.0,
+            0.11068507157464212,
+            0.5184049079754601
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "reversal_odd_moment": [
+          4.968836531221388e-05,
+          0.0006966776326750606,
+          0.003542947570446902
+        ]
+      },
+      "event_comparison": {
+        "context_thresholds": {
+          "CDF_difference": [
+            0.0,
+            -0.012531328320802004,
+            0.19548872180451132
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.17017379679144384,
+              -0.011974226600865692
+            ],
+            [
+              0.0,
+              0.13919365721997293,
+              0.39359299516908214
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.19548872180451132,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic": {
+          "CDF_difference": [
+            0.0,
+            -0.01823985408116735,
+            0.08390332877336987
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.16481954090313225,
+              -0.11540616246498597
+            ],
+            [
+              0.0,
+              0.10061412003825919,
+              0.27536231884057966
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.08390332877336987,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "context_thresholds_all_offsets": {
+          "CDF_difference": [
+            0.0,
+            0.03769556957728164,
+            0.23009027362231754
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              0.011481375996217326,
+              0.14041347098839063
+            ],
+            [
+              0.0,
+              0.0629936513295659,
+              0.31822855593869787
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.23009027362231754,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "CDF_difference": [
+            0.0,
+            -0.0021289987771166696,
+            0.1073496315935506
+          ],
+          "descriptive_bootstrap95": [
+            [
+              0.0,
+              -0.046021298708826354,
+              0.011723292758493637
+            ],
+            [
+              0.0,
+              0.0368076108130654,
+              0.19836619558882118
+            ]
+          ],
+          "max_absolute_CDF_difference": 0.1073496315935506,
+          "bootstrap_replicates_with_zero_eligible_count": 0
+        },
+        "reversal_odd_moment_difference": [
+          -1.8097132145169054e-05,
+          -0.0003120036174972706,
+          0.0023009353774775337
+        ],
+        "reversal_odd_descriptive_bootstrap95": [
+          [
+            -0.0010036468928932025,
+            -0.004603065676110051,
+            -0.0033928828174032205
+          ],
+          [
+            0.000939708595056167,
+            0.0037500155686816844,
+            0.007859566299306144
+          ]
+        ]
+      },
+      "global_metrics": {
+        "D_stsp": 2.8350577354431152,
+        "D_H": 0.11056838184595108,
+        "MASE_true_denominator": 0.7157854437828064,
+        "RMSE10_context_scaled": 0.08620944619178772,
+        "any_degenerate_coordinate": false
+      }
+    }
+  ],
+  "short_fixed_coordinate_equivalence64_error": 0.0,
+  "source_revision": "39cc55514a4c5a0c50534c092fd9c3d40abdabc8",
+  "checkpoint_sha256": "c950aef03f24e600bb159a05bf64aaea0fc89a6c66310baac624ac4b7e10ed5b",
+  "source_files_unchanged": 22,
+  "elapsed_seconds": 143.69829629999003,
+  "script_sha256": "35180134a9040bdcff49b1430f39660bd71b97a2b64cc93a1a8674185a4411b5",
+  "attribution_plan_sha256": "20f258f239b415ad59a9456546ddfc9f99cc1f007555bc7e1cd14ebe5f5a5c0c",
+  "event_helper_sha256": "dd88afd885ed412c92cd4061bca618bde528c50f5f1279448001587f94841ad6",
+  "environment": {
+    "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "torch": "2.11.0+cu128",
+    "device": "cpu"
+  },
+  "scope": "Exploratory fixed controls on an already inspected released fixture; not independent confirmation, new training or a new method.",
+  "unavailable_stat_reason": "Null means nonfinite/empty conditional cohort, never imputed as zero.",
+  "accepted_novel_directions": 0,
+  "objective_achieved": false
+}

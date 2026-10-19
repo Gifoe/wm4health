@@ -1,0 +1,391 @@
+{
+  "prediction_hashes": 60,
+  "model_fits": 18,
+  "stage_checkpoint_hashes": 27,
+  "metrics_recomputed": 3416,
+  "metric_absolute_max_error": 9.631318834724123e-05,
+  "metric_relative_max_error": 9.631318834724123e-05,
+  "first128_checkpoint_replay_max_error": 0.0,
+  "original_dtype_arithmetic_max_error": 0.0,
+  "float64_aggregation_correction_file": "precision_corrected_results.json",
+  "float64_aggregation_sha256": "2f40585189a974c4b4237871a8fa5e5c5f71102f7cbd93486f7f3990d1a9bc5e",
+  "worst_float32_reduction_discrepancy": {
+    "split": "wave_matched",
+    "method": "worldts4",
+    "seed": 2021,
+    "field": "channel_MSE",
+    "relative_difference": 9.631318834724123e-05
+  },
+  "full_validation_forecast_MSE_max_error": 1.1289849222162474e-08,
+  "independent_latent_equation_max_error": 1.430511474609375e-06,
+  "ridge_normal_equation_max_residual": 1.830458527807277e-15,
+  "ridge_validation_MSE_error": 0.0,
+  "all_selection_precedes_test": true,
+  "frozen_stage1_states_unchanged_through_decoder_training": true,
+  "checks": [
+    {
+      "split": "test",
+      "method": "persistence",
+      "seed": null,
+      "prediction_sha256": "3fb17010ca4f274b6626051283e14e4b0b4c43a3bb13766ff68f6c1c6b2f050b"
+    },
+    {
+      "split": "test",
+      "method": "ridge_arx",
+      "seed": null,
+      "prediction_sha256": "4a06a869007095e71cd56122887903571cf744961c6865e5246c92f7eef657ec"
+    },
+    {
+      "split": "test",
+      "method": "worldts32",
+      "seed": 2021,
+      "prediction_sha256": "7c52a0c7b88a1f11bcb19d57427cb73ab4ddb71346040a9a5cb4788ab7c2e3e6"
+    },
+    {
+      "split": "test",
+      "method": "worldts32",
+      "seed": 2022,
+      "prediction_sha256": "abd858cb89b702c8f96c39c4faa304e5036f1e6500788b692a59422d5652c8a7"
+    },
+    {
+      "split": "test",
+      "method": "worldts32",
+      "seed": 2023,
+      "prediction_sha256": "18ceef2b6b74db2bc07006dacf4887e610645d407dc400ea7856affda4c2ef20"
+    },
+    {
+      "split": "test",
+      "method": "worldts4",
+      "seed": 2021,
+      "prediction_sha256": "19c79095677a3ff010d32e567a04897f273a87b425bb0c25eb55657fc13bcfff"
+    },
+    {
+      "split": "test",
+      "method": "worldts4",
+      "seed": 2022,
+      "prediction_sha256": "71fd4477b5700b29722709da6d1915553fdeaa62d0c22c0c6d3fd39a0925e042"
+    },
+    {
+      "split": "test",
+      "method": "worldts4",
+      "seed": 2023,
+      "prediction_sha256": "e29cd87b7847d23188dad4b0b4674673191c54726cb45b604fb3abd23c657fc6"
+    },
+    {
+      "split": "test",
+      "method": "worldts4_fixed",
+      "seed": 2021,
+      "prediction_sha256": "b9dfdd288c136a89524335efb08821ebb9664ea5615055037eff350c0b937970"
+    },
+    {
+      "split": "test",
+      "method": "worldts4_fixed",
+      "seed": 2022,
+      "prediction_sha256": "ffb862ec632f656dc94f05eece018c615f830eeb4caa8969a0f5faad1cbb3c60"
+    },
+    {
+      "split": "test",
+      "method": "worldts4_fixed",
+      "seed": 2023,
+      "prediction_sha256": "324a7c9ae7775e7de1d31b2a39cf9ff370a1d19cd16fe8fd93a9101afeba226d"
+    },
+    {
+      "split": "test",
+      "method": "worldts32_endtoend",
+      "seed": 2021,
+      "prediction_sha256": "835c683e84e94814b0cc3c4c8cc3cf51772a7eaed954ef894f4639f040a21571"
+    },
+    {
+      "split": "test",
+      "method": "worldts32_endtoend",
+      "seed": 2022,
+      "prediction_sha256": "8c5a84372be2e07d7cf2f31cace6487fd1e1c10d731a09b2ba67e1ffc71efa4e"
+    },
+    {
+      "split": "test",
+      "method": "worldts32_endtoend",
+      "seed": 2023,
+      "prediction_sha256": "691a02ee0ccf6cc4b59a94a946b3878cc1a20d9af55590d296c1bd100c6d0aa3"
+    },
+    {
+      "split": "test",
+      "method": "gru64",
+      "seed": 2021,
+      "prediction_sha256": "1232cc485b42fa863c570c69a235a9cbf2013cdc1d98bbe7992108071362c679"
+    },
+    {
+      "split": "test",
+      "method": "gru64",
+      "seed": 2022,
+      "prediction_sha256": "f9eca9409adadb444be089787764170a5121f22c858e5f8c73a5c036b75792f9"
+    },
+    {
+      "split": "test",
+      "method": "gru64",
+      "seed": 2023,
+      "prediction_sha256": "9db7810e59ba3923c2a645e66f0a928ea4a9fd6130ab4136beb50fb75cd2b278"
+    },
+    {
+      "split": "test",
+      "method": "mlp128",
+      "seed": 2021,
+      "prediction_sha256": "ad89dd1b780f0c9b0d24cf40bd0343268c714f1a690b1e59beebd5de5e059659"
+    },
+    {
+      "split": "test",
+      "method": "mlp128",
+      "seed": 2022,
+      "prediction_sha256": "38921435f8e5b97227076e6ea8b6e8d1c3c6b1ac4a2a87b296d5bc8dcdf6bf80"
+    },
+    {
+      "split": "test",
+      "method": "mlp128",
+      "seed": 2023,
+      "prediction_sha256": "81a587be751a72f5ec894baab5d650b4e72850f854fc3ce966050729fc06d409"
+    },
+    {
+      "split": "wave_matched",
+      "method": "persistence",
+      "seed": null,
+      "prediction_sha256": "89674b08c04a189fac55082ea4e2751944e1bebe3218b1d9c097abde31919a83"
+    },
+    {
+      "split": "wave_matched",
+      "method": "ridge_arx",
+      "seed": null,
+      "prediction_sha256": "874c4d3fdc1a3dcded80505c25bb844052c8d65c437c27957e233618aa87377f"
+    },
+    {
+      "split": "wave_matched",
+      "method": "worldts32",
+      "seed": 2021,
+      "prediction_sha256": "769aa35db3960c73eed5c3324e4c98d87b07e5f8f57386d34e5364ebd61db09f"
+    },
+    {
+      "split": "wave_matched",
+      "method": "worldts32",
+      "seed": 2022,
+      "prediction_sha256": "dd24abb703e59906c28b873d1d73d5a47c516149e1f84f85e866d985fa991837"
+    },
+    {
+      "split": "wave_matched",
+      "method": "worldts32",
+      "seed": 2023,
+      "prediction_sha256": "11ad705aca3437252420945608198f61bf265f8298ee0ef763604de712bc6eb0"
+    },
+    {
+      "split": "wave_matched",
+      "method": "worldts4",
+      "seed": 2021,
+      "prediction_sha256": "d7993672933628a9a1b3259a7a212eac6595af38df32e3e87806ce2c4d30d6c6"
+    },
+    {
+      "split": "wave_matched",
+      "method": "worldts4",
+      "seed": 2022,
+      "prediction_sha256": "aa996ff3c9d4ceff5c24906255079af93b184d526991e04c683734647d27f1be"
+    },
+    {
+      "split": "wave_matched",
+      "method": "worldts4",
+      "seed": 2023,
+      "prediction_sha256": "7ebd828ed9512caaf40e3084bc3cf05aa1a3594d04b87ba9e50b389bc05a96f0"
+    },
+    {
+      "split": "wave_matched",
+      "method": "worldts4_fixed",
+      "seed": 2021,
+      "prediction_sha256": "2fc3dde39e5107ad902f3ecfeb527232148484375c0ba3326551b63fcef28569"
+    },
+    {
+      "split": "wave_matched",
+      "method": "worldts4_fixed",
+      "seed": 2022,
+      "prediction_sha256": "90ac6cd40e3aa932eb70d513902f1d2031035413fc4c7dc625e83e2d79916678"
+    },
+    {
+      "split": "wave_matched",
+      "method": "worldts4_fixed",
+      "seed": 2023,
+      "prediction_sha256": "730ac789ac449a9ab95e9b8149446882ad31cd12341eea6f8dc0c357dfb2df77"
+    },
+    {
+      "split": "wave_matched",
+      "method": "worldts32_endtoend",
+      "seed": 2021,
+      "prediction_sha256": "d58658907ed58ae125b298cbd6c9afa34bf155f67887bce9844e823a351bb3c3"
+    },
+    {
+      "split": "wave_matched",
+      "method": "worldts32_endtoend",
+      "seed": 2022,
+      "prediction_sha256": "ca23d7295edfdbef05220c1b86605810609f97c60657821331a9232dacc27f99"
+    },
+    {
+      "split": "wave_matched",
+      "method": "worldts32_endtoend",
+      "seed": 2023,
+      "prediction_sha256": "025097a1724b62e157e55a1eaf1988a2b1f2927d797c275238234dfeb915d459"
+    },
+    {
+      "split": "wave_matched",
+      "method": "gru64",
+      "seed": 2021,
+      "prediction_sha256": "0a6fdc995f13ff49da115544ab55131153b652fbecf355c794373babcd281cff"
+    },
+    {
+      "split": "wave_matched",
+      "method": "gru64",
+      "seed": 2022,
+      "prediction_sha256": "3b9a0d08b4d4ed15da20b72570352913a24148debc4ffcfcb519fa1d3f756dc5"
+    },
+    {
+      "split": "wave_matched",
+      "method": "gru64",
+      "seed": 2023,
+      "prediction_sha256": "90c41a290bb7b90803db83f4efe323b66f80a229a5818165412e268ea35c980d"
+    },
+    {
+      "split": "wave_matched",
+      "method": "mlp128",
+      "seed": 2021,
+      "prediction_sha256": "6904a2494b396345c4eace80a029f454095b70878ecd2d5d8da6a8718aff5036"
+    },
+    {
+      "split": "wave_matched",
+      "method": "mlp128",
+      "seed": 2022,
+      "prediction_sha256": "072bb97769cc207380e5389ab302e2c066f2817c5e83723c6ae8826c2b28990f"
+    },
+    {
+      "split": "wave_matched",
+      "method": "mlp128",
+      "seed": 2023,
+      "prediction_sha256": "7e72e26a69bc5aff626b814d9aec1b73ef567431673089c24ec3bd3d9037ac2c"
+    },
+    {
+      "split": "wave_acquisition",
+      "method": "persistence",
+      "seed": null,
+      "prediction_sha256": "832e2fe0575e10a563fcf8ca435b35da8fc7a6f70a8cb8ea36a14659857f4b66"
+    },
+    {
+      "split": "wave_acquisition",
+      "method": "ridge_arx",
+      "seed": null,
+      "prediction_sha256": "2094144b8fae72316ee4421c26d3f5709b582aa8029636d93000a107d2a31921"
+    },
+    {
+      "split": "wave_acquisition",
+      "method": "worldts32",
+      "seed": 2021,
+      "prediction_sha256": "194748e935271bdb31e554c58b22b0b94a0df9cbb59e4dd3191e81d1b1d7971e"
+    },
+    {
+      "split": "wave_acquisition",
+      "method": "worldts32",
+      "seed": 2022,
+      "prediction_sha256": "a332e08e9330f395ec15f425221e2dca92efc44673f54890bd8566710964a730"
+    },
+    {
+      "split": "wave_acquisition",
+      "method": "worldts32",
+      "seed": 2023,
+      "prediction_sha256": "c1dc4a637c418fb03d5e60c0cba5dcc1cdc48659010420047a0897c7f145b7e5"
+    },
+    {
+      "split": "wave_acquisition",
+      "method": "worldts4",
+      "seed": 2021,
+      "prediction_sha256": "3d3fa704c53174eb0e75472504f502d9c263ab0532359c21e64e9b23fa29c19c"
+    },
+    {
+      "split": "wave_acquisition",
+      "method": "worldts4",
+      "seed": 2022,
+      "prediction_sha256": "451352c84790669da35de20480b1431a9538c8bfefb43ef1b9c91b8a3b0eb74f"
+    },
+    {
+      "split": "wave_acquisition",
+      "method": "worldts4",
+      "seed": 2023,
+      "prediction_sha256": "77dea64d94f4c2609c734c7306934004f6d7cf246d9a210064e41f2a22070acb"
+    },
+    {
+      "split": "wave_acquisition",
+      "method": "worldts4_fixed",
+      "seed": 2021,
+      "prediction_sha256": "9448ae9fd3ce143f21fa12f021a758e456531d4a77614f7f8084d4f6225ed35b"
+    },
+    {
+      "split": "wave_acquisition",
+      "method": "worldts4_fixed",
+      "seed": 2022,
+      "prediction_sha256": "f04ed40c73e12d04bbe08e4b319257df62c50f94738659d88f1002aa1782907d"
+    },
+    {
+      "split": "wave_acquisition",
+      "method": "worldts4_fixed",
+      "seed": 2023,
+      "prediction_sha256": "a8e47a6739a778da29766bb0ed49cc377772361bb68972aa85ba73b03c777fe1"
+    },
+    {
+      "split": "wave_acquisition",
+      "method": "worldts32_endtoend",
+      "seed": 2021,
+      "prediction_sha256": "3b362be1840567bdbad0b7c8f69de2fb8f7220beb26748efd0c08e5f443c4249"
+    },
+    {
+      "split": "wave_acquisition",
+      "method": "worldts32_endtoend",
+      "seed": 2022,
+      "prediction_sha256": "08b6636566e0434f5274b49cac6c4c0b98fa499d96ab89bf511f58973cb40f9e"
+    },
+    {
+      "split": "wave_acquisition",
+      "method": "worldts32_endtoend",
+      "seed": 2023,
+      "prediction_sha256": "aa0d0d516ca1c6078e5156bc1655b7863bd76d501c9b319ec1fcfb7366bccc7c"
+    },
+    {
+      "split": "wave_acquisition",
+      "method": "gru64",
+      "seed": 2021,
+      "prediction_sha256": "15935f40788ccf8bb1b9e924c26b85f0c1adfe2ab2702283f8bc9051721081e2"
+    },
+    {
+      "split": "wave_acquisition",
+      "method": "gru64",
+      "seed": 2022,
+      "prediction_sha256": "35d2999692745fa5ad7a3b1d1b17bb02590f0b4d088c95013caa3278dde5bc3a"
+    },
+    {
+      "split": "wave_acquisition",
+      "method": "gru64",
+      "seed": 2023,
+      "prediction_sha256": "89ec40064e77fae34770f822392b4ef5d6eafe75ee99871c88b2031c366cbfbe"
+    },
+    {
+      "split": "wave_acquisition",
+      "method": "mlp128",
+      "seed": 2021,
+      "prediction_sha256": "1213f56c2550a0560b15e2e39a3a9c243a95fe75cd6a757282af5ce43cd4afaf"
+    },
+    {
+      "split": "wave_acquisition",
+      "method": "mlp128",
+      "seed": 2022,
+      "prediction_sha256": "261da1bb025fac0da881e8bc324538e1be3c6d4c6dadeb062b4112457b3a44cd"
+    },
+    {
+      "split": "wave_acquisition",
+      "method": "mlp128",
+      "seed": 2023,
+      "prediction_sha256": "d8352613edcaa2d60928276b6560387062b9d8b0d7a394438442f46f0a43c7cd"
+    }
+  ],
+  "seconds": 7.182194099994376,
+  "script_sha256": "090e8d372d553dfe36c397fd3976881b51ae0993173784f9a49103e58f22d0ed",
+  "scope": "All result arithmetic/hashes;all validation forecasts;first128 neural samples/privileged diagnostic per split;full ridge/persistence replay. Shares native neural module definitions,not novelty confirmation.",
+  "pass": true
+}

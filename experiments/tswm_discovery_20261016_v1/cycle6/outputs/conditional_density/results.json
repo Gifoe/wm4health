@@ -1,0 +1,314 @@
+[
+  {
+    "kind": "native_inverse",
+    "seed": 81,
+    "parameters": 33537,
+    "selected_step": 2000,
+    "best_validation_reported_NLL": 1.1784183979034424,
+    "seconds": 14.646808099998452,
+    "test": [
+      {
+        "context": -2.0,
+        "test_reported_NLL": 1.0061074495315552,
+        "true_DGP_NLL": 0.45500391721725464,
+        "regions": 386,
+        "integrated_surrogate_mass": 0.999999999999999,
+        "absolute_mass_error": 9.992007221626409e-16,
+        "base_noise_mass_with_preimage": 1.0,
+        "derivative_sign_changes": 0,
+        "root_counts_at_noise_values": {
+          "-3.0": 1,
+          "-1.0": 1,
+          "0.0": 1,
+          "1.0": 1,
+          "3.0": 1
+        },
+        "scalar_conditioning_only": true,
+        "proper_normalized_test_NLL": 1.006107449531554,
+        "normalized_density_sample_mean": -1.2156090454501751,
+        "normalized_density_sample_std": 0.7893261962745597
+      },
+      {
+        "context": 0.0,
+        "test_reported_NLL": 1.159803867340088,
+        "true_DGP_NLL": 0.9867111444473267,
+        "regions": 386,
+        "integrated_surrogate_mass": 0.9999999999999998,
+        "absolute_mass_error": 2.220446049250313e-16,
+        "base_noise_mass_with_preimage": 1.0,
+        "derivative_sign_changes": 0,
+        "root_counts_at_noise_values": {
+          "-3.0": 1,
+          "-1.0": 1,
+          "0.0": 1,
+          "1.0": 1,
+          "3.0": 1
+        },
+        "scalar_conditioning_only": true,
+        "proper_normalized_test_NLL": 1.1598038673400877,
+        "normalized_density_sample_mean": 0.03132712214452056,
+        "normalized_density_sample_std": 0.9400139596082836
+      },
+      {
+        "context": 2.0,
+        "test_reported_NLL": 1.5386781692504883,
+        "true_DGP_NLL": 1.3305691480636597,
+        "regions": 386,
+        "integrated_surrogate_mass": 0.9999999999999996,
+        "absolute_mass_error": 4.440892098500626e-16,
+        "base_noise_mass_with_preimage": 1.0,
+        "derivative_sign_changes": 0,
+        "root_counts_at_noise_values": {
+          "-3.0": 1,
+          "-1.0": 1,
+          "0.0": 1,
+          "1.0": 1,
+          "3.0": 1
+        },
+        "scalar_conditioning_only": true,
+        "proper_normalized_test_NLL": 1.5386781692504878,
+        "normalized_density_sample_mean": 1.3356748964856928,
+        "normalized_density_sample_std": 0.9401310748390265
+      }
+    ]
+  },
+  {
+    "kind": "normalized_gaussian",
+    "seed": 81,
+    "parameters": 33538,
+    "selected_step": 1800,
+    "best_validation_reported_NLL": 0.9601477384567261,
+    "seconds": 4.425272100001166,
+    "test": [
+      {
+        "context": -2.0,
+        "test_reported_NLL": 0.45717644691467285,
+        "true_DGP_NLL": 0.45500391721725464,
+        "proper_normalized_test_NLL": 0.45717644691467285,
+        "integrated_surrogate_mass": 1.0
+      },
+      {
+        "context": 0.0,
+        "test_reported_NLL": 0.9867804646492004,
+        "true_DGP_NLL": 0.9867111444473267,
+        "proper_normalized_test_NLL": 0.9867804646492004,
+        "integrated_surrogate_mass": 1.0
+      },
+      {
+        "context": 2.0,
+        "test_reported_NLL": 1.3318841457366943,
+        "true_DGP_NLL": 1.3305691480636597,
+        "proper_normalized_test_NLL": 1.3318841457366943,
+        "integrated_surrogate_mass": 1.0
+      }
+    ]
+  },
+  {
+    "kind": "native_inverse",
+    "seed": 82,
+    "parameters": 33537,
+    "selected_step": 2000,
+    "best_validation_reported_NLL": 1.1839488744735718,
+    "seconds": 14.053192500003206,
+    "test": [
+      {
+        "context": -2.0,
+        "test_reported_NLL": 1.0079965591430664,
+        "true_DGP_NLL": 0.45500391721725464,
+        "regions": 387,
+        "integrated_surrogate_mass": 1.0000000000000004,
+        "absolute_mass_error": 4.440892098500626e-16,
+        "base_noise_mass_with_preimage": 1.0,
+        "derivative_sign_changes": 0,
+        "root_counts_at_noise_values": {
+          "-3.0": 1,
+          "-1.0": 1,
+          "0.0": 1,
+          "1.0": 1,
+          "3.0": 1
+        },
+        "scalar_conditioning_only": true,
+        "proper_normalized_test_NLL": 1.0079965591430669,
+        "normalized_density_sample_mean": -1.241161239023138,
+        "normalized_density_sample_std": 0.8015932499081471
+      },
+      {
+        "context": 0.0,
+        "test_reported_NLL": 1.1725800037384033,
+        "true_DGP_NLL": 0.9867111444473267,
+        "regions": 387,
+        "integrated_surrogate_mass": 0.9999999999999997,
+        "absolute_mass_error": 3.3306690738754696e-16,
+        "base_noise_mass_with_preimage": 1.0,
+        "derivative_sign_changes": 0,
+        "root_counts_at_noise_values": {
+          "-3.0": 1,
+          "-1.0": 1,
+          "0.0": 1,
+          "1.0": 1,
+          "3.0": 1
+        },
+        "scalar_conditioning_only": true,
+        "proper_normalized_test_NLL": 1.1725800037384029,
+        "normalized_density_sample_mean": 0.0730507713231497,
+        "normalized_density_sample_std": 0.9892056140772097
+      },
+      {
+        "context": 2.0,
+        "test_reported_NLL": 1.4645506143569946,
+        "true_DGP_NLL": 1.3305691480636597,
+        "regions": 387,
+        "integrated_surrogate_mass": 1.0000000000000004,
+        "absolute_mass_error": 4.440892098500626e-16,
+        "base_noise_mass_with_preimage": 1.0,
+        "derivative_sign_changes": 0,
+        "root_counts_at_noise_values": {
+          "-3.0": 1,
+          "-1.0": 1,
+          "0.0": 1,
+          "1.0": 1,
+          "3.0": 1
+        },
+        "scalar_conditioning_only": true,
+        "proper_normalized_test_NLL": 1.464550614356995,
+        "normalized_density_sample_mean": 1.3612569058846349,
+        "normalized_density_sample_std": 0.9893598731861477
+      }
+    ]
+  },
+  {
+    "kind": "normalized_gaussian",
+    "seed": 82,
+    "parameters": 33538,
+    "selected_step": 2000,
+    "best_validation_reported_NLL": 0.9603322744369507,
+    "seconds": 4.448445099995297,
+    "test": [
+      {
+        "context": -2.0,
+        "test_reported_NLL": 0.4562367796897888,
+        "true_DGP_NLL": 0.45500391721725464,
+        "proper_normalized_test_NLL": 0.4562367796897888,
+        "integrated_surrogate_mass": 1.0
+      },
+      {
+        "context": 0.0,
+        "test_reported_NLL": 0.9868013262748718,
+        "true_DGP_NLL": 0.9867111444473267,
+        "proper_normalized_test_NLL": 0.9868013262748718,
+        "integrated_surrogate_mass": 1.0
+      },
+      {
+        "context": 2.0,
+        "test_reported_NLL": 1.3312952518463135,
+        "true_DGP_NLL": 1.3305691480636597,
+        "proper_normalized_test_NLL": 1.3312952518463135,
+        "integrated_surrogate_mass": 1.0
+      }
+    ]
+  },
+  {
+    "kind": "native_inverse",
+    "seed": 83,
+    "parameters": 33537,
+    "selected_step": 2000,
+    "best_validation_reported_NLL": 1.0174436569213867,
+    "seconds": 14.039235199998075,
+    "test": [
+      {
+        "context": -2.0,
+        "test_reported_NLL": 0.7180570363998413,
+        "true_DGP_NLL": 0.45500391721725464,
+        "regions": 385,
+        "integrated_surrogate_mass": 0.9999999999999998,
+        "absolute_mass_error": 2.220446049250313e-16,
+        "base_noise_mass_with_preimage": 1.0,
+        "derivative_sign_changes": 0,
+        "root_counts_at_noise_values": {
+          "-3.0": 1,
+          "-1.0": 1,
+          "0.0": 1,
+          "1.0": 1,
+          "3.0": 1
+        },
+        "scalar_conditioning_only": true,
+        "proper_normalized_test_NLL": 0.7180570363998411,
+        "normalized_density_sample_mean": -1.1935331464013057,
+        "normalized_density_sample_std": 0.6681087819926385
+      },
+      {
+        "context": 0.0,
+        "test_reported_NLL": 1.0086414813995361,
+        "true_DGP_NLL": 0.9867111444473267,
+        "regions": 385,
+        "integrated_surrogate_mass": 1.0,
+        "absolute_mass_error": 0.0,
+        "base_noise_mass_with_preimage": 1.0,
+        "derivative_sign_changes": 0,
+        "root_counts_at_noise_values": {
+          "-3.0": 1,
+          "-1.0": 1,
+          "0.0": 1,
+          "1.0": 1,
+          "3.0": 1
+        },
+        "scalar_conditioning_only": true,
+        "proper_normalized_test_NLL": 1.0086414813995361,
+        "normalized_density_sample_mean": 0.019242196921497392,
+        "normalized_density_sample_std": 0.705698188563849
+      },
+      {
+        "context": 2.0,
+        "test_reported_NLL": 1.5447821617126465,
+        "true_DGP_NLL": 1.3305691480636597,
+        "regions": 385,
+        "integrated_surrogate_mass": 0.9999999999999999,
+        "absolute_mass_error": 1.1102230246251565e-16,
+        "base_noise_mass_with_preimage": 1.0,
+        "derivative_sign_changes": 0,
+        "root_counts_at_noise_values": {
+          "-3.0": 1,
+          "-1.0": 1,
+          "0.0": 1,
+          "1.0": 1,
+          "3.0": 1
+        },
+        "scalar_conditioning_only": true,
+        "proper_normalized_test_NLL": 1.5447821617126465,
+        "normalized_density_sample_mean": 1.2466861674200966,
+        "normalized_density_sample_std": 0.7052102316064102
+      }
+    ]
+  },
+  {
+    "kind": "normalized_gaussian",
+    "seed": 83,
+    "parameters": 33538,
+    "selected_step": 2000,
+    "best_validation_reported_NLL": 0.9599462747573853,
+    "seconds": 4.453911300006439,
+    "test": [
+      {
+        "context": -2.0,
+        "test_reported_NLL": 0.4548324942588806,
+        "true_DGP_NLL": 0.45500391721725464,
+        "proper_normalized_test_NLL": 0.4548324942588806,
+        "integrated_surrogate_mass": 1.0
+      },
+      {
+        "context": 0.0,
+        "test_reported_NLL": 0.9870957136154175,
+        "true_DGP_NLL": 0.9867111444473267,
+        "proper_normalized_test_NLL": 0.9870957136154175,
+        "integrated_surrogate_mass": 1.0
+      },
+      {
+        "context": 2.0,
+        "test_reported_NLL": 1.3306045532226562,
+        "true_DGP_NLL": 1.3305691480636597,
+        "proper_normalized_test_NLL": 1.3306045532226562,
+        "integrated_surrogate_mass": 1.0
+      }
+    ]
+  }
+]

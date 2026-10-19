@@ -1,0 +1,42 @@
+{
+  "source_files_verified": 76,
+  "matched_2000_step_prefixes": [
+    {
+      "variant": "lewm_native_weight",
+      "tensors": 5,
+      "maximum_absolute_difference": 0.0,
+      "exact_match": true
+    },
+    {
+      "variant": "lewm_matched_static",
+      "tensors": 5,
+      "maximum_absolute_difference": 0.0,
+      "exact_match": true
+    },
+    {
+      "variant": "motion",
+      "tensors": 16,
+      "maximum_absolute_difference": 0.0,
+      "exact_match": true
+    }
+  ],
+  "pilot_noise_gap": 0.011052467721977433,
+  "pilot_clean_gap": -8.890570361181473e-17,
+  "preregistered_noise_specific_gate_passed": false,
+  "final_nmse": {
+    "lewm_native_weight_random": 0.00012273028186883268,
+    "lewm_matched_static_random": 0.47894025124236156,
+    "motion_random": 0.13555086050323345,
+    "lewm_matched_static_trainingCCA": 0.0002831805903001436,
+    "motion_trainingCCA": 0.08508672006430729
+  },
+  "conclusion": "Pilot structural attribution rejected. Ordinary budget fixes default LeWM; training-only CCA initialization fixes matched-static LeWM. Motion remains initialization-sensitive in these adapters, without meeting pilot acceptance rule or establishing a new method gap.",
+  "scope": "Single initialization and fixed data cohort, exploratory development probes. Not native visual benchmark, independent seed confirmation, or publication result.",
+  "environment": {
+    "python": "3.10.20",
+    "torch": "2.8.0+cu128",
+    "numpy": "1.26.4",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5090"
+  }
+}

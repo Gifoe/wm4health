@@ -1,0 +1,506 @@
+{
+  "updated_utc": "2026-10-16T19:21:51.067123+00:00",
+  "stage": "integrated_verified_evidence",
+  "completed_training_runs": 12,
+  "original_training_status": "completed",
+  "primary_verified": true,
+  "real_transfer_verified": true,
+  "inference_implementation_verified": true,
+  "secondary_analyses_verified": true,
+  "fixed_update_verified": true,
+  "accepted_directions": 0,
+  "goal": "ACTIVE_UNACHIEVED",
+  "model_summary": [
+    {
+      "family": "lti",
+      "method": "conditional96",
+      "factual_rmse": 0.5186853941025523,
+      "effect_rmse": 1.1849975970948838
+    },
+    {
+      "family": "lti",
+      "method": "conditional128",
+      "factual_rmse": 0.4786695895794158,
+      "effect_rmse": 1.1618893297790136
+    },
+    {
+      "family": "lti",
+      "method": "compiled64",
+      "factual_rmse": 0.43250876730113913,
+      "effect_rmse": 0.9279329653007962
+    },
+    {
+      "family": "lti",
+      "method": "native_attention64",
+      "factual_rmse": 0.9348549497469018,
+      "effect_rmse": 2.2130418724328695
+    },
+    {
+      "family": "lti",
+      "method": "native_attention64_chunk32",
+      "factual_rmse": 0.7739057684472451,
+      "effect_rmse": 1.9782841754430491
+    },
+    {
+      "family": "lti",
+      "method": "arx_context_selected",
+      "factual_rmse": 0.00639588346621965,
+      "effect_rmse": 0.014222207753240013
+    },
+    {
+      "family": "lti",
+      "method": "pretrained_native_icl",
+      "factual_rmse": 0.8377827913500369,
+      "effect_rmse": 2.3794100981516144
+    },
+    {
+      "family": "wh",
+      "method": "conditional96",
+      "factual_rmse": 0.7420503472676501,
+      "effect_rmse": 1.5524231699916224
+    },
+    {
+      "family": "wh",
+      "method": "conditional128",
+      "factual_rmse": 0.7346998707701763,
+      "effect_rmse": 1.5247088942366342
+    },
+    {
+      "family": "wh",
+      "method": "compiled64",
+      "factual_rmse": 0.7087644699883336,
+      "effect_rmse": 1.5572414721827954
+    },
+    {
+      "family": "wh",
+      "method": "native_attention64",
+      "factual_rmse": 0.9935750648534546,
+      "effect_rmse": 1.8020911691710353
+    },
+    {
+      "family": "wh",
+      "method": "native_attention64_chunk32",
+      "factual_rmse": 0.8784061044765016,
+      "effect_rmse": 1.688486196501698
+    },
+    {
+      "family": "wh",
+      "method": "arx_context_selected",
+      "factual_rmse": 0.6767593959430406,
+      "effect_rmse": 1.9537506696669775
+    },
+    {
+      "family": "wh",
+      "method": "pretrained_native_icl",
+      "factual_rmse": 0.9858302359934896,
+      "effect_rmse": 1.936135105167826
+    }
+  ],
+  "contrasts": [
+    {
+      "family": "lti",
+      "method_a": "compiled64",
+      "method_b": "conditional128",
+      "horizon": 128,
+      "metric": "effect",
+      "mean_difference": -0.23395636447821744,
+      "ratio_of_means": 0.7986414381456495,
+      "difference_p025": -0.42268933955419913,
+      "difference_p975": -0.07243785944495709,
+      "ratio_p025": 0.6708976351017767,
+      "ratio_p975": 0.9240409603485724,
+      "world_median_difference": -0.18555764522817403,
+      "world_q25_difference": -0.35928750120931197,
+      "world_q75_difference": -0.08259906785355678,
+      "world_win_fraction": 0.90625,
+      "seed_differences": [
+        -0.06280115887057036,
+        -0.1972784528625198,
+        -0.4417894817015622
+      ],
+      "n_seeds": 3,
+      "n_worlds": 128,
+      "n_bootstrap": 2000
+    },
+    {
+      "family": "wh",
+      "method_a": "compiled64",
+      "method_b": "conditional128",
+      "horizon": 128,
+      "metric": "effect",
+      "mean_difference": 0.03253257794616123,
+      "ratio_of_means": 1.0213369109796195,
+      "difference_p025": -0.020723910446718553,
+      "difference_p975": 0.07897164323755228,
+      "ratio_p025": 0.9863076512159129,
+      "ratio_p975": 1.052049728774237,
+      "world_median_difference": 0.02499850922160681,
+      "world_q25_difference": -0.09404580709007052,
+      "world_q75_difference": 0.13625261684258783,
+      "world_win_fraction": 0.4140625,
+      "seed_differences": [
+        0.04710998758673668,
+        0.0557610869097213,
+        -0.0052733406579742875
+      ],
+      "n_seeds": 3,
+      "n_worlds": 128,
+      "n_bootstrap": 2000
+    }
+  ],
+  "real_transfer": [
+    {
+      "family": "silverbox",
+      "method": "conditional96",
+      "nrmse128": 0.8093212627506076,
+      "seed_std": 0.032586133967111595,
+      "n_seeds": 3,
+      "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+    },
+    {
+      "family": "silverbox",
+      "method": "compiled64",
+      "nrmse128": 0.7824536181256079,
+      "seed_std": 0.03252809335638977,
+      "n_seeds": 3,
+      "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+    },
+    {
+      "family": "silverbox",
+      "method": "conditional128",
+      "nrmse128": 0.808299762590487,
+      "seed_std": 0.032766062368594764,
+      "n_seeds": 3,
+      "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+    },
+    {
+      "family": "silverbox",
+      "method": "native_attention64",
+      "nrmse128": 0.9428043823239131,
+      "seed_std": 0.020000085944272248,
+      "n_seeds": 3,
+      "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+    },
+    {
+      "family": "silverbox",
+      "method": "native_attention64_chunk32",
+      "nrmse128": 0.9053912957545288,
+      "seed_std": 0.0264552298233568,
+      "n_seeds": 3,
+      "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+    },
+    {
+      "family": "silverbox",
+      "method": "arx_context_selected",
+      "nrmse128": 0.12151865559254613,
+      "seed_std": null,
+      "n_seeds": 1,
+      "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+    },
+    {
+      "family": "silverbox",
+      "method": "persistence",
+      "nrmse128": 1.272272908858605,
+      "seed_std": null,
+      "n_seeds": 1,
+      "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+    },
+    {
+      "family": "silverbox",
+      "method": "train_mean",
+      "nrmse128": 0.8984313497484935,
+      "seed_std": null,
+      "n_seeds": 1,
+      "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+    },
+    {
+      "family": "silverbox",
+      "method": "pretrained_native_icl",
+      "nrmse128": 0.8666318657811769,
+      "seed_std": null,
+      "n_seeds": 1,
+      "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+    },
+    {
+      "family": "silverbox",
+      "method": "pretrained_pcfm_cd_glue0",
+      "nrmse128": 0.8503985700233646,
+      "seed_std": null,
+      "n_seeds": 1,
+      "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+    },
+    {
+      "family": "cascaded_tanks",
+      "method": "conditional96",
+      "nrmse128": 1.0964811557991638,
+      "seed_std": 0.035964771125237834,
+      "n_seeds": 3,
+      "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+    },
+    {
+      "family": "cascaded_tanks",
+      "method": "compiled64",
+      "nrmse128": 1.0552386877054063,
+      "seed_std": 0.08235453464426527,
+      "n_seeds": 3,
+      "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+    },
+    {
+      "family": "cascaded_tanks",
+      "method": "conditional128",
+      "nrmse128": 1.1436626221730612,
+      "seed_std": 0.14638830027515526,
+      "n_seeds": 3,
+      "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+    },
+    {
+      "family": "cascaded_tanks",
+      "method": "native_attention64",
+      "nrmse128": 1.081088325428077,
+      "seed_std": 0.16250643514806687,
+      "n_seeds": 3,
+      "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+    },
+    {
+      "family": "cascaded_tanks",
+      "method": "native_attention64_chunk32",
+      "nrmse128": 1.1066867206686186,
+      "seed_std": 0.08017004022343098,
+      "n_seeds": 3,
+      "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+    },
+    {
+      "family": "cascaded_tanks",
+      "method": "arx_context_selected",
+      "nrmse128": 6.657338269733937,
+      "seed_std": null,
+      "n_seeds": 1,
+      "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+    },
+    {
+      "family": "cascaded_tanks",
+      "method": "persistence",
+      "nrmse128": 1.2342228142343699,
+      "seed_std": null,
+      "n_seeds": 1,
+      "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+    },
+    {
+      "family": "cascaded_tanks",
+      "method": "train_mean",
+      "nrmse128": 0.968690989839745,
+      "seed_std": null,
+      "n_seeds": 1,
+      "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+    },
+    {
+      "family": "cascaded_tanks",
+      "method": "pretrained_native_icl",
+      "nrmse128": 1.0786873451742032,
+      "seed_std": null,
+      "n_seeds": 1,
+      "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+    },
+    {
+      "family": "cascaded_tanks",
+      "method": "pretrained_pcfm_cd_glue0",
+      "nrmse128": 1.180374212022161,
+      "seed_std": null,
+      "n_seeds": 1,
+      "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+    }
+  ],
+  "utility": [
+    {
+      "family": "lti",
+      "method": "compiled64",
+      "regret": 0.2327146892495219,
+      "oracle_fraction": 0.9140625
+    },
+    {
+      "family": "lti",
+      "method": "conditional128",
+      "regret": 0.7954725905362886,
+      "oracle_fraction": 0.8645833333333334
+    },
+    {
+      "family": "lti",
+      "method": "native_attention64_chunk32",
+      "regret": 4.468109400244868,
+      "oracle_fraction": 0.5807291666666666
+    },
+    {
+      "family": "lti",
+      "method": "arx_context_selected",
+      "regret": 7.685056402905824e-07,
+      "oracle_fraction": 0.9973958333333334
+    },
+    {
+      "family": "lti",
+      "method": "pretrained_native_icl",
+      "regret": 6.025511074093206,
+      "oracle_fraction": 0.5416666666666666
+    },
+    {
+      "family": "lti",
+      "method": "always_zero",
+      "regret": 0.06103440151059055,
+      "oracle_fraction": 0.8880208333333334
+    },
+    {
+      "family": "lti",
+      "method": "always_factual",
+      "regret": 1.0475014155388558,
+      "oracle_fraction": 0.03125
+    },
+    {
+      "family": "wh",
+      "method": "compiled64",
+      "regret": 2.35652819729643,
+      "oracle_fraction": 0.5625
+    },
+    {
+      "family": "wh",
+      "method": "conditional128",
+      "regret": 2.619542592156898,
+      "oracle_fraction": 0.5407986111111112
+    },
+    {
+      "family": "wh",
+      "method": "native_attention64_chunk32",
+      "regret": 3.561424240929952,
+      "oracle_fraction": 0.4704861111111111
+    },
+    {
+      "family": "wh",
+      "method": "arx_context_selected",
+      "regret": 3.456257430370903,
+      "oracle_fraction": 0.5546875
+    },
+    {
+      "family": "wh",
+      "method": "pretrained_native_icl",
+      "regret": 2.780320393212592,
+      "oracle_fraction": 0.4244791666666667
+    },
+    {
+      "family": "wh",
+      "method": "always_zero",
+      "regret": 1.4636205836044733,
+      "oracle_fraction": 0.5442708333333334
+    },
+    {
+      "family": "wh",
+      "method": "always_factual",
+      "regret": 0.9381070782617306,
+      "oracle_fraction": 0.203125
+    }
+  ],
+  "latency_ms": [
+    {
+      "kind": "conditional96",
+      "implementation": "source_eager",
+      "context_s": 0.39665000076638535,
+      "prepare_s": 0.0,
+      "cached_s": 20.38044999790145,
+      "one_use_total_s": 20.78895000158809,
+      "amortized_64_uses_s": 20.389328904116155
+    },
+    {
+      "kind": "conditional96",
+      "implementation": "code_bias_fold_fused_gru",
+      "context_s": 0.3935000058845617,
+      "prepare_s": 1.2270000006537884,
+      "cached_s": 0.3665000040200539,
+      "one_use_total_s": 2.0093000057386234,
+      "amortized_64_uses_s": 0.39383437024298473
+    },
+    {
+      "kind": "compiled64",
+      "implementation": "source_eager",
+      "context_s": 0.599599996348843,
+      "prepare_s": 0.0,
+      "cached_s": 42.277950000425335,
+      "one_use_total_s": 42.891599994618446,
+      "amortized_64_uses_s": 42.2903187504744
+    },
+    {
+      "kind": "compiled64",
+      "implementation": "merged_weight_fused_gru",
+      "context_s": 0.49405000027036294,
+      "prepare_s": 1.1153500017826445,
+      "cached_s": 0.34779999987222254,
+      "one_use_total_s": 1.9746000107261352,
+      "amortized_64_uses_s": 0.37414531209378765
+    },
+    {
+      "kind": "conditional128",
+      "implementation": "source_eager",
+      "context_s": 0.3974999999627471,
+      "prepare_s": 0.0,
+      "cached_s": 20.768000002135523,
+      "one_use_total_s": 21.251850004773587,
+      "amortized_64_uses_s": 20.77614062716293
+    },
+    {
+      "kind": "conditional128",
+      "implementation": "code_bias_fold_fused_gru",
+      "context_s": 0.39510000351583585,
+      "prepare_s": 1.3407499936874956,
+      "cached_s": 0.3787500027101487,
+      "one_use_total_s": 2.191599996876903,
+      "amortized_64_uses_s": 0.4071109425467512
+    },
+    {
+      "kind": "native_attention64",
+      "implementation": "source_eager",
+      "context_s": 1.4658000000054017,
+      "prepare_s": 0.0,
+      "cached_s": 2.7184999926248565,
+      "one_use_total_s": 4.248099998221733,
+      "amortized_64_uses_s": 2.741895305007347
+    },
+    {
+      "kind": "native_attention64",
+      "implementation": "cached_memory_sdpa_no_weight_output",
+      "context_s": 1.27269999939017,
+      "prepare_s": 0.0,
+      "cached_s": 2.418950003630016,
+      "one_use_total_s": 3.718300002219621,
+      "amortized_64_uses_s": 2.4405085974876783
+    }
+  ],
+  "fixed_update": [
+    {
+      "family": "lti",
+      "method": "compiled64",
+      "factual_rmse": 0.3875748917052988,
+      "effect_rmse": 0.8299296022095304
+    },
+    {
+      "family": "lti",
+      "method": "conditional128",
+      "factual_rmse": 0.40886384289478883,
+      "effect_rmse": 0.9889697099893561
+    },
+    {
+      "family": "wh",
+      "method": "compiled64",
+      "factual_rmse": 0.676746727588276,
+      "effect_rmse": 1.5166257730969745
+    },
+    {
+      "family": "wh",
+      "method": "conditional128",
+      "factual_rmse": 0.6946547830011696,
+      "effect_rmse": 1.4806807178538293
+    }
+  ],
+  "evidence_hashes": {
+    "outputs/world_verification/model_comparison_v2.json": "af695ef6cd0ed9b11ba12975424365cb451d2ae0af7285d0da17028cc3767245",
+    "outputs/real_transfer/verification.json": "d8db8bbb37c71ca03d483ee9f89fefed36df4e2f6f91cdae82b7d024ad59636b",
+    "outputs/inference_controls_v1/results.json": "c5f3a0588f00ab13f571a96d8c46a42160701cf612c14b46671cae826d4095ab",
+    "outputs/secondary_analysis_verification.json": "5420bd52314fabcf0db20a647ca192e6806032160708011e8289f15562dd2c35"
+  },
+  "source_sha256": "3daed0d9eb5cb667bba80cafdd8203908bae1b7204e5a9560862f26631c8b4d9"
+}

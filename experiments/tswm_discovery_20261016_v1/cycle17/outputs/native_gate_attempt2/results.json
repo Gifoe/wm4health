@@ -1,0 +1,398 @@
+{
+  "protocol_sha256": "251c257d5374d18e0b814743eabd0db51791d0537e46a69abda45e41f203136e",
+  "script_sha256": "65f6f01ac0f187065d07922d4b0a15c4d66b828d9e40d10b1bea3cdffe3aa59e",
+  "checkpoint_sha256": "e8324becad85ac610ec94f8ae09048938b343761a5bcd3967a86353a5bf28197",
+  "source_revision": "4c20d94ccab51abf4ebf68aa8810f4596381dd41",
+  "source_files_after": {
+    "CSTR_functions_numba.py": "9938aec6a6cfde683b832150e897733f8d90c5b088a1d1f8dc2acbeb1ed3740d",
+    "README.md": "8548e01bc81a6aa1e8c14ecdcfef127b9f5a1c079085b4f7de5ade5fc70df646",
+    "benchmarks.ipynb": "14ca7a67515d2559eaa942dd28f4d584e5cf10489a148627188db1c8449af8d8",
+    "config.py": "0545545b9000d45da4f06dd2c22eb022e42a064f880b400ecf95b39d6ddf41ca",
+    "dataset.py": "8af1c627fcf74f9bf26dc4d673bfcd6157be62ae02a7a424e4ac2d7292d2d84d",
+    "lti.py": "10932ed1b0677a716b24b15c147ec0c0348735efb14959a1928fc2496323e8dc",
+    "metrics.py": "02aa4ce43faedc130e90f9513ee08988937b242f25f018af1ed35ab90dfaa30b",
+    "synthetic_CED.py": "997cb63c44cc0cdf0c87f65b51cb294ba36917ad733d86379cd19aed91d21996",
+    "test_CSTR_patching.ipynb": "98be650fcd147c70515df3df22365f63bb8d37c9a2908472f4156f94d125660b",
+    "test_ensambling.ipynb": "1861f2068a44f1a86779cc16412e8b9f120b4e81d7feaa8fdc804fd13e24621a",
+    "train_sim_WH_skip.py": "a77ec352103ed0fe636c3faecd91d83147af4dc77f116eaba8009d44fb882293",
+    "train_utils.py": "93e2360e64fd04064c87e30c257094e0c926add8bf326846f5647043540ba803",
+    "trajGenerator.py": "9ca0135c0687fe597f304c018ca68e9c7d5732d512fc7905df646d4a88845aa0",
+    "transformer_sim.py": "cfebd0b82be5cfc3bc78504760ae2609da647524a0aec8749dc80a0777e71136"
+  },
+  "systems": {
+    "calibration": 256,
+    "probe": 256
+  },
+  "invariance": {
+    "calibration": {
+      "future_y_placeholder_error": 0.0,
+      "future_u_prefix_error": 0.0
+    },
+    "probe": {
+      "future_y_placeholder_error": 0.0,
+      "future_u_prefix_error": 0.0
+    }
+  },
+  "marginal_calibration_native": {
+    "marginal_nll": -1.8996255211867135,
+    "joint_nll_per_horizon": -1.8996255211867128,
+    "rmse": 0.0978074383624527,
+    "mae": 0.04468039953591358,
+    "marginal_coverage95": 0.9416796875,
+    "marginal_variance_mean": 0.010826518528952191
+  },
+  "heldout_probe": {
+    "native": {
+      "marginal_nll": -1.8694435128589677,
+      "joint_nll_per_horizon": -1.8694435128589675,
+      "rmse": 0.13167023049345344,
+      "mae": 0.05482100346907764,
+      "marginal_coverage95": 0.9508203125,
+      "marginal_variance_mean": 0.021801962500761992,
+      "functionals": {
+        "constant": {
+          "coverage95": 0.5078125,
+          "nll": 4.973986215475538,
+          "rmse": 0.32308236201015045,
+          "variance_mean": 0.021801962500761995
+        },
+        "alternating": {
+          "coverage95": 0.99609375,
+          "nll": -2.1639119324298908,
+          "rmse": 0.03422706243672646,
+          "variance_mean": 0.021801962500761995
+        },
+        "half_contrast": {
+          "coverage95": 0.640625,
+          "nll": 1.1018200156049043,
+          "rmse": 0.34296214457929236,
+          "variance_mean": 0.021801962500761995
+        },
+        "dct1": {
+          "coverage95": 0.609375,
+          "nll": 1.358576823160101,
+          "rmse": 0.30866124959384755,
+          "variance_mean": 0.021344683116236378
+        },
+        "dct2": {
+          "coverage95": 0.671875,
+          "nll": 0.5236954691567881,
+          "rmse": 0.34381785310391905,
+          "variance_mean": 0.02102021660997641
+        },
+        "dct3": {
+          "coverage95": 0.7734375,
+          "nll": -0.4517996276828032,
+          "rmse": 0.24501582657689353,
+          "variance_mean": 0.020897400436446917
+        },
+        "dct4": {
+          "coverage95": 0.75,
+          "nll": -0.5074444408013697,
+          "rmse": 0.1790614325563123,
+          "variance_mean": 0.02146522277700159
+        },
+        "dct5": {
+          "coverage95": 0.7890625,
+          "nll": -0.7025811580289283,
+          "rmse": 0.36562749592849186,
+          "variance_mean": 0.02174832647098722
+        },
+        "dct6": {
+          "coverage95": 0.81640625,
+          "nll": -0.6761311830441671,
+          "rmse": 0.3132432108450839,
+          "variance_mean": 0.021685493064083967
+        },
+        "dct7": {
+          "coverage95": 0.86328125,
+          "nll": -1.1579839924045898,
+          "rmse": 0.21124078496194512,
+          "variance_mean": 0.02177100771510969
+        },
+        "dct8": {
+          "coverage95": 0.859375,
+          "nll": -1.167120524582933,
+          "rmse": 0.1328770310011024,
+          "variance_mean": 0.021766781674722208
+        }
+      }
+    },
+    "temperature": {
+      "marginal_nll": -1.868570039623879,
+      "joint_nll_per_horizon": -1.8685700396238791,
+      "rmse": 0.13167023049345344,
+      "mae": 0.05482100346907764,
+      "marginal_coverage95": 0.956015625,
+      "marginal_variance_mean": 0.023127245002007125,
+      "functionals": {
+        "constant": {
+          "coverage95": 0.51953125,
+          "nll": 4.586784253718617,
+          "rmse": 0.32308236201015045,
+          "variance_mean": 0.023127245002007135
+        },
+        "alternating": {
+          "coverage95": 0.99609375,
+          "nll": -2.1420841325239683,
+          "rmse": 0.03422706243672646,
+          "variance_mean": 0.023127245002007135
+        },
+        "half_contrast": {
+          "coverage95": 0.64453125,
+          "nll": 0.9365084738334197,
+          "rmse": 0.34296214457929236,
+          "variance_mean": 0.023127245002007135
+        },
+        "dct1": {
+          "coverage95": 0.6171875,
+          "nll": 1.177815807270985,
+          "rmse": 0.30866124959384755,
+          "variance_mean": 0.02264216883696367
+        },
+        "dct2": {
+          "coverage95": 0.69140625,
+          "nll": 0.3909473200540008,
+          "rmse": 0.34381785310391905,
+          "variance_mean": 0.022297978886863662
+        },
+        "dct3": {
+          "coverage95": 0.78515625,
+          "nll": -0.5289018471835597,
+          "rmse": 0.24501582657689353,
+          "variance_mean": 0.022167697049376493
+        },
+        "dct4": {
+          "coverage95": 0.76953125,
+          "nll": -0.5810037202919747,
+          "rmse": 0.1790614325563123,
+          "variance_mean": 0.022770035778615295
+        },
+        "dct5": {
+          "coverage95": 0.80078125,
+          "nll": -0.7647306225041486,
+          "rmse": 0.36562749592849186,
+          "variance_mean": 0.023070348582636957
+        },
+        "dct6": {
+          "coverage95": 0.83203125,
+          "nll": -0.7398735163555918,
+          "rmse": 0.3132432108450839,
+          "variance_mean": 0.023003695702387684
+        },
+        "dct7": {
+          "coverage95": 0.87109375,
+          "nll": -1.193910299520744,
+          "rmse": 0.21124078496194512,
+          "variance_mean": 0.02309440855841906
+        },
+        "dct8": {
+          "coverage95": 0.86328125,
+          "nll": -1.202569438370193,
+          "rmse": 0.1328770310011024,
+          "variance_mean": 0.023089925628433913
+        }
+      }
+    },
+    "bias_calibrated_diagonal": {
+      "marginal_nll": -1.8638958707724718,
+      "joint_nll_per_horizon": -1.863895870772472,
+      "rmse": 0.13168191469144333,
+      "mae": 0.05500815721933363,
+      "marginal_coverage95": 0.95359375,
+      "marginal_variance_mean": 0.023007708714969644,
+      "functionals": {
+        "constant": {
+          "coverage95": 0.51953125,
+          "nll": 4.743601471497055,
+          "rmse": 0.32338991898802416,
+          "variance_mean": 0.02300770871496964
+        },
+        "alternating": {
+          "coverage95": 0.99609375,
+          "nll": -2.1434215660988105,
+          "rmse": 0.0327328911190461,
+          "variance_mean": 0.02300770871496964
+        },
+        "half_contrast": {
+          "coverage95": 0.65234375,
+          "nll": 0.9616496846176346,
+          "rmse": 0.34062673282777256,
+          "variance_mean": 0.02300770871496964
+        },
+        "dct1": {
+          "coverage95": 0.625,
+          "nll": 1.2631186879346539,
+          "rmse": 0.3053085810905331,
+          "variance_mean": 0.022079559691793704
+        },
+        "dct2": {
+          "coverage95": 0.671875,
+          "nll": 0.4290257244990108,
+          "rmse": 0.3361221181916558,
+          "variance_mean": 0.022149999893052805
+        },
+        "dct3": {
+          "coverage95": 0.7890625,
+          "nll": -0.535337275382052,
+          "rmse": 0.24844832396377223,
+          "variance_mean": 0.0223909952438534
+        },
+        "dct4": {
+          "coverage95": 0.765625,
+          "nll": -0.5319473019208042,
+          "rmse": 0.18377816194555316,
+          "variance_mean": 0.02302368483249173
+        },
+        "dct5": {
+          "coverage95": 0.796875,
+          "nll": -0.7674381209113986,
+          "rmse": 0.3685520118102935,
+          "variance_mean": 0.02308263842921441
+        },
+        "dct6": {
+          "coverage95": 0.82421875,
+          "nll": -0.7299833595556412,
+          "rmse": 0.31632351001473297,
+          "variance_mean": 0.02277828340013139
+        },
+        "dct7": {
+          "coverage95": 0.86328125,
+          "nll": -1.1931482880476942,
+          "rmse": 0.2130148063350488,
+          "variance_mean": 0.022939350762159652
+        },
+        "dct8": {
+          "coverage95": 0.87109375,
+          "nll": -1.193480744189837,
+          "rmse": 0.13369412402990805,
+          "variance_mean": 0.0228803163090475
+        }
+      }
+    },
+    "bias_calibrated_full": {
+      "marginal_nll": -1.8638958707724718,
+      "joint_nll_per_horizon": -2.0144765561024265,
+      "rmse": 0.13168191469144333,
+      "mae": 0.05500815721933363,
+      "marginal_coverage95": 0.95359375,
+      "marginal_variance_mean": 0.023007708714969644,
+      "functionals": {
+        "constant": {
+          "coverage95": 0.921875,
+          "nll": -0.45761202114485294,
+          "rmse": 0.32338991898802416,
+          "variance_mean": 0.3308302257542078
+        },
+        "alternating": {
+          "coverage95": 0.9765625,
+          "nll": -2.4170069037604316,
+          "rmse": 0.0327328911190461,
+          "variance_mean": 0.008794805742437161
+        },
+        "half_contrast": {
+          "coverage95": 0.90234375,
+          "nll": -0.8067862886628754,
+          "rmse": 0.34062673282777256,
+          "variance_mean": 0.10230557165915566
+        },
+        "dct1": {
+          "coverage95": 0.87890625,
+          "nll": -0.7692944074614319,
+          "rmse": 0.3053085810905331,
+          "variance_mean": 0.10257556087021703
+        },
+        "dct2": {
+          "coverage95": 0.953125,
+          "nll": -0.944523668236597,
+          "rmse": 0.3361221181916558,
+          "variance_mean": 0.12920987139597906
+        },
+        "dct3": {
+          "coverage95": 0.953125,
+          "nll": -1.1599697526322992,
+          "rmse": 0.24844832396377223,
+          "variance_mean": 0.08340903409585364
+        },
+        "dct4": {
+          "coverage95": 0.9453125,
+          "nll": -1.1531464963692832,
+          "rmse": 0.18377816194555316,
+          "variance_mean": 0.07672976236480561
+        },
+        "dct5": {
+          "coverage95": 0.93359375,
+          "nll": -1.2236776068983612,
+          "rmse": 0.3685520118102935,
+          "variance_mean": 0.06106047364934269
+        },
+        "dct6": {
+          "coverage95": 0.91796875,
+          "nll": -1.171904166066491,
+          "rmse": 0.31632351001473297,
+          "variance_mean": 0.0455070305128501
+        },
+        "dct7": {
+          "coverage95": 0.9375,
+          "nll": -1.3865981279874018,
+          "rmse": 0.2130148063350488,
+          "variance_mean": 0.04380574587126014
+        },
+        "dct8": {
+          "coverage95": 0.921875,
+          "nll": -1.3650000159731632,
+          "rmse": 0.13369412402990805,
+          "variance_mean": 0.035894483333896304
+        }
+      }
+    }
+  },
+  "wrong_context_probe": {
+    "marginal_nll": 389.23182980454266,
+    "joint_nll_per_horizon": 389.23182980454266,
+    "rmse": 1.4062050912691988,
+    "mae": 1.112556300406263,
+    "marginal_coverage95": 0.234765625,
+    "marginal_variance_mean": 0.14024727480508287
+  },
+  "point_controls": {
+    "zero_rmse": 1.0104802322971775,
+    "persistence_rmse": 1.3662891582829673
+  },
+  "temperature": 1.0607873030328723,
+  "ledoit_wolf_shrinkage": 0.13571136526304042,
+  "paired_system_nll_differences": {
+    "bias_calibrated_full_minus_bias_calibrated_diagonal": {
+      "mean": -0.15058068532995467,
+      "system_bootstrap95": [
+        -0.18816779734076225,
+        -0.11598989436610502
+      ],
+      "fraction_lower": 0.71875
+    },
+    "temperature_minus_native": {
+      "mean": 0.0008734732350885197,
+      "system_bootstrap95": [
+        -0.000699386354726223,
+        0.002335344135888229
+      ],
+      "fraction_lower": 0.375
+    }
+  },
+  "elapsed_seconds": 10.921665000001667,
+  "environment": {
+    "python": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:36:49) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "1.26.4",
+    "torch": "2.8.0+cu128",
+    "device": "NVIDIA GeForce RTX 5090",
+    "tf32": false
+  },
+  "limitations": [
+    "Native whole-sequence normalization includes future outputs; no raw-unit prospective claim.",
+    "One released checkpoint, one system family; exploratory probe is not an untouched final evaluation.",
+    "Ordinary Gaussian calibration and independent-vs-joint density are not new mechanisms."
+  ],
+  "new_training": false,
+  "accepted_novel_directions": 0,
+  "objective_achieved": false
+}

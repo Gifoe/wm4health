@@ -1,0 +1,59 @@
+{
+  "cycle": 16,
+  "scientific_gate": "COMPLETED_NO_GO_FOR_COVARIANCE_REPAIR_LINE",
+  "overall_research_objective_achieved": false,
+  "accepted_novel_directions": 0,
+  "test_evaluated": false,
+  "completed_training_updates": 1500,
+  "selected_validation_step": 1100,
+  "primary_result": "Post-hoc joint covariance replacement did not improve validation NLL.",
+  "scope_limit": "One transferred native MTS3 fit; no claim about all corrected retraining or world models.",
+  "next_baseline": "Released probabilistic meta-system-ID checkpoint; native interface only verified.",
+  "expected_terminal_jobs": {
+    "acquire_metaid_release_weight": {
+      "status": "failed",
+      "exit_code": 1
+    },
+    "completed_pilot_integrity": {
+      "status": "completed",
+      "exit_code": 0
+    },
+    "data_and_references": {
+      "status": "completed",
+      "exit_code": 0
+    },
+    "diagnostic_smoke_step100": {
+      "status": "completed",
+      "exit_code": 0
+    },
+    "learned_covariance_diagnostic": {
+      "status": "completed",
+      "exit_code": 0
+    },
+    "metaid_checkpoint_interface": {
+      "status": "completed",
+      "exit_code": 0
+    },
+    "native_mts3_NP_seed2021_attempt1": {
+      "status": "completed",
+      "exit_code": 0
+    },
+    "preflight_attempt0": {
+      "status": "failed",
+      "exit_code": 1
+    },
+    "preflight_attempt1": {
+      "status": "failed",
+      "exit_code": 1
+    },
+    "preflight_attempt2": {
+      "status": "completed",
+      "exit_code": 0
+    }
+  },
+  "abandoned_launch": "Preserved with absence observation; no exit code invented.",
+  "source_dependencies": {
+    "MTS3": "../cycle15/upstream/MTS3",
+    "MTS3_revision": "ab971c0ec43df7664c4b727ca69d5b8dd0cab5da"
+  }
+}

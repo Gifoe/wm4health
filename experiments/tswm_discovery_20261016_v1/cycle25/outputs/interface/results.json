@@ -1,0 +1,335 @@
+{
+  "status": "pass",
+  "source_revision": "f0baf6262523d9c5abaf8c0381b4db97818f7c34",
+  "protocol_sha256": "83497f51fec6544582c22ad7ae991c99f99d218f78ddb3d8d5f7b63e3aab6914",
+  "script_sha256": "67018cd783e27875f9e65ce1c70101ae4c54182fbfe7776d4ab2da8202e2fdff",
+  "models": [
+    {
+      "seed": 1,
+      "positive_weights": false,
+      "rescale_raw_stddev": false,
+      "max_context": 50,
+      "n_training_steps": 100000,
+      "weight_path": "files/experiments/train_model/21/models/checkpoint_step_100000_best.pkl",
+      "weight_sha256": "41542faf00a1f254a89c7be7c21475ba9e4286f3a3955bca2a71a41afe341221",
+      "config": {
+        "batchsize": 512,
+        "context_dim": 16,
+        "context_encoder_classname": "MLPContextEncoder",
+        "context_encoder_kwargs": {
+          "aggregation_type": "max",
+          "clamp_softplus_weights": true,
+          "latent_dim": 128,
+          "mean_feature_bidding": "none",
+          "positive_weights": false,
+          "rescale_raw_stddev": false
+        },
+        "ctx_from_train_prob_schedule": "linear",
+        "debug": false,
+        "embedding_dim": 200,
+        "env_name": "pendulum_quadrantactionfactorar2bd",
+        "grad_clip_norm": 1000,
+        "inference_approx": "np",
+        "kl_all_factor": 0,
+        "kl_empty_factor": 1.0,
+        "kl_np_weight": 5,
+        "learning_rate": 0.001,
+        "max_ctx_card": 50,
+        "n_rollouts_train": 100000,
+        "n_rollouts_val": 10000,
+        "n_training_steps": 100000,
+        "obs_n_transitions": 50,
+        "seed": 1,
+        "sequence_logll_weight": 1,
+        "transition_model_classname": "GruTransitionModel",
+        "transition_model_kwargs": {
+          "big_nets": false,
+          "hidden_dependent_noise": true
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "positive_weights": false,
+      "rescale_raw_stddev": false,
+      "max_context": 50,
+      "n_training_steps": 100000,
+      "weight_path": "files/experiments/train_model/18/models/checkpoint_step_100000_best.pkl",
+      "weight_sha256": "346507076c3e652e0acf0b3d12758af18a68db303674e5ad8710fab80a26de97",
+      "config": {
+        "batchsize": 512,
+        "context_dim": 16,
+        "context_encoder_classname": "MLPContextEncoder",
+        "context_encoder_kwargs": {
+          "aggregation_type": "max",
+          "clamp_softplus_weights": true,
+          "latent_dim": 128,
+          "mean_feature_bidding": "none",
+          "positive_weights": false,
+          "rescale_raw_stddev": false
+        },
+        "ctx_from_train_prob_schedule": "linear",
+        "debug": false,
+        "embedding_dim": 200,
+        "env_name": "pendulum_quadrantactionfactorar2bd",
+        "grad_clip_norm": 1000,
+        "inference_approx": "np",
+        "kl_all_factor": 0,
+        "kl_empty_factor": 1.0,
+        "kl_np_weight": 5,
+        "learning_rate": 0.001,
+        "max_ctx_card": 50,
+        "n_rollouts_train": 100000,
+        "n_rollouts_val": 10000,
+        "n_training_steps": 100000,
+        "obs_n_transitions": 50,
+        "seed": 2,
+        "sequence_logll_weight": 1,
+        "transition_model_classname": "GruTransitionModel",
+        "transition_model_kwargs": {
+          "big_nets": false,
+          "hidden_dependent_noise": true
+        }
+      }
+    },
+    {
+      "seed": 3,
+      "positive_weights": false,
+      "rescale_raw_stddev": false,
+      "max_context": 50,
+      "n_training_steps": 100000,
+      "weight_path": "files/experiments/train_model/20/models/checkpoint_step_100000_best.pkl",
+      "weight_sha256": "16bf5aef25a3326fa33894fe1b6e76a3f417eb41e32a560e9759062948b380e5",
+      "config": {
+        "batchsize": 512,
+        "context_dim": 16,
+        "context_encoder_classname": "MLPContextEncoder",
+        "context_encoder_kwargs": {
+          "aggregation_type": "max",
+          "clamp_softplus_weights": true,
+          "latent_dim": 128,
+          "mean_feature_bidding": "none",
+          "positive_weights": false,
+          "rescale_raw_stddev": false
+        },
+        "ctx_from_train_prob_schedule": "linear",
+        "debug": false,
+        "embedding_dim": 200,
+        "env_name": "pendulum_quadrantactionfactorar2bd",
+        "grad_clip_norm": 1000,
+        "inference_approx": "np",
+        "kl_all_factor": 0,
+        "kl_empty_factor": 1.0,
+        "kl_np_weight": 5,
+        "learning_rate": 0.001,
+        "max_ctx_card": 50,
+        "n_rollouts_train": 100000,
+        "n_rollouts_val": 10000,
+        "n_training_steps": 100000,
+        "obs_n_transitions": 50,
+        "seed": 3,
+        "sequence_logll_weight": 1,
+        "transition_model_classname": "GruTransitionModel",
+        "transition_model_kwargs": {
+          "big_nets": false,
+          "hidden_dependent_noise": true
+        }
+      }
+    },
+    {
+      "seed": 3,
+      "positive_weights": "relu",
+      "rescale_raw_stddev": true,
+      "max_context": 50,
+      "n_training_steps": 100000,
+      "weight_path": "files/experiments/train_model/24/models/checkpoint_step_100000_best.pkl",
+      "weight_sha256": "6ce8c5abc78c5ba39e7554830b2622f0930ac1f2133f2d0ee8849b71c5539885",
+      "config": {
+        "batchsize": 512,
+        "context_dim": 16,
+        "context_encoder_classname": "MLPContextEncoder",
+        "context_encoder_kwargs": {
+          "aggregation_type": "max",
+          "clamp_softplus_weights": true,
+          "latent_dim": 128,
+          "mean_feature_bidding": "none",
+          "positive_weights": "relu",
+          "rescale_raw_stddev": true
+        },
+        "ctx_from_train_prob_schedule": "linear",
+        "debug": false,
+        "embedding_dim": 200,
+        "env_name": "pendulum_quadrantactionfactorar2bd",
+        "grad_clip_norm": 1000,
+        "inference_approx": "np",
+        "kl_all_factor": 0,
+        "kl_empty_factor": 1.0,
+        "kl_np_weight": 5,
+        "learning_rate": 0.001,
+        "max_ctx_card": 50,
+        "n_rollouts_train": 100000,
+        "n_rollouts_val": 10000,
+        "n_training_steps": 100000,
+        "obs_n_transitions": 50,
+        "seed": 3,
+        "sequence_logll_weight": 1,
+        "transition_model_classname": "GruTransitionModel",
+        "transition_model_kwargs": {
+          "big_nets": false,
+          "hidden_dependent_noise": true
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "positive_weights": "relu",
+      "rescale_raw_stddev": true,
+      "max_context": 50,
+      "n_training_steps": 100000,
+      "weight_path": "files/experiments/train_model/23/models/checkpoint_step_100000_best.pkl",
+      "weight_sha256": "3f4d2134d7e05e1ab00d3ce121136358bd24c15aa3c3a890671c1cc16d398049",
+      "config": {
+        "batchsize": 512,
+        "context_dim": 16,
+        "context_encoder_classname": "MLPContextEncoder",
+        "context_encoder_kwargs": {
+          "aggregation_type": "max",
+          "clamp_softplus_weights": true,
+          "latent_dim": 128,
+          "mean_feature_bidding": "none",
+          "positive_weights": "relu",
+          "rescale_raw_stddev": true
+        },
+        "ctx_from_train_prob_schedule": "linear",
+        "debug": false,
+        "embedding_dim": 200,
+        "env_name": "pendulum_quadrantactionfactorar2bd",
+        "grad_clip_norm": 1000,
+        "inference_approx": "np",
+        "kl_all_factor": 0,
+        "kl_empty_factor": 1.0,
+        "kl_np_weight": 5,
+        "learning_rate": 0.001,
+        "max_ctx_card": 50,
+        "n_rollouts_train": 100000,
+        "n_rollouts_val": 10000,
+        "n_training_steps": 100000,
+        "obs_n_transitions": 50,
+        "seed": 2,
+        "sequence_logll_weight": 1,
+        "transition_model_classname": "GruTransitionModel",
+        "transition_model_kwargs": {
+          "big_nets": false,
+          "hidden_dependent_noise": true
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "positive_weights": "relu",
+      "rescale_raw_stddev": true,
+      "max_context": 50,
+      "n_training_steps": 100000,
+      "weight_path": "files/experiments/train_model/22/models/checkpoint_step_100000_best.pkl",
+      "weight_sha256": "06991ff9997dfcc9db6bcbf8f4508ef38d915126bfaea0036eff65e42f70bd89",
+      "config": {
+        "batchsize": 512,
+        "context_dim": 16,
+        "context_encoder_classname": "MLPContextEncoder",
+        "context_encoder_kwargs": {
+          "aggregation_type": "max",
+          "clamp_softplus_weights": true,
+          "latent_dim": 128,
+          "mean_feature_bidding": "none",
+          "positive_weights": "relu",
+          "rescale_raw_stddev": true
+        },
+        "ctx_from_train_prob_schedule": "linear",
+        "debug": false,
+        "embedding_dim": 200,
+        "env_name": "pendulum_quadrantactionfactorar2bd",
+        "grad_clip_norm": 1000,
+        "inference_approx": "np",
+        "kl_all_factor": 0,
+        "kl_empty_factor": 1.0,
+        "kl_np_weight": 5,
+        "learning_rate": 0.001,
+        "max_ctx_card": 50,
+        "n_rollouts_train": 100000,
+        "n_rollouts_val": 10000,
+        "n_training_steps": 100000,
+        "obs_n_transitions": 50,
+        "seed": 1,
+        "sequence_logll_weight": 1,
+        "transition_model_classname": "GruTransitionModel",
+        "transition_model_kwargs": {
+          "big_nets": false,
+          "hidden_dependent_noise": true
+        }
+      }
+    }
+  ],
+  "physical": {
+    "state_observation": [
+      "cos(theta)",
+      "sin(theta)",
+      "angular_velocity"
+    ],
+    "observation_noise": false,
+    "process_noise": false,
+    "base_dt": 0.05,
+    "action_repeat": 2,
+    "coarse_dt": 0.1,
+    "context_fixed_across_reset": true,
+    "zero_action_gain_dependence_max_error": 0.0,
+    "other_quadrant_gain_dependence_max_error": 0.0,
+    "wrapper_raw_kernel_error": 0.0,
+    "max_query_substep_velocity": 1.986007727973849
+  },
+  "native_prior": {
+    "samples": 4096,
+    "shape": [
+      4096,
+      4
+    ],
+    "min_abs_gain": 1.2500509023666382,
+    "max_abs_gain": 1.999968409538269,
+    "fraction_abs_in_nominal_lower_half": 0.0,
+    "sign_positive_fraction": [
+      0.516845703125,
+      0.490478515625,
+      0.48193359375,
+      0.49658203125
+    ],
+    "sample_correlation": [
+      [
+        1.0,
+        0.010025918517240585,
+        0.0011486787614056622,
+        0.009518622595371071
+      ],
+      [
+        0.010025918517240585,
+        1.0,
+        0.007333004839244611,
+        0.016299609123037028
+      ],
+      [
+        0.0011486787614056622,
+        0.007333004839244611,
+        1.0,
+        0.011664446978000492
+      ],
+      [
+        0.009518622595371071,
+        0.016299609123037025,
+        0.011664446978000492,
+        1.0
+      ]
+    ],
+    "sha256": "a82e723cf4eca2cf842aad23114155ca53c85b0f4e26124c74c5cf07d16cc303",
+    "note": "Nominal Box ranges do not determine the joint sampler. HierarchicalBoxSpace seeds mixture RNG and both Box RNGs identically; audit actual sign/magnitude coupling before specifying a reference prior."
+  },
+  "comparison_caveat": "Published positive/unconstrained variants also differ in stddev rescaling; not an isolated constraint ablation.",
+  "elapsed_seconds": 5.185281199999736
+}

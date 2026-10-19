@@ -1,0 +1,38 @@
+{
+  "run": "lewm_matched_static_trainingCCA",
+  "seed": 41,
+  "seconds": 17.610597799997777,
+  "parameters": 88,
+  "snapshots": [
+    {
+      "step": 2000,
+      "checkpoint_sha256": "08003ad1c1939e851ae61bc5bd2adb3c619b43c2ff0d7fceb01058977f3c2b7c",
+      "physical_probe_nmse": 0.0006507533888045615,
+      "signal_subspace_overlap": 0.999352725176108,
+      "encoder_covariance_eigenvalues": [
+        0.9265071144695278,
+        0.9822030628243912
+      ]
+    },
+    {
+      "step": 4000,
+      "checkpoint_sha256": "b8bee091e76c86872abe2f38d6d27068e43f7567ac5498295de773eec1b5857f",
+      "physical_probe_nmse": 0.0003432713063326473,
+      "signal_subspace_overlap": 0.9996585117921608,
+      "encoder_covariance_eigenvalues": [
+        0.9622981789186054,
+        0.9879769108127109
+      ]
+    },
+    {
+      "step": 8000,
+      "checkpoint_sha256": "0e81e119f59ddf4e5a7071fbdd73957086ad523536ec3c957d0886daeea2fdd6",
+      "physical_probe_nmse": 0.0002831805903001436,
+      "signal_subspace_overlap": 0.9997186678744636,
+      "encoder_covariance_eigenvalues": [
+        0.9668918823429797,
+        0.9979358698497424
+      ]
+    }
+  ]
+}

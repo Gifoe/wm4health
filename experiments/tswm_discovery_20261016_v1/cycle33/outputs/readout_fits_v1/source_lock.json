@@ -1,0 +1,26 @@
+{
+  "plan_sha256": "44695f2d30ba895af3ce20b281334250ff89d319420d8c643ac58b0ab62f6f9d",
+  "source_manifest_sha256": "55816e5de72d74f4b3b1910ac422d30f62c0affa57c9e0906942d99450bfe49e",
+  "cache_complete_sha256": "0424bdff6d00ec0c36d8545c0f86dee1ad75791f06e8e6d4b9c2505d77afe61d",
+  "script_sha256": "078edcf861ca8116a4a797487e5b610a0ec3ad3491bdc6267bb8e10b825fd558",
+  "common_sha256": "9e8e62b2e37e1683b3d2254635da43169ba0bfb24bd3e6e03ab562f638234062",
+  "datasets": [
+    "NP",
+    "PJM"
+  ],
+  "seeds": [
+    2026331,
+    2026332,
+    2026333
+  ],
+  "arms": [
+    "native_mix",
+    "native_pred",
+    "wide_local_pred",
+    "global_pred"
+  ],
+  "epochs": 20,
+  "batch_size": 32,
+  "test_not_loaded": true,
+  "pid": 40944
+}

@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "result_sha256": "f52bd0b85081ab0171cc529d69d54fc452e8c7470aab89c007804de4c2d57549",
+  "verifier_sha256": "4bc6e53e2868cceb4a127ee62ba37d3b01b2f8c7f4a829e34e610e783bb46a6f",
+  "patches": 58,
+  "all_flagged_rows_covered": true,
+  "aggregate_scalars_replayed": 464,
+  "aggregate_max_error": 1.7763568394002505e-15,
+  "score_max_error": 6.106226635438361e-15,
+  "weight_max_error": 7.806255641895632e-18,
+  "tail_bound_max_error": 3.7769372671254835e-46,
+  "max_refinement_nll_error": 5.896825001627803e-07,
+  "max_new_tail_bound": 4.174379418698166e-30,
+  "unflagged_raw_values_unchanged": true,
+  "elapsed_seconds": 5.370415099998354,
+  "scope": "All sparse patches and source hashes; independent SciPy component score/weight algebra for every replaced context, full aggregates and conservative tail bounds. Unchanged checkpoints were verified in native/ordinary replay receipts."
+}

@@ -1,0 +1,402 @@
+{
+  "utc": "2026-10-17T00:14:48.110656+00:00",
+  "status": "PASS",
+  "protocol_sha256": "5bda57beb4cb6ed0b80bfbd4c9474dbad8f3c52eb0b080d4250f000189780950",
+  "oracle_checks": [
+    {
+      "record": 0,
+      "t": 0,
+      "filter_vs_block_mean": 1.5265566588595902e-15,
+      "filter_vs_block_cov": 9.540979117872439e-17
+    },
+    {
+      "record": 0,
+      "t": 3,
+      "filter_vs_block_mean": 9.43689570931383e-16,
+      "filter_vs_block_cov": 1.1275702593849246e-17
+    },
+    {
+      "record": 0,
+      "t": 7,
+      "filter_vs_block_mean": 1.0824674490095276e-15,
+      "filter_vs_block_cov": 1.9081958235744878e-17
+    },
+    {
+      "record": 0,
+      "t": 11,
+      "filter_vs_block_mean": 6.106226635438361e-16,
+      "filter_vs_block_cov": 2.3418766925686896e-17
+    },
+    {
+      "record": 0,
+      "h": 1,
+      "observable_gauge_max_error": 6.661338147750939e-16
+    },
+    {
+      "record": 0,
+      "h": 4,
+      "observable_gauge_max_error": 1.3322676295501878e-15
+    },
+    {
+      "record": 0,
+      "h": 8,
+      "observable_gauge_max_error": 1.1102230246251565e-15
+    },
+    {
+      "record": 1,
+      "t": 0,
+      "filter_vs_block_mean": 9.71445146547012e-16,
+      "filter_vs_block_cov": 1.5612511283791264e-17
+    },
+    {
+      "record": 1,
+      "t": 3,
+      "filter_vs_block_mean": 3.608224830031759e-16,
+      "filter_vs_block_cov": 2.0816681711721685e-17
+    },
+    {
+      "record": 1,
+      "t": 7,
+      "filter_vs_block_mean": 8.187894806610529e-16,
+      "filter_vs_block_cov": 7.28583859910259e-17
+    },
+    {
+      "record": 1,
+      "t": 11,
+      "filter_vs_block_mean": 7.771561172376096e-16,
+      "filter_vs_block_cov": 3.382710778154774e-17
+    },
+    {
+      "record": 1,
+      "h": 1,
+      "observable_gauge_max_error": 7.771561172376096e-16
+    },
+    {
+      "record": 1,
+      "h": 4,
+      "observable_gauge_max_error": 5.551115123125783e-16
+    },
+    {
+      "record": 1,
+      "h": 8,
+      "observable_gauge_max_error": 9.992007221626409e-16
+    },
+    {
+      "record": 2,
+      "t": 0,
+      "filter_vs_block_mean": 4.440892098500626e-16,
+      "filter_vs_block_cov": 1.3877787807814457e-17
+    },
+    {
+      "record": 2,
+      "t": 3,
+      "filter_vs_block_mean": 8.881784197001252e-16,
+      "filter_vs_block_cov": 1.8214596497756474e-17
+    },
+    {
+      "record": 2,
+      "t": 7,
+      "filter_vs_block_mean": 1.3322676295501878e-15,
+      "filter_vs_block_cov": 3.122502256758253e-17
+    },
+    {
+      "record": 2,
+      "t": 11,
+      "filter_vs_block_mean": 3.774758283725532e-15,
+      "filter_vs_block_cov": 5.898059818321144e-17
+    },
+    {
+      "record": 2,
+      "h": 1,
+      "observable_gauge_max_error": 4.440892098500626e-16
+    },
+    {
+      "record": 2,
+      "h": 4,
+      "observable_gauge_max_error": 1.3322676295501878e-15
+    },
+    {
+      "record": 2,
+      "h": 8,
+      "observable_gauge_max_error": 7.771561172376096e-16
+    },
+    {
+      "record": 3,
+      "t": 0,
+      "filter_vs_block_mean": 4.440892098500626e-16,
+      "filter_vs_block_cov": 6.938893903907228e-18
+    },
+    {
+      "record": 3,
+      "t": 3,
+      "filter_vs_block_mean": 3.0531133177191805e-16,
+      "filter_vs_block_cov": 4.85722573273506e-17
+    },
+    {
+      "record": 3,
+      "t": 7,
+      "filter_vs_block_mean": 4.440892098500626e-16,
+      "filter_vs_block_cov": 6.071532165918825e-17
+    },
+    {
+      "record": 3,
+      "t": 11,
+      "filter_vs_block_mean": 2.942091015256665e-15,
+      "filter_vs_block_cov": 9.367506770274758e-17
+    },
+    {
+      "record": 3,
+      "h": 1,
+      "observable_gauge_max_error": 1.3877787807814457e-16
+    },
+    {
+      "record": 3,
+      "h": 4,
+      "observable_gauge_max_error": 4.996003610813204e-16
+    },
+    {
+      "record": 3,
+      "h": 8,
+      "observable_gauge_max_error": 7.771561172376096e-16
+    }
+  ],
+  "compensation": [
+    {
+      "h": 1,
+      "case": "wrong_transition_exact_belief",
+      "KL_regret": 0.03209829726013823,
+      "Brier_excess": 0.0074999999999999945,
+      "state_coordinate_l2_error": 0.0
+    },
+    {
+      "h": 1,
+      "case": "wrong_transition_compensating_state",
+      "KL_regret": 1.942890293094024e-16,
+      "Brier_excess": 1.235002576838315e-32,
+      "state_coordinate_l2_error": 0.009259259259259266
+    },
+    {
+      "h": 1,
+      "case": "ordinary_correct_transition_exact_belief",
+      "KL_regret": 0.0,
+      "Brier_excess": 0.0,
+      "state_coordinate_l2_error": 0.0
+    },
+    {
+      "h": 4,
+      "case": "wrong_transition_exact_belief",
+      "KL_regret": 0.07965864615796794,
+      "Brier_excess": 0.0455716875,
+      "state_coordinate_l2_error": 0.0
+    },
+    {
+      "h": 4,
+      "case": "wrong_transition_compensating_state",
+      "KL_regret": 0.037172596382080335,
+      "Brier_excess": 0.022602720000000003,
+      "state_coordinate_l2_error": 0.009259259259259266
+    },
+    {
+      "h": 4,
+      "case": "ordinary_correct_transition_exact_belief",
+      "KL_regret": 0.0,
+      "Brier_excess": 0.0,
+      "state_coordinate_l2_error": 0.0
+    },
+    {
+      "h": 8,
+      "case": "wrong_transition_exact_belief",
+      "KL_regret": 0.07833347385391017,
+      "Brier_excess": 0.0517565169708769,
+      "state_coordinate_l2_error": 0.0
+    },
+    {
+      "h": 8,
+      "case": "wrong_transition_compensating_state",
+      "KL_regret": 0.05230417308873349,
+      "Brier_excess": 0.03462534219594719,
+      "state_coordinate_l2_error": 0.009259259259259266
+    },
+    {
+      "h": 8,
+      "case": "ordinary_correct_transition_exact_belief",
+      "KL_regret": 0.0,
+      "Brier_excess": 0.0,
+      "state_coordinate_l2_error": 0.0
+    }
+  ],
+  "cross_train_alignment_law_max_difference": 0.0,
+  "cross_heldout_law_max_difference": 0.18000000000000002,
+  "cross_repetitions": 128,
+  "cross_rows": 2304,
+  "cross_summary": [
+    {
+      "anchors": 0,
+      "history": 1,
+      "alignment_entropy": 3.178053830347946,
+      "known_alignment_Brier_excess": 0.01061197916666667,
+      "known_alignment_KL_regret": 0.041490418004849226,
+      "true_alignment_posterior": 0.04166666666666666,
+      "unique_alignment_fraction": 0.0
+    },
+    {
+      "anchors": 0,
+      "history": 8,
+      "alignment_entropy": 2.8776784188015085,
+      "known_alignment_Brier_excess": 0.0113069837537518,
+      "known_alignment_KL_regret": 0.04594797024337944,
+      "true_alignment_posterior": 0.07209691038050642,
+      "unique_alignment_fraction": 0.0
+    },
+    {
+      "anchors": 0,
+      "history": 32,
+      "alignment_entropy": 1.9301439036640629,
+      "known_alignment_Brier_excess": 0.008192341830113307,
+      "known_alignment_KL_regret": 0.032894137213673666,
+      "true_alignment_posterior": 0.21268850698738856,
+      "unique_alignment_fraction": 0.0
+    },
+    {
+      "anchors": 1,
+      "history": 1,
+      "alignment_entropy": 1.7917594692280547,
+      "known_alignment_Brier_excess": 0.009571571180555558,
+      "known_alignment_KL_regret": 0.039028193349903775,
+      "true_alignment_posterior": 0.16666666666666666,
+      "unique_alignment_fraction": 0.0
+    },
+    {
+      "anchors": 1,
+      "history": 8,
+      "alignment_entropy": 1.501358005239946,
+      "known_alignment_Brier_excess": 0.009189481471578253,
+      "known_alignment_KL_regret": 0.03833912751139472,
+      "true_alignment_posterior": 0.2604743624611876,
+      "unique_alignment_fraction": 0.0
+    },
+    {
+      "anchors": 1,
+      "history": 32,
+      "alignment_entropy": 0.8370083683681975,
+      "known_alignment_Brier_excess": 0.004773605745916237,
+      "known_alignment_KL_regret": 0.019332493637257916,
+      "true_alignment_posterior": 0.5339139921539908,
+      "unique_alignment_fraction": 0.0
+    },
+    {
+      "anchors": 2,
+      "history": 1,
+      "alignment_entropy": 1.5943525736080035,
+      "known_alignment_Brier_excess": 0.008958854166666667,
+      "known_alignment_KL_regret": 0.0369164776238554,
+      "true_alignment_posterior": 0.22656249999999997,
+      "unique_alignment_fraction": 0.0
+    },
+    {
+      "anchors": 2,
+      "history": 8,
+      "alignment_entropy": 1.3192077680114682,
+      "known_alignment_Brier_excess": 0.008391936873883961,
+      "known_alignment_KL_regret": 0.035147434423572155,
+      "true_alignment_posterior": 0.3319632043906466,
+      "unique_alignment_fraction": 0.0
+    },
+    {
+      "anchors": 2,
+      "history": 32,
+      "alignment_entropy": 0.7361105376241979,
+      "known_alignment_Brier_excess": 0.004046655856746546,
+      "known_alignment_KL_regret": 0.01667350145874086,
+      "true_alignment_posterior": 0.5919682984282542,
+      "unique_alignment_fraction": 0.0
+    },
+    {
+      "anchors": 4,
+      "history": 1,
+      "alignment_entropy": 1.312956952867888,
+      "known_alignment_Brier_excess": 0.007667317708333334,
+      "known_alignment_KL_regret": 0.03179262394196422,
+      "true_alignment_posterior": 0.32552083333333337,
+      "unique_alignment_fraction": 0.046875
+    },
+    {
+      "anchors": 4,
+      "history": 8,
+      "alignment_entropy": 1.082280329458726,
+      "known_alignment_Brier_excess": 0.006976533543154203,
+      "known_alignment_KL_regret": 0.029452240345286488,
+      "true_alignment_posterior": 0.4324717053630609,
+      "unique_alignment_fraction": 0.046875
+    },
+    {
+      "anchors": 4,
+      "history": 32,
+      "alignment_entropy": 0.6126758627853193,
+      "known_alignment_Brier_excess": 0.0035526254169497844,
+      "known_alignment_KL_regret": 0.014879972448840035,
+      "true_alignment_posterior": 0.6572766681144643,
+      "unique_alignment_fraction": 0.046875
+    },
+    {
+      "anchors": 8,
+      "history": 1,
+      "alignment_entropy": 0.8256773954507698,
+      "known_alignment_Brier_excess": 0.005132465277777779,
+      "known_alignment_KL_regret": 0.021021100175501257,
+      "true_alignment_posterior": 0.5299479166666667,
+      "unique_alignment_fraction": 0.2421875
+    },
+    {
+      "anchors": 8,
+      "history": 8,
+      "alignment_entropy": 0.6649014392617955,
+      "known_alignment_Brier_excess": 0.0039072772929084065,
+      "known_alignment_KL_regret": 0.01645950169527567,
+      "true_alignment_posterior": 0.643635712952072,
+      "unique_alignment_fraction": 0.2421875
+    },
+    {
+      "anchors": 8,
+      "history": 32,
+      "alignment_entropy": 0.3335255636634316,
+      "known_alignment_Brier_excess": 0.0020669679750588295,
+      "known_alignment_KL_regret": 0.00882086787537363,
+      "true_alignment_posterior": 0.802972428979918,
+      "unique_alignment_fraction": 0.2421875
+    },
+    {
+      "anchors": 16,
+      "history": 1,
+      "alignment_entropy": 0.3651726109636443,
+      "known_alignment_Brier_excess": 0.0024901041666666674,
+      "known_alignment_KL_regret": 0.010012727432823798,
+      "true_alignment_posterior": 0.7760416666666667,
+      "unique_alignment_fraction": 0.609375
+    },
+    {
+      "anchors": 16,
+      "history": 8,
+      "alignment_entropy": 0.2910527497583498,
+      "known_alignment_Brier_excess": 0.002005002997548323,
+      "known_alignment_KL_regret": 0.008297721285585417,
+      "true_alignment_posterior": 0.8311303844663808,
+      "unique_alignment_fraction": 0.609375
+    },
+    {
+      "anchors": 16,
+      "history": 32,
+      "alignment_entropy": 0.15828239832608818,
+      "known_alignment_Brier_excess": 0.0010518439279105303,
+      "known_alignment_KL_regret": 0.004125219413856373,
+      "true_alignment_posterior": 0.9037767010214135,
+      "unique_alignment_fraction": 0.609375
+    }
+  ],
+  "raw_sha256": "55669ac529f6a9e8b06a8635766eccb078c7818ea8e98319c04d29a3223a53ce",
+  "oracle_covariance": "effective native float32 Cholesky factors, computed in float64; state rounding ignored",
+  "neural_fits": 0,
+  "new_method": false,
+  "test_scored": false,
+  "interpretation": "Privileged exact controls; alignment uncertainty is an information cost, not proof an algorithm fails or a new neural mechanism is required."
+}

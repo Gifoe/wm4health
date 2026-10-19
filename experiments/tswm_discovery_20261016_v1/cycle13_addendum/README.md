@@ -1,0 +1,1 @@
+Classification metadata addendum: the descriptive combined label method + theory in the sealed exploratory CSV is canonically pure method under the skill taxonomy. Scores,claims and scientific evidence are unchanged. The sealed cycle13manifest remains unchanged. See papers_canonical_types.csv.

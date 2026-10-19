@@ -1,0 +1,373 @@
+{
+  "status": "passed",
+  "results_sha256": "0f6626483f8542af19443eb2ad290ca336b5e091f7bc80d6455ac6471e9d9dcd",
+  "script_sha256": "aa5d4cd28a2af62957dfd72b4ca7e507680015c0367517f2abe2485ac4d4478a",
+  "metric_rows_rescored": 4260,
+  "metric_relative_error_max": 0.0,
+  "frozen_train_unit_transforms": 3,
+  "independent_origins_reconstructed": 71,
+  "arx_refits": 1136,
+  "arx_relative_error_max": 8.523042411632878e-13,
+  "sampled_neural_replays": [
+    {
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "conditional96",
+      "seed": 2026291,
+      "error": 1.835869076943585e-08
+    },
+    {
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "conditional96",
+      "seed": 2026291,
+      "error": 6.47662879939755e-09
+    },
+    {
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "conditional96",
+      "seed": 2026291,
+      "error": 4.304643303236638e-07
+    },
+    {
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "compiled64",
+      "seed": 2026291,
+      "error": 1.2419176197436359e-08
+    },
+    {
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "compiled64",
+      "seed": 2026291,
+      "error": 4.87260251361366e-09
+    },
+    {
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "compiled64",
+      "seed": 2026291,
+      "error": 1.5761210819957826e-07
+    },
+    {
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "conditional128",
+      "seed": 2026291,
+      "error": 2.0693376158513338e-08
+    },
+    {
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "conditional128",
+      "seed": 2026291,
+      "error": 1.2932699173692238e-08
+    },
+    {
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "conditional128",
+      "seed": 2026291,
+      "error": 2.781640894366018e-07
+    },
+    {
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "native_attention64",
+      "seed": 2026291,
+      "error": 2.0182850486660988e-08
+    },
+    {
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "native_attention64_chunk32",
+      "seed": 2026291,
+      "error": 3.032957199899805e-08
+    },
+    {
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "native_attention64",
+      "seed": 2026291,
+      "error": 1.7875157792241198e-08
+    },
+    {
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "native_attention64_chunk32",
+      "seed": 2026291,
+      "error": 2.108893633928989e-08
+    },
+    {
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "native_attention64",
+      "seed": 2026291,
+      "error": 2.11904518452621e-07
+    },
+    {
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "native_attention64_chunk32",
+      "seed": 2026291,
+      "error": 2.585218106681627e-07
+    },
+    {
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "conditional96",
+      "seed": 2026292,
+      "error": 1.8779280204150335e-08
+    },
+    {
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "conditional96",
+      "seed": 2026292,
+      "error": 1.1257812923686268e-08
+    },
+    {
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "conditional96",
+      "seed": 2026292,
+      "error": 1.8879169604954976e-07
+    },
+    {
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "compiled64",
+      "seed": 2026292,
+      "error": 6.481826099305759e-09
+    },
+    {
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "compiled64",
+      "seed": 2026292,
+      "error": 2.8432321462026936e-09
+    },
+    {
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "compiled64",
+      "seed": 2026292,
+      "error": 8.106064534578316e-08
+    },
+    {
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "conditional128",
+      "seed": 2026292,
+      "error": 1.4433021624379398e-08
+    },
+    {
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "conditional128",
+      "seed": 2026292,
+      "error": 7.31137365879494e-09
+    },
+    {
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "conditional128",
+      "seed": 2026292,
+      "error": 3.072960514159346e-07
+    },
+    {
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "native_attention64",
+      "seed": 2026292,
+      "error": 4.1705940439180175e-08
+    },
+    {
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "native_attention64_chunk32",
+      "seed": 2026292,
+      "error": 4.019711805676382e-08
+    },
+    {
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "native_attention64",
+      "seed": 2026292,
+      "error": 2.220960121467305e-08
+    },
+    {
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "native_attention64_chunk32",
+      "seed": 2026292,
+      "error": 2.5660161380053934e-08
+    },
+    {
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "native_attention64",
+      "seed": 2026292,
+      "error": 3.970819471359531e-07
+    },
+    {
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "native_attention64_chunk32",
+      "seed": 2026292,
+      "error": 3.9212149654895387e-07
+    },
+    {
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "conditional96",
+      "seed": 2026293,
+      "error": 1.2625464777196263e-08
+    },
+    {
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "conditional96",
+      "seed": 2026293,
+      "error": 1.2173891895579602e-08
+    },
+    {
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "conditional96",
+      "seed": 2026293,
+      "error": 1.4727674522613268e-07
+    },
+    {
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "compiled64",
+      "seed": 2026293,
+      "error": 1.574686801258716e-08
+    },
+    {
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "compiled64",
+      "seed": 2026293,
+      "error": 4.056736460838388e-09
+    },
+    {
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "compiled64",
+      "seed": 2026293,
+      "error": 1.451391281661593e-07
+    },
+    {
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "conditional128",
+      "seed": 2026293,
+      "error": 1.2365011863095733e-08
+    },
+    {
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "conditional128",
+      "seed": 2026293,
+      "error": 4.875106089785263e-09
+    },
+    {
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "conditional128",
+      "seed": 2026293,
+      "error": 1.2830950357237384e-07
+    },
+    {
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "native_attention64",
+      "seed": 2026293,
+      "error": 2.2657854721372575e-08
+    },
+    {
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "native_attention64_chunk32",
+      "seed": 2026293,
+      "error": 3.389288113363843e-08
+    },
+    {
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "native_attention64",
+      "seed": 2026293,
+      "error": 1.928665967165579e-08
+    },
+    {
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "native_attention64_chunk32",
+      "seed": 2026293,
+      "error": 3.2003380253968655e-08
+    },
+    {
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "native_attention64",
+      "seed": 2026293,
+      "error": 2.0690066639487007e-07
+    },
+    {
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "native_attention64_chunk32",
+      "seed": 2026293,
+      "error": 1.509601373660524e-07
+    },
+    {
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "pretrained_native_icl",
+      "seed": null,
+      "error": 6.940545496209922e-05
+    },
+    {
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "pretrained_native_icl",
+      "seed": null,
+      "error": 3.8259539683004377e-07
+    },
+    {
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "pretrained_native_icl",
+      "seed": null,
+      "error": 3.993880597585205e-06
+    },
+    {
+      "family": "silverbox",
+      "record": "multisine",
+      "method": "pretrained_pcfm_cd_glue0",
+      "seed": null,
+      "error": 0.0
+    },
+    {
+      "family": "silverbox",
+      "record": "arrow_full",
+      "method": "pretrained_pcfm_cd_glue0",
+      "seed": null,
+      "error": 0.0
+    },
+    {
+      "family": "cascaded_tanks",
+      "record": "test",
+      "method": "pretrained_pcfm_cd_glue0",
+      "seed": null,
+      "error": 0.0
+    }
+  ],
+  "neural_relative_error_max": 6.940545496209922e-05,
+  "elapsed_s": 8.702999999994063,
+  "scope": "all measured-data windows,unit transforms,all scores,ARX fits,frozen weights and sampled neural outputs;not real intervention ground truth"
+}

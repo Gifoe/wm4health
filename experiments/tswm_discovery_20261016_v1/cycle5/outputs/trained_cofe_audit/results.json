@@ -1,0 +1,44 @@
+[
+  {
+    "variant": "released",
+    "training_batch_size": 8,
+    "checkpoint": "outputs/cofe_etth1_affinity1/released/best.pt",
+    "loss_before": 1.0204074382781982,
+    "loss_after_aux_zero": 1.020308494567871,
+    "distribution_parameter_max_change": 0.0,
+    "estimated_noise_before": {
+      "first_stream_mean_abs": 0.0038949637673795223,
+      "second_stream_mean_abs": 0.005082401446998119
+    },
+    "estimated_noise_after_max": 0.0,
+    "trained_additional_models": 0
+  },
+  {
+    "variant": "scale_fix",
+    "training_batch_size": 8,
+    "checkpoint": "outputs/cofe_etth1_affinity1/scale_fix/best.pt",
+    "loss_before": 0.881271243095398,
+    "loss_after_aux_zero": 0.881182074546814,
+    "distribution_parameter_max_change": 0.0,
+    "estimated_noise_before": {
+      "first_stream_mean_abs": 0.003412035293877125,
+      "second_stream_mean_abs": 0.007937904447317123
+    },
+    "estimated_noise_after_max": 0.0,
+    "trained_additional_models": 0
+  },
+  {
+    "variant": "scale_fix_noaux",
+    "training_batch_size": 8,
+    "checkpoint": "outputs/cofe_etth1_affinity1/scale_fix_noaux/best.pt",
+    "loss_before": 0.8239415884017944,
+    "loss_after_aux_zero": 0.8239415884017944,
+    "distribution_parameter_max_change": 0.0,
+    "estimated_noise_before": {
+      "first_stream_mean_abs": 0.1587163358926773,
+      "second_stream_mean_abs": 0.1627683788537979
+    },
+    "estimated_noise_after_max": 0.0,
+    "trained_additional_models": 0
+  }
+]

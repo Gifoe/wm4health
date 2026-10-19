@@ -1,0 +1,565 @@
+{
+  "status": "completed",
+  "utc": "2026-10-16T21:48:46.695860+00:00",
+  "locks": {
+    "source": {
+      "files": 18,
+      "manifest_sha256": "9775b22e17ce9a09870d57d4d28aa8503a0d0f0b0117177822ef9bfa29c3d968"
+    },
+    "plan_sha256": "7de53e1d3d99c795f4a3c1c5e56e263fef9dcb986a2fbccd943a10a762d222b8",
+    "common_sha256": "288bb598fcf539fe10feefce2cf9e6341717ab60581ffeed7bbe806709bf054e",
+    "runner_sha256": "3858910031957860bca891c1384f228238d316f9af5de4fddd5b5cc679b13d4a",
+    "preflight_sha256": "b4655bae0d54b090f431f37c533a3dada89aaf841ca7276d81268f9e0b36200d"
+  },
+  "metadata": [
+    {
+      "name": "solar",
+      "data_sha256": "b44068eb97346134134015763d428ef6fe0b7ec91c38bdc49f987e15aa06ecbb",
+      "fields": [
+        "target",
+        "global_horizontal_irradiance",
+        "temp",
+        "pressure",
+        "humidity",
+        "wind_speed",
+        "rain_1h",
+        "snow_1h",
+        "clouds_all",
+        "day_length"
+      ],
+      "total_rows": 198600,
+      "train_end": 139020,
+      "val_end": 158880,
+      "test_scored": false,
+      "mu": [
+        567.3086013117218,
+        31.8374317451478,
+        9.8236716687647,
+        1015.0475571350149,
+        80.05940307994568,
+        3.975149517257793,
+        0.06876859959061118,
+        0.005696165941319605,
+        65.29825777931872,
+        741.2056860535668
+      ],
+      "sd": [
+        1046.8543648008779,
+        51.61670627017679,
+        7.781845528570853,
+        9.603048223111161,
+        15.412594165799744,
+        1.8071069916912104,
+        0.2812489290941771,
+        0.06362652229151078,
+        37.053001372630945,
+        193.95875602429922
+      ],
+      "valid_origin_counts": {
+        "train": 137655,
+        "val": 206
+      },
+      "id": "0",
+      "first_timestamp": "2017-01-01T00:00:00.000",
+      "val_last_timestamp": "2021-07-13T23:45:00.000",
+      "nonfinite_before_val_end": 576,
+      "sampling_seconds": 900
+    },
+    {
+      "name": "jena",
+      "data_sha256": "22ce21756dfae541d740b0756330ab5181befcd797274aa5b27a0c3747cb5b0c",
+      "fields": [
+        "target_0",
+        "target_1",
+        "target_2",
+        "target_3",
+        "target_4",
+        "target_5",
+        "target_6",
+        "target_7",
+        "target_8",
+        "target_9",
+        "target_10",
+        "target_11",
+        "target_12",
+        "target_13",
+        "target_14",
+        "target_15",
+        "target_16",
+        "target_17",
+        "target_18",
+        "target_19",
+        "target_20"
+      ],
+      "total_rows": 52704,
+      "train_end": 36892,
+      "val_end": 42163,
+      "test_scored": false,
+      "mu": [
+        990.641771806617,
+        11.979115306763651,
+        285.90993087020155,
+        5.474145542618223,
+        67.52693597186308,
+        15.684343463301552,
+        9.84428734117813,
+        5.83998834253705,
+        6.215624001590929,
+        9.947799798423082,
+        1206.7500091876254,
+        1.9475490058666793,
+        3.761123282079941,
+        175.97562750983946,
+        0.011482254818085492,
+        23.289591410677005,
+        160.6568771144829,
+        318.070071607774,
+        378.5172218781239,
+        22.81214082391997,
+        411.05012598465134
+      ],
+      "sd": [
+        8.630860639850559,
+        7.718518174464066,
+        7.916783070205298,
+        6.464427861294547,
+        18.75388079396691,
+        8.109330960842954,
+        4.396244448488803,
+        5.902776727558542,
+        2.7999253079920234,
+        4.462005213872793,
+        38.068767981916025,
+        52.10223672437285,
+        2.5959911107219957,
+        86.96187682606974,
+        0.12279089477499801,
+        105.35273828991112,
+        238.78601870894977,
+        468.07156368059947,
+        643.377847374734,
+        7.978151337694634,
+        383.9777032883045
+      ],
+      "valid_origin_counts": {
+        "train": 36357,
+        "val": 54
+      },
+      "id": "item_0",
+      "first_timestamp": "2020-01-01T00:10:00.000",
+      "val_last_timestamp": "2020-10-19T19:10:00.000",
+      "nonfinite_before_val_end": 9,
+      "sampling_seconds": 600
+    }
+  ],
+  "results": [
+    {
+      "dataset": "solar",
+      "arm": "N",
+      "seed": 2026351,
+      "best_step": 400,
+      "best_val_mae": 0.3001032859319821,
+      "best_metrics": {
+        "step": 400,
+        "fused_mae": 0.3001032859319821,
+        "fused_mse": 0.4177714436494886,
+        "num_mae": 0.3001032859319821,
+        "num_mse": 0.4177714436494886,
+        "latent_mae": 0.14361128315908236,
+        "num_latent_mae": 0.14361128315908236,
+        "predictor_sha256": "6a9d5a395b07167902675e7803f04a37b09ba32f9da349c9aed025bf7d699321"
+      },
+      "seconds": 23.927644800016424,
+      "peak_allocated_bytes": 120567808,
+      "initialization": {
+        "teacher": "63f175c9d9d5e522db86f70e34915750422c9df393afb3cd9d2aba0a2867afda",
+        "predictor": "be6854521e5c223f348805286d4cdb05f858ba06f4f5d368cd043a88d35263d4",
+        "g": null,
+        "project": null
+      },
+      "best_checkpoint_sha256": "13f309fac291ca72e6e6c76f0eed71707579d00723e8f3a145b76b32b916cd09",
+      "predictions_sha256": "fe40d436760c26b1cd5ceed76a9b74934488653bf9733ec780311291ce4bed49",
+      "trainable_parameters": 96288,
+      "last_500_relative_val_improvement": 0.0,
+      "encoder_and_decoder_unchanged": true,
+      "updates": 2000,
+      "schedule_sha256": "af27b993ff00ad3163d8437ba785bc2e48e979fbbf228c6b15e969a9fffb9765"
+    },
+    {
+      "dataset": "solar",
+      "arm": "JZ",
+      "seed": 2026351,
+      "best_step": 700,
+      "best_val_mae": 0.27031299357022187,
+      "best_metrics": {
+        "step": 700,
+        "fused_mae": 0.27031299357022187,
+        "fused_mse": 0.3360715704156797,
+        "num_mae": 0.3033193956056917,
+        "num_mse": 0.41555864182693275,
+        "latent_mae": 0.1018412119247815,
+        "num_latent_mae": 0.10291642445202881,
+        "predictor_sha256": "e4ec8ca6be7514742e8a5264470b6bcdf3c219a34fa66d150b8fb8b0d3b72485"
+      },
+      "seconds": 29.17909459999646,
+      "peak_allocated_bytes": 155546112,
+      "initialization": {
+        "teacher": "63f175c9d9d5e522db86f70e34915750422c9df393afb3cd9d2aba0a2867afda",
+        "predictor": "be6854521e5c223f348805286d4cdb05f858ba06f4f5d368cd043a88d35263d4",
+        "g": "eb40ad4c282e647ca8daee598b1b41d275a19dde7022386ddf73a7430f9e949e",
+        "project": null
+      },
+      "best_checkpoint_sha256": "9bd9a46c8a7da97fb7f6598782f1001384fa7948343bfc0821c3ee0181948a18",
+      "predictions_sha256": "2e0d418625c74f6cf0ce89c639c434ae77adcbdbc32da3510c3953e38da0668e",
+      "trainable_parameters": 2075936,
+      "last_500_relative_val_improvement": 0.0,
+      "encoder_and_decoder_unchanged": true,
+      "updates": 2000,
+      "schedule_sha256": "af27b993ff00ad3163d8437ba785bc2e48e979fbbf228c6b15e969a9fffb9765"
+    },
+    {
+      "dataset": "solar",
+      "arm": "JZ_N",
+      "seed": 2026351,
+      "best_step": 1400,
+      "best_val_mae": 0.2679214301073779,
+      "best_metrics": {
+        "step": 1400,
+        "fused_mae": 0.2679214301073779,
+        "fused_mse": 0.34211557121134056,
+        "num_mae": 0.30153264980977945,
+        "num_mse": 0.427417847636657,
+        "latent_mae": 0.10351356920035719,
+        "num_latent_mae": 0.10773914103007433,
+        "predictor_sha256": "f68528ae357a66304411a88449e29ee52ac79041b449ffc409eb1202b5037c66"
+      },
+      "seconds": 30.592240300000412,
+      "peak_allocated_bytes": 168267264,
+      "initialization": {
+        "teacher": "63f175c9d9d5e522db86f70e34915750422c9df393afb3cd9d2aba0a2867afda",
+        "predictor": "be6854521e5c223f348805286d4cdb05f858ba06f4f5d368cd043a88d35263d4",
+        "g": "eb40ad4c282e647ca8daee598b1b41d275a19dde7022386ddf73a7430f9e949e",
+        "project": null
+      },
+      "best_checkpoint_sha256": "77198444adc1c7dd17d61dbabef6711291361df3581806b370aa8c17f52a23fc",
+      "predictions_sha256": "3b71a6e996bfdd445ab5283973f0409229eb8049f48a8222a51aba7926ecabd5",
+      "trainable_parameters": 2075936,
+      "last_500_relative_val_improvement": 0.0,
+      "encoder_and_decoder_unchanged": true,
+      "updates": 2000,
+      "schedule_sha256": "af27b993ff00ad3163d8437ba785bc2e48e979fbbf228c6b15e969a9fffb9765"
+    },
+    {
+      "dataset": "solar",
+      "arm": "PZ",
+      "seed": 2026351,
+      "best_step": 1600,
+      "best_val_mae": 0.2722804018960886,
+      "best_metrics": {
+        "step": 1600,
+        "fused_mae": 0.2722804018960886,
+        "fused_mse": 0.3381098142257525,
+        "num_mae": 0.30193463547801763,
+        "num_mse": 0.42721075514025836,
+        "latent_mae": 0.13166693373791222,
+        "num_latent_mae": 0.30070076166715437,
+        "predictor_sha256": "ba077909e56cf982586eb5074898d600373ccda2f0ca626c9deca2bbbc9c4114"
+      },
+      "seconds": 30.273839899979066,
+      "peak_allocated_bytes": 173488640,
+      "initialization": {
+        "teacher": "63f175c9d9d5e522db86f70e34915750422c9df393afb3cd9d2aba0a2867afda",
+        "predictor": "be6854521e5c223f348805286d4cdb05f858ba06f4f5d368cd043a88d35263d4",
+        "g": "eb40ad4c282e647ca8daee598b1b41d275a19dde7022386ddf73a7430f9e949e",
+        "project": null
+      },
+      "best_checkpoint_sha256": "8798342cc7fa1bfb67e7947e7bb6253c2f93f67a80312d8e27da26d9773817b2",
+      "predictions_sha256": "11ffe59977543a5ba06b79abf5a6a786f4423def13c24b0bdca30c7e6b92203e",
+      "trainable_parameters": 2075936,
+      "last_500_relative_val_improvement": 0.0044120432174607,
+      "encoder_and_decoder_unchanged": true,
+      "updates": 2000,
+      "schedule_sha256": "af27b993ff00ad3163d8437ba785bc2e48e979fbbf228c6b15e969a9fffb9765"
+    },
+    {
+      "dataset": "solar",
+      "arm": "PY",
+      "seed": 2026351,
+      "best_step": 1300,
+      "best_val_mae": 0.2788779271870526,
+      "best_metrics": {
+        "step": 1300,
+        "fused_mae": 0.2788779271870526,
+        "fused_mse": 0.35513997030752364,
+        "num_mae": 0.30029304174353705,
+        "num_mse": 0.4221710044768893,
+        "latent_mae": 0.2602361359642547,
+        "num_latent_mae": 0.2458740006228095,
+        "predictor_sha256": "95bcc334930b467b934471a54a22f47646f75c8ffdaeb1f246c6f1e48dedc032"
+      },
+      "seconds": 27.43012699999963,
+      "peak_allocated_bytes": 173845504,
+      "initialization": {
+        "teacher": "63f175c9d9d5e522db86f70e34915750422c9df393afb3cd9d2aba0a2867afda",
+        "predictor": "be6854521e5c223f348805286d4cdb05f858ba06f4f5d368cd043a88d35263d4",
+        "g": "eb40ad4c282e647ca8daee598b1b41d275a19dde7022386ddf73a7430f9e949e",
+        "project": "5f4124950722f0a0d4c84923183987be499562f0e8676a15b2027a4f8292903a"
+      },
+      "best_checkpoint_sha256": "e43f01d95cbb76fbd1f33ca7fcc67fb852a57b7341c40a9efcfce674f557a84e",
+      "predictions_sha256": "9d178603cc3bfc5ded737e01d475b721270eb78388e2630b8c43f321536f2d8e",
+      "trainable_parameters": 2075968,
+      "last_500_relative_val_improvement": 0.0,
+      "encoder_and_decoder_unchanged": true,
+      "updates": 2000,
+      "schedule_sha256": "af27b993ff00ad3163d8437ba785bc2e48e979fbbf228c6b15e969a9fffb9765"
+    },
+    {
+      "dataset": "solar",
+      "arm": "PZ_NC",
+      "seed": 2026351,
+      "best_step": 400,
+      "best_val_mae": 0.30102481837248773,
+      "best_metrics": {
+        "step": 400,
+        "fused_mae": 0.30102481837248773,
+        "fused_mse": 0.41862406027516025,
+        "num_mae": 0.3001032859319821,
+        "num_mse": 0.4177714436494886,
+        "latent_mae": 0.12096258728466566,
+        "num_latent_mae": 0.14361128315908236,
+        "predictor_sha256": "6a9d5a395b07167902675e7803f04a37b09ba32f9da349c9aed025bf7d699321"
+      },
+      "seconds": 29.902267900004517,
+      "peak_allocated_bytes": 184614912,
+      "initialization": {
+        "teacher": "63f175c9d9d5e522db86f70e34915750422c9df393afb3cd9d2aba0a2867afda",
+        "predictor": "be6854521e5c223f348805286d4cdb05f858ba06f4f5d368cd043a88d35263d4",
+        "g": "eb40ad4c282e647ca8daee598b1b41d275a19dde7022386ddf73a7430f9e949e",
+        "project": null
+      },
+      "best_checkpoint_sha256": "e8f4e3026bed5084d8e682359cae2d6a2148f4e3d0995dbbf95147475b6c48ed",
+      "predictions_sha256": "e45730c15807d83944ab72cadab1807e2dcbb85b442d7834f54ba55a40a7af1a",
+      "trainable_parameters": 2075936,
+      "last_500_relative_val_improvement": 0.0,
+      "encoder_and_decoder_unchanged": true,
+      "updates": 2000,
+      "schedule_sha256": "af27b993ff00ad3163d8437ba785bc2e48e979fbbf228c6b15e969a9fffb9765"
+    },
+    {
+      "dataset": "jena",
+      "arm": "N",
+      "seed": 2026351,
+      "best_step": 0,
+      "best_val_mae": 0.13854755478462688,
+      "best_metrics": {
+        "step": 0,
+        "fused_mae": 0.13854755478462688,
+        "fused_mse": 0.04361054261594459,
+        "num_mae": 0.13854755478462688,
+        "num_mse": 0.04361054261594459,
+        "latent_mae": 0.2813862749823817,
+        "num_latent_mae": 0.2813862749823817,
+        "predictor_sha256": "6ce010ad3a2f049172854864d1421f9ea75eb77231bd63cad7d33dd1f5bcd04c"
+      },
+      "seconds": 23.234198099991772,
+      "peak_allocated_bytes": 154403328,
+      "initialization": {
+        "teacher": "d0d851fba06eae6840f761d60c4a3cc47dcca81d9d7a5e140f1ff40e3ccd892d",
+        "predictor": "6ce010ad3a2f049172854864d1421f9ea75eb77231bd63cad7d33dd1f5bcd04c",
+        "g": null,
+        "project": null
+      },
+      "best_checkpoint_sha256": "1ccb4f6e6a66d10b45019160ac9ceac3ac8b9d314fba6e7b5a98f9d163ce8c43",
+      "predictions_sha256": "96157947aeb49e3ede8b364dad94782de6ca80a481f9621a660fc2051fa24b68",
+      "trainable_parameters": 96288,
+      "last_500_relative_val_improvement": 0.0,
+      "encoder_and_decoder_unchanged": true,
+      "updates": 2000,
+      "schedule_sha256": "ef1eef77a37299e0ffa8e84e57eb388319ec50cbed8df8659ce4841fb748c37b"
+    },
+    {
+      "dataset": "jena",
+      "arm": "JZ",
+      "seed": 2026351,
+      "best_step": 0,
+      "best_val_mae": 0.13854755478462688,
+      "best_metrics": {
+        "step": 0,
+        "fused_mae": 0.13854755478462688,
+        "fused_mse": 0.04361054261594459,
+        "num_mae": 0.13854755478462688,
+        "num_mse": 0.04361054261594459,
+        "latent_mae": 0.2813862749823817,
+        "num_latent_mae": 0.2813862749823817,
+        "predictor_sha256": "6ce010ad3a2f049172854864d1421f9ea75eb77231bd63cad7d33dd1f5bcd04c"
+      },
+      "seconds": 28.38778089999687,
+      "peak_allocated_bytes": 179023872,
+      "initialization": {
+        "teacher": "d0d851fba06eae6840f761d60c4a3cc47dcca81d9d7a5e140f1ff40e3ccd892d",
+        "predictor": "6ce010ad3a2f049172854864d1421f9ea75eb77231bd63cad7d33dd1f5bcd04c",
+        "g": "a5db381cd0dd39cc93c64ae1c66d7a2882ad5f7386af064a4570ed65897211c5",
+        "project": null
+      },
+      "best_checkpoint_sha256": "f6dd164f2ccf6ee5f275862638d941e5c31a35162f38b59649ae110043daa73b",
+      "predictions_sha256": "96157947aeb49e3ede8b364dad94782de6ca80a481f9621a660fc2051fa24b68",
+      "trainable_parameters": 2549024,
+      "last_500_relative_val_improvement": 0.0,
+      "encoder_and_decoder_unchanged": true,
+      "updates": 2000,
+      "schedule_sha256": "ef1eef77a37299e0ffa8e84e57eb388319ec50cbed8df8659ce4841fb748c37b"
+    },
+    {
+      "dataset": "jena",
+      "arm": "JZ_N",
+      "seed": 2026351,
+      "best_step": 0,
+      "best_val_mae": 0.13854755478462688,
+      "best_metrics": {
+        "step": 0,
+        "fused_mae": 0.13854755478462688,
+        "fused_mse": 0.04361054261594459,
+        "num_mae": 0.13854755478462688,
+        "num_mse": 0.04361054261594459,
+        "latent_mae": 0.2813862749823817,
+        "num_latent_mae": 0.2813862749823817,
+        "predictor_sha256": "6ce010ad3a2f049172854864d1421f9ea75eb77231bd63cad7d33dd1f5bcd04c"
+      },
+      "seconds": 29.405659099982586,
+      "peak_allocated_bytes": 181571072,
+      "initialization": {
+        "teacher": "d0d851fba06eae6840f761d60c4a3cc47dcca81d9d7a5e140f1ff40e3ccd892d",
+        "predictor": "6ce010ad3a2f049172854864d1421f9ea75eb77231bd63cad7d33dd1f5bcd04c",
+        "g": "a5db381cd0dd39cc93c64ae1c66d7a2882ad5f7386af064a4570ed65897211c5",
+        "project": null
+      },
+      "best_checkpoint_sha256": "f6dd164f2ccf6ee5f275862638d941e5c31a35162f38b59649ae110043daa73b",
+      "predictions_sha256": "96157947aeb49e3ede8b364dad94782de6ca80a481f9621a660fc2051fa24b68",
+      "trainable_parameters": 2549024,
+      "last_500_relative_val_improvement": 0.0,
+      "encoder_and_decoder_unchanged": true,
+      "updates": 2000,
+      "schedule_sha256": "ef1eef77a37299e0ffa8e84e57eb388319ec50cbed8df8659ce4841fb748c37b"
+    },
+    {
+      "dataset": "jena",
+      "arm": "PZ",
+      "seed": 2026351,
+      "best_step": 0,
+      "best_val_mae": 0.13854755478462688,
+      "best_metrics": {
+        "step": 0,
+        "fused_mae": 0.13854755478462688,
+        "fused_mse": 0.04361054261594459,
+        "num_mae": 0.13854755478462688,
+        "num_mse": 0.04361054261594459,
+        "latent_mae": 0.2813862749823817,
+        "num_latent_mae": 0.2813862749823817,
+        "predictor_sha256": "6ce010ad3a2f049172854864d1421f9ea75eb77231bd63cad7d33dd1f5bcd04c"
+      },
+      "seconds": 29.22125249999226,
+      "peak_allocated_bytes": 184513024,
+      "initialization": {
+        "teacher": "d0d851fba06eae6840f761d60c4a3cc47dcca81d9d7a5e140f1ff40e3ccd892d",
+        "predictor": "6ce010ad3a2f049172854864d1421f9ea75eb77231bd63cad7d33dd1f5bcd04c",
+        "g": "a5db381cd0dd39cc93c64ae1c66d7a2882ad5f7386af064a4570ed65897211c5",
+        "project": null
+      },
+      "best_checkpoint_sha256": "f6dd164f2ccf6ee5f275862638d941e5c31a35162f38b59649ae110043daa73b",
+      "predictions_sha256": "96157947aeb49e3ede8b364dad94782de6ca80a481f9621a660fc2051fa24b68",
+      "trainable_parameters": 2549024,
+      "last_500_relative_val_improvement": 0.0,
+      "encoder_and_decoder_unchanged": true,
+      "updates": 2000,
+      "schedule_sha256": "ef1eef77a37299e0ffa8e84e57eb388319ec50cbed8df8659ce4841fb748c37b"
+    },
+    {
+      "dataset": "jena",
+      "arm": "PY",
+      "seed": 2026351,
+      "best_step": 0,
+      "best_val_mae": 0.13854755478462688,
+      "best_metrics": {
+        "step": 0,
+        "fused_mae": 0.13854755478462688,
+        "fused_mse": 0.04361054261594459,
+        "num_mae": 0.13854755478462688,
+        "num_mse": 0.04361054261594459,
+        "latent_mae": 0.2813862749823817,
+        "num_latent_mae": 0.2813862749823817,
+        "predictor_sha256": "6ce010ad3a2f049172854864d1421f9ea75eb77231bd63cad7d33dd1f5bcd04c"
+      },
+      "seconds": 27.259302699996624,
+      "peak_allocated_bytes": 183695872,
+      "initialization": {
+        "teacher": "d0d851fba06eae6840f761d60c4a3cc47dcca81d9d7a5e140f1ff40e3ccd892d",
+        "predictor": "6ce010ad3a2f049172854864d1421f9ea75eb77231bd63cad7d33dd1f5bcd04c",
+        "g": "a5db381cd0dd39cc93c64ae1c66d7a2882ad5f7386af064a4570ed65897211c5",
+        "project": "fa13149fd21367f6eac9f5fa1781b891f75ead38a53e7623a6e4f1dd2df9ecf4"
+      },
+      "best_checkpoint_sha256": "09483b29da850f91b5b24a3948cc4db38fe032a65e1a0879feddc68c187b9e40",
+      "predictions_sha256": "96157947aeb49e3ede8b364dad94782de6ca80a481f9621a660fc2051fa24b68",
+      "trainable_parameters": 2549056,
+      "last_500_relative_val_improvement": 0.0,
+      "encoder_and_decoder_unchanged": true,
+      "updates": 2000,
+      "schedule_sha256": "ef1eef77a37299e0ffa8e84e57eb388319ec50cbed8df8659ce4841fb748c37b"
+    },
+    {
+      "dataset": "jena",
+      "arm": "PZ_NC",
+      "seed": 2026351,
+      "best_step": 0,
+      "best_val_mae": 0.13854755478462688,
+      "best_metrics": {
+        "step": 0,
+        "fused_mae": 0.13854755478462688,
+        "fused_mse": 0.04361054261594459,
+        "num_mae": 0.13854755478462688,
+        "num_mse": 0.04361054261594459,
+        "latent_mae": 0.2813862749823817,
+        "num_latent_mae": 0.2813862749823817,
+        "predictor_sha256": "6ce010ad3a2f049172854864d1421f9ea75eb77231bd63cad7d33dd1f5bcd04c"
+      },
+      "seconds": 29.34614999999758,
+      "peak_allocated_bytes": 183988736,
+      "initialization": {
+        "teacher": "d0d851fba06eae6840f761d60c4a3cc47dcca81d9d7a5e140f1ff40e3ccd892d",
+        "predictor": "6ce010ad3a2f049172854864d1421f9ea75eb77231bd63cad7d33dd1f5bcd04c",
+        "g": "a5db381cd0dd39cc93c64ae1c66d7a2882ad5f7386af064a4570ed65897211c5",
+        "project": null
+      },
+      "best_checkpoint_sha256": "f6dd164f2ccf6ee5f275862638d941e5c31a35162f38b59649ae110043daa73b",
+      "predictions_sha256": "96157947aeb49e3ede8b364dad94782de6ca80a481f9621a660fc2051fa24b68",
+      "trainable_parameters": 2549024,
+      "last_500_relative_val_improvement": 0.0,
+      "encoder_and_decoder_unchanged": true,
+      "updates": 2000,
+      "schedule_sha256": "ef1eef77a37299e0ffa8e84e57eb388319ec50cbed8df8659ce4841fb748c37b"
+    }
+  ],
+  "decision": {
+    "solar": {
+      "PZ_relative_improvement": {
+        "PY": 0.023657395038435003,
+        "JZ_N": -0.0162695898829881,
+        "PZ_NC": 0.0954885269321244
+      },
+      "passes": false
+    },
+    "jena": {
+      "PZ_relative_improvement": {
+        "PY": 0.0,
+        "JZ_N": 0.0,
+        "PZ_NC": 0.0
+      },
+      "passes": false
+    }
+  },
+  "screen_passes": false,
+  "test_scored": false,
+  "seed_count": 1,
+  "seconds": 385.5718225000019,
+  "accepted_directions": 0,
+  "not_a_paper_performance_reproduction": true
+}

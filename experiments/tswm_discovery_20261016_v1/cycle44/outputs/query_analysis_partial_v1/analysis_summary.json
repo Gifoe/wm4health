@@ -1,0 +1,38 @@
+{
+  "status": "SCORING_VERIFIED_FOR_COMPLETED_SUBSET",
+  "full_original_protocol_completed": false,
+  "utc": "2026-10-17T02:27:15.653463+00:00",
+  "models": 5,
+  "raw_npz_files_SHA_checked": 340,
+  "rows": 972,
+  "replicates_per_conditional_estimator": 16,
+  "functions": 5,
+  "query_histories_per_model": 4,
+  "exact_control_additional_rows": 72,
+  "stop_decision_sha256": "5fac56d21eabbaed31c32b340ae4463661fde8b96c5dd321c59885c68a79185a",
+  "completed_model_ids": [
+    "gaussian_ar_mixture_2026441",
+    "gaussian_ar_mixture_2026442",
+    "gaussian_lgssm_2026441",
+    "gaussian_lgssm_2026442",
+    "gaussian_spf_condition_trainable_2026441"
+  ],
+  "truth_reference_sha256": "5ab37016a118499e8103f33ad54107920bd6816297a1932b6060d4de526946b6",
+  "quality_verification_sha256": "d24164543a88e5ad780c2e9af53037eca0dc2760243975497bbc26ea7da12ba7",
+  "all_rows_sha256": "0bff562e289dd4c2cc513d2e59d4c3704c74f7cb3f6ccbf0caa7dad910b52d69",
+  "paired_comparisons_sha256": "598f5fd3fe910e589a100eb300d53bbd91eec7268083cb78c5825a04f042178b",
+  "source_sha256": "cc11c4fabd683a75073d739ad84e3b33a56c235f440a0a81a6f93b48b410fded",
+  "no_model_import_or_new_training": true,
+  "independence_scope": "independent CPU scoring from saved draw arrays; not an independent neural-network implementation",
+  "limits": [
+    "INCOMPLETE original16-model protocol; only the completion-sealed subset is scored",
+    "subset not chosen by query effects; do not infer missing cases or seed stability",
+    "four query histories/carrier; two fitted initializations",
+    "budgets/policies/functions use paired nested replicate pools",
+    "reference MC uncertainty reported; tiny error gains may be reference-limited",
+    "PF convergence is numerical evidence, not a rigorous global bias bound",
+    "request latency measured at fixed history0; other origins have constituent call timings",
+    "cross-family fit budgets/objectives/representation differ",
+    "no candidate framework acceptance implied"
+  ]
+}

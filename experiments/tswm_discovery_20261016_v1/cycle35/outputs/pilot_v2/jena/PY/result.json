@@ -1,0 +1,32 @@
+{
+  "dataset": "jena",
+  "arm": "PY",
+  "seed": 2026351,
+  "best_step": 0,
+  "best_val_mae": 0.13854755478462688,
+  "best_metrics": {
+    "step": 0,
+    "fused_mae": 0.13854755478462688,
+    "fused_mse": 0.04361054261594459,
+    "num_mae": 0.13854755478462688,
+    "num_mse": 0.04361054261594459,
+    "latent_mae": 0.2813862749823817,
+    "num_latent_mae": 0.2813862749823817,
+    "predictor_sha256": "6ce010ad3a2f049172854864d1421f9ea75eb77231bd63cad7d33dd1f5bcd04c"
+  },
+  "seconds": 27.259302699996624,
+  "peak_allocated_bytes": 183695872,
+  "initialization": {
+    "teacher": "d0d851fba06eae6840f761d60c4a3cc47dcca81d9d7a5e140f1ff40e3ccd892d",
+    "predictor": "6ce010ad3a2f049172854864d1421f9ea75eb77231bd63cad7d33dd1f5bcd04c",
+    "g": "a5db381cd0dd39cc93c64ae1c66d7a2882ad5f7386af064a4570ed65897211c5",
+    "project": "fa13149fd21367f6eac9f5fa1781b891f75ead38a53e7623a6e4f1dd2df9ecf4"
+  },
+  "best_checkpoint_sha256": "09483b29da850f91b5b24a3948cc4db38fe032a65e1a0879feddc68c187b9e40",
+  "predictions_sha256": "96157947aeb49e3ede8b364dad94782de6ca80a481f9621a660fc2051fa24b68",
+  "trainable_parameters": 2549056,
+  "last_500_relative_val_improvement": 0.0,
+  "encoder_and_decoder_unchanged": true,
+  "updates": 2000,
+  "schedule_sha256": "ef1eef77a37299e0ffa8e84e57eb388319ec50cbed8df8659ce4841fb748c37b"
+}

@@ -1,0 +1,38 @@
+{
+  "run": "motion_random",
+  "seed": 41,
+  "seconds": 30.744879000005312,
+  "parameters": 268442,
+  "snapshots": [
+    {
+      "step": 2000,
+      "checkpoint_sha256": "42f9664d75f5a6d0197bb7da9109a2bacefdcd9029c126c285db2d38b2245547",
+      "physical_probe_nmse": 0.5443179881228962,
+      "signal_subspace_overlap": 0.4557278131732049,
+      "encoder_covariance_eigenvalues": [
+        0.8386447739880396,
+        0.9712347611772377
+      ]
+    },
+    {
+      "step": 4000,
+      "checkpoint_sha256": "654b9a07d63d3ad20e772c1cda902035658667b705d57df96a3f8cbc673056d7",
+      "physical_probe_nmse": 0.544892438520093,
+      "signal_subspace_overlap": 0.4542426779522671,
+      "encoder_covariance_eigenvalues": [
+        0.8266211091026203,
+        0.9946815395698295
+      ]
+    },
+    {
+      "step": 8000,
+      "checkpoint_sha256": "b7475c9a813779697be2c97eee5ea288cb0d487eae5958a32f986c940aaa2616",
+      "physical_probe_nmse": 0.13555086050323345,
+      "signal_subspace_overlap": 0.8653051729566017,
+      "encoder_covariance_eigenvalues": [
+        0.940199149222654,
+        0.975384080452681
+      ]
+    }
+  ]
+}

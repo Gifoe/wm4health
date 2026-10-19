@@ -1,3 +1,18 @@
+# wm4health — 时间序列 World Model 研究记录
+
+本仓库汇总基线复现、机制审计、失败归因及研究探索。**当前尚无通过证据与新颖性要求的最终研究方向；研究目标仍未完成。**
+
+- **[先读：全部研究尝试与主要结论](docs/TIME_SERIES_WORLD_MODEL_RESEARCH_SUMMARY.md)**
+- [逐阶段索引：88 个阶段记录](docs/RESEARCH_ATTEMPTS_INDEX.md) · [机器可读目录](docs/experiment_index_20261019.json)
+- [早期六个时序项目](docs/TIME_SERIES_WORLD_MODEL_RESEARCH_SUMMARY.md#1-早期复现与-worldts-系列) · [原有 VitalDB 系列](docs/VITALDB_HISTORICAL_INDEX.md)
+- [当前执行状态](experiments/tswm_discovery_20261016_v1/CURRENT_RESEARCH_STATUS.md) · [补档范围与校验](docs/ARCHIVE_SCOPE_AND_VERIFICATION.md)
+- [逐文件发布清单](RESEARCH_ARCHIVE_MANIFEST_20261019.json)
+
+2026-10-19 整理：补齐此前未发布的紧凑代码、配置、报告和指标；保留原有实验文件。C71 三颗原预算训练 seed 已结束，后续评估队列报错，不能仍写作训练中。原始数据、权重、完整预测与长日志继续留在服务器。
+
+<details>
+<summary>原有 VitalDB 项目说明（历史内容，保持原记录）</summary>
+
 # wm4health
 
 ## Round 6 — Physiological grounding audit
@@ -94,3 +109,5 @@ The experiment README's server paths describe the original run. To reproduce the
 ### Data provenance
 
 Data come from the [VitalDB Open Dataset](https://vitaldb.net/dataset/) via its [official API](https://vitaldb.net/docs/?documentId=API%2FWeb_API_OpenDataset.md). The original [VitalDB propofol/BIS notebook](https://github.com/vitaldb/examples/blob/master/ppf_bis.ipynb) is retained as a reference under `outputs/official_ppf_bis.ipynb`. Third-party data and the reference notebook retain their upstream terms and attribution.
+
+</details>

@@ -1,0 +1,401 @@
+[
+  {
+    "repository": "mkarmann/motion-jepa",
+    "revision": "b3c2fb374b7c69f169de15774f371290a8736f56",
+    "commit_date": "2026-09-22T02:43:32Z",
+    "license": null,
+    "fetched_utc": "2026-10-15T21:57:19.374992+00:00",
+    "scope": "code/config/paper-source only; no data, checkpoints or result tables",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "c18a1615954dcd78c9b786efbe93cd216b74d7c2ce13650b1dcbeb822c611cca",
+        "bytes": 4517
+      },
+      {
+        "path": "configs/dino_lewm-sigreg-flattened_default.yaml",
+        "sha256": "fa0648c66c5076d2fecafe5aab0eb3f95a434cd3a35e47bb785ea037b2834ce8",
+        "bytes": 73
+      },
+      {
+        "path": "configs/dino_lewm-sigreg-flattened_optimized.yaml",
+        "sha256": "f92ce0b8ec3a8bd18ceeceb84d86484656cade6c46c4153f33acc4258ca931c7",
+        "bytes": 72
+      },
+      {
+        "path": "configs/dino_lewm-sigreg-time_default.yaml",
+        "sha256": "fa2fab35b0f7650a54fa07d1868be0e46de57d6f13187e742f46d8a86b130efa",
+        "bytes": 68
+      },
+      {
+        "path": "configs/dino_lewm-sigreg-time_optimized.yaml",
+        "sha256": "4cd41bbe50ac7bf767c40f51edad093febf24ef7b63d1a3612d79f46c958de99",
+        "bytes": 67
+      },
+      {
+        "path": "configs/dino_lewm-tgt-detach_default.yaml",
+        "sha256": "e8b83d29cd066edb4a3e77b5a695c65195411fbfbf3213456f8de72085a6ee10",
+        "bytes": 67
+      },
+      {
+        "path": "configs/dino_lewm-tgt-detach_optimized.yaml",
+        "sha256": "ddbe676734a053b0de6484d2bc3f9b7633baba05e4a325d7ca351d3e605342e7",
+        "bytes": 67
+      },
+      {
+        "path": "configs/dino_lewm_default.yaml",
+        "sha256": "3c4776cbd9faa3db45c246264f0089cc6727b7942abf5948b1aaa1f52dedb6b1",
+        "bytes": 56
+      },
+      {
+        "path": "configs/dino_lewm_optimized.yaml",
+        "sha256": "b8cbc681e2b526b02b9b8134b88a8c86f4ce607d4c54cda19e320820b0a0d7f5",
+        "bytes": 55
+      },
+      {
+        "path": "configs/dino_motionjepa_default.yaml",
+        "sha256": "841a383a28a73db2b9b2c2ef21c645d4670d36d55b98e61f71247f2173e5f814",
+        "bytes": 108
+      },
+      {
+        "path": "configs/dino_smwm_default.yaml",
+        "sha256": "24015f3167c89e93b2cc9366ba29755682d4ded938096c3340b191e6f2dd082f",
+        "bytes": 60
+      },
+      {
+        "path": "configs/dino_smwm_optimized.yaml",
+        "sha256": "184245f2197369321f6b855a738d503c8d6ffe02e42d770fa12f67127858b515",
+        "bytes": 60
+      },
+      {
+        "path": "configs/golf_lewm-sigreg-flattened_default.yaml",
+        "sha256": "176e71757c5369c1bf814b9eca661c40b5267bf6693d2443e25f2d64ec9c15a7",
+        "bytes": 73
+      },
+      {
+        "path": "configs/golf_lewm-sigreg-flattened_optimized.yaml",
+        "sha256": "691d6ca1cb1edf1064435834dab4c0e44e09d284c7f31cdb27108fb526165e33",
+        "bytes": 72
+      },
+      {
+        "path": "configs/golf_lewm-sigreg-time_default.yaml",
+        "sha256": "d4ac757832c33fd43f7c53854a8492e09d7992cefc27cb00b167a39779198f56",
+        "bytes": 68
+      },
+      {
+        "path": "configs/golf_lewm-sigreg-time_optimized.yaml",
+        "sha256": "192a0ed1e363017e5557976d4f558a6fb61414b1964d3862dccc9843a67332b5",
+        "bytes": 68
+      },
+      {
+        "path": "configs/golf_lewm-tgt-detach_default.yaml",
+        "sha256": "2f51127f9d9367bfb5271c3f008f3cfd7c5ad4ad0a26298add4218d848d8cb0e",
+        "bytes": 67
+      },
+      {
+        "path": "configs/golf_lewm-tgt-detach_optimized.yaml",
+        "sha256": "fca887154f3512bf4fa22f4be7d9b9a5f068739c7010f53524d365ad73794ca7",
+        "bytes": 67
+      },
+      {
+        "path": "configs/golf_lewm_default.yaml",
+        "sha256": "f5bb32e78a2b9c3a08da07a6c3acdb77d45be4702fcab0c9f0f3167c4fb1a2b1",
+        "bytes": 56
+      },
+      {
+        "path": "configs/golf_lewm_optimized.yaml",
+        "sha256": "a5079e7d36e75b737d8c909f9717df8cf7a4e1e98ac904d9a9b37eeb598561ac",
+        "bytes": 55
+      },
+      {
+        "path": "configs/golf_motionjepa_default.yaml",
+        "sha256": "10211e86e02a9d60c8ef4b7be4785b4456a3b238a4d127ec228b18b1779eb285",
+        "bytes": 108
+      },
+      {
+        "path": "configs/golf_smwm_default.yaml",
+        "sha256": "0b8c54b99e9a5b5ef3a236628103cea1f3c2edf4a63388fecc503664b3692262",
+        "bytes": 60
+      },
+      {
+        "path": "configs/golf_smwm_optimized.yaml",
+        "sha256": "0b8c54b99e9a5b5ef3a236628103cea1f3c2edf4a63388fecc503664b3692262",
+        "bytes": 60
+      },
+      {
+        "path": "configs/pong_lewm-sigreg-flattened_default.yaml",
+        "sha256": "98e9df9b16a76a1cc7c3b833380e8e560ea1e01c68e843db4cb0f9cec4d4b8ec",
+        "bytes": 73
+      },
+      {
+        "path": "configs/pong_lewm-sigreg-flattened_optimized.yaml",
+        "sha256": "b294b533377375f1ae1cc8c3a3b80548b410cbef70f1f4742fd2a839b14c39e5",
+        "bytes": 72
+      },
+      {
+        "path": "configs/pong_lewm-sigreg-time_default.yaml",
+        "sha256": "51ae9619c568aaa44c7ef596b49964562e8cc5bd2dc5686fea3df141fa3d5b5b",
+        "bytes": 68
+      },
+      {
+        "path": "configs/pong_lewm-sigreg-time_optimized.yaml",
+        "sha256": "f74a403cb96d2311f2357fd85d2793500a891f836bc79678ee7339948e95e496",
+        "bytes": 68
+      },
+      {
+        "path": "configs/pong_lewm-tgt-detach_default.yaml",
+        "sha256": "10e0f96b39fc1a7cfa10c5743e158ddc787aa62a9337d70f8b27d7f5ee21deae",
+        "bytes": 67
+      },
+      {
+        "path": "configs/pong_lewm-tgt-detach_optimized.yaml",
+        "sha256": "e41353b8e4dd6b6854dc00a516eba38514abc792c62e62c599f653a8e27f50dd",
+        "bytes": 66
+      },
+      {
+        "path": "configs/pong_lewm_default.yaml",
+        "sha256": "064fe54850ed0d45b4ee10dc58cb0a7ffc2db700efc48541a51c905ed46ffc23",
+        "bytes": 56
+      },
+      {
+        "path": "configs/pong_lewm_optimized.yaml",
+        "sha256": "6c0c4bb4b8bf4171aa1b5326ab68016f4d03e4f9399fc0a1af2273d7a15afb58",
+        "bytes": 57
+      },
+      {
+        "path": "configs/pong_motionjepa_default.yaml",
+        "sha256": "ed43e69859cbf6da911a41426c4dc8d7327f70b7581650f2b0c6e473a64637a0",
+        "bytes": 108
+      },
+      {
+        "path": "configs/pong_smwm_default.yaml",
+        "sha256": "0d03e48557ff3e5e0f3a8f6e69cf69d0da94da226b520ebd6a9ec1ecd5eb779c",
+        "bytes": 60
+      },
+      {
+        "path": "configs/pong_smwm_optimized.yaml",
+        "sha256": "f442372b997a4ddd18ab6c9b85c44a5bf7e9f1cb7ae0830a099330f96592a1f5",
+        "bytes": 62
+      },
+      {
+        "path": "evaluate.py",
+        "sha256": "0ea24ff51750b12388deaca10fe98b88c0892898ff8d673b6178080df425e02a",
+        "bytes": 6017
+      },
+      {
+        "path": "pyproject.toml",
+        "sha256": "680d26aa5bf9a73e3a5cade2cd6c1badd8f948af9d0bba2dc715e0e26f26f07c",
+        "bytes": 888
+      },
+      {
+        "path": "src/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "src/data/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "src/data/dataloader.py",
+        "sha256": "ced042b46db79aa0d3fa755385f87418ca38de7c6bd8c59772f2a0844d1e4b78",
+        "bytes": 1511
+      },
+      {
+        "path": "src/data/dino.py",
+        "sha256": "4731969beb2ed5c25eaa26c4c7d8b6f0c9ee0d57c52e3f24969265ebb6fc976e",
+        "bytes": 20608
+      },
+      {
+        "path": "src/data/golf.py",
+        "sha256": "8dd9654a6e61809f6dcbbe7ec4458ef26d6ee0aa9c7742059ad8f59ed99599bc",
+        "bytes": 17844
+      },
+      {
+        "path": "src/data/pong.py",
+        "sha256": "a8a00b470d7a0ad012f9c2dfda3df8520b32bc6239538d978bdc62f9d30a14b9",
+        "bytes": 14571
+      },
+      {
+        "path": "src/data/registry.py",
+        "sha256": "3ddbea810645238d4be4ed05375ccfcd21a77d60a6471160668803bbe99f72e9",
+        "bytes": 1025
+      },
+      {
+        "path": "src/models/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "src/models/lewm/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "src/models/lewm/jepa.py",
+        "sha256": "cb8d08750880ed82794f5ca83004e3262f77c9c96abba8031545a9fb878207f8",
+        "bytes": 3111
+      },
+      {
+        "path": "src/models/lewm/module.py",
+        "sha256": "452de90884bec44217fe74209ffae50d289ccaf1b9c3aff4f5f9e4a8631081b5",
+        "bytes": 7832
+      },
+      {
+        "path": "src/models/lewm/vit.py",
+        "sha256": "67d0a9fc5961d01940f91556f47195079f017e1d5c53f8ee618fad3485b01395",
+        "bytes": 2828
+      },
+      {
+        "path": "src/models/lewm_sigreg_flattened/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "src/models/lewm_sigreg_flattened/jepa.py",
+        "sha256": "3bb97f33d4d41d76e9ede13b1a95d85e3c6c0e4d6552c4a0af83ead752617f4e",
+        "bytes": 885
+      },
+      {
+        "path": "src/models/lewm_sigreg_time/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "src/models/lewm_sigreg_time/jepa.py",
+        "sha256": "4499a2b2a58500a39485da80eb1ebeff9948ab544a352c26722971f9953fd6ae",
+        "bytes": 823
+      },
+      {
+        "path": "src/models/lewm_tgt_detach/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "src/models/lewm_tgt_detach/jepa.py",
+        "sha256": "1714f8b833d893010ea2b10f46e405666116d0f56bed4bf3c10739b6b8ec86c6",
+        "bytes": 852
+      },
+      {
+        "path": "src/models/motionjepa/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "src/models/motionjepa/jepa.py",
+        "sha256": "4cb7f746ac3f84db6def779fb6651070f91d47bcd32e95efc9eec4b0d1965f25",
+        "bytes": 3474
+      },
+      {
+        "path": "src/models/probes/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "src/models/probes/state_linear_probe.py",
+        "sha256": "21f8250d9b2ba78e7632eee90838f0d47c3879ec950e2d4911fcd4df249a6760",
+        "bytes": 724
+      },
+      {
+        "path": "src/models/probes/state_residual_mlp_probe.py",
+        "sha256": "3f40c25fc299f92c47c9a10822cc86465752b5fdcdc80a7c80cea9c95179e2d5",
+        "bytes": 1852
+      },
+      {
+        "path": "src/models/registry.py",
+        "sha256": "73c455e5ad4ca3b6839ae3eec81c98662aa327bd396fd80bb92490d5c6bcd3cb",
+        "bytes": 3807
+      },
+      {
+        "path": "src/models/smwm/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "src/models/smwm/jepa.py",
+        "sha256": "404785a8019d28feec13b035b542dff59108251caec0bc1ed4c24f9c8e3d05d3",
+        "bytes": 2416
+      },
+      {
+        "path": "src/utils.py",
+        "sha256": "474a899c0bd670769c72d947f107b695f5fbddb6e95de8f19b0910903a446e84",
+        "bytes": 5005
+      },
+      {
+        "path": "train.py",
+        "sha256": "ad0341064572d5d79e604a69c3995dcc8a79f5f85e7d7dbde84f8be59a5d88aa",
+        "bytes": 6074
+      },
+      {
+        "path": "train_probes.py",
+        "sha256": "572354194130db63a27240adf11f301610ed25c98a8678cc49cbbd5db36e61d9",
+        "bytes": 5531
+      }
+    ]
+  },
+  {
+    "repository": "YongchaoHuang/VJEPA",
+    "revision": "88a90d2c0af970edd46d44d53d4864d10aa6d117",
+    "commit_date": "2026-08-30T00:02:39Z",
+    "fetched_utc": "2026-10-15T22:18:57.205698+00:00",
+    "scope": "small author code/config files only; no experiments executed yet",
+    "files": [
+      {
+        "path": "exp10/exp10_dreamer_sigma0p0.py",
+        "bytes": 39166,
+        "sha256": "3fe4f613b3e2a57cd35d1adcd9c8a2b4fc862970fde50c7e8ef11bd0bdacfcb9"
+      },
+      {
+        "path": "exp10/exp10_dreamer_sigma0p5.py",
+        "bytes": 39166,
+        "sha256": "e014ab01703ad860e68a201f7cea53b6351404cd5c3870e9a2b8addb444d8057"
+      },
+      {
+        "path": "exp10/exp10_dreamer_sigma1p0.py",
+        "bytes": 39166,
+        "sha256": "d2896366a000b90a4728123c3dd50d818fd541d44dbd3fc0fd79e7cce172a2df"
+      },
+      {
+        "path": "exp10/exp10_jepa_sigma0p0.py",
+        "bytes": 39160,
+        "sha256": "587455f25c23faf7f163faf3c5f8aa8f886187ec460ec3fcd4df66d4d869714e"
+      },
+      {
+        "path": "exp10/exp10_jepa_sigma0p5.py",
+        "bytes": 39160,
+        "sha256": "6988b7e70f1524fec256f07c6203bff762065c970d3ee1922d6df30cb7543a3d"
+      },
+      {
+        "path": "exp10/exp10_jepa_sigma1p0.py",
+        "bytes": 39160,
+        "sha256": "c97356d12bdf4edce1cc5b570d8ae27910cc5a771aaa26e10e6a692fb6734b63"
+      },
+      {
+        "path": "exp10/exp10_vjepa_sigma0p0.py",
+        "bytes": 39162,
+        "sha256": "9823e4792249c4264e0a8447bab1b40c01cb7fe1f068879453dfe2fdb56b16d6"
+      },
+      {
+        "path": "exp10/exp10_vjepa_sigma0p5.py",
+        "bytes": 39162,
+        "sha256": "298d4aeb043c7793af7f7668aea4614bbd4ac90b705139c1891bbbe0d8b6b5a3"
+      },
+      {
+        "path": "exp10/exp10_vjepa_sigma1p0.py",
+        "bytes": 39162,
+        "sha256": "f763f84c3c1ce291efabbc6cbb66cf81ebc26ddc531f59494a2e7b45075c32af"
+      },
+      {
+        "path": "exp9_vit_stl10/results_table.json",
+        "bytes": 920,
+        "sha256": "fb9a4361c557ba679493706b421fc91a458cec9560e47e61295961cbf901a8de"
+      },
+      {
+        "path": "vjepa_Yongchao.py",
+        "bytes": 33559,
+        "sha256": "54eda8b0c4a7eab89dd182ee0183102d6bf13707e158e329c292ab71066d2778"
+      }
+    ]
+  }
+]

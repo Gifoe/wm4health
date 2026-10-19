@@ -1,0 +1,223 @@
+{
+  "created_utc": "2026-10-15T23:53:23.709220+00:00",
+  "rows": [
+    {
+      "variant": "native_A",
+      "context_width": 1,
+      "training_trajectories": 98976,
+      "validation_trajectories": 1024,
+      "r2_per_true_factor": [
+        0.9746048455586582,
+        0.979372847039015,
+        0.9974504470202615,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "spearman_per_true_factor": [
+        0.9847968224733566,
+        0.9881777836885771,
+        0.9985259235748515,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_spearman": 0.995928647105255,
+      "mean_R2": 0.9930611628025622,
+      "normalized_residual_variance_per_factor": [
+        0.025395154441341754,
+        0.02062715296098501,
+        0.0025495529797384814,
+        2.474748215772482e-29,
+        3.0117854356183308e-31,
+        1.8330228260714752e-30,
+        1.7156064162184134e-29
+      ],
+      "scope": "Supervised recoverability certificate only, not an unsupervised method or independent test comparison. Same validation split as native configuration, centered time3."
+    },
+    {
+      "variant": "native_A",
+      "context_width": 3,
+      "training_trajectories": 98976,
+      "validation_trajectories": 1024,
+      "r2_per_true_factor": [
+        0.994259805887538,
+        0.9981609571655258,
+        0.9985244651890708,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "spearman_per_true_factor": [
+        0.9966514376654031,
+        0.9989025619590871,
+        0.9991047001287461,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_spearman": 0.9992369571076052,
+      "mean_R2": 0.9987064611774478,
+      "normalized_residual_variance_per_factor": [
+        0.005740194112461965,
+        0.0018390428344741852,
+        0.0014755348109291998,
+        4.9941535175644694e-29,
+        3.369182972720355e-30,
+        4.357967126472568e-29,
+        1.9075601002456319e-29
+      ],
+      "scope": "Supervised recoverability certificate only, not an unsupervised method or independent test comparison. Same validation split as native configuration, centered time3."
+    },
+    {
+      "variant": "native_A",
+      "context_width": 5,
+      "training_trajectories": 98976,
+      "validation_trajectories": 1024,
+      "r2_per_true_factor": [
+        0.9962425493808656,
+        0.9989197603771074,
+        0.9990701200569878,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "spearman_per_true_factor": [
+        0.9977549106823546,
+        0.9993508824476075,
+        0.9994114445497461,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_spearman": 0.9995024625256725,
+      "mean_R2": 0.9991760614021372,
+      "normalized_residual_variance_per_factor": [
+        0.003757450619134403,
+        0.0010802396228926333,
+        0.0009298799430122446,
+        2.0902905323169408e-29,
+        2.2721757368382227e-29,
+        2.1974404988436762e-29,
+        1.0990184177143044e-29
+      ],
+      "scope": "Supervised recoverability certificate only, not an unsupervised method or independent test comparison. Same validation split as native configuration, centered time3."
+    },
+    {
+      "variant": "independent_noise_A",
+      "context_width": 1,
+      "training_trajectories": 98976,
+      "validation_trajectories": 1024,
+      "r2_per_true_factor": [
+        0.9408122270061923,
+        0.5933283848361923,
+        0.964130166056111,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "spearman_per_true_factor": [
+        0.9653437030612974,
+        0.7565817336921536,
+        0.9793786545132679,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_spearman": 0.9573291558952456,
+      "mean_R2": 0.9283243968426422,
+      "normalized_residual_variance_per_factor": [
+        0.059187772993807675,
+        0.4066716151638076,
+        0.03586983394388894,
+        1.5895059040073976e-28,
+        9.038869256097791e-30,
+        5.737229762138372e-30,
+        7.147223839854297e-31
+      ],
+      "scope": "Supervised recoverability certificate only, not an unsupervised method or independent test comparison. Same validation split as native configuration, centered time3."
+    },
+    {
+      "variant": "independent_noise_A",
+      "context_width": 3,
+      "training_trajectories": 98976,
+      "validation_trajectories": 1024,
+      "r2_per_true_factor": [
+        0.9608276655794088,
+        0.633642402679855,
+        0.9670694048922005,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "spearman_per_true_factor": [
+        0.976683803018382,
+        0.7807147199771117,
+        0.98041407758744,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_spearman": 0.9625446572261335,
+      "mean_R2": 0.9373627818787806,
+      "normalized_residual_variance_per_factor": [
+        0.03917233442059115,
+        0.366357597320145,
+        0.03293059510779945,
+        1.7302469354639012e-28,
+        1.8120713609279774e-29,
+        3.840833552897165e-29,
+        1.6200944269513107e-29
+      ],
+      "scope": "Supervised recoverability certificate only, not an unsupervised method or independent test comparison. Same validation split as native configuration, centered time3."
+    },
+    {
+      "variant": "independent_noise_A",
+      "context_width": 5,
+      "training_trajectories": 98976,
+      "validation_trajectories": 1024,
+      "r2_per_true_factor": [
+        0.9659853938813788,
+        0.6385570730520289,
+        0.9677921368176838,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "spearman_per_true_factor": [
+        0.9802281891495601,
+        0.7818343309670266,
+        0.9806429037622486,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_spearman": 0.9632436319826907,
+      "mean_R2": 0.9389049433930131,
+      "normalized_residual_variance_per_factor": [
+        0.034014606118621206,
+        0.36144292694797114,
+        0.03220786318231611,
+        1.629497957224586e-28,
+        4.2030198122875414e-30,
+        4.4400494576544775e-29,
+        1.8251137602700923e-29
+      ],
+      "scope": "Supervised recoverability certificate only, not an unsupervised method or independent test comparison. Same validation split as native configuration, centered time3."
+    }
+  ],
+  "source_caution": "The pinned native leaky_ReLU helper is identity, so native A observation mixing and latent recurrence are linear. The independent-noise control changes noise indexing only. Neither is certified to satisfy every nonlinear identifiability assumption.",
+  "interpretation": "A supervised certificate can separate missing information from learning failure; it is not a deployable baseline with matched latent-label access. Finite-window latent-distribution identifiability does not imply exact realization recovery under stochastic partial observation."
+}

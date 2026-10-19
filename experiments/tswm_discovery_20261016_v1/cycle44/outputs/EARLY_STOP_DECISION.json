@@ -1,0 +1,108 @@
+{
+  "decision": "STOP_REMAINING_QUERY_POOLS_LOW_INFORMATION",
+  "utc": "2026-10-17T02:24:22.888181+00:00",
+  "reason": "No MLMC policy selected in240 frozen VAL configurations; strong cheap world laws competitive on both independently scored carriers; remaining selected native comparisons repeat ordinary MC/antithetic MC rather than discriminate a new framework mechanism. Reprioritize toward reusable observation/dynamics learning.",
+  "VAL_policy_histogram": {
+    "antithetic_mc": 114,
+    "antithetic_conditional_readout": 63,
+    "conditional_readout": 12,
+    "analytic_readout": 36,
+    "mc": 15
+  },
+  "independently_scored_quality_and_pilot_cost": [
+    {
+      "case": "gaussian",
+      "family": "ar_mixture",
+      "joint_energy_seed_mean": 0.6870559002272785,
+      "pilot_fine_seconds_per_draw_median": 0.00029106640624831925
+    },
+    {
+      "case": "gaussian",
+      "family": "lgssm",
+      "joint_energy_seed_mean": 0.6852960702963173,
+      "pilot_fine_seconds_per_draw_median": 8.154570309670817e-05
+    },
+    {
+      "case": "gaussian",
+      "family": "spf_native",
+      "joint_energy_seed_mean": 0.7009929730556905,
+      "pilot_fine_seconds_per_draw_median": 0.0027788160157342645
+    },
+    {
+      "case": "gaussian",
+      "family": "spf_condition_trainable",
+      "joint_energy_seed_mean": 0.701730262953788,
+      "pilot_fine_seconds_per_draw_median": 0.0027767402343670256
+    },
+    {
+      "case": "nonlinear",
+      "family": "ar_mixture",
+      "joint_energy_seed_mean": 0.3372158925049007,
+      "pilot_fine_seconds_per_draw_median": 0.00028338750007605995
+    },
+    {
+      "case": "nonlinear",
+      "family": "lgssm",
+      "joint_energy_seed_mean": 0.3461519239936024,
+      "pilot_fine_seconds_per_draw_median": 8.152539078309928e-05
+    },
+    {
+      "case": "nonlinear",
+      "family": "spf_native",
+      "joint_energy_seed_mean": 0.3466005374211818,
+      "pilot_fine_seconds_per_draw_median": 0.0027714835937331372
+    },
+    {
+      "case": "nonlinear",
+      "family": "spf_condition_trainable",
+      "joint_energy_seed_mean": 0.34655475802719593,
+      "pilot_fine_seconds_per_draw_median": 0.0027861749998692176
+    }
+  ],
+  "completed_query_models": [
+    {
+      "model": "gaussian_ar_mixture_2026441",
+      "execution_sha256": "73a05aa47ec72e138470472e47ebb340db9b9d99e11f7e3fbd136f4a898e7a2d"
+    },
+    {
+      "model": "gaussian_ar_mixture_2026442",
+      "execution_sha256": "cac999396a58605fc8756e35cdbe0a3fa312f4adf3012b0848a94f0f1043b308"
+    },
+    {
+      "model": "gaussian_lgssm_2026441",
+      "execution_sha256": "fe16d489a2fb53bcf7c1d420c160375adce1652573099aaee3dd8936d42259ac"
+    },
+    {
+      "model": "gaussian_lgssm_2026442",
+      "execution_sha256": "3e4d1b58e3bf5fa3fa9b2a414af6109705c4cb93300e001fd7125a8336db67a1"
+    },
+    {
+      "model": "gaussian_spf_condition_trainable_2026441",
+      "execution_sha256": "15558174f4997be20d38a85503bae20e9b157489c0a728c4d8702cf74e5f45b1"
+    }
+  ],
+  "execution_status_before_stop": {
+    "status": "running",
+    "pid": 39768,
+    "started_utc": "2026-10-17T02:06:23.814362+00:00",
+    "models_completed": 5,
+    "models_total": 16,
+    "current_context": 0,
+    "replicates_completed_current_context": 0,
+    "eval_opened": true,
+    "current_model": "gaussian_spf_condition_trainable_2026442"
+  },
+  "formal_training_complete": 16,
+  "formal_updates": 55500,
+  "full_quality_independently_verified_models": 16,
+  "truth_reference_status": "REFERENCE_READY",
+  "full_query_experiment_completed": false,
+  "preserve_all_existing_files_and_weights": true,
+  "no_query_effect_scores_inspected_to_choose_stop_subset": true,
+  "scope_limit": "Current source adaptation, carriers, budgets and priorities only; not global falsification of query-adaptive world models or architecture superiority. Partial query data cannot support complete protocol claims.",
+  "query_execution_source_sha256": "15a5f5acb327eb35d536e571fc03155e331eaee5b348fc1182b7daf40f2d2083",
+  "pilot_sha256": "a0245be49891434e5500974831915a3d7dde11aa9a3391cccf8092dfdaa883e5",
+  "quality_verification_sha256": "d24164543a88e5ad780c2e9af53037eca0dc2760243975497bbc26ea7da12ba7",
+  "accepted_final_directions": 0,
+  "goal": "ACTIVE_UNACHIEVED"
+}

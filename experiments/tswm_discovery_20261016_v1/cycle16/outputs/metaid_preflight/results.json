@@ -1,0 +1,77 @@
+{
+  "checkpoint_sha256": "e8324becad85ac610ec94f8ae09048938b343761a5bcd3967a86353a5bf28197",
+  "bytes": 90193824,
+  "source_revision": "4c20d94ccab51abf4ebf68aa8810f4596381dd41",
+  "restricted_weights_only_load": true,
+  "explicit_safe_extra_globals": [
+    "argparse.Namespace"
+  ],
+  "source_files_verified": 14,
+  "strict_state_dict_load": true,
+  "parameters": 5548418,
+  "native_model_args": {
+    "n_layer": 12,
+    "n_head": 4,
+    "n_embd": 128,
+    "n_y": 1,
+    "n_u": 1,
+    "seq_len_ctx": 400,
+    "seq_len_new": 100,
+    "d_model_RNN": 128,
+    "bias": false,
+    "dropout": 0.0,
+    "seq_len_patch": 400,
+    "device_name": "cuda:7"
+  },
+  "native_training_config_subset": {
+    "seed": 42,
+    "nx": 5,
+    "nu": 1,
+    "ny": 1,
+    "seq_len_ctx": 400,
+    "seq_len_skip": 400,
+    "seq_len_n_in": 30,
+    "seq_len_new": 100,
+    "seq_len_patch": 400,
+    "d_model_RNN": 128,
+    "n_layer": 12,
+    "n_head": 4,
+    "n_embd": 128,
+    "dropout": 0.0,
+    "bias": false,
+    "mag_range": [
+      0.5,
+      0.97
+    ],
+    "phase_range": [
+      0.0,
+      1.5707963267948966
+    ]
+  },
+  "future_placeholder_errors": [
+    0.0,
+    0.0
+  ],
+  "future_control_prefix_errors": [
+    0.0,
+    0.0
+  ],
+  "output_shape": [
+    2,
+    100,
+    1
+  ],
+  "finite_positive_standard_deviation": true,
+  "elapsed_seconds": 6.56211080000503,
+  "environment": {
+    "python": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:36:49) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.8.0+cu128",
+    "device": "cpu"
+  },
+  "script_sha256": "dc7bdefec5a8eb79cef9dbba33f1c91f43e4623bc17bafe4a8e31370dafd313a",
+  "scope": "Synthetic-input interface preflight of released native model; not original metric reproduction or scientific accuracy experiment",
+  "new_training": false,
+  "benchmark_accuracy_claim": false,
+  "new_method_claim": false,
+  "objective_achieved": false
+}

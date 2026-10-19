@@ -1,0 +1,3 @@
+# C47 current state
+
+UTC 2026-10-17T12:35:17.206876+00:00. All16 fits, complete locked evaluation, independent arithmetic/filter/covariance verification and descriptive analysis complete. Figure review state is recorded separately in outputs/figures_v1/visual_qa.json. 21200 formal updates. Accepted final directions0, overall goal ACTIVE_UNACHIEVED. Deprioritize the current fixed-feature Laplace / hybrid recipe as a new world-model framework. In this qualified screen it does not improve complete-clock likelihood training: the bistable future-energy differences are adverse in both training seeds, and OU provides no reliable future-quality advantage. The mean-clock restriction loses useful dependence, but a complete ordinary stochastic-clock model already restores it.

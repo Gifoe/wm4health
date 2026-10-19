@@ -1,0 +1,9 @@
+# Native DynaMix interface preflight (not an accuracy reproduction)
+
+Target: original autonomous dynamical-system model, without imposing action-conditioned or Bayesian interfaces. Source pinned39cc55514a4c5a0c50534c092fd9c3d40abdabc8,22 selected native files (all src Python plus metadata/license), no AGENTS found in full Git tree. Main source and earlier cycles read-only.
+
+3D released model uses M30,N3,10 almost-linear-RNN experts,P2. Weight44,152B, safetensors SHA c950aef03f24e600bb159a05bf64aaea0fc89a6c66310baac624ac4b7e10ed5b; config441B SHA faf9e84a6a93b13d929e20ebdcf8963bab7a6dca1d0462e9513f98d74cadf261. HF revision32f5adba587aab7b5eef10675f04eed2472dc12a via HF mirror, verified against returned pinned Git blob/LFS hashes. Direct official API timed out; do not invent independent official digest verification. Original format has no pickle.
+
+Use existing E:/Anaconda/python.exe Python3.13.9 (satisfies declared>=3.11), CPU only, process-local runtime profile, no package installs or environment mutations. The primary3.10 experimental env does not satisfy this package's declared Python constraint and is not used for this baseline. Verify package imports/strict state dict and finite32-step forecasting of a synthetic400-step three-sinusoid context. This input is an interface smoke test, not held-out ODE accuracy evidence. Freeze random seeds, check exact same-seed replay and horizon-prefix consistency. Randomized state-attention remains enabled at eval even with probabilistic_expert=false; record seed variation rather than misclassifying it as a deterministic bug.
+
+Native Python forecaster fits transformations on context. Paper2505.13192v3 describes whole-trajectory standardized DSR datasets; reconcile this difference and its time-scale/training support before claiming an exact paper or prospective raw-unit reproduction. No new method selected, accepted directions0, overall objective remains active.

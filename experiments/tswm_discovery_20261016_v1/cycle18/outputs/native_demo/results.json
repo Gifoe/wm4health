@@ -1,0 +1,295 @@
+{
+  "rows": [
+    {
+      "system": "lorenz63",
+      "seed": 2021,
+      "context_length": 2000,
+      "horizon": 10000,
+      "metrics": {
+        "D_stsp_native": 0.7538877725601196,
+        "D_H_native": 0.09486297518014908,
+        "D_H_unavailable_reason": null,
+        "MASE_native_notebook_argument_order": 0.41586509346961975,
+        "MASE_true_denominator_diagnostic": 0.4169580042362213,
+        "native_histogram_prediction_retention": 0.9889000058174133,
+        "native_histogram_truth_retention": 0.9932000041007996,
+        "truth_bbox_escape_fraction": 0.003000000026077032,
+        "RMSE10_context_scaled": 0.05270294100046158
+      },
+      "seconds": 12.328083299988066
+    },
+    {
+      "system": "lorenz63",
+      "seed": 2022,
+      "context_length": 2000,
+      "horizon": 10000,
+      "metrics": {
+        "D_stsp_native": 0.7584573030471802,
+        "D_H_native": 0.06726881861686707,
+        "D_H_unavailable_reason": null,
+        "MASE_native_notebook_argument_order": 0.40545013546943665,
+        "MASE_true_denominator_diagnostic": 0.4066613018512726,
+        "native_histogram_prediction_retention": 0.9851999878883362,
+        "native_histogram_truth_retention": 0.9932000041007996,
+        "truth_bbox_escape_fraction": 0.004800000227987766,
+        "RMSE10_context_scaled": 0.0519992895424366
+      },
+      "seconds": 12.112486500001978
+    },
+    {
+      "system": "lorenz63",
+      "seed": 2023,
+      "context_length": 2000,
+      "horizon": 10000,
+      "metrics": {
+        "D_stsp_native": 0.8329973816871643,
+        "D_H_native": 0.09541288018226624,
+        "D_H_unavailable_reason": null,
+        "MASE_native_notebook_argument_order": 0.32451125979423523,
+        "MASE_true_denominator_diagnostic": 0.31812670826911926,
+        "native_histogram_prediction_retention": 0.9819999933242798,
+        "native_histogram_truth_retention": 0.9932000041007996,
+        "truth_bbox_escape_fraction": 0.007000000216066837,
+        "RMSE10_context_scaled": 0.04154709354043007
+      },
+      "seconds": 12.121261699998286
+    },
+    {
+      "system": "lorenz63",
+      "control": "context_replay",
+      "context_length": 2000,
+      "horizon": 10000,
+      "metrics": {
+        "D_stsp_native": 1.903002381324768,
+        "D_H_native": 0.053656939417123795,
+        "D_H_unavailable_reason": null,
+        "MASE_native_notebook_argument_order": 10.13999080657959,
+        "MASE_true_denominator_diagnostic": 10.256993293762207,
+        "native_histogram_prediction_retention": 0.9925000071525574,
+        "native_histogram_truth_retention": 0.9932000041007996,
+        "truth_bbox_escape_fraction": 0.0,
+        "RMSE10_context_scaled": 1.3352210521697998
+      }
+    },
+    {
+      "system": "lorenz63",
+      "control": "persistence",
+      "context_length": 2000,
+      "horizon": 10000,
+      "metrics": {
+        "D_stsp_native": 13.886458396911621,
+        "D_H_native": null,
+        "D_H_unavailable_reason": "constant-series power undefined",
+        "MASE_native_notebook_argument_order": 62055776.0,
+        "MASE_true_denominator_diagnostic": 5.926031112670898,
+        "native_histogram_prediction_retention": 1.0,
+        "native_histogram_truth_retention": 0.9932000041007996,
+        "truth_bbox_escape_fraction": 0.0,
+        "RMSE10_context_scaled": 0.7991189360618591
+      }
+    },
+    {
+      "system": "chua",
+      "seed": 2021,
+      "context_length": 1028,
+      "horizon": 10000,
+      "metrics": {
+        "D_stsp_native": 2.229142665863037,
+        "D_H_native": 0.10019910335540771,
+        "D_H_unavailable_reason": null,
+        "MASE_native_notebook_argument_order": 0.2908116579055786,
+        "MASE_true_denominator_diagnostic": 0.2840714156627655,
+        "native_histogram_prediction_retention": 0.9592999815940857,
+        "native_histogram_truth_retention": 0.9520000219345093,
+        "truth_bbox_escape_fraction": 0.003599999938160181,
+        "RMSE10_context_scaled": 0.0353076346218586
+      },
+      "seconds": 11.252261800007545
+    },
+    {
+      "system": "chua",
+      "seed": 2022,
+      "context_length": 1028,
+      "horizon": 10000,
+      "metrics": {
+        "D_stsp_native": 1.9815645217895508,
+        "D_H_native": 0.0760582983493805,
+        "D_H_unavailable_reason": null,
+        "MASE_native_notebook_argument_order": 0.25639769434928894,
+        "MASE_true_denominator_diagnostic": 0.24990172684192657,
+        "native_histogram_prediction_retention": 0.9625999927520752,
+        "native_histogram_truth_retention": 0.9520000219345093,
+        "truth_bbox_escape_fraction": 0.004600000102072954,
+        "RMSE10_context_scaled": 0.03160936012864113
+      },
+      "seconds": 11.274779200000921
+    },
+    {
+      "system": "chua",
+      "seed": 2023,
+      "context_length": 1028,
+      "horizon": 10000,
+      "metrics": {
+        "D_stsp_native": 1.8832526206970215,
+        "D_H_native": 0.07676400244235992,
+        "D_H_unavailable_reason": null,
+        "MASE_native_notebook_argument_order": 0.21278898417949677,
+        "MASE_true_denominator_diagnostic": 0.2086920142173767,
+        "native_histogram_prediction_retention": 0.9617000222206116,
+        "native_histogram_truth_retention": 0.9520000219345093,
+        "truth_bbox_escape_fraction": 0.004000000189989805,
+        "RMSE10_context_scaled": 0.031040020287036896
+      },
+      "seconds": 11.258937799997511
+    },
+    {
+      "system": "chua",
+      "control": "context_replay",
+      "context_length": 1028,
+      "horizon": 10000,
+      "metrics": {
+        "D_stsp_native": 4.815720558166504,
+        "D_H_native": 0.07273480296134949,
+        "D_H_unavailable_reason": null,
+        "MASE_native_notebook_argument_order": 18.158689498901367,
+        "MASE_true_denominator_diagnostic": 18.12272071838379,
+        "native_histogram_prediction_retention": 0.9528999924659729,
+        "native_histogram_truth_retention": 0.9520000219345093,
+        "truth_bbox_escape_fraction": 0.0,
+        "RMSE10_context_scaled": 1.7752108573913574
+      }
+    },
+    {
+      "system": "chua",
+      "control": "persistence",
+      "context_length": 1028,
+      "horizon": 10000,
+      "metrics": {
+        "D_stsp_native": 13.549759864807129,
+        "D_H_native": null,
+        "D_H_unavailable_reason": "constant-series power undefined",
+        "MASE_native_notebook_argument_order": 93014720.0,
+        "MASE_true_denominator_diagnostic": 9.395828247070312,
+        "native_histogram_prediction_retention": 1.0,
+        "native_histogram_truth_retention": 0.9520000219345093,
+        "truth_bbox_escape_fraction": 0.0,
+        "RMSE10_context_scaled": 1.079831838607788
+      }
+    },
+    {
+      "system": "sprottM",
+      "seed": 2021,
+      "context_length": 512,
+      "horizon": 10000,
+      "metrics": {
+        "D_stsp_native": 3.180696725845337,
+        "D_H_native": 0.094460129737854,
+        "D_H_unavailable_reason": null,
+        "MASE_native_notebook_argument_order": 0.2339414358139038,
+        "MASE_true_denominator_diagnostic": 0.23423272371292114,
+        "native_histogram_prediction_retention": 0.9330999851226807,
+        "native_histogram_truth_retention": 0.9327999949455261,
+        "truth_bbox_escape_fraction": 0.0010999999940395355,
+        "RMSE10_context_scaled": 0.027472274377942085
+      },
+      "seconds": 10.746807799994713
+    },
+    {
+      "system": "sprottM",
+      "seed": 2022,
+      "context_length": 512,
+      "horizon": 10000,
+      "metrics": {
+        "D_stsp_native": 3.2401347160339355,
+        "D_H_native": 0.1065564751625061,
+        "D_H_unavailable_reason": null,
+        "MASE_native_notebook_argument_order": 0.22323362529277802,
+        "MASE_true_denominator_diagnostic": 0.2226378172636032,
+        "native_histogram_prediction_retention": 0.928600013256073,
+        "native_histogram_truth_retention": 0.9327999949455261,
+        "truth_bbox_escape_fraction": 0.0015999999595806003,
+        "RMSE10_context_scaled": 0.025415530428290367
+      },
+      "seconds": 10.75169669999741
+    },
+    {
+      "system": "sprottM",
+      "seed": 2023,
+      "context_length": 512,
+      "horizon": 10000,
+      "metrics": {
+        "D_stsp_native": 3.094541072845459,
+        "D_H_native": 0.09283144026994705,
+        "D_H_unavailable_reason": null,
+        "MASE_native_notebook_argument_order": 0.2100801020860672,
+        "MASE_true_denominator_diagnostic": 0.21071141958236694,
+        "native_histogram_prediction_retention": 0.929099977016449,
+        "native_histogram_truth_retention": 0.9327999949455261,
+        "truth_bbox_escape_fraction": 0.0013000000035390258,
+        "RMSE10_context_scaled": 0.02471439354121685
+      },
+      "seconds": 10.737604699999793
+    },
+    {
+      "system": "sprottM",
+      "control": "context_replay",
+      "context_length": 512,
+      "horizon": 10000,
+      "metrics": {
+        "D_stsp_native": 4.769093036651611,
+        "D_H_native": 0.050810981541872025,
+        "D_H_unavailable_reason": null,
+        "MASE_native_notebook_argument_order": 4.693449020385742,
+        "MASE_true_denominator_diagnostic": 4.732538223266602,
+        "native_histogram_prediction_retention": 0.926800012588501,
+        "native_histogram_truth_retention": 0.9327999949455261,
+        "truth_bbox_escape_fraction": 0.004000000189989805,
+        "RMSE10_context_scaled": 0.6692927479743958
+      }
+    },
+    {
+      "system": "sprottM",
+      "control": "persistence",
+      "context_length": 512,
+      "horizon": 10000,
+      "metrics": {
+        "D_stsp_native": 14.208494186401367,
+        "D_H_native": null,
+        "D_H_unavailable_reason": "constant-series power undefined",
+        "MASE_native_notebook_argument_order": 40134092.0,
+        "MASE_true_denominator_diagnostic": 3.7105655670166016,
+        "native_histogram_prediction_retention": 1.0,
+        "native_histogram_truth_retention": 0.9327999949455261,
+        "truth_bbox_escape_fraction": 0.0,
+        "RMSE10_context_scaled": 0.5646016597747803
+      }
+    }
+  ],
+  "source_revision": "39cc55514a4c5a0c50534c092fd9c3d40abdabc8",
+  "model_sha256": "c950aef03f24e600bb159a05bf64aaea0fc89a6c66310baac624ac4b7e10ed5b",
+  "source_and_demo_files_unchanged": 26,
+  "data_sha256": {
+    "notebooks/test_data/lorenz63.npy": "e34638eb81e6434899473835cad0549fdd3d3a95230c441a0634a77368ef1264",
+    "notebooks/test_data/sprottM.npy": "1fc780aa039663fa0576f3c335d0a0a8260503fb26a70e61b944a5007337cf4f",
+    "notebooks/test_data/chua.npy": "34c617cecfc93964d55594141e9f9b14b9d421c9335766e74b1ebaaaf8191de0"
+  },
+  "arrays_sha256": {
+    "chua.npz": "340f4cb87daf8093748303b1db4db52742a9cdf9f39abd82dd83c1a0367ef10a",
+    "lorenz63.npz": "5004b0615591be3f3e39894f494a40c24f0a1e5ea72200cc404f910210767405",
+    "sprottM.npz": "b269ba99c6218a200cb6ba542dae5167995f8e5be90f71e13e1df3fb4140d8b8"
+  },
+  "script_sha256": "e7b8e381d404019fcafdf9e121b9cb14d44a67a838e01e8918f971f52f7a4889",
+  "plan_sha256": "12c704cc783e40b84339065834d47ae8dc3ae423e10642e58d2bdeb6ab38dbf4",
+  "elapsed_seconds": 104.41647430000012,
+  "environment": {
+    "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.3.5",
+    "device": "cpu"
+  },
+  "scope": "Three source-native released demonstration cases; not the54-system aggregate or a novel method.",
+  "MASE_discrepancy_scope": "Current Python notebook call order; no assertion about original Julia/published table implementation.",
+  "new_training": false,
+  "accepted_novel_directions": 0,
+  "objective_achieved": false
+}

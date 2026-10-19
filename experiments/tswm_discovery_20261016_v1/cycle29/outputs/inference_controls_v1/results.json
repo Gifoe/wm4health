@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "n_rows": 576,
+  "n_equivalence_checks": 288,
+  "weights": [
+    {
+      "kind": "conditional96",
+      "seed": 2026291,
+      "sha256": "c3f1b8b94bf95b1c43f7216f248bc777f9dacd5bd60c0f36f9af4848784f50d4"
+    },
+    {
+      "kind": "compiled64",
+      "seed": 2026291,
+      "sha256": "2f3c0f1f00fbd682dff3ef62c7a404eb1900e7916f329fe9821020e9cc61b8ee"
+    },
+    {
+      "kind": "conditional128",
+      "seed": 2026291,
+      "sha256": "1305dd32bee520def811215eb11612345c7b51d5b50aba9d39913f0acabc9503"
+    },
+    {
+      "kind": "native_attention64",
+      "seed": 2026291,
+      "sha256": "ebd657874984381766e89783bb1f25d39c0d21a5d1832144ebb0a16191ba1798"
+    },
+    {
+      "kind": "conditional96",
+      "seed": 2026292,
+      "sha256": "c344a406a127e8f4049dfbf4eb48cd7e9d1ebed0d7f01b9b1c1485515506df94"
+    },
+    {
+      "kind": "compiled64",
+      "seed": 2026292,
+      "sha256": "42bf3c8f42f4d980e5dd97b24a96d72eaacd7ecf3276f967a7f89d141bda994b"
+    },
+    {
+      "kind": "conditional128",
+      "seed": 2026292,
+      "sha256": "39388524cf40bcae15e294c7d4eaf8808a9265fafda169ed18b122e58a13c728"
+    },
+    {
+      "kind": "native_attention64",
+      "seed": 2026292,
+      "sha256": "48a499d85061737dbe12ca4e19d73ac56dac87da56f16209a9b739a6bf20d1a2"
+    },
+    {
+      "kind": "conditional96",
+      "seed": 2026293,
+      "sha256": "30f1c74eae63fd6d23ce319957ba78fb0158dc9daaf3be2964c04e96df8052d6"
+    },
+    {
+      "kind": "compiled64",
+      "seed": 2026293,
+      "sha256": "7fcb55b838d3a58ecb52b9a3bcebe99ad585d6593c3a07f7e310968a8e3c9ee7"
+    },
+    {
+      "kind": "conditional128",
+      "seed": 2026293,
+      "sha256": "7a90e1bb048d6eec8734554c409586991456e292ba7e084c2b87b0e029d7b759"
+    },
+    {
+      "kind": "native_attention64",
+      "seed": 2026293,
+      "sha256": "6b858977b06cdd07433f506e86790307fc5be6e70b19ad61850d7bddb5915a8c"
+    }
+  ],
+  "latency_sha256": "d451774b45be9060c2d6e144f2e9ed892144315f8af7825688018382881893d5",
+  "equivalence_sha256": "1aa83f7989ffad1847330ace832bed037c7349a356a24b05587feb9e72a8e3ef",
+  "plan_sha256": "32c9ce572db8779e35298dcd7febc475efa30662ce508d2976f86c2ae616aa41",
+  "sources": {
+    "inference_implementations.py": "cdc3559112a7cc426f10182630295fad6869f5bc868458b801fc9b37cd13bf3b",
+    "audit_inference_implementations.py": "e5f2bafb9aacd9ca51528c786acedfe612aaaaef5b1b26dcf3645c3326905d70"
+  },
+  "environment": {
+    "python": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:36:49) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.8.0+cu128",
+    "cudnn": 91002,
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "tf32_matmul": false,
+    "tf32_cudnn": false
+  },
+  "scope": "validation-only finite-precision equivalence and implementation latency; no accuracy or universal lower-bound claim"
+}

@@ -1,0 +1,182 @@
+{
+  "plan": {
+    "frozen_utc": "2026-10-15T21:30:16.576644+00:00",
+    "formula": "prediction_c,t = fitted_scale_c * (S_c,t-1 - S_c,t)",
+    "fit": "factual trajectory t=1..167 only, scalar least squares through origin, nonnegative",
+    "targets": "counterfactual trajectories t=1..167 only",
+    "input_information": "target-scenario simultaneous S trajectory (explicit oracle); no action input",
+    "controls": [
+      "unchanged factual S",
+      "CF S shifted 1 day",
+      "CF S of a shuffled different trajectory"
+    ],
+    "claim_boundary": "A near-exact reconstruction would show released target-state information encodes the answer; it would not establish causal prediction ability or a new method."
+  },
+  "results": [
+    {
+      "setting": "single",
+      "scenario": "factual",
+      "control": "correct_state_difference",
+      "rmse_cases": 33.974957475857416,
+      "mae_cases": 17.67196026879973,
+      "max_abs_cases": 771.3479276667587,
+      "nrmse_county_range": 0.20793134143961214
+    },
+    {
+      "setting": "single",
+      "scenario": "sch=0-occ=CF",
+      "control": "correct_state_difference",
+      "rmse_cases": 46.78192583116997,
+      "mae_cases": 16.903811260640694,
+      "max_abs_cases": 892.480807111261,
+      "nrmse_county_range": 0.20052697306573672
+    },
+    {
+      "setting": "single",
+      "scenario": "sch=0-occ=CF",
+      "control": "factual_state_difference",
+      "rmse_cases": 60.81693000261165,
+      "mae_cases": 30.68629329424346,
+      "max_abs_cases": 978.9129133869909,
+      "nrmse_county_range": 0.8635089957791571
+    },
+    {
+      "setting": "single",
+      "scenario": "sch=0-occ=CF",
+      "control": "one_day_shifted_cf_difference",
+      "rmse_cases": 48.43759569017579,
+      "mae_cases": 17.6511932874495,
+      "max_abs_cases": 811.2492840549995,
+      "nrmse_county_range": 0.20713332768903606
+    },
+    {
+      "setting": "single",
+      "scenario": "sch=0-occ=CF",
+      "control": "shuffled_county_cf_difference",
+      "rmse_cases": 64.0710058020618,
+      "mae_cases": 28.209150607681323,
+      "max_abs_cases": 942.0577289629674,
+      "nrmse_county_range": 0.9221313442056065
+    },
+    {
+      "setting": "multi",
+      "scenario": "factual",
+      "control": "correct_state_difference",
+      "rmse_cases": 31.543760745822198,
+      "mae_cases": 16.764028032061418,
+      "max_abs_cases": 707.9774129046145,
+      "nrmse_county_range": 0.21473132067416137
+    },
+    {
+      "setting": "multi",
+      "scenario": "CF-F",
+      "control": "correct_state_difference",
+      "rmse_cases": 33.98773018134202,
+      "mae_cases": 17.77097896842368,
+      "max_abs_cases": 740.1712945151523,
+      "nrmse_county_range": 0.209983261731698
+    },
+    {
+      "setting": "multi",
+      "scenario": "CF-F",
+      "control": "factual_state_difference",
+      "rmse_cases": 34.65428519395339,
+      "mae_cases": 18.134047042297226,
+      "max_abs_cases": 740.6870245292203,
+      "nrmse_county_range": 0.21299314238295136
+    },
+    {
+      "setting": "multi",
+      "scenario": "CF-F",
+      "control": "one_day_shifted_cf_difference",
+      "rmse_cases": 34.927222602149456,
+      "mae_cases": 18.32971094045655,
+      "max_abs_cases": 762.0309931670129,
+      "nrmse_county_range": 0.21529130445745182
+    },
+    {
+      "setting": "multi",
+      "scenario": "CF-F",
+      "control": "shuffled_county_cf_difference",
+      "rmse_cases": 41.43572939139442,
+      "mae_cases": 22.815284241984024,
+      "max_abs_cases": 869.7938136120094,
+      "nrmse_county_range": 0.2887917304526961
+    },
+    {
+      "setting": "multi",
+      "scenario": "F-CF",
+      "control": "correct_state_difference",
+      "rmse_cases": 44.07056419433746,
+      "mae_cases": 15.499008670130722,
+      "max_abs_cases": 886.1403522267001,
+      "nrmse_county_range": 0.196024307624773
+    },
+    {
+      "setting": "multi",
+      "scenario": "F-CF",
+      "control": "factual_state_difference",
+      "rmse_cases": 58.476009698507866,
+      "mae_cases": 29.81815030704048,
+      "max_abs_cases": 967.8883641576721,
+      "nrmse_county_range": 1.0349110974966513
+    },
+    {
+      "setting": "multi",
+      "scenario": "F-CF",
+      "control": "one_day_shifted_cf_difference",
+      "rmse_cases": 45.572419382045446,
+      "mae_cases": 16.18273173595814,
+      "max_abs_cases": 842.9351355963863,
+      "nrmse_county_range": 0.2028225814945096
+    },
+    {
+      "setting": "multi",
+      "scenario": "F-CF",
+      "control": "shuffled_county_cf_difference",
+      "rmse_cases": 60.314589007891755,
+      "mae_cases": 26.449562060937456,
+      "max_abs_cases": 970.2545548266438,
+      "nrmse_county_range": 1.0516277694347123
+    },
+    {
+      "setting": "multi",
+      "scenario": "CF-CF",
+      "control": "correct_state_difference",
+      "rmse_cases": 46.52127390449842,
+      "mae_cases": 16.652207984556814,
+      "max_abs_cases": 913.1069378976866,
+      "nrmse_county_range": 0.20000032264799072
+    },
+    {
+      "setting": "multi",
+      "scenario": "CF-CF",
+      "control": "factual_state_difference",
+      "rmse_cases": 60.78756285739953,
+      "mae_cases": 30.278763463603482,
+      "max_abs_cases": 996.9177598810148,
+      "nrmse_county_range": 0.8690470204407394
+    },
+    {
+      "setting": "multi",
+      "scenario": "CF-CF",
+      "control": "one_day_shifted_cf_difference",
+      "rmse_cases": 48.12420158645238,
+      "mae_cases": 17.374638003788462,
+      "max_abs_cases": 865.0262749527685,
+      "nrmse_county_range": 0.20708450585981886
+    },
+    {
+      "setting": "multi",
+      "scenario": "CF-CF",
+      "control": "shuffled_county_cf_difference",
+      "rmse_cases": 63.363512160953164,
+      "mae_cases": 27.858806802206836,
+      "max_abs_cases": 923.7617728790474,
+      "nrmse_county_range": 0.983465262914865
+    }
+  ],
+  "first_day_excluded": true,
+  "n_evaluated_days_per_trajectory": 167,
+  "scale_fitting_uses_cf_targets": false
+}

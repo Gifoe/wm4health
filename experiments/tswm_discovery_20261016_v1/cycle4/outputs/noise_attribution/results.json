@@ -1,0 +1,192 @@
+[
+  {
+    "run": "lewm_native_weight_random",
+    "seed": 41,
+    "seconds": 18.015563199995086,
+    "parameters": 88,
+    "snapshots": [
+      {
+        "step": 2000,
+        "checkpoint_sha256": "95eb42f2133e8457d1bd0a9c1d993d60e5ba71e993e160248f038de0859b6393",
+        "physical_probe_nmse": 0.49765878556217197,
+        "signal_subspace_overlap": 0.5021560864552953,
+        "encoder_covariance_eigenvalues": [
+          0.6343110765629321,
+          1.0610739142432326
+        ]
+      },
+      {
+        "step": 4000,
+        "checkpoint_sha256": "0036f5e6ce3f4e7bef737c55c65a2d61fb7eba6aaae47a6c54dde518539b09a5",
+        "physical_probe_nmse": 0.00037832281369358457,
+        "signal_subspace_overlap": 0.9996220894292549,
+        "encoder_covariance_eigenvalues": [
+          0.9481232786958343,
+          0.9719159250037243
+        ]
+      },
+      {
+        "step": 8000,
+        "checkpoint_sha256": "e7caf4fd1f02be86fbd32b396dd1384d0ab56df9c8204271ef9e456b8c51ab46",
+        "physical_probe_nmse": 0.00012273028186883268,
+        "signal_subspace_overlap": 0.9998777804386791,
+        "encoder_covariance_eigenvalues": [
+          0.9449895544699369,
+          0.9997226575320989
+        ]
+      }
+    ]
+  },
+  {
+    "run": "lewm_matched_static_random",
+    "seed": 41,
+    "seconds": 17.494032200003858,
+    "parameters": 88,
+    "snapshots": [
+      {
+        "step": 2000,
+        "checkpoint_sha256": "254a372a5c9fac7ae90111e8d72b2ee3bad0370eaba2543feaa80a09d882d4b3",
+        "physical_probe_nmse": 0.5332655204009188,
+        "signal_subspace_overlap": 0.46689748185701857,
+        "encoder_covariance_eigenvalues": [
+          0.8223988229349841,
+          0.9750792168108104
+        ]
+      },
+      {
+        "step": 4000,
+        "checkpoint_sha256": "a005f52dd3eb373ad821f7279107e966066bccb3f14ae81ed898602af2790b53",
+        "physical_probe_nmse": 0.4990648156752949,
+        "signal_subspace_overlap": 0.5001265896872842,
+        "encoder_covariance_eigenvalues": [
+          0.8095592058717455,
+          1.0213641377725393
+        ]
+      },
+      {
+        "step": 8000,
+        "checkpoint_sha256": "d7aabd3f2efb3e3a389572708de77c15e794ca0dd881fda6ac41cb6ef7acdd67",
+        "physical_probe_nmse": 0.47894025124236156,
+        "signal_subspace_overlap": 0.520049048830139,
+        "encoder_covariance_eigenvalues": [
+          0.8040101166545883,
+          1.0230181007040875
+        ]
+      }
+    ]
+  },
+  {
+    "run": "motion_random",
+    "seed": 41,
+    "seconds": 30.744879000005312,
+    "parameters": 268442,
+    "snapshots": [
+      {
+        "step": 2000,
+        "checkpoint_sha256": "42f9664d75f5a6d0197bb7da9109a2bacefdcd9029c126c285db2d38b2245547",
+        "physical_probe_nmse": 0.5443179881228962,
+        "signal_subspace_overlap": 0.4557278131732049,
+        "encoder_covariance_eigenvalues": [
+          0.8386447739880396,
+          0.9712347611772377
+        ]
+      },
+      {
+        "step": 4000,
+        "checkpoint_sha256": "654b9a07d63d3ad20e772c1cda902035658667b705d57df96a3f8cbc673056d7",
+        "physical_probe_nmse": 0.544892438520093,
+        "signal_subspace_overlap": 0.4542426779522671,
+        "encoder_covariance_eigenvalues": [
+          0.8266211091026203,
+          0.9946815395698295
+        ]
+      },
+      {
+        "step": 8000,
+        "checkpoint_sha256": "b7475c9a813779697be2c97eee5ea288cb0d487eae5958a32f986c940aaa2616",
+        "physical_probe_nmse": 0.13555086050323345,
+        "signal_subspace_overlap": 0.8653051729566017,
+        "encoder_covariance_eigenvalues": [
+          0.940199149222654,
+          0.975384080452681
+        ]
+      }
+    ]
+  },
+  {
+    "run": "lewm_matched_static_trainingCCA",
+    "seed": 41,
+    "seconds": 17.610597799997777,
+    "parameters": 88,
+    "snapshots": [
+      {
+        "step": 2000,
+        "checkpoint_sha256": "08003ad1c1939e851ae61bc5bd2adb3c619b43c2ff0d7fceb01058977f3c2b7c",
+        "physical_probe_nmse": 0.0006507533888045615,
+        "signal_subspace_overlap": 0.999352725176108,
+        "encoder_covariance_eigenvalues": [
+          0.9265071144695278,
+          0.9822030628243912
+        ]
+      },
+      {
+        "step": 4000,
+        "checkpoint_sha256": "b8bee091e76c86872abe2f38d6d27068e43f7567ac5498295de773eec1b5857f",
+        "physical_probe_nmse": 0.0003432713063326473,
+        "signal_subspace_overlap": 0.9996585117921608,
+        "encoder_covariance_eigenvalues": [
+          0.9622981789186054,
+          0.9879769108127109
+        ]
+      },
+      {
+        "step": 8000,
+        "checkpoint_sha256": "0e81e119f59ddf4e5a7071fbdd73957086ad523536ec3c957d0886daeea2fdd6",
+        "physical_probe_nmse": 0.0002831805903001436,
+        "signal_subspace_overlap": 0.9997186678744636,
+        "encoder_covariance_eigenvalues": [
+          0.9668918823429797,
+          0.9979358698497424
+        ]
+      }
+    ]
+  },
+  {
+    "run": "motion_trainingCCA",
+    "seed": 41,
+    "seconds": 30.82595500000025,
+    "parameters": 268442,
+    "snapshots": [
+      {
+        "step": 2000,
+        "checkpoint_sha256": "ca42e28e3adede663cb740e1a235fb1a45e1a42b0d3ae2b2470bdf66156df9ed",
+        "physical_probe_nmse": 0.11628503215293282,
+        "signal_subspace_overlap": 0.8844350859451687,
+        "encoder_covariance_eigenvalues": [
+          0.91226323420008,
+          0.9609018664854831
+        ]
+      },
+      {
+        "step": 4000,
+        "checkpoint_sha256": "1ce9626c2c4d0ec0a4632a4967f57e70a8571291d3ab890066acb328d0c619ec",
+        "physical_probe_nmse": 0.09350384530605882,
+        "signal_subspace_overlap": 0.9070588625495739,
+        "encoder_covariance_eigenvalues": [
+          0.9456985638993567,
+          0.9728163826185905
+        ]
+      },
+      {
+        "step": 8000,
+        "checkpoint_sha256": "780d7e1e97a3f3de8fdfa1ac97943ce334c9cd6cf86a6e1b2a448682f8a4792b",
+        "physical_probe_nmse": 0.08508672006430729,
+        "signal_subspace_overlap": 0.9154464775456339,
+        "encoder_covariance_eigenvalues": [
+          0.9494731822555298,
+          0.9808507082399333
+        ]
+      }
+    ]
+  }
+]

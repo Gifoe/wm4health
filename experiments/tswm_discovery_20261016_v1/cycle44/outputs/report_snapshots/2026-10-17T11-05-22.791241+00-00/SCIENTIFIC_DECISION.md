@@ -1,0 +1,7 @@
+# C44 Scientific decision — progress, not a framework acceptance
+
+UTC 2026-10-17T02:09:24.044663+00:00。C44本轮是机制筛查PROGRESS；整体ACTIVE_UNACHIEVED，最终接受方向0。正式训练16/16完成，训练状态completed；已完成模型的正式updates共55500。VAL分配阶段completed。独立EVAL质量阶段scored, independently verified；EVAL truth reference REFERENCE_READY。同拟合law high-sample reference/16-replicate查询阶段running；独立CPU查询分析pending。尚未据此确认任何新框架，不能宣称完成研究目标。
+
+用户明确目标为可复用的时间序列world-model框架，WorldTS作为贡献范围参照。单数据集提分、ordinary采样器包装或implementation repair不足作为最终贡献。具体idea由机制证据决定，未要求新数学算子、Loop或固定某一数据集。
+
+Do not interpret any pending stage as completed. No final scientific direction or submission readiness is asserted.

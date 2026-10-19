@@ -1,0 +1,299 @@
+{
+  "rows": [
+    {
+      "latent_obs_dim": 1,
+      "fast_dim": 2,
+      "context_dim": 2,
+      "augmented_dim": 4,
+      "batch": 1,
+      "horizon": 32,
+      "native_factorized": {
+        "timings": [
+          {
+            "wall_ms_per_rollout": 54.465139997773804,
+            "CUDA_ms_per_rollout": 54.401458740234375
+          },
+          {
+            "wall_ms_per_rollout": 54.777499998454005,
+            "CUDA_ms_per_rollout": 54.71998291015625
+          },
+          {
+            "wall_ms_per_rollout": 54.92722000053618,
+            "CUDA_ms_per_rollout": 54.869659423828125
+          }
+        ],
+        "baseline_allocated_bytes": 8532992,
+        "peak_allocated_bytes": 8544256,
+        "peak_increment_bytes": 11264
+      },
+      "ordinary_dense_augmented": {
+        "timings": [
+          {
+            "wall_ms_per_rollout": 2.987240001675673,
+            "CUDA_ms_per_rollout": 2.904377555847168
+          },
+          {
+            "wall_ms_per_rollout": 3.014039999106899,
+            "CUDA_ms_per_rollout": 2.952851104736328
+          },
+          {
+            "wall_ms_per_rollout": 3.0036000011023134,
+            "CUDA_ms_per_rollout": 2.9437631607055663
+          }
+        ],
+        "baseline_allocated_bytes": 8532992,
+        "peak_allocated_bytes": 8535040,
+        "peak_increment_bytes": 2048
+      },
+      "augmented_over_native_wall_ratio": 0.05483273243917821
+    },
+    {
+      "latent_obs_dim": 1,
+      "fast_dim": 2,
+      "context_dim": 2,
+      "augmented_dim": 4,
+      "batch": 32,
+      "horizon": 32,
+      "native_factorized": {
+        "timings": [
+          {
+            "wall_ms_per_rollout": 55.18715999787673,
+            "CUDA_ms_per_rollout": 55.12636108398438
+          },
+          {
+            "wall_ms_per_rollout": 54.55675999983214,
+            "CUDA_ms_per_rollout": 54.498785400390624
+          },
+          {
+            "wall_ms_per_rollout": 54.64995999936946,
+            "CUDA_ms_per_rollout": 54.59055786132812
+          }
+        ],
+        "baseline_allocated_bytes": 8534528,
+        "peak_allocated_bytes": 8545792,
+        "peak_increment_bytes": 11264
+      },
+      "ordinary_dense_augmented": {
+        "timings": [
+          {
+            "wall_ms_per_rollout": 3.4822600020561367,
+            "CUDA_ms_per_rollout": 3.433087921142578
+          },
+          {
+            "wall_ms_per_rollout": 3.488259998266585,
+            "CUDA_ms_per_rollout": 3.441273498535156
+          },
+          {
+            "wall_ms_per_rollout": 3.478079999331385,
+            "CUDA_ms_per_rollout": 3.432223892211914
+          }
+        ],
+        "baseline_allocated_bytes": 8534528,
+        "peak_allocated_bytes": 8541184,
+        "peak_increment_bytes": 6656
+      },
+      "augmented_over_native_wall_ratio": 0.06371935134255019
+    },
+    {
+      "latent_obs_dim": 30,
+      "fast_dim": 60,
+      "context_dim": 60,
+      "augmented_dim": 120,
+      "batch": 1,
+      "horizon": 32,
+      "native_factorized": {
+        "timings": [
+          {
+            "wall_ms_per_rollout": 55.309180001495406,
+            "CUDA_ms_per_rollout": 55.24885864257813
+          },
+          {
+            "wall_ms_per_rollout": 55.42866000032518,
+            "CUDA_ms_per_rollout": 55.36576538085937
+          },
+          {
+            "wall_ms_per_rollout": 54.84118000022136,
+            "CUDA_ms_per_rollout": 54.782647705078126
+          }
+        ],
+        "baseline_allocated_bytes": 8798208,
+        "peak_allocated_bytes": 8810496,
+        "peak_increment_bytes": 12288
+      },
+      "ordinary_dense_augmented": {
+        "timings": [
+          {
+            "wall_ms_per_rollout": 3.4200399997644126,
+            "CUDA_ms_per_rollout": 3.3716800689697264
+          },
+          {
+            "wall_ms_per_rollout": 3.3922200003871694,
+            "CUDA_ms_per_rollout": 3.346060943603516
+          },
+          {
+            "wall_ms_per_rollout": 3.4089799999492243,
+            "CUDA_ms_per_rollout": 3.362809753417969
+          }
+        ],
+        "baseline_allocated_bytes": 8798208,
+        "peak_allocated_bytes": 8972288,
+        "peak_increment_bytes": 174080
+      },
+      "augmented_over_native_wall_ratio": 0.061634976325034195
+    },
+    {
+      "latent_obs_dim": 30,
+      "fast_dim": 60,
+      "context_dim": 60,
+      "augmented_dim": 120,
+      "batch": 32,
+      "horizon": 32,
+      "native_factorized": {
+        "timings": [
+          {
+            "wall_ms_per_rollout": 61.09429999778513,
+            "CUDA_ms_per_rollout": 61.043634033203126
+          },
+          {
+            "wall_ms_per_rollout": 60.95330000098329,
+            "CUDA_ms_per_rollout": 60.90650634765625
+          },
+          {
+            "wall_ms_per_rollout": 61.24022000003606,
+            "CUDA_ms_per_rollout": 61.19310302734375
+          }
+        ],
+        "baseline_allocated_bytes": 10627072,
+        "peak_allocated_bytes": 10727936,
+        "peak_increment_bytes": 100864
+      },
+      "ordinary_dense_augmented": {
+        "timings": [
+          {
+            "wall_ms_per_rollout": 3.344120000838302,
+            "CUDA_ms_per_rollout": 3.2932926177978517
+          },
+          {
+            "wall_ms_per_rollout": 3.335260000312701,
+            "CUDA_ms_per_rollout": 3.287424087524414
+          },
+          {
+            "wall_ms_per_rollout": 3.3311799983493984,
+            "CUDA_ms_per_rollout": 3.2830718994140624
+          }
+        ],
+        "baseline_allocated_bytes": 10627072,
+        "peak_allocated_bytes": 16172032,
+        "peak_increment_bytes": 5544960
+      },
+      "augmented_over_native_wall_ratio": 0.05459199958807311
+    },
+    {
+      "latent_obs_dim": 128,
+      "fast_dim": 256,
+      "context_dim": 256,
+      "augmented_dim": 512,
+      "batch": 1,
+      "horizon": 32,
+      "native_factorized": {
+        "timings": [
+          {
+            "wall_ms_per_rollout": 58.30551999970339,
+            "CUDA_ms_per_rollout": 58.25370483398437
+          },
+          {
+            "wall_ms_per_rollout": 58.43866000068374,
+            "CUDA_ms_per_rollout": 58.38975830078125
+          },
+          {
+            "wall_ms_per_rollout": 58.8216400006786,
+            "CUDA_ms_per_rollout": 58.77320556640625
+          }
+        ],
+        "baseline_allocated_bytes": 13376512,
+        "peak_allocated_bytes": 13452288,
+        "peak_increment_bytes": 75776
+      },
+      "ordinary_dense_augmented": {
+        "timings": [
+          {
+            "wall_ms_per_rollout": 3.4628800000064075,
+            "CUDA_ms_per_rollout": 3.415270233154297
+          },
+          {
+            "wall_ms_per_rollout": 3.4595000004628673,
+            "CUDA_ms_per_rollout": 3.414214324951172
+          },
+          {
+            "wall_ms_per_rollout": 3.494100001989864,
+            "CUDA_ms_per_rollout": 3.4452289581298827
+          }
+        ],
+        "baseline_allocated_bytes": 13376512,
+        "peak_allocated_bytes": 16524288,
+        "peak_increment_bytes": 3147776
+      },
+      "augmented_over_native_wall_ratio": 0.05925666331099808
+    },
+    {
+      "latent_obs_dim": 128,
+      "fast_dim": 256,
+      "context_dim": 256,
+      "augmented_dim": 512,
+      "batch": 32,
+      "horizon": 32,
+      "native_factorized": {
+        "timings": [
+          {
+            "wall_ms_per_rollout": 61.59992000029888,
+            "CUDA_ms_per_rollout": 61.548651123046874
+          },
+          {
+            "wall_ms_per_rollout": 61.46016000129748,
+            "CUDA_ms_per_rollout": 61.412872314453125
+          },
+          {
+            "wall_ms_per_rollout": 61.23220000008587,
+            "CUDA_ms_per_rollout": 61.184930419921876
+          }
+        ],
+        "baseline_allocated_bytes": 46072832,
+        "peak_allocated_bytes": 46483968,
+        "peak_increment_bytes": 411136
+      },
+      "ordinary_dense_augmented": {
+        "timings": [
+          {
+            "wall_ms_per_rollout": 13.478619998204522,
+            "CUDA_ms_per_rollout": 13.379379272460938
+          },
+          {
+            "wall_ms_per_rollout": 13.588340001297183,
+            "CUDA_ms_per_rollout": 13.500813293457032
+          },
+          {
+            "wall_ms_per_rollout": 13.524519998463802,
+            "CUDA_ms_per_rollout": 13.437875366210937
+          }
+        ],
+        "baseline_allocated_bytes": 46072832,
+        "peak_allocated_bytes": 146801664,
+        "peak_increment_bytes": 100728832
+      },
+      "augmented_over_native_wall_ratio": 0.22005344597505583
+    }
+  ],
+  "environment": {
+    "python": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:36:49) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.8.0+cu128",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "dtype": "float32",
+    "tf32": false
+  },
+  "native_source_sha256": "f1e6ed8444ffbdc5713c2bd88d15cfc2f7c409a2b03670df540e97f41ce167cd",
+  "plan_sha256": "de60deee9d09029d3c660fe740d074d5afd9a531958825331f849ddfe8c158fe",
+  "scope": "Eager operator inference only; no learned-model relevance, training-memory or training-runtime claim",
+  "objective_achieved": false,
+  "novel_direction_accepted": false,
+  "utc": "2026-10-16T05:34:53.553994+00:00"
+}

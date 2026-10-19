@@ -1,0 +1,13 @@
+# C43 — Native SPF qualification before any research effects
+
+This stage audits a new close baseline for the reserve coarse-path/query direction. It is not a climate reproduction, a new framework, or a comparative performance experiment. The author source is pinned to stanfordmlgroup/spf a7624ae25b47b474d5a31ca22b3ac6e6907795dd. Original source files remain byte-identical and Git-blob/SHA256 verified.
+
+Execute the original small MMDiT backbone, original multiscale collator, original temporal scheduler and original training-step/sampling function bodies. The sampler/training methods are extracted by AST into a context adapter; their computational bodies remain unchanged. This bypasses only the Lightning/climate data-loader shell, supplying the same documented attributes. Record exact extraction and any repair. Do not call this a full native Lightning pipeline reproduction.
+
+The project declares Python3.12/PyTorch2.5.1; current server is Python3.10/PyTorch2.8cu128 for RTX5090. Source must parse/import and qualify under this disclosed adaptation. Use native optional SDPA and sinusoidal temporal position setting in a tiny backbone, with 8×8 output grid, one output channel, three stages, temporal lengths1/1/16. Toy inputs encode only an initial observed field; output is a noisy evolving field. Names decadal/yearly/monthly are retained as native API keys, without climate semantics.
+
+Qualification endpoints: three path shapes, finite forward/backward,50 discarded preflight updates, deterministic RNG replay, native standard vs modular sampling where valid, partial-stage continuation replay, and equal first-stage states across target resolutions when the native configuration shares that prefix. Check actual condition-projection gradients and record native behavior. No inference about model quality or state information from this tiny fit.
+
+If a sampler interface has a concrete runtime defect, preserve the failure first. A minimal metadata/control-flow repair may be used only if existing valid outputs remain identical and random sampling/math are unchanged; it is an ordinary implementation repair, not a research contribution. Original coarse sampling through standard predict remains a complete contender.
+
+Following this qualification, freeze a separate scored protocol before any MC/MLMC query-quality conclusions. Both ordinary common-random-number multilevel estimation and a cheap autoregressive/SSM sampler must be allowed to win. MLMC does not mathematically require fine aggregation to equal a standalone coarse sample; only the coarse marginal used in the independent and correction terms must agree. Common-random-number paired calls are a valid ordinary coupling even without a special shared-marginal architecture.

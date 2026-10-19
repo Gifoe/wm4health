@@ -1,0 +1,35 @@
+{
+  "rows": [
+    {
+      "model": "persistence",
+      "NLL": 0.8084410755484767,
+      "MAE_standardized": 0.3277881482012507,
+      "RMSE_standardized": 0.489163064229275,
+      "coverage95": 0.9673429951690822,
+      "mean_predicted_variance": 0.5298976840116879,
+      "variance_source": "Training-only residual MSE per horizon; no validation recalibration"
+    },
+    {
+      "model": "seasonal24",
+      "NLL": 0.6112699479983289,
+      "MAE_standardized": 0.2635978737457066,
+      "RMSE_standardized": 0.39176626636158096,
+      "coverage95": 0.9777777777777777,
+      "mean_predicted_variance": 0.37664784684214436,
+      "variance_source": "Training-only residual MSE per horizon; no validation recalibration"
+    },
+    {
+      "model": "Ridge_ARX",
+      "ridge_alpha": 1.0,
+      "coefficients": 36,
+      "NLL": 0.34122181928242457,
+      "MAE_standardized": 0.2335635249202142,
+      "RMSE_standardized": 0.3247792789238904,
+      "coverage95": 0.9777777777777777,
+      "mean_predicted_variance": 0.18652303930058323,
+      "variance_source": "Train residual Gaussian innovation; exact linear AR impulse variance; ignores coefficient uncertainty"
+    }
+  ],
+  "validation_only": true,
+  "no_test_evaluation": true
+}

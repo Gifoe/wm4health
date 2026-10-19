@@ -1,0 +1,31 @@
+{
+  "pass": true,
+  "NumPy_metric_relative_errors": {
+    "lorenz63_2021": 2.2744765447538855e-08,
+    "lorenz63_2022": 4.025796617701543e-07,
+    "lorenz63_2023": 2.574879936508493e-07,
+    "lorenz63_context_replay": 9.72451234174958e-08,
+    "lorenz63_persistence": 8.625876795078611e-08,
+    "chua_2021": 1.4628759797871363e-07,
+    "chua_2022": 2.1499424485432063e-08,
+    "chua_2023": 1.0194961005588527e-07,
+    "chua_context_replay": 1.7148378268121882e-07,
+    "chua_persistence": 1.4181956246352412e-07,
+    "sprottM_2021": 5.95959745877153e-08,
+    "sprottM_2022": 3.455366789214079e-07,
+    "sprottM_2023": 8.612340436374297e-08,
+    "sprottM_context_replay": 3.4564817857963495e-07,
+    "sprottM_persistence": 3.6927381636600584e-08
+  },
+  "maximum_relative_metric_error": 4.025796617701543e-07,
+  "native_lorenz_same_seed64_prefix_error": 0.0,
+  "source_and_demo_files_unchanged": true,
+  "verified_arrays_sha256": {
+    "chua.npz": "340f4cb87daf8093748303b1db4db52742a9cdf9f39abd82dd83c1a0367ef10a",
+    "lorenz63.npz": "5004b0615591be3f3e39894f494a40c24f0a1e5ea72200cc404f910210767405",
+    "sprottM.npz": "b269ba99c6218a200cb6ba542dae5167995f8e5be90f71e13e1df3fb4140d8b8"
+  },
+  "script_sha256": "b3860b62a0adbf4af044f7f3b14e53d47be34d6940b3ad19305e247b5a7874b8",
+  "elapsed_seconds": 1.581189100004849,
+  "objective_achieved": false
+}

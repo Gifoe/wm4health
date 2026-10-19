@@ -1,0 +1,27 @@
+{
+  "kind": "linear",
+  "arm": "hinge",
+  "seed": 33,
+  "trainable_parameters": 15312,
+  "frozen_IDM_parameters": 267777,
+  "seconds": 35.005664700001944,
+  "minimum_validation_factual_MSE": 0.012919838540256023,
+  "test_final": {
+    "factual_MSE": 0.013236528262495995,
+    "zero_plan_MSE": 0.006685602478682995,
+    "paired_response_MSE": 0.006212165113538504,
+    "predicted_cosine_gap": 0.14411437511444092,
+    "true_cosine_gap": 0.04040655493736267,
+    "offline_candidate_regret_mean": 0.01710645854473114,
+    "offline_candidate_regret_p90": 0.041729655116796494
+  },
+  "test_best_validation": {
+    "factual_MSE": 0.013236528262495995,
+    "zero_plan_MSE": 0.006685602478682995,
+    "paired_response_MSE": 0.006212165113538504,
+    "predicted_cosine_gap": 0.14411437511444092,
+    "true_cosine_gap": 0.04040655493736267,
+    "offline_candidate_regret_mean": 0.01710645854473114,
+    "offline_candidate_regret_p90": 0.041729655116796494
+  }
+}

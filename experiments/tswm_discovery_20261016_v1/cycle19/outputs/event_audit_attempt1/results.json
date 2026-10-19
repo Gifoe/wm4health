@@ -1,0 +1,4810 @@
+{
+  "systems": {
+    "lorenz63": {
+      "context_length": 2000,
+      "reference": {
+        "context_thresholds": {
+          "thresholds": [
+            0.07967051863670349,
+            1.4312426090240482
+          ],
+          "eligible_landmarks": 59,
+          "hit_counts": [
+            0,
+            27,
+            42
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.4576271186440678,
+            0.711864406779661
+          ],
+          "median_upcrossings": 67,
+          "completed_return_intervals": 66,
+          "return_CDF_completed_only": [
+            0.0,
+            0.06060606060606061,
+            0.3181818181818182
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 23,
+          "occupancy_above_upper": 0.097,
+          "first_half_CDF": [
+            0.0,
+            0.3793103448275862,
+            0.6896551724137931
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.5333333333333333,
+            0.7333333333333333
+          ],
+          "first_half_eligible": 29,
+          "second_half_eligible": 30
+        },
+        "context_thresholds_all_offsets": {
+          "eligible_windows": 4324,
+          "first_passage_CDF": [
+            0.0,
+            0.34435707678075855,
+            0.6276595744680851
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "own_rank_diagnostic": {
+          "thresholds": [
+            -0.03682158701121807,
+            1.4146194577217104
+          ],
+          "eligible_landmarks": 55,
+          "hit_counts": [
+            0,
+            24,
+            38
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.43636363636363634,
+            0.6909090909090909
+          ],
+          "median_upcrossings": 65,
+          "completed_return_intervals": 64,
+          "return_CDF_completed_only": [
+            0.0,
+            0.0625,
+            0.296875
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 25,
+          "occupancy_above_upper": 0.1,
+          "first_half_CDF": [
+            0.0,
+            0.39285714285714285,
+            0.6785714285714286
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.48148148148148145,
+            0.7037037037037037
+          ],
+          "first_half_eligible": 28,
+          "second_half_eligible": 27
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "eligible_windows": 3948,
+          "first_passage_CDF": [
+            0.0,
+            0.3295339412360689,
+            0.6056231003039514
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "reversal_odd_moment": [
+          -0.0002386271375058631,
+          -0.0013157250487210053,
+          -0.001888759859211368
+        ]
+      },
+      "paths": {
+        "context_replay": {
+          "summaries": {
+            "context_thresholds": {
+              "thresholds": [
+                0.07967051863670349,
+                1.4312426090240482
+              ],
+              "eligible_landmarks": 40,
+              "hit_counts": [
+                0,
+                10,
+                20
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.25,
+                0.5
+              ],
+              "median_upcrossings": 69,
+              "completed_return_intervals": 68,
+              "return_CDF_completed_only": [
+                0.0,
+                0.07352941176470588,
+                0.4264705882352941
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 275,
+              "occupancy_above_upper": 0.1,
+              "first_half_CDF": [
+                0.0,
+                0.25,
+                0.5
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.25,
+                0.5
+              ],
+              "first_half_eligible": 20,
+              "second_half_eligible": 20
+            },
+            "context_thresholds_all_offsets": {
+              "eligible_windows": 3745,
+              "first_passage_CDF": [
+                0.0,
+                0.3538050734312417,
+                0.6942590120160214
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "own_rank_diagnostic": {
+              "thresholds": [
+                0.07967051863670349,
+                1.4312426090240487
+              ],
+              "eligible_landmarks": 40,
+              "hit_counts": [
+                0,
+                10,
+                20
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.25,
+                0.5
+              ],
+              "median_upcrossings": 69,
+              "completed_return_intervals": 68,
+              "return_CDF_completed_only": [
+                0.0,
+                0.07352941176470588,
+                0.4264705882352941
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 275,
+              "occupancy_above_upper": 0.1,
+              "first_half_CDF": [
+                0.0,
+                0.25,
+                0.5
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.25,
+                0.5
+              ],
+              "first_half_eligible": 20,
+              "second_half_eligible": 20
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "eligible_windows": 3745,
+              "first_passage_CDF": [
+                0.0,
+                0.3538050734312417,
+                0.6942590120160214
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "reversal_odd_moment": [
+              0.0013843027687915268,
+              0.004146120827273116,
+              0.003663262747296681
+            ]
+          },
+          "versus_reference": {
+            "context_thresholds": {
+              "CDF_difference": [
+                0.0,
+                -0.2076271186440678,
+                -0.211864406779661
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.3857053089029833,
+                  -0.3532804437564499
+                ],
+                [
+                  0.0,
+                  -0.04300480769230798,
+                  -0.08388104924146134
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.211864406779661,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic": {
+              "CDF_difference": [
+                0.0,
+                -0.18636363636363634,
+                -0.19090909090909092
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.35937912657989063,
+                  -0.33885890825035564
+                ],
+                [
+                  0.0,
+                  -0.024201684251518148,
+                  -0.059479049994909126
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.19090909090909092,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "context_thresholds_all_offsets": {
+              "CDF_difference": [
+                0.0,
+                0.009447996650483126,
+                0.06659943754793629
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.07100732779686073,
+                  -0.07335653807293302
+                ],
+                [
+                  0.0,
+                  0.07796781621893685,
+                  0.19441208459451947
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.06659943754793629,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "CDF_difference": [
+                0.0,
+                0.024271132195172795,
+                0.08863591171206997
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.06879736744588948,
+                  -0.05358615677168855
+                ],
+                [
+                  0.0,
+                  0.09859987914414617,
+                  0.22277280344905287
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.08863591171206997,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "reversal_odd_moment_difference": [
+              0.00162292990629739,
+              0.005461845875994121,
+              0.005552022606508049
+            ],
+            "reversal_odd_descriptive_bootstrap95": [
+              [
+                0.0002512809913722094,
+                0.00020905396393902819,
+                -0.0030084122272958343
+              ],
+              [
+                0.002915094996161548,
+                0.010436667092117756,
+                0.014318612813411494
+              ]
+            ]
+          }
+        },
+        "native_2021": {
+          "summaries": {
+            "context_thresholds": {
+              "thresholds": [
+                0.07967051863670349,
+                1.4312426090240482
+              ],
+              "eligible_landmarks": 39,
+              "hit_counts": [
+                0,
+                16,
+                33
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.41025641025641024,
+                0.8461538461538461
+              ],
+              "median_upcrossings": 69,
+              "completed_return_intervals": 68,
+              "return_CDF_completed_only": [
+                0.0,
+                0.058823529411764705,
+                0.17647058823529413
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 77,
+              "occupancy_above_upper": 0.1034,
+              "first_half_CDF": [
+                0.0,
+                0.38095238095238093,
+                0.8571428571428571
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.4444444444444444,
+                0.8333333333333334
+              ],
+              "first_half_eligible": 21,
+              "second_half_eligible": 18
+            },
+            "context_thresholds_all_offsets": {
+              "eligible_windows": 3519,
+              "first_passage_CDF": [
+                0.0,
+                0.33418584825234443,
+                0.7431088377379937
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "own_rank_diagnostic": {
+              "thresholds": [
+                0.30063609778881073,
+                1.4406936526298526
+              ],
+              "eligible_landmarks": 48,
+              "hit_counts": [
+                1,
+                24,
+                42
+              ],
+              "first_passage_CDF": [
+                0.020833333333333332,
+                0.5,
+                0.875
+              ],
+              "median_upcrossings": 108,
+              "completed_return_intervals": 107,
+              "return_CDF_completed_only": [
+                0.0,
+                0.19626168224299065,
+                0.7102803738317757
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 8,
+              "occupancy_above_upper": 0.1,
+              "first_half_CDF": [
+                0.0,
+                0.46153846153846156,
+                0.8846153846153846
+              ],
+              "second_half_CDF": [
+                0.045454545454545456,
+                0.5454545454545454,
+                0.8636363636363636
+              ],
+              "first_half_eligible": 26,
+              "second_half_eligible": 22
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "eligible_windows": 4180,
+              "first_passage_CDF": [
+                0.009330143540669857,
+                0.40861244019138754,
+                0.7662679425837321
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "reversal_odd_moment": [
+              -0.00018821254213913005,
+              0.0009847211700264482,
+              0.010362252698145336
+            ]
+          },
+          "versus_reference": {
+            "context_thresholds": {
+              "CDF_difference": [
+                0.0,
+                -0.047370708387657556,
+                0.13428943937418514
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.26794959590135636,
+                  -0.019256295347844628
+                ],
+                [
+                  0.0,
+                  0.17485550889928742,
+                  0.29038515406162463
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.13428943937418514,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic": {
+              "CDF_difference": [
+                0.020833333333333332,
+                0.06363636363636366,
+                0.18409090909090908
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.14719543759685735,
+                  0.036051470588235233
+                ],
+                [
+                  0.06521739130434782,
+                  0.2674840510366826,
+                  0.3377514534883718
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.18409090909090908,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "context_thresholds_all_offsets": {
+              "CDF_difference": [
+                0.0,
+                -0.010171228528414122,
+                0.11544926326990868
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.11095026462489795,
+                  -0.006845725325206966
+                ],
+                [
+                  0.0,
+                  0.09467215216997128,
+                  0.24638304698210356
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.11544926326990868,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "CDF_difference": [
+                0.009330143540669857,
+                0.07907849895531865,
+                0.1606448422797807
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0072480454859461104,
+                  -0.03077550784351632,
+                  0.03406853334373891
+                ],
+                [
+                  0.011349065517333919,
+                  0.1860702752896757,
+                  0.2878547280771587
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.1606448422797807,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "reversal_odd_moment_difference": [
+              5.0414595366733055e-05,
+              0.0023004462187474536,
+              0.012251012557356703
+            ],
+            "reversal_odd_descriptive_bootstrap95": [
+              [
+                -0.00145243263500211,
+                -0.0031066468555679292,
+                0.0030717973579200957
+              ],
+              [
+                0.0014750702590884852,
+                0.007577153444349764,
+                0.021406036087915928
+              ]
+            ]
+          }
+        },
+        "native_2022": {
+          "summaries": {
+            "context_thresholds": {
+              "thresholds": [
+                0.07967051863670349,
+                1.4312426090240482
+              ],
+              "eligible_landmarks": 43,
+              "hit_counts": [
+                0,
+                11,
+                30
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.2558139534883721,
+                0.6976744186046512
+              ],
+              "median_upcrossings": 72,
+              "completed_return_intervals": 71,
+              "return_CDF_completed_only": [
+                0.0,
+                0.0,
+                0.29577464788732394
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 14,
+              "occupancy_above_upper": 0.1018,
+              "first_half_CDF": [
+                0.0,
+                0.25,
+                0.6666666666666666
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.2631578947368421,
+                0.7368421052631579
+              ],
+              "first_half_eligible": 24,
+              "second_half_eligible": 19
+            },
+            "context_thresholds_all_offsets": {
+              "eligible_windows": 3467,
+              "first_passage_CDF": [
+                0.0,
+                0.34438996250360543,
+                0.7256994519757716
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "own_rank_diagnostic": {
+              "thresholds": [
+                0.2984364330768585,
+                1.4340600252151492
+              ],
+              "eligible_landmarks": 49,
+              "hit_counts": [
+                0,
+                15,
+                34
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.30612244897959184,
+                0.6938775510204082
+              ],
+              "median_upcrossings": 105,
+              "completed_return_intervals": 104,
+              "return_CDF_completed_only": [
+                0.0,
+                0.14423076923076922,
+                0.6634615384615384
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 9,
+              "occupancy_above_upper": 0.1,
+              "first_half_CDF": [
+                0.0,
+                0.3448275862068966,
+                0.6896551724137931
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.25,
+                0.7
+              ],
+              "first_half_eligible": 29,
+              "second_half_eligible": 20
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "eligible_windows": 4098,
+              "first_passage_CDF": [
+                0.010492923377257199,
+                0.4170326988775012,
+                0.755734504636408
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "reversal_odd_moment": [
+              -0.0002137120984642563,
+              0.0012415640662246353,
+              0.013622577730876745
+            ]
+          },
+          "versus_reference": {
+            "context_thresholds": {
+              "CDF_difference": [
+                0.0,
+                -0.2018131651556957,
+                -0.014189988175009827
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.4030339105339106,
+                  -0.16689335082231863
+                ],
+                [
+                  0.0,
+                  -0.0011488609583662085,
+                  0.14152412280701748
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.2018131651556957,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic": {
+              "CDF_difference": [
+                0.0,
+                -0.1302411873840445,
+                0.0029684601113172393
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.32596529029931487,
+                  -0.14017521902377972
+                ],
+                [
+                  0.0,
+                  0.048497913376945596,
+                  0.14231432360742696
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.1302411873840445,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "context_thresholds_all_offsets": {
+              "CDF_difference": [
+                0.0,
+                3.2885722846875964e-05,
+                0.0980398775076865
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.11464480839319116,
+                  -0.04888461272108859
+                ],
+                [
+                  0.0,
+                  0.1104204968040024,
+                  0.24459972652772638
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.0980398775076865,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "CDF_difference": [
+                0.010492923377257199,
+                0.08749875764143233,
+                0.15011140433245662
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.007904930255205498,
+                  -0.032784075003453234,
+                  0.0033531243339256045
+                ],
+                [
+                  0.012711051431672301,
+                  0.19453047607251384,
+                  0.28878027679193197
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.15011140433245662,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "reversal_odd_moment_difference": [
+              2.491503904160681e-05,
+              0.0025572891149456406,
+              0.015511337590088112
+            ],
+            "reversal_odd_descriptive_bootstrap95": [
+              [
+                -0.0012064660093092762,
+                -0.002443000437729371,
+                0.005701496457972484
+              ],
+              [
+                0.00120784171272929,
+                0.007418381689952143,
+                0.025770736097891593
+              ]
+            ]
+          }
+        },
+        "native_2023": {
+          "summaries": {
+            "context_thresholds": {
+              "thresholds": [
+                0.07967051863670349,
+                1.4312426090240482
+              ],
+              "eligible_landmarks": 48,
+              "hit_counts": [
+                0,
+                19,
+                32
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.3958333333333333,
+                0.6666666666666666
+              ],
+              "median_upcrossings": 63,
+              "completed_return_intervals": 62,
+              "return_CDF_completed_only": [
+                0.016129032258064516,
+                0.03225806451612903,
+                0.20967741935483872
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 165,
+              "occupancy_above_upper": 0.0972,
+              "first_half_CDF": [
+                0.0,
+                0.5,
+                0.7
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.2222222222222222,
+                0.6111111111111112
+              ],
+              "first_half_eligible": 30,
+              "second_half_eligible": 18
+            },
+            "context_thresholds_all_offsets": {
+              "eligible_windows": 3875,
+              "first_passage_CDF": [
+                0.0,
+                0.2988387096774194,
+                0.6116129032258064
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "own_rank_diagnostic": {
+              "thresholds": [
+                0.1899176761507988,
+                1.4229764342308044
+              ],
+              "eligible_landmarks": 49,
+              "hit_counts": [
+                0,
+                21,
+                34
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.42857142857142855,
+                0.6938775510204082
+              ],
+              "median_upcrossings": 81,
+              "completed_return_intervals": 80,
+              "return_CDF_completed_only": [
+                0.0,
+                0.0625,
+                0.45
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 27,
+              "occupancy_above_upper": 0.1,
+              "first_half_CDF": [
+                0.0,
+                0.5,
+                0.7
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.3157894736842105,
+                0.6842105263157895
+              ],
+              "first_half_eligible": 30,
+              "second_half_eligible": 19
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "eligible_windows": 4165,
+              "first_passage_CDF": [
+                0.0019207683073229293,
+                0.3445378151260504,
+                0.6605042016806723
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "reversal_odd_moment": [
+              -3.8952958111715734e-05,
+              0.002824317209556781,
+              0.010561925277942693
+            ]
+          },
+          "versus_reference": {
+            "context_thresholds": {
+              "CDF_difference": [
+                0.0,
+                -0.061793785310734484,
+                -0.04519774011299438
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.2783516746411483,
+                  -0.1966902126851951
+                ],
+                [
+                  0.0,
+                  0.14359460382513659,
+                  0.10821640494377603
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.061793785310734484,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic": {
+              "CDF_difference": [
+                0.0,
+                -0.007792207792207795,
+                0.0029684601113172393
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.2121447124304267,
+                  -0.14881944444444448
+                ],
+                [
+                  0.0,
+                  0.1951535450387051,
+                  0.15873917748917743
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.007792207792207795,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "context_thresholds_all_offsets": {
+              "CDF_difference": [
+                0.0,
+                -0.045518367103339175,
+                -0.016046671242278654
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.14439107100301554,
+                  -0.15456935463426008
+                ],
+                [
+                  0.0,
+                  0.04998443718024277,
+                  0.12592032408100026
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.045518367103339175,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "CDF_difference": [
+                0.0019207683073229293,
+                0.015003873889981534,
+                0.054881101376720864
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0007958203586596588,
+                  -0.09159450290746496,
+                  -0.08574117575215671
+                ],
+                [
+                  0.0030150325556506153,
+                  0.11519258063932931,
+                  0.19562602624323802
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.054881101376720864,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "reversal_odd_moment_difference": [
+              0.00019967417939414738,
+              0.004140042258277786,
+              0.01245068513715406
+            ],
+            "reversal_odd_descriptive_bootstrap95": [
+              [
+                -0.001021488872231963,
+                -0.0011038898282888193,
+                0.0022689553936801328
+              ],
+              [
+                0.0013497314982516238,
+                0.009529314253474565,
+                0.022971932870988122
+              ]
+            ]
+          }
+        },
+        "analogue_2021": {
+          "summaries": {
+            "context_thresholds": {
+              "thresholds": [
+                0.07967051863670349,
+                1.4312426090240482
+              ],
+              "eligible_landmarks": 39,
+              "hit_counts": [
+                0,
+                11,
+                24
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.28205128205128205,
+                0.6153846153846154
+              ],
+              "median_upcrossings": 82,
+              "completed_return_intervals": 81,
+              "return_CDF_completed_only": [
+                0.1111111111111111,
+                0.32098765432098764,
+                0.5185185185185185
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 293,
+              "occupancy_above_upper": 0.1192,
+              "first_half_CDF": [
+                0.0,
+                0.375,
+                0.75
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.13333333333333333,
+                0.4
+              ],
+              "first_half_eligible": 24,
+              "second_half_eligible": 15
+            },
+            "context_thresholds_all_offsets": {
+              "eligible_windows": 3224,
+              "first_passage_CDF": [
+                0.0,
+                0.3247518610421836,
+                0.6364764267990074
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "own_rank_diagnostic": {
+              "thresholds": [
+                0.21252819150686264,
+                1.4962008595466614
+              ],
+              "eligible_landmarks": 48,
+              "hit_counts": [
+                0,
+                20,
+                32
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.4166666666666667,
+                0.6666666666666666
+              ],
+              "median_upcrossings": 131,
+              "completed_return_intervals": 130,
+              "return_CDF_completed_only": [
+                0.06923076923076923,
+                0.5615384615384615,
+                0.8076923076923077
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 289,
+              "occupancy_above_upper": 0.1,
+              "first_half_CDF": [
+                0.0,
+                0.4444444444444444,
+                0.7407407407407407
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.38095238095238093,
+                0.5714285714285714
+              ],
+              "first_half_eligible": 27,
+              "second_half_eligible": 21
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "eligible_windows": 3952,
+              "first_passage_CDF": [
+                0.0007591093117408907,
+                0.4192813765182186,
+                0.6885121457489879
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "reversal_odd_moment": [
+              -0.0001575982808163924,
+              -4.263289424449087e-06,
+              -0.0020806352230950185
+            ]
+          },
+          "versus_reference": {
+            "context_thresholds": {
+              "CDF_difference": [
+                0.0,
+                -0.17557583659278575,
+                -0.09647979139504559
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.375716125480815,
+                  -0.2933847417018188
+                ],
+                [
+                  0.0,
+                  0.03578890931372534,
+                  0.0888888888888889
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.17557583659278575,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic": {
+              "CDF_difference": [
+                0.0,
+                -0.019696969696969657,
+                -0.024242424242424288
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.20658019717411213,
+                  -0.18690627202255108
+                ],
+                [
+                  0.0,
+                  0.16427192982456107,
+                  0.14304471003608954
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.024242424242424288,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "context_thresholds_all_offsets": {
+              "CDF_difference": [
+                0.0,
+                -0.019605215738574933,
+                0.008816852330922331
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.12210694106874591,
+                  -0.1410649252011707
+                ],
+                [
+                  0.0,
+                  0.08156869184130344,
+                  0.15425489628147948
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.019605215738574933,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "CDF_difference": [
+                0.0007591093117408907,
+                0.08974743528214973,
+                0.0828890454450365
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.022056255610511628,
+                  -0.06159884910998169
+                ],
+                [
+                  0.0016506270924709974,
+                  0.19392369925040928,
+                  0.22669507020186772
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.08974743528214973,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "reversal_odd_moment_difference": [
+              8.102885668947072e-05,
+              0.0013114617592965563,
+              -0.00019187536388365063
+            ],
+            "reversal_odd_descriptive_bootstrap95": [
+              [
+                -0.0015095593554939925,
+                -0.00471878500916311,
+                -0.007559088456168165
+              ],
+              [
+                0.0015040746298383935,
+                0.006960516277170707,
+                0.00743558454838842
+              ]
+            ]
+          }
+        },
+        "analogue_2022": {
+          "summaries": {
+            "context_thresholds": {
+              "thresholds": [
+                0.07967051863670349,
+                1.4312426090240482
+              ],
+              "eligible_landmarks": 39,
+              "hit_counts": [
+                0,
+                17,
+                30
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.4358974358974359,
+                0.7692307692307693
+              ],
+              "median_upcrossings": 100,
+              "completed_return_intervals": 99,
+              "return_CDF_completed_only": [
+                0.09090909090909091,
+                0.3333333333333333,
+                0.5050505050505051
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 38,
+              "occupancy_above_upper": 0.1213,
+              "first_half_CDF": [
+                0.0,
+                0.43478260869565216,
+                0.782608695652174
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.4375,
+                0.75
+              ],
+              "first_half_eligible": 23,
+              "second_half_eligible": 16
+            },
+            "context_thresholds_all_offsets": {
+              "eligible_windows": 3262,
+              "first_passage_CDF": [
+                0.0,
+                0.36174126302881665,
+                0.7268546903740036
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "own_rank_diagnostic": {
+              "thresholds": [
+                0.16668133437633514,
+                1.494660496711731
+              ],
+              "eligible_landmarks": 48,
+              "hit_counts": [
+                0,
+                24,
+                39
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.5,
+                0.8125
+              ],
+              "median_upcrossings": 141,
+              "completed_return_intervals": 140,
+              "return_CDF_completed_only": [
+                0.1,
+                0.5642857142857143,
+                0.7357142857142858
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 34,
+              "occupancy_above_upper": 0.1003,
+              "first_half_CDF": [
+                0.0,
+                0.4642857142857143,
+                0.8214285714285714
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.55,
+                0.8
+              ],
+              "first_half_eligible": 28,
+              "second_half_eligible": 20
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "eligible_windows": 3814,
+              "first_passage_CDF": [
+                0.00026219192448872575,
+                0.42947037231253277,
+                0.7564237021499738
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "reversal_odd_moment": [
+              -0.00026582090713595847,
+              -0.003447467129509295,
+              -0.004944327469424879
+            ]
+          },
+          "versus_reference": {
+            "context_thresholds": {
+              "CDF_difference": [
+                0.0,
+                -0.021729682746631895,
+                0.057366362451108266
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.19449669402644776,
+                  -0.11112337749230568
+                ],
+                [
+                  0.0,
+                  0.17422278363708565,
+                  0.23326226671610423
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.057366362451108266,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic": {
+              "CDF_difference": [
+                0.0,
+                0.06363636363636366,
+                0.12159090909090908
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.11313874124967593,
+                  -0.0297272727272728
+                ],
+                [
+                  0.0,
+                  0.24654418566686617,
+                  0.2846486486486485
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.12159090909090908,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "context_thresholds_all_offsets": {
+              "CDF_difference": [
+                0.0,
+                0.017384186248058098,
+                0.09919511590591856
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.08436239975985828,
+                  -0.04595089851049032
+                ],
+                [
+                  0.0,
+                  0.13546465884812062,
+                  0.2579167562026748
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.09919511590591856,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "CDF_difference": [
+                0.00026219192448872575,
+                0.09993643107646388,
+                0.1508006018460224
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.01744203320867244,
+                  0.004258111946002965
+                ],
+                [
+                  0.0009788087998683437,
+                  0.22937030763907187,
+                  0.30327914867266964
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.1508006018460224,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "reversal_odd_moment_difference": [
+              -2.7193769630095367e-05,
+              -0.0021317420807882895,
+              -0.003055567610213511
+            ],
+            "reversal_odd_descriptive_bootstrap95": [
+              [
+                -0.0015397336358954187,
+                -0.008214803055323792,
+                -0.010797837681839801
+              ],
+              [
+                0.0014190164173263616,
+                0.0040487527181982215,
+                0.004557487263819691
+              ]
+            ]
+          }
+        },
+        "analogue_2023": {
+          "summaries": {
+            "context_thresholds": {
+              "thresholds": [
+                0.07967051863670349,
+                1.4312426090240482
+              ],
+              "eligible_landmarks": 38,
+              "hit_counts": [
+                0,
+                8,
+                24
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.21052631578947367,
+                0.631578947368421
+              ],
+              "median_upcrossings": 82,
+              "completed_return_intervals": 81,
+              "return_CDF_completed_only": [
+                0.1111111111111111,
+                0.2839506172839506,
+                0.5185185185185185
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 188,
+              "occupancy_above_upper": 0.1166,
+              "first_half_CDF": [
+                0.0,
+                0.16666666666666666,
+                0.7222222222222222
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.25,
+                0.55
+              ],
+              "first_half_eligible": 18,
+              "second_half_eligible": 20
+            },
+            "context_thresholds_all_offsets": {
+              "eligible_windows": 3598,
+              "first_passage_CDF": [
+                0.0,
+                0.32601445247359645,
+                0.6536964980544747
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "own_rank_diagnostic": {
+              "thresholds": [
+                0.20450247824192047,
+                1.4634352922439575
+              ],
+              "eligible_landmarks": 47,
+              "hit_counts": [
+                0,
+                14,
+                32
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.2978723404255319,
+                0.6808510638297872
+              ],
+              "median_upcrossings": 131,
+              "completed_return_intervals": 130,
+              "return_CDF_completed_only": [
+                0.1,
+                0.5615384615384615,
+                0.7769230769230769
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 142,
+              "occupancy_above_upper": 0.1004,
+              "first_half_CDF": [
+                0.0,
+                0.2608695652173913,
+                0.782608695652174
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.3333333333333333,
+                0.5833333333333334
+              ],
+              "first_half_eligible": 23,
+              "second_half_eligible": 24
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "eligible_windows": 4293,
+              "first_passage_CDF": [
+                0.0011646866992778943,
+                0.4088050314465409,
+                0.6960167714884696
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "reversal_odd_moment": [
+              -0.00013129375295184025,
+              -0.00011092247384327726,
+              0.0014932612865622835
+            ]
+          },
+          "versus_reference": {
+            "context_thresholds": {
+              "CDF_difference": [
+                0.0,
+                -0.24710080285459413,
+                -0.08028545941123999
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.4303886892363214,
+                  -0.3007568067357973
+                ],
+                [
+                  0.0,
+                  -0.05951112412177994,
+                  0.17797132526526757
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.24710080285459413,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic": {
+              "CDF_difference": [
+                0.0,
+                -0.13849129593810444,
+                -0.0100580270793037
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.32713889903787596,
+                  -0.22081089882761615
+                ],
+                [
+                  0.0,
+                  0.060738289517412676,
+                  0.21307650390198235
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.13849129593810444,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "context_thresholds_all_offsets": {
+              "CDF_difference": [
+                0.0,
+                -0.018342624307162103,
+                0.02603692358638965
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.14110758169712037,
+                  -0.1661043721224858
+                ],
+                [
+                  0.0,
+                  0.11434279019046346,
+                  0.23667511182251327
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.02603692358638965,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "CDF_difference": [
+                0.0011646866992778943,
+                0.07927109021047202,
+                0.09039367118451824
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.00023035636605396825,
+                  -0.06153828572935432,
+                  -0.10154020899062206
+                ],
+                [
+                  0.002510512815121633,
+                  0.22191881097517535,
+                  0.28493464838900057
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.09039367118451824,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "reversal_odd_moment_difference": [
+              0.00010733338455402286,
+              0.0012048025748777281,
+              0.0033820211457736516
+            ],
+            "reversal_odd_descriptive_bootstrap95": [
+              [
+                -0.0011306785340411962,
+                -0.0037252520914703917,
+                -0.003062753901414167
+              ],
+              [
+                0.0013032609352878017,
+                0.006085577842905348,
+                0.010266839666017843
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "chua": {
+      "context_length": 1028,
+      "reference": {
+        "context_thresholds": {
+          "thresholds": [
+            0.1227647103369236,
+            1.2786916613578796
+          ],
+          "eligible_landmarks": 57,
+          "hit_counts": [
+            0,
+            5,
+            23
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.08771929824561403,
+            0.40350877192982454
+          ],
+          "median_upcrossings": 63,
+          "completed_return_intervals": 62,
+          "return_CDF_completed_only": [
+            0.0,
+            0.03225806451612903,
+            0.22580645161290322
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 55,
+          "occupancy_above_upper": 0.0923,
+          "first_half_CDF": [
+            0.0,
+            0.07407407407407407,
+            0.3333333333333333
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.1,
+            0.4666666666666667
+          ],
+          "first_half_eligible": 27,
+          "second_half_eligible": 30
+        },
+        "context_thresholds_all_offsets": {
+          "eligible_windows": 4165,
+          "first_passage_CDF": [
+            0.0,
+            0.10444177671068428,
+            0.3678271308523409
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "own_rank_diagnostic": {
+          "thresholds": [
+            -0.01820640917867422,
+            1.2621806621551515
+          ],
+          "eligible_landmarks": 55,
+          "hit_counts": [
+            0,
+            6,
+            22
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.10909090909090909,
+            0.4
+          ],
+          "median_upcrossings": 66,
+          "completed_return_intervals": 65,
+          "return_CDF_completed_only": [
+            0.0,
+            0.0,
+            0.3076923076923077
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 56,
+          "occupancy_above_upper": 0.1,
+          "first_half_CDF": [
+            0.0,
+            0.07692307692307693,
+            0.34615384615384615
+          ],
+          "second_half_CDF": [
+            0.0,
+            0.13793103448275862,
+            0.4482758620689655
+          ],
+          "first_half_eligible": 26,
+          "second_half_eligible": 29
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "eligible_windows": 3975,
+          "first_passage_CDF": [
+            0.0,
+            0.11044025157232705,
+            0.3929559748427673
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "reversal_odd_moment": [
+          -8.87952659265644e-05,
+          -0.0004826910386618636,
+          -0.0008756021384621976
+        ]
+      },
+      "paths": {
+        "context_replay": {
+          "summaries": {
+            "context_thresholds": {
+              "thresholds": [
+                0.1227647103369236,
+                1.2786916613578796
+              ],
+              "eligible_landmarks": 48,
+              "hit_counts": [
+                0,
+                5,
+                24
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.10416666666666667,
+                0.5
+              ],
+              "median_upcrossings": 48,
+              "completed_return_intervals": 47,
+              "return_CDF_completed_only": [
+                0.0,
+                0.0,
+                0.19148936170212766
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 16,
+              "occupancy_above_upper": 0.0993,
+              "first_half_CDF": [
+                0.0,
+                0.16,
+                0.56
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.043478260869565216,
+                0.43478260869565216
+              ],
+              "first_half_eligible": 25,
+              "second_half_eligible": 23
+            },
+            "context_thresholds_all_offsets": {
+              "eligible_windows": 4078,
+              "first_passage_CDF": [
+                0.0,
+                0.13168219715546836,
+                0.5125061304561059
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "own_rank_diagnostic": {
+              "thresholds": [
+                0.10712166875600815,
+                1.278430700302124
+              ],
+              "eligible_landmarks": 47,
+              "hit_counts": [
+                0,
+                5,
+                24
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.10638297872340426,
+                0.5106382978723404
+              ],
+              "median_upcrossings": 58,
+              "completed_return_intervals": 57,
+              "return_CDF_completed_only": [
+                0.0,
+                0.0,
+                0.3333333333333333
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 16,
+              "occupancy_above_upper": 0.1003,
+              "first_half_CDF": [
+                0.0,
+                0.16,
+                0.56
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.045454545454545456,
+                0.45454545454545453
+              ],
+              "first_half_eligible": 25,
+              "second_half_eligible": 22
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "eligible_windows": 4064,
+              "first_passage_CDF": [
+                0.0,
+                0.13410433070866143,
+                0.515994094488189
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "reversal_odd_moment": [
+              0.0022111691966628143,
+              0.013403354350055288,
+              0.027631023870064508
+            ]
+          },
+          "versus_reference": {
+            "context_thresholds": {
+              "CDF_difference": [
+                0.0,
+                0.01644736842105264,
+                0.09649122807017546
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.10145925903459152,
+                  -0.09900387067395264
+                ],
+                [
+                  0.0,
+                  0.133660237901681,
+                  0.29962643678160916
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.09649122807017546,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic": {
+              "CDF_difference": [
+                0.0,
+                -0.0027079303675048294,
+                0.11063829787234036
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.12006434400502199,
+                  -0.07777997364953887
+                ],
+                [
+                  0.0,
+                  0.10948315931788571,
+                  0.30304383116883105
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.11063829787234036,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "context_thresholds_all_offsets": {
+              "CDF_difference": [
+                0.0,
+                0.027240420444784086,
+                0.144678999603765
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.021127265752445282,
+                  0.054328772443493524
+                ],
+                [
+                  0.0,
+                  0.07586130370254208,
+                  0.23517108896095512
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.144678999603765,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "CDF_difference": [
+                0.0,
+                0.02366407913633438,
+                0.12303811964542172
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.021284714732427535,
+                  0.03198747732605005
+                ],
+                [
+                  0.0,
+                  0.07006279987329334,
+                  0.2143337694231925
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.12303811964542172,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "reversal_odd_moment_difference": [
+              0.0022999644625893785,
+              0.013886045388717152,
+              0.028506626008526704
+            ],
+            "reversal_odd_descriptive_bootstrap95": [
+              [
+                0.000964616875169235,
+                0.006490239422460581,
+                0.015129315056368305
+              ],
+              [
+                0.003671701051566787,
+                0.021621242204828663,
+                0.04371686219057805
+              ]
+            ]
+          }
+        },
+        "native_2021": {
+          "summaries": {
+            "context_thresholds": {
+              "thresholds": [
+                0.1227647103369236,
+                1.2786916613578796
+              ],
+              "eligible_landmarks": 52,
+              "hit_counts": [
+                0,
+                7,
+                26
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.1346153846153846,
+                0.5
+              ],
+              "median_upcrossings": 55,
+              "completed_return_intervals": 54,
+              "return_CDF_completed_only": [
+                0.0,
+                0.0,
+                0.16666666666666666
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 109,
+              "occupancy_above_upper": 0.1042,
+              "first_half_CDF": [
+                0.0,
+                0.11538461538461539,
+                0.5769230769230769
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.15384615384615385,
+                0.4230769230769231
+              ],
+              "first_half_eligible": 26,
+              "second_half_eligible": 26
+            },
+            "context_thresholds_all_offsets": {
+              "eligible_windows": 3839,
+              "first_passage_CDF": [
+                0.0,
+                0.14847616566814276,
+                0.5920812711643657
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "own_rank_diagnostic": {
+              "thresholds": [
+                0.27044209837913513,
+                1.2837181448936463
+              ],
+              "eligible_landmarks": 56,
+              "hit_counts": [
+                1,
+                8,
+                27
+              ],
+              "first_passage_CDF": [
+                0.017857142857142856,
+                0.14285714285714285,
+                0.48214285714285715
+              ],
+              "median_upcrossings": 60,
+              "completed_return_intervals": 59,
+              "return_CDF_completed_only": [
+                0.0,
+                0.0,
+                0.23728813559322035
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 108,
+              "occupancy_above_upper": 0.1,
+              "first_half_CDF": [
+                0.034482758620689655,
+                0.1724137931034483,
+                0.5517241379310345
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.1111111111111111,
+                0.4074074074074074
+              ],
+              "first_half_eligible": 29,
+              "second_half_eligible": 27
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "eligible_windows": 3984,
+              "first_passage_CDF": [
+                0.0015060240963855422,
+                0.14432730923694778,
+                0.5647590361445783
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "reversal_odd_moment": [
+              -6.848085863992767e-05,
+              0.0013676019196284628,
+              0.009404074958246909
+            ]
+          },
+          "versus_reference": {
+            "context_thresholds": {
+              "CDF_difference": [
+                0.0,
+                0.04689608636977058,
+                0.09649122807017546
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.08150609173169703,
+                  -0.08238659413608702
+                ],
+                [
+                  0.0,
+                  0.1724212865222717,
+                  0.29044595308331866
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.09649122807017546,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic": {
+              "CDF_difference": [
+                0.017857142857142856,
+                0.033766233766233764,
+                0.08214285714285713
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.08991282833888273,
+                  -0.09093301435406696
+                ],
+                [
+                  0.05660377358490566,
+                  0.1439688575980266,
+                  0.26219229737687516
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.08214285714285713,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "context_thresholds_all_offsets": {
+              "CDF_difference": [
+                0.0,
+                0.04403438895745848,
+                0.22425414031202479
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.0012925943716629604,
+                  0.12425689654111552
+                ],
+                [
+                  0.0,
+                  0.08748343616116024,
+                  0.3134166308221996
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.22425414031202479,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "CDF_difference": [
+                0.0015060240963855422,
+                0.03388705766462073,
+                0.17180306130181106
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0004834304332819246,
+                  -0.010303457034619552,
+                  0.0719864413496221
+                ],
+                [
+                  0.0028722032769743287,
+                  0.07657891846124833,
+                  0.2587370620322918
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.17180306130181106,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "reversal_odd_moment_difference": [
+              2.031440728663673e-05,
+              0.0018502929582903263,
+              0.010279677096709107
+            ],
+            "reversal_odd_descriptive_bootstrap95": [
+              [
+                -0.000883731500415093,
+                -0.0018877347221243573,
+                0.004383761875263156
+              ],
+              [
+                0.0008903961423101456,
+                0.0055916044751933135,
+                0.016270687478188526
+              ]
+            ]
+          }
+        },
+        "native_2022": {
+          "summaries": {
+            "context_thresholds": {
+              "thresholds": [
+                0.1227647103369236,
+                1.2786916613578796
+              ],
+              "eligible_landmarks": 48,
+              "hit_counts": [
+                0,
+                6,
+                30
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.125,
+                0.625
+              ],
+              "median_upcrossings": 57,
+              "completed_return_intervals": 56,
+              "return_CDF_completed_only": [
+                0.0,
+                0.0,
+                0.23214285714285715
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 163,
+              "occupancy_above_upper": 0.1031,
+              "first_half_CDF": [
+                0.0,
+                0.15384615384615385,
+                0.5769230769230769
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.09090909090909091,
+                0.6818181818181818
+              ],
+              "first_half_eligible": 26,
+              "second_half_eligible": 22
+            },
+            "context_thresholds_all_offsets": {
+              "eligible_windows": 3948,
+              "first_passage_CDF": [
+                0.0,
+                0.14260385005065856,
+                0.5481256332320162
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "own_rank_diagnostic": {
+              "thresholds": [
+                0.26372963190078735,
+                1.2855550885200502
+              ],
+              "eligible_landmarks": 51,
+              "hit_counts": [
+                0,
+                8,
+                31
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.1568627450980392,
+                0.6078431372549019
+              ],
+              "median_upcrossings": 57,
+              "completed_return_intervals": 56,
+              "return_CDF_completed_only": [
+                0.0,
+                0.0,
+                0.23214285714285715
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 72,
+              "occupancy_above_upper": 0.1,
+              "first_half_CDF": [
+                0.0,
+                0.18518518518518517,
+                0.5925925925925926
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.125,
+                0.625
+              ],
+              "first_half_eligible": 27,
+              "second_half_eligible": 24
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "eligible_windows": 4077,
+              "first_passage_CDF": [
+                0.0009811135638950208,
+                0.14716703458425312,
+                0.5420652440519991
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "reversal_odd_moment": [
+              -4.335795045606174e-05,
+              0.0008673600710659219,
+              0.007387888509663254
+            ]
+          },
+          "versus_reference": {
+            "context_thresholds": {
+              "CDF_difference": [
+                0.0,
+                0.03728070175438597,
+                0.22149122807017546
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.08442498939689776,
+                  0.03904532315453688
+                ],
+                [
+                  0.0,
+                  0.14828950423778003,
+                  0.4043581780538302
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.22149122807017546,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic": {
+              "CDF_difference": [
+                0.0,
+                0.04777183600713013,
+                0.2078431372549019
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.08054830642217396,
+                  0.045762827097572845
+                ],
+                [
+                  0.0,
+                  0.1705667063138071,
+                  0.370345730440251
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.2078431372549019,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "context_thresholds_all_offsets": {
+              "CDF_difference": [
+                0.0,
+                0.03816207333997429,
+                0.18029850237967532
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.0011360601658771433,
+                  0.10468712014543753
+                ],
+                [
+                  0.0,
+                  0.07950279953986292,
+                  0.2508655420569395
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.18029850237967532,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "CDF_difference": [
+                0.0009811135638950208,
+                0.03672678301192607,
+                0.1491092692092318
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.0023399363675937965,
+                  0.07429935530019219
+                ],
+                [
+                  0.0021839491899176135,
+                  0.0756252493610599,
+                  0.21795757616264774
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.1491092692092318,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "reversal_odd_moment_difference": [
+              4.543731547050266e-05,
+              0.0013500511097277856,
+              0.008263490648125451
+            ],
+            "reversal_odd_descriptive_bootstrap95": [
+              [
+                -0.0010258461924124414,
+                -0.0030539408384216826,
+                0.0013614864916370807
+              ],
+              [
+                0.0011121880383719491,
+                0.005883696016449002,
+                0.014566584800125957
+              ]
+            ]
+          }
+        },
+        "native_2023": {
+          "summaries": {
+            "context_thresholds": {
+              "thresholds": [
+                0.1227647103369236,
+                1.2786916613578796
+              ],
+              "eligible_landmarks": 45,
+              "hit_counts": [
+                0,
+                4,
+                25
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.08888888888888889,
+                0.5555555555555556
+              ],
+              "median_upcrossings": 54,
+              "completed_return_intervals": 53,
+              "return_CDF_completed_only": [
+                0.0,
+                0.0,
+                0.16981132075471697
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 100,
+              "occupancy_above_upper": 0.102,
+              "first_half_CDF": [
+                0.0,
+                0.125,
+                0.4583333333333333
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.047619047619047616,
+                0.6666666666666666
+              ],
+              "first_half_eligible": 24,
+              "second_half_eligible": 21
+            },
+            "context_thresholds_all_offsets": {
+              "eligible_windows": 3995,
+              "first_passage_CDF": [
+                0.0,
+                0.13591989987484354,
+                0.5769712140175219
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "own_rank_diagnostic": {
+              "thresholds": [
+                0.20062795281410217,
+                1.2822444677352907
+              ],
+              "eligible_landmarks": 47,
+              "hit_counts": [
+                0,
+                5,
+                26
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.10638297872340426,
+                0.5531914893617021
+              ],
+              "median_upcrossings": 56,
+              "completed_return_intervals": 55,
+              "return_CDF_completed_only": [
+                0.0,
+                0.0,
+                0.2
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 100,
+              "occupancy_above_upper": 0.1,
+              "first_half_CDF": [
+                0.0,
+                0.16,
+                0.48
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.045454545454545456,
+                0.6363636363636364
+              ],
+              "first_half_eligible": 25,
+              "second_half_eligible": 22
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "eligible_windows": 4057,
+              "first_passage_CDF": [
+                0.00024648755237860487,
+                0.1404979048558048,
+                0.5767808725659355
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "reversal_odd_moment": [
+              -4.215752124521309e-05,
+              0.0006226888068439024,
+              0.005354668545734696
+            ]
+          },
+          "versus_reference": {
+            "context_thresholds": {
+              "CDF_difference": [
+                0.0,
+                0.001169590643274862,
+                0.15204678362573104
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.13136750226017968,
+                  -0.01889208498795099
+                ],
+                [
+                  0.0,
+                  0.1224715340681726,
+                  0.3342484062105138
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.15204678362573104,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic": {
+              "CDF_difference": [
+                0.0,
+                -0.0027079303675048294,
+                0.15319148936170213
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.14916832174776562,
+                  -0.01369354903215481
+                ],
+                [
+                  0.0,
+                  0.1341952017019265,
+                  0.32074097566601284
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.15319148936170213,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "context_thresholds_all_offsets": {
+              "CDF_difference": [
+                0.0,
+                0.031478123164159266,
+                0.20914408316518102
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.0030357270209562534,
+                  0.12491327958149223
+                ],
+                [
+                  0.0,
+                  0.06585975237796177,
+                  0.2874886863719055
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.20914408316518102,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "CDF_difference": [
+                0.00024648755237860487,
+                0.030057653283477745,
+                0.18382489772316818
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.0009844666894796921,
+                  0.10260248054362504
+                ],
+                [
+                  0.0007575949076201856,
+                  0.06090813706626148,
+                  0.2580627962965931
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.18382489772316818,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "reversal_odd_moment_difference": [
+              4.6637744681351307e-05,
+              0.001105379845505766,
+              0.006230270684196894
+            ],
+            "reversal_odd_descriptive_bootstrap95": [
+              [
+                -0.0008042343486481451,
+                -0.0025104251942079277,
+                0.0002757231149526736
+              ],
+              [
+                0.0008914265395022358,
+                0.004649768499236901,
+                0.011955170633838968
+              ]
+            ]
+          }
+        },
+        "analogue_2021": {
+          "summaries": {
+            "context_thresholds": {
+              "thresholds": [
+                0.1227647103369236,
+                1.2786916613578796
+              ],
+              "eligible_landmarks": 67,
+              "hit_counts": [
+                0,
+                3,
+                12
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.04477611940298507,
+                0.1791044776119403
+              ],
+              "median_upcrossings": 21,
+              "completed_return_intervals": 20,
+              "return_CDF_completed_only": [
+                0.0,
+                0.0,
+                0.1
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 302,
+              "occupancy_above_upper": 0.0643,
+              "first_half_CDF": [
+                0.0,
+                0.0,
+                0.15151515151515152
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.08823529411764706,
+                0.20588235294117646
+              ],
+              "first_half_eligible": 33,
+              "second_half_eligible": 34
+            },
+            "context_thresholds_all_offsets": {
+              "eligible_windows": 5161,
+              "first_passage_CDF": [
+                0.0013563262933540012,
+                0.05812826971517148,
+                0.18911063747335788
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "own_rank_diagnostic": {
+              "thresholds": [
+                -0.7791951298713684,
+                1.1960476398468023
+              ],
+              "eligible_landmarks": 49,
+              "hit_counts": [
+                0,
+                3,
+                11
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.061224489795918366,
+                0.22448979591836735
+              ],
+              "median_upcrossings": 183,
+              "completed_return_intervals": 182,
+              "return_CDF_completed_only": [
+                0.054945054945054944,
+                0.7967032967032966,
+                0.9120879120879121
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 26,
+              "occupancy_above_upper": 0.1,
+              "first_half_CDF": [
+                0.0,
+                0.0,
+                0.2
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.125,
+                0.25
+              ],
+              "first_half_eligible": 25,
+              "second_half_eligible": 24
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "eligible_windows": 4018,
+              "first_passage_CDF": [
+                0.0,
+                0.05973120955699353,
+                0.19412643106022898
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "reversal_odd_moment": [
+              -5.41054428823815e-05,
+              0.000377336864963677,
+              0.00575434949497896
+            ]
+          },
+          "versus_reference": {
+            "context_thresholds": {
+              "CDF_difference": [
+                0.0,
+                -0.04294317884262896,
+                -0.22440429431788425
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.15079868941399485,
+                  -0.3618332902876293
+                ],
+                [
+                  0.0,
+                  0.05496756691584265,
+                  -0.0779931998151438
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.22440429431788425,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic": {
+              "CDF_difference": [
+                0.0,
+                -0.04786641929499072,
+                -0.17551020408163268
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.1553236556250407,
+                  -0.3181973684210526
+                ],
+                [
+                  0.0,
+                  0.055577324973876574,
+                  -0.01850198412698424
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.17551020408163268,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "context_thresholds_all_offsets": {
+              "CDF_difference": [
+                0.0013563262933540012,
+                -0.046313506995512795,
+                -0.17871649337898304
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.08805632937429564,
+                  -0.267609869187063
+                ],
+                [
+                  0.003472328732106339,
+                  -0.004434057704025113,
+                  -0.08196662785943436
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.17871649337898304,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "CDF_difference": [
+                0.0,
+                -0.05070904201533352,
+                -0.1988295437825383
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.085015187961337,
+                  -0.28583018398532395
+                ],
+                [
+                  0.0,
+                  -0.012867974674152622,
+                  -0.09782942644040389
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.1988295437825383,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "reversal_odd_moment_difference": [
+              3.4689823044182896e-05,
+              0.0008600279036255406,
+              0.006629951633441158
+            ],
+            "reversal_odd_descriptive_bootstrap95": [
+              [
+                -0.0008082423417907406,
+                -0.0023545425019456663,
+                -0.00011990607939187014
+              ],
+              [
+                0.0008734276070482128,
+                0.004342658349393001,
+                0.014137134219593082
+              ]
+            ]
+          }
+        },
+        "analogue_2022": {
+          "summaries": {
+            "context_thresholds": {
+              "thresholds": [
+                0.1227647103369236,
+                1.2786916613578796
+              ],
+              "eligible_landmarks": 59,
+              "hit_counts": [
+                0,
+                4,
+                12
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.06779661016949153,
+                0.2033898305084746
+              ],
+              "median_upcrossings": 20,
+              "completed_return_intervals": 19,
+              "return_CDF_completed_only": [
+                0.0,
+                0.0,
+                0.10526315789473684
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 478,
+              "occupancy_above_upper": 0.0789,
+              "first_half_CDF": [
+                0.0,
+                0.034482758620689655,
+                0.2413793103448276
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.1,
+                0.16666666666666666
+              ],
+              "first_half_eligible": 29,
+              "second_half_eligible": 30
+            },
+            "context_thresholds_all_offsets": {
+              "eligible_windows": 4452,
+              "first_passage_CDF": [
+                0.0029200359389038636,
+                0.0770440251572327,
+                0.19137466307277629
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "own_rank_diagnostic": {
+              "thresholds": [
+                -0.6565461754798889,
+                1.2431793212890625
+              ],
+              "eligible_landmarks": 56,
+              "hit_counts": [
+                0,
+                5,
+                13
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.08928571428571429,
+                0.23214285714285715
+              ],
+              "median_upcrossings": 122,
+              "completed_return_intervals": 121,
+              "return_CDF_completed_only": [
+                0.11570247933884298,
+                0.5785123966942148,
+                0.8264462809917356
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 483,
+              "occupancy_above_upper": 0.1008,
+              "first_half_CDF": [
+                0.0,
+                0.10714285714285714,
+                0.25
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.07142857142857142,
+                0.21428571428571427
+              ],
+              "first_half_eligible": 28,
+              "second_half_eligible": 28
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "eligible_windows": 3835,
+              "first_passage_CDF": [
+                0.0002607561929595828,
+                0.08057366362451109,
+                0.19165580182529335
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "reversal_odd_moment": [
+              3.711472343139678e-08,
+              -1.7005983113858392e-05,
+              0.003082640732981873
+            ]
+          },
+          "versus_reference": {
+            "context_thresholds": {
+              "CDF_difference": [
+                0.0,
+                -0.019922688076122505,
+                -0.20011894142134995
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.13505756257918708,
+                  -0.3620582146762665
+                ],
+                [
+                  0.0,
+                  0.08078208556149725,
+                  -0.029394365169154456
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.20011894142134995,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic": {
+              "CDF_difference": [
+                0.0,
+                -0.019805194805194798,
+                -0.16785714285714287
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.1323985857797333,
+                  -0.32306990913982436
+                ],
+                [
+                  0.0,
+                  0.09028118191721132,
+                  0.0032440829867298755
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.16785714285714287,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "context_thresholds_all_offsets": {
+              "CDF_difference": [
+                0.0029200359389038636,
+                -0.027397751553451574,
+                -0.17645246777956464
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0006801762418608932,
+                  -0.07882838246431667,
+                  -0.28418010016448725
+                ],
+                [
+                  0.005857908366522237,
+                  0.036419821744086533,
+                  -0.042366946659202376
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.17645246777956464,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "CDF_difference": [
+                0.0002607561929595828,
+                -0.029866587947815965,
+                -0.20130017301747394
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.0763787134013938,
+                  -0.30997884709955575
+                ],
+                [
+                  0.0009107077295056895,
+                  0.03047461149119016,
+                  -0.07121854054078432
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.20130017301747394,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "reversal_odd_moment_difference": [
+              8.88323806499958e-05,
+              0.0004656850555480052,
+              0.00395824287144407
+            ],
+            "reversal_odd_descriptive_bootstrap95": [
+              [
+                -0.0007985281418469337,
+                -0.0030554947401394772,
+                -0.002557637778626967
+              ],
+              [
+                0.0009157972433184794,
+                0.0039870355222197725,
+                0.010830197060283521
+              ]
+            ]
+          }
+        },
+        "analogue_2023": {
+          "summaries": {
+            "context_thresholds": {
+              "thresholds": [
+                0.1227647103369236,
+                1.2786916613578796
+              ],
+              "eligible_landmarks": 64,
+              "hit_counts": [
+                0,
+                5,
+                13
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.078125,
+                0.203125
+              ],
+              "median_upcrossings": 23,
+              "completed_return_intervals": 22,
+              "return_CDF_completed_only": [
+                0.09090909090909091,
+                0.09090909090909091,
+                0.09090909090909091
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 11,
+              "occupancy_above_upper": 0.0715,
+              "first_half_CDF": [
+                0.0,
+                0.08823529411764706,
+                0.17647058823529413
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.06666666666666667,
+                0.23333333333333334
+              ],
+              "first_half_eligible": 34,
+              "second_half_eligible": 30
+            },
+            "context_thresholds_all_offsets": {
+              "eligible_windows": 4931,
+              "first_passage_CDF": [
+                0.001419590346785642,
+                0.05901439870208883,
+                0.1892111133644291
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "own_rank_diagnostic": {
+              "thresholds": [
+                -0.7866654098033905,
+                1.2185643911361694
+              ],
+              "eligible_landmarks": 50,
+              "hit_counts": [
+                0,
+                1,
+                10
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.02,
+                0.2
+              ],
+              "median_upcrossings": 191,
+              "completed_return_intervals": 190,
+              "return_CDF_completed_only": [
+                0.08421052631578947,
+                0.8263157894736842,
+                0.9157894736842105
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 19,
+              "occupancy_above_upper": 0.1001,
+              "first_half_CDF": [
+                0.0,
+                0.03571428571428571,
+                0.14285714285714285
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.0,
+                0.2727272727272727
+              ],
+              "first_half_eligible": 28,
+              "second_half_eligible": 22
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "eligible_windows": 3876,
+              "first_passage_CDF": [
+                0.0,
+                0.05495356037151703,
+                0.18550051599587203
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "reversal_odd_moment": [
+              -0.00012269573873058406,
+              0.001119848312037638,
+              0.008875435128934982
+            ]
+          },
+          "versus_reference": {
+            "context_thresholds": {
+              "CDF_difference": [
+                0.0,
+                -0.00959429824561403,
+                -0.20038377192982454
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.12851665785298783,
+                  -0.35108313197118246
+                ],
+                [
+                  0.0,
+                  0.11197881703676958,
+                  -0.03669933762978877
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.20038377192982454,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic": {
+              "CDF_difference": [
+                0.0,
+                -0.08909090909090908,
+                -0.2
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.1896551724137931,
+                  -0.35557501853714407
+                ],
+                [
+                  0.0,
+                  0.00104994062541232,
+                  -0.0302964426877471
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.2,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "context_thresholds_all_offsets": {
+              "CDF_difference": [
+                0.001419590346785642,
+                -0.04542737800859545,
+                -0.1786160174879118
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.09052344668532704,
+                  -0.289946634576371
+                ],
+                [
+                  0.00409223674480884,
+                  0.004849245539693068,
+                  -0.03733854064247791
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.1786160174879118,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "CDF_difference": [
+                0.0,
+                -0.05548669120081002,
+                -0.20745545884689526
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.09264783276263706,
+                  -0.3180929699828148
+                ],
+                [
+                  0.0,
+                  -0.00939745138145975,
+                  -0.06735680987549464
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.20745545884689526,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "reversal_odd_moment_difference": [
+              -3.390047280401966e-05,
+              0.0016025393506995016,
+              0.00975103726739718
+            ],
+            "reversal_odd_descriptive_bootstrap95": [
+              [
+                -0.0008242765315792665,
+                -0.0015362980653000028,
+                0.00310811050171494
+              ],
+              [
+                0.0007401218580592434,
+                0.004770008647182054,
+                0.01624055828927407
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "sprottM": {
+      "context_length": 512,
+      "reference": {
+        "context_thresholds": {
+          "thresholds": [
+            0.027419469319283962,
+            1.5069047570228578
+          ],
+          "eligible_landmarks": 31,
+          "hit_counts": [
+            0,
+            6,
+            31
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.1935483870967742,
+            1.0
+          ],
+          "median_upcrossings": 199,
+          "completed_return_intervals": 198,
+          "return_CDF_completed_only": [
+            0.0,
+            0.5,
+            1.0
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 19,
+          "occupancy_above_upper": 0.1022,
+          "first_half_CDF": [
+            0.0,
+            0.1935483870967742,
+            1.0
+          ],
+          "second_half_CDF": [
+            null,
+            null,
+            null
+          ],
+          "first_half_eligible": 31,
+          "second_half_eligible": 0
+        },
+        "context_thresholds_all_offsets": {
+          "eligible_windows": 4054,
+          "first_passage_CDF": [
+            0.027873704982733102,
+            0.5325604341391219,
+            1.0
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "own_rank_diagnostic": {
+          "thresholds": [
+            -0.014900663401931524,
+            1.5142796993255616
+          ],
+          "eligible_landmarks": 29,
+          "hit_counts": [
+            0,
+            5,
+            29
+          ],
+          "first_passage_CDF": [
+            0.0,
+            0.1724137931034483,
+            1.0
+          ],
+          "median_upcrossings": 199,
+          "completed_return_intervals": 198,
+          "return_CDF_completed_only": [
+            0.0,
+            0.5,
+            1.0
+          ],
+          "final_return_right_censored": true,
+          "last_censored_return_lower_bound": 20,
+          "occupancy_above_upper": 0.1,
+          "first_half_CDF": [
+            0.0,
+            0.1724137931034483,
+            1.0
+          ],
+          "second_half_CDF": [
+            null,
+            null,
+            null
+          ],
+          "first_half_eligible": 29,
+          "second_half_eligible": 0
+        },
+        "own_rank_diagnostic_all_offsets": {
+          "eligible_windows": 3958,
+          "first_passage_CDF": [
+            0.023244062657908033,
+            0.5272865083375442,
+            1.0
+          ],
+          "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+        },
+        "reversal_odd_moment": [
+          0.00020901648020465492,
+          0.03718741928455001,
+          0.23395388582590587
+        ]
+      },
+      "paths": {
+        "context_replay": {
+          "summaries": {
+            "context_thresholds": {
+              "thresholds": [
+                0.027419469319283962,
+                1.5069047570228578
+              ],
+              "eligible_landmarks": 54,
+              "hit_counts": [
+                1,
+                22,
+                54
+              ],
+              "first_passage_CDF": [
+                0.018518518518518517,
+                0.4074074074074074,
+                1.0
+              ],
+              "median_upcrossings": 215,
+              "completed_return_intervals": 214,
+              "return_CDF_completed_only": [
+                0.08878504672897196,
+                0.5467289719626168,
+                1.0
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 27,
+              "occupancy_above_upper": 0.1023,
+              "first_half_CDF": [
+                0.0,
+                0.48148148148148145,
+                1.0
+              ],
+              "second_half_CDF": [
+                0.037037037037037035,
+                0.3333333333333333,
+                1.0
+              ],
+              "first_half_eligible": 27,
+              "second_half_eligible": 27
+            },
+            "context_thresholds_all_offsets": {
+              "eligible_windows": 3978,
+              "first_passage_CDF": [
+                0.023378582202111614,
+                0.5175967823026647,
+                1.0
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "own_rank_diagnostic": {
+              "thresholds": [
+                0.032484542578458786,
+                1.5083516836166382
+              ],
+              "eligible_landmarks": 55,
+              "hit_counts": [
+                1,
+                23,
+                55
+              ],
+              "first_passage_CDF": [
+                0.01818181818181818,
+                0.41818181818181815,
+                1.0
+              ],
+              "median_upcrossings": 215,
+              "completed_return_intervals": 214,
+              "return_CDF_completed_only": [
+                0.08878504672897196,
+                0.5467289719626168,
+                1.0
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 27,
+              "occupancy_above_upper": 0.1003,
+              "first_half_CDF": [
+                0.0,
+                0.48148148148148145,
+                1.0
+              ],
+              "second_half_CDF": [
+                0.03571428571428571,
+                0.35714285714285715,
+                1.0
+              ],
+              "first_half_eligible": 27,
+              "second_half_eligible": 28
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "eligible_windows": 3994,
+              "first_passage_CDF": [
+                0.02328492739108663,
+                0.5195292939409114,
+                1.0
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "reversal_odd_moment": [
+              0.0002689969029342935,
+              0.037047907286138396,
+              0.22954365478086314
+            ]
+          },
+          "versus_reference": {
+            "context_thresholds": {
+              "CDF_difference": [
+                0.018518518518518517,
+                0.2138590203106332,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.11819930069930074,
+                  0.0
+                ],
+                [
+                  0.058823529411764705,
+                  0.5117905547349768,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.2138590203106332,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic": {
+              "CDF_difference": [
+                0.01818181818181818,
+                0.24576802507836987,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.07859769616348564,
+                  0.0
+                ],
+                [
+                  0.05772058823529397,
+                  0.5322148224043716,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.24576802507836987,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "context_thresholds_all_offsets": {
+              "CDF_difference": [
+                -0.004495122780621488,
+                -0.014963651836457204,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  -0.007872427601371688,
+                  -0.02535187873543226,
+                  0.0
+                ],
+                [
+                  -0.0014040338613883607,
+                  -0.004377686706528667,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.014963651836457204,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "CDF_difference": [
+                4.086473317859579e-05,
+                -0.0077572143966327944,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  -0.003702370852072118,
+                  -0.018073687028162477,
+                  0.0
+                ],
+                [
+                  0.0035961066801650232,
+                  0.00327619418291932,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.0077572143966327944,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "reversal_odd_moment_difference": [
+              5.998042272963857e-05,
+              -0.00013951199841161221,
+              -0.004410231045042734
+            ],
+            "reversal_odd_descriptive_bootstrap95": [
+              [
+                -0.0006305301946251911,
+                -0.003948136827128779,
+                -0.009961175382529107
+              ],
+              [
+                0.0008326559989813166,
+                0.003900537895405733,
+                0.0013574958623579904
+              ]
+            ]
+          }
+        },
+        "native_2021": {
+          "summaries": {
+            "context_thresholds": {
+              "thresholds": [
+                0.027419469319283962,
+                1.5069047570228578
+              ],
+              "eligible_landmarks": 46,
+              "hit_counts": [
+                4,
+                23,
+                46
+              ],
+              "first_passage_CDF": [
+                0.08695652173913043,
+                0.5,
+                1.0
+              ],
+              "median_upcrossings": 195,
+              "completed_return_intervals": 194,
+              "return_CDF_completed_only": [
+                0.0,
+                0.5,
+                1.0
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 7,
+              "occupancy_above_upper": 0.1107,
+              "first_half_CDF": [
+                0.037037037037037035,
+                0.3333333333333333,
+                1.0
+              ],
+              "second_half_CDF": [
+                0.15789473684210525,
+                0.7368421052631579,
+                1.0
+              ],
+              "first_half_eligible": 27,
+              "second_half_eligible": 19
+            },
+            "context_thresholds_all_offsets": {
+              "eligible_windows": 4081,
+              "first_passage_CDF": [
+                0.034550355305072285,
+                0.5270766968880176,
+                1.0
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "own_rank_diagnostic": {
+              "thresholds": [
+                -0.005608284845948219,
+                1.559251093864441
+              ],
+              "eligible_landmarks": 46,
+              "hit_counts": [
+                2,
+                23,
+                46
+              ],
+              "first_passage_CDF": [
+                0.043478260869565216,
+                0.5,
+                1.0
+              ],
+              "median_upcrossings": 195,
+              "completed_return_intervals": 194,
+              "return_CDF_completed_only": [
+                0.0,
+                0.5,
+                1.0
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 7,
+              "occupancy_above_upper": 0.1,
+              "first_half_CDF": [
+                0.037037037037037035,
+                0.3333333333333333,
+                1.0
+              ],
+              "second_half_CDF": [
+                0.05263157894736842,
+                0.7368421052631579,
+                1.0
+              ],
+              "first_half_eligible": 27,
+              "second_half_eligible": 19
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "eligible_windows": 4013,
+              "first_passage_CDF": [
+                0.02417144281086469,
+                0.5153251931223524,
+                1.0
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "reversal_odd_moment": [
+              0.000279803018889497,
+              0.03945378047337654,
+              0.24225196004210056
+            ]
+          },
+          "versus_reference": {
+            "context_thresholds": {
+              "CDF_difference": [
+                0.08695652173913043,
+                0.3064516129032258,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.05505507250632204,
+                  0.0
+                ],
+                [
+                  0.19050151975683877,
+                  0.6397954863763682,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.3064516129032258,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic": {
+              "CDF_difference": [
+                0.043478260869565216,
+                0.3275862068965517,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.022960829943679595,
+                  0.0
+                ],
+                [
+                  0.10714285714285714,
+                  0.6408875235757521,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.3275862068965517,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "context_thresholds_all_offsets": {
+              "CDF_difference": [
+                0.006676650322339182,
+                -0.0054837372511042926,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.002278609861903418,
+                  -0.016785108064439176,
+                  0.0
+                ],
+                [
+                  0.010825537568665987,
+                  0.004843786863040343,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.006676650322339182,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "CDF_difference": [
+                0.0009273801529566562,
+                -0.011961315215191837,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  -0.003204129567109707,
+                  -0.022556609972052864,
+                  0.0
+                ],
+                [
+                  0.004998352209985264,
+                  -0.0020340141705614437,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.011961315215191837,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "reversal_odd_moment_difference": [
+              7.07865386848421e-05,
+              0.0022663611888265323,
+              0.00829807421619469
+            ],
+            "reversal_odd_descriptive_bootstrap95": [
+              [
+                -0.0008894990937097696,
+                -0.0022706531859774644,
+                -0.0010532271009424748
+              ],
+              [
+                0.0010812632458291837,
+                0.00687442476365295,
+                0.017144570572403223
+              ]
+            ]
+          }
+        },
+        "native_2022": {
+          "summaries": {
+            "context_thresholds": {
+              "thresholds": [
+                0.027419469319283962,
+                1.5069047570228578
+              ],
+              "eligible_landmarks": 54,
+              "hit_counts": [
+                1,
+                15,
+                54
+              ],
+              "first_passage_CDF": [
+                0.018518518518518517,
+                0.2777777777777778,
+                1.0
+              ],
+              "median_upcrossings": 194,
+              "completed_return_intervals": 193,
+              "return_CDF_completed_only": [
+                0.0,
+                0.49740932642487046,
+                1.0
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 33,
+              "occupancy_above_upper": 0.1118,
+              "first_half_CDF": [
+                0.0,
+                0.27586206896551724,
+                1.0
+              ],
+              "second_half_CDF": [
+                0.04,
+                0.28,
+                1.0
+              ],
+              "first_half_eligible": 29,
+              "second_half_eligible": 25
+            },
+            "context_thresholds_all_offsets": {
+              "eligible_windows": 4088,
+              "first_passage_CDF": [
+                0.035469667318982386,
+                0.523238747553816,
+                1.0
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "own_rank_diagnostic": {
+              "thresholds": [
+                -0.006192154251039028,
+                1.5599826574325564
+              ],
+              "eligible_landmarks": 54,
+              "hit_counts": [
+                0,
+                15,
+                54
+              ],
+              "first_passage_CDF": [
+                0.0,
+                0.2777777777777778,
+                1.0
+              ],
+              "median_upcrossings": 194,
+              "completed_return_intervals": 193,
+              "return_CDF_completed_only": [
+                0.0,
+                0.49740932642487046,
+                1.0
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 33,
+              "occupancy_above_upper": 0.1,
+              "first_half_CDF": [
+                0.0,
+                0.27586206896551724,
+                1.0
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.28,
+                1.0
+              ],
+              "first_half_eligible": 29,
+              "second_half_eligible": 25
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "eligible_windows": 4012,
+              "first_passage_CDF": [
+                0.02318045862412762,
+                0.5132103688933201,
+                1.0
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "reversal_odd_moment": [
+              0.0003685014053925223,
+              0.039148188541759256,
+              0.24883696216191672
+            ]
+          },
+          "versus_reference": {
+            "context_thresholds": {
+              "CDF_difference": [
+                0.018518518518518517,
+                0.0842293906810036,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.24073629991533563,
+                  0.0
+                ],
+                [
+                  0.07142857142857142,
+                  0.3786948112578364,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.0842293906810036,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic": {
+              "CDF_difference": [
+                0.0,
+                0.1053639846743295,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.19444790924210023,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.3838204968239561,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.1053639846743295,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "context_thresholds_all_offsets": {
+              "CDF_difference": [
+                0.007595962336249283,
+                -0.009321686585305855,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0034551173195685103,
+                  -0.019461317652819426,
+                  0.0
+                ],
+                [
+                  0.011315790774082669,
+                  -8.919907791153025e-05,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.009321686585305855,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "CDF_difference": [
+                -6.360403378041432e-05,
+                -0.014076139444224145,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  -0.004082313574286264,
+                  -0.024648141879638312,
+                  0.0
+                ],
+                [
+                  0.0038861338944177898,
+                  -0.004285281708522344,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.014076139444224145,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "reversal_odd_moment_difference": [
+              0.0001594849251878674,
+              0.001960769257209248,
+              0.014883076336010853
+            ],
+            "reversal_odd_descriptive_bootstrap95": [
+              [
+                -0.0007970030679824298,
+                -0.00231666253633951,
+                0.008797694775409176
+              ],
+              [
+                0.001200360241047302,
+                0.006178165628928424,
+                0.02118762975717406
+              ]
+            ]
+          }
+        },
+        "native_2023": {
+          "summaries": {
+            "context_thresholds": {
+              "thresholds": [
+                0.027419469319283962,
+                1.5069047570228578
+              ],
+              "eligible_landmarks": 45,
+              "hit_counts": [
+                2,
+                15,
+                45
+              ],
+              "first_passage_CDF": [
+                0.044444444444444446,
+                0.3333333333333333,
+                1.0
+              ],
+              "median_upcrossings": 195,
+              "completed_return_intervals": 194,
+              "return_CDF_completed_only": [
+                0.0,
+                0.5,
+                1.0
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 33,
+              "occupancy_above_upper": 0.1113,
+              "first_half_CDF": [
+                0.045454545454545456,
+                0.45454545454545453,
+                1.0
+              ],
+              "second_half_CDF": [
+                0.043478260869565216,
+                0.21739130434782608,
+                1.0
+              ],
+              "first_half_eligible": 22,
+              "second_half_eligible": 23
+            },
+            "context_thresholds_all_offsets": {
+              "eligible_windows": 4065,
+              "first_passage_CDF": [
+                0.033210332103321034,
+                0.5244772447724477,
+                1.0
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "own_rank_diagnostic": {
+              "thresholds": [
+                0.0013241716660559177,
+                1.5573686957359316
+              ],
+              "eligible_landmarks": 45,
+              "hit_counts": [
+                2,
+                14,
+                45
+              ],
+              "first_passage_CDF": [
+                0.044444444444444446,
+                0.3111111111111111,
+                1.0
+              ],
+              "median_upcrossings": 195,
+              "completed_return_intervals": 194,
+              "return_CDF_completed_only": [
+                0.0,
+                0.5,
+                1.0
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 33,
+              "occupancy_above_upper": 0.1,
+              "first_half_CDF": [
+                0.045454545454545456,
+                0.4090909090909091,
+                1.0
+              ],
+              "second_half_CDF": [
+                0.043478260869565216,
+                0.21739130434782608,
+                1.0
+              ],
+              "first_half_eligible": 22,
+              "second_half_eligible": 23
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "eligible_windows": 4003,
+              "first_passage_CDF": [
+                0.023732200849362978,
+                0.5143642268298776,
+                1.0
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "reversal_odd_moment": [
+              0.00032683708163888333,
+              0.03898912967342393,
+              0.24811968208195676
+            ]
+          },
+          "versus_reference": {
+            "context_thresholds": {
+              "CDF_difference": [
+                0.044444444444444446,
+                0.13978494623655913,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.20980257844050945,
+                  0.0
+                ],
+                [
+                  0.11627906976744186,
+                  0.46081387100294646,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.13978494623655913,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic": {
+              "CDF_difference": [
+                0.044444444444444446,
+                0.13869731800766283,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.2019000933706816,
+                  0.0
+                ],
+                [
+                  0.11627906976744186,
+                  0.4558520628078816,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.13869731800766283,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "context_thresholds_all_offsets": {
+              "CDF_difference": [
+                0.005336627120587932,
+                -0.008083189366674182,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0009702220107651747,
+                  -0.01815909188348993,
+                  0.0
+                ],
+                [
+                  0.009218370666612597,
+                  0.0014674796441665654,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.008083189366674182,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "CDF_difference": [
+                0.0004881381914549447,
+                -0.012922281507666611,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  -0.0038400062872134782,
+                  -0.024070579470359357,
+                  0.0
+                ],
+                [
+                  0.00454575055968958,
+                  -0.0022740279684194797,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.012922281507666611,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "reversal_odd_moment_difference": [
+              0.00011782060143422841,
+              0.0018017103888739242,
+              0.014165796256050883
+            ],
+            "reversal_odd_descriptive_bootstrap95": [
+              [
+                -0.0008432597708473281,
+                -0.0024350840446034105,
+                0.007883218965288263
+              ],
+              [
+                0.0010832244756873212,
+                0.005790457632165096,
+                0.020366452846556134
+              ]
+            ]
+          }
+        },
+        "analogue_2021": {
+          "summaries": {
+            "context_thresholds": {
+              "thresholds": [
+                0.027419469319283962,
+                1.5069047570228578
+              ],
+              "eligible_landmarks": 76,
+              "hit_counts": [
+                1,
+                51,
+                76
+              ],
+              "first_passage_CDF": [
+                0.013157894736842105,
+                0.6710526315789473,
+                1.0
+              ],
+              "median_upcrossings": 210,
+              "completed_return_intervals": 209,
+              "return_CDF_completed_only": [
+                0.0,
+                0.5550239234449761,
+                1.0
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 3,
+              "occupancy_above_upper": 0.0977,
+              "first_half_CDF": [
+                0.024390243902439025,
+                0.6341463414634146,
+                1.0
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.7142857142857143,
+                1.0
+              ],
+              "first_half_eligible": 41,
+              "second_half_eligible": 35
+            },
+            "context_thresholds_all_offsets": {
+              "eligible_windows": 4115,
+              "first_passage_CDF": [
+                0.025273390036452004,
+                0.5428918590522479,
+                1.0
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "own_rank_diagnostic": {
+              "thresholds": [
+                -0.02493421733379364,
+                1.4964321851730347
+              ],
+              "eligible_landmarks": 75,
+              "hit_counts": [
+                1,
+                51,
+                75
+              ],
+              "first_passage_CDF": [
+                0.013333333333333334,
+                0.68,
+                1.0
+              ],
+              "median_upcrossings": 216,
+              "completed_return_intervals": 215,
+              "return_CDF_completed_only": [
+                0.027906976744186046,
+                0.586046511627907,
+                1.0
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 3,
+              "occupancy_above_upper": 0.1007,
+              "first_half_CDF": [
+                0.025,
+                0.65,
+                1.0
+              ],
+              "second_half_CDF": [
+                0.0,
+                0.7142857142857143,
+                1.0
+              ],
+              "first_half_eligible": 40,
+              "second_half_eligible": 35
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "eligible_windows": 4020,
+              "first_passage_CDF": [
+                0.029104477611940297,
+                0.5480099502487562,
+                1.0
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "reversal_odd_moment": [
+              0.0004910118541061002,
+              0.03906649415480721,
+              0.23181274222549314
+            ]
+          },
+          "versus_reference": {
+            "context_thresholds": {
+              "CDF_difference": [
+                0.013157894736842105,
+                0.47750424448217316,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  0.15080117661943324,
+                  0.0
+                ],
+                [
+                  0.041666666666666664,
+                  0.7382870498375611,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.47750424448217316,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic": {
+              "CDF_difference": [
+                0.013333333333333334,
+                0.5075862068965518,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  0.20443444968273738,
+                  0.0
+                ],
+                [
+                  0.041666666666666664,
+                  0.7435312617584348,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.5075862068965518,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "context_thresholds_all_offsets": {
+              "CDF_difference": [
+                -0.002600314946281098,
+                0.010331424913125997,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  -0.008705579748293982,
+                  -0.005479265347626791,
+                  0.0
+                ],
+                [
+                  0.0035916771621333997,
+                  0.026498704841117535,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.010331424913125997,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "CDF_difference": [
+                0.005860414954032264,
+                0.020723441911212004,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  -0.0011805414779820593,
+                  0.004141420534309309,
+                  0.0
+                ],
+                [
+                  0.013431609730212336,
+                  0.038866747930913374,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.020723441911212004,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "reversal_odd_moment_difference": [
+              0.00028199537390144523,
+              0.001879074870257201,
+              -0.0021411436004127316
+            ],
+            "reversal_odd_descriptive_bootstrap95": [
+              [
+                -0.0004329205583627972,
+                -0.002293668265902358,
+                -0.01891712887433765
+              ],
+              [
+                0.0010488795238386636,
+                0.006205865694122627,
+                0.013613425148358338
+              ]
+            ]
+          }
+        },
+        "analogue_2022": {
+          "summaries": {
+            "context_thresholds": {
+              "thresholds": [
+                0.027419469319283962,
+                1.5069047570228578
+              ],
+              "eligible_landmarks": 47,
+              "hit_counts": [
+                3,
+                24,
+                47
+              ],
+              "first_passage_CDF": [
+                0.06382978723404255,
+                0.5106382978723404,
+                1.0
+              ],
+              "median_upcrossings": 211,
+              "completed_return_intervals": 210,
+              "return_CDF_completed_only": [
+                0.0,
+                0.5857142857142857,
+                1.0
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 2,
+              "occupancy_above_upper": 0.0991,
+              "first_half_CDF": [
+                0.08333333333333333,
+                0.5833333333333334,
+                1.0
+              ],
+              "second_half_CDF": [
+                0.043478260869565216,
+                0.43478260869565216,
+                1.0
+              ],
+              "first_half_eligible": 24,
+              "second_half_eligible": 23
+            },
+            "context_thresholds_all_offsets": {
+              "eligible_windows": 4218,
+              "first_passage_CDF": [
+                0.023470839260312945,
+                0.5275011853959223,
+                1.0
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "own_rank_diagnostic": {
+              "thresholds": [
+                -0.07699765264987946,
+                1.503872036933899
+              ],
+              "eligible_landmarks": 46,
+              "hit_counts": [
+                3,
+                24,
+                46
+              ],
+              "first_passage_CDF": [
+                0.06521739130434782,
+                0.5217391304347826,
+                1.0
+              ],
+              "median_upcrossings": 209,
+              "completed_return_intervals": 208,
+              "return_CDF_completed_only": [
+                0.0,
+                0.5961538461538461,
+                1.0
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 2,
+              "occupancy_above_upper": 0.1002,
+              "first_half_CDF": [
+                0.08695652173913043,
+                0.6086956521739131,
+                1.0
+              ],
+              "second_half_CDF": [
+                0.043478260869565216,
+                0.43478260869565216,
+                1.0
+              ],
+              "first_half_eligible": 23,
+              "second_half_eligible": 23
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "eligible_windows": 4019,
+              "first_passage_CDF": [
+                0.024632993281910924,
+                0.5334660363274446,
+                1.0
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "reversal_odd_moment": [
+              0.0005045029400446767,
+              0.03758495365104141,
+              0.22044996393877364
+            ]
+          },
+          "versus_reference": {
+            "context_thresholds": {
+              "CDF_difference": [
+                0.06382978723404255,
+                0.3170899107755662,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  -0.04444733222442581,
+                  0.0
+                ],
+                [
+                  0.13043478260869565,
+                  0.6353615680239835,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.3170899107755662,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic": {
+              "CDF_difference": [
+                0.06521739130434782,
+                0.3493253373313343,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  0.0007653061224489857,
+                  0.0
+                ],
+                [
+                  0.13333333333333333,
+                  0.6611237373737373,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.3493253373313343,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "context_thresholds_all_offsets": {
+              "CDF_difference": [
+                -0.004402865722420157,
+                -0.005059248743199629,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  -0.009916680072902447,
+                  -0.027121321838785146,
+                  0.0
+                ],
+                [
+                  0.0008467861389335027,
+                  0.017769937821096333,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.005059248743199629,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "CDF_difference": [
+                0.001388930624002891,
+                0.006179527989900402,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  -0.0043244035542961455,
+                  -0.01599831120250045,
+                  0.0
+                ],
+                [
+                  0.0072359468744239925,
+                  0.027521010156719733,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.006179527989900402,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "reversal_odd_moment_difference": [
+              0.0002954864598400218,
+              0.00039753436649140467,
+              -0.01350392188713223
+            ],
+            "reversal_odd_descriptive_bootstrap95": [
+              [
+                -0.0006920536299383916,
+                -0.004681032215832808,
+                -0.030258326203344725
+              ],
+              [
+                0.001284441261694118,
+                0.005448860005704127,
+                0.004125273776427624
+              ]
+            ]
+          }
+        },
+        "analogue_2023": {
+          "summaries": {
+            "context_thresholds": {
+              "thresholds": [
+                0.027419469319283962,
+                1.5069047570228578
+              ],
+              "eligible_landmarks": 50,
+              "hit_counts": [
+                2,
+                37,
+                50
+              ],
+              "first_passage_CDF": [
+                0.04,
+                0.74,
+                1.0
+              ],
+              "median_upcrossings": 214,
+              "completed_return_intervals": 213,
+              "return_CDF_completed_only": [
+                0.0,
+                0.6009389671361502,
+                1.0
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 24,
+              "occupancy_above_upper": 0.0933,
+              "first_half_CDF": [
+                0.038461538461538464,
+                0.5384615384615384,
+                1.0
+              ],
+              "second_half_CDF": [
+                0.041666666666666664,
+                0.9583333333333334,
+                1.0
+              ],
+              "first_half_eligible": 26,
+              "second_half_eligible": 24
+            },
+            "context_thresholds_all_offsets": {
+              "eligible_windows": 4205,
+              "first_passage_CDF": [
+                0.022592152199762187,
+                0.5253269916765755,
+                1.0
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "own_rank_diagnostic": {
+              "thresholds": [
+                -0.0420038104057312,
+                1.4731158494949355
+              ],
+              "eligible_landmarks": 49,
+              "hit_counts": [
+                2,
+                36,
+                49
+              ],
+              "first_passage_CDF": [
+                0.04081632653061224,
+                0.7346938775510204,
+                1.0
+              ],
+              "median_upcrossings": 207,
+              "completed_return_intervals": 206,
+              "return_CDF_completed_only": [
+                0.014563106796116505,
+                0.5679611650485437,
+                1.0
+              ],
+              "final_return_right_censored": true,
+              "last_censored_return_lower_bound": 25,
+              "occupancy_above_upper": 0.1,
+              "first_half_CDF": [
+                0.038461538461538464,
+                0.5384615384615384,
+                1.0
+              ],
+              "second_half_CDF": [
+                0.043478260869565216,
+                0.9565217391304348,
+                1.0
+              ],
+              "first_half_eligible": 26,
+              "second_half_eligible": 23
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "eligible_windows": 4065,
+              "first_passage_CDF": [
+                0.02730627306273063,
+                0.5325953259532595,
+                1.0
+              ],
+              "role": "Exploratory all-offset diagnostic added after coarse-grid missing-denominator failure; not preregistered confirmation."
+            },
+            "reversal_odd_moment": [
+              0.0005753328824486426,
+              0.03857935653205742,
+              0.21964134661722512
+            ]
+          },
+          "versus_reference": {
+            "context_thresholds": {
+              "CDF_difference": [
+                0.04,
+                0.5464516129032257,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  0.19693675889328063,
+                  0.0
+                ],
+                [
+                  0.10529115341545336,
+                  0.8212062693498451,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.5464516129032257,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic": {
+              "CDF_difference": [
+                0.04081632653061224,
+                0.5622800844475722,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  0.0,
+                  0.22058823529411764,
+                  0.0
+                ],
+                [
+                  0.10810810810810811,
+                  0.8183863337434766,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.5622800844475722,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "context_thresholds_all_offsets": {
+              "CDF_difference": [
+                -0.005281552782970916,
+                -0.007233442462546424,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  -0.011155619819756215,
+                  -0.026221351104036856,
+                  0.0
+                ],
+                [
+                  0.0006667243392572679,
+                  0.012304718003489236,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.007233442462546424,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "own_rank_diagnostic_all_offsets": {
+              "CDF_difference": [
+                0.004062210404822596,
+                0.005308817615715333,
+                0.0
+              ],
+              "descriptive_bootstrap95": [
+                [
+                  -0.002689826635682136,
+                  -0.014509936125612152,
+                  0.0
+                ],
+                [
+                  0.010382488435501292,
+                  0.02548426835165853,
+                  0.0
+                ]
+              ],
+              "max_absolute_CDF_difference": 0.005308817615715333,
+              "bootstrap_replicates_with_zero_eligible_count": 0
+            },
+            "reversal_odd_moment_difference": [
+              0.0003663164022439877,
+              0.0013919372475074132,
+              -0.014312539208680752
+            ],
+            "reversal_odd_descriptive_bootstrap95": [
+              [
+                -0.0007859948712052422,
+                -0.004130509332617516,
+                -0.03523213484300853
+              ],
+              [
+                0.00160010924955571,
+                0.007634386896966179,
+                0.009344188112523284
+              ]
+            ]
+          }
+        }
+      }
+    }
+  },
+  "markov_witness": {
+    "P": [
+      [
+        0.1,
+        0.8,
+        0.1
+      ],
+      [
+        0.1,
+        0.1,
+        0.8
+      ],
+      [
+        0.8,
+        0.1,
+        0.1
+      ]
+    ],
+    "time_reversal": [
+      [
+        0.1,
+        0.1,
+        0.8
+      ],
+      [
+        0.8,
+        0.1,
+        0.1
+      ],
+      [
+        0.1,
+        0.8,
+        0.1
+      ]
+    ],
+    "stationary_distribution": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "max_all_scalar_autocovariance_difference_lags0to32": 2.7755575615628914e-17,
+    "directed_0_to_1_first_step_probability": [
+      0.8,
+      0.1
+    ],
+    "directed_0_to_1_FPT_CDF": [
+      [
+        0.9999542093,
+        1.0,
+        1.0
+      ],
+      [
+        0.9998705607,
+        1.0,
+        1.0
+      ]
+    ],
+    "directed_0_to_1_MFPT": [
+      1.36986301369863,
+      2.328767123287671
+    ],
+    "ordinary_transition_likelihood_KL": 1.455609079175885,
+    "interpretation": "Classical time reversal witness; ordinary transition likelihood already distinguishes it, not a new method gap."
+  },
+  "horizons_samples": [
+    10,
+    50,
+    100
+  ],
+  "moment_lags": [
+    1,
+    5,
+    10
+  ],
+  "reference_source": "cycle18 exact released native demonstration arrays, not newly sampled physical systems",
+  "source_array_sha256": {
+    "chua.npz": "340f4cb87daf8093748303b1db4db52742a9cdf9f39abd82dd83c1a0367ef10a",
+    "lorenz63.npz": "5004b0615591be3f3e39894f494a40c24f0a1e5ea72200cc404f910210767405",
+    "sprottM.npz": "b269ba99c6218a200cb6ba542dae5167995f8e5be90f71e13e1df3fb4140d8b8"
+  },
+  "script_sha256": "dd88afd885ed412c92cd4061bca618bde528c50f5f1279448001587f94841ad6",
+  "protocol_sha256": "f56efc46c30094e6cdebb23c7f90184359bb744852c401c1b646d3f57654456a",
+  "elapsed_seconds": 0.7945503999944776,
+  "environment": {
+    "numpy": "1.26.4"
+  },
+  "new_training": false,
+  "accepted_novel_directions": 0,
+  "objective_achieved": false,
+  "limitations": [
+    "One reference per system;3stochastic draws are not training/system replications.",
+    "Bootstrap is descriptive; mixing and coverage are not proved.",
+    "Completed-return CDF is censor-biased and secondary.",
+    "Event law/kinetic fidelity and the Markov witness are not new concepts."
+  ],
+  "unavailable_nonfinite_stat_paths": [
+    "/systems/sprottM/reference/context_thresholds/second_half_CDF/0",
+    "/systems/sprottM/reference/context_thresholds/second_half_CDF/1",
+    "/systems/sprottM/reference/context_thresholds/second_half_CDF/2",
+    "/systems/sprottM/reference/own_rank_diagnostic/second_half_CDF/0",
+    "/systems/sprottM/reference/own_rank_diagnostic/second_half_CDF/1",
+    "/systems/sprottM/reference/own_rank_diagnostic/second_half_CDF/2"
+  ],
+  "unavailable_stat_reason": "A conditional denominator/eligible block cohort is zero; null is not a zero probability.",
+  "analogue_npz_sha256": {
+    "chua_analogue.npz": "78966aeecb83199e5014950ba70edc9209d2ec72b270c432290948f6940d1ac1",
+    "lorenz63_analogue.npz": "f97ecd4deee4771a1252e8b098004ce1f0ea1a79a469accc5c403495d7be440b",
+    "sprottM_analogue.npz": "7985bbef295a648d2da661e77b88c1bd7761cb4975b9576135d17cb1e081a8d3"
+  },
+  "attempt0_analogue_npz_identical": {
+    "chua_analogue.npz": true,
+    "lorenz63_analogue.npz": true,
+    "sprottM_analogue.npz": true
+  }
+}

@@ -1,0 +1,9 @@
+# C48 verification and runtime supplement
+
+The frozen data, model arms, loss, training budget, selection rules and evaluation horizons are unchanged. Before EVAL opens, the verification implementation was strengthened to replay every neural forecast using independent NumPy GRU gates, ReLU MLPs, calendar packing, linear history interpolation and the Heun method of steps. Raw-point controls and ridge forecasts are also rechecked. Declared neural replay tolerance: absolute3e-4 and relative3e-4 for float32-native versus float64-independent arithmetic. Score arithmetic is checked at2e-10.
+
+Active source files: common48_v3.py, qualify48_v3.py, train48.py, control48.py, diagnose48.py, score48_v2.py, independent_model48.py, verify48_v2.py, capture48.py and capture_eval48_v2.py. Earlier unused drafts are retained. The initial full package import failed because its initializer imported unrelated JAX result-processing code; direct importlib loading of the unchanged model-class file resolves this. No JAX install or author-source modification. The torchvision output Linear is explicitly located before zero initialization; its trailing Dropout is not a weight layer. RUNTIME_REPAIR.json records the pre-training repair.
+
+Qualification used24 discarded updates. Independent linear-DDE recurrence errors are below1.2e-15; neural-delay gradient discrepancies below2.0e-13. The actual source model kernels and solver remain unchanged. This proves a numerical critical path, not a new framework or a real-data performance claim.
+
+Only selected models' VAL data are used for numerical refinement/history-gradient diagnostics. A gradient of the mean future can cancel across time; it is not a sufficient-statistic, information-loss or causal test. Revealed-prefix forecasts receive exactly the same real24-hour prefix across all arms. Neither these mean-forecast scores nor deterministic reveal behavior proves stochastic simulation or Bayesian coherence.

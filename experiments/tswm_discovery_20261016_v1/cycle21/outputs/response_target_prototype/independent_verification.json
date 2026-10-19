@@ -1,0 +1,1939 @@
+{
+  "dataset_hashes": 12,
+  "checkpoint_hashes": 120,
+  "prediction_hashes": 120,
+  "teacher_hashes": 12,
+  "metrics_recomputed": 960,
+  "metric_max_error": 1.4901161193847656e-08,
+  "checkpoint_replay_max_error": 5.960464477539062e-07,
+  "inverse_accuracy_max_error": 0.0,
+  "physical_equation_max_error": 4.76837158203125e-07,
+  "observation_inverse_max_error": 9.5367431640625e-07,
+  "all_fit_and_probe_choices_precede_test_predictions": true,
+  "rows": [
+    {
+      "key": "coupled_linear_joint_budget_2021",
+      "checkpoint_sha256": "d6d40206ad5d077896d9d194372c263f19a7815c3e8ac23a43c9bdc32a958e15",
+      "prediction_sha256": "5c70ac59fc5127d92ec70a90d0f986e5d52ae44722f6e864cb0c14773717d8ca",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.496826171875,
+        "native_physical_MSE": 0.06763365119695663,
+        "current_physical_decoding_MSE": 0.0006945405621081591,
+        "frozen_encoder_successor_probe_MSE": 0.06712715327739716,
+        "oracle_successor_decoding_MSE": 0.0006980311591178179,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.9998911023139954,
+        "frozen_encoder_modulation_relative_RMSE": 1.0001219511032104
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "coupled_linear_obs_budget_2021",
+      "checkpoint_sha256": "342e415a1a3df93049e44adf336ed4784e4d4017952c95cc9586d3d0e692da62",
+      "prediction_sha256": "146ae1e0aa10425ca2d836b32ecd042f16ceef9102457ff2abde6f9c7052aa3b",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.492919921875,
+        "native_physical_MSE": 0.08204943686723709,
+        "current_physical_decoding_MSE": 0.036859963089227676,
+        "frozen_encoder_successor_probe_MSE": 0.08184394240379333,
+        "oracle_successor_decoding_MSE": 0.03685854375362396,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.998894989490509,
+        "frozen_encoder_modulation_relative_RMSE": 0.9997678399085999
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "coupled_linear_reconstruction_2021",
+      "checkpoint_sha256": "3c2641d9529742f50a8d913659b0cca85eb06c6f90487a812c95f6a9f3d35016",
+      "prediction_sha256": "1b29f366ba79eb5c93ec58358e7df8a8d8a1bca3516bf9910661066a6e01332d",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.4935302734375,
+        "native_physical_MSE": 0.06855874508619308,
+        "current_physical_decoding_MSE": 0.0017003384418785572,
+        "frozen_encoder_successor_probe_MSE": 0.06758327782154083,
+        "oracle_successor_decoding_MSE": 0.0017013378674164414,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.9997822642326355,
+        "frozen_encoder_modulation_relative_RMSE": 1.0001667737960815
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "coupled_linear_forecast_bank_2021",
+      "checkpoint_sha256": "bd3f680b368b3dd9a047725a46f5e1fc9db9cdce6d8ea11b3a9a9fbc88e15070",
+      "prediction_sha256": "99642b14b4e9e5d6ba496b1e301033fa33038981054711b9f28fb0eafa39329b",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5037841796875,
+        "native_physical_MSE": 0.07153931260108948,
+        "current_physical_decoding_MSE": 0.008981090970337391,
+        "frozen_encoder_successor_probe_MSE": 0.07134942710399628,
+        "oracle_successor_decoding_MSE": 0.0089695043861866,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.9987994432449341,
+        "frozen_encoder_modulation_relative_RMSE": 0.9990736842155457
+      },
+      "inverse_action_accuracy": 0.9998779296875
+    },
+    {
+      "key": "coupled_linear_response_only_2021",
+      "checkpoint_sha256": "b5d40940ad9e5487bccb5837b743b45057a200b50e908e91968fc0252a23e9d8",
+      "prediction_sha256": "2f0b24d249cec1c97ea50ebe1199e56101e281c79e0a6a7b295108b5a3a22a40",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0016868638340383768,
+        "current_physical_decoding_MSE": 0.001702805981040001,
+        "frozen_encoder_successor_probe_MSE": 0.0011999020352959633,
+        "oracle_successor_decoding_MSE": 0.0017093373462557793,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.052854448556900024,
+        "frozen_encoder_modulation_relative_RMSE": 0.06079436466097832
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "coupled_linear_projected_bank_2021",
+      "checkpoint_sha256": "976558b542d5c6f08363d7f8a6d5981e367e8aad25f9b9def8b19d9b495d0146",
+      "prediction_sha256": "3c68ffced8138769135b2125db5a8e6e59ac7ff27c58b01740dae80677e80b60",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.501953125,
+        "native_physical_MSE": 0.06769698858261108,
+        "current_physical_decoding_MSE": 0.001153431599959731,
+        "frozen_encoder_successor_probe_MSE": 0.06748665869235992,
+        "oracle_successor_decoding_MSE": 0.0011559997219592333,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.9971684217453003,
+        "frozen_encoder_modulation_relative_RMSE": 1.00038480758667
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "coupled_linear_random_projection_2021",
+      "checkpoint_sha256": "e3f9895aee0bc62d1fbb4c1757fab03df2a50275843b3149a472b641ad5a6b65",
+      "prediction_sha256": "baafeec3ddea138f8b4a00d46a141164b0b6e83dae0fb6aa19e9899d4ff852b0",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.4951171875,
+        "native_physical_MSE": 0.06869828701019287,
+        "current_physical_decoding_MSE": 0.0030279643833637238,
+        "frozen_encoder_successor_probe_MSE": 0.06840656697750092,
+        "oracle_successor_decoding_MSE": 0.0030271278228610754,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 1.0001933574676514,
+        "frozen_encoder_modulation_relative_RMSE": 0.9998782873153687
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "coupled_linear_wide_budget_2021",
+      "checkpoint_sha256": "ef370b2b2d9f2fd6c221d4f8441203b92b7647e5462f0493480a0a0660d91b33",
+      "prediction_sha256": "3e269a027661d2a76172273cfbdd24bcc09a6d749718a447f7690670b83c93a9",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.005957498215138912,
+        "current_physical_decoding_MSE": 0.002215028740465641,
+        "frozen_encoder_successor_probe_MSE": 0.005080125294625759,
+        "oracle_successor_decoding_MSE": 0.00221766484901309,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.09659817814826965,
+        "frozen_encoder_modulation_relative_RMSE": 0.10529094189405441
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "coupled_linear_mop_budget_2021",
+      "checkpoint_sha256": "91dcfce7c9f843f6617cf1bb4df5f17b7487a5d34d9f0ea5c5a01bb0c2eac697",
+      "prediction_sha256": "f4b0c09976b7302470182ec555ae57a736e56bbd553c9c8fe1756d51f3181964",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.635009765625,
+        "native_physical_MSE": 0.09117225557565689,
+        "current_physical_decoding_MSE": 0.041669584810733795,
+        "frozen_encoder_successor_probe_MSE": 0.07982386648654938,
+        "oracle_successor_decoding_MSE": 0.04187645763158798,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.9236863851547241,
+        "frozen_encoder_modulation_relative_RMSE": 0.9364829659461975
+      },
+      "inverse_action_accuracy": 0.9886474609375
+    },
+    {
+      "key": "coupled_linear_projected_mop_2021",
+      "checkpoint_sha256": "09c48259285cef18592a66c50554a4d8cb18a64dec8ec6409e689a69c5f97b10",
+      "prediction_sha256": "9e82ebda337a1d0db10876574b4f2f3f797aaee7185d03e67d93d6dfdaec8a89",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.011005462147295475,
+        "current_physical_decoding_MSE": 0.0034026200883090496,
+        "frozen_encoder_successor_probe_MSE": 0.005122245755046606,
+        "oracle_successor_decoding_MSE": 0.0033963369205594063,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.21834999322891235,
+        "frozen_encoder_modulation_relative_RMSE": 0.16868674755096436
+      },
+      "inverse_action_accuracy": 0.998779296875
+    },
+    {
+      "key": "coupled_linear_joint_budget_2022",
+      "checkpoint_sha256": "623c759bf65e190c52454fc1d484b5b7d6c5927004ef6d48f78434f353371084",
+      "prediction_sha256": "f920c381c0cd4622ce5d16962c8016744592c7f687a880bc1bde0f03931ec624",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.4918212890625,
+        "native_physical_MSE": 0.06793095171451569,
+        "current_physical_decoding_MSE": 0.0008515542722307146,
+        "frozen_encoder_successor_probe_MSE": 0.0672076866030693,
+        "oracle_successor_decoding_MSE": 0.0008500005351379514,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.9999569654464722,
+        "frozen_encoder_modulation_relative_RMSE": 1.000040054321289
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "coupled_linear_obs_budget_2022",
+      "checkpoint_sha256": "50e626319298fff3e5756bdab1a9548b75b5e9643f73bdce24d2bfbbc02fbca8",
+      "prediction_sha256": "d38188369e36dec809c1f98c759f9f0efe949194b7183da1d2d8659498a783e9",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.50439453125,
+        "native_physical_MSE": 0.0706193596124649,
+        "current_physical_decoding_MSE": 0.004865595139563084,
+        "frozen_encoder_successor_probe_MSE": 0.06884025782346725,
+        "oracle_successor_decoding_MSE": 0.004849158693104982,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.999343752861023,
+        "frozen_encoder_modulation_relative_RMSE": 1.0001115798950195
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "coupled_linear_reconstruction_2022",
+      "checkpoint_sha256": "f274b6c674541bf0901097ffd7b4c1ac99ba08945c99e7f92c076c869c3efda4",
+      "prediction_sha256": "ba735d0e54eeaf60099d3ab765b9dcd42cfc27515f0b416a107031e09bd5e0e8",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.49267578125,
+        "native_physical_MSE": 0.068376824259758,
+        "current_physical_decoding_MSE": 0.002049296163022518,
+        "frozen_encoder_successor_probe_MSE": 0.0677785873413086,
+        "oracle_successor_decoding_MSE": 0.0020433389581739902,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.9996209144592285,
+        "frozen_encoder_modulation_relative_RMSE": 1.0000803470611572
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "coupled_linear_forecast_bank_2022",
+      "checkpoint_sha256": "0bea6f55e5cf3066af42b975141f0ae9dc5aea5a75e85a48ad3c2ed55a446219",
+      "prediction_sha256": "5d77faa50df23fc84c3f3209827ef36c27cbd7e4dcac5e5eaf061f2b7458176d",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5103759765625,
+        "native_physical_MSE": 0.07415290176868439,
+        "current_physical_decoding_MSE": 0.014015895314514637,
+        "frozen_encoder_successor_probe_MSE": 0.07397264987230301,
+        "oracle_successor_decoding_MSE": 0.01398838683962822,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 1.0006966590881348,
+        "frozen_encoder_modulation_relative_RMSE": 1.0028423070907593
+      },
+      "inverse_action_accuracy": 0.9991455078125
+    },
+    {
+      "key": "coupled_linear_response_only_2022",
+      "checkpoint_sha256": "d75e1c8334e3e2e561285c2d2dbd286ebf64ef03a360fc8aaeb984fb690b5805",
+      "prediction_sha256": "894c5c56d2c01fe27ddd5f6e77cbffa56a9487f28894345dc23dea03766b0ca9",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0031075289007276297,
+        "current_physical_decoding_MSE": 0.0023736772127449512,
+        "frozen_encoder_successor_probe_MSE": 0.0014467344153672457,
+        "oracle_successor_decoding_MSE": 0.0023738332092761993,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.06412641704082489,
+        "frozen_encoder_modulation_relative_RMSE": 0.05718912184238434
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "coupled_linear_projected_bank_2022",
+      "checkpoint_sha256": "b716b7aa9d40f22a6a01f4189dfa86de0b085082f12e65d90546e6c0ab5103ef",
+      "prediction_sha256": "f5faf35f3fe0cf5ca5ccba629f865dab63df3c14f0a48e16bbd1cd7988dc0d97",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.497314453125,
+        "native_physical_MSE": 0.06797455251216888,
+        "current_physical_decoding_MSE": 0.0013579074293375015,
+        "frozen_encoder_successor_probe_MSE": 0.06759051978588104,
+        "oracle_successor_decoding_MSE": 0.0013556728372350335,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.9991620182991028,
+        "frozen_encoder_modulation_relative_RMSE": 1.0000884532928467
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "coupled_linear_random_projection_2022",
+      "checkpoint_sha256": "3ecca005cf789767dda51854ff565b2df169b69fcc71c0b16c9270ea9501b8fa",
+      "prediction_sha256": "8849ce80d91a510e78adffa90dbf244a48f8ebaa397a4f7b446cf5091df87cd4",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5113525390625,
+        "native_physical_MSE": 0.07196000218391418,
+        "current_physical_decoding_MSE": 0.008695000782608986,
+        "frozen_encoder_successor_probe_MSE": 0.07118086516857147,
+        "oracle_successor_decoding_MSE": 0.008675798773765564,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 1.0002708435058594,
+        "frozen_encoder_modulation_relative_RMSE": 1.0000160932540894
+      },
+      "inverse_action_accuracy": 0.999755859375
+    },
+    {
+      "key": "coupled_linear_wide_budget_2022",
+      "checkpoint_sha256": "151e9c9360f9ee4ede804a722d9e0cbf23f4888e5ff3231c5566022d6971e0bd",
+      "prediction_sha256": "232039d497d3f1d53cd63b30afb811fd0f8a79b728c0d95c5040bb57f9aa6793",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.008252041414380074,
+        "current_physical_decoding_MSE": 0.002271412406116724,
+        "frozen_encoder_successor_probe_MSE": 0.005894741043448448,
+        "oracle_successor_decoding_MSE": 0.002271670149639249,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.11723638325929642,
+        "frozen_encoder_modulation_relative_RMSE": 0.10942594707012177
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "coupled_linear_mop_budget_2022",
+      "checkpoint_sha256": "4649b047b0ca46f56158f636bdd732722ae0da1db5516c316d47632cdde861dd",
+      "prediction_sha256": "ab0e871e58bebf7136d962bacb202d897d5f8544470fee7214d6d5004e0fc56b",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.6038818359375,
+        "native_physical_MSE": 0.09351727366447449,
+        "current_physical_decoding_MSE": 0.042526084929704666,
+        "frozen_encoder_successor_probe_MSE": 0.08149456977844238,
+        "oracle_successor_decoding_MSE": 0.0425734706223011,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.961888313293457,
+        "frozen_encoder_modulation_relative_RMSE": 0.9619745016098022
+      },
+      "inverse_action_accuracy": 0.98583984375
+    },
+    {
+      "key": "coupled_linear_projected_mop_2022",
+      "checkpoint_sha256": "a5bef64a01cb3d4c0d457d7ee25be9285c9cfc897f65748b23deaff02ca4b5d7",
+      "prediction_sha256": "f74a01d6ec3792ccf7a5c404a2d1b03c709109d1a28d66fa026e0ec9887d1164",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.02860732190310955,
+        "current_physical_decoding_MSE": 0.00818959716707468,
+        "frozen_encoder_successor_probe_MSE": 0.006882623303681612,
+        "oracle_successor_decoding_MSE": 0.008096853271126747,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.41266393661499023,
+        "frozen_encoder_modulation_relative_RMSE": 0.20895123481750488
+      },
+      "inverse_action_accuracy": 0.9967041015625
+    },
+    {
+      "key": "coupled_linear_joint_budget_2023",
+      "checkpoint_sha256": "bac8d4999f1010d08b4cdaa1e0db67df2ad6d7ce3fdc5a79f327ce8c43843d7f",
+      "prediction_sha256": "b8c03decea3d9e26b8b47048f77e65bf5df69e903978ef75e12c88c340151b53",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.4974365234375,
+        "native_physical_MSE": 0.06792745739221573,
+        "current_physical_decoding_MSE": 0.0009713612962514162,
+        "frozen_encoder_successor_probe_MSE": 0.06749022006988525,
+        "oracle_successor_decoding_MSE": 0.0009693900356069207,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.9997605085372925,
+        "frozen_encoder_modulation_relative_RMSE": 0.9999787211418152
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "coupled_linear_obs_budget_2023",
+      "checkpoint_sha256": "18014bf54f0a0c137262b160a2d3a648d145c0e03af1e75e4304762053886d50",
+      "prediction_sha256": "3dc7f965b89b75a99f24a2a9c3ffc25a983e1cf7db7026369b8a188ec797a5de",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.4989013671875,
+        "native_physical_MSE": 0.07097819447517395,
+        "current_physical_decoding_MSE": 0.0057488055899739265,
+        "frozen_encoder_successor_probe_MSE": 0.06958717107772827,
+        "oracle_successor_decoding_MSE": 0.005736646242439747,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.9990195631980896,
+        "frozen_encoder_modulation_relative_RMSE": 1.0000094175338745
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "coupled_linear_reconstruction_2023",
+      "checkpoint_sha256": "f079ac0dd539ce08aa0d18ce65997b4b881621510f752fdcd78028ddbd67e65a",
+      "prediction_sha256": "a621b408f10b13a6f2c29fd73f5f3fbc03af21857371b94adc5547924fcd118d",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.4908447265625,
+        "native_physical_MSE": 0.06863018870353699,
+        "current_physical_decoding_MSE": 0.002063154708594084,
+        "frozen_encoder_successor_probe_MSE": 0.06809177249670029,
+        "oracle_successor_decoding_MSE": 0.002061875071376562,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.9995294213294983,
+        "frozen_encoder_modulation_relative_RMSE": 0.9999817609786987
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "coupled_linear_forecast_bank_2023",
+      "checkpoint_sha256": "67bc0da308375d0e1b78f39c51dff60437f6ee5c3122a95b10eb631debac7f03",
+      "prediction_sha256": "3ba23cc96f4b768e3df1502d43e96422fba6047dfacd0503105feaffeccbd99d",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.4976806640625,
+        "native_physical_MSE": 0.07134354114532471,
+        "current_physical_decoding_MSE": 0.008748242631554604,
+        "frozen_encoder_successor_probe_MSE": 0.07135265320539474,
+        "oracle_successor_decoding_MSE": 0.008757483214139938,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.9997254014015198,
+        "frozen_encoder_modulation_relative_RMSE": 1.0005251169204712
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "coupled_linear_response_only_2023",
+      "checkpoint_sha256": "9a0ee3e1c938c32d7a8aab1bacd7fb4789f24568471ea04d2c54f3849d5295a1",
+      "prediction_sha256": "d27f4b523222cbcd08d03e381604b55bd0ededeac4f832c952b6b6c04dfad192",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0021681454963982105,
+        "current_physical_decoding_MSE": 0.0025002281181514263,
+        "frozen_encoder_successor_probe_MSE": 0.0014770033303648233,
+        "oracle_successor_decoding_MSE": 0.0024973000399768353,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.08082526922225952,
+        "frozen_encoder_modulation_relative_RMSE": 0.06209689378738403
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "coupled_linear_projected_bank_2023",
+      "checkpoint_sha256": "f6d64da1ffde9ecbac40ccebc3dc61cd7e1b9cba48c11cb463702886b1631a68",
+      "prediction_sha256": "d4320627769bc5298d250b0595c6bf5c08407b52804a6a9193446f2bb7857ed1",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.4991455078125,
+        "native_physical_MSE": 0.06786569952964783,
+        "current_physical_decoding_MSE": 0.0013518647756427526,
+        "frozen_encoder_successor_probe_MSE": 0.06777361035346985,
+        "oracle_successor_decoding_MSE": 0.0013514503370970488,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.9990684986114502,
+        "frozen_encoder_modulation_relative_RMSE": 1.0000327825546265
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "coupled_linear_random_projection_2023",
+      "checkpoint_sha256": "bb98a506ff4a3436259db3233127c125c2d56b541ad7eaa836715d91c3e016ba",
+      "prediction_sha256": "cc206d9dce2d9a953765194b42b3756999a187d328d82cb343df3c5ecddc527a",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.4947509765625,
+        "native_physical_MSE": 0.06883023679256439,
+        "current_physical_decoding_MSE": 0.002990777138620615,
+        "frozen_encoder_successor_probe_MSE": 0.06852653622627258,
+        "oracle_successor_decoding_MSE": 0.00298123131506145,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.9995371699333191,
+        "frozen_encoder_modulation_relative_RMSE": 1.000016689300537
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "coupled_linear_wide_budget_2023",
+      "checkpoint_sha256": "69178bc342152824f6cbe825807fb0183c90b9a91b85c7cec8d583e82db5a709",
+      "prediction_sha256": "07bdb27f7db056e1e5935181a6164153e32ab3f58391af791a3e51fcd5026301",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.999755859375,
+        "native_physical_MSE": 0.01884775049984455,
+        "current_physical_decoding_MSE": 0.002698341617360711,
+        "frozen_encoder_successor_probe_MSE": 0.01935204118490219,
+        "oracle_successor_decoding_MSE": 0.0027065230533480644,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.2957611680030823,
+        "frozen_encoder_modulation_relative_RMSE": 0.3092236816883087
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "coupled_linear_mop_budget_2023",
+      "checkpoint_sha256": "2892441e81d40e6e342ccf820dab44b8a5563dcfe3ebbf3e0fe10fd7d9477b19",
+      "prediction_sha256": "d2cfb678f2ee537c3147ea7be0e0ef0ef89c26b40573a577f35a40d049d137d7",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5467529296875,
+        "native_physical_MSE": 0.10513748228549957,
+        "current_physical_decoding_MSE": 0.04066953808069229,
+        "frozen_encoder_successor_probe_MSE": 0.08432257920503616,
+        "oracle_successor_decoding_MSE": 0.04049532115459442,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.981752336025238,
+        "frozen_encoder_modulation_relative_RMSE": 0.9855313301086426
+      },
+      "inverse_action_accuracy": 0.984130859375
+    },
+    {
+      "key": "coupled_linear_projected_mop_2023",
+      "checkpoint_sha256": "cf2a9637c31a6e36be0a5e7df35df59982c312530dd553a03ee46bc8b8dc2470",
+      "prediction_sha256": "f342aee0bd3f4e7414dde673dd496bbaabe14732f4551c1c1125643d5d188552",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.01492953859269619,
+        "current_physical_decoding_MSE": 0.00438457727432251,
+        "frozen_encoder_successor_probe_MSE": 0.0077039580792188644,
+        "oracle_successor_decoding_MSE": 0.004344039596617222,
+        "gain_blind_oracle_physical_MSE": 0.0666397213935852,
+        "native_modulation_relative_RMSE": 0.28752896189689636,
+        "frozen_encoder_modulation_relative_RMSE": 0.2577928304672241
+      },
+      "inverse_action_accuracy": 0.993896484375
+    },
+    {
+      "key": "rotating_joint_budget_2021",
+      "checkpoint_sha256": "81103a6fa34dc4d80837639b678e141a6e0cdd0254ae9580007c1aa33cd28b80",
+      "prediction_sha256": "c92ada35ec849e17302368b7fd8a3999a78747b9cb5c7d074954138a1c4957d4",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5106201171875,
+        "native_physical_MSE": 0.021071434020996094,
+        "current_physical_decoding_MSE": 0.0021705690305680037,
+        "frozen_encoder_successor_probe_MSE": 0.021021876484155655,
+        "oracle_successor_decoding_MSE": 0.0021729618310928345,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 1.0207656621932983,
+        "frozen_encoder_modulation_relative_RMSE": 1.0201432704925537
+      },
+      "inverse_action_accuracy": 0.9947509765625
+    },
+    {
+      "key": "rotating_obs_budget_2021",
+      "checkpoint_sha256": "949fe89dde7ce2dfd8f6b96ade591e4345b138b2421b0271e6ccf88594b47e8c",
+      "prediction_sha256": "28f8b92af4d5acdcdf5dc3991b85ff77b45241173e9f4dc8e304596aa91a5581",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.6484375,
+        "native_physical_MSE": 0.021361935883760452,
+        "current_physical_decoding_MSE": 0.003113923594355583,
+        "frozen_encoder_successor_probe_MSE": 0.019531982019543648,
+        "oracle_successor_decoding_MSE": 0.0031439554877579212,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 0.9412949085235596,
+        "frozen_encoder_modulation_relative_RMSE": 0.94001704454422
+      },
+      "inverse_action_accuracy": 0.9969482421875
+    },
+    {
+      "key": "rotating_reconstruction_2021",
+      "checkpoint_sha256": "a54ac35af1281ca3c7414b5fb6dbaa3071127fbf55e484ba7b96953d15b34741",
+      "prediction_sha256": "a651b59c1f5c49b637f1e2ddc0285db6e188de64716ef3f21d3a5467b36465c8",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5142822265625,
+        "native_physical_MSE": 0.02178633213043213,
+        "current_physical_decoding_MSE": 0.003142208093777299,
+        "frozen_encoder_successor_probe_MSE": 0.02178766578435898,
+        "oracle_successor_decoding_MSE": 0.003155650570988655,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 1.0195276737213135,
+        "frozen_encoder_modulation_relative_RMSE": 1.0189238786697388
+      },
+      "inverse_action_accuracy": 0.9925537109375
+    },
+    {
+      "key": "rotating_forecast_bank_2021",
+      "checkpoint_sha256": "35f53f57bb49299aae15b5fd994dc371ad9f586074ba77452448607f2d8bcb26",
+      "prediction_sha256": "eaec0bc9d9a5b597316fbf0fd83a671da113661ba2f05e760bdf859d7307fe75",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5013427734375,
+        "native_physical_MSE": 0.021298613399267197,
+        "current_physical_decoding_MSE": 0.002297983504831791,
+        "frozen_encoder_successor_probe_MSE": 0.021101947873830795,
+        "oracle_successor_decoding_MSE": 0.0023022324312478304,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 1.001720666885376,
+        "frozen_encoder_modulation_relative_RMSE": 1.0020169019699097
+      },
+      "inverse_action_accuracy": 0.999755859375
+    },
+    {
+      "key": "rotating_response_only_2021",
+      "checkpoint_sha256": "d4aea84aa255a9fe7b00efa585ebd39a922df404cc96925dc616af5783bf24c1",
+      "prediction_sha256": "9d1aed7c22c0d28c42de25f32e665ead9ade210025850468e4834a2385d50665",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0010268189944326878,
+        "current_physical_decoding_MSE": 0.0006525659700855613,
+        "frozen_encoder_successor_probe_MSE": 0.0008042996050789952,
+        "oracle_successor_decoding_MSE": 0.0006562776979990304,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 0.09519839286804199,
+        "frozen_encoder_modulation_relative_RMSE": 0.09567005932331085
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "rotating_projected_bank_2021",
+      "checkpoint_sha256": "bc9ba360b9a2ecc2835e7d71929d3f3883476240035604bd2575afc429421e61",
+      "prediction_sha256": "593171ca3c6c30afa52062eb222e1e7c4848c78462c0a62b6d6a712b87f96ebb",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5003662109375,
+        "native_physical_MSE": 0.02027139812707901,
+        "current_physical_decoding_MSE": 0.0012086078058928251,
+        "frozen_encoder_successor_probe_MSE": 0.020160723477602005,
+        "oracle_successor_decoding_MSE": 0.0012065146584063768,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 1.001170039176941,
+        "frozen_encoder_modulation_relative_RMSE": 1.0015854835510254
+      },
+      "inverse_action_accuracy": 0.999755859375
+    },
+    {
+      "key": "rotating_random_projection_2021",
+      "checkpoint_sha256": "60d39dd355c6185629a9fe3f992a019aa068e391af8b08558a0ec88c329a3dd8",
+      "prediction_sha256": "99c18e4c96a412897443984a44a25b312e5fa30e74ad59aee2ffb34e750f9313",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.50244140625,
+        "native_physical_MSE": 0.02067021280527115,
+        "current_physical_decoding_MSE": 0.0015292500611394644,
+        "frozen_encoder_successor_probe_MSE": 0.020346928387880325,
+        "oracle_successor_decoding_MSE": 0.0015349176246672869,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 1.0006364583969116,
+        "frozen_encoder_modulation_relative_RMSE": 1.0009938478469849
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "rotating_wide_budget_2021",
+      "checkpoint_sha256": "550340d67d9d9f98a1ea95db000d5544d59fda81370abd6165a8d5d972e60478",
+      "prediction_sha256": "22c5dedd28483a890b1966d7a7a7a27dbbe155bf4247be70e172a4314a785f14",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0021390621550381184,
+        "current_physical_decoding_MSE": 0.000766657292842865,
+        "frozen_encoder_successor_probe_MSE": 0.0011523928260430694,
+        "oracle_successor_decoding_MSE": 0.000772336614318192,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 0.13103905320167542,
+        "frozen_encoder_modulation_relative_RMSE": 0.10606265068054199
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "rotating_mop_budget_2021",
+      "checkpoint_sha256": "0dfed9ca7b4177771c585220d537c746f42b80de6162a6c6f9c42a855deefec5",
+      "prediction_sha256": "4d567c7e7745508d6d403ac348d9ed95e5797d71d007de1bd35e9a01787f3a0d",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.52685546875,
+        "native_physical_MSE": 0.023202676326036453,
+        "current_physical_decoding_MSE": 0.0030485994648188353,
+        "frozen_encoder_successor_probe_MSE": 0.022317936643958092,
+        "oracle_successor_decoding_MSE": 0.0030658820178359747,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 0.998473048210144,
+        "frozen_encoder_modulation_relative_RMSE": 0.9978147149085999
+      },
+      "inverse_action_accuracy": 0.99853515625
+    },
+    {
+      "key": "rotating_projected_mop_2021",
+      "checkpoint_sha256": "5230b8645308f3919564e57917b9327f08e7181919c3c0b65e5bc25b69f835e2",
+      "prediction_sha256": "3c9d72a3be57d960dd2fdf2560f6d79294760e6d3eb92e50ae843412a759b61e",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5115966796875,
+        "native_physical_MSE": 0.024816568940877914,
+        "current_physical_decoding_MSE": 0.002844754606485367,
+        "frozen_encoder_successor_probe_MSE": 0.021862473338842392,
+        "oracle_successor_decoding_MSE": 0.0028717368841171265,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 0.9989611506462097,
+        "frozen_encoder_modulation_relative_RMSE": 0.9981986284255981
+      },
+      "inverse_action_accuracy": 0.99853515625
+    },
+    {
+      "key": "rotating_joint_budget_2022",
+      "checkpoint_sha256": "2c7c4cf5108694474e6d1d175550ea45b0258ec6d151e24b3f93906e47cfafec",
+      "prediction_sha256": "b006e87b4d3ef3a4183d7511e9a7f18dac9a16d16f76ddfe54fe4c68dbe574d7",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5111083984375,
+        "native_physical_MSE": 0.020421136170625687,
+        "current_physical_decoding_MSE": 0.0012633416336029768,
+        "frozen_encoder_successor_probe_MSE": 0.020278332754969597,
+        "oracle_successor_decoding_MSE": 0.001264482270926237,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 1.0064728260040283,
+        "frozen_encoder_modulation_relative_RMSE": 1.007193922996521
+      },
+      "inverse_action_accuracy": 0.99951171875
+    },
+    {
+      "key": "rotating_obs_budget_2022",
+      "checkpoint_sha256": "e13fbb06f8636957adc253544f246fe28633b2e431421e34c08c77afccab835e",
+      "prediction_sha256": "8a8c24ec338e06da5aa724bb4a0fcb1120296be74082cbbd66d2c07c40b67359",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.7420654296875,
+        "native_physical_MSE": 0.018700985237956047,
+        "current_physical_decoding_MSE": 0.005081005394458771,
+        "frozen_encoder_successor_probe_MSE": 0.018157966434955597,
+        "oracle_successor_decoding_MSE": 0.005104893818497658,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 0.817388117313385,
+        "frozen_encoder_modulation_relative_RMSE": 0.8489169478416443
+      },
+      "inverse_action_accuracy": 0.997802734375
+    },
+    {
+      "key": "rotating_reconstruction_2022",
+      "checkpoint_sha256": "754ca2f6f4d5ead671e5a8a4a03ee2db5c6743c319dc05cae07379f9000add61",
+      "prediction_sha256": "6fb4dd78a5506bff65e8eeef986db76f5a344b7b8177060f642bb4d0340f91c1",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.506591796875,
+        "native_physical_MSE": 0.021329917013645172,
+        "current_physical_decoding_MSE": 0.0021762242540717125,
+        "frozen_encoder_successor_probe_MSE": 0.021074775606393814,
+        "oracle_successor_decoding_MSE": 0.0021841179113835096,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 1.0067061185836792,
+        "frozen_encoder_modulation_relative_RMSE": 1.0076045989990234
+      },
+      "inverse_action_accuracy": 0.9991455078125
+    },
+    {
+      "key": "rotating_forecast_bank_2022",
+      "checkpoint_sha256": "fa4b93da1a9f3b3cc4c6ae721ff0e5923d5b1c68cd8fa687a7970a38e3b69c0c",
+      "prediction_sha256": "9a56cb96837eeaf48f06e133f43b4028ac29cc01262392edf225f7cec5db887c",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5106201171875,
+        "native_physical_MSE": 0.02129630371928215,
+        "current_physical_decoding_MSE": 0.0025659948587417603,
+        "frozen_encoder_successor_probe_MSE": 0.021387659013271332,
+        "oracle_successor_decoding_MSE": 0.0025757683906704187,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 1.003832221031189,
+        "frozen_encoder_modulation_relative_RMSE": 1.0033361911773682
+      },
+      "inverse_action_accuracy": 0.9990234375
+    },
+    {
+      "key": "rotating_response_only_2022",
+      "checkpoint_sha256": "4c60787582f2d1f2793c9652fb27eaee513d5fb2b2fa82433d68236f24504f1e",
+      "prediction_sha256": "1d49496c0b216dfa394b41df02822785d26150290b6cfcb311c0b45c05951007",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0014678547158837318,
+        "current_physical_decoding_MSE": 0.0007588739972561598,
+        "frozen_encoder_successor_probe_MSE": 0.0008126962929964066,
+        "oracle_successor_decoding_MSE": 0.0007646287558600307,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 0.07854320108890533,
+        "frozen_encoder_modulation_relative_RMSE": 0.07782560586929321
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "rotating_projected_bank_2022",
+      "checkpoint_sha256": "5602960ec59ac9548cafaef8ded6377cdc02e5fa0b380d1573d38af3e0adcc7e",
+      "prediction_sha256": "f6687e17565fec07598cf9eb301d2fda05348a854b734d8697162c087b892ca6",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.504638671875,
+        "native_physical_MSE": 0.02027692086994648,
+        "current_physical_decoding_MSE": 0.0011476718354970217,
+        "frozen_encoder_successor_probe_MSE": 0.020138774067163467,
+        "oracle_successor_decoding_MSE": 0.001150190131738782,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 1.0026031732559204,
+        "frozen_encoder_modulation_relative_RMSE": 1.0024069547653198
+      },
+      "inverse_action_accuracy": 0.9996337890625
+    },
+    {
+      "key": "rotating_random_projection_2022",
+      "checkpoint_sha256": "133d845298450ad9d099abd8ce3dcc7194c903286f69255c6a21e75ef7801b0b",
+      "prediction_sha256": "25aa9b2eac99af1c9e42a63debc09b50254a11e830e09c7a61bcb9361eb54c82",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.4971923828125,
+        "native_physical_MSE": 0.020861370489001274,
+        "current_physical_decoding_MSE": 0.001728265080600977,
+        "frozen_encoder_successor_probe_MSE": 0.020706849172711372,
+        "oracle_successor_decoding_MSE": 0.0017379475757479668,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 1.002170443534851,
+        "frozen_encoder_modulation_relative_RMSE": 1.0021729469299316
+      },
+      "inverse_action_accuracy": 0.9984130859375
+    },
+    {
+      "key": "rotating_wide_budget_2022",
+      "checkpoint_sha256": "ca0d24acfc7a4c701ba59fb2ac0ebba5bc8cb835ed0c3fbff1759fff44318a68",
+      "prediction_sha256": "73165d035e12dbc8dd897a3a4e515415897c63b0fc566b22368f367b23b970d2",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.002206676872447133,
+        "current_physical_decoding_MSE": 0.0008796626934781671,
+        "frozen_encoder_successor_probe_MSE": 0.00124273169785738,
+        "oracle_successor_decoding_MSE": 0.0008803706150501966,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 0.1456867754459381,
+        "frozen_encoder_modulation_relative_RMSE": 0.11043904721736908
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "rotating_mop_budget_2022",
+      "checkpoint_sha256": "6546965fa23da28ff63ee4ceeaa65dbcd475f7a9b9281969657a217f2d6a8f19",
+      "prediction_sha256": "2272e5c4057066847db5e9c14bc2bc379978b322cb3ed22c10e2fb9eb793fe23",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.006687681656330824,
+        "current_physical_decoding_MSE": 0.002437189221382141,
+        "frozen_encoder_successor_probe_MSE": 0.004215475637465715,
+        "oracle_successor_decoding_MSE": 0.0025032854173332453,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 0.25598111748695374,
+        "frozen_encoder_modulation_relative_RMSE": 0.256374329328537
+      },
+      "inverse_action_accuracy": 0.9974365234375
+    },
+    {
+      "key": "rotating_projected_mop_2022",
+      "checkpoint_sha256": "7510da7845c39af64f723f2ae058aea00552738946088710951188cce488f0db",
+      "prediction_sha256": "aeedbe5ec91f93b9ced64b720ec4f54aa99956f3f8697db7b88ad8b24a41a88b",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.015098387375473976,
+        "current_physical_decoding_MSE": 0.002193962223827839,
+        "frozen_encoder_successor_probe_MSE": 0.003806372405961156,
+        "oracle_successor_decoding_MSE": 0.002232631202787161,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 0.2628924250602722,
+        "frozen_encoder_modulation_relative_RMSE": 0.18580925464630127
+      },
+      "inverse_action_accuracy": 0.9951171875
+    },
+    {
+      "key": "rotating_joint_budget_2023",
+      "checkpoint_sha256": "8ed0c68223400639124d5eaa786d0cb20fbf9e0dcd0e42f28735fca097df18c1",
+      "prediction_sha256": "4d799f7c05b514d3f95d47ed71ced9398b395394006654ad3c2eb723797046dc",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.51318359375,
+        "native_physical_MSE": 0.02095619961619377,
+        "current_physical_decoding_MSE": 0.0022004442289471626,
+        "frozen_encoder_successor_probe_MSE": 0.02105615846812725,
+        "oracle_successor_decoding_MSE": 0.002205001888796687,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 1.0277254581451416,
+        "frozen_encoder_modulation_relative_RMSE": 1.0255227088928223
+      },
+      "inverse_action_accuracy": 0.99658203125
+    },
+    {
+      "key": "rotating_obs_budget_2023",
+      "checkpoint_sha256": "1665e4408e0aea6ae45ac37c719b6a470b249dd53644c4e70ba805e5ba3cfcab",
+      "prediction_sha256": "564015d8afd4390d394b550931434b4cc40284349490980b87ef29c688fd8e32",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.7083740234375,
+        "native_physical_MSE": 0.019103556871414185,
+        "current_physical_decoding_MSE": 0.003428287338465452,
+        "frozen_encoder_successor_probe_MSE": 0.01827646978199482,
+        "oracle_successor_decoding_MSE": 0.0034385137259960175,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 0.8929710388183594,
+        "frozen_encoder_modulation_relative_RMSE": 0.9009382128715515
+      },
+      "inverse_action_accuracy": 0.9991455078125
+    },
+    {
+      "key": "rotating_reconstruction_2023",
+      "checkpoint_sha256": "e46050632bc6570e0837e8c71bffe3314af1ff0438874d7a2ea150780d840f30",
+      "prediction_sha256": "b471240bb3740abe40ab226fb95f5cb8b88ed7a741adb127f880210d0f4b2030",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5135498046875,
+        "native_physical_MSE": 0.021785613149404526,
+        "current_physical_decoding_MSE": 0.0031679999083280563,
+        "frozen_encoder_successor_probe_MSE": 0.02181360125541687,
+        "oracle_successor_decoding_MSE": 0.0031785229220986366,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 1.0282191038131714,
+        "frozen_encoder_modulation_relative_RMSE": 1.0265114307403564
+      },
+      "inverse_action_accuracy": 0.998046875
+    },
+    {
+      "key": "rotating_forecast_bank_2023",
+      "checkpoint_sha256": "7319e7af35b7dfa033168bd4fcaab7633cd038e1b97734c8763fd0b405362acd",
+      "prediction_sha256": "f81e26ed1cf6981582c3da46ba53f346d29ba0c2ad600881a04d86e030723a05",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.4996337890625,
+        "native_physical_MSE": 0.021104909479618073,
+        "current_physical_decoding_MSE": 0.0022049816325306892,
+        "frozen_encoder_successor_probe_MSE": 0.021124839782714844,
+        "oracle_successor_decoding_MSE": 0.0022094303276389837,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 1.0032695531845093,
+        "frozen_encoder_modulation_relative_RMSE": 1.0026220083236694
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "rotating_response_only_2023",
+      "checkpoint_sha256": "b1eb74aa601942d0484993d82bfa79b553e06d7aad94b30adb0e5763d1013e44",
+      "prediction_sha256": "58762ed8be4cff0fb88bbbe54ec414fa33ead53b015152e4be21e4f33947656b",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0011626562336459756,
+        "current_physical_decoding_MSE": 0.0007403006311506033,
+        "frozen_encoder_successor_probe_MSE": 0.0009793007047846913,
+        "oracle_successor_decoding_MSE": 0.0007419877219945192,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 0.09512593597173691,
+        "frozen_encoder_modulation_relative_RMSE": 0.08474896103143692
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "rotating_projected_bank_2023",
+      "checkpoint_sha256": "83c3445ad87bc57bd7712f29e9116f3e2432a84213a2b857ab49a70a798b574d",
+      "prediction_sha256": "a9af22ac10bd0538c1d480bcdef0725857feea320c7642cbdde6c37162d111ed",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.49853515625,
+        "native_physical_MSE": 0.020356694236397743,
+        "current_physical_decoding_MSE": 0.0012917022686451674,
+        "frozen_encoder_successor_probe_MSE": 0.020315546542406082,
+        "oracle_successor_decoding_MSE": 0.0012907807249575853,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 1.0022703409194946,
+        "frozen_encoder_modulation_relative_RMSE": 1.001783847808838
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "rotating_random_projection_2023",
+      "checkpoint_sha256": "1d32c6a66466a2788855a5a01bd37ed91e20792921c56f9f037f64c16aadc87e",
+      "prediction_sha256": "68604baeb50ca875cd925436abc2eb225caf15eefd6c53193e3c77006b41e199",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.50048828125,
+        "native_physical_MSE": 0.02046666294336319,
+        "current_physical_decoding_MSE": 0.0013355407863855362,
+        "frozen_encoder_successor_probe_MSE": 0.020363610237836838,
+        "oracle_successor_decoding_MSE": 0.0013405336067080498,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 1.0033550262451172,
+        "frozen_encoder_modulation_relative_RMSE": 1.0029019117355347
+      },
+      "inverse_action_accuracy": 0.999755859375
+    },
+    {
+      "key": "rotating_wide_budget_2023",
+      "checkpoint_sha256": "5ded7b5df0c55f81d6d5c2513170b6185678c1358cf18440441be240cbce3098",
+      "prediction_sha256": "1c83b8cdbdc2f18b28caf7971df6890638317f43aef320e0217f6a0bf68aa4de",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0030081653967499733,
+        "current_physical_decoding_MSE": 0.0009780095424503088,
+        "frozen_encoder_successor_probe_MSE": 0.0017385485116392374,
+        "oracle_successor_decoding_MSE": 0.0009792528580874205,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 0.1505746692419052,
+        "frozen_encoder_modulation_relative_RMSE": 0.10978273302316666
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "rotating_mop_budget_2023",
+      "checkpoint_sha256": "b51334b61ab82b5e30dabb1bc5c02ff385979fabb1dae422f8ce8e806f313220",
+      "prediction_sha256": "5e7ce04e1a9fbd3241e37c8f72033209cf08f62b555747690456f6d340cf0776",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5361328125,
+        "native_physical_MSE": 0.02437427267432213,
+        "current_physical_decoding_MSE": 0.005372281186282635,
+        "frozen_encoder_successor_probe_MSE": 0.02375967800617218,
+        "oracle_successor_decoding_MSE": 0.005412951577454805,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 1.0042037963867188,
+        "frozen_encoder_modulation_relative_RMSE": 1.001247763633728
+      },
+      "inverse_action_accuracy": 0.9969482421875
+    },
+    {
+      "key": "rotating_projected_mop_2023",
+      "checkpoint_sha256": "88db845bfe0427bc12566c9dacd806bed7ba85067e997116f42aab98f3391152",
+      "prediction_sha256": "4040f1e09b02c4d5a6d6b188bd26400add77862b3c5b3e4c7b25513d26f783a5",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5155029296875,
+        "native_physical_MSE": 0.03958969563245773,
+        "current_physical_decoding_MSE": 0.015261730179190636,
+        "frozen_encoder_successor_probe_MSE": 0.03211088478565216,
+        "oracle_successor_decoding_MSE": 0.015359057113528252,
+        "gain_blind_oracle_physical_MSE": 0.018855217844247818,
+        "native_modulation_relative_RMSE": 1.0003352165222168,
+        "frozen_encoder_modulation_relative_RMSE": 1.0010976791381836
+      },
+      "inverse_action_accuracy": 0.9898681640625
+    },
+    {
+      "key": "saturating_joint_budget_2021",
+      "checkpoint_sha256": "4c17f2f1ed130910c8fefa75073c46f173c48729cb59f146d689866171c2c8d1",
+      "prediction_sha256": "0c70b50efd56f070a76bbb3292c1ced3dfce8e30f4ce3a5d1432a68fee6163bc",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5020751953125,
+        "native_physical_MSE": 0.08562640845775604,
+        "current_physical_decoding_MSE": 0.0016850745305418968,
+        "frozen_encoder_successor_probe_MSE": 0.085544154047966,
+        "oracle_successor_decoding_MSE": 0.0016846989747136831,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.9994935393333435,
+        "frozen_encoder_modulation_relative_RMSE": 1.0001678466796875
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "saturating_obs_budget_2021",
+      "checkpoint_sha256": "0dcbd325c19e58ef7801d921a15735333bd761a147e89bb7f6aa032a83d1b6a6",
+      "prediction_sha256": "3dd0032f85e307041906866265346f2c60d4f47e58aaa04d023f722c3e47ed8b",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5045166015625,
+        "native_physical_MSE": 0.09269542992115021,
+        "current_physical_decoding_MSE": 0.028128579258918762,
+        "frozen_encoder_successor_probe_MSE": 0.09307150542736053,
+        "oracle_successor_decoding_MSE": 0.028288567438721657,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.9993681907653809,
+        "frozen_encoder_modulation_relative_RMSE": 0.9993149042129517
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "saturating_reconstruction_2021",
+      "checkpoint_sha256": "f041abeb5ba6e8a4f84af90c0ea5e5cbe89ca5ea53b5b6e4cef72211aa732049",
+      "prediction_sha256": "42b174e18257786df2db8be06361b9fe44b863b41eb2dae27f38bec9e88e654d",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.503173828125,
+        "native_physical_MSE": 0.0860138088464737,
+        "current_physical_decoding_MSE": 0.00279768044129014,
+        "frozen_encoder_successor_probe_MSE": 0.08587358146905899,
+        "oracle_successor_decoding_MSE": 0.0028018364682793617,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.9994052648544312,
+        "frozen_encoder_modulation_relative_RMSE": 1.0001710653305054
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "saturating_forecast_bank_2021",
+      "checkpoint_sha256": "ca402c9bf56412ff63661bd84f529cb5f0399204b96fa8bb5ca89b7aac316a96",
+      "prediction_sha256": "b31a85048f98279121a5e877590d6d122ab28de57ef87607c6c438f2647d27b7",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5037841796875,
+        "native_physical_MSE": 0.08741745352745056,
+        "current_physical_decoding_MSE": 0.004341362975537777,
+        "frozen_encoder_successor_probe_MSE": 0.08671990782022476,
+        "oracle_successor_decoding_MSE": 0.004344038665294647,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.9999273419380188,
+        "frozen_encoder_modulation_relative_RMSE": 1.0001486539840698
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "saturating_response_only_2021",
+      "checkpoint_sha256": "044abd751b3e976bee2309b69e53f838b06df2970a6ceac4650c3051df15b1f8",
+      "prediction_sha256": "d8d37ea3fd473b93b7ad32921b856b5ac0574efda0afb775dd25c0c240205525",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.002235818887129426,
+        "current_physical_decoding_MSE": 0.0024187059607356787,
+        "frozen_encoder_successor_probe_MSE": 0.0013970789732411504,
+        "oracle_successor_decoding_MSE": 0.0024234303273260593,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.0758395791053772,
+        "frozen_encoder_modulation_relative_RMSE": 0.05927923321723938
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "saturating_projected_bank_2021",
+      "checkpoint_sha256": "0134615f5c8df5dbeffe55640bbfeae9a56ac5bef64b3188833d4f674d4d0f5c",
+      "prediction_sha256": "a432f7acb2feb6e8d109e86fe25c8443417244c7328999f976ada43b485c9322",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.51171875,
+        "native_physical_MSE": 0.08698896318674088,
+        "current_physical_decoding_MSE": 0.0017381713259965181,
+        "frozen_encoder_successor_probe_MSE": 0.08598604798316956,
+        "oracle_successor_decoding_MSE": 0.001739310915581882,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.9964718222618103,
+        "frozen_encoder_modulation_relative_RMSE": 1.0002155303955078
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "saturating_random_projection_2021",
+      "checkpoint_sha256": "cb7dab598bf6175d716d94c126100aa0728006adeba43c28e1d93957c6090a32",
+      "prediction_sha256": "06c627202e82d2c4a9d7070bf331a7537ed57bfa6ea1bc7748299b22edbe5e21",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5025634765625,
+        "native_physical_MSE": 0.08729010820388794,
+        "current_physical_decoding_MSE": 0.00226134667173028,
+        "frozen_encoder_successor_probe_MSE": 0.08608852326869965,
+        "oracle_successor_decoding_MSE": 0.002267981180921197,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.9998957514762878,
+        "frozen_encoder_modulation_relative_RMSE": 1.0001139640808105
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "saturating_wide_budget_2021",
+      "checkpoint_sha256": "4a305f9545919c020cd44d36554d9240a1343d625395431b2eb5fc106641973f",
+      "prediction_sha256": "e4e481fbca37f75c73de774ab58d61bcbb670c914ff3ac6e43e0b6bf920b4225",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.9996337890625,
+        "native_physical_MSE": 0.008826375007629395,
+        "current_physical_decoding_MSE": 0.002995364600792527,
+        "frozen_encoder_successor_probe_MSE": 0.007735986728221178,
+        "oracle_successor_decoding_MSE": 0.002993582747876644,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.134379580616951,
+        "frozen_encoder_modulation_relative_RMSE": 0.13902214169502258
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "saturating_mop_budget_2021",
+      "checkpoint_sha256": "a7e6ddcb02e24c395e54037a72b1a6985c706050755b7ccf7e0075d47ad36f2e",
+      "prediction_sha256": "5cbd66dd43cea5ef40a9117839a35f80bd120ec6aea3bd9eb7c1ba986ac782ad",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.563720703125,
+        "native_physical_MSE": 0.12677571177482605,
+        "current_physical_decoding_MSE": 0.05725540220737457,
+        "frozen_encoder_successor_probe_MSE": 0.1008867621421814,
+        "oracle_successor_decoding_MSE": 0.05734109878540039,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.9731930494308472,
+        "frozen_encoder_modulation_relative_RMSE": 0.9799960255622864
+      },
+      "inverse_action_accuracy": 0.9918212890625
+    },
+    {
+      "key": "saturating_projected_mop_2021",
+      "checkpoint_sha256": "3d591c461321dfbd477babcf09f22f26171cf73d5951dc8f0e55a6c6df415094",
+      "prediction_sha256": "0b3c7a7c42841168038a01d3a1bee068b99e2192f7ec1300c397dc0ae3cb9e97",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.012397263199090958,
+        "current_physical_decoding_MSE": 0.004186134785413742,
+        "frozen_encoder_successor_probe_MSE": 0.0070762429386377335,
+        "oracle_successor_decoding_MSE": 0.0041825068183243275,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.2753765285015106,
+        "frozen_encoder_modulation_relative_RMSE": 0.22372300922870636
+      },
+      "inverse_action_accuracy": 0.9996337890625
+    },
+    {
+      "key": "saturating_joint_budget_2022",
+      "checkpoint_sha256": "d0ad3805cbe60fef754d24dae651e92ca8a2b5f84e2baf31a417cf6550d26908",
+      "prediction_sha256": "06ca63990ec1527e6e303c2f1a4ced563f01d8a2873841072e18f7945be26b71",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5037841796875,
+        "native_physical_MSE": 0.0866614431142807,
+        "current_physical_decoding_MSE": 0.0014337729662656784,
+        "frozen_encoder_successor_probe_MSE": 0.08579529821872711,
+        "oracle_successor_decoding_MSE": 0.0014387646224349737,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.9994847774505615,
+        "frozen_encoder_modulation_relative_RMSE": 0.999984085559845
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "saturating_obs_budget_2022",
+      "checkpoint_sha256": "d13bc43ccc62ec585304da4b5c98e0ef272e0db310554c3ea7826476e3cb8d60",
+      "prediction_sha256": "7b8c0051054aef6f2b1eedbdac1bf261c9d3982b81e40bbbcccef5c85b3c76ef",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5072021484375,
+        "native_physical_MSE": 0.08801106363534927,
+        "current_physical_decoding_MSE": 0.004454939626157284,
+        "frozen_encoder_successor_probe_MSE": 0.08658169209957123,
+        "oracle_successor_decoding_MSE": 0.004448570776730776,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.9997755289077759,
+        "frozen_encoder_modulation_relative_RMSE": 1.0000211000442505
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "saturating_reconstruction_2022",
+      "checkpoint_sha256": "98870518810ec543d287df40ea96ff42262e99da120004922af88fc597253c9a",
+      "prediction_sha256": "bd645f151c137faba60c7c18b41f745caab3af460c4c3d26d4b4799fd0107ca7",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5130615234375,
+        "native_physical_MSE": 0.08669120818376541,
+        "current_physical_decoding_MSE": 0.002621529158204794,
+        "frozen_encoder_successor_probe_MSE": 0.08602967113256454,
+        "oracle_successor_decoding_MSE": 0.0026250218506902456,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.9991288185119629,
+        "frozen_encoder_modulation_relative_RMSE": 1.0001364946365356
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "saturating_forecast_bank_2022",
+      "checkpoint_sha256": "7e1c33d64056e6ab98e49d975687991d4102feb3b6a154ab648fbc6825ad5f08",
+      "prediction_sha256": "0e7f699450e474dad5e00ed9335d509ba7a82302a23955305db0a7444bb9b34f",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5084228515625,
+        "native_physical_MSE": 0.08753680437803268,
+        "current_physical_decoding_MSE": 0.0031816388946026564,
+        "frozen_encoder_successor_probe_MSE": 0.08683934807777405,
+        "oracle_successor_decoding_MSE": 0.003186312969774008,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.9999242424964905,
+        "frozen_encoder_modulation_relative_RMSE": 1.0001143217086792
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "saturating_response_only_2022",
+      "checkpoint_sha256": "abe4f8c047513b8c78886597dccb6ebac2559fd9c35c6a1704c78c8ad19f9b04",
+      "prediction_sha256": "22b194e109ef3b09a31d1ecc8fa8589b16433906482797dbade695aa64649a6b",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0017477000365033746,
+        "current_physical_decoding_MSE": 0.001927918754518032,
+        "frozen_encoder_successor_probe_MSE": 0.0012863335432484746,
+        "oracle_successor_decoding_MSE": 0.0019219222012907267,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.06246628239750862,
+        "frozen_encoder_modulation_relative_RMSE": 0.05846083164215088
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "saturating_projected_bank_2022",
+      "checkpoint_sha256": "60aa6fa6e68c5aa0e49863c89d878ceb3b89c4f20b920c9363417af0deb0fa60",
+      "prediction_sha256": "1c31409e5d23743d3c388d5b8c15fdbd9bb090b5d7bb9bc44225c13209b5c860",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.524658203125,
+        "native_physical_MSE": 0.08658699691295624,
+        "current_physical_decoding_MSE": 0.0014087544986978173,
+        "frozen_encoder_successor_probe_MSE": 0.08623085916042328,
+        "oracle_successor_decoding_MSE": 0.00141311960760504,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.9982646703720093,
+        "frozen_encoder_modulation_relative_RMSE": 1.000070571899414
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "saturating_random_projection_2022",
+      "checkpoint_sha256": "69005575cef29ef1a215cc18340a58262e4b05a5d2254d38ce259b499456b0d5",
+      "prediction_sha256": "0801f91eb2372933bff2b40b1fe2a8ed19b7b9c591df2b7d95ed8733a9cf1796",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5025634765625,
+        "native_physical_MSE": 0.08741308748722076,
+        "current_physical_decoding_MSE": 0.002524945419281721,
+        "frozen_encoder_successor_probe_MSE": 0.08683646470308304,
+        "oracle_successor_decoding_MSE": 0.002528943121433258,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.9999943971633911,
+        "frozen_encoder_modulation_relative_RMSE": 1.0001485347747803
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "saturating_wide_budget_2022",
+      "checkpoint_sha256": "72a7ca7b410910a8f601f259322a71f8a97a90a1b91800cb02801ab599de2557",
+      "prediction_sha256": "66dfd7b96dfd7f483d7037bea9ed76f2818fef1a35e2e6492964cf2e237104d0",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.00568462023511529,
+        "current_physical_decoding_MSE": 0.0024188340175896883,
+        "frozen_encoder_successor_probe_MSE": 0.0038241390138864517,
+        "oracle_successor_decoding_MSE": 0.002410185057669878,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.08334231376647949,
+        "frozen_encoder_modulation_relative_RMSE": 0.08083297312259674
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "saturating_mop_budget_2022",
+      "checkpoint_sha256": "8a7bfb3908da968dd34c4f667a8a6c9fa8866007d71c084fa83848f056c2fbfe",
+      "prediction_sha256": "6878a2d21ddc7fd253fa902836ad3593848aad8352c1444e896ab315438a5834",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.51318359375,
+        "native_physical_MSE": 0.12198898196220398,
+        "current_physical_decoding_MSE": 0.04973043501377106,
+        "frozen_encoder_successor_probe_MSE": 0.10228089988231659,
+        "oracle_successor_decoding_MSE": 0.049432940781116486,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.998236358165741,
+        "frozen_encoder_modulation_relative_RMSE": 1.0008043050765991
+      },
+      "inverse_action_accuracy": 0.9937744140625
+    },
+    {
+      "key": "saturating_projected_mop_2022",
+      "checkpoint_sha256": "30d940f3cd8c97d64be4a8cea9f7005bc38dfa0f8bfb117879f5904790aeb355",
+      "prediction_sha256": "89e9aedb5a21544dabba393e9f342edfe7353c24a44bbf408b359f18a5700ad6",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.022922653704881668,
+        "current_physical_decoding_MSE": 0.004419340286403894,
+        "frozen_encoder_successor_probe_MSE": 0.005711173638701439,
+        "oracle_successor_decoding_MSE": 0.004454306326806545,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.3890823721885681,
+        "frozen_encoder_modulation_relative_RMSE": 0.19935248792171478
+      },
+      "inverse_action_accuracy": 0.9993896484375
+    },
+    {
+      "key": "saturating_joint_budget_2023",
+      "checkpoint_sha256": "fe4818d3f52b659c06df0ee93df7463bef34ff612b681ffa59c2099710a13f84",
+      "prediction_sha256": "c612399d9537a0e19b9a8bfa536a4ead67cc20a4214acbd7bc357d32c332c1db",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.4996337890625,
+        "native_physical_MSE": 0.08683297038078308,
+        "current_physical_decoding_MSE": 0.0013813612749800086,
+        "frozen_encoder_successor_probe_MSE": 0.08555474877357483,
+        "oracle_successor_decoding_MSE": 0.0013789322692900896,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.999286413192749,
+        "frozen_encoder_modulation_relative_RMSE": 0.9999979138374329
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "saturating_obs_budget_2023",
+      "checkpoint_sha256": "4c71b57f1312898d6bde401f25f9731be59de205c09dbfa55e6f9d4efa7e1440",
+      "prediction_sha256": "1db39c47b5ba9ed9d0fc1194a081a8a3ccefcb4508b55580424081227eb3380a",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.504150390625,
+        "native_physical_MSE": 0.10366244614124298,
+        "current_physical_decoding_MSE": 0.06342694163322449,
+        "frozen_encoder_successor_probe_MSE": 0.10243505239486694,
+        "oracle_successor_decoding_MSE": 0.0634714737534523,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.997323215007782,
+        "frozen_encoder_modulation_relative_RMSE": 0.9993712902069092
+      },
+      "inverse_action_accuracy": 0.9998779296875
+    },
+    {
+      "key": "saturating_reconstruction_2023",
+      "checkpoint_sha256": "cc53d8184abee5ad7f0789e4ccf24e5603705eb7063dbb01c8302960ff0cb65e",
+      "prediction_sha256": "55e8ec05eb4fa2696374ff7dc7bb446d3dd7e6977608a0556b259f0fe0b327f0",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5123291015625,
+        "native_physical_MSE": 0.08706288039684296,
+        "current_physical_decoding_MSE": 0.003017677925527096,
+        "frozen_encoder_successor_probe_MSE": 0.08612971752882004,
+        "oracle_successor_decoding_MSE": 0.0030269469134509563,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.9991074800491333,
+        "frozen_encoder_modulation_relative_RMSE": 1.0001461505889893
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "saturating_forecast_bank_2023",
+      "checkpoint_sha256": "09a57da65e9c36669d93bd9963dbd1acd8ceb451db04bc3edb171aa1c0ab44f1",
+      "prediction_sha256": "3f32aadc13f7703ca6724844fa22c159bd92ff2f5b9e026ce19cc9439ec3e9fd",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5062255859375,
+        "native_physical_MSE": 0.08853144943714142,
+        "current_physical_decoding_MSE": 0.008913816884160042,
+        "frozen_encoder_successor_probe_MSE": 0.08807510137557983,
+        "oracle_successor_decoding_MSE": 0.0089492779225111,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.9998767971992493,
+        "frozen_encoder_modulation_relative_RMSE": 0.9998432397842407
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "saturating_response_only_2023",
+      "checkpoint_sha256": "b6b9c2c2a70a9176b93912d89a502c25bbfbaef4da90b58817fac2b0861cf4ff",
+      "prediction_sha256": "aaff021ef2676f549de8820247bdabe81baa00be6dbbf453f81c5d1bc5cac594",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0025834895204752684,
+        "current_physical_decoding_MSE": 0.0020021763630211353,
+        "frozen_encoder_successor_probe_MSE": 0.0014028216246515512,
+        "oracle_successor_decoding_MSE": 0.001999190542846918,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.058696623891592026,
+        "frozen_encoder_modulation_relative_RMSE": 0.058807820081710815
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "saturating_projected_bank_2023",
+      "checkpoint_sha256": "7c56a7ee37426021f93b1cfd0bb95c021848cdb299a19b6b775cd7d8b9589055",
+      "prediction_sha256": "f96899df122d0ff2e1fe63c5b6b419223d528871ce2c47d483b6e1ddba87294a",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0020103263668715954,
+        "current_physical_decoding_MSE": 0.0014730726834386587,
+        "frozen_encoder_successor_probe_MSE": 0.0014940500259399414,
+        "oracle_successor_decoding_MSE": 0.0014740158803761005,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.0769030898809433,
+        "frozen_encoder_modulation_relative_RMSE": 0.07249590754508972
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "saturating_random_projection_2023",
+      "checkpoint_sha256": "71b79b0ca42ba063bea149e10675957f8b2a1e63ba66019833cd01e10e9d8475",
+      "prediction_sha256": "b38058ad89f4ed6b2de18899f7320478f9d4e4a2d62eeffd7cbbb1025d94df07",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.5054931640625,
+        "native_physical_MSE": 0.08663322031497955,
+        "current_physical_decoding_MSE": 0.003026247024536133,
+        "frozen_encoder_successor_probe_MSE": 0.08724504709243774,
+        "oracle_successor_decoding_MSE": 0.003030037973076105,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.9997172355651855,
+        "frozen_encoder_modulation_relative_RMSE": 0.9996139407157898
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "saturating_wide_budget_2023",
+      "checkpoint_sha256": "8c74d83bb9bfbecf83a67483ac08df3dab14bc9d16435a191daf8fa63328dcb3",
+      "prediction_sha256": "c5315a4796610cd5e50d79ffcf477eaa0d2c2071f7d390cde3d6a7b6d63b093a",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.00653562368825078,
+        "current_physical_decoding_MSE": 0.0027119626756757498,
+        "frozen_encoder_successor_probe_MSE": 0.0038799531757831573,
+        "oracle_successor_decoding_MSE": 0.002710102591663599,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.0866473987698555,
+        "frozen_encoder_modulation_relative_RMSE": 0.07950413972139359
+      },
+      "inverse_action_accuracy": 1.0
+    },
+    {
+      "key": "saturating_mop_budget_2023",
+      "checkpoint_sha256": "d394df706226bd83c7ffda2fb9080572ec12347b2dedcc0b0a080e8c6063eaf1",
+      "prediction_sha256": "d35f09a2633b9982dfbf5301942d6f5c625f075880c7ba49b0201370030f2237",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.010192794725298882,
+        "current_physical_decoding_MSE": 0.005732635501772165,
+        "frozen_encoder_successor_probe_MSE": 0.009443210437893867,
+        "oracle_successor_decoding_MSE": 0.005727244541049004,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.24822215735912323,
+        "frozen_encoder_modulation_relative_RMSE": 0.2587487995624542
+      },
+      "inverse_action_accuracy": 0.9998779296875
+    },
+    {
+      "key": "saturating_projected_mop_2023",
+      "checkpoint_sha256": "fa2aa480c791bc80e1aaa275d4a18501b0876d7d9d1d69686bfd9ce7fc756b0b",
+      "prediction_sha256": "2e3fa10bf4cfbaa488eba7012fc6a6b4b384f1cc01621452890a6397492e563a",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.013647696934640408,
+        "current_physical_decoding_MSE": 0.005199176259338856,
+        "frozen_encoder_successor_probe_MSE": 0.00816184189170599,
+        "oracle_successor_decoding_MSE": 0.005187466740608215,
+        "gain_blind_oracle_physical_MSE": 0.08480165898799896,
+        "native_modulation_relative_RMSE": 0.2528546154499054,
+        "frozen_encoder_modulation_relative_RMSE": 0.2107803225517273
+      },
+      "inverse_action_accuracy": 0.9996337890625
+    },
+    {
+      "key": "queueing_joint_budget_2021",
+      "checkpoint_sha256": "3f4b13c81d25c79fd748400b55315ca7480707637b7dcd01ab5b4e3a8fdf1a46",
+      "prediction_sha256": "5456b31a083cef58bd8fc9ef8fef9d779b7bf4c06fd0ee7b0e135c38ca3b150b",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.8189697265625,
+        "native_physical_MSE": 0.08042969554662704,
+        "current_physical_decoding_MSE": 0.06710154563188553,
+        "frozen_encoder_successor_probe_MSE": 0.10206367075443268,
+        "oracle_successor_decoding_MSE": 0.0670657604932785,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.47056013345718384,
+        "frozen_encoder_modulation_relative_RMSE": 0.5381390452384949
+      },
+      "inverse_action_accuracy": 0.8193359375
+    },
+    {
+      "key": "queueing_obs_budget_2021",
+      "checkpoint_sha256": "bc011bf645aecbf9da1fe0bbc22072dc46bad928790da74889661473b05cdf2e",
+      "prediction_sha256": "dedb3629807c9dcc299f20c30f29ee61d7f6fa4c6016734d8ae52ff41ab8f3bb",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.005006879568099976,
+        "current_physical_decoding_MSE": 0.004863254725933075,
+        "frozen_encoder_successor_probe_MSE": 0.006828654557466507,
+        "oracle_successor_decoding_MSE": 0.004857789259403944,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.07536973804235458,
+        "frozen_encoder_modulation_relative_RMSE": 0.10862981528043747
+      },
+      "inverse_action_accuracy": 0.84033203125
+    },
+    {
+      "key": "queueing_reconstruction_2021",
+      "checkpoint_sha256": "7655fdec4a26b00370746c24e0eda633d8620817211c34757bb8226c534d9699",
+      "prediction_sha256": "d5119136abab5623f4a041b5da888e996746831fc3e7bf992a9c8c6b95c7819c",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.821533203125,
+        "native_physical_MSE": 0.0819864571094513,
+        "current_physical_decoding_MSE": 0.06792867928743362,
+        "frozen_encoder_successor_probe_MSE": 0.11047666519880295,
+        "oracle_successor_decoding_MSE": 0.06785380840301514,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.47217458486557007,
+        "frozen_encoder_modulation_relative_RMSE": 0.5578785538673401
+      },
+      "inverse_action_accuracy": 0.8221435546875
+    },
+    {
+      "key": "queueing_forecast_bank_2021",
+      "checkpoint_sha256": "37bc2fbf2992ff61722a530f1141427571065146a36ec6ba2fce95b767a349d8",
+      "prediction_sha256": "f623fa437f5a168c657549e7e843c742c3861409c8a39fdcf0162009020c67dc",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.620849609375,
+        "native_physical_MSE": 0.18874062597751617,
+        "current_physical_decoding_MSE": 0.1376124918460846,
+        "frozen_encoder_successor_probe_MSE": 0.16445547342300415,
+        "oracle_successor_decoding_MSE": 0.13704773783683777,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.6458332538604736,
+        "frozen_encoder_modulation_relative_RMSE": 0.6250333786010742
+      },
+      "inverse_action_accuracy": 0.730224609375
+    },
+    {
+      "key": "queueing_response_only_2021",
+      "checkpoint_sha256": "43656dc93ca26d528018f6df2aa69c3d9001ecbd0ad2aee362870e58cc209ea2",
+      "prediction_sha256": "9fcb81838a1686f29b922bd76c93fd3ddfbbb105e49da93e571ad66a4081277d",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.880126953125,
+        "native_physical_MSE": 0.08968004584312439,
+        "current_physical_decoding_MSE": 0.13734373450279236,
+        "frozen_encoder_successor_probe_MSE": 0.03065336123108864,
+        "oracle_successor_decoding_MSE": 0.1368843913078308,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.4185311198234558,
+        "frozen_encoder_modulation_relative_RMSE": 0.2503739297389984
+      },
+      "inverse_action_accuracy": 0.7830810546875
+    },
+    {
+      "key": "queueing_projected_bank_2021",
+      "checkpoint_sha256": "e1eb1d38b1b944f5cf9f813251179d093213de91fd16ab04a111bbea7ed5db12",
+      "prediction_sha256": "59807ed74949bcbce4fe2ffe4b4f3bbe7f18c657a7f3d6c7ed4b317040292792",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.831787109375,
+        "native_physical_MSE": 0.05856369063258171,
+        "current_physical_decoding_MSE": 0.13614410161972046,
+        "frozen_encoder_successor_probe_MSE": 0.028649797663092613,
+        "oracle_successor_decoding_MSE": 0.135875403881073,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.3578680753707886,
+        "frozen_encoder_modulation_relative_RMSE": 0.2372058779001236
+      },
+      "inverse_action_accuracy": 0.77392578125
+    },
+    {
+      "key": "queueing_random_projection_2021",
+      "checkpoint_sha256": "45c5038f85c1fc8af9373b4078a5d672cbd8831294ce7dc611ea40fb16554e7e",
+      "prediction_sha256": "5813676d4ba0a080d2ac04393b40efe834f7000e76bbcc3bdf950a0602b01220",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.783447265625,
+        "native_physical_MSE": 0.12837374210357666,
+        "current_physical_decoding_MSE": 0.08399960398674011,
+        "frozen_encoder_successor_probe_MSE": 0.11994917690753937,
+        "oracle_successor_decoding_MSE": 0.0837840810418129,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.5595247745513916,
+        "frozen_encoder_modulation_relative_RMSE": 0.528777003288269
+      },
+      "inverse_action_accuracy": 0.759765625
+    },
+    {
+      "key": "queueing_wide_budget_2021",
+      "checkpoint_sha256": "393f312357c38e5cea2ead2dd58fdca01ed47e717ed2b4cb57ae64e2de649542",
+      "prediction_sha256": "52ef44076345e40a538c25ee45c276c309ce70cf44e2abfc4e73a8fca5a330c8",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.008049401454627514,
+        "current_physical_decoding_MSE": 0.002617333550006151,
+        "frozen_encoder_successor_probe_MSE": 0.004859444685280323,
+        "oracle_successor_decoding_MSE": 0.0026200946886092424,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.0879269391298294,
+        "frozen_encoder_modulation_relative_RMSE": 0.08432205766439438
+      },
+      "inverse_action_accuracy": 0.8338623046875
+    },
+    {
+      "key": "queueing_mop_budget_2021",
+      "checkpoint_sha256": "debcfb5c7a8f2efa162d1f663df5201ebe37f732039ff8f3286572760fb6e076",
+      "prediction_sha256": "edf5ba3ec3e8e27fe727da4cb39203a96aa6c4e0e4b57c5f6d78b06f9b5e5069",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.7861328125,
+        "native_physical_MSE": 0.18770051002502441,
+        "current_physical_decoding_MSE": 0.1431172788143158,
+        "frozen_encoder_successor_probe_MSE": 0.18900582194328308,
+        "oracle_successor_decoding_MSE": 0.1424292027950287,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.5761896967887878,
+        "frozen_encoder_modulation_relative_RMSE": 0.5787593126296997
+      },
+      "inverse_action_accuracy": 0.7608642578125
+    },
+    {
+      "key": "queueing_projected_mop_2021",
+      "checkpoint_sha256": "5a75281297653773ded1da14a8e9a0d65b8bb441ac6d7640479d1adb283b7292",
+      "prediction_sha256": "3b0389d6c6f1f76219adcccf173bac18dfe06f3d865dfd3bbfbb4f760a26ca60",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.04498019069433212,
+        "current_physical_decoding_MSE": 0.007223709020763636,
+        "frozen_encoder_successor_probe_MSE": 0.009187924675643444,
+        "oracle_successor_decoding_MSE": 0.007182539440691471,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.29416346549987793,
+        "frozen_encoder_modulation_relative_RMSE": 0.12177924811840057
+      },
+      "inverse_action_accuracy": 0.818603515625
+    },
+    {
+      "key": "queueing_joint_budget_2022",
+      "checkpoint_sha256": "5aaf42945645b65c2ac95d3af077b0bacafe926b1181079ce52814ef223fed4e",
+      "prediction_sha256": "0a20197487655b0d4e0728222966bd1e1588cb30cf27b05cd83af42848809794",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.8311767578125,
+        "native_physical_MSE": 0.07143528759479523,
+        "current_physical_decoding_MSE": 0.07029189169406891,
+        "frozen_encoder_successor_probe_MSE": 0.09666647017002106,
+        "oracle_successor_decoding_MSE": 0.07027789950370789,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.44113224744796753,
+        "frozen_encoder_modulation_relative_RMSE": 0.5003869533538818
+      },
+      "inverse_action_accuracy": 0.8343505859375
+    },
+    {
+      "key": "queueing_obs_budget_2022",
+      "checkpoint_sha256": "614bb76e89c010eb9979c0856505694ce8f5f587600267d5123f2ab0b4defde5",
+      "prediction_sha256": "4714015628db7a8d0377aa0fd2d42c7531dd240d6faa3fe0ce39886fd43ba101",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.005391765385866165,
+        "current_physical_decoding_MSE": 0.005886844824999571,
+        "frozen_encoder_successor_probe_MSE": 0.006620869040489197,
+        "oracle_successor_decoding_MSE": 0.005918026901781559,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.07507222890853882,
+        "frozen_encoder_modulation_relative_RMSE": 0.07330457866191864
+      },
+      "inverse_action_accuracy": 0.8409423828125
+    },
+    {
+      "key": "queueing_reconstruction_2022",
+      "checkpoint_sha256": "43a2a82fd0d9960e30960e9a93acea1ad8820eb8d37e6eff0b7502e593197d96",
+      "prediction_sha256": "e863e85c0a615c68850732e2152bc1e2eac62ffc53e6e0cdf6ac3d6630834428",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.833740234375,
+        "native_physical_MSE": 0.0706198662519455,
+        "current_physical_decoding_MSE": 0.07208915054798126,
+        "frozen_encoder_successor_probe_MSE": 0.09371672570705414,
+        "oracle_successor_decoding_MSE": 0.07196195423603058,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.43654271960258484,
+        "frozen_encoder_modulation_relative_RMSE": 0.4946674704551697
+      },
+      "inverse_action_accuracy": 0.8289794921875
+    },
+    {
+      "key": "queueing_forecast_bank_2022",
+      "checkpoint_sha256": "54977636a8a46e109ad58a8a2d1230a3626f63bc7a53409cbead78d5ca5e449b",
+      "prediction_sha256": "90094faa596c927b6b31d732b79a45306e304256b3b95a3161ac1f0a919d473f",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.7008056640625,
+        "native_physical_MSE": 0.13443902134895325,
+        "current_physical_decoding_MSE": 0.09527932852506638,
+        "frozen_encoder_successor_probe_MSE": 0.12711791694164276,
+        "oracle_successor_decoding_MSE": 0.09483501315116882,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.5811713337898254,
+        "frozen_encoder_modulation_relative_RMSE": 0.5709147453308105
+      },
+      "inverse_action_accuracy": 0.7655029296875
+    },
+    {
+      "key": "queueing_response_only_2022",
+      "checkpoint_sha256": "13367890ae93dd9962cca7b810717a39faeee5312fc9c9995abe17961098156d",
+      "prediction_sha256": "f407c81a59b1d5aaebf5af6ddc5629f1d7327ec99603a1441698ea6e91daec0b",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.005244310945272446,
+        "current_physical_decoding_MSE": 0.0022553373128175735,
+        "frozen_encoder_successor_probe_MSE": 0.004117005039006472,
+        "oracle_successor_decoding_MSE": 0.0022606928832829,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.08174178004264832,
+        "frozen_encoder_modulation_relative_RMSE": 0.07416737079620361
+      },
+      "inverse_action_accuracy": 0.841552734375
+    },
+    {
+      "key": "queueing_projected_bank_2022",
+      "checkpoint_sha256": "45a3082d1761913fdedb0d23a267cc8a84faa447c407623683d5fe2744869c29",
+      "prediction_sha256": "e8a63f636286e9ddab59913e4abb046af9d29d432e2b8685e3dc5ed1274b835d",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.004409230314195156,
+        "current_physical_decoding_MSE": 0.0017914497293531895,
+        "frozen_encoder_successor_probe_MSE": 0.0031052525155246258,
+        "oracle_successor_decoding_MSE": 0.0017942662816494703,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.0777137354016304,
+        "frozen_encoder_modulation_relative_RMSE": 0.06742830574512482
+      },
+      "inverse_action_accuracy": 0.8421630859375
+    },
+    {
+      "key": "queueing_random_projection_2022",
+      "checkpoint_sha256": "91097e1ab17f387c74cfb24cb4bd8c7a95029f03c7e99fb115a2385774be0d6e",
+      "prediction_sha256": "43ae96f102540a17df22528e58b03002481ce85832798c582010804ec986f5f0",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.80224609375,
+        "native_physical_MSE": 0.08439559489488602,
+        "current_physical_decoding_MSE": 0.07881230860948563,
+        "frozen_encoder_successor_probe_MSE": 0.07594342529773712,
+        "oracle_successor_decoding_MSE": 0.07861427962779999,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.4615922272205353,
+        "frozen_encoder_modulation_relative_RMSE": 0.4165310859680176
+      },
+      "inverse_action_accuracy": 0.7860107421875
+    },
+    {
+      "key": "queueing_wide_budget_2022",
+      "checkpoint_sha256": "ef4baf8cd743692c5a055f4251bb678ebaa842551df034a552fbe6b975c49d5c",
+      "prediction_sha256": "f091973e3d8a3ccc6965da759551ef6ebfc5fab3431dd0d513030e2537bfb88f",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.00671735592186451,
+        "current_physical_decoding_MSE": 0.002491770777851343,
+        "frozen_encoder_successor_probe_MSE": 0.005239673890173435,
+        "oracle_successor_decoding_MSE": 0.0025134957395493984,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.08301671594381332,
+        "frozen_encoder_modulation_relative_RMSE": 0.08586084842681885
+      },
+      "inverse_action_accuracy": 0.8359375
+    },
+    {
+      "key": "queueing_mop_budget_2022",
+      "checkpoint_sha256": "f939df5707f4f9f03ea0b8030b8e5498e97dadb4b2f167e0bc85d684fedbd683",
+      "prediction_sha256": "b1ae0bc728167efa850263364e23d749a04c8cd1aef82d9ece7f73036ea28d18",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.024055788293480873,
+        "current_physical_decoding_MSE": 0.010251731611788273,
+        "frozen_encoder_successor_probe_MSE": 0.013995599001646042,
+        "oracle_successor_decoding_MSE": 0.01019692700356245,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.20456773042678833,
+        "frozen_encoder_modulation_relative_RMSE": 0.1399986445903778
+      },
+      "inverse_action_accuracy": 0.836669921875
+    },
+    {
+      "key": "queueing_projected_mop_2022",
+      "checkpoint_sha256": "943525c3f1626aea9c4cb22c0a110556a4e6e3e601f7d2e42e5a17e4d67dba11",
+      "prediction_sha256": "a31f1cc26fc69c30886873326fb2a4f924cf30f94ddd1d5c6c870ed3dcb56908",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.03847213089466095,
+        "current_physical_decoding_MSE": 0.008940799161791801,
+        "frozen_encoder_successor_probe_MSE": 0.01256006769835949,
+        "oracle_successor_decoding_MSE": 0.008904317393898964,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.2716529965400696,
+        "frozen_encoder_modulation_relative_RMSE": 0.1353987604379654
+      },
+      "inverse_action_accuracy": 0.82568359375
+    },
+    {
+      "key": "queueing_joint_budget_2023",
+      "checkpoint_sha256": "4380beb9a8c98a5afc3453e1aee920d429768101c5ba5fa2c5881dc56e9e238b",
+      "prediction_sha256": "fd16383d650b2dabdc1d0cdbdeec10f764ef3897f7a90a3c59bebb56f124ec0e",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0052733588963747025,
+        "current_physical_decoding_MSE": 0.0017011819873005152,
+        "frozen_encoder_successor_probe_MSE": 0.01902436651289463,
+        "oracle_successor_decoding_MSE": 0.0017004586989060044,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.07816106826066971,
+        "frozen_encoder_modulation_relative_RMSE": 0.2178267389535904
+      },
+      "inverse_action_accuracy": 0.8397216796875
+    },
+    {
+      "key": "queueing_obs_budget_2023",
+      "checkpoint_sha256": "3d07991a893fc063cf593940e990a4cb496bd9b7a7f7b74a6026bb609c44a4bd",
+      "prediction_sha256": "45b2ce26b1d9c42b87819cd5019af05cda2851c327fe002c5b2b30ef5ba9f90a",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.00501802796497941,
+        "current_physical_decoding_MSE": 0.006122448015958071,
+        "frozen_encoder_successor_probe_MSE": 0.007924222387373447,
+        "oracle_successor_decoding_MSE": 0.00614501629024744,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.07808362692594528,
+        "frozen_encoder_modulation_relative_RMSE": 0.11638692766427994
+      },
+      "inverse_action_accuracy": 0.83984375
+    },
+    {
+      "key": "queueing_reconstruction_2023",
+      "checkpoint_sha256": "f77e39738420494e1a3b5f227b70e6be798aa94f1cd8f15214baab7e05eccf74",
+      "prediction_sha256": "f6043e74aff5166850236b77949c7871fdf585bfdc2ffdc5ee0a0c2be54c6595",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.011874526739120483,
+        "current_physical_decoding_MSE": 0.0071204123087227345,
+        "frozen_encoder_successor_probe_MSE": 0.019072378054261208,
+        "oracle_successor_decoding_MSE": 0.007176527287811041,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.13866549730300903,
+        "frozen_encoder_modulation_relative_RMSE": 0.19821804761886597
+      },
+      "inverse_action_accuracy": 0.835205078125
+    },
+    {
+      "key": "queueing_forecast_bank_2023",
+      "checkpoint_sha256": "723c0f5f18b1c63ef71f69619e6be65fdbb432babf05ab0b5b291cad9f349a1e",
+      "prediction_sha256": "7e9ca756c3b9ca53b5115d30e9f68eb5ebe705f34cb6cafd026bcee4aba97928",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.09149396419525146,
+        "current_physical_decoding_MSE": 0.10270321369171143,
+        "frozen_encoder_successor_probe_MSE": 0.052904024720191956,
+        "oracle_successor_decoding_MSE": 0.10278251767158508,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.3012703061103821,
+        "frozen_encoder_modulation_relative_RMSE": 0.23775602877140045
+      },
+      "inverse_action_accuracy": 0.8009033203125
+    },
+    {
+      "key": "queueing_response_only_2023",
+      "checkpoint_sha256": "a840ed21263a298f9bc769c03e506f094286b7946350464793ac8a9256e7f753",
+      "prediction_sha256": "39fd28291d7f78f524289e29797b0144b46013cee3c1d80d7f26b073bee8f484",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.007671603467315435,
+        "current_physical_decoding_MSE": 0.002554875798523426,
+        "frozen_encoder_successor_probe_MSE": 0.004902394488453865,
+        "oracle_successor_decoding_MSE": 0.0025602495297789574,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.10373690724372864,
+        "frozen_encoder_modulation_relative_RMSE": 0.08377257734537125
+      },
+      "inverse_action_accuracy": 0.8421630859375
+    },
+    {
+      "key": "queueing_projected_bank_2023",
+      "checkpoint_sha256": "41f55ccb927d5cb6ec882e810eb6ca0a03ce50ecb763a75f77ccd406b78e0907",
+      "prediction_sha256": "e5afe4c2f076a8f47de2706f4088d830fdd5111c2e150214af02fd84db4c6961",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.9998779296875,
+        "native_physical_MSE": 0.009107837453484535,
+        "current_physical_decoding_MSE": 0.0024106469936668873,
+        "frozen_encoder_successor_probe_MSE": 0.004615108482539654,
+        "oracle_successor_decoding_MSE": 0.0024113268591463566,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.12320942431688309,
+        "frozen_encoder_modulation_relative_RMSE": 0.08209537714719772
+      },
+      "inverse_action_accuracy": 0.8408203125
+    },
+    {
+      "key": "queueing_random_projection_2023",
+      "checkpoint_sha256": "d7248f7f3554a16673dd18681353d48731e17a160a3a9eeafcd4486a44453194",
+      "prediction_sha256": "f7d4d9073c6e71fdcd3c1930bb1b12531afe288321f3d1ccdb66bdaeec6298e5",
+      "metrics_recomputed": {
+        "gain_accuracy": 0.7921142578125,
+        "native_physical_MSE": 0.11896414309740067,
+        "current_physical_decoding_MSE": 0.06680044531822205,
+        "frozen_encoder_successor_probe_MSE": 0.11898478865623474,
+        "oracle_successor_decoding_MSE": 0.06671325117349625,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.562253475189209,
+        "frozen_encoder_modulation_relative_RMSE": 0.5420289635658264
+      },
+      "inverse_action_accuracy": 0.763427734375
+    },
+    {
+      "key": "queueing_wide_budget_2023",
+      "checkpoint_sha256": "a4a87ac11c5b149b03655fdeb287839185e9258b63323e3146981b0297ff6ef5",
+      "prediction_sha256": "6c23afad9a3a709feb982df5c4b81d107fc4fbed3c72cbed16aefaecff60b88b",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.005548525135964155,
+        "current_physical_decoding_MSE": 0.00230234838090837,
+        "frozen_encoder_successor_probe_MSE": 0.00429224269464612,
+        "oracle_successor_decoding_MSE": 0.00230648391880095,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.08107788115739822,
+        "frozen_encoder_modulation_relative_RMSE": 0.0858292207121849
+      },
+      "inverse_action_accuracy": 0.8387451171875
+    },
+    {
+      "key": "queueing_mop_budget_2023",
+      "checkpoint_sha256": "a947766a6b0115bc637446c2632695eb84bee3f90db58dbe8a0c374d7cc792de",
+      "prediction_sha256": "069ce6ef2349ce76df233f00451f918548ab983cbb86fcb63e371ad63b3a5349",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.022453567013144493,
+        "current_physical_decoding_MSE": 0.010188966989517212,
+        "frozen_encoder_successor_probe_MSE": 0.012346744537353516,
+        "oracle_successor_decoding_MSE": 0.010137058794498444,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.1954672932624817,
+        "frozen_encoder_modulation_relative_RMSE": 0.13192689418792725
+      },
+      "inverse_action_accuracy": 0.8319091796875
+    },
+    {
+      "key": "queueing_projected_mop_2023",
+      "checkpoint_sha256": "db58dc265c84fda746181c666fb920ee735b6a12a462870d8b8d7bbbdaaae485",
+      "prediction_sha256": "b8a99121adc566b1f34c04aeeb5eec50889e02ac52fe2b255eb2c2941fddf355",
+      "metrics_recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.03423761576414108,
+        "current_physical_decoding_MSE": 0.007314029149711132,
+        "frozen_encoder_successor_probe_MSE": 0.012033924460411072,
+        "oracle_successor_decoding_MSE": 0.007297915872186422,
+        "gain_blind_oracle_physical_MSE": 0.30031007528305054,
+        "native_modulation_relative_RMSE": 0.2450583130121231,
+        "frozen_encoder_modulation_relative_RMSE": 0.13779214024543762
+      },
+      "inverse_action_accuracy": 0.817138671875
+    }
+  ],
+  "seconds": 5.938444999992498,
+  "script_sha256": "4d3220da37993606c086de5997ea41632bc48cce1d5709736d9743f718c9ff94",
+  "scope": "Independent arithmetic, raw equations, provenance and full-batch model replay; shares neural module definitions, not novelty confirmation.",
+  "pass": true
+}

@@ -1,0 +1,2139 @@
+{
+  "plan_sha256": "a1a7e1c1d8a57f25a7b9d21c280282dad677efeabd01c71afb7b3435154fcfd3",
+  "script_sha256": "13336669164b3c06de9de3cfca01d262ccb3a88b4bb0f84f3217cf3f7edfff01",
+  "tail_audit_sha256": "725082403b31c1b5c05ab58f5cc84cd0fc7ee5a5c14e76ec0fda7a79318d79fd",
+  "patches": [
+    {
+      "kind": 1,
+      "seed": 2,
+      "n": 2,
+      "probe_u": 0.0,
+      "arm": "no_update",
+      "max_nll": 23.1674428049849,
+      "max_tail_nll_bound": 2.6290383512070523,
+      "flagged_contexts": [
+        24
+      ],
+      "patch_file": "patch_000.npz",
+      "source_file": "outputs/native_belief/cell_k1_s2_n2_p0.npz",
+      "source_prefix": "no_update_",
+      "actual_query": {
+        "nll": -2.1322221806180517,
+        "rmse": 0.3248413459395675,
+        "channel_rmse": [
+          0.4590046363925199,
+          0.01893525373027946
+        ],
+        "marginal_coverage95": 0.8984375,
+        "channel_coverage95": [
+          0.828125,
+          0.96875
+        ],
+        "predictive_variance": 0.034977508039494745
+      },
+      "refinement_nll_max_error": 3.1523592269877554e-07,
+      "new_max_tail_bound": 2.643537401407516e-32,
+      "original_source_sha256": "204c0e0e9127c626f5e420bd5411b77780fdf65460b4de7019228bbb9836fbde"
+    },
+    {
+      "kind": 1,
+      "seed": 2,
+      "n": 2,
+      "probe_u": 0.0,
+      "arm": "reweighted",
+      "max_nll": -1.208290640324173,
+      "max_tail_nll_bound": 7.1934837838018355,
+      "flagged_contexts": [
+        24
+      ],
+      "patch_file": "patch_001.npz",
+      "source_file": "outputs/native_belief/cell_k1_s2_n2_p0.npz",
+      "source_prefix": "reweighted_",
+      "actual_query": {
+        "nll": -5.103119234347878,
+        "rmse": 0.01713325289767336,
+        "channel_rmse": [
+          0.015914191795949193,
+          0.01827115785036648
+        ],
+        "marginal_coverage95": 0.984375,
+        "channel_coverage95": [
+          1.0,
+          0.96875
+        ],
+        "predictive_variance": 0.0005310020758188944
+      },
+      "refinement_nll_max_error": 5.324700440567653e-07,
+      "new_max_tail_bound": 1.254727948558266e-31,
+      "original_source_sha256": "204c0e0e9127c626f5e420bd5411b77780fdf65460b4de7019228bbb9836fbde"
+    },
+    {
+      "kind": 1,
+      "seed": 2,
+      "n": 2,
+      "probe_u": 1.5,
+      "arm": "no_update",
+      "max_nll": 23.1674428049849,
+      "max_tail_nll_bound": 2.6290383512070523,
+      "flagged_contexts": [
+        24
+      ],
+      "patch_file": "patch_002.npz",
+      "source_file": "outputs/native_belief/cell_k1_s2_n2_p1.npz",
+      "source_prefix": "no_update_",
+      "actual_query": {
+        "nll": -2.1322221806180517,
+        "rmse": 0.3248413459395675,
+        "channel_rmse": [
+          0.4590046363925199,
+          0.01893525373027946
+        ],
+        "marginal_coverage95": 0.8984375,
+        "channel_coverage95": [
+          0.828125,
+          0.96875
+        ],
+        "predictive_variance": 0.034977508039494745
+      },
+      "refinement_nll_max_error": 3.1523592269877554e-07,
+      "new_max_tail_bound": 2.643537401407516e-32,
+      "original_source_sha256": "a93c1cd773bf02e9a5a568dfb83fcf31f70e3b11c070cc953a4a1ca811b4e499"
+    },
+    {
+      "kind": 1,
+      "seed": 2,
+      "n": 2,
+      "probe_u": 1.5,
+      "arm": "native",
+      "max_nll": 16.581451836710293,
+      "max_tail_nll_bound": 0.017586188410399255,
+      "flagged_contexts": [
+        24
+      ],
+      "patch_file": "patch_003.npz",
+      "source_file": "outputs/native_belief/cell_k1_s2_n2_p1.npz",
+      "source_prefix": "native_",
+      "actual_query": {
+        "nll": -1.809948151571467,
+        "rmse": 0.2831005568392353,
+        "channel_rmse": [
+          0.3999665965176375,
+          0.017848591974371286
+        ],
+        "marginal_coverage95": 0.8671875,
+        "channel_coverage95": [
+          0.765625,
+          0.96875
+        ],
+        "predictive_variance": 0.011559695823810019
+      },
+      "refinement_nll_max_error": 2.944726453790736e-07,
+      "new_max_tail_bound": 1.0803731990118324e-34,
+      "original_source_sha256": "a93c1cd773bf02e9a5a568dfb83fcf31f70e3b11c070cc953a4a1ca811b4e499"
+    },
+    {
+      "kind": 1,
+      "seed": 2,
+      "n": 2,
+      "probe_u": 1.5,
+      "arm": "reweighted",
+      "max_nll": 23.305019895846122,
+      "max_tail_nll_bound": 2.859471533787186,
+      "flagged_contexts": [
+        24
+      ],
+      "patch_file": "patch_004.npz",
+      "source_file": "outputs/native_belief/cell_k1_s2_n2_p1.npz",
+      "source_prefix": "reweighted_",
+      "actual_query": {
+        "nll": -2.1418601460611995,
+        "rmse": 0.3230584859104293,
+        "channel_rmse": [
+          0.4564800389784885,
+          0.01896166268225592
+        ],
+        "marginal_coverage95": 0.8984375,
+        "channel_coverage95": [
+          0.828125,
+          0.96875
+        ],
+        "predictive_variance": 0.03449796081196706
+      },
+      "refinement_nll_max_error": 3.0753913904391084e-07,
+      "new_max_tail_bound": 3.382189663943081e-32,
+      "original_source_sha256": "a93c1cd773bf02e9a5a568dfb83fcf31f70e3b11c070cc953a4a1ca811b4e499"
+    },
+    {
+      "kind": 1,
+      "seed": 2,
+      "n": 2,
+      "probe_u": 1.5,
+      "arm": "map_ggn_laplace",
+      "max_nll": 23.171526665353817,
+      "max_tail_nll_bound": 2.6328281275759635,
+      "flagged_contexts": [
+        24
+      ],
+      "patch_file": "patch_005.npz",
+      "source_file": "outputs/ordinary_filter_controls/cell_k1_s2_n2_p1.npz",
+      "source_prefix": "map_ggn_laplace_",
+      "actual_query": {
+        "nll": -2.111316008429362,
+        "rmse": 0.32709965115060385,
+        "channel_rmse": [
+          0.46219886637624535,
+          0.018988719972845413
+        ],
+        "marginal_coverage95": 0.8984375,
+        "channel_coverage95": [
+          0.828125,
+          0.96875
+        ],
+        "predictive_variance": 0.03271067814055477
+      },
+      "refinement_nll_max_error": 5.896825001627803e-07,
+      "new_max_tail_bound": 2.6518318520068785e-32,
+      "original_source_sha256": "55c56e27d1257715b3236300da4f8ee6d138d83610440e6b42fc884c1f2f083e"
+    },
+    {
+      "kind": 1,
+      "seed": 2,
+      "n": 2,
+      "probe_u": 1.5,
+      "rep": 0,
+      "arm": "particle256",
+      "max_nll": 22.320391220544625,
+      "max_tail_nll_bound": 1.8737959392503922,
+      "flagged_contexts": [
+        24
+      ],
+      "patch_file": "patch_006.npz",
+      "source_file": "outputs/particle_moment_control/k1_s2_n2_p3_r0.npz",
+      "source_prefix": "c256_",
+      "actual_query": {
+        "nll": -2.0611318176346893,
+        "rmse": 0.3217394306525049,
+        "channel_rmse": [
+          0.45461741375941783,
+          0.018855492035326254
+        ],
+        "marginal_coverage95": 0.8984375,
+        "channel_coverage95": [
+          0.828125,
+          0.96875
+        ],
+        "predictive_variance": 0.03352979588503806
+      },
+      "refinement_nll_max_error": 4.0682159863081324e-09,
+      "new_max_tail_bound": 1.665372652630836e-32,
+      "original_source_sha256": "bbd0063041029667a074936ded2920ce1a33694bd7c6a89e50eeb01276ad7dc1"
+    },
+    {
+      "kind": 1,
+      "seed": 2,
+      "n": 2,
+      "probe_u": 1.5,
+      "rep": 0,
+      "arm": "particle1024",
+      "max_nll": 20.10471693495983,
+      "max_tail_nll_bound": 0.47084995102120675,
+      "flagged_contexts": [
+        24
+      ],
+      "patch_file": "patch_007.npz",
+      "source_file": "outputs/particle_moment_control/k1_s2_n2_p3_r0.npz",
+      "source_prefix": "c1024_",
+      "actual_query": {
+        "nll": -2.103048386419257,
+        "rmse": 0.32342162584031875,
+        "channel_rmse": [
+          0.4569943917863561,
+          0.018953152724777208
+        ],
+        "marginal_coverage95": 0.8984375,
+        "channel_coverage95": [
+          0.828125,
+          0.96875
+        ],
+        "predictive_variance": 0.03404267027662468
+      },
+      "refinement_nll_max_error": 1.9034481368862544e-07,
+      "new_max_tail_bound": 3.3897625758933075e-33,
+      "original_source_sha256": "bbd0063041029667a074936ded2920ce1a33694bd7c6a89e50eeb01276ad7dc1"
+    },
+    {
+      "kind": 1,
+      "seed": 2,
+      "n": 2,
+      "probe_u": 1.5,
+      "rep": 0,
+      "arm": "particle4096",
+      "max_nll": 22.800058357095224,
+      "max_tail_nll_bound": 2.2931818645595703,
+      "flagged_contexts": [
+        24
+      ],
+      "patch_file": "patch_008.npz",
+      "source_file": "outputs/particle_moment_control/k1_s2_n2_p3_r0.npz",
+      "source_prefix": "c4096_",
+      "actual_query": {
+        "nll": -2.081873920967517,
+        "rmse": 0.32366423566522423,
+        "channel_rmse": [
+          0.45733739762110626,
+          0.01896258512602606
+        ],
+        "marginal_coverage95": 0.8984375,
+        "channel_coverage95": [
+          0.828125,
+          0.96875
+        ],
+        "predictive_variance": 0.034210542609686756
+      },
+      "refinement_nll_max_error": 1.2596094833838833e-07,
+      "new_max_tail_bound": 2.1781611329021364e-32,
+      "original_source_sha256": "bbd0063041029667a074936ded2920ce1a33694bd7c6a89e50eeb01276ad7dc1"
+    },
+    {
+      "kind": 1,
+      "seed": 2,
+      "n": 2,
+      "probe_u": 1.5,
+      "rep": 1,
+      "arm": "particle256",
+      "max_nll": 23.581943983133453,
+      "max_tail_nll_bound": 3.0187529300457783,
+      "flagged_contexts": [
+        24
+      ],
+      "patch_file": "patch_009.npz",
+      "source_file": "outputs/particle_moment_control/k1_s2_n2_p3_r1.npz",
+      "source_prefix": "c256_",
+      "actual_query": {
+        "nll": -2.067133579391703,
+        "rmse": 0.32249894946903496,
+        "channel_rmse": [
+          0.4556856491016465,
+          0.019019306508739772
+        ],
+        "marginal_coverage95": 0.90625,
+        "channel_coverage95": [
+          0.84375,
+          0.96875
+        ],
+        "predictive_variance": 0.03295177939386766
+      },
+      "refinement_nll_max_error": 4.738514007840422e-07,
+      "new_max_tail_bound": 3.271752018605944e-32,
+      "original_source_sha256": "83d4bdb262032373c216b16f8a41ddd0f29afb84e799f415e0bfa043896e9355"
+    },
+    {
+      "kind": 1,
+      "seed": 2,
+      "n": 2,
+      "probe_u": 1.5,
+      "rep": 1,
+      "arm": "particle1024",
+      "max_nll": 22.172573997859505,
+      "max_tail_nll_bound": 1.7501434136498215,
+      "flagged_contexts": [
+        24
+      ],
+      "patch_file": "patch_010.npz",
+      "source_file": "outputs/particle_moment_control/k1_s2_n2_p3_r1.npz",
+      "source_prefix": "c1024_",
+      "actual_query": {
+        "nll": -2.10245902017178,
+        "rmse": 0.32334351279625256,
+        "channel_rmse": [
+          0.45688196158919936,
+          0.018998097516490533
+        ],
+        "marginal_coverage95": 0.8984375,
+        "channel_coverage95": [
+          0.828125,
+          0.96875
+        ],
+        "predictive_variance": 0.03403600668423307
+      },
+      "refinement_nll_max_error": 1.8552082892142607e-07,
+      "new_max_tail_bound": 1.5247244476382869e-32,
+      "original_source_sha256": "83d4bdb262032373c216b16f8a41ddd0f29afb84e799f415e0bfa043896e9355"
+    },
+    {
+      "kind": 1,
+      "seed": 2,
+      "n": 2,
+      "probe_u": 1.5,
+      "rep": 1,
+      "arm": "particle4096",
+      "max_nll": 25.088633487245872,
+      "max_tail_nll_bound": 4.486668140615168,
+      "flagged_contexts": [
+        24
+      ],
+      "patch_file": "patch_011.npz",
+      "source_file": "outputs/particle_moment_control/k1_s2_n2_p3_r1.npz",
+      "source_prefix": "c4096_",
+      "actual_query": {
+        "nll": -2.0737937445929795,
+        "rmse": 0.3234811677551072,
+        "channel_rmse": [
+          0.4570780072176746,
+          0.01896910916029115
+        ],
+        "marginal_coverage95": 0.8984375,
+        "channel_coverage95": [
+          0.828125,
+          0.96875
+        ],
+        "predictive_variance": 0.0339304091873229
+      },
+      "refinement_nll_max_error": 4.5633406386969e-08,
+      "new_max_tail_bound": 6.542506208451324e-32,
+      "original_source_sha256": "83d4bdb262032373c216b16f8a41ddd0f29afb84e799f415e0bfa043896e9355"
+    },
+    {
+      "kind": 1,
+      "seed": 2,
+      "n": 2,
+      "probe_u": 1.5,
+      "rep": 2,
+      "arm": "particle256",
+      "max_nll": 24.82986428020959,
+      "max_tail_nll_bound": 4.231218324761876,
+      "flagged_contexts": [
+        24
+      ],
+      "patch_file": "patch_012.npz",
+      "source_file": "outputs/particle_moment_control/k1_s2_n2_p3_r2.npz",
+      "source_prefix": "c256_",
+      "actual_query": {
+        "nll": -2.0273333246906056,
+        "rmse": 0.3241572298644913,
+        "channel_rmse": [
+          0.45803554558924603,
+          0.018954110994796644
+        ],
+        "marginal_coverage95": 0.8984375,
+        "channel_coverage95": [
+          0.828125,
+          0.96875
+        ],
+        "predictive_variance": 0.034061488400200506
+      },
+      "refinement_nll_max_error": 5.105797491467001e-07,
+      "new_max_tail_bound": 5.802987058595824e-32,
+      "original_source_sha256": "e7b571209f6b7add9759b2cb2b86779fc2772f8dcccd213d5c57f0490909bfb0"
+    },
+    {
+      "kind": 1,
+      "seed": 2,
+      "n": 2,
+      "probe_u": 1.5,
+      "rep": 2,
+      "arm": "particle1024",
+      "max_nll": 24.683529695257388,
+      "max_tail_nll_bound": 4.087171544272739,
+      "flagged_contexts": [
+        24
+      ],
+      "patch_file": "patch_013.npz",
+      "source_file": "outputs/particle_moment_control/k1_s2_n2_p3_r2.npz",
+      "source_prefix": "c1024_",
+      "actual_query": {
+        "nll": -2.0577854367655144,
+        "rmse": 0.3242907702596776,
+        "channel_rmse": [
+          0.45822177724632795,
+          0.0190213093252449
+        ],
+        "marginal_coverage95": 0.8984375,
+        "channel_coverage95": [
+          0.828125,
+          0.96875
+        ],
+        "predictive_variance": 0.03402279640696655
+      },
+      "refinement_nll_max_error": 3.395540417727716e-07,
+      "new_max_tail_bound": 5.459750095560533e-32,
+      "original_source_sha256": "e7b571209f6b7add9759b2cb2b86779fc2772f8dcccd213d5c57f0490909bfb0"
+    },
+    {
+      "kind": 1,
+      "seed": 2,
+      "n": 2,
+      "probe_u": 1.5,
+      "rep": 2,
+      "arm": "particle4096",
+      "max_nll": 22.19095259961851,
+      "max_tail_nll_bound": 1.7653528998717007,
+      "flagged_contexts": [
+        24
+      ],
+      "patch_file": "patch_014.npz",
+      "source_file": "outputs/particle_moment_control/k1_s2_n2_p3_r2.npz",
+      "source_prefix": "c4096_",
+      "actual_query": {
+        "nll": -2.092904873238565,
+        "rmse": 0.3230651143430466,
+        "channel_rmse": [
+          0.45648890983450774,
+          0.01897396661413209
+        ],
+        "marginal_coverage95": 0.8984375,
+        "channel_coverage95": [
+          0.828125,
+          0.96875
+        ],
+        "predictive_variance": 0.033892647216976185
+      },
+      "refinement_nll_max_error": 1.9806773821073875e-07,
+      "new_max_tail_bound": 1.5404064450873596e-32,
+      "original_source_sha256": "e7b571209f6b7add9759b2cb2b86779fc2772f8dcccd213d5c57f0490909bfb0"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 2,
+      "probe_u": 0.0,
+      "arm": "no_update",
+      "max_nll": 16.24584543860023,
+      "max_tail_nll_bound": 0.011836284299053302,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_015.npz",
+      "source_file": "outputs/native_belief/cell_k2_s1_n2_p0.npz",
+      "source_prefix": "no_update_",
+      "actual_query": {
+        "nll": -3.006460795598916,
+        "rmse": 0.17886708669044954,
+        "channel_rmse": [
+          0.25278000116151156,
+          0.009441420181508477
+        ],
+        "marginal_coverage95": 0.890625,
+        "channel_coverage95": [
+          0.78125,
+          1.0
+        ],
+        "predictive_variance": 0.0039041264688540883
+      },
+      "refinement_nll_max_error": 3.938693637905999e-08,
+      "new_max_tail_bound": 7.233426929594523e-35,
+      "original_source_sha256": "5c1fec1c5166086177d739a2feea0648947a6f46499910fe9eaf5c733bea71a5"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 2,
+      "probe_u": 0.0,
+      "arm": "reweighted",
+      "max_nll": 16.16067816030675,
+      "max_tail_nll_bound": 0.012481090385638905,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_016.npz",
+      "source_file": "outputs/native_belief/cell_k2_s1_n2_p0.npz",
+      "source_prefix": "reweighted_",
+      "actual_query": {
+        "nll": -2.9911839181369584,
+        "rmse": 0.17961510848511336,
+        "channel_rmse": [
+          0.25383839283348186,
+          0.009446942148284758
+        ],
+        "marginal_coverage95": 0.890625,
+        "channel_coverage95": [
+          0.78125,
+          1.0
+        ],
+        "predictive_variance": 0.003855247620052518
+      },
+      "refinement_nll_max_error": 3.616579746790194e-08,
+      "new_max_tail_bound": 7.63043489720832e-35,
+      "original_source_sha256": "5c1fec1c5166086177d739a2feea0648947a6f46499910fe9eaf5c733bea71a5"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 2,
+      "probe_u": 1.5,
+      "arm": "no_update",
+      "max_nll": 16.24584543860023,
+      "max_tail_nll_bound": 0.011836284299053302,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_017.npz",
+      "source_file": "outputs/native_belief/cell_k2_s1_n2_p1.npz",
+      "source_prefix": "no_update_",
+      "actual_query": {
+        "nll": -3.006460795598916,
+        "rmse": 0.17886708669044954,
+        "channel_rmse": [
+          0.25278000116151156,
+          0.009441420181508477
+        ],
+        "marginal_coverage95": 0.890625,
+        "channel_coverage95": [
+          0.78125,
+          1.0
+        ],
+        "predictive_variance": 0.0039041264688540883
+      },
+      "refinement_nll_max_error": 3.938693637905999e-08,
+      "new_max_tail_bound": 7.233426929594523e-35,
+      "original_source_sha256": "3bbc5cbfe7fb50e068033595efff24e583029cdc33362a3d90efba80e38b27fa"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 2,
+      "probe_u": 1.5,
+      "arm": "reweighted",
+      "max_nll": -4.665915964425101,
+      "max_tail_nll_bound": 0.026899396275037,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_018.npz",
+      "source_file": "outputs/native_belief/cell_k2_s1_n2_p1.npz",
+      "source_prefix": "reweighted_",
+      "actual_query": {
+        "nll": -5.4682686696152425,
+        "rmse": 0.01271202487050192,
+        "channel_rmse": [
+          0.01525331332328409,
+          0.009514598534790773
+        ],
+        "marginal_coverage95": 1.0,
+        "channel_coverage95": [
+          1.0,
+          1.0
+        ],
+        "predictive_variance": 0.0005258636951934077
+      },
+      "refinement_nll_max_error": 2.9019944669528286e-08,
+      "new_max_tail_bound": 1.651511704417511e-34,
+      "original_source_sha256": "3bbc5cbfe7fb50e068033595efff24e583029cdc33362a3d90efba80e38b27fa"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 5,
+      "probe_u": 0.0,
+      "arm": "no_update",
+      "max_nll": 16.601360622624103,
+      "max_tail_nll_bound": 0.016847016580137795,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_019.npz",
+      "source_file": "outputs/native_belief/cell_k2_s1_n5_p0.npz",
+      "source_prefix": "no_update_",
+      "actual_query": {
+        "nll": -4.591047222258833,
+        "rmse": 0.10521842594183453,
+        "channel_rmse": [
+          0.14850839305383584,
+          0.009332283103401978
+        ],
+        "marginal_coverage95": 0.9609375,
+        "channel_coverage95": [
+          0.921875,
+          1.0
+        ],
+        "predictive_variance": 0.0014211256102472933
+      },
+      "refinement_nll_max_error": 2.0163947667128923e-07,
+      "new_max_tail_bound": 1.030250504423009e-34,
+      "original_source_sha256": "c2bbdffe5d983192d99e38f5162311ef40cd9a12a5939f5755f09ea501ca77fa"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 5,
+      "probe_u": 0.0,
+      "arm": "reweighted",
+      "max_nll": 16.516192168486477,
+      "max_tail_nll_bound": 0.01775693945364465,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_020.npz",
+      "source_file": "outputs/native_belief/cell_k2_s1_n5_p0.npz",
+      "source_prefix": "reweighted_",
+      "actual_query": {
+        "nll": -4.593764686495803,
+        "rmse": 0.10495510298959937,
+        "channel_rmse": [
+          0.14813516327442297,
+          0.009333846408360755
+        ],
+        "marginal_coverage95": 0.9609375,
+        "channel_coverage95": [
+          0.921875,
+          1.0
+        ],
+        "predictive_variance": 0.0014238595826309253
+      },
+      "refinement_nll_max_error": 2.1657986337686452e-07,
+      "new_max_tail_bound": 1.086510540913235e-34,
+      "original_source_sha256": "c2bbdffe5d983192d99e38f5162311ef40cd9a12a5939f5755f09ea501ca77fa"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 5,
+      "probe_u": 1.5,
+      "arm": "no_update",
+      "max_nll": 16.601360622624103,
+      "max_tail_nll_bound": 0.016847016580137795,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_021.npz",
+      "source_file": "outputs/native_belief/cell_k2_s1_n5_p1.npz",
+      "source_prefix": "no_update_",
+      "actual_query": {
+        "nll": -4.591047222258833,
+        "rmse": 0.10521842594183453,
+        "channel_rmse": [
+          0.14850839305383584,
+          0.009332283103401978
+        ],
+        "marginal_coverage95": 0.9609375,
+        "channel_coverage95": [
+          0.921875,
+          1.0
+        ],
+        "predictive_variance": 0.0014211256102472933
+      },
+      "refinement_nll_max_error": 2.0163947667128923e-07,
+      "new_max_tail_bound": 1.030250504423009e-34,
+      "original_source_sha256": "270e6b7ba7e99f996eb45299d290d9d09c3a87eac8f9f133c2180db360196bde"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 5,
+      "probe_u": 1.5,
+      "arm": "reweighted",
+      "max_nll": -4.641972965738636,
+      "max_tail_nll_bound": 0.03849185745478259,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_022.npz",
+      "source_file": "outputs/native_belief/cell_k2_s1_n5_p1.npz",
+      "source_prefix": "reweighted_",
+      "actual_query": {
+        "nll": -5.538489604134032,
+        "rmse": 0.012373485825837641,
+        "channel_rmse": [
+          0.014650916556811305,
+          0.009568539439734907
+        ],
+        "marginal_coverage95": 1.0,
+        "channel_coverage95": [
+          1.0,
+          1.0
+        ],
+        "predictive_variance": 0.00047307063389520295
+      },
+      "refinement_nll_max_error": 4.0736997597434765e-07,
+      "new_max_tail_bound": 2.369911234742826e-34,
+      "original_source_sha256": "270e6b7ba7e99f996eb45299d290d9d09c3a87eac8f9f133c2180db360196bde"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 2,
+      "probe_u": 0.0,
+      "arm": "map_ggn_laplace",
+      "max_nll": 17.53283927645886,
+      "max_tail_nll_bound": 0.042220382751814084,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_023.npz",
+      "source_file": "outputs/ordinary_filter_controls/cell_k2_s1_n2_p0.npz",
+      "source_prefix": "map_ggn_laplace_",
+      "actual_query": {
+        "nll": -2.929444570068518,
+        "rmse": 0.1792230792435322,
+        "channel_rmse": [
+          0.253282600355744,
+          0.009473575043208466
+        ],
+        "marginal_coverage95": 0.890625,
+        "channel_coverage95": [
+          0.78125,
+          1.0
+        ],
+        "predictive_variance": 0.0033083887251934203
+      },
+      "refinement_nll_max_error": 1.6747026876373639e-07,
+      "new_max_tail_bound": 2.5840257459473104e-34,
+      "original_source_sha256": "cfbb5663b78a7098f25ab41418284077a7f60f605c39cfb3bd9fc2c859997207"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 5,
+      "probe_u": 0.0,
+      "arm": "map_ggn_laplace",
+      "max_nll": 17.905201273347956,
+      "max_tail_nll_bound": 0.06070013868518225,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_024.npz",
+      "source_file": "outputs/ordinary_filter_controls/cell_k2_s1_n5_p0.npz",
+      "source_prefix": "map_ggn_laplace_",
+      "actual_query": {
+        "nll": -4.560877213864432,
+        "rmse": 0.10350324712692038,
+        "channel_rmse": [
+          0.14607828137539147,
+          0.009326309133021023
+        ],
+        "marginal_coverage95": 0.9609375,
+        "channel_coverage95": [
+          0.921875,
+          1.0
+        ],
+        "predictive_variance": 0.001315185288275669
+      },
+      "refinement_nll_max_error": 1.3268932619325824e-07,
+      "new_max_tail_bound": 3.714000511164446e-34,
+      "original_source_sha256": "5ca539b12d7183dffb78bcc5f1603ca46a5763987c995d51afac1c23309babfc"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 2,
+      "probe_u": 0.0,
+      "rep": 0,
+      "arm": "particle256",
+      "max_nll": 22.15174468683422,
+      "max_tail_nll_bound": 1.681214222209087,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_025.npz",
+      "source_file": "outputs/particle_moment_control/k2_s1_n2_p0_r0.npz",
+      "source_prefix": "c256_",
+      "actual_query": {
+        "nll": -2.892954680832217,
+        "rmse": 0.17976380979568113,
+        "channel_rmse": [
+          0.254049439269917,
+          0.009430643199506336
+        ],
+        "marginal_coverage95": 0.890625,
+        "channel_coverage95": [
+          0.78125,
+          1.0
+        ],
+        "predictive_variance": 0.0038612907174111343
+      },
+      "refinement_nll_max_error": 1.6934142266222807e-07,
+      "new_max_tail_bound": 1.4089655207412126e-32,
+      "original_source_sha256": "9a9bf76b0cf0d486944bee0be917bfbc3a1204f107cfacc79e106799e56b43e5"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 2,
+      "probe_u": 0.0,
+      "rep": 0,
+      "arm": "particle1024",
+      "max_nll": 19.36529644825286,
+      "max_tail_nll_bound": 0.23861810226214983,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_026.npz",
+      "source_file": "outputs/particle_moment_control/k2_s1_n2_p0_r0.npz",
+      "source_prefix": "c1024_",
+      "actual_query": {
+        "nll": -2.9209429266375597,
+        "rmse": 0.17972195719351183,
+        "channel_rmse": [
+          0.2539895532145117,
+          0.009448314814066081
+        ],
+        "marginal_coverage95": 0.890625,
+        "channel_coverage95": [
+          0.78125,
+          1.0
+        ],
+        "predictive_variance": 0.003834298577593167
+      },
+      "refinement_nll_max_error": 8.95064857786565e-08,
+      "new_max_tail_bound": 1.4635664155318762e-33,
+      "original_source_sha256": "9a9bf76b0cf0d486944bee0be917bfbc3a1204f107cfacc79e106799e56b43e5"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 2,
+      "probe_u": 0.0,
+      "rep": 0,
+      "arm": "particle4096",
+      "max_nll": 19.409075786559143,
+      "max_tail_nll_bound": 0.2480733652000226,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_027.npz",
+      "source_file": "outputs/particle_moment_control/k2_s1_n2_p0_r0.npz",
+      "source_prefix": "c4096_",
+      "actual_query": {
+        "nll": -2.9179852997521936,
+        "rmse": 0.17963832813739855,
+        "channel_rmse": [
+          0.25387139815628224,
+          0.009443043480455425
+        ],
+        "marginal_coverage95": 0.890625,
+        "channel_coverage95": [
+          0.78125,
+          1.0
+        ],
+        "predictive_variance": 0.0038474167382593497
+      },
+      "refinement_nll_max_error": 1.3256705244657496e-07,
+      "new_max_tail_bound": 1.5226734306280715e-33,
+      "original_source_sha256": "9a9bf76b0cf0d486944bee0be917bfbc3a1204f107cfacc79e106799e56b43e5"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 2,
+      "probe_u": 0.0,
+      "rep": 1,
+      "arm": "particle256",
+      "max_nll": 19.635432227132203,
+      "max_tail_nll_bound": 0.30237978614056316,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_028.npz",
+      "source_file": "outputs/particle_moment_control/k2_s1_n2_p0_r1.npz",
+      "source_prefix": "c256_",
+      "actual_query": {
+        "nll": -2.9378738760219276,
+        "rmse": 0.1799104081871924,
+        "channel_rmse": [
+          0.2542557267778284,
+          0.00946231202416622
+        ],
+        "marginal_coverage95": 0.890625,
+        "channel_coverage95": [
+          0.78125,
+          1.0
+        ],
+        "predictive_variance": 0.003796163678738908
+      },
+      "refinement_nll_max_error": 4.085994120828218e-08,
+      "new_max_tail_bound": 1.868627177730953e-33,
+      "original_source_sha256": "8f3f0a248985ad26ff5794032741010b29876ac31a1e3383d4ccba6769db6166"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 2,
+      "probe_u": 0.0,
+      "rep": 1,
+      "arm": "particle1024",
+      "max_nll": 16.885025935003174,
+      "max_tail_nll_bound": 0.022311400662618722,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_029.npz",
+      "source_file": "outputs/particle_moment_control/k2_s1_n2_p0_r1.npz",
+      "source_prefix": "c1024_",
+      "actual_query": {
+        "nll": -2.993673048719132,
+        "rmse": 0.17987608671452696,
+        "channel_rmse": [
+          0.2542075912917869,
+          0.009450591150393253
+        ],
+        "marginal_coverage95": 0.8828125,
+        "channel_coverage95": [
+          0.765625,
+          1.0
+        ],
+        "predictive_variance": 0.003834095986213312
+      },
+      "refinement_nll_max_error": 6.167802979462067e-08,
+      "new_max_tail_bound": 1.3647189023538928e-34,
+      "original_source_sha256": "8f3f0a248985ad26ff5794032741010b29876ac31a1e3383d4ccba6769db6166"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 2,
+      "probe_u": 0.0,
+      "rep": 1,
+      "arm": "particle4096",
+      "max_nll": 17.81635264270234,
+      "max_tail_nll_bound": 0.055680582076036905,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_030.npz",
+      "source_file": "outputs/particle_moment_control/k2_s1_n2_p0_r1.npz",
+      "source_prefix": "c4096_",
+      "actual_query": {
+        "nll": -2.9668493890065237,
+        "rmse": 0.17946881082871405,
+        "channel_rmse": [
+          0.253631417361276,
+          0.00944522354715546
+        ],
+        "marginal_coverage95": 0.890625,
+        "channel_coverage95": [
+          0.78125,
+          1.0
+        ],
+        "predictive_variance": 0.0038435035673287225
+      },
+      "refinement_nll_max_error": 1.0855949028609757e-08,
+      "new_max_tail_bound": 3.405812297724172e-34,
+      "original_source_sha256": "8f3f0a248985ad26ff5794032741010b29876ac31a1e3383d4ccba6769db6166"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 2,
+      "probe_u": 0.0,
+      "rep": 2,
+      "arm": "particle256",
+      "max_nll": 19.897960245542027,
+      "max_tail_nll_bound": 0.37780108294328885,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_031.npz",
+      "source_file": "outputs/particle_moment_control/k2_s1_n2_p0_r2.npz",
+      "source_prefix": "c256_",
+      "actual_query": {
+        "nll": -2.9520993213450986,
+        "rmse": 0.1794250841344115,
+        "channel_rmse": [
+          0.2535701250108313,
+          0.009429386791974768
+        ],
+        "marginal_coverage95": 0.890625,
+        "channel_coverage95": [
+          0.78125,
+          1.0
+        ],
+        "predictive_variance": 0.003922331960633821
+      },
+      "refinement_nll_max_error": 9.335152739708974e-08,
+      "new_max_tail_bound": 2.3451122203618175e-33,
+      "original_source_sha256": "79b3b4be9213ed3e910f61d7eb67ff37a7d24eb0401316d68d0714293f02f2e4"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 2,
+      "probe_u": 0.0,
+      "rep": 2,
+      "arm": "particle1024",
+      "max_nll": 18.186540146381407,
+      "max_tail_nll_bound": 0.07965437024995635,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_032.npz",
+      "source_file": "outputs/particle_moment_control/k2_s1_n2_p0_r2.npz",
+      "source_prefix": "c1024_",
+      "actual_query": {
+        "nll": -2.958316427186187,
+        "rmse": 0.1800194580328401,
+        "channel_rmse": [
+          0.25441071649389957,
+          0.009444462607032274
+        ],
+        "marginal_coverage95": 0.890625,
+        "channel_coverage95": [
+          0.78125,
+          1.0
+        ],
+        "predictive_variance": 0.0038744371957535224
+      },
+      "refinement_nll_max_error": 3.140494087006118e-08,
+      "new_max_tail_bound": 4.870039810350789e-34,
+      "original_source_sha256": "79b3b4be9213ed3e910f61d7eb67ff37a7d24eb0401316d68d0714293f02f2e4"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 2,
+      "probe_u": 0.0,
+      "rep": 2,
+      "arm": "particle4096",
+      "max_nll": 18.75569727115391,
+      "max_tail_nll_bound": 0.1367036188820202,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_033.npz",
+      "source_file": "outputs/particle_moment_control/k2_s1_n2_p0_r2.npz",
+      "source_prefix": "c4096_",
+      "actual_query": {
+        "nll": -2.953252997079673,
+        "rmse": 0.17962562960082723,
+        "channel_rmse": [
+          0.2538532845262617,
+          0.0094468806606192
+        ],
+        "marginal_coverage95": 0.8828125,
+        "channel_coverage95": [
+          0.765625,
+          1.0
+        ],
+        "predictive_variance": 0.0038529880752030746
+      },
+      "refinement_nll_max_error": 2.438313480013221e-07,
+      "new_max_tail_bound": 8.354325584239364e-34,
+      "original_source_sha256": "79b3b4be9213ed3e910f61d7eb67ff37a7d24eb0401316d68d0714293f02f2e4"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 5,
+      "probe_u": 0.0,
+      "rep": 0,
+      "arm": "particle256",
+      "max_nll": 16.2069021628887,
+      "max_tail_nll_bound": 0.011386764512668854,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_034.npz",
+      "source_file": "outputs/particle_moment_control/k2_s1_n5_p0_r0.npz",
+      "source_prefix": "c256_",
+      "actual_query": {
+        "nll": -4.566308879987854,
+        "rmse": 0.10469161054779089,
+        "channel_rmse": [
+          0.14776262490402334,
+          0.009320585799913269
+        ],
+        "marginal_coverage95": 0.953125,
+        "channel_coverage95": [
+          0.90625,
+          1.0
+        ],
+        "predictive_variance": 0.0013959686772767287
+      },
+      "refinement_nll_max_error": 4.657520591422326e-08,
+      "new_max_tail_bound": 6.957201755101034e-35,
+      "original_source_sha256": "01e617faa620f06138fb2908f24e7b63edbaba6cd8ff31d1d436800d5c98954f"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 5,
+      "probe_u": 0.0,
+      "rep": 0,
+      "arm": "particle1024",
+      "max_nll": 17.85155605632289,
+      "max_tail_nll_bound": 0.05761923234617132,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_035.npz",
+      "source_file": "outputs/particle_moment_control/k2_s1_n5_p0_r0.npz",
+      "source_prefix": "c1024_",
+      "actual_query": {
+        "nll": -4.564001337806107,
+        "rmse": 0.10486184007198587,
+        "channel_rmse": [
+          0.1480037332590574,
+          0.00932233597052099
+        ],
+        "marginal_coverage95": 0.953125,
+        "channel_coverage95": [
+          0.90625,
+          1.0
+        ],
+        "predictive_variance": 0.0014188394273153557
+      },
+      "refinement_nll_max_error": 4.439773348963172e-08,
+      "new_max_tail_bound": 3.524397411213564e-34,
+      "original_source_sha256": "01e617faa620f06138fb2908f24e7b63edbaba6cd8ff31d1d436800d5c98954f"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 5,
+      "probe_u": 0.0,
+      "rep": 0,
+      "arm": "particle4096",
+      "max_nll": 18.175079149179407,
+      "max_tail_nll_bound": 0.07878149279272918,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_036.npz",
+      "source_file": "outputs/particle_moment_control/k2_s1_n5_p0_r0.npz",
+      "source_prefix": "c4096_",
+      "actual_query": {
+        "nll": -4.56001249949736,
+        "rmse": 0.10503866737828255,
+        "channel_rmse": [
+          0.14825390261655494,
+          0.009328646642036961
+        ],
+        "marginal_coverage95": 0.953125,
+        "channel_coverage95": [
+          0.90625,
+          1.0
+        ],
+        "predictive_variance": 0.001415775217296348
+      },
+      "refinement_nll_max_error": 3.187345782862394e-07,
+      "new_max_tail_bound": 4.817023348972867e-34,
+      "original_source_sha256": "01e617faa620f06138fb2908f24e7b63edbaba6cd8ff31d1d436800d5c98954f"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 5,
+      "probe_u": 0.0,
+      "rep": 1,
+      "arm": "particle256",
+      "max_nll": 20.886775194101272,
+      "max_tail_nll_bound": 0.8037977246320532,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_037.npz",
+      "source_file": "outputs/particle_moment_control/k2_s1_n5_p0_r1.npz",
+      "source_prefix": "c256_",
+      "actual_query": {
+        "nll": -4.51405289597742,
+        "rmse": 0.1058337287565198,
+        "channel_rmse": [
+          0.1493813974833318,
+          0.00931420264671331
+        ],
+        "marginal_coverage95": 0.953125,
+        "channel_coverage95": [
+          0.90625,
+          1.0
+        ],
+        "predictive_variance": 0.0013551446853672306
+      },
+      "refinement_nll_max_error": 1.6672997560363e-07,
+      "new_max_tail_bound": 5.3663684218909e-33,
+      "original_source_sha256": "b8f5fcc82fda3d5813242039cca9da5057470e3f797c5bd180180dcceb809d06"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 5,
+      "probe_u": 0.0,
+      "rep": 1,
+      "arm": "particle1024",
+      "max_nll": 19.73962109314074,
+      "max_tail_nll_bound": 0.3306310595707861,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_038.npz",
+      "source_file": "outputs/particle_moment_control/k2_s1_n5_p0_r1.npz",
+      "source_prefix": "c1024_",
+      "actual_query": {
+        "nll": -4.537001881055515,
+        "rmse": 0.10522856584666328,
+        "channel_rmse": [
+          0.1485230281693646,
+          0.009328035360847576
+        ],
+        "marginal_coverage95": 0.953125,
+        "channel_coverage95": [
+          0.90625,
+          1.0
+        ],
+        "predictive_variance": 0.0014003629783066432
+      },
+      "refinement_nll_max_error": 2.0968691671896522e-08,
+      "new_max_tail_bound": 2.04310416792235e-33,
+      "original_source_sha256": "b8f5fcc82fda3d5813242039cca9da5057470e3f797c5bd180180dcceb809d06"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 5,
+      "probe_u": 0.0,
+      "rep": 1,
+      "arm": "particle4096",
+      "max_nll": 19.488921636716967,
+      "max_tail_nll_bound": 0.26616989114896444,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_039.npz",
+      "source_file": "outputs/particle_moment_control/k2_s1_n5_p0_r1.npz",
+      "source_prefix": "c4096_",
+      "actual_query": {
+        "nll": -4.543216797200606,
+        "rmse": 0.10506722641460887,
+        "channel_rmse": [
+          0.14829429862090748,
+          0.009329797931921326
+        ],
+        "marginal_coverage95": 0.953125,
+        "channel_coverage95": [
+          0.90625,
+          1.0
+        ],
+        "predictive_variance": 0.001405406865791289
+      },
+      "refinement_nll_max_error": 6.268574992418507e-08,
+      "new_max_tail_bound": 1.635750201641564e-33,
+      "original_source_sha256": "b8f5fcc82fda3d5813242039cca9da5057470e3f797c5bd180180dcceb809d06"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 5,
+      "probe_u": 0.0,
+      "rep": 2,
+      "arm": "particle256",
+      "max_nll": 18.327752172086115,
+      "max_tail_nll_bound": 0.09119991582176547,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_040.npz",
+      "source_file": "outputs/particle_moment_control/k2_s1_n5_p0_r2.npz",
+      "source_prefix": "c256_",
+      "actual_query": {
+        "nll": -4.560147350340966,
+        "rmse": 0.10443010289531716,
+        "channel_rmse": [
+          0.1473904319413421,
+          0.009346301599973059
+        ],
+        "marginal_coverage95": 0.9609375,
+        "channel_coverage95": [
+          0.921875,
+          1.0
+        ],
+        "predictive_variance": 0.0014523526848534037
+      },
+      "refinement_nll_max_error": 1.4534743542071737e-07,
+      "new_max_tail_bound": 5.57510732944715e-34,
+      "original_source_sha256": "543bf394a47ce8f0954dccccf3787c46fe7aceb7300bfa223ac598aceb960cea"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 5,
+      "probe_u": 0.0,
+      "rep": 2,
+      "arm": "particle1024",
+      "max_nll": 19.41081615642863,
+      "max_tail_nll_bound": 0.2484559794777074,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_041.npz",
+      "source_file": "outputs/particle_moment_control/k2_s1_n5_p0_r2.npz",
+      "source_prefix": "c1024_",
+      "actual_query": {
+        "nll": -4.5472269231338664,
+        "rmse": 0.10533350889740789,
+        "channel_rmse": [
+          0.14867125183584098,
+          0.009335688022024053
+        ],
+        "marginal_coverage95": 0.953125,
+        "channel_coverage95": [
+          0.90625,
+          1.0
+        ],
+        "predictive_variance": 0.001440911112476594
+      },
+      "refinement_nll_max_error": 5.1295518943561547e-08,
+      "new_max_tail_bound": 1.5244765349116836e-33,
+      "original_source_sha256": "543bf394a47ce8f0954dccccf3787c46fe7aceb7300bfa223ac598aceb960cea"
+    },
+    {
+      "kind": 2,
+      "seed": 1,
+      "n": 5,
+      "probe_u": 0.0,
+      "rep": 2,
+      "arm": "particle4096",
+      "max_nll": 19.029940899885922,
+      "max_tail_nll_bound": 0.17622846950477392,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_042.npz",
+      "source_file": "outputs/particle_moment_control/k2_s1_n5_p0_r2.npz",
+      "source_prefix": "c4096_",
+      "actual_query": {
+        "nll": -4.55462064745368,
+        "rmse": 0.1050465157458777,
+        "channel_rmse": [
+          0.1482646430368541,
+          0.009334696880568202
+        ],
+        "marginal_coverage95": 0.9609375,
+        "channel_coverage95": [
+          0.921875,
+          1.0
+        ],
+        "predictive_variance": 0.0014305984613452918
+      },
+      "refinement_nll_max_error": 9.890458230188415e-08,
+      "new_max_tail_bound": 1.0777466219519149e-33,
+      "original_source_sha256": "543bf394a47ce8f0954dccccf3787c46fe7aceb7300bfa223ac598aceb960cea"
+    },
+    {
+      "kind": 2,
+      "seed": 2,
+      "n": 2,
+      "probe_u": 0.0,
+      "arm": "native",
+      "max_nll": 17.834283684912066,
+      "max_tail_nll_bound": 0.05710464967109797,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_043.npz",
+      "source_file": "outputs/native_belief/cell_k2_s2_n2_p0.npz",
+      "source_prefix": "native_",
+      "actual_query": {
+        "nll": -3.022479904972614,
+        "rmse": 0.15971036393928556,
+        "channel_rmse": [
+          0.22559257507065675,
+          0.011081099775211534
+        ],
+        "marginal_coverage95": 0.8984375,
+        "channel_coverage95": [
+          0.796875,
+          1.0
+        ],
+        "predictive_variance": 0.0038447519757002628
+      },
+      "refinement_nll_max_error": 1.2402299987002152e-07,
+      "new_max_tail_bound": 3.5117565399956704e-34,
+      "original_source_sha256": "9176f9a1cb04cd9a8cf5c2b3e9c96bdb3885c7736989d2a086d5b6d521dd2543"
+    },
+    {
+      "kind": 2,
+      "seed": 2,
+      "n": 5,
+      "probe_u": 0.0,
+      "arm": "native",
+      "max_nll": 17.833675877006854,
+      "max_tail_nll_bound": 0.057070923110673966,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_044.npz",
+      "source_file": "outputs/native_belief/cell_k2_s2_n5_p0.npz",
+      "source_prefix": "native_",
+      "actual_query": {
+        "nll": -4.643288699401472,
+        "rmse": 0.08788751397613685,
+        "channel_rmse": [
+          0.12379166377170438,
+          0.011137962400932977
+        ],
+        "marginal_coverage95": 0.9765625,
+        "channel_coverage95": [
+          0.953125,
+          1.0
+        ],
+        "predictive_variance": 0.0015020688316310957
+      },
+      "refinement_nll_max_error": 2.3468586718422557e-07,
+      "new_max_tail_bound": 3.5096623477021625e-34,
+      "original_source_sha256": "2b38688c1edf471669fcb8a818c2d2958c726eca0be9359d90a5e6aea7cc901e"
+    },
+    {
+      "kind": 2,
+      "seed": 2,
+      "n": 2,
+      "probe_u": 0.0,
+      "rep": 0,
+      "arm": "particle256",
+      "max_nll": 16.413245113819517,
+      "max_tail_nll_bound": 0.014090231811166764,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_045.npz",
+      "source_file": "outputs/particle_moment_control/k2_s2_n2_p0_r0.npz",
+      "source_prefix": "c256_",
+      "actual_query": {
+        "nll": -2.981096768357263,
+        "rmse": 0.17339440830887434,
+        "channel_rmse": [
+          0.244962297002528,
+          0.011167574168749458
+        ],
+        "marginal_coverage95": 0.890625,
+        "channel_coverage95": [
+          0.78125,
+          1.0
+        ],
+        "predictive_variance": 0.004763148885533806
+      },
+      "refinement_nll_max_error": 1.6529574509149825e-07,
+      "new_max_tail_bound": 8.616262782811809e-35,
+      "original_source_sha256": "b53e4d29641a3d66862efa2d944ccd98353cc0275a32a485d1fc97352398ab0c"
+    },
+    {
+      "kind": 2,
+      "seed": 2,
+      "n": 2,
+      "probe_u": 0.0,
+      "rep": 0,
+      "arm": "particle1024",
+      "max_nll": 16.244697941181823,
+      "max_tail_nll_bound": 0.011917682649832215,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_046.npz",
+      "source_file": "outputs/particle_moment_control/k2_s2_n2_p0_r0.npz",
+      "source_prefix": "c1024_",
+      "actual_query": {
+        "nll": -2.953746653545861,
+        "rmse": 0.17405767235349082,
+        "channel_rmse": [
+          0.2458997709682624,
+          0.011200412848927532
+        ],
+        "marginal_coverage95": 0.890625,
+        "channel_coverage95": [
+          0.78125,
+          1.0
+        ],
+        "predictive_variance": 0.00468716685366251
+      },
+      "refinement_nll_max_error": 5.707718031544573e-08,
+      "new_max_tail_bound": 7.285355560419018e-35,
+      "original_source_sha256": "b53e4d29641a3d66862efa2d944ccd98353cc0275a32a485d1fc97352398ab0c"
+    },
+    {
+      "kind": 2,
+      "seed": 2,
+      "n": 5,
+      "probe_u": 0.0,
+      "rep": 0,
+      "arm": "particle256",
+      "max_nll": 19.933551574981323,
+      "max_tail_nll_bound": 0.3917358688198069,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_047.npz",
+      "source_file": "outputs/particle_moment_control/k2_s2_n5_p0_r0.npz",
+      "source_prefix": "c256_",
+      "actual_query": {
+        "nll": -4.531274268315569,
+        "rmse": 0.09759005049179585,
+        "channel_rmse": [
+          0.13756175026404335,
+          0.011153509504881979
+        ],
+        "marginal_coverage95": 0.953125,
+        "channel_coverage95": [
+          0.90625,
+          1.0
+        ],
+        "predictive_variance": 0.0016399206392897487
+      },
+      "refinement_nll_max_error": 1.577475146063989e-07,
+      "new_max_tail_bound": 2.6017636797821977e-33,
+      "original_source_sha256": "d5a701d0dadf59c2c3661d17a247a2b692c7e87904388058bcd195dc1577f970"
+    },
+    {
+      "kind": 2,
+      "seed": 2,
+      "n": 5,
+      "probe_u": 0.0,
+      "rep": 0,
+      "arm": "particle4096",
+      "max_nll": 16.169722829299232,
+      "max_tail_nll_bound": 0.0110615706522028,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_048.npz",
+      "source_file": "outputs/particle_moment_control/k2_s2_n5_p0_r0.npz",
+      "source_prefix": "c4096_",
+      "actual_query": {
+        "nll": -4.588472931818249,
+        "rmse": 0.09729236268277437,
+        "channel_rmse": [
+          0.13713792279648568,
+          0.011171293741467006
+        ],
+        "marginal_coverage95": 0.9609375,
+        "channel_coverage95": [
+          0.921875,
+          1.0
+        ],
+        "predictive_variance": 0.0016377652341581998
+      },
+      "refinement_nll_max_error": 1.5600795322257e-07,
+      "new_max_tail_bound": 6.760216772809773e-35,
+      "original_source_sha256": "d5a701d0dadf59c2c3661d17a247a2b692c7e87904388058bcd195dc1577f970"
+    },
+    {
+      "kind": 2,
+      "seed": 2,
+      "n": 5,
+      "probe_u": 0.0,
+      "rep": 1,
+      "arm": "particle256",
+      "max_nll": 16.58930854404341,
+      "max_tail_nll_bound": 0.01678015247874423,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_049.npz",
+      "source_file": "outputs/particle_moment_control/k2_s2_n5_p0_r1.npz",
+      "source_prefix": "c256_",
+      "actual_query": {
+        "nll": -4.583738092640786,
+        "rmse": 0.09774959362336715,
+        "channel_rmse": [
+          0.1377869082570706,
+          0.011168438566981855
+        ],
+        "marginal_coverage95": 0.9609375,
+        "channel_coverage95": [
+          0.921875,
+          1.0
+        ],
+        "predictive_variance": 0.0016095007524241295
+      },
+      "refinement_nll_max_error": 1.3053791647621438e-07,
+      "new_max_tail_bound": 1.0267832369642712e-34,
+      "original_source_sha256": "4b12cab28662aa92933ce9b8e62708fd2db1d1edea0963a950d6833d426e3e21"
+    },
+    {
+      "kind": 2,
+      "seed": 2,
+      "n": 5,
+      "probe_u": 0.0,
+      "rep": 2,
+      "arm": "particle256",
+      "max_nll": 16.131024132211742,
+      "max_tail_nll_bound": 0.010643905884779124,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_050.npz",
+      "source_file": "outputs/particle_moment_control/k2_s2_n5_p0_r2.npz",
+      "source_prefix": "c256_",
+      "actual_query": {
+        "nll": -4.604697992061763,
+        "rmse": 0.09666957550706896,
+        "channel_rmse": [
+          0.13625446566351831,
+          0.011168448602331783
+        ],
+        "marginal_coverage95": 0.9609375,
+        "channel_coverage95": [
+          0.921875,
+          1.0
+        ],
+        "predictive_variance": 0.0016884171852014826
+      },
+      "refinement_nll_max_error": 1.9699238151815734e-07,
+      "new_max_tail_bound": 6.504172393203459e-35,
+      "original_source_sha256": "f085adce83d0b3fb0064237a76164a2ddf8035bc5845c3edfe338ac2563ea9d9"
+    },
+    {
+      "kind": 2,
+      "seed": 3,
+      "n": 0,
+      "probe_u": 0.0,
+      "arm": "map_ggn_laplace",
+      "max_nll": 27.877535973695316,
+      "max_tail_nll_bound": 7.265022173585276,
+      "flagged_contexts": [
+        26,
+        39
+      ],
+      "patch_file": "patch_051.npz",
+      "source_file": "outputs/ordinary_filter_controls/cell_k2_s3_n0_p0.npz",
+      "source_prefix": "map_ggn_laplace_",
+      "actual_query": {
+        "nll": -0.9459874639208589,
+        "rmse": 0.20583011135438545,
+        "channel_rmse": [
+          0.2909354032868729,
+          0.009415975500289464
+        ],
+        "marginal_coverage95": 0.8203125,
+        "channel_coverage95": [
+          0.640625,
+          1.0
+        ],
+        "predictive_variance": 0.014681441138183537
+      },
+      "refinement_nll_max_error": 2.9686223967928527e-07,
+      "new_max_tail_bound": 4.174379418698166e-30,
+      "original_source_sha256": "e06589d1545e6efac1491751a98b50dfdf70dd7a0fa18e9293e6bee134a5f82e"
+    },
+    {
+      "kind": 2,
+      "seed": 3,
+      "n": 5,
+      "probe_u": 0.0,
+      "rep": 0,
+      "arm": "particle256",
+      "max_nll": 16.022181648754252,
+      "max_tail_nll_bound": 0.010091297361306956,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_052.npz",
+      "source_file": "outputs/particle_moment_control/k2_s3_n5_p0_r0.npz",
+      "source_prefix": "c256_",
+      "actual_query": {
+        "nll": -4.6397330962275145,
+        "rmse": 0.09641717851210717,
+        "channel_rmse": [
+          0.13584982540494278,
+          0.01172047618135219
+        ],
+        "marginal_coverage95": 0.96875,
+        "channel_coverage95": [
+          0.9375,
+          1.0
+        ],
+        "predictive_variance": 0.001466164154502778
+      },
+      "refinement_nll_max_error": 3.3860818149378247e-07,
+      "new_max_tail_bound": 6.171608941474258e-35,
+      "original_source_sha256": "d11cca28ea90ad2c8d57530e604ed65d64bd38d5a15e818d0c48189eb9f578f5"
+    },
+    {
+      "kind": 2,
+      "seed": 3,
+      "n": 5,
+      "probe_u": 0.0,
+      "rep": 0,
+      "arm": "particle1024",
+      "max_nll": 17.25031200407699,
+      "max_tail_nll_bound": 0.03404833663444943,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_053.npz",
+      "source_file": "outputs/particle_moment_control/k2_s3_n5_p0_r0.npz",
+      "source_prefix": "c1024_",
+      "actual_query": {
+        "nll": -4.609524633290496,
+        "rmse": 0.0971779244446792,
+        "channel_rmse": [
+          0.13693059067840807,
+          0.011709454949476566
+        ],
+        "marginal_coverage95": 0.96875,
+        "channel_coverage95": [
+          0.9375,
+          1.0
+        ],
+        "predictive_variance": 0.0014461689214147308
+      },
+      "refinement_nll_max_error": 1.6688401771602912e-07,
+      "new_max_tail_bound": 2.0980184717400967e-34,
+      "original_source_sha256": "d11cca28ea90ad2c8d57530e604ed65d64bd38d5a15e818d0c48189eb9f578f5"
+    },
+    {
+      "kind": 2,
+      "seed": 3,
+      "n": 5,
+      "probe_u": 0.0,
+      "rep": 0,
+      "arm": "particle4096",
+      "max_nll": 16.24315035410512,
+      "max_tail_nll_bound": 0.012571091739951223,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_054.npz",
+      "source_file": "outputs/particle_moment_control/k2_s3_n5_p0_r0.npz",
+      "source_prefix": "c4096_",
+      "actual_query": {
+        "nll": -4.624526479792678,
+        "rmse": 0.09702509359714326,
+        "channel_rmse": [
+          0.13671356536840512,
+          0.011710619937801299
+        ],
+        "marginal_coverage95": 0.96875,
+        "channel_coverage95": [
+          0.9375,
+          1.0
+        ],
+        "predictive_variance": 0.0014480759696920017
+      },
+      "refinement_nll_max_error": 2.764002005051225e-08,
+      "new_max_tail_bound": 7.69520149139628e-35,
+      "original_source_sha256": "d11cca28ea90ad2c8d57530e604ed65d64bd38d5a15e818d0c48189eb9f578f5"
+    },
+    {
+      "kind": 2,
+      "seed": 3,
+      "n": 5,
+      "probe_u": 0.0,
+      "rep": 2,
+      "arm": "particle256",
+      "max_nll": 16.566106168158484,
+      "max_tail_nll_bound": 0.017321947524553048,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_055.npz",
+      "source_file": "outputs/particle_moment_control/k2_s3_n5_p0_r2.npz",
+      "source_prefix": "c256_",
+      "actual_query": {
+        "nll": -4.6234543705169475,
+        "rmse": 0.09740787057455114,
+        "channel_rmse": [
+          0.13725453532364937,
+          0.011737931369116864
+        ],
+        "marginal_coverage95": 0.96875,
+        "channel_coverage95": [
+          0.9375,
+          1.0
+        ],
+        "predictive_variance": 0.0014191373948270586
+      },
+      "refinement_nll_max_error": 1.1446387304658856e-07,
+      "new_max_tail_bound": 1.0621297475566262e-34,
+      "original_source_sha256": "1696f080e2ad9836387fc273df84b66f1249bf4a883aef40bda131e664792cdd"
+    },
+    {
+      "kind": 2,
+      "seed": 3,
+      "n": 5,
+      "probe_u": 0.0,
+      "rep": 2,
+      "arm": "particle1024",
+      "max_nll": 16.111656859525972,
+      "max_tail_nll_bound": 0.011030653851249433,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_056.npz",
+      "source_file": "outputs/particle_moment_control/k2_s3_n5_p0_r2.npz",
+      "source_prefix": "c1024_",
+      "actual_query": {
+        "nll": -4.627259205514062,
+        "rmse": 0.09746655745011855,
+        "channel_rmse": [
+          0.13733897629914638,
+          0.011724556770174007
+        ],
+        "marginal_coverage95": 0.96875,
+        "channel_coverage95": [
+          0.9375,
+          1.0
+        ],
+        "predictive_variance": 0.001458868278354227
+      },
+      "refinement_nll_max_error": 1.257538038146322e-07,
+      "new_max_tail_bound": 6.748693328841458e-35,
+      "original_source_sha256": "1696f080e2ad9836387fc273df84b66f1249bf4a883aef40bda131e664792cdd"
+    },
+    {
+      "kind": 2,
+      "seed": 3,
+      "n": 5,
+      "probe_u": 0.0,
+      "rep": 2,
+      "arm": "particle4096",
+      "max_nll": 16.23229560043861,
+      "max_tail_nll_bound": 0.012436213965846822,
+      "flagged_contexts": [
+        31
+      ],
+      "patch_file": "patch_057.npz",
+      "source_file": "outputs/particle_moment_control/k2_s3_n5_p0_r2.npz",
+      "source_prefix": "c4096_",
+      "actual_query": {
+        "nll": -4.626774982591968,
+        "rmse": 0.0972046424864509,
+        "channel_rmse": [
+          0.13696776757296794,
+          0.011718177670393279
+        ],
+        "marginal_coverage95": 0.96875,
+        "channel_coverage95": [
+          0.9375,
+          1.0
+        ],
+        "predictive_variance": 0.0014592577300317608
+      },
+      "refinement_nll_max_error": 1.1170704894425398e-07,
+      "new_max_tail_bound": 7.612486067422737e-35,
+      "original_source_sha256": "1696f080e2ad9836387fc273df84b66f1249bf4a883aef40bda131e664792cdd"
+    }
+  ],
+  "files": [
+    {
+      "path": "patch_000.npz",
+      "sha256": "6460b3ac035d2e4c3f8da11e61b00872717869282ca9a584cb08ce3baa253824"
+    },
+    {
+      "path": "patch_001.npz",
+      "sha256": "ab5bd7f0766f50bb0854661bca100c6dad5ed586d4af9fa9bebd84065007312e"
+    },
+    {
+      "path": "patch_002.npz",
+      "sha256": "6460b3ac035d2e4c3f8da11e61b00872717869282ca9a584cb08ce3baa253824"
+    },
+    {
+      "path": "patch_003.npz",
+      "sha256": "0a3f227963927691e9f3c15156da14a2d53fee5ded0869254630ebf3a649b99a"
+    },
+    {
+      "path": "patch_004.npz",
+      "sha256": "ac717fd7269c7b9ff68bcbae0b3e28d52926455e442c9517aa5b498d755534fd"
+    },
+    {
+      "path": "patch_005.npz",
+      "sha256": "2de9acce78e2b8ae7c8e914972e60776478737b1fba8f66cf05b33771c712aef"
+    },
+    {
+      "path": "patch_006.npz",
+      "sha256": "2a75622d50e210a8a3777b91c84547ff94220ac4412a8d2ebe15324409f3665b"
+    },
+    {
+      "path": "patch_007.npz",
+      "sha256": "3131be444b9436b7e87b93e549ef05d0c9be240cf5b1c2eb7dc75df736967ac3"
+    },
+    {
+      "path": "patch_008.npz",
+      "sha256": "b35fc6949dfe06ec3cfaaeb7cd846242e0d55c862a35ee6fbbddde7399ac4afb"
+    },
+    {
+      "path": "patch_009.npz",
+      "sha256": "460fd4327a926a31215c51eea1c484ee9c6bb760943a741c2d18e3c99281e0a2"
+    },
+    {
+      "path": "patch_010.npz",
+      "sha256": "06c4bab63dd14ea4a4601eb05631b97daa62653bdfe31d631eb0f9cc866f74d3"
+    },
+    {
+      "path": "patch_011.npz",
+      "sha256": "c0731ef8bd405af41da5da4525ebcb295d89844724cf4b357b5f95857cf8f163"
+    },
+    {
+      "path": "patch_012.npz",
+      "sha256": "3f8d89934f3b1871b5d41fc216a73edfcc5e8b92b76f1164f471584389121675"
+    },
+    {
+      "path": "patch_013.npz",
+      "sha256": "ac2de108fd17521d753f4c2e0381151e5417d2fdce054fc7c0196ef958c49478"
+    },
+    {
+      "path": "patch_014.npz",
+      "sha256": "c5b9f7cd250c629436b47786abb6234af4cd62f1e17600ddd6823476db9191d2"
+    },
+    {
+      "path": "patch_015.npz",
+      "sha256": "6d120e1c45cd425942d503ebcf5af2ae9212aa0b7aba178a73fe0dee15b964d9"
+    },
+    {
+      "path": "patch_016.npz",
+      "sha256": "07600c2e70ce1183ff8d912d1af59a9bdbdb2e8b8c72f9be0eaabcc7a1800121"
+    },
+    {
+      "path": "patch_017.npz",
+      "sha256": "6d120e1c45cd425942d503ebcf5af2ae9212aa0b7aba178a73fe0dee15b964d9"
+    },
+    {
+      "path": "patch_018.npz",
+      "sha256": "73a5388d1ea05bd2febe6ed347813be11782a91ffc4a11fa8313708ca0de1c01"
+    },
+    {
+      "path": "patch_019.npz",
+      "sha256": "73021d587c1348a7dd2cbc57292b0af7e5b4e39a99f68bfd8e7b7bcc03f9625a"
+    },
+    {
+      "path": "patch_020.npz",
+      "sha256": "7a159953d6da7a97017b3fb34351eda466ddb7934c980fca861a61fdd6ad95b9"
+    },
+    {
+      "path": "patch_021.npz",
+      "sha256": "73021d587c1348a7dd2cbc57292b0af7e5b4e39a99f68bfd8e7b7bcc03f9625a"
+    },
+    {
+      "path": "patch_022.npz",
+      "sha256": "e125ba3e0a4192d1a1bcc66d109ea9a1016199c62e446596980fc240aa495693"
+    },
+    {
+      "path": "patch_023.npz",
+      "sha256": "22660ee4e1144397999c54eab5e357a166ee7de3a550a9b3d63bdb766fa1eb70"
+    },
+    {
+      "path": "patch_024.npz",
+      "sha256": "b4882b793cc7be6c16de3957c1cc6807cccb41b4c8756cb280c11ad2552faec7"
+    },
+    {
+      "path": "patch_025.npz",
+      "sha256": "c9d31ae682a0a29dc21e5cc82c8e07d6f324c75c524043e71bfb56c0db3db1c0"
+    },
+    {
+      "path": "patch_026.npz",
+      "sha256": "c195d66ac544319c154da55292fc03ec67fcda69133493a48c29df1267f75af2"
+    },
+    {
+      "path": "patch_027.npz",
+      "sha256": "3cc7f8098cea4a3903238497956ab8c522cba89f42b13b6af62531c0d46bdc1c"
+    },
+    {
+      "path": "patch_028.npz",
+      "sha256": "e46e7e776307eeaf25aa37529d34042f6676de222367934a860fc31b6abcc19f"
+    },
+    {
+      "path": "patch_029.npz",
+      "sha256": "1c267afc32004ee544f77f8151f0dec1d55816bd733d9f3b1b7adc239c20aab4"
+    },
+    {
+      "path": "patch_030.npz",
+      "sha256": "755ca3ee5032dc7bd692750e7e4e698b2ec296e35c37d2df6b27dff17fc858e3"
+    },
+    {
+      "path": "patch_031.npz",
+      "sha256": "3d6ae50f731f3d3f2c53e75b8d60092c3dbba05fd2ef4b0af51b12373d6a71cf"
+    },
+    {
+      "path": "patch_032.npz",
+      "sha256": "73ea1ebfa442ccac989471ddead75f1894cc9b86c15321bf59c5bc6c418784b3"
+    },
+    {
+      "path": "patch_033.npz",
+      "sha256": "f5a24a460aa3ab0836ce378d323edb02fd545ea222561df70ae3a7aa7c1f7d7a"
+    },
+    {
+      "path": "patch_034.npz",
+      "sha256": "61d470ce07d881d5253ff8c8e9aa92a9447bd129f9679a00fc6f6ce39c8ca172"
+    },
+    {
+      "path": "patch_035.npz",
+      "sha256": "7cf6bffb1fcbde34cbd30e634df20d4b44aaaa5c3a59f65cb335a1f00257509b"
+    },
+    {
+      "path": "patch_036.npz",
+      "sha256": "db82cdf16c8e8b5d8fa345f09e5415168142744ce4ffa73cde84397cc975246e"
+    },
+    {
+      "path": "patch_037.npz",
+      "sha256": "bf30592ab5104d1cacf9aa1728c512fa6cd16e526272142f6d18db043c2ac939"
+    },
+    {
+      "path": "patch_038.npz",
+      "sha256": "2b338148108363be708fc226057bf068503de8c60d5f6dd356967ee3b60c48d2"
+    },
+    {
+      "path": "patch_039.npz",
+      "sha256": "ba7433834d9464dc4841260a20f96ef7036b05ef639cbfdad042ddc3b1875fbf"
+    },
+    {
+      "path": "patch_040.npz",
+      "sha256": "70751450de8173268d2a0a3fc1318927d92cd8e1a5d81358850c98cf506d22e7"
+    },
+    {
+      "path": "patch_041.npz",
+      "sha256": "0485f0d24bcf15486188d15132360cbaa9b3c79a987fac8eec7d48f2acaee493"
+    },
+    {
+      "path": "patch_042.npz",
+      "sha256": "dacf73e8cfd8459b2c7dabfc9902574bafd213c5ae90b93c02567dc9cc28e5c9"
+    },
+    {
+      "path": "patch_043.npz",
+      "sha256": "4527a0e486613cd5d2a869d61ef06e61aa5f8df2b3af26a139aad60834e57176"
+    },
+    {
+      "path": "patch_044.npz",
+      "sha256": "30e81420b5902ba41a8781ecb6622cd23cdfc85d7f6c14de24194b33b60bfd64"
+    },
+    {
+      "path": "patch_045.npz",
+      "sha256": "e028d02b7fb123879b986325482d7ad16e6724b39b05b762a7d1ad1fec80972b"
+    },
+    {
+      "path": "patch_046.npz",
+      "sha256": "8dc54dfc598c9f38195810384ad4b8f09ea19a57dd09c23b374665fd82ac8c6f"
+    },
+    {
+      "path": "patch_047.npz",
+      "sha256": "8e3eafba68214430a888eb7f0ae102f9be4160d32832dede20abe413e082e9d4"
+    },
+    {
+      "path": "patch_048.npz",
+      "sha256": "300fb7ad928c443859cb1e934b12fe88633c8745153973d4f717bc322fc8bc7d"
+    },
+    {
+      "path": "patch_049.npz",
+      "sha256": "7f01dfe2f7171ae9ae260e2e17aeac17536918e57dc1175eeb37b61ca09678a6"
+    },
+    {
+      "path": "patch_050.npz",
+      "sha256": "ff187936c0205345db595131870743b300752b67ff778c594aa208788f14b184"
+    },
+    {
+      "path": "patch_051.npz",
+      "sha256": "d5b1a54a8db7be3a699a2ab1be686844f3504be720d1a6ed3ecd5ce473cf756e"
+    },
+    {
+      "path": "patch_052.npz",
+      "sha256": "36b30e1fcd7d33797054aab27e5fdc4b26b8db0f9b32b1e03f27345ad72f54f6"
+    },
+    {
+      "path": "patch_053.npz",
+      "sha256": "2ae64d49662f6ec221681510504b638aa1b9972f9808a06bf49660a3bf15a365"
+    },
+    {
+      "path": "patch_054.npz",
+      "sha256": "d2d99e7caba67493403f8071fa4c46da2cd02e6a790d3c8661f09fb08e6f42f3"
+    },
+    {
+      "path": "patch_055.npz",
+      "sha256": "f9382f1ffe10cdaa54238bda7dde13342e220b0808f9128efbdc4bd8811d5459"
+    },
+    {
+      "path": "patch_056.npz",
+      "sha256": "95039219b997098c804a40fc117d1b69e58f7e5ab31d4bc93aa3b1beb8f79a5e"
+    },
+    {
+      "path": "patch_057.npz",
+      "sha256": "823804df13c208b5c36a44265c9c6c818a139d0f1dec671833495c32e957be02"
+    }
+  ],
+  "elapsed_seconds": 3.827101600007154,
+  "semantics": "Sparse numerical readout repair only. Original arrays/results retained. No changes to learned models, posterior Normal parameters, proposal samples, actual observations or scientific arms."
+}

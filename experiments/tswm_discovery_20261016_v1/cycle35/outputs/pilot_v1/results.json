@@ -1,0 +1,194 @@
+[
+  {
+    "dataset": "solar",
+    "arm": "N",
+    "seed": 2026351,
+    "best_step": 400,
+    "best_val_mae": 0.30165820556819367,
+    "best_metrics": {
+      "step": 400,
+      "fused_mae": 0.30165820556819367,
+      "fused_mse": 0.41645091102807924,
+      "num_mae": 0.30165820556819367,
+      "num_mse": 0.41645091102807924,
+      "latent_mae": 0.18147595519724402,
+      "num_latent_mae": 0.18147595519724402,
+      "predictor_sha256": "f85abaaafe634383554422235ff9e23dbbcc5c759262de463ce3605de611124e"
+    },
+    "seconds": 17.849731900001643,
+    "peak_allocated_bytes": 70822912,
+    "initialization": {
+      "teacher": "82033b5e6a5bdaac5383140ca2898ab6377fbbe92fa95af41bfd70e34414a6b2",
+      "predictor": "48356c97af38fc8aa172fd04bba95fa94f38b467694d25f1bcde5ca401511965",
+      "g": null,
+      "project": null
+    },
+    "best_checkpoint_sha256": "b22165dac702659a3ce8517d2fc6c520ec51e72b1f10112f67e58269b94aec82",
+    "predictions_sha256": "56ff85726de08acda60868f2ebc89c9150d60bc10890e4bf12e8b3e05764099a",
+    "trainable_parameters": 96288,
+    "last_500_relative_val_improvement": 0.0,
+    "encoder_and_decoder_unchanged": true,
+    "updates": 2000,
+    "schedule_sha256": "af27b993ff00ad3163d8437ba785bc2e48e979fbbf228c6b15e969a9fffb9765"
+  },
+  {
+    "dataset": "solar",
+    "arm": "JZ",
+    "seed": 2026351,
+    "best_step": 1200,
+    "best_val_mae": 0.2694859927863751,
+    "best_metrics": {
+      "step": 1200,
+      "fused_mae": 0.2694859927863751,
+      "fused_mse": 0.3446068940657356,
+      "num_mae": 0.3041201623131801,
+      "num_mse": 0.4167909845140528,
+      "latent_mae": 0.10004060177439913,
+      "num_latent_mae": 0.10295614003411775,
+      "predictor_sha256": "31d1302541e58b449a02b5d66c7030b7d4d26340865d2ecb4e3f9b52fbf3e3f1"
+    },
+    "seconds": 21.796456799987936,
+    "peak_allocated_bytes": 105577984,
+    "initialization": {
+      "teacher": "82033b5e6a5bdaac5383140ca2898ab6377fbbe92fa95af41bfd70e34414a6b2",
+      "predictor": "48356c97af38fc8aa172fd04bba95fa94f38b467694d25f1bcde5ca401511965",
+      "g": "eb40ad4c282e647ca8daee598b1b41d275a19dde7022386ddf73a7430f9e949e",
+      "project": null
+    },
+    "best_checkpoint_sha256": "f356b37a2767057ed869f478549de854a08740e82d6a5466a6c7656023cff067",
+    "predictions_sha256": "e80254ebe69715f6c833d1d1695a5e8f5a92a20ab458731f5d5f5e2b76ca537a",
+    "trainable_parameters": 2075936,
+    "last_500_relative_val_improvement": 0.0,
+    "encoder_and_decoder_unchanged": true,
+    "updates": 2000,
+    "schedule_sha256": "af27b993ff00ad3163d8437ba785bc2e48e979fbbf228c6b15e969a9fffb9765"
+  },
+  {
+    "dataset": "solar",
+    "arm": "JZ_N",
+    "seed": 2026351,
+    "best_step": 1100,
+    "best_val_mae": 0.2685384169171194,
+    "best_metrics": {
+      "step": 1100,
+      "fused_mae": 0.2685384169171194,
+      "fused_mse": 0.3334113818932962,
+      "num_mae": 0.3011359573133941,
+      "num_mse": 0.42207952124588755,
+      "latent_mae": 0.10113592819283598,
+      "num_latent_mae": 0.10505924053779504,
+      "predictor_sha256": "291fdf7316a4d810c03d19e646eb8c0c590f0dbd80c2971c09cea79a094e56df"
+    },
+    "seconds": 22.90625389997149,
+    "peak_allocated_bytes": 119809024,
+    "initialization": {
+      "teacher": "82033b5e6a5bdaac5383140ca2898ab6377fbbe92fa95af41bfd70e34414a6b2",
+      "predictor": "48356c97af38fc8aa172fd04bba95fa94f38b467694d25f1bcde5ca401511965",
+      "g": "eb40ad4c282e647ca8daee598b1b41d275a19dde7022386ddf73a7430f9e949e",
+      "project": null
+    },
+    "best_checkpoint_sha256": "3686897cf95a31d96e80eff28b04d016fcb2cfa08206159e06e88afde06259a9",
+    "predictions_sha256": "2f149833666155fd7504ca31aba0f1d6d3f19985e3ca03ca18ece61691bb5fcd",
+    "trainable_parameters": 2075936,
+    "last_500_relative_val_improvement": 0.0,
+    "encoder_and_decoder_unchanged": true,
+    "updates": 2000,
+    "schedule_sha256": "af27b993ff00ad3163d8437ba785bc2e48e979fbbf228c6b15e969a9fffb9765"
+  },
+  {
+    "dataset": "solar",
+    "arm": "PZ",
+    "seed": 2026351,
+    "best_step": 1000,
+    "best_val_mae": 0.27405089291165247,
+    "best_metrics": {
+      "step": 1000,
+      "fused_mae": 0.27405089291165247,
+      "fused_mse": 0.34298848286228356,
+      "num_mae": 0.3050376306371583,
+      "num_mse": 0.43156737425271025,
+      "latent_mae": 0.1301772309810791,
+      "num_latent_mae": 0.21553975770485054,
+      "predictor_sha256": "fd28d5ee5ba3ee807ed5075542ae8b3a82137c34dc0f04f50811ee7822b9a0dc"
+    },
+    "seconds": 22.673263999982737,
+    "peak_allocated_bytes": 123353088,
+    "initialization": {
+      "teacher": "82033b5e6a5bdaac5383140ca2898ab6377fbbe92fa95af41bfd70e34414a6b2",
+      "predictor": "48356c97af38fc8aa172fd04bba95fa94f38b467694d25f1bcde5ca401511965",
+      "g": "eb40ad4c282e647ca8daee598b1b41d275a19dde7022386ddf73a7430f9e949e",
+      "project": null
+    },
+    "best_checkpoint_sha256": "e326d9339dfe4b742fd6b1baf7bba63b11149715d2fbda507358d8c37fa1d6f5",
+    "predictions_sha256": "89df604c71f4057ebee03e39197206827592f8a1c6ee8506de4ec940c9e81e37",
+    "trainable_parameters": 2075936,
+    "last_500_relative_val_improvement": 0.0,
+    "encoder_and_decoder_unchanged": true,
+    "updates": 2000,
+    "schedule_sha256": "af27b993ff00ad3163d8437ba785bc2e48e979fbbf228c6b15e969a9fffb9765"
+  },
+  {
+    "dataset": "solar",
+    "arm": "PY",
+    "seed": 2026351,
+    "best_step": 1000,
+    "best_val_mae": 0.2775735128015388,
+    "best_metrics": {
+      "step": 1000,
+      "fused_mae": 0.2775735128015388,
+      "fused_mse": 0.35615423299972004,
+      "num_mae": 0.3050929416836809,
+      "num_mse": 0.43184789303639054,
+      "latent_mae": 0.23457159593846033,
+      "num_latent_mae": 0.21488182109247134,
+      "predictor_sha256": "69f6b38583461f7410f4b52325a017e14978f38b5ed5de2912ba54bae2685ccd"
+    },
+    "seconds": 20.446723400003975,
+    "peak_allocated_bytes": 133702144,
+    "initialization": {
+      "teacher": "82033b5e6a5bdaac5383140ca2898ab6377fbbe92fa95af41bfd70e34414a6b2",
+      "predictor": "48356c97af38fc8aa172fd04bba95fa94f38b467694d25f1bcde5ca401511965",
+      "g": "eb40ad4c282e647ca8daee598b1b41d275a19dde7022386ddf73a7430f9e949e",
+      "project": "5f4124950722f0a0d4c84923183987be499562f0e8676a15b2027a4f8292903a"
+    },
+    "best_checkpoint_sha256": "e8c5d16afe7a723aec94235fbac388254b7dc8562c10d8af86e7fab622d35455",
+    "predictions_sha256": "099d760648e05120a28f7bd31db9097a7b2d9931d6adb756d9847d4cebb6c919",
+    "trainable_parameters": 2075968,
+    "last_500_relative_val_improvement": 0.0,
+    "encoder_and_decoder_unchanged": true,
+    "updates": 2000,
+    "schedule_sha256": "af27b993ff00ad3163d8437ba785bc2e48e979fbbf228c6b15e969a9fffb9765"
+  },
+  {
+    "dataset": "solar",
+    "arm": "PZ_NC",
+    "seed": 2026351,
+    "best_step": 1300,
+    "best_val_mae": 0.3022084363241165,
+    "best_metrics": {
+      "step": 1300,
+      "fused_mae": 0.3022084363241165,
+      "fused_mse": 0.4247279146723759,
+      "num_mae": 0.3019718217247536,
+      "num_mse": 0.42393537866822933,
+      "latent_mae": 0.12822759283471455,
+      "num_latent_mae": 0.21278616576229484,
+      "predictor_sha256": "9e37efb976b15d98368689aa879a06940070863c3d9d73476b5f8428e7328ba3"
+    },
+    "seconds": 22.673914099985268,
+    "peak_allocated_bytes": 142974464,
+    "initialization": {
+      "teacher": "82033b5e6a5bdaac5383140ca2898ab6377fbbe92fa95af41bfd70e34414a6b2",
+      "predictor": "48356c97af38fc8aa172fd04bba95fa94f38b467694d25f1bcde5ca401511965",
+      "g": "eb40ad4c282e647ca8daee598b1b41d275a19dde7022386ddf73a7430f9e949e",
+      "project": null
+    },
+    "best_checkpoint_sha256": "e1673e9512129589f5f9da443e5ade8eef5532ec7067ac2cfce30f6f5a5346f8",
+    "predictions_sha256": "ae597a43ef18aa704c16e0dd650408490312a695012fd208c2d6c31e12c160d0",
+    "trainable_parameters": 2075936,
+    "last_500_relative_val_improvement": 0.0,
+    "encoder_and_decoder_unchanged": true,
+    "updates": 2000,
+    "schedule_sha256": "af27b993ff00ad3163d8437ba785bc2e48e979fbbf228c6b15e969a9fffb9765"
+  }
+]

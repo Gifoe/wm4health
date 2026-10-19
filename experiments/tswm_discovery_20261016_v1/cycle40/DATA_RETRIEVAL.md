@@ -1,0 +1,9 @@
+# Public-source retrieval route
+
+ETTh1 repository revision: `1d16c8f4f943005d613b5bc962e9eeb06058cf07`. Server outbound GitHub API refused the initial connection, before any data download/model fitting. Local default proxy also failed; a process-local Requests Session with `trust_env=False`, normal TLS verification retained, accessed the official GitHub API. Direct raw file retrieval timed out, so the same commit's Git tree/blob API supplied the file as base64. Its Git blob identity was verified before writing; signal SHA256 is `f18de3ad269cef59bb07b5438d79bb3042d3be49bdeecf01c1cd6d29695ee066`. The canonical pinned raw URL in intake.json identifies the content, not the HTTP route that successfully transferred it.
+
+Jena's two official 2016 ZIPs were downloaded locally over normal TLS from the provider URLs in intake.json. All three source files then transferred by pinned-host SSH/SFTP, and full remote reads were SHA256-compared with local bytes. This fallback changed transport, not source or data definitions. No unverified mirror, disabled certificate verification or data interpolation was used.
+
+Two dependency wheels were retrieved from official PyPI metadata/distribution URLs over normal TLS and checked against PyPI's SHA256. The server installed these with `--no-index --find-links` and `--no-deps --target cycle40/vendor`; existing global/venv installations were left unchanged. Source and data receipts preserve exact filenames/versions and hashes.
+
+V1/V2 intake scripts and V1 qualification/source RNG-device mismatch are preserved. V3 intake and V2 qualification passed before the eight formal fits. The 100 synthetic preflight updates per family are discarded qualification models, separate from the 16000 formal screen updates. No results from the failed attempts or synthetic preflight are treated as model-performance evidence.

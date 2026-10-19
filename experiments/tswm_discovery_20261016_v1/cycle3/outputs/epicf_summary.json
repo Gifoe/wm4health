@@ -1,0 +1,170 @@
+{
+  "groups": [
+    {
+      "variant": "official",
+      "n_training_initializations": 3,
+      "factual_rmse_zscore": {
+        "mean": 0.33004499475161236,
+        "std_initialization": 0.005808170357952014
+      },
+      "cf_rmse_zscore": {
+        "mean": 0.9604570070902506,
+        "std_initialization": 0.01840308827269325
+      },
+      "effect_rmse_zscore": {
+        "mean": 0.9655318856239319,
+        "std_initialization": 0.020296829766170817
+      },
+      "cf_nrmse_county_range_upstream": {
+        "mean": 0.2503652622302373,
+        "std_initialization": 0.01868901204919385
+      },
+      "cate_rmse_upstream": {
+        "mean": 0.18637230208062583,
+        "std_initialization": 0.008856355163731806
+      }
+    },
+    {
+      "variant": "no_policy",
+      "n_training_initializations": 3,
+      "factual_rmse_zscore": {
+        "mean": 0.3417157431443532,
+        "std_initialization": 0.005733444417546985
+      },
+      "cf_rmse_zscore": {
+        "mean": 0.8640608986218771,
+        "std_initialization": 0.012941063856186983
+      },
+      "effect_rmse_zscore": {
+        "mean": 0.8478564421335856,
+        "std_initialization": 0.017428907157152666
+      },
+      "cf_nrmse_county_range_upstream": {
+        "mean": 0.20787610113620758,
+        "std_initialization": 0.021188824863945382
+      },
+      "cate_rmse_upstream": {
+        "mean": 0.1586235497750034,
+        "std_initialization": 0.000955823555427145
+      }
+    },
+    {
+      "variant": "no_states",
+      "n_training_initializations": 3,
+      "factual_rmse_zscore": {
+        "mean": 0.5734393199284872,
+        "std_initialization": 0.017024126026789325
+      },
+      "cf_rmse_zscore": {
+        "mean": 1.3715749184290569,
+        "std_initialization": 0.0648426774667518
+      },
+      "effect_rmse_zscore": {
+        "mean": 1.364143967628479,
+        "std_initialization": 0.06517785049454305
+      },
+      "cf_nrmse_county_range_upstream": {
+        "mean": 0.4752180377642314,
+        "std_initialization": 0.12431204108266687
+      },
+      "cate_rmse_upstream": {
+        "mean": 0.31301415585994863,
+        "std_initialization": 0.06981631415492352
+      }
+    },
+    {
+      "variant": "no_policy_no_states",
+      "n_training_initializations": 3,
+      "factual_rmse_zscore": {
+        "mean": 0.606576402982076,
+        "std_initialization": 0.02988424726063067
+      },
+      "cf_rmse_zscore": {
+        "mean": 1.2882954676946003,
+        "std_initialization": 0.027739848234204837
+      },
+      "effect_rmse_zscore": {
+        "mean": 1.276942491531372,
+        "std_initialization": 0.0
+      },
+      "cf_nrmse_county_range_upstream": {
+        "mean": 0.4085503816604614,
+        "std_initialization": 0.01510296026830246
+      },
+      "cate_rmse_upstream": {
+        "mean": 0.2500345403669482,
+        "std_initialization": 0.0
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "candidate": "no_policy",
+      "reference": "official",
+      "metric": "cf_rmse",
+      "unique_counties": 153,
+      "candidate_minus_reference": -0.09832635870324258,
+      "descriptive_percentile_interval_95": [
+        -0.15361547956697458,
+        -0.04803511637436332
+      ]
+    },
+    {
+      "candidate": "no_policy",
+      "reference": "official",
+      "metric": "effect_rmse",
+      "unique_counties": 153,
+      "candidate_minus_reference": -0.12029603783117515,
+      "descriptive_percentile_interval_95": [
+        -0.17795799004108137,
+        -0.06373569581547331
+      ]
+    },
+    {
+      "candidate": "no_states",
+      "reference": "official",
+      "metric": "cf_rmse",
+      "unique_counties": 153,
+      "candidate_minus_reference": 0.4108189053453405,
+      "descriptive_percentile_interval_95": [
+        0.31941820825161715,
+        0.5008715218249574
+      ]
+    },
+    {
+      "candidate": "no_states",
+      "reference": "official",
+      "metric": "effect_rmse",
+      "unique_counties": 153,
+      "candidate_minus_reference": 0.3965501205424514,
+      "descriptive_percentile_interval_95": [
+        0.28932843497664207,
+        0.5012625758385444
+      ]
+    },
+    {
+      "candidate": "no_policy_no_states",
+      "reference": "official",
+      "metric": "cf_rmse",
+      "unique_counties": 153,
+      "candidate_minus_reference": 0.3277658542028451,
+      "descriptive_percentile_interval_95": [
+        0.27074500933130086,
+        0.39515468181026675
+      ]
+    },
+    {
+      "candidate": "no_policy_no_states",
+      "reference": "official",
+      "metric": "effect_rmse",
+      "unique_counties": 153,
+      "candidate_minus_reference": 0.3078352418112026,
+      "descriptive_percentile_interval_95": [
+        0.22274329632821163,
+        0.39439041732254687
+      ]
+    }
+  ],
+  "bootstrap_replicates": 3000,
+  "bootstrap_scope": "Exploratory descriptive conditional-on-this-trained-dataset interval; duplicate counties removed; no independent data repetitions or multiple-testing guarantee"
+}

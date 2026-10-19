@@ -1,0 +1,47 @@
+{
+  "raw_csv_hashes": 26,
+  "window_files_checked": 5,
+  "every_window_reconstructed": 15584,
+  "raw_reconstruction_max_error": 0.0,
+  "split_recording_sets_disjoint": true,
+  "normalization_train_only": true,
+  "future_input_columns": [
+    "load_in",
+    "load_out",
+    "hatch",
+    "pot_1",
+    "pot_2"
+  ],
+  "future_sensor_or_clock_inputs": false,
+  "checks": [
+    {
+      "split": "train",
+      "windows": 5648,
+      "sha256": "e18fb6b137b21e8ba6d286a7d51111f5039862dea0e7258bd8343dcf6978f1b9"
+    },
+    {
+      "split": "val",
+      "windows": 1242,
+      "sha256": "90a45dae5b2aa1cc37f1a13ac1b7bf4642945638af01af0056071ae532358371"
+    },
+    {
+      "split": "test",
+      "windows": 2484,
+      "sha256": "e843d97baf369fb731c0ef63fc772e68cce8fd897ac13ad6ce9c68d31ac0ff35"
+    },
+    {
+      "split": "wave_matched",
+      "windows": 4968,
+      "sha256": "465f10c7e2a684bfefacc406e6bb939a2893c1464eb5b189de9691c2f0264a5a"
+    },
+    {
+      "split": "wave_acquisition",
+      "windows": 1242,
+      "sha256": "79d2297db3436e1a3f929be12acfe5fb3e0b109bc88e10f326db8b21b47e6fdc"
+    }
+  ],
+  "seconds": 1.8234918000089237,
+  "script_sha256": "f4773bd8e9a7a1caaa2742b0576d42c0229b11f0bd030a6324bed988e10c2d40",
+  "scope": "All window values/layout/hashes checked against raw recordings and frozen roles. Command availability is supported by the archived protocol,not inferred from data correlations.",
+  "pass": true
+}

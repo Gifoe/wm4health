@@ -1,0 +1,162 @@
+[
+  {
+    "family": "silverbox",
+    "method": "conditional96",
+    "nrmse128": 0.8093212627506076,
+    "seed_std": 0.032586133967111595,
+    "n_seeds": 3,
+    "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+  },
+  {
+    "family": "silverbox",
+    "method": "compiled64",
+    "nrmse128": 0.7824536181256079,
+    "seed_std": 0.03252809335638977,
+    "n_seeds": 3,
+    "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+  },
+  {
+    "family": "silverbox",
+    "method": "conditional128",
+    "nrmse128": 0.808299762590487,
+    "seed_std": 0.032766062368594764,
+    "n_seeds": 3,
+    "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+  },
+  {
+    "family": "silverbox",
+    "method": "native_attention64",
+    "nrmse128": 0.9428043823239131,
+    "seed_std": 0.020000085944272248,
+    "n_seeds": 3,
+    "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+  },
+  {
+    "family": "silverbox",
+    "method": "native_attention64_chunk32",
+    "nrmse128": 0.9053912957545288,
+    "seed_std": 0.0264552298233568,
+    "n_seeds": 3,
+    "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+  },
+  {
+    "family": "silverbox",
+    "method": "arx_context_selected",
+    "nrmse128": 0.12151865559254613,
+    "seed_std": null,
+    "n_seeds": 1,
+    "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+  },
+  {
+    "family": "silverbox",
+    "method": "persistence",
+    "nrmse128": 1.272272908858605,
+    "seed_std": null,
+    "n_seeds": 1,
+    "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+  },
+  {
+    "family": "silverbox",
+    "method": "train_mean",
+    "nrmse128": 0.8984313497484935,
+    "seed_std": null,
+    "n_seeds": 1,
+    "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+  },
+  {
+    "family": "silverbox",
+    "method": "pretrained_native_icl",
+    "nrmse128": 0.8666318657811769,
+    "seed_std": null,
+    "n_seeds": 1,
+    "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+  },
+  {
+    "family": "silverbox",
+    "method": "pretrained_pcfm_cd_glue0",
+    "nrmse128": 0.8503985700233646,
+    "seed_std": null,
+    "n_seeds": 1,
+    "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+  },
+  {
+    "family": "cascaded_tanks",
+    "method": "conditional96",
+    "nrmse128": 1.0964811557991638,
+    "seed_std": 0.035964771125237834,
+    "n_seeds": 3,
+    "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+  },
+  {
+    "family": "cascaded_tanks",
+    "method": "compiled64",
+    "nrmse128": 1.0552386877054063,
+    "seed_std": 0.08235453464426527,
+    "n_seeds": 3,
+    "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+  },
+  {
+    "family": "cascaded_tanks",
+    "method": "conditional128",
+    "nrmse128": 1.1436626221730612,
+    "seed_std": 0.14638830027515526,
+    "n_seeds": 3,
+    "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+  },
+  {
+    "family": "cascaded_tanks",
+    "method": "native_attention64",
+    "nrmse128": 1.081088325428077,
+    "seed_std": 0.16250643514806687,
+    "n_seeds": 3,
+    "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+  },
+  {
+    "family": "cascaded_tanks",
+    "method": "native_attention64_chunk32",
+    "nrmse128": 1.1066867206686186,
+    "seed_std": 0.08017004022343098,
+    "n_seeds": 3,
+    "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+  },
+  {
+    "family": "cascaded_tanks",
+    "method": "arx_context_selected",
+    "nrmse128": 6.657338269733937,
+    "seed_std": null,
+    "n_seeds": 1,
+    "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+  },
+  {
+    "family": "cascaded_tanks",
+    "method": "persistence",
+    "nrmse128": 1.2342228142343699,
+    "seed_std": null,
+    "n_seeds": 1,
+    "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+  },
+  {
+    "family": "cascaded_tanks",
+    "method": "train_mean",
+    "nrmse128": 0.968690989839745,
+    "seed_std": null,
+    "n_seeds": 1,
+    "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+  },
+  {
+    "family": "cascaded_tanks",
+    "method": "pretrained_native_icl",
+    "nrmse128": 1.0786873451742032,
+    "seed_std": null,
+    "n_seeds": 1,
+    "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+  },
+  {
+    "family": "cascaded_tanks",
+    "method": "pretrained_pcfm_cd_glue0",
+    "nrmse128": 1.180374212022161,
+    "seed_std": null,
+    "n_seeds": 1,
+    "record_weighting": "equal mean inside plant; repeated contexts are not independent plants"
+  }
+]

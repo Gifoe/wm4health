@@ -1,0 +1,709 @@
+{
+  "verified": true,
+  "independent_arithmetic": "NumPy float64 from saved GPU float32 tensors; not a new training run",
+  "metric_tolerance": 2e-06,
+  "rows": [
+    {
+      "dataset": "NP",
+      "horizon": 24,
+      "shift": 1,
+      "metrics": {
+        "target_current_chart_difference": {
+          "relative_L2_mean": 0.015465045682380388,
+          "absolute_max": 0.34548258781433105,
+          "cosine_mean": 0.9998371974175797
+        },
+        "target_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        },
+        "condition_current_chart_difference": {
+          "relative_L2_mean": 0.005100961639567815,
+          "absolute_max": 0.02991306781768799,
+          "cosine_mean": 0.9999859005196143
+        },
+        "condition_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "NP",
+      "horizon": 24,
+      "shift": 8,
+      "metrics": {
+        "target_current_chart_difference": {
+          "relative_L2_mean": 0.07402802442968624,
+          "absolute_max": 0.9274692535400391,
+          "cosine_mean": 0.9969473281922112
+        },
+        "target_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        },
+        "condition_current_chart_difference": {
+          "relative_L2_mean": 0.03433827290814932,
+          "absolute_max": 0.18326520919799805,
+          "cosine_mean": 0.9993595027635573
+        },
+        "condition_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "NP",
+      "horizon": 24,
+      "shift": 24,
+      "metrics": {
+        "target_current_chart_difference": {
+          "relative_L2_mean": 0.1877744488186163,
+          "absolute_max": 1.3091175556182861,
+          "cosine_mean": 0.9829251303570533
+        },
+        "target_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        },
+        "condition_current_chart_difference": {
+          "relative_L2_mean": 0.08273760235539121,
+          "absolute_max": 0.45262420177459717,
+          "cosine_mean": 0.9962834581594967
+        },
+        "condition_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "NP",
+      "horizon": 360,
+      "shift": 1,
+      "metrics": {
+        "target_current_chart_difference": {
+          "relative_L2_mean": 0.0003945049100815613,
+          "absolute_max": 0.011339187622070312,
+          "cosine_mean": 0.9999998844388327
+        },
+        "target_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        },
+        "condition_current_chart_difference": {
+          "relative_L2_mean": 0.0008194786852752528,
+          "absolute_max": 0.009742677211761475,
+          "cosine_mean": 0.9999995649003909
+        },
+        "condition_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "NP",
+      "horizon": 360,
+      "shift": 8,
+      "metrics": {
+        "target_current_chart_difference": {
+          "relative_L2_mean": 0.0022105492448388363,
+          "absolute_max": 0.06178569793701172,
+          "cosine_mean": 0.9999968788219333
+        },
+        "target_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        },
+        "condition_current_chart_difference": {
+          "relative_L2_mean": 0.0061540279740252835,
+          "absolute_max": 0.07132899761199951,
+          "cosine_mean": 0.9999755781823765
+        },
+        "condition_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "NP",
+      "horizon": 360,
+      "shift": 24,
+      "metrics": {
+        "target_current_chart_difference": {
+          "relative_L2_mean": 0.005626095260945815,
+          "absolute_max": 0.12561988830566406,
+          "cosine_mean": 0.9999840369271937
+        },
+        "target_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        },
+        "condition_current_chart_difference": {
+          "relative_L2_mean": 0.015584693371197568,
+          "absolute_max": 0.16861188411712646,
+          "cosine_mean": 0.9998477808084916
+        },
+        "condition_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "PJM",
+      "horizon": 24,
+      "shift": 1,
+      "metrics": {
+        "target_current_chart_difference": {
+          "relative_L2_mean": 0.005342405490157189,
+          "absolute_max": 0.06680035591125488,
+          "cosine_mean": 0.9999805518869554
+        },
+        "target_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        },
+        "condition_current_chart_difference": {
+          "relative_L2_mean": 0.004166954993097615,
+          "absolute_max": 0.05615198612213135,
+          "cosine_mean": 0.9999882951266105
+        },
+        "condition_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "PJM",
+      "horizon": 24,
+      "shift": 8,
+      "metrics": {
+        "target_current_chart_difference": {
+          "relative_L2_mean": 0.042428304198164256,
+          "absolute_max": 0.5330196022987366,
+          "cosine_mean": 0.9983127997702567
+        },
+        "target_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        },
+        "condition_current_chart_difference": {
+          "relative_L2_mean": 0.03155741906451079,
+          "absolute_max": 0.48202574253082275,
+          "cosine_mean": 0.9993303047809355
+        },
+        "condition_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "PJM",
+      "horizon": 24,
+      "shift": 24,
+      "metrics": {
+        "target_current_chart_difference": {
+          "relative_L2_mean": 0.10531709415471253,
+          "absolute_max": 0.6447477340698242,
+          "cosine_mean": 0.9933942686968658
+        },
+        "target_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        },
+        "condition_current_chart_difference": {
+          "relative_L2_mean": 0.06852048022161877,
+          "absolute_max": 0.7067989110946655,
+          "cosine_mean": 0.997136106183735
+        },
+        "condition_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "PJM",
+      "horizon": 360,
+      "shift": 1,
+      "metrics": {
+        "target_current_chart_difference": {
+          "relative_L2_mean": 0.0008164688253523788,
+          "absolute_max": 0.014700889587402344,
+          "cosine_mean": 0.9999995956290113
+        },
+        "target_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        },
+        "condition_current_chart_difference": {
+          "relative_L2_mean": 0.0004801922921126902,
+          "absolute_max": 0.007323503494262695,
+          "cosine_mean": 0.9999998355216997
+        },
+        "condition_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "PJM",
+      "horizon": 360,
+      "shift": 8,
+      "metrics": {
+        "target_current_chart_difference": {
+          "relative_L2_mean": 0.0054127878252812015,
+          "absolute_max": 0.05216860771179199,
+          "cosine_mean": 0.9999827032796742
+        },
+        "target_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        },
+        "condition_current_chart_difference": {
+          "relative_L2_mean": 0.003404340118617978,
+          "absolute_max": 0.037016987800598145,
+          "cosine_mean": 0.9999923885040298
+        },
+        "condition_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "PJM",
+      "horizon": 360,
+      "shift": 24,
+      "metrics": {
+        "target_current_chart_difference": {
+          "relative_L2_mean": 0.014215868939688132,
+          "absolute_max": 0.11424803733825684,
+          "cosine_mean": 0.9998791404254074
+        },
+        "target_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        },
+        "condition_current_chart_difference": {
+          "relative_L2_mean": 0.007637359640788985,
+          "absolute_max": 0.09263849258422852,
+          "cosine_mean": 0.999963170676921
+        },
+        "condition_fixed_chart_control": {
+          "relative_L2_mean": 0.0,
+          "absolute_max": 0.0,
+          "cosine_mean": 1.0
+        }
+      }
+    }
+  ],
+  "npz_files": [
+    {
+      "path": "outputs/native_chart/NP_H24_arrays.npz",
+      "bytes": 26841757,
+      "sha256": "17cdab359c1059ff183e33186789442b6885bca385a339e41ea6e30b1a527131"
+    },
+    {
+      "path": "outputs/native_chart/NP_H360_arrays.npz",
+      "bytes": 115173012,
+      "sha256": "ee7362eba13a312606c4629134e6a1682b890840748ce0b86e9cf54f5013e10f"
+    },
+    {
+      "path": "outputs/native_chart/PJM_H24_arrays.npz",
+      "bytes": 62743971,
+      "sha256": "68622236b0141dc1d89dc25b0bb1f4542cc62fd78ae94d755206fdef8b227a83"
+    },
+    {
+      "path": "outputs/native_chart/PJM_H360_arrays.npz",
+      "bytes": 268470680,
+      "sha256": "7257c500d73c55b93ab8637276008834f5dbcb0d8cc314310d49dfd8d01dd25c"
+    }
+  ],
+  "arrays_checked": 124,
+  "train_origins_checked": 128,
+  "native_source_files": [
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/__init__.py",
+      "bytes": 24,
+      "sha256": "8b084a9f378124b2b1a51563bf3c22444eb7ff33692017da28b2136ae56987ed"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/__init__.py",
+      "bytes": 450,
+      "sha256": "90281d85719c9c99925c5958474aa70933cfde24e6ba7e5f2ef65d5679a5eeef"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/deep_forecasting_model_base.py",
+      "bytes": 40237,
+      "sha256": "6377c68d812c7a9455356497dba757641f33e41ce9b393ea92cf122df4f109e5"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/__init__.py",
+      "bytes": 2353,
+      "sha256": "00ad3153b353cd53c7942e4b22b7f58fe7b4f4ae3f45cb6d06ea644d793adb12"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/layers/AutoCorrelation.py",
+      "bytes": 6831,
+      "sha256": "0491f29e5a6cc70f25d3fd53e28e039868a2302395c16144db9e550a24144e96"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/layers/Autoformer_EncDec.py",
+      "bytes": 7069,
+      "sha256": "9d3e7fb449c0025df297de3371bf88dd7551cf4b3d9a156a5a8f1abb85df025a"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/layers/Conv_Blocks.py",
+      "bytes": 2655,
+      "sha256": "e7b13cb38557718338e041b535deafc6a4e870f23f3a599a895d2ae26c99e7de"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/layers/Crossformer_EncDec.py",
+      "bytes": 4589,
+      "sha256": "c57cc68d8aa3b4910e8e511c6c4345630e2b3a9da2e45b98407ec87d4c54996c"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/layers/ETSformer_EncDec.py",
+      "bytes": 11571,
+      "sha256": "d8c189515226413e371db399aadb00aa379c2b5d93db5cb0fbcf68003b76f4e1"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/layers/Embed.py",
+      "bytes": 7087,
+      "sha256": "7e49caeb63ceabcbd7ca6b8122cf59553bb5f18e54f771b846db9ac5a44274a3"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/layers/FourierCorrelation.py",
+      "bytes": 8236,
+      "sha256": "62e920667402eb0fe23d9c42c19214dc91b7fe58641e98fe2f757bfbc6bf7c87"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/layers/MultiWaveletCorrelation.py",
+      "bytes": 24381,
+      "sha256": "d16680006abe1ddda2ed3186968ad6ec6eca84680b9c533b3d98567e721cd090"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/layers/Pyraformer_EncDec.py",
+      "bytes": 7818,
+      "sha256": "1b7603e1ffbee7277ba2cbe30e045ed263a469d4639b7b58841e2f06e058f141"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/layers/SelfAttention_Family.py",
+      "bytes": 12390,
+      "sha256": "c3a45401d0dd532df45e85da2d158c056b7eb07337dacf053f8aeb698c26dc59"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/layers/StandardNorm.py",
+      "bytes": 2261,
+      "sha256": "ab4ac8ab190f4c920c1416d5de268fafc2ad44a77f54eb7d618aabbc183b4a84"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/layers/Transformer_EncDec.py",
+      "bytes": 4930,
+      "sha256": "cb24a9a94eadff626d826463b28e3a89aa37aba1b724a3f460526c263118b336"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/layers/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/models/Autoformer.py",
+      "bytes": 7446,
+      "sha256": "b2be3b094537beb7ef74cd2ddf546a716dcc006d98ebee606423464ea43397d8"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/models/Crossformer.py",
+      "bytes": 7342,
+      "sha256": "bdb699e8dbc70f072357367f2f105df6977779facaea3ba6bdb22711d82f7ad9"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/models/DLinear.py",
+      "bytes": 4726,
+      "sha256": "9b5cade2b638346c398991b49cbd4a0a7f84fe0b39cf2725ef33d959aa7958fa"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/models/ETSformer.py",
+      "bytes": 5041,
+      "sha256": "0689de5fb2984207241a2b51b8da9186865a06d6471366cf5c8b0cc93824e59f"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/models/FEDformer.py",
+      "bytes": 8218,
+      "sha256": "cd2ce6d7864bb681f42d3c4d96a6aeb7942bd5a00fbf76da361b9585ba06eb94"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/models/FiLM.py",
+      "bytes": 12209,
+      "sha256": "dfe2a908ffceb7c08f5384d0460c36df7222726eaaa9c19fd141c36e25167c5d"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/models/Informer.py",
+      "bytes": 7133,
+      "sha256": "e4d9ddff37c549de415cd06521d5c41fa69e51b2cb58b3be1bf387accb54fea1"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/models/Koopa.py",
+      "bytes": 13731,
+      "sha256": "b24e0eb202aa28ab7961310c2abf4cd9a8abdf2c4a491b588a9f7be8ff604778"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/models/LightTS.py",
+      "bytes": 5519,
+      "sha256": "cc756ac30d283c6839fbc4fdfae513be152caaf8eae51c1b04ed8bef0f277236"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/models/MICN.py",
+      "bytes": 10774,
+      "sha256": "b11f146e5bc4c54ac3f2a69a15577c47132227f7e27e48db91926828d1b023f0"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/models/Nonstationary_Transformer.py",
+      "bytes": 10893,
+      "sha256": "0ceba484602a40a0b6e8156d2d53eaa9e5a2145c4aa6c238e56bfc1204f89d9f"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/models/PatchTST.py",
+      "bytes": 9020,
+      "sha256": "c6b3247a8ac0584218c367629bc391d3bb5cc972aed29287f48f8734ed9612ca"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/models/Pyraformer.py",
+      "bytes": 4297,
+      "sha256": "050222339617ca355cc3f8f65933849d50a0f2a579a932643fbb95a51324227f"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/models/Reformer.py",
+      "bytes": 5302,
+      "sha256": "3cf00b4375b81d5bf07be0d2f4af956beb59c222fe377637ad05b54177ff140c"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/models/TemporalFusionTransformer.py",
+      "bytes": 17692,
+      "sha256": "84d191e8933c7a501f7bb50ce996aa6023fd464d05a581887b7fa1696cdbe555"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/models/TiDE.py",
+      "bytes": 10427,
+      "sha256": "f6097046640636eee52f370191ce9f397f8c77ba3ea8879ebc881edc47d5be02"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/models/TimeMixer.py",
+      "bytes": 20519,
+      "sha256": "374f3f6443509ae07bd12cb89cd5b9204f9fceaea5d43b92d81516be9663edfa"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/models/TimesNet.py",
+      "bytes": 8656,
+      "sha256": "d13f132a4bb0782bdc78b3ab42a14adb31e5582121bc0c2719b0ef6dbe99e6e6"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/models/Transformer.py",
+      "bytes": 6381,
+      "sha256": "b23b111d857273cc2e5d0c01d598e751cc7c8914dcd0870f0430fc2aaf816b22"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/models/iTransformer.py",
+      "bytes": 6146,
+      "sha256": "27f0e509152fdbb8e2b4d2236a82deab4e29052731ddd21bcf9c641518fa4ab6"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/patchs/Linear.py",
+      "bytes": 2854,
+      "sha256": "f860e53ab52069d788b742ed2511e21f8d410276d826afdf6a773e13dfb9a31c"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/patchs/NLinear.py",
+      "bytes": 2946,
+      "sha256": "d1be9098965503b2249ab3396f3f95526eb865b2c10a297587a803aed8b7b208"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/patchs/Triformer.py",
+      "bytes": 11234,
+      "sha256": "fb314cf2573be23a765b4dc4bccc1fbae5feff0b91b9a6b1a9172db0e44376f7"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/utils/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/utils/masking.py",
+      "bytes": 840,
+      "sha256": "c734bc424298367bc3fcf187b4a73476317ffc06411e9ae103d0a77a91d1b386"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/time_series_library/utils/timefeatures.py",
+      "bytes": 4369,
+      "sha256": "700dd1de06943d3225ffd3c10352fc49b8ecd1a029c931fb8cf2bab45a6067f3"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/utils.py",
+      "bytes": 17042,
+      "sha256": "a5f40a51367c6b62600c7cea076575dcfc142fc59e66b61c2055af695afcd1fc"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/worldts/__init__.py",
+      "bytes": 128,
+      "sha256": "bb247a53695e20516aceb72a7265b3e8e2ef05052dd316c697c6fb8699070987"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/worldts/layers/SelfAttention_Family.py",
+      "bytes": 12552,
+      "sha256": "beffcdd3287fc4add2905b15811e7b3b60a8bafa7cb796529786c3b06b84e145"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/worldts/layers/Transformer_EncDec.py",
+      "bytes": 5365,
+      "sha256": "c3bb0a411a6df5bdb86f33589ae851304907084974c0a155138f1902aae653d3"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/worldts/layers/__init__.py",
+      "bytes": 904,
+      "sha256": "f07a2dd4527f5623ebac075b36916fbfa33f1aaecac4d052561e66bbe2e14e17"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/worldts/layers/deterministic_padding.py",
+      "bytes": 830,
+      "sha256": "0df897fc941d769d8f0ffbe18168050403daa9cf4ace75362fc4fcc3fb650096"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/worldts/layers/latent_encoder.py",
+      "bytes": 3463,
+      "sha256": "bdee5fab86a0c12a72b3f3847af6569ca0428ff3a3de6eb7cbcf6abb16fdb608"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/worldts/layers/latent_patchtst.py",
+      "bytes": 19976,
+      "sha256": "3c7272f91f2a108e42891de298f409453240ea947a0da28516db143c0655156f"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/worldts/layers/masking.py",
+      "bytes": 840,
+      "sha256": "c734bc424298367bc3fcf187b4a73476317ffc06411e9ae103d0a77a91d1b386"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/worldts/layers/multimodal_fusion.py",
+      "bytes": 4616,
+      "sha256": "900dbe777ebd169f696428a4ef08eaada917f54d0a1a6ccbe89614bc38b43139"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/worldts/layers/state_to_observation_mlp_decoder.py",
+      "bytes": 4541,
+      "sha256": "8a7406c1d526f0f38c6e8d94dd869b2f648cd44223e2ff00c6bdf8955228efbc"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/worldts/layers/visreg_projector.py",
+      "bytes": 2367,
+      "sha256": "cdbc6c15df1ce5d82b3b2a302e1620c11599e83a8efbabc61ea98f42daf16181"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/worldts/losses/__init__.py",
+      "bytes": 314,
+      "sha256": "8d8820cd1309b57db9782dca6ebc779844abf4ce142e2bf533bfb3fac868177f"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/worldts/losses/latent_state_loss.py",
+      "bytes": 9908,
+      "sha256": "194b9965a8813ef075d76efdecdac040ebe266d91fbb7723a55825aba01c2b71"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/worldts/losses/sigreg_loss.py",
+      "bytes": 1788,
+      "sha256": "0d68c66f5f1401cc9356003b70d713f4f8f8b3df60c94a4305139ebaa9bc3274"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/worldts/losses/visreg_loss.py",
+      "bytes": 3691,
+      "sha256": "a6fa052ebe3b8d3813e6ee8a2943fe3006ac4cba0905c020f6ed9378b6d11faf"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/worldts/models/__init__.py",
+      "bytes": 105,
+      "sha256": "9c74130fd14b0818b99d40a817e0e9c7d88ee5c8add703745411bdda4f424472"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/worldts/models/worldts_model.py",
+      "bytes": 23613,
+      "sha256": "5cf2fc1d1a8b8738d7a7f1c4eb8a017737c13a6c4d06e75e0d24a1873e5d02cd"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/baselines/worldts/worldts.py",
+      "bytes": 36615,
+      "sha256": "20dec8b07fc8b26b555856bc4ffade7901cbc483a22151e5c12748f14c0fdbb0"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/models/__init__.py",
+      "bytes": 218,
+      "sha256": "939ff75bf1dd11bfdfa73a0028d9e5a2ce1497b3e71f5a6ee48f181628efe124"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/models/model_base.py",
+      "bytes": 3154,
+      "sha256": "be5520b4cb1299bd94dd8aa46edc5451d5052ec8fb8c2cf8a8b1edcd2c585532"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/models/model_loader.py",
+      "bytes": 9920,
+      "sha256": "933882a9d9ed93c64433714be635bb09560c5d7532083972eea55e791d0ace66"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/utils/__init__.py",
+      "bytes": 24,
+      "sha256": "8b084a9f378124b2b1a51563bf3c22444eb7ff33692017da28b2136ae56987ed"
+    },
+    {
+      "path": "upstream/WorldTS/DAG-bench/ts_benchmark/utils/data_processing.py",
+      "bytes": 5129,
+      "sha256": "40dbf699abb6fc513c9f3bcd2ca34577aa675cb49d5f4ef5a2fca1dde3738577"
+    }
+  ],
+  "source_zip_sha256": "769884aadb25c2d2ddda85205a661f96a228baf88be56eb3f213c8683f17a430",
+  "source_zip_bytes": 129414,
+  "timing_interpretation": {
+    "component_wall_fraction_descriptive_only": true,
+    "not_an_additive_decomposition": true,
+    "native_forecast_contains_validation_sync_omitted_by_component_helper": true,
+    "legacy_field_encoder_elimination_ideal_speedup_upper_bound_is_not_a_rigorous_bound": true,
+    "actual_cache_method_or_speedup_measured": false
+  },
+  "limitations": [
+    "No CPU native checkpoint forecast replay in this verifier",
+    "No new fit, held-out forecast test, causal evaluation, or cached-state implementation"
+  ],
+  "results_sha256": "917834c1367b761c6505d6c8903446eff1c764cec6e17c8d1741a0bcb34cf57d",
+  "objective_achieved": false,
+  "novel_direction_accepted": false,
+  "utc": "2026-10-16T04:59:02.358515+00:00"
+}

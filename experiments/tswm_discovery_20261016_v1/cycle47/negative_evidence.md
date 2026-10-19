@@ -1,0 +1,13 @@
+# C47 negative evidence
+
+Deprioritize the current fixed-feature Laplace / hybrid recipe as a new world-model framework. In this qualified screen it does not improve complete-clock likelihood training: the bistable future-energy differences are adverse in both training seeds, and OU provides no reliable future-quality advantage. The mean-clock restriction loses useful dependence, but a complete ordinary stochastic-clock model already restores it.
+
+The analytic conditional-Poisson transform is classical, not a new theorem. PCF-GAN and SigTPP already train sequence distributions, including precomputed empirical statistics in SigTPP. HyperNSDE already has an unsplit stochastic-clock path. The restricted mean-clock result cannot support a claim that existing models lack state/clock coupling.
+
+On the bistable carrier, Laplace-only and hybrid give worse future ES than full NLL under both seeds. A cheaper update is an unresolved cost tradeoff, not proof of a superior scalable framework. No test-driven bank/weight retuning or stronger fixture is used to rescue this recipe.
+
+Five of sixteen selections occur at the final update despite the prescribed plateau rule; zero hard caps are hit. This is not proof of universal optimization exhaustion. Laplace-only updates and complete fits are cheaper here, but exact matched-time future-quality frontiers, preprocessing cost and high-dimensional scaling are not measured. Empirical feature means use the entire TRAIN cohort once, unlike raw trajectory minibatches; this is identical data but different statistic reuse, not additional observations. Only selected and last fit checkpoints are retained. Confidence intervals resample 256 physical paths within each carrier while retaining policy/seed pairing; they are conditional on these two fitted initializations, not population uncertainty across retrainings or domains. Nominal90 coverage comes from finite64-draw empirical quantiles; even the known-process reference has sampling/finite-cohort deviation from .90.
+
+Two separately fitted one-dimensional finite-grid Markov carriers, a known Gaussian mark/emission model, known initial prior and known exogenous density multiplier. Not continuous-SDE, learned high-dimensional latent-state, real-domain, history-dependent clock, informative-EOS, unknown observation-policy or causal-intervention validation. Actual physical EVAL paths are shared across density contexts; policy contexts and trained-model scores are not independent new trajectories.
+
+This does not prove every Laplace-functional objective useless, or every full-likelihood method sufficient at all scales. It removes this particular positive contribution claim from the current evidence.

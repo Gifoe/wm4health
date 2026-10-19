@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "qualification_sha256": "1db433550bd809a6dcf6c946b5eb903e4aa2dafdcc07fc72f1c3648f43b01cd4",
+  "raw_arrays_sha256": "9dd8c873ca3095c751a8a5b3bb692736a11482e332fd2bbb65bab8d222c5c889",
+  "verifier_sha256": "28c8819f0683a386580feae389ab03c38abbaceb364fc4e2e5c4b7e1cc3ec040",
+  "native_card_replay_max_abs": 0.0,
+  "numpy_action_trace_checks": [
+    {
+      "variant": "native",
+      "step": 0,
+      "known_action_max_abs": 2.384185791015625e-07
+    },
+    {
+      "variant": "native",
+      "step": 1,
+      "known_action_max_abs": 0.4835415482521057
+    },
+    {
+      "variant": "native",
+      "step": 2,
+      "known_action_max_abs": 0.3149281144142151
+    },
+    {
+      "variant": "native",
+      "step": 3,
+      "known_action_max_abs": 1.1713517904281616
+    },
+    {
+      "variant": "ordinary_clamp_repair",
+      "step": 0,
+      "known_action_max_abs": 2.384185791015625e-07
+    },
+    {
+      "variant": "ordinary_clamp_repair",
+      "step": 1,
+      "known_action_max_abs": 2.384185791015625e-07
+    },
+    {
+      "variant": "ordinary_clamp_repair",
+      "step": 2,
+      "known_action_max_abs": 2.384185791015625e-07
+    },
+    {
+      "variant": "ordinary_clamp_repair",
+      "step": 3,
+      "known_action_max_abs": 2.384185791015625e-07
+    }
+  ],
+  "centroid_channel_layout_max_abs_difference": 17.16432762145996,
+  "independent_transition_max_abs": 0.0,
+  "finite_arrays": 29,
+  "seconds": 3.0413234000006923,
+  "scope": "execution/interface evidence only; no new mechanism or scientific benchmark claim"
+}

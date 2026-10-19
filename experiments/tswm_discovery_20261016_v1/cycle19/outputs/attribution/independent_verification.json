@@ -1,0 +1,32 @@
+{
+  "pass": true,
+  "arrays_hash_verified": 12,
+  "independent_event_cohorts_exact": 48,
+  "native_64_step_prefix_replay_errors": {
+    "lorenz63_zero_attention_noise": 0.0,
+    "chua_zero_attention_noise": 0.0,
+    "sprottM_zero_attention_noise": 0.0,
+    "chua_short_native": 0.0,
+    "chua_long_fixed_short_coordinates": 0.0,
+    "chua_long_native_coordinates": 0.0
+  },
+  "same_origin_same_future_verified": true,
+  "max_true_denominator_MASE_arithmetic_error": 6.03105605456733e-08,
+  "checkpoint_unchanged": true,
+  "script_sha256": "58c37d2aab362a22674195955b0162837b581e56d12c58743483178e4638764e",
+  "environment": {
+    "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.16.3",
+      "torch": "2.11.0+cu128",
+      "safetensors": "0.8.0",
+      "scikit-learn": "1.7.2",
+      "statsmodels": "0.14.5",
+      "huggingface-hub": "1.12.0",
+      "matplotlib": "3.10.6"
+    }
+  },
+  "elapsed_seconds": 2.3475043999933405,
+  "objective_achieved": false
+}

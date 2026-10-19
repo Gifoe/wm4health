@@ -1,0 +1,1070 @@
+{
+  "config": {
+    "datasets": [
+      "ETTh1",
+      "BikeSharing"
+    ],
+    "arms": [
+      "source",
+      "augmented"
+    ],
+    "seeds": [
+      2021,
+      2022,
+      2023
+    ],
+    "updates": 2000,
+    "batch": 64,
+    "lr": 0.001,
+    "L": 96,
+    "H": 24,
+    "hidden": 32,
+    "layers": 2,
+    "checkpoint_selection": "best common source-policy validation MAE, every200updates",
+    "validation_weights": {
+      "q0_constant": 0.4,
+      "q1_constant": 0.4,
+      "fully_observed": 0.2
+    },
+    "validation_seed": 9101,
+    "test_seed": 9102,
+    "test_root_stride": 24,
+    "scope": "ordinary controls on controlled missing-context transfer; no new method or original-paper reproduction",
+    "plan_sha256": "0027e6c8c7579a3dae8d1bb2e44283bf5172e839ddeb6a3fc65062b6c9d117e7",
+    "script_sha256": "9378cdd6447479b9016d9b8a532a3ba17c4cc3ec50033dacf750148a15c61f30"
+  },
+  "rows": [
+    {
+      "dataset": "ETTh1",
+      "arm": "source",
+      "seed": 2021,
+      "active_parameters": 20376,
+      "best_source_val_MAE": 0.19550167322158815,
+      "selected_update": 800,
+      "initial_val_MAE": 0.241132590174675,
+      "last_val_MAE": 0.3445334374904633,
+      "elapsed_seconds": 14.251891000007163,
+      "tests": {
+        "q0_constant": {
+          "q": 0,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.49281609058380127,
+          "roots": 145,
+          "MAE": 0.19363343715667725,
+          "MSE": 0.06931110471487045
+        },
+        "q0_single_switch": {
+          "q": 0,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.5086206793785095,
+          "roots": 145,
+          "MAE": 0.18116453289985657,
+          "MSE": 0.05497322231531143
+        },
+        "q0_fast_switch": {
+          "q": 0,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.5076149702072144,
+          "roots": 145,
+          "MAE": 0.1916356235742569,
+          "MSE": 0.06119462102651596
+        },
+        "q1_constant": {
+          "q": 1,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.49461206793785095,
+          "roots": 145,
+          "MAE": 0.1831393539905548,
+          "MSE": 0.061442408710718155
+        },
+        "q1_single_switch": {
+          "q": 1,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.5086925029754639,
+          "roots": 145,
+          "MAE": 0.1799963116645813,
+          "MSE": 0.0568174347281456
+        },
+        "q1_fast_switch": {
+          "q": 1,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.5071839094161987,
+          "roots": 145,
+          "MAE": 0.18324704468250275,
+          "MSE": 0.05682000890374184
+        },
+        "fully_observed": {
+          "q": 0,
+          "schedule": "full",
+          "mean_observation_fraction": 1.0,
+          "roots": 145,
+          "MAE": 0.16922205686569214,
+          "MSE": 0.051510050892829895
+        }
+      },
+      "peak_torch_allocated_bytes": 63710208
+    },
+    {
+      "dataset": "ETTh1",
+      "arm": "augmented",
+      "seed": 2021,
+      "active_parameters": 20376,
+      "best_source_val_MAE": 0.1875041097402573,
+      "selected_update": 800,
+      "initial_val_MAE": 0.241132590174675,
+      "last_val_MAE": 0.2648095190525055,
+      "elapsed_seconds": 12.81765300000552,
+      "tests": {
+        "q0_constant": {
+          "q": 0,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.49281609058380127,
+          "roots": 145,
+          "MAE": 0.19449687004089355,
+          "MSE": 0.0713883489370346
+        },
+        "q0_single_switch": {
+          "q": 0,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.5086206793785095,
+          "roots": 145,
+          "MAE": 0.1768108457326889,
+          "MSE": 0.05368923768401146
+        },
+        "q0_fast_switch": {
+          "q": 0,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.5076149702072144,
+          "roots": 145,
+          "MAE": 0.18035337328910828,
+          "MSE": 0.05483211576938629
+        },
+        "q1_constant": {
+          "q": 1,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.49461206793785095,
+          "roots": 145,
+          "MAE": 0.18251174688339233,
+          "MSE": 0.06129602715373039
+        },
+        "q1_single_switch": {
+          "q": 1,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.5086925029754639,
+          "roots": 145,
+          "MAE": 0.17867732048034668,
+          "MSE": 0.05651270970702171
+        },
+        "q1_fast_switch": {
+          "q": 1,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.5071839094161987,
+          "roots": 145,
+          "MAE": 0.17438466846942902,
+          "MSE": 0.05180571228265762
+        },
+        "fully_observed": {
+          "q": 0,
+          "schedule": "full",
+          "mean_observation_fraction": 1.0,
+          "roots": 145,
+          "MAE": 0.16823090612888336,
+          "MSE": 0.050338976085186005
+        }
+      },
+      "peak_torch_allocated_bytes": 63710208
+    },
+    {
+      "dataset": "ETTh1",
+      "arm": "source",
+      "seed": 2022,
+      "active_parameters": 20376,
+      "best_source_val_MAE": 0.20944253504276278,
+      "selected_update": 1000,
+      "initial_val_MAE": 0.23941642642021183,
+      "last_val_MAE": 0.3060715436935425,
+      "elapsed_seconds": 12.92613330000313,
+      "tests": {
+        "q0_constant": {
+          "q": 0,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.49281609058380127,
+          "roots": 145,
+          "MAE": 0.19767136871814728,
+          "MSE": 0.07071087509393692
+        },
+        "q0_single_switch": {
+          "q": 0,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.5086206793785095,
+          "roots": 145,
+          "MAE": 0.18336248397827148,
+          "MSE": 0.05711837112903595
+        },
+        "q0_fast_switch": {
+          "q": 0,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.5076149702072144,
+          "roots": 145,
+          "MAE": 0.1883392333984375,
+          "MSE": 0.05934469401836395
+        },
+        "q1_constant": {
+          "q": 1,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.49461206793785095,
+          "roots": 145,
+          "MAE": 0.18618308007717133,
+          "MSE": 0.0629204735159874
+        },
+        "q1_single_switch": {
+          "q": 1,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.5086925029754639,
+          "roots": 145,
+          "MAE": 0.18430659174919128,
+          "MSE": 0.05939860641956329
+        },
+        "q1_fast_switch": {
+          "q": 1,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.5071839094161987,
+          "roots": 145,
+          "MAE": 0.18153567612171173,
+          "MSE": 0.05576049163937569
+        },
+        "fully_observed": {
+          "q": 0,
+          "schedule": "full",
+          "mean_observation_fraction": 1.0,
+          "roots": 145,
+          "MAE": 0.1714048534631729,
+          "MSE": 0.05287401005625725
+        }
+      },
+      "peak_torch_allocated_bytes": 63710208
+    },
+    {
+      "dataset": "ETTh1",
+      "arm": "augmented",
+      "seed": 2022,
+      "active_parameters": 20376,
+      "best_source_val_MAE": 0.20602980852127079,
+      "selected_update": 600,
+      "initial_val_MAE": 0.23941642642021183,
+      "last_val_MAE": 0.3253237426280976,
+      "elapsed_seconds": 13.025893800004269,
+      "tests": {
+        "q0_constant": {
+          "q": 0,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.49281609058380127,
+          "roots": 145,
+          "MAE": 0.19430552423000336,
+          "MSE": 0.07548952847719193
+        },
+        "q0_single_switch": {
+          "q": 0,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.5086206793785095,
+          "roots": 145,
+          "MAE": 0.17701734602451324,
+          "MSE": 0.05711210519075394
+        },
+        "q0_fast_switch": {
+          "q": 0,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.5076149702072144,
+          "roots": 145,
+          "MAE": 0.17742730677127838,
+          "MSE": 0.05731913074851036
+        },
+        "q1_constant": {
+          "q": 1,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.49461206793785095,
+          "roots": 145,
+          "MAE": 0.18245576322078705,
+          "MSE": 0.0643685832619667
+        },
+        "q1_single_switch": {
+          "q": 1,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.5086925029754639,
+          "roots": 145,
+          "MAE": 0.1775262951850891,
+          "MSE": 0.05829611420631409
+        },
+        "q1_fast_switch": {
+          "q": 1,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.5071839094161987,
+          "roots": 145,
+          "MAE": 0.1698487251996994,
+          "MSE": 0.052804309874773026
+        },
+        "fully_observed": {
+          "q": 0,
+          "schedule": "full",
+          "mean_observation_fraction": 1.0,
+          "roots": 145,
+          "MAE": 0.17421510815620422,
+          "MSE": 0.05727925896644592
+        }
+      },
+      "peak_torch_allocated_bytes": 63710208
+    },
+    {
+      "dataset": "ETTh1",
+      "arm": "source",
+      "seed": 2023,
+      "active_parameters": 20376,
+      "best_source_val_MAE": 0.2064287394285202,
+      "selected_update": 400,
+      "initial_val_MAE": 0.23943333625793456,
+      "last_val_MAE": 0.3123283445835114,
+      "elapsed_seconds": 12.861517400000594,
+      "tests": {
+        "q0_constant": {
+          "q": 0,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.49281609058380127,
+          "roots": 145,
+          "MAE": 0.19436527788639069,
+          "MSE": 0.07700750976800919
+        },
+        "q0_single_switch": {
+          "q": 0,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.5086206793785095,
+          "roots": 145,
+          "MAE": 0.1782633662223816,
+          "MSE": 0.05806034430861473
+        },
+        "q0_fast_switch": {
+          "q": 0,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.5076149702072144,
+          "roots": 145,
+          "MAE": 0.1813650131225586,
+          "MSE": 0.058916520327329636
+        },
+        "q1_constant": {
+          "q": 1,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.49461206793785095,
+          "roots": 145,
+          "MAE": 0.18618524074554443,
+          "MSE": 0.06776335835456848
+        },
+        "q1_single_switch": {
+          "q": 1,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.5086925029754639,
+          "roots": 145,
+          "MAE": 0.1828266829252243,
+          "MSE": 0.06246643885970116
+        },
+        "q1_fast_switch": {
+          "q": 1,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.5071839094161987,
+          "roots": 145,
+          "MAE": 0.17672720551490784,
+          "MSE": 0.056129954755306244
+        },
+        "fully_observed": {
+          "q": 0,
+          "schedule": "full",
+          "mean_observation_fraction": 1.0,
+          "roots": 145,
+          "MAE": 0.17099840939044952,
+          "MSE": 0.055501967668533325
+        }
+      },
+      "peak_torch_allocated_bytes": 63710208
+    },
+    {
+      "dataset": "ETTh1",
+      "arm": "augmented",
+      "seed": 2023,
+      "active_parameters": 20376,
+      "best_source_val_MAE": 0.2064306139945984,
+      "selected_update": 800,
+      "initial_val_MAE": 0.23943333625793456,
+      "last_val_MAE": 0.34990713000297546,
+      "elapsed_seconds": 12.880212099989876,
+      "tests": {
+        "q0_constant": {
+          "q": 0,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.49281609058380127,
+          "roots": 145,
+          "MAE": 0.19204674661159515,
+          "MSE": 0.07056103646755219
+        },
+        "q0_single_switch": {
+          "q": 0,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.5086206793785095,
+          "roots": 145,
+          "MAE": 0.17603656649589539,
+          "MSE": 0.055676549673080444
+        },
+        "q0_fast_switch": {
+          "q": 0,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.5076149702072144,
+          "roots": 145,
+          "MAE": 0.17970065772533417,
+          "MSE": 0.05665796995162964
+        },
+        "q1_constant": {
+          "q": 1,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.49461206793785095,
+          "roots": 145,
+          "MAE": 0.18116994202136993,
+          "MSE": 0.06242689862847328
+        },
+        "q1_single_switch": {
+          "q": 1,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.5086925029754639,
+          "roots": 145,
+          "MAE": 0.17698338627815247,
+          "MSE": 0.057751040905714035
+        },
+        "q1_fast_switch": {
+          "q": 1,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.5071839094161987,
+          "roots": 145,
+          "MAE": 0.1703629195690155,
+          "MSE": 0.05161280184984207
+        },
+        "fully_observed": {
+          "q": 0,
+          "schedule": "full",
+          "mean_observation_fraction": 1.0,
+          "roots": 145,
+          "MAE": 0.16982796788215637,
+          "MSE": 0.05365407094359398
+        }
+      },
+      "peak_torch_allocated_bytes": 63710208
+    },
+    {
+      "dataset": "BikeSharing",
+      "arm": "source",
+      "seed": 2021,
+      "active_parameters": 20376,
+      "best_source_val_MAE": 0.7598156332969667,
+      "selected_update": 1800,
+      "initial_val_MAE": 1.0898038983345033,
+      "last_val_MAE": 0.7640840888023377,
+      "elapsed_seconds": 12.951004699993064,
+      "tests": {
+        "q0_constant": {
+          "q": 0,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.3601795434951782,
+          "roots": 123,
+          "MAE": 0.8374528884887695,
+          "MSE": 1.630715250968933
+        },
+        "q0_single_switch": {
+          "q": 0,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.3628048896789551,
+          "roots": 123,
+          "MAE": 0.8822342157363892,
+          "MSE": 1.7461638450622559
+        },
+        "q0_fast_switch": {
+          "q": 0,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.4679878056049347,
+          "roots": 123,
+          "MAE": 0.966687023639679,
+          "MSE": 1.996944785118103
+        },
+        "q1_constant": {
+          "q": 1,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.5046578645706177,
+          "roots": 123,
+          "MAE": 0.7834340929985046,
+          "MSE": 1.4498616456985474
+        },
+        "q1_single_switch": {
+          "q": 1,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.5046578645706177,
+          "roots": 123,
+          "MAE": 0.8160004019737244,
+          "MSE": 1.5790101289749146
+        },
+        "q1_fast_switch": {
+          "q": 1,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.5018631219863892,
+          "roots": 123,
+          "MAE": 0.8463857769966125,
+          "MSE": 1.6484618186950684
+        },
+        "fully_observed": {
+          "q": 0,
+          "schedule": "full",
+          "mean_observation_fraction": 1.0,
+          "roots": 123,
+          "MAE": 0.5502470135688782,
+          "MSE": 0.7948241233825684
+        }
+      },
+      "peak_torch_allocated_bytes": 63710208
+    },
+    {
+      "dataset": "BikeSharing",
+      "arm": "augmented",
+      "seed": 2021,
+      "active_parameters": 20376,
+      "best_source_val_MAE": 0.7434301137924195,
+      "selected_update": 1800,
+      "initial_val_MAE": 1.0898038983345033,
+      "last_val_MAE": 0.7439536690711974,
+      "elapsed_seconds": 12.86735359999875,
+      "tests": {
+        "q0_constant": {
+          "q": 0,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.3601795434951782,
+          "roots": 123,
+          "MAE": 0.806651771068573,
+          "MSE": 1.519735336303711
+        },
+        "q0_single_switch": {
+          "q": 0,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.3628048896789551,
+          "roots": 123,
+          "MAE": 0.865830659866333,
+          "MSE": 1.669744849205017
+        },
+        "q0_fast_switch": {
+          "q": 0,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.4679878056049347,
+          "roots": 123,
+          "MAE": 0.9112451076507568,
+          "MSE": 1.8025789260864258
+        },
+        "q1_constant": {
+          "q": 1,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.5046578645706177,
+          "roots": 123,
+          "MAE": 0.7706285715103149,
+          "MSE": 1.4480382204055786
+        },
+        "q1_single_switch": {
+          "q": 1,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.5046578645706177,
+          "roots": 123,
+          "MAE": 0.8058463335037231,
+          "MSE": 1.5711150169372559
+        },
+        "q1_fast_switch": {
+          "q": 1,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.5018631219863892,
+          "roots": 123,
+          "MAE": 0.8295521140098572,
+          "MSE": 1.6244981288909912
+        },
+        "fully_observed": {
+          "q": 0,
+          "schedule": "full",
+          "mean_observation_fraction": 1.0,
+          "roots": 123,
+          "MAE": 0.5399346947669983,
+          "MSE": 0.772224485874176
+        }
+      },
+      "peak_torch_allocated_bytes": 63710208
+    },
+    {
+      "dataset": "BikeSharing",
+      "arm": "source",
+      "seed": 2022,
+      "active_parameters": 20376,
+      "best_source_val_MAE": 0.7321140289306641,
+      "selected_update": 2000,
+      "initial_val_MAE": 1.1051403284072876,
+      "last_val_MAE": 0.7321140289306641,
+      "elapsed_seconds": 12.891258100004052,
+      "tests": {
+        "q0_constant": {
+          "q": 0,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.3601795434951782,
+          "roots": 123,
+          "MAE": 0.8094707131385803,
+          "MSE": 1.5474059581756592
+        },
+        "q0_single_switch": {
+          "q": 0,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.3628048896789551,
+          "roots": 123,
+          "MAE": 0.8783872127532959,
+          "MSE": 1.709143042564392
+        },
+        "q0_fast_switch": {
+          "q": 0,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.4679878056049347,
+          "roots": 123,
+          "MAE": 0.9023951888084412,
+          "MSE": 1.7506623268127441
+        },
+        "q1_constant": {
+          "q": 1,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.5046578645706177,
+          "roots": 123,
+          "MAE": 0.7534992098808289,
+          "MSE": 1.3610838651657104
+        },
+        "q1_single_switch": {
+          "q": 1,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.5046578645706177,
+          "roots": 123,
+          "MAE": 0.7821025252342224,
+          "MSE": 1.481230616569519
+        },
+        "q1_fast_switch": {
+          "q": 1,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.5018631219863892,
+          "roots": 123,
+          "MAE": 0.8169363737106323,
+          "MSE": 1.5513893365859985
+        },
+        "fully_observed": {
+          "q": 0,
+          "schedule": "full",
+          "mean_observation_fraction": 1.0,
+          "roots": 123,
+          "MAE": 0.5283894538879395,
+          "MSE": 0.7430899739265442
+        }
+      },
+      "peak_torch_allocated_bytes": 63710208
+    },
+    {
+      "dataset": "BikeSharing",
+      "arm": "augmented",
+      "seed": 2022,
+      "active_parameters": 20376,
+      "best_source_val_MAE": 0.727091121673584,
+      "selected_update": 1800,
+      "initial_val_MAE": 1.1051403284072876,
+      "last_val_MAE": 0.7369085907936097,
+      "elapsed_seconds": 12.880996100007906,
+      "tests": {
+        "q0_constant": {
+          "q": 0,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.3601795434951782,
+          "roots": 123,
+          "MAE": 0.8639162182807922,
+          "MSE": 1.7057677507400513
+        },
+        "q0_single_switch": {
+          "q": 0,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.3628048896789551,
+          "roots": 123,
+          "MAE": 0.9142498970031738,
+          "MSE": 1.8189924955368042
+        },
+        "q0_fast_switch": {
+          "q": 0,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.4679878056049347,
+          "roots": 123,
+          "MAE": 0.9177604913711548,
+          "MSE": 1.8392107486724854
+        },
+        "q1_constant": {
+          "q": 1,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.5046578645706177,
+          "roots": 123,
+          "MAE": 0.7744850516319275,
+          "MSE": 1.4511454105377197
+        },
+        "q1_single_switch": {
+          "q": 1,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.5046578645706177,
+          "roots": 123,
+          "MAE": 0.812482476234436,
+          "MSE": 1.598529577255249
+        },
+        "q1_fast_switch": {
+          "q": 1,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.5018631219863892,
+          "roots": 123,
+          "MAE": 0.8389011025428772,
+          "MSE": 1.6311153173446655
+        },
+        "fully_observed": {
+          "q": 0,
+          "schedule": "full",
+          "mean_observation_fraction": 1.0,
+          "roots": 123,
+          "MAE": 0.5236362218856812,
+          "MSE": 0.7440140843391418
+        }
+      },
+      "peak_torch_allocated_bytes": 63710208
+    },
+    {
+      "dataset": "BikeSharing",
+      "arm": "source",
+      "seed": 2023,
+      "active_parameters": 20376,
+      "best_source_val_MAE": 0.7375672459602356,
+      "selected_update": 2000,
+      "initial_val_MAE": 1.0938157439231873,
+      "last_val_MAE": 0.7375672459602356,
+      "elapsed_seconds": 12.920625400001882,
+      "tests": {
+        "q0_constant": {
+          "q": 0,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.3601795434951782,
+          "roots": 123,
+          "MAE": 0.8384796380996704,
+          "MSE": 1.6179044246673584
+        },
+        "q0_single_switch": {
+          "q": 0,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.3628048896789551,
+          "roots": 123,
+          "MAE": 0.8859416842460632,
+          "MSE": 1.7539386749267578
+        },
+        "q0_fast_switch": {
+          "q": 0,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.4679878056049347,
+          "roots": 123,
+          "MAE": 0.8914217948913574,
+          "MSE": 1.7518082857131958
+        },
+        "q1_constant": {
+          "q": 1,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.5046578645706177,
+          "roots": 123,
+          "MAE": 0.7685067057609558,
+          "MSE": 1.4256699085235596
+        },
+        "q1_single_switch": {
+          "q": 1,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.5046578645706177,
+          "roots": 123,
+          "MAE": 0.8022358417510986,
+          "MSE": 1.5607833862304688
+        },
+        "q1_fast_switch": {
+          "q": 1,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.5018631219863892,
+          "roots": 123,
+          "MAE": 0.8279595971107483,
+          "MSE": 1.5612601041793823
+        },
+        "fully_observed": {
+          "q": 0,
+          "schedule": "full",
+          "mean_observation_fraction": 1.0,
+          "roots": 123,
+          "MAE": 0.5350657105445862,
+          "MSE": 0.7674348950386047
+        }
+      },
+      "peak_torch_allocated_bytes": 63710208
+    },
+    {
+      "dataset": "BikeSharing",
+      "arm": "augmented",
+      "seed": 2023,
+      "active_parameters": 20376,
+      "best_source_val_MAE": 0.7428712487220763,
+      "selected_update": 2000,
+      "initial_val_MAE": 1.0938157439231873,
+      "last_val_MAE": 0.7428712487220763,
+      "elapsed_seconds": 12.91007769999851,
+      "tests": {
+        "q0_constant": {
+          "q": 0,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.3601795434951782,
+          "roots": 123,
+          "MAE": 0.8289105296134949,
+          "MSE": 1.6212657690048218
+        },
+        "q0_single_switch": {
+          "q": 0,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.3628048896789551,
+          "roots": 123,
+          "MAE": 0.885329008102417,
+          "MSE": 1.7671294212341309
+        },
+        "q0_fast_switch": {
+          "q": 0,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.4679878056049347,
+          "roots": 123,
+          "MAE": 0.8661708831787109,
+          "MSE": 1.6645995378494263
+        },
+        "q1_constant": {
+          "q": 1,
+          "schedule": "constant",
+          "mean_observation_fraction": 0.5046578645706177,
+          "roots": 123,
+          "MAE": 0.7572205066680908,
+          "MSE": 1.3930597305297852
+        },
+        "q1_single_switch": {
+          "q": 1,
+          "schedule": "single_switch",
+          "mean_observation_fraction": 0.5046578645706177,
+          "roots": 123,
+          "MAE": 0.7922683954238892,
+          "MSE": 1.526978850364685
+        },
+        "q1_fast_switch": {
+          "q": 1,
+          "schedule": "fast_switch",
+          "mean_observation_fraction": 0.5018631219863892,
+          "roots": 123,
+          "MAE": 0.8058063983917236,
+          "MSE": 1.5272749662399292
+        },
+        "fully_observed": {
+          "q": 0,
+          "schedule": "full",
+          "mean_observation_fraction": 1.0,
+          "roots": 123,
+          "MAE": 0.5287731885910034,
+          "MSE": 0.7507350444793701
+        }
+      },
+      "peak_torch_allocated_bytes": 63710208
+    }
+  ],
+  "datasets": [
+    {
+      "key": "ETTh1",
+      "source_bytes": 2589657,
+      "source_sha256": "f18de3ad269cef59bb07b5438d79bb3042d3be49bdeecf01c1cd6d29695ee066",
+      "full_hour_grid_length": 17420,
+      "original_rows": 17420,
+      "naturally_absent_hours": 0,
+      "normalization_mean": 17.292530528345626,
+      "normalization_std": 8.513664476018814,
+      "normalization_rows": "first60percent only",
+      "train_end_index": 10452,
+      "val_end_index": 13936,
+      "root_counts": {
+        "train": 10333,
+        "val": 3461,
+        "test": 3461
+      },
+      "discard_rule": "any originally absent hour in historical96/future24 window",
+      "date_timezone": "source naive calendar; no UTC or physical elapsed-time claim"
+    },
+    {
+      "key": "BikeSharing",
+      "source_bytes": 1156736,
+      "source_sha256": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f",
+      "full_hour_grid_length": 17544,
+      "original_rows": 17379,
+      "naturally_absent_hours": 165,
+      "normalization_mean": 144.52773238488896,
+      "normalization_std": 134.2520770103842,
+      "normalization_rows": "first60percent only",
+      "train_end_index": 10526,
+      "val_end_index": 14035,
+      "root_counts": {
+        "train": 6587,
+        "val": 3233,
+        "test": 2948
+      },
+      "discard_rule": "any originally absent hour in historical96/future24 window",
+      "date_timezone": "source naive calendar; no UTC or physical elapsed-time claim"
+    }
+  ],
+  "reference_controls": {
+    "ETTh1": {
+      "q0_constant": {
+        "persistence": {
+          "MAE": 0.20987913012504578,
+          "MSE": 0.08687063306570053
+        },
+        "past_day": {
+          "MAE": 0.22689811885356903,
+          "MSE": 0.09417228400707245
+        }
+      },
+      "q0_single_switch": {
+        "persistence": {
+          "MAE": 0.1784181445837021,
+          "MSE": 0.0586574412882328
+        },
+        "past_day": {
+          "MAE": 0.2075781226158142,
+          "MSE": 0.07309824973344803
+        }
+      },
+      "q0_fast_switch": {
+        "persistence": {
+          "MAE": 0.18206359446048737,
+          "MSE": 0.06020019203424454
+        },
+        "past_day": {
+          "MAE": 0.2071744203567505,
+          "MSE": 0.0729137435555458
+        }
+      },
+      "q1_constant": {
+        "persistence": {
+          "MAE": 0.19210419058799744,
+          "MSE": 0.07121147960424423
+        },
+        "past_day": {
+          "MAE": 0.2139568328857422,
+          "MSE": 0.0838104784488678
+        }
+      },
+      "q1_single_switch": {
+        "persistence": {
+          "MAE": 0.18613940477371216,
+          "MSE": 0.06349736452102661
+        },
+        "past_day": {
+          "MAE": 0.21306507289409637,
+          "MSE": 0.077761709690094
+        }
+      },
+      "q1_fast_switch": {
+        "persistence": {
+          "MAE": 0.18027371168136597,
+          "MSE": 0.05921068787574768
+        },
+        "past_day": {
+          "MAE": 0.20677068829536438,
+          "MSE": 0.07316673547029495
+        }
+      },
+      "fully_observed": {
+        "persistence": {
+          "MAE": 0.19612477719783783,
+          "MSE": 0.06904663145542145
+        },
+        "past_day": {
+          "MAE": 0.20136837661266327,
+          "MSE": 0.06906495243310928
+        }
+      }
+    },
+    "BikeSharing": {
+      "q0_constant": {
+        "persistence": {
+          "MAE": 2.431189775466919,
+          "MSE": 8.941937446594238
+        },
+        "past_day": {
+          "MAE": 1.3997199535369873,
+          "MSE": 3.9668128490448
+        }
+      },
+      "q0_single_switch": {
+        "persistence": {
+          "MAE": 2.4254114627838135,
+          "MSE": 8.970362663269043
+        },
+        "past_day": {
+          "MAE": 1.5288026332855225,
+          "MSE": 4.7500224113464355
+        }
+      },
+      "q0_fast_switch": {
+        "persistence": {
+          "MAE": 2.2601730823516846,
+          "MSE": 8.178865432739258
+        },
+        "past_day": {
+          "MAE": 1.1404218673706055,
+          "MSE": 3.0988008975982666
+        }
+      },
+      "q1_constant": {
+        "persistence": {
+          "MAE": 2.177950143814087,
+          "MSE": 7.96525239944458
+        },
+        "past_day": {
+          "MAE": 0.9450632333755493,
+          "MSE": 2.1586854457855225
+        }
+      },
+      "q1_single_switch": {
+        "persistence": {
+          "MAE": 2.1295840740203857,
+          "MSE": 7.610387325286865
+        },
+        "past_day": {
+          "MAE": 0.9871890544891357,
+          "MSE": 2.332305669784546
+        }
+      },
+      "q1_fast_switch": {
+        "persistence": {
+          "MAE": 2.1134605407714844,
+          "MSE": 7.362460136413574
+        },
+        "past_day": {
+          "MAE": 0.9419949054718018,
+          "MSE": 2.107362985610962
+        }
+      },
+      "fully_observed": {
+        "persistence": {
+          "MAE": 2.5210483074188232,
+          "MSE": 9.872064590454102
+        },
+        "past_day": {
+          "MAE": 0.6096684336662292,
+          "MSE": 1.0452579259872437
+        }
+      }
+    }
+  },
+  "elapsed_seconds": 156.63184929999989,
+  "scientific_jobs_complete": true,
+  "objective_achieved": false,
+  "novel_direction_accepted": false
+}

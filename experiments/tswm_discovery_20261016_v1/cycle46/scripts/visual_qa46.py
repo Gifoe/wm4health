@@ -1,0 +1,5 @@
+"""Record assistant visual inspection of this exact rendered PNG."""
+import pathlib,json,hashlib,sys,datetime
+R=pathlib.Path(__file__).resolve().parents[1];folder=R/'outputs/figures_v1';sha=lambda p:hashlib.sha256(pathlib.Path(p).read_bytes()).hexdigest();expected=sys.argv[1];assert sha(folder/'ordinary_composition.png')==expected;manifest=json.loads((folder/'manifest.json').read_text(encoding='utf-8'))
+for record in manifest['exports']:assert sha(folder/record['path'])==record['sha256']
+result={'status':'VISUALLY_INSPECTED_PASS','utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'inspected_png_sha256':expected,'inspection':'Axes, titles, labels, two initialization dots, ordinary-control line, legend and scope footnote legible; no clipping or misleading uncertainty interval. Diagnostic artifact, not a new-method claim.','exports':manifest['exports'],'source_sha256':sha(__file__)};(folder/'visual_qa.json').write_text(json.dumps(result,indent=2),encoding='utf-8');print(json.dumps(result))

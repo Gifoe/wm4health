@@ -1,0 +1,92 @@
+[
+  {
+    "regime": "clean",
+    "variant": "lewm_native_weight",
+    "seed": 41,
+    "steps": 2000,
+    "seconds": 5.49196920000395,
+    "parameters": 88,
+    "checkpoint_sha256": "6035f4343cfdfad58e809d8f92b1a8268788a14736306db396d4d13ced6473a9",
+    "physical_probe_nmse": 7.721865258774088e-15,
+    "signal_subspace_overlap": 0.5852171203790393,
+    "encoder_covariance_eigenvalues": [
+      0.9078282403454104,
+      0.9952771474240207
+    ]
+  },
+  {
+    "regime": "clean",
+    "variant": "lewm_matched_static",
+    "seed": 41,
+    "steps": 2000,
+    "seconds": 5.124511899994104,
+    "parameters": 88,
+    "checkpoint_sha256": "d3825fef672c56ada475869f922e9a37561b5d7642ec81c9a14a5c152f3d4b5e",
+    "physical_probe_nmse": 7.752224967092486e-15,
+    "signal_subspace_overlap": 0.5856354321785122,
+    "encoder_covariance_eigenvalues": [
+      0.9293523373941782,
+      0.9997739106054013
+    ]
+  },
+  {
+    "regime": "clean",
+    "variant": "motion",
+    "seed": 41,
+    "steps": 2000,
+    "seconds": 11.896076899996842,
+    "parameters": 268442,
+    "checkpoint_sha256": "f4d3e8586049a853eca7cee764ee21343c0dfced0448732c9f2cadd065aafb13",
+    "physical_probe_nmse": 7.663319263480671e-15,
+    "signal_subspace_overlap": 0.5859452780135925,
+    "encoder_covariance_eigenvalues": [
+      0.9291901149184753,
+      0.9996207303841438
+    ]
+  },
+  {
+    "regime": "independent_nuisance",
+    "variant": "lewm_native_weight",
+    "seed": 41,
+    "steps": 2000,
+    "seconds": 5.15001409999968,
+    "parameters": 88,
+    "checkpoint_sha256": "f2e1a636d2841bad25e9fbe54b0634dada09f698c0e7d7ae716fe156c9354a79",
+    "physical_probe_nmse": 0.49765878556217197,
+    "signal_subspace_overlap": 0.5021560864552953,
+    "encoder_covariance_eigenvalues": [
+      0.6343110765629321,
+      1.0610739142432326
+    ]
+  },
+  {
+    "regime": "independent_nuisance",
+    "variant": "lewm_matched_static",
+    "seed": 41,
+    "steps": 2000,
+    "seconds": 5.23866960000305,
+    "parameters": 88,
+    "checkpoint_sha256": "6db4cca86ab1c856eabb642688cac6c199e947a94c62e19abaebd404362f142b",
+    "physical_probe_nmse": 0.5332655204009188,
+    "signal_subspace_overlap": 0.46689748185701857,
+    "encoder_covariance_eigenvalues": [
+      0.8223988229349841,
+      0.9750792168108104
+    ]
+  },
+  {
+    "regime": "independent_nuisance",
+    "variant": "motion",
+    "seed": 41,
+    "steps": 2000,
+    "seconds": 11.611594900001364,
+    "parameters": 268442,
+    "checkpoint_sha256": "25bd6646fd93abeb20ad1161288d180c9a2aac338b57f8673ecf477669bd6df4",
+    "physical_probe_nmse": 0.5443179881228962,
+    "signal_subspace_overlap": 0.4557278131732049,
+    "encoder_covariance_eigenvalues": [
+      0.8386447739880396,
+      0.9712347611772377
+    ]
+  }
+]

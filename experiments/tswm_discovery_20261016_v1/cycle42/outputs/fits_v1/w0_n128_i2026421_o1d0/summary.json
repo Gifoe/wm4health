@@ -1,0 +1,38 @@
+[
+  {
+    "world": 0,
+    "n_per_seen_cell": 128,
+    "init_seed": 2026421,
+    "obs_mod": 1,
+    "dyn_mod": 0,
+    "group": "seen",
+    "future_nll": 1.1369404792785645,
+    "oracle_future_nll": 1.1326308867933557,
+    "excess_nll": 0.004309637727113199,
+    "next_symbol_oracle_kl": 0.004566318549836208,
+    "selected_step": 1500,
+    "nominal_parameters": 1632,
+    "active_parameters": 1504,
+    "training_seconds_including_seen_validation": 12.478766900021583,
+    "score_sha256": "6b7cefcd5f17b987c2c2a276d32c9afb1acb7e0f2943098eb6a786f12167789b",
+    "checkpoint_sha256": "9e5536dcd038126ca7ce0eb09af91c69dd9f45afd476d4d2ddf07854916196d4"
+  },
+  {
+    "world": 0,
+    "n_per_seen_cell": 128,
+    "init_seed": 2026421,
+    "obs_mod": 1,
+    "dyn_mod": 0,
+    "group": "heldout",
+    "future_nll": 1.351447582244873,
+    "oracle_future_nll": 1.146122621179785,
+    "excess_nll": 0.2053249322813997,
+    "next_symbol_oracle_kl": 0.21957913246380842,
+    "selected_step": 1500,
+    "nominal_parameters": 1632,
+    "active_parameters": 1504,
+    "training_seconds_including_seen_validation": 12.478766900021583,
+    "score_sha256": "6b7cefcd5f17b987c2c2a276d32c9afb1acb7e0f2943098eb6a786f12167789b",
+    "checkpoint_sha256": "9e5536dcd038126ca7ce0eb09af91c69dd9f45afd476d4d2ddf07854916196d4"
+  }
+]

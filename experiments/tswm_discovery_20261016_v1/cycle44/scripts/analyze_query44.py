@@ -1,0 +1,50 @@
+"""Independent CPU arithmetic from retained function pools; no model execution."""
+import pathlib,sys,json,hashlib,datetime,csv,math
+R=pathlib.Path(__file__).resolve().parents[1];sys.path.insert(0,str(R.parent/'cycle29/scripts'));import runtime_profile
+import numpy as np
+def read(p):return json.loads(pathlib.Path(p).read_text(encoding='utf-8'))
+def sha(p):return hashlib.sha256(pathlib.Path(p).read_bytes()).hexdigest()
+def dump(p,v):pathlib.Path(p).write_text(json.dumps(v,indent=2),encoding='utf-8')
+
+def statistics(pool,f,policy,n0,n1,exact):
+ def a(key,n):
+  values=pool[key][:n,f].astype(np.float64);assert len(values)==n;return values
+ def summarize(values):return float(np.mean(values)),float(np.var(values,ddof=1)/len(values))
+ if policy=='analytic_readout':return float(exact),0.
+ if policy=='mc':return summarize(a('fine',n1))
+ if policy=='antithetic_mc':return summarize((a('fine',n1)+a('fine_anti',n1))/2)
+ if policy=='conditional_readout':return summarize(a('readout',n1))
+ if policy=='antithetic_conditional_readout':return summarize((a('readout',n1)+a('readout_anti',n1))/2)
+ if policy=='mlmc':
+  c0=a('coarse',n0);delta=a('fine',n1)-a('paired_coarse',n1)
+ elif policy=='antithetic_mlmc':
+  c0=(a('coarse',n0)+a('coarse_anti',n0))/2;delta=(a('fine',n1)+a('fine_anti',n1)-a('paired_coarse',n1)-a('paired_coarse_anti',n1))/2
+ else:raise ValueError(policy)
+ left,v0=summarize(c0);right,v1=summarize(delta);return left+right,v0+v1
+
+def main():
+ execution=read(R/'outputs/query_execution_v1/execution_summary.json');assert execution['status']=='PASS' and execution['models']==16;truth=read(R/'outputs/reference_eval_v1/reference_eval.json');assert truth['status']=='REFERENCE_READY';verified=read(R/'outputs/quality_verification_v1.json');assert verified['status']=='PASS';quality=read(R/'outputs/quality_v1/quality_summary.json');assert sha(R/'outputs/quality_v1/quality_summary.json')==verified['quality_summary_sha256'];O=R/'outputs/query_analysis_v1';assert not O.exists();O.mkdir(parents=True);rows=[];raw_files_checked=0
+ for item in execution['executions']:
+  label=item['model'];folder=R/'outputs/query_execution_v1'/label;allocations=read(R/'outputs/pilot_v1'/label/'allocations.json');assert sha(R/'outputs/pilot_v1'/label/'allocations.json')==item['allocations_sha256'];calibration=read(R/'outputs/pilot_v1'/label/'calibration_cost.json')['elapsed_seconds_including_model_load_and_parity'];timing=read(folder/'actual_complete_requests.json');timing_map={(t['policy'],t['n0'],t['n1']):t['actual_complete_seconds'] for t in timing};spec=read(R/'data'/item['case']/'functional_spec.json');file_hashes={x['path']:x['sha256'] for x in item['files']}
+  for context in range(4):
+   ref_file=folder/f'reference_ctx{context}.npz';assert sha(ref_file)==file_hashes[ref_file.name];raw_files_checked+=1;ref=np.load(ref_file);reference=ref['mean'];reference_se=ref['standard_error'];assert ref['functions'].shape==(16384,5);raw_mean=ref['functions'].mean(0,dtype=np.float64);raw_se=ref['functions'].std(0,ddof=1,dtype=np.float64)/128;indices=[1,4] if item['family']=='lgssm' else list(range(5));assert np.max(np.abs(raw_mean[indices]-reference[indices]))<1e-12 and np.max(np.abs(raw_se[indices]-reference_se[indices]))<1e-12
+   target=next(x for x in truth['truth_estimates'] if x['case']==item['case'] and x['context']==context);assert target['ready'];truth_mean=np.asarray(target['mean_scaled']);truth_mcse=np.asarray(target['conditional_mc_se_scaled']);truth_filter_sd=np.asarray(target['between_filter_sd_scaled']);pools=[]
+   for rep in range(16):
+    p=folder/f'pool_ctx{context}_rep{rep}.npz';metadata=read(folder/f'pool_ctx{context}_rep{rep}.json');assert sha(p)==file_hashes[p.name]==metadata['raw_sha256'];assert metadata['base_seed']==300000000+context*10000000+rep*100000;values=dict(np.load(p));assert set(values)==set(item['pool_counts']);assert all(v.shape==(item['pool_counts'][k],5) and np.isfinite(v).all() for k,v in values.items());pools.append(values);raw_files_checked+=1
+   for allocation in allocations:
+    f=allocation['function_index'];budget=allocation['fine_equivalent_budget'];chosen=allocation['selected'];methods=[('mc',{'policy':'mc','n0':0,'n1':budget}),('antithetic_mc',{'policy':'antithetic_mc','n0':0,'n1':budget//2}),('VAL_selected',chosen)]
+    if item['family']=='lgssm' and f in [0,2,3]:methods.append(('exact_ordinary_control',{'policy':'analytic_readout','n0':0,'n1':0}))
+    for method,policy in methods:
+     name=policy['policy'];n0,n1=policy['n0'],policy['n1'];stats=np.asarray([statistics(pool,f,name,n0,n1,reference[f]) for pool in pools]);est=stats[:,0];conditional_var=stats[:,1];observed_mse=float(np.mean((est-reference[f])**2));truth_mse=float(np.mean((est-truth_mean[f])**2));latency=float(timing_map[(name,n0,n1)]);variance=float(np.var(est,ddof=1));expected_variance=float(np.mean(conditional_var));row={'model':label,'case':item['case'],'family':item['family'],'fit_seed':item['seed'],'context':context,'function_index':f,'function':spec['names'][f],'fine_equivalent_budget':budget,'reported_method':method,'actual_policy':name,'duplicates_baseline':method=='VAL_selected' and name in ['mc','antithetic_mc'],'n0':n0,'n1':n1,'replicates':16,'empirical_sampling_variance':variance,'within_pool_unbiased_variance_estimate':expected_variance,'MSE_about_fitted_reference':observed_mse,'MSE_minus_reference_variance_unclipped':observed_mse-float(reference_se[f]**2),'fitted_reference_mean':float(reference[f]),'fitted_reference_mc_se':float(reference_se[f]),'reference_variance_over_sampling_variance':float(reference_se[f]**2/max(expected_variance,1e-30)),'MSE_about_truth_reference':truth_mse,'truth_reference_mean':float(truth_mean[f]),'truth_conditional_mc_se':float(truth_mcse[f]),'truth_between_filter_sd':float(truth_filter_sd[f]),'signed_model_bias_vs_truth_reference':float(reference[f]-truth_mean[f]),'squared_model_bias_vs_truth_reference':float((reference[f]-truth_mean[f])**2),'actual_complete_request_seconds_context0':latency,'model_service_initialization_seconds':item['model_load_seconds'],'VAL_calibration_seconds':calibration,'cost_requests1':latency+calibration,'cost_requests100':latency+calibration/100,'cost_requests1000':latency+calibration/1000,'variance_times_request_seconds':expected_variance*latency,'replicate_estimates':est.tolist(),'replicate_within_pool_variances':conditional_var.tolist()};rows.append(row)
+  print(json.dumps({'independent_CPU_model_checked':label,'rows_so_far':len(rows)}),flush=True)
+ assert raw_files_checked==16*4*17 and len(rows)==3024,(raw_files_checked,len(rows));dump(O/'all_rows.json',rows)
+ fields=[k for k in rows[0] if not k.startswith('replicate_')]
+ with (O/'all_results.csv').open('w',encoding='utf-8',newline='') as f:
+  writer=csv.DictWriter(f,fieldnames=fields);writer.writeheader();writer.writerows({k:r[k] for k in fields} for r in rows)
+ comparisons=[]
+ for r in rows:
+  if r['reported_method'] not in ['VAL_selected','exact_ordinary_control']:continue
+  baseline=next(x for x in rows if x['model']==r['model'] and x['context']==r['context'] and x['function_index']==r['function_index'] and x['fine_equivalent_budget']==r['fine_equivalent_budget'] and x['reported_method']=='mc');paired=(np.asarray(r['replicate_estimates'])-r['fitted_reference_mean'])**2-(np.asarray(baseline['replicate_estimates'])-r['fitted_reference_mean'])**2;comparisons.append({'model':r['model'],'context':r['context'],'function':r['function'],'function_index':r['function_index'],'budget':r['fine_equivalent_budget'],'method':r['reported_method'],'policy':r['actual_policy'],'MSE_difference_vs_MC_same_reference':float(paired.mean()),'paired_replication_SE_conditional_on_reference':float(paired.std(ddof=1)/4),'sampling_variance_ratio_vs_MC':r['within_pool_unbiased_variance_estimate']/max(baseline['within_pool_unbiased_variance_estimate'],1e-30),'actual_request_time_ratio_vs_MC':r['actual_complete_request_seconds_context0']/baseline['actual_complete_request_seconds_context0'],'variance_cost_ratio_vs_MC':r['variance_times_request_seconds']/max(baseline['variance_times_request_seconds'],1e-30),'cost1000_ratio_vs_MC':r['cost_requests1000']/baseline['cost_requests1000'],'reference_limited':r['reference_variance_over_sampling_variance']>.1,'model_bias_squared':r['squared_model_bias_vs_truth_reference'],'truth_mc_se':r['truth_conditional_mc_se'],'truth_filter_sd':r['truth_between_filter_sd']})
+ dump(O/'paired_comparisons.json',comparisons);result={'status':'PASS','utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'models':16,'raw_npz_files_SHA_checked':raw_files_checked,'rows':len(rows),'replicates_per_conditional_estimator':16,'functions':5,'query_histories_per_model':4,'exact_control_additional_rows':144,'execution_summary_sha256':sha(R/'outputs/query_execution_v1/execution_summary.json'),'truth_reference_sha256':sha(R/'outputs/reference_eval_v1/reference_eval.json'),'quality_verification_sha256':sha(R/'outputs/quality_verification_v1.json'),'all_rows_sha256':sha(O/'all_rows.json'),'paired_comparisons_sha256':sha(O/'paired_comparisons.json'),'source_sha256':sha(pathlib.Path(__file__)),'no_model_import_or_new_training':True,'independence_scope':'independent CPU scoring from saved draw arrays; not an independent neural-network implementation','limits':['four query histories/carrier; two fitted initializations','budgets/policies/functions use paired nested replicate pools','reference MC uncertainty reported; tiny error gains may be reference-limited','PF convergence is numerical evidence, not a rigorous global bias bound','request latency measured at fixed history0; other origins have constituent call timings','cross-family fit budgets/objectives/representation differ','no candidate framework acceptance implied']};dump(O/'analysis_summary.json',result);print(json.dumps(result),flush=True)
+
+if __name__=='__main__':main()

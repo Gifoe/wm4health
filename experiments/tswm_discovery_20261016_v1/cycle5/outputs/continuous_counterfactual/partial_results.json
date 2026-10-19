@@ -1,0 +1,920 @@
+[
+  {
+    "seed": 61,
+    "d": 2,
+    "T": 64,
+    "query_feature_dimension": 5,
+    "augmented_filter_dimension": 7,
+    "feature_filter_seconds": 0.007418900000629947,
+    "dense_conditioning_seconds": 0.0016963000016403385,
+    "dense_feature_max_error": 4.9960036108132044e-15,
+    "twin_filter_seconds_20": 0.13203589998738607,
+    "direct_twin_max_error_20": 6.38378239159465e-16,
+    "extrema": [
+      {
+        "kind": "min",
+        "feasible": 0.07936296335181543,
+        "SDP_bound": 0.0793629793977305,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.013918399999965914,
+          "max_constraint_violation": 2.717825964282383e-13,
+          "min_eigenvalue": 2.9641831433351094e-09,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 0.0,
+        "determinant": -0.9999999999999999
+      },
+      {
+        "kind": "max",
+        "feasible": 0.7194113499898944,
+        "SDP_bound": 0.7194113463462414,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.01047600000310922,
+          "max_constraint_violation": 2.462474668618597e-13,
+          "min_eigenvalue": 3.535148733510024e-09,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 7.850462293418876e-16,
+        "determinant": -1.0000000000000004
+      }
+    ],
+    "exact_O2": [
+      0.07936296335176952,
+      0.7194113499899422
+    ],
+    "constant_gauge_family_only": true
+  },
+  {
+    "seed": 61,
+    "d": 2,
+    "T": 256,
+    "query_feature_dimension": 5,
+    "augmented_filter_dimension": 7,
+    "feature_filter_seconds": 0.028204899994307198,
+    "dense_conditioning_seconds": 0.010446499996760394,
+    "dense_feature_max_error": 4.9960036108132044e-15,
+    "twin_filter_seconds_20": 0.5153621999925235,
+    "direct_twin_max_error_20": 3.774758283725532e-15,
+    "extrema": [
+      {
+        "kind": "min",
+        "feasible": 0.05629807051884946,
+        "SDP_bound": 0.05629807548772825,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.010305700001481455,
+          "max_constraint_violation": 1.3389289676979388e-13,
+          "min_eigenvalue": 4.813699834464013e-10,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 2.222613395836815e-16,
+        "determinant": -0.9999999999999999
+      },
+      {
+        "kind": "max",
+        "feasible": 1.2896082053859623,
+        "SDP_bound": 1.2896082046039559,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.009770500000740867,
+          "max_constraint_violation": 2.2956976669022225e-11,
+          "min_eigenvalue": -2.295695470607172e-11,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 3.236828524569469e-16,
+        "determinant": -0.9999999999999999
+      }
+    ],
+    "exact_O2": [
+      0.05629807051881819,
+      1.289608205385965
+    ],
+    "constant_gauge_family_only": true
+  },
+  {
+    "seed": 61,
+    "d": 3,
+    "T": 64,
+    "query_feature_dimension": 10,
+    "augmented_filter_dimension": 13,
+    "feature_filter_seconds": 0.007489299998269416,
+    "dense_conditioning_seconds": 0.0017699000018183142,
+    "dense_feature_max_error": 5.551115123125783e-17,
+    "twin_filter_seconds_20": 0.1305751999898348,
+    "direct_twin_max_error_20": 6.661338147750939e-16,
+    "extrema": [
+      {
+        "kind": "min",
+        "feasible": 1.0176231142293968,
+        "SDP_bound": 1.0176231650720333,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.017794299994420726,
+          "max_constraint_violation": 4.0220183987670985e-09,
+          "min_eigenvalue": -4.0220183776731856e-09,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 4.509747244882934e-16,
+        "determinant": 1.0000000000000002
+      },
+      {
+        "kind": "max",
+        "feasible": 1.8284823131702659,
+        "SDP_bound": 1.82848231096543,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.017489400001068134,
+          "max_constraint_violation": 4.015140440845583e-10,
+          "min_eigenvalue": -4.0151410691830864e-10,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 4.0299384928365056e-16,
+        "determinant": -0.9999999999999999
+      }
+    ],
+    "exact_O2": null,
+    "constant_gauge_family_only": true
+  },
+  {
+    "seed": 61,
+    "d": 3,
+    "T": 256,
+    "query_feature_dimension": 10,
+    "augmented_filter_dimension": 13,
+    "feature_filter_seconds": 0.02887419999751728,
+    "dense_conditioning_seconds": 0.012670099997194484,
+    "dense_feature_max_error": 4.440892098500626e-16,
+    "twin_filter_seconds_20": 0.5206550000075367,
+    "direct_twin_max_error_20": 8.881784197001252e-16,
+    "extrema": [
+      {
+        "kind": "min",
+        "feasible": 0.0965766799479354,
+        "SDP_bound": 0.09657668419994203,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.01734720000240486,
+          "max_constraint_violation": 1.3557345375102584e-10,
+          "min_eigenvalue": -1.3557360030200552e-10,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 1.5872046756126948e-15,
+        "determinant": -1.0000000000000007
+      },
+      {
+        "kind": "max",
+        "feasible": 2.228416040101848,
+        "SDP_bound": 2.228416034051141,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.01711090000026161,
+          "max_constraint_violation": 1.1434384263410532e-09,
+          "min_eigenvalue": -1.1434387873557082e-09,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 1.1650731413967639e-15,
+        "determinant": 0.9999999999999994
+      }
+    ],
+    "exact_O2": null,
+    "constant_gauge_family_only": true
+  },
+  {
+    "seed": 61,
+    "d": 5,
+    "T": 64,
+    "query_feature_dimension": 26,
+    "augmented_filter_dimension": 31,
+    "feature_filter_seconds": 0.009056099996087141,
+    "dense_conditioning_seconds": 0.0030893000002834015,
+    "dense_feature_max_error": 6.661338147750939e-16,
+    "twin_filter_seconds_20": 0.13555890000861837,
+    "direct_twin_max_error_20": 2.6645352591003757e-15,
+    "extrema": [
+      {
+        "kind": "min",
+        "feasible": 0.9668746233955737,
+        "SDP_bound": 0.9668497477642952,
+        "absolute_gap": 2.4875631278509225e-05,
+        "relative_gap": 2.4875631278509225e-05,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.10747869999613613,
+          "max_constraint_violation": 9.25521979078757e-11,
+          "min_eigenvalue": -9.255206200467596e-11,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 1.1523578856652993e-15,
+        "determinant": -0.9999999999999999
+      },
+      {
+        "kind": "max",
+        "feasible": 2.0228338927042264,
+        "SDP_bound": 2.0228338582204444,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.09770320000097854,
+          "max_constraint_violation": 3.790287977441599e-09,
+          "min_eigenvalue": -3.790287485360083e-09,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 1.707390951224042e-15,
+        "determinant": 1.0000000000000009
+      }
+    ],
+    "exact_O2": null,
+    "constant_gauge_family_only": true
+  },
+  {
+    "seed": 61,
+    "d": 5,
+    "T": 256,
+    "query_feature_dimension": 26,
+    "augmented_filter_dimension": 31,
+    "feature_filter_seconds": 0.03446979999716859,
+    "dense_conditioning_seconds": 0.04775990000052843,
+    "dense_feature_max_error": 7.771561172376096e-16,
+    "twin_filter_seconds_20": 0.5397233000039705,
+    "direct_twin_max_error_20": 6.217248937900877e-15,
+    "extrema": [
+      {
+        "kind": "min",
+        "feasible": 0.2810467374453887,
+        "SDP_bound": 0.28104676190447075,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.10289239999838173,
+          "max_constraint_violation": 1.9188976322399402e-09,
+          "min_eigenvalue": -1.9188972006076212e-09,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 7.799130386459403e-16,
+        "determinant": -1.0
+      },
+      {
+        "kind": "max",
+        "feasible": 7.129109492802466,
+        "SDP_bound": 7.129109434584185,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.08498170000530081,
+          "max_constraint_violation": 3.5811132175346334e-09,
+          "min_eigenvalue": -3.5811136573935026e-09,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 2.3671419775056116e-15,
+        "determinant": 1.0000000000000016
+      }
+    ],
+    "exact_O2": null,
+    "constant_gauge_family_only": true
+  },
+  {
+    "seed": 62,
+    "d": 2,
+    "T": 64,
+    "query_feature_dimension": 5,
+    "augmented_filter_dimension": 7,
+    "feature_filter_seconds": 0.007349100000283215,
+    "dense_conditioning_seconds": 0.0015949000007822178,
+    "dense_feature_max_error": 4.440892098500626e-16,
+    "twin_filter_seconds_20": 0.13007440001820214,
+    "direct_twin_max_error_20": 3.9968028886505635e-15,
+    "extrema": [
+      {
+        "kind": "min",
+        "feasible": 1.6973728872212126,
+        "SDP_bound": 1.6973729124209838,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.010473100002855062,
+          "max_constraint_violation": 1.3322676295501878e-15,
+          "min_eigenvalue": 9.829707604807733e-09,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 2.482534153247273e-16,
+        "determinant": -0.9999999999999998
+      },
+      {
+        "kind": "max",
+        "feasible": 2.6489407303958297,
+        "SDP_bound": 2.648940727469426,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.009859900004812516,
+          "max_constraint_violation": 4.2462211025138134e-10,
+          "min_eigenvalue": -4.2462222271380293e-10,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 1.5700924586837752e-16,
+        "determinant": -1.0
+      }
+    ],
+    "exact_O2": [
+      1.6973728872203537,
+      2.6489407303965433
+    ],
+    "constant_gauge_family_only": true
+  },
+  {
+    "seed": 62,
+    "d": 2,
+    "T": 256,
+    "query_feature_dimension": 5,
+    "augmented_filter_dimension": 7,
+    "feature_filter_seconds": 0.02816539999912493,
+    "dense_conditioning_seconds": 0.010013099999923725,
+    "dense_feature_max_error": 1.9984014443252818e-15,
+    "twin_filter_seconds_20": 0.5158385000104317,
+    "direct_twin_max_error_20": 3.552713678800501e-15,
+    "extrema": [
+      {
+        "kind": "min",
+        "feasible": 1.0203563156146533,
+        "SDP_bound": 1.0203563462709961,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.027044399997976143,
+          "max_constraint_violation": 2.475797344914099e-14,
+          "min_eigenvalue": 6.803693448897042e-09,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 3.1401849173675503e-16,
+        "determinant": 1.0
+      },
+      {
+        "kind": "max",
+        "feasible": 2.682530058451676,
+        "SDP_bound": 2.682530047948654,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.010059300002467353,
+          "max_constraint_violation": 1.7439973250002605e-09,
+          "min_eigenvalue": -1.743997109996002e-09,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 2.7194799110210365e-16,
+        "determinant": 1.0000000000000002
+      }
+    ],
+    "exact_O2": [
+      1.0203563156144606,
+      2.6825300584518694
+    ],
+    "constant_gauge_family_only": true
+  },
+  {
+    "seed": 62,
+    "d": 3,
+    "T": 64,
+    "query_feature_dimension": 10,
+    "augmented_filter_dimension": 13,
+    "feature_filter_seconds": 0.00753429999895161,
+    "dense_conditioning_seconds": 0.001785500004189089,
+    "dense_feature_max_error": 1.3322676295501878e-15,
+    "twin_filter_seconds_20": 0.13051979999727337,
+    "direct_twin_max_error_20": 1.0658141036401503e-14,
+    "extrema": [
+      {
+        "kind": "min",
+        "feasible": 1.1194150922735768,
+        "SDP_bound": 1.1194150970786498,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.017151000000012573,
+          "max_constraint_violation": 3.3901057832761663e-10,
+          "min_eigenvalue": -3.390102874964596e-10,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 1.1410208772874278e-15,
+        "determinant": 1.0000000000000002
+      },
+      {
+        "kind": "max",
+        "feasible": 13.232267354721253,
+        "SDP_bound": 13.232267344847305,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.016545999998925254,
+          "max_constraint_violation": 1.1095979489961656e-09,
+          "min_eigenvalue": -1.1095979127414111e-09,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 1.3136335981433192e-15,
+        "determinant": -1.0000000000000009
+      }
+    ],
+    "exact_O2": null,
+    "constant_gauge_family_only": true
+  },
+  {
+    "seed": 62,
+    "d": 3,
+    "T": 256,
+    "query_feature_dimension": 10,
+    "augmented_filter_dimension": 13,
+    "feature_filter_seconds": 0.028937700000824407,
+    "dense_conditioning_seconds": 0.012595300002431031,
+    "dense_feature_max_error": 1.3322676295501878e-15,
+    "twin_filter_seconds_20": 0.5211311000020942,
+    "direct_twin_max_error_20": 1.1546319456101628e-14,
+    "extrema": [
+      {
+        "kind": "min",
+        "feasible": 3.2225215041135242,
+        "SDP_bound": 3.2225215629949835,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.017077900003641844,
+          "max_constraint_violation": 3.749120568873076e-09,
+          "min_eigenvalue": -3.749120729084029e-09,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 8.653332088726038e-16,
+        "determinant": 1.0000000000000004
+      },
+      {
+        "kind": "max",
+        "feasible": 6.830973223906548,
+        "SDP_bound": 6.830973189944714,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.01649370000086492,
+          "max_constraint_violation": 3.015405935847892e-09,
+          "min_eigenvalue": -3.015406158353614e-09,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 9.98043569808993e-16,
+        "determinant": -1.0
+      }
+    ],
+    "exact_O2": null,
+    "constant_gauge_family_only": true
+  },
+  {
+    "seed": 62,
+    "d": 5,
+    "T": 64,
+    "query_feature_dimension": 26,
+    "augmented_filter_dimension": 31,
+    "feature_filter_seconds": 0.009035700000822544,
+    "dense_conditioning_seconds": 0.003219499994884245,
+    "dense_feature_max_error": 6.661338147750939e-16,
+    "twin_filter_seconds_20": 0.13577399997302564,
+    "direct_twin_max_error_20": 2.6645352591003757e-15,
+    "extrema": [
+      {
+        "kind": "min",
+        "feasible": 0.11479381893269897,
+        "SDP_bound": 0.11479386626309043,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.09262450000096578,
+          "max_constraint_violation": 2.0937942135061887e-09,
+          "min_eigenvalue": -2.0937942121172594e-09,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 1.6002013097371076e-15,
+        "determinant": -0.9999999999999998
+      },
+      {
+        "kind": "max",
+        "feasible": 2.4333488658698137,
+        "SDP_bound": 2.433348862473305,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.09500960000150371,
+          "max_constraint_violation": 2.2802596171314898e-10,
+          "min_eigenvalue": -2.2802560878357619e-10,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 7.15232190190452e-16,
+        "determinant": 1.0
+      }
+    ],
+    "exact_O2": null,
+    "constant_gauge_family_only": true
+  },
+  {
+    "seed": 62,
+    "d": 5,
+    "T": 256,
+    "query_feature_dimension": 26,
+    "augmented_filter_dimension": 31,
+    "feature_filter_seconds": 0.034558599996671546,
+    "dense_conditioning_seconds": 0.04767089999950258,
+    "dense_feature_max_error": 2.220446049250313e-16,
+    "twin_filter_seconds_20": 0.5389782000202104,
+    "direct_twin_max_error_20": 2.220446049250313e-15,
+    "extrema": [
+      {
+        "kind": "min",
+        "feasible": 0.6009276835545587,
+        "SDP_bound": 0.6009276858268502,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.09571480000158772,
+          "max_constraint_violation": 2.6746177487405345e-10,
+          "min_eigenvalue": -2.674616066333594e-10,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 1.741614341437994e-15,
+        "determinant": 0.9999999999999991
+      },
+      {
+        "kind": "max",
+        "feasible": 2.7444926772815927,
+        "SDP_bound": 2.744492585979176,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.08799540000472916,
+          "max_constraint_violation": 6.937362892276431e-09,
+          "min_eigenvalue": -6.937362396784538e-09,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 8.606046910390487e-16,
+        "determinant": -0.9999999999999998
+      }
+    ],
+    "exact_O2": null,
+    "constant_gauge_family_only": true
+  },
+  {
+    "seed": 63,
+    "d": 2,
+    "T": 64,
+    "query_feature_dimension": 5,
+    "augmented_filter_dimension": 7,
+    "feature_filter_seconds": 0.007290000001376029,
+    "dense_conditioning_seconds": 0.0015952999965520576,
+    "dense_feature_max_error": 7.771561172376096e-16,
+    "twin_filter_seconds_20": 0.13083099999494152,
+    "direct_twin_max_error_20": 7.771561172376096e-16,
+    "extrema": [
+      {
+        "kind": "min",
+        "feasible": 0.4947117070218104,
+        "SDP_bound": 0.49471172027188204,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.010385499997937586,
+          "max_constraint_violation": 2.7755575615628914e-16,
+          "min_eigenvalue": 1.0689820608275258e-08,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 5.026748538604307e-16,
+        "determinant": 1.0000000000000002
+      },
+      {
+        "kind": "max",
+        "feasible": 0.6116604987318139,
+        "SDP_bound": 0.6116604853774292,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.010324800001399126,
+          "max_constraint_violation": 2.220446049250313e-16,
+          "min_eigenvalue": 2.473106524287465e-08,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 7.850462293418876e-17,
+        "determinant": -0.9999999999999999
+      }
+    ],
+    "exact_O2": [
+      0.4947117070164572,
+      0.6116604987452944
+    ],
+    "constant_gauge_family_only": true
+  },
+  {
+    "seed": 63,
+    "d": 2,
+    "T": 256,
+    "query_feature_dimension": 5,
+    "augmented_filter_dimension": 7,
+    "feature_filter_seconds": 0.02818689999548951,
+    "dense_conditioning_seconds": 0.00993420000304468,
+    "dense_feature_max_error": 4.440892098500626e-16,
+    "twin_filter_seconds_20": 0.5175451999966754,
+    "direct_twin_max_error_20": 8.881784197001252e-16,
+    "extrema": [
+      {
+        "kind": "min",
+        "feasible": 0.4444854087916216,
+        "SDP_bound": 0.44448541438130684,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.010371099997428246,
+          "max_constraint_violation": 4.440892098500626e-16,
+          "min_eigenvalue": 3.3608785948902485e-10,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 3.4219371797089426e-16,
+        "determinant": -1.0000000000000002
+      },
+      {
+        "kind": "max",
+        "feasible": 0.5944295056744824,
+        "SDP_bound": 0.5944294963072739,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.010282399998686742,
+          "max_constraint_violation": 3.439998286225432e-12,
+          "min_eigenvalue": 2.6258085121416664e-08,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 0.0,
+        "determinant": -1.0
+      }
+    ],
+    "exact_O2": [
+      0.4444854087869239,
+      0.5944295056815521
+    ],
+    "constant_gauge_family_only": true
+  },
+  {
+    "seed": 63,
+    "d": 3,
+    "T": 64,
+    "query_feature_dimension": 10,
+    "augmented_filter_dimension": 13,
+    "feature_filter_seconds": 0.007514899996749591,
+    "dense_conditioning_seconds": 0.001764300002832897,
+    "dense_feature_max_error": 8.326672684688674e-17,
+    "twin_filter_seconds_20": 0.1307434999907855,
+    "direct_twin_max_error_20": 6.661338147750939e-16,
+    "extrema": [
+      {
+        "kind": "min",
+        "feasible": 0.18881627492565276,
+        "SDP_bound": 0.18881627880190083,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.017114499998569954,
+          "max_constraint_violation": 1.2420620087993939e-15,
+          "min_eigenvalue": 2.125529917753607e-09,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 9.79932992745665e-16,
+        "determinant": 1.0000000000000007
+      },
+      {
+        "kind": "max",
+        "feasible": 0.7249305133499866,
+        "SDP_bound": 0.7249305054716519,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.017189300000609364,
+          "max_constraint_violation": 8.498757253505573e-14,
+          "min_eigenvalue": 1.0823365315699851e-09,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 8.491573300505515e-16,
+        "determinant": 1.0000000000000002
+      }
+    ],
+    "exact_O2": null,
+    "constant_gauge_family_only": true
+  },
+  {
+    "seed": 63,
+    "d": 3,
+    "T": 256,
+    "query_feature_dimension": 10,
+    "augmented_filter_dimension": 13,
+    "feature_filter_seconds": 0.029016399996180553,
+    "dense_conditioning_seconds": 0.012521500000730157,
+    "dense_feature_max_error": 2.220446049250313e-16,
+    "twin_filter_seconds_20": 0.5208038999917335,
+    "direct_twin_max_error_20": 9.992007221626409e-16,
+    "extrema": [
+      {
+        "kind": "min",
+        "feasible": 0.1550989889831282,
+        "SDP_bound": 0.155099027199164,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.01707670000178041,
+          "max_constraint_violation": 7.560618797697316e-14,
+          "min_eigenvalue": 8.028265247561009e-09,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 6.977643512971218e-16,
+        "determinant": 0.9999999999999999
+      },
+      {
+        "kind": "max",
+        "feasible": 0.7136549050600323,
+        "SDP_bound": 0.7136548973974691,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.01734980000037467,
+          "max_constraint_violation": 1.925612447273295e-13,
+          "min_eigenvalue": 2.5346284571911334e-09,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 2.0770370905276122e-16,
+        "determinant": -1.0
+      }
+    ],
+    "exact_O2": null,
+    "constant_gauge_family_only": true
+  },
+  {
+    "seed": 63,
+    "d": 5,
+    "T": 64,
+    "query_feature_dimension": 26,
+    "augmented_filter_dimension": 31,
+    "feature_filter_seconds": 0.008957300000474788,
+    "dense_conditioning_seconds": 0.003126699994027149,
+    "dense_feature_max_error": 6.661338147750939e-16,
+    "twin_filter_seconds_20": 0.13692949999676785,
+    "direct_twin_max_error_20": 7.771561172376096e-16,
+    "extrema": [
+      {
+        "kind": "min",
+        "feasible": 0.09769214456830516,
+        "SDP_bound": 0.09769215116978211,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.0973532999996678,
+          "max_constraint_violation": 3.0108656851557617e-10,
+          "min_eigenvalue": -3.010872913767755e-10,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 1.6076160818110574e-15,
+        "determinant": 1.000000000000001
+      },
+      {
+        "kind": "max",
+        "feasible": 1.0715181141305878,
+        "SDP_bound": 1.0715180892976992,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.10928140000032727,
+          "max_constraint_violation": 2.1241730387985579e-10,
+          "min_eigenvalue": -2.1241750070658554e-10,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 1.519285041836489e-15,
+        "determinant": -1.0000000000000004
+      }
+    ],
+    "exact_O2": null,
+    "constant_gauge_family_only": true
+  },
+  {
+    "seed": 63,
+    "d": 5,
+    "T": 256,
+    "query_feature_dimension": 26,
+    "augmented_filter_dimension": 31,
+    "feature_filter_seconds": 0.03464679999888176,
+    "dense_conditioning_seconds": 0.04748749999998836,
+    "dense_feature_max_error": 7.771561172376096e-16,
+    "twin_filter_seconds_20": 0.53983399997378,
+    "direct_twin_max_error_20": 2.220446049250313e-15,
+    "extrema": [
+      {
+        "kind": "min",
+        "feasible": 0.17992368218892812,
+        "SDP_bound": 0.1799237149935698,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.10116549999656854,
+          "max_constraint_violation": 1.969295548871216e-09,
+          "min_eigenvalue": -1.9692948675570063e-09,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 1.0594943454715087e-15,
+        "determinant": 1.0000000000000007
+      },
+      {
+        "kind": "max",
+        "feasible": 1.1080022812223551,
+        "SDP_bound": 1.1080022562383647,
+        "absolute_gap": 0.0,
+        "relative_gap": 0.0,
+        "solver": {
+          "status": "optimal",
+          "seconds": 0.0940654000005452,
+          "max_constraint_violation": 9.907596304035483e-10,
+          "min_eigenvalue": -9.90759735520556e-10,
+          "solver": "CLARABEL",
+          "formal_certificate": false
+        },
+        "orthogonality_residual": 1.1618342047228337e-15,
+        "determinant": -1.0000000000000004
+      }
+    ],
+    "exact_O2": null,
+    "constant_gauge_family_only": true
+  }
+]

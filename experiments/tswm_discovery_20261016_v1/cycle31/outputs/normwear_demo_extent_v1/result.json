@@ -1,0 +1,25 @@
+{
+  "context": 2048,
+  "horizon": 2048,
+  "num_states": 10,
+  "identity": "official demo sizes/interface, generated data; not original private dataset or scientific performance",
+  "source_revision": "3d1281c9994140056edfbbdedab57f2e6493dfaa",
+  "script_sha256": "cc559b31efd08afdcbcac796fa3ff39c183955bb374e7b2fa56b91335823c8ad",
+  "native": {
+    "status": "IndexError",
+    "error": "IndexError('index 128 is out of bounds for dimension 0 with size 128')",
+    "seconds": 0.3463863999932073
+  },
+  "length_repaired": {
+    "status": "passed",
+    "shape": [
+      2,
+      2048
+    ],
+    "seconds": 0.516369199991459,
+    "peak_allocated_bytes": 794075136,
+    "action_index": "original, not repaired in this isolated length check"
+  },
+  "arrays_sha256": "095e489e40ddadd9369f1703c2f3a24f7ab528e5c16e8a9589cc57d35c65a651",
+  "qualification_sha256": "1db433550bd809a6dcf6c946b5eb903e4aa2dafdcc07fc72f1c3648f43b01cd4"
+}

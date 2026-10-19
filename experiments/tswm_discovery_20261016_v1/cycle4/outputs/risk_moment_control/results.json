@@ -1,0 +1,53 @@
+[
+  {
+    "seed": 41,
+    "mode": "training_cross_moment_projection",
+    "parameters_total": 4549,
+    "parameters_trainable": 4485,
+    "seconds": 9.892522699999972,
+    "checkpoint_sha256": "6c3b8fcf16b883c468a03246fee54ec5e961477160e9071674379b8cce201fcc",
+    "conditional_gaussian_kl": 0.006980596575886011,
+    "conditional_mean_mse": 0.000978827360086143,
+    "physical_y_probe_nmse": 0.001284328617162058,
+    "risk_v_probe_nmse": 0.03903641576123934,
+    "policy_regret": 0.0012773728230968118,
+    "wrong_action_fraction": 0.0250244140625,
+    "tail_brier": 0.07707656174898148,
+    "oracle_tail_brier": 0.07694859057664871,
+    "nll_without_constant": -0.15940392017364502
+  },
+  {
+    "seed": 42,
+    "mode": "training_cross_moment_projection",
+    "parameters_total": 4549,
+    "parameters_trainable": 4485,
+    "seconds": 9.881658500002231,
+    "checkpoint_sha256": "bda950a00ac748f62631b24c31f41c9dd222108e9f85f5e9ba3cd6b125eadfe2",
+    "conditional_gaussian_kl": 0.006607506889849901,
+    "conditional_mean_mse": 0.0009788463357836008,
+    "physical_y_probe_nmse": 0.001284328617162058,
+    "risk_v_probe_nmse": 0.03903641576123934,
+    "policy_regret": 0.0014265782665461302,
+    "wrong_action_fraction": 0.02679443359375,
+    "tail_brier": 0.07705191522836685,
+    "oracle_tail_brier": 0.07694859057664871,
+    "nll_without_constant": -0.15995384752750397
+  },
+  {
+    "seed": 43,
+    "mode": "training_cross_moment_projection",
+    "parameters_total": 4549,
+    "parameters_trainable": 4485,
+    "seconds": 9.721387799996592,
+    "checkpoint_sha256": "c7aa3a6e557e154539b2b2537edb361e5b6c3ed0f56c8acd441495b3b44f5168",
+    "conditional_gaussian_kl": 0.00677619781345129,
+    "conditional_mean_mse": 0.0009787159506231546,
+    "physical_y_probe_nmse": 0.001284328617162058,
+    "risk_v_probe_nmse": 0.03903641576123934,
+    "policy_regret": 0.001399841858074069,
+    "wrong_action_fraction": 0.02642822265625,
+    "tail_brier": 0.07705962657928467,
+    "oracle_tail_brier": 0.07694859057664871,
+    "nll_without_constant": -0.15975840389728546
+  }
+]

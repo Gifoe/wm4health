@@ -1,0 +1,1252 @@
+{
+  "rows": [
+    {
+      "key": "coupled_linear_all_outputs_2021",
+      "family": "coupled_linear",
+      "output_choice": "all_outputs",
+      "seed": 2021,
+      "output_rank": 12,
+      "input_dimension": 4,
+      "gain_accuracy": 0.507568359375,
+      "current_physical_decoding_MSE": 1.0150807076281148,
+      "native_physical_MSE": 1.0150104893300638,
+      "modulation_relative_RMSE": 1.000001574334372,
+      "finite_difference_gradient_max_error": 0.00014755874872207642,
+      "selected": {
+        "degree": 1,
+        "ridge": 1e-06,
+        "validation_latent_MSE": 0.04194941232738893
+      },
+      "candidates": [
+        {
+          "degree": 1,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.04194941232738893
+        },
+        {
+          "degree": 1,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.04196081618246146
+        },
+        {
+          "degree": 1,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.051859435849881466
+        },
+        {
+          "degree": 2,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.04202597242122501
+        },
+        {
+          "degree": 2,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.042037947891141327
+        },
+        {
+          "degree": 2,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.05227558063007938
+        },
+        {
+          "degree": 3,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.04231072630848521
+        },
+        {
+          "degree": 3,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.04229755292706403
+        },
+        {
+          "degree": 3,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.04581509753480521
+        }
+      ],
+      "model_file": "coupled_linear_all_outputs_2021.npz",
+      "model_sha256": "74357125cbee2822d985f647af1350aa126f9686830d8aefdd8ba2cb5f5e6a7d",
+      "teacher_sha256": "0e6caa2853f4a1e6151c171994ec2f860b8020b5d994ae7683a0bebfdbbf586f",
+      "seconds": 1.245043099988834
+    },
+    {
+      "key": "coupled_linear_action_outputs_2021",
+      "family": "coupled_linear",
+      "output_choice": "action_outputs",
+      "seed": 2021,
+      "output_rank": 2,
+      "input_dimension": 4,
+      "gain_accuracy": 1.0,
+      "current_physical_decoding_MSE": 0.0007539168634061086,
+      "native_physical_MSE": 0.00034919723515855266,
+      "modulation_relative_RMSE": 0.0013964741506764492,
+      "finite_difference_gradient_max_error": 0.00022343918681144714,
+      "selected": {
+        "degree": 2,
+        "ridge": 0.001,
+        "validation_latent_MSE": 0.25948283027178043
+      },
+      "candidates": [
+        {
+          "degree": 1,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.2927440308478872
+        },
+        {
+          "degree": 1,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.29274328911209835
+        },
+        {
+          "degree": 1,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.29833160597695896
+        },
+        {
+          "degree": 2,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.25948568420412454
+        },
+        {
+          "degree": 2,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.25948283027178043
+        },
+        {
+          "degree": 2,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.2652198342959837
+        },
+        {
+          "degree": 3,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.2600513482645686
+        },
+        {
+          "degree": 3,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.2601159692998323
+        },
+        {
+          "degree": 3,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.2612564341195831
+        }
+      ],
+      "model_file": "coupled_linear_action_outputs_2021.npz",
+      "model_sha256": "967b3a03753886653155c6f9d802ec94f70404b80a6c030420150cdbdfbad16d",
+      "teacher_sha256": "0e6caa2853f4a1e6151c171994ec2f860b8020b5d994ae7683a0bebfdbbf586f",
+      "seconds": 0.1241920000029495
+    },
+    {
+      "key": "coupled_linear_all_outputs_2022",
+      "family": "coupled_linear",
+      "output_choice": "all_outputs",
+      "seed": 2022,
+      "output_rank": 12,
+      "input_dimension": 4,
+      "gain_accuracy": 0.5001220703125,
+      "current_physical_decoding_MSE": 1.014842852967335,
+      "native_physical_MSE": 1.0151207535510474,
+      "modulation_relative_RMSE": 0.9999968917966936,
+      "finite_difference_gradient_max_error": 0.0001508966088294983,
+      "selected": {
+        "degree": 1,
+        "ridge": 1e-06,
+        "validation_latent_MSE": 0.039415404927260624
+      },
+      "candidates": [
+        {
+          "degree": 1,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.039415404927260624
+        },
+        {
+          "degree": 1,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.03941647526733921
+        },
+        {
+          "degree": 1,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.04719814836358596
+        },
+        {
+          "degree": 2,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.039498305210794775
+        },
+        {
+          "degree": 2,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.03950211947889436
+        },
+        {
+          "degree": 2,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.04802115302978231
+        },
+        {
+          "degree": 3,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.03960430670479898
+        },
+        {
+          "degree": 3,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.0395993593630356
+        },
+        {
+          "degree": 3,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.04228951032435958
+        }
+      ],
+      "model_file": "coupled_linear_all_outputs_2022.npz",
+      "model_sha256": "3fc17e59b20c5c26a61f2c472e7cd56ceaed0872fecbf06121741ce9aebcb023",
+      "teacher_sha256": "9efcbbd5b08844166c1bcefbb13221b9101d5bdf8bbba3c5db05cd1a0584c9b7",
+      "seconds": 0.13003899999603163
+    },
+    {
+      "key": "coupled_linear_action_outputs_2022",
+      "family": "coupled_linear",
+      "output_choice": "action_outputs",
+      "seed": 2022,
+      "output_rank": 2,
+      "input_dimension": 4,
+      "gain_accuracy": 1.0,
+      "current_physical_decoding_MSE": 0.0016518740198565264,
+      "native_physical_MSE": 0.0007881782899363918,
+      "modulation_relative_RMSE": 0.00405025027628501,
+      "finite_difference_gradient_max_error": 0.00016617029905319214,
+      "selected": {
+        "degree": 2,
+        "ridge": 0.001,
+        "validation_latent_MSE": 0.26155839433300165
+      },
+      "candidates": [
+        {
+          "degree": 1,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.294790078422272
+        },
+        {
+          "degree": 1,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.2947908774587452
+        },
+        {
+          "degree": 1,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.3007396915655566
+        },
+        {
+          "degree": 2,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.2615752481224717
+        },
+        {
+          "degree": 2,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.26155839433300165
+        },
+        {
+          "degree": 2,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.26760219831746124
+        },
+        {
+          "degree": 3,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.26219934673143885
+        },
+        {
+          "degree": 3,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.262181059363529
+        },
+        {
+          "degree": 3,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.2632989997142735
+        }
+      ],
+      "model_file": "coupled_linear_action_outputs_2022.npz",
+      "model_sha256": "bdf1295298ade90e3f36c95cc985188fcbeb53c1d6878c11bbeaaea8a25353d0",
+      "teacher_sha256": "9efcbbd5b08844166c1bcefbb13221b9101d5bdf8bbba3c5db05cd1a0584c9b7",
+      "seconds": 0.12493060000997502
+    },
+    {
+      "key": "coupled_linear_all_outputs_2023",
+      "family": "coupled_linear",
+      "output_choice": "all_outputs",
+      "seed": 2023,
+      "output_rank": 12,
+      "input_dimension": 4,
+      "gain_accuracy": 0.50341796875,
+      "current_physical_decoding_MSE": 1.0151398332691808,
+      "native_physical_MSE": 1.015390255109958,
+      "modulation_relative_RMSE": 0.9999942693660262,
+      "finite_difference_gradient_max_error": 0.00015421956777572632,
+      "selected": {
+        "degree": 1,
+        "ridge": 1e-06,
+        "validation_latent_MSE": 0.04096989051039175
+      },
+      "candidates": [
+        {
+          "degree": 1,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.04096989051039175
+        },
+        {
+          "degree": 1,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.0409747048059423
+        },
+        {
+          "degree": 1,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.049429793526022
+        },
+        {
+          "degree": 2,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.04106214883441474
+        },
+        {
+          "degree": 2,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.04106928817382033
+        },
+        {
+          "degree": 2,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.05031021623916169
+        },
+        {
+          "degree": 3,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.04125835232587017
+        },
+        {
+          "degree": 3,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.0412496075655492
+        },
+        {
+          "degree": 3,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.04461071846574636
+        }
+      ],
+      "model_file": "coupled_linear_all_outputs_2023.npz",
+      "model_sha256": "b6c1f18635ab9d435f4d309112062ecba4fc831bdb8bb5e8f0d108f4bfd13573",
+      "teacher_sha256": "ae480b5cc69ef235acc8c1af67da3bfd4aa82117583e2c6114672b725c004cdf",
+      "seconds": 0.13078419999510515
+    },
+    {
+      "key": "coupled_linear_action_outputs_2023",
+      "family": "coupled_linear",
+      "output_choice": "action_outputs",
+      "seed": 2023,
+      "output_rank": 2,
+      "input_dimension": 4,
+      "gain_accuracy": 1.0,
+      "current_physical_decoding_MSE": 0.0010505901596601593,
+      "native_physical_MSE": 0.00043883461618114835,
+      "modulation_relative_RMSE": 0.0027977285843142877,
+      "finite_difference_gradient_max_error": 0.00011727213859558105,
+      "selected": {
+        "degree": 2,
+        "ridge": 0.001,
+        "validation_latent_MSE": 0.26121257094430744
+      },
+      "candidates": [
+        {
+          "degree": 1,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.2943931795011302
+        },
+        {
+          "degree": 1,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.2943974714756996
+        },
+        {
+          "degree": 1,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.3010723192082666
+        },
+        {
+          "degree": 2,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.2613892204645365
+        },
+        {
+          "degree": 2,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.26121257094430744
+        },
+        {
+          "degree": 2,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.26789402919656236
+        },
+        {
+          "degree": 3,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.2627920695072919
+        },
+        {
+          "degree": 3,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.26249510619679056
+        },
+        {
+          "degree": 3,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.26359604198275355
+        }
+      ],
+      "model_file": "coupled_linear_action_outputs_2023.npz",
+      "model_sha256": "d8d8edfc68a6e0633f501f8630259178f02f9bd6d3b53443e6f9fbc0445e235e",
+      "teacher_sha256": "ae480b5cc69ef235acc8c1af67da3bfd4aa82117583e2c6114672b725c004cdf",
+      "seconds": 0.12415920000057667
+    },
+    {
+      "key": "rotating_all_outputs_2021",
+      "family": "rotating",
+      "output_choice": "all_outputs",
+      "seed": 2021,
+      "output_rank": 12,
+      "input_dimension": 4,
+      "gain_accuracy": 0.506103515625,
+      "current_physical_decoding_MSE": 1.0166442565098586,
+      "native_physical_MSE": 1.0188286931895698,
+      "modulation_relative_RMSE": 0.9999878953455472,
+      "finite_difference_gradient_max_error": 0.00021932367235422134,
+      "selected": {
+        "degree": 1,
+        "ridge": 0.001,
+        "validation_latent_MSE": 0.03885690743718059
+      },
+      "candidates": [
+        {
+          "degree": 1,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.03886139040997483
+        },
+        {
+          "degree": 1,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.03885690743718059
+        },
+        {
+          "degree": 1,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.04588769939384115
+        },
+        {
+          "degree": 2,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.03892447362460534
+        },
+        {
+          "degree": 2,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.03892200264059033
+        },
+        {
+          "degree": 2,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.04667362310241961
+        },
+        {
+          "degree": 3,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.03917219037519933
+        },
+        {
+          "degree": 3,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.03916462823130694
+        },
+        {
+          "degree": 3,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.04175830086834577
+        }
+      ],
+      "model_file": "rotating_all_outputs_2021.npz",
+      "model_sha256": "6384aa511e99c9994a5383e05c45228d8cc1f09646ce0120372316d46a685d83",
+      "teacher_sha256": "66daf6ec58028ef42ea89b4a4c5f106e16cb706c1e16d9ad945666a031b10c66",
+      "seconds": 0.13308499999402557
+    },
+    {
+      "key": "rotating_action_outputs_2021",
+      "family": "rotating",
+      "output_choice": "action_outputs",
+      "seed": 2021,
+      "output_rank": 2,
+      "input_dimension": 4,
+      "gain_accuracy": 1.0,
+      "current_physical_decoding_MSE": 0.001973706955231625,
+      "native_physical_MSE": 0.0017371924255982678,
+      "modulation_relative_RMSE": 0.0033464942679494207,
+      "finite_difference_gradient_max_error": 0.00017242133617401123,
+      "selected": {
+        "degree": 2,
+        "ridge": 1e-06,
+        "validation_latent_MSE": 0.2607097467116076
+      },
+      "candidates": [
+        {
+          "degree": 1,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.270932675303845
+        },
+        {
+          "degree": 1,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.27093668267363735
+        },
+        {
+          "degree": 1,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.278470316515559
+        },
+        {
+          "degree": 2,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.2607097467116076
+        },
+        {
+          "degree": 2,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.2607236347258149
+        },
+        {
+          "degree": 2,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.26829630008301913
+        },
+        {
+          "degree": 3,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.2608278619327405
+        },
+        {
+          "degree": 3,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.2607742079604034
+        },
+        {
+          "degree": 3,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.2623697030259362
+        }
+      ],
+      "model_file": "rotating_action_outputs_2021.npz",
+      "model_sha256": "9eb7735818d75114568e4da6d1c6ec70255d6e2dfed590d35f51e2fa0f636b03",
+      "teacher_sha256": "66daf6ec58028ef42ea89b4a4c5f106e16cb706c1e16d9ad945666a031b10c66",
+      "seconds": 0.12993439999991097
+    },
+    {
+      "key": "rotating_all_outputs_2022",
+      "family": "rotating",
+      "output_choice": "all_outputs",
+      "seed": 2022,
+      "output_rank": 12,
+      "input_dimension": 4,
+      "gain_accuracy": 0.4984130859375,
+      "current_physical_decoding_MSE": 1.02594976859227,
+      "native_physical_MSE": 1.0279737181475972,
+      "modulation_relative_RMSE": 1.0000052669488726,
+      "finite_difference_gradient_max_error": 0.0002358797937631607,
+      "selected": {
+        "degree": 1,
+        "ridge": 0.001,
+        "validation_latent_MSE": 0.03877429450531329
+      },
+      "candidates": [
+        {
+          "degree": 1,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.03877490440836725
+        },
+        {
+          "degree": 1,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.03877429450531329
+        },
+        {
+          "degree": 1,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.04701302763443231
+        },
+        {
+          "degree": 2,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.03883132565901702
+        },
+        {
+          "degree": 2,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.03883250205258061
+        },
+        {
+          "degree": 2,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.04785908396638483
+        },
+        {
+          "degree": 3,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.039236333256344166
+        },
+        {
+          "degree": 3,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.03921380369651142
+        },
+        {
+          "degree": 3,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.04265652541288109
+        }
+      ],
+      "model_file": "rotating_all_outputs_2022.npz",
+      "model_sha256": "e6d3530949d585d03956ee2e4d71eeca87456fce0c22176108d63a7abd7fb1f8",
+      "teacher_sha256": "d868a46e96453fac77898b70e49658b4ccb123dfac978a43668004b1a8b2e042",
+      "seconds": 0.12838929999270476
+    },
+    {
+      "key": "rotating_action_outputs_2022",
+      "family": "rotating",
+      "output_choice": "action_outputs",
+      "seed": 2022,
+      "output_rank": 2,
+      "input_dimension": 4,
+      "gain_accuracy": 1.0,
+      "current_physical_decoding_MSE": 0.0015460945592034206,
+      "native_physical_MSE": 0.0013672559065780253,
+      "modulation_relative_RMSE": 0.003754328998540814,
+      "finite_difference_gradient_max_error": 0.00018803775310516357,
+      "selected": {
+        "degree": 2,
+        "ridge": 0.001,
+        "validation_latent_MSE": 0.26234362950386636
+      },
+      "candidates": [
+        {
+          "degree": 1,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.27260491565404693
+        },
+        {
+          "degree": 1,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.2726076167718049
+        },
+        {
+          "degree": 1,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.2799556327152701
+        },
+        {
+          "degree": 2,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.262362772582891
+        },
+        {
+          "degree": 2,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.26234362950386636
+        },
+        {
+          "degree": 2,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.2697095757443962
+        },
+        {
+          "degree": 3,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.2627115014709793
+        },
+        {
+          "degree": 3,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.2627130831679321
+        },
+        {
+          "degree": 3,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.2640921950707742
+        }
+      ],
+      "model_file": "rotating_action_outputs_2022.npz",
+      "model_sha256": "a47d200da991f1e7e01bf97975ad0c13eaff9cf32491ae47bc93d15298eb5fb4",
+      "teacher_sha256": "d868a46e96453fac77898b70e49658b4ccb123dfac978a43668004b1a8b2e042",
+      "seconds": 0.12137500000244472
+    },
+    {
+      "key": "rotating_all_outputs_2023",
+      "family": "rotating",
+      "output_choice": "all_outputs",
+      "seed": 2023,
+      "output_rank": 12,
+      "input_dimension": 4,
+      "gain_accuracy": 0.4970703125,
+      "current_physical_decoding_MSE": 1.0002015208290138,
+      "native_physical_MSE": 1.0027344227157187,
+      "modulation_relative_RMSE": 1.0000424034627893,
+      "finite_difference_gradient_max_error": 0.00025075674057006836,
+      "selected": {
+        "degree": 1,
+        "ridge": 0.001,
+        "validation_latent_MSE": 0.03752435915762747
+      },
+      "candidates": [
+        {
+          "degree": 1,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.03752610771794582
+        },
+        {
+          "degree": 1,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.03752435915762747
+        },
+        {
+          "degree": 1,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.04439833161738464
+        },
+        {
+          "degree": 2,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.037594606044936724
+        },
+        {
+          "degree": 2,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.03759338041691615
+        },
+        {
+          "degree": 2,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.04494539438239766
+        },
+        {
+          "degree": 3,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.03777684289528742
+        },
+        {
+          "degree": 3,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.0377721883523569
+        },
+        {
+          "degree": 3,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.040361951228497894
+        }
+      ],
+      "model_file": "rotating_all_outputs_2023.npz",
+      "model_sha256": "7fbac5046f1496b02f9488658dc084504e6d4cfc3cb845fd4ca307ea4e340f4c",
+      "teacher_sha256": "083edd2c05c5135c853c1ead4c8995ea2f49dad14cdb5d2cf0ce469c37b2b50f",
+      "seconds": 0.12933510000584647
+    },
+    {
+      "key": "rotating_action_outputs_2023",
+      "family": "rotating",
+      "output_choice": "action_outputs",
+      "seed": 2023,
+      "output_rank": 2,
+      "input_dimension": 4,
+      "gain_accuracy": 1.0,
+      "current_physical_decoding_MSE": 0.0013714614905188278,
+      "native_physical_MSE": 0.0012111173970328494,
+      "modulation_relative_RMSE": 0.0028701701064079025,
+      "finite_difference_gradient_max_error": 0.00013658404350280762,
+      "selected": {
+        "degree": 2,
+        "ridge": 0.001,
+        "validation_latent_MSE": 0.25985317938760333
+      },
+      "candidates": [
+        {
+          "degree": 1,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.2701922614807212
+        },
+        {
+          "degree": 1,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.27019322280190117
+        },
+        {
+          "degree": 1,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.276749097101223
+        },
+        {
+          "degree": 2,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.25985581473354147
+        },
+        {
+          "degree": 2,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.25985317938760333
+        },
+        {
+          "degree": 2,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.2662921759575446
+        },
+        {
+          "degree": 3,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.26050174431794537
+        },
+        {
+          "degree": 3,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.2604721091138563
+        },
+        {
+          "degree": 3,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.26155974845208513
+        }
+      ],
+      "model_file": "rotating_action_outputs_2023.npz",
+      "model_sha256": "1ea7020a0cdb4650c19db59b842d9769371d709847bbe80db6c4a656763a0671",
+      "teacher_sha256": "083edd2c05c5135c853c1ead4c8995ea2f49dad14cdb5d2cf0ce469c37b2b50f",
+      "seconds": 0.12305949999426957
+    },
+    {
+      "key": "saturating_all_outputs_2021",
+      "family": "saturating",
+      "output_choice": "all_outputs",
+      "seed": 2021,
+      "output_rank": 12,
+      "input_dimension": 4,
+      "gain_accuracy": 0.5020751953125,
+      "current_physical_decoding_MSE": 0.9837173647158226,
+      "native_physical_MSE": 0.9855808124339013,
+      "modulation_relative_RMSE": 1.0000069910619562,
+      "finite_difference_gradient_max_error": 0.00024272501468658447,
+      "selected": {
+        "degree": 1,
+        "ridge": 0.001,
+        "validation_latent_MSE": 0.03801634559542465
+      },
+      "candidates": [
+        {
+          "degree": 1,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.03801943278648514
+        },
+        {
+          "degree": 1,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.03801634559542465
+        },
+        {
+          "degree": 1,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.045077260552121905
+        },
+        {
+          "degree": 2,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.03809002285883792
+        },
+        {
+          "degree": 2,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.038089966905541825
+        },
+        {
+          "degree": 2,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.045994755148939255
+        },
+        {
+          "degree": 3,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.038293507177652994
+        },
+        {
+          "degree": 3,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.03829079149010699
+        },
+        {
+          "degree": 3,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.041166919141372736
+        }
+      ],
+      "model_file": "saturating_all_outputs_2021.npz",
+      "model_sha256": "2db04e648f613ec5cc8e021b0fb2231e3f2a71cfa87c384c64f113ce1fca4517",
+      "teacher_sha256": "4d9f701563f1f4fcef2da1e0bc6bb271e18a410903d6f78b8d08b4ea9e41814e",
+      "seconds": 0.13011139999434818
+    },
+    {
+      "key": "saturating_action_outputs_2021",
+      "family": "saturating",
+      "output_choice": "action_outputs",
+      "seed": 2021,
+      "output_rank": 2,
+      "input_dimension": 4,
+      "gain_accuracy": 1.0,
+      "current_physical_decoding_MSE": 0.0014605010580421298,
+      "native_physical_MSE": 0.00043731753941494387,
+      "modulation_relative_RMSE": 0.0033654196153999343,
+      "finite_difference_gradient_max_error": 0.00023496150970458984,
+      "selected": {
+        "degree": 3,
+        "ridge": 1e-06,
+        "validation_latent_MSE": 0.2616619741371676
+      },
+      "candidates": [
+        {
+          "degree": 1,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.3037870270863701
+        },
+        {
+          "degree": 1,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.3037798377284696
+        },
+        {
+          "degree": 1,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.3083533380954936
+        },
+        {
+          "degree": 2,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.26239536355606724
+        },
+        {
+          "degree": 2,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.26239716103416855
+        },
+        {
+          "degree": 2,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.2678238394589966
+        },
+        {
+          "degree": 3,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.2616619741371676
+        },
+        {
+          "degree": 3,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.2616814739317614
+        },
+        {
+          "degree": 3,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.26320281464972084
+        }
+      ],
+      "model_file": "saturating_action_outputs_2021.npz",
+      "model_sha256": "cf2784bda95add7d0116b205d1316c40aa33b5e936f1a4c220f9a275d83a607e",
+      "teacher_sha256": "4d9f701563f1f4fcef2da1e0bc6bb271e18a410903d6f78b8d08b4ea9e41814e",
+      "seconds": 0.13892650000343565
+    },
+    {
+      "key": "saturating_all_outputs_2022",
+      "family": "saturating",
+      "output_choice": "all_outputs",
+      "seed": 2022,
+      "output_rank": 12,
+      "input_dimension": 4,
+      "gain_accuracy": 0.5067138671875,
+      "current_physical_decoding_MSE": 0.9838742665522251,
+      "native_physical_MSE": 0.985527236804718,
+      "modulation_relative_RMSE": 1.0000015560909816,
+      "finite_difference_gradient_max_error": 0.00019160867668688297,
+      "selected": {
+        "degree": 1,
+        "ridge": 0.001,
+        "validation_latent_MSE": 0.03843332410091138
+      },
+      "candidates": [
+        {
+          "degree": 1,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.038436182612493
+        },
+        {
+          "degree": 1,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.03843332410091138
+        },
+        {
+          "degree": 1,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.04579983274270073
+        },
+        {
+          "degree": 2,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.03850566652095949
+        },
+        {
+          "degree": 2,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.0385062132564563
+        },
+        {
+          "degree": 2,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.046953344947132554
+        },
+        {
+          "degree": 3,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.03868697680897695
+        },
+        {
+          "degree": 3,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.038682892474051996
+        },
+        {
+          "degree": 3,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.04140813415318728
+        }
+      ],
+      "model_file": "saturating_all_outputs_2022.npz",
+      "model_sha256": "b9b69342d0265dbf7e1986630ccbb2e722ed8cc228b665b4f3ef0264c15eef62",
+      "teacher_sha256": "6745f5625633a2218fbfb3f6b1256e1ed5197d05eb9682d3b08254060f60d22b",
+      "seconds": 0.12697129999287426
+    },
+    {
+      "key": "saturating_action_outputs_2022",
+      "family": "saturating",
+      "output_choice": "action_outputs",
+      "seed": 2022,
+      "output_rank": 2,
+      "input_dimension": 4,
+      "gain_accuracy": 1.0,
+      "current_physical_decoding_MSE": 0.0010963940206711455,
+      "native_physical_MSE": 0.0004587273326487858,
+      "modulation_relative_RMSE": 0.014284943773840845,
+      "finite_difference_gradient_max_error": 0.00028771162033081055,
+      "selected": {
+        "degree": 3,
+        "ridge": 0.001,
+        "validation_latent_MSE": 0.2603998162718514
+      },
+      "candidates": [
+        {
+          "degree": 1,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.30255918240454394
+        },
+        {
+          "degree": 1,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.3025541130662248
+        },
+        {
+          "degree": 1,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.3075336264852923
+        },
+        {
+          "degree": 2,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.2610955289260948
+        },
+        {
+          "degree": 2,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.26105005770448153
+        },
+        {
+          "degree": 2,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.2666216304441733
+        },
+        {
+          "degree": 3,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.26068344547267064
+        },
+        {
+          "degree": 3,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.2603998162718514
+        },
+        {
+          "degree": 3,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.261740108941998
+        }
+      ],
+      "model_file": "saturating_action_outputs_2022.npz",
+      "model_sha256": "c54b0e22d48bb7c856e3690ec81868abfcb6b0f8029403878cc286f6197b985c",
+      "teacher_sha256": "6745f5625633a2218fbfb3f6b1256e1ed5197d05eb9682d3b08254060f60d22b",
+      "seconds": 0.1453346999915084
+    },
+    {
+      "key": "saturating_all_outputs_2023",
+      "family": "saturating",
+      "output_choice": "all_outputs",
+      "seed": 2023,
+      "output_rank": 12,
+      "input_dimension": 4,
+      "gain_accuracy": 0.4969482421875,
+      "current_physical_decoding_MSE": 0.9819924147775525,
+      "native_physical_MSE": 0.9836630422819281,
+      "modulation_relative_RMSE": 1.0000031796532072,
+      "finite_difference_gradient_max_error": 0.000183790922164917,
+      "selected": {
+        "degree": 1,
+        "ridge": 0.001,
+        "validation_latent_MSE": 0.03759045520040859
+      },
+      "candidates": [
+        {
+          "degree": 1,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.03759683198544962
+        },
+        {
+          "degree": 1,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.03759045520040859
+        },
+        {
+          "degree": 1,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.04412215859521618
+        },
+        {
+          "degree": 2,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.03761626418815264
+        },
+        {
+          "degree": 2,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.03761204844886131
+        },
+        {
+          "degree": 2,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.044737697159673934
+        },
+        {
+          "degree": 3,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.03779193205034799
+        },
+        {
+          "degree": 3,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.03778786525905943
+        },
+        {
+          "degree": 3,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.04045227385128074
+        }
+      ],
+      "model_file": "saturating_all_outputs_2023.npz",
+      "model_sha256": "2f3d4a285e62746215f4b04d9597d8c3ea0edeb664ae8c5ad28b960fedb533c7",
+      "teacher_sha256": "3d0031faab2ce5aed276bcaf20f1e78dcfbfa530e0373eb8b3041532c65814c7",
+      "seconds": 0.1278766000032192
+    },
+    {
+      "key": "saturating_action_outputs_2023",
+      "family": "saturating",
+      "output_choice": "action_outputs",
+      "seed": 2023,
+      "output_rank": 2,
+      "input_dimension": 4,
+      "gain_accuracy": 1.0,
+      "current_physical_decoding_MSE": 0.0010583689821690818,
+      "native_physical_MSE": 0.0003653196700631004,
+      "modulation_relative_RMSE": 0.0028054004026921335,
+      "finite_difference_gradient_max_error": 0.00016917288303375244,
+      "selected": {
+        "degree": 3,
+        "ridge": 1e-06,
+        "validation_latent_MSE": 0.2597721433039255
+      },
+      "candidates": [
+        {
+          "degree": 1,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.3018862602925186
+        },
+        {
+          "degree": 1,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.3018802394219612
+        },
+        {
+          "degree": 1,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.3069215857313956
+        },
+        {
+          "degree": 2,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.260610071904514
+        },
+        {
+          "degree": 2,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.26061908850186966
+        },
+        {
+          "degree": 2,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.2663609179716615
+        },
+        {
+          "degree": 3,
+          "ridge": 1e-06,
+          "validation_latent_MSE": 0.2597721433039255
+        },
+        {
+          "degree": 3,
+          "ridge": 0.001,
+          "validation_latent_MSE": 0.25977265590292475
+        },
+        {
+          "degree": 3,
+          "ridge": 0.1,
+          "validation_latent_MSE": 0.261650530082513
+        }
+      ],
+      "model_file": "saturating_action_outputs_2023.npz",
+      "model_sha256": "403de7b34c871504bb6ee840ee6a1fa2d5a9caf3dc9a783a387915f5445f4b35",
+      "teacher_sha256": "3d0031faab2ce5aed276bcaf20f1e78dcfbfa530e0373eb8b3041532c65814c7",
+      "seconds": 0.1370596999913687
+    }
+  ],
+  "seconds": 3.7503825000021607,
+  "script_sha256": "4537d39ff6e774aab1567bbfac598f1f26176ccd5a87c2bb410f89920f9a3a47",
+  "plan_sha256": "afa9f9049ee05da8d6068c0ed4ba7f0a3bd610629f8276603b5ca72b84593254",
+  "scope": "Post-pilot old-cohort classical sensitivity and polynomial reduction; action-output variant shares the proposed output-selection ingredient. Not new active-subspace theory or independent confirmation.",
+  "accepted_novel_directions": 0,
+  "objective_achieved": false
+}

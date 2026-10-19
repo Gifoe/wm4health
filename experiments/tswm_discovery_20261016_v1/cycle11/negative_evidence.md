@@ -1,0 +1,11 @@
+# Cycle11 negative evidence and rejected explanations
+
+The oracle preference is not a finite-predictor-capacity failure: both sides use their exact conditional laws, and an analytic positive-noise existence argument supports the construction. Scale/dimension/marginal differences do not explain it: the frame marginals and dimensions are equal. Frame-unit normalization does not remove it. Information loss matters for the declared raw prediction task, as the exact.405BayesMSE increase atp=.25and conditionalNLL/MI control establish. Atp=.5the sign is a null for prediction; do not call its removal harmful.
+
+However, the key practical hypothesis failed in the executed random-initialization learning study: all3energy-only fits and all9existing-control fits retained state to small error, with near-affine sign-fiber separation. A bad global criterion-level construction does not show that ordinary training finds it. Stop this toy route; do not change the data or initialization merely to force a positive result.
+
+No claim that a new mixture-information or decoded-space method is needed is supported. Both principles already exist, and the simple baseline is already healthy. Relative percentage gains on tiny readout errors would be misleading.
+
+Fixed-target propriety remains intact. Branch-JEPAv3usesEMA targets, decodedEnergy and reconstruction; our full-gradient radial experiment is not its full method. Info-LDM's recovery theorem assumes information saturation and exact exponential-family distribution matching; the two-Gaussian transition and our new mixture predictor are outside its released fixed-Gaussian reproduction. Earlier self-predictiveRLwork already analyzes online/detached/EMA optimization. No broad theorem refutation or novelinformationprinciple is claimed.
+
+Source-pin utility initially exceeded its selected-file guard(45candidates); selection was narrowed to18relevant files, retaining the fullGit tree. This was a utility issue, not a failed scientific fit. All scientific jobs exited0and independent verification passed. Some next-sourceZenodo requests fail localDNS, while the server's officialAPI metadata fetch succeeds; this is transport state, not scientific evidence.

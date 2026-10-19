@@ -1,0 +1,5 @@
+"""Record the completed visual inspection of both exported diagnostic figures."""
+import pathlib,json,hashlib,datetime
+R=pathlib.Path(__file__).resolve().parents[1];D=R/'outputs/figures_v1';out=D/'visual_qa.json';assert not out.exists();manifest=json.loads((D/'manifest.json').read_text(encoding='utf-8'))
+for name,digest in manifest['files'].items():assert hashlib.sha256((D/name).read_bytes()).hexdigest()==digest
+result={'status':'PASS','utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'inspection':'Both PNG exports viewed at original output size in the current task; readable axes, legends, bars/points and scope footnotes; no overlapping data labels. SVG/PDF exports share the same figure objects.','limits':'Diagnostic figures, not publication acceptance or new-model evidence; quality/cost compares different family training budgets; sampling control uses known linear parameters.','files':manifest['files'],'source_sha256':hashlib.sha256(pathlib.Path(__file__).read_bytes()).hexdigest()};out.write_text(json.dumps(result,indent=2),encoding='utf-8');print(json.dumps({'visual_QA':'PASS','figures':2,'exports':6}))

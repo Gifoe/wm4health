@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "kind": "compiled64",
+  "seed": 2026292,
+  "steps": 32768,
+  "original_steps": 9728,
+  "extra_updates": 23040,
+  "best_step": 32256,
+  "best_validation_mse": 0.47445565462112427,
+  "best_weight_sha256": "34f7fc39e1b6fff321731af4c1fe380b0a88b0eda41a743556b1ecac5e3e8297",
+  "batch_schedule_sha256": "438041ce3936737ff53925627b207a9889d051601c347ef10fdb094e1a33c149",
+  "original_elapsed_s": 369.0159999999887,
+  "extra_elapsed_s": 904.75,
+  "control_hashes": {
+    "plan": "1e1be633e034e4497988e198fbc183c93fc8c109955a56015ff800174811782f",
+    "source": "04087615458f5c1447fc4e5dfc8c413a4df5bf37fdcf5b227177fac745f4e3ea",
+    "original_sources": {
+      "MODEL_COMPARISON_PLAN.md": "2d22218f8ca32c2c8a97f017d1e980657d4e5ac39b5511e1a53a5f1757bd8ada",
+      "NORMALIZATION_AMENDMENT.md": "5e98e3ffab3a351be64e4dc0efc6a8f24080ef7bdaafd62208a89a1538afd7b9",
+      "world_data.py": "ea5121b5e1e63964d66e2c82025c9084109cd1f63297a22e126bf5c5befaf7bd",
+      "world_models.py": "2bfae9ab348ddfc5431031a9e13bfeb9201fb5a7d9fdb49d20375aa599f3ff74",
+      "world_models_v2.py": "87814e7488973be95c1714ade66e5d7e0b9d58cdc9a1da6415d8c6d36946eac1",
+      "train_world_comparison_v2.py": "817723d3993ccd9345f47bcf4d5d9baca944c62cb5b57377e3fafb662a5b3d5a"
+    },
+    "data_manifest": "9250052ba0e4e7d3de6587b8a12902eb655ea62ce7e16953b9e6e27dceaffb97"
+  },
+  "peak_cuda_allocated_bytes": 92942336,
+  "scope": "fixed update cap;not matched training FLOPs or wall time"
+}

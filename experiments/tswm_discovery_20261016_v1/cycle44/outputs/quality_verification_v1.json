@@ -1,0 +1,123 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-17T02:04:28.187368+00:00",
+  "models": 16,
+  "origins": 1024,
+  "checks": [
+    {
+      "model": "gaussian_ar_mixture_2026441",
+      "energy_max_abs": 1.7198439261623122e-07,
+      "MSE_max_abs": 1.0859994681311491e-07,
+      "coverage_max_abs": 0.0,
+      "independent_joint_energy_mean": 0.6867024438942022
+    },
+    {
+      "model": "gaussian_ar_mixture_2026442",
+      "energy_max_abs": 2.0839434167196913e-07,
+      "MSE_max_abs": 1.1188695570041318e-07,
+      "coverage_max_abs": 0.0,
+      "independent_joint_energy_mean": 0.6874094388879305
+    },
+    {
+      "model": "gaussian_lgssm_2026441",
+      "energy_max_abs": 1.8363308629254504e-07,
+      "MSE_max_abs": 1.090693748651006e-07,
+      "coverage_max_abs": 0.0,
+      "independent_joint_energy_mean": 0.6853878471073351
+    },
+    {
+      "model": "gaussian_lgssm_2026442",
+      "energy_max_abs": 1.8631195974894155e-07,
+      "MSE_max_abs": 1.3945750820809621e-07,
+      "coverage_max_abs": 0.0,
+      "independent_joint_energy_mean": 0.6852043625481035
+    },
+    {
+      "model": "gaussian_spf_condition_trainable_2026441",
+      "energy_max_abs": 1.6785210965597486e-07,
+      "MSE_max_abs": 1.3683854982460275e-07,
+      "coverage_max_abs": 0.0,
+      "independent_joint_energy_mean": 0.6989573492645247
+    },
+    {
+      "model": "gaussian_spf_condition_trainable_2026442",
+      "energy_max_abs": 1.9868315459525832e-07,
+      "MSE_max_abs": 1.1174596536989156e-07,
+      "coverage_max_abs": 0.0,
+      "independent_joint_energy_mean": 0.7045032452630015
+    },
+    {
+      "model": "gaussian_spf_native_2026441",
+      "energy_max_abs": 1.9011821450476418e-07,
+      "MSE_max_abs": 1.1659123311247299e-07,
+      "coverage_max_abs": 0.0,
+      "independent_joint_energy_mean": 0.6995348129578178
+    },
+    {
+      "model": "gaussian_spf_native_2026442",
+      "energy_max_abs": 1.7587442913136186e-07,
+      "MSE_max_abs": 1.2143433503197798e-07,
+      "coverage_max_abs": 0.0,
+      "independent_joint_energy_mean": 0.7024512050309806
+    },
+    {
+      "model": "nonlinear_ar_mixture_2026441",
+      "energy_max_abs": 7.424445319648143e-08,
+      "MSE_max_abs": 2.4895713379713413e-08,
+      "coverage_max_abs": 0.0,
+      "independent_joint_energy_mean": 0.3372209601082798
+    },
+    {
+      "model": "nonlinear_ar_mixture_2026442",
+      "energy_max_abs": 7.662388012974475e-08,
+      "MSE_max_abs": 2.7966578608484838e-08,
+      "coverage_max_abs": 0.0,
+      "independent_joint_energy_mean": 0.33721086901862735
+    },
+    {
+      "model": "nonlinear_lgssm_2026441",
+      "energy_max_abs": 8.452080191290179e-08,
+      "MSE_max_abs": 3.256455616273968e-08,
+      "coverage_max_abs": 0.0,
+      "independent_joint_energy_mean": 0.346430526833261
+    },
+    {
+      "model": "nonlinear_lgssm_2026442",
+      "energy_max_abs": 1.0209398781935164e-07,
+      "MSE_max_abs": 2.5960714356010328e-08,
+      "coverage_max_abs": 0.0,
+      "independent_joint_energy_mean": 0.3458733603941987
+    },
+    {
+      "model": "nonlinear_spf_condition_trainable_2026441",
+      "energy_max_abs": 8.378925964169781e-08,
+      "MSE_max_abs": 2.825171829812234e-08,
+      "coverage_max_abs": 0.0,
+      "independent_joint_energy_mean": 0.3461070031566842
+    },
+    {
+      "model": "nonlinear_spf_condition_trainable_2026442",
+      "energy_max_abs": 8.327233858018701e-08,
+      "MSE_max_abs": 3.2565484309188264e-08,
+      "coverage_max_abs": 0.0,
+      "independent_joint_energy_mean": 0.34700255577474304
+    },
+    {
+      "model": "nonlinear_spf_native_2026441",
+      "energy_max_abs": 1.0659490917719339e-07,
+      "MSE_max_abs": 2.0857058080636648e-08,
+      "coverage_max_abs": 0.0,
+      "independent_joint_energy_mean": 0.34679045997317176
+    },
+    {
+      "model": "nonlinear_spf_native_2026442",
+      "energy_max_abs": 7.554325287539854e-08,
+      "MSE_max_abs": 2.5070902742729828e-08,
+      "coverage_max_abs": 0.0,
+      "independent_joint_energy_mean": 0.3464106419170455
+    }
+  ],
+  "quality_summary_sha256": "8c8593ba18e4fdeb6eedc628fbba2867680f48accd6d2e2cff1c4739775dcd35",
+  "source_sha256": "78308fe6b5b9f4276ea8e8deb88a13a29730f2a8a3f3030c18296daab1da3560",
+  "numerics": "float64 NumPy + SciPy cdist, independent of torch scoring"
+}

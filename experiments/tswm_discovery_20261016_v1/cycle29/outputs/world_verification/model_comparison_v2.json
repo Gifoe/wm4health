@@ -1,0 +1,660 @@
+{
+  "status": "passed",
+  "results_sha256": "69dbd12bcf7299e8b01131ec07d0d4befcbb55e1e872007abf8d3e7d69a17931",
+  "training_summary_sha256": "5eaa024aeaa6f73086f7d609c3fabc19d3934bd9303ca4bd13e1c192e1499ccf",
+  "data_replay_sha256": "64526efaf36612f2b651f3a3ad03886fedbd80dbc6c1a81bd8df444c672f0a91",
+  "script_sha256": "ec3029ee422b54fc1596d937c344c8d4c72357b431e2da77a44656c08f6ea87e",
+  "metric_rows_rescored": 79872,
+  "relative_metric_error_max": 1.7096925561078664e-07,
+  "arx_fits_recomputed": 4096,
+  "arx_relative_error_max": 1.9419579083282244e-12,
+  "checkpoints": [
+    {
+      "kind": "conditional96",
+      "seed": 2026291,
+      "steps": 22528,
+      "best_step": 19456,
+      "best_validation_mse": 0.6295523345470428,
+      "weight_sha256": "c3f1b8b94bf95b1c43f7216f248bc777f9dacd5bd60c0f36f9af4848784f50d4",
+      "underconverged_at_cap": false
+    },
+    {
+      "kind": "compiled64",
+      "seed": 2026291,
+      "steps": 32768,
+      "best_step": 31744,
+      "best_validation_mse": 0.4516829326748848,
+      "weight_sha256": "2f3c0f1f00fbd682dff3ef62c7a404eb1900e7916f329fe9821020e9cc61b8ee",
+      "underconverged_at_cap": false
+    },
+    {
+      "kind": "conditional128",
+      "seed": 2026291,
+      "steps": 32768,
+      "best_step": 31232,
+      "best_validation_mse": 0.4677807465195656,
+      "weight_sha256": "1305dd32bee520def811215eb11612345c7b51d5b50aba9d39913f0acabc9503",
+      "underconverged_at_cap": false
+    },
+    {
+      "kind": "native_attention64",
+      "seed": 2026291,
+      "steps": 10752,
+      "best_step": 10752,
+      "best_validation_mse": 1.0315858721733093,
+      "weight_sha256": "ebd657874984381766e89783bb1f25d39c0d21a5d1832144ebb0a16191ba1798",
+      "underconverged_at_cap": false
+    },
+    {
+      "kind": "conditional96",
+      "seed": 2026292,
+      "steps": 12800,
+      "best_step": 9728,
+      "best_validation_mse": 0.7559872716665268,
+      "weight_sha256": "c344a406a127e8f4049dfbf4eb48cd7e9d1ebed0d7f01b9b1c1485515506df94",
+      "underconverged_at_cap": false
+    },
+    {
+      "kind": "compiled64",
+      "seed": 2026292,
+      "steps": 9728,
+      "best_step": 9728,
+      "best_validation_mse": 0.708332747220993,
+      "weight_sha256": "42bf3c8f42f4d980e5dd97b24a96d72eaacd7ecf3276f967a7f89d141bda994b",
+      "underconverged_at_cap": false
+    },
+    {
+      "kind": "conditional128",
+      "seed": 2026292,
+      "steps": 13312,
+      "best_step": 10240,
+      "best_validation_mse": 0.7283326387405396,
+      "weight_sha256": "39388524cf40bcae15e294c7d4eaf8808a9265fafda169ed18b122e58a13c728",
+      "underconverged_at_cap": false
+    },
+    {
+      "kind": "native_attention64",
+      "seed": 2026292,
+      "steps": 20992,
+      "best_step": 17920,
+      "best_validation_mse": 0.8495853096246719,
+      "weight_sha256": "48a499d85061737dbe12ca4e19d73ac56dac87da56f16209a9b739a6bf20d1a2",
+      "underconverged_at_cap": false
+    },
+    {
+      "kind": "conditional96",
+      "seed": 2026293,
+      "steps": 15872,
+      "best_step": 12800,
+      "best_validation_mse": 0.7016177922487259,
+      "weight_sha256": "30f1c74eae63fd6d23ce319957ba78fb0158dc9daaf3be2964c04e96df8052d6",
+      "underconverged_at_cap": false
+    },
+    {
+      "kind": "compiled64",
+      "seed": 2026293,
+      "steps": 29696,
+      "best_step": 26624,
+      "best_validation_mse": 0.5544966757297516,
+      "weight_sha256": "7fcb55b838d3a58ecb52b9a3bcebe99ad585d6593c3a07f7e310968a8e3c9ee7",
+      "underconverged_at_cap": false
+    },
+    {
+      "kind": "conditional128",
+      "seed": 2026293,
+      "steps": 14848,
+      "best_step": 11776,
+      "best_validation_mse": 0.7266735434532166,
+      "weight_sha256": "7a90e1bb048d6eec8734554c409586991456e292ba7e084c2b87b0e029d7b759",
+      "underconverged_at_cap": false
+    },
+    {
+      "kind": "native_attention64",
+      "seed": 2026293,
+      "steps": 17408,
+      "best_step": 14336,
+      "best_validation_mse": 0.9324463307857513,
+      "weight_sha256": "6b858977b06cdd07433f506e86790307fc5be6e70b19ad61850d7bddb5915a8c",
+      "underconverged_at_cap": false
+    }
+  ],
+  "batch_schedules": {
+    "2026291": "9e27efddb605f097af012d8c7287379b0d1ad8972e1a871ba13bd91609882e20",
+    "2026292": "438041ce3936737ff53925627b207a9889d051601c347ef10fdb094e1a33c149",
+    "2026293": "5592a4f15f1de89ca403884a05fd53a1bc70b32b695b44e53c46c421ca206265"
+  },
+  "neural_replays": [
+    {
+      "seed": 2026291,
+      "method": "conditional96",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 4.798494548851833e-07
+    },
+    {
+      "seed": 2026291,
+      "method": "conditional96",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 5.726145602946799e-07
+    },
+    {
+      "seed": 2026291,
+      "method": "compiled64",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 5.10309749597895e-07
+    },
+    {
+      "seed": 2026291,
+      "method": "compiled64_zero_operator",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 2.7150694772703884e-07
+    },
+    {
+      "seed": 2026291,
+      "method": "compiled64_swap_operator",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 3.809057744101263e-07
+    },
+    {
+      "seed": 2026291,
+      "method": "compiled64",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 2.8220361728243876e-07
+    },
+    {
+      "seed": 2026291,
+      "method": "compiled64_zero_operator",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 2.9335384101586644e-07
+    },
+    {
+      "seed": 2026291,
+      "method": "compiled64_swap_operator",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 4.0609235032134684e-07
+    },
+    {
+      "seed": 2026291,
+      "method": "conditional128",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 5.506243588108395e-07
+    },
+    {
+      "seed": 2026291,
+      "method": "conditional128_swap_code",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 5.92337066098546e-07
+    },
+    {
+      "seed": 2026291,
+      "method": "conditional128",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 4.201459345392677e-07
+    },
+    {
+      "seed": 2026291,
+      "method": "conditional128_swap_code",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 5.303457155998163e-07
+    },
+    {
+      "seed": 2026291,
+      "method": "native_attention64",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 3.9708023499662114e-07
+    },
+    {
+      "seed": 2026291,
+      "method": "native_attention64_chunk32",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 4.84832669451246e-07
+    },
+    {
+      "seed": 2026291,
+      "method": "native_attention64",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 3.9375415607511735e-07
+    },
+    {
+      "seed": 2026291,
+      "method": "native_attention64_chunk32",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 7.096581150325792e-07
+    },
+    {
+      "seed": 2026292,
+      "method": "conditional96",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 2.8357962389089704e-07
+    },
+    {
+      "seed": 2026292,
+      "method": "conditional96",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 6.065965072844239e-07
+    },
+    {
+      "seed": 2026292,
+      "method": "compiled64",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 3.8453408281885433e-07
+    },
+    {
+      "seed": 2026292,
+      "method": "compiled64_zero_operator",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 1.1520455951997486e-07
+    },
+    {
+      "seed": 2026292,
+      "method": "compiled64_swap_operator",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 2.568754809592013e-07
+    },
+    {
+      "seed": 2026292,
+      "method": "compiled64",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 2.7638636343658105e-07
+    },
+    {
+      "seed": 2026292,
+      "method": "compiled64_zero_operator",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 1.6714808959441041e-07
+    },
+    {
+      "seed": 2026292,
+      "method": "compiled64_swap_operator",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 1.6639542627465553e-07
+    },
+    {
+      "seed": 2026292,
+      "method": "conditional128",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 2.955825716712363e-07
+    },
+    {
+      "seed": 2026292,
+      "method": "conditional128_swap_code",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 3.427562655449854e-07
+    },
+    {
+      "seed": 2026292,
+      "method": "conditional128",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 3.608167294671722e-07
+    },
+    {
+      "seed": 2026292,
+      "method": "conditional128_swap_code",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 2.813834249855425e-07
+    },
+    {
+      "seed": 2026292,
+      "method": "native_attention64",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 7.792027664815021e-07
+    },
+    {
+      "seed": 2026292,
+      "method": "native_attention64_chunk32",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 8.357753256697224e-07
+    },
+    {
+      "seed": 2026292,
+      "method": "native_attention64",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 8.552553493133678e-07
+    },
+    {
+      "seed": 2026292,
+      "method": "native_attention64_chunk32",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 7.274933120630455e-07
+    },
+    {
+      "seed": 2026293,
+      "method": "conditional96",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 3.503942090582665e-07
+    },
+    {
+      "seed": 2026293,
+      "method": "conditional96",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 4.14948624219775e-07
+    },
+    {
+      "seed": 2026293,
+      "method": "compiled64",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 2.9189589966203964e-07
+    },
+    {
+      "seed": 2026293,
+      "method": "compiled64_zero_operator",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 1.9241744354561938e-07
+    },
+    {
+      "seed": 2026293,
+      "method": "compiled64_swap_operator",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 4.431726109590699e-07
+    },
+    {
+      "seed": 2026293,
+      "method": "compiled64",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 3.3565443033779e-07
+    },
+    {
+      "seed": 2026293,
+      "method": "compiled64_zero_operator",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 2.620627420611011e-07
+    },
+    {
+      "seed": 2026293,
+      "method": "compiled64_swap_operator",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 4.1365970680049606e-07
+    },
+    {
+      "seed": 2026293,
+      "method": "conditional128",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 4.065133217566018e-07
+    },
+    {
+      "seed": 2026293,
+      "method": "conditional128_swap_code",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 3.193997862445967e-07
+    },
+    {
+      "seed": 2026293,
+      "method": "conditional128",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 2.6331978790012394e-07
+    },
+    {
+      "seed": 2026293,
+      "method": "conditional128_swap_code",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 3.0099519203277767e-07
+    },
+    {
+      "seed": 2026293,
+      "method": "native_attention64",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 7.89638443310721e-07
+    },
+    {
+      "seed": 2026293,
+      "method": "native_attention64_chunk32",
+      "family": "lti",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 7.613123676607992e-07
+    },
+    {
+      "seed": 2026293,
+      "method": "native_attention64",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 7.161946749192729e-07
+    },
+    {
+      "seed": 2026293,
+      "method": "native_attention64_chunk32",
+      "family": "wh",
+      "worlds": [
+        0,
+        31,
+        127
+      ],
+      "relative_max_error": 7.511032180594882e-07
+    }
+  ],
+  "neural_relative_error_max": 8.552553493133678e-07,
+  "nonzero_operator_native_grucell_max_abs": 2.384185791015625e-07,
+  "elapsed_s": 11.406000000002678,
+  "scope": "all metric rows + validation selection + independent schedule + ARX refits + sampled trained-neural replay; physics separately replayed by SciPy"
+}

@@ -1,0 +1,233 @@
+{
+  "passed": true,
+  "utc": "2026-10-16T22:17:23.275119+00:00",
+  "files_sha_verified": 44,
+  "source_audit_files": 20,
+  "source_audit_bytes": 277946,
+  "reports_verified": 8,
+  "independent_hourly_asof_checks": 3,
+  "no_forecast_scoring_or_training": true,
+  "accepted_research_directions": 0,
+  "files": [
+    {
+      "path": "source_audit/openstef/examples/benchmarks/liander2024/README.md",
+      "sha256": "f8f5e4f8c971794f66cbd45dd2576cada7d6b7f26a1c6c8d8c1cbfc2a5a30983",
+      "bytes": 769
+    },
+    {
+      "path": "source_audit/openstef/examples/benchmarks/liander2024/run_chronos2_benchmark.py",
+      "sha256": "5a4df7ff18a7fa7fcfc15702562f076c323e693b62cccaf59172030ea1b313e0",
+      "bytes": 7863
+    },
+    {
+      "path": "source_audit/openstef/examples/benchmarks/liander2024/run_xgboost_gblinear_benchmark.py",
+      "sha256": "e3b38ef2780e360efa09f3bcc89ab82885dc115d84d567c58a081ab2e786fed4",
+      "bytes": 5614
+    },
+    {
+      "path": "source_audit/openstef/packages/openstef-beam/src/openstef_beam/benchmarking/benchmarks/liander2024.py",
+      "sha256": "b9b76ec70811ae47c4a59f55c066cd44ea3f896c9c2990ddd59b3f86011e3770",
+      "bytes": 9951
+    },
+    {
+      "path": "source_audit/openstef/packages/openstef-core/src/openstef_core/datasets/versioned_timeseries_dataset.py",
+      "sha256": "d04c438143f07d0dfaad4b53fd741d6fea9a84d04f50d37b28ded0e36abf93a1",
+      "bytes": 14273
+    },
+    {
+      "path": "source_audit/openstef/packages/openstef-core/src/openstef_core/datasets/timeseries_dataset.py",
+      "sha256": "a417f6cc62a97126cfaadbc66b093d9a15ecf5365ee51ceff910823dcd2af457",
+      "bytes": 20680
+    },
+    {
+      "path": "source_audit/openstef/packages/openstef-models/src/openstef_models/transforms/time_domain/versioned_lags_adder.py",
+      "sha256": "fc36c914db921bdd034f3713491a16a55d179526a0a7c8ec76a00163665b349e",
+      "bytes": 5914
+    },
+    {
+      "path": "source_audit/hf_openstef/README.md",
+      "sha256": "2effdc3a1e07890f76bfb62d0f3ebc1ccf548d26503b738b67a084f41f6c9528",
+      "bytes": 14621
+    },
+    {
+      "path": "source_audit/hf_openstef/liander2024_targets.yaml",
+      "sha256": "1b5b9e6df7880f99457a78d2ce97da968c5172ab3a9df0772c8e7fe7af452f24",
+      "bytes": 18272
+    },
+    {
+      "path": "source_audit/KITE/commit.json",
+      "sha256": "efa333045d3be47924d4c5655a8ba94698c51164476714ce8ff53ff3162a0f9c",
+      "bytes": 18575
+    },
+    {
+      "path": "source_audit/KITE/tree.json",
+      "sha256": "52c42024e40fff35c36fbd35011bca534a58b20afa4de011c2d2876284865d30",
+      "bytes": 111234
+    },
+    {
+      "path": "source_audit/KITE/README.md",
+      "sha256": "9e21502edd24ff28a55ec937590ca87a5e328d2c88204a6813be4a65dcb888e3",
+      "bytes": 2796
+    },
+    {
+      "path": "source_audit/KITE/requirements.txt",
+      "sha256": "712878e69f1222d24f54f7ed5e2d1769448988aea9da2159efa54dd98f9dfdfc",
+      "bytes": 264
+    },
+    {
+      "path": "source_audit/KITE/ts_benchmark/baselines/kite/__init__.py",
+      "sha256": "5d15b15dd5712444244a8bb15812986cf8b833a36e2b35beac96f60b3794506d",
+      "bytes": 116
+    },
+    {
+      "path": "source_audit/KITE/ts_benchmark/baselines/kite/kite.py",
+      "sha256": "45340d8192310e70fed46a9eedf275164298cc2f3992a5699e8ff7244e882579",
+      "bytes": 18480
+    },
+    {
+      "path": "source_audit/KITE/ts_benchmark/baselines/kite/layers/flow_loss.py",
+      "sha256": "8041dab5c4c2fa847ee7e4c0677d1eb415073789d1d5bb91047e3b9f578f38f3",
+      "bytes": 6530
+    },
+    {
+      "path": "source_audit/KITE/ts_benchmark/baselines/kite/layers/layers.py",
+      "sha256": "159d7e5df75b0b81102f0d4441520bf53e2586ab6819edc0659ef83208dbcd6f",
+      "bytes": 10674
+    },
+    {
+      "path": "source_audit/KITE/ts_benchmark/baselines/kite/models/KITEModel.py",
+      "sha256": "46fe7fd064400e328c91e3cb99974b11a5124dfd7ada15d7ea817bd1ea9931ee",
+      "bytes": 5555
+    },
+    {
+      "path": "source_audit/KITE/ts_benchmark/baselines/kite/models/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "source_audit/KITE/ts_benchmark/baselines/kite/utils/tools.py",
+      "sha256": "a5d6b0b3f27c578b4726921300f577df6960a470d23d33432b5fe6cef0f084c8",
+      "bytes": 5765
+    },
+    {
+      "path": "public_metadata/openstef_hf_info.json",
+      "sha256": "72336d7c6b2b57fd80ebd57ebda3a42c4d2f927a4f055ccc80ea123c1ecf80d7",
+      "bytes": 60319
+    },
+    {
+      "path": "public_metadata/openstef_info.json",
+      "sha256": "4e85892855927997d2b1cde298039b2d3a485e0706049a08d974bf0e414785af",
+      "bytes": 6343
+    },
+    {
+      "path": "public_metadata/openstef_commit.json",
+      "sha256": "73eb12d05da1d03024eada2558e90749916fb57a406ca5bd688c53aec4bda6de",
+      "bytes": 15651
+    },
+    {
+      "path": "public_metadata/openstef_tree.json",
+      "sha256": "b3834ef1be5ff61b52431a91c4a924ba054a5d6165aa7ba44932bf98b9b93932",
+      "bytes": 212304
+    },
+    {
+      "path": "public_metadata/openstef-dbc_info.json",
+      "sha256": "f486f6bdc52fc986de5ed461116f6d61babdcd2a34faf51ba9723ef74bf6868c",
+      "bytes": 6350
+    },
+    {
+      "path": "public_metadata/openstef-dbc_commit.json",
+      "sha256": "28ff49a5afbf143ecc8b7ecad1c6aef022fa2d61e80ab09115f93d4cf9c5c12d",
+      "bytes": 6004
+    },
+    {
+      "path": "public_metadata/openstef-dbc_tree.json",
+      "sha256": "596fbb4e28fa4d4db1185fd9cf45060bdcabd6606ee6c787599849f63a0e4497",
+      "bytes": 23524
+    },
+    {
+      "path": "public_metadata/openstef-reference_info.json",
+      "sha256": "d5ef6129cf48a27d141c2cab5db711cad64f6f94c1fd4a7d202dac87319c4ae0",
+      "bytes": 6718
+    },
+    {
+      "path": "public_metadata/openstef-reference_commit.json",
+      "sha256": "2201263eec434034d4f5c2f170c26778d470788f30b3e83eb846821cb23ebe34",
+      "bytes": 5910
+    },
+    {
+      "path": "public_metadata/openstef-reference_tree.json",
+      "sha256": "1784063fd39a0e5b22f7fe8405473f44ca2810be0501efecf46c0eef117d2f85",
+      "bytes": 48040
+    },
+    {
+      "path": "outputs/elexon_probe_v2/schema.json",
+      "sha256": "8b7a77fbc13dca548e4e4da4af5a4655b0e161d520eb765dcb3d9b0bc93cf9c4",
+      "bytes": 1479300
+    },
+    {
+      "path": "public_metadata/elexon_raw_local/schema.json",
+      "sha256": "8b7a77fbc13dca548e4e4da4af5a4655b0e161d520eb765dcb3d9b0bc93cf9c4",
+      "bytes": 1479300
+    },
+    {
+      "path": "outputs/elexon_probe_v2/windfor_20260101.json",
+      "sha256": "5005a5330ca7db092e0a7faffae40f6767b31ff0e0b406223081834e16599a49",
+      "bytes": 66002
+    },
+    {
+      "path": "public_metadata/elexon_raw_local/windfor_20260101.json",
+      "sha256": "5005a5330ca7db092e0a7faffae40f6767b31ff0e0b406223081834e16599a49",
+      "bytes": 66002
+    },
+    {
+      "path": "outputs/elexon_probe_v2/fuelhh_wind_20260102.json",
+      "sha256": "6f6048019c32e9d7653270e337696f4a6b74e5f657f7fd51b40ed52214f56885",
+      "bytes": 8737
+    },
+    {
+      "path": "public_metadata/elexon_raw_local/fuelhh_wind_20260102.json",
+      "sha256": "6f6048019c32e9d7653270e337696f4a6b74e5f657f7fd51b40ed52214f56885",
+      "bytes": 8737
+    },
+    {
+      "path": "literature_review.md",
+      "sha256": "8144125b0ba616a7b7c6294eccbeab0d88541bc852870ff7cb4885929507452f",
+      "bytes": 7329
+    },
+    {
+      "path": "baseline_registry.md",
+      "sha256": "81b7cff7f37a37df0e7b5c84f06cdd19960faf7d0716511669f0e9c1f2350222",
+      "bytes": 2329
+    },
+    {
+      "path": "experimental_results.md",
+      "sha256": "f505f781299c0ac887b9e05f7ea9148688ff3cca56fbe0e46d490aff568804b8",
+      "bytes": 3174
+    },
+    {
+      "path": "negative_evidence.md",
+      "sha256": "c4e7fd33c152e2ffe75424c33c357af7d8a6a25fc62131fe566d964d5b5a656d",
+      "bytes": 1963
+    },
+    {
+      "path": "hypothesis_space.md",
+      "sha256": "0f8117d909f9f983c40e32f66c5540bf35ab2e1df0766a960a25da593a13cf66",
+      "bytes": 1795
+    },
+    {
+      "path": "research_ideas.md",
+      "sha256": "77187f0c4855c0f85fe24fb12b33e452a7b136a30666696b8926228411a75a80",
+      "bytes": 1835
+    },
+    {
+      "path": "final_research_direction.md",
+      "sha256": "66d2c964dc9e88a13c759ad345ccc034c07149230ea36104b609b1d9995891f8",
+      "bytes": 2475
+    },
+    {
+      "path": "CURRENT_STATE.md",
+      "sha256": "6a666698e463211cba01dcad79910bc2c3d2d7ce4f78a6ec8998acafed2cb8fa",
+      "bytes": 971
+    }
+  ]
+}

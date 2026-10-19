@@ -1,0 +1,7 @@
+# Validation-driven ordinary residual control
+
+The direct GRU12fits completed. Their source validation curves and raw data audit were inspected; test metric values have not been read to choose this addition. BikeSharing still has substantial source-validation error and some fits improve late; ETTh1validation is noisy. Do not interpret these fits as a converged strong-model failure or a new gap.
+
+Add one established parameter-free seasonal skip to the SAME GRU: predict last24forward-filled historical values plus the GRU's output. This is conventional residual forecasting,not a new idea. It adds no parameters,no input information,no test labels and no extra per-fit updates. Repeat both acquisition recipes on both datasets with the frozen three seeds,2000updates,batch64,common source-validation selection,identical query arrays and masks. Preserve direct fits unchanged. Report both families,including unfavorable results. The wrapper/source hashes and variant metadata must distinguish the two executions.
+
+This addition asks whether an ordinary prediction-head/optimization choice explains a difference before any acquisition-modular architecture is attempted. It cannot establish all models are optimal. No future missing mask is supplied and all future labels remain excluded from inputs. Do not choose between families using test results. A native world-model result has not yet been produced in this cycle.

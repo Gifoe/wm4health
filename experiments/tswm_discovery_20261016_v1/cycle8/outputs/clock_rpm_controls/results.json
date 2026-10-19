@@ -1,0 +1,1633 @@
+{
+  "plan": {
+    "created_utc": "2026-10-16T01:05:47.221637+00:00",
+    "scope": "New real-data qualification/control experiment. Ordinary ridge ARX/polynomial and HGB; no new method, no native WorldTS/TAWM reproduction.",
+    "train_random_walks": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "validation_random_walks": [
+      11,
+      12
+    ],
+    "test_random_walks": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "excluded_random_walk_1": "Only1016 observations versus10000 in the other recordings; excluded by inventory before model metrics.",
+    "OOD": "All10loads_hatch_mix recordings and both320kregime-jump recordings. No OOD score selects model or hyperparameters.",
+    "history": "RPM2lags; clock8pastintervals; current/previous plannedsettings. No future measured sensor enters deployable inputs.",
+    "clock_model": "HGB150iterations,learning_rate.08,max_leaf_nodes15,l2=1,seed1801,training-internal10%validation for earlystop. Clip predicted interval only to train observed min/max.",
+    "prediction_model": "Ridge ARX/polynomial, train-only standardized,6alphas selected by mean validation increment MSE. Train targets are RPM increments divided by3000.",
+    "arms": [
+      "persistence",
+      "ridge_no_clock",
+      "ridge_oracle_future_dt",
+      "ridge_predicted_dt",
+      "ridge_past_dt"
+    ],
+    "oracle_caveat": "Actual future timestamp spacing is a privileged conditional comparator, not available in next-observation simulation. Predicted/past arms share its fitted dynamics weights.",
+    "one_step": "Every row after16; history is observed.",
+    "rollout": "16steps,roots every64rows from32; past states/clocks then entirely predicted. Known future actuator/sensor settings are programmed and allowed. No cross-recording root/window.",
+    "replication": "Deterministic fit on split recordings, no seed stability claim or confidence interval. Recordings and intervention blocks remain grouped."
+  },
+  "rows": [
+    {
+      "recording": "actuators_random_walk_11",
+      "split": "validation",
+      "rows": 9984,
+      "clock_seconds": {
+        "actual": {
+          "p01": 0.2131757860536891,
+          "median": 0.31573334500353667,
+          "p99": 0.7282300577770365,
+          "max": 1.913068387999374
+        },
+        "predicted_RMSE": 0.13485711861717012,
+        "last_interval_RMSE": 0.191597780332119,
+        "mean_clock_RMSE": 0.13763251872026838
+      },
+      "arms": {
+        "persistence": {
+          "one_step_RPM_RMSE": [
+            45.26498016623836,
+            56.593173894380044
+          ],
+          "one_step_normalized_MSE": 0.0002917614311605281,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0015156143945176642,
+          "endpoint16_RPM_RMSE": [
+            202.85136788229207,
+            107.81862640694553
+          ],
+          "sum16_interval_RMSE_seconds": 3.358897019443173
+        },
+        "ridge_no_clock": {
+          "one_step_RPM_RMSE": [
+            41.10031727671846,
+            48.86083628860585
+          ],
+          "one_step_normalized_MSE": 0.0002264787446149367,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0005738446069471303,
+          "endpoint16_RPM_RMSE": [
+            80.54902307323039,
+            58.49777106430981
+          ],
+          "sum16_interval_RMSE_seconds": 3.358897019443173
+        },
+        "ridge_oracle_future_dt": {
+          "one_step_RPM_RMSE": [
+            40.87012662488669,
+            49.06697674986662
+          ],
+          "one_step_normalized_MSE": 0.0002265519698725682,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0005769118857374077,
+          "endpoint16_RPM_RMSE": [
+            80.24959069884615,
+            58.78621567347052
+          ],
+          "sum16_interval_RMSE_seconds": 0.0
+        },
+        "ridge_predicted_dt": {
+          "one_step_RPM_RMSE": [
+            41.11538529402031,
+            48.841099276482716
+          ],
+          "one_step_normalized_MSE": 0.00022644043813394352,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0005726788864978061,
+          "endpoint16_RPM_RMSE": [
+            80.72502082992368,
+            58.260656647968
+          ],
+          "sum16_interval_RMSE_seconds": 0.6048617007946043
+        },
+        "ridge_past_dt": {
+          "one_step_RPM_RMSE": [
+            41.046260921193316,
+            49.17621555127937
+          ],
+          "one_step_normalized_MSE": 0.000227949761753143,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0005691929927866958,
+          "endpoint16_RPM_RMSE": [
+            82.9256477103729,
+            59.316154609334085
+          ],
+          "sum16_interval_RMSE_seconds": 3.358897019443173
+        }
+      }
+    },
+    {
+      "recording": "actuators_random_walk_12",
+      "split": "validation",
+      "rows": 9984,
+      "clock_seconds": {
+        "actual": {
+          "p01": 0.21169803434691858,
+          "median": 0.3158514725000714,
+          "p99": 0.8216206294943551,
+          "max": 2.4326655020049657
+        },
+        "predicted_RMSE": 0.14652720263322686,
+        "last_interval_RMSE": 0.2069139875950621,
+        "mean_clock_RMSE": 0.14891528231960208
+      },
+      "arms": {
+        "persistence": {
+          "one_step_RPM_RMSE": [
+            67.76186778136957,
+            47.17875314349168
+          ],
+          "one_step_normalized_MSE": 0.00037875030407746646,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.001226258312839254,
+          "endpoint16_RPM_RMSE": [
+            146.37382427730876,
+            167.03438984971447
+          ],
+          "sum16_interval_RMSE_seconds": 1.9991624571801432
+        },
+        "ridge_no_clock": {
+          "one_step_RPM_RMSE": [
+            58.50345657074845,
+            40.18774132171253
+          ],
+          "one_step_normalized_MSE": 0.0002798727212925745,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0004495550234672256,
+          "endpoint16_RPM_RMSE": [
+            88.41593477224225,
+            98.55855507902008
+          ],
+          "sum16_interval_RMSE_seconds": 1.9991624571801432
+        },
+        "ridge_oracle_future_dt": {
+          "one_step_RPM_RMSE": [
+            58.554442230688515,
+            40.13149921505018
+          ],
+          "one_step_normalized_MSE": 0.00027995332967747764,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.00045587022390967984,
+          "endpoint16_RPM_RMSE": [
+            88.79307008129624,
+            99.25901803057272
+          ],
+          "sum16_interval_RMSE_seconds": 0.0
+        },
+        "ridge_predicted_dt": {
+          "one_step_RPM_RMSE": [
+            58.506219788701124,
+            40.20375256349101
+          ],
+          "one_step_normalized_MSE": 0.0002799621930083453,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0004482587317733889,
+          "endpoint16_RPM_RMSE": [
+            88.24023420452987,
+            98.20117177411991
+          ],
+          "sum16_interval_RMSE_seconds": 0.6807466661270365
+        },
+        "ridge_past_dt": {
+          "one_step_RPM_RMSE": [
+            58.40666321979789,
+            40.51291499496913
+          ],
+          "one_step_normalized_MSE": 0.0002807019216589158,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.00045544978784153894,
+          "endpoint16_RPM_RMSE": [
+            88.33389716050777,
+            98.80807687247739
+          ],
+          "sum16_interval_RMSE_seconds": 1.9991624571801432
+        }
+      }
+    },
+    {
+      "recording": "actuators_random_walk_13",
+      "split": "test",
+      "rows": 9984,
+      "clock_seconds": {
+        "actual": {
+          "p01": 0.21203872984253394,
+          "median": 0.3149796924990369,
+          "p99": 0.7323827519649058,
+          "max": 2.350828608003212
+        },
+        "predicted_RMSE": 0.13509794660769445,
+        "last_interval_RMSE": 0.19309163563013926,
+        "mean_clock_RMSE": 0.1378591019823564
+      },
+      "arms": {
+        "persistence": {
+          "one_step_RPM_RMSE": [
+            66.6685154829045,
+            65.66865950506502
+          ],
+          "one_step_normalized_MSE": 0.00048650354432703516,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0016439156818961053,
+          "endpoint16_RPM_RMSE": [
+            168.73429978179595,
+            155.7643406359214
+          ],
+          "sum16_interval_RMSE_seconds": 2.3805799233901137
+        },
+        "ridge_no_clock": {
+          "one_step_RPM_RMSE": [
+            57.35146589475707,
+            57.8636621524492
+          ],
+          "one_step_normalized_MSE": 0.0003687441132205709,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0006035154266570381,
+          "endpoint16_RPM_RMSE": [
+            77.80149059617732,
+            77.47209789180202
+          ],
+          "sum16_interval_RMSE_seconds": 2.3805799233901137
+        },
+        "ridge_oracle_future_dt": {
+          "one_step_RPM_RMSE": [
+            57.25731643115606,
+            57.83707148082923
+          ],
+          "one_step_normalized_MSE": 0.0003679737290208932,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0006027837376164973,
+          "endpoint16_RPM_RMSE": [
+            77.41012304527922,
+            76.7893227051337
+          ],
+          "sum16_interval_RMSE_seconds": 0.0
+        },
+        "ridge_predicted_dt": {
+          "one_step_RPM_RMSE": [
+            57.35023105679625,
+            57.885783872704415
+          ],
+          "one_step_normalized_MSE": 0.0003688784987125205,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0006063753868960981,
+          "endpoint16_RPM_RMSE": [
+            78.1721276673488,
+            77.86752599200337
+          ],
+          "sum16_interval_RMSE_seconds": 0.5005388466971893
+        },
+        "ridge_past_dt": {
+          "one_step_RPM_RMSE": [
+            57.09508955900167,
+            58.23449013228173
+          ],
+          "one_step_normalized_MSE": 0.0003695058384842901,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0006189320343727988,
+          "endpoint16_RPM_RMSE": [
+            77.54192069606937,
+            78.09070274792009
+          ],
+          "sum16_interval_RMSE_seconds": 2.3805799233901137
+        }
+      }
+    },
+    {
+      "recording": "actuators_random_walk_14",
+      "split": "test",
+      "rows": 9984,
+      "clock_seconds": {
+        "actual": {
+          "p01": 0.21196087233824074,
+          "median": 0.3157700784940971,
+          "p99": 0.7323791913328751,
+          "max": 2.3314130990038393
+        },
+        "predicted_RMSE": 0.13242405410067906,
+        "last_interval_RMSE": 0.18659382045930523,
+        "mean_clock_RMSE": 0.13554113011529906
+      },
+      "arms": {
+        "persistence": {
+          "one_step_RPM_RMSE": [
+            33.05547848286675,
+            39.63151716534668
+          ],
+          "one_step_normalized_MSE": 0.0001479623228088024,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.00175057642824514,
+          "endpoint16_RPM_RMSE": [
+            170.4589423051661,
+            161.4814145513987
+          ],
+          "sum16_interval_RMSE_seconds": 2.30288105205029
+        },
+        "ridge_no_clock": {
+          "one_step_RPM_RMSE": [
+            31.320360215804723,
+            35.499946901965984
+          ],
+          "one_step_normalized_MSE": 0.00012451173300500994,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0005185784804825479,
+          "endpoint16_RPM_RMSE": [
+            74.2450983531591,
+            80.98604623742301
+          ],
+          "sum16_interval_RMSE_seconds": 2.30288105205029
+        },
+        "ridge_oracle_future_dt": {
+          "one_step_RPM_RMSE": [
+            31.1117736447618,
+            35.607431871177845
+          ],
+          "one_step_normalized_MSE": 0.00012421287021019222,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0005203381123089207,
+          "endpoint16_RPM_RMSE": [
+            73.9152327671086,
+            80.56838796086394
+          ],
+          "sum16_interval_RMSE_seconds": 0.0
+        },
+        "ridge_predicted_dt": {
+          "one_step_RPM_RMSE": [
+            31.342193587422663,
+            35.487215960953435
+          ],
+          "one_step_normalized_MSE": 0.00012453753308504608,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0005197223345469134,
+          "endpoint16_RPM_RMSE": [
+            74.82463643384531,
+            80.43538479441145
+          ],
+          "sum16_interval_RMSE_seconds": 0.6106848919253479
+        },
+        "ridge_past_dt": {
+          "one_step_RPM_RMSE": [
+            31.343622756236282,
+            35.78103574189347
+          ],
+          "one_step_normalized_MSE": 0.0001257058447915509,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0005382082695483327,
+          "endpoint16_RPM_RMSE": [
+            75.69392267454789,
+            81.12524468433601
+          ],
+          "sum16_interval_RMSE_seconds": 2.30288105205029
+        }
+      }
+    },
+    {
+      "recording": "actuators_random_walk_15",
+      "split": "test",
+      "rows": 9984,
+      "clock_seconds": {
+        "actual": {
+          "p01": 0.20962630224312306,
+          "median": 0.3143156700025429,
+          "p99": 0.7331947106447478,
+          "max": 2.0974963039916474
+        },
+        "predicted_RMSE": 0.13957682101170732,
+        "last_interval_RMSE": 0.19783730073113692,
+        "mean_clock_RMSE": 0.14167714823269267
+      },
+      "arms": {
+        "persistence": {
+          "one_step_RPM_RMSE": [
+            48.14411368318409,
+            47.327646184580686
+          ],
+          "one_step_normalized_MSE": 0.0002532089875395684,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.002199640446449592,
+          "endpoint16_RPM_RMSE": [
+            209.88682236066774,
+            188.7112927310546
+          ],
+          "sum16_interval_RMSE_seconds": 3.2954569843762584
+        },
+        "ridge_no_clock": {
+          "one_step_RPM_RMSE": [
+            42.8547228801525,
+            42.62858057491595
+          ],
+          "one_step_normalized_MSE": 0.00020298461972037562,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0007964537968758162,
+          "endpoint16_RPM_RMSE": [
+            111.2420837633647,
+            93.41912494954953
+          ],
+          "sum16_interval_RMSE_seconds": 3.2954569843762584
+        },
+        "ridge_oracle_future_dt": {
+          "one_step_RPM_RMSE": [
+            42.60985096429531,
+            42.386665691210816
+          ],
+          "one_step_normalized_MSE": 0.00020067937931210676,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.000796480382402375,
+          "endpoint16_RPM_RMSE": [
+            111.8069963381579,
+            94.31528454650092
+          ],
+          "sum16_interval_RMSE_seconds": 0.0
+        },
+        "ridge_predicted_dt": {
+          "one_step_RPM_RMSE": [
+            42.88416255991907,
+            42.58126903753099
+          ],
+          "one_step_normalized_MSE": 0.00020290088173956453,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0007989674393802963,
+          "endpoint16_RPM_RMSE": [
+            111.33834000042286,
+            93.72116194675696
+          ],
+          "sum16_interval_RMSE_seconds": 0.566809553855157
+        },
+        "ridge_past_dt": {
+          "one_step_RPM_RMSE": [
+            42.72637819201477,
+            42.88702462587975
+          ],
+          "one_step_normalized_MSE": 0.0002036022374815495,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0008366403189212461,
+          "endpoint16_RPM_RMSE": [
+            112.74518497638789,
+            97.30581794422908
+          ],
+          "sum16_interval_RMSE_seconds": 3.2954569843762584
+        }
+      }
+    },
+    {
+      "recording": "actuators_random_walk_16",
+      "split": "test",
+      "rows": 9984,
+      "clock_seconds": {
+        "actual": {
+          "p01": 0.21011884668900166,
+          "median": 0.3130362894953578,
+          "p99": 0.7503212100052046,
+          "max": 1.9296374739933526
+        },
+        "predicted_RMSE": 0.14170571129587847,
+        "last_interval_RMSE": 0.1996208526698738,
+        "mean_clock_RMSE": 0.14420982344750816
+      },
+      "arms": {
+        "persistence": {
+          "one_step_RPM_RMSE": [
+            50.11025386023729,
+            62.04736377570396
+          ],
+          "one_step_normalized_MSE": 0.00035338404963622817,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0023679708560395032,
+          "endpoint16_RPM_RMSE": [
+            242.2893923234563,
+            150.92854439859147
+          ],
+          "sum16_interval_RMSE_seconds": 2.449242845195617
+        },
+        "ridge_no_clock": {
+          "one_step_RPM_RMSE": [
+            45.903439139645215,
+            55.27569360521534
+          ],
+          "one_step_normalized_MSE": 0.0002868071126880415,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0008440102170890352,
+          "endpoint16_RPM_RMSE": [
+            84.23127799690803,
+            110.40318570027854
+          ],
+          "sum16_interval_RMSE_seconds": 2.449242845195617
+        },
+        "ridge_oracle_future_dt": {
+          "one_step_RPM_RMSE": [
+            45.7608001818354,
+            55.20171563436837
+          ],
+          "one_step_normalized_MSE": 0.0002856266801255299,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.000846882805172079,
+          "endpoint16_RPM_RMSE": [
+            84.61429350795837,
+            111.04292479553885
+          ],
+          "sum16_interval_RMSE_seconds": 0.0
+        },
+        "ridge_predicted_dt": {
+          "one_step_RPM_RMSE": [
+            45.92090651201804,
+            55.21761718703684
+          ],
+          "one_step_normalized_MSE": 0.00028653971681664694,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0008434866285561941,
+          "endpoint16_RPM_RMSE": [
+            84.58040548866983,
+            110.63502420549855
+          ],
+          "sum16_interval_RMSE_seconds": 0.5852569487589039
+        },
+        "ridge_past_dt": {
+          "one_step_RPM_RMSE": [
+            45.79027647593131,
+            55.679406174700624
+          ],
+          "one_step_normalized_MSE": 0.00028871920509497236,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0008594482067427158,
+          "endpoint16_RPM_RMSE": [
+            85.3660638967892,
+            110.44097455701223
+          ],
+          "sum16_interval_RMSE_seconds": 2.449242845195617
+        }
+      }
+    },
+    {
+      "recording": "loads_hatch_mix_fast_run_1",
+      "split": "OOD",
+      "rows": 9984,
+      "clock_seconds": {
+        "actual": {
+          "p01": 0.18819718358012325,
+          "median": 0.2867395020002732,
+          "p99": 0.6063963962620619,
+          "max": 7.024413419996563
+        },
+        "predicted_RMSE": 0.1502600108166906,
+        "last_interval_RMSE": 0.186566947824598,
+        "mean_clock_RMSE": 0.1478335928436587
+      },
+      "arms": {
+        "persistence": {
+          "one_step_RPM_RMSE": [
+            17.008657145132826,
+            42.35312378230458
+          ],
+          "one_step_normalized_MSE": 0.00011572675066666213,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0035932508355199905,
+          "endpoint16_RPM_RMSE": [
+            121.8490773015854,
+            385.0455564737145
+          ],
+          "sum16_interval_RMSE_seconds": 1.6359645669891596
+        },
+        "ridge_no_clock": {
+          "one_step_RPM_RMSE": [
+            21.4678441083039,
+            45.461112166654374
+          ],
+          "one_step_normalized_MSE": 0.0001404211694493089,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0009888827251311998,
+          "endpoint16_RPM_RMSE": [
+            92.8657104744936,
+            131.8894646823303
+          ],
+          "sum16_interval_RMSE_seconds": 1.6359645669891596
+        },
+        "ridge_oracle_future_dt": {
+          "one_step_RPM_RMSE": [
+            21.08065723372904,
+            43.741777385109366
+          ],
+          "one_step_normalized_MSE": 0.00013098539990080206,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0009334495497892557,
+          "endpoint16_RPM_RMSE": [
+            89.43508203529376,
+            130.77991358607596
+          ],
+          "sum16_interval_RMSE_seconds": 0.0
+        },
+        "ridge_predicted_dt": {
+          "one_step_RPM_RMSE": [
+            22.079650589719098,
+            45.754992233958774
+          ],
+          "one_step_normalized_MSE": 0.00014339057136076168,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0010197947344216293,
+          "endpoint16_RPM_RMSE": [
+            95.61597741685277,
+            131.95997186822396
+          ],
+          "sum16_interval_RMSE_seconds": 1.208949056786293
+        },
+        "ridge_past_dt": {
+          "one_step_RPM_RMSE": [
+            21.133652026387235,
+            43.95732249405949
+          ],
+          "one_step_normalized_MSE": 0.00013215985826773175,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.000987223968096761,
+          "endpoint16_RPM_RMSE": [
+            92.72474317687417,
+            133.61390391167095
+          ],
+          "sum16_interval_RMSE_seconds": 1.6359645669891596
+        }
+      }
+    },
+    {
+      "recording": "loads_hatch_mix_fast_run_2",
+      "split": "OOD",
+      "rows": 9984,
+      "clock_seconds": {
+        "actual": {
+          "p01": 0.18818403650540858,
+          "median": 0.28668337649287423,
+          "p99": 0.6921648339999956,
+          "max": 4.509379019000335
+        },
+        "predicted_RMSE": 0.14493922597983339,
+        "last_interval_RMSE": 0.18659981685362304,
+        "mean_clock_RMSE": 0.14194800525041087
+      },
+      "arms": {
+        "persistence": {
+          "one_step_RPM_RMSE": [
+            17.91492565999343,
+            42.266918741938895
+          ],
+          "one_step_normalized_MSE": 0.00011707983229671012,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.00386158992352609,
+          "endpoint16_RPM_RMSE": [
+            127.06477057497024,
+            390.31324873933966
+          ],
+          "sum16_interval_RMSE_seconds": 1.7611550934042368
+        },
+        "ridge_no_clock": {
+          "one_step_RPM_RMSE": [
+            22.178858571747295,
+            46.8408609454647
+          ],
+          "one_step_normalized_MSE": 0.00014922044564766315,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0010250073439627696,
+          "endpoint16_RPM_RMSE": [
+            93.06743019908015,
+            133.08234178398587
+          ],
+          "sum16_interval_RMSE_seconds": 1.7611550934042368
+        },
+        "ridge_oracle_future_dt": {
+          "one_step_RPM_RMSE": [
+            21.645347511236405,
+            44.633527156658666
+          ],
+          "one_step_normalized_MSE": 0.00013670404529591011,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0009336765276219835,
+          "endpoint16_RPM_RMSE": [
+            88.34584652307353,
+            129.16144018769242
+          ],
+          "sum16_interval_RMSE_seconds": 0.0
+        },
+        "ridge_predicted_dt": {
+          "one_step_RPM_RMSE": [
+            22.740488777146393,
+            47.22628918727139
+          ],
+          "one_step_normalized_MSE": 0.0001526362344568502,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0010589783845367006,
+          "endpoint16_RPM_RMSE": [
+            95.86884371148287,
+            133.3398093453986
+          ],
+          "sum16_interval_RMSE_seconds": 0.9866672111426817
+        },
+        "ridge_past_dt": {
+          "one_step_RPM_RMSE": [
+            21.85247042973704,
+            45.24439575725817
+          ],
+          "one_step_normalized_MSE": 0.00014025476729566313,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0010089075547777076,
+          "endpoint16_RPM_RMSE": [
+            91.77998847434584,
+            131.82489142179122
+          ],
+          "sum16_interval_RMSE_seconds": 1.7611550934042368
+        }
+      }
+    },
+    {
+      "recording": "loads_hatch_mix_fast_run_3",
+      "split": "OOD",
+      "rows": 9984,
+      "clock_seconds": {
+        "actual": {
+          "p01": 0.18819963066867784,
+          "median": 0.28604168099263916,
+          "p99": 0.6017458970217558,
+          "max": 2.8054718200000934
+        },
+        "predicted_RMSE": 0.13300591494129185,
+        "last_interval_RMSE": 0.16509560973315504,
+        "mean_clock_RMSE": 0.1294144167527738
+      },
+      "arms": {
+        "persistence": {
+          "one_step_RPM_RMSE": [
+            16.97614713727624,
+            41.07207956597508
+          ],
+          "one_step_normalized_MSE": 0.00010972807175001486,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0030987031852220772,
+          "endpoint16_RPM_RMSE": [
+            115.59418390516848,
+            369.8541073224075
+          ],
+          "sum16_interval_RMSE_seconds": 3.060572218058613
+        },
+        "ridge_no_clock": {
+          "one_step_RPM_RMSE": [
+            21.33246872785626,
+            46.67542030064438
+          ],
+          "one_step_normalized_MSE": 0.00014631494901482127,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0010950212232281405,
+          "endpoint16_RPM_RMSE": [
+            91.4208126414457,
+            138.56039580820482
+          ],
+          "sum16_interval_RMSE_seconds": 3.060572218058613
+        },
+        "ridge_oracle_future_dt": {
+          "one_step_RPM_RMSE": [
+            20.813311327482086,
+            44.47878128385185
+          ],
+          "one_step_normalized_MSE": 0.00013397532849507933,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0010101615211598827,
+          "endpoint16_RPM_RMSE": [
+            87.19250202982077,
+            134.4230578787603
+          ],
+          "sum16_interval_RMSE_seconds": 0.0
+        },
+        "ridge_predicted_dt": {
+          "one_step_RPM_RMSE": [
+            21.942376371104796,
+            47.10624255796352
+          ],
+          "one_step_normalized_MSE": 0.00015002588715227295,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0011284436008687918,
+          "endpoint16_RPM_RMSE": [
+            94.48785832860435,
+            138.47601378933916
+          ],
+          "sum16_interval_RMSE_seconds": 1.0335616886964243
+        },
+        "ridge_past_dt": {
+          "one_step_RPM_RMSE": [
+            20.827405123243167,
+            44.492001220465184
+          ],
+          "one_step_normalized_MSE": 0.00013407327648719868,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0010453050716627845,
+          "endpoint16_RPM_RMSE": [
+            85.46055041020215,
+            138.66186502925927
+          ],
+          "sum16_interval_RMSE_seconds": 3.060572218058613
+        }
+      }
+    },
+    {
+      "recording": "loads_hatch_mix_fast_run_4",
+      "split": "OOD",
+      "rows": 9984,
+      "clock_seconds": {
+        "actual": {
+          "p01": 0.18819334571249782,
+          "median": 0.28668452698912006,
+          "p99": 0.688670598821773,
+          "max": 6.217358041991247
+        },
+        "predicted_RMSE": 0.14514103053946678,
+        "last_interval_RMSE": 0.1870527819180323,
+        "mean_clock_RMSE": 0.1423172586877356
+      },
+      "arms": {
+        "persistence": {
+          "one_step_RPM_RMSE": [
+            17.227523704666673,
+            43.05461634182948
+          ],
+          "one_step_normalized_MSE": 0.00011947153118538914,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0031590071781342544,
+          "endpoint16_RPM_RMSE": [
+            116.9301218628924,
+            372.2990505822185
+          ],
+          "sum16_interval_RMSE_seconds": 1.7053367459010904
+        },
+        "ridge_no_clock": {
+          "one_step_RPM_RMSE": [
+            21.433572799209816,
+            46.19093797744242
+          ],
+          "one_step_normalized_MSE": 0.0001440555996763872,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0009537599893978852,
+          "endpoint16_RPM_RMSE": [
+            91.23333729904031,
+            132.4747935331062
+          ],
+          "sum16_interval_RMSE_seconds": 1.7053367459010904
+        },
+        "ridge_oracle_future_dt": {
+          "one_step_RPM_RMSE": [
+            21.020925502512775,
+            43.812272911678036
+          ],
+          "one_step_normalized_MSE": 0.0001311885870371973,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0008925466204864322,
+          "endpoint16_RPM_RMSE": [
+            86.73152408131352,
+            130.07888624540914
+          ],
+          "sum16_interval_RMSE_seconds": 0.0
+        },
+        "ridge_predicted_dt": {
+          "one_step_RPM_RMSE": [
+            22.02625181213457,
+            46.52941344065206
+          ],
+          "one_step_normalized_MSE": 0.00014723011577903887,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.000984827432663681,
+          "endpoint16_RPM_RMSE": [
+            94.17122562382018,
+            132.6195949426103
+          ],
+          "sum16_interval_RMSE_seconds": 1.1814251549553618
+        },
+        "ridge_past_dt": {
+          "one_step_RPM_RMSE": [
+            21.17022490856119,
+            44.746388221510564
+          ],
+          "one_step_normalized_MSE": 0.00013613431564162278,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0009225334307213553,
+          "endpoint16_RPM_RMSE": [
+            87.76098166582099,
+            134.56316290244987
+          ],
+          "sum16_interval_RMSE_seconds": 1.7053367459010904
+        }
+      }
+    },
+    {
+      "recording": "loads_hatch_mix_fast_run_5",
+      "split": "OOD",
+      "rows": 9984,
+      "clock_seconds": {
+        "actual": {
+          "p01": 0.18818746891920454,
+          "median": 0.2867071170039708,
+          "p99": 0.6058610839166795,
+          "max": 6.221689367986983
+        },
+        "predicted_RMSE": 0.14316607191862243,
+        "last_interval_RMSE": 0.18404433103454537,
+        "mean_clock_RMSE": 0.14061948883029277
+      },
+      "arms": {
+        "persistence": {
+          "one_step_RPM_RMSE": [
+            17.625537460417075,
+            44.01466992691619
+          ],
+          "one_step_normalized_MSE": 0.0001248861521968885,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.003835589289643889,
+          "endpoint16_RPM_RMSE": [
+            124.36099575126076,
+            385.5338987761082
+          ],
+          "sum16_interval_RMSE_seconds": 2.222447932720975
+        },
+        "ridge_no_clock": {
+          "one_step_RPM_RMSE": [
+            21.547671729609593,
+            46.573285553169036
+          ],
+          "one_step_normalized_MSE": 0.00014629850467689134,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0008774544321288266,
+          "endpoint16_RPM_RMSE": [
+            91.24369772155694,
+            131.0847270779564
+          ],
+          "sum16_interval_RMSE_seconds": 2.222447932720975
+        },
+        "ridge_oracle_future_dt": {
+          "one_step_RPM_RMSE": [
+            21.166685811454574,
+            44.25151236227196
+          ],
+          "one_step_normalized_MSE": 0.00013367916303272975,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0008233243158267733,
+          "endpoint16_RPM_RMSE": [
+            87.12340049043628,
+            130.02410558155975
+          ],
+          "sum16_interval_RMSE_seconds": 0.0
+        },
+        "ridge_predicted_dt": {
+          "one_step_RPM_RMSE": [
+            22.14560111417893,
+            47.09856050597237
+          ],
+          "one_step_normalized_MSE": 0.0001504834472468368,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0009076814873878445,
+          "endpoint16_RPM_RMSE": [
+            94.07841807175366,
+            131.45036835448244
+          ],
+          "sum16_interval_RMSE_seconds": 0.9682050928098983
+        },
+        "ridge_past_dt": {
+          "one_step_RPM_RMSE": [
+            21.2193378251841,
+            45.38102572682296
+          ],
+          "one_step_normalized_MSE": 0.00013942765520876964,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0008683778693068838,
+          "endpoint16_RPM_RMSE": [
+            88.26057053407352,
+            128.9601602578469
+          ],
+          "sum16_interval_RMSE_seconds": 2.222447932720975
+        }
+      }
+    },
+    {
+      "recording": "loads_hatch_mix_slow_run_1",
+      "split": "OOD",
+      "rows": 9984,
+      "clock_seconds": {
+        "actual": {
+          "p01": 0.18816429375845473,
+          "median": 0.1980301214989595,
+          "p99": 0.8045126839403749,
+          "max": 5.324470946001384
+        },
+        "predicted_RMSE": 0.16549357108853055,
+        "last_interval_RMSE": 0.21149505900031562,
+        "mean_clock_RMSE": 0.16173568732108812
+      },
+      "arms": {
+        "persistence": {
+          "one_step_RPM_RMSE": [
+            15.973167240751453,
+            25.12606915292652
+          ],
+          "one_step_normalized_MSE": 4.924785682103671e-05,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0013417312420128673,
+          "endpoint16_RPM_RMSE": [
+            55.55346779517146,
+            216.4174632402693
+          ],
+          "sum16_interval_RMSE_seconds": 1.9458074384720065
+        },
+        "ridge_no_clock": {
+          "one_step_RPM_RMSE": [
+            30.140435752599437,
+            30.05238719133173
+          ],
+          "one_step_normalized_MSE": 0.00010064399129190519,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0007164440888873303,
+          "endpoint16_RPM_RMSE": [
+            108.1324897192044,
+            107.71127724462444
+          ],
+          "sum16_interval_RMSE_seconds": 1.9458074384720065
+        },
+        "ridge_oracle_future_dt": {
+          "one_step_RPM_RMSE": [
+            29.44526456124309,
+            28.844145459429562
+          ],
+          "one_step_normalized_MSE": 9.438935179812917e-05,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0006523050243325973,
+          "endpoint16_RPM_RMSE": [
+            104.30673118632716,
+            100.60862857989878
+          ],
+          "sum16_interval_RMSE_seconds": 0.0
+        },
+        "ridge_predicted_dt": {
+          "one_step_RPM_RMSE": [
+            30.630971989592297,
+            30.132436287215043
+          ],
+          "one_step_normalized_MSE": 0.00010256778675723658,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.000747674643845024,
+          "endpoint16_RPM_RMSE": [
+            110.27079047897381,
+            109.3154247770888
+          ],
+          "sum16_interval_RMSE_seconds": 1.1705657434327208
+        },
+        "ridge_past_dt": {
+          "one_step_RPM_RMSE": [
+            29.405028775636875,
+            29.0026249679206
+          ],
+          "one_step_normalized_MSE": 9.476710957366032e-05,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0006262466090800509,
+          "endpoint16_RPM_RMSE": [
+            105.83268833389135,
+            94.74792991364673
+          ],
+          "sum16_interval_RMSE_seconds": 1.9458074384720065
+        }
+      }
+    },
+    {
+      "recording": "loads_hatch_mix_slow_run_2",
+      "split": "OOD",
+      "rows": 9984,
+      "clock_seconds": {
+        "actual": {
+          "p01": 0.18819763109284396,
+          "median": 0.286778099998628,
+          "p99": 0.6921851203744882,
+          "max": 7.626258703996427
+        },
+        "predicted_RMSE": 0.17411061224636096,
+        "last_interval_RMSE": 0.22609014178860568,
+        "mean_clock_RMSE": 0.17251923862085947
+      },
+      "arms": {
+        "persistence": {
+          "one_step_RPM_RMSE": [
+            17.15001736408977,
+            27.609757826922248
+          ],
+          "one_step_normalized_MSE": 5.869010126943749e-05,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.001578865860798613,
+          "endpoint16_RPM_RMSE": [
+            65.92417554782193,
+            224.68290824499715
+          ],
+          "sum16_interval_RMSE_seconds": 1.7128830292627601
+        },
+        "ridge_no_clock": {
+          "one_step_RPM_RMSE": [
+            19.271661013045698,
+            28.399168845242247
+          ],
+          "one_step_normalized_MSE": 6.54394282945733e-05,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.00046630026644276656,
+          "endpoint16_RPM_RMSE": [
+            81.62234465766497,
+            101.89710787390466
+          ],
+          "sum16_interval_RMSE_seconds": 1.7128830292627601
+        },
+        "ridge_oracle_future_dt": {
+          "one_step_RPM_RMSE": [
+            19.23765600738067,
+            27.7133450881132
+          ],
+          "one_step_normalized_MSE": 6.322871692395337e-05,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0004368390894829124,
+          "endpoint16_RPM_RMSE": [
+            78.17279156362765,
+            99.17799836667899
+          ],
+          "sum16_interval_RMSE_seconds": 0.0
+        },
+        "ridge_predicted_dt": {
+          "one_step_RPM_RMSE": [
+            19.861202218632933,
+            28.57476385316359
+          ],
+          "one_step_normalized_MSE": 6.727691571297178e-05,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0004983010325453484,
+          "endpoint16_RPM_RMSE": [
+            84.38993314456285,
+            104.04046568230231
+          ],
+          "sum16_interval_RMSE_seconds": 1.2125463621062502
+        },
+        "ridge_past_dt": {
+          "one_step_RPM_RMSE": [
+            19.242175447661438,
+            27.72413343889513
+          ],
+          "one_step_normalized_MSE": 6.32716050497916e-05,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0004445864644202445,
+          "endpoint16_RPM_RMSE": [
+            81.93804400143351,
+            98.17169486164116
+          ],
+          "sum16_interval_RMSE_seconds": 1.7128830292627601
+        }
+      }
+    },
+    {
+      "recording": "loads_hatch_mix_slow_run_3",
+      "split": "OOD",
+      "rows": 9984,
+      "clock_seconds": {
+        "actual": {
+          "p01": 0.18822268892472493,
+          "median": 0.28687019999779295,
+          "p99": 0.6929110270574168,
+          "max": 4.2061868049931945
+        },
+        "predicted_RMSE": 0.14612790269522788,
+        "last_interval_RMSE": 0.18638787443723984,
+        "mean_clock_RMSE": 0.14292377533385417
+      },
+      "arms": {
+        "persistence": {
+          "one_step_RPM_RMSE": [
+            17.205024714689156,
+            27.323552434656076
+          ],
+          "one_step_normalized_MSE": 5.7921632949025796e-05,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.001113092267128192,
+          "endpoint16_RPM_RMSE": [
+            62.86855665406921,
+            195.92738185508955
+          ],
+          "sum16_interval_RMSE_seconds": 2.401121470395547
+        },
+        "ridge_no_clock": {
+          "one_step_RPM_RMSE": [
+            19.36024996771474,
+            28.242870040519133
+          ],
+          "one_step_normalized_MSE": 6.513772149655838e-05,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.00044288251488095847,
+          "endpoint16_RPM_RMSE": [
+            83.76801789141844,
+            97.8341133740956
+          ],
+          "sum16_interval_RMSE_seconds": 2.401121470395547
+        },
+        "ridge_oracle_future_dt": {
+          "one_step_RPM_RMSE": [
+            19.32402524039774,
+            27.872186982290067
+          ],
+          "one_step_normalized_MSE": 6.390426437040373e-05,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.000415891783558211,
+          "endpoint16_RPM_RMSE": [
+            79.34353716722192,
+            95.9119819947434
+          ],
+          "sum16_interval_RMSE_seconds": 0.0
+        },
+        "ridge_predicted_dt": {
+          "one_step_RPM_RMSE": [
+            19.982606278065976,
+            28.326260391069685
+          ],
+          "one_step_normalized_MSE": 6.676008785593817e-05,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0004760697257851692,
+          "endpoint16_RPM_RMSE": [
+            86.73335748195557,
+            99.92193154993753
+          ],
+          "sum16_interval_RMSE_seconds": 1.2058185343276577
+        },
+        "ridge_past_dt": {
+          "one_step_RPM_RMSE": [
+            19.287974720976905,
+            27.649224584540516
+          ],
+          "one_step_normalized_MSE": 6.313919938685586e-05,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.00045109221011967876,
+          "endpoint16_RPM_RMSE": [
+            82.5510793834114,
+            100.75228545183936
+          ],
+          "sum16_interval_RMSE_seconds": 2.401121470395547
+        }
+      }
+    },
+    {
+      "recording": "loads_hatch_mix_slow_run_4",
+      "split": "OOD",
+      "rows": 9984,
+      "clock_seconds": {
+        "actual": {
+          "p01": 0.18820750122176833,
+          "median": 0.29043822151288623,
+          "p99": 0.6020955734273593,
+          "max": 2.801852507996955
+        },
+        "predicted_RMSE": 0.13434251742458225,
+        "last_interval_RMSE": 0.17312134934706766,
+        "mean_clock_RMSE": 0.13135414831227674
+      },
+      "arms": {
+        "persistence": {
+          "one_step_RPM_RMSE": [
+            17.56653710993562,
+            26.896213468003953
+          ],
+          "one_step_normalized_MSE": 5.733275138617681e-05,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0016479593209218668,
+          "endpoint16_RPM_RMSE": [
+            58.289785626923404,
+            228.95869907078873
+          ],
+          "sum16_interval_RMSE_seconds": 3.7829041468454485
+        },
+        "ridge_no_clock": {
+          "one_step_RPM_RMSE": [
+            19.304815521887452,
+            29.146334122811762
+          ],
+          "one_step_normalized_MSE": 6.789914972959374e-05,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.00048049713545539433,
+          "endpoint16_RPM_RMSE": [
+            80.38468013541434,
+            100.68863347136387
+          ],
+          "sum16_interval_RMSE_seconds": 3.7829041468454485
+        },
+        "ridge_oracle_future_dt": {
+          "one_step_RPM_RMSE": [
+            19.277245609665506,
+            28.36356190856041
+          ],
+          "one_step_normalized_MSE": 6.533910235756148e-05,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.00044343935534357987,
+          "endpoint16_RPM_RMSE": [
+            76.80280766161258,
+            97.58158753921522
+          ],
+          "sum16_interval_RMSE_seconds": 0.0
+        },
+        "ridge_predicted_dt": {
+          "one_step_RPM_RMSE": [
+            19.906365961325115,
+            29.326684037358117
+          ],
+          "one_step_normalized_MSE": 6.979543346740225e-05,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0005132262816852787,
+          "endpoint16_RPM_RMSE": [
+            83.27481307531858,
+            102.8823213016887
+          ],
+          "sum16_interval_RMSE_seconds": 0.9644271776653214
+        },
+        "ridge_past_dt": {
+          "one_step_RPM_RMSE": [
+            19.25351940976043,
+            28.446132680710022
+          ],
+          "one_step_normalized_MSE": 6.554891523058781e-05,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.00044317702736295836,
+          "endpoint16_RPM_RMSE": [
+            76.96913693998778,
+            96.77650159716984
+          ],
+          "sum16_interval_RMSE_seconds": 3.7829041468454485
+        }
+      }
+    },
+    {
+      "recording": "loads_hatch_mix_slow_run_5",
+      "split": "OOD",
+      "rows": 9984,
+      "clock_seconds": {
+        "actual": {
+          "p01": 0.18818375669419765,
+          "median": 0.290133225498721,
+          "p99": 0.6385670580039732,
+          "max": 3.6124237359908875
+        },
+        "predicted_RMSE": 0.14557383792165368,
+        "last_interval_RMSE": 0.18805036737579073,
+        "mean_clock_RMSE": 0.14300555838648046
+      },
+      "arms": {
+        "persistence": {
+          "one_step_RPM_RMSE": [
+            17.142018925341304,
+            26.80704714487255
+          ],
+          "one_step_normalized_MSE": 5.624814385912105e-05,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0014177423979831046,
+          "endpoint16_RPM_RMSE": [
+            58.31452796741684,
+            221.5612852870473
+          ],
+          "sum16_interval_RMSE_seconds": 2.0745107093542026
+        },
+        "ridge_no_clock": {
+          "one_step_RPM_RMSE": [
+            19.5153068253942,
+            28.155785975794476
+          ],
+          "one_step_normalized_MSE": 6.519974913355686e-05,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0004889217187367001,
+          "endpoint16_RPM_RMSE": [
+            83.49918231467096,
+            100.10863976097077
+          ],
+          "sum16_interval_RMSE_seconds": 2.0745107093542026
+        },
+        "ridge_oracle_future_dt": {
+          "one_step_RPM_RMSE": [
+            19.20013481236366,
+            27.343456424226893
+          ],
+          "one_step_normalized_MSE": 6.201721033536313e-05,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.00044955034843360386,
+          "endpoint16_RPM_RMSE": [
+            78.79871583112313,
+            97.72489539077202
+          ],
+          "sum16_interval_RMSE_seconds": 0.0
+        },
+        "ridge_predicted_dt": {
+          "one_step_RPM_RMSE": [
+            20.185631489623432,
+            28.352201425206758
+          ],
+          "one_step_normalized_MSE": 6.729483579390965e-05,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0005251356030948256,
+          "endpoint16_RPM_RMSE": [
+            86.73521784459186,
+            102.45194709972047
+          ],
+          "sum16_interval_RMSE_seconds": 1.0999489705099443
+        },
+        "ridge_past_dt": {
+          "one_step_RPM_RMSE": [
+            19.172354990225383,
+            27.43406092268995
+          ],
+          "one_step_normalized_MSE": 6.223371636561571e-05,
+          "rollout_roots": 156,
+          "rollout16_normalized_MSE": 0.0004908372006472477,
+          "endpoint16_RPM_RMSE": [
+            80.09085063458474,
+            103.53498387147086
+          ],
+          "sum16_interval_RMSE_seconds": 2.0745107093542026
+        }
+      }
+    },
+    {
+      "recording": "regime_jumps_multi",
+      "split": "OOD",
+      "rows": 319984,
+      "clock_seconds": {
+        "actual": {
+          "p01": 0.1960553170851199,
+          "median": 0.2992652149987407,
+          "p99": 0.7987556737935664,
+          "max": 2.482087139000214
+        },
+        "predicted_RMSE": 0.14739186969201692,
+        "last_interval_RMSE": 0.20272680797438988,
+        "mean_clock_RMSE": 0.14953029154457137
+      },
+      "arms": {
+        "persistence": {
+          "one_step_RPM_RMSE": [
+            310.55585255693825,
+            157.3137828734848
+          ],
+          "one_step_normalized_MSE": 0.006732920213295676,
+          "rollout_roots": 5000,
+          "rollout16_normalized_MSE": 0.012712854430668344,
+          "endpoint16_RPM_RMSE": [
+            467.751418827115,
+            376.38266682117217
+          ],
+          "sum16_interval_RMSE_seconds": 2.441577042867283
+        },
+        "ridge_no_clock": {
+          "one_step_RPM_RMSE": [
+            246.24069322178656,
+            127.82723249570468
+          ],
+          "one_step_normalized_MSE": 0.0042763489092142995,
+          "rollout_roots": 5000,
+          "rollout16_normalized_MSE": 0.0045495858340451655,
+          "endpoint16_RPM_RMSE": [
+            250.42634181985343,
+            151.95759185245274
+          ],
+          "sum16_interval_RMSE_seconds": 2.441577042867283
+        },
+        "ridge_oracle_future_dt": {
+          "one_step_RPM_RMSE": [
+            245.92327855436645,
+            127.5879225997289
+          ],
+          "one_step_normalized_MSE": 0.00426427427379121,
+          "rollout_roots": 5000,
+          "rollout16_normalized_MSE": 0.004528027787065069,
+          "endpoint16_RPM_RMSE": [
+            250.09597034713573,
+            151.1351379575797
+          ],
+          "sum16_interval_RMSE_seconds": 0.0
+        },
+        "ridge_predicted_dt": {
+          "one_step_RPM_RMSE": [
+            246.33323630248196,
+            127.73713843595047
+          ],
+          "one_step_normalized_MSE": 0.004277602213503211,
+          "rollout_roots": 5000,
+          "rollout16_normalized_MSE": 0.00455718697831649,
+          "endpoint16_RPM_RMSE": [
+            250.83275679720407,
+            152.29280728544782
+          ],
+          "sum16_interval_RMSE_seconds": 0.7596207641523316
+        },
+        "ridge_past_dt": {
+          "one_step_RPM_RMSE": [
+            246.22205420990173,
+            127.82006413195278
+          ],
+          "one_step_normalized_MSE": 0.004275737154113294,
+          "rollout_roots": 5000,
+          "rollout16_normalized_MSE": 0.004569637043575034,
+          "endpoint16_RPM_RMSE": [
+            250.91567980791928,
+            152.6660010346259
+          ],
+          "sum16_interval_RMSE_seconds": 2.441577042867283
+        }
+      },
+      "scope": "Sensor and physical interventions mixed; no physical ground-truth latent or matched cross-world trajectory is claimed."
+    },
+    {
+      "recording": "regime_jumps_single",
+      "split": "OOD",
+      "rows": 319984,
+      "clock_seconds": {
+        "actual": {
+          "p01": 0.1960605240714358,
+          "median": 0.29920955750276335,
+          "p99": 0.7247664568095931,
+          "max": 8.437194102996727
+        },
+        "predicted_RMSE": 0.14852105112625041,
+        "last_interval_RMSE": 0.20343442554091368,
+        "mean_clock_RMSE": 0.1504419553607974
+      },
+      "arms": {
+        "persistence": {
+          "one_step_RPM_RMSE": [
+            220.15700219979172,
+            91.74227270920917
+          ],
+          "one_step_normalized_MSE": 0.0031603194566367193,
+          "rollout_roots": 5000,
+          "rollout16_normalized_MSE": 0.008972987718524806,
+          "endpoint16_RPM_RMSE": [
+            418.7557464147259,
+            347.22565110323166
+          ],
+          "sum16_interval_RMSE_seconds": 2.4080414204802607
+        },
+        "ridge_no_clock": {
+          "one_step_RPM_RMSE": [
+            175.3589934298589,
+            76.76307860522968
+          ],
+          "one_step_normalized_MSE": 0.0020357414896492593,
+          "rollout_roots": 5000,
+          "rollout16_normalized_MSE": 0.0025072040269507037,
+          "endpoint16_RPM_RMSE": [
+            189.79602936083987,
+            124.08662660859979
+          ],
+          "sum16_interval_RMSE_seconds": 2.4080414204802607
+        },
+        "ridge_oracle_future_dt": {
+          "one_step_RPM_RMSE": [
+            175.2391247978007,
+            76.38571018750223
+          ],
+          "one_step_normalized_MSE": 0.00203019597670823,
+          "rollout_roots": 5000,
+          "rollout16_normalized_MSE": 0.002489111410347956,
+          "endpoint16_RPM_RMSE": [
+            189.1279898212298,
+            123.22146436487994
+          ],
+          "sum16_interval_RMSE_seconds": 0.0
+        },
+        "ridge_predicted_dt": {
+          "one_step_RPM_RMSE": [
+            175.42479967961552,
+            76.706581160666
+          ],
+          "one_step_normalized_MSE": 0.002036542218666187,
+          "rollout_roots": 5000,
+          "rollout16_normalized_MSE": 0.002517118378713134,
+          "endpoint16_RPM_RMSE": [
+            190.3834609474838,
+            124.44323416406877
+          ],
+          "sum16_interval_RMSE_seconds": 0.7597890819834735
+        },
+        "ridge_past_dt": {
+          "one_step_RPM_RMSE": [
+            175.27567356984272,
+            76.86418545647376
+          ],
+          "one_step_normalized_MSE": 0.0020349813750693974,
+          "rollout_roots": 5000,
+          "rollout16_normalized_MSE": 0.002526817009907131,
+          "endpoint16_RPM_RMSE": [
+            190.77019879476077,
+            124.73208809398244
+          ],
+          "sum16_interval_RMSE_seconds": 2.4080414204802607
+        }
+      },
+      "scope": "Sensor and physical interventions mixed; no physical ground-truth latent or matched cross-world trajectory is claimed."
+    }
+  ],
+  "seconds": 20.851927499999874,
+  "objective_achieved": false
+}

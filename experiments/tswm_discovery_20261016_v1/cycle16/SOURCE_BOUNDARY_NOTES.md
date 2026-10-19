@@ -1,0 +1,11 @@
+# Selected manifold baseline source review
+
+Source: official mattrufolo/VAE-sysid-neural-manifold, revision89a35d3e3e95e4ad8cc82dc74e579c30a41181db, MIT. Nine selected files109087bytes are checked against Git blob SHA1 plus SHA256; complete tree metadata is retained. This is an incomplete source archive, not a runnable reproduction. No checkpoint or binary dataset was acquired, and no notebook was executed.
+
+The native base model is a nonlinear recurrent neural state-space model with explicit additive linear/nonlinear transition and observation terms. A task latent changes recurrent-model weights through a projector. Test-time sampling holds each sampled parameter setting constant throughout an entire trajectory. This is a stronger relevant control than attaching independent marginal variances to a point forecast.
+
+The archived adaptation notebook uses10000 AdamW updates,100 Monte Carlo repeats,50 latent samples and a single active training length100. It loads a local pickle checkpoint absent from the repository and numeric MATLAB benchmark data, which were not downloaded in this review. The training notebook defaults to200000 updates and contains W&B initialization/log/finish instrumentation; it is not executed. No credentials were displayed or used.
+
+Before any quantitative reproduction, reconcile native notebook/paper differences: meta-training code uses a Huber-based expression named NLL; adaptation uses mean-squared residuals plus0.1 times latent squared norm, then multiplies the latent Hessian by training length. The Hessian is conditional on an optimized initial state rather than the full joint posterior over that state and task latent. These are source observations, not proof of a trained calibration defect. Do not use them to invent a research gap without executing and attributing the actual procedure.
+
+Prior-art implication: task-level distributions over nonlinear transition functions, persistent parameter sampling and gradient-refined posteriors already have concrete implementations. A new framework must demonstrate a residual beyond them under the same information and a credible computational comparison. No execution is added automatically merely because code is available.

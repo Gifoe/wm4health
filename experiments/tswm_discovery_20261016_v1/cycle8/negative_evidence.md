@@ -1,0 +1,12 @@
+# Rejected claims and competing explanations
+
+1. **Large OOD measured-RPM error proves failed physical dynamics: not supported.** Low-resolution sensor regimes account for93–98%of HGB squared error while comprising16–31%of rows. Measured target quantization is a concrete competing explanation. Physical latent truth and the flashed binary are not available.
+2. **Tachometer acquisition blocks until a rotor pulse: rejected for inspected source.** Interrupts maintain RPM and getters read it atomically. Correlation with sampling intervals does not establish a state-dependent clock mechanism.
+3. **Sensor metadata generally changes sampling intervals enough to explain everything: not supported.** Most regime medians remain near0.30s. Actual-future-time conditioning helps some one-step comparisons but has small or mixed rollout effects, and it is not a deployable next-observation input.
+4. **Better one-step predictor automatically gives better rollout generalization: rejected locally.** Flexible HGB improves held-out one-step error yet ordinary ridge is better on wave rollouts. This familiar failure alone is not a new research contribution.
+5. **The clock/observation-intensity concept is novel: rejected as a broad claim.** EndoClock, HyperNSDE, TAWM, TE-CDE and TESAR-CDE already address substantial related settings. Their precise guarantees differ; no entire area is declared solved because of title overlap.
+6. **A Gaussian uncertainty head or new timer-aware network is now justified: not supported.** Quantized-measurement filters, calibrated observation likelihoods and correct timing are existing necessary controls. No new latent-dynamics mechanism is accepted.
+7. **The exact firmware bug caused the released data: not proven.** Period atoms and increasing grid size are consistent with float-before-difference arithmetic. A pinned public source file does not identify the flashed binary or the unobserved timing origin.
+8. **No progress in research because no positive method result: false.** Actual data, protocol checks and ordinary controls eliminate a misleading failure explanation. Nevertheless they do not achieve the requested novel research direction.
+
+Stop this route as a new-method investment. Preserve the raw difficult regimes and all metrics. Do not fix held-out data heuristically or remove low-resolution examples to claim a favorable model score. Any future physical-state evaluation must define acquisition state, timestamp availability, measurement uncertainty and an independently justified target.

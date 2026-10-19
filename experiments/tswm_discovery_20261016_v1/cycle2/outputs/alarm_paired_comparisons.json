@@ -1,0 +1,1629 @@
+{
+  "primary": "prefix16,horizon1,alarm_no_anchor; prefix1/horizon0 is a diagnostic, not a replacement primary",
+  "uncertainty_scope": "Paired test episodes on one fixed training dataset. Initializations are paired only for the same frozen checkpoint; separately trained methods resample initializations independently. RPM independent-alarm controls only use seed41. Not independent-data replication, no simultaneous multiplicity guarantee, no test-selected method.",
+  "records": [
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "retained_F minus native_10000",
+      "metric": "mse",
+      "n_test_episodes": 292,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": 0.002602666633231757,
+      "per_seed_difference": [
+        0.005579731138921387,
+        -0.005035068071158407,
+        0.007263336831932293
+      ],
+      "resampling": "paired test episodes; paired initializations for same frozen checkpoint",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.011926000002715502,
+        0.02417722033795386
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "retained_F minus native_10000",
+      "metric": "nll",
+      "n_test_episodes": 292,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.012888171021395336,
+      "per_seed_difference": [
+        -0.01417684028001472,
+        -0.01535173366397479,
+        -0.0091359391201965
+      ],
+      "resampling": "paired test episodes; paired initializations for same frozen checkpoint",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.024108451742635113,
+        -0.0033760559480465746
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "retained_F minus native_10000",
+      "metric": "coverage",
+      "n_test_episodes": 292,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": 0.0037137350836236437,
+      "per_seed_difference": [
+        0.003304051841419688,
+        0.004040541842480992,
+        0.003796611566970252
+      ],
+      "resampling": "paired test episodes; paired initializations for same frozen checkpoint",
+      "paired_hierarchical_bootstrap_95_interval": [
+        0.001294945092157074,
+        0.006957497029054749
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "retained_F minus native_10000",
+      "metric": "tail_brier",
+      "n_test_episodes": 292,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.0026802842707130355,
+      "per_seed_difference": [
+        -0.0026614064568988923,
+        -0.0021654249087640497,
+        -0.0032140214464761634
+      ],
+      "resampling": "paired test episodes; paired initializations for same frozen checkpoint",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.005435831996209811,
+        -0.0004803559589286508
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_generative_SSM minus native_10000",
+      "metric": "mse",
+      "n_test_episodes": 292,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.12024213886558953,
+      "per_seed_difference": [
+        -0.13321296369710045,
+        -0.1322690479182781,
+        -0.09524440498139003
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.1892113742132229,
+        -0.055033002787037225
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_generative_SSM minus native_10000",
+      "metric": "nll",
+      "n_test_episodes": 292,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.15202143005290256,
+      "per_seed_difference": [
+        -0.1613171713730123,
+        -0.15438848112951253,
+        -0.14035863765618278
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.22052623100068233,
+        -0.09123340510217329
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_generative_SSM minus native_10000",
+      "metric": "coverage",
+      "n_test_episodes": 292,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": 0.04876418307380028,
+      "per_seed_difference": [
+        0.05206796984196816,
+        0.04890997364821173,
+        0.04531460573122097
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        0.03090107162305094,
+        0.06868505233946903
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_generative_SSM minus native_10000",
+      "metric": "tail_brier",
+      "n_test_episodes": 292,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.022597909309826997,
+      "per_seed_difference": [
+        -0.02275727363985401,
+        -0.022166370137091135,
+        -0.022870084152535847
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.03577379998251101,
+        -0.010438893551308405
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_positive_exact_ML minus native_10000",
+      "metric": "mse",
+      "n_test_episodes": 292,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.07255218388836454,
+      "per_seed_difference": [
+        -0.08557135211639813,
+        -0.05954994950180907,
+        -0.07253525004688638
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.11419195405275699,
+        -0.027717041874765185
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_positive_exact_ML minus native_10000",
+      "metric": "nll",
+      "n_test_episodes": 292,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.11220660703116855,
+      "per_seed_difference": [
+        -0.1184687957730658,
+        -0.10911366402506716,
+        -0.1090373612953727
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.16249761562369106,
+        -0.06645389698088851
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_positive_exact_ML minus native_10000",
+      "metric": "coverage",
+      "n_test_episodes": 292,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": 0.04452761262601196,
+      "per_seed_difference": [
+        0.046581461133813555,
+        0.04180144067319016,
+        0.04519993607103218
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        0.030328720359050425,
+        0.06101233434557849
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_positive_exact_ML minus native_10000",
+      "metric": "tail_brier",
+      "n_test_episodes": 292,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.01514968692206287,
+      "per_seed_difference": [
+        -0.015556217030813184,
+        -0.01391584159584476,
+        -0.01597700213953066
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.022861676706924242,
+        -0.008273659712815053
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_full_exact_ML minus native_10000",
+      "metric": "mse",
+      "n_test_episodes": 292,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.11268286874863187,
+      "per_seed_difference": [
+        -0.10534296342836527,
+        -0.12527408852196698,
+        -0.10743155429556334
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.17278873087305677,
+        -0.060146437790498226
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_full_exact_ML minus native_10000",
+      "metric": "nll",
+      "n_test_episodes": 292,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.14812167863564424,
+      "per_seed_difference": [
+        -0.1530206780433091,
+        -0.1504519995066107,
+        -0.14089235835701283
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.2121754065886169,
+        -0.09209447696197343
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_full_exact_ML minus native_10000",
+      "metric": "coverage",
+      "n_test_episodes": 292,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": 0.04884329462997661,
+      "per_seed_difference": [
+        0.05223954714963041,
+        0.04885378079326897,
+        0.045436555947030444
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        0.031376324859326316,
+        0.06815836997010091
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_full_exact_ML minus native_10000",
+      "metric": "tail_brier",
+      "n_test_episodes": 292,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.021642326191392135,
+      "per_seed_difference": [
+        -0.0215662554973136,
+        -0.02117483780632533,
+        -0.02218588527053748
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.03361392040706348,
+        -0.010224801758397224
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "retained_F minus native_10000",
+      "metric": "mse",
+      "n_test_episodes": 280,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": 0.0027533299930075817,
+      "per_seed_difference": [
+        0.001310301859040997,
+        -0.0009130255536869814,
+        0.007862713673668729
+      ],
+      "resampling": "paired test episodes; paired initializations for same frozen checkpoint",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.0006608091106865886,
+        0.008587466693885817
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "retained_F minus native_10000",
+      "metric": "nll",
+      "n_test_episodes": 280,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.005485135464846238,
+      "per_seed_difference": [
+        -0.005717536787312437,
+        -0.006159501160719767,
+        -0.004578368446506508
+      ],
+      "resampling": "paired test episodes; paired initializations for same frozen checkpoint",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.007686600352233186,
+        -0.003175298275534016
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "retained_F minus native_10000",
+      "metric": "coverage",
+      "n_test_episodes": 280,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": 0.0,
+      "per_seed_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "resampling": "paired test episodes; paired initializations for same frozen checkpoint",
+      "paired_hierarchical_bootstrap_95_interval": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "retained_F minus native_10000",
+      "metric": "tail_brier",
+      "n_test_episodes": 280,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.000376768214924612,
+      "per_seed_difference": [
+        -0.0004872966264289945,
+        -0.00040243322131369036,
+        -0.00024057479703115084
+      ],
+      "resampling": "paired test episodes; paired initializations for same frozen checkpoint",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.0005781625810621083,
+        -0.0002090362586323058
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_generative_SSM minus native_10000",
+      "metric": "mse",
+      "n_test_episodes": 280,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.05208448727525707,
+      "per_seed_difference": [
+        -0.06587574657439187,
+        -0.055124161575619585,
+        -0.03525355367575978
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.10294076883343295,
+        -0.007624353693770764
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_generative_SSM minus native_10000",
+      "metric": "nll",
+      "n_test_episodes": 280,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.16024885338981412,
+      "per_seed_difference": [
+        -0.1709222523158868,
+        -0.16453719676370387,
+        -0.14528711108985162
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.24430135189869964,
+        -0.07982672275731728
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_generative_SSM minus native_10000",
+      "metric": "coverage",
+      "n_test_episodes": 280,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": 0.1392857142857143,
+      "per_seed_difference": [
+        0.1392857142857143,
+        0.1357142857142857,
+        0.14285714285714285
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        0.10119047619047616,
+        0.18098214285714298
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_generative_SSM minus native_10000",
+      "metric": "tail_brier",
+      "n_test_episodes": 280,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.011957414635909816,
+      "per_seed_difference": [
+        -0.01211425099327134,
+        -0.012444068324813574,
+        -0.01131392458964453
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.023022700680897356,
+        -0.0015928700385539618
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_positive_exact_ML minus native_10000",
+      "metric": "mse",
+      "n_test_episodes": 280,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.05534425042649105,
+      "per_seed_difference": [
+        -0.061420804747275834,
+        -0.05006432058074611,
+        -0.054547625951451184
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.10744280440594295,
+        -0.00591241244962972
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_positive_exact_ML minus native_10000",
+      "metric": "nll",
+      "n_test_episodes": 280,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.15949821535031705,
+      "per_seed_difference": [
+        -0.1676074396077438,
+        -0.15816738142451936,
+        -0.15271982501868803
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.23170321336081237,
+        -0.09245772860888371
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_positive_exact_ML minus native_10000",
+      "metric": "coverage",
+      "n_test_episodes": 280,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": 0.10714285714285714,
+      "per_seed_difference": [
+        0.10714285714285714,
+        0.1,
+        0.11428571428571428
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        0.0714285714285714,
+        0.14761904761904765
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_positive_exact_ML minus native_10000",
+      "metric": "tail_brier",
+      "n_test_episodes": 280,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.011209353604612048,
+      "per_seed_difference": [
+        -0.011202264442154736,
+        -0.010845757164379374,
+        -0.01158003920730203
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.018183386847898927,
+        -0.004860840081284085
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_full_exact_ML minus native_10000",
+      "metric": "mse",
+      "n_test_episodes": 280,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.046494889234324675,
+      "per_seed_difference": [
+        -0.04986600142225143,
+        -0.05179854549399764,
+        -0.03782012078672498
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.08811353588525042,
+        -0.007870192760992363
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_full_exact_ML minus native_10000",
+      "metric": "nll",
+      "n_test_episodes": 280,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.15968812510587957,
+      "per_seed_difference": [
+        -0.1666040157827951,
+        -0.16386053206052784,
+        -0.1485998274743158
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.2392538163159185,
+        -0.08486055271796937
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_full_exact_ML minus native_10000",
+      "metric": "coverage",
+      "n_test_episodes": 280,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": 0.1380952380952381,
+      "per_seed_difference": [
+        0.14285714285714285,
+        0.1357142857142857,
+        0.1357142857142857
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        0.09999999999999998,
+        0.1785714285714286
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "state_dependent_alarm",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_full_exact_ML minus native_10000",
+      "metric": "tail_brier",
+      "n_test_episodes": 280,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.012223479667494031,
+      "per_seed_difference": [
+        -0.012235611401072424,
+        -0.012447968922744003,
+        -0.01198685867866566
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.022005217072978152,
+        -0.003158638547932939
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "retained_F minus native_10000",
+      "metric": "mse",
+      "n_test_episodes": 285,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": 0.0011380760801378979,
+      "per_seed_difference": [
+        0.000383074476447737,
+        0.0015191211805944502,
+        0.001512032583371506
+      ],
+      "resampling": "paired test episodes; paired initializations for same frozen checkpoint",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.004491733871235183,
+        0.006589312715618264
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "retained_F minus native_10000",
+      "metric": "nll",
+      "n_test_episodes": 285,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": 0.0012025155267280352,
+      "per_seed_difference": [
+        0.0006269901332625197,
+        0.0015428574178040424,
+        0.0014376990291175436
+      ],
+      "resampling": "paired test episodes; paired initializations for same frozen checkpoint",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.0029924680153490947,
+        0.0052664413564311756
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "retained_F minus native_10000",
+      "metric": "coverage",
+      "n_test_episodes": 285,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": 0.00031601364713575256,
+      "per_seed_difference": [
+        0.0003609440977749923,
+        0.00039661245749365376,
+        0.00019048438613861166
+      ],
+      "resampling": "paired test episodes; paired initializations for same frozen checkpoint",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.0009554410971117254,
+        0.0017212390228386139
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "retained_F minus native_10000",
+      "metric": "tail_brier",
+      "n_test_episodes": 285,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -3.6778763741518026e-05,
+      "per_seed_difference": [
+        -5.804772032233668e-05,
+        -7.285432153966618e-05,
+        2.056575063744871e-05
+      ],
+      "resampling": "paired test episodes; paired initializations for same frozen checkpoint",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.0009033821225956693,
+        0.0005673411082401511
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_generative_SSM minus native_10000",
+      "metric": "mse",
+      "n_test_episodes": 285,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.0007743620594878816,
+      "per_seed_difference": [
+        0.0015588461999790414,
+        -0.0005542147551890321,
+        -0.0033277176232536535
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.007584870211153026,
+        0.006488559588745824
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_generative_SSM minus native_10000",
+      "metric": "nll",
+      "n_test_episodes": 285,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.005343587025816503,
+      "per_seed_difference": [
+        -0.0026198664652384786,
+        -0.005235007597191458,
+        -0.008175887015019574
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.012687061268300947,
+        0.0020440385381673286
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_generative_SSM minus native_10000",
+      "metric": "coverage",
+      "n_test_episodes": 285,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.005850853746176927,
+      "per_seed_difference": [
+        -0.005394011201322928,
+        -0.007075960511916569,
+        -0.005082589525291285
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.008337427625850094,
+        -0.0036511751867765612
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_generative_SSM minus native_10000",
+      "metric": "tail_brier",
+      "n_test_episodes": 285,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.00020085364963464347,
+      "per_seed_difference": [
+        -2.3795131422484317e-05,
+        -0.00013808440260651905,
+        -0.0004406814148749268
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.001372966054207238,
+        0.0009151340730487991
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_positive_exact_ML minus native_10000",
+      "metric": "mse",
+      "n_test_episodes": 285,
+      "initialization_seeds": [
+        41
+      ],
+      "mean_difference": 0.0008413173936860588,
+      "per_seed_difference": [
+        0.0008413173936860588
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.008177643541858017,
+        0.009339602415486651
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_positive_exact_ML minus native_10000",
+      "metric": "nll",
+      "n_test_episodes": 285,
+      "initialization_seeds": [
+        41
+      ],
+      "mean_difference": -0.0035094257052997054,
+      "per_seed_difference": [
+        -0.0035094257052997054
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.01132084362197203,
+        0.0046145827845946175
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_positive_exact_ML minus native_10000",
+      "metric": "coverage",
+      "n_test_episodes": 285,
+      "initialization_seeds": [
+        41
+      ],
+      "mean_difference": -0.006694022866186346,
+      "per_seed_difference": [
+        -0.006694022866186346
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.009248364119992136,
+        -0.004282204813972581
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_positive_exact_ML minus native_10000",
+      "metric": "tail_brier",
+      "n_test_episodes": 285,
+      "initialization_seeds": [
+        41
+      ],
+      "mean_difference": 0.0003696895354129398,
+      "per_seed_difference": [
+        0.0003696895354129398
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.0008472660651976437,
+        0.0014589485854452399
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_full_exact_ML minus native_10000",
+      "metric": "mse",
+      "n_test_episodes": 285,
+      "initialization_seeds": [
+        41
+      ],
+      "mean_difference": 0.00037193911527539416,
+      "per_seed_difference": [
+        0.00037193911527539416
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.008873472734156982,
+        0.00877324975682431
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_full_exact_ML minus native_10000",
+      "metric": "nll",
+      "n_test_episodes": 285,
+      "initialization_seeds": [
+        41
+      ],
+      "mean_difference": -0.0029620272371520652,
+      "per_seed_difference": [
+        -0.0029620272371520652
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.010061765897935967,
+        0.00417520020956295
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_full_exact_ML minus native_10000",
+      "metric": "coverage",
+      "n_test_episodes": 285,
+      "initialization_seeds": [
+        41
+      ],
+      "mean_difference": -0.001979924459146039,
+      "per_seed_difference": [
+        -0.001979924459146039
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.0039156161668713555,
+        -0.00016730787525634207
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 16,
+      "horizon": 1,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_full_exact_ML minus native_10000",
+      "metric": "tail_brier",
+      "n_test_episodes": 285,
+      "initialization_seeds": [
+        41
+      ],
+      "mean_difference": 2.2561177024136028e-05,
+      "per_seed_difference": [
+        2.2561177024136028e-05
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.0014078487931582652,
+        0.0010467222834013785
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "retained_F minus native_10000",
+      "metric": "mse",
+      "n_test_episodes": 299,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": 0.0023219655018206975,
+      "per_seed_difference": [
+        0.00161697946947126,
+        0.0030551968289638048,
+        0.0022937202070270287
+      ],
+      "resampling": "paired test episodes; paired initializations for same frozen checkpoint",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.00022913471276573004,
+        0.005152938137936848
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "retained_F minus native_10000",
+      "metric": "nll",
+      "n_test_episodes": 299,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": 0.0010005145416443406,
+      "per_seed_difference": [
+        0.0006321053848218999,
+        0.0013714488850499742,
+        0.0009979893550611475
+      ],
+      "resampling": "paired test episodes; paired initializations for same frozen checkpoint",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.00034474303496226377,
+        0.0023980954816005154
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "retained_F minus native_10000",
+      "metric": "coverage",
+      "n_test_episodes": 299,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": 0.0,
+      "per_seed_difference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "resampling": "paired test episodes; paired initializations for same frozen checkpoint",
+      "paired_hierarchical_bootstrap_95_interval": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "retained_F minus native_10000",
+      "metric": "tail_brier",
+      "n_test_episodes": 299,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -1.2949423199121936e-05,
+      "per_seed_difference": [
+        -3.7882373816787564e-05,
+        -2.8396027233047847e-07,
+        -6.819355082477647e-07
+      ],
+      "resampling": "paired test episodes; paired initializations for same frozen checkpoint",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -5.1490176658758324e-05,
+        5.656399044949752e-06
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_generative_SSM minus native_10000",
+      "metric": "mse",
+      "n_test_episodes": 299,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": 0.0010111956926920464,
+      "per_seed_difference": [
+        0.009690496230224508,
+        0.0002710069958768991,
+        -0.0069279161480252675
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.005899795022515369,
+        0.009115127263327267
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_generative_SSM minus native_10000",
+      "metric": "nll",
+      "n_test_episodes": 299,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": 0.0006657389568571774,
+      "per_seed_difference": [
+        0.004990021495012138,
+        0.0007525089899200973,
+        -0.003745313614360703
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.002963941910708334,
+        0.004838144990908623
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_generative_SSM minus native_10000",
+      "metric": "coverage",
+      "n_test_episodes": 299,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": -0.002229654403567447,
+      "per_seed_difference": [
+        -0.006688963210702341,
+        -0.0033444816053511705,
+        0.0033444816053511705
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.010033444816053505,
+        0.0022296544035673715
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_generative_SSM minus native_10000",
+      "metric": "tail_brier",
+      "n_test_episodes": 299,
+      "initialization_seeds": [
+        41,
+        42,
+        43
+      ],
+      "mean_difference": 2.5674232243803695e-05,
+      "per_seed_difference": [
+        2.471828709493889e-05,
+        7.88788199768051e-05,
+        -2.65744103403329e-05
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -4.615963666806944e-05,
+        0.00013095292147914596
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_positive_exact_ML minus native_10000",
+      "metric": "mse",
+      "n_test_episodes": 299,
+      "initialization_seeds": [
+        41
+      ],
+      "mean_difference": -0.004504374562741941,
+      "per_seed_difference": [
+        -0.004504374562741941
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.01143434430157984,
+        0.002295055043741304
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_positive_exact_ML minus native_10000",
+      "metric": "nll",
+      "n_test_episodes": 299,
+      "initialization_seeds": [
+        41
+      ],
+      "mean_difference": -0.0014443184110409586,
+      "per_seed_difference": [
+        -0.0014443184110409586
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.005235003222829598,
+        0.0028466899236211547
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_positive_exact_ML minus native_10000",
+      "metric": "coverage",
+      "n_test_episodes": 299,
+      "initialization_seeds": [
+        41
+      ],
+      "mean_difference": 0.0,
+      "per_seed_difference": [
+        0.0
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_positive_exact_ML minus native_10000",
+      "metric": "tail_brier",
+      "n_test_episodes": 299,
+      "initialization_seeds": [
+        41
+      ],
+      "mean_difference": 0.00015149187838394784,
+      "per_seed_difference": [
+        0.00015149187838394784
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -1.7890864795679084e-05,
+        0.00034507215630355526
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_full_exact_ML minus native_10000",
+      "metric": "mse",
+      "n_test_episodes": 299,
+      "initialization_seeds": [
+        41
+      ],
+      "mean_difference": 0.008109507960181795,
+      "per_seed_difference": [
+        0.008109507960181795
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.00041546402445229153,
+        0.016282202508763104
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_full_exact_ML minus native_10000",
+      "metric": "nll",
+      "n_test_episodes": 299,
+      "initialization_seeds": [
+        41
+      ],
+      "mean_difference": 0.0034112183001472284,
+      "per_seed_difference": [
+        0.0034112183001472284
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.0016641100314778723,
+        0.00890772631512235
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_full_exact_ML minus native_10000",
+      "metric": "coverage",
+      "n_test_episodes": 299,
+      "initialization_seeds": [
+        41
+      ],
+      "mean_difference": 0.0,
+      "per_seed_difference": [
+        0.0
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_replicates": 3000
+    },
+    {
+      "dataset": "independent_alarm_control",
+      "prefix": 1,
+      "horizon": 0,
+      "subset": "alarm_no_anchor",
+      "comparison": "ordinary_RPM_full_exact_ML minus native_10000",
+      "metric": "tail_brier",
+      "n_test_episodes": 299,
+      "initialization_seeds": [
+        41
+      ],
+      "mean_difference": -0.00018057607072137992,
+      "per_seed_difference": [
+        -0.00018057607072137992
+      ],
+      "resampling": "paired test episodes; independent initialization resampling across separately trained methods",
+      "paired_hierarchical_bootstrap_95_interval": [
+        -0.00047567257744265956,
+        7.855554924323718e-05
+      ],
+      "bootstrap_replicates": 3000
+    }
+  ],
+  "input_sha256": {
+    "outputs/native_alarm_extended/independent_alarm_control_seed41_evaluation.json": "eee1c83d0040abe764981e0a2c0368324f4c071055fdc378edfdfbf9be34c0a9",
+    "outputs/native_alarm_extended/independent_alarm_control_seed42_evaluation.json": "d77dffc35cb5fdc186be9a4af5e7f9048f7c7c3a431f910f3fac54c40baf400c",
+    "outputs/native_alarm_extended/independent_alarm_control_seed43_evaluation.json": "3f5f220b2c63a3b3a35b39043edc8c3b8d5cfe979d3df7267829fc7d48e4d727",
+    "outputs/native_alarm_extended/state_dependent_alarm_seed41_evaluation.json": "5707aa0382d1e3ec6aa05bb0fdce900931286534c884a84b4cf920c67e39abaa",
+    "outputs/native_alarm_extended/state_dependent_alarm_seed42_evaluation.json": "4653e65b395e1ec4c338ba80059d0657482c9f1549f8f45e10aed83ce185b275",
+    "outputs/native_alarm_extended/state_dependent_alarm_seed43_evaluation.json": "5f278c327b1706d2c818a923f5363a4f039c1e2521e101e07a26c9b7a8970605",
+    "outputs/generative_alarm/independent_alarm_control_seed41_evaluation.json": "893816d68810e7a3da2475c85f97247b227b2f67eb67627a97c759a3ddf1558f",
+    "outputs/generative_alarm/independent_alarm_control_seed42_evaluation.json": "9dfcb1060948a1a77ef3dab37dfc582536623b735b3f8ea9080de45c174a814b",
+    "outputs/generative_alarm/independent_alarm_control_seed43_evaluation.json": "ed0dd74b05674b35d368a487c8d1e0dba74c09e4a10168c3c297014078139c72",
+    "outputs/generative_alarm/state_dependent_alarm_seed41_evaluation.json": "edf9909a85aa76e3a699bc137ca1ebd69f1917fb2350099d5e99710c6cd99d2b",
+    "outputs/generative_alarm/state_dependent_alarm_seed42_evaluation.json": "5688d86ee323bf0d08b3057a41197cd72ea4d12ef011f401187be1e9ac5a47fd",
+    "outputs/generative_alarm/state_dependent_alarm_seed43_evaluation.json": "59f4f89be7e1dd3cea03996962818a5f2dca31943a02cae9a3c2a54920dba288",
+    "outputs/rpm_exact/independent_alarm_control_full_gaussian_seed41_evaluation.json": "0b309faa85cb26a3276b827e43d4c69b031198f3beb95e482e0bbca53201e9de",
+    "outputs/rpm_exact/independent_alarm_control_positive_site_seed41_evaluation.json": "99ccd917f19754edc2ba29499084b24236be8ec74f473d64c5c085e518e43541",
+    "outputs/rpm_exact/state_dependent_alarm_full_gaussian_seed41_evaluation.json": "fdc3f06e4f089b48bad177ff872601ddf7c45351ecad445e54c46affc2719a52",
+    "outputs/rpm_exact/state_dependent_alarm_full_gaussian_seed42_evaluation.json": "2680a4d935e401c3a499152412710a3deec7c5e932f29ccd27ed1a8da3d19bb8",
+    "outputs/rpm_exact/state_dependent_alarm_full_gaussian_seed43_evaluation.json": "43e12fd75c9a7983ce427e0e87b631f2fc3436b147ffe51fa8f2fc1c2b4ffab0",
+    "outputs/rpm_exact/state_dependent_alarm_positive_site_seed41_evaluation.json": "b8dad7674e537b44b608dd25517abb793f34d0728d3caf01bfc10a7ac9aa9cb2",
+    "outputs/rpm_exact/state_dependent_alarm_positive_site_seed42_evaluation.json": "d73b1dd253722af8016f0aa65a35b64a9c3fdb8e1fd0ca679a9d2ae17ab0a79e",
+    "outputs/rpm_exact/state_dependent_alarm_positive_site_seed43_evaluation.json": "9decb817e610ed0dffd91c38a4efbaaa9eef53b758b5273d954306443ed1d7b6"
+  },
+  "code_sha256": "cbef3711fe11506c95b737de287a80698a4caf4e736dbe5ea56ba62adf3a221e"
+}

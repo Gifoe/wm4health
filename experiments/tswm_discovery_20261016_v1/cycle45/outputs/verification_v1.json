@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-17T02:30:04.202885+00:00",
+  "loaded_native_source_modules": [
+    {
+      "module": "ncdssm.functions",
+      "path": "src/ncdssm/functions.py",
+      "sha256": "41536dce04104f969ca18ee843db3350081e9e6bb3268c6dbab796cc7dd921bf"
+    },
+    {
+      "module": "ncdssm.inference",
+      "path": "src/ncdssm/inference.py",
+      "sha256": "bfff95622092e73de9eb3a3ea449c0d0ca3b28370227e88a5f1969077da0ea7d"
+    },
+    {
+      "module": "ncdssm.models",
+      "path": "src/ncdssm/models/__init__.py",
+      "sha256": "d963c49db99bbfa540acfeca36bcfa22dfb755c93accad80a5e21e1613aee817"
+    },
+    {
+      "module": "ncdssm.models.base",
+      "path": "src/ncdssm/models/base.py",
+      "sha256": "44ef0c1dfb7a7f3737e4e34c38a81e7d43c0e5037a11a97a5ddb159fb80b43c2"
+    },
+    {
+      "module": "ncdssm.models.components",
+      "path": "src/ncdssm/models/components.py",
+      "sha256": "692b416e2f37d549366561ecbe39c4a73e039939d00c9eae14713656d7f58c70"
+    },
+    {
+      "module": "ncdssm.models.dynamics",
+      "path": "src/ncdssm/models/dynamics.py",
+      "sha256": "a4e1f6b8c71381cd2231f27d0751b40f55ff19c8e0cc1bcfc3f85e868959254a"
+    },
+    {
+      "module": "ncdssm.models.ncdssm",
+      "path": "src/ncdssm/models/ncdssm.py",
+      "sha256": "5265ca1666dfabdab2f688c737de637f924df8ac8e325b77e8c254b76b8db2a8"
+    },
+    {
+      "module": "ncdssm.modules",
+      "path": "src/ncdssm/modules.py",
+      "sha256": "9aa60f5ac0e2f04c856aebdbc6eb3bd1bad83a713a46a9e2d93230a21b058d72"
+    },
+    {
+      "module": "ncdssm.torch_utils",
+      "path": "src/ncdssm/torch_utils.py",
+      "sha256": "4b520aa57d55b407f2ffea423091278b6ee9644defa95781e01a9c7c78fae2b5"
+    },
+    {
+      "module": "ncdssm.type",
+      "path": "src/ncdssm/type.py",
+      "sha256": "55712ef18be6c6a06c305c9c3fe7426f7805279ada47bcb8c648e2c055469711"
+    }
+  ],
+  "independent_dense_conditioning_mean_max_abs": 7.892991815694472e-17,
+  "independent_dense_conditioning_covariance_max_abs": 6.245004513516506e-17,
+  "raw_statistics_checks": [
+    {
+      "field": "native_z",
+      "reported_statistics_max_abs": 0.0
+    },
+    {
+      "field": "ordinary_joint_z",
+      "reported_statistics_max_abs": 0.0
+    }
+  ],
+  "qualification_sha256": "88b5b9dca980c04871c2b3a4df11678e0fdd2efa4f8c7dbc1f251d2c7f09543a",
+  "raw_sampling_sha256": "4036c2b62902072f97c847b2e052fd27945d9ccb2a13bf2deafd1aa6ed5276e3",
+  "checkpoint_sha256": "64fb882cf5a94ede609418a83c65a47a591e0b56c984d75599fd071d5960af43",
+  "source_sha256": "7a84374dbacb7807957d4df17ee5bbf1ab1d06891f19da1d80965b0833c06db1",
+  "no_training_updates": true,
+  "GPU_initialized": false,
+  "claim_scope": "source origins plus independent dense Gaussian conditioning and retained-sample arithmetic; not nonlinear model-quality evidence"
+}

@@ -1,0 +1,38 @@
+{
+  "run": "lewm_native_weight_random",
+  "seed": 41,
+  "seconds": 18.015563199995086,
+  "parameters": 88,
+  "snapshots": [
+    {
+      "step": 2000,
+      "checkpoint_sha256": "95eb42f2133e8457d1bd0a9c1d993d60e5ba71e993e160248f038de0859b6393",
+      "physical_probe_nmse": 0.49765878556217197,
+      "signal_subspace_overlap": 0.5021560864552953,
+      "encoder_covariance_eigenvalues": [
+        0.6343110765629321,
+        1.0610739142432326
+      ]
+    },
+    {
+      "step": 4000,
+      "checkpoint_sha256": "0036f5e6ce3f4e7bef737c55c65a2d61fb7eba6aaae47a6c54dde518539b09a5",
+      "physical_probe_nmse": 0.00037832281369358457,
+      "signal_subspace_overlap": 0.9996220894292549,
+      "encoder_covariance_eigenvalues": [
+        0.9481232786958343,
+        0.9719159250037243
+      ]
+    },
+    {
+      "step": 8000,
+      "checkpoint_sha256": "e7caf4fd1f02be86fbd32b396dd1384d0ab56df9c8204271ef9e456b8c51ab46",
+      "physical_probe_nmse": 0.00012273028186883268,
+      "signal_subspace_overlap": 0.9998777804386791,
+      "encoder_covariance_eigenvalues": [
+        0.9449895544699369,
+        0.9997226575320989
+      ]
+    }
+  ]
+}

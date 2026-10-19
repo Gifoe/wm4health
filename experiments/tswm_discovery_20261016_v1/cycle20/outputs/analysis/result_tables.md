@@ -1,0 +1,26 @@
+| Family | Method | Gain accuracy | Native physical MSE | Frozen-encoder successor probe MSE | Native modulation NRMSE |
+|---|---|---:|---:|---:|---:|
+|coupled_linear|joint|0.50557|0.903970|0.482023|1.00020|
+|coupled_linear|joint_idm|0.50798|0.070398|0.069421|1.00016|
+|coupled_linear|ema_idm|0.50899|0.082714|0.078966|0.99953|
+|coupled_linear|gaussian_idm|0.50562|0.069732|0.070200|1.00020|
+|coupled_linear|mixture_idm|0.66907|0.046500|0.046340|0.69047|
+|coupled_linear|obs_idm|0.62122|0.064583|0.063865|0.87409|
+|coupled_linear|fullobs|1.00000|0.001350|0.000397|0.07331|
+|coupled_linear|joint_idm_full|1.00000|0.006954|0.003426|0.11805|
+|rotating|joint|0.49418|0.630870|0.563649|1.00155|
+|rotating|joint_idm|0.50122|0.022467|0.022753|1.00103|
+|rotating|ema_idm|0.50203|0.024897|0.022893|1.00111|
+|rotating|gaussian_idm|0.50037|0.021661|0.021897|1.00056|
+|rotating|mixture_idm|0.50553|0.022277|0.022746|1.00217|
+|rotating|obs_idm|0.57023|0.023994|0.022634|0.97574|
+|rotating|fullobs|1.00000|0.001123|0.000277|0.10316|
+|rotating|joint_idm_full|1.00000|0.004840|0.002516|0.19622|
+|saturating|joint|0.49870|0.823126|0.384135|1.00009|
+|saturating|joint_idm|0.49939|0.085999|0.084264|0.99958|
+|saturating|ema_idm|0.51518|0.097729|0.090862|0.99170|
+|saturating|gaussian_idm|0.50069|0.084351|0.084147|0.99989|
+|saturating|mixture_idm|0.49593|0.083731|0.084167|1.00007|
+|saturating|obs_idm|0.50631|0.086074|0.085372|0.99792|
+|saturating|fullobs|1.00000|0.002500|0.001037|0.06774|
+|saturating|joint_idm_full|0.99992|0.011339|0.006518|0.14981|

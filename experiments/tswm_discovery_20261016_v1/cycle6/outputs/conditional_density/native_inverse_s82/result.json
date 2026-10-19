@@ -1,0 +1,73 @@
+{
+  "kind": "native_inverse",
+  "seed": 82,
+  "parameters": 33537,
+  "selected_step": 2000,
+  "best_validation_reported_NLL": 1.1839488744735718,
+  "seconds": 14.053192500003206,
+  "test": [
+    {
+      "context": -2.0,
+      "test_reported_NLL": 1.0079965591430664,
+      "true_DGP_NLL": 0.45500391721725464,
+      "regions": 387,
+      "integrated_surrogate_mass": 1.0000000000000004,
+      "absolute_mass_error": 4.440892098500626e-16,
+      "base_noise_mass_with_preimage": 1.0,
+      "derivative_sign_changes": 0,
+      "root_counts_at_noise_values": {
+        "-3.0": 1,
+        "-1.0": 1,
+        "0.0": 1,
+        "1.0": 1,
+        "3.0": 1
+      },
+      "scalar_conditioning_only": true,
+      "proper_normalized_test_NLL": 1.0079965591430669,
+      "normalized_density_sample_mean": -1.241161239023138,
+      "normalized_density_sample_std": 0.8015932499081471
+    },
+    {
+      "context": 0.0,
+      "test_reported_NLL": 1.1725800037384033,
+      "true_DGP_NLL": 0.9867111444473267,
+      "regions": 387,
+      "integrated_surrogate_mass": 0.9999999999999997,
+      "absolute_mass_error": 3.3306690738754696e-16,
+      "base_noise_mass_with_preimage": 1.0,
+      "derivative_sign_changes": 0,
+      "root_counts_at_noise_values": {
+        "-3.0": 1,
+        "-1.0": 1,
+        "0.0": 1,
+        "1.0": 1,
+        "3.0": 1
+      },
+      "scalar_conditioning_only": true,
+      "proper_normalized_test_NLL": 1.1725800037384029,
+      "normalized_density_sample_mean": 0.0730507713231497,
+      "normalized_density_sample_std": 0.9892056140772097
+    },
+    {
+      "context": 2.0,
+      "test_reported_NLL": 1.4645506143569946,
+      "true_DGP_NLL": 1.3305691480636597,
+      "regions": 387,
+      "integrated_surrogate_mass": 1.0000000000000004,
+      "absolute_mass_error": 4.440892098500626e-16,
+      "base_noise_mass_with_preimage": 1.0,
+      "derivative_sign_changes": 0,
+      "root_counts_at_noise_values": {
+        "-3.0": 1,
+        "-1.0": 1,
+        "0.0": 1,
+        "1.0": 1,
+        "3.0": 1
+      },
+      "scalar_conditioning_only": true,
+      "proper_normalized_test_NLL": 1.464550614356995,
+      "normalized_density_sample_mean": 1.3612569058846349,
+      "normalized_density_sample_std": 0.9893598731861477
+    }
+  ]
+}

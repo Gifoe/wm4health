@@ -1,0 +1,11 @@
+{
+  "state": "complete",
+  "seeds": 3,
+  "new_training_runs": 0,
+  "native_forward_passes_succeeded": 3,
+  "conclusion": "Released exp10 native CNN accepts its declared input shape. Its native uncertainty term is deliberately detached from encoder and mean predictor, and its mean-only CEM ignores variance. Original linear target-KL supplies no encoder gradient; future probe argument is unused, so no future-input leakage found in that probe. These component facts are not an established new scientific gap or an end-to-end planning performance result.",
+  "source_files_sha256": {
+    "exp10\\exp10_vjepa_sigma1p0.py": "f763f84c3c1ce291efabbc6cbb66cf81ebc26ddc531f59494a2e7b45075c32af",
+    "vjepa_Yongchao.py": "54eda8b0c4a7eab89dd182ee0183102d6bf13707e158e329c292ab71066d2778"
+  }
+}

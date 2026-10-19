@@ -1,0 +1,182 @@
+[
+  {
+    "family": "lti",
+    "method": "conditional96",
+    "factual_rmse_mean": 0.5186853941025523,
+    "factual_rmse_seed_std": 0.03191514017546465,
+    "effect_rmse_mean": 1.1849975970948838,
+    "effect_rmse_seed_std": 0.06579166623831695,
+    "n_seeds": 3
+  },
+  {
+    "family": "lti",
+    "method": "compiled64",
+    "factual_rmse_mean": 0.43250876730113913,
+    "factual_rmse_seed_std": 0.08279795238076385,
+    "effect_rmse_mean": 0.927932965300796,
+    "effect_rmse_seed_std": 0.15171080779344562,
+    "n_seeds": 3
+  },
+  {
+    "family": "lti",
+    "method": "compiled64_zero_operator",
+    "factual_rmse_mean": 1.076452801624934,
+    "factual_rmse_seed_std": 0.06737956135131724,
+    "effect_rmse_mean": 2.7186066582022854,
+    "effect_rmse_seed_std": 0.2286148550235952,
+    "n_seeds": 3
+  },
+  {
+    "family": "lti",
+    "method": "compiled64_swap_operator",
+    "factual_rmse_mean": 1.2171270799202223,
+    "factual_rmse_seed_std": 0.044362556826989315,
+    "effect_rmse_mean": 3.1146529543653334,
+    "effect_rmse_seed_std": 0.07843108629509513,
+    "n_seeds": 3
+  },
+  {
+    "family": "lti",
+    "method": "conditional128",
+    "factual_rmse_mean": 0.4786695895794158,
+    "factual_rmse_seed_std": 0.09753977955063461,
+    "effect_rmse_mean": 1.1618893297790136,
+    "effect_rmse_seed_std": 0.23752510245913944,
+    "n_seeds": 3
+  },
+  {
+    "family": "lti",
+    "method": "conditional128_swap_code",
+    "factual_rmse_mean": 1.2059149635024369,
+    "factual_rmse_seed_std": 0.0742084288226616,
+    "effect_rmse_mean": 2.95276911644679,
+    "effect_rmse_seed_std": 0.07495496728809438,
+    "n_seeds": 3
+  },
+  {
+    "family": "lti",
+    "method": "native_attention64",
+    "factual_rmse_mean": 0.9348549497469018,
+    "factual_rmse_seed_std": 0.00359496264244068,
+    "effect_rmse_mean": 2.2130418724328695,
+    "effect_rmse_seed_std": 0.04237845889304907,
+    "n_seeds": 3
+  },
+  {
+    "family": "lti",
+    "method": "native_attention64_chunk32",
+    "factual_rmse_mean": 0.7739057684472451,
+    "factual_rmse_seed_std": 0.05118575772594381,
+    "effect_rmse_mean": 1.978284175443049,
+    "effect_rmse_seed_std": 0.12197394890044065,
+    "n_seeds": 3
+  },
+  {
+    "family": "lti",
+    "method": "arx_context_selected",
+    "factual_rmse_mean": 0.006395883466219651,
+    "factual_rmse_seed_std": null,
+    "effect_rmse_mean": 0.014222207753240013,
+    "effect_rmse_seed_std": null,
+    "n_seeds": 1
+  },
+  {
+    "family": "lti",
+    "method": "pretrained_native_icl",
+    "factual_rmse_mean": 0.8377827913500369,
+    "factual_rmse_seed_std": null,
+    "effect_rmse_mean": 2.3794100981516144,
+    "effect_rmse_seed_std": null,
+    "n_seeds": 1
+  },
+  {
+    "family": "wh",
+    "method": "conditional96",
+    "factual_rmse_mean": 0.7420503472676501,
+    "factual_rmse_seed_std": 0.015854748748682455,
+    "effect_rmse_mean": 1.5524231699916224,
+    "effect_rmse_seed_std": 0.09198403391810595,
+    "n_seeds": 3
+  },
+  {
+    "family": "wh",
+    "method": "compiled64",
+    "factual_rmse_mean": 0.7087644699883336,
+    "factual_rmse_seed_std": 0.04901502552257053,
+    "effect_rmse_mean": 1.5572414721827954,
+    "effect_rmse_seed_std": 0.04229325025682023,
+    "n_seeds": 3
+  },
+  {
+    "family": "wh",
+    "method": "compiled64_zero_operator",
+    "factual_rmse_mean": 1.1018485804864515,
+    "factual_rmse_seed_std": 0.07562791015436741,
+    "effect_rmse_mean": 2.348905509829314,
+    "effect_rmse_seed_std": 0.423246935120201,
+    "n_seeds": 3
+  },
+  {
+    "family": "wh",
+    "method": "compiled64_swap_operator",
+    "factual_rmse_mean": 1.19529020281819,
+    "factual_rmse_seed_std": 0.03650329385690484,
+    "effect_rmse_mean": 2.4488245735928,
+    "effect_rmse_seed_std": 0.04166492254504635,
+    "n_seeds": 3
+  },
+  {
+    "family": "wh",
+    "method": "conditional128",
+    "factual_rmse_mean": 0.7346998707701763,
+    "factual_rmse_seed_std": 0.04757183238676692,
+    "effect_rmse_mean": 1.5247088942366342,
+    "effect_rmse_seed_std": 0.04010860104707421,
+    "n_seeds": 3
+  },
+  {
+    "family": "wh",
+    "method": "conditional128_swap_code",
+    "factual_rmse_mean": 1.18620285547028,
+    "factual_rmse_seed_std": 0.03417646214002178,
+    "effect_rmse_mean": 2.3343915287146557,
+    "effect_rmse_seed_std": 0.0392199850326115,
+    "n_seeds": 3
+  },
+  {
+    "family": "wh",
+    "method": "native_attention64",
+    "factual_rmse_mean": 0.9935750648534546,
+    "factual_rmse_seed_std": 0.015597341308077236,
+    "effect_rmse_mean": 1.8020911691710353,
+    "effect_rmse_seed_std": 0.009299213791116413,
+    "n_seeds": 3
+  },
+  {
+    "family": "wh",
+    "method": "native_attention64_chunk32",
+    "factual_rmse_mean": 0.8784061044765016,
+    "factual_rmse_seed_std": 0.04302310275585512,
+    "effect_rmse_mean": 1.688486196501698,
+    "effect_rmse_seed_std": 0.059688215170802125,
+    "n_seeds": 3
+  },
+  {
+    "family": "wh",
+    "method": "arx_context_selected",
+    "factual_rmse_mean": 0.6767593959430407,
+    "factual_rmse_seed_std": null,
+    "effect_rmse_mean": 1.9537506696669773,
+    "effect_rmse_seed_std": null,
+    "n_seeds": 1
+  },
+  {
+    "family": "wh",
+    "method": "pretrained_native_icl",
+    "factual_rmse_mean": 0.9858302359934896,
+    "factual_rmse_seed_std": null,
+    "effect_rmse_mean": 1.936135105167826,
+    "effect_rmse_seed_std": null,
+    "n_seeds": 1
+  }
+]

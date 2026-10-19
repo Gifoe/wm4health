@@ -1,0 +1,17 @@
+{
+  "state": "complete",
+  "epochs": 10,
+  "updates": 15470,
+  "parameters": 462921,
+  "best_validation_mcc": 0.8407969414719997,
+  "best_epoch": 1,
+  "final_recheck": {
+    "mcc_spearman": 0.8407969414719997,
+    "reconstruction_MSE": 0.05286423861980438,
+    "max_abs_encoded_mean": 6.731322765350342
+  },
+  "seconds": 1029.3620645999981,
+  "new_gap_accepted": false,
+  "objective_achieved": false,
+  "scope": "CLOSE source/config execution: complete native A100000 trajectories/10epochs, unchanged full neural class/loss/optimizer bodies; manual Torch orchestration/nn.Module container adapter, offline; not exact Lightning launcher reproduction"
+}

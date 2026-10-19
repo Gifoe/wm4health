@@ -1,0 +1,26 @@
+# Frozen ordinary-control experiment: acquisition-policy composition
+
+## Purpose and scope
+Before inventing a world-model architecture, determine whether ordinary history modeling plus declared acquisition-policy conditioning/augmentation handles a concrete cross-system capability. This is a new controlled experiment on public observed series, not a WorldTS, Timeflies, Under-Cali or native benchmark reproduction. No novel method or unresolved gap is accepted in advance. Timeflies' currently pinned complete repository has only README,LICENSE and two figures, so a native training result cannot be claimed from it.
+
+## Data and information
+Use ETTh1's observed oil-temperature target and UCI Bike Sharing's hourly total rental count, two distinct processes. Use each series' first60% for training,next20% validation,last20% test. Standardize the target using training values only. Reindex timestamps to an hourly grid and use only windows whose96historical and24future original values exist; do not fill naturally absent hours with zero or interpolate future labels. Include only target history,synthetic observation mask,forward-filled past observed value,elapsed steps,known acquisition parameters and known calendar features. Other target-related columns and future values are excluded from model inputs. Future labels are supervised full-grid observed outcomes; future acquisition indicators are not supplied. This is a deliberately controlled context-observation task, not predicting the existence of future records or inferring latent physical truth.
+
+## Acquisition mechanism
+For a window, q=0 denotes causal MAR sampling using the last observed standardized target;q=1 denotes self-masking MNAR sampling using the current hidden standardized target. At historical step t, P(observed)=sigmoid(beta_t*clip(trigger,-3,3)),with beta in[-3,3]. The first context value is always revealed. The simulator uses hidden values only to generate MNAR masks; the forecaster receives them only if observed. q and the configured beta_t are known sensor-policy metadata and are supplied to all learned controls. A known policy does not reveal the Bernoulli random draw or the hidden value. No unknown-policy robustness claim is made.
+
+## Competing hypotheses
+H1: treating the mask as input degradation suffices. H2: causal acquisition logic or its temporal composition causes finite-data generalization failure. H3: ordinary conditioning and augmentation already resolve the practical issue. H4: apparent degradation is just a different information set or temporal distribution shift,not a dynamics-learning defect. All model comparisons must use identical query roots,actual masks,metadata and future labels within a condition. Error differences between mask conditions alone cannot establish model regret or a new gap; no Bayes oracle is available on these real series.
+
+## Ordinary controls
+One common two-layer GRU+MLP recipe,hidden width32,batch64,Adam1e-3,2000updates,three seeds2021-2023. Source arm sees one beta per historical window. Augmented arm sees piecewise beta values with segment lengths16/24/32/48,using the same beta range,mask definitions,number of updates and input channels. Both see20%fully observed histories. No new architecture is introduced. A fixed forward-fill persistence forecast and same-hour-of-day past-value forecast are parameter-free reference controls; they receive no extra information.
+
+Select checkpoints every200updates using the same fixed source-policy validation set; retain last checkpoints and all curves. Do not use compositional test outcomes or test labels to choose a checkpoint,hyperparameter,normalization or policy. Seed differences include initialization and training sampling; the original chronological raw data are shared,not independent physical data replications.
+
+## Held-out queries
+Use fixed test roots every24steps to avoid overlapping future blocks. For each q,compare constant beta,single sign reversal at historical midpoint,and sign reversal every8steps. Beta magnitudes and uniform Bernoulli variates are shared across matched schedule queries. Also evaluate fully observed histories. Store root IDs,mask inputs and calendar/labels for exact replay. These conditions may have different amounts of information; report realized observation rates and gaps. Summaries are means and sample SD across training seeds; do not manufacture independent-row confidence intervals.
+
+## Interpretation and next gate
+Ordinary augmentation helping is an existing repair,not a new method. If both ordinary recipes are healthy/no repeatable residual is isolated,do not motivate a more complex framework from this task. If they differ,first inspect optimization,actual information content and ordinary capacity/budget controls. This experiment alone cannot prove a Bayes/regret gap,a causal-physics defect or insufficiency of all world models. Native WorldTS or an explicit probabilistic state estimator should be brought in only if a concrete residual survives these controls. Do not merely restate the already-known MNAR missingness-shift problem as novelty.
+
+All numerics run on the private RTX5090server. Save code,source/data hashes,config,normalization,split boundaries,query arrays,checkpoints,curves,metrics and raw logs. Earlier sealed cycles remain unchanged.

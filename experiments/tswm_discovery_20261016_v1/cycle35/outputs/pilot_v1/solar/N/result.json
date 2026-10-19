@@ -1,0 +1,32 @@
+{
+  "dataset": "solar",
+  "arm": "N",
+  "seed": 2026351,
+  "best_step": 400,
+  "best_val_mae": 0.30165820556819367,
+  "best_metrics": {
+    "step": 400,
+    "fused_mae": 0.30165820556819367,
+    "fused_mse": 0.41645091102807924,
+    "num_mae": 0.30165820556819367,
+    "num_mse": 0.41645091102807924,
+    "latent_mae": 0.18147595519724402,
+    "num_latent_mae": 0.18147595519724402,
+    "predictor_sha256": "f85abaaafe634383554422235ff9e23dbbcc5c759262de463ce3605de611124e"
+  },
+  "seconds": 17.849731900001643,
+  "peak_allocated_bytes": 70822912,
+  "initialization": {
+    "teacher": "82033b5e6a5bdaac5383140ca2898ab6377fbbe92fa95af41bfd70e34414a6b2",
+    "predictor": "48356c97af38fc8aa172fd04bba95fa94f38b467694d25f1bcde5ca401511965",
+    "g": null,
+    "project": null
+  },
+  "best_checkpoint_sha256": "b22165dac702659a3ce8517d2fc6c520ec51e72b1f10112f67e58269b94aec82",
+  "predictions_sha256": "56ff85726de08acda60868f2ebc89c9150d60bc10890e4bf12e8b3e05764099a",
+  "trainable_parameters": 96288,
+  "last_500_relative_val_improvement": 0.0,
+  "encoder_and_decoder_unchanged": true,
+  "updates": 2000,
+  "schedule_sha256": "af27b993ff00ad3163d8437ba785bc2e48e979fbbf228c6b15e969a9fffb9765"
+}

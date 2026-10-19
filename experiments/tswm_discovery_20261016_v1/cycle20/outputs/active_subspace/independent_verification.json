@@ -1,0 +1,214 @@
+{
+  "model_hashes": 18,
+  "teacher_hashes": 18,
+  "metrics_recomputed": 72,
+  "manual_monomial_replay_max_error": 8.881784197001252e-16,
+  "metric_max_error": 1.734723475976807e-18,
+  "validation_MSE_max_error": 0.0,
+  "whitened_covariance_max_error": 2.4424906541753444e-15,
+  "output_basis_orthogonality_max_error": 1.4432899320127035e-15,
+  "rows": [
+    {
+      "key": "coupled_linear_all_outputs_2021",
+      "model_sha256": "74357125cbee2822d985f647af1350aa126f9686830d8aefdd8ba2cb5f5e6a7d",
+      "teacher_sha256": "0e6caa2853f4a1e6151c171994ec2f860b8020b5d994ae7683a0bebfdbbf586f",
+      "recomputed": {
+        "gain_accuracy": 0.507568359375,
+        "native_physical_MSE": 1.0150104893300638,
+        "current_physical_decoding_MSE": 1.0150807076281148,
+        "modulation_relative_RMSE": 1.000001574334372
+      }
+    },
+    {
+      "key": "coupled_linear_action_outputs_2021",
+      "model_sha256": "967b3a03753886653155c6f9d802ec94f70404b80a6c030420150cdbdfbad16d",
+      "teacher_sha256": "0e6caa2853f4a1e6151c171994ec2f860b8020b5d994ae7683a0bebfdbbf586f",
+      "recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.00034919723515855266,
+        "current_physical_decoding_MSE": 0.0007539168634061086,
+        "modulation_relative_RMSE": 0.0013964741506764492
+      }
+    },
+    {
+      "key": "coupled_linear_all_outputs_2022",
+      "model_sha256": "3fc17e59b20c5c26a61f2c472e7cd56ceaed0872fecbf06121741ce9aebcb023",
+      "teacher_sha256": "9efcbbd5b08844166c1bcefbb13221b9101d5bdf8bbba3c5db05cd1a0584c9b7",
+      "recomputed": {
+        "gain_accuracy": 0.5001220703125,
+        "native_physical_MSE": 1.0151207535510474,
+        "current_physical_decoding_MSE": 1.014842852967335,
+        "modulation_relative_RMSE": 0.9999968917966936
+      }
+    },
+    {
+      "key": "coupled_linear_action_outputs_2022",
+      "model_sha256": "bdf1295298ade90e3f36c95cc985188fcbeb53c1d6878c11bbeaaea8a25353d0",
+      "teacher_sha256": "9efcbbd5b08844166c1bcefbb13221b9101d5bdf8bbba3c5db05cd1a0584c9b7",
+      "recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0007881782899363918,
+        "current_physical_decoding_MSE": 0.0016518740198565264,
+        "modulation_relative_RMSE": 0.00405025027628501
+      }
+    },
+    {
+      "key": "coupled_linear_all_outputs_2023",
+      "model_sha256": "b6c1f18635ab9d435f4d309112062ecba4fc831bdb8bb5e8f0d108f4bfd13573",
+      "teacher_sha256": "ae480b5cc69ef235acc8c1af67da3bfd4aa82117583e2c6114672b725c004cdf",
+      "recomputed": {
+        "gain_accuracy": 0.50341796875,
+        "native_physical_MSE": 1.015390255109958,
+        "current_physical_decoding_MSE": 1.0151398332691808,
+        "modulation_relative_RMSE": 0.9999942693660262
+      }
+    },
+    {
+      "key": "coupled_linear_action_outputs_2023",
+      "model_sha256": "d8d8edfc68a6e0633f501f8630259178f02f9bd6d3b53443e6f9fbc0445e235e",
+      "teacher_sha256": "ae480b5cc69ef235acc8c1af67da3bfd4aa82117583e2c6114672b725c004cdf",
+      "recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.00043883461618114835,
+        "current_physical_decoding_MSE": 0.0010505901596601593,
+        "modulation_relative_RMSE": 0.0027977285843142877
+      }
+    },
+    {
+      "key": "rotating_all_outputs_2021",
+      "model_sha256": "6384aa511e99c9994a5383e05c45228d8cc1f09646ce0120372316d46a685d83",
+      "teacher_sha256": "66daf6ec58028ef42ea89b4a4c5f106e16cb706c1e16d9ad945666a031b10c66",
+      "recomputed": {
+        "gain_accuracy": 0.506103515625,
+        "native_physical_MSE": 1.0188286931895698,
+        "current_physical_decoding_MSE": 1.0166442565098586,
+        "modulation_relative_RMSE": 0.9999878953455472
+      }
+    },
+    {
+      "key": "rotating_action_outputs_2021",
+      "model_sha256": "9eb7735818d75114568e4da6d1c6ec70255d6e2dfed590d35f51e2fa0f636b03",
+      "teacher_sha256": "66daf6ec58028ef42ea89b4a4c5f106e16cb706c1e16d9ad945666a031b10c66",
+      "recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0017371924255982678,
+        "current_physical_decoding_MSE": 0.001973706955231625,
+        "modulation_relative_RMSE": 0.0033464942679494207
+      }
+    },
+    {
+      "key": "rotating_all_outputs_2022",
+      "model_sha256": "e6d3530949d585d03956ee2e4d71eeca87456fce0c22176108d63a7abd7fb1f8",
+      "teacher_sha256": "d868a46e96453fac77898b70e49658b4ccb123dfac978a43668004b1a8b2e042",
+      "recomputed": {
+        "gain_accuracy": 0.4984130859375,
+        "native_physical_MSE": 1.0279737181475972,
+        "current_physical_decoding_MSE": 1.02594976859227,
+        "modulation_relative_RMSE": 1.0000052669488726
+      }
+    },
+    {
+      "key": "rotating_action_outputs_2022",
+      "model_sha256": "a47d200da991f1e7e01bf97975ad0c13eaff9cf32491ae47bc93d15298eb5fb4",
+      "teacher_sha256": "d868a46e96453fac77898b70e49658b4ccb123dfac978a43668004b1a8b2e042",
+      "recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0013672559065780253,
+        "current_physical_decoding_MSE": 0.0015460945592034206,
+        "modulation_relative_RMSE": 0.003754328998540814
+      }
+    },
+    {
+      "key": "rotating_all_outputs_2023",
+      "model_sha256": "7fbac5046f1496b02f9488658dc084504e6d4cfc3cb845fd4ca307ea4e340f4c",
+      "teacher_sha256": "083edd2c05c5135c853c1ead4c8995ea2f49dad14cdb5d2cf0ce469c37b2b50f",
+      "recomputed": {
+        "gain_accuracy": 0.4970703125,
+        "native_physical_MSE": 1.0027344227157187,
+        "current_physical_decoding_MSE": 1.0002015208290138,
+        "modulation_relative_RMSE": 1.0000424034627893
+      }
+    },
+    {
+      "key": "rotating_action_outputs_2023",
+      "model_sha256": "1ea7020a0cdb4650c19db59b842d9769371d709847bbe80db6c4a656763a0671",
+      "teacher_sha256": "083edd2c05c5135c853c1ead4c8995ea2f49dad14cdb5d2cf0ce469c37b2b50f",
+      "recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0012111173970328494,
+        "current_physical_decoding_MSE": 0.0013714614905188278,
+        "modulation_relative_RMSE": 0.0028701701064079025
+      }
+    },
+    {
+      "key": "saturating_all_outputs_2021",
+      "model_sha256": "2db04e648f613ec5cc8e021b0fb2231e3f2a71cfa87c384c64f113ce1fca4517",
+      "teacher_sha256": "4d9f701563f1f4fcef2da1e0bc6bb271e18a410903d6f78b8d08b4ea9e41814e",
+      "recomputed": {
+        "gain_accuracy": 0.5020751953125,
+        "native_physical_MSE": 0.9855808124339013,
+        "current_physical_decoding_MSE": 0.9837173647158226,
+        "modulation_relative_RMSE": 1.0000069910619562
+      }
+    },
+    {
+      "key": "saturating_action_outputs_2021",
+      "model_sha256": "cf2784bda95add7d0116b205d1316c40aa33b5e936f1a4c220f9a275d83a607e",
+      "teacher_sha256": "4d9f701563f1f4fcef2da1e0bc6bb271e18a410903d6f78b8d08b4ea9e41814e",
+      "recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.00043731753941494387,
+        "current_physical_decoding_MSE": 0.0014605010580421298,
+        "modulation_relative_RMSE": 0.003365419615399933
+      }
+    },
+    {
+      "key": "saturating_all_outputs_2022",
+      "model_sha256": "b9b69342d0265dbf7e1986630ccbb2e722ed8cc228b665b4f3ef0264c15eef62",
+      "teacher_sha256": "6745f5625633a2218fbfb3f6b1256e1ed5197d05eb9682d3b08254060f60d22b",
+      "recomputed": {
+        "gain_accuracy": 0.5067138671875,
+        "native_physical_MSE": 0.985527236804718,
+        "current_physical_decoding_MSE": 0.9838742665522251,
+        "modulation_relative_RMSE": 1.0000015560909816
+      }
+    },
+    {
+      "key": "saturating_action_outputs_2022",
+      "model_sha256": "c54b0e22d48bb7c856e3690ec81868abfcb6b0f8029403878cc286f6197b985c",
+      "teacher_sha256": "6745f5625633a2218fbfb3f6b1256e1ed5197d05eb9682d3b08254060f60d22b",
+      "recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0004587273326487858,
+        "current_physical_decoding_MSE": 0.0010963940206711455,
+        "modulation_relative_RMSE": 0.014284943773840843
+      }
+    },
+    {
+      "key": "saturating_all_outputs_2023",
+      "model_sha256": "2f3d4a285e62746215f4b04d9597d8c3ea0edeb664ae8c5ad28b960fedb533c7",
+      "teacher_sha256": "3d0031faab2ce5aed276bcaf20f1e78dcfbfa530e0373eb8b3041532c65814c7",
+      "recomputed": {
+        "gain_accuracy": 0.4969482421875,
+        "native_physical_MSE": 0.9836630422819281,
+        "current_physical_decoding_MSE": 0.9819924147775525,
+        "modulation_relative_RMSE": 1.0000031796532072
+      }
+    },
+    {
+      "key": "saturating_action_outputs_2023",
+      "model_sha256": "403de7b34c871504bb6ee840ee6a1fa2d5a9caf3dc9a783a387915f5445f4b35",
+      "teacher_sha256": "3d0031faab2ce5aed276bcaf20f1e78dcfbfa530e0373eb8b3041532c65814c7",
+      "recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0003653196700631004,
+        "current_physical_decoding_MSE": 0.0010583689821690818,
+        "modulation_relative_RMSE": 0.002805400402692134
+      }
+    }
+  ],
+  "seconds": 1.7552128000097582,
+  "script_sha256": "c1be096b702f17388a8f3bffbcd90c4cfa3f5a3553adc61eab9cca8a1b63ab41",
+  "scope": "Own saved models, independent monomials, analytical response and test arithmetic; not novelty or independent-cohort confirmation.",
+  "pass": true
+}

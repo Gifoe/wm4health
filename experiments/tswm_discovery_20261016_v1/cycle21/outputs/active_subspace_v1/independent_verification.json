@@ -1,0 +1,280 @@
+{
+  "model_hashes": 24,
+  "teacher_hashes": 24,
+  "metrics_recomputed": 96,
+  "manual_monomial_replay_max_error": 7.216449660063518e-15,
+  "metric_max_error": 2.7755575615628914e-17,
+  "validation_MSE_max_error": 0.0,
+  "whitened_covariance_max_error": 3.552713678800501e-15,
+  "output_basis_orthogonality_max_error": 1.5543122344752192e-15,
+  "rows": [
+    {
+      "key": "coupled_linear_all_outputs_2021",
+      "model_sha256": "5715759dcccf27340e2ae9b669259712e3d2c6da7474fb1e6cc8b99e3c2331d0",
+      "teacher_sha256": "de72ea2fa37279c79c1d0f1ce2ed997d78d051553214be91acb6bc2776e86054",
+      "recomputed": {
+        "gain_accuracy": 0.5001220703125,
+        "native_physical_MSE": 1.0070272315535365,
+        "current_physical_decoding_MSE": 1.0093618267073232,
+        "modulation_relative_RMSE": 0.9999912436604182
+      }
+    },
+    {
+      "key": "coupled_linear_action_outputs_2021",
+      "model_sha256": "fd500f98517012cbd3a9cd5f117dd8bd0efeb0e0a03a2843d5e82e72d971808d",
+      "teacher_sha256": "de72ea2fa37279c79c1d0f1ce2ed997d78d051553214be91acb6bc2776e86054",
+      "recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.00031164368822044224,
+        "current_physical_decoding_MSE": 0.000708999827268018,
+        "modulation_relative_RMSE": 0.0019218613198096312
+      }
+    },
+    {
+      "key": "coupled_linear_all_outputs_2022",
+      "model_sha256": "faea41151c99bc57bc8d25b30de0fce396695887fcbcb29671e47e47faf93e50",
+      "teacher_sha256": "468450e477a95924f4898553bd17c0ba9ec4afcd17e9a16023c438b71135c314",
+      "recomputed": {
+        "gain_accuracy": 0.494140625,
+        "native_physical_MSE": 1.0039293886998866,
+        "current_physical_decoding_MSE": 1.0061637310342226,
+        "modulation_relative_RMSE": 0.9999974874537
+      }
+    },
+    {
+      "key": "coupled_linear_action_outputs_2022",
+      "model_sha256": "2671fd8efb01d8140b376d54d00baa558f831604b1d077a05249994e9bcc343d",
+      "teacher_sha256": "468450e477a95924f4898553bd17c0ba9ec4afcd17e9a16023c438b71135c314",
+      "recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0005013817440865374,
+        "current_physical_decoding_MSE": 0.0010806563177287844,
+        "modulation_relative_RMSE": 0.0018551582050467363
+      }
+    },
+    {
+      "key": "coupled_linear_all_outputs_2023",
+      "model_sha256": "e32ad8a8d30cb02b59a5134b786f8868806da0c26fd1f0a7e4966ebc84bc7c18",
+      "teacher_sha256": "2632ed55d72175e4db0a484bbe770f3bd27262e2ad1398e8757e154cf287f96e",
+      "recomputed": {
+        "gain_accuracy": 0.5030517578125,
+        "native_physical_MSE": 1.009088422782404,
+        "current_physical_decoding_MSE": 1.0114154970412996,
+        "modulation_relative_RMSE": 1.0000008894942052
+      }
+    },
+    {
+      "key": "coupled_linear_action_outputs_2023",
+      "model_sha256": "81bf361573fdf5aae7ba9e1346dcc02bd252d2181b35add310bba79a062dcc6e",
+      "teacher_sha256": "2632ed55d72175e4db0a484bbe770f3bd27262e2ad1398e8757e154cf287f96e",
+      "recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.00027025812424974005,
+        "current_physical_decoding_MSE": 0.0006187630983250084,
+        "modulation_relative_RMSE": 0.001606506235908292
+      }
+    },
+    {
+      "key": "rotating_all_outputs_2021",
+      "model_sha256": "c0068a0a606bf6c11c8f076372e9e5f0052c7e297db309494c43751e5b20e021",
+      "teacher_sha256": "e17d19a50e77c707dbde31ba2dd05b1050ad54c9ee292a6399531fb1b10bfafc",
+      "recomputed": {
+        "gain_accuracy": 0.5032958984375,
+        "native_physical_MSE": 0.8936302277116049,
+        "current_physical_decoding_MSE": 0.8941529856315631,
+        "modulation_relative_RMSE": 0.9999967318422691
+      }
+    },
+    {
+      "key": "rotating_action_outputs_2021",
+      "model_sha256": "e4e2d56c52d89b73425ba62d0c6f0172a03daef87e85dbccac4d39fa50559382",
+      "teacher_sha256": "e17d19a50e77c707dbde31ba2dd05b1050ad54c9ee292a6399531fb1b10bfafc",
+      "recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0010451181825514885,
+        "current_physical_decoding_MSE": 0.0011857650365337162,
+        "modulation_relative_RMSE": 0.003130725181065388
+      }
+    },
+    {
+      "key": "rotating_all_outputs_2022",
+      "model_sha256": "d96c90a95b8dc9620e8ea4d76569af0b071b5806b1a3192a62a3ab1fa57d6578",
+      "teacher_sha256": "5670dd26810e25bcd93caad7921af1c7d2e9ca839817092d76a2d8b7d3a26936",
+      "recomputed": {
+        "gain_accuracy": 0.50537109375,
+        "native_physical_MSE": 0.8899236158249519,
+        "current_physical_decoding_MSE": 0.8920146101086994,
+        "modulation_relative_RMSE": 1.0000159440422078
+      }
+    },
+    {
+      "key": "rotating_action_outputs_2022",
+      "model_sha256": "7326ef11d373245b220542ec84ab49083d4a75d3d539e881ee37eeee4dd68cde",
+      "teacher_sha256": "5670dd26810e25bcd93caad7921af1c7d2e9ca839817092d76a2d8b7d3a26936",
+      "recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.001100219856393774,
+        "current_physical_decoding_MSE": 0.001247900459206994,
+        "modulation_relative_RMSE": 0.004244424140163877
+      }
+    },
+    {
+      "key": "rotating_all_outputs_2023",
+      "model_sha256": "15b16a5148baf086fdb0ac83213bba12f642ca2da19c18a09006c257c8d16ff2",
+      "teacher_sha256": "3df1aadc1b94812e68b361bc6e8bd7057f87a32f33926a9e21795c4fbcda6519",
+      "recomputed": {
+        "gain_accuracy": 0.4969482421875,
+        "native_physical_MSE": 0.9138885165898125,
+        "current_physical_decoding_MSE": 0.9119638930793257,
+        "modulation_relative_RMSE": 0.999990015153305
+      }
+    },
+    {
+      "key": "rotating_action_outputs_2023",
+      "model_sha256": "ff5e99e27ac10773179e5177245b398510837988ec5a92ac40ad7e92f82afd45",
+      "teacher_sha256": "3df1aadc1b94812e68b361bc6e8bd7057f87a32f33926a9e21795c4fbcda6519",
+      "recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0011601873685909655,
+        "current_physical_decoding_MSE": 0.0013205672478917572,
+        "modulation_relative_RMSE": 0.0032988009767087284
+      }
+    },
+    {
+      "key": "saturating_all_outputs_2021",
+      "model_sha256": "3119ff22f77f47d2974f8521b8cc432ba6e2087e6281fec835fef1a9e0786b14",
+      "teacher_sha256": "74f3e5c48f9ef8eef636f1ad455f5c78c37c6fd5f658bf6bfe29f03cb5e8196f",
+      "recomputed": {
+        "gain_accuracy": 0.494873046875,
+        "native_physical_MSE": 1.0033649788151902,
+        "current_physical_decoding_MSE": 1.0037927749417555,
+        "modulation_relative_RMSE": 1.0000003190929045
+      }
+    },
+    {
+      "key": "saturating_action_outputs_2021",
+      "model_sha256": "f1f2abac578073a0955720e5cc633fb21283a063b52afdd8f81a60bfd5892928",
+      "teacher_sha256": "74f3e5c48f9ef8eef636f1ad455f5c78c37c6fd5f658bf6bfe29f03cb5e8196f",
+      "recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0015965596218837446,
+        "current_physical_decoding_MSE": 0.0008598325121827118,
+        "modulation_relative_RMSE": 0.0030635209352480376
+      }
+    },
+    {
+      "key": "saturating_all_outputs_2022",
+      "model_sha256": "6d0e06ccf99ea6658d701f58e8b842d5f851aba874dddc90ad73fb255322d156",
+      "teacher_sha256": "4861214eeccdaa2c37d1838f0570009552be2e3f2045e6e3646c4f82c8c45a3e",
+      "recomputed": {
+        "gain_accuracy": 0.5020751953125,
+        "native_physical_MSE": 0.9988732331343636,
+        "current_physical_decoding_MSE": 0.9992876359023939,
+        "modulation_relative_RMSE": 0.9999993469030173
+      }
+    },
+    {
+      "key": "saturating_action_outputs_2022",
+      "model_sha256": "b4839635d57107632dae1f559ab578c9635fd10deafef947f010a09844592513",
+      "teacher_sha256": "4861214eeccdaa2c37d1838f0570009552be2e3f2045e6e3646c4f82c8c45a3e",
+      "recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0017070144846369276,
+        "current_physical_decoding_MSE": 0.0013678078759484318,
+        "modulation_relative_RMSE": 0.004507882474963081
+      }
+    },
+    {
+      "key": "saturating_all_outputs_2023",
+      "model_sha256": "26250528b311d1db9c35946637add2290ea337a1e3f8a807343fd30926d76873",
+      "teacher_sha256": "e9a492b7f594cd32fe59b2a84eb36483a33cc648eafba6287c625b52c4ce40ad",
+      "recomputed": {
+        "gain_accuracy": 0.5032958984375,
+        "native_physical_MSE": 1.0028030337936067,
+        "current_physical_decoding_MSE": 1.002792767281765,
+        "modulation_relative_RMSE": 1.0000005235910576
+      }
+    },
+    {
+      "key": "saturating_action_outputs_2023",
+      "model_sha256": "d1763b3f7f7ac037c119e940a73ec1f13f614d17146b6e0e50b0ce822a7c4264",
+      "teacher_sha256": "e9a492b7f594cd32fe59b2a84eb36483a33cc648eafba6287c625b52c4ce40ad",
+      "recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.0016987852857875759,
+        "current_physical_decoding_MSE": 0.0009279331191604995,
+        "modulation_relative_RMSE": 0.005111739574474354
+      }
+    },
+    {
+      "key": "queueing_all_outputs_2021",
+      "model_sha256": "1a076b5f8c13bda0c4797a6864fd78127ab826eb58415ffd3068b21017d8dd72",
+      "teacher_sha256": "21c75c36ad9eae5167063a499ab19f6db4d64ad94b77740d19d21bddb69efe69",
+      "recomputed": {
+        "gain_accuracy": 0.8204345703125,
+        "native_physical_MSE": 0.4497753123125411,
+        "current_physical_decoding_MSE": 0.6284805844785257,
+        "modulation_relative_RMSE": 0.5533803624031359
+      }
+    },
+    {
+      "key": "queueing_action_outputs_2021",
+      "model_sha256": "447de5551c4a627f8363b00029e06c5e378af6a43673be4e7a23e8004df5a6a0",
+      "teacher_sha256": "21c75c36ad9eae5167063a499ab19f6db4d64ad94b77740d19d21bddb69efe69",
+      "recomputed": {
+        "gain_accuracy": 0.998291015625,
+        "native_physical_MSE": 0.06191353206394196,
+        "current_physical_decoding_MSE": 0.08361871552737069,
+        "modulation_relative_RMSE": 0.24272780377924677
+      }
+    },
+    {
+      "key": "queueing_all_outputs_2022",
+      "model_sha256": "57c1e42d9d3c1f10b60f2b45fd9d9c1c913bab81cc9ff0de5e470f1c0c6e81b0",
+      "teacher_sha256": "0cfeaaf1987098b53c5bacff48f787a36baeee85fde53e3e18530f35f06143eb",
+      "recomputed": {
+        "gain_accuracy": 0.8021240234375,
+        "native_physical_MSE": 0.438076373459429,
+        "current_physical_decoding_MSE": 0.6195920227816201,
+        "modulation_relative_RMSE": 0.5465537687119381
+      }
+    },
+    {
+      "key": "queueing_action_outputs_2022",
+      "model_sha256": "685635003ba71a7f1fc18db8c623c38132e23313b952316afaa332f5061b6bb4",
+      "teacher_sha256": "0cfeaaf1987098b53c5bacff48f787a36baeee85fde53e3e18530f35f06143eb",
+      "recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.030015579062062432,
+        "current_physical_decoding_MSE": 0.034228371375576404,
+        "modulation_relative_RMSE": 0.14098388664916683
+      }
+    },
+    {
+      "key": "queueing_all_outputs_2023",
+      "model_sha256": "34cceb128a39c32f5c731d0fd2deed3b1e1873c1dae39919bfb8109dc36584cb",
+      "teacher_sha256": "d9ecced000a3acaf861e6bba3bf902fd5f236ca3d0d0b1ebe1ef411b94fa2421",
+      "recomputed": {
+        "gain_accuracy": 0.81787109375,
+        "native_physical_MSE": 0.44750586072401405,
+        "current_physical_decoding_MSE": 0.6306121933762084,
+        "modulation_relative_RMSE": 0.5556297273501869
+      }
+    },
+    {
+      "key": "queueing_action_outputs_2023",
+      "model_sha256": "b55173f3b83d544c4472667922f416646f0df1079403484592df7f6e81a86fc8",
+      "teacher_sha256": "d9ecced000a3acaf861e6bba3bf902fd5f236ca3d0d0b1ebe1ef411b94fa2421",
+      "recomputed": {
+        "gain_accuracy": 1.0,
+        "native_physical_MSE": 0.024175581843537904,
+        "current_physical_decoding_MSE": 0.027799728221065648,
+        "modulation_relative_RMSE": 0.12875010693379438
+      }
+    }
+  ],
+  "seconds": 4.203651699994225,
+  "script_sha256": "d1deada9cb3010de02f67940bbda52f5d527490cfcd702f4b68fb0de7fd6ce44",
+  "scope": "Own saved models, independent monomials, analytical response and test arithmetic; not novelty or independent-cohort confirmation.",
+  "pass": true
+}
