@@ -1,13 +1,17 @@
-# 当前研究状态 — 2026-10-23 V7
+# 当前研究状态 — 2026-10-23 V8
 
-整体目标ACTIVE/UNACHIEVED，接受新颖方向0。主三篇既有实验与负面结果保留。本轮已进入DALI原生完整核心的实际factual transfer，不再把routing spy当作模型实验。
+总体目标ACTIVE/UNACHIEVED，接受新颖方向0。
 
-原始实际运行完成500次更新，因我们保存嵌套Optax状态的错误退出；没有有效500-step指标或模型。恢复从已验证step0开始，完整PyTree状态第1步已保存并精确读回，重复optimizer调用单列。当前发布快照状态`RUNNING_WITHOUT_TERMINAL_RECEIPT`，记录更新下界50。
+## 四步流程的严格判断
 
-[本轮训练、错误、恢复与研究判断](mechanism_edit_20261023_v1/FACTUAL_TRANSFER_PROGRESS_V1.md) · [机器状态](mechanism_edit_20261023_v1/FACTUAL_TRANSFER_PROGRESS_SNAPSHOT_V1.json) · [冻结协议](mechanism_edit_20261023_v1/FACTUAL_FIT_PROTOCOL_V1.md)。
+[三篇真实运行、失败归因与立题门槛审计](mechanism_edit_20261023_v1/THREE_PAPER_TASTE_AUDIT_V1.md)明确：目前主线是两个模型工作加一个benchmark/recipe，不能称为同任务完整复现三种SOTA。已有普通loss、推断、时间对齐和表示指标控制已推翻多条新架构动机；这些负面结果继续保留。
 
-原生跨模态目标的一条投影梯度严格为0，独立核验3072个状态梯度分量通过；目标状态也与论文描述有差别。这个事实尚未解释预测表现，不能作为新机制。所有普通修复必须单独登记，不能悄悄换基线。
+## 新增原生核心训练证据
 
-下一项是完成固定训练及独立指标复算，再判断是否达到普通factual门槛；时钟、root-state及目标差异尚未全部资格通过，暂不做全局机制失败或新方法的结论。近期先行工作已覆盖一般干预保真度、低秩编辑和动态/静态信息分离，[新颖性边界](mechanism_edit_20261023_v1/MECHANISM_NOVELTY_SCREEN_V2.md)已更新。
+DALI的实际source-based factual transfer第500步恢复checkpoint及完整状态成功保存，原运行全部12个记录点的标量与重放一致。两个family的32步MSE分别为0.6939109363和0.2103478048；普通因果lagged MTS3参考为0.2196221964和0.0824945441，尚未通过预设factual门槛。这个参考不是公平预算/效率排名。训练继续原2000-update协议，未使用干预或独立EVAL。
 
-所有旧证据保留；当前运行中的trace按日期快照发布，不覆盖旧日志。数据、环境、模型及完整二进制状态留服务器G，未同步本地。
+[独立float64指标复算](mechanism_edit_20261023_v1/factual_metric_verification_recovery_v1/VERIFIED_STEP0500_V1.json)13个指标最大差4.44e-16；[有日期的机器快照](mechanism_edit_20261023_v1/CHECKPOINT500_INTERIM_SNAPSHOT_V1.json)记录发布范围和完成步数下界，500步不是最终结果。
+
+已启动耐久post-fit校验队列，观察实际训练PID；终态后复算全部保存指标、比较投影变化、执行一次已登记的时钟诊断。它不自动重训，也不把失败解释为物理机制缺陷。时钟与root-state尚未资格完成，不能进入机制失败结论。
+
+候选仍是跨root/action的固定机制编辑语义，未建立新颖性或方法收益。先行工作与普通控制边界见审计表。所有数据、完整模型、优化器PyTree与环境留服务器G，未同步本地。

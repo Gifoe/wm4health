@@ -1,0 +1,7 @@
+# Final factual-clock diagnostic after the actual fit terminates
+
+The prior clock wrapper's Python tracer failure and subsequent native process exit0xC0000409 remain preserved. The latter launch omitted the CONDA/PATH setup used by the qualified native-core runner; no cause has been established. This diagnostic uses the same CPU platform, float32,4-thread environment and controlled library path as the known-good native-core and factual-training launchers, enables faulthandler, and runs only after the actual factual child is terminal. It does not modify the upstream source or training/selection.
+
+Load the selected completed recovery checkpoint (including step0 if selection chose it). Keep the static create/modify JIT arguments and original scan-versus-explicit-step tolerances. To ensure the planned-action change is nonvacuous on the fixed query, replace only component0 of future slots24..31 by-.8 when originally nonnegative and+.8 otherwise; this is specified before the diagnostic runs and changes each such action by at least.8. No intervention truth, selection metric or physical-parameter query is accessed.
+
+Run once with a600-second bound on this diagnostic's own child. A native termination or timeout leaves clock qualification unproven and must not be interpreted as physical model failure. Do not repeatedly retry it or change its thresholds. The factual training process is never terminated by this diagnostic. A durable post-fit queue records both actual terminal receipts and bounded diagnostic output.
