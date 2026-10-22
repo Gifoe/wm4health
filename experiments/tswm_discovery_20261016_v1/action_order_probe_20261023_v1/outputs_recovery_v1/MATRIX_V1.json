@@ -1,0 +1,40 @@
+{
+  "protocol_sha256": "bc7de1728234a296b5e92db6e3584bf43c0e65c05aef67a0dfc0bfa54c88a535",
+  "validation_data_sha256": "09d0ca3996b4460814f41fd1aee479a0ff5eb76b7322599594bd849502af7c72",
+  "models": [
+    "stock",
+    "lagged",
+    "acrkn",
+    "gru"
+  ],
+  "permutations": {
+    "identity": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "swap_outer": [
+      3,
+      1,
+      2,
+      0
+    ],
+    "swap_middle": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "reverse_blocks": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  "trajectories": 64,
+  "optimizer_updates": 0,
+  "checkpoint_reselection": false,
+  "independent_eval_accessed": false
+}

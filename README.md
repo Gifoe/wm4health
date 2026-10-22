@@ -3,6 +3,8 @@
 本仓库汇总基线复现、机制审计、失败归因及研究探索。**当前尚无通过证据与新颖性要求的最终研究方向；研究目标仍未完成。**
 
 
+**2026-10-23 V5：行动顺序假设被反证。** [四个冻结模型的顺序编辑实验与归因](experiments/tswm_discovery_20261016_v1/action_order_probe_20261023_v1/outputs_recovery_v1/experimental_results.md)；0训练，独立复核通过。新增文献边界与DALI机制编辑的可行性记录，尚无最终接受的新方向。
+
 **2026-10-23 V4：自由模拟与指标诊断已闭合。** [三篇主线的完整失败归因](experiments/tswm_discovery_20261016_v1/three_baseline_failures_20261023_v1/outputs/campaign_synthesis_v4/experimental_results.md)；C71全部评估与独立复核完成，两份原生LatentTSF的TTC诊断完成。普通控制与已知指标问题不足以支撑新架构，最终接受新方向仍为0。
 
 **2026-10-23 V3：冻结组合归因。** [同一AE与预测器的六路径审计](experiments/tswm_discovery_20261016_v1/three_baseline_failures_20261023_v1/outputs/transport_evidence_v1/INTERPRETATION_V1.md)；0更新，保留跨时段重构误差和有符号误差项，不把剩余差距直接归因到新转移机制。

@@ -1,0 +1,30 @@
+{
+  "status": "PUBLIC_SOURCE_AND_RELEASES_VERIFIED_NATIVE_EXECUTION_PENDING",
+  "utc": "2026-10-22T20:03:52.214257+00:00",
+  "source_repo": "frankroeder/DALI",
+  "source_revision": "5ca393468defffe79e4e3537ba9766f6d31b510b",
+  "tree_files": 124,
+  "release_assets": [],
+  "checkpoint_named_files": [],
+  "model_executed": false,
+  "local_payload_sync": false,
+  "prior_server_fetch": "terminal read timeout before summary; original partial folder preserved",
+  "runtime": {
+    "status": "RUNTIME_INVENTORY_ONLY",
+    "utc": "2026-10-22T20:03:56.059694+00:00",
+    "packages": {
+      "jax": null,
+      "jaxlib": null,
+      "mujoco": null,
+      "dm-control": null,
+      "gymnasium": null,
+      "torch": "2.8.0+cu128"
+    },
+    "wsl_inventory": {
+      "error": "FileNotFoundError"
+    },
+    "model_executed": false
+  },
+  "readme_source_sha256": "c22a765c50547e4e7e6bf010d1a8ec465b84c65c7c8e7c2a6fe40a2a60706cef",
+  "limitations": "No located checkpoint in this tree/releases/README is not proof none exists elsewhere; no native model was executed."
+}

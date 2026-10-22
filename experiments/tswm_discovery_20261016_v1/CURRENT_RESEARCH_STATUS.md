@@ -1,25 +1,21 @@
-# 当前研究状态 — 2026-10-23 V4
+# 当前研究状态 — 2026-10-23 V5
 
-总体目标ACTIVE/UNACHIEVED，最终接受新颖方向0。当前聚焦的三篇为WorldTS、LatentTSF和TSWM recipe；它们不能无条件称为三种SOTA或制作同输入统一排名。
+总体研究目标ACTIVE/UNACHIEVED，最终接受新颖方向0。三个主paper仍为WorldTS、LatentTSF与TSWM recipe；此前30个新训练、24个dense-model审计和C71完整评估的结论保持。
 
-## 本轮归因已闭合
+## 新的反证实验已完成
 
-30个新训练、24个dense-model审计和官方decoded/frozen-composition归因保持原计数。预注册Val门槛要求停止当前Electricity新增架构路线，18个条件扩模分支实际执行0。Test残差保留，不将其谎称完整解释或据此继续调参。
+从既有C88响应残差提出“时间聚合是否看不见行动顺序”的假设。四个冻结模型、64条原开发轨迹、三个固定块顺序编辑加identity，0训练。实际原生MTS3抽象包含时间戳：重排行动可改变表示约0.275–0.702，而一起重排行动/时间戳只产生约1.79e−7数值差。四个基础预测均与旧数组逐位相同。全部24个非identity格都好于无响应参照，否定了朴素的顺序盲假设。
 
-[三篇失败与研究判断](three_baseline_failures_20261023_v1/outputs/campaign_synthesis_v4/experimental_results.md) · [七项研究交付](three_baseline_failures_20261023_v1/outputs/campaign_synthesis_v4) · [冻结组合归因](three_baseline_failures_20261023_v1/outputs/transport_evidence_v1/INTERPRETATION_V1.md)。
+[完整结果与归因](action_order_probe_20261023_v1/outputs_recovery_v1/experimental_results.md) · [256个独立指标检查](action_order_probe_20261023_v1/outputs_recovery_v1/VERIFICATION_V1.json) · [冻结协议](action_order_probe_20261023_v1/PROTOCOL.md)。第一次模拟前缀校验失败和数值接续修复独立保存，没有重训、换动作、调门槛或打开reserved EVAL。
 
-## C71旧评估已完成
+剩余行动响应误差不等于一个新的信息瓶颈；一颗seed、1000原始更新和开发数据不足以唯一归因。普通时间对齐修复已解决的anticipation问题不重新立项。原Electricity、spring和timing方法路线保持关闭。
 
-三颗原预算seed的12个神经评估臂与3个经典控制全部完成，独立复核通过。1000步图搜索显著好于100步，但history-VAR2的H50平均MSE仍低于每颗native/真实图特权seed。reserved EVAL未打开，不支持新增架构。旧RUNNING快照只是其当时状态。
+## 最近文献与下一候选
 
-[C71最终报告](cycle71/outputs/free_simulation_closure_20261023_v1/experimental_results.md) · [全部独立复核](cycle71/outputs/free_simulation_closure_20261023_v1/VERIFICATION71.json)。
+[15项检索、10项重点来源](action_order_probe_20261023_v1/literature_search/papers.md)确认：条件行动激励、干预保真、支持相关分歧、order-aware压缩已有很近的研究。泛称“world model不确定性”或添加signature没有直接新颖性。
 
-## 指标诊断已完成
+保留一个待资格检查的问题：**同一latent context编辑，能否在不同初始状态和后续行动下，由一个固定的真实动力学参数变化解释？** 它来自之前未执行的DALI线索，不是本轮已证明的失败。需要先有准确的原生模型、初始状态保真和跨query固定机制测试，并排除普通manifold/projection/deep-conditioning控制。
 
-两份原生H96模型，0更新。平移潜态原点后物理预测最大差0，TTC和打乱时间TTC却可接近1。1160个scalar独立复核最大差1.56e−15。它说明单个几何分数不足以认证动力学，属于已知数学问题，未建立新方法、完整论文geometry表复现或创新方向。
+DALI官方pin5ca393468defffe79e4e3537ba9766f6d31b510b已核查，当前tree/release未找到checkpoint文件或发布资产；既有服务器runtime没有JAX/JAXlib/MuJoCo/DM-Control，也没有WSL可执行文件。原生训练尚未运行，这些是可行性准备事实，不是模型失败或最终阻塞。[机器可读资格记录](action_order_probe_20261023_v1/DALI_FEASIBILITY_CURATED_V1.json)。
 
-[公式、采样和完整结果](three_baseline_failures_20261023_v1/metric_validity_v1/outputs/experimental_results.md)。
-
-## 保存与研究门槛
-
-保留全部旧证据，纠正当前入口；只发布紧凑代码/config/曲线/指标/报告。原始数据、权重、状态库、预测及长日志留服务器G数据盘，未同步本地。停止当前Electricity/spring案例追加训练，后续候选必须有独立可观测能力残差、现有方法边界与held-out最小方法实证。本轮未找到满足这些要求的最终方向。
+只发布紧凑源码、配置、错误凭据、指标及研究报告；原数据、状态、预测与权重留服务器G数据盘，未同步本地。当前没有得到满足新颖性和最小方法验证要求的最终方向。
