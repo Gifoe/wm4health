@@ -1,0 +1,66 @@
+{
+  "protocol_sha256": "542fea6505af476e088fafc0ef965f15bfec32b32a37f682dd17698027d3e497",
+  "source_revision": "5ca393468defffe79e4e3537ba9766f6d31b510b",
+  "seed": 202610231,
+  "updates": 2000,
+  "batch": 1,
+  "length": 64,
+  "validation_steps": [
+    0,
+    500,
+    1000,
+    2000
+  ],
+  "monte_carlo_draws": 4,
+  "data": {
+    "train": {
+      "split": "train",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle88\\train_plan88_v1.npz",
+      "sha256": "db5a105eac43918e31d9d6001a6f54e8ae6fd341e02890661d6649159f0b0a0a",
+      "trajectories": 512,
+      "observations_shape": [
+        512,
+        193,
+        16
+      ],
+      "systems_per_family": 32,
+      "seed": 2026881,
+      "state_abs_max": 1.7332800972229718
+    },
+    "val": {
+      "split": "val",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\cycle88\\val_plan88_v1.npz",
+      "sha256": "09d0ca3996b4460814f41fd1aee479a0ff5eb76b7322599594bd849502af7c72",
+      "trajectories": 64,
+      "observations_shape": [
+        64,
+        193,
+        16
+      ],
+      "systems_per_family": 8,
+      "seed": 2026882,
+      "state_abs_max": 1.9160310722444944
+    }
+  },
+  "ordinary_reference": [
+    {
+      "family": 0,
+      "mse": 0.2196221963968128,
+      "persistence_mse": 3.9452796918340027,
+      "persistence_ratio": 0.055667079028995085
+    },
+    {
+      "family": 1,
+      "mse": 0.08249454409815371,
+      "persistence_mse": 0.9321649596095085,
+      "persistence_ratio": 0.08849779563985256
+    }
+  ],
+  "scientific_fits": 1,
+  "original_incomplete_optimizer_calls": 500,
+  "replayed_prefix_calls": 500,
+  "recovery_sha256": "f773928c467f75c1095b7edc7d9ac0f43e36b005e6f7f6f4e374e221e71f6dd8",
+  "paper_reproduction": false,
+  "qualification_weights_reused": false,
+  "intervention_or_eval_accessed": false
+}

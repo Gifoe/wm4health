@@ -1,0 +1,6 @@
+{
+  "exception_type": "ValueError",
+  "exception": "setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (3,) + inhomogeneous part.",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\tswm_discovery_20261016_v1\\mechanism_edit_20261023_v1\\scripts\\train_factual_native_v1.py\", line 61, in <module>\n    with ck.open('xb') as f:np.savez_compressed(f,**{k:np.asarray(x) for k,x in variables.items()})\n  File \"D:\\tswm_discovery_20261016_v1\\mechanism_edit_20261023_v1\\scripts\\train_factual_native_v1.py\", line 61, in <dictcomp>\n    with ck.open('xb') as f:np.savez_compressed(f,**{k:np.asarray(x) for k,x in variables.items()})\nValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (3,) + inhomogeneous part.\n",
+  "status": "NATIVE_FACTUAL_TRANSFER_INCOMPLETE"
+}

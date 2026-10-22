@@ -1,0 +1,41 @@
+{
+  "utc": "2026-10-22T21:27:34.887859+00:00",
+  "original_incomplete_optimizer_calls": 500,
+  "original_terminal": {
+    "pid": 9852,
+    "exit_code": 1,
+    "utc": "2026-10-22T21:18:49.887460+00:00",
+    "log_sha256": "bac98675e9b7481f25cbb8f23252c3e0d5db1f7f2d2bd6bc11c24c3b8b9b3959"
+  },
+  "recovery_completed_update_lower_bound": 50,
+  "recovery_terminal": null,
+  "recovery_status": "RUNNING_WITHOUT_TERMINAL_RECEIPT",
+  "prefix_replay_comparisons": [
+    {
+      "utc": "2026-10-22T21:24:32.150372+00:00",
+      "stage": "original_prefix_replay_compared",
+      "step": 1,
+      "max_scalar_difference": 0.0
+    },
+    {
+      "utc": "2026-10-22T21:26:40.069395+00:00",
+      "stage": "original_prefix_replay_compared",
+      "step": 2,
+      "max_scalar_difference": 0.0
+    },
+    {
+      "utc": "2026-10-22T21:27:27.747334+00:00",
+      "stage": "original_prefix_replay_compared",
+      "step": 50,
+      "max_scalar_difference": 0.0
+    }
+  ],
+  "full_state_roundtrip_verified_steps": [
+    0,
+    1
+  ],
+  "scientific_completed_runs": 0,
+  "intervention_queries_evaluated": false,
+  "mechanism_clock_qualified": false,
+  "accepted_final_directions": 0
+}

@@ -1,0 +1,13 @@
+# Adversarial literature screen, 2026-10-23
+
+These are verified primary-source boundaries, not newly reproduced model results. No evidence from an abstract is used as proof that a particular method solves our candidate setting.
+
+| Verified current work | What it already covers | Consequence for our candidate |
+| --- | --- | --- |
+| [The Intervention Gap in Latent World Models, v1,2026-08-30](https://arxiv.org/abs/2608.29998v1) | Native open-loop intervention fidelity, capture-first attribution, task-direction and gain errors, support-dependent uncertainty diagnostics | A new generic audit saying good factual/reward fit does not ensure intervention fidelity is already covered. A new perturbation plot or rotation/gain correction is insufficient. |
+| [Low-Rank Dynamics-Effective Latent Carriers, v4,2026-09-07](https://arxiv.org/abs/2608.15156v4) | One-shot hidden-state patches that sustain a bounded edited rollout; specificity controls; explicitly avoids claiming a closed low-dimensional state | Low-rank editing or autonomous persistence alone is not new. A fixed global transition-mechanism edit must be distinguished from local velocity/state edits, including its required supervision. The older search snippet describedv1;v4 is the verified current version. |
+| [LRC-JEPA, v1,2026-09-28](https://arxiv.org/abs/2609.34375v1) | Predictive dynamic latent versus residual visual-context routing, with representation/intervention analyses | A generic dynamic-versus-static context disentanglement proposal has close current prior art. Visual nuisance context is not automatically a physical dynamics parameter; establish the difference rather than claim this paper misses it. |
+
+Together with [interventionally consistent surrogates](https://papers.nips.cc/paper_files/paper/2024/hash/26b8e3dc3a21fcd660d80c63b767f324-Abstract-Conference.html), these works rule out broad novelty claims based on intervention consistency, low-rank patches or separated context alone. The residual candidate is narrower: after factual competence and physical root-state qualification, does an in-support inferred context edit admit one fixed physical parameter change across held-out roots and planned controls? This is still a question to test, not an accepted gap or method. Ordinary explicit-parameter fitting, context projection and root-state transport could make it uninteresting.
+
+No new model or dataset was downloaded for this screen. The original three-paper audit and the DALI factual transfer remain distinct. Source-code defects and our harness failures are tracked separately from claims about trained-model dynamics.

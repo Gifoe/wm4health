@@ -1,0 +1,36 @@
+{
+  "status": "NATIVE_CROSSMODAL_PROJECTION_GRADIENT_ROUTE_EXECUTED",
+  "utc": "2026-10-22T21:14:07.641786+00:00",
+  "source_revision": "5ca393468defffe79e4e3537ba9766f6d31b510b",
+  "source_files_unchanged": true,
+  "fixture_shapes": {
+    "context": [
+      2,
+      8
+    ],
+    "wm_state": [
+      2,
+      1536
+    ]
+  },
+  "loss": 5.148248195648193,
+  "forward_projection_gradient_maxima": {
+    "wm/ctx_enc/recon_wm/bias": 0.0,
+    "wm/ctx_enc/recon_wm/kernel": 0.0
+  },
+  "reverse_projection_gradient_maxima": {
+    "wm/ctx_enc/recon_ctxc/kernel": 0.7852059006690979,
+    "wm/ctx_enc/recon_ctxc/norm/bias": 0.6052189469337463,
+    "wm/ctx_enc/recon_ctxc/norm/scale": 1.0458354949951172
+  },
+  "context_gradient_max": 0.600089430809021,
+  "wm_state_gradient_max": 0.004952800460159779,
+  "optimizer_updates": 0,
+  "scientific_fits": 0,
+  "trained_checkpoint_used": false,
+  "forecaster_failure_explained": false,
+  "physical_edit_evaluated": false,
+  "payload_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\mechanism_edit_20261023_v1\\crossmodal_gradient_contract_v1\\native_loss_gradients_v1.npz",
+  "payload_sha256": "e390275f2a8d71879ab221c173a5f82109aa027a38d80ed19313a68252dbf399",
+  "protocol_sha256": "568b37dc20de558d67c03315a014eb3869fe2fa518090df333dd8da31eae6297"
+}

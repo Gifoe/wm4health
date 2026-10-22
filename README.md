@@ -3,6 +3,8 @@
 本仓库汇总基线复现、机制审计、失败归因及研究探索。**当前尚无通过证据与新颖性要求的最终研究方向；研究目标仍未完成。**
 
 
+**2026-10-23 V7：原生训练失败已归因并恢复。** [实际factual训练、嵌套状态保存错误与恢复记录](experiments/tswm_discovery_20261016_v1/mechanism_edit_20261023_v1/FACTUAL_TRANSFER_PROGRESS_V1.md)。完整模型正在执行固定训练，重算前缀单列；原生跨模态投影的零梯度已独立核验，尚无物理机制失败或新方法结论。
+
 **2026-10-23 V6：原生模型执行与机制编辑协议已核验。** [DALI候选的实际执行、失败归因与训练状态](experiments/tswm_discovery_20261016_v1/mechanism_edit_20261023_v1/experimental_results.md)；5个原生记录入口、18个路由case、2754项独立检查，原生完整WorldModel核心3次丢弃资格更新通过。一个2000-update factual transfer已经启动，尚无最终新颖方向。
 
 **2026-10-23 V5：行动顺序假设被反证。** [四个冻结模型的顺序编辑实验与归因](experiments/tswm_discovery_20261016_v1/action_order_probe_20261023_v1/outputs_recovery_v1/experimental_results.md)；0训练，独立复核通过。新增文献边界与DALI机制编辑的可行性记录，尚无最终接受的新方向。
