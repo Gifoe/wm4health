@@ -1,0 +1,5 @@
+# Follow-up to the preserved CPU fingerprint mismatch
+
+The original CPU vectors-only run completed. All six parameter/label fingerprints matched; all three simulated-state fingerprints differed. Eighteen independent DOP853 trajectories agreed within 4.821e-5, below the frozen 0.005 oracle threshold. A difference of aggregate sums cannot establish pointwise equality with unavailable source reference arrays.
+
+Before interpreting this source-reference mismatch, run the same unchanged generator on the already qualified Torch2.8/CUDA runtime and RTX5090, once per original train/test/OOD configuration. Save vectors separately, compare their complete state arrays with the CPU arrays and record the original source fingerprints. Retain the 0.005 discrepancy threshold; do not broaden it. Record CUDA hardware/runtime and renderer module availability. This is a three-call simulator control, with zero learned-model calls or training. No old result or vector file is overwritten. Both renderer absence and residual numeric mismatch remain engineering issues, not a research idea.

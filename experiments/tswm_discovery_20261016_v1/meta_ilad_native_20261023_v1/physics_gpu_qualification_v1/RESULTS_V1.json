@@ -1,0 +1,251 @@
+{
+  "status": "GPU_SIMULATOR_CONTROL_CLOSED_RENDERER_UNQUALIFIED",
+  "utc": "2026-10-22T23:02:59.692521+00:00",
+  "runtime": {
+    "python": "3.10.20",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "numpy": "1.26.4",
+    "renderer_modules": {
+      "kaolin": false,
+      "gradsim": false
+    }
+  },
+  "splits": [
+    {
+      "split": "train",
+      "checks": {
+        "xt": {
+          "generated": {
+            "shape": [
+              9000,
+              60,
+              2
+            ],
+            "dtype": "torch.float32",
+            "sha256": "772c71b89a65726e363010683179dc459d38d1a653cf4db21cc7561d8667c4b3",
+            "sum": -38908.70262628794
+          },
+          "source_reference": {
+            "shape": [
+              9000,
+              60,
+              2
+            ],
+            "dtype": "torch.float32",
+            "sha256": "5fde51e3e3caab11583b4a4cba850195c02cae4a6311a3130e52d5d1f41c4735",
+            "sum": -38908.73031581193
+          },
+          "source_exact_match": false,
+          "cpu_gpu_max_absolute_error": 1.1920928955078125e-06
+        },
+        "label": {
+          "generated": {
+            "shape": [
+              9000,
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "c026bf906eb729ec0d37b8eb4b21d4c2bf3643b607e94e1d2d8385397b382be1",
+            "sum": 670500.0
+          },
+          "source_reference": {
+            "shape": [
+              9000,
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "c026bf906eb729ec0d37b8eb4b21d4c2bf3643b607e94e1d2d8385397b382be1",
+            "sum": 670500.0
+          },
+          "source_exact_match": true,
+          "cpu_gpu_max_absolute_error": 0.0
+        },
+        "params": {
+          "generated": {
+            "shape": [
+              9000,
+              2
+            ],
+            "dtype": "torch.float32",
+            "sha256": "ad92999b0b2c7d706cd953b8361c9ded869e86f534f1fa731ed79746b020c58f",
+            "sum": 32859.856917858124
+          },
+          "source_reference": {
+            "shape": [
+              9000,
+              2
+            ],
+            "dtype": "torch.float32",
+            "sha256": "ad92999b0b2c7d706cd953b8361c9ded869e86f534f1fa731ed79746b020c58f",
+            "sum": 32859.856917858124
+          },
+          "source_exact_match": true,
+          "cpu_gpu_max_absolute_error": 0.0
+        }
+      },
+      "native_existing_keys_all_match": false,
+      "payload_sha256": "83104c0af736bea2a6128062409cf440dd994553b631a9e76576983b2064bcd8",
+      "complete_model_input": false
+    },
+    {
+      "split": "test",
+      "checks": {
+        "xt": {
+          "generated": {
+            "shape": [
+              3000,
+              60,
+              2
+            ],
+            "dtype": "torch.float32",
+            "sha256": "80f19758ff2f8a18d3a3f73694f4922c88f7bb84e418cda21ea7efb4541aca7f",
+            "sum": -12501.808187563554
+          },
+          "source_reference": {
+            "shape": [
+              3000,
+              60,
+              2
+            ],
+            "dtype": "torch.float32",
+            "sha256": "eabb22cd5cb9ce7ad03224838ed283d2f8b6f0f117c0204b1fae567316a62c4d",
+            "sum": -12501.81752900465
+          },
+          "source_exact_match": false,
+          "cpu_gpu_max_absolute_error": 9.5367431640625e-07
+        },
+        "label": {
+          "generated": {
+            "shape": [
+              3000,
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "0d2008146b976a669d1471140cf5a8da81252d00510c8c4e1b46818d1282fbe8",
+            "sum": 111000.0
+          },
+          "source_reference": {
+            "shape": [
+              3000,
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "0d2008146b976a669d1471140cf5a8da81252d00510c8c4e1b46818d1282fbe8",
+            "sum": 111000.0
+          },
+          "source_exact_match": true,
+          "cpu_gpu_max_absolute_error": 0.0
+        },
+        "params": {
+          "generated": {
+            "shape": [
+              3000,
+              2
+            ],
+            "dtype": "torch.float32",
+            "sha256": "a7361b94922306584b9db4288bdc04c817db8e8f51ccf87167211f798ff69c11",
+            "sum": 10946.226201057434
+          },
+          "source_reference": {
+            "shape": [
+              3000,
+              2
+            ],
+            "dtype": "torch.float32",
+            "sha256": "a7361b94922306584b9db4288bdc04c817db8e8f51ccf87167211f798ff69c11",
+            "sum": 10946.226201057434
+          },
+          "source_exact_match": true,
+          "cpu_gpu_max_absolute_error": 0.0
+        }
+      },
+      "native_existing_keys_all_match": false,
+      "payload_sha256": "4ad3166621d2c001ba3a32402e89d4decd8ee3d76d128bd24095541b965ecd1e",
+      "complete_model_input": false
+    },
+    {
+      "split": "ood",
+      "checks": {
+        "xt": {
+          "generated": {
+            "shape": [
+              4000,
+              60,
+              2
+            ],
+            "dtype": "torch.float32",
+            "sha256": "8e060be1ac8b9e47e4fe6a621853212f0514fc68ed35578149473e60dd7517a4",
+            "sum": -17643.06188468542
+          },
+          "source_reference": {
+            "shape": [
+              4000,
+              60,
+              2
+            ],
+            "dtype": "torch.float32",
+            "sha256": "b00fa0a1dd32f7592df65d7f404129be35bebb38c35bbcc4967752599fcdafff",
+            "sum": -17643.07228467893
+          },
+          "source_exact_match": false,
+          "cpu_gpu_max_absolute_error": 1.1920928955078125e-06
+        },
+        "label": {
+          "generated": {
+            "shape": [
+              4000,
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "899abb95bdd6225cda7638cb0bb4d7d2b80059d48d7a2224249f992ea605cb82",
+            "sum": 198000.0
+          },
+          "source_reference": {
+            "shape": [
+              4000,
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "899abb95bdd6225cda7638cb0bb4d7d2b80059d48d7a2224249f992ea605cb82",
+            "sum": 198000.0
+          },
+          "source_exact_match": true,
+          "cpu_gpu_max_absolute_error": 0.0
+        },
+        "params": {
+          "generated": {
+            "shape": [
+              4000,
+              2
+            ],
+            "dtype": "torch.float32",
+            "sha256": "f5f19b34d1ec8e8b032b22ce9e1f45c0b0889f2ea65223f4869b0ab084fb5574",
+            "sum": 14677.505791187286
+          },
+          "source_reference": {
+            "shape": [
+              4000,
+              2
+            ],
+            "dtype": "torch.float32",
+            "sha256": "f5f19b34d1ec8e8b032b22ce9e1f45c0b0889f2ea65223f4869b0ab084fb5574",
+            "sum": 14677.505791187286
+          },
+          "source_exact_match": true,
+          "cpu_gpu_max_absolute_error": 0.0
+        }
+      },
+      "native_existing_keys_all_match": false,
+      "payload_sha256": "12a2ac0478a3e7c17bbf0ad3e06ae0716abefa96127fd7305578690442913d2c",
+      "complete_model_input": false
+    }
+  ],
+  "source_revision": "3d47140f18262628d252858c3efdfe2ad1e21a86",
+  "native_simulator_calls": 3,
+  "learned_model_evaluations": 0,
+  "new_fits": 0,
+  "rendered_model_inputs_available": false,
+  "local_payload_sync": false
+}
