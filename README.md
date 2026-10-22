@@ -3,6 +3,8 @@
 本仓库汇总基线复现、机制审计、失败归因及研究探索。**当前尚无通过证据与新颖性要求的最终研究方向；研究目标仍未完成。**
 
 
+**2026-10-23 V4：自由模拟与指标诊断已闭合。** [三篇主线的完整失败归因](experiments/tswm_discovery_20261016_v1/three_baseline_failures_20261023_v1/outputs/campaign_synthesis_v4/experimental_results.md)；C71全部评估与独立复核完成，两份原生LatentTSF的TTC诊断完成。普通控制与已知指标问题不足以支撑新架构，最终接受新方向仍为0。
+
 **2026-10-23 V3：冻结组合归因。** [同一AE与预测器的六路径审计](experiments/tswm_discovery_20261016_v1/three_baseline_failures_20261023_v1/outputs/transport_evidence_v1/INTERPRETATION_V1.md)；0更新，保留跨时段重构误差和有符号误差项，不把剩余差距直接归因到新转移机制。
 
 **2026-10-23 V2：decoded-loss归因闭合。** [六个官方现有损失控制、完整Val与Test残差](experiments/tswm_discovery_20261016_v1/three_baseline_failures_20261023_v1/outputs/decoded_evidence_v1/experimental_results.md) · [近期文献重合与淘汰依据](experiments/tswm_discovery_20261016_v1/three_baseline_failures_20261023_v1/NOVELTY_SCREEN_20261023_V2.md)。按预先Val规则停止本案扩模；Test差距仍保留，通用新方向尚未确立。

@@ -1,0 +1,69 @@
+{
+  "status": "TTC_FORMULA_AND_ALL_NULLS_INDEPENDENTLY_VERIFIED",
+  "utc": "2026-10-22T19:45:08.184944+00:00",
+  "independent_implementation": "torch.float64 F.cosine_similarity CPU, worker used numpy",
+  "checks": [
+    {
+      "dataset": "ETTh1",
+      "bank": "observed_encoding",
+      "shape": [
+        1,
+        2880,
+        32
+      ],
+      "pairs": 2879,
+      "all_32_permutations_regenerated": true,
+      "centered_offset_range": 0.0
+    },
+    {
+      "dataset": "ETTh1",
+      "bank": "predicted_latent",
+      "shape": [
+        32,
+        96,
+        32
+      ],
+      "pairs": 3040,
+      "all_32_permutations_regenerated": true,
+      "centered_offset_range": 0.0
+    },
+    {
+      "dataset": "Electricity",
+      "bank": "observed_encoding",
+      "shape": [
+        1,
+        2632,
+        512
+      ],
+      "pairs": 2631,
+      "all_32_permutations_regenerated": true,
+      "centered_offset_range": 0.0
+    },
+    {
+      "dataset": "Electricity",
+      "bank": "predicted_latent",
+      "shape": [
+        32,
+        96,
+        512
+      ],
+      "pairs": 3040,
+      "all_32_permutations_regenerated": true,
+      "centered_offset_range": 1.1102230246251565e-16
+    }
+  ],
+  "scalar_checks": 1160,
+  "max_scalar_error": 1.5543122344752192e-15,
+  "results_sha256": "5ab6a1a1010a11b4ce9d3d0448fc184728d2f88ed372ed99261e2c189f96e412",
+  "protocol_sha256": "ea24d5f10618d94b25db98e575645a684341a2dd997fadc7dd4fc206551bcdaa",
+  "terminal_receipt": {
+    "pid": 18944,
+    "exit_code": 0,
+    "utc": "2026-10-22T19:42:50.329877+00:00",
+    "log_sha256": "f1b6ec576e132f36f0b3a4edc762cb0d15e93f29eb9e5ccceaeabc2c9e48c616"
+  },
+  "optimizer_updates": 0,
+  "learned_weights_unchanged": true,
+  "raw_payload_local_sync": false,
+  "accepted_final_directions": 0
+}

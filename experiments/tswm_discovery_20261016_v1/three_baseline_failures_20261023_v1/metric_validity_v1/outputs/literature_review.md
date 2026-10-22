@@ -1,0 +1,3 @@
+# Metric and prior-art boundary
+
+[LatentTSF v2, Sec5.6/AppG](https://arxiv.org/html/2602.00297v2) defines TTC using consecutive-state cosine. This probe reimplements that formula with an explicit epsilon and sampling contract; it does not reproduce the paper geometry tables. The pinned source search did not locate the dedicated geometry entry point. [Kornblith et al., ICML2019](https://proceedings.mlr.press/v97/kornblith19a.html) discusses representation-invariance choices and limitations of arbitrary invertible-linear invariance. Translation sensitivity and centering are established mathematical issues, not an accepted novel method here.

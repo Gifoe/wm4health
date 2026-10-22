@@ -1,0 +1,1235 @@
+{
+  "status": "C71_FULL_DEVELOPMENT_ASSESSMENT_INDEPENDENTLY_VERIFIED",
+  "utc": "2026-10-22T19:25:01.666652+00:00",
+  "assessment_sha256": "2c2c93e07e866d62dfb4f36542ca0bff36fa100dd880f209a104b6a4caeaf23e",
+  "terminal_receipt": {
+    "pid": 34204,
+    "exit_code": 0,
+    "utc": "2026-10-22T19:08:42.074072+00:00",
+    "log_sha256": "7f4cbe3babc42219d5992fb55f9e92e4a1a5f502739bf5fd6ec1e66cd88f8677"
+  },
+  "protocol_sha256": "261b702e630543728475a187c13f110b1a97a6bd2ae9af66089db35a1a0299c3",
+  "calibration_sha256": "01196c84f8982b4e70002c60e793079ed79a8cf2a958a5c03fe4b61cb5729dc0",
+  "campaign_sha256": "85f56020c3a85dcb40b759eb5a29cd182473ca33d5e8e5010792d976dfdeb94d",
+  "source_revision": "f830c6aa00a8c425b1d9ab0d612733f297e56898",
+  "source_repo": "FerranAlet/modular-metalearning",
+  "training_module_updates": 96000,
+  "training_proposal_updates": 96000,
+  "evaluation_optimizer_updates": 0,
+  "ordinary_neural_arms": 9,
+  "privileged_diagnostic_arms": 3,
+  "classical_controls": 3,
+  "development_trajectories": 256,
+  "reserved_eval_rows_accessed": 0,
+  "scalar_checks": 264,
+  "max_scalar_error": 3.0531133177191805e-16,
+  "table": [
+    {
+      "seed": 2026711,
+      "arm": "encoder_argmax",
+      "privileged": false,
+      "horizon": 1,
+      "prefix_mse": 1.0926583588109192e-05,
+      "prefix_mae": 0.0013712449365426431,
+      "endpoint_mse": 1.0926583588109192e-05,
+      "coordinate_mse": [
+        1.0750516569907458e-08,
+        1.4106830355762008e-08,
+        2.0848883031581535e-05,
+        2.283259397392956e-05
+      ]
+    },
+    {
+      "seed": 2026711,
+      "arm": "encoder_argmax",
+      "privileged": false,
+      "horizon": 10,
+      "prefix_mse": 0.0004263053755073338,
+      "prefix_mae": 0.008213120731940814,
+      "endpoint_mse": 0.001103421508472403,
+      "coordinate_mse": [
+        1.5047855879266726e-05,
+        1.644396518019099e-05,
+        0.0008020157877098562,
+        0.0008717138932600217
+      ]
+    },
+    {
+      "seed": 2026711,
+      "arm": "encoder_argmax",
+      "privileged": false,
+      "horizon": 25,
+      "prefix_mse": 0.0022640511376197797,
+      "prefix_mae": 0.020934881301174702,
+      "endpoint_mse": 0.005994994373393611,
+      "coordinate_mse": [
+        0.0004572605407901073,
+        0.0004937997831337189,
+        0.0038999737224493973,
+        0.004205170504105894
+      ]
+    },
+    {
+      "seed": 2026711,
+      "arm": "encoder_argmax",
+      "privileged": false,
+      "horizon": 50,
+      "prefix_mse": 0.0071074800006360895,
+      "prefix_mae": 0.042109563167434555,
+      "endpoint_mse": 0.018386366697790233,
+      "coordinate_mse": [
+        0.0045814539303659,
+        0.0049542360914548505,
+        0.009158232578776815,
+        0.009735997401946795
+      ]
+    },
+    {
+      "seed": 2026711,
+      "arm": "native_search100",
+      "privileged": false,
+      "horizon": 1,
+      "prefix_mse": 4.918074626844305e-06,
+      "prefix_mae": 0.0008234984609311073,
+      "endpoint_mse": 4.918074626844305e-06,
+      "coordinate_mse": [
+        6.787372869153287e-09,
+        8.437729447634632e-09,
+        9.482642018652422e-06,
+        1.0174431386408011e-05
+      ]
+    },
+    {
+      "seed": 2026711,
+      "arm": "native_search100",
+      "privileged": false,
+      "horizon": 10,
+      "prefix_mse": 0.0002038039271797442,
+      "prefix_mae": 0.005048104253059124,
+      "endpoint_mse": 0.0005374617742505252,
+      "coordinate_mse": [
+        7.222942527424599e-06,
+        7.743230312087519e-06,
+        0.0003889422172290433,
+        0.00041130731865042145
+      ]
+    },
+    {
+      "seed": 2026711,
+      "arm": "native_search100",
+      "privileged": false,
+      "horizon": 25,
+      "prefix_mse": 0.0011959856474827604,
+      "prefix_mae": 0.013419563845106936,
+      "endpoint_mse": 0.003344690417952014,
+      "coordinate_mse": [
+        0.0002346824125029104,
+        0.00024855622009687425,
+        0.0020797408075398085,
+        0.002220963149791447
+      ]
+    },
+    {
+      "seed": 2026711,
+      "arm": "native_search100",
+      "privileged": false,
+      "horizon": 50,
+      "prefix_mse": 0.004492973347954804,
+      "prefix_mae": 0.02943728482502358,
+      "endpoint_mse": 0.01336876067417964,
+      "coordinate_mse": [
+        0.002656593070892147,
+        0.0029694400712876935,
+        0.00569306354106158,
+        0.006652796708577792
+      ]
+    },
+    {
+      "seed": 2026711,
+      "arm": "native_search1000",
+      "privileged": false,
+      "horizon": 1,
+      "prefix_mse": 3.501767244518658e-07,
+      "prefix_mae": 0.00022150037267551465,
+      "endpoint_mse": 3.501767244518658e-07,
+      "coordinate_mse": [
+        3.88918057944369e-09,
+        5.0737146012398375e-09,
+        7.404532719934703e-07,
+        6.512907306333094e-07
+      ]
+    },
+    {
+      "seed": 2026711,
+      "arm": "native_search1000",
+      "privileged": false,
+      "horizon": 10,
+      "prefix_mse": 1.4846518245761667e-05,
+      "prefix_mae": 0.001317112107606208,
+      "endpoint_mse": 3.938519381581052e-05,
+      "coordinate_mse": [
+        6.934112172479626e-07,
+        7.133741963892356e-07,
+        3.0130119747162752e-05,
+        2.784916782224673e-05
+      ]
+    },
+    {
+      "seed": 2026711,
+      "arm": "native_search1000",
+      "privileged": false,
+      "horizon": 25,
+      "prefix_mse": 9.415599992568955e-05,
+      "prefix_mae": 0.003440838592236334,
+      "endpoint_mse": 0.0002792608191503947,
+      "coordinate_mse": [
+        1.883520624803771e-05,
+        1.8873058514645027e-05,
+        0.00016737678031989434,
+        0.000171538954620181
+      ]
+    },
+    {
+      "seed": 2026711,
+      "arm": "native_search1000",
+      "privileged": false,
+      "horizon": 50,
+      "prefix_mse": 0.0006381700992024597,
+      "prefix_mae": 0.008630977082149391,
+      "endpoint_mse": 0.003004065991916536,
+      "coordinate_mse": [
+        0.0002504507470984771,
+        0.000290302793182665,
+        0.0009082575078739155,
+        0.001103669348654782
+      ]
+    },
+    {
+      "seed": 2026711,
+      "arm": "privileged_true_assignments",
+      "privileged": true,
+      "horizon": 1,
+      "prefix_mse": 9.663578138638772e-08,
+      "prefix_mae": 0.00017628114313545867,
+      "endpoint_mse": 9.663578138638772e-08,
+      "coordinate_mse": [
+        3.762499961737851e-09,
+        4.959449117336971e-09,
+        2.1364341637554212e-07,
+        1.6417776009093397e-07
+      ]
+    },
+    {
+      "seed": 2026711,
+      "arm": "privileged_true_assignments",
+      "privileged": true,
+      "horizon": 10,
+      "prefix_mse": 3.795680620253526e-06,
+      "prefix_mae": 0.001027041891699285,
+      "endpoint_mse": 9.803235054528465e-06,
+      "coordinate_mse": [
+        3.0524100512882084e-07,
+        3.2972010113604896e-07,
+        8.033975451390276e-06,
+        6.513785923358959e-06
+      ]
+    },
+    {
+      "seed": 2026711,
+      "arm": "privileged_true_assignments",
+      "privileged": true,
+      "horizon": 25,
+      "prefix_mse": 2.216744188682966e-05,
+      "prefix_mae": 0.0025867570848847462,
+      "endpoint_mse": 6.458640550847864e-05,
+      "coordinate_mse": [
+        5.204547545870266e-06,
+        4.831940677013492e-06,
+        3.897355036414044e-05,
+        3.965972896029442e-05
+      ]
+    },
+    {
+      "seed": 2026711,
+      "arm": "privileged_true_assignments",
+      "privileged": true,
+      "horizon": 50,
+      "prefix_mse": 0.00030638457180804735,
+      "prefix_mae": 0.006398040855660755,
+      "endpoint_mse": 0.0019215582330460884,
+      "coordinate_mse": [
+        6.17092384339846e-05,
+        9.082588836738067e-05,
+        0.000448907539639521,
+        0.0006240956207913023
+      ]
+    },
+    {
+      "seed": 2026712,
+      "arm": "encoder_argmax",
+      "privileged": false,
+      "horizon": 1,
+      "prefix_mse": 1.182264244316943e-05,
+      "prefix_mae": 0.0014343873267797724,
+      "endpoint_mse": 1.182264244316943e-05,
+      "coordinate_mse": [
+        1.0929936782395941e-08,
+        1.0107382040272109e-08,
+        2.3050422521379048e-05,
+        2.4219109932475998e-05
+      ]
+    },
+    {
+      "seed": 2026712,
+      "arm": "encoder_argmax",
+      "privileged": false,
+      "horizon": 10,
+      "prefix_mse": 0.0004647751400591774,
+      "prefix_mae": 0.008641408412751829,
+      "endpoint_mse": 0.0012054974603173795,
+      "coordinate_mse": [
+        1.680898199809709e-05,
+        1.7483146499913436e-05,
+        0.0008870140677092956,
+        0.0009377943640294032
+      ]
+    },
+    {
+      "seed": 2026712,
+      "arm": "encoder_argmax",
+      "privileged": false,
+      "horizon": 25,
+      "prefix_mse": 0.0024819276914906483,
+      "prefix_mae": 0.022216360464543287,
+      "endpoint_mse": 0.0065813834752761775,
+      "coordinate_mse": [
+        0.0005056126458161241,
+        0.0005381615064265533,
+        0.00429345700448783,
+        0.004590479609232087
+      ]
+    },
+    {
+      "seed": 2026712,
+      "arm": "encoder_argmax",
+      "privileged": false,
+      "horizon": 50,
+      "prefix_mse": 0.007879941606485839,
+      "prefix_mae": 0.044740427468305095,
+      "endpoint_mse": 0.0209219354291148,
+      "coordinate_mse": [
+        0.005098799807245382,
+        0.005382401070003366,
+        0.010589207330054681,
+        0.01044935821863994
+      ]
+    },
+    {
+      "seed": 2026712,
+      "arm": "native_search100",
+      "privileged": false,
+      "horizon": 1,
+      "prefix_mse": 5.05091221292924e-06,
+      "prefix_mae": 0.0007992289659714628,
+      "endpoint_mse": 5.05091221292924e-06,
+      "coordinate_mse": [
+        6.103748972990464e-09,
+        4.885859187388339e-09,
+        1.030185799821435e-05,
+        9.890801245342232e-06
+      ]
+    },
+    {
+      "seed": 2026712,
+      "arm": "native_search100",
+      "privileged": false,
+      "horizon": 10,
+      "prefix_mse": 0.00020964606214684132,
+      "prefix_mae": 0.004915146799221233,
+      "endpoint_mse": 0.0005527815257663032,
+      "coordinate_mse": [
+        7.761011296876179e-06,
+        7.4362721100316495e-06,
+        0.00041438870905311317,
+        0.00040899825612734415
+      ]
+    },
+    {
+      "seed": 2026712,
+      "arm": "native_search100",
+      "privileged": false,
+      "horizon": 25,
+      "prefix_mse": 0.0012213305633490357,
+      "prefix_mae": 0.013216020338540309,
+      "endpoint_mse": 0.0033997055570155928,
+      "coordinate_mse": [
+        0.00024571261605174665,
+        0.00024933269460192844,
+        0.0021487022833235952,
+        0.0022415746594188725
+      ]
+    },
+    {
+      "seed": 2026712,
+      "arm": "native_search100",
+      "privileged": false,
+      "horizon": 50,
+      "prefix_mse": 0.005073694046428913,
+      "prefix_mae": 0.029813948591557646,
+      "endpoint_mse": 0.018219559224319677,
+      "coordinate_mse": [
+        0.0029341533017197157,
+        0.0030477306426918093,
+        0.007911210603008093,
+        0.00640168163829603
+      ]
+    },
+    {
+      "seed": 2026712,
+      "arm": "native_search1000",
+      "privileged": false,
+      "horizon": 1,
+      "prefix_mse": 3.076787913464595e-07,
+      "prefix_mae": 0.0001388758288532772,
+      "endpoint_mse": 3.076787913464595e-07,
+      "coordinate_mse": [
+        2.9630207181064312e-09,
+        2.387664988645022e-09,
+        5.912965798619673e-07,
+        6.34067899817119e-07
+      ]
+    },
+    {
+      "seed": 2026712,
+      "arm": "native_search1000",
+      "privileged": false,
+      "horizon": 10,
+      "prefix_mse": 1.3082820231529649e-05,
+      "prefix_mae": 0.0008214310320595264,
+      "endpoint_mse": 3.4676022064869244e-05,
+      "coordinate_mse": [
+        5.768336847914204e-07,
+        5.711177451840497e-07,
+        2.483058716079561e-05,
+        2.6352742335347517e-05
+      ]
+    },
+    {
+      "seed": 2026712,
+      "arm": "native_search1000",
+      "privileged": false,
+      "horizon": 25,
+      "prefix_mse": 8.184198132155062e-05,
+      "prefix_mae": 0.0021740885100372358,
+      "endpoint_mse": 0.00024134616628050442,
+      "coordinate_mse": [
+        1.593008952614373e-05,
+        1.6824808745909394e-05,
+        0.00014423599473646734,
+        0.00015037703227768206
+      ]
+    },
+    {
+      "seed": 2026712,
+      "arm": "native_search1000",
+      "privileged": false,
+      "horizon": 50,
+      "prefix_mse": 0.000607868897079091,
+      "prefix_mae": 0.006005481309513032,
+      "endpoint_mse": 0.003018326873338337,
+      "coordinate_mse": [
+        0.00023738400954019986,
+        0.0002492725568543432,
+        0.0009531685364197491,
+        0.000991650485502072
+      ]
+    },
+    {
+      "seed": 2026712,
+      "arm": "privileged_true_assignments",
+      "privileged": true,
+      "horizon": 1,
+      "prefix_mse": 3.591297084453422e-08,
+      "prefix_mae": 7.97164240515533e-05,
+      "endpoint_mse": 3.591297084453422e-08,
+      "coordinate_mse": [
+        2.7413730242964185e-09,
+        2.2884510043769602e-09,
+        5.5472421357974494e-08,
+        8.3149637991489e-08
+      ]
+    },
+    {
+      "seed": 2026712,
+      "arm": "privileged_true_assignments",
+      "privileged": true,
+      "horizon": 10,
+      "prefix_mse": 1.2072345072971715e-06,
+      "prefix_mae": 0.0004435950925143218,
+      "endpoint_mse": 2.8686462619026313e-06,
+      "coordinate_mse": [
+        1.5900208020622998e-07,
+        1.4070386407029928e-07,
+        1.824664842696063e-06,
+        2.7045672422160936e-06
+      ]
+    },
+    {
+      "seed": 2026712,
+      "arm": "privileged_true_assignments",
+      "privileged": true,
+      "horizon": 25,
+      "prefix_mse": 5.990927030123866e-06,
+      "prefix_mae": 0.0010957741773589596,
+      "endpoint_mse": 1.9198308752988814e-05,
+      "coordinate_mse": [
+        1.261615196721586e-06,
+        1.8330448098652836e-06,
+        8.392609790670385e-06,
+        1.2476438323238208e-05
+      ]
+    },
+    {
+      "seed": 2026712,
+      "arm": "privileged_true_assignments",
+      "privileged": true,
+      "horizon": 50,
+      "prefix_mse": 0.0002950732149191016,
+      "prefix_mae": 0.003437102545460891,
+      "endpoint_mse": 0.0020575604675233095,
+      "coordinate_mse": [
+        4.667486932325913e-05,
+        5.910668682511406e-05,
+        0.0005078795647141594,
+        0.0005666317388138732
+      ]
+    },
+    {
+      "seed": 2026713,
+      "arm": "encoder_argmax",
+      "privileged": false,
+      "horizon": 1,
+      "prefix_mse": 1.118474695090341e-05,
+      "prefix_mae": 0.0013596575380429073,
+      "endpoint_mse": 1.118474695090341e-05,
+      "coordinate_mse": [
+        8.140918549363109e-09,
+        9.0016353821187e-09,
+        2.1713431163646575e-05,
+        2.3008414086035586e-05
+      ]
+    },
+    {
+      "seed": 2026713,
+      "arm": "encoder_argmax",
+      "privileged": false,
+      "horizon": 10,
+      "prefix_mse": 0.0004359951793567357,
+      "prefix_mae": 0.008158045136917508,
+      "endpoint_mse": 0.0011288617001879641,
+      "coordinate_mse": [
+        1.5476276914488917e-05,
+        1.6300736096291193e-05,
+        0.0008382380253283393,
+        0.0008739656790878235
+      ]
+    },
+    {
+      "seed": 2026713,
+      "arm": "encoder_argmax",
+      "privileged": false,
+      "horizon": 25,
+      "prefix_mse": 0.002321698960529964,
+      "prefix_mae": 0.02092911009777763,
+      "endpoint_mse": 0.006167707121703701,
+      "coordinate_mse": [
+        0.0004769545994672213,
+        0.0004951123577460581,
+        0.004109517939782421,
+        0.004205210945124152
+      ]
+    },
+    {
+      "seed": 2026713,
+      "arm": "encoder_argmax",
+      "privileged": false,
+      "horizon": 50,
+      "prefix_mse": 0.007351180810491158,
+      "prefix_mae": 0.042598101097401524,
+      "endpoint_mse": 0.0190546008716082,
+      "coordinate_mse": [
+        0.0048745435323986125,
+        0.004945722740739906,
+        0.009943526546706907,
+        0.009640930422119201
+      ]
+    },
+    {
+      "seed": 2026713,
+      "arm": "native_search100",
+      "privileged": false,
+      "horizon": 1,
+      "prefix_mse": 4.549892776399722e-06,
+      "prefix_mae": 0.0007408071078290557,
+      "endpoint_mse": 4.549892776399722e-06,
+      "coordinate_mse": [
+        4.382985549609638e-09,
+        4.411994008741872e-09,
+        9.41449165118697e-06,
+        8.776284474853567e-06
+      ]
+    },
+    {
+      "seed": 2026713,
+      "arm": "native_search100",
+      "privileged": false,
+      "horizon": 10,
+      "prefix_mse": 0.00018933024593513668,
+      "prefix_mae": 0.004554540588595019,
+      "endpoint_mse": 0.0005002277283325874,
+      "coordinate_mse": [
+        6.936054695049583e-06,
+        6.475860691264586e-06,
+        0.000384860908833137,
+        0.0003590481595210954
+      ]
+    },
+    {
+      "seed": 2026713,
+      "arm": "native_search100",
+      "privileged": false,
+      "horizon": 25,
+      "prefix_mse": 0.0011202137564786262,
+      "prefix_mae": 0.012328772864877666,
+      "endpoint_mse": 0.0031483028127026295,
+      "coordinate_mse": [
+        0.00022946407208193298,
+        0.00021767714966901307,
+        0.0020616005303346935,
+        0.001972113273828865
+      ]
+    },
+    {
+      "seed": 2026713,
+      "arm": "native_search100",
+      "privileged": false,
+      "horizon": 50,
+      "prefix_mse": 0.004303024288785504,
+      "prefix_mae": 0.02809797451354249,
+      "endpoint_mse": 0.013157175417096064,
+      "coordinate_mse": [
+        0.0026577913797125544,
+        0.0026199584420992916,
+        0.006029887999837659,
+        0.0059044593334925165
+      ]
+    },
+    {
+      "seed": 2026713,
+      "arm": "native_search1000",
+      "privileged": false,
+      "horizon": 1,
+      "prefix_mse": 2.602589805257896e-07,
+      "prefix_mae": 0.00015262968348792911,
+      "endpoint_mse": 2.602589805257896e-07,
+      "coordinate_mse": [
+        1.6881710229309062e-09,
+        2.271324449730278e-09,
+        5.598946764757553e-07,
+        4.771817501547419e-07
+      ]
+    },
+    {
+      "seed": 2026713,
+      "arm": "native_search1000",
+      "privileged": false,
+      "horizon": 10,
+      "prefix_mse": 1.0243461158588558e-05,
+      "prefix_mae": 0.0008895618733855349,
+      "endpoint_mse": 2.6596562548568703e-05,
+      "coordinate_mse": [
+        4.542380209781552e-07,
+        4.081990607781088e-07,
+        2.219326299095914e-05,
+        1.7918144561638827e-05
+      ]
+    },
+    {
+      "seed": 2026713,
+      "arm": "native_search1000",
+      "privileged": false,
+      "horizon": 25,
+      "prefix_mse": 6.201387026849918e-05,
+      "prefix_mae": 0.002389800710529994,
+      "endpoint_mse": 0.000186946969556166,
+      "coordinate_mse": [
+        1.3509562317992763e-05,
+        1.0963805193975109e-05,
+        0.00012946213923363097,
+        9.411997432839785e-05
+      ]
+    },
+    {
+      "seed": 2026713,
+      "arm": "native_search1000",
+      "privileged": false,
+      "horizon": 50,
+      "prefix_mse": 0.0005548788627055268,
+      "prefix_mae": 0.006766212403803657,
+      "endpoint_mse": 0.002920708456076191,
+      "coordinate_mse": [
+        0.0002186873810304045,
+        0.00017898416050112422,
+        0.000921258950022501,
+        0.000900584959268076
+      ]
+    },
+    {
+      "seed": 2026713,
+      "arm": "privileged_true_assignments",
+      "privileged": true,
+      "horizon": 1,
+      "prefix_mse": 5.6635719997822876e-08,
+      "prefix_mae": 0.00011873697267733234,
+      "endpoint_mse": 5.6635719997822876e-08,
+      "coordinate_mse": [
+        1.5758158953797965e-09,
+        2.1880829031358064e-09,
+        1.0348173039767577e-07,
+        1.1929725079510016e-07
+      ]
+    },
+    {
+      "seed": 2026713,
+      "arm": "privileged_true_assignments",
+      "privileged": true,
+      "horizon": 10,
+      "prefix_mse": 2.248195277951317e-06,
+      "prefix_mae": 0.000678246015930722,
+      "endpoint_mse": 5.805996737338758e-06,
+      "coordinate_mse": [
+        1.3365078250874852e-07,
+        1.7004269339887018e-07,
+        4.168863086755812e-06,
+        4.520224549141837e-06
+      ]
+    },
+    {
+      "seed": 2026713,
+      "arm": "privileged_true_assignments",
+      "privileged": true,
+      "horizon": 25,
+      "prefix_mse": 1.586694399105486e-05,
+      "prefix_mae": 0.0017852185890965147,
+      "endpoint_mse": 5.529970480536326e-05,
+      "coordinate_mse": [
+        2.8008830833943174e-06,
+        3.583460756368012e-06,
+        2.9064788470535856e-05,
+        2.8018643653921247e-05
+      ]
+    },
+    {
+      "seed": 2026713,
+      "arm": "privileged_true_assignments",
+      "privileged": true,
+      "horizon": 50,
+      "prefix_mse": 0.0003369616836210411,
+      "prefix_mae": 0.0052048206950706475,
+      "endpoint_mse": 0.002130857051364344,
+      "coordinate_mse": [
+        7.20482952555689e-05,
+        8.997703810139504e-05,
+        0.0005371044772341768,
+        0.0006487169238930215
+      ]
+    },
+    {
+      "seed": null,
+      "arm": "persistence",
+      "privileged": false,
+      "horizon": 1,
+      "prefix_mse": 7.540961968945482e-05,
+      "prefix_mae": 0.0067756983462864216,
+      "endpoint_mse": 7.540961968945482e-05,
+      "coordinate_mse": [
+        5.533164286419301e-05,
+        5.576517040964223e-05,
+        9.818874164544759e-05,
+        9.235292383853647e-05
+      ]
+    },
+    {
+      "seed": null,
+      "arm": "persistence",
+      "privileged": false,
+      "horizon": 10,
+      "prefix_mse": 0.002830384815888516,
+      "prefix_mae": 0.0369057404929609,
+      "endpoint_mse": 0.007275925073816421,
+      "coordinate_mse": [
+        0.0021465474778249345,
+        0.002181454999198012,
+        0.003658274141591725,
+        0.0033352626449393973
+      ]
+    },
+    {
+      "seed": null,
+      "arm": "persistence",
+      "privileged": false,
+      "horizon": 25,
+      "prefix_mse": 0.015022356880557988,
+      "prefix_mae": 0.08440571415946216,
+      "endpoint_mse": 0.04024724969841125,
+      "coordinate_mse": [
+        0.011979574733245875,
+        0.012069141797194934,
+        0.018815002785723473,
+        0.017225708206067683
+      ]
+    },
+    {
+      "seed": null,
+      "arm": "persistence",
+      "privileged": false,
+      "horizon": 50,
+      "prefix_mse": 0.04595956144848369,
+      "prefix_mae": 0.15083992007171962,
+      "endpoint_mse": 0.107479053041316,
+      "coordinate_mse": [
+        0.04025462706529329,
+        0.038870399601465606,
+        0.05185819187204519,
+        0.052855027255130624
+      ]
+    },
+    {
+      "seed": null,
+      "arm": "history_VAR1",
+      "privileged": false,
+      "horizon": 1,
+      "prefix_mse": 2.57591263326466e-13,
+      "prefix_mae": 3.1810724295620346e-07,
+      "endpoint_mse": 2.57591263326466e-13,
+      "coordinate_mse": [
+        7.980082263034393e-14,
+        8.60816493727305e-14,
+        4.4472492543490087e-13,
+        4.197576558678886e-13
+      ]
+    },
+    {
+      "seed": null,
+      "arm": "history_VAR1",
+      "privileged": false,
+      "horizon": 10,
+      "prefix_mse": 5.126727228387123e-10,
+      "prefix_mae": 9.92261806195641e-06,
+      "endpoint_mse": 2.4582163920963313e-09,
+      "coordinate_mse": [
+        1.5421690319685124e-10,
+        1.5577930466154342e-10,
+        8.861508555122517e-10,
+        8.545438279842034e-10
+      ]
+    },
+    {
+      "seed": null,
+      "arm": "history_VAR1",
+      "privileged": false,
+      "horizon": 25,
+      "prefix_mse": 1.689432880754993e-07,
+      "prefix_mae": 0.00015824168089469636,
+      "endpoint_mse": 1.2100812421472963e-06,
+      "coordinate_mse": [
+        5.4333605647840363e-08,
+        5.2212379849770686e-08,
+        2.864578447184242e-07,
+        2.827693220859619e-07
+      ]
+    },
+    {
+      "seed": null,
+      "arm": "history_VAR1",
+      "privileged": false,
+      "horizon": 50,
+      "prefix_mse": 0.00024120411666190658,
+      "prefix_mae": 0.0026109815701193745,
+      "endpoint_mse": 0.0018596644859371447,
+      "coordinate_mse": [
+        2.9753564480653438e-05,
+        4.308492397688386e-05,
+        0.00035327497073881035,
+        0.0005387030074512788
+      ]
+    },
+    {
+      "seed": null,
+      "arm": "history_VAR2",
+      "privileged": false,
+      "horizon": 1,
+      "prefix_mse": 1.595064605070748e-13,
+      "prefix_mae": 2.4663892957797327e-07,
+      "endpoint_mse": 1.595064605070748e-13,
+      "coordinate_mse": [
+        4.793056941145867e-14,
+        5.0060274866840984e-14,
+        2.7693308513784205e-13,
+        2.6310191261215765e-13
+      ]
+    },
+    {
+      "seed": null,
+      "arm": "history_VAR2",
+      "privileged": false,
+      "horizon": 10,
+      "prefix_mse": 3.506374962335943e-10,
+      "prefix_mae": 8.135423988641679e-06,
+      "endpoint_mse": 1.693357877233042e-09,
+      "coordinate_mse": [
+        1.0515679343807399e-10,
+        1.0434966471253057e-10,
+        6.060950750604035e-10,
+        5.869484517233695e-10
+      ]
+    },
+    {
+      "seed": null,
+      "arm": "history_VAR2",
+      "privileged": false,
+      "horizon": 25,
+      "prefix_mse": 1.2288906886567777e-07,
+      "prefix_mae": 0.000134658778193746,
+      "endpoint_mse": 8.863669175575308e-07,
+      "coordinate_mse": [
+        4.005605356047383e-08,
+        3.818961424734217e-08,
+        2.0765365723714375e-07,
+        2.0565695041775157e-07
+      ]
+    },
+    {
+      "seed": null,
+      "arm": "history_VAR2",
+      "privileged": false,
+      "horizon": 50,
+      "prefix_mse": 0.0002322332218853475,
+      "prefix_mae": 0.0023295215095135687,
+      "endpoint_mse": 0.0017861646179558547,
+      "coordinate_mse": [
+        2.6480523426917993e-05,
+        4.006972814390801e-05,
+        0.00033848577445025975,
+        0.0005238968615203045
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "arm": "encoder_argmax",
+      "privileged": false,
+      "training_seeds": 3,
+      "h50_mse_mean": 0.007446200805871029,
+      "h50_mse_min": 0.0071074800006360895,
+      "h50_mse_max": 0.007879941606485839,
+      "graph_accuracy_mean": 0.8488932291666668,
+      "h50_mse_seed_sd": 0.0003948997756007039
+    },
+    {
+      "arm": "native_search100",
+      "privileged": false,
+      "training_seeds": 3,
+      "h50_mse_mean": 0.004623230561056408,
+      "h50_mse_min": 0.004303024288785504,
+      "h50_mse_max": 0.005073694046428913,
+      "graph_accuracy_mean": 0.8888671874999999,
+      "h50_mse_seed_sd": 0.00040150737852533293
+    },
+    {
+      "arm": "native_search1000",
+      "privileged": false,
+      "training_seeds": 3,
+      "h50_mse_mean": 0.0006003059529956925,
+      "h50_mse_min": 0.0005548788627055268,
+      "h50_mse_max": 0.0006381700992024597,
+      "graph_accuracy_mean": 0.987890625,
+      "h50_mse_seed_sd": 4.215751548304836e-05
+    },
+    {
+      "arm": "privileged_true_assignments",
+      "privileged": true,
+      "training_seeds": 3,
+      "h50_mse_mean": 0.00031280649011606335,
+      "h50_mse_min": 0.0002950732149191016,
+      "h50_mse_max": 0.0003369616836210411,
+      "graph_accuracy_mean": 1.0,
+      "h50_mse_seed_sd": 2.1670065265579268e-05
+    },
+    {
+      "arm": "history_VAR1",
+      "privileged": false,
+      "training_seeds": null,
+      "h50_mse_mean": 0.00024120411666190658,
+      "h50_mse_min": 0.00024120411666190658,
+      "h50_mse_max": 0.00024120411666190658
+    },
+    {
+      "arm": "history_VAR2",
+      "privileged": false,
+      "training_seeds": null,
+      "h50_mse_mean": 0.0002322332218853475,
+      "h50_mse_min": 0.0002322332218853475,
+      "h50_mse_max": 0.0002322332218853475
+    },
+    {
+      "arm": "persistence",
+      "privileged": false,
+      "training_seeds": null,
+      "h50_mse_mean": 0.04595956144848369,
+      "h50_mse_min": 0.04595956144848369,
+      "h50_mse_max": 0.04595956144848369
+    }
+  ],
+  "search_prefix_checks": [
+    {
+      "seed": 2026711,
+      "offset": 0,
+      "acceptance_count_prefix_equal": true
+    },
+    {
+      "seed": 2026711,
+      "offset": 32,
+      "acceptance_count_prefix_equal": true
+    },
+    {
+      "seed": 2026711,
+      "offset": 64,
+      "acceptance_count_prefix_equal": true
+    },
+    {
+      "seed": 2026711,
+      "offset": 96,
+      "acceptance_count_prefix_equal": true
+    },
+    {
+      "seed": 2026711,
+      "offset": 128,
+      "acceptance_count_prefix_equal": true
+    },
+    {
+      "seed": 2026711,
+      "offset": 160,
+      "acceptance_count_prefix_equal": true
+    },
+    {
+      "seed": 2026711,
+      "offset": 192,
+      "acceptance_count_prefix_equal": true
+    },
+    {
+      "seed": 2026711,
+      "offset": 224,
+      "acceptance_count_prefix_equal": true
+    },
+    {
+      "seed": 2026712,
+      "offset": 0,
+      "acceptance_count_prefix_equal": true
+    },
+    {
+      "seed": 2026712,
+      "offset": 32,
+      "acceptance_count_prefix_equal": true
+    },
+    {
+      "seed": 2026712,
+      "offset": 64,
+      "acceptance_count_prefix_equal": true
+    },
+    {
+      "seed": 2026712,
+      "offset": 96,
+      "acceptance_count_prefix_equal": true
+    },
+    {
+      "seed": 2026712,
+      "offset": 128,
+      "acceptance_count_prefix_equal": true
+    },
+    {
+      "seed": 2026712,
+      "offset": 160,
+      "acceptance_count_prefix_equal": true
+    },
+    {
+      "seed": 2026712,
+      "offset": 192,
+      "acceptance_count_prefix_equal": true
+    },
+    {
+      "seed": 2026712,
+      "offset": 224,
+      "acceptance_count_prefix_equal": true
+    },
+    {
+      "seed": 2026713,
+      "offset": 0,
+      "acceptance_count_prefix_equal": true
+    },
+    {
+      "seed": 2026713,
+      "offset": 32,
+      "acceptance_count_prefix_equal": true
+    },
+    {
+      "seed": 2026713,
+      "offset": 64,
+      "acceptance_count_prefix_equal": true
+    },
+    {
+      "seed": 2026713,
+      "offset": 96,
+      "acceptance_count_prefix_equal": true
+    },
+    {
+      "seed": 2026713,
+      "offset": 128,
+      "acceptance_count_prefix_equal": true
+    },
+    {
+      "seed": 2026713,
+      "offset": 160,
+      "acceptance_count_prefix_equal": true
+    },
+    {
+      "seed": 2026713,
+      "offset": 192,
+      "acceptance_count_prefix_equal": true
+    },
+    {
+      "seed": 2026713,
+      "offset": 224,
+      "acceptance_count_prefix_equal": true
+    }
+  ],
+  "all_search_acceptance_prefixes_equal": true,
+  "independent_classical_replay": [
+    {
+      "lag": 1,
+      "all_256_histories": true,
+      "prediction_max_abs_error": 1.2377737244884113e-08,
+      "prediction_scaled_error": 9.10843349859738e-09,
+      "mse": 0.00024120411627850176,
+      "stored_mse": 0.0002412041166619067,
+      "relative_mse_difference": 1.5895454952286059e-09
+    },
+    {
+      "lag": 2,
+      "all_256_histories": true,
+      "prediction_max_abs_error": 2.622738093371879e-08,
+      "prediction_scaled_error": 1.9300002120906556e-08,
+      "mse": 0.00023223322184406364,
+      "stored_mse": 0.0002322332218853476,
+      "relative_mse_difference": 1.7776935479218992e-10
+    }
+  ],
+  "array_receipts": [
+    {
+      "seed": 2026711,
+      "arm": "encoder_argmax",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle71\\free_sim_seed2026711_v1_encoder_argmax.npz",
+      "sha256": "f8bbd215d7ab3f5fb6735bbf2543cd5154f8ec7c1de06489e8ec0a87b392ea79"
+    },
+    {
+      "seed": 2026711,
+      "arm": "native_search100",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle71\\free_sim_seed2026711_v1_native_search100.npz",
+      "sha256": "6189ffa64d7e56f6a2c362328d5c78f35e8e5ef9cf4001513f8f190850dc9134"
+    },
+    {
+      "seed": 2026711,
+      "arm": "native_search1000",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle71\\free_sim_seed2026711_v1_native_search1000.npz",
+      "sha256": "fcc50b232f33875e0d17a5fe0b05a328e22fd6d476f86c8f44063222eb340e6f"
+    },
+    {
+      "seed": 2026711,
+      "arm": "privileged_true_assignments",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle71\\free_sim_seed2026711_v1_privileged_true_assignments.npz",
+      "sha256": "c8afebf60ae681cc34f3644da4e7bd8073879fdb556e0bd1404a1d1bd20508a3"
+    },
+    {
+      "seed": 2026712,
+      "arm": "encoder_argmax",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle71\\free_sim_seed2026712_v1_encoder_argmax.npz",
+      "sha256": "51db45be39038a54e5e4c5164ffef15a43d9bee9235af70d9d0cc8518a1f0827"
+    },
+    {
+      "seed": 2026712,
+      "arm": "native_search100",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle71\\free_sim_seed2026712_v1_native_search100.npz",
+      "sha256": "f4b9ca0b6cdf69cb801e8958315822914437c40c1e0cf68361ddfbdc4939c6ce"
+    },
+    {
+      "seed": 2026712,
+      "arm": "native_search1000",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle71\\free_sim_seed2026712_v1_native_search1000.npz",
+      "sha256": "94f582d0fd7d5fe802dc52f15bf67f86fc4cfe503565070154b364fc3df9947e"
+    },
+    {
+      "seed": 2026712,
+      "arm": "privileged_true_assignments",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle71\\free_sim_seed2026712_v1_privileged_true_assignments.npz",
+      "sha256": "c5c0d40502eeb56a6846e319607ff01d07e740aad7434c25b79c99febc201809"
+    },
+    {
+      "seed": 2026713,
+      "arm": "encoder_argmax",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle71\\free_sim_seed2026713_v1_encoder_argmax.npz",
+      "sha256": "9f5eca5464f71138a9179c2cb5b1f25410d14e4f379f3fb8d17d35f59ea112bf"
+    },
+    {
+      "seed": 2026713,
+      "arm": "native_search100",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle71\\free_sim_seed2026713_v1_native_search100.npz",
+      "sha256": "96be6bf6a702baa4ac4d155e8eb62def09a3d478e9ae68cd47b7e2c212135a81"
+    },
+    {
+      "seed": 2026713,
+      "arm": "native_search1000",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle71\\free_sim_seed2026713_v1_native_search1000.npz",
+      "sha256": "e3baa4bc977679a94c17e66e3b30bd19f199f6f885fcec5efad40a656cbdd6ea"
+    },
+    {
+      "seed": 2026713,
+      "arm": "privileged_true_assignments",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle71\\free_sim_seed2026713_v1_privileged_true_assignments.npz",
+      "sha256": "a43e92faf64ca2e47ce2075de786282eb38301047123a5c59633081450e3d488"
+    },
+    {
+      "seed": null,
+      "arm": "persistence",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle71\\free_sim_persistence_v1.npz",
+      "sha256": "c12349ab986e4f93e63c996fb00bebef6dc87ed4ecdb5ae7b1854c4f2919419d"
+    },
+    {
+      "seed": null,
+      "arm": "history_VAR1",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle71\\free_sim_history_VAR1_v1.npz",
+      "sha256": "7788a1ea796936e6325cfca9083b533627508d575d97de934e09e8217307e647"
+    },
+    {
+      "seed": null,
+      "arm": "history_VAR2",
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle71\\free_sim_history_VAR2_v1.npz",
+      "sha256": "bb532822763459395624318bec78bda95b7850a8b0bc6e9138efcc4005d4dcb1"
+    }
+  ],
+  "var2_h50_mse_lower_than_all_three_privileged_means": true,
+  "native_search_rerun": false,
+  "full_paper_reproduction": false,
+  "independent_structural_composition_test": false,
+  "accepted_final_directions": 0,
+  "full_research_goal_achieved": false
+}

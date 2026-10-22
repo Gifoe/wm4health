@@ -1,0 +1,3 @@
+# Rejected explanations
+
+Dense hourly queries did not universally degrade the six original latent models. Equal100 epochs did not remove all latent/raw discrepancy. Official decoded-only loss entered the predeclared Val band, stopping current architecture motivation without hiding the Test residual. Frozen input/output roundtrips and cross terms prevent unique transition/encoder attribution. Larger C71 search budgets sharply help, while ordinary history-VAR beats all neural seed means, including true-graph diagnostics. TTC can change under exactly unchanged physical forecasts, but that property is known and not a new mechanism. Prior pointwise-gate lag and no-anticipation audits are reused, not rediscovered.

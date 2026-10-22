@@ -1,0 +1,3 @@
+# Baselines and execution counts
+
+See the [integrated failure ledger](experimental_results.md). Exactly three primary papers, with TSWM a benchmark/recipe rather than a unique network. Reuse20 old WorldTS/LatentTSF weights and40 old TSWM weights; rehashing does not create60 new fits. This focused campaign adds30 fits and24 dense-model audits. C71 is an existing separate source-based subset; its three original fits and final development evaluation are now closed. Metric probe adds0 fits on two original H96 checkpoints. The conditional18-fit branch remains untriggered, actual count0. No unified ranking across incompatible input protocols.

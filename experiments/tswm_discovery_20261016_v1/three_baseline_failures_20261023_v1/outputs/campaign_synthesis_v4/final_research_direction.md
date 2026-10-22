@@ -1,0 +1,3 @@
+# Research discovery remains open
+
+Recommendation: no final novel direction accepted. The three-paper failure-attribution campaign and historical C71 evaluation are closed with reproducible evidence. This is not completion of the overarching research objective, not full reproduction of three entire papers and not grounds for a publishability claim. Stop additional training on the closed Electricity/spring cases. Preserve all negative evidence and require a distinct unclosed observable capability failure before any new architecture investment. See [full evidence and falsification](experimental_results.md).
