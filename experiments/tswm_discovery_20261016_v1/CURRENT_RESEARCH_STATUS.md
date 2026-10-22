@@ -1,21 +1,23 @@
-# 当前研究状态 — 2026-10-23 V5
+# 当前研究状态 — 2026-10-23 V6
 
-总体研究目标ACTIVE/UNACHIEVED，最终接受新颖方向0。三个主paper仍为WorldTS、LatentTSF与TSWM recipe；此前30个新训练、24个dense-model审计和C71完整评估的结论保持。
+总体目标ACTIVE/UNACHIEVED，最终接受新颖方向0。原三个主baseline的归因与C71评估均已归档；当前DALI额外候选已完成编辑与核心资格检查，并启动一个固定2000-update的实际factual transfer；完成状态以随附快照为准。
 
-## 新的反证实验已完成
+## 编辑协议检查闭合
 
-从既有C88响应残差提出“时间聚合是否看不见行动顺序”的假设。四个冻结模型、64条原开发轨迹、三个固定块顺序编辑加identity，0训练。实际原生MTS3抽象包含时间戳：重排行动可改变表示约0.275–0.702，而一起重排行动/时间戳只产生约1.79e−7数值差。四个基础预测均与旧数组逐位相同。全部24个非identity格都好于无响应参照，否定了朴素的顺序盲假设。
+实际执行5个固定版本原生记录函数、18个routing-fixture case，独立核验2754项。原生broadcast context下三个入口的名义编辑没有改变context；一个索引表达式会改时间槽而非命名维度；dataset入口生成随时间变号的context编辑。旧dreams入口提供了正确坐标/固定尺度反例，不能把问题推广为全部源代码或原论文实验失效。
 
-[完整结果与归因](action_order_probe_20261023_v1/outputs_recovery_v1/experimental_results.md) · [256个独立指标检查](action_order_probe_20261023_v1/outputs_recovery_v1/VERIFICATION_V1.json) · [冻结协议](action_order_probe_20261023_v1/PROTOCOL.md)。第一次模拟前缀校验失败和数值接续修复独立保存，没有重训、换动作、调门槛或打开reserved EVAL。
+普通显式轴/外部尺度/固定序列偏移控制9个case通过。这不是新的world-model方法，也没有修复或验证全部root、动作时序和物理语义。路由spy不是训练好的模型。
 
-剩余行动响应误差不等于一个新的信息瓶颈；一颗seed、1000原始更新和开发数据不足以唯一归因。普通时间对齐修复已解决的anticipation问题不重新立项。原Electricity、spring和timing方法路线保持关闭。
+[完整执行和研究判断](mechanism_edit_20261023_v1/experimental_results.md) · [独立核验](mechanism_edit_20261023_v1/editor_contract_recovery_v1/VERIFICATION_V1.json) · [固定协议](mechanism_edit_20261023_v1/SOURCE_EDITOR_CONTRACT_PROTOCOL_V1.md)。
 
-## 最近文献与下一候选
+## 原生完整模型核心资格
 
-[15项检索、10项重点来源](action_order_probe_20261023_v1/literature_search/papers.md)确认：条件行动激励、干预保真、支持相关分歧、order-aware压缩已有很近的研究。泛称“world model不确定性”或添加signature没有直接新颖性。
+本次CPU核心状态：`PASSED_WITH_DECLARED_EMPTY_CLASS_NA_DIAGNOSTICS`。采用原Config、WorldModel类以及原nets/jaxutils/ninjax，完整context/RSSM/decoder/原生目标与优化器，没有用小型替代模型冒充。另有一个实际2000-update factual transfer已经按独立协议启动，发布时的完成状态见[快照](mechanism_edit_20261023_v1/FACTUAL_RUN_SNAPSHOT_V1.json)。具体资格调用次数、编译/运行时间、空类别N/A、原错误与恢复见报告。它仍不是原RL训练、factual competence或物理编辑评估。
 
-保留一个待资格检查的问题：**同一latent context编辑，能否在不同初始状态和后续行动下，由一个固定的真实动力学参数变化解释？** 它来自之前未执行的DALI线索，不是本轮已证明的失败。需要先有准确的原生模型、初始状态保真和跨query固定机制测试，并排除普通manifold/projection/deep-conditioning控制。
+## 当前候选与下一步
 
-DALI官方pin5ca393468defffe79e4e3537ba9766f6d31b510b已核查，当前tree/release未找到checkpoint文件或发布资产；既有服务器runtime没有JAX/JAXlib/MuJoCo/DM-Control，也没有WSL可执行文件。原生训练尚未运行，这些是可行性准备事实，不是模型失败或最终阻塞。[机器可读资格记录](action_order_probe_20261023_v1/DALI_FEASIBILITY_CURATED_V1.json)。
+问题仍是：同一latent context编辑能否对应一个跨root和action复用的固定机制变化？本轮只排除了若干查询错误，尚无训练充分模型的失败或方法收益证据。下一项是实际factual学习/rollout资格门槛，再执行正确的固定机制检验，不能把接口修复包装成创新。
 
-只发布紧凑源码、配置、错误凭据、指标及研究报告；原数据、状态、预测与权重留服务器G数据盘，未同步本地。当前没有得到满足新颖性和最小方法验证要求的最终方向。
+[文献版本边界](mechanism_edit_20261023_v1/LITERATURE_VERSION_ADDENDUM_V1.md)还确认：PokeWorld旧版的drag功能盲区不能作为当前结论；因果abstraction/intervention-map本身也已有先行工作。
+
+保留所有旧文件和失败凭据，仅发布紧凑源码、配置、日志摘要、指标与报告。数据、权重、环境和路由张量留服务器G存储，没有同步本地，没有修改OS/驱动或共享环境。

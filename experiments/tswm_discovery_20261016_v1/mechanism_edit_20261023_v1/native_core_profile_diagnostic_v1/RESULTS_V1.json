@@ -1,0 +1,58 @@
+{
+  "status": "NATIVE_WORLD_MODEL_CPU_CORE_EXECUTED_THREE_DISCARDED_UPDATES",
+  "source_revision": "5ca393468defffe79e4e3537ba9766f6d31b510b",
+  "seconds": [
+    120.45125649997499,
+    118.92607410007622,
+    0.8772890999680385
+  ],
+  "trace_counts": [
+    {
+      "before": 0,
+      "after": 1
+    },
+    {
+      "before": 1,
+      "after": 2
+    },
+    {
+      "before": 2,
+      "after": 2
+    }
+  ],
+  "third_call_retraced": false,
+  "unavailable_empty_class_metrics": [
+    [
+      "cont_neg_acc",
+      "cont_neg_loss",
+      "reward_pos_acc",
+      "reward_pos_loss"
+    ],
+    [
+      "cont_neg_acc",
+      "cont_neg_loss",
+      "reward_pos_acc",
+      "reward_pos_loss"
+    ],
+    [
+      "cont_neg_acc",
+      "cont_neg_loss",
+      "reward_pos_acc",
+      "reward_pos_loss"
+    ]
+  ],
+  "second_update_parameter_max_abs_change": 0.0001003611832857132,
+  "initial_failed_profile_qualification_updates": 1,
+  "non_optimizer_array_parameter_elements": 17052480,
+  "parameter_count_definition": "all flat registered arrays excluding paths containing model_opt",
+  "qualified_optimizer_updates": 3,
+  "scientific_fit_count": 0,
+  "trained_model_saved": false,
+  "physical_fidelity_evaluated": false,
+  "full_rl_or_paper_reproduction": false,
+  "source_files_unchanged": true,
+  "protocol_sha256": "ca05c812226a76199680a8f758a992d0090c5a03014e306cd8f983e55e497bb8",
+  "metric_domain_recovery_sha256": "9a0dfa31ca64e5ca25758d01910d0c7712264a4411461420e48fca2c25a20ec6",
+  "jit_timing_addendum_sha256": "03e0805f77b2096c1989cbe57236f9bc93c71d8165b4fb5730a45c36f3ba3c0e",
+  "backend_diagnostic_sha256": "0326073a395a83878bccd08e6bc152021a5f5e07df218bf2244e703127595275"
+}

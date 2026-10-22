@@ -1,0 +1,22 @@
+{
+  "status": "ISOLATED_JAX_CPU_READY",
+  "smoke": {
+    "jax": "0.4.35",
+    "jaxlib": "0.4.35",
+    "numpy": "1.26.4",
+    "devices": [
+      "TFRT_CPU_0"
+    ]
+  },
+  "packages": [
+    "jax==0.4.35",
+    "jaxlib==0.4.35",
+    "numpy==1.26.4",
+    "scipy==1.13.1",
+    "ml_dtypes==0.5.1",
+    "opt_einsum==3.4.0"
+  ],
+  "utc": "2026-10-22T20:21:08.421210+00:00",
+  "full_dali_dependencies_installed": false,
+  "model_executed": false
+}

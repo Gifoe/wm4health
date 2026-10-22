@@ -1,0 +1,645 @@
+{
+  "wm/cont/dist_out/out/bias": {
+    "shape": [
+      1
+    ],
+    "dtype": "float32"
+  },
+  "wm/cont/dist_out/out/kernel": {
+    "shape": [
+      512,
+      1
+    ],
+    "dtype": "float32"
+  },
+  "wm/cont/h0/kernel": {
+    "shape": [
+      1544,
+      512
+    ],
+    "dtype": "float32"
+  },
+  "wm/cont/h0/norm/bias": {
+    "shape": [
+      512
+    ],
+    "dtype": "float32"
+  },
+  "wm/cont/h0/norm/scale": {
+    "shape": [
+      512
+    ],
+    "dtype": "float32"
+  },
+  "wm/cont/h1/kernel": {
+    "shape": [
+      512,
+      512
+    ],
+    "dtype": "float32"
+  },
+  "wm/cont/h1/norm/bias": {
+    "shape": [
+      512
+    ],
+    "dtype": "float32"
+  },
+  "wm/cont/h1/norm/scale": {
+    "shape": [
+      512
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/attn/key/bias": {
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/attn/key/kernel": {
+    "shape": [
+      256,
+      256
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/attn/out/bias": {
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/attn/out/kernel": {
+    "shape": [
+      256,
+      256
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/attn/query/bias": {
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/attn/query/kernel": {
+    "shape": [
+      256,
+      256
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/attn/value/bias": {
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/attn/value/kernel": {
+    "shape": [
+      256,
+      256
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/ctx_out/kernel": {
+    "shape": [
+      16384,
+      8
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/ctx_out/norm/bias": {
+    "shape": [
+      8
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/ctx_out/norm/scale": {
+    "shape": [
+      8
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/ff1/kernel": {
+    "shape": [
+      256,
+      256
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/ff1/norm/bias": {
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/ff1/norm/scale": {
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/ff2/kernel": {
+    "shape": [
+      256,
+      256
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/ff2/norm/bias": {
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/ff2/norm/scale": {
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/forward_h0/bias": {
+    "shape": [
+      128
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/forward_h0/kernel": {
+    "shape": [
+      26,
+      128
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/forward_h1/bias": {
+    "shape": [
+      128
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/forward_h1/kernel": {
+    "shape": [
+      128,
+      128
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/forward_out/bias": {
+    "shape": [
+      16
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/forward_out/kernel": {
+    "shape": [
+      128,
+      16
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/norm1/bias": {
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/norm1/scale": {
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/norm2/bias": {
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/norm2/scale": {
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/proj/kernel": {
+    "shape": [
+      18,
+      256
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/proj/norm/bias": {
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/proj/norm/scale": {
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/recon_ctxc/kernel": {
+    "shape": [
+      1536,
+      8
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/recon_ctxc/norm/bias": {
+    "shape": [
+      8
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/recon_ctxc/norm/scale": {
+    "shape": [
+      8
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/recon_wm/bias": {
+    "shape": [
+      1536
+    ],
+    "dtype": "float32"
+  },
+  "wm/ctx_enc/recon_wm/kernel": {
+    "shape": [
+      8,
+      1536
+    ],
+    "dtype": "float32"
+  },
+  "wm/dec/mlp/dist_obs/out/bias": {
+    "shape": [
+      16
+    ],
+    "dtype": "float32"
+  },
+  "wm/dec/mlp/dist_obs/out/kernel": {
+    "shape": [
+      1024,
+      16
+    ],
+    "dtype": "float32"
+  },
+  "wm/dec/mlp/h0/kernel": {
+    "shape": [
+      1544,
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/dec/mlp/h0/norm/bias": {
+    "shape": [
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/dec/mlp/h0/norm/scale": {
+    "shape": [
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/dec/mlp/h1/kernel": {
+    "shape": [
+      1024,
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/dec/mlp/h1/norm/bias": {
+    "shape": [
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/dec/mlp/h1/norm/scale": {
+    "shape": [
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/dec/mlp/h2/kernel": {
+    "shape": [
+      1024,
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/dec/mlp/h2/norm/bias": {
+    "shape": [
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/dec/mlp/h2/norm/scale": {
+    "shape": [
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/dec/mlp/h3/kernel": {
+    "shape": [
+      1024,
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/dec/mlp/h3/norm/bias": {
+    "shape": [
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/dec/mlp/h3/norm/scale": {
+    "shape": [
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/dec/mlp/h4/kernel": {
+    "shape": [
+      1024,
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/dec/mlp/h4/norm/bias": {
+    "shape": [
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/dec/mlp/h4/norm/scale": {
+    "shape": [
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/enc/mlp/h0/kernel": {
+    "shape": [
+      16,
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/enc/mlp/h0/norm/bias": {
+    "shape": [
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/enc/mlp/h0/norm/scale": {
+    "shape": [
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/enc/mlp/h1/kernel": {
+    "shape": [
+      1024,
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/enc/mlp/h1/norm/bias": {
+    "shape": [
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/enc/mlp/h1/norm/scale": {
+    "shape": [
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/enc/mlp/h2/kernel": {
+    "shape": [
+      1024,
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/enc/mlp/h2/norm/bias": {
+    "shape": [
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/enc/mlp/h2/norm/scale": {
+    "shape": [
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/enc/mlp/h3/kernel": {
+    "shape": [
+      1024,
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/enc/mlp/h3/norm/bias": {
+    "shape": [
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/enc/mlp/h3/norm/scale": {
+    "shape": [
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/enc/mlp/h4/kernel": {
+    "shape": [
+      1024,
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/enc/mlp/h4/norm/bias": {
+    "shape": [
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/enc/mlp/h4/norm/scale": {
+    "shape": [
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/model_opt/state": {
+    "type": "tuple"
+  },
+  "wm/model_opt/step/value": {
+    "shape": [],
+    "dtype": "int32"
+  },
+  "wm/rew/dist_out/out/bias": {
+    "shape": [
+      255
+    ],
+    "dtype": "float32"
+  },
+  "wm/rew/dist_out/out/kernel": {
+    "shape": [
+      512,
+      255
+    ],
+    "dtype": "float32"
+  },
+  "wm/rew/h0/kernel": {
+    "shape": [
+      1544,
+      512
+    ],
+    "dtype": "float32"
+  },
+  "wm/rew/h0/norm/bias": {
+    "shape": [
+      512
+    ],
+    "dtype": "float32"
+  },
+  "wm/rew/h0/norm/scale": {
+    "shape": [
+      512
+    ],
+    "dtype": "float32"
+  },
+  "wm/rew/h1/kernel": {
+    "shape": [
+      512,
+      512
+    ],
+    "dtype": "float32"
+  },
+  "wm/rew/h1/norm/bias": {
+    "shape": [
+      512
+    ],
+    "dtype": "float32"
+  },
+  "wm/rew/h1/norm/scale": {
+    "shape": [
+      512
+    ],
+    "dtype": "float32"
+  },
+  "wm/rssm/gru/kernel": {
+    "shape": [
+      1024,
+      1536
+    ],
+    "dtype": "float32"
+  },
+  "wm/rssm/gru/norm/bias": {
+    "shape": [
+      1536
+    ],
+    "dtype": "float32"
+  },
+  "wm/rssm/gru/norm/scale": {
+    "shape": [
+      1536
+    ],
+    "dtype": "float32"
+  },
+  "wm/rssm/img_in/kernel": {
+    "shape": [
+      1034,
+      512
+    ],
+    "dtype": "float32"
+  },
+  "wm/rssm/img_in/norm/bias": {
+    "shape": [
+      512
+    ],
+    "dtype": "float32"
+  },
+  "wm/rssm/img_in/norm/scale": {
+    "shape": [
+      512
+    ],
+    "dtype": "float32"
+  },
+  "wm/rssm/img_out/kernel": {
+    "shape": [
+      512,
+      512
+    ],
+    "dtype": "float32"
+  },
+  "wm/rssm/img_out/norm/bias": {
+    "shape": [
+      512
+    ],
+    "dtype": "float32"
+  },
+  "wm/rssm/img_out/norm/scale": {
+    "shape": [
+      512
+    ],
+    "dtype": "float32"
+  },
+  "wm/rssm/img_stats/bias": {
+    "shape": [
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/rssm/img_stats/kernel": {
+    "shape": [
+      512,
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/rssm/initial": {
+    "shape": [
+      512
+    ],
+    "dtype": "float32"
+  },
+  "wm/rssm/obs_out/kernel": {
+    "shape": [
+      1536,
+      512
+    ],
+    "dtype": "float32"
+  },
+  "wm/rssm/obs_out/norm/bias": {
+    "shape": [
+      512
+    ],
+    "dtype": "float32"
+  },
+  "wm/rssm/obs_out/norm/scale": {
+    "shape": [
+      512
+    ],
+    "dtype": "float32"
+  },
+  "wm/rssm/obs_stats/bias": {
+    "shape": [
+      1024
+    ],
+    "dtype": "float32"
+  },
+  "wm/rssm/obs_stats/kernel": {
+    "shape": [
+      512,
+      1024
+    ],
+    "dtype": "float32"
+  }
+}

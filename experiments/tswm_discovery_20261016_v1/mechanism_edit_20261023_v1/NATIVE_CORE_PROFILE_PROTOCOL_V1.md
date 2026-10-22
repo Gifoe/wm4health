@@ -1,0 +1,11 @@
+# Native DALI WorldModel CPU feasibility gate
+
+The source-editor preflight used routing spies and did not run a learned world model. The next gate executes the unmodified native WorldModel core, including context Transformer, categorical RSSM, decoder, forward/crossmodal context objectives and its native optimizer. It does not stand in for a fitted DALI model or original RL reproduction.
+
+Use pinned source5ca393468defffe79e4e3537ba9766f6d31b510b, original Config/WorldModel class bodies and full native nets/jaxutils/ninjax modules. Isolate imports of the model core from the environment, policy and logging stack, documenting this extraction. Use the original ruamel YAML parser and native Config.update semantics. Resolve defaults + carl + enc_obs_dec_obs_ctxencoder_transformer_grssm, with crossmodal=True. Preserve original architecture widths, state dimensions and batch-length64; reduce batch size to1 for this timing gate. CPU compute is float32. No actor/critic, environment interaction or CUDA performance claim.
+
+Only the first TRAIN trajectory's first64 standardized16-channel observations and two actions from C88 are used as a shape/gradient fixture. Record its data hash. Reward0 and continuation1 are profiling placeholders, not supervised scientific outcomes. Do not read validation/EVAL. Record the native inferred-context route; no true hidden state or system parameter is provided.
+
+Compile and execute two native optimizer updates, record compilation and subsequent-call wall times, parameter registration counts and finite state/scalar metrics. These two updates are discarded qualification work, not a fitted scientific baseline, hyperparameter selection or effect experiment. No inference about physical fidelity is licensed. The exact recipe must still pass a separate factual-rollout competence gate before any mechanism-edit test.
+
+A parent enforces a predeclared600-second process-tree limit for this compile/timing gate; timeout means the CPU preflight is incomplete under this resource bound, not that the model fails scientifically. Inspect the actual child and receipt while live. Never restart on an observation timeout. Preserve errors, immutable source hashes and all prior work. No OS/driver changes or shared-runtime modifications.

@@ -1,0 +1,32 @@
+{
+  "command": [
+    "D:\\tswm_discovery_20261016_v1\\mechanism_edit_20261023_v1\\.venv_editor_cpu\\Scripts\\python.exe",
+    "-m",
+    "pip",
+    "install",
+    "--only-binary=:all:",
+    "--timeout",
+    "30",
+    "--retries",
+    "2",
+    "jax==0.4.35",
+    "jaxlib==0.4.35",
+    "numpy==1.26.4",
+    "optax==0.2.3",
+    "chex==0.1.87",
+    "tensorflow_probability==0.24.0",
+    "dm-tree==0.1.8",
+    "PyYAML==6.0.2"
+  ],
+  "packages": [
+    "jax==0.4.35",
+    "jaxlib==0.4.35",
+    "numpy==1.26.4",
+    "optax==0.2.3",
+    "chex==0.1.87",
+    "tensorflow_probability==0.24.0",
+    "dm-tree==0.1.8",
+    "PyYAML==6.0.2"
+  ],
+  "scope": "native WorldModel core; no environment/policy stack"
+}

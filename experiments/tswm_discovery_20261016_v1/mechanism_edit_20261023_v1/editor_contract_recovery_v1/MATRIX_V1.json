@@ -1,0 +1,30 @@
+{
+  "source_revision": "5ca393468defffe79e4e3537ba9766f6d31b510b",
+  "fixtures": [
+    "native_broadcast",
+    "axis_only_non_native"
+  ],
+  "batches_by_variant": {
+    "default": [
+      1,
+      2
+    ],
+    "obs_dataset": [
+      10
+    ]
+  },
+  "input_lengths_by_variant": {
+    "default": 64,
+    "obs_dataset": 65
+  },
+  "time": 64,
+  "context_dimensions": 8,
+  "selected_dimension": 6,
+  "seed": 20261023,
+  "protocol_sha256": "f4841888705abffad91da3f41eac7dc005669f93da4c531383bd77a3a2b1fa74",
+  "axis_fixture_addendum_sha256": "0d9e5d7a082105676959a5fb7924479f1be91c058e34a7ae088ea6b382625b02",
+  "recovery_contract_sha256": "8254dab1c27eee708046afa4ac2b9dfa9d27268433c5db97622d8d349349cfaa",
+  "learned_models_executed": false,
+  "optimizer_updates": 0,
+  "source_extraction": "unmodified original _wrap_dream_agent AST; native ninjax pure/RNG; video identity spy"
+}

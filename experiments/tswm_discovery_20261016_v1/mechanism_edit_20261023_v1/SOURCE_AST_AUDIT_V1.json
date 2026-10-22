@@ -1,0 +1,4333 @@
+{
+  "status": "PINNED_DALI_SOURCE_EXTRACTED_AND_AST_AUDITED",
+  "utc": "2026-10-22T20:16:30.165339+00:00",
+  "source_revision": "5ca393468defffe79e4e3537ba9766f6d31b510b",
+  "source_root": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\caches\\mechanism_edit_20261023_v1\\source",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241",
+      "bytes": 1056
+    },
+    {
+      "path": "README.md",
+      "sha256": "c22a765c50547e4e7e6bf010d1a8ec465b84c65c7c8e7c2a6fe40a2a60706cef",
+      "bytes": 3685
+    },
+    {
+      "path": "anaylsis/neurips_plots.py",
+      "sha256": "204bbef36cab7c1c54a28afb88f87cc07245ccab90b012c7efc8a352157499a2",
+      "bytes": 17463
+    },
+    {
+      "path": "anaylsis/plot_rliable.py",
+      "sha256": "33fbb274dd7953eeea4952177e4d384b701e6bb79f0e3720111a4df0002a8996",
+      "bytes": 24084
+    },
+    {
+      "path": "anaylsis/utils.py",
+      "sha256": "5c8856852b3c3e9370cae08d335537e9e7673013130639f732b841a22247fd17",
+      "bytes": 1657
+    },
+    {
+      "path": "contextual_mbrl/baseline/configs.yaml",
+      "sha256": "73214a3c440e7e4d35c67021ac3092ce27731f4cc27f4c6a16b6229073f0512a",
+      "bytes": 255
+    },
+    {
+      "path": "contextual_mbrl/baseline/envs.py",
+      "sha256": "cdeb3689b74c0d12e058c667c1139cf1fe5408a8ec117cfd58579fa1b6731b87",
+      "bytes": 9102
+    },
+    {
+      "path": "contextual_mbrl/baseline/eval.py",
+      "sha256": "6a55e591330272015460da32360d770c8870e679c365e7a41e11e36c54985334",
+      "bytes": 2325
+    },
+    {
+      "path": "contextual_mbrl/baseline/model.py",
+      "sha256": "1e7f8def04df11237ed2d0782acd9842d7016f898719d14824190be9800fc0ff",
+      "bytes": 2958
+    },
+    {
+      "path": "contextual_mbrl/baseline/train.py",
+      "sha256": "565d6acb344c68adb0545ab6647099ec44587ee7277fc1f69ebf0a0297142c19",
+      "bytes": 1505
+    },
+    {
+      "path": "contextual_mbrl/dreamer/configs.yaml",
+      "sha256": "57b52e256b90fff4434c09b1f7f27ab2f51a9705dab819a19ff164798e2c3bfb",
+      "bytes": 17911
+    },
+    {
+      "path": "contextual_mbrl/dreamer/envs.py",
+      "sha256": "addce4da3018b4e8127f26ff0efbc0d096327fa50f4a3459813e1ae1e564d4dc",
+      "bytes": 21096
+    },
+    {
+      "path": "contextual_mbrl/dreamer/eval.py",
+      "sha256": "dfa8a9d8279191faf9d93f23efa532e934ec6385a072a654a094c695d5f81941",
+      "bytes": 4245
+    },
+    {
+      "path": "contextual_mbrl/dreamer/eval_record.py",
+      "sha256": "8c7879763ad6c9301be466fecf4d3a4ff7c38912dc9080c8a080f06ba21f19bd",
+      "bytes": 5083
+    },
+    {
+      "path": "contextual_mbrl/dreamer/record_context.py",
+      "sha256": "08edc0d7464b42414e4b128216be09e4dc33903b0a104f46be06a19268c51339",
+      "bytes": 10293
+    },
+    {
+      "path": "contextual_mbrl/dreamer/record_counterfactual_dreams.py",
+      "sha256": "a01b94de611b8d950f3e6cac61dde5404b123df7cd5344a620c8db64794bd9ef",
+      "bytes": 10368
+    },
+    {
+      "path": "contextual_mbrl/dreamer/record_counterfactual_plausibility.py",
+      "sha256": "aa37e9b67d2649fcb4513104700e7ae1597d7aa2803956844e6503c446118361",
+      "bytes": 7150
+    },
+    {
+      "path": "contextual_mbrl/dreamer/record_counterfactual_plausibility_action.py",
+      "sha256": "8866e8364d996941741bf0467bd9fc603dbe81922c4979af00840644b2eb1505",
+      "bytes": 7891
+    },
+    {
+      "path": "contextual_mbrl/dreamer/record_counterfactual_plausibility_obs.py",
+      "sha256": "6847970e7e64095cba056032496684f74128ecce0e46470be9a44b4f37386bf0",
+      "bytes": 10611
+    },
+    {
+      "path": "contextual_mbrl/dreamer/record_counterfactual_plausibility_obs_dataset.py",
+      "sha256": "58941e33cdfceea7429a9ed6f6c5f9e4e58828961ab8fe229411d4bd75bcd0cf",
+      "bytes": 7210
+    },
+    {
+      "path": "contextual_mbrl/dreamer/record_dreams.py",
+      "sha256": "08f020254db2c097b5feced698fc01d9bff90680e48e360630778cfe12be5fcf",
+      "bytes": 10722
+    },
+    {
+      "path": "contextual_mbrl/dreamer/record_latent_traversal.py",
+      "sha256": "ef65224fba3343b0e675823c1cfc55c0f72530886584f5906a8eb39d2f125441",
+      "bytes": 11236
+    },
+    {
+      "path": "contextual_mbrl/dreamer/record_latents.py",
+      "sha256": "5510275c6f6180805bac861a5eab46467657907586c58d7410ebafad6e387c94",
+      "bytes": 8579
+    },
+    {
+      "path": "contextual_mbrl/dreamer/train.py",
+      "sha256": "f02eb8eddbf052463140cba248e0bf315bf64cb998a1e95ff404f81ec839eeba",
+      "bytes": 7189
+    },
+    {
+      "path": "dreamerv3_compat/.gitignore",
+      "sha256": "e11d7d36ed99d2d55246272639c74941df5537821bbe3de9bdbec56d8bfab1f1",
+      "bytes": 83
+    },
+    {
+      "path": "dreamerv3_compat/LICENSE",
+      "sha256": "036c72af77ef8efef33d75b48bd521a1bba3e1d8c6aef80bebe872812f047fa8",
+      "bytes": 1058
+    },
+    {
+      "path": "dreamerv3_compat/MANIFEST.in",
+      "sha256": "1d552db7a3575fc7c9d3333a9f85e3d3268a3fee51531f9427152541bfa94720",
+      "bytes": 121
+    },
+    {
+      "path": "dreamerv3_compat/README.md",
+      "sha256": "9a565023e209ffabf63ff55152640790cdd6e5c72289ad5049fa53c0a4c92d4b",
+      "bytes": 5772
+    },
+    {
+      "path": "dreamerv3_compat/__init__.py",
+      "sha256": "120090a83757656014a28cf3840ffdfa5439ada60d9aa842cbbf257c2c15f71c",
+      "bytes": 54
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/Dockerfile",
+      "sha256": "89dd44f8076bd9dbaa9d5cedc0566e5357fba6ea615c8acbf3d2af775cef498b",
+      "bytes": 1933
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/__init__.py",
+      "sha256": "b8e8aa9fc8555af0a6c74c765ab5d3e2bda4c108fdcaa59877978bcad483da8d",
+      "bytes": 158
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/agent.py",
+      "sha256": "886ea92a56d658f24445fcda79040dd02e7d6822d0bcf389dfa97446f061adfa",
+      "bytes": 27632
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/behaviors.py",
+      "sha256": "31a18a1e158ba422b2e57d2dce41f059121be927b550a0c563fe25438bd5a24f",
+      "bytes": 2825
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/configs.yaml",
+      "sha256": "198ef76a674a1a825ba0db154e98eee08dd194f694160af521bd48c9ffe8dc4d",
+      "bytes": 7487
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/__init__.py",
+      "sha256": "9db2b8ac9e5e7da493512e12f49602e05c4afc53a1a1c7a58fe58423bf7de1dc",
+      "bytes": 163
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/__init__.py",
+      "sha256": "16096b6ffebb32294fed8d2fe441b8896883d1ec18f6d573a1d03a46ffa55b72",
+      "bytes": 747
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/base.py",
+      "sha256": "e745a5ef47c83bcdb525198422e6d5593780d7904c579f33be93f051d94de299",
+      "bytes": 2873
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/basics.py",
+      "sha256": "353bdccf1963f92cd85cf91a3739a4fc5675fae02db85a26b74b2797dd16b72c",
+      "bytes": 4676
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/batch.py",
+      "sha256": "adaa7f30f843dbcbf7225bcc52f267603aeb1ba0e06e84df2db6ca0497a423ce",
+      "bytes": 1077
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/batcher.py",
+      "sha256": "f42b5c7475cbdcea5f0f56e437938cfe32967c2d9ce989eb1b3c32e0ab141a66",
+      "bytes": 3024
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/checkpoint.py",
+      "sha256": "7a3bb63e1fd5968933f51149a7c10fa9988f8d202eadf0f37faa753bb5754961",
+      "bytes": 3078
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/config.py",
+      "sha256": "f5f225ed9535b31ce0f5ce6545c98080545a08bf6ddaf4c790a7c6d5ab4fac48",
+      "bytes": 5954
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/counter.py",
+      "sha256": "fa5c42edb88c16845870b5dafafd22dd99c5d1457cbaed25757fc202b4047768",
+      "bytes": 783
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/distr.py",
+      "sha256": "ec25acfc5afff7c92f96020ab1a2b853788142cfaaa291ccc876b960c4dc625b",
+      "bytes": 6494
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/driver.py",
+      "sha256": "622bb94492b1eb96c0eafcedd0abc78784273409bcbeff2dc46ef832d4fac23a",
+      "bytes": 2457
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/flags.py",
+      "sha256": "a5996b463d6afbaf67281defed2279199bd72dacfe40cb893c0c1a0edad6f284",
+      "bytes": 3240
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/logger.py",
+      "sha256": "c466e5fd8733753a136a9c215d4c3374dd566d11939035306fee68204ae3d2ae",
+      "bytes": 10704
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/metrics.py",
+      "sha256": "23011de84fbdaeea1e953a3d66c8a311f6850720744e15e2dd17d0bfc619c6cc",
+      "bytes": 1077
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/parallel.py",
+      "sha256": "41c84e6f8ddf5eaebc440f7fbd0fe1be0dad24419ce0a1653bddb404e6b7bf2f",
+      "bytes": 1311
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/path.py",
+      "sha256": "81c1a30bed99017c537d0bdb24a6b6366e1f996bbf756724b137b2e3d02eab54",
+      "bytes": 5063
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/random.py",
+      "sha256": "57f0900c7c80edf770b2239bd5868947a38582149d84451de6bc2d3225a25e7c",
+      "bytes": 359
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/space.py",
+      "sha256": "ae9b6262f2b92092df8eb64082449192f99221583508016c32c6ada83efdb32a",
+      "bytes": 3211
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/timer.py",
+      "sha256": "bdbb9716cc1ab55b2e8767f486fbda809e7531efa7f05e82a351a42fed70bde6",
+      "bytes": 1878
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/uuid.py",
+      "sha256": "f078c2ceb5f07cefaa5a7864e4a550b0265103a7672306fa24786d6976e9c26d",
+      "bytes": 1977
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/when.py",
+      "sha256": "a37b5589efe94da23f782930a07e35de176116c1e5ca896a961a17e4d9b5ee0f",
+      "bytes": 1671
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/worker.py",
+      "sha256": "1a87dbd5522e8a6b89b6c8073b51f1cda32f2a02147a28ce45f96a0ed34655c8",
+      "bytes": 6440
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/wrappers.py",
+      "sha256": "fd7a9683eac351ff78d44ef455c174c50b3b496b654f6e5f380a590e40387605",
+      "bytes": 10496
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/atari.py",
+      "sha256": "dd3f44a853c9f058a404300091f6fdad5c52adc4a25f43bd18448b2389335cdc",
+      "bytes": 4317
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/crafter.py",
+      "sha256": "06022d98a7053ede1b32e0bc6d20e42ca255a824b5b01626504bf09ca38a49a0",
+      "bytes": 2162
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/dmc.py",
+      "sha256": "dfa52c45cb5c29e1128746d6cc47c195a5ba468d2583e5172a35796caaf0c4ed",
+      "bytes": 1959
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/dmlab.py",
+      "sha256": "907bf9bffd543629f8d524923f83cbe89607a4b3330e10476a38a3229fcb4002",
+      "bytes": 4499
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/dummy.py",
+      "sha256": "ecc7bbca1e47fe89f95708fc7a0e097366abc48953c14765efbfd55270e93b11",
+      "bytes": 1551
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/from_dm.py",
+      "sha256": "e27481564cc99ec0412dbbc8b1a3bbde21af11e7cf3fa4de469e215606c65857",
+      "bytes": 2820
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/from_gym.py",
+      "sha256": "e5fc9d62c7c4459554ca9ebef1c678f9cb0ceb42ed44bb1043349e3291013fb8",
+      "bytes": 4691
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/from_gymnasium.py",
+      "sha256": "c7d578da547a21674eee850ec880bc0b7a075f0cb00b37022ba65171aceea3b5",
+      "bytes": 4794
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/loconav.py",
+      "sha256": "b24734c568a608e8253a1bfa03019b29e992be89b23e97590bcf77e34700223a",
+      "bytes": 7945
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/loconav_quadruped.py",
+      "sha256": "c2ae65449a55b32c420514ef883c73261900b83a56993cc9e23a459642d0d678",
+      "bytes": 3790
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/loconav_quadruped.xml",
+      "sha256": "3dae8d0d4352dbd735122604adc82690c4cb14d98670815b319ed1b69e938162",
+      "bytes": 14193
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/minecraft.py",
+      "sha256": "2339c0e29733b957812d8c780c6cf5196878052e61a83fb5fe5318db6bb666f7",
+      "bytes": 4656
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/minecraft_base.py",
+      "sha256": "53300e989491f3364535e90a312f56a5fcd392f4209ba811090773b5167bdeeb",
+      "bytes": 6262
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/minecraft_minerl.py",
+      "sha256": "b719b575ee6695f6614fdc77ecfbfd967ab00d0dcf3ab9991ab775e7e989bc99",
+      "bytes": 4396
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/pinpad.py",
+      "sha256": "4189cf7ab6c396dd599c9b53cfdc2dd9835368e23b578dc3ce59422cc070ec09",
+      "bytes": 5401
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/robodesk.py",
+      "sha256": "b1e12482830b1288365c7524f0f7a89fc62600f94c3cc2773a6ce9a698ac089c",
+      "bytes": 967
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/replay/__init__.py",
+      "sha256": "85470284e1064a2ac7e59abc6b9c0a3329db3fa0490b6e93358d418111f08481",
+      "bytes": 170
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/replay/chunk.py",
+      "sha256": "eafa884e5765b9c38ba9b8a76de8b0b60860ac0c57a671c34bb8f6c61c96e0ff",
+      "bytes": 2358
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/replay/generic.py",
+      "sha256": "0da5ece9adf4aca5c17b5ac09340f8a67227ac8cfeaaa8120dc847d5864b3f12",
+      "bytes": 4920
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/replay/limiters.py",
+      "sha256": "d53648dabe420f361a7b52db9549847d267c91d3d675277b2209bcd8f93af30f",
+      "bytes": 2479
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/replay/naive_chunks.py",
+      "sha256": "b57c35e4e3348cfd8f63e515c800662a9f573ecfadef0568bc4b0a9b3d9bf231",
+      "bytes": 2554
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/replay/replays.py",
+      "sha256": "00c423059c4f2b38495b1e3a29551e75fe95aed57aeafa81358e48571c478b22",
+      "bytes": 740
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/replay/reverb.py",
+      "sha256": "191951f8e59e2fcc4c7c692cc5f63197e0762db3af4e597089a7e76789891a7b",
+      "bytes": 3695
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/replay/saver.py",
+      "sha256": "10211757d40635d54adccda1be0d537ba1c578c1832d730fc58a9932374317d6",
+      "bytes": 2118
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/replay/selectors.py",
+      "sha256": "91e7951125bc998135ed07b78e4616719904a80685ad845266d9e5be95a4bb12",
+      "bytes": 931
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/run/__init__.py",
+      "sha256": "d75040af846655d060968ed336f10c71f9245529108b494706801ac7e371f651",
+      "bytes": 200
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/run/eval_only.py",
+      "sha256": "b9b69989deef82f7df21736c0857cc4a48768945802b8d03bcd2d8e659e2840f",
+      "bytes": 1914
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/run/parallel.py",
+      "sha256": "a2786515bb2cf5c78e4fef5a83d66aa8ff80b5de2c2b777ae2fb8d3fc12f9f37",
+      "bytes": 5385
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/run/train.py",
+      "sha256": "e47fd3f7cfe548a2d6951290562bd3ff9fbe2e3676273f96c58ed15e8de2406b",
+      "bytes": 3881
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/run/train_eval.py",
+      "sha256": "f9084ac14ca45564b5b7de14d8b48fdd1c467ca0b6b0bf53d58cc95841c4bd13",
+      "bytes": 4783
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/run/train_holdout.py",
+      "sha256": "a267b4b21ae4b3ddf2c960af427dbd4861c53ff5711ec3929cefa3aca6f4e127",
+      "bytes": 4730
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/run/train_save.py",
+      "sha256": "c290fc4d0a544ce1c32a3b19ff7d3a897bda2f39233c9bf7cccf64bad9b0fe1c",
+      "bytes": 4576
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/scripts/install-atari.sh",
+      "sha256": "e8f8a0e52896c4980a8540cd956caf88faf5d503bfed4a685faa98b6caa2b782",
+      "bytes": 333
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/scripts/install-dmlab.sh",
+      "sha256": "e697b02a20f0df294293a5f6e055e27b21f4ab0aff11178ee95933a9ac135028",
+      "bytes": 1464
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/scripts/install-minecraft.sh",
+      "sha256": "61dc154a56c89de0cd7683658c139a00ff49e90367b59941425e2f57845efc26",
+      "bytes": 233
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/scripts/plot.py",
+      "sha256": "6660192bcda64723105b7007b2fde8d453958eaa2c2f5964af8af3deaebc08ed",
+      "bytes": 19801
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/scripts/xvfb_run.sh",
+      "sha256": "8354eeebb09b86aa1222f5cc47b6a7088b522b8c0c87d98708a12f6464b90628",
+      "bytes": 96
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/expl.py",
+      "sha256": "56913c11ea38ca9bfd67150340144ee7cd427b3eb9e7c2a4db715058483340b0",
+      "bytes": 1174
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/jaxagent.py",
+      "sha256": "e81f6f0eec3982acd275fc8474be8f920915f548a5c7b88546897302007ad1b1",
+      "bytes": 9287
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/jaxutils.py",
+      "sha256": "e9ffa22d7cbd51d069b05e389a0b88521dae8502cb1d3f72a061407ec39a2ff4",
+      "bytes": 16477
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/nets.py",
+      "sha256": "0233a0d7aedce5f137a29a5ce3b49d100db1c0d1322d1c8b6238e66235539b9d",
+      "bytes": 38932
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/ninjax.py",
+      "sha256": "f9786a23ca0795015994fa2a0380bfb2129e154d3677dd9429f667c7047df87e",
+      "bytes": 17826
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/train.py",
+      "sha256": "655af76915a5009a8a0066fa4a512e2b6ebe3b599b795d921648104679f43716",
+      "bytes": 7457
+    },
+    {
+      "path": "dreamerv3_compat/example.py",
+      "sha256": "d4cd593c45b08a92891503b72e085ee72b8701251a466dac392d2e38b8bbcd49",
+      "bytes": 2180
+    },
+    {
+      "path": "dreamerv3_compat/requirements.txt",
+      "sha256": "fdc57429aa9fab18a4363219a475686a0abd3bb8b485301af5c93ff7eae5a522",
+      "bytes": 449
+    },
+    {
+      "path": "dreamerv3_compat/scores/clean.py",
+      "sha256": "1b8dbaed4c32dc3f2a7de1b7f3d2862cf15bf32fb6e19c6490c74f12745192ca",
+      "bytes": 1486
+    },
+    {
+      "path": "dreamerv3_compat/scores/plot.py",
+      "sha256": "21615b1a2e25b9f4584500ed34d35a1c9ddc6aa530f78684030d201a89719ade",
+      "bytes": 5450
+    },
+    {
+      "path": "dreamerv3_compat/scores/view.py",
+      "sha256": "da9482af08f1dfe6c90c1dc400211764bc93186762b7936284092c037ff04da9",
+      "bytes": 817
+    },
+    {
+      "path": "dreamerv3_compat/setup.py",
+      "sha256": "514d07929022dcebca9007c97c829877df6c4c90c38a1640a69c5671b1a5595e",
+      "bytes": 812
+    },
+    {
+      "path": "local_scripts/ball_in_cup_expert_local.sh",
+      "sha256": "240e8c4198d6ec806c96801b27692566b2a5bbbe11e485ca848deb5cb6e7a1c1",
+      "bytes": 1569
+    },
+    {
+      "path": "local_scripts/main_local.sh",
+      "sha256": "7e010e5ba6581603375e0d277f10b7ee09acf5a50e6e9d4cd42ce51dd2c9913a",
+      "bytes": 2375
+    },
+    {
+      "path": "local_scripts/walker_expert_local.sh",
+      "sha256": "23763795be192acc3b03c468907aff6c3bc08b3614f1f3899ef8977121898b22",
+      "bytes": 1552
+    },
+    {
+      "path": "setup.py",
+      "sha256": "209accfeef4c94747d127e25a81a260e19a43135f9bb1bb288a80b188430f6fc",
+      "bytes": 131
+    }
+  ],
+  "classes": [
+    {
+      "path": "contextual_mbrl/baseline/envs.py",
+      "name": "ContextWrapper",
+      "line": 151,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 152
+        },
+        {
+          "name": "observation",
+          "line": 178
+        },
+        {
+          "name": "step",
+          "line": 185
+        },
+        {
+          "name": "reset",
+          "line": 198
+        }
+      ]
+    },
+    {
+      "path": "contextual_mbrl/dreamer/envs.py",
+      "name": "CARLBipedalWalkerNew",
+      "line": 273,
+      "methods": [
+        {
+          "name": "get_default_context",
+          "line": 275
+        }
+      ]
+    },
+    {
+      "path": "contextual_mbrl/dreamer/envs.py",
+      "name": "NormalizeContextWrapper",
+      "line": 315,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 347
+        },
+        {
+          "name": "reset",
+          "line": 374
+        },
+        {
+          "name": "step",
+          "line": 384
+        },
+        {
+          "name": "_normalize_context",
+          "line": 389
+        }
+      ]
+    },
+    {
+      "path": "contextual_mbrl/dreamer/envs.py",
+      "name": "RandomizedRoundRobinSelector",
+      "line": 395,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 402
+        },
+        {
+          "name": "_select",
+          "line": 406
+        }
+      ]
+    },
+    {
+      "path": "contextual_mbrl/dreamer/envs.py",
+      "name": "ResizeImage",
+      "line": 416,
+      "methods": [
+        {
+          "name": "_resize",
+          "line": 419
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/agent.py",
+      "name": "CheckTypesFilter",
+      "line": 18,
+      "methods": [
+        {
+          "name": "filter",
+          "line": 19
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/agent.py",
+      "name": "Agent",
+      "line": 37,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 43
+        },
+        {
+          "name": "policy_initial",
+          "line": 62
+        },
+        {
+          "name": "train_initial",
+          "line": 72
+        },
+        {
+          "name": "policy",
+          "line": 75
+        },
+        {
+          "name": "train",
+          "line": 136
+        },
+        {
+          "name": "report",
+          "line": 166
+        },
+        {
+          "name": "preprocess",
+          "line": 178
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/agent.py",
+      "name": "WorldModel",
+      "line": 192,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 194
+        },
+        {
+          "name": "initial",
+          "line": 231
+        },
+        {
+          "name": "train",
+          "line": 236
+        },
+        {
+          "name": "loss",
+          "line": 245
+        },
+        {
+          "name": "imagine",
+          "line": 390
+        },
+        {
+          "name": "report",
+          "line": 424
+        },
+        {
+          "name": "_metrics",
+          "line": 489
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/agent.py",
+      "name": "ImagActorCritic",
+      "line": 509,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 511
+        },
+        {
+          "name": "initial",
+          "line": 539
+        },
+        {
+          "name": "policy",
+          "line": 542
+        },
+        {
+          "name": "train",
+          "line": 555
+        },
+        {
+          "name": "loss",
+          "line": 574
+        },
+        {
+          "name": "_metrics",
+          "line": 599
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/agent.py",
+      "name": "VFunction",
+      "line": 615,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 617
+        },
+        {
+          "name": "train",
+          "line": 630
+        },
+        {
+          "name": "loss",
+          "line": 637
+        },
+        {
+          "name": "score",
+          "line": 656
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/behaviors.py",
+      "name": "Greedy",
+      "line": 10,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 12
+        },
+        {
+          "name": "initial",
+          "line": 21
+        },
+        {
+          "name": "policy",
+          "line": 24
+        },
+        {
+          "name": "train",
+          "line": 27
+        },
+        {
+          "name": "report",
+          "line": 30
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/behaviors.py",
+      "name": "Random",
+      "line": 34,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 36
+        },
+        {
+          "name": "initial",
+          "line": 40
+        },
+        {
+          "name": "policy",
+          "line": 43
+        },
+        {
+          "name": "train",
+          "line": 53
+        },
+        {
+          "name": "report",
+          "line": 56
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/behaviors.py",
+      "name": "Explore",
+      "line": 60,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 66
+        },
+        {
+          "name": "initial",
+          "line": 85
+        },
+        {
+          "name": "policy",
+          "line": 88
+        },
+        {
+          "name": "train",
+          "line": 91
+        },
+        {
+          "name": "report",
+          "line": 100
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/base.py",
+      "name": "Agent",
+      "line": 1,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 5
+        },
+        {
+          "name": "dataset",
+          "line": 8
+        },
+        {
+          "name": "policy",
+          "line": 12
+        },
+        {
+          "name": "train",
+          "line": 16
+        },
+        {
+          "name": "report",
+          "line": 20
+        },
+        {
+          "name": "save",
+          "line": 24
+        },
+        {
+          "name": "load",
+          "line": 27
+        },
+        {
+          "name": "sync",
+          "line": 30
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/base.py",
+      "name": "Env",
+      "line": 36,
+      "methods": [
+        {
+          "name": "__len__",
+          "line": 38
+        },
+        {
+          "name": "__bool__",
+          "line": 41
+        },
+        {
+          "name": "__repr__",
+          "line": 44
+        },
+        {
+          "name": "obs_space",
+          "line": 52
+        },
+        {
+          "name": "act_space",
+          "line": 59
+        },
+        {
+          "name": "step",
+          "line": 64
+        },
+        {
+          "name": "render",
+          "line": 67
+        },
+        {
+          "name": "close",
+          "line": 70
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/base.py",
+      "name": "Wrapper",
+      "line": 74,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 76
+        },
+        {
+          "name": "__len__",
+          "line": 79
+        },
+        {
+          "name": "__bool__",
+          "line": 82
+        },
+        {
+          "name": "__getattr__",
+          "line": 85
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/base.py",
+      "name": "Replay",
+      "line": 94,
+      "methods": [
+        {
+          "name": "__len__",
+          "line": 96
+        },
+        {
+          "name": "stats",
+          "line": 100
+        },
+        {
+          "name": "add",
+          "line": 103
+        },
+        {
+          "name": "add_traj",
+          "line": 106
+        },
+        {
+          "name": "dataset",
+          "line": 109
+        },
+        {
+          "name": "prioritize",
+          "line": 112
+        },
+        {
+          "name": "save",
+          "line": 115
+        },
+        {
+          "name": "load",
+          "line": 118
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/batch.py",
+      "name": "BatchEnv",
+      "line": 6,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 8
+        },
+        {
+          "name": "obs_space",
+          "line": 16
+        },
+        {
+          "name": "act_space",
+          "line": 20
+        },
+        {
+          "name": "__len__",
+          "line": 23
+        },
+        {
+          "name": "step",
+          "line": 26
+        },
+        {
+          "name": "render",
+          "line": 37
+        },
+        {
+          "name": "close",
+          "line": 40
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/batcher.py",
+      "name": "Batcher",
+      "line": 10,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 12
+        },
+        {
+          "name": "close",
+          "line": 43
+        },
+        {
+          "name": "__iter__",
+          "line": 49
+        },
+        {
+          "name": "__call__",
+          "line": 57
+        },
+        {
+          "name": "__next__",
+          "line": 60
+        },
+        {
+          "name": "_creator",
+          "line": 70
+        },
+        {
+          "name": "_batcher",
+          "line": 87
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/checkpoint.py",
+      "name": "Checkpoint",
+      "line": 8,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 10
+        },
+        {
+          "name": "__setattr__",
+          "line": 19
+        },
+        {
+          "name": "__getattr__",
+          "line": 31
+        },
+        {
+          "name": "exists",
+          "line": 39
+        },
+        {
+          "name": "save",
+          "line": 47
+        },
+        {
+          "name": "_save",
+          "line": 57
+        },
+        {
+          "name": "load",
+          "line": 71
+        },
+        {
+          "name": "load_or_save",
+          "line": 89
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/config.py",
+      "name": "Config",
+      "line": 8,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 13
+        },
+        {
+          "name": "flat",
+          "line": 25
+        },
+        {
+          "name": "save",
+          "line": 28
+        },
+        {
+          "name": "load",
+          "line": 41
+        },
+        {
+          "name": "__contains__",
+          "line": 51
+        },
+        {
+          "name": "__getattr__",
+          "line": 58
+        },
+        {
+          "name": "__getitem__",
+          "line": 66
+        },
+        {
+          "name": "__setattr__",
+          "line": 77
+        },
+        {
+          "name": "__setitem__",
+          "line": 83
+        },
+        {
+          "name": "__reduce__",
+          "line": 89
+        },
+        {
+          "name": "__str__",
+          "line": 92
+        },
+        {
+          "name": "update",
+          "line": 107
+        },
+        {
+          "name": "_flatten",
+          "line": 132
+        },
+        {
+          "name": "_nest",
+          "line": 146
+        },
+        {
+          "name": "_ensure_keys",
+          "line": 158
+        },
+        {
+          "name": "_ensure_values",
+          "line": 163
+        },
+        {
+          "name": "_format_value",
+          "line": 182
+        },
+        {
+          "name": "_format_type",
+          "line": 187
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/counter.py",
+      "name": "Counter",
+      "line": 5,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 7
+        },
+        {
+          "name": "__repr__",
+          "line": 10
+        },
+        {
+          "name": "__int__",
+          "line": 13
+        },
+        {
+          "name": "__eq__",
+          "line": 16
+        },
+        {
+          "name": "__ne__",
+          "line": 19
+        },
+        {
+          "name": "__lt__",
+          "line": 22
+        },
+        {
+          "name": "__add__",
+          "line": 25
+        },
+        {
+          "name": "__radd__",
+          "line": 28
+        },
+        {
+          "name": "__sub__",
+          "line": 31
+        },
+        {
+          "name": "__rsub__",
+          "line": 34
+        },
+        {
+          "name": "increment",
+          "line": 37
+        },
+        {
+          "name": "save",
+          "line": 40
+        },
+        {
+          "name": "load",
+          "line": 43
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/distr.py",
+      "name": "Client",
+      "line": 13,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 15
+        },
+        {
+          "name": "__call__",
+          "line": 28
+        },
+        {
+          "name": "_receive",
+          "line": 36
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/distr.py",
+      "name": "Server",
+      "line": 48,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 50
+        },
+        {
+          "name": "run",
+          "line": 59
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/distr.py",
+      "name": "BatchServer",
+      "line": 75,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 77
+        },
+        {
+          "name": "run",
+          "line": 87
+        },
+        {
+          "name": "_respond",
+          "line": 114
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/distr.py",
+      "name": "Thread",
+      "line": 122,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 126
+        },
+        {
+          "name": "_wrapper",
+          "line": 132
+        },
+        {
+          "name": "terminate",
+          "line": 145
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/distr.py",
+      "name": "Process",
+      "line": 160,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 165
+        },
+        {
+          "name": "start",
+          "line": 178
+        },
+        {
+          "name": "name",
+          "line": 182
+        },
+        {
+          "name": "exitcode",
+          "line": 186
+        },
+        {
+          "name": "terminate",
+          "line": 189
+        },
+        {
+          "name": "_wrapper",
+          "line": 193
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/driver.py",
+      "name": "Driver",
+      "line": 8,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 17
+        },
+        {
+          "name": "reset",
+          "line": 25
+        },
+        {
+          "name": "on_step",
+          "line": 33
+        },
+        {
+          "name": "on_episode",
+          "line": 36
+        },
+        {
+          "name": "__call__",
+          "line": 39
+        },
+        {
+          "name": "_step",
+          "line": 44
+        },
+        {
+          "name": "_expand",
+          "line": 75
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/flags.py",
+      "name": "Flags",
+      "line": 7,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 9
+        },
+        {
+          "name": "parse",
+          "line": 12
+        },
+        {
+          "name": "parse_known",
+          "line": 20
+        },
+        {
+          "name": "_submit_entry",
+          "line": 50
+        },
+        {
+          "name": "_parse_flag_value",
+          "line": 75
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/logger.py",
+      "name": "Logger",
+      "line": 14,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 16
+        },
+        {
+          "name": "add",
+          "line": 25
+        },
+        {
+          "name": "scalar",
+          "line": 36
+        },
+        {
+          "name": "image",
+          "line": 39
+        },
+        {
+          "name": "video",
+          "line": 42
+        },
+        {
+          "name": "write",
+          "line": 45
+        },
+        {
+          "name": "_compute_fps",
+          "line": 56
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/logger.py",
+      "name": "AsyncOutput",
+      "line": 69,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 71
+        },
+        {
+          "name": "__call__",
+          "line": 78
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/logger.py",
+      "name": "TerminalOutput",
+      "line": 86,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 88
+        },
+        {
+          "name": "__call__",
+          "line": 97
+        },
+        {
+          "name": "_format_value",
+          "line": 117
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/logger.py",
+      "name": "JSONLOutput",
+      "line": 136,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 138
+        },
+        {
+          "name": "_write",
+          "line": 146
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/logger.py",
+      "name": "TensorBoardOutput",
+      "line": 158,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 160
+        },
+        {
+          "name": "_write",
+          "line": 172
+        },
+        {
+          "name": "_check",
+          "line": 206
+        },
+        {
+          "name": "_video_summary",
+          "line": 211
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/logger.py",
+      "name": "WandBOutput",
+      "line": 229,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 231
+        },
+        {
+          "name": "__call__",
+          "line": 237
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/logger.py",
+      "name": "MLFlowOutput",
+      "line": 266,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 268
+        },
+        {
+          "name": "__call__",
+          "line": 274
+        },
+        {
+          "name": "_setup",
+          "line": 283
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/metrics.py",
+      "name": "Metrics",
+      "line": 7,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 9
+        },
+        {
+          "name": "scalar",
+          "line": 13
+        },
+        {
+          "name": "image",
+          "line": 16
+        },
+        {
+          "name": "video",
+          "line": 19
+        },
+        {
+          "name": "add",
+          "line": 22
+        },
+        {
+          "name": "result",
+          "line": 30
+        },
+        {
+          "name": "reset",
+          "line": 40
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/parallel.py",
+      "name": "Parallel",
+      "line": 7,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 9
+        },
+        {
+          "name": "__getattr__",
+          "line": 14
+        },
+        {
+          "name": "__len__",
+          "line": 27
+        },
+        {
+          "name": "close",
+          "line": 30
+        },
+        {
+          "name": "_respond",
+          "line": 34
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/parallel.py",
+      "name": "Message",
+      "line": 47,
+      "methods": []
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/path.py",
+      "name": "Path",
+      "line": 8,
+      "methods": [
+        {
+          "name": "__new__",
+          "line": 12
+        },
+        {
+          "name": "__getnewargs__",
+          "line": 21
+        },
+        {
+          "name": "__init__",
+          "line": 24
+        },
+        {
+          "name": "__truediv__",
+          "line": 31
+        },
+        {
+          "name": "__repr__",
+          "line": 35
+        },
+        {
+          "name": "__fspath__",
+          "line": 38
+        },
+        {
+          "name": "__eq__",
+          "line": 41
+        },
+        {
+          "name": "__lt__",
+          "line": 44
+        },
+        {
+          "name": "__str__",
+          "line": 47
+        },
+        {
+          "name": "parent",
+          "line": 51
+        },
+        {
+          "name": "name",
+          "line": 59
+        },
+        {
+          "name": "stem",
+          "line": 65
+        },
+        {
+          "name": "suffix",
+          "line": 69
+        },
+        {
+          "name": "read",
+          "line": 72
+        },
+        {
+          "name": "write",
+          "line": 77
+        },
+        {
+          "name": "open",
+          "line": 83
+        },
+        {
+          "name": "absolute",
+          "line": 86
+        },
+        {
+          "name": "glob",
+          "line": 89
+        },
+        {
+          "name": "exists",
+          "line": 92
+        },
+        {
+          "name": "isfile",
+          "line": 95
+        },
+        {
+          "name": "isdir",
+          "line": 98
+        },
+        {
+          "name": "mkdirs",
+          "line": 101
+        },
+        {
+          "name": "remove",
+          "line": 104
+        },
+        {
+          "name": "rmtree",
+          "line": 107
+        },
+        {
+          "name": "copy",
+          "line": 110
+        },
+        {
+          "name": "move",
+          "line": 113
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/path.py",
+      "name": "LocalPath",
+      "line": 118,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 120
+        },
+        {
+          "name": "open",
+          "line": 124
+        },
+        {
+          "name": "absolute",
+          "line": 128
+        },
+        {
+          "name": "glob",
+          "line": 131
+        },
+        {
+          "name": "exists",
+          "line": 135
+        },
+        {
+          "name": "isfile",
+          "line": 138
+        },
+        {
+          "name": "isdir",
+          "line": 141
+        },
+        {
+          "name": "mkdirs",
+          "line": 144
+        },
+        {
+          "name": "remove",
+          "line": 147
+        },
+        {
+          "name": "rmtree",
+          "line": 150
+        },
+        {
+          "name": "copy",
+          "line": 153
+        },
+        {
+          "name": "move",
+          "line": 159
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/path.py",
+      "name": "GFilePath",
+      "line": 163,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 165
+        },
+        {
+          "name": "open",
+          "line": 174
+        },
+        {
+          "name": "absolute",
+          "line": 184
+        },
+        {
+          "name": "glob",
+          "line": 187
+        },
+        {
+          "name": "exists",
+          "line": 191
+        },
+        {
+          "name": "isfile",
+          "line": 194
+        },
+        {
+          "name": "isdir",
+          "line": 197
+        },
+        {
+          "name": "mkdirs",
+          "line": 200
+        },
+        {
+          "name": "remove",
+          "line": 203
+        },
+        {
+          "name": "rmtree",
+          "line": 206
+        },
+        {
+          "name": "copy",
+          "line": 209
+        },
+        {
+          "name": "move",
+          "line": 212
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/random.py",
+      "name": "RandomAgent",
+      "line": 4,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 6
+        },
+        {
+          "name": "policy",
+          "line": 9
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/space.py",
+      "name": "Space",
+      "line": 4,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 6
+        },
+        {
+          "name": "dtype",
+          "line": 20
+        },
+        {
+          "name": "shape",
+          "line": 24
+        },
+        {
+          "name": "low",
+          "line": 28
+        },
+        {
+          "name": "high",
+          "line": 32
+        },
+        {
+          "name": "discrete",
+          "line": 36
+        },
+        {
+          "name": "__repr__",
+          "line": 39
+        },
+        {
+          "name": "__contains__",
+          "line": 46
+        },
+        {
+          "name": "sample",
+          "line": 58
+        },
+        {
+          "name": "_infer_low",
+          "line": 65
+        },
+        {
+          "name": "_infer_high",
+          "line": 80
+        },
+        {
+          "name": "_infer_shape",
+          "line": 95
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/timer.py",
+      "name": "Timer",
+      "line": 8,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 10
+        },
+        {
+          "name": "reset",
+          "line": 17
+        },
+        {
+          "name": "scope",
+          "line": 23
+        },
+        {
+          "name": "wrap",
+          "line": 29
+        },
+        {
+          "name": "stats",
+          "line": 34
+        },
+        {
+          "name": "_log",
+          "line": 55
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/uuid.py",
+      "name": "uuid",
+      "line": 7,
+      "methods": [
+        {
+          "name": "reset",
+          "line": 16
+        },
+        {
+          "name": "__init__",
+          "line": 19
+        },
+        {
+          "name": "__int__",
+          "line": 46
+        },
+        {
+          "name": "__str__",
+          "line": 49
+        },
+        {
+          "name": "__array__",
+          "line": 61
+        },
+        {
+          "name": "__getitem__",
+          "line": 64
+        },
+        {
+          "name": "__repr__",
+          "line": 67
+        },
+        {
+          "name": "__eq__",
+          "line": 70
+        },
+        {
+          "name": "__hash__",
+          "line": 73
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/when.py",
+      "name": "Every",
+      "line": 4,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 6
+        },
+        {
+          "name": "__call__",
+          "line": 11
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/when.py",
+      "name": "Ratio",
+      "line": 26,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 28
+        },
+        {
+          "name": "__call__",
+          "line": 33
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/when.py",
+      "name": "Once",
+      "line": 45,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 47
+        },
+        {
+          "name": "__call__",
+          "line": 50
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/when.py",
+      "name": "Until",
+      "line": 57,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 59
+        },
+        {
+          "name": "__call__",
+          "line": 62
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/when.py",
+      "name": "Clock",
+      "line": 69,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 71
+        },
+        {
+          "name": "__call__",
+          "line": 75
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/worker.py",
+      "name": "Worker",
+      "line": 11,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 15
+        },
+        {
+          "name": "__call__",
+          "line": 28
+        },
+        {
+          "name": "wait",
+          "line": 33
+        },
+        {
+          "name": "close",
+          "line": 36
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/worker.py",
+      "name": "BlockingWorker",
+      "line": 40,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 42
+        },
+        {
+          "name": "__call__",
+          "line": 46
+        },
+        {
+          "name": "wait",
+          "line": 51
+        },
+        {
+          "name": "close",
+          "line": 54
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/worker.py",
+      "name": "ThreadWorker",
+      "line": 58,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 60
+        },
+        {
+          "name": "__call__",
+          "line": 66
+        },
+        {
+          "name": "wait",
+          "line": 72
+        },
+        {
+          "name": "close",
+          "line": 75
+        },
+        {
+          "name": "_worker",
+          "line": 78
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/worker.py",
+      "name": "ProcessWorker",
+      "line": 83,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 85
+        },
+        {
+          "name": "__call__",
+          "line": 95
+        },
+        {
+          "name": "wait",
+          "line": 101
+        },
+        {
+          "name": "close",
+          "line": 104
+        },
+        {
+          "name": "_initializer",
+          "line": 108
+        },
+        {
+          "name": "_worker",
+          "line": 117
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/worker.py",
+      "name": "ProcessPipeWorker",
+      "line": 123,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 125
+        },
+        {
+          "name": "__call__",
+          "line": 142
+        },
+        {
+          "name": "wait",
+          "line": 145
+        },
+        {
+          "name": "close",
+          "line": 148
+        },
+        {
+          "name": "_submit",
+          "line": 165
+        },
+        {
+          "name": "_receive",
+          "line": 171
+        },
+        {
+          "name": "_loop",
+          "line": 184
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/worker.py",
+      "name": "Future",
+      "line": 220,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 222
+        },
+        {
+          "name": "__call__",
+          "line": 228
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/worker.py",
+      "name": "Message",
+      "line": 235,
+      "methods": []
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/wrappers.py",
+      "name": "TimeLimit",
+      "line": 10,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 12
+        },
+        {
+          "name": "step",
+          "line": 19
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/wrappers.py",
+      "name": "ActionRepeat",
+      "line": 39,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 41
+        },
+        {
+          "name": "step",
+          "line": 45
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/wrappers.py",
+      "name": "ClipAction",
+      "line": 58,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 60
+        },
+        {
+          "name": "step",
+          "line": 66
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/wrappers.py",
+      "name": "NormalizeAction",
+      "line": 71,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 73
+        },
+        {
+          "name": "act_space",
+          "line": 82
+        },
+        {
+          "name": "step",
+          "line": 88
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/wrappers.py",
+      "name": "OneHotAction",
+      "line": 94,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 96
+        },
+        {
+          "name": "act_space",
+          "line": 102
+        },
+        {
+          "name": "step",
+          "line": 109
+        },
+        {
+          "name": "_sample_action",
+          "line": 118
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/wrappers.py",
+      "name": "ExpandScalars",
+      "line": 125,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 127
+        },
+        {
+          "name": "obs_space",
+          "line": 145
+        },
+        {
+          "name": "act_space",
+          "line": 149
+        },
+        {
+          "name": "step",
+          "line": 152
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/wrappers.py",
+      "name": "FlattenTwoDimObs",
+      "line": 163,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 165
+        },
+        {
+          "name": "obs_space",
+          "line": 180
+        },
+        {
+          "name": "step",
+          "line": 183
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/wrappers.py",
+      "name": "FlattenTwoDimActions",
+      "line": 190,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 192
+        },
+        {
+          "name": "act_space",
+          "line": 207
+        },
+        {
+          "name": "step",
+          "line": 210
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/wrappers.py",
+      "name": "CheckSpaces",
+      "line": 217,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 219
+        },
+        {
+          "name": "step",
+          "line": 222
+        },
+        {
+          "name": "_check",
+          "line": 230
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/wrappers.py",
+      "name": "DiscretizeAction",
+      "line": 244,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 246
+        },
+        {
+          "name": "act_space",
+          "line": 253
+        },
+        {
+          "name": "step",
+          "line": 261
+        },
+        {
+          "name": "_sample_action",
+          "line": 271
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/wrappers.py",
+      "name": "ResizeImage",
+      "line": 278,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 280
+        },
+        {
+          "name": "obs_space",
+          "line": 292
+        },
+        {
+          "name": "step",
+          "line": 299
+        },
+        {
+          "name": "_resize",
+          "line": 305
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/wrappers.py",
+      "name": "RenderImage",
+      "line": 312,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 314
+        },
+        {
+          "name": "obs_space",
+          "line": 320
+        },
+        {
+          "name": "step",
+          "line": 325
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/core/wrappers.py",
+      "name": "RestartOnException",
+      "line": 331,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 333
+        },
+        {
+          "name": "step",
+          "line": 346
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/atari.py",
+      "name": "Atari",
+      "line": 5,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 9
+        },
+        {
+          "name": "obs_space",
+          "line": 53
+        },
+        {
+          "name": "act_space",
+          "line": 64
+        },
+        {
+          "name": "step",
+          "line": 70
+        },
+        {
+          "name": "_reset",
+          "line": 102
+        },
+        {
+          "name": "_obs",
+          "line": 113
+        },
+        {
+          "name": "_screen",
+          "line": 136
+        },
+        {
+          "name": "close",
+          "line": 139
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/crafter.py",
+      "name": "Crafter",
+      "line": 5,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 7
+        },
+        {
+          "name": "obs_space",
+          "line": 23
+        },
+        {
+          "name": "act_space",
+          "line": 38
+        },
+        {
+          "name": "step",
+          "line": 44
+        },
+        {
+          "name": "_obs",
+          "line": 56
+        },
+        {
+          "name": "render",
+          "line": 72
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/dmc.py",
+      "name": "DMC",
+      "line": 8,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 15
+        },
+        {
+          "name": "obs_space",
+          "line": 45
+        },
+        {
+          "name": "act_space",
+          "line": 52
+        },
+        {
+          "name": "step",
+          "line": 55
+        },
+        {
+          "name": "render",
+          "line": 64
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/dmlab.py",
+      "name": "DMLab",
+      "line": 5,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 39
+        },
+        {
+          "name": "obs_space",
+          "line": 69
+        },
+        {
+          "name": "act_space",
+          "line": 79
+        },
+        {
+          "name": "step",
+          "line": 85
+        },
+        {
+          "name": "_obs",
+          "line": 95
+        },
+        {
+          "name": "render",
+          "line": 104
+        },
+        {
+          "name": "close",
+          "line": 109
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/dmlab.py",
+      "name": "Cache",
+      "line": 113,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 115
+        },
+        {
+          "name": "get_path",
+          "line": 118
+        },
+        {
+          "name": "fetch",
+          "line": 124
+        },
+        {
+          "name": "write",
+          "line": 133
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/dummy.py",
+      "name": "Dummy",
+      "line": 5,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 7
+        },
+        {
+          "name": "obs_space",
+          "line": 16
+        },
+        {
+          "name": "act_space",
+          "line": 28
+        },
+        {
+          "name": "step",
+          "line": 35
+        },
+        {
+          "name": "_obs",
+          "line": 45
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/from_dm.py",
+      "name": "FromDM",
+      "line": 8,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 10
+        },
+        {
+          "name": "obs_space",
+          "line": 22
+        },
+        {
+          "name": "act_space",
+          "line": 40
+        },
+        {
+          "name": "step",
+          "line": 48
+        },
+        {
+          "name": "_obs",
+          "line": 59
+        },
+        {
+          "name": "_convert",
+          "line": 76
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/from_gym.py",
+      "name": "FromGym",
+      "line": 26,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 27
+        },
+        {
+          "name": "info",
+          "line": 42
+        },
+        {
+          "name": "obs_space",
+          "line": 46
+        },
+        {
+          "name": "act_space",
+          "line": 64
+        },
+        {
+          "name": "step",
+          "line": 74
+        },
+        {
+          "name": "_obs",
+          "line": 92
+        },
+        {
+          "name": "render",
+          "line": 105
+        },
+        {
+          "name": "close",
+          "line": 110
+        },
+        {
+          "name": "_flatten",
+          "line": 116
+        },
+        {
+          "name": "_unflatten",
+          "line": 128
+        },
+        {
+          "name": "_convert",
+          "line": 140
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/from_gymnasium.py",
+      "name": "FromGymnasium",
+      "line": 26,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 27
+        },
+        {
+          "name": "info",
+          "line": 42
+        },
+        {
+          "name": "obs_space",
+          "line": 46
+        },
+        {
+          "name": "act_space",
+          "line": 64
+        },
+        {
+          "name": "step",
+          "line": 74
+        },
+        {
+          "name": "_obs",
+          "line": 92
+        },
+        {
+          "name": "render",
+          "line": 105
+        },
+        {
+          "name": "close",
+          "line": 110
+        },
+        {
+          "name": "_flatten",
+          "line": 116
+        },
+        {
+          "name": "_unflatten",
+          "line": 128
+        },
+        {
+          "name": "_convert",
+          "line": 140
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/loconav.py",
+      "name": "LocoNav",
+      "line": 9,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 16
+        },
+        {
+          "name": "obs_space",
+          "line": 62
+        },
+        {
+          "name": "act_space",
+          "line": 69
+        },
+        {
+          "name": "step",
+          "line": 72
+        },
+        {
+          "name": "_make_walker",
+          "line": 86
+        },
+        {
+          "name": "_make_arena",
+          "line": 96
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/loconav.py",
+      "name": "WallTexture",
+      "line": 102,
+      "methods": [
+        {
+          "name": "_build",
+          "line": 103
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/loconav_quadruped.py",
+      "name": "Quadruped",
+      "line": 15,
+      "methods": [
+        {
+          "name": "_build",
+          "line": 17
+        },
+        {
+          "name": "initialize_episode",
+          "line": 26
+        },
+        {
+          "name": "apply_action",
+          "line": 29
+        },
+        {
+          "name": "_build_observables",
+          "line": 33
+        },
+        {
+          "name": "mjcf_model",
+          "line": 37
+        },
+        {
+          "name": "upright_pose",
+          "line": 41
+        },
+        {
+          "name": "actuators",
+          "line": 45
+        },
+        {
+          "name": "root_body",
+          "line": 49
+        },
+        {
+          "name": "bodies",
+          "line": 53
+        },
+        {
+          "name": "mocap_tracking_bodies",
+          "line": 57
+        },
+        {
+          "name": "mocap_joints",
+          "line": 61
+        },
+        {
+          "name": "_foot_bodies",
+          "line": 65
+        },
+        {
+          "name": "end_effectors",
+          "line": 74
+        },
+        {
+          "name": "observable_joints",
+          "line": 78
+        },
+        {
+          "name": "egocentric_camera",
+          "line": 82
+        },
+        {
+          "name": "aliveness",
+          "line": 85
+        },
+        {
+          "name": "ground_contact_geoms",
+          "line": 89
+        },
+        {
+          "name": "prev_action",
+          "line": 96
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/loconav_quadruped.py",
+      "name": "QuadrupedObservables",
+      "line": 100,
+      "methods": [
+        {
+          "name": "actuator_activations",
+          "line": 103
+        },
+        {
+          "name": "root_global_pos",
+          "line": 109
+        },
+        {
+          "name": "torso_global_pos",
+          "line": 116
+        },
+        {
+          "name": "proprioception",
+          "line": 124
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/minecraft.py",
+      "name": "Minecraft",
+      "line": 7,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 9
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/minecraft.py",
+      "name": "MinecraftWood",
+      "line": 17,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 19
+        },
+        {
+          "name": "step",
+          "line": 30
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/minecraft.py",
+      "name": "MinecraftClimb",
+      "line": 36,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 38
+        },
+        {
+          "name": "step",
+          "line": 47
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/minecraft.py",
+      "name": "MinecraftDiamond",
+      "line": 59,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 61
+        },
+        {
+          "name": "step",
+          "line": 98
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/minecraft.py",
+      "name": "CollectReward",
+      "line": 104,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 106
+        },
+        {
+          "name": "__call__",
+          "line": 113
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/minecraft.py",
+      "name": "HealthReward",
+      "line": 127,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 129
+        },
+        {
+          "name": "__call__",
+          "line": 133
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/minecraft_base.py",
+      "name": "MinecraftBase",
+      "line": 8,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 12
+        },
+        {
+          "name": "obs_space",
+          "line": 63
+        },
+        {
+          "name": "act_space",
+          "line": 81
+        },
+        {
+          "name": "step",
+          "line": 87
+        },
+        {
+          "name": "inventory",
+          "line": 109
+        },
+        {
+          "name": "_reset",
+          "line": 112
+        },
+        {
+          "name": "_obs",
+          "line": 123
+        },
+        {
+          "name": "_action",
+          "line": 161
+        },
+        {
+          "name": "_insert_defaults",
+          "line": 183
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/minecraft_minerl.py",
+      "name": "MineRLEnv",
+      "line": 39,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 41
+        },
+        {
+          "name": "create_agent_start",
+          "line": 47
+        },
+        {
+          "name": "create_agent_handlers",
+          "line": 52
+        },
+        {
+          "name": "create_server_world_generators",
+          "line": 55
+        },
+        {
+          "name": "create_server_quit_producers",
+          "line": 58
+        },
+        {
+          "name": "create_server_initial_conditions",
+          "line": 61
+        },
+        {
+          "name": "create_observables",
+          "line": 72
+        },
+        {
+          "name": "create_actionables",
+          "line": 82
+        },
+        {
+          "name": "is_from_folder",
+          "line": 100
+        },
+        {
+          "name": "get_docstring",
+          "line": 103
+        },
+        {
+          "name": "determine_success_from_rewards",
+          "line": 106
+        },
+        {
+          "name": "create_rewardables",
+          "line": 109
+        },
+        {
+          "name": "create_server_decorators",
+          "line": 112
+        },
+        {
+          "name": "create_mission_handlers",
+          "line": 115
+        },
+        {
+          "name": "create_monitors",
+          "line": 118
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/minecraft_minerl.py",
+      "name": "BreakSpeedMultiplier",
+      "line": 122,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 124
+        },
+        {
+          "name": "to_string",
+          "line": 127
+        },
+        {
+          "name": "xml_template",
+          "line": 130
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/minecraft_minerl.py",
+      "name": "Gamma",
+      "line": 134,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 136
+        },
+        {
+          "name": "to_string",
+          "line": 139
+        },
+        {
+          "name": "xml_template",
+          "line": 142
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/pinpad.py",
+      "name": "PinPad",
+      "line": 7,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 20
+        },
+        {
+          "name": "act_space",
+          "line": 48
+        },
+        {
+          "name": "obs_space",
+          "line": 55
+        },
+        {
+          "name": "step",
+          "line": 64
+        },
+        {
+          "name": "render",
+          "line": 94
+        },
+        {
+          "name": "_obs",
+          "line": 114
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/envs/robodesk.py",
+      "name": "RoboDesk",
+      "line": 6,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 8
+        },
+        {
+          "name": "obs_space",
+          "line": 27
+        },
+        {
+          "name": "act_space",
+          "line": 31
+        },
+        {
+          "name": "step",
+          "line": 34
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/replay/chunk.py",
+      "name": "Chunk",
+      "line": 8,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 10
+        },
+        {
+          "name": "__repr__",
+          "line": 19
+        },
+        {
+          "name": "__len__",
+          "line": 27
+        },
+        {
+          "name": "__bool__",
+          "line": 30
+        },
+        {
+          "name": "append",
+          "line": 33
+        },
+        {
+          "name": "save",
+          "line": 43
+        },
+        {
+          "name": "load",
+          "line": 56
+        },
+        {
+          "name": "scan",
+          "line": 70
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/replay/generic.py",
+      "name": "Generic",
+      "line": 11,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 13
+        },
+        {
+          "name": "__len__",
+          "line": 42
+        },
+        {
+          "name": "stats",
+          "line": 46
+        },
+        {
+          "name": "add",
+          "line": 62
+        },
+        {
+          "name": "_sample",
+          "line": 93
+        },
+        {
+          "name": "_remove",
+          "line": 111
+        },
+        {
+          "name": "dataset",
+          "line": 117
+        },
+        {
+          "name": "prioritize",
+          "line": 121
+        },
+        {
+          "name": "save",
+          "line": 125
+        },
+        {
+          "name": "load",
+          "line": 136
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/replay/limiters.py",
+      "name": "MinSize",
+      "line": 4,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 6
+        },
+        {
+          "name": "want_load",
+          "line": 12
+        },
+        {
+          "name": "want_insert",
+          "line": 17
+        },
+        {
+          "name": "want_remove",
+          "line": 22
+        },
+        {
+          "name": "want_sample",
+          "line": 29
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/replay/limiters.py",
+      "name": "SamplesPerInsert",
+      "line": 35,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 37
+        },
+        {
+          "name": "want_load",
+          "line": 47
+        },
+        {
+          "name": "want_insert",
+          "line": 52
+        },
+        {
+          "name": "want_remove",
+          "line": 60
+        },
+        {
+          "name": "want_sample",
+          "line": 67
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/replay/limiters.py",
+      "name": "Queue",
+      "line": 77,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 79
+        },
+        {
+          "name": "want_load",
+          "line": 85
+        },
+        {
+          "name": "want_insert",
+          "line": 90
+        },
+        {
+          "name": "want_remove",
+          "line": 97
+        },
+        {
+          "name": "want_sample",
+          "line": 104
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/replay/naive_chunks.py",
+      "name": "NaiveChunks",
+      "line": 14,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 16
+        },
+        {
+          "name": "__len__",
+          "line": 30
+        },
+        {
+          "name": "stats",
+          "line": 34
+        },
+        {
+          "name": "add",
+          "line": 37
+        },
+        {
+          "name": "_sample",
+          "line": 49
+        },
+        {
+          "name": "dataset",
+          "line": 63
+        },
+        {
+          "name": "save",
+          "line": 67
+        },
+        {
+          "name": "load",
+          "line": 75
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/replay/replays.py",
+      "name": "Uniform",
+      "line": 6,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 8
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/replay/reverb.py",
+      "name": "Reverb",
+      "line": 9,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 11
+        },
+        {
+          "name": "_create_server",
+          "line": 38
+        },
+        {
+          "name": "__len__",
+          "line": 56
+        },
+        {
+          "name": "stats",
+          "line": 62
+        },
+        {
+          "name": "add",
+          "line": 65
+        },
+        {
+          "name": "dataset",
+          "line": 84
+        },
+        {
+          "name": "prioritize",
+          "line": 100
+        },
+        {
+          "name": "save",
+          "line": 103
+        },
+        {
+          "name": "load",
+          "line": 111
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/replay/saver.py",
+      "name": "Saver",
+      "line": 10,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 12
+        },
+        {
+          "name": "add",
+          "line": 21
+        },
+        {
+          "name": "save",
+          "line": 33
+        },
+        {
+          "name": "load",
+          "line": 41
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/replay/selectors.py",
+      "name": "Fifo",
+      "line": 6,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 8
+        },
+        {
+          "name": "__call__",
+          "line": 11
+        },
+        {
+          "name": "__setitem__",
+          "line": 14
+        },
+        {
+          "name": "__delitem__",
+          "line": 17
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/embodied/replay/selectors.py",
+      "name": "Uniform",
+      "line": 25,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 27
+        },
+        {
+          "name": "__call__",
+          "line": 32
+        },
+        {
+          "name": "__setitem__",
+          "line": 36
+        },
+        {
+          "name": "__delitem__",
+          "line": 40
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/expl.py",
+      "name": "Disag",
+      "line": 11,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 13
+        },
+        {
+          "name": "__call__",
+          "line": 22
+        },
+        {
+          "name": "train",
+          "line": 27
+        },
+        {
+          "name": "loss",
+          "line": 30
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/jaxagent.py",
+      "name": "JAXAgent",
+      "line": 24,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 26
+        },
+        {
+          "name": "policy",
+          "line": 55
+        },
+        {
+          "name": "train",
+          "line": 72
+        },
+        {
+          "name": "report",
+          "line": 91
+        },
+        {
+          "name": "dataset",
+          "line": 97
+        },
+        {
+          "name": "save",
+          "line": 105
+        },
+        {
+          "name": "load",
+          "line": 114
+        },
+        {
+          "name": "sync",
+          "line": 121
+        },
+        {
+          "name": "_setup",
+          "line": 134
+        },
+        {
+          "name": "_transform",
+          "line": 158
+        },
+        {
+          "name": "_convert_inps",
+          "line": 183
+        },
+        {
+          "name": "_convert_outs",
+          "line": 201
+        },
+        {
+          "name": "_convert_mets",
+          "line": 208
+        },
+        {
+          "name": "_next_rngs",
+          "line": 215
+        },
+        {
+          "name": "_init_varibs",
+          "line": 225
+        },
+        {
+          "name": "_dummy_batch",
+          "line": 239
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/jaxagent.py",
+      "name": "Agent",
+      "line": 16,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 19
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/jaxutils.py",
+      "name": "OneHotDist",
+      "line": 77,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 79
+        },
+        {
+          "name": "_parameter_properties",
+          "line": 83
+        },
+        {
+          "name": "sample",
+          "line": 86
+        },
+        {
+          "name": "_pad",
+          "line": 91
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/jaxutils.py",
+      "name": "MSEDist",
+      "line": 97,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 99
+        },
+        {
+          "name": "mode",
+          "line": 106
+        },
+        {
+          "name": "mean",
+          "line": 109
+        },
+        {
+          "name": "log_prob",
+          "line": 112
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/jaxutils.py",
+      "name": "SymlogDist",
+      "line": 124,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 126
+        },
+        {
+          "name": "mode",
+          "line": 135
+        },
+        {
+          "name": "mean",
+          "line": 138
+        },
+        {
+          "name": "log_prob",
+          "line": 141
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/jaxutils.py",
+      "name": "DiscDist",
+      "line": 160,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 162
+        },
+        {
+          "name": "mean",
+          "line": 176
+        },
+        {
+          "name": "mode",
+          "line": 179
+        },
+        {
+          "name": "log_prob",
+          "line": 182
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/jaxutils.py",
+      "name": "Moments",
+      "line": 227,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 229
+        },
+        {
+          "name": "__call__",
+          "line": 261
+        },
+        {
+          "name": "update",
+          "line": 265
+        },
+        {
+          "name": "stats",
+          "line": 306
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/jaxutils.py",
+      "name": "Optimizer",
+      "line": 341,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 345
+        },
+        {
+          "name": "__call__",
+          "line": 380
+        },
+        {
+          "name": "_update_scale",
+          "line": 417
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/jaxutils.py",
+      "name": "SlowUpdater",
+      "line": 455,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 457
+        },
+        {
+          "name": "__call__",
+          "line": 464
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/nets.py",
+      "name": "CtxEncoder",
+      "line": 19,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 21
+        },
+        {
+          "name": "__call__",
+          "line": 52
+        },
+        {
+          "name": "reconstruct_wm_state_loss",
+          "line": 103
+        },
+        {
+          "name": "_gru",
+          "line": 111
+        },
+        {
+          "name": "forward_model",
+          "line": 122
+        },
+        {
+          "name": "inverse_model",
+          "line": 138
+        },
+        {
+          "name": "compute_loss",
+          "line": 155
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/nets.py",
+      "name": "Attention",
+      "line": 189,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 190
+        },
+        {
+          "name": "__call__",
+          "line": 195
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/nets.py",
+      "name": "RSSM",
+      "line": 211,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 213
+        },
+        {
+          "name": "initial",
+          "line": 244
+        },
+        {
+          "name": "observe",
+          "line": 271
+        },
+        {
+          "name": "imagine",
+          "line": 292
+        },
+        {
+          "name": "get_dist",
+          "line": 311
+        },
+        {
+          "name": "obs_step",
+          "line": 320
+        },
+        {
+          "name": "img_step",
+          "line": 352
+        },
+        {
+          "name": "get_stoch",
+          "line": 379
+        },
+        {
+          "name": "_gru",
+          "line": 385
+        },
+        {
+          "name": "_stats",
+          "line": 396
+        },
+        {
+          "name": "_mask",
+          "line": 413
+        },
+        {
+          "name": "dyn_loss",
+          "line": 416
+        },
+        {
+          "name": "rep_loss",
+          "line": 427
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/nets.py",
+      "name": "MultiEncoder",
+      "line": 444,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 446
+        },
+        {
+          "name": "__call__",
+          "line": 487
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/nets.py",
+      "name": "MultiDecoder",
+      "line": 512,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 514
+        },
+        {
+          "name": "__call__",
+          "line": 564
+        },
+        {
+          "name": "_make_image_dist",
+          "line": 586
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/nets.py",
+      "name": "ImageEncoderResnet",
+      "line": 595,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 597
+        },
+        {
+          "name": "__call__",
+          "line": 604
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/nets.py",
+      "name": "ImageDecoderResnet",
+      "line": 643,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 645
+        },
+        {
+          "name": "__call__",
+          "line": 654
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/nets.py",
+      "name": "MLP",
+      "line": 697,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 699
+        },
+        {
+          "name": "__call__",
+          "line": 721
+        },
+        {
+          "name": "_out",
+          "line": 739
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/nets.py",
+      "name": "Dist",
+      "line": 743,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 745
+        },
+        {
+          "name": "__call__",
+          "line": 766
+        },
+        {
+          "name": "inner",
+          "line": 775
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/nets.py",
+      "name": "Conv2D",
+      "line": 821,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 823
+        },
+        {
+          "name": "__call__",
+          "line": 849
+        },
+        {
+          "name": "_layer",
+          "line": 860
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/nets.py",
+      "name": "Linear",
+      "line": 890,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 892
+        },
+        {
+          "name": "__call__",
+          "line": 912
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/nets.py",
+      "name": "Norm",
+      "line": 930,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 932
+        },
+        {
+          "name": "__call__",
+          "line": 935
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/nets.py",
+      "name": "Input",
+      "line": 949,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 951
+        },
+        {
+          "name": "__call__",
+          "line": 956
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/nets.py",
+      "name": "Initializer",
+      "line": 978,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 980
+        },
+        {
+          "name": "__call__",
+          "line": 985
+        },
+        {
+          "name": "_fans",
+          "line": 1013
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/ninjax.py",
+      "name": "Context",
+      "line": 28,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 30
+        },
+        {
+          "name": "update",
+          "line": 39
+        },
+        {
+          "name": "__setitem__",
+          "line": 43
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/ninjax.py",
+      "name": "ModuleMeta",
+      "line": 330,
+      "methods": [
+        {
+          "name": "__new__",
+          "line": 335
+        },
+        {
+          "name": "__call__",
+          "line": 357
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/ninjax.py",
+      "name": "Module",
+      "line": 384,
+      "methods": [
+        {
+          "name": "__repr__",
+          "line": 389
+        },
+        {
+          "name": "path",
+          "line": 393
+        },
+        {
+          "name": "name",
+          "line": 398
+        },
+        {
+          "name": "get",
+          "line": 402
+        },
+        {
+          "name": "put",
+          "line": 420
+        },
+        {
+          "name": "getm",
+          "line": 425
+        },
+        {
+          "name": "putm",
+          "line": 439
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/ninjax.py",
+      "name": "Variable",
+      "line": 448,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 450
+        },
+        {
+          "name": "read",
+          "line": 455
+        },
+        {
+          "name": "write",
+          "line": 458
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/ninjax.py",
+      "name": "HaikuModule",
+      "line": 467,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 469
+        },
+        {
+          "name": "__call__",
+          "line": 475
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/ninjax.py",
+      "name": "FlaxModule",
+      "line": 480,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 482
+        },
+        {
+          "name": "__call__",
+          "line": 485
+        }
+      ]
+    },
+    {
+      "path": "dreamerv3_compat/dreamerv3/ninjax.py",
+      "name": "OptaxModule",
+      "line": 490,
+      "methods": [
+        {
+          "name": "__init__",
+          "line": 492
+        },
+        {
+          "name": "__call__",
+          "line": 495
+        }
+      ]
+    }
+  ],
+  "import_roots": [
+    "PIL",
+    "agent",
+    "argparse",
+    "atexit",
+    "base",
+    "basics",
+    "batch",
+    "batcher",
+    "builtins",
+    "carl",
+    "checkpoint",
+    "cloudpickle",
+    "collections",
+    "concurrent",
+    "config",
+    "contextlib",
+    "contextual_mbrl",
+    "copy",
+    "core",
+    "counter",
+    "crafter",
+    "csv",
+    "ctypes",
+    "cv2",
+    "datetime",
+    "deepmind_lab",
+    "distr",
+    "dm_control",
+    "dreamerv3",
+    "driver",
+    "embodied",
+    "enum",
+    "eval_only",
+    "flags",
+    "functools",
+    "generic",
+    "glob",
+    "gym",
+    "gymnasium",
+    "gzip",
+    "haiku",
+    "hashlib",
+    "imageio",
+    "importlib",
+    "inspect",
+    "io",
+    "itertools",
+    "jax",
+    "joblib",
+    "json",
+    "jsonlines",
+    "labmaze",
+    "logger",
+    "logging",
+    "matplotlib",
+    "metrics",
+    "minerl",
+    "mlflow",
+    "multiprocessing",
+    "naive_chunks",
+    "numpy",
+    "optax",
+    "os",
+    "pandas",
+    "parallel",
+    "path",
+    "pathlib",
+    "pickle",
+    "queue",
+    "random",
+    "re",
+    "replays",
+    "reverb",
+    "rich",
+    "rliable",
+    "robodesk",
+    "ruamel",
+    "sb3_contrib",
+    "scipy",
+    "setuptools",
+    "shutil",
+    "sklearn",
+    "space",
+    "stable_baselines3",
+    "string",
+    "subprocess",
+    "sys",
+    "tensorflow",
+    "tensorflow_probability",
+    "threading",
+    "time",
+    "timer",
+    "torch",
+    "tqdm",
+    "traceback",
+    "train",
+    "train_eval",
+    "train_holdout",
+    "train_save",
+    "typing",
+    "utils",
+    "uuid",
+    "wandb",
+    "warnings",
+    "worker",
+    "zmq"
+  ],
+  "model_executed": false
+}

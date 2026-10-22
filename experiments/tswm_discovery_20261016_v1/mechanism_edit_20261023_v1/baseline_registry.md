@@ -1,0 +1,3 @@
+# Execution registry
+
+Primary papers remain WorldTS, LatentTSF and TSWM recipe. DALI is an additional candidate-feasibility case, not a fourth completed SOTA reproduction. Pinned source5ca393468defffe79e4e3537ba9766f6d31b510b:110 files hashed, five original recorder closures,18 routing-fixture cases, nine ordinary edit controls. No learned-model quality result follows from spies. Native WorldModel core timing is separate, with discarded optimizer calls counted explicitly in experimental_results.md; No RL/paper reproduction; the separately launched factual transfer is tracked in FACTUAL_RUN_SNAPSHOT_V1.json.

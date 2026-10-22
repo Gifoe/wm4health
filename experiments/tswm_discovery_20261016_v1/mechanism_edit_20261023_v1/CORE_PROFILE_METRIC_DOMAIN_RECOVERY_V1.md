@@ -1,0 +1,7 @@
+# Preserve the initial core failure; qualify metrics only on their defined domains
+
+The first native core call returned, then the harness's blanket finite-value assertion failed. The source defines `balance_stats` to return NaN when a positive or negative class is absent and explicitly documents aggregation by nanmean. The profiling placeholders are reward0 and continuation1, so reward-positive and continuation-negative losses/accuracies are undefined by construction. They are not training losses.
+
+Recovery keeps the source, config, fixture, float32 CPU arithmetic and two-update limit unchanged. It records every nonfinite metric. Only the four scalar diagnostics `reward_pos_loss`, `reward_pos_acc`, `cont_neg_loss`, `cont_neg_acc` may be reported as N/A, after verifying the corresponding class has zero support and the value is NaN. All other metrics, model outputs, model/optimizer state and all registered arrays must remain finite. The second update must actually change model parameters. This does not claim all original finite-metric assertions passed, hide the original exit1, or infer physical fidelity.
+
+The original call counts as one discarded qualification update; recovery starts from fresh initialization in separate execution/output paths. It adds at most two discarded updates and no scientific fit. Original stdout, traceback and terminal receipt are retained. The metric-domain correction follows the native documented definition and is not a relaxed forecasting threshold.

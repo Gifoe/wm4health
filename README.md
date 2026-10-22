@@ -3,6 +3,8 @@
 本仓库汇总基线复现、机制审计、失败归因及研究探索。**当前尚无通过证据与新颖性要求的最终研究方向；研究目标仍未完成。**
 
 
+**2026-10-23 V6：原生模型执行与机制编辑协议已核验。** [DALI候选的实际执行、失败归因与训练状态](experiments/tswm_discovery_20261016_v1/mechanism_edit_20261023_v1/experimental_results.md)；5个原生记录入口、18个路由case、2754项独立检查，原生完整WorldModel核心3次丢弃资格更新通过。一个2000-update factual transfer已经启动，尚无最终新颖方向。
+
 **2026-10-23 V5：行动顺序假设被反证。** [四个冻结模型的顺序编辑实验与归因](experiments/tswm_discovery_20261016_v1/action_order_probe_20261023_v1/outputs_recovery_v1/experimental_results.md)；0训练，独立复核通过。新增文献边界与DALI机制编辑的可行性记录，尚无最终接受的新方向。
 
 **2026-10-23 V4：自由模拟与指标诊断已闭合。** [三篇主线的完整失败归因](experiments/tswm_discovery_20261016_v1/three_baseline_failures_20261023_v1/outputs/campaign_synthesis_v4/experimental_results.md)；C71全部评估与独立复核完成，两份原生LatentTSF的TTC诊断完成。普通控制与已知指标问题不足以支撑新架构，最终接受新方向仍为0。

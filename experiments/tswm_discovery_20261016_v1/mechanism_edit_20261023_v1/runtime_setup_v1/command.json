@@ -1,0 +1,28 @@
+{
+  "command": [
+    "D:\\tswm_discovery_20261016_v1\\mechanism_edit_20261023_v1\\.venv_editor_cpu\\Scripts\\python.exe",
+    "-m",
+    "pip",
+    "install",
+    "--only-binary=:all:",
+    "--timeout",
+    "30",
+    "--retries",
+    "2",
+    "jax==0.4.35",
+    "jaxlib==0.4.35",
+    "numpy==1.26.4",
+    "scipy==1.13.1",
+    "ml_dtypes==0.5.1",
+    "opt_einsum==3.4.0"
+  ],
+  "packages": [
+    "jax==0.4.35",
+    "jaxlib==0.4.35",
+    "numpy==1.26.4",
+    "scipy==1.13.1",
+    "ml_dtypes==0.5.1",
+    "opt_einsum==3.4.0"
+  ],
+  "scope": "isolated CPU editor contract only"
+}

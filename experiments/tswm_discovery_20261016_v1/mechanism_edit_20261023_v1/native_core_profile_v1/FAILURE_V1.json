@@ -1,0 +1,8 @@
+{
+  "status": "NATIVE_CORE_PREFLIGHT_INCOMPLETE",
+  "exception_type": "AssertionError",
+  "exception": "",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\tswm_discovery_20261016_v1\\mechanism_edit_20261023_v1\\scripts\\profile_native_core_v1.py\", line 34, in <module>\n    leaves=jax.tree_util.tree_leaves((out,variables));assert all(np.isfinite(np.asarray(v)).all() for v in leaves if hasattr(v,'dtype'))\nAssertionError\n",
+  "physical_fidelity_evaluated": false,
+  "scientific_fit_count": 0
+}
