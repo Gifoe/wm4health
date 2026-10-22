@@ -1,0 +1,101 @@
+{
+  "horizon": 336,
+  "seed": 43,
+  "split": "test",
+  "origins": 83,
+  "arms": [
+    "raw",
+    "raw_after_input_recon",
+    "output_recon_after_raw",
+    "both_recon_transport",
+    "latent_native",
+    "latent_decoded"
+  ],
+  "forecasts": {
+    "raw": {
+      "mse": 0.1727624692981919,
+      "mae": 0.2754767247211392,
+      "shift_mse": 0.0,
+      "error_cross_term": 0.0
+    },
+    "raw_after_input_recon": {
+      "mse": 0.18146694741370997,
+      "mae": 0.28706549397310116,
+      "shift_mse": 0.008648026426011384,
+      "error_cross_term": 5.645168950669745e-05
+    },
+    "output_recon_after_raw": {
+      "mse": 0.17849838915053742,
+      "mae": 0.2817040429827844,
+      "shift_mse": 0.0065163878691516745,
+      "error_cross_term": -0.0007804680168061303
+    },
+    "both_recon_transport": {
+      "mse": 0.18737807589936406,
+      "mae": 0.29176419936838327,
+      "shift_mse": 0.015603417988726663,
+      "error_cross_term": -0.0009878113875545261
+    },
+    "latent_native": {
+      "mse": 0.19064744775478254,
+      "mae": 0.2999818064831673,
+      "shift_mse": 0.02232089394399235,
+      "error_cross_term": -0.004435915487401674
+    },
+    "latent_decoded": {
+      "mse": 0.1849613726805052,
+      "mae": 0.2873587316639558,
+      "shift_mse": 0.01389658986346299,
+      "error_cross_term": -0.0016976864811496708
+    }
+  },
+  "diagnostics": {
+    "history_reconstruction_mse": 0.01575600118524736,
+    "true_future_reconstruction_mse": 0.01694665640623614,
+    "true_future_reconstruction_is_not_forecast": true
+  },
+  "identity_max_abs_error": 1.1102230246251565e-16,
+  "baseline_qualification": {
+    "raw": {
+      "prediction_max_abs_error": 3.5762786865234375e-06,
+      "bound": 9.820322036743165e-05,
+      "truth_max_abs_error": 0.0
+    },
+    "latent": {
+      "prediction_max_abs_error": 3.5762786865234375e-06,
+      "bound": 8.664499282836915e-05,
+      "truth_max_abs_error": 0.0
+    },
+    "decoded": {
+      "prediction_max_abs_error": 3.0994415283203125e-06,
+      "bound": 0.0001000857448577881,
+      "truth_max_abs_error": 0.0
+    }
+  },
+  "checkpoint_receipts": {
+    "raw": {
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\three_baseline_failures_20261023_v1\\matched_cap_raw_v1\\Electricity_DLinear_H336_seed43\\checkpoints\\raw_Electricity_DLinear_H336_seed43\\checkpoint.pth",
+      "sha256": "b57a533d5ff73015ece8900b3232d57d36fdf6a057b7c1ba264b6bf92f322153",
+      "tensor_sha256": "2a27759e983ae048e092f8806c5295abe43fcea78b5a2d8c5267b02c66562ebd"
+    },
+    "latent": {
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\three_baseline_failures_20261023_v1\\matched_cap_latent_v1\\Electricity_DLinear_H336_seed43\\checkpoints\\Electricity_DLinear_H336_seed43\\checkpoint.pth",
+      "sha256": "2ae864f58b49d1b2cc53e9708ebdb022e8e45050fc34ac5022181b1b4bc34221",
+      "tensor_sha256": "88c24e8896fb8f672e0f967e28ccca36398493f84621b56b416e9be7aa6cca16"
+    },
+    "decoded": {
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\three_baseline_failures_20261023_v1\\decoded_control_v1\\Electricity_DLinear_H336_seed43\\checkpoints\\Electricity_DLinear_H336_seed43\\checkpoint.pth",
+      "sha256": "eee255f0c453c3662fae2fdf76cdebaff2ed1531ddb716fdf48c68c9ac8245cf",
+      "tensor_sha256": "108a67659eac87053d56a67450c0b651ca11da1246af22183f4398b8c59ed2a8"
+    }
+  },
+  "ae_sha256": "b5feb5e512e616c7d92e9a88f9b7ffb5933f681cff9cf368c0004d679bfadf3c",
+  "data_sha256": "7e45845d54c5219bad0ae6bc1b5316cf8ff9cead5d33fa998a5a51c2e4a497ad",
+  "arrays": {
+    "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\three_baseline_failures_20261023_v1\\transport_audit_v1\\H336_seed43_test.npz",
+    "sha256": "645e8887b66f162761f0a1edb54cc791b065b1f5d83e4799828658d974222313"
+  },
+  "optimizer_updates": 0,
+  "epoch_reselected": false,
+  "future_targets_only_for_scoring": true
+}

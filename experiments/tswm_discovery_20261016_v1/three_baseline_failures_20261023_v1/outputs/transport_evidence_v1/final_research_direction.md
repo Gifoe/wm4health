@@ -1,0 +1,3 @@
+# Current recommendation
+
+Accepted final novel directions:0. Stop method development for this case; retain the measured residual and all ordinary controls. The frozen audit completes12 cells with zero updates and validates error identities; it does not provide unique causal attribution or independent generalization. Do not reopen the untriggered capacity branch, generic decoder-alignment idea, or already audited pointwise-Gate lag issue. Continue the existing C71 assessment unchanged and require a distinct, externally unclosed failure for the next primary research question. The overarching goal remains active.

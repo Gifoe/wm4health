@@ -1,0 +1,85 @@
+{
+  "horizon": 720,
+  "seed": 42,
+  "split": "val",
+  "origins": 32,
+  "arms": [
+    "raw",
+    "raw_after_input_recon",
+    "output_recon_after_raw",
+    "both_recon_transport",
+    "latent_native",
+    "latent_decoded"
+  ],
+  "forecasts": {
+    "raw": {
+      "mse": 0.17812672446624433,
+      "mae": 0.27993637831909934,
+      "shift_mse": 0.0,
+      "error_cross_term": 0.0
+    },
+    "raw_after_input_recon": {
+      "mse": 0.18162836403801208,
+      "mae": 0.2845231763603258,
+      "shift_mse": 0.0034450127257314093,
+      "error_cross_term": 5.662684603634116e-05
+    },
+    "output_recon_after_raw": {
+      "mse": 0.18099042063220697,
+      "mae": 0.2798139873494765,
+      "shift_mse": 0.003275471437371345,
+      "error_cross_term": -0.0004117752714087184
+    },
+    "both_recon_transport": {
+      "mse": 0.1860179285451668,
+      "mae": 0.28548659128866183,
+      "shift_mse": 0.008467250041005037,
+      "error_cross_term": -0.0005760459620825993
+    },
+    "latent_native": {
+      "mse": 0.19108859153902538,
+      "mae": 0.30125782900071413,
+      "shift_mse": 0.025498127968989162,
+      "error_cross_term": -0.012536260896208115
+    },
+    "latent_decoded": {
+      "mse": 0.17681568280689447,
+      "mae": 0.2781931837354359,
+      "shift_mse": 0.012996291499167482,
+      "error_cross_term": -0.01430733315851734
+    }
+  },
+  "diagnostics": {
+    "history_reconstruction_mse": 0.006137715770672716,
+    "true_future_reconstruction_mse": 0.009800444980045633,
+    "true_future_reconstruction_is_not_forecast": true
+  },
+  "identity_max_abs_error": 9.237402509576498e-17,
+  "baseline_qualification": {},
+  "checkpoint_receipts": {
+    "raw": {
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\three_baseline_failures_20261023_v1\\matched_cap_raw_v1\\Electricity_DLinear_H720_seed42\\checkpoints\\raw_Electricity_DLinear_H720_seed42\\checkpoint.pth",
+      "sha256": "426958dc9785d0e0d74f35d73e3f6a1acbde1b419abf2ac5692a650a55b35d60",
+      "tensor_sha256": "b3e7170380f17590adedb50b3638d735bf95b753b132ec40390797c8f900108e"
+    },
+    "latent": {
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\three_baseline_failures_20261023_v1\\matched_cap_latent_v1\\Electricity_DLinear_H720_seed42\\checkpoints\\Electricity_DLinear_H720_seed42\\checkpoint.pth",
+      "sha256": "f4514c100c1fc23e8ebd1c60a17d7750fef5513f9cb063dddd033de960a27708",
+      "tensor_sha256": "587e1419902dff71715238d706456cbecf03f43a6ac9bf7e23e3b97d8dbecc1f"
+    },
+    "decoded": {
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\three_baseline_failures_20261023_v1\\decoded_control_v1\\Electricity_DLinear_H720_seed42\\checkpoints\\Electricity_DLinear_H720_seed42\\checkpoint.pth",
+      "sha256": "9b84a6ebfb1fa7b269bc896ce8b67bb34fdd650570637cf26e1ef0684daa9859",
+      "tensor_sha256": "e96949835aab9d9359cf35753bdab31988fe2c9ddf4bd3e6433dc66eea895bab"
+    }
+  },
+  "ae_sha256": "b5feb5e512e616c7d92e9a88f9b7ffb5933f681cff9cf368c0004d679bfadf3c",
+  "data_sha256": "7e45845d54c5219bad0ae6bc1b5316cf8ff9cead5d33fa998a5a51c2e4a497ad",
+  "arrays": {
+    "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\three_baseline_failures_20261023_v1\\transport_audit_v1\\H720_seed42_val.npz",
+    "sha256": "05b4260ee3ce4a4bd36bc14107c0ef5ae5aad438f15a721b89148112e9e90317"
+  },
+  "optimizer_updates": 0,
+  "epoch_reselected": false,
+  "future_targets_only_for_scoring": true
+}

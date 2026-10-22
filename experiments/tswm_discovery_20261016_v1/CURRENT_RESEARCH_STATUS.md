@@ -1,27 +1,25 @@
-# 当前研究状态 — 2026-10-23 V2
+# 当前研究状态 — 2026-10-23 V3
 
-研究目标：ACTIVE / UNACHIEVED。已接受最终新颖方向：0。主线仍为WorldTS、LatentTSF、TSWM；TSWM为已说明范围的源码子集执行。
+研究目标：ACTIVE / UNACHIEVED；接受最终新颖方向0。主线仍是WorldTS、LatentTSF、TSWM。
 
-## 本次决定
+## 冻结组合归因已闭合
 
-六个官方decoded-loss DLinear控制完成，并独立复核。十八个已选权重的确定性完整Val测量完成，不重新选epoch。相对raw的Val均值，decoded在H336为+1.35%，H720为−1.03%，均进入预先规定的5%范围。按Val规则停止当前新架构动机；十八个iTransformer分支单元没有触发，实际训练数0。
+本轮0个optimizer update，18个既有已选预测器、同一AE，完成12个split×horizon×seed审计单元，每单元6个冻结组合。324个独立数值/误差恒等式检查通过。原有30个新训练和24个dense模型审计计数保持不变；不能把组合数加为新训练模型数。
 
-**Test差距仍存在**：decoded相对raw在两个horizon分别高约7.21%和7.35%。这不是整个失败已被唯一解释的证据，也不能用于推翻Val规则、继续调权或扩模。
+只重构历史输入，会使原raw预测器的Test MSE在H336/H720分别增加约5.01%/3.35%；同一AE的历史重构Test/Val误差比约2.15/2.60。这说明普通AE往返和跨时期误差已经参与残差，尚未唯一归因到编码器信息丢失或潜态转移。输出重构的误差不是任何潜态模型的下界；有符号交叉项必须保留。
 
-[最新完整报告](three_baseline_failures_20261023_v1/outputs/decoded_evidence_v1/experimental_results.md) · [机器决策](three_baseline_failures_20261023_v1/outputs/decoded_evidence_v1/verification.json) · [预先冻结规则](three_baseline_failures_20261023_v1/OFFICIAL_DECODED_CONTROL_PROTOCOL_V1.md)
+[最新归因判断](three_baseline_failures_20261023_v1/outputs/transport_evidence_v1/INTERPRETATION_V1.md) · [六路径完整结果](three_baseline_failures_20261023_v1/outputs/transport_evidence_v1/experimental_results.md) · [独立数值复核](three_baseline_failures_20261023_v1/outputs/transport_evidence_v1/verification.json)
 
-## 已完成和已否定的证据
+## 不恢复已停止的方法路线
 
-- 当前campaign累积30个新训练单元、24个冻结模型逐小时审计；本轮增加6个训练、12个逐小时审计，另测量18个冻结权重的Val。
-- 固定100模型的逐小时审计现已闭合；12模型中10个改善，2个略差。原始权重的全改善结论没有替换新结果。
-- 泛称“重构好但不适合动力学”已有直接相邻工作，不能作为当前新颖性依据。近期两篇仅作prior-art核查，没有增加主baseline或伪报复现。
+原Val规则继续有效：官方已有decoded loss已进入raw的预设Val范围，十八组扩模分支没有触发。Test残差仍在，没有按Test重选、调参、校准或挑选组合。宽泛的重构/动力学不兼容已有直接先行工作，当前不据此立项。
 
-[新颖性边界](three_baseline_failures_20261023_v1/NOVELTY_SCREEN_20261023_V2.md) · [上一轮固定预算结果](three_baseline_failures_20261023_v1/outputs/matched_evidence_v1/experimental_results.md) · [三篇失败台账](three_baseline_failures_20261023_v1/THREE_PAPER_FAILURE_LEDGER_V1.md)
+既有C79已经包含lagged impulse检查；原文已有causal decay/conv/attention选项，不重复把点态Gate的零滞后支持当作新缺口。
 
-## 既有C71评估
+## 历史C71
 
-三颗原预算训练seed已完成。原评估guard失败已保留；当前未改动评估器的实际状态为`RUNNING`，观察时间2026-10-22T18:43:15.594973+00:00。以[进程/终态回执](three_baseline_failures_20261023_v1/outputs/c71_observed_state_v2.json)为准；完整评估仍未闭合时不依赖部分种子宣布成败。它不增加第四篇主baseline。
+同一未修改评估器的当前状态：`RUNNING`，观察时间2026-10-22T19:07:48.632788+00:00；以[实际进程/终态回执](three_baseline_failures_20261023_v1/outputs/c71_observed_state_v3.json)为准。全部训练早已完成，完整评估未终态前不据部分种子宣布成败。它不是第四篇主baseline。
 
-## 保存和后续
+## 保存与下一步
 
-全部原实验与已发表归档保留。只发布紧凑源代码、配置、曲线、指标、错误记录和报告；数据、权重、预测、resume及长日志仍留服务器，没有同步本地。下一步先闭合既有评估；新方向需要一个未被普通控制或现有论文解释的独立能力失败，不能重命名当前损失修复。
+全部旧结果保留；只发布紧凑源代码、config、曲线、指标、错误记录和报告。原始数据、权重、预测和长日志留服务器，未同步本地。停止继续追逐本Electricity案例的分数；闭合C71既有评估后，下一项研究问题需来自独立的、未被原有控制或直接文献解释的能力失败。

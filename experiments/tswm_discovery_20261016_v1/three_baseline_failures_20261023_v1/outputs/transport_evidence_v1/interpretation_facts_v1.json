@@ -1,0 +1,41 @@
+{
+  "facts": [
+    {
+      "horizon": 336,
+      "val_history_recon": 0.007326719372572339,
+      "val_future_truth_recon": 0.009419565973776836,
+      "test_history_recon": 0.01575600118524736,
+      "test_future_truth_recon": 0.01694665640623614,
+      "history_recon_test_to_val_ratio": 2.15048514676707,
+      "truth_recon_test_to_val_ratio": 1.799091004130551,
+      "raw_after_input_recon_test_excess": 0.05006960654297532,
+      "output_recon_after_raw_test_excess": 0.03284684607280086,
+      "both_recon_transport_test_excess": 0.08420205423741312,
+      "latent_decoded_test_excess": 0.07207802799613483,
+      "val_decoded_shift": 0.008895525502085833,
+      "val_decoded_cross": -0.0069099095197972275,
+      "test_decoded_shift": 0.014195240157746815,
+      "test_decoded_cross": -0.001734301616900879
+    },
+    {
+      "horizon": 720,
+      "val_history_recon": 0.006137715770672716,
+      "val_future_truth_recon": 0.009800444980045633,
+      "test_history_recon": 0.01594062778645973,
+      "test_future_truth_recon": 0.01674075111345213,
+      "history_recon_test_to_val_ratio": 2.5971596571198963,
+      "truth_recon_test_to_val_ratio": 1.708162348499219,
+      "raw_after_input_recon_test_excess": 0.03349801621087911,
+      "output_recon_after_raw_test_excess": 0.023093849046780024,
+      "both_recon_transport_test_excess": 0.058500367116531615,
+      "latent_decoded_test_excess": 0.07346164733892291,
+      "val_decoded_shift": 0.013471424196734512,
+      "val_decoded_cross": -0.015318560488223982,
+      "test_decoded_shift": 0.018677951603112263,
+      "test_decoded_cross": -0.0034103705500655762
+    }
+  ],
+  "optimizer_updates": 0,
+  "full_causal_attribution": false,
+  "novel_method": false
+}

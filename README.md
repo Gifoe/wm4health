@@ -3,6 +3,8 @@
 本仓库汇总基线复现、机制审计、失败归因及研究探索。**当前尚无通过证据与新颖性要求的最终研究方向；研究目标仍未完成。**
 
 
+**2026-10-23 V3：冻结组合归因。** [同一AE与预测器的六路径审计](experiments/tswm_discovery_20261016_v1/three_baseline_failures_20261023_v1/outputs/transport_evidence_v1/INTERPRETATION_V1.md)；0更新，保留跨时段重构误差和有符号误差项，不把剩余差距直接归因到新转移机制。
+
 **2026-10-23 V2：decoded-loss归因闭合。** [六个官方现有损失控制、完整Val与Test残差](experiments/tswm_discovery_20261016_v1/three_baseline_failures_20261023_v1/outputs/decoded_evidence_v1/experimental_results.md) · [近期文献重合与淘汰依据](experiments/tswm_discovery_20261016_v1/three_baseline_failures_20261023_v1/NOVELTY_SCREEN_20261023_V2.md)。按预先Val规则停止本案扩模；Test差距仍保留，通用新方向尚未确立。
 
 **2026-10-23：主线收敛为 WorldTS / LatentTSF / TSWM。** [当前24组训练与失败归因](experiments/tswm_discovery_20261016_v1/three_baseline_failures_20261023_v1/outputs/matched_evidence_v1/experimental_results.md) · [逐小时负面证据](experiments/tswm_discovery_20261016_v1/three_baseline_failures_20261023_v1/outputs/primary_evidence_v1/experimental_results.md) · [完整代码/协议](experiments/tswm_discovery_20261016_v1/three_baseline_failures_20261023_v1/). 已做固定100epoch与验证选模复核；尚未据此确立通用world-model创新。历史C71评估已按原协议恢复，其当前进程状态单列在[观察回执](experiments/tswm_discovery_20261016_v1/three_baseline_failures_20261023_v1/outputs/c71_observed_state_v1.json)。
