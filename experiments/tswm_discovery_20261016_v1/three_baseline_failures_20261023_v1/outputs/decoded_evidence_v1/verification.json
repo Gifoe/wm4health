@@ -1,0 +1,46 @@
+{
+  "status": "REGISTERED_ATTRIBUTION_DECISION_VERIFIED",
+  "utc": "2026-10-22T18:39:44.362353+00:00",
+  "decision": "STOP_CURRENT_ARCHITECTURE_MOTIVATION_OBJECTIVE_CONTROL_SUFFICIENT",
+  "summary": [
+    {
+      "horizon": 336,
+      "latent_validation_mean": 0.15543395859174325,
+      "latent_test_mean": 0.19058770192928062,
+      "raw_validation_mean": 0.1471402382085065,
+      "raw_test_mean": 0.17288123556018295,
+      "decoded_validation_mean": 0.14912585430711348,
+      "decoded_test_mean": 0.18534217427611865,
+      "decoded_to_raw_validation_ratio": 1.0134947185269148,
+      "decoded_test_excess_over_raw": 0.07207802903281446,
+      "decoded_test_improvement_over_latent": 0.027522907302320987,
+      "within_band": true
+    },
+    {
+      "horizon": 720,
+      "latent_validation_mean": 0.19197313311656436,
+      "latent_test_mean": 0.23660969094279605,
+      "raw_validation_mean": 0.17866268549381173,
+      "raw_test_mean": 0.20783063824071216,
+      "decoded_validation_mean": 0.17681554924124956,
+      "decoded_test_mean": 0.2230982192057678,
+      "decoded_to_raw_validation_ratio": 0.9896613204516835,
+      "decoded_test_excess_over_raw": 0.07346164691739299,
+      "decoded_test_improvement_over_latent": 0.057104473122763344,
+      "within_band": true
+    }
+  ],
+  "validation_origin_scalar_checks": 36,
+  "max_scalar_error": 0.0,
+  "source_validation_result_sha256": "d78f43edad5582f02d78998a2a50dbeae524e827f422ac0d0a85752431134222",
+  "dense_verification_sha256": "d0a24e4c5068b06384a723b025903ce404b99f7c6b087db26bb107193fc5fd55",
+  "strong_itransformer_planned_cells": 18,
+  "strong_itransformer_executed_cells": 0,
+  "completed_new_fits_this_campaign": 30,
+  "completed_dense_frozen_model_audits": 24,
+  "full_causal_attribution": false,
+  "independent_generalization": false,
+  "new_method": false,
+  "accepted_final_directions": 0,
+  "full_research_goal_achieved": false
+}

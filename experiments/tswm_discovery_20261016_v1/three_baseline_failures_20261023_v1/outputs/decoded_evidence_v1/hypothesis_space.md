@@ -1,0 +1,3 @@
+# Attribution state
+
+Different early stopping alone does not explain the original six-cell raw advantage. Existing decoded supervision closes the deterministic Validation gap under the registered band, so a new architecture is unnecessary for this case decision. It improves but does not close Test error. No unique causal explanation is assigned: temporal shift, decoder/predictor function class, AE lineage and native randomized validation selection remain distinct possibilities. The original broad novelty claim is rejected by primary literature; further work needs a distinct observable residual.

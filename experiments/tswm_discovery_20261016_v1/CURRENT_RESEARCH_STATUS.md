@@ -1,25 +1,27 @@
-# 当前研究状态 — 2026-10-23
+# 当前研究状态 — 2026-10-23 V2
 
-研究目标：ACTIVE / UNACHIEVED；已接受最终新颖研究方向：0。当前主线固定为WorldTS、LatentTSF、TSWM。
+研究目标：ACTIVE / UNACHIEVED。已接受最终新颖方向：0。主线仍为WorldTS、LatentTSF、TSWM；TSWM为已说明范围的源码子集执行。
 
-## 本轮已经执行的证据
+## 本次决定
 
-- 重新核对20个WorldTS/LatentTSF旧checkpoint、40个TSWM子集checkpoint与125个TSWM源码文件；不计为60次新训练。
-- 6个原生潜态重复、6个官方raw对照、12个固定100epoch归因对照完成；另有前12模型的逐小时推断审计。
-- 独立重算原生/逐小时指标；seed42权重和预测逐字节复现。
-- 更密集的逐小时查询没有导致预想的性能退化，该假设被否定。
-- 固定100epoch裁决：`RAW_ADVANTAGE_SURVIVES_FIXED100_ON_BOTH_HORIZONS`。完整逐种子结果见下方报告。
+六个官方decoded-loss DLinear控制完成，并独立复核。十八个已选权重的确定性完整Val测量完成，不重新选epoch。相对raw的Val均值，decoded在H336为+1.35%，H720为−1.03%，均进入预先规定的5%范围。按Val规则停止当前新架构动机；十八个iTransformer分支单元没有触发，实际训练数0。
 
-当前残差不等于信息丢失或一般world-model缺陷；已知的decoded-loss、非线性预测器及AE来源仍待分别排除，单一Electricity分数不能确立可投稿的通用机制。
+**Test差距仍存在**：decoded相对raw在两个horizon分别高约7.21%和7.35%。这不是整个失败已被唯一解释的证据，也不能用于推翻Val规则、继续调权或扩模。
 
-[本轮完整结果](three_baseline_failures_20261023_v1/outputs/matched_evidence_v1/experimental_results.md) · [初轮/逐小时结果](three_baseline_failures_20261023_v1/outputs/primary_evidence_v1/experimental_results.md) · [原始协议](three_baseline_failures_20261023_v1/PROTOCOL.md)
+[最新完整报告](three_baseline_failures_20261023_v1/outputs/decoded_evidence_v1/experimental_results.md) · [机器决策](three_baseline_failures_20261023_v1/outputs/decoded_evidence_v1/verification.json) · [预先冻结规则](three_baseline_failures_20261023_v1/OFFICIAL_DECODED_CONTROL_PROTOCOL_V1.md)
 
-## 历史C71的执行闭合
+## 已完成和已否定的证据
 
-三颗seed原预算训练已经完成。保留原评估guard失败后，以未改动的评估器在完整父进程环境重新启动。当前观察状态：`RUNNING`；实际进程/终态见[观察回执](three_baseline_failures_20261023_v1/outputs/c71_observed_state_v1.json)。其完整评估未完成前不据部分数值宣布成败；不因一次观察超时重启。该历史支线不增加第四篇主baseline。
+- 当前campaign累积30个新训练单元、24个冻结模型逐小时审计；本轮增加6个训练、12个逐小时审计，另测量18个冻结权重的Val。
+- 固定100模型的逐小时审计现已闭合；12模型中10个改善，2个略差。原始权重的全改善结论没有替换新结果。
+- 泛称“重构好但不适合动力学”已有直接相邻工作，不能作为当前新颖性依据。近期两篇仅作prior-art核查，没有增加主baseline或伪报复现。
 
-## 数据和发布
+[新颖性边界](three_baseline_failures_20261023_v1/NOVELTY_SCREEN_20261023_V2.md) · [上一轮固定预算结果](three_baseline_failures_20261023_v1/outputs/matched_evidence_v1/experimental_results.md) · [三篇失败台账](three_baseline_failures_20261023_v1/THREE_PAPER_FAILURE_LEDGER_V1.md)
 
-只将紧凑代码、config、训练曲线、指标、错误回执和报告上传GitHub。数据、权重、预测数组、resume与完整日志留在服务器，未同步本地。原有归档和全部旧实验保留。
+## 既有C71评估
 
-更早阶段的结论仍见[研究索引](../../docs/RESEARCH_ATTEMPTS_INDEX.md)，旧进度以各阶段终态和本次观察时间为准。
+三颗原预算训练seed已完成。原评估guard失败已保留；当前未改动评估器的实际状态为`RUNNING`，观察时间2026-10-22T18:43:15.594973+00:00。以[进程/终态回执](three_baseline_failures_20261023_v1/outputs/c71_observed_state_v2.json)为准；完整评估仍未闭合时不依赖部分种子宣布成败。它不增加第四篇主baseline。
+
+## 保存和后续
+
+全部原实验与已发表归档保留。只发布紧凑源代码、配置、曲线、指标、错误记录和报告；数据、权重、预测、resume及长日志仍留服务器，没有同步本地。下一步先闭合既有评估；新方向需要一个未被普通控制或现有论文解释的独立能力失败，不能重命名当前损失修复。

@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "horizon": 720,
+  "protocol_sha256": "bf3402db2ed260527f47509c68156659f37a54964def02ef7cd1473d890a4d55",
+  "qualified_driver_sha256": "feaa0c12d51e4a5e04d4d4521637e9a13a6606e49e99373ff158b62c5093b151",
+  "driver_diff_sha256": "c75b96a3b4cab8a77c7fdc4c1998d64d0e09d20747c2458b64626d8a19b7850a",
+  "upstream_source_sha256": {
+    "D:/baseline_reproduction_seed2021_v1/upstream/LatentTSF/my_train.py": "1403df8eb4bf819903f6a51c6c2f11132fa924617c99d220e3d994a1c21a9baa",
+    "D:/baseline_reproduction_seed2021_v1/upstream/LatentTSF/my_utils.py": "1b9cdf1e30fc85a726d0162cc7edf9a3d6aee65b3b90d2d4aea5440d8902054f",
+    "D:/baseline_reproduction_seed2021_v1/upstream/LatentTSF/my_AE.py": "399d4fb5486a41d24739e4516dfa2f2823ec2d425d684dbf4f307b6ae893cb7d",
+    "D:/baseline_reproduction_seed2021_v1/upstream/LatentTSF/models/DLinear.py": "e03acaf97e70c85ea6bda6776b3a62550f84470afa7bc53dffccb6121626e7eb",
+    "D:/baseline_reproduction_seed2021_v1/upstream/LatentTSF/data_provider/data_loader.py": "b6fd25a0aeee7d508a6274eb08cdfd4a52523c7870f6d6c5f618c6ed3184740e"
+  },
+  "objective": "official decoded observation MSE only",
+  "fixed_epochs": 100,
+  "new_method": false,
+  "independent_method_confirmation": false
+}

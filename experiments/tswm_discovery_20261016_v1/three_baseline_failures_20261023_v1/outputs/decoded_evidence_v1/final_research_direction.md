@@ -1,0 +1,3 @@
+# Current recommendation
+
+Accepted final novel directions:0. Stop the present architecture motivation under the registered Validation-only rule. Six new official decoded-loss fits and twelve fixed100 dense audits are complete;18 selected models have deterministic Val measurements. Raw/decoded Test residuals remain disclosed. Recent direct prior art rules out the generic compatibility phrase as novelty. The remaining historical C71 assessment must continue unchanged from its confirmed live process. The broader world-model research objective remains active; no replacement idea is accepted without a distinct, independently supported failure.

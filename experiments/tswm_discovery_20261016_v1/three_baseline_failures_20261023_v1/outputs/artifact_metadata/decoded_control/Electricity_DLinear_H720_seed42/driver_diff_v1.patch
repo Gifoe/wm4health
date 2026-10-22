@@ -1,0 +1,46 @@
+--- qualified/run_latenttsf.py
++++ decoded_control/run_latenttsf.py
+@@ -3,7 +3,7 @@
+ import argparse,difflib,inspect,traceback
+ 
+ def execute(dataset,backbone,horizon):
+- out=ROOT/'results/latenttsf'/f'{dataset}_{backbone}_H{horizon}_seed42';out.mkdir(parents=True,exist_ok=True)
++ out=REPLAY_ROOT/f'{dataset}_{backbone}_H{horizon}_seed{REPLAY_SEED}';out.mkdir(parents=True,exist_ok=True)
+  if (out/'metrics.json').is_file():
+   old=json.loads((out/'metrics.json').read_text());assert sha(old['checkpoint_path'])==old['checkpoint_sha256'];print('RESUME_SKIP_VERIFIED',out.name);return
+  src=ROOT/'upstream/LatentTSF';sys.path.insert(0,str(src));os.chdir(out)
+@@ -11,7 +11,7 @@
+  pattern='AutoEncoder_MLP_MAE_ETTh1_*' if dataset=='ETTh1' else 'AutoEncoder_MLP_MAE_electricity_*'
+  matches=list((src/'checkpoints').glob(pattern+'/checkpoint.pth'));assert len(matches)==1;ae=matches[0]
+  data=ROOT/'data'/('ETT-small/ETTh1.csv' if dataset=='ETTh1' else 'electricity/electricity.csv');assert sha(data)==DATA_SHA[dataset]
+- args={'task_name':'long_term_forecast','is_training':1,'model_id':out.name,'model':backbone,'data':'ETTh1' if dataset=='ETTh1' else 'custom','root_path':str(data.parent),'data_path':data.name,'features':'M','use_norm':1,'seq_len':720,'label_len':0,'pred_len':horizon,'step':step,'enc_in':channels,'dec_in':channels,'c_out':channels,'d_model':dim,'d_ff':ff,'e_layers':2,'d_layers':1,'n_heads':4,'dropout':.1,'train_epochs':100,'batch_size':bs,'accum_steps':1,'learning_rate':lr,'patience':5,'seed':42,'use_lradj':1,'lradj':'cosine','encoder_type':'AE','ae_type':'MLP','ae_loss':'MAE','autoencoder_path':str(ae),'load_pretrained_ae':1,'mse_weight':10.,'cosine_weight':15.,'perceptual_weight':0.,'reconstruction_weight':0.,'des':'Exp','itr':1,'result_csv':str(out/'official_result.csv'),'result_txt':str(out/'official_result.txt'),'checkpoints':str(out/'checkpoints'),'num_workers':0,'load_checkpoint':1}
++ args={'task_name':'long_term_forecast','is_training':1,'model_id':out.name,'model':backbone,'data':'ETTh1' if dataset=='ETTh1' else 'custom','root_path':str(data.parent),'data_path':data.name,'features':'M','use_norm':1,'seq_len':720,'label_len':0,'pred_len':horizon,'step':step,'enc_in':channels,'dec_in':channels,'c_out':channels,'d_model':dim,'d_ff':ff,'e_layers':2,'d_layers':1,'n_heads':4,'dropout':.1,'train_epochs':100,'batch_size':bs,'accum_steps':1,'learning_rate':lr,'patience':5,'seed':REPLAY_SEED,'use_lradj':1,'lradj':'cosine','encoder_type':'AE','ae_type':'MLP','ae_loss':'MAE','autoencoder_path':str(ae),'load_pretrained_ae':1,'mse_weight':0.,'cosine_weight':0.,'perceptual_weight':1.,'reconstruction_weight':0.,'des':'Exp','itr':1,'result_csv':str(out/'official_result.csv'),'result_txt':str(out/'official_result.txt'),'checkpoints':str(out/'checkpoints'),'num_workers':0,'load_checkpoint':1}
+  argv=[str(src/'my_train.py')]+[x for k,v in args.items() for x in ['--'+k,str(v)]]+['--use_latent','--freeze_encoder','--freeze_decoder']
+  sys.argv=argv
+  write_json(out/'config.json',{'arguments':args,'flags':['use_latent','freeze_encoder','freeze_decoder'],'use_latent_norm':False,'delete_checkpoint':False,'source_commit':COMMITS['LatentTSF'],'data_sha256':sha(data),'ae_checkpoint_sha256':sha(ae),'source_type':'official_source','paper_reference_table':'Table 6 (not Table 7; task citation corrected)','environment_changes':['num_workers=0 on Windows','private dependencies; shared verified torch2.8+cu128']})
+@@ -21,6 +21,7 @@
+  def setup(g):
+   enc=g['encoder'];assert enc is not None and not any(p.requires_grad for p in enc.parameters());assert not g['latent_norm']
+   state['initial_ae_sha']=tensor_sha(enc)
++  write_json(out/'INITIALIZATION_V1.json',dict(model_tensor_sha256=tensor_sha(g['model']),ae_tensor_sha256=tensor_sha(enc),steps_per_epoch=len(g['train_loader']),torch_rng_sha256=hashlib.sha256(torch.get_rng_state().numpy().tobytes()).hexdigest(),old_initial_tensors_not_recorded=True))
+   r=rng();val=g['valid_data'];values=val.data_x[g['args'].seq_len:];sumabs=sumsq=0.;count=0
+   with torch.no_grad():
+    for i in range(0,len(values),2048):
+@@ -63,13 +64,15 @@
+  original=(src/'my_train.py').read_text(encoding='utf-8');patched=original.replace('wandb.Settings(start_method="thread")','wandb.Settings()').replace('            # Build encoder','            setting = _audit_run_id  # Short filesystem name for Windows MAX_PATH.\n            # Build encoder')
+  replacements=[('        for epoch in range(args.train_epochs):','        start_epoch = _audit_setup(locals())\n        for epoch in range(start_epoch, args.train_epochs):'),('            early_stopping(valid_loss, model, path)','            early_stopping(valid_loss, model, path)\n            _audit_record(locals())'),('                print("Early stopping")\n                break','                print("Early stopping")\n                _audit_snapshot(locals())\n                break'),('                adjust_learning_rate(model_optim, epoch+1, args)','                adjust_learning_rate(model_optim, epoch+1, args)\n            _audit_snapshot(locals())'),('        # Total training time','        _audit_finish_training(locals())\n        # Total training time'),('    mae, mse, rmse, mape, mspe = metric(preds, trues)','    mae, mse, rmse, mape, mspe = _audit_metric(preds, trues)')]
+  for before,after in replacements:assert patched.count(before)==1,before;patched=patched.replace(before,after)
++ assert patched.count('                print("Early stopping")\n                _audit_snapshot(locals())\n                break')==1
++ patched=patched.replace('                print("Early stopping")\n                _audit_snapshot(locals())\n                break', '                print("Early stopping")\n                _audit_snapshot(locals())\n                pass')
+  patch=''.join(difflib.unified_diff(original.splitlines(True),patched.splitlines(True),fromfile='upstream/LatentTSF/my_train.py',tofile='instrumented/LatentTSF/my_train.py'))
+- (ROOT/'patches').mkdir(parents=True,exist_ok=True);(ROOT/'patches/latenttsf_audit_resume.diff').write_text(patch,encoding='utf-8')
++ (REPLAY_ROOT/'patches').mkdir(parents=True,exist_ok=True);(REPLAY_ROOT/'patches/latenttsf_audit_resume.diff').write_text(patch,encoding='utf-8')
+  ns={'__name__':'__main__','__file__':str(src/'my_train.py'),'_audit_run_id':out.name,'_audit_setup':setup,'_audit_record':record,'_audit_snapshot':snapshot,'_audit_finish_training':finish_training,'_audit_metric':metric_capture}
+  try:
+   exec(compile(patched,str(src/'my_train.py'),'exec'),ns)
+   pm,pa=paper_reference('LatentTSF',dataset,backbone,horizon);score=state['independent'];diff=abs(score['mse']/pm-1)
+-  metrics={'model':'LatentTSF','dataset':dataset,'backbone':backbone,'input_len':720,'horizon':horizon,'seed':42,'source_type':'official_source','run_type':'fresh_run','paper_mse':pm,'paper_mae':pa,'reproduced_mse':score['mse'],'reproduced_mae':score['mae'],'relative_mse_diff':diff,'best_epoch':min(state['history'],key=lambda r:r['valid_loss'])['epoch'],'epochs':len(state['history']),'train_seconds':state['train_seconds'],'eval_seconds':time.time()-state['eval_start'],'peak_gpu_mb':torch.cuda.max_memory_allocated()/1024**2,'num_parameters':state['params'],'frozen_ae_parameters':state['ae_params'],'config_path':str(out/'config.json'),'checkpoint_path':str(state['checkpoint']),'checkpoint_sha256':sha(state['checkpoint']),'predictions_sha256':sha(out/'predictions.npz'),'data_sha256':sha(data),'source_commit':COMMITS['LatentTSF'],'official_metrics':state['official_metrics'],'independent_verification':score,'status':'MATCHED' if diff<=.05 else 'CLOSE' if diff<=.1 else 'NOT_MATCHED','exit_code':0,'start_time':state['start'],'end_time':time.time()}
++  metrics={'model':'LatentTSF','dataset':dataset,'backbone':backbone,'input_len':720,'horizon':horizon,'seed':REPLAY_SEED,'source_type':'official_source','run_type':'fresh_run','paper_mse':pm,'paper_mae':pa,'reproduced_mse':score['mse'],'reproduced_mae':score['mae'],'relative_mse_diff':diff,'best_epoch':min(state['history'],key=lambda r:r['valid_loss'])['epoch'],'epochs':len(state['history']),'train_seconds':state['train_seconds'],'eval_seconds':time.time()-state['eval_start'],'peak_gpu_mb':torch.cuda.max_memory_allocated()/1024**2,'num_parameters':state['params'],'frozen_ae_parameters':state['ae_params'],'config_path':str(out/'config.json'),'checkpoint_path':str(state['checkpoint']),'checkpoint_sha256':sha(state['checkpoint']),'predictions_sha256':sha(out/'predictions.npz'),'data_sha256':sha(data),'source_commit':COMMITS['LatentTSF'],'official_metrics':state['official_metrics'],'independent_verification':score,'status':'MATCHED' if diff<=.05 else 'CLOSE' if diff<=.1 else 'NOT_MATCHED','exit_code':0,'start_time':state['start'],'end_time':time.time()}
+   write_json(out/'metrics.json',metrics);write_json(out/'status.json',{'run_id':out.name,'status':metrics['status'],'exit_code':0});print('LATENTTSF_RESULT',json.dumps(metrics),flush=True)
+  except BaseException:
+   write_json(out/'status.json',{'run_id':out.name,'status':'FAILED','exit_code':1,'traceback':traceback.format_exc()});raise
