@@ -1,0 +1,9 @@
+# One fixed-cap attribution control, before its outcomes
+
+Observed after the registered native runs: official raw DLinear outperforms the latent recipe in all six sparse-origin cells, but raw training stops after25–47epochs while latent training stops after11–22. Consequently this is a real recipe-level deficit, but not an isolated representation defect. The next decisive control tests the training/selection explanation.
+
+Freeze a single additional matrix: native latent and official original/raw mode, horizons336/720, seeds42/43/44, **exactly100epochs** each. This is the author's already supplied maximum cap, not a search over longer budgets. Preserve data, splits, step60, batch32, lr0.001, cosine schedule, all objectives and model constructors. Ignore the early-stop break for execution while retaining every native validation score and its original checkpoint-saving rule. Select the lowest native validation MSE over these100epochs, never Test. Retain all curves and final/selected hashes. No100→200→1000extension is planned.
+
+Both modes use the same number of minibatch optimizer updates per horizon. Their initial tensors, per-step FLOPs and AE overhead are not equated; report those limits rather than claim perfect computational matching. This is a diagnostic comparison on previously inspected benchmark data. It cannot supply independent new-method validation.
+
+After the frozen fit matrix closes, evaluate the original sparse origins and the registered dense-hourly origins using the same qualified forward paths. A raw-vs-latent difference that disappears here is attributed to budget/selection, not a new state-learning defect. A remaining difference motivates a further discriminating study of representation, objective and pretraining provenance; it does not by itself establish novelty or cross-domain importance. No loss tuning, AE retraining or new architecture is allowed in this control.

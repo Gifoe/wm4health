@@ -1,0 +1,3 @@
+# Research objective remains active
+
+Accepted final directions:0. Primary papers: WorldTS, LatentTSF and TSWM. Evidence: twelve new native-mode/control fits, twelve dense inference audits, byte-identical seed42 reproduction and independent numeric replay. The observed latent-recipe deficit is real on the tested benchmark but confounded by early stopping; a fixed100-epoch attribution study is registered. Existing raw prediction already supplies a strong control. Next decisive evidence is the matched-cap result, followed by independent mechanisms if a meaningful residual survives. No general world-model gap or novel method is established by these numbers alone.

@@ -1,0 +1,348 @@
+{
+  "utc": "2026-10-22T17:57:47.411141+00:00",
+  "status": "PRIMARY_TWELVE_FITS_AND_TWELVE_DENSE_AUDITS_NUMERICALLY_VERIFIED",
+  "scalar_checks": 2064,
+  "max_abs_error": 7.771561172376096e-16,
+  "seed42_replay": [
+    {
+      "horizon": 336,
+      "checkpoint_and_predictions_byte_identical": true
+    },
+    {
+      "horizon": 720,
+      "checkpoint_and_predictions_byte_identical": true
+    }
+  ],
+  "table": [
+    {
+      "mode": "latent",
+      "horizon": 336,
+      "seed": 42,
+      "native_mse": 0.19671606163567038,
+      "native_mae": 0.30600964698089667,
+      "dense_mse": 0.19460738788264345,
+      "dense_mae": 0.30417636892958516,
+      "best_epoch": 9,
+      "epochs": 14,
+      "parameters": 484512,
+      "native_origins": 83,
+      "dense_origins": 4925
+    },
+    {
+      "mode": "latent",
+      "horizon": 336,
+      "seed": 43,
+      "native_mse": 0.1994675032379351,
+      "native_mae": 0.30773828265191394,
+      "dense_mse": 0.19649596440866163,
+      "dense_mae": 0.3045489071017745,
+      "best_epoch": 6,
+      "epochs": 11,
+      "parameters": 484512,
+      "native_origins": 83,
+      "dense_origins": 4925
+    },
+    {
+      "mode": "latent",
+      "horizon": 336,
+      "seed": 44,
+      "native_mse": 0.19209728440193535,
+      "native_mae": 0.30133363239302957,
+      "dense_mse": 0.18872636749673702,
+      "dense_mae": 0.297228442590589,
+      "best_epoch": 15,
+      "epochs": 20,
+      "parameters": 484512,
+      "native_origins": 83,
+      "dense_origins": 4925
+    },
+    {
+      "mode": "latent",
+      "horizon": 720,
+      "seed": 42,
+      "native_mse": 0.23907836392582896,
+      "native_mae": 0.3442221032208051,
+      "dense_mse": 0.238378486995002,
+      "dense_mae": 0.3436708274152794,
+      "best_epoch": 15,
+      "epochs": 20,
+      "parameters": 1038240,
+      "native_origins": 76,
+      "dense_origins": 4541
+    },
+    {
+      "mode": "latent",
+      "horizon": 720,
+      "seed": 43,
+      "native_mse": 0.2381526025253318,
+      "native_mae": 0.34308442048944127,
+      "dense_mse": 0.2371199362076234,
+      "dense_mae": 0.34191724242450205,
+      "best_epoch": 14,
+      "epochs": 19,
+      "parameters": 1038240,
+      "native_origins": 76,
+      "dense_origins": 4541
+    },
+    {
+      "mode": "latent",
+      "horizon": 720,
+      "seed": 44,
+      "native_mse": 0.23638472224094687,
+      "native_mae": 0.3410037868939916,
+      "dense_mse": 0.23548394489048433,
+      "dense_mae": 0.3401401702786305,
+      "best_epoch": 17,
+      "epochs": 22,
+      "parameters": 1038240,
+      "native_origins": 76,
+      "dense_origins": 4541
+    },
+    {
+      "mode": "raw",
+      "horizon": 336,
+      "seed": 42,
+      "native_mse": 0.18221596306607193,
+      "native_mae": 0.28603067808423444,
+      "dense_mse": 0.17908255375053428,
+      "dense_mae": 0.28298006318847374,
+      "best_epoch": 20,
+      "epochs": 25,
+      "parameters": 484512,
+      "native_origins": 83,
+      "dense_origins": 4925
+    },
+    {
+      "mode": "raw",
+      "horizon": 336,
+      "seed": 43,
+      "native_mse": 0.1802282245298289,
+      "native_mae": 0.28340187282825813,
+      "dense_mse": 0.17750617436300078,
+      "dense_mae": 0.2810431292770495,
+      "best_epoch": 27,
+      "epochs": 32,
+      "parameters": 484512,
+      "native_origins": 83,
+      "dense_origins": 4925
+    },
+    {
+      "mode": "raw",
+      "horizon": 336,
+      "seed": 44,
+      "native_mse": 0.18153874137501658,
+      "native_mae": 0.2889059777817035,
+      "dense_mse": 0.17874599727008714,
+      "dense_mae": 0.2860599254013665,
+      "best_epoch": 25,
+      "epochs": 30,
+      "parameters": 484512,
+      "native_origins": 83,
+      "dense_origins": 4925
+    },
+    {
+      "mode": "raw",
+      "horizon": 720,
+      "seed": 42,
+      "native_mse": 0.21386100774627814,
+      "native_mae": 0.31675829298805125,
+      "dense_mse": 0.21107414717519013,
+      "dense_mae": 0.3137395570419555,
+      "best_epoch": 26,
+      "epochs": 31,
+      "parameters": 1038240,
+      "native_origins": 76,
+      "dense_origins": 4541
+    },
+    {
+      "mode": "raw",
+      "horizon": 720,
+      "seed": 43,
+      "native_mse": 0.20983921191350136,
+      "native_mae": 0.31115278978660915,
+      "dense_mse": 0.2073585586427668,
+      "dense_mae": 0.3085794390192756,
+      "best_epoch": 42,
+      "epochs": 47,
+      "parameters": 1038240,
+      "native_origins": 76,
+      "dense_origins": 4541
+    },
+    {
+      "mode": "raw",
+      "horizon": 720,
+      "seed": 44,
+      "native_mse": 0.21003121634429534,
+      "native_mae": 0.31097206651298337,
+      "dense_mse": 0.20768351865438503,
+      "dense_mae": 0.30854114148309203,
+      "best_epoch": 39,
+      "epochs": 44,
+      "parameters": 1038240,
+      "native_origins": 76,
+      "dense_origins": 4541
+    }
+  ],
+  "summary": [
+    {
+      "horizon": 336,
+      "paper_latent_mse": 0.185,
+      "latent_native_mse_mean": 0.1960936164251803,
+      "latent_native_mse_seed_sd": 0.0037243267784497556,
+      "latent_dense_mse_mean": 0.1932765732626807,
+      "latent_dense_mse_seed_sd": 0.0040521549461955495,
+      "latent_native_mae_mean": 0.3050271873419467,
+      "latent_native_mae_seed_sd": 0.003313428200713144,
+      "latent_dense_mae_mean": 0.3019845728739829,
+      "latent_dense_mae_seed_sd": 0.004123139292686687,
+      "latent_epochs": [
+        14,
+        11,
+        20
+      ],
+      "raw_native_mse_mean": 0.1813276429903058,
+      "raw_native_mse_seed_sd": 0.0010105434271405799,
+      "raw_dense_mse_mean": 0.1784449084612074,
+      "raw_dense_mse_seed_sd": 0.0008302010879808472,
+      "raw_native_mae_mean": 0.2861128428980653,
+      "raw_native_mae_seed_sd": 0.002752972235077829,
+      "raw_dense_mae_mean": 0.2833610392889632,
+      "raw_dense_mae_seed_sd": 0.0025300035434952725,
+      "raw_epochs": [
+        25,
+        32,
+        30
+      ],
+      "raw_lower_native_mse_all_three_seeds": true,
+      "raw_dense_mse_relative_reduction": 0.0767380368510347
+    },
+    {
+      "horizon": 720,
+      "paper_latent_mse": 0.218,
+      "latent_native_mse_mean": 0.23787189623070257,
+      "latent_native_mse_seed_sd": 0.0013685844509992704,
+      "latent_dense_mse_mean": 0.23699412269770323,
+      "latent_dense_mse_seed_sd": 0.0014513666932120292,
+      "latent_native_mae_mean": 0.34277010353474596,
+      "latent_native_mae_seed_sd": 0.001632019104013585,
+      "latent_dense_mae_mean": 0.34190941337280395,
+      "latent_dense_mae_seed_sd": 0.0017653415886678234,
+      "latent_epochs": [
+        20,
+        19,
+        22
+      ],
+      "raw_native_mse_mean": 0.2112438120013583,
+      "raw_native_mse_seed_sd": 0.0022685902231961404,
+      "raw_dense_mse_mean": 0.20870540815744731,
+      "raw_dense_mse_seed_sd": 0.0020578127108462994,
+      "raw_native_mae_mean": 0.3129610497625479,
+      "raw_native_mae_seed_sd": 0.0032897503416871436,
+      "raw_dense_mae_mean": 0.31028671251477435,
+      "raw_dense_mae_seed_sd": 0.0029903123870229534,
+      "raw_epochs": [
+        31,
+        47,
+        44
+      ],
+      "raw_lower_native_mse_all_three_seeds": true,
+      "raw_dense_mse_relative_reduction": 0.11936462481957603
+    }
+  ],
+  "dense_array_receipts": [
+    {
+      "mode": "latent",
+      "horizon": 336,
+      "seed": 42,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\three_baseline_failures_20261023_v1\\dense_hourly_v2\\H336_seed42_origin_metrics.npz",
+      "sha256": "852cb51feff949a88c136cb0f134b8b2c6ced0483480235925b56d95e1adf8d2"
+    },
+    {
+      "mode": "latent",
+      "horizon": 336,
+      "seed": 43,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\three_baseline_failures_20261023_v1\\dense_hourly_v2\\H336_seed43_origin_metrics.npz",
+      "sha256": "ee7f28766e8289128ab5fdf49e07f029b6cbd2926b4d29c2403100fa405929d9"
+    },
+    {
+      "mode": "latent",
+      "horizon": 336,
+      "seed": 44,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\three_baseline_failures_20261023_v1\\dense_hourly_v2\\H336_seed44_origin_metrics.npz",
+      "sha256": "f9e005dd896393e44703d273793ae9a6721464530a8c9ee52a9052cb22f5f378"
+    },
+    {
+      "mode": "latent",
+      "horizon": 720,
+      "seed": 42,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\three_baseline_failures_20261023_v1\\dense_hourly_v2\\H720_seed42_origin_metrics.npz",
+      "sha256": "93060b3a4dd775a5d8ab7880a6dc6266fa75f9993e69c31e00c95354ccc892d6"
+    },
+    {
+      "mode": "latent",
+      "horizon": 720,
+      "seed": 43,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\three_baseline_failures_20261023_v1\\dense_hourly_v2\\H720_seed43_origin_metrics.npz",
+      "sha256": "e8aabde7b08d6900deeed1afd6f98fdbf72e373196ae0c220cc4a8050400cb99"
+    },
+    {
+      "mode": "latent",
+      "horizon": 720,
+      "seed": 44,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\three_baseline_failures_20261023_v1\\dense_hourly_v2\\H720_seed44_origin_metrics.npz",
+      "sha256": "1ec02c0c645313d3e05f2be5788421c2eadb12e6cebedffb6944ecf2ad6969ce"
+    },
+    {
+      "mode": "raw",
+      "horizon": 336,
+      "seed": 42,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\three_baseline_failures_20261023_v1\\raw_dense_v1\\H336_seed42_origin_metrics.npz",
+      "sha256": "a89233bbcd9717f81e421f0f3e56971982a16705ed9662c2c4790d2724980b66"
+    },
+    {
+      "mode": "raw",
+      "horizon": 336,
+      "seed": 43,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\three_baseline_failures_20261023_v1\\raw_dense_v1\\H336_seed43_origin_metrics.npz",
+      "sha256": "c6443ce1ccafbf924bc8b462dfe05fa97fb3b110f5631b5e26130548e989bcab"
+    },
+    {
+      "mode": "raw",
+      "horizon": 336,
+      "seed": 44,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\three_baseline_failures_20261023_v1\\raw_dense_v1\\H336_seed44_origin_metrics.npz",
+      "sha256": "fdeda9126d2aa35a49cd0efed677a46a3c74cd7a51a2db4d900a4d0d0ad64f90"
+    },
+    {
+      "mode": "raw",
+      "horizon": 720,
+      "seed": 42,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\three_baseline_failures_20261023_v1\\raw_dense_v1\\H720_seed42_origin_metrics.npz",
+      "sha256": "796b8b803d82fd97830ae0793c522602f326053d5aecb78abb455216aa36fb38"
+    },
+    {
+      "mode": "raw",
+      "horizon": 720,
+      "seed": 43,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\three_baseline_failures_20261023_v1\\raw_dense_v1\\H720_seed43_origin_metrics.npz",
+      "sha256": "04bd563552146f3c7ccfe71c28c228c09e661990e3086db541fce380aecdbe71"
+    },
+    {
+      "mode": "raw",
+      "horizon": 720,
+      "seed": 44,
+      "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\three_baseline_failures_20261023_v1\\raw_dense_v1\\H720_seed44_origin_metrics.npz",
+      "sha256": "765a8d280309885153139cd6363683f748610c36f14b195481994e68a0499d5b"
+    }
+  ],
+  "source_native_registry_sha256": "6f57bc9c4f9763e4959a8069800345a410c04eb319f851c9fad93348ff9401c5",
+  "source_raw_registry_sha256": "a8ace26a6fbb3b59314dd7a2c6528ab920e4ce9e0f4ea7790fffdda6643ef07a",
+  "dense_registry_sha256": {
+    "latent": "0cf7941d32f313e1141b8927dbadaf6246c694afc58e583c7d5e0f6f47a39cf7",
+    "raw": "b479bcda72acb36974ee69267761499491021b57908a352f5cdba1e7d1dd9438"
+  },
+  "native_raw_more_earlystopping_epochs": true,
+  "independent_generalization": false,
+  "new_method": false,
+  "accepted_final_directions": 0
+}

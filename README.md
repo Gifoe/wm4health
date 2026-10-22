@@ -2,6 +2,9 @@
 
 本仓库汇总基线复现、机制审计、失败归因及研究探索。**当前尚无通过证据与新颖性要求的最终研究方向；研究目标仍未完成。**
 
+
+**2026-10-23：主线收敛为 WorldTS / LatentTSF / TSWM。** [当前24组训练与失败归因](experiments/tswm_discovery_20261016_v1/three_baseline_failures_20261023_v1/outputs/matched_evidence_v1/experimental_results.md) · [逐小时负面证据](experiments/tswm_discovery_20261016_v1/three_baseline_failures_20261023_v1/outputs/primary_evidence_v1/experimental_results.md) · [完整代码/协议](experiments/tswm_discovery_20261016_v1/three_baseline_failures_20261023_v1/). 已做固定100epoch与验证选模复核；尚未据此确立通用world-model创新。历史C71评估已按原协议恢复，其当前进程状态单列在[观察回执](experiments/tswm_discovery_20261016_v1/three_baseline_failures_20261023_v1/outputs/c71_observed_state_v1.json)。
+
 - **[先读：全部研究尝试与主要结论](docs/TIME_SERIES_WORLD_MODEL_RESEARCH_SUMMARY.md)**
 - [逐阶段索引：88 个阶段记录](docs/RESEARCH_ATTEMPTS_INDEX.md) · [机器可读目录](docs/experiment_index_20261019.json)
 - [早期六个时序项目](docs/TIME_SERIES_WORLD_MODEL_RESEARCH_SUMMARY.md#1-早期复现与-worldts-系列) · [原有 VitalDB 系列](docs/VITALDB_HISTORICAL_INDEX.md)

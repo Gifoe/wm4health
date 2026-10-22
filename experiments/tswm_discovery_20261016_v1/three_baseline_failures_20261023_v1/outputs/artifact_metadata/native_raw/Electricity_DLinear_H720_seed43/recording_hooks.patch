@@ -1,0 +1,52 @@
+--- official/my_train.py
++++ raw_audit/my_train.py
+@@ -227,7 +227,7 @@
+     trues = np.concatenate(trues, axis=0)
+     print('test shape:', preds.shape, trues.shape)
+ 
+-    mae, mse, rmse, mape, mspe = metric(preds, trues)
++    mae, mse, rmse, mape, mspe = _audit_metric(preds, trues)
+     print(f"mae:{mae}, mse:{mse}, rmse:{rmse}, mape:{mape}, mspe:{mspe}")
+ 
+     result_file = args.result_txt
+@@ -368,6 +368,7 @@
+             model = model_dict[args.model].Model(args).float()
+             latent_norm = None
+ 
++        setting = _audit_run_id
+         print(f">>>>>>>start training : {setting}>>>>>>>>>>>>>>>>>>>>>>>>>>")
+ 
+         # Initialize wandb
+@@ -434,7 +435,7 @@
+             project=wandb_project,
+             name=setting,
+             config=wandb_config,
+-            settings=wandb.Settings(start_method="thread")
++            settings=wandb.Settings()
+         )
+ 
+         if args.use_multi_gpu and args.use_gpu:
+@@ -497,6 +498,7 @@
+         f_dim = -1 if args.features == 'MS' else 0
+         actual_epochs = 0
+ 
++        _audit_setup(locals())
+         for epoch in range(args.train_epochs):
+             actual_epochs = epoch + 1
+             iter_count = 0
+@@ -653,6 +655,7 @@
+             wandb.log(wandb_log)
+ 
+             early_stopping(valid_loss, model, path)
++            _audit_record(locals())
+             if early_stopping.early_stop:
+                 print("Early stopping")
+                 break
+@@ -661,6 +664,7 @@
+             if use_lradj_value:
+                 adjust_learning_rate(model_optim, epoch+1, args)
+ 
++        _audit_finish(locals())
+         # Total training time
+         training_time = time.time() - training_start_time
+         print(f"Total training time: {training_time:.2f}s ({training_time/60:.2f}min)")

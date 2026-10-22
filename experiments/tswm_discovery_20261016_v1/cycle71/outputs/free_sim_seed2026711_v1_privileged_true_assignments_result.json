@@ -1,0 +1,124 @@
+{
+  "seed": 2026711,
+  "arm": "privileged_true_assignments",
+  "privileged": true,
+  "checkpoint": {
+    "epoch": 1999,
+    "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\cycle71\\formal_seed2026711_bounded01999_v1\\epoch01999.pt",
+    "sha256": "2db1f010fbc22db941a726501e92a9739694d0bccd5d4fae7cc5bab2b1c1a0be",
+    "val_loss": 7.152193575166166e-06,
+    "module_updates": 32000,
+    "proposal_updates": 32000
+  },
+  "orientation": {
+    "flip": 0,
+    "train_rows": 128,
+    "native_reset_block_history_mse": [
+      1.547095019649447e-06,
+      0.0038154753356138826
+    ],
+    "val_labels_used_for_selection": false
+  },
+  "mean_native_history_mse": 1.5605555570008534e-06,
+  "graph_assignment_accuracy": 1.0,
+  "search": [
+    {
+      "offset": 0,
+      "steps": 0,
+      "privileged_graph_labels": true
+    },
+    {
+      "offset": 32,
+      "steps": 0,
+      "privileged_graph_labels": true
+    },
+    {
+      "offset": 64,
+      "steps": 0,
+      "privileged_graph_labels": true
+    },
+    {
+      "offset": 96,
+      "steps": 0,
+      "privileged_graph_labels": true
+    },
+    {
+      "offset": 128,
+      "steps": 0,
+      "privileged_graph_labels": true
+    },
+    {
+      "offset": 160,
+      "steps": 0,
+      "privileged_graph_labels": true
+    },
+    {
+      "offset": 192,
+      "steps": 0,
+      "privileged_graph_labels": true
+    },
+    {
+      "offset": 224,
+      "steps": 0,
+      "privileged_graph_labels": true
+    }
+  ],
+  "wall_seconds": 7.468357300036587,
+  "status": "FINITE_ALL_TRAJECTORIES",
+  "nonfinite_rows": [],
+  "total_trajectories": 256,
+  "metrics": [
+    {
+      "horizon": 1,
+      "prefix_mse": 9.663578138638772e-08,
+      "prefix_mae": 0.00017628114313545867,
+      "endpoint_mse": 9.663578138638772e-08,
+      "coordinate_mse": [
+        3.762499961737851e-09,
+        4.959449117336983e-09,
+        2.136434163755422e-07,
+        1.6417776009093413e-07
+      ]
+    },
+    {
+      "horizon": 10,
+      "prefix_mse": 3.795680620253525e-06,
+      "prefix_mae": 0.001027041891699285,
+      "endpoint_mse": 9.803235054528466e-06,
+      "coordinate_mse": [
+        3.0524100512882116e-07,
+        3.29720101136049e-07,
+        8.03397545139024e-06,
+        6.5137859233590014e-06
+      ]
+    },
+    {
+      "horizon": 25,
+      "prefix_mse": 2.216744188682966e-05,
+      "prefix_mae": 0.0025867570848847467,
+      "endpoint_mse": 6.458640550847862e-05,
+      "coordinate_mse": [
+        5.204547545870285e-06,
+        4.831940677013503e-06,
+        3.89735503641405e-05,
+        3.965972896029439e-05
+      ]
+    },
+    {
+      "horizon": 50,
+      "prefix_mse": 0.00030638457180804724,
+      "prefix_mae": 0.006398040855660755,
+      "endpoint_mse": 0.0019215582330460884,
+      "coordinate_mse": [
+        6.170923843398449e-05,
+        9.082588836738025e-05,
+        0.00044890753963952514,
+        0.0006240956207913039
+      ]
+    }
+  ],
+  "arrays": {
+    "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\cycle71\\free_sim_seed2026711_v1_privileged_true_assignments.npz",
+    "sha256": "c8afebf60ae681cc34f3644da4e7bd8073879fdb556e0bd1404a1d1bd20508a3"
+  }
+}

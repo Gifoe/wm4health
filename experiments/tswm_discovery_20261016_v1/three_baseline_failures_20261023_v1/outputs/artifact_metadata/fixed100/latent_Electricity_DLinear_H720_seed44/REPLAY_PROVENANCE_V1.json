@@ -1,0 +1,30 @@
+{
+  "seed": 44,
+  "horizon": 720,
+  "qualified_driver_sha256": "feaa0c12d51e4a5e04d4d4521637e9a13a6606e49e99373ff158b62c5093b151",
+  "driver_diff_sha256": "d53dbc3a4f3cb6cd3684986ef01b5fa3465deecc14d9d222129f65efa5bc7d98",
+  "upstream_source_sha256": {
+    "D:/baseline_reproduction_seed2021_v1/upstream/LatentTSF/my_train.py": "1403df8eb4bf819903f6a51c6c2f11132fa924617c99d220e3d994a1c21a9baa",
+    "D:/baseline_reproduction_seed2021_v1/upstream/LatentTSF/my_utils.py": "1b9cdf1e30fc85a726d0162cc7edf9a3d6aee65b3b90d2d4aea5440d8902054f",
+    "D:/baseline_reproduction_seed2021_v1/upstream/LatentTSF/models/DLinear.py": "e03acaf97e70c85ea6bda6776b3a62550f84470afa7bc53dffccb6121626e7eb",
+    "D:/baseline_reproduction_seed2021_v1/upstream/LatentTSF/data_provider/data_loader.py": "b6fd25a0aeee7d508a6274eb08cdfd4a52523c7870f6d6c5f618c6ed3184740e",
+    "D:/baseline_reproduction_seed2021_v1/upstream/LatentTSF/run_train_all.sh": "115070e1641cfc6e35e634f2f79588a4a335cee807407b6e34904b333f86a059"
+  },
+  "changes": [
+    "Forecast initialization seed",
+    "Fresh output directory",
+    "Fresh audit-patch directory"
+  ],
+  "source_objective_or_model_changed": false,
+  "recipe": {
+    "seq_len": 720,
+    "step": 60,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "train_epochs": 100,
+    "patience": 5,
+    "latent_mse_weight": 10,
+    "latent_cosine_weight": 15
+  },
+  "scientific_identity": "controlled fixed100-epoch attribution; early-stop break ignored; native model/loss unchanged"
+}

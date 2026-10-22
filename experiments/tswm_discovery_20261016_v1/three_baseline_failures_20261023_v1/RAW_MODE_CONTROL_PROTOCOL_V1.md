@@ -1,0 +1,9 @@
+# Diagnostic observation-space control, frozen before its outcomes
+
+The native six-cell latent matrix and dense-hourly audit are now complete. H720's discrepancy persists; dense-hourly evaluation improves rather than degrades all six models. This supplement tests whether the released latent recipe improves over the same official observation-space backbone under this workload, before attributing the paper gap to a new world-model defect.
+
+Run official `my_train.py` in its original/raw mode for DLinear, Electricity, history720, horizons336/720 and seeds42/43/44. Use the same raw bytes, split, train normalization, step60, batch32, lr0.001, maximum100 epochs, patience5, cosine schedule and native shuffled/unweighted validation rule. Remove the latent-mode flag; use the author's ordinary observation MSE and no AE. Preserve actual native forward/loss/backward and checkpoint selection. Only filesystem/logging/metric-capture hooks are added as in the qualified latent driver.
+
+This matches allowed input, forecast-backbone parameter count and maximum training recipe; it does not claim identical initial tensors, actual stopping updates, total inference computation, or the frozen AE's additional information. Record those differences. No raw-mode loss, seed or hyperparameter is selected using outcomes.
+
+After all six choices close, apply the same registered hourly-origin evaluation with the native raw forward path, qualify every original sparse-origin prediction/target, and retain all sixty phases. No original/latent checkpoint is changed. This is a predeclared diagnostic control on an already inspected Test period, not independent confirmation of a newly designed method. If an apparent gap is explained by ordinary raw forecasting, withdraw that interpretation. A residual on Electricity alone cannot establish a general framework contribution.
