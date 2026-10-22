@@ -1,0 +1,3 @@
+# Negative evidence
+
+The original CPU IDF point scores did not all match the reference. Exact data/normalization, deterministic replay and future-boundary checks ruled out several simple explanations. Seven frozen controls then supported device-dependent random draws: native CPU/GPU MSE differs12.02% in the primary case, while common-bank prediction RMS differs below8e-7 relatively; three GPU checkpoints match all supplied IDF metrics. Preserve the original CPU mismatch and its ordinary explanation. This is not a learned-dynamics defect or method opportunity. Raw endpoint timeout, Windows environment-key and old post-fit timestamp errors remain engineering incidents. MoCAP forecast accuracy does not establish a physical intervention gap.

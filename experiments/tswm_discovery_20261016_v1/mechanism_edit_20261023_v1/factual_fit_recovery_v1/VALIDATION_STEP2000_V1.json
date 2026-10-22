@@ -1,0 +1,48 @@
+{
+  "step": 2000,
+  "mse": 0.33458525778175574,
+  "families": [
+    {
+      "family": 0,
+      "mse": 0.5110750732922661,
+      "per_draw_mse": 0.5741000113630669,
+      "persistence_mse": 3.945279768964152,
+      "persistence_ratio": 0.12954089525226514,
+      "lagged_reference_mse": 0.2196221963968128,
+      "lagged_ratio": 2.3270647579211756,
+      "reconstruction_mse": 0.05016002326429498,
+      "competence_gate": false
+    },
+    {
+      "family": 1,
+      "mse": 0.15809544227124547,
+      "per_draw_mse": 0.21398696795239447,
+      "persistence_mse": 0.9321649708447795,
+      "persistence_ratio": 0.16960028237058794,
+      "lagged_reference_mse": 0.08249454409815371,
+      "lagged_ratio": 1.916435129129755,
+      "reconstruction_mse": 0.02429327773320338,
+      "competence_gate": false
+    }
+  ],
+  "checkpoint_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\mechanism_edit_20261023_v1\\factual_fit_recovery_v1\\step2000.npz",
+  "checkpoint_sha256": "a64e5df6c2ae1a1a2db444c4206ab9e58903758748db87ab8df92b0289e89507",
+  "full_state_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\checkpoints\\mechanism_edit_20261023_v1\\factual_fit_recovery_v1\\state2000.pkl",
+  "full_state_sha256": "a16620d67aba7df037343943d15cc788ae1f59f60615493f9c63b3e8703e5c80",
+  "payload_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\mechanism_edit_20261023_v1\\factual_fit_recovery_v1\\validation_step2000.npz",
+  "payload_sha256": "7fd9339d9957795a3a338a213f30a0ed2cf156e6bae92e96b9e41561c97a3ef7",
+  "validation_seconds": 24.896708599990234,
+  "replay_max": 0.0,
+  "optimizer_updates": 2000,
+  "numpy_rng_state": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 122635049241554159584168293262539179096,
+      "inc": 190484844281054127568087150702084394463
+    },
+    "has_uint32": 0,
+    "uinteger": 3162378348
+  },
+  "next_update_prng_seed": 202612232,
+  "elapsed_seconds": 2310.5038978001103
+}

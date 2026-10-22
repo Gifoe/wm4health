@@ -1,0 +1,3 @@
+# Candidate not established
+
+Research Question: persistent global mechanism semantics. Evidence: native factual training/clock complete, but factual competence gate=False and no physical edit test. Existing Methods: explicit identification, state transport, context projection and causal intervention maps. Proposed Idea: none accepted. Falsification: adequate existing models or ordinary controls suffice; underfit models are not gap evidence. Feasibility: exact source CPU execution qualified, original-paper capability not reproduced. Next Experiment: qualify a competent native physical-model checkpoint before cross-root mechanism queries. Overall discovery remains ACTIVE/UNACHIEVED; accepted directions0.

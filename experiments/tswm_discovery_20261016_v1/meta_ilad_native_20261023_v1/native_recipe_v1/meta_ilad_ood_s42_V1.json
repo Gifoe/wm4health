@@ -1,0 +1,60 @@
+{
+  "name": "meta_ilad_ood_s42",
+  "model": "meta_ilad",
+  "split": "OOD",
+  "seed": 42,
+  "metrics": {
+    "model": "Meta-iLaD",
+    "version": "refined",
+    "ckpt": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\caches\\meta_ilad_native_20261023_v1\\source\\mocap\\checkpoints\\meta_ilad_ood_s42.pt",
+    "data": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\meta_ilad_native_20261023_v1\\mocap_refined_v1\\OOD\\data_test.pt",
+    "split": "OOD",
+    "seed": 42,
+    "n_sequences": 7,
+    "recon_mse": 33.80568313598633,
+    "obs_mse": 50.03199768066406,
+    "pred_mse": 79.01324462890625
+  },
+  "reference_metrics": {
+    "model": "Meta-iLaD",
+    "version": "refined",
+    "ckpt": "checkpoints/meta_ilad_ood_s42.pt",
+    "data": "data/OOD/data_test.pt",
+    "split": "OOD",
+    "seed": 42,
+    "n_sequences": 7,
+    "recon_mse": 33.810054779052734,
+    "obs_mse": 50.468509674072266,
+    "pred_mse": 78.71672821044922
+  },
+  "parity": [
+    {
+      "metric": "recon_mse",
+      "actual": 33.80568313598633,
+      "reference": 33.810054779052734,
+      "absolute_difference": 0.00437164306640625,
+      "relative_difference": 0.000129300088242233,
+      "within_tolerance": true
+    },
+    {
+      "metric": "obs_mse",
+      "actual": 50.03199768066406,
+      "reference": 50.468509674072266,
+      "absolute_difference": 0.4365119934082031,
+      "relative_difference": 0.008649195235350038,
+      "within_tolerance": true
+    },
+    {
+      "metric": "pred_mse",
+      "actual": 79.01324462890625,
+      "reference": 78.71672821044922,
+      "absolute_difference": 0.29651641845703125,
+      "relative_difference": 0.0037668793558631457,
+      "within_tolerance": true
+    }
+  ],
+  "payload_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\meta_ilad_native_20261023_v1\\native_recipe_v1\\meta_ilad_ood_s42.npz",
+  "payload_sha256": "08fdacd3b63539b7a914c1235cb662ae37596d7031d10cbfb905df49e08e573f",
+  "checkpoint_sha256": "8ded5a1c9c844f70252edf2f86c6d8b230f1bb61e4c7aad8d0d69ecc02957d71",
+  "source_metric_json_sha256": "b7a0b21d35f0ee49a716d4287ffa92d0cb62509327fb898cbfd5b09ada551938"
+}

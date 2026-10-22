@@ -1,0 +1,104 @@
+{
+  "status": "POSTFIT_VERIFICATION_CLOSED",
+  "utc": "2026-10-22T22:08:57.259643+00:00",
+  "factual_selected_step": 2000,
+  "competence_gate": false,
+  "clock_qualified": true,
+  "clock_result": {
+    "status": "NATIVE_FILTER_AND_IMAGINATION_CLOCK_QUALIFIED",
+    "utc": "2026-10-22T22:08:56.997620+00:00",
+    "checkpoint_step": 2000,
+    "checkpoint_sha256": "a64e5df6c2ae1a1a2db444c4206ab9e58903758748db87ab8df92b0289e89507",
+    "posterior_errors": {
+      "deter": 0.0,
+      "logit": 0.0,
+      "stoch": 0.0
+    },
+    "prior_errors": {
+      "deter": 0.0,
+      "logit": 0.0,
+      "stoch": 0.0
+    },
+    "decoded_error": 0.0,
+    "future_change_early_max": 0.0,
+    "action_clock": {
+      "observed_states": [
+        0,
+        64
+      ],
+      "executed_actions": [
+        0,
+        63
+      ],
+      "future_actions": [
+        64,
+        95
+      ],
+      "future_targets": [
+        65,
+        96
+      ]
+    },
+    "source_files_unchanged": true,
+    "optimizer_updates": 0,
+    "payload_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\mechanism_edit_20261023_v1\\factual_clock_step2000_diagnostic_v1\\clock_replay_v1.npz",
+    "payload_sha256": "53c7e1c47852429ebc47dd67c346968fabede8a0033028dff5ee97700e25337c",
+    "protocol_sha256": "e1626f17bbd5763f2b04fd6b50a198d67e3f2bebffff660808b17c756fc10b84",
+    "backend_diagnostic_sha256": "ebcb2a70b4965f9c6d2407f7b6c1d48a7bbdf3816d1a332ea90ce7d759a875e7",
+    "physical_prediction_accuracy_established": false
+  },
+  "children": [
+    {
+      "pid": 13172,
+      "exit_code": 0,
+      "timeout": false,
+      "utc": "2026-10-22T22:08:46.718709+00:00",
+      "log_sha256": "baa828d1c85aea2fb506e92cd59e378221eb730dcb7de82b6db05c92809367b2"
+    },
+    {
+      "pid": 38024,
+      "exit_code": 0,
+      "timeout": false,
+      "utc": "2026-10-22T22:08:48.816565+00:00",
+      "log_sha256": "df559f8022f9a1a07c058ef489c238fab02e9e9eed8ba7b13c98a5621d5723c1"
+    },
+    {
+      "pid": 2904,
+      "exit_code": 0,
+      "timeout": false,
+      "utc": "2026-10-22T22:08:49.672988+00:00",
+      "log_sha256": "e3f251efd4de117258e390366868b1c0c18efab7d9887f9f21b0dd29346aa532"
+    },
+    {
+      "pid": 40936,
+      "exit_code": 0,
+      "timeout": false,
+      "utc": "2026-10-22T22:08:50.701047+00:00",
+      "log_sha256": "960ed3832f8e5ca28680177f77bae8518161e1ba87b57317797a02f70bc63038"
+    },
+    {
+      "pid": 40700,
+      "exit_code": 0,
+      "timeout": false,
+      "utc": "2026-10-22T22:08:51.623880+00:00",
+      "log_sha256": "6d125655a4b0a604e14e7f23db49fa783c2955b1fcb32d3227f8a859f89417b6"
+    },
+    {
+      "pid": 32304,
+      "exit_code": 0,
+      "timeout": false,
+      "utc": "2026-10-22T22:08:57.236620+00:00",
+      "log_sha256": "c7983b7a0df33a7e8908dacf99c098fd325981163c57e1c90e810e3bd676c656"
+    }
+  ],
+  "fit_terminal": {
+    "pid": 42476,
+    "exit_code": 0,
+    "utc": "2026-10-22T22:00:51.779230+00:00",
+    "log_sha256": "f4d5e95fe8932e42f6c9c5e8654f4e7aefe3ee747eccb50be4b531f9e29af854"
+  },
+  "mechanism_experiments_allowed_by_this_queue": false,
+  "physical_parameter_edit_evaluated": false,
+  "accepted_final_directions": 0,
+  "full_research_goal_achieved": false
+}

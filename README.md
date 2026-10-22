@@ -3,6 +3,8 @@
 本仓库汇总基线复现、机制审计、失败归因及研究探索。**当前尚无通过证据与新颖性要求的最终研究方向；研究目标仍未完成。**
 
 
+**2026-10-23 V9：DALI迁移资格与Meta-iLaD发布版评估已闭合。** [DALI训练、时钟与资格终态](experiments/tswm_discovery_20261016_v1/mechanism_edit_20261023_v1/factual_transfer_closure_20261023_v1/experimental_results.md)；[Meta-iLaD原生评估与随机偏差归因](experiments/tswm_discovery_20261016_v1/meta_ilad_native_20261023_v1/experimental_results.md)。实际代码、数据指纹、配置和失败反证均保留；最终新颖方向尚未成立。
+
 **2026-10-23 V8：第500步预测已独立复核。** [按四步流程审计三篇真实执行与失败归因](experiments/tswm_discovery_20261016_v1/mechanism_edit_20261023_v1/THREE_PAPER_TASTE_AUDIT_V1.md)；原生核心两个family仍未达到预设普通预测门槛，固定训练继续。已登记自动终态校验，尚无机制失败或新颖方向结论。
 
 **2026-10-23 V7：原生训练失败已归因并恢复。** [实际factual训练、嵌套状态保存错误与恢复记录](experiments/tswm_discovery_20261016_v1/mechanism_edit_20261023_v1/FACTUAL_TRANSFER_PROGRESS_V1.md)。完整模型正在执行固定训练，重算前缀单列；原生跨模态投影的零梯度已独立核验，尚无物理机制失败或新方法结论。

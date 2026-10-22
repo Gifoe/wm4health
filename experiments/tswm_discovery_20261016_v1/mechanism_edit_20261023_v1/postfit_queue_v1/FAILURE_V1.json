@@ -1,0 +1,6 @@
+{
+  "exception_type": "TypeError",
+  "exception": "dict() got multiple values for keyword argument 'utc'",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\tswm_discovery_20261016_v1\\mechanism_edit_20261023_v1\\scripts\\postfit_queue_v1.py\", line 41, in <module>\n    terminal=read(receipt);event('actual_factual_child_terminal',**terminal)\n  File \"D:\\tswm_discovery_20261016_v1\\mechanism_edit_20261023_v1\\scripts\\postfit_queue_v1.py\", line 7, in event\n    x=dict(utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),stage=stage,**kw)\nTypeError: dict() got multiple values for keyword argument 'utc'\n",
+  "no_training_restarted": true
+}

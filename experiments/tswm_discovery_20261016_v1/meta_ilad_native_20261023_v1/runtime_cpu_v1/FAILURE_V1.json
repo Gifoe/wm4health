@@ -1,0 +1,5 @@
+{
+  "exception_type": "KeyError",
+  "exception": "'SystemRoot'",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\tswm_discovery_20261016_v1\\meta_ilad_native_20261023_v1\\scripts\\setup_cpu_runtime_v2.py\", line 14, in <module>\n    base=subprocess.check_output([launcher,'-3.11','-c','import sys;print(sys.base_prefix)'],env=env,text=True).strip();win=env['SystemRoot'];env['PATH']=os.pathsep.join([str(runtime/'Scripts'),base,str(pathlib.Path(base)/'DLLs'),str(pathlib.Path(win)/'System32'),win]);env['CUDA_VISIBLE_DEVICES']='-1'\nKeyError: 'SystemRoot'\n"
+}

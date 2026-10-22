@@ -1,0 +1,3 @@
+# Evidence-constrained hypotheses
+
+Wrong raw/split/tensor bytes: rejected by60+24 exact fingerprints. Wrong normalization: rejected by independent TRAIN-only recomputation. Future observation use in the tested Meta-iLaD OOD path: rejected by controlled suffix corruption. Recorder mutation of CPU output: rejected by exact native replay. Current runtime-bundle change CPU2.4-to-CPU2.8: no change in the selected primary case. Device arithmetic as the dominant12% explanation: unsupported under common-bank controls. Different random draws: supported locally. Unique reconstruction of the vendor external runtime: not proven. These results close a reproducibility case, not a new world-model mechanism problem.

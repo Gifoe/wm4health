@@ -1,0 +1,421 @@
+{
+  "original_plan": {
+    "source_repo": "https://github.com/GoForIt-YYB/Meta-iLaD",
+    "source_revision": "3d47140f18262628d252858c3efdfe2ad1e21a86",
+    "commit_utc": "2026-10-21T20:36:22Z",
+    "source_root": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\caches\\meta_ilad_native_20261023_v1\\source",
+    "repository_blobs": 326,
+    "repository_blob_bytes": 134794171,
+    "selected_blobs": 50,
+    "selected_bytes": 27607794,
+    "selected_checkpoints": 9,
+    "scope": "MoCAP refined native release only",
+    "selected_files": [
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6ef4c11a28db4e8b183105f93f9ff85398139dff",
+        "size": 1078,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/6ef4c11a28db4e8b183105f93f9ff85398139dff"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "240545a617124018fb2495bdd51de162b77ec897",
+        "size": 4214,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/240545a617124018fb2495bdd51de162b77ec897"
+      },
+      {
+        "path": "THIRD_PARTY_NOTICES.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f1162010ade0fcfdc70f56dacd9fac22a5f127bf",
+        "size": 4144,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/f1162010ade0fcfdc70f56dacd9fac22a5f127bf"
+      },
+      {
+        "path": "mocap/CHANGES.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "69033afa588037b236d8ed3d684afd4c60652d7b",
+        "size": 1601,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/69033afa588037b236d8ed3d684afd4c60652d7b"
+      },
+      {
+        "path": "mocap/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ad3148b01810805a578bace88e6fcd7575c9dc68",
+        "size": 4531,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/ad3148b01810805a578bace88e6fcd7575c9dc68"
+      },
+      {
+        "path": "mocap/RESULTS.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2baf50564ad8281331beae4c5acdb044d15ac67f",
+        "size": 1183,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/2baf50564ad8281331beae4c5acdb044d15ac67f"
+      },
+      {
+        "path": "mocap/baselines/idf/base.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "81dd362cc97a4e8f28d7123eb206c59f8a945eb2",
+        "size": 1001,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/81dd362cc97a4e8f28d7123eb206c59f8a945eb2"
+      },
+      {
+        "path": "mocap/baselines/idf/dataloader.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7cd3dbfdd093707aa28216e5d13b0ef20d6ff516",
+        "size": 852,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/7cd3dbfdd093707aa28216e5d13b0ef20d6ff516"
+      },
+      {
+        "path": "mocap/baselines/idf/dynamics.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a0b15122724ba3492fe563d720ac2360d241e6a8",
+        "size": 1386,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/a0b15122724ba3492fe563d720ac2360d241e6a8"
+      },
+      {
+        "path": "mocap/baselines/idf/encoder.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f3e1bef767dd7fb98db27d276fb7e25a3fe44143",
+        "size": 3908,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/f3e1bef767dd7fb98db27d276fb7e25a3fe44143"
+      },
+      {
+        "path": "mocap/baselines/idf/evaluate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8e1b7ee4c84ec265f32225acf9784a2f88095771",
+        "size": 2862,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/8e1b7ee4c84ec265f32225acf9784a2f88095771"
+      },
+      {
+        "path": "mocap/baselines/idf/model.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6f4e562b89c4137dd6d2076df6e0c71dad75e0ef",
+        "size": 3722,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/6f4e562b89c4137dd6d2076df6e0c71dad75e0ef"
+      },
+      {
+        "path": "mocap/baselines/idf/train.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4e84aa7dc4b8f4c3fe4d5d9d845368eea1d4a186",
+        "size": 5235,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/4e84aa7dc4b8f4c3fe4d5d9d845368eea1d4a186"
+      },
+      {
+        "path": "mocap/checkpoints/idf_id_s1000.pt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df4543a5f9102ae5ef59c10d317edbd6cc66e51a",
+        "size": 2804812,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/df4543a5f9102ae5ef59c10d317edbd6cc66e51a"
+      },
+      {
+        "path": "mocap/checkpoints/idf_id_s1111.pt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0f33f8e3ccc12956bd0b23452ff256ead1d469a6",
+        "size": 2804812,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/0f33f8e3ccc12956bd0b23452ff256ead1d469a6"
+      },
+      {
+        "path": "mocap/checkpoints/idf_id_s42.pt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d8bc3248522f68d3eca84dd7c458b8c4589ccca6",
+        "size": 2804812,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/d8bc3248522f68d3eca84dd7c458b8c4589ccca6"
+      },
+      {
+        "path": "mocap/checkpoints/meta_ilad_id_s1000.pt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7f9a7c656c8a5de0b3b3ae981da8ac19a2ec9a3c",
+        "size": 3183430,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/7f9a7c656c8a5de0b3b3ae981da8ac19a2ec9a3c"
+      },
+      {
+        "path": "mocap/checkpoints/meta_ilad_id_s1111.pt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "30d5dedc40a8349386984be83e3b03e702506cc5",
+        "size": 3183430,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/30d5dedc40a8349386984be83e3b03e702506cc5"
+      },
+      {
+        "path": "mocap/checkpoints/meta_ilad_id_s42.pt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f6e1084820251bd49fd193a8ca2f1f9c828a9067",
+        "size": 3183430,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/f6e1084820251bd49fd193a8ca2f1f9c828a9067"
+      },
+      {
+        "path": "mocap/checkpoints/meta_ilad_ood_s1000.pt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e2003fc7290b93bea6c25031795a2b9e317dc53a",
+        "size": 3183430,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/e2003fc7290b93bea6c25031795a2b9e317dc53a"
+      },
+      {
+        "path": "mocap/checkpoints/meta_ilad_ood_s1111.pt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "478b0763c85ca660746ee2546e8f930f8f38a36a",
+        "size": 3183430,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/478b0763c85ca660746ee2546e8f930f8f38a36a"
+      },
+      {
+        "path": "mocap/checkpoints/meta_ilad_ood_s42.pt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a81c82f78265484bee09db79b15620b08d4e2dcb",
+        "size": 3183430,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/a81c82f78265484bee09db79b15620b08d4e2dcb"
+      },
+      {
+        "path": "mocap/gen_data/download.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bb7f9d7e05dd80c2500ffd77bbc9cf9a15bfac9c",
+        "size": 2109,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/bb7f9d7e05dd80c2500ffd77bbc9cf9a15bfac9c"
+      },
+      {
+        "path": "mocap/gen_data/fingerprint.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "94ad27213ff06ce3d0ee5599b2c6d34cae344ee3",
+        "size": 2549,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/94ad27213ff06ce3d0ee5599b2c6d34cae344ee3"
+      },
+      {
+        "path": "mocap/gen_data/fingerprints.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e78b3d39b3cb17c8c832891137c59578a5058f2c",
+        "size": 9250,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/e78b3d39b3cb17c8c832891137c59578a5058f2c"
+      },
+      {
+        "path": "mocap/gen_data/make_data.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e93078c210cf3f4334be295bdcb84ace43a5e16b",
+        "size": 543,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/e93078c210cf3f4334be295bdcb84ace43a5e16b"
+      },
+      {
+        "path": "mocap/gen_data/prepare_data.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a8edd478211c3c565b4c82916920fe092d46fc25",
+        "size": 3304,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/a8edd478211c3c565b4c82916920fe092d46fc25"
+      },
+      {
+        "path": "mocap/gen_data/splits.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a49ba2974dbbf0ccccb085500f7736de0e4ba0ad",
+        "size": 1568,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/a49ba2974dbbf0ccccb085500f7736de0e4ba0ad"
+      },
+      {
+        "path": "mocap/meta_ilad/dataloader.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e254a4315a9e4f26761726c2968bedcd55b36879",
+        "size": 2732,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/e254a4315a9e4f26761726c2968bedcd55b36879"
+      },
+      {
+        "path": "mocap/meta_ilad/disc.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "06692bcdb04f6356d5e8e388194bc38b4ed867ee",
+        "size": 538,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/06692bcdb04f6356d5e8e388194bc38b4ed867ee"
+      },
+      {
+        "path": "mocap/meta_ilad/dynamics.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "351bfec2e68cc73ec0daef8210ba508ec28422a1",
+        "size": 1563,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/351bfec2e68cc73ec0daef8210ba508ec28422a1"
+      },
+      {
+        "path": "mocap/meta_ilad/encoder.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "95b4c83e1a62cd6120cb68f615ae7335cc2f5b1a",
+        "size": 1248,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/95b4c83e1a62cd6120cb68f615ae7335cc2f5b1a"
+      },
+      {
+        "path": "mocap/meta_ilad/evaluate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "61d46f46fb02b296f3208fd22833dbb5c9767c8c",
+        "size": 3728,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/61d46f46fb02b296f3208fd22833dbb5c9767c8c"
+      },
+      {
+        "path": "mocap/meta_ilad/model.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "db3003be46c5992ca697b5dab636d024c7474559",
+        "size": 5644,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/db3003be46c5992ca697b5dab636d024c7474559"
+      },
+      {
+        "path": "mocap/meta_ilad/train.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "53eb3faec46bc78183b8237147ce20a154d7e1eb",
+        "size": 6859,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/53eb3faec46bc78183b8237147ce20a154d7e1eb"
+      },
+      {
+        "path": "mocap/meta_ilad/vae.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "16dc50bb99d47d350dfc839e098634222cbefff6",
+        "size": 1911,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/16dc50bb99d47d350dfc839e098634222cbefff6"
+      },
+      {
+        "path": "mocap/outputs/refined/idf_id_s1000.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e0a6d2d06ab2901a538480c31abcb57add857230",
+        "size": 232,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/e0a6d2d06ab2901a538480c31abcb57add857230"
+      },
+      {
+        "path": "mocap/outputs/refined/idf_id_s1111.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cc98e8a7df2f7e7ac9d89ca256b84a125ebfe7fa",
+        "size": 232,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/cc98e8a7df2f7e7ac9d89ca256b84a125ebfe7fa"
+      },
+      {
+        "path": "mocap/outputs/refined/idf_id_s42.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a104b40357b9bbbde84b86a07d3b0ce6bea8ff90",
+        "size": 227,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/a104b40357b9bbbde84b86a07d3b0ce6bea8ff90"
+      },
+      {
+        "path": "mocap/outputs/refined/meta_ilad_id_s1000.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "54d188550b63f38ee8545f814e87296a19f99eeb",
+        "size": 275,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/54d188550b63f38ee8545f814e87296a19f99eeb"
+      },
+      {
+        "path": "mocap/outputs/refined/meta_ilad_id_s1111.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2d677748210c8f23a8962331ecd4a35b1ffe5df8",
+        "size": 276,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/2d677748210c8f23a8962331ecd4a35b1ffe5df8"
+      },
+      {
+        "path": "mocap/outputs/refined/meta_ilad_id_s42.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e7b262215502cd65e566c8c8f388904fa726012d",
+        "size": 271,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/e7b262215502cd65e566c8c8f388904fa726012d"
+      },
+      {
+        "path": "mocap/outputs/refined/meta_ilad_ood_s1000.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1500f0ee01b454e0a876994a27856aa8126c6a8f",
+        "size": 277,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/1500f0ee01b454e0a876994a27856aa8126c6a8f"
+      },
+      {
+        "path": "mocap/outputs/refined/meta_ilad_ood_s1111.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "84de1b81dacc9a6971ee2b39552b639b134e8294",
+        "size": 278,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/84de1b81dacc9a6971ee2b39552b639b134e8294"
+      },
+      {
+        "path": "mocap/outputs/refined/meta_ilad_ood_s42.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c8e3e08cf2c99c5204f4c3067ac1c61234f3239f",
+        "size": 275,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/c8e3e08cf2c99c5204f4c3067ac1c61234f3239f"
+      },
+      {
+        "path": "mocap/requirements.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "106eb3c0baa4ee4f8324e33ca6086503d94e702b",
+        "size": 260,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/106eb3c0baa4ee4f8324e33ca6086503d94e702b"
+      },
+      {
+        "path": "mocap/scripts/env.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a9fc9b15cb340290da277d18293d019d00f516b2",
+        "size": 647,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/a9fc9b15cb340290da277d18293d019d00f516b2"
+      },
+      {
+        "path": "mocap/scripts/make_tables.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "77342405e10575fcd68d0f5ef324520cc439c12a",
+        "size": 3056,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/77342405e10575fcd68d0f5ef324520cc439c12a"
+      },
+      {
+        "path": "mocap/scripts/plot_trajectories.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "383dd167a79aef74e03594902311d2abb606eb84",
+        "size": 5387,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/383dd167a79aef74e03594902311d2abb606eb84"
+      },
+      {
+        "path": "mocap/scripts/run_refined.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "38ac9b494448a7124f1e241b1995d68a371aa609",
+        "size": 1822,
+        "url": "https://api.github.com/repos/GoForIt-YYB/Meta-iLaD/git/blobs/38ac9b494448a7124f1e241b1995d68a371aa609"
+      }
+    ],
+    "source_documents_inspected_before_execution": false,
+    "local_payload_sync": false
+  },
+  "transport": "api.github.com Git blob base64",
+  "protocol_sha256": "4d52cd7986ccc346104ea8c0086d6bdaed32f22dfbb9c99c8b0ba847bf76f7f0",
+  "raw_endpoint_job_terminal": true
+}

@@ -1,0 +1,20 @@
+{
+  "status": "FORWARD_CROSSMODAL_PROJECTION_UNCHANGED_IN_ACTUAL_NATIVE_FIT",
+  "utc": "2026-10-22T22:08:49.644988+00:00",
+  "step": 500,
+  "initial_checkpoint_sha256": "27f06e2179d2acbfafb9983c93348fbd697e9933ddc0549bbe0a96bf5316a51f",
+  "trained_checkpoint_sha256": "c41f1186b93949b7582e824e58bbdf892c15412b50d0eb72c35d65aab8a97fa4",
+  "forward_projection_changes": {
+    "wm/ctx_enc/recon_wm/bias": 0.0,
+    "wm/ctx_enc/recon_wm/kernel": 0.0
+  },
+  "reverse_projection_changes": {
+    "wm/ctx_enc/recon_ctxc/kernel": 0.023530468810349703,
+    "wm/ctx_enc/recon_ctxc/norm/bias": 0.009871930815279484,
+    "wm/ctx_enc/recon_ctxc/norm/scale": 0.012446105480194092
+  },
+  "decoder_max_change": 0.011328361928462982,
+  "other_parameters_changed": 98,
+  "prediction_failure_cause_established": false,
+  "paper_experiment_revision_known": false
+}

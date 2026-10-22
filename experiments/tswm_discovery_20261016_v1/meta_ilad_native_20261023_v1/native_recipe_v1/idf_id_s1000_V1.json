@@ -1,0 +1,50 @@
+{
+  "name": "idf_id_s1000",
+  "model": "idf",
+  "split": "ID",
+  "seed": 1000,
+  "metrics": {
+    "model": "IDF",
+    "version": "refined",
+    "ckpt": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\caches\\meta_ilad_native_20261023_v1\\source\\mocap\\checkpoints\\idf_id_s1000.pt",
+    "data": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\meta_ilad_native_20261023_v1\\mocap_refined_v1\\ID\\data_test.pt",
+    "split": "ID",
+    "seed": 1000,
+    "n_sequences": 5,
+    "recon_mse": 5.217809677124023,
+    "pred_mse": 29.487215042114258
+  },
+  "reference_metrics": {
+    "model": "IDF",
+    "version": "refined",
+    "ckpt": "checkpoints/idf_id_s1000.pt",
+    "data": "data/ID/data_test.pt",
+    "split": "ID",
+    "seed": 1000,
+    "n_sequences": 5,
+    "recon_mse": 5.220459461212158,
+    "pred_mse": 33.032196044921875
+  },
+  "parity": [
+    {
+      "metric": "recon_mse",
+      "actual": 5.217809677124023,
+      "reference": 5.220459461212158,
+      "absolute_difference": 0.0026497840881347656,
+      "relative_difference": 0.0005075767962231245,
+      "within_tolerance": true
+    },
+    {
+      "metric": "pred_mse",
+      "actual": 29.487215042114258,
+      "reference": 33.032196044921875,
+      "absolute_difference": 3.544981002807617,
+      "relative_difference": 0.10731896232350548,
+      "within_tolerance": false
+    }
+  ],
+  "payload_path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\artifacts\\meta_ilad_native_20261023_v1\\native_recipe_v1\\idf_id_s1000.npz",
+  "payload_sha256": "63344a1a915e5b3e5b87843c50a04eb7f05ab8a02b8b3de1e9584c38168d8779",
+  "checkpoint_sha256": "153b24a503c5954194c9911da3c3db037cccfd3294e27423f4debb8e2aa2e1eb",
+  "source_metric_json_sha256": "6752582bae646a02c1948c0ccc4f1599a2f14ae1e8463147ef8c3a4107e0bcb6"
+}

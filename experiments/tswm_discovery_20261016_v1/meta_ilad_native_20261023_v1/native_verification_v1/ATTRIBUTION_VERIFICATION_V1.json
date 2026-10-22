@@ -1,0 +1,50 @@
+{
+  "status": "IDF_DEVICE_NOISE_ATTRIBUTION_AND_INPUT_BOUNDARIES_INDEPENDENTLY_VERIFIED",
+  "utc": "2026-10-22T22:42:21.664011+00:00",
+  "cases": 7,
+  "metric_checks": 14,
+  "max_metric_error": 1.6048276947344675e-06,
+  "comparisons": [
+    {
+      "left": "cpu24_native_s1000",
+      "right": "cpu28_native_s1000",
+      "relative_rms": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "left": "cpu28_native_s1000",
+      "right": "gpu28_native_s1000",
+      "relative_rms": 0.1973137662859573,
+      "maximum": 2.3522136211395264
+    },
+    {
+      "left": "cpu28_native_s1000",
+      "right": "gpu28_cpu_bank_s1000",
+      "relative_rms": 7.708742214713496e-07,
+      "maximum": 1.817941665649414e-05
+    },
+    {
+      "left": "gpu28_native_s1000",
+      "right": "cpu28_gpu_bank_s1000",
+      "relative_rms": 7.175845392245165e-07,
+      "maximum": 7.644295692443848e-06
+    }
+  ],
+  "gaussian_arrays_per_bank": 251,
+  "gaussian_scalar_components_per_bank": 11295,
+  "cpu24_vs_cpu28_draw_banks_exact": true,
+  "cpu_vs_gpu_native_draw_difference_rms": 1.4017946169798874,
+  "common_draw_bank_sha_links_verified": true,
+  "replay_and_boundary_checks": {
+    "meta_ilad_id_s42/x": 0.0,
+    "meta_ilad_id_s42/x_pred": 0.0,
+    "meta_ilad_id_s42/x_recon": 0.0,
+    "meta_ilad_ood_s42/x_pred": 0.0,
+    "meta_ilad_ood_s42/x_recon": 0.0
+  },
+  "random_draw_explanation_supported_locally": true,
+  "all_gpu_reference_metrics_within_tolerance": true,
+  "external_vendor_execution_uniquely_recovered": false,
+  "physical_mechanism_gap_established": false,
+  "accepted_final_directions": 0
+}

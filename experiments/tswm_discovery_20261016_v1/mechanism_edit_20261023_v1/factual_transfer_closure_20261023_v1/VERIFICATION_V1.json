@@ -1,0 +1,73 @@
+{
+  "status": "NATIVE_FACTUAL_TRANSFER_CLOSURE_INDEPENDENTLY_VERIFIED",
+  "utc": "2026-10-22T22:22:39.629626+00:00",
+  "intended_fit_updates": 2000,
+  "original_incomplete_updates": 500,
+  "actual_optimizer_calls": 2500,
+  "completed_fit_trajectories": 1,
+  "original_logged_prefix_matches": 12,
+  "prefix_scalar_max": 0.0,
+  "scalar_metric_checks": 52,
+  "max_metric_error": 1.7763568394002505e-15,
+  "clock_array_comparisons": [
+    {
+      "comparison": "scanned_post/deter",
+      "maximum_error": 0.0
+    },
+    {
+      "comparison": "scanned_prior/deter",
+      "maximum_error": 0.0
+    },
+    {
+      "comparison": "nonanticipation/deter",
+      "maximum_error": 0.0
+    },
+    {
+      "comparison": "scanned_post/logit",
+      "maximum_error": 0.0
+    },
+    {
+      "comparison": "scanned_prior/logit",
+      "maximum_error": 0.0
+    },
+    {
+      "comparison": "nonanticipation/logit",
+      "maximum_error": 0.0
+    },
+    {
+      "comparison": "scanned_post/stoch",
+      "maximum_error": 0.0
+    },
+    {
+      "comparison": "scanned_prior/stoch",
+      "maximum_error": 0.0
+    },
+    {
+      "comparison": "nonanticipation/stoch",
+      "maximum_error": 0.0
+    },
+    {
+      "comparison": "prediction/explicit_prediction",
+      "maximum_error": 0.0
+    },
+    {
+      "comparison": "prediction/changed_plan_prediction",
+      "maximum_error": 0.0
+    }
+  ],
+  "clock_arrays_exact": true,
+  "projection_forward_changes": {
+    "wm/ctx_enc/recon_wm/bias": 0.0,
+    "wm/ctx_enc/recon_wm/kernel": 0.0
+  },
+  "projection_reverse_changes": {
+    "wm/ctx_enc/recon_ctxc/kernel": 0.05948032042942941,
+    "wm/ctx_enc/recon_ctxc/norm/bias": 0.02021891437470913,
+    "wm/ctx_enc/recon_ctxc/norm/scale": 0.021882593631744385
+  },
+  "source_files_rehashed": 110,
+  "factual_competence_gate": false,
+  "physical_parameter_edit_evaluated": false,
+  "full_research_goal_achieved": false,
+  "accepted_final_directions": 0
+}
