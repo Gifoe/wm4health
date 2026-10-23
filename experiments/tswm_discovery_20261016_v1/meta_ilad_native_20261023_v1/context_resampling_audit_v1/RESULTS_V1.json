@@ -1,0 +1,1140 @@
+{
+  "status": "ALL_REGISTERED_PAIRS_CONTEXT_RESAMPLING_COMPLETE",
+  "utc": "2026-10-23T00:11:04.324468+00:00",
+  "groups": 66,
+  "fixed_context_draws": 64,
+  "pairs": 20,
+  "root_rows": 160,
+  "paths": [
+    "factual",
+    "naive_cf",
+    "target_prefix",
+    "frozen_fit_cf"
+  ],
+  "metric_names": [
+    "factual_mse",
+    "naive_cf_mse",
+    "target_prefix_mse",
+    "frozen_fit_cf_mse",
+    "naive_response_target_only",
+    "naive_response_both_contexts",
+    "frozen_fit_response_target_only"
+  ],
+  "summaries": [
+    {
+      "pair": 0,
+      "source_environment": 12,
+      "target_environment": 49,
+      "zero_effect_error": 7.425865343409155,
+      "naive_ratio": {
+        "legacy": 1.1265893534689009,
+        "extra32": 1.133663566475843,
+        "fixed11_mean": 1.1323242094111388,
+        "fixed11_median": 1.1284546150399626,
+        "fixed11_q10": 1.1127330026690017,
+        "fixed11_q90": 1.157237601190369,
+        "legacy_empirical_percentile": 0.421875
+      },
+      "frozen_fit_ratio": {
+        "legacy": 0.6606432555584494,
+        "extra32": 0.6609728614058901,
+        "fixed11_mean": 0.6651618548584612,
+        "fixed11_median": 0.6625635000465894,
+        "fixed11_q10": 0.6544975064226439,
+        "fixed11_q90": 0.6805746020394621,
+        "legacy_empirical_percentile": 0.40625
+      },
+      "naive_target_only_response": {
+        "legacy": 0.07096577163789658,
+        "extra32": 0.07000781240647917,
+        "fixed11_mean": 0.07038452288219851,
+        "fixed11_median": 0.07044459907656098,
+        "fixed11_q10": 0.06713030378999267,
+        "fixed11_q90": 0.0742245511946412,
+        "legacy_empirical_percentile": 0.609375
+      },
+      "naive_both_contexts_response": {
+        "legacy": 0.07096575891435114,
+        "extra32": 0.06609132942498493,
+        "fixed11_mean": 0.06673044048228727,
+        "fixed11_median": 0.06633978956426914,
+        "fixed11_q10": 0.06362306659166149,
+        "fixed11_q90": 0.07053800451724368,
+        "legacy_empirical_percentile": 0.90625
+      },
+      "frozen_fit_target_only_response": {
+        "legacy": 0.05451457688444541,
+        "extra32": 0.05377487756570754,
+        "fixed11_mean": 0.05418277051404551,
+        "fixed11_median": 0.054179553770191444,
+        "fixed11_q10": 0.05175038765431415,
+        "fixed11_q90": 0.05689662384982327,
+        "legacy_empirical_percentile": 0.609375
+      },
+      "fixed11_naive_exceedance_fraction": 0.0,
+      "fixed11_frozen_fit_exceedance_fraction": 0.0,
+      "extra32_frozen_fit_within_descriptive_thresholds": true
+    },
+    {
+      "pair": 1,
+      "source_environment": 43,
+      "target_environment": 5,
+      "zero_effect_error": 4.205120913278591,
+      "naive_ratio": {
+        "legacy": 1.0093109134223597,
+        "extra32": 1.0113104363054146,
+        "fixed11_mean": 1.0113512871751862,
+        "fixed11_median": 1.0112857276971075,
+        "fixed11_q10": 1.010041068733652,
+        "fixed11_q90": 1.0125488706121868,
+        "legacy_empirical_percentile": 0.0
+      },
+      "frozen_fit_ratio": {
+        "legacy": 0.6669747082636757,
+        "extra32": 0.6447159630032397,
+        "fixed11_mean": 0.6462166905769626,
+        "fixed11_median": 0.6440855800116848,
+        "fixed11_q10": 0.6179233195090805,
+        "fixed11_q90": 0.6770327595096096,
+        "legacy_empirical_percentile": 0.828125
+      },
+      "naive_target_only_response": {
+        "legacy": 0.12890000393887224,
+        "extra32": 0.1247213421820377,
+        "fixed11_mean": 0.1247755942335503,
+        "fixed11_median": 0.12481826317708442,
+        "fixed11_q10": 0.12189224263608625,
+        "fixed11_q90": 0.12794767453194328,
+        "legacy_empirical_percentile": 0.90625
+      },
+      "naive_both_contexts_response": {
+        "legacy": 0.128899962891647,
+        "extra32": 0.11878131824307255,
+        "fixed11_mean": 0.11916030133566366,
+        "fixed11_median": 0.11877556175913576,
+        "fixed11_q10": 0.10541701342605558,
+        "fixed11_q90": 0.13254320086135246,
+        "legacy_empirical_percentile": 0.8125
+      },
+      "frozen_fit_target_only_response": {
+        "legacy": 0.1005606944732462,
+        "extra32": 0.09623944067062262,
+        "fixed11_mean": 0.09635229493853867,
+        "fixed11_median": 0.09599925945618365,
+        "fixed11_q10": 0.09286616110896738,
+        "fixed11_q90": 0.1001036730016383,
+        "legacy_empirical_percentile": 0.90625
+      },
+      "fixed11_naive_exceedance_fraction": 0.0,
+      "fixed11_frozen_fit_exceedance_fraction": 0.0,
+      "extra32_frozen_fit_within_descriptive_thresholds": true
+    },
+    {
+      "pair": 2,
+      "source_environment": 62,
+      "target_environment": 24,
+      "zero_effect_error": 7.787882225442102,
+      "naive_ratio": {
+        "legacy": 1.0561328139394233,
+        "extra32": 1.0580459234601927,
+        "fixed11_mean": 1.0578980688330226,
+        "fixed11_median": 1.0578802018797404,
+        "fixed11_q10": 1.0565697793290634,
+        "fixed11_q90": 1.0592826281105037,
+        "legacy_empirical_percentile": 0.046875
+      },
+      "frozen_fit_ratio": {
+        "legacy": 0.7522688830841359,
+        "extra32": 0.7464882685381992,
+        "fixed11_mean": 0.7498104842915345,
+        "fixed11_median": 0.750940096715828,
+        "fixed11_q10": 0.7277495484643943,
+        "fixed11_q90": 0.76964808785894,
+        "legacy_empirical_percentile": 0.53125
+      },
+      "naive_target_only_response": {
+        "legacy": 0.05539008743497687,
+        "extra32": 0.053567617934744016,
+        "fixed11_mean": 0.053458071366641186,
+        "fixed11_median": 0.05347365143325815,
+        "fixed11_q10": 0.052451730186712474,
+        "fixed11_q90": 0.05453309752942301,
+        "legacy_empirical_percentile": 0.96875
+      },
+      "naive_both_contexts_response": {
+        "legacy": 0.05539008847450299,
+        "extra32": 0.05631859591618143,
+        "fixed11_mean": 0.0572932878226998,
+        "fixed11_median": 0.05715807124609605,
+        "fixed11_q10": 0.053372289766082076,
+        "fixed11_q90": 0.06094717289592963,
+        "legacy_empirical_percentile": 0.296875
+      },
+      "frozen_fit_target_only_response": {
+        "legacy": 0.05784919384203591,
+        "extra32": 0.05642209686353487,
+        "fixed11_mean": 0.056394942367555836,
+        "fixed11_median": 0.0564248958503137,
+        "fixed11_q10": 0.05559009203882035,
+        "fixed11_q90": 0.057128235270840426,
+        "legacy_empirical_percentile": 0.984375
+      },
+      "fixed11_naive_exceedance_fraction": 0.0,
+      "fixed11_frozen_fit_exceedance_fraction": 0.0,
+      "extra32_frozen_fit_within_descriptive_thresholds": true
+    },
+    {
+      "pair": 3,
+      "source_environment": 2,
+      "target_environment": 39,
+      "zero_effect_error": 2.5395650658927007,
+      "naive_ratio": {
+        "legacy": 1.063100837732082,
+        "extra32": 1.0547625352413605,
+        "fixed11_mean": 1.056852481857017,
+        "fixed11_median": 1.0571266848117369,
+        "fixed11_q10": 1.041855269466755,
+        "fixed11_q90": 1.0695088342170014,
+        "legacy_empirical_percentile": 0.65625
+      },
+      "frozen_fit_ratio": {
+        "legacy": 0.9252225398540189,
+        "extra32": 0.9339323893849698,
+        "fixed11_mean": 0.9299849036519733,
+        "fixed11_median": 0.9315040025732362,
+        "fixed11_q10": 0.9073013237819665,
+        "fixed11_q90": 0.9541165448904446,
+        "legacy_empirical_percentile": 0.421875
+      },
+      "naive_target_only_response": {
+        "legacy": 0.13983873395749474,
+        "extra32": 0.13936613723099733,
+        "fixed11_mean": 0.14020144449520305,
+        "fixed11_median": 0.1392640511568663,
+        "fixed11_q10": 0.13814597869340536,
+        "fixed11_q90": 0.14313325272290053,
+        "legacy_empirical_percentile": 0.5625
+      },
+      "naive_both_contexts_response": {
+        "legacy": 0.13983870038872068,
+        "extra32": 0.14043463538016918,
+        "fixed11_mean": 0.1419333670000071,
+        "fixed11_median": 0.14163211493135974,
+        "fixed11_q10": 0.13386094701056753,
+        "fixed11_q90": 0.15040254541328596,
+        "legacy_empirical_percentile": 0.40625
+      },
+      "frozen_fit_target_only_response": {
+        "legacy": 0.14082566315857686,
+        "extra32": 0.14081796655381076,
+        "fixed11_mean": 0.14152389004642604,
+        "fixed11_median": 0.14063041867425688,
+        "fixed11_q10": 0.1387793600866438,
+        "fixed11_q90": 0.14560073678428617,
+        "legacy_empirical_percentile": 0.546875
+      },
+      "fixed11_naive_exceedance_fraction": 0.0,
+      "fixed11_frozen_fit_exceedance_fraction": 0.0,
+      "extra32_frozen_fit_within_descriptive_thresholds": true
+    },
+    {
+      "pair": 4,
+      "source_environment": 71,
+      "target_environment": 33,
+      "zero_effect_error": 13.234537651120709,
+      "naive_ratio": {
+        "legacy": 1.4642537127816775,
+        "extra32": 1.4750175452877903,
+        "fixed11_mean": 1.4730571373975798,
+        "fixed11_median": 1.4728256136362956,
+        "fixed11_q10": 1.4644652371088556,
+        "fixed11_q90": 1.4813206951048203,
+        "legacy_empirical_percentile": 0.09375
+      },
+      "frozen_fit_ratio": {
+        "legacy": 1.0440869681251832,
+        "extra32": 1.03124831660858,
+        "fixed11_mean": 1.0329031544720504,
+        "fixed11_median": 1.0344851942863267,
+        "fixed11_q10": 1.007921103061656,
+        "fixed11_q90": 1.0569200688519842,
+        "legacy_empirical_percentile": 0.75
+      },
+      "naive_target_only_response": {
+        "legacy": 0.059299399118706485,
+        "extra32": 0.055594708414947513,
+        "fixed11_mean": 0.05592031136157893,
+        "fixed11_median": 0.05612310489315418,
+        "fixed11_q10": 0.05283779563276002,
+        "fixed11_q90": 0.05936273199025501,
+        "legacy_empirical_percentile": 0.875
+      },
+      "naive_both_contexts_response": {
+        "legacy": 0.059299406330611135,
+        "extra32": 0.05578777934108476,
+        "fixed11_mean": 0.05612713902268543,
+        "fixed11_median": 0.0562332889065406,
+        "fixed11_q10": 0.05280086083966162,
+        "fixed11_q90": 0.05936506019225961,
+        "legacy_empirical_percentile": 0.890625
+      },
+      "frozen_fit_target_only_response": {
+        "legacy": 0.04573531547008091,
+        "extra32": 0.04245769644174855,
+        "fixed11_mean": 0.04279044522596245,
+        "fixed11_median": 0.04267332792066034,
+        "fixed11_q10": 0.04019623203188884,
+        "fixed11_q90": 0.04588356769026255,
+        "legacy_empirical_percentile": 0.859375
+      },
+      "fixed11_naive_exceedance_fraction": 1.0,
+      "fixed11_frozen_fit_exceedance_fraction": 0.0,
+      "extra32_frozen_fit_within_descriptive_thresholds": true
+    },
+    {
+      "pair": 5,
+      "source_environment": 49,
+      "target_environment": 11,
+      "zero_effect_error": 14.794515291589686,
+      "naive_ratio": {
+        "legacy": 1.692485434813225,
+        "extra32": 1.6932529145453443,
+        "fixed11_mean": 1.6919982676081577,
+        "fixed11_median": 1.6954002092804583,
+        "fixed11_q10": 1.6795209712993842,
+        "fixed11_q90": 1.7016095456762768,
+        "legacy_empirical_percentile": 0.34375
+      },
+      "frozen_fit_ratio": {
+        "legacy": 1.26919255625844,
+        "extra32": 1.2490205214376655,
+        "fixed11_mean": 1.246967661201849,
+        "fixed11_median": 1.2490172479371338,
+        "fixed11_q10": 1.2239255649773202,
+        "fixed11_q90": 1.2691042180271446,
+        "legacy_empirical_percentile": 0.90625
+      },
+      "naive_target_only_response": {
+        "legacy": 0.0503196722191864,
+        "extra32": 0.05128714760878332,
+        "fixed11_mean": 0.05107761020108255,
+        "fixed11_median": 0.05083720234265457,
+        "fixed11_q10": 0.04930200691306748,
+        "fixed11_q90": 0.05319192244635161,
+        "legacy_empirical_percentile": 0.390625
+      },
+      "naive_both_contexts_response": {
+        "legacy": 0.0503196722191864,
+        "extra32": 0.04946597129771193,
+        "fixed11_mean": 0.04972816546409924,
+        "fixed11_median": 0.04992481657106981,
+        "fixed11_q10": 0.04588849071602982,
+        "fixed11_q90": 0.05382231279024709,
+        "legacy_empirical_percentile": 0.59375
+      },
+      "frozen_fit_target_only_response": {
+        "legacy": 0.034043580212122566,
+        "extra32": 0.03450527850673197,
+        "fixed11_mean": 0.03435353044066704,
+        "fixed11_median": 0.03407471043202764,
+        "fixed11_q10": 0.032948150233135215,
+        "fixed11_q90": 0.036059551651930775,
+        "legacy_empirical_percentile": 0.46875
+      },
+      "fixed11_naive_exceedance_fraction": 1.0,
+      "fixed11_frozen_fit_exceedance_fraction": 0.4375,
+      "extra32_frozen_fit_within_descriptive_thresholds": true
+    },
+    {
+      "pair": 6,
+      "source_environment": 72,
+      "target_environment": 34,
+      "zero_effect_error": 22.825477866163475,
+      "naive_ratio": {
+        "legacy": 1.8194371107804643,
+        "extra32": 1.8330768566638305,
+        "fixed11_mean": 1.8172358706491083,
+        "fixed11_median": 1.8212845027095264,
+        "fixed11_q10": 1.7335396612515321,
+        "fixed11_q90": 1.8859659126388633,
+        "legacy_empirical_percentile": 0.46875
+      },
+      "frozen_fit_ratio": {
+        "legacy": 1.3574393281532053,
+        "extra32": 1.3424897591149652,
+        "fixed11_mean": 1.3339707309232796,
+        "fixed11_median": 1.3347659876161693,
+        "fixed11_q10": 1.268407762402275,
+        "fixed11_q90": 1.3964005419941954,
+        "legacy_empirical_percentile": 0.671875
+      },
+      "naive_target_only_response": {
+        "legacy": 0.04541776120798818,
+        "extra32": 0.0442353001105072,
+        "fixed11_mean": 0.044408442426517675,
+        "fixed11_median": 0.044326154720931904,
+        "fixed11_q10": 0.042707444099590035,
+        "fixed11_q90": 0.04623807577700425,
+        "legacy_empirical_percentile": 0.78125
+      },
+      "naive_both_contexts_response": {
+        "legacy": 0.04541775461893908,
+        "extra32": 0.04431143904720586,
+        "fixed11_mean": 0.04459875397591988,
+        "fixed11_median": 0.04454507306446147,
+        "fixed11_q10": 0.04265200537228609,
+        "fixed11_q90": 0.046472808585716,
+        "legacy_empirical_percentile": 0.734375
+      },
+      "frozen_fit_target_only_response": {
+        "legacy": 0.03727137387255562,
+        "extra32": 0.03598546131308413,
+        "fixed11_mean": 0.03618326849509664,
+        "fixed11_median": 0.036146532055948255,
+        "fixed11_q10": 0.03435857390978221,
+        "fixed11_q90": 0.03809428180504406,
+        "legacy_empirical_percentile": 0.765625
+      },
+      "fixed11_naive_exceedance_fraction": 1.0,
+      "fixed11_frozen_fit_exceedance_fraction": 0.921875,
+      "extra32_frozen_fit_within_descriptive_thresholds": false
+    },
+    {
+      "pair": 7,
+      "source_environment": 48,
+      "target_environment": 10,
+      "zero_effect_error": 19.86288644272352,
+      "naive_ratio": {
+        "legacy": 1.1564970192392057,
+        "extra32": 1.0897570461809305,
+        "fixed11_mean": 1.0825459206207166,
+        "fixed11_median": 1.0679389075038555,
+        "fixed11_q10": 1.0157491555700309,
+        "fixed11_q90": 1.1694984791186147,
+        "legacy_empirical_percentile": 0.875
+      },
+      "frozen_fit_ratio": {
+        "legacy": 0.8287694981865559,
+        "extra32": 0.7832814560293504,
+        "fixed11_mean": 0.7853219726632314,
+        "fixed11_median": 0.7721558616637437,
+        "fixed11_q10": 0.7133082725765353,
+        "fixed11_q90": 0.8587938178080904,
+        "legacy_empirical_percentile": 0.8125
+      },
+      "naive_target_only_response": {
+        "legacy": 0.022993815212260446,
+        "extra32": 0.023310470290954184,
+        "fixed11_mean": 0.023794556453077553,
+        "fixed11_median": 0.02370306965272873,
+        "fixed11_q10": 0.02307021675378048,
+        "fixed11_q90": 0.024434407417578758,
+        "legacy_empirical_percentile": 0.078125
+      },
+      "naive_both_contexts_response": {
+        "legacy": 0.022993815212260446,
+        "extra32": 0.022585681017473644,
+        "fixed11_mean": 0.02317209078575514,
+        "fixed11_median": 0.022909751051814524,
+        "fixed11_q10": 0.021686751651425525,
+        "fixed11_q90": 0.024955107795430448,
+        "legacy_empirical_percentile": 0.515625
+      },
+      "frozen_fit_target_only_response": {
+        "legacy": 0.019597788225112708,
+        "extra32": 0.01984072437260911,
+        "fixed11_mean": 0.02029150051487768,
+        "fixed11_median": 0.02023585548995332,
+        "fixed11_q10": 0.019459385396242916,
+        "fixed11_q90": 0.021123683503192825,
+        "legacy_empirical_percentile": 0.203125
+      },
+      "fixed11_naive_exceedance_fraction": 0.0,
+      "fixed11_frozen_fit_exceedance_fraction": 0.0,
+      "extra32_frozen_fit_within_descriptive_thresholds": true
+    },
+    {
+      "pair": 8,
+      "source_environment": 56,
+      "target_environment": 18,
+      "zero_effect_error": 0.878119550121635,
+      "naive_ratio": {
+        "legacy": 1.0802339595146273,
+        "extra32": 1.0716202546297262,
+        "fixed11_mean": 1.0714625902394752,
+        "fixed11_median": 1.0718401362065282,
+        "fixed11_q10": 1.060793277658207,
+        "fixed11_q90": 1.0810749794989813,
+        "legacy_empirical_percentile": 0.859375
+      },
+      "frozen_fit_ratio": {
+        "legacy": 0.8491678340500893,
+        "extra32": 0.9046877317702261,
+        "fixed11_mean": 0.9031720426051635,
+        "fixed11_median": 0.9066837112746514,
+        "fixed11_q10": 0.8534080120909824,
+        "fixed11_q90": 0.948705568863044,
+        "legacy_empirical_percentile": 0.078125
+      },
+      "naive_target_only_response": {
+        "legacy": 0.3317762702283776,
+        "extra32": 0.359408814760254,
+        "fixed11_mean": 0.3601953519630881,
+        "fixed11_median": 0.36128428106808885,
+        "fixed11_q10": 0.3339675969704117,
+        "fixed11_q90": 0.38513729969544364,
+        "legacy_empirical_percentile": 0.078125
+      },
+      "naive_both_contexts_response": {
+        "legacy": 0.3317762702283776,
+        "extra32": 0.35767803027650735,
+        "fixed11_mean": 0.3657647616298862,
+        "fixed11_median": 0.3616326987108879,
+        "fixed11_q10": 0.3279439563054308,
+        "fixed11_q90": 0.4156814208127497,
+        "legacy_empirical_percentile": 0.15625
+      },
+      "frozen_fit_target_only_response": {
+        "legacy": 0.3118178323545327,
+        "extra32": 0.342097375856239,
+        "fixed11_mean": 0.34276804982608355,
+        "fixed11_median": 0.34445391051778057,
+        "fixed11_q10": 0.3141403735038233,
+        "fixed11_q90": 0.37015486939416514,
+        "legacy_empirical_percentile": 0.09375
+      },
+      "fixed11_naive_exceedance_fraction": 1.0,
+      "fixed11_frozen_fit_exceedance_fraction": 1.0,
+      "extra32_frozen_fit_within_descriptive_thresholds": false
+    },
+    {
+      "pair": 9,
+      "source_environment": 53,
+      "target_environment": 15,
+      "zero_effect_error": 11.142236501423149,
+      "naive_ratio": {
+        "legacy": 1.0606593468836398,
+        "extra32": 1.0665482216162463,
+        "fixed11_mean": 1.0670958426543464,
+        "fixed11_median": 1.0674952113954317,
+        "fixed11_q10": 1.0595045856462757,
+        "fixed11_q90": 1.0739271005718956,
+        "legacy_empirical_percentile": 0.15625
+      },
+      "frozen_fit_ratio": {
+        "legacy": 0.7389481997571131,
+        "extra32": 0.7618328287799879,
+        "fixed11_mean": 0.7662910027869736,
+        "fixed11_median": 0.7672513955926085,
+        "fixed11_q10": 0.7336257052662976,
+        "fixed11_q90": 0.7946615568518204,
+        "legacy_empirical_percentile": 0.140625
+      },
+      "naive_target_only_response": {
+        "legacy": 0.06303692987023514,
+        "extra32": 0.06467621539217412,
+        "fixed11_mean": 0.06507089753472703,
+        "fixed11_median": 0.0648217490972339,
+        "fixed11_q10": 0.0625982389230486,
+        "fixed11_q90": 0.06800003908244234,
+        "legacy_empirical_percentile": 0.21875
+      },
+      "naive_both_contexts_response": {
+        "legacy": 0.06303690319034949,
+        "extra32": 0.05922233165251595,
+        "fixed11_mean": 0.05991517442383215,
+        "fixed11_median": 0.05977494361297413,
+        "fixed11_q10": 0.05538955054450053,
+        "fixed11_q90": 0.0639463398848514,
+        "legacy_empirical_percentile": 0.8125
+      },
+      "frozen_fit_target_only_response": {
+        "legacy": 0.04812871185764564,
+        "extra32": 0.04981773249848165,
+        "fixed11_mean": 0.050233780285078806,
+        "fixed11_median": 0.05003478413284586,
+        "fixed11_q10": 0.04792803958782304,
+        "fixed11_q90": 0.05305455318884182,
+        "legacy_empirical_percentile": 0.1875
+      },
+      "fixed11_naive_exceedance_fraction": 0.0,
+      "fixed11_frozen_fit_exceedance_fraction": 0.0,
+      "extra32_frozen_fit_within_descriptive_thresholds": true
+    },
+    {
+      "pair": 10,
+      "source_environment": 27,
+      "target_environment": 64,
+      "zero_effect_error": 2.2651567112083635,
+      "naive_ratio": {
+        "legacy": 1.1409271660878335,
+        "extra32": 1.1411548226197301,
+        "fixed11_mean": 1.1429018293451092,
+        "fixed11_median": 1.1418726726732555,
+        "fixed11_q10": 1.1355503250017058,
+        "fixed11_q90": 1.1516005704393253,
+        "legacy_empirical_percentile": 0.453125
+      },
+      "frozen_fit_ratio": {
+        "legacy": 0.8726267846809009,
+        "extra32": 0.8727595305200824,
+        "fixed11_mean": 0.8707191850859026,
+        "fixed11_median": 0.8720431354388449,
+        "fixed11_q10": 0.8606706948539228,
+        "fixed11_q90": 0.8788674346853115,
+        "legacy_empirical_percentile": 0.53125
+      },
+      "naive_target_only_response": {
+        "legacy": 0.11966358008410358,
+        "extra32": 0.12113700460923361,
+        "fixed11_mean": 0.1211841025958229,
+        "fixed11_median": 0.12131044847217196,
+        "fixed11_q10": 0.11931950252459875,
+        "fixed11_q90": 0.12309800568885666,
+        "legacy_empirical_percentile": 0.15625
+      },
+      "naive_both_contexts_response": {
+        "legacy": 0.11966358008410358,
+        "extra32": 0.12428146100998824,
+        "fixed11_mean": 0.12472438649343329,
+        "fixed11_median": 0.12486681286403545,
+        "fixed11_q10": 0.12095812252002203,
+        "fixed11_q90": 0.12803005667464495,
+        "legacy_empirical_percentile": 0.03125
+      },
+      "frozen_fit_target_only_response": {
+        "legacy": 0.11126608363964925,
+        "extra32": 0.11248020472190151,
+        "fixed11_mean": 0.11244070135641013,
+        "fixed11_median": 0.11241249281968506,
+        "fixed11_q10": 0.11056704667850586,
+        "fixed11_q90": 0.11423250708076021,
+        "legacy_empirical_percentile": 0.21875
+      },
+      "fixed11_naive_exceedance_fraction": 0.0,
+      "fixed11_frozen_fit_exceedance_fraction": 0.0,
+      "extra32_frozen_fit_within_descriptive_thresholds": true
+    },
+    {
+      "pair": 11,
+      "source_environment": 44,
+      "target_environment": 6,
+      "zero_effect_error": 11.058655454057794,
+      "naive_ratio": {
+        "legacy": 1.2224118932147185,
+        "extra32": 1.2274608654246086,
+        "fixed11_mean": 1.2158413567076014,
+        "fixed11_median": 1.214299076847956,
+        "fixed11_q10": 1.1636364799008982,
+        "fixed11_q90": 1.2709286033429856,
+        "legacy_empirical_percentile": 0.609375
+      },
+      "frozen_fit_ratio": {
+        "legacy": 0.5723824735450935,
+        "extra32": 0.5508029663482396,
+        "fixed11_mean": 0.5557246443586239,
+        "fixed11_median": 0.5520555479215398,
+        "fixed11_q10": 0.5411326535844628,
+        "fixed11_q90": 0.5740279595470198,
+        "legacy_empirical_percentile": 0.859375
+      },
+      "naive_target_only_response": {
+        "legacy": 0.05946753650953127,
+        "extra32": 0.05604331741444491,
+        "fixed11_mean": 0.05608949574724853,
+        "fixed11_median": 0.056131151514646524,
+        "fixed11_q10": 0.05229022245223938,
+        "fixed11_q90": 0.059705573121683744,
+        "legacy_empirical_percentile": 0.875
+      },
+      "naive_both_contexts_response": {
+        "legacy": 0.05946753650953127,
+        "extra32": 0.057358416712422935,
+        "fixed11_mean": 0.05747772414627901,
+        "fixed11_median": 0.05759913701859536,
+        "fixed11_q10": 0.053452824562874986,
+        "fixed11_q90": 0.06087635672690801,
+        "legacy_empirical_percentile": 0.703125
+      },
+      "frozen_fit_target_only_response": {
+        "legacy": 0.036404127083998025,
+        "extra32": 0.034034779538246934,
+        "fixed11_mean": 0.03439219934558864,
+        "fixed11_median": 0.03411393066197612,
+        "fixed11_q10": 0.03246469582156813,
+        "fixed11_q90": 0.0365881768686497,
+        "legacy_empirical_percentile": 0.859375
+      },
+      "fixed11_naive_exceedance_fraction": 0.28125,
+      "fixed11_frozen_fit_exceedance_fraction": 0.0,
+      "extra32_frozen_fit_within_descriptive_thresholds": true
+    },
+    {
+      "pair": 12,
+      "source_environment": 59,
+      "target_environment": 21,
+      "zero_effect_error": 10.038161887645241,
+      "naive_ratio": {
+        "legacy": 0.9755162098912433,
+        "extra32": 0.9678595838478754,
+        "fixed11_mean": 0.9689808753285319,
+        "fixed11_median": 0.9697894924214403,
+        "fixed11_q10": 0.9600360801346579,
+        "fixed11_q90": 0.9783895096789885,
+        "legacy_empirical_percentile": 0.828125
+      },
+      "frozen_fit_ratio": {
+        "legacy": 0.50083984450654,
+        "extra32": 0.5126626660499493,
+        "fixed11_mean": 0.5135946017580385,
+        "fixed11_median": 0.5132289912580014,
+        "fixed11_q10": 0.5008284116988927,
+        "fixed11_q90": 0.5292192060139276,
+        "legacy_empirical_percentile": 0.109375
+      },
+      "naive_target_only_response": {
+        "legacy": 0.05636329118062863,
+        "extra32": 0.05574440475029601,
+        "fixed11_mean": 0.055880545882414624,
+        "fixed11_median": 0.05578232307443325,
+        "fixed11_q10": 0.05471527394972447,
+        "fixed11_q90": 0.056902745232522665,
+        "legacy_empirical_percentile": 0.6875
+      },
+      "naive_both_contexts_response": {
+        "legacy": 0.0563632674774611,
+        "extra32": 0.05684550811832577,
+        "fixed11_mean": 0.05744837705679068,
+        "fixed11_median": 0.057731868185653616,
+        "fixed11_q10": 0.05241669091824261,
+        "fixed11_q90": 0.06286924386484911,
+        "legacy_empirical_percentile": 0.390625
+      },
+      "frozen_fit_target_only_response": {
+        "legacy": 0.047839827699196445,
+        "extra32": 0.04778103973819939,
+        "fixed11_mean": 0.047881126965782075,
+        "fixed11_median": 0.04781450537187974,
+        "fixed11_q10": 0.04729297550720637,
+        "fixed11_q90": 0.04849449397679149,
+        "legacy_empirical_percentile": 0.53125
+      },
+      "fixed11_naive_exceedance_fraction": 0.0,
+      "fixed11_frozen_fit_exceedance_fraction": 0.0,
+      "extra32_frozen_fit_within_descriptive_thresholds": true
+    },
+    {
+      "pair": 13,
+      "source_environment": 58,
+      "target_environment": 20,
+      "zero_effect_error": 8.280590104704194,
+      "naive_ratio": {
+        "legacy": 1.0711406821335194,
+        "extra32": 1.1309678432158408,
+        "fixed11_mean": 1.1310247214072437,
+        "fixed11_median": 1.1309937184191938,
+        "fixed11_q10": 1.1094662442425827,
+        "fixed11_q90": 1.1565894206732115,
+        "legacy_empirical_percentile": 0.0
+      },
+      "frozen_fit_ratio": {
+        "legacy": 0.7587647080958149,
+        "extra32": 0.872602247512083,
+        "fixed11_mean": 0.8709940554973701,
+        "fixed11_median": 0.8713596877358343,
+        "fixed11_q10": 0.8332693304812683,
+        "fixed11_q90": 0.9137773865738174,
+        "legacy_empirical_percentile": 0.0
+      },
+      "naive_target_only_response": {
+        "legacy": 0.06911575192061016,
+        "extra32": 0.07284995407922396,
+        "fixed11_mean": 0.07302871441387773,
+        "fixed11_median": 0.07288794384308146,
+        "fixed11_q10": 0.07113853378816272,
+        "fixed11_q90": 0.07527845645632962,
+        "legacy_empirical_percentile": 0.0
+      },
+      "naive_both_contexts_response": {
+        "legacy": 0.06911574358924052,
+        "extra32": 0.07072849895239662,
+        "fixed11_mean": 0.07149426933543603,
+        "fixed11_median": 0.07165011180790953,
+        "fixed11_q10": 0.06829561007142382,
+        "fixed11_q90": 0.07476275897442355,
+        "legacy_empirical_percentile": 0.21875
+      },
+      "frozen_fit_target_only_response": {
+        "legacy": 0.05380835629777744,
+        "extra32": 0.05844919150103788,
+        "fixed11_mean": 0.05855061872343548,
+        "fixed11_median": 0.05840577054858329,
+        "fixed11_q10": 0.05609959187951758,
+        "fixed11_q90": 0.061022283946927415,
+        "legacy_empirical_percentile": 0.0
+      },
+      "fixed11_naive_exceedance_fraction": 0.0,
+      "fixed11_frozen_fit_exceedance_fraction": 0.0,
+      "extra32_frozen_fit_within_descriptive_thresholds": true
+    },
+    {
+      "pair": 14,
+      "source_environment": 55,
+      "target_environment": 17,
+      "zero_effect_error": 10.501931511404639,
+      "naive_ratio": {
+        "legacy": 1.0750065789133274,
+        "extra32": 1.0695216521408932,
+        "fixed11_mean": 1.0701033596244596,
+        "fixed11_median": 1.0703928181058115,
+        "fixed11_q10": 1.0548198948443548,
+        "fixed11_q90": 1.0835541324985192,
+        "legacy_empirical_percentile": 0.6875
+      },
+      "frozen_fit_ratio": {
+        "legacy": 0.7689367953728148,
+        "extra32": 0.7504542507162991,
+        "fixed11_mean": 0.745428838937453,
+        "fixed11_median": 0.7397946082747155,
+        "fixed11_q10": 0.7039435947432857,
+        "fixed11_q90": 0.7980045953583405,
+        "legacy_empirical_percentile": 0.765625
+      },
+      "naive_target_only_response": {
+        "legacy": 0.04217179093995961,
+        "extra32": 0.0423928099358537,
+        "fixed11_mean": 0.0425858884683201,
+        "fixed11_median": 0.04259508562365366,
+        "fixed11_q10": 0.042026552376276435,
+        "fixed11_q90": 0.04316494090076307,
+        "legacy_empirical_percentile": 0.203125
+      },
+      "naive_both_contexts_response": {
+        "legacy": 0.04217179093995961,
+        "extra32": 0.04169850415753497,
+        "fixed11_mean": 0.04192950507775299,
+        "fixed11_median": 0.041691343829250244,
+        "fixed11_q10": 0.039650290445864794,
+        "fixed11_q90": 0.044625867240491106,
+        "legacy_empirical_percentile": 0.578125
+      },
+      "frozen_fit_target_only_response": {
+        "legacy": 0.03507837033778207,
+        "extra32": 0.03481848838279114,
+        "fixed11_mean": 0.03485798774438454,
+        "fixed11_median": 0.03472158681514256,
+        "fixed11_q10": 0.033887719730514285,
+        "fixed11_q90": 0.03627087676395374,
+        "legacy_empirical_percentile": 0.671875
+      },
+      "fixed11_naive_exceedance_fraction": 0.0,
+      "fixed11_frozen_fit_exceedance_fraction": 0.0,
+      "extra32_frozen_fit_within_descriptive_thresholds": true
+    },
+    {
+      "pair": 15,
+      "source_environment": 15,
+      "target_environment": 52,
+      "zero_effect_error": 10.015757933671141,
+      "naive_ratio": {
+        "legacy": 1.266924435728232,
+        "extra32": 1.2182095910296853,
+        "fixed11_mean": 1.2193311975903547,
+        "fixed11_median": 1.2189141977386257,
+        "fixed11_q10": 1.1936700688070543,
+        "fixed11_q90": 1.2472990806939805,
+        "legacy_empirical_percentile": 1.0
+      },
+      "frozen_fit_ratio": {
+        "legacy": 0.6679714750980842,
+        "extra32": 0.6877932491907609,
+        "fixed11_mean": 0.6885709825250235,
+        "fixed11_median": 0.6870087211369651,
+        "fixed11_q10": 0.6700435950360402,
+        "fixed11_q90": 0.7078038949462917,
+        "legacy_empirical_percentile": 0.0625
+      },
+      "naive_target_only_response": {
+        "legacy": 0.03685740904321451,
+        "extra32": 0.03798126365542941,
+        "fixed11_mean": 0.03802966849849008,
+        "fixed11_median": 0.0379822379027158,
+        "fixed11_q10": 0.03722245815800452,
+        "fixed11_q90": 0.0390386845219608,
+        "legacy_empirical_percentile": 0.03125
+      },
+      "naive_both_contexts_response": {
+        "legacy": 0.03685740904321451,
+        "extra32": 0.03798654563847329,
+        "fixed11_mean": 0.038375555094135205,
+        "fixed11_median": 0.038117268089416914,
+        "fixed11_q10": 0.03674821402436774,
+        "fixed11_q90": 0.040090553103298954,
+        "legacy_empirical_percentile": 0.140625
+      },
+      "frozen_fit_target_only_response": {
+        "legacy": 0.028025415090002403,
+        "extra32": 0.029284248357727617,
+        "fixed11_mean": 0.029335646234636477,
+        "fixed11_median": 0.029249461380776033,
+        "fixed11_q10": 0.028469559537880374,
+        "fixed11_q90": 0.030231167133965293,
+        "legacy_empirical_percentile": 0.0
+      },
+      "fixed11_naive_exceedance_fraction": 0.078125,
+      "fixed11_frozen_fit_exceedance_fraction": 0.0,
+      "extra32_frozen_fit_within_descriptive_thresholds": true
+    },
+    {
+      "pair": 16,
+      "source_environment": 0,
+      "target_environment": 37,
+      "zero_effect_error": 3.132972744460244,
+      "naive_ratio": {
+        "legacy": 1.0656871204677405,
+        "extra32": 1.061596782303345,
+        "fixed11_mean": 1.0612479323864719,
+        "fixed11_median": 1.0623411178191802,
+        "fixed11_q10": 1.051638127035078,
+        "fixed11_q90": 1.0692045295635844,
+        "legacy_empirical_percentile": 0.671875
+      },
+      "frozen_fit_ratio": {
+        "legacy": 1.2472847680502355,
+        "extra32": 1.280836355613804,
+        "fixed11_mean": 1.2636091024957214,
+        "fixed11_median": 1.2723495747728957,
+        "fixed11_q10": 1.1888775033149452,
+        "fixed11_q90": 1.3220391897380495,
+        "legacy_empirical_percentile": 0.34375
+      },
+      "naive_target_only_response": {
+        "legacy": 0.09926588420442592,
+        "extra32": 0.10017091857550425,
+        "fixed11_mean": 0.10193127045210183,
+        "fixed11_median": 0.10135360537881352,
+        "fixed11_q10": 0.09666247685803887,
+        "fixed11_q90": 0.10808201034442055,
+        "legacy_empirical_percentile": 0.28125
+      },
+      "naive_both_contexts_response": {
+        "legacy": 0.09926588420442592,
+        "extra32": 0.10361147542123851,
+        "fixed11_mean": 0.10638133397637525,
+        "fixed11_median": 0.10593162679575954,
+        "fixed11_q10": 0.10027524613539596,
+        "fixed11_q90": 0.11290272767285404,
+        "legacy_empirical_percentile": 0.0625
+      },
+      "frozen_fit_target_only_response": {
+        "legacy": 0.11711138623156739,
+        "extra32": 0.1198054613365245,
+        "fixed11_mean": 0.12119164370238647,
+        "fixed11_median": 0.12070287183136925,
+        "fixed11_q10": 0.11417361442125327,
+        "fixed11_q90": 0.13046475627630208,
+        "legacy_empirical_percentile": 0.3125
+      },
+      "fixed11_naive_exceedance_fraction": 0.0,
+      "fixed11_frozen_fit_exceedance_fraction": 0.65625,
+      "extra32_frozen_fit_within_descriptive_thresholds": false
+    },
+    {
+      "pair": 17,
+      "source_environment": 47,
+      "target_environment": 9,
+      "zero_effect_error": 11.724361161409096,
+      "naive_ratio": {
+        "legacy": 1.1004930500228969,
+        "extra32": 1.1021712355394448,
+        "fixed11_mean": 1.102284504859227,
+        "fixed11_median": 1.102709715732618,
+        "fixed11_q10": 1.0974338900258596,
+        "fixed11_q90": 1.1062669330629973,
+        "legacy_empirical_percentile": 0.25
+      },
+      "frozen_fit_ratio": {
+        "legacy": 0.6892494819977394,
+        "extra32": 0.695659338274331,
+        "fixed11_mean": 0.6968226786829463,
+        "fixed11_median": 0.6972208586745325,
+        "fixed11_q10": 0.6807728853221315,
+        "fixed11_q90": 0.7102779289889317,
+        "legacy_empirical_percentile": 0.1875
+      },
+      "naive_target_only_response": {
+        "legacy": 0.05721596331467668,
+        "extra32": 0.05766725150880587,
+        "fixed11_mean": 0.05774566017756891,
+        "fixed11_median": 0.05781551394819062,
+        "fixed11_q10": 0.05685071805749685,
+        "fixed11_q90": 0.0587389013950214,
+        "legacy_empirical_percentile": 0.265625
+      },
+      "naive_both_contexts_response": {
+        "legacy": 0.05721596331467668,
+        "extra32": 0.05253029668828933,
+        "fixed11_mean": 0.0530440740885364,
+        "fixed11_median": 0.05277080127672641,
+        "fixed11_q10": 0.05076558706692378,
+        "fixed11_q90": 0.0551421105627294,
+        "legacy_empirical_percentile": 0.96875
+      },
+      "frozen_fit_target_only_response": {
+        "legacy": 0.0440761242835777,
+        "extra32": 0.04447343614275044,
+        "fixed11_mean": 0.04455222649207301,
+        "fixed11_median": 0.044472412034245734,
+        "fixed11_q10": 0.04384215920486636,
+        "fixed11_q90": 0.04537694042023124,
+        "legacy_empirical_percentile": 0.25
+      },
+      "fixed11_naive_exceedance_fraction": 0.0,
+      "fixed11_frozen_fit_exceedance_fraction": 0.0,
+      "extra32_frozen_fit_within_descriptive_thresholds": true
+    },
+    {
+      "pair": 18,
+      "source_environment": 46,
+      "target_environment": 8,
+      "zero_effect_error": 12.129529543788607,
+      "naive_ratio": {
+        "legacy": 0.9741741354434821,
+        "extra32": 0.9604941501701936,
+        "fixed11_mean": 0.9630538316343793,
+        "fixed11_median": 0.9628684389335745,
+        "fixed11_q10": 0.9464867782946029,
+        "fixed11_q90": 0.9780873318837364,
+        "legacy_empirical_percentile": 0.78125
+      },
+      "frozen_fit_ratio": {
+        "legacy": 0.8787231708281801,
+        "extra32": 0.8329366927250064,
+        "fixed11_mean": 0.8423359204382626,
+        "fixed11_median": 0.849213431486525,
+        "fixed11_q10": 0.7928035482237203,
+        "fixed11_q90": 0.8826271778277339,
+        "legacy_empirical_percentile": 0.859375
+      },
+      "naive_target_only_response": {
+        "legacy": 0.046345014265420204,
+        "extra32": 0.04514749646871684,
+        "fixed11_mean": 0.04555287062467056,
+        "fixed11_median": 0.045563684320753424,
+        "fixed11_q10": 0.04434934568025881,
+        "fixed11_q90": 0.04669022146233503,
+        "legacy_empirical_percentile": 0.796875
+      },
+      "naive_both_contexts_response": {
+        "legacy": 0.046345014265420204,
+        "extra32": 0.04648171060264155,
+        "fixed11_mean": 0.04708621668499384,
+        "fixed11_median": 0.04725790406479314,
+        "fixed11_q10": 0.044568495717316706,
+        "fixed11_q90": 0.04928147042960625,
+        "legacy_empirical_percentile": 0.390625
+      },
+      "frozen_fit_target_only_response": {
+        "legacy": 0.0409490514958144,
+        "extra32": 0.03922858667214758,
+        "fixed11_mean": 0.039732381516818766,
+        "fixed11_median": 0.039732008147404144,
+        "fixed11_q10": 0.03811229164566425,
+        "fixed11_q90": 0.04120742390044244,
+        "legacy_empirical_percentile": 0.828125
+      },
+      "fixed11_naive_exceedance_fraction": 0.0,
+      "fixed11_frozen_fit_exceedance_fraction": 0.0,
+      "extra32_frozen_fit_within_descriptive_thresholds": true
+    },
+    {
+      "pair": 19,
+      "source_environment": 67,
+      "target_environment": 29,
+      "zero_effect_error": 2.865341602996887,
+      "naive_ratio": {
+        "legacy": 1.0257658311513829,
+        "extra32": 1.026225350672968,
+        "fixed11_mean": 1.0261392640536302,
+        "fixed11_median": 1.0261814056838006,
+        "fixed11_q10": 1.025822307090498,
+        "fixed11_q90": 1.0264985510413824,
+        "legacy_empirical_percentile": 0.0625
+      },
+      "frozen_fit_ratio": {
+        "legacy": 0.681035466273145,
+        "extra32": 0.7082846069052513,
+        "fixed11_mean": 0.7086140805512653,
+        "fixed11_median": 0.7081105177900833,
+        "fixed11_q10": 0.692711918578362,
+        "fixed11_q90": 0.724743503948212,
+        "legacy_empirical_percentile": 0.0
+      },
+      "naive_target_only_response": {
+        "legacy": 0.14969323285815989,
+        "extra32": 0.14730617224037246,
+        "fixed11_mean": 0.14775278114266627,
+        "fixed11_median": 0.14807639991608684,
+        "fixed11_q10": 0.14253947885177215,
+        "fixed11_q90": 0.15220561329704868,
+        "legacy_empirical_percentile": 0.734375
+      },
+      "naive_both_contexts_response": {
+        "legacy": 0.14969323285815989,
+        "extra32": 0.14792934667911867,
+        "fixed11_mean": 0.1492335032874235,
+        "fixed11_median": 0.14892380502617902,
+        "fixed11_q10": 0.14419784486179021,
+        "fixed11_q90": 0.1549867987185952,
+        "legacy_empirical_percentile": 0.578125
+      },
+      "frozen_fit_target_only_response": {
+        "legacy": 0.12208658280628988,
+        "extra32": 0.12073515186126745,
+        "fixed11_mean": 0.12118683222817829,
+        "fixed11_median": 0.12170878771671785,
+        "fixed11_q10": 0.11654712934674095,
+        "fixed11_q90": 0.1250938360951647,
+        "legacy_empirical_percentile": 0.609375
+      },
+      "fixed11_naive_exceedance_fraction": 0.0,
+      "fixed11_frozen_fit_exceedance_fraction": 0.0,
+      "extra32_frozen_fit_within_descriptive_thresholds": true
+    }
+  ],
+  "original_residual_pair_ids": [
+    5,
+    6,
+    8
+  ],
+  "payloads": {
+    "factual.npy": {
+      "bytes": 1730150528,
+      "sha256": "adacdcec17b7e8226b9204a9c143e19da3669e5011934ea905ee4952900850ec"
+    },
+    "frozen_fit_cf.npy": {
+      "bytes": 1730150528,
+      "sha256": "be40d9e201c844f100238f42d95db05c71152fcadd30390e4311d0d63289741e"
+    },
+    "metadata.npz": {
+      "bytes": 796682,
+      "sha256": "6328a0beaafa8115d65903c3a6fd5a5038ee940c83f6875bfe107932da2757cc"
+    },
+    "naive_cf.npy": {
+      "bytes": 1730150528,
+      "sha256": "fdb13eefd1a6e153fd2964bf7ff044523e8442048e8aaa3067577e58140449f9"
+    },
+    "target_prefix.npy": {
+      "bytes": 1730150528,
+      "sha256": "6005727d69b0ba0c4002031d23e60a5c80b73b6689ec289c051f930f44574dbf"
+    }
+  },
+  "model_state_before": "2813667b8f9c7a62ac8296bcb65106d188c8e90c0e0b669d12acf32520f78b97",
+  "model_state_after": "2813667b8f9c7a62ac8296bcb65106d188c8e90c0e0b669d12acf32520f78b97",
+  "new_weight_training_fits": 0,
+  "new_state_estimation_updates": 0,
+  "reused_frozen_states_from_prior60_updates": true,
+  "independent_verification_pending": true,
+  "novel_direction_accepted": false,
+  "local_payload_sync": false
+}

@@ -1,0 +1,3 @@
+# Novelty boundary
+
+[Meta-iLaD](https://arxiv.org/html/2610.27180v1) is the actual pinned model executed here, not an approximation. [T2-z](https://arxiv.org/html/2610.22364v1) already provides direct test-time environment-latent optimization with a frozen world model; T2-z itself has not been reproduced here. Ordinary state shooting and Bayesian context estimation are also prior ingredients. A positive repair from these ingredients is evidence against a broad missing-mechanism claim, not our novel method. [Historical boundary](../../cycle69/LITERATURE_DELTA69_V1.md) and [full attribution](../CONTEXT_ESTIMATION_ATTRIBUTION_FINDINGS_V1.md).

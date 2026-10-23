@@ -1,0 +1,5 @@
+# Rejected claims and preserved uncertainty
+
+The broad claim that the native model lacks reusable mechanism meaning already failed the original aggregate test. Simple finite-context subset noise alone does not explain pair6/8. Ordinary same-information latent inference substantially repairs the error and removes pair5; thus residuals do not justify a new dynamics architecture. The remaining ratios only slightly exceed posthoc descriptive boundaries, so stop tuning this workload rather than changing thresholds or optimizer budgets.
+
+Original acquisition errors, kernel/context setup failures, batch-axis issue, CPU/GPU random-generator difference and tiny decoder replay mismatch remain in earlier evidence. They have ordinary implementation/protocol explanations and are not research gaps. One checkpoint, one synthetic physical system, reused environments and retrospective time0 transplantation cannot establish a general failure across time-series world models. No claim that all systems are solved is warranted either.
