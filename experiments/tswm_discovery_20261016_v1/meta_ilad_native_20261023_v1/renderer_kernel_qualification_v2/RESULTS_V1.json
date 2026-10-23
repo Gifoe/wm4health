@@ -1,0 +1,24 @@
+{
+  "status": "NVRTC_CONTEXT_STREAM_AND_NATIVE_FORWARD_KERNELS_QUALIFIED",
+  "utc": "2026-10-22T23:17:46.130577+00:00",
+  "source_revision": "abe8008e9559957f84a67b06208600cb66de3be2",
+  "source_files_checked": 6,
+  "original_kernel_sha256": "791597c172c5244d2e884e928c488b1c7ff265fb9cee4a8f44e7bff33ec936f7",
+  "compilation_unit_sha256": "ba3c7308cc45479228cbd1bb106394cc997ca3d2ca61ba983325d57634553699",
+  "ptx_sha256": "95b71383ff2e7bdb9dfadd962d8dd40cd411eee1fe0f00ccee35ef54d4865673",
+  "compile_options": [
+    "--std=c++14",
+    "--gpu-architecture=compute_120"
+  ],
+  "compile_log": "",
+  "smoke_values": 1024,
+  "nondefault_stream_smoke_exact": true,
+  "hard_triangle_pixels": 578,
+  "hard_triangle_max_error": 0.0,
+  "default_soft_forward_finite": true,
+  "renderer_complete": false,
+  "model_inputs_qualified": false,
+  "model_evaluations": 0,
+  "new_fits": 0,
+  "local_payload_sync": false
+}

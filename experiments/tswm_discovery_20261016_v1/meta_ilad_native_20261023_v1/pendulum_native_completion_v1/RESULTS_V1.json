@@ -1,0 +1,326 @@
+{
+  "status": "SIX_UNIQUE_NATIVE_EVALUATIONS_COMPLETE_WITH_PRESERVED_QUALIFICATION_FAILURE",
+  "utc": "2026-10-22T23:45:41.297161+00:00",
+  "cells": [
+    {
+      "status": "COMPLETE_UNCHANGED_NATIVE_EVALUATOR_EXECUTED",
+      "utc": "2026-10-22T23:36:26.251468+00:00",
+      "variant": "paper",
+      "split": "test",
+      "seed": 1000,
+      "sequences": 3000,
+      "native_metrics": {
+        "model": "Meta-iLaD",
+        "ckpt": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\caches\\meta_ilad_native_20261023_v1\\source\\pendulum\\checkpoints\\meta_ilad_s1000.pt",
+        "data": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\meta_ilad_native_20261023_v1\\pendulum_native_nvrtc_v1\\data_test.pt",
+        "seed": 1000,
+        "n_sequences": 3000,
+        "recon_mse": 0.37739574909210205,
+        "recon_mcc_z": 0.9984650522872246,
+        "recon_mcc_c": 0.9779236637743149,
+        "pred_mse": 0.3806849420070648,
+        "pred_mcc_z": 0.9984569112865012,
+        "pred_mcc_c": 0.9778187958979331
+      },
+      "checkpoint_sha256": "8401c2dc098718684f78d2cd2c96581c6e28a67d7d15ac0e685f75d9408924a9",
+      "loaded_state_digest": "2813667b8f9c7a62ac8296bcb65106d188c8e90c0e0b669d12acf32520f78b97",
+      "final_state_digest": "2813667b8f9c7a62ac8296bcb65106d188c8e90c0e0b669d12acf32520f78b97",
+      "source_revision": "3d47140f18262628d252858c3efdfe2ad1e21a86",
+      "data_sha256": "a856af8d2dec00ea94f95dc160ee9a562779ab2d0b59dee4eedca68df7e2055b",
+      "payloads": {
+        "native.json": {
+          "bytes": 577,
+          "sha256": "cde8786791c7ab97132b145bb054e45993c7e52748e06ce6f547fefc756fd9ba"
+        },
+        "native.npz": {
+          "bytes": 2697039,
+          "sha256": "7f993794f17d6d40e2eb538916f593c88d31e129ab5f448d23f1d1608a988660"
+        },
+        "predictions.npy": {
+          "bytes": 491520128,
+          "sha256": "f17cdb7cbaf9e080ffa3b4d2ccb8e5fa323e0cf81a72cfae2abbf3d8333c0fb6"
+        },
+        "reconstructions.npy": {
+          "bytes": 491520128,
+          "sha256": "53ba1b18a949c6483bae843c74a80d55d9542842fec1353faede6664288b20c9"
+        }
+      },
+      "new_fits": 0,
+      "local_payload_sync": false
+    },
+    {
+      "status": "COMPLETE_UNCHANGED_NATIVE_EVALUATOR_EXECUTED",
+      "utc": "2026-10-22T23:37:00.238591+00:00",
+      "variant": "paper",
+      "split": "ood",
+      "seed": 1000,
+      "sequences": 4000,
+      "native_metrics": {
+        "model": "Meta-iLaD",
+        "ckpt": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\caches\\meta_ilad_native_20261023_v1\\source\\pendulum\\checkpoints\\meta_ilad_s1000.pt",
+        "data": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\meta_ilad_native_20261023_v1\\pendulum_native_nvrtc_v1\\data_test_OOD.pt",
+        "seed": 1000,
+        "n_sequences": 4000,
+        "recon_mse": 0.6087382435798645,
+        "recon_mcc_z": 0.9975236439410423,
+        "recon_mcc_c": 0.9663147706290097,
+        "pred_mse": 0.6086349487304688,
+        "pred_mcc_z": 0.9975084169282558,
+        "pred_mcc_c": 0.9665243600337428
+      },
+      "checkpoint_sha256": "8401c2dc098718684f78d2cd2c96581c6e28a67d7d15ac0e685f75d9408924a9",
+      "loaded_state_digest": "2813667b8f9c7a62ac8296bcb65106d188c8e90c0e0b669d12acf32520f78b97",
+      "final_state_digest": "2813667b8f9c7a62ac8296bcb65106d188c8e90c0e0b669d12acf32520f78b97",
+      "source_revision": "3d47140f18262628d252858c3efdfe2ad1e21a86",
+      "data_sha256": "6f74450551bde8c67a7b1323fae0183a7051577dfdf49143fc474231004814bd",
+      "payloads": {
+        "native.json": {
+          "bytes": 580,
+          "sha256": "ef2e599a23da66f00e4fb8fb5d31561f50f6a74a8c19220304118ab6535a2255"
+        },
+        "native.npz": {
+          "bytes": 3595961,
+          "sha256": "fc4e66f8064d2307576383b33b606960ea856ad3732451b7698c19570d51d6c0"
+        },
+        "predictions.npy": {
+          "bytes": 655360128,
+          "sha256": "cb81c02c3152a4a4076d1efddf75bb7b7bbbd1d725a5962e82ce2933df0cfc4e"
+        },
+        "reconstructions.npy": {
+          "bytes": 655360128,
+          "sha256": "04897a5071305662115171e9100b5326a0b252a2e603d2129f5c00d6e2f226cd"
+        }
+      },
+      "new_fits": 0,
+      "local_payload_sync": false
+    },
+    {
+      "status": "COMPLETE_UNCHANGED_NATIVE_EVALUATOR_EXECUTED",
+      "utc": "2026-10-22T23:37:26.667075+00:00",
+      "variant": "paper",
+      "split": "trainenv",
+      "seed": 1000,
+      "sequences": 3000,
+      "native_metrics": {
+        "model": "Meta-iLaD",
+        "ckpt": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\caches\\meta_ilad_native_20261023_v1\\source\\pendulum\\checkpoints\\meta_ilad_s1000.pt",
+        "data": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\meta_ilad_native_20261023_v1\\pendulum_native_nvrtc_v1\\data_test_trainenv.pt",
+        "seed": 1000,
+        "n_sequences": 3000,
+        "recon_mse": 0.40857240557670593,
+        "recon_mcc_z": 0.9986823332111698,
+        "recon_mcc_c": 0.9774865478364372,
+        "pred_mse": 0.41083207726478577,
+        "pred_mcc_z": 0.998669448296993,
+        "pred_mcc_c": 0.9772829973594523
+      },
+      "checkpoint_sha256": "8401c2dc098718684f78d2cd2c96581c6e28a67d7d15ac0e685f75d9408924a9",
+      "loaded_state_digest": "2813667b8f9c7a62ac8296bcb65106d188c8e90c0e0b669d12acf32520f78b97",
+      "final_state_digest": "2813667b8f9c7a62ac8296bcb65106d188c8e90c0e0b669d12acf32520f78b97",
+      "source_revision": "3d47140f18262628d252858c3efdfe2ad1e21a86",
+      "data_sha256": "42022b21c0a136053b59ef5bcabfde65b0c6faaacb84fef72e79e13c5f0f3263",
+      "payloads": {
+        "native.json": {
+          "bytes": 586,
+          "sha256": "5c45c6227305454573945c3cea5736ff3c5a4c15a4ccfe4c7249ae5408ee9859"
+        },
+        "native.npz": {
+          "bytes": 2695535,
+          "sha256": "bc47e153f5ba12fce4cb7f12b9a73438e944b00658677eede2ab5d697a9dfcab"
+        },
+        "predictions.npy": {
+          "bytes": 491520128,
+          "sha256": "35a20544eeb3ef9cd6a26e4f9b7a0673a0750158b2542b12988fd4c8a96e5ca4"
+        },
+        "reconstructions.npy": {
+          "bytes": 491520128,
+          "sha256": "7b5937dfc84f3a9c63cf93878d7ea357d207330f6beafc5b88ddfa5b3db6dd91"
+        }
+      },
+      "new_fits": 0,
+      "local_payload_sync": false
+    },
+    {
+      "status": "COMPLETED_BENCHMARK_RECOVERED_AFTER_POST_EVAL_SHADOW_FAILURE",
+      "utc": "2026-10-22T23:44:41.778047+00:00",
+      "variant": "refined",
+      "split": "test",
+      "seed": 1000,
+      "sequences": 3000,
+      "native_metrics": {
+        "model": "Meta-iLaD",
+        "version": "refined",
+        "ckpt": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\caches\\meta_ilad_native_20261023_v1\\source\\pendulum\\checkpoints\\meta_ilad_s1000.pt",
+        "data": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\meta_ilad_native_20261023_v1\\pendulum_native_nvrtc_v1\\data_test.pt",
+        "seed": 1000,
+        "n_sequences": 3000,
+        "recon_mse": 0.3817509710788727,
+        "recon_mcc_z": 0.9984650522872246,
+        "recon_mcc_c": 0.9779236637743149,
+        "pred_mse": 0.3853316307067871,
+        "pred_mcc_z": 0.9984569112865012,
+        "pred_mcc_c": 0.9778187958979331
+      },
+      "checkpoint_sha256": "8401c2dc098718684f78d2cd2c96581c6e28a67d7d15ac0e685f75d9408924a9",
+      "loaded_state_digest": "2813667b8f9c7a62ac8296bcb65106d188c8e90c0e0b669d12acf32520f78b97",
+      "final_state_digest": "2813667b8f9c7a62ac8296bcb65106d188c8e90c0e0b669d12acf32520f78b97",
+      "digest_provenance": "Reconstructed from strict-loaded checkpoint; original live unchanged-state assertion reached before saved metrics, live digest not separately persisted",
+      "source_revision": "3d47140f18262628d252858c3efdfe2ad1e21a86",
+      "data_sha256": "a856af8d2dec00ea94f95dc160ee9a562779ab2d0b59dee4eedca68df7e2055b",
+      "payloads": {
+        "native.json": {
+          "bytes": 600,
+          "sha256": "2a9556e7fc9cd4fb20594c0be08902b46dc3ceea2307c8c8e84cf63393e2a5f3"
+        },
+        "native.npz": {
+          "bytes": 2718597,
+          "sha256": "b1e0cb394cd7f6fad2d88ff9472c51ec5572cf331baa5b67a6ecfea826172fa7"
+        },
+        "predictions.npy": {
+          "bytes": 491520128,
+          "sha256": "31f704325b6f071414576637802c530ee91db1303910f4cb465bf7d2916cb5ea"
+        },
+        "reconstructions.npy": {
+          "bytes": 491520128,
+          "sha256": "5c3fa5604b3fd14cb0ba3377cdc339d60394affc9c2e48a7ef2733247b10b5cc"
+        }
+      },
+      "preserved_original_shadow_failure": {
+        "exception_type": "AssertionError",
+        "exception": "{'0': 3.5762786865234375e-07, '1': 0.0, '2': 0.0}",
+        "traceback": "Traceback (most recent call last):\n  File \"D:\\tswm_discovery_20261016_v1\\meta_ilad_native_20261023_v1\\scripts\\native_pendulum_eval_worker_v1.py\", line 53, in <module>\n    differences={str(i):float((a-b).abs().max()) for i,(a,b) in enumerate(zip(first,second))};assert all(v==0 for v in differences.values()),differences\nAssertionError: {'0': 3.5762786865234375e-07, '1': 0.0, '2': 0.0}\n"
+      },
+      "new_benchmark_calls": 0,
+      "new_fits": 0,
+      "local_payload_sync": false
+    },
+    {
+      "status": "COMPLETE_UNCHANGED_NATIVE_EVALUATOR_EXECUTED",
+      "utc": "2026-10-22T23:45:17.013307+00:00",
+      "payload_group": "pendulum_native_remaining_v1",
+      "variant": "refined",
+      "split": "ood",
+      "seed": 1000,
+      "sequences": 4000,
+      "native_metrics": {
+        "model": "Meta-iLaD",
+        "version": "refined",
+        "ckpt": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\caches\\meta_ilad_native_20261023_v1\\source\\pendulum\\checkpoints\\meta_ilad_s1000.pt",
+        "data": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\meta_ilad_native_20261023_v1\\pendulum_native_nvrtc_v1\\data_test_OOD.pt",
+        "seed": 1000,
+        "n_sequences": 4000,
+        "recon_mse": 0.6100404262542725,
+        "recon_mcc_z": 0.9975236439410423,
+        "recon_mcc_c": 0.9663147706290097,
+        "pred_mse": 0.609999418258667,
+        "pred_mcc_z": 0.9975084169282558,
+        "pred_mcc_c": 0.9665243600337428
+      },
+      "checkpoint_sha256": "8401c2dc098718684f78d2cd2c96581c6e28a67d7d15ac0e685f75d9408924a9",
+      "loaded_state_digest": "2813667b8f9c7a62ac8296bcb65106d188c8e90c0e0b669d12acf32520f78b97",
+      "final_state_digest": "2813667b8f9c7a62ac8296bcb65106d188c8e90c0e0b669d12acf32520f78b97",
+      "source_revision": "3d47140f18262628d252858c3efdfe2ad1e21a86",
+      "data_sha256": "6f74450551bde8c67a7b1323fae0183a7051577dfdf49143fc474231004814bd",
+      "payloads": {
+        "native.json": {
+          "bytes": 603,
+          "sha256": "ce3a696c23a26309b11881b644567b40ed65c786d0a07d331f4e453210b25b9b"
+        },
+        "native.npz": {
+          "bytes": 3624816,
+          "sha256": "e5a4257db5d836505a667a9b0ac8c3c17692803d425c2cd2260a9ba93610a916"
+        },
+        "predictions.npy": {
+          "bytes": 655360128,
+          "sha256": "29d73bad1c5b271f627fd7393ffc41430bd4f5b850690b0544a56c86b5bc4662"
+        },
+        "reconstructions.npy": {
+          "bytes": 655360128,
+          "sha256": "114341e52ed55e582bb2c1f4b4123953409d0357fca6044cd5a24c768b85be9e"
+        }
+      },
+      "new_fits": 0,
+      "local_payload_sync": false
+    },
+    {
+      "status": "COMPLETE_UNCHANGED_NATIVE_EVALUATOR_EXECUTED",
+      "utc": "2026-10-22T23:45:36.645659+00:00",
+      "payload_group": "pendulum_native_remaining_v1",
+      "variant": "refined",
+      "split": "trainenv",
+      "seed": 1000,
+      "sequences": 3000,
+      "native_metrics": {
+        "model": "Meta-iLaD",
+        "version": "refined",
+        "ckpt": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\caches\\meta_ilad_native_20261023_v1\\source\\pendulum\\checkpoints\\meta_ilad_s1000.pt",
+        "data": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\meta_ilad_native_20261023_v1\\pendulum_native_nvrtc_v1\\data_test_trainenv.pt",
+        "seed": 1000,
+        "n_sequences": 3000,
+        "recon_mse": 0.4129626750946045,
+        "recon_mcc_z": 0.9986823332111698,
+        "recon_mcc_c": 0.9774865478364372,
+        "pred_mse": 0.41488945484161377,
+        "pred_mcc_z": 0.998669448296993,
+        "pred_mcc_c": 0.9772829973594523
+      },
+      "checkpoint_sha256": "8401c2dc098718684f78d2cd2c96581c6e28a67d7d15ac0e685f75d9408924a9",
+      "loaded_state_digest": "2813667b8f9c7a62ac8296bcb65106d188c8e90c0e0b669d12acf32520f78b97",
+      "final_state_digest": "2813667b8f9c7a62ac8296bcb65106d188c8e90c0e0b669d12acf32520f78b97",
+      "source_revision": "3d47140f18262628d252858c3efdfe2ad1e21a86",
+      "data_sha256": "42022b21c0a136053b59ef5bcabfde65b0c6faaacb84fef72e79e13c5f0f3263",
+      "payloads": {
+        "native.json": {
+          "bytes": 609,
+          "sha256": "1eb98cef6475292f0beb7afa0a5e5de6054e18a1a27134d4733510e87c524a87"
+        },
+        "native.npz": {
+          "bytes": 2717118,
+          "sha256": "887c7ab13e059b3a49269e753568d93c5df4fe5e7966a8c02892072429db7155"
+        },
+        "predictions.npy": {
+          "bytes": 491520128,
+          "sha256": "eb75490e4e18849cb014b54980336d8922473e4e5576899fb5dbaf61524cbf7e"
+        },
+        "reconstructions.npy": {
+          "bytes": 491520128,
+          "sha256": "5d623566e9f78fbd283c6c465dee6ee6be53fab6b3363c78ba74750aec520480"
+        }
+      },
+      "new_fits": 0,
+      "local_payload_sync": false
+    }
+  ],
+  "complete_evaluator_invocations": 6,
+  "actual_complete_evaluator_invocations": 6,
+  "original_queue_complete_benchmarks": 4,
+  "recovery_new_benchmarks": 2,
+  "additional_native_boundary_calls": 4,
+  "additional_decoder_only_calls": 2,
+  "numerical_qualification": {
+    "status": "EXACT_BOUNDARY_INVARIANCE_UNDER_DETERMINISTIC_DECODER_QUALIFIED",
+    "utc": "2026-10-22T23:45:40.871029+00:00",
+    "deterministic_scope": true,
+    "original_cudnn_deterministic": false,
+    "restored_flag": false,
+    "errors": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 0.0
+    },
+    "decoder_repeat_max_error_under_original_flag": 3.5762786865234375e-07,
+    "original_default_pixel_gate_failed": true,
+    "original_default_latent_and_environment_errors": 0.0,
+    "new_native_boundary_calls": 2,
+    "new_decoder_only_calls": 2,
+    "benchmark_calls": 0,
+    "new_fits": 0,
+    "model_state_before": "2813667b8f9c7a62ac8296bcb65106d188c8e90c0e0b669d12acf32520f78b97",
+    "model_state_after": "2813667b8f9c7a62ac8296bcb65106d188c8e90c0e0b669d12acf32520f78b97",
+    "payload_sha256": "12a2884ae7edf07985b1d1d7f88b20f4458293f4fd9c08b7b379cae39e09d379",
+    "local_payload_sync": false
+  },
+  "new_fits": 0,
+  "independent_metric_verification_pending": true,
+  "local_payload_sync": false
+}

@@ -3,6 +3,8 @@
 本仓库汇总基线复现、机制审计、失败归因及研究探索。**当前尚无通过证据与新颖性要求的最终研究方向；研究目标仍未完成。**
 
 
+**2026-10-23 V11：原生物理复现通过，宽泛机制缺陷被否证。** [真实源码、4.7GB输入、六个评估单元和机制移植归因](experiments/tswm_discovery_20261016_v1/meta_ilad_native_20261023_v1/PHYSICAL_NATIVE_AND_TRANSPLANT_FINDINGS_V1.md)。160个匹配起点的预设整体标准已被现有模型满足；三个局部残差完整保留，尚无接受的新颖方向。
+
 **2026-10-23 V10：原生物理模拟器已核验，机制缺口仍未成立。** [CPU/GPU原生生成、独立积分和先行理论边界](experiments/tswm_discovery_20261016_v1/meta_ilad_native_20261023_v1/PHYSICS_QUALIFICATION_FINDINGS_V1.md)。渲染模型输入尚未就绪；模拟器资格不计入模型复现或新颖性证据。
 
 **2026-10-23 V9：DALI迁移资格与Meta-iLaD发布版评估已闭合。** [DALI训练、时钟与资格终态](experiments/tswm_discovery_20261016_v1/mechanism_edit_20261023_v1/factual_transfer_closure_20261023_v1/experimental_results.md)；[Meta-iLaD原生评估与随机偏差归因](experiments/tswm_discovery_20261016_v1/meta_ilad_native_20261023_v1/experimental_results.md)。实际代码、数据指纹、配置和失败反证均保留；最终新颖方向尚未成立。

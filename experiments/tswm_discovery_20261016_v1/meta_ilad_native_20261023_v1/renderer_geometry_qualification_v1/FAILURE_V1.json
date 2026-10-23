@@ -1,0 +1,5 @@
+{
+  "exception_type": "AssertionError",
+  "exception": "0.9939133524894714",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\tswm_discovery_20261016_v1\\meta_ilad_native_20261023_v1\\scripts\\qualify_native_renderer_geometry_v1.py\", line 47, in <module>\n    chunks=torch.cat([decoder(z) for z in states.split(4)],dim=0);torch.cuda.synchronize();batch_err=float((image-chunks).abs().max());assert batch_err==0,batch_err\nAssertionError: 0.9939133524894714\n"
+}

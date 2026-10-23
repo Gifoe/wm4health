@@ -1,0 +1,5 @@
+{
+  "exception_type": "AssertionError",
+  "exception": "{'0': 3.5762786865234375e-07, '1': 0.0, '2': 0.0}",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\tswm_discovery_20261016_v1\\meta_ilad_native_20261023_v1\\scripts\\native_pendulum_eval_worker_v1.py\", line 53, in <module>\n    differences={str(i):float((a-b).abs().max()) for i,(a,b) in enumerate(zip(first,second))};assert all(v==0 for v in differences.values()),differences\nAssertionError: {'0': 3.5762786865234375e-07, '1': 0.0, '2': 0.0}\n"
+}

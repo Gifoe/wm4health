@@ -1,0 +1,32 @@
+{
+  "status": "REGISTERED_CONTEXT_TRANSPLANT_AUDIT_INDEPENDENTLY_VERIFIED",
+  "utc": "2026-10-22T23:54:39.916315+00:00",
+  "decision": "REJECT_CANDIDATE_NATIVE_CONTEXT_TRANSPLANT_SUFFICES",
+  "metric_checks": 1610,
+  "max_metric_error": 1.5631940186722204e-13,
+  "physical_initial_state_pairs_exact": 160,
+  "context_pools_exact": true,
+  "query_and_twin_excluded_from_context": true,
+  "prefix_selection_argmins_exact": true,
+  "prefix_recomputed_max_error": 4.8156013399136555e-08,
+  "aggregate": {
+    "factual_prediction": 0.35736626827521667,
+    "shooting_factual_prediction": 0.2858226804110032,
+    "naive_transplant_prediction": 0.35419210691080394,
+    "target_prefix_diagnostic_prediction": 0.29773088110450874,
+    "shooting_transplant_prediction": 0.24792722893072447,
+    "source_persistence": 30.586288222613234,
+    "target_persistence": 30.597444616808183,
+    "zero_effect_error": 9.335433275325522,
+    "naive_response_error": 0.5361804970868844,
+    "shooting_response_error": 0.4377272266260178
+  },
+  "point_variant_factual_gate": true,
+  "naive_to_target_prefix_mse_ratio": 1.1896384600644645,
+  "shooting_to_target_prefix_mse_ratio": 0.8327225849430704,
+  "naive_normalized_response_error": 0.057434987886857136,
+  "shooting_normalized_response_error": 0.04688879602224509,
+  "ordinary_state_fit_excess_mse_reduction": 1.8820859175932267,
+  "novel_direction_accepted": false,
+  "local_payload_sync": false
+}

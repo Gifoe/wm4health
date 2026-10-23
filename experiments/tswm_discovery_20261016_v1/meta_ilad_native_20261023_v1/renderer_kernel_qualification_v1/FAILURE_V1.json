@@ -1,0 +1,5 @@
+{
+  "exception_type": "AssertionError",
+  "exception": "",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\tswm_discovery_20261016_v1\\meta_ilad_native_20261023_v1\\scripts\\qualify_nvrtc_forward_v1.py\", line 16, in <module>\n    m=NVRTCModule(smoke,['&affine']);stream=torch.cuda.Stream()\n  File \"D:\\tswm_discovery_20261016_v1\\meta_ilad_native_20261023_v1\\scripts\\nvrtc_native_forward_v1.py\", line 29, in __init__\n    self.dcheck(self.dinit(0));ctx=P();self.dcheck(self.dcontext(C.byref(ctx)));assert ctx.value\nAssertionError\n"
+}

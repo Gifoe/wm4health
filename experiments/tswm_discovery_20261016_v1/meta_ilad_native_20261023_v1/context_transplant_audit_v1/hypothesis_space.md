@@ -1,0 +1,3 @@
+# Competing hypotheses after the native test
+
+Broad absence of reusable global environment meaning: not supported by the registered aggregate test. Ordinary initial-state inference: improves factual/transplant outputs using only the source prefix. Finite-context estimation variability, small-effect resolution and residual vector-field approximation: still competing explanations for three descriptive pairs. Neither a single residual nor correlation/MSE alone identifies which explanation holds. Next discriminate them with repeated fixed-size context sets and a separately labeled extra-information control; never choose contexts by future errors.

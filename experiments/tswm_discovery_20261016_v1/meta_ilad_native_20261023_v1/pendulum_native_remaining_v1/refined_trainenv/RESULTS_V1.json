@@ -1,0 +1,48 @@
+{
+  "status": "COMPLETE_UNCHANGED_NATIVE_EVALUATOR_EXECUTED",
+  "utc": "2026-10-22T23:45:36.645659+00:00",
+  "payload_group": "pendulum_native_remaining_v1",
+  "variant": "refined",
+  "split": "trainenv",
+  "seed": 1000,
+  "sequences": 3000,
+  "native_metrics": {
+    "model": "Meta-iLaD",
+    "version": "refined",
+    "ckpt": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\caches\\meta_ilad_native_20261023_v1\\source\\pendulum\\checkpoints\\meta_ilad_s1000.pt",
+    "data": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\meta_ilad_native_20261023_v1\\pendulum_native_nvrtc_v1\\data_test_trainenv.pt",
+    "seed": 1000,
+    "n_sequences": 3000,
+    "recon_mse": 0.4129626750946045,
+    "recon_mcc_z": 0.9986823332111698,
+    "recon_mcc_c": 0.9774865478364372,
+    "pred_mse": 0.41488945484161377,
+    "pred_mcc_z": 0.998669448296993,
+    "pred_mcc_c": 0.9772829973594523
+  },
+  "checkpoint_sha256": "8401c2dc098718684f78d2cd2c96581c6e28a67d7d15ac0e685f75d9408924a9",
+  "loaded_state_digest": "2813667b8f9c7a62ac8296bcb65106d188c8e90c0e0b669d12acf32520f78b97",
+  "final_state_digest": "2813667b8f9c7a62ac8296bcb65106d188c8e90c0e0b669d12acf32520f78b97",
+  "source_revision": "3d47140f18262628d252858c3efdfe2ad1e21a86",
+  "data_sha256": "42022b21c0a136053b59ef5bcabfde65b0c6faaacb84fef72e79e13c5f0f3263",
+  "payloads": {
+    "native.json": {
+      "bytes": 609,
+      "sha256": "1eb98cef6475292f0beb7afa0a5e5de6054e18a1a27134d4733510e87c524a87"
+    },
+    "native.npz": {
+      "bytes": 2717118,
+      "sha256": "887c7ab13e059b3a49269e753568d93c5df4fe5e7966a8c02892072429db7155"
+    },
+    "predictions.npy": {
+      "bytes": 491520128,
+      "sha256": "eb75490e4e18849cb014b54980336d8922473e4e5576899fb5dbaf61524cbf7e"
+    },
+    "reconstructions.npy": {
+      "bytes": 491520128,
+      "sha256": "5d623566e9f78fbd283c6c465dee6ee6be53fab6b3363c78ba74750aec520480"
+    }
+  },
+  "new_fits": 0,
+  "local_payload_sync": false
+}

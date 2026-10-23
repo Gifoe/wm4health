@@ -1,0 +1,106 @@
+{
+  "split": "test",
+  "sequences": 3000,
+  "path": "G:\\ICLR Omni-eeg cache\\tswm_discovery_20261016_v1\\data\\meta_ilad_native_20261023_v1\\pendulum_native_nvrtc_v1\\data_test.pt",
+  "bytes": 738758237,
+  "file_sha256": "a856af8d2dec00ea94f95dc160ee9a562779ab2d0b59dee4eedca68df7e2055b",
+  "tensors": {
+    "xt": {
+      "generated": {
+        "shape": [
+          3000,
+          60,
+          2
+        ],
+        "dtype": "torch.float32",
+        "sha256": "80f19758ff2f8a18d3a3f73694f4922c88f7bb84e418cda21ea7efb4541aca7f",
+        "sum": -12501.808187563554
+      },
+      "reference": {
+        "shape": [
+          3000,
+          60,
+          2
+        ],
+        "dtype": "torch.float32",
+        "sha256": "eabb22cd5cb9ce7ad03224838ed283d2f8b6f0f117c0204b1fae567316a62c4d",
+        "sum": -12501.81752900465
+      },
+      "exact_match": false,
+      "relative_sum_error": 7.472066420104812e-07
+    },
+    "yt": {
+      "generated": {
+        "shape": [
+          3000,
+          60,
+          32,
+          32
+        ],
+        "dtype": "torch.float32",
+        "sha256": "733dc3711e071459c0ab28fb6f4fea0d4d1ea53242ba518d45050f7116bc8d70",
+        "sum": 4734981.574632138
+      },
+      "reference": {
+        "shape": [
+          3000,
+          60,
+          32,
+          32
+        ],
+        "dtype": "torch.float32",
+        "sha256": "4f87884d5896c0b62db375de80f96d650aebf6e0049b3d49e41d7f5d9de13d40",
+        "sum": 4734979.915895626
+      },
+      "exact_match": false,
+      "relative_sum_error": 3.5031542720940604e-07
+    },
+    "label": {
+      "generated": {
+        "shape": [
+          3000,
+          1
+        ],
+        "dtype": "torch.float32",
+        "sha256": "0d2008146b976a669d1471140cf5a8da81252d00510c8c4e1b46818d1282fbe8",
+        "sum": 111000.0
+      },
+      "reference": {
+        "shape": [
+          3000,
+          1
+        ],
+        "dtype": "torch.float32",
+        "sha256": "0d2008146b976a669d1471140cf5a8da81252d00510c8c4e1b46818d1282fbe8",
+        "sum": 111000.0
+      },
+      "exact_match": true,
+      "relative_sum_error": 0.0
+    },
+    "params": {
+      "generated": {
+        "shape": [
+          3000,
+          2
+        ],
+        "dtype": "torch.float32",
+        "sha256": "a7361b94922306584b9db4288bdc04c817db8e8f51ccf87167211f798ff69c11",
+        "sum": 10946.226201057434
+      },
+      "reference": {
+        "shape": [
+          3000,
+          2
+        ],
+        "dtype": "torch.float32",
+        "sha256": "a7361b94922306584b9db4288bdc04c817db8e8f51ccf87167211f798ff69c11",
+        "sum": 10946.226201057434
+      },
+      "exact_match": true,
+      "relative_sum_error": 0.0
+    }
+  },
+  "storage_roundtrip_exact": true,
+  "functional_sanity_passed": true,
+  "source_bitwise_all_tensors": false
+}
