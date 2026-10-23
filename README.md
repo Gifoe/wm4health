@@ -3,6 +3,8 @@
 本仓库汇总基线复现、机制审计、失败归因及研究探索。**当前尚无通过证据与新颖性要求的最终研究方向；研究目标仍未完成。**
 
 
+**2026-10-23 V14：同观测普通约束仅有限减害，泛化提法已有直接先例。** [原11条context留一校准、36000项独立核验与完整query退化](experiments/tswm_discovery_20261016_v1/meta_ilad_native_20261023_v1/STATE_REGULARIZATION_FINDINGS_V1.md)。总体MSE几乎未变，退化443→433/1500，平均正regret下降约13%；普通代理不等于全部概率推断，尚无接受的新颖方向。
+
 **2026-10-23 V13：移动预测起点时，错误时钟会制造伪失败。** [75环境、300条query、五个起点及7500项独立核验](experiments/tswm_discovery_20261016_v1/meta_ilad_native_20261023_v1/ROLLING_ORIGIN_FINDINGS_V1.md)。正确绝对时钟与普通初态推断避免大幅退化；所有prefix改善却future变差的单例保留，尚无接受的新颖方向。
 
 **2026-10-23 V12：普通推断解释大部分残差，停止该架构动机。** [64组context重采样、同观测latent推断与独立原模型重放](experiments/tswm_discovery_20261016_v1/meta_ilad_native_20261023_v1/CONTEXT_ESTIMATION_ATTRIBUTION_FINDINGS_V1.md)。固定权重的普通推断使反事实MSE从0.354降至0.174；两个边界残差完整保留，不追加调参，不冒称新方法。

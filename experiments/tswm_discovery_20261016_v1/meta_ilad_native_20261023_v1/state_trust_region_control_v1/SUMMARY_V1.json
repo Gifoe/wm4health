@@ -1,0 +1,91 @@
+{
+  "aggregate": {
+    "no_update_mse": 0.3236632192349969,
+    "unregularized_mse": 0.20535998652381876,
+    "selected_mse": 0.20538442208179813,
+    "unregularized_harm_count": 443,
+    "selected_harm_count": 433,
+    "unregularized_mean_positive_regret": 0.01878568003271805,
+    "selected_mean_positive_regret": 0.01630967349403789,
+    "positive_regret_relative_reduction": 0.13180286975865796,
+    "relative_mse_change": 0.00011898889551464897
+  },
+  "origins": [
+    {
+      "origin": 0,
+      "no_update_mse": 0.4027574607459494,
+      "unregularized_mse": 0.2635142805673171,
+      "selected_mse": 0.2608457204071004,
+      "unregularized_harm_count": 117,
+      "selected_harm_count": 110,
+      "unregularized_mean_positive_regret": 0.0419548039816622,
+      "selected_mean_positive_regret": 0.03323061063273145
+    },
+    {
+      "origin": 5,
+      "no_update_mse": 0.4035899727054729,
+      "unregularized_mse": 0.17972682081035118,
+      "selected_mse": 0.18092193858222055,
+      "unregularized_harm_count": 53,
+      "selected_harm_count": 53,
+      "unregularized_mean_positive_regret": 0.008293825559250274,
+      "selected_mean_positive_regret": 0.007724823075921399
+    },
+    {
+      "origin": 10,
+      "no_update_mse": 0.23141779506413068,
+      "unregularized_mse": 0.18572929439080066,
+      "selected_mse": 0.18297038568919988,
+      "unregularized_harm_count": 105,
+      "selected_harm_count": 105,
+      "unregularized_mean_positive_regret": 0.01735153212287977,
+      "selected_mean_positive_regret": 0.015305349901931177
+    },
+    {
+      "origin": 15,
+      "no_update_mse": 0.33877954238679303,
+      "unregularized_mse": 0.19531108421143567,
+      "selected_mse": 0.19946325549150004,
+      "unregularized_harm_count": 52,
+      "selected_harm_count": 52,
+      "unregularized_mean_positive_regret": 0.00619524247124253,
+      "selected_mean_positive_regret": 0.00558708281099179
+    },
+    {
+      "origin": 20,
+      "no_update_mse": 0.24177132527263845,
+      "unregularized_mse": 0.20251845263918913,
+      "selected_mse": 0.20272081023896993,
+      "unregularized_harm_count": 116,
+      "selected_harm_count": 113,
+      "unregularized_mean_positive_regret": 0.020132996028555457,
+      "selected_mean_positive_regret": 0.019700501048613633
+    }
+  ],
+  "postdiscovery_attribution_not_new_confirmation": true,
+  "repeated_query_origins": 1500,
+  "unique_queries": 300,
+  "environments": 75,
+  "chosen_counts": [
+    0,
+    0,
+    0,
+    6,
+    28,
+    13,
+    8,
+    20
+  ],
+  "candidates": [
+    null,
+    10.0,
+    1.0,
+    0.1,
+    0.01,
+    0.001,
+    0.0001,
+    0.0
+  ],
+  "ordinary_control_not_new_method": true,
+  "new_direction_accepted": false
+}
