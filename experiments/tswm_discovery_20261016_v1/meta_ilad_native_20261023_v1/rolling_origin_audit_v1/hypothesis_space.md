@@ -1,0 +1,3 @@
+# Attribution hypotheses
+
+H1: catastrophic rolling prediction means learned dynamics failed. Not supported after the correct-clock control; the observed large gap comes mainly from altered forcing phase. H2: original state reencoding is perfect. Not supported; fixed-budget ordinary state fitting lowers all five aggregate errors, while individual future regressions remain. H3: late-origin failures are solver restart defects. Native carried-state restart agrees within the frozen tolerance, weakening that explanation here. H4: ordinary state estimation solves every sample. Not supported; all prefix-improving future-regression cases remain visible. No unique new structural mechanism is identified.

@@ -1,0 +1,3 @@
+# Executed identities
+
+One native Meta-iLaD Pendulum checkpoint, pin3d47140f18262628d252858c3efdfe2ad1e21a86, seed1000. Three hundred queries/all75 ID environments, five repeated origins; unchanged11-context codes. Correct-clock reencoding, prefix-only fitted state, carried state and a deliberately incorrect reset-clock control. All methods use the same original dynamics/decoder. State-only300 optimizer calls, zero weight-training fits; five additional independent native forward replays. These are diagnostic paths, not four SOTA models. WorldTS/LatentTSF prior native forecasting executions remain separate.

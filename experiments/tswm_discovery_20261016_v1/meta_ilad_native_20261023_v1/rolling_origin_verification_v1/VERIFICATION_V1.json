@@ -1,0 +1,108 @@
+{
+  "status": "ROLLING_ORIGIN_SELECTION_IMAGE_METRICS_AND_NATIVE_REPLAY_VERIFIED",
+  "utc": "2026-10-23T00:48:58.864787+00:00",
+  "query_metric_checks": 7500,
+  "max_image_metric_error": 0.0,
+  "max_prefix_selection_error": 5.86586787476584e-08,
+  "source_support_and_query_rng_exact": true,
+  "all_queries_excluded_from_context": true,
+  "all_future_times_within_original40": true,
+  "all_selection_prefix_only": true,
+  "origins": [
+    {
+      "origin": 0,
+      "absolute_time": 0.0,
+      "means": {
+        "reencode_absolute": 0.4027574607459494,
+        "fit_absolute": 0.26351428056734183,
+        "carry_from_zero": 0.4027574607459494,
+        "reencode_reset_negative_control": 0.4027574607459494,
+        "persistence": 29.060561146160605
+      },
+      "restart_pixel_max_error": 0.0
+    },
+    {
+      "origin": 5,
+      "absolute_time": 0.5,
+      "means": {
+        "reencode_absolute": 0.4035899727054729,
+        "fit_absolute": 0.17972682081037045,
+        "carry_from_zero": 0.2765282714323172,
+        "reencode_reset_negative_control": 32.27221565663447,
+        "persistence": 28.295429113164392
+      },
+      "restart_pixel_max_error": 2.86102294921875e-06
+    },
+    {
+      "origin": 10,
+      "absolute_time": 1.0,
+      "means": {
+        "reencode_absolute": 0.23141779506413068,
+        "fit_absolute": 0.1857292943908197,
+        "carry_from_zero": 0.24085768842792538,
+        "reencode_reset_negative_control": 33.66406170657081,
+        "persistence": 29.478632725674252
+      },
+      "restart_pixel_max_error": 3.0994415283203125e-06
+    },
+    {
+      "origin": 15,
+      "absolute_time": 1.5,
+      "means": {
+        "reencode_absolute": 0.33877954238679303,
+        "fit_absolute": 0.1953110842114561,
+        "carry_from_zero": 0.2410256584602907,
+        "reencode_reset_negative_control": 22.13910914158408,
+        "persistence": 33.63367865302969
+      },
+      "restart_pixel_max_error": 2.9206275939941406e-06
+    },
+    {
+      "origin": 20,
+      "absolute_time": 2.0,
+      "means": {
+        "reencode_absolute": 0.24177132527263845,
+        "fit_absolute": 0.20251845263921003,
+        "carry_from_zero": 0.2401855874457309,
+        "reencode_reset_negative_control": 0.24177158869152143,
+        "persistence": 32.18122031106108
+      },
+      "restart_pixel_max_error": 3.546476364135742e-06
+    }
+  ],
+  "identity_reset_origin0_error": 0.0,
+  "max_carried_restart_error": 3.546476364135742e-06,
+  "carried_restart_qualification_passed": true,
+  "qualification_tolerance_unchanged": 0.0001,
+  "fresh_native_forward_replays": [
+    {
+      "origin": 0,
+      "path": "reencode_absolute",
+      "max_pixel_error": 2.205371856689453e-06
+    },
+    {
+      "origin": 10,
+      "path": "reencode_absolute",
+      "max_pixel_error": 2.1457672119140625e-06
+    },
+    {
+      "origin": 10,
+      "path": "fit_absolute",
+      "max_pixel_error": 3.0994415283203125e-06
+    },
+    {
+      "origin": 10,
+      "path": "reencode_reset_negative_control",
+      "max_pixel_error": 1.430511474609375e-06
+    },
+    {
+      "origin": 20,
+      "path": "fit_absolute",
+      "max_pixel_error": 2.3245811462402344e-06
+    }
+  ],
+  "state_optimizer_calls": 300,
+  "new_network_weight_training_fits": 0,
+  "accepted_novel_directions": 0,
+  "local_payload_sync": false
+}

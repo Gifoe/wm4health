@@ -1,0 +1,3 @@
+# Retired failure explanation and retained regressions
+
+A large error produced by resetting nonautonomous forcing time is an incorrect-input negative control, not failure of the original model under its native contract. Correct absolute time and ordinary prefix-only state fitting yield useful means at all five origins without new architecture. Some individually fitted states worsen future prediction despite improving observed prefixes; these are preserved for every query and cannot be hidden by the mean. Their cause and novelty remain unestablished. No extra tuning follows these cases. One checkpoint/one synthetic system does not establish universal success.

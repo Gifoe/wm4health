@@ -3,6 +3,8 @@
 本仓库汇总基线复现、机制审计、失败归因及研究探索。**当前尚无通过证据与新颖性要求的最终研究方向；研究目标仍未完成。**
 
 
+**2026-10-23 V13：移动预测起点时，错误时钟会制造伪失败。** [75环境、300条query、五个起点及7500项独立核验](experiments/tswm_discovery_20261016_v1/meta_ilad_native_20261023_v1/ROLLING_ORIGIN_FINDINGS_V1.md)。正确绝对时钟与普通初态推断避免大幅退化；所有prefix改善却future变差的单例保留，尚无接受的新颖方向。
+
 **2026-10-23 V12：普通推断解释大部分残差，停止该架构动机。** [64组context重采样、同观测latent推断与独立原模型重放](experiments/tswm_discovery_20261016_v1/meta_ilad_native_20261023_v1/CONTEXT_ESTIMATION_ATTRIBUTION_FINDINGS_V1.md)。固定权重的普通推断使反事实MSE从0.354降至0.174；两个边界残差完整保留，不追加调参，不冒称新方法。
 
 **2026-10-23 V11：原生物理复现通过，宽泛机制缺陷被否证。** [真实源码、4.7GB输入、六个评估单元和机制移植归因](experiments/tswm_discovery_20261016_v1/meta_ilad_native_20261023_v1/PHYSICAL_NATIVE_AND_TRANSPLANT_FINDINGS_V1.md)。160个匹配起点的预设整体标准已被现有模型满足；三个局部残差完整保留，尚无接受的新颖方向。

@@ -1,0 +1,3 @@
+# Source and novelty boundary
+
+The actual Meta-iLaD source already uses absolute periodic forcing time. Correct timestamps and initial-state estimation are established controls. [LDNet variable initial conditions](https://arxiv.org/abs/2610.08475), Oct6 author abstract, treats latent initialization from early observations as adaptation. [JEPA-TTT author page](https://jepa-ttt.github.io/) describes persistent predictor adaptation; it changes predictor parameters, unlike our frozen-weight state inference. Neither has been executed here. Their existence constrains broad novelty wording but does not prove all partially observed scenarios solved. [Earlier direct latent optimization boundary](../CONTEXT_REFINEMENT_PRIOR_ART_V1.md).
